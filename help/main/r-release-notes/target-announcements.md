@@ -5,9 +5,9 @@ title: Onde posso encontrar informações sobre anúncios e eventos do  [!DNL Ta
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2133'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,25 +19,25 @@ Avisos e informações sobre eventos do [!DNL Adobe Target], incluindo sessões 
 
 Inscreva-se nos seguintes webinários para ver como os clientes estão usando o [!DNL Target] para atingir suas metas de personalização e otimização:
 
-### Faça uma estratégia para obter o máximo impacto sobre o ROI com a preparação para a temporada de pico
+### Criação de estratégias para obter o máximo impacto sobre o ROI com a preparação para a alta temporada
 
 * **Quinta-feira, 17 de agosto de 2023**
 * **08:00-9:00 (PDT, UTC-7)**
 * **[Inscreva-se aqui](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
 
-Ofereça experiências envolventes ao cliente para melhorar as taxas de conversão. Sua empresa está pronta para a temporada de pico? Junte-se a nós e obtenha acesso a dicas de especialistas sobre como você pode alcançar o desempenho ideal e o ROI máximo desta vez.
+Ofereça experiências envolventes a clientes para melhorar as taxas de conversão. Sua empresa está pronta para a alta temporada? Junte-se a nós desta vez e obtenha acesso a dicas de especialistas sobre como é possível alcançar o desempenho ideal e o ROI máximo.
 
 +++Ver detalhes
 
-Junte-se a John Magnusson, gerente de sucesso de clientes do Adobe e Katherine Klein, Director - MarTech &amp; AdTech Solutions, Macy&#39;s Inc. Junte-se a nós para saber mais sobre as estratégias que afetam significativamente seu programa de disponibilidade para a temporada de pico.
+Junte-se a John Magnusson, Gerente de sucesso do cliente da Adobe e Katherine Klein, Diretora da MarTech &amp; AdTech Solutions, Macy&#39;s Inc. Junte-se a nós para saber mais sobre as estratégias que afetam significativamente seu programa de preparação para a alta temporada.
 
-O tópico inclui:
+Os tópicos incluem:
 
-* Criar painéis e relatar as métricas principais com eficácia
-* Examinar o impacto de cada canal de marketing
-* Aprofunde-se no comportamento do cliente e nas tendências de compra
-* Identificar experiências inadequadas do cliente e melhorá-las por meio de testes
-* Descubra áreas de oportunidade para impulsionar a conversão de sites
+* Crie painéis e relate as métricas principais com eficácia
+* Examine o impacto de cada canal de marketing
+* Aprofunde-se no comportamento de clientes e nas tendências de compra
+* Identifique experiências de cliente inadequadas e as aprimore por meio de testes
+* Descubra áreas de oportunidade para impulsionar a conversão no site
 
 +++
 
