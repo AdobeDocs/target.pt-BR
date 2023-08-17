@@ -4,10 +4,10 @@ description: Saiba como usar o Adobe [!DNL Target] URLs de controle de qualidade
 title: Como faço para testar as atividades?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
+source-git-commit: 62f688350387b4d92b73353d503001d47f65e021
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 36%
+source-wordcount: '1762'
+ht-degree: 35%
 
 ---
 
@@ -72,6 +72,8 @@ Usar URLs de controle de qualidade no [!DNL Adobe Target] para realizar o contro
    * **at.js 2.*x***: se o site tiver a at.js 2.*x* implantado, use o [Bookmarklet de Controle de qualidade do Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forçar você a sair do [!UICONTROL Controle de qualidade da atividade]. O carregamento de uma página em seu site com um valor vazio, conforme descrito no próximo marcador, não *não* remova o cookie de controle de qualidade do navegador quando a at.js 2.*x* é implantado.
 
    * **at.js 1.*x***: se o site tiver o at.js 1.*x* implantado, além de usar o [Bookmarklet de Controle de qualidade do Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), você também pode forçar a sua saída manualmente carregando uma página em seu site com o `at_preview_token` parâmetro com um valor vazio (por exemplo, `https://www.mysite.com/?at_preview_token=`).
+
+   * **[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}**: se o site tiver o [!UICONTROL SDK da Web da Platform] implantado, você pode forçar a sua saída manualmente carregando uma página em seu site com o `at_qa_mode` parâmetro com um valor vazio (por exemplo, `https://www.mysite.com/?at_qa_mode=`).
 
 * Se você tiver especificado &quot;URL é&quot; ao criar a atividade [refinamentos no Criador baseado em formulário](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ou [opções de entrega de página no Visual Experience Composer)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), o URL de controle de qualidade não funciona porque [!UICONTROL Controle de qualidade da atividade] anexa parâmetros de URL. Para resolver esse problema, clique no URL do Controle de qualidade para acessar seu site, remover os parâmetros anexados do URL e, em seguida, carregar o novo URL.
 * Se você tiver o at.js 1.*x*, [!UICONTROL Controle de qualidade da atividade] O modo não é aderente se você usar o Safari ou outro navegador que bloqueie cookies de terceiros. Nesses casos, é necessário adicionar os parâmetros de visualização a cada URL para o qual você navega. O mesmo é verdadeiro se você tiver implementado o [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
