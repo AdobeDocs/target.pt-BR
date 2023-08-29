@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e782fe4a26a624d3c407b991092dc0cfce18fdb7
+source-git-commit: e431581a43d0b6f90542413b085d18f4adbc9bbf
 workflow-type: tm+mt
-source-wordcount: '1585'
-ht-degree: 98%
+source-wordcount: '1664'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,10 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 29 de agosto | [Implementar o Target com o SDK do AEP Mobile em um aplicativo nativo com visualizações da Web](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | Novo artigo. |
+| 29 de agosto | S[Recursos compatíveis com a decisão no dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | Adição da lista de atributos geográficos compatíveis com o direcionamento ao usar a Decisão no dispositivo (ODD). |
+|  | [Visão geral da decisão no dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | Adição da lista de atributos geográficos compatíveis com o direcionamento ao usar a Decisão no dispositivo (ODD). |
+|  | [Implementar o Target com o SDK do AEP Mobile em um aplicativo nativo com visualizações da Web](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | Novo artigo. |
+|  | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o próximo Coffee-break da Adobe Target Community (30 de agosto de 2023): &quot;Crie uma estratégia para obter o máximo impacto do ROI com o acompanhamento do webinário de preparação da temporada de pico&quot;. |
 | 14 de agosto | [Controle de qualidade da atividade](/help/main/c-activities/c-activity-qa/activity-qa.md) | Foram adicionadas informações esclarecendo que carregar uma página no seu site com um valor vazio *não* remove o cookie de controle de qualidade do navegador com at.js 2.*x* é implantado(a). |
 |  | [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Atualização da definição de “Confiança”. |
 |  | [Ofertas](/help/main/c-experiences/c-manage-content/manage-content.md) | Foi adicionada uma observação explicando que as ofertas de imagem não fazem parte do modelo [!UICONTROL Permissões para usuários empresariais]. |
