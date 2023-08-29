@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
+source-git-commit: e782fe4a26a624d3c407b991092dc0cfce18fdb7
 workflow-type: tm+mt
-source-wordcount: '1561'
-ht-degree: 100%
+source-wordcount: '1585'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 29 de agosto | [Implementar o Target com o SDK do AEP Mobile em um aplicativo nativo com visualizações da Web](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | Novo artigo. |
 | 14 de agosto | [Controle de qualidade da atividade](/help/main/c-activities/c-activity-qa/activity-qa.md) | Foram adicionadas informações esclarecendo que carregar uma página no seu site com um valor vazio *não* remove o cookie de controle de qualidade do navegador com at.js 2.*x* é implantado(a). |
 |  | [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Atualização da definição de “Confiança”. |
 |  | [Ofertas](/help/main/c-experiences/c-manage-content/manage-content.md) | Foi adicionada uma observação explicando que as ofertas de imagem não fazem parte do modelo [!UICONTROL Permissões para usuários empresariais]. |
