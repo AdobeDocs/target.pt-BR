@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
+source-git-commit: da10ba6b79ff52bf793a474c97475739180591db
 workflow-type: tm+mt
-source-wordcount: '1722'
-ht-degree: 92%
+source-wordcount: '1733'
+ht-degree: 91%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 1 de setembro | [Ambientes](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | Atualização da observação em &quot;Definir o ambiente padrão para relatórios&quot;. |
 | 30 de agosto | [Privacidade](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | Nova seção adicionada: &quot;Ofuscação de IP no nível de sequência de dados ao usar o SDK da Web da Adobe Experience Platform&quot; |
 |  | [Configurações de atividade - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | O período corrigido para esperar que os dados sejam exibidos nos relatórios das seguintes perguntas frequentes: &quot;Acabei de criar uma atividade. Por que não vejo nenhum dado chegando?&quot; |
 | 29 de agosto | [Recursos compatíveis com a decisão no dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | Adição da lista de atributos geográficos compatíveis com o direcionamento ao usar a decisão no dispositivo (ODD) no lado do cliente. |
