@@ -4,10 +4,10 @@ description: Saiba como evitar as armadilhas e erros mais comuns que as empresas
 title: Como evitar erros comuns em testes A/B?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
 workflow-type: tm+mt
 source-wordcount: '3898'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -41,19 +41,19 @@ No entanto, duas situações justificam prestar muita atenção ao nível de sig
 
 * **Segmentação pós-teste:** os profissionais de marketing geralmente fracionam e dividem os resultados de um teste com base nos segmentos de visitantes depois a conclusão do teste A/B. Segmentos comuns incluem tipo de navegador, tipo de dispositivo, áreas geográficas, hora do dia e visitantes novos versus visitantes recorrentes. Essa prática, conhecida como segmentação pós-teste, fornece excelente percepção dos segmentos de visitantes. Por sua vez, os profissionais de marketing podem usar esses insights para criar conteúdo melhor direcionado, mais relevante e diferenciado.
 
-   Se não houver diferença real na taxa de conversão, cada vez que você testar um segmento, a probabilidade de um falso positivo é igual ao nível de significância. E, como mencionado, quanto mais testes você executar, maior a probabilidade de você ter pelo menos um falso positivo entre esses testes. Em essência, cada segmento de pós-teste representa um teste separado. Com um nível de significância de 5%, em média, você será vítima de um falso positivo toda vez que olhar para 20 segmentos de pós-teste. O gráfico acima mostra como essa probabilidade aumenta.
+  Se não houver diferença real na taxa de conversão, cada vez que você testar um segmento, a probabilidade de um falso positivo é igual ao nível de significância. E, como mencionado, quanto mais testes você executar, maior a probabilidade de você ter pelo menos um falso positivo entre esses testes. Em essência, cada segmento de pós-teste representa um teste separado. Com um nível de significância de 5%, em média, você será vítima de um falso positivo toda vez que olhar para 20 segmentos de pós-teste. O gráfico acima mostra como essa probabilidade aumenta.
 
-   Como mencionado acima, quanto mais testes você executar, maior a probabilidade de você ter pelo menos um falso positivo entre esses testes. Em essência, cada segmento de pós-teste representa um teste separado, o que aumenta a probabilidade de um falso positivo. Esse aumento pode ser ainda mais significativo se os segmentos estiverem correlacionados.
+  Como mencionado acima, quanto mais testes você executar, maior a probabilidade de você ter pelo menos um falso positivo entre esses testes. Em essência, cada segmento de pós-teste representa um teste separado, o que aumenta a probabilidade de um falso positivo. Esse aumento pode ser ainda mais significativo se os segmentos estiverem correlacionados.
 
-   Você deveria simplesmente não fazer segmentação pós-teste? Não, os segmentos de pós-teste são valiosos. Em vez disso, para evitar esse problema de falso positivo cumulativo com a segmentação pós-teste, depois de identificar um segmento de pós-teste, considere testá-lo em um novo teste. Alternativamente, você pode aplicar a correção de Bonferroni, discutida a seguir.
+  Você deveria simplesmente não fazer segmentação pós-teste? Não, os segmentos de pós-teste são valiosos. Em vez disso, para evitar esse problema de falso positivo cumulativo com a segmentação pós-teste, depois de identificar um segmento de pós-teste, considere testá-lo em um novo teste. Alternativamente, você pode aplicar a correção de Bonferroni, discutida a seguir.
 
 * **Teste de várias ofertas:** os profissionais de marketing testam com frequência mais de duas ofertas (ou experiências) entre si. É por isso que às vezes você vê soluções de teste A/B chamadas de teste A/B/n, onde n é o número de ofertas que você está testando simultaneamente.
 
-   É importante observar que *cada* oferta testada tem uma taxa de falso positivo igual ao nível de significância, conforme descrito acima. Novamente, você está executando efetivamente vários testes quando várias ofertas são comparadas em um único ambiente de teste. Por exemplo, se você comparar cinco ofertas em um teste A/B/C/D/E, efetivamente formará quatro comparações: controle para B, controle para C, controle para D, controle para E. Com um nível de confiança de 95%, em vez da probabilidade de 5% de um falso positivo, você realmente tem 18,5%. 2
+  É importante observar que *cada* oferta testada tem uma taxa de falso positivo igual ao nível de significância, conforme descrito acima. Novamente, você está executando efetivamente vários testes quando várias ofertas são comparadas em um único ambiente de teste. Por exemplo, se você comparar cinco ofertas em um teste A/B/C/D/E, efetivamente formará quatro comparações: controle para B, controle para C, controle para D, controle para E. Com um nível de confiança de 95%, em vez da probabilidade de 5% de um falso positivo, você realmente tem 18,5%. 2
 
-   Para manter seu nível de confiança geral em 95% e evitar esse problema, aplique o que é conhecido como a correção de Bonferroni. Usando esta correção, você simplesmente divide o nível de significância pelo número de comparações para chegar ao nível de significância necessário para atingir um nível de confiança de 95%.
+  Para manter seu nível de confiança geral em 95% e evitar esse problema, aplique o que é conhecido como a correção de Bonferroni. Usando esta correção, você simplesmente divide o nível de significância pelo número de comparações para chegar ao nível de significância necessário para atingir um nível de confiança de 95%.
 
-   Aplicando a correção de Bonferroni ao exemplo acima, você usaria um nível de significância de 5%/4 = 1,25%, que é o mesmo que um nível de confiança de 98,75% para um teste individual (100% - 1,25% = 98,75%). Esse ajuste mantém o nível de confiança efetivo em 95% quando você tem quatro testes, como no exemplo descrito.
+  Aplicando a correção de Bonferroni ao exemplo acima, você usaria um nível de significância de 5%/4 = 1,25%, que é o mesmo que um nível de confiança de 98,75% para um teste individual (100% - 1,25% = 98,75%). Esse ajuste mantém o nível de confiança efetivo em 95% quando você tem quatro testes, como no exemplo descrito.
 
 ## Armadilha 2: declarar vencedores de vários testes de oferta sem diferença estatisticamente significativa {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
@@ -81,7 +81,7 @@ Os profissionais de marketing de hoje subestimam um número notável de testes. 
 
 Para evitar subutilizar seu teste, considere que um padrão típico para um teste potente inclui um nível de confiança de 95% e um poder estatístico de 80%. Esse teste oferece uma probabilidade de 95% de que você evite um falso positivo e uma probabilidade de 80% de evitar um falso negativo.
 
-## Etapa 4: usar testes unilaterais {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
+## Armadilha 4: usar testes unilaterais {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
 Testes unilaterais exigem uma menor diferença observada nas taxas de conversão entre as ofertas para chamar um vencedor em um determinado nível de significância. Isso parece atraente porque os vencedores podem ser chamados antes e com mais frequência do que quando se usa testes bilaterais. Mas, de acordo com o ditado, &quot;Nada é de graça&quot;, os testes unilaterais custam caro.
 
@@ -127,7 +127,7 @@ Se você alterar manualmente a divisão de alocação para 100% para a Experiên
 Se você quiser alterar as porcentagens ou afetar o fluxo de visitantes em cada experiência, recomendamos criar uma nova atividade ou copiar a atividade e editar as porcentagens de alocação de tráfego.
 
 Se você alterar as porcentagens de diferentes experiências durante o período de teste, levará alguns dias para os dados normalizarem, especialmente se muitos compradores forem visitantes recorrentes.
-Como outro exemplo, se a alocação de tráfego do seu teste A/B for dividida em 50/50 e você alterar a divisão para 80/20, nos primeiros dias após essa alteração, os resultados poderão parecer distorcidos. Se o tempo médio para conversões for alto, o que significa que uma pessoa leva várias horas ou até mesmo dias para fazer uma compra, essas conversões lentas podem afetar os relatórios. Portanto, naquela primeira experiência em que o número passou de 50% para 80%, e o tempo médio de conversão é de dois dias, apenas visitantes de 50% da população estão convertendo no primeiro dia do teste, embora hoje 80% da população está entrando na experiência. Isso faz parecer que a taxa de conversão despencou, mas normalizará novamente depois que esses 80% dos visitantes levarem dois dias para converter.
+Como outro exemplo, se a alocação de tráfego do seu Teste A/B for dividida em 50/50 e você alterar a divisão para 80/20, nos primeiros dias após essa alteração, os resultados poderão parecer distorcidos. Se o tempo médio para conversões for alto, o que significa que uma pessoa leva várias horas ou até mesmo dias para fazer uma compra, essas conversões lentas podem afetar os relatórios. Portanto, naquela primeira experiência em que o número passou de 50% para 80%, e o tempo médio de conversão é de dois dias, apenas visitantes de 50% da população estão convertendo no primeiro dia do teste, embora hoje 80% da população está entrando na experiência. Isso faz parecer que a taxa de conversão despencou, mas normalizará novamente depois que esses 80% dos visitantes levarem dois dias para converter.
 
 ## Armadilha 8: não considerar os efeitos da novidade {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
