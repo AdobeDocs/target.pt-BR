@@ -4,10 +4,10 @@ description: Encontre respostas para perguntas sobre a configuração de ativida
 title: Onde posso encontrar perguntas frequentes sobre configurações de atividade com o A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: ed4fadc338bf5a1afad87e2b245a9b00e225b92c
+source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -32,7 +32,7 @@ Para obter mais informações, consulte &quot;Ao configurar minhas métricas de 
 ## Acabei de criar um atividade. Por que não vejo nenhum dado chegando?  {#section_9F8092BE4225442896F926540292F221}
 
 
-+++Resposta Quando uma atividade é criada, [!DNL Target] envia um arquivo de classificação para [!DNL Analytics]. Embora [!DNL Analytics] A está capturando e processando os dados, não mostra que nos relatórios do até que o arquivo de classificação tenha sido atualizado. Esse processo pode levar até 24 horas. Se depois de 48 horas você não visualizar seus dados, [entre em contato com o Atendimento ao Cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Como alternativa, se você souber que iniciou uma atividade, poderá criar a atividade alguns dias antes e as classificações serão enviadas quando a atividade for salva. Dessa forma, os dados aparecem nos relatórios logo no início. Observe que leva de 45 a 90 minutos para que os dados sejam processados no [!DNL Analytics].
++++Resposta Quando uma atividade é criada, [!DNL Target] envia um arquivo de classificação para [!DNL Analytics]. Embora [!DNL Analytics] A está capturando e processando os dados, não mostra que nos relatórios do até que o arquivo de classificação tenha sido atualizado. Esse processo pode levar de 24 a 72 horas para ser concluído. Se, após 72 horas, você não visualizar seus dados, [entre em contato com o Atendimento ao cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Como alternativa, se você souber que iniciou uma atividade, poderá criar a atividade alguns dias antes e as classificações serão enviadas quando a atividade for salva. Dessa forma, os dados aparecem nos relatórios logo no início. Observe que leva de 45 a 90 minutos para que os dados sejam processados no [!DNL Analytics].
 
 +++
 
