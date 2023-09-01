@@ -2,13 +2,13 @@
 keywords: espaços de trabalho;gerenciar propriedade;permissões;configuração do produto;perfil do produto;funções;projeto;observador;editor;aprovador;editor;workspaces;manage property;permissions;product configuration;product profile;roles;project;observer;editor;approver;publisher
 description: Saiba como criar espaços de trabalho separados (perfis de produto) e atribuir aos usuários diferentes funções e permissões para páginas, propriedades ou sites individuais.
 title: O que são permissões de usuário corporativo e como usá-las?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3232'
 ht-degree: 57%
 
 ---
@@ -83,7 +83,7 @@ Todas as funções de usuário e acesso a todos [!DNL Target] A funcionalidade p
 
 Você pode criar grupos de usuários, como desenvolvedores, analistas, profissionais de marketing, executivos e assim por diante. Em seguida, você pode atribuir privilégios entre vários produtos Adobe e espaços de trabalho. A atribuição de todos os privilégios apropriados a um novo membro da equipe em diferentes produtos da Adobe pode ser tão fácil quanto adicioná-lo a um grupo de usuários específico.
 
-### Funções e permissões
+### Funções e permissões {#roles-permissions}
 
 As funções e permissões determinam os níveis de acesso que os usuários têm para criar e gerenciar as atividades na implementação do [!DNL Target]. No [!DNL Target], as funções incluem:
 
@@ -150,21 +150,21 @@ Após uma reorganização, usando as pessoas das ilustrações acima, você pode
 
 * **Jan**: Jan é a responsável pela otimização no Centro de excelência das páginas, propriedades e sites dos Estados Unidos de sua organização. Ela provavelmente tem direitos de administrador do sistema na Adobe Experience Cloud.
 
-   Em sua função, ela tem permissões de Aprovador para a página inicial dos EUA e o site dos EUA. Com as permissões de Aprovador, ela pode criar, editar e ativar ou interromper atividades.
+  Em sua função, ela tem permissões de Aprovador para a página inicial dos EUA e o site dos EUA. Com as permissões de Aprovador, ela pode criar, editar e ativar ou interromper atividades.
 
-   Jan também consulta a equipe de otimização na França e, portanto, tem permissões de Observador para o site da França que lhe dão acesso somente leitura às atividades. Jan pode exibir atividades, mas não pode criá-las ou editá-las.
+  Jan também consulta a equipe de otimização na França e, portanto, tem permissões de Observador para o site da França que lhe dão acesso somente leitura às atividades. Jan pode exibir atividades, mas não pode criá-las ou editá-las.
 
-   Como Jan não tem nenhuma função que exija que ela veja as Páginas dos produtos, o site da Rússia ou o site de carreiras, ela não consegue ver as atividades desses sites.
+  Como Jan não tem nenhuma função que exija que ela veja as Páginas dos produtos, o site da Rússia ou o site de carreiras, ela não consegue ver as atividades desses sites.
 
 * **Ernie**: Ernie é um gerente de marketing da organização responsável pelo marketing nos Estados Unidos.
 
-   Como Ernie é relativamente novo na organização e inexperiente com o Target, ele tem permissões de editor para a página inicial dos EUA, o site dos EUA e as páginas dos produtos. Com permissões de Editor, Ernie pode criar e editar atividades antes que elas entrem ao vivo. Ele não pode aprovar a inicialização de uma atividade — alguém com permissões de Aprovação, como Jan, deve aprovar a atividade antes que ela possa ser colocada em produção.
+  Como Ernie é relativamente novo na organização e inexperiente com o Target, ele tem permissões de editor para a página inicial dos EUA, o site dos EUA e as páginas dos produtos. Com permissões de Editor, Ernie pode criar e editar atividades antes que elas entrem ao vivo. Ele não pode aprovar a inicialização de uma atividade — alguém com permissões de Aprovação, como Jan, deve aprovar a atividade antes que ela possa ser colocada em produção.
 
-   Como Ernie não tem nenhuma função que exija que ele veja o site da Rússia, o site da França ou o site de carreiras, ele não consegue ver as atividades desses sites.
+  Como Ernie não tem nenhuma função que exija que ele veja o site da Rússia, o site da França ou o site de carreiras, ele não consegue ver as atividades desses sites.
 
 * **Diana**: Diana agora é Analista da organização e recebeu permissões de Observador para a página inicial dos EUA, o site dos EUA, as páginas dos produtos, o site da Rússia e o site da França que lhe dão acesso somente leitura às atividades. Diana pode exibir atividades, mas não pode criá-las ou editá-las.
 
-   Como Diana não tem nenhuma função que exija que ela veja o site de carreiras, ela não consegue ver as atividades desses sites.
+  Como Diana não tem nenhuma função que exija que ela veja o site de carreiras, ela não consegue ver as atividades desses sites.
 
 ### Organização multimarcas
 
@@ -174,15 +174,15 @@ Após uma reorganização, usando as pessoas das ilustrações acima, você pode
 
 * **Jan**: Jan é a Chefe de Otimização no Centro de Excelência de uma organização de cuidados de saúde que opera nos ramos de produtos hospitalares e de consumo. Ela provavelmente tem direitos de administrador do sistema na Adobe Experience Cloud.
 
-   Em sua função, ela tem permissões de Aprovador para o site do Hospital. Com as permissões de Aprovador, ela pode criar, editar e ativar ou interromper atividades.
+  Em sua função, ela tem permissões de Aprovador para o site do Hospital. Com as permissões de Aprovador, ela pode criar, editar e ativar ou interromper atividades.
 
-   Jan também consulta a equipe de otimização no ramo de produtos de consumo e, portanto, tem permissões de Observador para esse site que lhe dão acesso somente leitura às atividades. Jan pode exibir atividades, mas não pode criá-las ou editá-las.
+  Jan também consulta a equipe de otimização no ramo de produtos de consumo e, portanto, tem permissões de Observador para esse site que lhe dão acesso somente leitura às atividades. Jan pode exibir atividades, mas não pode criá-las ou editá-las.
 
 * **Ernie**: Ernie é um gerente de marketing da organização responsável pelo marketing no espaço do produto do consumidor.
 
-   Como Ernie é relativamente novo na organização e inexperiente com o Target, ele tem permissões de Editor para o site do consumidor. Com permissões de Editor, Ernie pode criar e editar atividades antes que elas entrem ao vivo. Ele não pode aprovar a inicialização de uma atividade — alguém com permissões de Aprovação para o Site do Consumidor, mas não Jan neste cenário, deve aprovar a atividade antes que ela possa ser colocada em produção.
+  Como Ernie é relativamente novo na organização e inexperiente com o Target, ele tem permissões de Editor para o site do consumidor. Com permissões de Editor, Ernie pode criar e editar atividades antes que elas entrem ao vivo. Ele não pode aprovar a inicialização de uma atividade — alguém com permissões de Aprovação para o Site do Consumidor, mas não Jan neste cenário, deve aprovar a atividade antes que ela possa ser colocada em produção.
 
-   Como Ernie não tem nenhuma função que exija que ele veja o site do hospital, ele não consegue ver as atividades desse site.
+  Como Ernie não tem nenhuma função que exija que ele veja o site do hospital, ele não consegue ver as atividades desse site.
 
 * **Diana**: Diana agora é uma analista da organização e recebeu permissões de observador para o site do hospital e do consumidor que dá acesso somente leitura às atividades. Diana pode exibir atividades, mas não pode criá-las ou editá-las.
 
@@ -192,18 +192,18 @@ A nova funcionalidade de Permissões pode ser vista em vários locais na interfa
 
 * **Lista suspensa Espaço de trabalho (Perfil do produto):** a lista suspensa Espaço de trabalho é exibida na parte superior das páginas [!UICONTROL Atividades], [!UICONTROL Públicos] e [!UICONTROL Ofertas]. Selecione o espaço de trabalho desejado para filtrar a lista e exibir somente itens no espaço de trabalho selecionado.
 
-   ![imagem workspace_drop-down](assets/workspace_drop-down.png)
+  ![imagem workspace_drop-down](assets/workspace_drop-down.png)
 
 * **Criação da atividade:** Quando você cria uma atividade, ela é criada no espaço de trabalho selecionado no momento. Você vê as opções de seleção de canal na primeira caixa de diálogo que permite escolher o canal desejado para a atividade: Web, Aplicativo móvel, Email ou Outro/API.
 
-   ![imagem channel_options](assets/channel_options.png)
+  ![imagem channel_options](assets/channel_options.png)
 
 * **Criação de público-alvo:** Ao criar um público-alvo, ele é criado no espaço de trabalho selecionado no momento.
 * **Lista de público-alvo:** Você pode mover públicos-alvo entre espaços de trabalho usando o [!UICONTROL Mais ações] > [!DNL Move] opção no [!UICONTROL Públicos-alvo] página.
 * **Criação da oferta:** Ao criar uma oferta, ela é criada no espaço de trabalho selecionado no momento.
 * **Página Propriedades (Administração > Propriedades):** Você pode usar o [!UICONTROL Pesquisar] para pesquisar o [!UICONTROL Propriedade] lista.
 
-   ![imagem properties_list](assets/properties_list.png)
+  ![imagem properties_list](assets/properties_list.png)
 
 ## Avisos {#section_9714311B1CD9497A86F4910F8AE635E2}
 
@@ -247,11 +247,11 @@ Considere o seguinte ao usar ou configurar propriedades e permissões no [!DNL T
    * Ofertas de imagem (ativos armazenados em `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` não pode ser controlado atualmente pelo modelo de Permissões empresariais.
    * O clickTracking e os redirecionamentos funcionam quando o link ou a página de destino fazem parte de uma propriedade incluída na atividade. Além disso, o clickTracking pode não funcionar ao usar o `targetPageParams()` função. A função recomendada é `targetPageParamsAll()`.
 
-   [!DNL Target]Atualmente, o exige que um token `at_property` esteja presente nas páginas em que ocorre o rastreamento. Se o token for (1) não presente, (2) não detectado no momento da configuração da atividade (no VEC) ou (3) não passado para a chamada do Target clickTracking por meio do `targetPageParamsAll()` , a métrica não é incrementada e aparece como &quot;0&quot;.
+  [!DNL Target]Atualmente, o exige que um token `at_property` esteja presente nas páginas em que ocorre o rastreamento. Se o token for (1) não presente, (2) não detectado no momento da configuração da atividade (no VEC) ou (3) não passado para a chamada do Target clickTracking por meio do `targetPageParamsAll()` , a métrica não é incrementada e aparece como &quot;0&quot;.
 
-   O mesmo se aplica às atividades que usam redirecionamentos. A página de destino deve ter um token `at_property` e ser reconhecida no momento da configuração dentro do VEC.
+  O mesmo se aplica às atividades que usam redirecionamentos. A página de destino deve ter um token `at_property` e ser reconhecida no momento da configuração dentro do VEC.
 
-   Em uma versão futura, o Target funcionará em páginas em que nenhum token `at_property` está presente ou páginas em que um token diferente de `at_property` estiver presente.
+  Em uma versão futura, o Target funcionará em páginas em que nenhum token `at_property` está presente ou páginas em que um token diferente de `at_property` estiver presente.
 
 * A funcionalidade Permissões de usuário do Enterprise não é compatível com chamadas da API do Adobe I/O.
 
