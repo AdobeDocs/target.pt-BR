@@ -5,10 +5,10 @@ title: O que são ambientes e como usá-los?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: a2f237ba2c79528b4d18e4100f4481e4af11d26c
+source-git-commit: 43291a102dee4cf03a3a427a4f29fe75d2c11221
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 58%
+source-wordcount: '709'
+ht-degree: 56%
 
 ---
 
@@ -49,6 +49,8 @@ Para definir o ambiente padrão para relatório:
 >[!NOTE]
 >
 >[!DNL Recommendations]Os usuários do devem recriar sua base de dados comportamental e a base de dados de produtos se os hosts alternarem os grupos de host.
+>
+>Se você especificar um [ambiente padrão em um fluxo de dados do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, esse ambiente substitui a configuração em [!DNL Target Recommendations].
 
 ## Alterar o nome de um ambiente {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
