@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: da10ba6b79ff52bf793a474c97475739180591db
 workflow-type: tm+mt
 source-wordcount: '1733'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |  | [Configurações de atividade - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | O período corrigido para esperar que os dados sejam exibidos nos relatórios das seguintes perguntas frequentes: &quot;Acabei de criar uma atividade. Por que não vejo nenhum dado chegando?&quot; |
 | 29 de agosto | [Recursos compatíveis com a decisão no dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | Adição da lista de atributos geográficos compatíveis com o direcionamento ao usar a decisão no dispositivo (ODD) no lado do cliente. |
 |  | [Visão geral da decisão no dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | Adição da lista de atributos geográficos compatíveis com o direcionamento ao usar a Decisão no dispositivo (ODD) no lado do servidor. |
-|  | [Implementar o Target com o SDK do AEP Mobile em um aplicativo nativo com visualizações da Web](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | Novo artigo. |
+|  | [Implementação do Target com o SDK móvel da AEP em um aplicativo nativo com visualizações da Web](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html?lang=pt-BR){target=_blank} | Novo artigo. |
 |  | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o próximo Coffee-break da Adobe Target Community (30 de agosto de 2023): &quot;Crie uma estratégia para obter o máximo impacto do ROI com o acompanhamento do webinário de preparação da temporada de pico&quot;. |
 | 14 de agosto | [Controle de qualidade da atividade](/help/main/c-activities/c-activity-qa/activity-qa.md) | Foram adicionadas informações esclarecendo que carregar uma página no seu site com um valor vazio *não* remove o cookie de controle de qualidade do navegador com at.js 2.*x* é implantado(a). |
 |  | [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Atualização da definição de “Confiança”. |
