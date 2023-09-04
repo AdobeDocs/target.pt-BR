@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8490f73213dff433a58e6284924324f648aa2d0f
-workflow-type: ht
-source-wordcount: '326'
-ht-degree: 100%
+source-git-commit: 362fac25f04028dff0fb0233d418ef9ce88e53d6
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 56%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Este artigo contém informações de pré-lançamento das próximas versões do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: 9 de agosto de 2023**
+**Última atualização: 4 de setembro de 2023**
 
 >[!NOTE]
 >
@@ -23,15 +23,24 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 >
 >Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.8.1 (9 de agosto de 2023)
+## [!DNL Target] Standard/Premium 23.9.1 (6-11 de setembro de 2023)
+
+Esta versão estará disponível de acordo com o seguinte cronograma:
+
+* **6 de setembro**: região das Américas
+* **7 de setembro**: regiões da Europa, Oriente Médio e África (EMEA)
+* **11 de setembro**: região Ásia-Pacífico (APAC)
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Correção de um problema que, ocasionalmente, impedia a sincronização correta das atividades, como mostrado na coluna “[!UICONTROL Status]”, na página da lista de [!UICONTROL Atividades]. (TGT-46010 e TGT-44831)
-* Correção de um problema que, ocasionalmente, impedia que o link “[!UICONTROL Exibir no Analytics]” fosse visualizado na página de atividades [!UICONTROL Relatórios], que usa o [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios. (TGT-45808)
-* Ajuste da apresentação de valores em tabelas para exibir como porcentagens, em vez de números com decimais. Por exemplo, 8% em vez de 0,08. (TGT-45548)
-* Correção de um problema que impedia clientes de usar o foco do teclado na movimentação para o próximo elemento na página [!UICONTROL Metas e configurações] em atividades de [!UICONTROL Direcionamento de experiência] (XT). (TGT-44526)
-* Correção de um problema que causava perda do foco do teclado após abrir a caixa de diálogo “[!UICONTROL Adicionar públicos]” ao criar uma atividade. (TGT-44525)
+* Correção de um problema que causava dados de relatórios inconsistentes no [!DNL Target] A interface do usuário e o [!DNL Adobe Analytics] Interface do usuário para [!UICONTROL Alocação automática] atividades que usam [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios. (TGT-46112)
+* O tempo limite das chamadas de PUT para a API de entrega do Target foi aumentado para 15 segundos para evitar erros de tempo limite. (TGT-46091)
+* Correção de um problema que exibia o nome de relatório incorreto ao alternar entre a variável [!UICONTROL Exibição de tabela] e a variável [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes] relatórios. (TGT-46040)
+* Aprimoramento do [!UICONTROL Visual Experience Composer] (VEC) para oferecer suporte ao Lightning DOM (Componentes da Web). (TGT-45422)
+* Correção de um problema que fazia com que as ações do VEC fossem aplicadas na ordem incorreta. Em alguns casos, o VEC aplicou algumas modificações de forma assíncrona e adicionar modificações extras a um elemento causou erros se esse elemento fosse exibido após um [!UICONTROL Inserir] ação. (TGT-45983)
+* Adição da capacidade de especificar um seletor de CSS no VEC. (TGT-45958 e TGT-46017)
+* Correção de um problema ao abrir uma página de Aplicativo de página única (SPA) no VEC e, em seguida, ir para o modo Procurar, fazia com que as setas Voltar e Encaminhar não funcionassem corretamente. (TGT-45956)
+* Correção de um problema que impedia a atualização consistente do URL ao navegar por um site de Aplicativo de página única (SPA). (TGT-45417)
 
 ## Notas de versão adicionais e detalhes da versão
 
