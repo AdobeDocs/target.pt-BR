@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 362fac25f04028dff0fb0233d418ef9ce88e53d6
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 56%
+source-wordcount: '405'
+ht-degree: 57%
 
 ---
 
@@ -38,7 +38,6 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 * Correção de um problema que exibia o nome de relatório incorreto ao alternar entre a variável [!UICONTROL Exibição de tabela] e a variável [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes] relatórios. (TGT-46040)
 * Aprimoramento do [!UICONTROL Visual Experience Composer] (VEC) para oferecer suporte ao Lightning DOM (Componentes da Web). (TGT-45422)
 * Correção de um problema que fazia com que as ações do VEC fossem aplicadas na ordem incorreta. Em alguns casos, o VEC aplicou algumas modificações de forma assíncrona e adicionar modificações extras a um elemento causou erros se esse elemento fosse exibido após um [!UICONTROL Inserir] ação. (TGT-45983)
-* Adição da capacidade de especificar um seletor de CSS no VEC. (TGT-45958 e TGT-46017)
 * Correção de um problema ao abrir uma página de Aplicativo de página única (SPA) no VEC e, em seguida, ir para o modo Procurar, fazia com que as setas Voltar e Encaminhar não funcionassem corretamente. (TGT-45956)
 * Correção de um problema que impedia a atualização consistente do URL ao navegar por um site de Aplicativo de página única (SPA). (TGT-45417)
 

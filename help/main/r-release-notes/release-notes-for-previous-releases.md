@@ -4,9 +4,9 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
 workflow-type: tm+mt
-source-wordcount: '37043'
+source-wordcount: '37230'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,22 @@ As notas de versão são processadas em ordem decrescente por mês e ano da vers
 >Consulte [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2023
+
+### Atualização planejada da infraestrutura de borda do [!DNL Adobe Target] {#edge}
+
+A atualização planejada da infraestrutura de borda requer que IP ou domínios adicionais sejam incluídos na lista de permissões. Revise e inclua na lista de permissões o NAT e IP/domínios para implantações de borda 41-48. As atualizações da infraestrutura começam em 9 de agosto de 2023.
+
+Para obter mais informações, consulte [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank} no *Manual do desenvolvedor do Adobe Target*.
+
+### [!DNL Target] Standard/Premium 23.8.1 (9 de agosto de 2023)
+
+Essa versão conta com os seguintes aprimoramentos e correções:
+
+* Correção de um problema que, ocasionalmente, impedia a sincronização correta das atividades, como mostrado na coluna “[!UICONTROL Status]”, na página da lista de [!UICONTROL Atividades]. (TGT-46010 e TGT-44831)
+* Correção de um problema que, ocasionalmente, impedia que o link “[!UICONTROL Exibir no Analytics]” fosse visualizado na página de atividades [!UICONTROL Relatórios], que usa o [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios. (TGT-45808)
+* Ajuste da apresentação de valores em tabelas para exibir como porcentagens, em vez de números com decimais. Por exemplo, 8% em vez de 0,08. (TGT-45548)
+* Correção de um problema que impedia clientes de usar o foco do teclado na movimentação para o próximo elemento na página [!UICONTROL Metas e configurações] em atividades de [!UICONTROL Direcionamento de experiência] (XT). (TGT-44526)
+* Correção de um problema que causava perda do foco do teclado após abrir a caixa de diálogo “[!UICONTROL Adicionar públicos]” ao criar uma atividade. (TGT-44525)
 
 ### [!DNL Target] Standard/Premium 23.7.1 (24-26 de julho)
 
@@ -128,7 +144,7 @@ Esta versão inclui as seguintes correções:
 
 >[!NOTE]
 >
->Para garantir a entrega das alterações criadas no VEC, certifique-se de que você está usando um SDK do [!DNL Target] ({target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=pt-BR){target=_blank} [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html) (alloy.js)) com uma versão superior a 2.8.
+>Para garantir a entrega das alterações criadas no VEC, certifique-se de que você está usando um SDK do [!DNL Target] ({target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=pt-BR){target=_blank} [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR) (alloy.js)) com uma versão superior a 2.8.
 
 **Problema conhecido**: o rastreamento de cliques em elementos de raiz de sombra ao usar o [!DNL Adobe Experience Platform Web SDK] não está funcionando corretamente. (TNT-47012)
 
@@ -136,7 +152,7 @@ Esta versão inclui as seguintes correções:
 
 * Correção de um problema que fazia com que a função `trackEvent` sempre retornasse um erro.
 
-Para obter informações sobre todas as versões da at.js, consulte [Detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=pt-BR){target=_blank}.
+Para obter informações sobre todas as versões da at.js, consulte [Detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=pt-BR){target=_blank}.
 
 ### [!DNL Target] Standard/Premium 22.14.5 (13 a 15 de fevereiro de 2023)
 
@@ -156,7 +172,7 @@ Esta versão inclui as seguintes correções:
 * Correção de um erro no qual as atividades que envolviam regras de público e continham parâmetros com pontos em seus nomes não retornavam a experiência esperada de decisão no dispositivo.
 * Correção de um erro introduzido na at.js 2.6.0, no qual ela acionava uma chamada de entrega, mesmo quando `mboxDisable` estava ativado.
 
-Para obter informações sobre todas as versões da at.js, consulte [Detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=pt-BR){target=_blank}.
+Para obter informações sobre todas as versões da at.js, consulte [Detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=pt-BR){target=_blank}.
 
 ### [!DNL Target] Standard/Premium 22.13.3 (25 e 26 de janeiro de 2023)
 
@@ -1275,7 +1291,7 @@ Esta versão do [!DNL Target] inclui os seguintes aprimoramentos, correções e 
    <td colname="col2"> <p>Esta é uma versão de manutenção e aborda o seguinte problema: </p> <p> 
      <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
       <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>Corrigido um problema que, em alguns sites de clientes, resultava em um loop "async" infinito. </p> </li> 
-     </ul> </p> <p> <p>Importante: além disso, a versão 1.6.2 da at.js também contém todas as melhorias e correções incluídas nas versões 1.6.1 e 1.6.0 da at.js. Essas versões não estão mais disponíveis para download. Recomendamos que você atualize para a versão 1.6.2, se estiver usando a 1.6.1 ou 1.6.0. </p> </p> <p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="html" scope="external">Detalhes da versão da at.js.</a> </p> </td> 
+     </ul> </p> <p> <p>Importante: além disso, a versão 1.6.2 da at.js também contém todas as melhorias e correções incluídas nas versões 1.6.1 e 1.6.0 da at.js. Essas versões não estão mais disponíveis para download. Recomendamos que você atualize para a versão 1.6.2, se estiver usando a 1.6.1 ou 1.6.0. </p> </p> <p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR" format="html" scope="external">Detalhes da versão da at.js.</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2476,7 +2492,7 @@ Essa versão do [!DNL Target] está focada em melhorias de usabilidade e desempe
       <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> Os nomes das mboxes agora podem conter caracteres especiais, incluindo "E" comercial (&amp;). (TNT-26144) </p> <p>Para obter mais informações, consulte <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html" format="dita" scope="local">Configurações de at.js</a>. </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>Adição da configuração <span class="codeph">secureOnly</span>, que indica se a <span class="codeph">at.js</span> deve usar somente HTTPS ou pode alternar entre HTTP e HTTPS com base no protocolo da página. Esta é uma configuração avançada cujo padrão é Falso e pode ser substituída por <span class="codeph">targetGlobalSettings </span>. (TNT-26183) </p> <p>Para obter mais informações, consulte <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local">targetGlobalSettings()</a>. </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>A opção <span class="wintitle">Suporte a navegador herdado</span> está disponível na <span class="codeph">at.js</span> versão 0.9.3 e posteriores. Esta opção foi removida na <span class="codeph">at.js</span> versão 0.9.4. </p> <p>Para obter mais informações, consulte <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html" format="dita" scope="local">Configurações de at.js</a>. </p> </li> 
-     </ul> </p> <p>Para obter informações sobre as alterações de cada versão da <span class="codeph">at.js</span>, consulte <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="html" scope="external">Detalhes de versão da at.js.</a> </p> </td> 
+     </ul> </p> <p>Para obter informações sobre as alterações de cada versão da <span class="codeph">at.js</span>, consulte <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR" format="html" scope="external">Detalhes de versão da at.js.</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
