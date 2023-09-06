@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '410'
+ht-degree: 83%
 
 ---
 
@@ -31,10 +31,6 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 
 * Correção de um problema que causava dados de relatórios inconsistentes no [!DNL Target] A interface do usuário e o [!DNL Adobe Analytics] Interface do usuário para [!UICONTROL Alocação automática] atividades que usam [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios. (TGT-46112)
 * O tempo limite das chamadas de PUT para a API de entrega do Target foi aumentado para 15 segundos para evitar erros de tempo limite. (TGT-46091)
-* Correção de um problema que exibia o nome de relatório incorreto ao alternar entre a variável [!UICONTROL Exibição de tabela] e a variável [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes] relatórios. (TGT-46040)
-* Aprimoramento do [!UICONTROL Visual Experience Composer] (VEC) para oferecer suporte ao Lightning DOM (Componentes da Web). (TGT-45422)
-* Correção de um problema que fazia com que as ações do VEC fossem aplicadas na ordem incorreta. Em alguns casos, o VEC aplicou algumas modificações de forma assíncrona e adicionar modificações extras a um elemento causou erros se esse elemento fosse exibido após um [!UICONTROL Inserir] ação. (TGT-45983)
-* Correção de um problema ao abrir uma página de Aplicativo de página única (SPA) no VEC e, em seguida, ir para o modo Procurar, fazia com que as setas Voltar e Encaminhar não funcionassem corretamente. (TGT-45956)
 * Correção de um problema que impedia a atualização consistente do URL ao navegar por um site de Aplicativo de página única (SPA). (TGT-45417)
 
 ## Notas de versão adicionais e detalhes da versão
