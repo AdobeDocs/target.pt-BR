@@ -5,9 +5,9 @@ title: Como evitar erros comuns em testes A/B?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3898'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ Se você alterar manualmente a divisão de alocação para 100% para a Experiên
 Se você quiser alterar as porcentagens ou afetar o fluxo de visitantes em cada experiência, recomendamos criar uma nova atividade ou copiar a atividade e editar as porcentagens de alocação de tráfego.
 
 Se você alterar as porcentagens de diferentes experiências durante o período de teste, levará alguns dias para os dados normalizarem, especialmente se muitos compradores forem visitantes recorrentes.
-Como outro exemplo, se a alocação de tráfego do seu Teste A/B for dividida em 50/50 e você alterar a divisão para 80/20, nos primeiros dias após essa alteração, os resultados poderão parecer distorcidos. Se o tempo médio para conversões for alto, o que significa que uma pessoa leva várias horas ou até mesmo dias para fazer uma compra, essas conversões lentas podem afetar os relatórios. Portanto, naquela primeira experiência em que o número passou de 50% para 80%, e o tempo médio de conversão é de dois dias, apenas visitantes de 50% da população estão convertendo no primeiro dia do teste, embora hoje 80% da população está entrando na experiência. Isso faz parecer que a taxa de conversão despencou, mas normalizará novamente depois que esses 80% dos visitantes levarem dois dias para converter.
+Um outro exemplo é se a alocação de tráfego do seu teste A/B for dividida em 50/50 e você alterar a divisão para 80/20. Nos primeiros dias após essa alteração, os resultados poderão parecer distorcidos. Se o tempo médio para conversões for alto, o que significa que uma pessoa leva várias horas ou até mesmo dias para fazer uma compra, essas conversões lentas podem afetar os relatórios. Portanto, naquela primeira experiência em que o número passou de 50% para 80%, e o tempo médio de conversão é de dois dias, apenas visitantes de 50% da população estão convertendo no primeiro dia do teste, embora hoje 80% da população está entrando na experiência. Isso faz parecer que a taxa de conversão despencou, mas normalizará novamente depois que esses 80% dos visitantes levarem dois dias para converter.
 
 ## Armadilha 8: não considerar os efeitos da novidade {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
