@@ -5,9 +5,9 @@ title: Onde posso encontrar informações sobre anúncios e eventos do  [!DNL Ta
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2241'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,22 +17,22 @@ Avisos e informações sobre eventos do [!DNL Adobe Target], incluindo sessões 
 
 ## [!DNL Adobe Target] Sessão de perguntas e respostas da comunidade (30 de agosto de 2023)
 
-* **Tópico: &quot;Criar estratégia para obter o máximo impacto sobre o ROI com a preparação para a temporada de pico&quot; Acompanhamento do webinário**
+* **Tópico: acompanhamento do webinário “Criação de estratégias para obter o máximo impacto sobre o ROI com a preparação para a alta temporada”**
 * **Quarta-feira, 30 de agosto de 2023**
 * **08:00-9:00 (PDT, UTC-7)**
 * **[Inscreva-se aqui](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
 
-[!DNL Adobe Target] os especialistas John Magnusson e John Mosbaugh estarão disponíveis neste evento de pergunte-me-qualquer coisa para responder às suas perguntas relacionadas aos tópicos abordados no webinário &quot;Estratégia para o impacto máximo do ROI com disponibilidade para a temporada de pico&quot; (17 de agosto de 2023).
+Os especialistas do [!DNL Adobe Target] John Magnusson e John Mosbaugh estarão disponíveis neste evento para responder perguntas relacionadas aos tópicos abordados no webinário “Criação de estratégias para obter o máximo impacto sobre o ROI com a preparação para a alta temporada” (17 de agosto de 2023).
 
 +++Ver detalhes
 
 Os tópicos incluem:
 
-* Como criar painéis e relatar as métricas principais com eficiência
+* Como criar painéis e relatar as métricas principais de maneira eficaz
 * Análise do impacto de cada canal de marketing
-* Aprofundar o comportamento do cliente e as tendências de compras
-* Identificar experiências inadequadas do cliente e melhorá-las por meio de testes
-* Descobrir áreas de oportunidade para impulsionar a conversão do site
+* Detalhes sobre o comportamento de clientes e as tendências de compra
+* Identificar experiências de cliente inadequadas e melhorá-las por meio de testes
+* Descoberta de áreas de oportunidade para impulsionar a conversão do site
 
 +++
 
