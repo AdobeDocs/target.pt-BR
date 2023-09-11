@@ -4,9 +4,9 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] 
 title: Onde posso encontrar informações sobre anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
-workflow-type: ht
-source-wordcount: '2241'
+source-git-commit: 5f782d0a2f632d2df3067825ebe829a6a781b3e0
+workflow-type: tm+mt
+source-wordcount: '2128'
 ht-degree: 100%
 
 ---
@@ -14,27 +14,6 @@ ht-degree: 100%
 # Anúncios e eventos do [!DNL Adobe Target]
 
 Avisos e informações sobre eventos do [!DNL Adobe Target], incluindo sessões de coffee-break do [!DNL Target], séries de webinários do [!DNL Target], sessões de construção de habilidades do [!DNL Target], bate-papos com desenvolvedores e muito mais. Se estiverem disponíveis, serão incluídos links para gravações anteriores.
-
-## [!DNL Adobe Target] Sessão de perguntas e respostas da comunidade (30 de agosto de 2023)
-
-* **Tópico: acompanhamento do webinário “Criação de estratégias para obter o máximo impacto sobre o ROI com a preparação para a alta temporada”**
-* **Quarta-feira, 30 de agosto de 2023**
-* **08:00-9:00 (PDT, UTC-7)**
-* **[Inscreva-se aqui](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
-
-Os especialistas do [!DNL Adobe Target] John Magnusson e John Mosbaugh estarão disponíveis neste evento para responder perguntas relacionadas aos tópicos abordados no webinário “Criação de estratégias para obter o máximo impacto sobre o ROI com a preparação para a alta temporada” (17 de agosto de 2023).
-
-+++Ver detalhes
-
-Os tópicos incluem:
-
-* Como criar painéis e relatar as métricas principais de maneira eficaz
-* Análise do impacto de cada canal de marketing
-* Detalhes sobre o comportamento de clientes e as tendências de compra
-* Identificar experiências de cliente inadequadas e melhorá-las por meio de testes
-* Descoberta de áreas de oportunidade para impulsionar a conversão do site
-
-+++
 
 ## Série de webinários do [!DNL Adobe Target]  {#webinar-series}
 
