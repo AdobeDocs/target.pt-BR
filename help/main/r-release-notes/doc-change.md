@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
+source-git-commit: 571f429596d08f2ecc21006bfda57575b1da3589
 workflow-type: tm+mt
-source-wordcount: '1750'
-ht-degree: 92%
+source-wordcount: '1760'
+ht-degree: 99%
 
 ---
 
@@ -19,19 +19,20 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 11 de setembro | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Notas de versão adicionadas para a versão 23.9.2 do [!DNL Target Standard/Premium]. |
 | 6 de setembro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.9.1 do [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.8.1 (9 de agosto de 2023)
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 1 de setembro | [Ambientes](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | Atualização da observação em &quot;Definir o ambiente padrão para relatórios&quot;. |
-| 30 de agosto | [Privacidade](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | Nova seção adicionada: &quot;Ofuscação de IP no nível de sequência de dados ao usar o SDK da Web da Adobe Experience Platform&quot; |
-|  | [Configurações de atividade - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | O período corrigido para esperar que os dados sejam exibidos nos relatórios das seguintes perguntas frequentes: &quot;Acabei de criar uma atividade. Por que não vejo nenhum dado chegando?&quot; |
-| 29 de agosto | [Recursos compatíveis com a decisão no dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | Adição da lista de atributos geográficos compatíveis com o direcionamento ao usar a decisão no dispositivo (ODD) no lado do cliente. |
-|  | [Visão geral da decisão no dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | Adição da lista de atributos geográficos compatíveis com o direcionamento ao usar a Decisão no dispositivo (ODD) no lado do servidor. |
+| 1 de setembro | [Ambientes](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | Atualização da observação em “Definir o ambiente padrão para relatórios”. |
+| 30 de agosto | [Privacidade](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html?lang=pt-BR#aep){target=_blank} | Nova seção adicionada: “Ofuscação de IP no nível da sequência de dados ao usar o SDK da Web da Adobe Experience Platform” |
+|  | [Configurações de atividade - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | Correção do intervalo de tempo esperado para que os dados sejam exibidos em relatórios nas seguintes perguntas frequentes: “Acabei de criar uma atividade. Por que não vejo nenhum dado chegando?” |
+| 29 de agosto | [Recursos compatíveis com a decisão no dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html?lang=pt-BR){target=_blank} | Adição da lista de atributos geográficos compatíveis com o direcionamento ao usar a decisão no dispositivo (ODD) no lado do cliente. |
+|  | [Visão geral da decisão no dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=pt-BR){target=_blank} | Adição da lista de atributos geográficos compatíveis com o direcionamento ao usar a decisão no dispositivo (ODD) no lado do servidor. |
 |  | [Implementação do Target com o SDK móvel da AEP em um aplicativo nativo com visualizações da Web](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html?lang=pt-BR){target=_blank} | Novo artigo. |
-|  | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o próximo Coffee-break da Adobe Target Community (30 de agosto de 2023): &quot;Crie uma estratégia para obter o máximo impacto do ROI com o acompanhamento do webinário de preparação da temporada de pico&quot;. |
+|  | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Adição de informações sobre a próxima sessão de perguntas e respostas da comunidade do Adobe Target (30 de agosto de 2023): acompanhamento do webinário “Criação de estratégias para obter o máximo impacto sobre o ROI com a preparação para a alta temporada”. |
 | 14 de agosto | [Controle de qualidade da atividade](/help/main/c-activities/c-activity-qa/activity-qa.md) | Foram adicionadas informações esclarecendo que carregar uma página no seu site com um valor vazio *não* remove o cookie de controle de qualidade do navegador com at.js 2.*x* é implantado(a). |
 |  | [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Atualização da definição de “Confiança”. |
 |  | [Ofertas](/help/main/c-experiences/c-manage-content/manage-content.md) | Foi adicionada uma observação explicando que as ofertas de imagem não fazem parte do modelo [!UICONTROL Permissões para usuários empresariais]. |
