@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 571f429596d08f2ecc21006bfda57575b1da3589
+source-git-commit: c8afd59614e94590fdca8345999c11e4a92c042a
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1770'
 ht-degree: 99%
 
 ---
@@ -19,7 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 11 de setembro | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Notas de versão adicionadas para a versão 23.9.2 do [!DNL Target Standard/Premium]. |
+| 12 de setembro | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.9.2 do [!DNL Target Standard/Premium]. |
+| 11 de setembro | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de notas de pré-lançamento para o [!DNL Target Standard/Premium] versão 23.9.2. |
 | 6 de setembro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.9.1 do [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.8.1 (9 de agosto de 2023)
