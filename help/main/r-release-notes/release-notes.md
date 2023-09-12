@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: c8afd59614e94590fdca8345999c11e4a92c042a
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 78%
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Target] Standard/Premium 23.9.2 (12-14 de setembro de 2023)
+## [!DNL Target] Standard/Premium 23.9.2 (12 a 14 de setembro de 2023)
 
 Esta versão estará disponível de acordo com o seguinte cronograma:
 
@@ -32,7 +32,7 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 * Alterou o [!DNL Analytics] à nova [!DNL Analytics] API versão 2.0. (TGT-45345)
 * Correção de problemas que afetavam o [!UICONTROL Automated Personalization] (AP) para alguns clientes, incluindo a sincronização oportuna da atividade no [!DNL Target] back-end e entrega da experiência esperada nos links de visualização. (TGT-46202)
 
-## [!DNL Target] Standard/Premium 23.9.1 (6-11 de setembro de 2023)
+## [!DNL Target] Standard/Premium 23.9.1 (6 a 11 de setembro de 2023)
 
 Esta versão estará disponível de acordo com o seguinte cronograma:
 
@@ -42,9 +42,9 @@ Esta versão estará disponível de acordo com o seguinte cronograma:
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Correção de um problema que causava dados de relatórios inconsistentes no [!DNL Target] A interface do usuário e o [!DNL Adobe Analytics] Interface do usuário para [!UICONTROL Alocação automática] atividades que usam [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios. (TGT-46112)
+* Correção de um problema que causava inconsistência nos dados de relatórios na interface do [!DNL Target] e do [!DNL Adobe Analytics] para atividades de [!UICONTROL Alocação automática] que usam o [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios. (TGT-46112)
 * O tempo limite das chamadas de PUT para a API de entrega do Target foi aumentado para 15 segundos para evitar erros de tempo limite. (TGT-46091)
-* Correção de um problema que impedia a atualização consistente do URL ao navegar por um site de Aplicativo de página única (SPA). (TGT-45417)
+* Correção de um problema que impedia a atualização consistente do URL ao navegar por um site de aplicativo de página única (SPA). (TGT-45417)
 
 ## Notas de versão adicionais e detalhes da versão
 

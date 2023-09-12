@@ -15,7 +15,7 @@ ht-degree: 99%
 
 Essa página lista alterações importantes feitas na documentação do [!DNL Adobe Target].
 
-## [!DNL Target] Standard/Premium 23.9.1 (6-11 de setembro de 2023)
+## [!DNL Target] Standard/Premium 23.9.1 (6 a 11 de setembro de 2023)
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
