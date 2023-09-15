@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 56435a5603c08b5c7272d3393893c427717c065b
+source-git-commit: b0bdb7d5004af73c6dff8323266ea4c58972fd80
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '496'
+ht-degree: 77%
 
 ---
 
@@ -15,13 +15,23 @@ ht-degree: 100%
 
 Este artigo contém informações de pré-lançamento das próximas versões do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: 14 de setembro de 2023**
+**Última atualização: 15 de setembro de 2023**
 
 >[!NOTE]
 >
 >As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 >
 >Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
+
+## [!DNL Target] Standard/Premium 23.9.3 (18 de setembro de 2023)
+
+Essa versão conta com os seguintes aprimoramentos e correções:
+
+* Aprimoramento do [!UICONTROL Visual Experience Composer] (VEC) para oferecer suporte ao Lightning DOM (Componentes da Web). (TGT-45422)
+* Correção de um problema que fazia com que as ações do VEC fossem aplicadas na ordem incorreta. Em alguns casos, o VEC aplicou algumas modificações de forma assíncrona e adicionar modificações extras a um elemento causou erros se esse elemento fosse exibido após um [!UICONTROL Inserir] ação. (TGT-45983)
+* Correção de um problema com o VEC [!UICONTROL Sobreposição] recurso, que agora oferece suporte a elementos em DOMs Sombra. (TGT-45202 e TGT-45262)
+* Correção de um problema ao abrir uma página de Aplicativo de página única (SPA) no VEC e acessar [!UICONTROL Procurar] fazia com que as setas para trás e para a frente não funcionassem corretamente. (TGT-45956)
+* Correção de um problema que impedia o carregamento de algumas páginas da Web no VEC. (TGT-45983)
 
 ## [!DNL Target] Standard/Premium 23.9.2 (12 a 14 de setembro de 2023)
 
