@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b0bdb7d5004af73c6dff8323266ea4c58972fd80
+source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 77%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 77%
 
 Este artigo contém informações de pré-lançamento das próximas versões do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: 15 de setembro de 2023**
+**Última atualização: 18 de setembro de 2023**
 
 >[!NOTE]
 >
@@ -27,8 +27,8 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Aprimoramento do [!UICONTROL Visual Experience Composer] (VEC) para oferecer suporte ao Lightning DOM (Componentes da Web). (TGT-45422)
-* Correção de um problema que fazia com que as ações do VEC fossem aplicadas na ordem incorreta. Em alguns casos, o VEC aplicou algumas modificações de forma assíncrona e adicionar modificações extras a um elemento causou erros se esse elemento fosse exibido após um [!UICONTROL Inserir] ação. (TGT-45983)
+* Aprimoramento do [!UICONTROL Visual Experience Composer] (VEC) para oferecer suporte a Componentes Web Lightning (Light DOM). (TGT-45422)
+* Correção de um problema que fazia com que as ações do VEC fossem aplicadas na ordem incorreta. Em alguns casos, o VEC aplicou algumas modificações de forma assíncrona e adicionar modificações extras a um elemento causou erros se esse elemento fosse exibido após um [!UICONTROL Inserir] ação. Também corrige o URL do VEC que agora é atualizado ao clicar em links âncora. (TGT-45983)
 * Correção de um problema com o VEC [!UICONTROL Sobreposição] recurso, que agora oferece suporte a elementos em DOMs Sombra. (TGT-45202 e TGT-45262)
 * Correção de um problema ao abrir uma página de Aplicativo de página única (SPA) no VEC e acessar [!UICONTROL Procurar] fazia com que as setas para trás e para a frente não funcionassem corretamente. (TGT-45956)
 * Correção de um problema que impedia o carregamento de algumas páginas da Web no VEC. (TGT-45983)
