@@ -5,10 +5,10 @@ title: Qual é o objetivo do  [!DNL Adobe Customer Journey Analytics]  for  [!DN
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 13c899b656d9f15e7368d981ac25540c46caccb2
-workflow-type: ht
-source-wordcount: '919'
-ht-degree: 100%
+source-git-commit: 1e130d616c7042b61a12594eb1d9d57970d6a409
+workflow-type: tm+mt
+source-wordcount: '961'
+ht-degree: 95%
 
 ---
 
@@ -30,6 +30,7 @@ Considere as seguintes informações antes de usar a integração CJA4T:
    * Se tiver uma conta do [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905), consulte [Especificar funções e permissões](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) em *Usuários*.
    * Se tiver uma conta do [Target Premium](/help/main/c-intro/intro.md#premium), consulte [Funções e permissões](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) em *Permissões para usuários corporativos*.
 
+* Você deve fazer parte de uma função no [!DNL Adobe Experience Platform] para configurar um [!DNL Target] atividade com [!DNL Customer Journey Analytics] como fonte de relatórios. Para obter mais informações, consulte [Adicionar uma função no [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions.html){target=_blank} in *Configurar permissões* no *Tutorial do arquiteto de dados e engenheiro.*
 * Dependendo das configurações, os relatórios podem ser alterados por atividade ou no nível da organização. Consulte [Solução de relatórios na nuvem](/help/main/administrating-target/reporting.md#solution) em *Configurar relatórios no Target*.
 * Você deve usar uma fonte de relatórios ou outra. Não é possível coletar dados de uma única atividade para diversas fontes de relatórios.
 * Ao definir o [!DNL Customer Journey Analytics] como fonte de relatórios, será solicitado que você especifique a sandbox para relatórios. Durante a configuração, somente as sandboxes às quais você tem acesso serão exibidas.
