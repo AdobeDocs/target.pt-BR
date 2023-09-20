@@ -1,20 +1,20 @@
 ---
-keywords: Automated Personalization;ap;visualizar;excluir experiência;
-description: Saiba como visualizar cada experiência em uma atividade de Automated Personalization (AP) no Adobe [!DNL Target] usando o Visual Experience Composer (VEC).
-title: Como posso visualizar experiências do Automated Personalization no VEC?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+keywords: Automated Personalization;ap;visualizar;excluir experiência;;ap;preview;exclude experience
+description: Saiba como visualizar cada experiência em um [!UICONTROL Automated Personalization] Atividade de (AP) no [!DNL Adobe Target] usando o [!UICONTROL Visual Experience Composer] (VEC).
+title: Como posso visualizar [!UICONTROL Automated Personalization] Experiências no VEC?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: bfe25200407086680b2f2a4e9f33f8ec130c25ad
+source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 47%
+source-wordcount: '279'
+ht-degree: 28%
 
 ---
 
-# Visualizar experiências para Automated Personalization no Visual Experience Composer
+# Visualizar experiências no [!UICONTROL Automated Personalization] atividades na [!UICONTROL Visual Experience Composer] (VEC)
 
-Como um [!DNL Adobe Target] [!UICONTROL Automated Personalization] A atividade de (AP) compara várias ofertas em uma página. É útil visualizar a página com cada experiência.
+Porque [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) As atividades do comparam várias ofertas em uma página. É útil visualizar a página com cada experiência.
 
 1. No [!UICONTROL Visual Experience Composer] (VEC), clique em **[!UICONTROL Visualizar]**.
 
@@ -24,7 +24,7 @@ Como um [!DNL Adobe Target] [!UICONTROL Automated Personalization] A atividade d
 
    ![Visualizar experiências](/help/main/c-activities/t-automated-personalization/assets/ap_preview-new.png)
 
-1. Clique em uma experiência específica na lista para visualizá-la.
+1. Clique em uma experiência específica na lista para exibi-la.
 
 1. (Condicional) Para excluir uma ou mais experiências da atividade, clique no ícone **[!UICONTROL Excluir]** .
 
@@ -44,4 +44,4 @@ Como um [!DNL Adobe Target] [!UICONTROL Automated Personalization] A atividade d
 
    Para incluir várias experiências que foram excluídas, marque as caixas de seleção das experiências desejadas e clique no **[!UICONTROL Incluir]** ícone na parte superior direita da lista.
 
-1. Clique em **[!UICONTROL Compor]** para retornar para o Visual Experience Composer e fazer alterações ou clique em **[!UICONTROL Avançar]** para ir para a etapa [!UICONTROL Direcionamento].
+1. Clique em **[!UICONTROL Compor]** para retornar ao [!UICONTROL Visual Experience Composer] para fazer alterações adicionais ou clique em **[!UICONTROL Próxima]** para acessar o [!UICONTROL Direcionamento] etapa.

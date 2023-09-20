@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
+source-git-commit: 11b5915d75b72a3891572d841de0a353f68dcbf3
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 75%
+source-wordcount: '603'
+ht-degree: 72%
 
 ---
 
@@ -59,6 +59,23 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 * Correção de um problema que causava inconsistência nos dados de relatórios na interface do [!DNL Target] e do [!DNL Adobe Analytics] para atividades de [!UICONTROL Alocação automática] que usam o [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios. (TGT-46112)
 * O tempo limite das chamadas de PUT para a API de entrega do Target foi aumentado para 15 segundos para evitar erros de tempo limite. (TGT-46091)
 * Correção de um problema que impedia a atualização consistente do URL ao navegar por um site de aplicativo de página única (SPA). (TGT-45417)
+
+## [!DNL Target] Standard/Premium 23.5.2 (data a ser determinada)
+
+Essa versão conta com os seguintes aprimoramentos e correções:
+
+* Seleção de critérios de otimização ativada para [!DNL Adobe Analytics] métricas.
+* Ativação da sincronização de públicos externos usando trabalhos do sling.
+* Correção de um problema em que os conjuntos de relatórios do SC contendo um caractere de ponto no nome não eram compatíveis.
+* Ativação da funcionalidade para permitir que os clientes excluam e editem públicos-alvo integrados.
+
+## [!DNL Target] Standard/Premium 23.5.3 (data a ser determinada)
+
+Esta versão inclui as seguintes melhorias:
+
+| Recurso | Detalhes |
+|--- |--- |
+| [!UICONTROL Modo de controle de qualidade] para atividades do [!UICONTROL Automated Personalization] | O [!UICONTROL Modo de controle de qualidade] do [!DNL Adobe Target] agora está disponível para as atividades do [!UICONTROL Automated Personalization], substituindo a funcionalidade de [!UICONTROL Links de visualização].<P>Para obter mais informações, consulte [Controle de qualidade da atividade.](/help/main/c-activities/c-activity-qa/activity-qa.md) |
 
 ## Notas de versão adicionais e detalhes da versão
 

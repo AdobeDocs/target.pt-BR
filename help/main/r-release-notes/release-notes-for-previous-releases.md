@@ -4,9 +4,9 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: b35f86e01b5527b750b981affd1a2c72c26f8c55
 workflow-type: tm+mt
-source-wordcount: '37230'
+source-wordcount: '37213'
 ht-degree: 96%
 
 ---
@@ -2933,10 +2933,6 @@ O Adobe Target Standard/Premium versão 16.5.1 (19 de maio de 2016) inclui os se
   <tr> 
    <td colname="col1"> Versões de experiência </td> 
    <td colname="col2"> <p>Versões direcionadas a diferentes públicos-alvo agora podem ser configuradas dentro das experiências nas atividades A/B. </p> <p>Consulte <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF" format="dita" scope="local">Direcione uma experiência a vários públicos.</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> URLS de controle de qualidade/visualização </td> 
-   <td colname="col2"> <p>Os URLs de visualização agora estão disponíveis para o Experience Composer baseado em formulário. </p> <p>Consulte <a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local">Exibir URLs de experiências.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Algoritmos personalizados do Recommendations </td> 

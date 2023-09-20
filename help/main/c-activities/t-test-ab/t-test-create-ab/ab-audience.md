@@ -4,10 +4,10 @@ description: O público-alvo determina quais visitantes do site são inseridos n
 title: Como selecionar um público-alvo em uma [!DNL Target] Atividade A/B?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 676350453268e4ffc04df83dcda0525842ca8b07
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 91%
+source-wordcount: '431'
+ht-degree: 70%
 
 ---
 
@@ -19,29 +19,40 @@ O público-alvo determina quais visitantes do site são inseridos no [!DNL Adobe
 >
 >Além de selecionar um público-alvo existente, você pode combinar vários deles para criar públicos-alvo combinados ad hoc em vez de criar um novo. Para obter mais informações, consulte [Combinar vários públicos-alvo](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-Na caixa [!UICONTROL Público-alvo], clique no ícone Editar (três elipses verticais) e clique em **[!UICONTROL Substituir público-alvo]**.
+1. No [!UICONTROL Público] , clique no link **[!UICONTROL Editar]** (as reticências verticais) e clique em **[!UICONTROL Substituir público-alvo]**.
 
-![Opção Substituir público-alvo](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+   ![Opção Substituir público-alvo](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-Por padrão, todos os visitantes são seu público-alvo. No entanto, você pode mudar o público-alvo. Os públicos-alvo são selecionados na biblioteca de público-alvo ou você pode criar um público-alvo com apenas uma atividade. A biblioteca de público-alvo contém públicos que foram definidos previamente, inclusive alguns comuns que são predefinidos como parte do Target. Você pode selecionar um público-alvo da biblioteca, [criar um novo público-alvo](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1) ou [criar um público-alvo somente para atividades](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Para um teste A/B sem direcionamento a um público-alvo específico, escolha o padrão, Todos os visitantes.
+   Por padrão, todos os visitantes são seu público-alvo. No entanto, você pode mudar o público-alvo. Os públicos-alvo são selecionados na biblioteca de público-alvo ou você pode criar um público-alvo com apenas uma atividade. A biblioteca de público-alvo contém públicos que foram definidos previamente, inclusive alguns comuns que são predefinidos como parte do [!DNL Target].
 
-Observe que você também pode editar ou copiar um público-alvo ao passar o mouse sobre o público-alvo desejado na caixa de diálogo [!UICONTROL Escolher público-alvo], conforme indicado abaixo. Copiar um público-alvo é útil se você deseja criar outro semelhante para um público-alvo existente. Você pode fazer uma cópia do público-alvo, fazer suas edições e salvá-lo como um público-alvo novo. Essa funcionalidade de passar o mouse sobre o item também existe em outros tipos de atividade.
+1. Selecione ou crie o público-alvo desejado:
 
-![Cursor do mouse sobre o público-alvo](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
+   * Selecionar um público-alvo da biblioteca
+   * [Combinar vários públicos](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)
+   * [Criar um novo público](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
+   * [Criar um público somente com atividades](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
-Ao criar um público-alvo, você pode selecionar um local (mbox) e especificar os parâmetros para esse local. Em Parâmetros personalizados, selecione a mbox e especifique os parâmetros desejados.
+   Para um teste A/B sem direcionamento específico de público, escolha o padrão, [!UICONTROL Todos os visitantes].
 
->[!NOTE]
->
->Os públicos-alvo são importados automaticamente em segundo plano quando você abre a lista de públicos-alvo e os públicos importados foram criados há mais de 10 minutos.
+   Também é possível editar ou copiar um público-alvo passando o cursor do mouse sobre o público-alvo desejado na [!UICONTROL Adicionar público-alvo] conforme mostrado abaixo.
 
-Clique na seta para baixo para remover o público-alvo existente ou alterar o público-alvo.
+   Copiar um público-alvo é útil se você deseja criar outro semelhante para um público-alvo existente. Você pode fazer uma cópia do público-alvo, fazer suas edições e salvá-lo como um público-alvo novo. Essa funcionalidade de passar o mouse sobre o item também existe em outros tipos de atividade.
 
-Você pode especificar a porcentagem de visitantes qualificados para incluir na atividade. Por exemplo, você pode optar por incluir 50% de todos os visitantes.
+   ![Cursor do mouse sobre o público-alvo](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
-![Porcentagem de público-alvo](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+   Ao criar um público-alvo, você pode selecionar um local (mbox) e especificar os parâmetros para esse local. Em [!UICONTROL Parâmetros personalizados], selecione a mbox e especifique os parâmetros desejados.
 
-Você também pode escolher deixar a Target  [alocar o tráfego automaticamente](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+   >[!NOTE]
+   >
+   >Os públicos-alvo são importados automaticamente em segundo plano quando você abre a lista de públicos-alvo e os públicos importados foram criados há mais de 10 minutos.
+
+1. (Condicional) Especifique a porcentagem de visitantes qualificados a serem incluídos na atividade.
+
+   Por exemplo, você pode optar por incluir 50% de todos os visitantes.
+
+   ![Porcentagem de público-alvo](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+
+   Você também pode escolher deixar a Target  [alocar o tráfego automaticamente](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ## Vídeos de treinamento
 

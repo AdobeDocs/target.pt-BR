@@ -4,10 +4,10 @@ description: Saiba por quanto tempo executar um teste A/B. Um teste A/B bem-suce
 title: Por quanto tempo devo executar um teste A/B?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 216134ba7d0ce7ebdad2ba477b9ad1e9fab1dff2
+source-git-commit: b5da2f5d41739af39d97e0ce9761006794c04d2b
 workflow-type: tm+mt
-source-wordcount: '3092'
-ht-degree: 57%
+source-wordcount: '3085'
+ht-degree: 49%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 57%
 
 Um sucesso [!UICONTROL Teste A/B] atividade no [!DNL Adobe Target] O requer visitantes suficientes (tamanho da amostra) para melhorar a taxa de conversão. Como você sabe por quanto tempo executar um teste A/B? Este artigo contém informações sobre [!UICONTROL Alocação automática] atividades e o [!UICONTROL Adobe Target] Calculadora de tamanho de amostra para ajudá-lo a garantir que sua atividade tenha visitantes suficientes para atingir suas metas.
 
-É tentador parar uma atividade se uma das ofertas tiver um desempenho muito melhor ou pior do que os outros nos primeiros dias da atividade. No entanto, quando o número de observações é baixo, há uma alta probabilidade de que um aumento positivo ou negativo seja observado por acaso, porque a taxa de conversão é calculada em média por um número baixo de visitantes. À medida que a atividade coleta mais pontos de dados, as taxas de conversão convergem para seus valores verdadeiros de longo prazo.
+É tentador parar uma atividade se uma das ofertas tiver um desempenho melhor ou pior do que os outros nos primeiros dias da atividade. No entanto, quando o número de observações é baixo, há uma alta probabilidade de que um aumento positivo ou negativo seja observado por acaso, porque a taxa de conversão é calculada em média por um número baixo de visitantes. À medida que a atividade coleta mais pontos de dados, as taxas de conversão convergem para seus valores verdadeiros de longo prazo.
 
 >[!IMPORTANT]
 >
@@ -25,7 +25,7 @@ Um sucesso [!UICONTROL Teste A/B] atividade no [!DNL Adobe Target] O requer visi
 
 ## Alocação automática {#auto-allocate}
 
-Um [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) A atividade é um tipo de teste A/B que identifica um vencedor entre duas ou mais experiências. Um teste de Alocação automática realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.
+Um [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) A atividade é um tipo de teste A/B que identifica um vencedor entre duas ou mais experiências. Um [!UICONTROL Alocação automática] test realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.
 
 Os testes A/B padrão têm um custo inerente. Você deve gastar o tráfego para medir o desempenho de cada experiência e, por meio de análise, descobrir a experiência vencedora. A distribuição do tráfego permanece fixa mesmo depois de você reconhecer que algumas experiências estão superando outras. Além disso, é complicado descobrir o tamanho da amostra, e a atividade deve ser executada em sua totalidade para que você possa agir em um vencedor. E ainda há uma chance do vencedor identificado não ser um verdadeiro vencedor.
 
@@ -33,7 +33,7 @@ A solução é [!UICONTROL Alocação automática]. [!UICONTROL A alocação aut
 
 [!UICONTROL A alocação automática move os visitantes para experiências vencedoras gradativamente, em vez de exigir que você aguarde o fim de uma atividade para determinar um vencedor. ] Você se beneficia do incentivo mais rapidamente porque os participantes da atividade que teriam sido enviados para experiências de menor sucesso recebem experiências vencedoras potenciais.
 
-Ao usar o recurso [!UICONTROL Alocação automática], o [!DNL Adobe Target] exibe um emblema na parte superior da página da atividade, indicando &quot;Ainda não há vencedor&quot; até que a atividade atinja o número mínimo de conversões com confiança suficiente. [!DNL Target]O declara a experiência vencedora exibindo um emblema no topo da página da atividade.
+Ao usar [!UICONTROL Alocação automática], [!DNL Target] O exibe um emblema na parte superior da página da atividade, indicando &quot;Ainda não há vencedor&quot; até que a atividade atinja o número mínimo de conversões com confiança suficiente. [!DNL Target]O declara a experiência vencedora exibindo um emblema no topo da página da atividade.
 
 Para obter mais informações, consulte [Visão geral da alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
@@ -45,11 +45,11 @@ Antes de configurar o teste A/B, acesse o [!DNL Adobe Target] [Calculadora de ta
 
 ![Calculadora de tamanho da amostra do Adobe Target](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
-É importante determinar um tamanho de amostra adequado (número de visitantes) antes de fazer qualquer teste A/B, a fim de estabelecer o tempo que a atividade deve ser executada antes de avaliar os resultados. O simples monitoramento da atividade até que a significância estatística seja alcançada faz com que o intervalo de confiança seja amplamente subestimado, tornando o teste não confiável. Com base nesse resultado imagina-se que, caso um resultado estatisticamente significativo seja detectado, o teste será interrompido e um vencedor declarado. No entanto, se o resultado não for estatisticamente significativo, o teste poderá continuar. Esse procedimento favorece bastante o resultado positivo, o que aumenta a taxa de falsos positivos e, portanto, distorce o nível de significância efetiva do teste.
+É importante determinar um tamanho de amostra adequado (número de visitantes) antes de fazer qualquer teste A/B para estabelecer o tempo que a atividade deve ser executada antes de avaliar os resultados. O simples monitoramento da atividade até que a significância estatística seja alcançada faz com que o intervalo de confiança seja amplamente subestimado, tornando o teste não confiável. A intuição por trás desse resultado é que, no caso de um resultado estatisticamente significativo ser detectado, o teste é interrompido e um vencedor é declarado. No entanto, se o resultado não for estatisticamente significativo, o teste pode continuar. Esse procedimento favorece bastante o resultado positivo, o que aumenta a taxa de falsos positivos e, portanto, distorce o nível de significância efetiva do teste.
 
-Isso pode resultar em muitos falsos positivos, o que leva à implementação de ofertas que não fornecem o aumento previsto no final. O fraco aumento em si é um resultado insatisfatório, mas uma consequência ainda mais grave é que, com o tempo, a incapacidade de prever com precisão o aumento diminui a confiança organizacional nos testes como prática.
+Esse procedimento pode resultar em muitos falsos positivos, o que leva à implementação de ofertas que não fornecem o aumento previsto no final. O fraco aumento em si é um resultado insatisfatório, mas uma consequência ainda mais grave é que, com o tempo, a incapacidade de prever com precisão o aumento diminui a confiança organizacional nos testes como prática.
 
-Este artigo discute os fatores que devem ser equilibrados quando um tamanho de amostra é determinado e introduz uma calculadora para estimar um tamanho de amostra adequado. O cálculo do tamanho da amostra usando a calculadora de tamanho da amostra (link fornecido acima) antes do início de qualquer teste A/B garante que você sempre execute testes A/B de alta qualidade que estejam em conformidade com padrões estatísticos.
+Este artigo discute os fatores que devem ser equilibrados quando um tamanho de amostra é determinado e introduz uma calculadora para estimar um tamanho de amostra adequado. O cálculo do tamanho da amostra usando a calculadora de tamanho da amostra (link fornecido acima) antes do início de qualquer teste A/B ajuda a garantir que você sempre execute testes A/B de alta qualidade que estejam em conformidade com padrões estatísticos.
 
 Há cinco parâmetros estabelecidos pelo usuário que definem um teste A/B. Esses parâmetros são interligados de modo que quando quatro deles forem estabelecidos, o quinto poderá ser calculado:
 
@@ -97,9 +97,9 @@ As interpretações típicas do nível de confiança são resumidas na tabela ab
 
 ### Potência estatística {#section_1169C27F8E4643719D38FB9D6EBEB535}
 
-A potência estatística de um teste A/B é a probabilidade de detectar uma diferença real na taxa de conversão de uma certa magnitude. Devido à natureza aleatória (estocástica) dos eventos de conversão, é possível que uma diferença estatisticamente significativa não seja observada - apenas por acaso -- mesmo que haja uma diferença real na taxa de conversão entre as duas ofertas. Esse cenário é chamado de falso negativo ou erro Tipo II.
+A potência estatística de um teste A/B é a probabilidade de detectar uma diferença real na taxa de conversão de uma certa magnitude. Devido à natureza aleatória (estocástica) dos eventos de conversão, é possível que uma diferença estatisticamente significativa não seja observada, apenas por acaso, mesmo que haja uma diferença real na taxa de conversão entre as duas ofertas. Esse cenário é chamado de falso negativo ou erro Tipo II.
 
-A potência estatística é frequentemente ignorada porque a determinação dessa potência, em comparação com a significância estatística, não é necessária para realizar um teste A/B. No entanto, ao ignorar a potência estatística, há uma grande possibilidade de as diferenças reais entre as taxas de conversão de ofertas diferentes não serem detectadas pelo teste porque o tamanho da amostra é muito pequeno. Por isso, os testes são dominados por falsos positivos.
+A potência estatística é frequentemente ignorada porque a determinação dessa potência, em comparação com a significância estatística, não é necessária para realizar um teste A/B. No entanto, ao ignorar o poder estatístico, há uma chance substancial de que as diferenças reais entre as taxas de conversão de diferentes ofertas não sejam detectadas pelo teste, pois o tamanho da amostra é muito pequeno. Essa situação faz com que os testes sejam dominados por falsos positivos.
 
 É desejável ter alta potência estatística para que o teste tenha grandes chances de identificar uma diferença real nas taxas de conversão e gerar menos falsos negativos. No entanto, um número maior de visitantes é necessário para aumentar a capacidade estatística de detectar qualquer aumento, o que aumenta o tempo necessário para fazer o teste.
 
@@ -115,15 +115,15 @@ A figura abaixo mostra essas distribuições de probabilidade.
 
 ![imagem probability_distributions](assets/probability_distributions.png)
 
-Devido à grande sobreposição entre os dois intervalos, o teste não pode determinar se as taxas de conversão são diferentes. Assim, esse teste com 100 visitantes não pode distinguir entre as duas ofertas. No entanto, se o Target expuser as ofertas a 5.000 visitantes cada, há 95% de chance de as taxas de conversão observadas caírem nos intervalos de 9% a 11% e 14% a 16%, respectivamente.
+Devido à grande sobreposição entre os dois intervalos, o teste não pode determinar se as taxas de conversão são diferentes. Assim, esse teste com 100 visitantes não pode distinguir entre as duas ofertas. No entanto, se [!DNL Target] O expõe as ofertas a 5.000 visitantes cada, há uma chance de 95% de que as taxas de conversão observadas caiam nos intervalos de 9% a 11% e 14% a 16%, respectivamente.
 
 ![imagem probability_distributions2](assets/probability_distributions2.png)
 
-Nesse caso, é improvável que o teste chegue a uma conclusão errada, de modo que o teste com 5.000 visitantes possa distinguir as duas ofertas. O teste com 5.000 visitantes tem um intervalo de confiança de aproximadamente +/-1%. Isso significa que o teste pode detectar diferenças de cerca de 1%. Assim, ainda mais visitantes seriam necessários se as taxas de conversão verdadeiras das ofertas fossem, por exemplo, 10% e 10,5%, em vez de 10% e 15%.
+Nesse caso, é improvável que o teste chegue a uma conclusão errada, de modo que o teste com 5.000 visitantes possa distinguir as duas ofertas. O teste com 5.000 visitantes tem um intervalo de confiança de +/-1%. Isso significa que o teste pode detectar diferenças de cerca de 1%. Assim, ainda mais visitantes seriam necessários se as taxas de conversão verdadeiras das ofertas fossem, por exemplo, 10% e 10,5%, em vez de 10% e 15%.
 
 ### Índice de conversão de linha de base {#section_39380C9CA3C649B6BE6E1F8A06178B05}
 
-A taxa de conversão da linha de base é a taxa de conversão da oferta de controle (oferta A). Com frequência, você tem uma boa noção do nível de conversão da oferta com base na experiência anterior. Se esse não for o caso, por exemplo, porque há um novo tipo de oferta ou criação, o teste poderá ser executado por um dia mais ou menos para obter uma estimativa aproximada da taxa de conversão da linha de base que pode ser usada no cálculo do tamanho da amostra.
+A taxa de conversão da linha de base é a taxa de conversão da oferta de controle (oferta A). Geralmente, você tem uma boa noção do nível de conversão da oferta com base na experiência. Se esse não for o caso, por exemplo, porque há um novo tipo de oferta ou criação, o teste poderá ser executado por um dia mais ou menos para obter uma estimativa aproximada da taxa de conversão da linha de base que pode ser usada no cálculo do tamanho da amostra.
 
 ### Número de visitantes {#section_19009F165505429E95291E6976E498DD}
 
@@ -131,7 +131,7 @@ Talvez seja difícil equilibrar os custos da oportunidade de executar um teste p
 
 Como diretriz geral, um nível de confiança de 95% e uma potência estatística de 80% são recomendáveis.
 
-A calculadora de tamanhos de amostra (link fornecido acima) solicita que você decida a significância estatística (recomendação: 95%) e a potência estatística (recomendação: 80%). Após a especificação da taxa de conversão da linha de base e do tráfego diário entre as ofertas, a planilha gera o número de visitantes necessários para detectar um aumento de 1%, 2%, 5%, 10%, 15% e 20% com uma probabilidade igual à potência especificada do teste. A planilha também permite que o usuário insira um aumento mínimo detectável da confiabilidade personalizado. Além disso, a planilha gera o número de semanas necessário para o teste com base no nível de tráfego especificado pelo usuário. O número necessário de semanas é arredondado para o número inteiro mais próximo para evitar a influência de efeitos de dias de semana nos resultados.
+A calculadora de tamanhos de amostra (link fornecido acima) solicita que você decida a significância estatística (recomendação: 95%) e a potência estatística (recomendação: 80%). Após a especificação da taxa de conversão da linha de base e do tráfego diário entre as ofertas, a planilha gera o número de visitantes necessários para detectar um aumento de 1%, 2%, 5%, 10%, 15% e 20% com uma probabilidade igual à potência especificada do teste. A planilha também permite que o usuário insira um aumento mínimo confiável e personalizado. Além disso, a planilha gera o número de semanas necessário para o teste com base no nível de tráfego especificado pelo usuário. O número necessário de semanas é arredondado para a semana inteira mais próxima para evitar que os efeitos do dia da semana influenciem os resultados.
 
 Há uma compensação ente o aumento mínimo que pode ser identificado com confiança pelo teste e o número necessário de visitantes. A figura abaixo, que é válida para uma taxa de conversão da linha de base (controle) de 5%, mostra forte redução dos retornos para aumentar o número de visitantes. O aumento mínimo que pode ser detectado com confiança aumenta bastante durante a adição dos primeiros visitantes ao teste, mas é necessário um número cada vez maior de visitantes para melhorar o teste. A figura ajuda a encontrar uma compensação adequada entre o tempo necessário para executar o teste (conforme determinado pelo número de visitantes necessário e o tráfego do site) e o aumento mínimo que pode ser detectado com confiança pelo teste.
 
@@ -150,11 +150,11 @@ A calculadora do tamanho da amostra (link fornecido acima) pode ajudá-lo a conf
 * Número de visitantes para a oferta de controle
 * Receita total para a oferta de controle
 
-   Verifique se o filtro de ordem extrema está selecionado.
+  Verifique se o filtro de ordem extrema está selecionado.
 
 * A soma das receitas elevadas ao quadrado para a oferta de controle
 
-   Lembre-se de marcar o filtro de ordens extremas.
+  Verifique se o filtro de ordem extrema está marcado.
 
 Em geral, usar o RPV como uma métrica requer 20 a 30% a mais para atingir o mesmo nível de confiança estatística para o mesmo nível de aumento medido. Isso ocorre porque o RPV tem a variação adicionada de tamanhos de pedido diferentes por conversão. Isso deve ser levado em consideração ao escolher entre a taxa de conversão direta e o RPV como a métrica na qual basear sua decisão comercial final.
 
