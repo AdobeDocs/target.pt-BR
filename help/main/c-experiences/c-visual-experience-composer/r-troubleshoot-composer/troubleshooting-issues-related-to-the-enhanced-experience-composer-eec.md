@@ -4,7 +4,7 @@ description: Saiba como solucionar problemas que às vezes ocorrem no Adobe [!DN
 title: Como solucionar problemas relacionados ao Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: f948e6bd66a42939834b598821d68b93c82fa6af
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 42%
@@ -21,15 +21,15 @@ Isso pode ser resolvido incluindo na lista de permissões os seguintes endereço
 
 Peça à sua equipe de TI para incluir na lista de permissões os seguintes endereços IP:
 
-* 34.253.100.20
-* 34.248.100.23
-* 52.49.228.246
-* 54.205.42.123
-* 107.22.177.39
-* 52.201.5.105
-* 52.193.211.177
-* 18.180.24.249
-* 52.194.154.154
+* 52.18.97.86
+* 52.209.31.20
+* 52.214.41.220
+* 54.144.66.225
+* 54.82.53.36
+* 34.206.104.26
+* 3.115.90.128
+* 18.178.137.67
+* 3.112.77.52
 
 Você poderá ver a seguinte mensagem de erro no [!DNL Target]:
 
@@ -41,11 +41,11 @@ Os motivos pelos quais você pode ver essa mensagem de erro e correções para c
 
 * **Problema:**[!UICONTROL o domínio (ISP) do site está bloqueando o Enhanced Experience Composer].
 
-   **Solução:** Inclua na lista de permissões os endereços IP listados acima.
+  **Solução:** Inclua na lista de permissões os endereços IP listados acima.
 
 * **Problema:** Incluir na lista de permissões Os endereços IP são resolvidos, mas o seu site não é compatível com a versão 1.2 do TLS. [!DNL Target] O atualmente usa a configuração padrão do 1.2. Antes da [!DNL Target] 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com TLS 1.0. Para obter mais informações, consulte [Alterações na criptografia da Segurança da camada de transporte (TLS)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
-   **Solução:**[!UICONTROL consulte a seguinte pergunta (O Enhanced Visual Experience Composer não será carregado nas páginas seguras do meu site que usam TLS 1.2).]
+  **Solução:**[!UICONTROL consulte a seguinte pergunta (O Enhanced Visual Experience Composer não será carregado nas páginas seguras do meu site que usam TLS 1.2).]
 
 ## O EEC não será carregado nas páginas seguras do meu site que usam TLS 1.0. (Somente EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
