@@ -7,9 +7,9 @@ title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -23,10 +23,10 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Aprimoramento do [!UICONTROL Visual Experience Composer] (VEC) para oferecer suporte a Componentes Web Lightning (Light DOM). (TGT-45422)
-* Correção de um problema que fazia com que as ações do VEC fossem aplicadas na ordem incorreta. Em alguns casos, o VEC aplicou algumas modificações de forma assíncrona e adicionar modificações extras a um elemento causou erros se esse elemento fosse exibido após um [!UICONTROL Inserir] ação. Também corrige o URL do VEC que agora é atualizado ao clicar em links âncora. (TGT-45983)
-* Correção de um problema com o VEC [!UICONTROL Sobreposição] recurso, que agora oferece suporte a elementos em DOMs Sombra. (TGT-45202 e TGT-45262)
-* Correção de um problema ao abrir uma página de Aplicativo de página única (SPA) no VEC e acessar [!UICONTROL Procurar] fazia com que as setas para trás e para a frente não funcionassem corretamente. (TGT-45956)
+* Aprimoramento do [!UICONTROL Visual Experience Composer] (VEC) para oferecer suporte a componentes Lightning Web (DOM de luz). (TGT-45422)
+* Correção de um problema que fazia com que as ações do VEC fossem aplicadas na ordem incorreta. Em alguns casos, o VEC aplicava algumas modificações de forma assíncrona e adicionar modificações extras a um elemento causava erros se esse elemento fosse exibido após uma ação [!UICONTROL Inserir]. Também corrige o URL do VEC que agora é atualizado ao clicar em links de âncora. (TGT-45983)
+* Correção de um problema com o recurso [!UICONTROL Sobreposição] do VEC, que agora oferece suporte a elementos em DOMs de sombra. (TGT-45202 e TGT-45262)
+* Correção de um problema ao abrir uma página de Aplicativo de página única (SPA) no VEC e acessar o modo [!UICONTROL Procurar] que fazia com que as setas Voltar e Avançar não funcionassem corretamente. (TGT-45956)
 * Correção de um problema que impedia o carregamento de algumas páginas da Web no VEC. (TGT-45983)
 
 ## [!DNL Target] Standard/Premium 23.9.2 (12 a 14 de setembro de 2023)
