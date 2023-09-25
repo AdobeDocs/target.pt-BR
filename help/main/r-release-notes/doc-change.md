@@ -5,7 +5,7 @@ title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: f948e6bd66a42939834b598821d68b93c82fa6af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1825'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 22 de setembro | [Solução de problemas relacionados ao [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Atualização da lista de endereços IP na lista de permissões. |
-| 18 de setembro | Notas de versão (atuais) do[[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.9.3 do [!DNL Target Standard/Premium]. |
+| 18 de setembro | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.9.3 do [!DNL Target Standard/Premium]. |
 | 15 de setembro | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de informações de pré-lançamento para a versão 23.9.3 do [!DNL Target Standard/Premium]. |
 | 12 de setembro | Notas de versão (atuais) do[[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.9.2 do [!DNL Target Standard/Premium]. |
 |  | [Detalhes da versão de at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank} | Adição das notas de versão do at.js versão 2.10.3. |
