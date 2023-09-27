@@ -1,13 +1,13 @@
 ---
 keywords: Testes multivariados;url de atividade
-description: Saiba como especificar o URL da atividade que determina a página que é usada no teste e que é aberta quando a atividade de Teste multivariado é criada usando o Adobe Target.
-title: Qual é o URL da atividade em uma atividade multivariada (MVT)?
+description: Saiba como especificar o URL da atividade que determina a página usada no teste e que é aberta quando a variável [!UICONTROL Teste multivariado] A atividade do foi projetada usando [!DNL Adobe Target].
+title: Qual é o URL da atividade em uma [!UICONTROL Teste multivariado] (MVT) Atividade?
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 85%
+source-wordcount: '301'
+ht-degree: 77%
 
 ---
 
@@ -38,13 +38,13 @@ Regras adicionais podem ser baseadas em qualquer um dos seguintes:
 * Consulta
 * Parâmetro
 
-Regras adicionais podem ser unidas no URL da atividade com AND ou OR. Todas regras que você adicionar são avaliadas contra si próprias com AND.
+Regras adicionais podem ser unidas ao URL da atividade com AND ou OR. Todas as regras adicionadas são avaliadas entre si com AND.
 
 Clique em **[!UICONTROL Salvar]** quando tiver concluído.
 
 >[!NOTE]
 >
->Caso tenha inserido um URL para um site que não inclui o código JavaScript do Target Standard, você não pode selecionar elementos da página.
+>Se você tiver inserido um URL para um site que não inclui o código JavaScript do [!DNL Target] , não será possível selecionar elementos de página.
 
 Por padrão, o VEC não permite alterações a elementos que contenham JavaScript, como banners giratórios. Você pode desativar a opção **[!UICONTROL Renderizar usando JavaScript]** se quiser alterar esses elementos usando o [!UICONTROL Visual Experience Composer].
 
