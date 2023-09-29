@@ -1,24 +1,24 @@
 ---
 keywords: recommendations feed;feed;SAINT;ftp;csv;classificações;análises classificações
-description: Saiba como os feeds importam entidades para o Adobe [!DNL Target] Recommendations usando arquivos CSV, o formato de feed do Google Product Search e as classificações de produtos do Analytics.
-title: Como usar feeds no [!DNL Target] Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+description: Saiba como os feeds importam entidades para o [!DNL Adobe Target] [!DNL Recommendations] usando arquivos CSV, o formato de feed do Google Product Search e [!DNL Analytics] classificações do produto.
+title: Como usar [!UICONTROL Feeds] in [!DNL Target Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: a0cf6d497fc5b9a04888d0c6597c98bbbb639cbe
 workflow-type: tm+mt
-source-wordcount: '2511'
-ht-degree: 85%
+source-wordcount: '2537'
+ht-degree: 57%
 
 ---
 
 # Feeds
 
-Use os feeds para importar entidades no [!DNL Adobe Target Recommendations]. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e as classificações de produtos do Adobe Analytics.
+Use os feeds para importar entidades no [!DNL Adobe Target] [!DNL Recommendations]. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e [!DNL Adobe Analytics] classificações do produto.
 
 ## Visão geral dos feeds {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-Os feeds permitem passar [Entidades](/help/main/c-recommendations/c-products/products.md) ou aumentar seus dados de mbox com informações que ou não estão disponíveis na página, ou não são seguras para serem enviadas diretamente da página, como margem, COGS e outros.
+Os feeds permitem que você passe [Entidades](/help/main/c-recommendations/c-products/products.md) ou aumente seus dados da mbox com informações que ou não estão disponíveis na página, ou não são seguras para serem enviadas diretamente da página, como margem, COGS e outros.
 
 Os feeds permitem passar informações detalhadas do item para o [!DNL Recommendations], como ID do produto, categoria, nome, mensagem e outros atributos.
 
@@ -33,48 +33,51 @@ Esses dados sobre cada item podem ser usados para:
 
 As descrições de item podem ser passadas para [!DNL Target] usando feeds ou mboxes. Se dados forem coletados tanto por feeds de entidade como por uma mbox, os dados mais recentes vencem. Normalmente, os dados mais recentes vêm de uma mbox, porque ela é vista com mais frequência. Se, por coincidência, dados do feed de entidade e da mbox cheguem ao mesmo tempo, os dados da mbox serão usados.
 
-A lista [!UICONTROL Feeds] (**[!UICONTROL Recomendações]** > **[!UICONTROL Feeds]**) fornece informações sobre quaisquer feeds criados.
+A variável [!UICONTROL Feeds] lista ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) fornece informações sobre quaisquer feeds criados.
 
 ![Página de feeds](/help/main/c-recommendations/c-products/assets/feeds-page.png)
 
-A página Feeds contém as seguintes colunas:
+A variável [!UICONTROL Feeds] contém as seguintes colunas:
 
-* **Nome**: o nome do feed especificado durante a criação. Para editar o nome de um feed, edite o próprio feed. Ao salvar com o novo nome, o feed é atualizado.
+* **Nome**: o nome do feed especificado durante a criação. Para editar o nome de um feed, edite o próprio feed. Quando você salva o feed com o novo nome, ele é atualizado.
 * **Tipo**: os tipos incluem [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [Feed do produto Google](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) e [Classificações do Analytics](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
 * **Status**: o [status](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) atual do feed.
-* **Programação**: exibe a programação de atualização do feed: diariamente, semanalmente, a cada 2 semanas ou nunca.
+* **Agendar**: exibe o agendamento de atualização do feed: [!UICONTROL Diariamente], [!UICONTROL Semanalmente], [!DNL Every 2 Weeks]ou [!UICONTROL Nunca].
 * **Itens**: exibe o número de itens no feed.
 * **Última atualização**: exibe a data e a hora em que o feed foi atualizado pela última vez e o nome da pessoa que atualizou o feed. Se a [!UICONTROL Última atualização] do feed indicar “indefinido”, o feed será recebido da [!DNL Recommendations Classic] e não poderá ser alterado em [!DNL Target Premium Recommendations].
+
+Clique no ícone de Informações para exibir um cartão que exibe a data do último upload e o URL do feed.
+
+Clique no ícone de reticências para acessar as seguintes ações: [!UICONTROL Desativar], [!DNL Edit], [!UICONTROL Copiar], e [!UICONTROL Excluir].
 
 >[!IMPORTANT]
 >
 >As entidades e os atributos de entidade carregados expiram após 61 dias. Isso significa o seguinte:
 >
 >* O feed deve ser executado pelo menos uma vez por mês para garantir que o conteúdo do catálogo não expire.
->* Remover um item do seu arquivo de feed não remove esse item do catálogo. Para remover o item do catálogo, exclua manualmente o item por meio da interface ou da API do Target. Ou modifique os atributos do item (como inventário) para garantir que o item seja excluído da consideração.
-
+>* Remover um item do seu arquivo de feed não remove esse item do catálogo. Para remover o item do catálogo, exclua manualmente o item por meio da [!DNL Target] Interface do usuário ou API. Ou modifique os atributos do item (como inventário) para garantir que o item seja excluído da consideração.
 
 ## Tipos de origem
 
-As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e as classificações de produtos do Adobe Analytics.
+As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e [!DNL Adobe Analytics] classificações do produto.
 
 ### CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
-Você pode criar um arquivo .csv usando o formato de upload CSV proprietário. O arquivo contém as informações de exibição sobre os atributos reservados e personalizados para os seus produtos. Para fazer o upload dos atributos específicos à sua implementação, substitua `CustomN` na linha de cabeçalho pelo nome do atributo que deseja usar. No exemplo abaixo, `entity.Custom1` foi substituído por: `entity.availability`. Em seguida, você pode fazer o upload em massa do arquivo para o servidor [!DNL Recommendations].
+É possível criar um arquivo .csv usando o [!DNL Adobe] formato de upload CSV proprietário. O arquivo contém as informações de exibição sobre os atributos reservados e personalizados para os seus produtos. Para fazer o upload dos atributos específicos à sua implementação, substitua `CustomN` na linha de cabeçalho pelo nome do atributo que deseja usar. No exemplo abaixo, `entity.Custom1` foi substituído por: `entity.availability`. Em seguida, você pode fazer o upload em massa do arquivo para o servidor [!DNL Recommendations].
 
 Usar o formato .csv tem as seguintes vantagens em relação ao formato do Google Feed:
 
-* Não precisa de mapeamentos de campo.
-* Ele suporta atributos de vários valores (veja o exemplo abaixo).
-* Ele suporta até 100 atributos personalizados. Se você precisar de mais de 100 atributos personalizados, pode criar um segundo arquivo de feed com um conjunto diferentes de atributos personalizados.
+* O formato .csv não requer mapeamentos de campo.
+* O formato .csv suporta atributos de vários valores (veja o exemplo abaixo).
+* O formato .csv suporta até 100 atributos personalizados. Se você precisar de mais de 100 atributos personalizados, pode criar um segundo arquivo de feed com um conjunto diferentes de atributos personalizados.
 
-Use o método de carregamento em massa para enviar informações de exibição se você não possuir mboxes na sua página, ou se desejar complementar suas informações de exibição com itens que não estão disponíveis no seu site. Por exemplo, talvez você queira enviar informações sobre o inventário que podem não estar publicadas no seu site.
+Use o método de upload em massa para enviar informações de exibição se não houver mboxes na página ou se desejar complementar as informações de exibição com itens que não estejam disponíveis no site. Por exemplo, talvez você queira enviar informações sobre o inventário que podem não estar publicadas no seu site.
 
-Qualquer dado carregado por meio do arquivo .csv, feed de produto do Google ou feed de classificação de produto do Analytics substitui o valor do atributo da entidade existente no nosso banco de dados. Se você enviar informações de preço via solicitações de mbox e depois enviar valores de preço diferentes no arquivo, os valores no arquivo substituem os valores enviados na solicitação de mbox. Uma exceção a essa regra é o atributo de entidade `categoryId` no qual os valores de categoria são anexados em vez de substituídos até o limite de 250 caracteres.
+Quaisquer dados carregados por meio do arquivo .csv, feed de produto do Google ou [!DNL Analytics] O feed de classificação de produto substitui o valor do atributo da entidade existente no banco de dados. Se você enviar informações de preço via solicitações de mbox e depois enviar valores de preço diferentes no arquivo, os valores no arquivo substituem os valores enviados na solicitação de mbox. Uma exceção a essa regra é o atributo de entidade `categoryId` no qual os valores de categoria são anexados em vez de substituídos até o limite de 250 caracteres.
 
 >[!IMPORTANT]
 >
->Não coloque os valores entre aspas duplas ( &quot; ) no arquivo .csv, a menos que seja intencional. Se colocar os valores entre aspas duplas, você pode removê-los ao incluí-los em outro conjunto de aspas duplas. As aspas duplas que não forem removidas evitarão que o feed do Recommendations carregue corretamente.
+>Não coloque os valores entre aspas duplas ( &quot; ) no arquivo .csv, a menos que seja intencional. Se colocar os valores entre aspas duplas, você poderá removê-los ao incluí-los em outro conjunto de aspas duplas. As aspas duplas que não forem removidas evitarão que o feed do Recommendations carregue corretamente.
 
 Por exemplo, a sintaxe a seguir está incorreta:
 
@@ -90,7 +93,7 @@ A sintaxe a seguir está correta:
 
 >[!NOTE]
 >
->Não é possível substituir um valor existente por um valor em branco. Você deve passar outro valor em seu lugar para substituí-lo. Em caso de preço de venda, uma solução comum é aprovar um &quot;NULL&quot; ou alguma outra mensagem. Você poderá escrever uma regra do modelo para excluir itens com esse valor.
+>Não é possível substituir um valor existente por um valor em branco. Passe outro valor em seu lugar para substituí-lo. No caso de um preço de venda, uma solução comum é transmitir uma mensagem &quot;NULA&quot; real ou alguma outra mensagem. Você poderá escrever uma regra do modelo para excluir itens com esse valor.
 
 O produto estará disponível na interface de Admin aproximadamente duas horas depois de ter carregado a entidade com sucesso.
 
@@ -110,15 +113,15 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 ### Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
-O tipo de feed de pesquisa do produto do Google usa o formato do Google. Isso é diferente do formato de upload CSV do proprietário do Adobe.
+O tipo de feed de pesquisa do produto do Google usa o formato do Google. Isso é diferente do [!DNL Adobe] formato de upload CSV proprietário.
 
 Se você tiver um feed do produto Google existente, poderá usá-lo como arquivo de importação.
 
 >[!NOTE]
 >
->Não é necessário utilizar dados do Google. O [!DNL Recommendations] utiliza o mesmo formato que o Google. Você pode usar este método para atualizar qualquer dado que possua e usar os recursos de programação disponíveis. No entanto, você dever manter os nomes predefinidos dos atributos do Google ao configurar o arquivo.
+>Não é necessário utilizar dados do Google. [!DNL Recommendations] O usa o mesmo formato que o Google. Você pode usar este método para atualizar qualquer dado que possua e usar os recursos de programação disponíveis. No entanto, você dever manter os nomes predefinidos dos atributos do Google ao configurar o arquivo.
 
-Muitos revendedores carregam seus produtos no Google para que, quando um visitante usar a busca de produtos do Google, seus produtos apareçam. O [!DNL Recommendations] segue as especificações do Google de forma precisa para feeds de entidade. Os feeds de entidade podem ser enviados para [!DNL Recommendations] via .xml, .txt ou .tsv e podem usar o [atributos definidos pelo Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Os resultados podem ser pesquisáveis nas [páginas de compra do Google](https://www.google.com/prdhp).
+A maioria dos varejistas faz upload de produtos para o Google; portanto, quando um visitante usa a pesquisa de produto do Google, seus produtos são exibidos. O [!DNL Recommendations] segue as especificações do Google de forma precisa para feeds de entidade. Os feeds de entidade podem ser enviados para [!DNL Recommendations] via .xml, .txt ou .tsv e podem usar o [atributos definidos pelo Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Os resultados podem ser pesquisáveis nas [páginas de compra do Google](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -126,11 +129,11 @@ Muitos revendedores carregam seus produtos no Google para que, quando um visitan
 
 Como os usuários do [!DNL Recommendations] já configuram os feeds .xml e .txt para enviar ao Google, tanto via URL quanto via FTP, os feeds de entidade aceitam esses dados do produto e os usam para criar o catálogo de recomendações. Especifique onde esse feed existe, e o servidor de recomendações recuperará os dados.
 
-Mesmo se usar o Google Product Search para a atualização de feed de uma entidade, ainda será necessário ter uma página mbox do produto na página se você desejar mostrar as recomendações ou acompanhar as visualizações do produto para entrega do algoritmo com base nas visualizações.
+Se você usar a Pesquisa de produto do Google para o upload do feed de entidade, ainda deverá ter uma mbox de página de produto na página se desejar mostrar recomendações lá ou rastrear as exibições de produto para entrega de algoritmo com base nas exibições.
 
 Os feeds do Google não suportam vários valores para um atributo personalizado.
 
-O feed é executado no momento em que você salvar e ativá-lo. Ele é executado no momento em que você salvar o feed, e então todos os dias, uma hora depois.
+O feed é executado no momento em que você o salva e ativa. Ela é executada no momento em que você salva o feed e, em seguida, todos os dias uma hora depois.
 
 A seguir, está um código de exemplo para um arquivo .xml do Google Product Search:
 
@@ -207,19 +210,18 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-### Classificações do produto Analytics  {#section_79E430D2C75443BEBC9AA0916A337E0A}
+### [!DNL Analytics] Classificações do produto {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-A classificação do Produto Analytics é a única classificação disponível para recomendações. Para obter mais informações sobre esse arquivo de classificação, consulte [Sobre as classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) no *Componentes do Analytics* guia. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, por isso, siga o guia do usuário se desejar adicioná-las ao arquivo de classificações.
+A variável [!DNL Analytics] A classificação do produto é a única classificação disponível para recomendações. Para obter mais informações sobre esse arquivo de classificação, consulte [Sobre as classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) no *Componentes do Analytics* guia. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, portanto, siga este guia do usuário se desejar adicioná-las ao arquivo de classificações.
 
 >[!IMPORTANT]
 >
->Antes de importar dados de entidade para [!DNL Recommendations] ao usar as classificações de produto do Analytics, esteja ciente de que esse não é o método preferido.
+>Antes de importar dados de entidade para [!DNL Recommendations] usar [!DNL Analytics] classificações do produto, esteja ciente de que esse não é o método preferido.
 >
 > Esteja ciente dos seguintes avisos:
 >
 >* As atualizações para os atributos da entidade têm um atraso adicional de até 24 horas.
->* [!DNL Target] O oferece suporte somente às Classificações de produto. O SKU do produto Analytics deve mapear no mesmo nível que a variável [!DNL Recommendations] `entity.id`. As classificações do Analytics personalizada podem ser projetadas usando o Adobe Consulting Services. Entre em contato com o Gerente da conta em caso de dúvidas.
-
+>* [!DNL Target] suporta [!UICONTROL Classificações do produto] somente. A variável [!DNL Analytics] O SKU do produto deve mapear no mesmo nível que a variável [!DNL Recommendations] `entity.id`. Personalizado [!DNL Analytics] As classificações podem ser projetadas usando [!UICONTROL Serviços de consultoria Adobe]. Entre em contato com o Gerente de contas se tiver dúvidas.
 
 ## Criar feed {#steps}
 
@@ -232,24 +234,24 @@ Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL 
 1. Especifique um nome descritivo para o feed.
 1. Selecione um **[!UICONTROL Tipo de Fonte]**.
 
-   * CSV
-   * Feed do produto Google
-   * Classificações do Analytics
+   * [!UICONTROL CSV]
+   * [!UICONTROL Feed do produto Google]
+   * [!UICONTROL Classificações do Analytics]
 
-   Para obter informações sobre os tipos de feed CSV e Feed do produto Google, consulte [Visão geral dos feeds](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Também é possível [baixar um guia CSV de modelo](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) para ajudar a formatar o feed corretamente.
+   Para obter informações sobre o [!UICONTROL CSV] e [!UICONTROL Feed do produto Google] tipos de feed, consulte [Visão geral dos feeds](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Também é possível [baixar um guia CSV de modelo](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) para ajudar a formatar o feed corretamente.
 
 1. (Condicional) Se você selecionou **[!UICONTROL CSV]** ou **[!UICONTROL Feed do produto Google]**, especifique o local em que o feed pode ser acessado.
 
-   * **FTP**: se você selecionar FTP, forneça as informações do servidor FTP, as credenciais de logon, o nome do arquivo e o diretório do FTP. Você tem a opção de usar o FTP com SSL (FTPS) para uploads mais seguros.
+   * **FTP**: se você selecionar FTP, forneça as informações do servidor FTP, as credenciais de logon, o nome do arquivo e o diretório do FTP. Você pode usar o FTP com SSL (FTPS) para uploads mais seguros.
 
-      Configurações compatíveis do servidor FTP:
+     Configurações compatíveis do servidor FTP:
 
       * FTP e FTPS devem ser definidos para usar FTP passivo.
       * Para FTPS, configure o servidor para aceitar as conexões FTPS explícitas.
       * SFTP não é compatível.
       * Você pode especificar manualmente uma porta em que a conexão será iniciada (por exemplo, `ftp://ftp.yoursite.com:2121`). Se você não especificar uma porta, a porta FTP ou FTPS padrão será usada.
-   * **URL**: se você selecionar o URL, especifique-o.
 
+   * **URL**: Se você selecionar [!UICONTROL URL], especifique o URL.
 
 1. (Condicional) Se você selecionou **[!UICONTROL Classificações do Analytics]**, escolha o conjunto de relatórios na lista suspensa.
 
@@ -259,12 +261,12 @@ Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL 
 
 1. Selecione uma opção de atualização:
 
-   * Diariamente
-   * Semanalmente
-   * A cada 2 semanas
-   * Nunca: não programe uma atualização. Escolha essa opção se você não quiser que esse feed seja executado.
+   * [!UICONTROL Diariamente]
+   * [!UICONTROL Semanalmente]
+   * [!UICONTROL A cada 2 semanas]
+   * [!UICONTROL Nunca]: não programe uma atualização. Escolha essa opção se você não quiser que esse feed seja executado.
 
-1. Especifique o tempo em que deseja que seu feed execute.
+1. Especifique o tempo em que deseja que o feed seja executado.
 
    Essa opção é baseada no fuso horário usado no seu navegador. Se desejar usar uma hora em um fuso horário diferente, deve calcular esse tempo de acordo com o seu fuso horário.
 
@@ -278,11 +280,11 @@ Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL 
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-Após criar ou editar um feed, ele é executado imediatamente, em seguida, será atualizado de acordo com os parâmetros que você definiu. Demora um tempo até que todas as informações estejam disponíveis. Em primeiro lugar, o feed deve sincronizar, em seguida, ele deve ser processado e indexados antes que possa ser publicado e disponibilizado. O status atual aparece em  [Status do feed](/help/main/c-recommendations/c-products/feeds.md#status) na lista de Feeds. Você pode fechar o [!DNL Target] antes que o processo esteja completo e o mesmo continuará.
+Depois de criar ou editar um feed, ele é executado imediatamente. O feed é atualizado de acordo com os parâmetros definidos. Leva algum tempo para as informações estarem disponíveis. Em primeiro lugar, o feed deve sincronizar, em seguida, ele deve ser processado e indexados antes que possa ser publicado e disponibilizado. O status atual aparece em  [Status do feed](/help/main/c-recommendations/c-products/feeds.md#status) na lista de Feeds. Você pode fechar o [!DNL Target] antes que o processo esteja completo e o mesmo continuará.
 
-Enquanto a indexação estiver em andamento, os produtos e cabeçalhos de feed serão exibidos antes que os valores individuais sejam indexados. Isso permite que você pesquise e visualize os produtos para que possa criar coleções, exclusões, designs e atividades antes da indexação ser concluída.
+Enquanto a indexação estiver em andamento, os produtos e cabeçalhos de feed serão exibidos antes que os valores individuais sejam indexados. Isso permite pesquisar e visualizar produtos para que você possa criar coleções, exclusões, designs e atividades antes da conclusão da indexação.
 
-Quando o Status apresentar a mensagem de &quot;Sucesso&quot;, isso significa que o arquivo foi encontrado e analisado corretamente. A informação não está disponível para o uso no [!DNL Recommendations] até que o arquivo seja indexado, o que pode levar algum tempo, dependendo do tamanho do seu arquivo. Se houver falha no processo, que o arquivo não foi encontrado (por exemplo, você usou um URL incorreto ou sua informação do FTP estava incorreta), ou ocorreu um erro de análise.
+Quando o Status apresentar a mensagem de &quot;Sucesso&quot;, isso significa que o arquivo foi encontrado e analisado corretamente. A informação não está disponível para o uso no [!DNL Recommendations] até que o arquivo seja indexado, o que pode levar algum tempo, dependendo do tamanho do seu arquivo. Se o processo falhar, significa que o arquivo não foi encontrado. Por exemplo, você usou um URL incorreto, suas informações de FTP estavam incorretas ou havia um erro de análise.
 
 ## Status do feed e indicadores  {#concept_E475986720D1400999868B3DFD14A7A0}
 
@@ -294,22 +296,22 @@ A seguir, estão os possíveis status de um feed:
 
 | Status | Descrição |
 |--- |--- |
-| Sincronização | Os detalhes de configuração do feed são salvos no Target. |
-| Falha na sincronização | Os detalhes de configuração do feed não foram salvos no Target. Tente novamente. |
-| Nenhuma execução do feed | Você criou um feed, mas ele não foi agendado (a frequência está definida como Nunca). |
+| [!UICONTROL Sincronização] | Os detalhes de configuração do feed são salvos no [!DNL Target]. |
+| [!UICONTROL Falha na sincronização] | Os detalhes de configuração do feed não foram salvos no [!DNL Target]. Tente novamente. |
+| [!UICONTROL Nenhuma execução do feed] | Você criou um feed, mas ele não foi agendado (a frequência está definida como Nunca). |
 | Agendado na *data e hora* | O feed não foi executado, mas está agendado para execução na data e hora especificada. |
-| Aguardando o download | O Target está se preparando para baixar o arquivo de Feed. |
-| Download do arquivo de feed | O Target está baixando o arquivo de Feed. |
-| Importar itens | O Target está importando itens do arquivo de Feed. |
-| Feed importado com êxito no *momento* | O Target importou o arquivo de feed para o sistema de entrega de conteúdo. Os atributos do item foram alterados no sistema de entrega de conteúdo e serão refletidos em breve nas recomendações entregues. Se você não observar as alterações esperadas, tente novamente em breve e atualize a página que contém as recomendações.<br>Notas:<ul><li>Se as alterações nos atributos de um item resultarem na exclusão de um item das recomendações, a exclusão será refletida imediatamente. Se um item for recém-adicionado ou se as alterações nos atributos resultarem no *cancelamento* da exclusão de um item das recomendações, isso não será refletido até a atualização do próximo algoritmo, que ocorrerá em 24 horas.</li><li>Quando esse status é exibido, as atualizações podem não ser refletidas ainda na interface do usuário da Pesquisa no catálogo. Um status separado é listado na Pesquisa no catálogo, indicando a última vez que o catálogo pesquisável foi atualizado.</li></ul> |
-| Falha ao indexar | Ocorreu uma falha na operação de índice. Tente novamente. |
-| Servidor não encontrado | Locais de FTP ou URL inválidos ou não acessíveis. |
+| [!UICONTROL Aguardando o download] | [!DNL Target] O está se preparando para baixar o arquivo de feed. |
+| [!UICONTROL Download do arquivo de feed] | [!DNL Target] O está baixando o arquivo de feed. |
+| [!UICONTROL Importar itens] | [!DNL Target]O está importando itens do arquivo de Feed. |
+| Feed importado com êxito no *momento* | [!DNL Target]O importou o arquivo de feed para o sistema de entrega de conteúdo. Os atributos do item foram alterados no sistema de entrega de conteúdo e serão refletidos em breve nas recomendações entregues. Se você não vir as alterações esperadas, tente novamente e atualize a página que contém as recomendações.<br>Notas:<ul><li>Se as alterações nos atributos de um item resultarem na exclusão de um item das recomendações, a exclusão será refletida imediatamente. Se um item for recém-adicionado ou se as alterações nos atributos resultarem na criação de um item *não está mais* excluído das recomendações, não é refletido até a atualização do próximo algoritmo, que ocorre em 24 horas.</li><li>Quando esse status é exibido, as atualizações podem não ser refletidas ainda no [!UICONTROL Pesquisa no catálogo] IU. Um status separado é listado em [!UICONTROL Pesquisa no catálogo] indicando a última vez que o catálogo pesquisável foi atualizado.</li></ul> |
+| [!UICONTROL Falha ao indexar] | Ocorreu uma falha na operação de índice. Tente novamente. |
+| [!UICONTROL Servidor não encontrado] | Locais de FTP ou URL inválidos ou não acessíveis. |
 
 Para atualizar um feed (por exemplo, para fazer alterações na sua configuração de feed ou arquivo de feed), abra o feed, faça qualquer alteração desejada e clique em **[!UICONTROL Salvar]**.
 
 >[!IMPORTANT]
 >
->As entidades carregadas expiram após 61 dias. Isso significa que o seu arquivo de feed deve ser carregado pelo menos a cada 60 dias para evitar uma interrupção nas atividades de recomendações. Se um item não estiver incluído em um arquivo de feed (ou em outro método de atualização de entidade) pelo menos uma vez a cada 60 dias, [!DNL Adobe Target] infere que o item não é mais relevante e o remove do catálogo.
+>As entidades carregadas expiram após 61 dias. Isso significa que o seu arquivo de feed deve ser carregado pelo menos a cada 60 dias para evitar uma interrupção nas atividades de recomendações. Se um item não estiver incluído em um arquivo de feed (ou em outro método de atualização de entidade) pelo menos uma vez a cada 60 dias, [!DNL Target] infere que o item não é mais relevante e o remove do catálogo.
 
 ### Indicadores de status do feed {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -318,23 +320,23 @@ O indicadores de status do feed a seguir são exibidos na coluna [!UICONTROL Sta
 | Indicador de status | Descrição |
 |--- |--- |
 | Indicador de status verde | Quando um feed acaba de indexar de modo bem-sucedido, um ponto de status verde indica que o feed está em um estado bem-sucedido. |
-| Indicador de status amarelo | Quando um feed ou índice de feed é atrasado em 25% da frequência de feed, um ponto de status amarelo é exibido. Por exemplo, um ponto de status amarelo é exibido para um feed definido para execução diária, se o índice ainda não concluiu seis horas após o tempo agendado.   Observação: assim que o status do feed for &quot;Aguardando para fila de índice&quot; os novos valores atualizados estarão disponíveis no processamento de entrega e critérios. |
+| Indicador de status amarelo | Quando um feed ou índice de feed é atrasado em 25% da frequência de feed, um ponto de status amarelo é exibido. Por exemplo, um ponto de status amarelo é exibido para um feed definido para execução diária, se o índice ainda não concluiu seis horas após o tempo agendado. Observação: assim que o status do feed for &quot;Aguardando para fila de índice&quot; os novos valores atualizados estarão disponíveis no processamento de entrega e critérios. |
 | Indicador de status branco | Quando um feed não está agendado, um ponto de status branco indica que o feed ainda não foi executado. |
-| Indicador de status vermelho | Se o feed não faz o upload dos dados para um servidor, um indicador de status vermelho é mostrado. |
+| Indicador de status vermelho | Se o feed não carregar dados no servidor, um indicador de status vermelho será mostrado. |
 
 Considere os exemplos a seguir:
 
 **Exemplo 1:**
 
-* Dia um: processos de feed diários às 9h PST
+* Dia um: processos de feed diários às 9h PST.
 * Dia dois: são 15:30 e o feed aina não executou desde 9h.
 
 O status deve ser amarelo, pois o índice deveria ter sido executado há aproximadamente 6,5 horas. 6,5 horas +24 é 127% da janela de feed.
 
 **Exemplo 2:**
 
-* Primeiro de janeiro: processos de feed mensais às 9h PST
-* 03 de fevereiro: são 10h e o feed não executou há um mês, um dia e uma hora
+* Primeiro de janeiro: processos de feed mensais às 9h PST.
+* 03 de fevereiro: são 10h e o feed não executou há um mês, um dia e uma hora.
 
 O status deve ser amarelo, pois o índice deveria ter sido executado há aproximadamente um dia e uma hora. Embora isso seja somente (31+(1/25))/30 = 1,03% da configuração de frequência, ultrapassou o máximo de atraso de um dia.
 
