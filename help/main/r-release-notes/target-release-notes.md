@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: d68337b9f19801efa593f85a62791423e98d13f2
+source-git-commit: 055dfe5cb917428fc6dcb015a64b0c3c6ccf5b5d
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 87%
+source-wordcount: '730'
+ht-degree: 82%
 
 ---
 
@@ -32,6 +32,10 @@ Esta versão estará disponível de acordo com o seguinte cronograma:
 * **4 de outubro**: região da Ásia-Pacífico (APAC)
 
 Essa versão conta com os seguintes aprimoramentos e correções:
+
+| Recurso | Detalhes |
+| --- | --- |
+| [!UICONTROL Atividades] Atualização da interface<P>[!UICONTROL Feeds] Atualização da interface | Como parte da [!DNL Adobe Target] esforço contínuo da equipe do para melhorar a experiência do usuário para [!DNL Target] usuários, esta versão atualiza a [!UICONTROL Atividades] e [!DNL Recommendations] [!UICONTROL Feeds] páginas no [!DNL Target] IU. Essa atualização unifica e padroniza os padrões de design que eram inconsistentes anteriormente, além de adicionar novas melhorias. |
 
 * Adicionado [!UICONTROL Visual Experience Composer] Aprimoramentos do (VEC) para estruturas dinâmicas. (TGT-44064)
 * Correção de um problema que causava a data selecionada no `getViewInAnalyticsId` solicitação para não atualizar corretamente. Essa correção ajuda a recalcular o [!DNL Analytics] link nos relatórios quando o intervalo de datas e as configurações do relatório de métricas são alterados. (TGT-46246)
