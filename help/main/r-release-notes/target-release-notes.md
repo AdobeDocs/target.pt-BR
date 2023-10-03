@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 75%
+ht-degree: 80%
 
 ---
 
@@ -76,10 +76,10 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Seleção de critérios de otimização ativada para [!DNL Adobe Analytics] métricas.
-* Ativação da sincronização de públicos externos usando trabalhos do sling.
+* Seleção de critérios de otimização habilitada para métricas do [!DNL Adobe Analytics].
+* Sincronização de públicos-alvo externos usando processos do sling habilitada.
 * Correção de um problema em que os conjuntos de relatórios do SC contendo um caractere de ponto no nome não eram compatíveis.
-* Ativação da funcionalidade para permitir que os clientes excluam e editem públicos-alvo integrados.
+* Funcionalidade para permitir que clientes excluam ou editem públicos-alvo integrados habilitada.
 
 ## [!DNL Target] Standard/Premium 23.5.3 (data a ser determinada)
 
