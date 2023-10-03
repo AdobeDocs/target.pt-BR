@@ -5,9 +5,9 @@ title: O que é  [!DNL Analytics]  for  [!DNL Target]  (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: 787124c9c20a71b8feb49809bd8f2925264a1668
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ As seções a seguir contêm informações sobre os tipos de atividades compatí
 |--- |--- |--- |
 | [Atividade A/B com divisão manual de tráfego](/help/main/c-activities/t-test-ab/test-ab.md) | Sim |  |
 | [Atividade A/B com alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sim | Consulte [Suporte do A4T para atividades de alocação automática e direcionamento automático](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| [Atividade A/B com direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Sim (at.js)<P>Não (SDK da Web da plataforma) | No momento, o suporte do A4T para atividades de Direcionamento automático é compatível somente com a at.js. |
+| [Atividade A/B com direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Sim (at.js)<P>Não (SDK da Web da Platform) | No momento, o suporte do A4T para atividades de Direcionamento automático é compatível somente com a at.js. |
 | [Direcionamento de experiência (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Sim |  |
 | [Teste multivariado (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Sim | Exige métrica de meta baseada em mbox para obter o relatório [!UICONTROL Contribuição de elementos]. Atualmente, o relatório [!UICONTROL Contribuição de elementos] não aceita métricas do [!DNL Analytics]. |
 | [Atividade de Automated Personalization (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Não |  |
