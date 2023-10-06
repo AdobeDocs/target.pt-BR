@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
+source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2023'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 6 de outubro | [Tokens de resposta](/help/main/administrating-target/response-tokens.md) | Atualização de todas as amostras de código. |
 | 4 de outubro | [Atividades](/help/main/c-activities/activities.md) | O texto e as imagens foram atualizados para refletir a atualização da interface incluída no [!DNL Target] versão 23.9.4. |
 |  | [Feeds](/help/main/c-recommendations/c-products/feeds.md) | O texto e as imagens foram atualizados para refletir a atualização da interface incluída no [!DNL Target] versão 23.9.4. |
 | 2 de outubro | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.9.3 do [!DNL Target Standard/Premium]. |
