@@ -4,10 +4,10 @@ description: Veja uma lista de perguntas frequentes e respostas sobre o Adobe [!
 title: Onde posso encontrar respostas para perguntas sobre o [!DNL Target] Reportando?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 31%
+source-wordcount: '1374'
+ht-degree: 27%
 
 ---
 
@@ -74,9 +74,16 @@ Números de métrica, por exemplo, visitas, informados por [!DNL Target] são se
 
 ## Por que não há dados disponíveis para o meu relatório de atividade? {#section_E4722F6445884130951DF79981C8289B}
 
-Se um conteúdo de atividade foi entregue com sucesso aos usuários, mas o relatório não contiver dados, verifique se você selecionou o ambiente correto ([grupo de hosts](/help/main/administrating-target/hosts.md)) nas configurações do relatório.
+Se um conteúdo de atividade foi entregue com sucesso aos visitantes, mas o relatório não contiver dados, a seguinte mensagem de erro poderá ser exibida: &quot;Não há dados disponíveis para as configurações de relatório selecionadas&quot;.
 
-Se você tem um ambiente de desenvolvimento selecionado, pode ver a seguinte mensagem de erro: &quot;Não há dados disponíveis para as configurações de relatório selecionadas&quot;.
+Há alguns motivos possíveis para a ausência de dados nos relatórios de atividade:
+
+* Você não tem o ambiente correto selecionado nas configurações do relatório
+* Você não tem nenhum tráfego alocado para a experiência de controle
+
+### Você não tem o ambiente correto selecionado nas configurações do relatório:
+
+Se um conteúdo de atividade foi entregue com sucesso aos usuários, mas o relatório não contiver dados, verifique se você selecionou o ambiente correto ([grupo de hosts](/help/main/administrating-target/hosts.md)) nas configurações do relatório.
 
 Para alterar o ambiente de um relatório de atividade:
 
@@ -85,10 +92,6 @@ Para alterar o ambiente de um relatório de atividade:
 
    ![Caixa de diálogo Configurações A/B](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
-   >[!NOTE]
-   >
-   >O ícone de engrenagem não está disponível para os relatórios de [!UICONTROL Automated Personalization] (AP).
-
 1. Na lista suspensa **[!UICONTROL Ambiente]**, selecione **[!UICONTROL Produção]**.
 
    Os dados de relatório podem não estar disponíveis se você tem um ambiente de desenvolvimento selecionado.
@@ -96,6 +99,22 @@ Para alterar o ambiente de um relatório de atividade:
 1. Clique em **[!UICONTROL Salvar]**.
 
 Para obter mais informações sobre os ambientes, consulte [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+### Você não tem nenhum tráfego alocado para a experiência de controle
+
+Se um conteúdo de atividade foi entregue com sucesso aos usuários, mas o relatório não contiver dados, verifique se você tem tráfego alocado para a experiência de controle.
+
+1. Clique em **[!UICONTROL Atividades]**, clique na atividade desejada da lista, em seguida, clique na guia **[!UICONTROL Relatórios.]**
+1. Clique no ícone de engrenagem para configurar o relatório.
+
+1. No **[!UICONTROL Controle]** selecione uma experiência que receba tráfego.
+
+1. Clique em **[!UICONTROL Salvar]**.
+
+>[!NOTE]
+>
+>Para obter mais informações sobre como atualizar uma [!UICONTROL Automated Personalization] e alterar a experiência de controle para uma experiência que recebe tráfego, consulte [Selecione o controle da atividade de Automated Personalization ou Direcionamento automático](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+
 
 ## Por que o tráfego é dividido entre minhas experiências de forma desigual na minha atividade de A/B ou MVT? {#uneven}
 

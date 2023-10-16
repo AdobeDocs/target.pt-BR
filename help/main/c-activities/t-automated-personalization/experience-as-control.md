@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: a9508c4bc454faeb8d6763677cce17a264a4a70f
+source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '785'
 ht-degree: 42%
 
 ---
@@ -29,7 +29,7 @@ Há duas opções disponíveis para seu controle no [!UICONTROL Automated Person
 
 ## Definir uma experiência específica como controle
 
-1. Ao criar uma [[!UICONTROL Automated Personalization] atividade](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) ou [[!UICONTROL Direcionamento automático] atividade](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configure as experiências conforme desejado.
+1. Ao criar ou editar um [[!UICONTROL Automated Personalization] atividade](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) ou [[!UICONTROL Direcionamento automático] atividade](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configure as experiências conforme desejado.
 1. Na página [!UICONTROL Direcionamento] (etapa 2 do fluxo de trabalho guiado de três etapas), selecione a experiência desejada como controle.
 1. Especifique a alocação de tráfego desejada para a experiência de controle e outras experiências.
 
