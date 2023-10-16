@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
 workflow-type: tm+mt
 source-wordcount: '2078'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -21,8 +21,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | --- | --- | --- |
 | 11 de outubro | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | Informações atualizadas sobre o suporte ao A4T para o [!DNL Adobe Experience Platform Web SDK]. |
 | 10 de outubro | [Detalhes da versão de at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank} | Adição das notas de versão para a at.js versão 2.11.0. |
-| 6 de outubro | [Tokens de resposta](/help/main/administrating-target/response-tokens.md) | Atualização de todas as amostras de código. |
-|  | [Configuração de relatórios do A4T no [!DNL Analysis Workspace] para as atividades de [!UICONTROL Alocação automática]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=pt-BR){target=_blank} | Tutorial completo atualizado no *[!UICONTROL Adobe Target Tutorials]* guia. |
+| 6 de outubro | [Tokens de resposta](/help/main/administrating-target/response-tokens.md) | Todos as amostras de código foram atualizadas. |
+|  | [Configuração de relatórios do A4T no  [!DNL Analysis Workspace]  para as atividades de [!UICONTROL Alocação automática]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=pt-BR){target=_blank} | Tutorial completo atualizado no guia *[!UICONTROL Tutoriais do Adobe Target]*. |
 | 4 de outubro | [Atividades](/help/main/c-activities/activities.md) | O texto e as imagens foram modificados para refletir a atualização da interface incluída na versão 23.9.4 do [!DNL Target]. |
 |  | [Feeds](/help/main/c-recommendations/c-products/feeds.md) | O texto e as imagens foram modificados para refletir a atualização da interface incluída na versão 23.9.4 do [!DNL Target]. |
 | 2 de outubro | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.9.3 do [!DNL Target Standard/Premium]. |
