@@ -4,9 +4,9 @@ description: Veja uma lista de perguntas frequentes e respostas sobre o Adobe [!
 title: Onde posso encontrar respostas para perguntas sobre o [!DNL Target] Reportando?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
+source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1376'
 ht-degree: 27%
 
 ---
@@ -102,7 +102,7 @@ Para obter mais informações sobre os ambientes, consulte [Hosts](/help/main/ad
 
 ### Você não tem nenhum tráfego alocado para a experiência de controle
 
-Se um conteúdo de atividade foi entregue com sucesso aos usuários, mas o relatório não contiver dados, verifique se você tem tráfego alocado para a experiência de controle.
+Se um conteúdo de atividade foi entregue com sucesso aos usuários, mas o relatório não contiver dados, certifique-se de usar uma experiência com tráfego como experiência de controle.
 
 1. Clique em **[!UICONTROL Atividades]**, clique na atividade desejada da lista, em seguida, clique na guia **[!UICONTROL Relatórios.]**
 1. Clique no ícone de engrenagem para configurar o relatório.
