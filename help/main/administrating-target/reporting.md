@@ -5,10 +5,10 @@ title: Como configurar relatórios no Target?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 31%
+source-wordcount: '690'
+ht-degree: 32%
 
 ---
 
@@ -29,7 +29,7 @@ Você pode especificar as seguintes configurações nesta página:
 
 >[!NOTE]
 >
->Esteja ciente de que o fuso horário, a moeda e os endereços IP para excluir as configurações se aplicam às atividades que usam o [!DNL Target] relatórios. Essas configurações não se aplicam a atividades que usam [Analytics for Target (A4T)] como fonte de relatórios (/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+>Esteja ciente de que o fuso horário, a moeda e os endereços IP para excluir as configurações se aplicam às atividades que usam o [!DNL Target] relatórios. Essas configurações não se aplicam a atividades que usam [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) como fonte de relatórios.
 
 ![Página de relatórios](/help/main/administrating-target/assets/reporting.png)
 

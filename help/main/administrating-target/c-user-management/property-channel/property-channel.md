@@ -6,16 +6,16 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
 workflow-type: tm+mt
-source-wordcount: '3232'
-ht-degree: 57%
+source-wordcount: '3235'
+ht-degree: 54%
 
 ---
 
 # Permissões de usuário empresarial
 
-Permissões de usuário empresarial são um meio de administrar formalmente o acesso de usuários empresariais no [!DNL Adobe Target]. Adicionar usuários ao [!DNL Target], atribua permissões com base em suas funções e crie espaços de trabalho para equipes com base em diferentes departamentos, localidades globais, canais e outros agrupamentos lógicos. É possível atribuir aos usuários as funções de [!UICONTROL Observador], [!UICONTROL Editor], [!UICONTROL Aprovador]ou [!UICONTROL Editor].
+Permissões de usuário empresarial são um meio de administrar formalmente o acesso de usuários empresariais ao [!DNL Adobe Target]. Adicionar usuários ao [!DNL Target], atribua permissões com base em suas funções e crie espaços de trabalho para equipes com base em diferentes departamentos, localidades globais, canais e outros agrupamentos lógicos. É possível atribuir aos usuários as funções de [!UICONTROL Observador], [!UICONTROL Editor], [!UICONTROL Aprovador]ou [!UICONTROL Editor].
 
 ## Determine se você tem acesso a permissões de usuário do Enterprise
 
@@ -63,7 +63,7 @@ Os usuários podem fazer parte de vários espaços de trabalho e podem até ter 
 
 Os usuários podem ter diferentes visualizações de [!DNL Adobe Target] movendo-se entre espaços de trabalho, semelhante a como [!DNL Analytics] os usuários do têm visualizações diferentes de [!DNL Analytics] alternando entre Conjuntos de relatórios.
 
-Os espaços de trabalho podem incluir diferentes públicos-alvo, ofertas de código e atividades.
+Os espaços de trabalho podem incluir públicos completamente diferentes, ofertas de código e atividades.
 
 Todos os públicos-alvo e atividades criados antes da nova migração do modelo de Permissões empresariais são agrupados no &quot;Espaço de trabalho padrão&quot;, discutido abaixo.
 
@@ -81,7 +81,7 @@ Todas as funções de usuário e acesso a todos [!DNL Target] A funcionalidade p
 
 ### Grupos de usuários
 
-Você pode criar grupos de usuários, como desenvolvedores, analistas, profissionais de marketing, executivos e assim por diante. Em seguida, você pode atribuir privilégios entre vários produtos Adobe e espaços de trabalho. A atribuição de todos os privilégios apropriados a um novo membro da equipe em diferentes produtos da Adobe pode ser tão fácil quanto adicioná-lo a um grupo de usuários específico.
+Você pode criar grupos de usuários, como desenvolvedores, analistas, profissionais de marketing e executivos. Em seguida, você pode atribuir privilégios entre vários produtos Adobe e espaços de trabalho. A atribuição de todos os privilégios apropriados a um novo membro da equipe em diferentes produtos da Adobe pode ser tão fácil quanto adicioná-lo a um grupo de usuários específico.
 
 ### Funções e permissões {#roles-permissions}
 
@@ -110,7 +110,7 @@ O novo [!UICONTROL Permissões] permite criar projetos diferentes (chamados &quo
 
 Por exemplo, um usuário específico pode ter acesso de &quot;aprovação&quot; nos sites das Américas, mas apenas de &quot;visualização&quot; no aplicativo móvel Europeu. Esse mesmo usuário pode não ter acesso para ver as atividades oferecidas nas propriedades da Web e de dispositivos móveis na região APAC.
 
-O modelo atual de [!DNL Target] [!UICONTROL Permissões] apresenta três funções de permissão (Observador, Editor e Aprovador), conforme mostrado na seguinte ilustração:
+A variável [!DNL Target] [!UICONTROL Permissões] O modelo tem as seguintes funções de permissão (Observador, Editor, Aprovador e Observador). A função de Observador não é mostrada nas ilustrações deste artigo.
 
 ![imagem permissions_1](assets/permissions_1.png)
 
@@ -133,7 +133,7 @@ O novo modelo de [!DNL Target] [!UICONTROL Permissões] apresenta as mesmas trê
 
 Neste exemplo, Jan tem permissões de Aprovador para a página inicial dos EUA e o site dos EUA, bem como permissões de Observador para o site da França.
 
-Além disso, Jan não pode ver páginas, propriedades ou sites no [!DNL Target] que ela não tem permissões para ver, conforme mostrado abaixo:
+Além disso, Jan não pode ver páginas, propriedades ou sites no [!DNL Target] que ela não tem permissão para ver, conforme mostrado abaixo:
 
 ![imagem permissions_4](assets/permissions_4.png)
 
@@ -150,7 +150,7 @@ Após uma reorganização, usando as pessoas das ilustrações acima, você pode
 
 * **Jan**: Jan é a responsável pela otimização no Centro de excelência das páginas, propriedades e sites dos Estados Unidos de sua organização. Ela provavelmente tem direitos de administrador do sistema na Adobe Experience Cloud.
 
-  Em sua função, ela tem permissões de Aprovador para a página inicial dos EUA e o site dos EUA. Com as permissões de Aprovador, ela pode criar, editar e ativar ou interromper atividades.
+  Em sua função, ela tem permissões de Aprovador para a página inicial dos EUA e o site dos EUA. Com a permissão do Aprovador, ela pode criar, editar e ativar ou parar atividades.
 
   Jan também consulta a equipe de otimização na França e, portanto, tem permissões de Observador para o site da França que lhe dão acesso somente leitura às atividades. Jan pode exibir atividades, mas não pode criá-las ou editá-las.
 
@@ -158,7 +158,7 @@ Após uma reorganização, usando as pessoas das ilustrações acima, você pode
 
 * **Ernie**: Ernie é um gerente de marketing da organização responsável pelo marketing nos Estados Unidos.
 
-  Como Ernie é relativamente novo na organização e inexperiente com o Target, ele tem permissões de editor para a página inicial dos EUA, o site dos EUA e as páginas dos produtos. Com permissões de Editor, Ernie pode criar e editar atividades antes que elas entrem ao vivo. Ele não pode aprovar a inicialização de uma atividade — alguém com permissões de Aprovação, como Jan, deve aprovar a atividade antes que ela possa ser colocada em produção.
+  Como Ernie é relativamente novo na organização e inexperiente com o Target, ele tem permissões de editor para a página inicial dos EUA, o site dos EUA e as páginas dos produtos. Com permissões de Editor, Ernie pode criar e editar atividades antes que elas entrem ao vivo. Ele não pode aprovar a inicialização de uma atividade — alguém com permissão de Aprovação, como Jan, deve aprovar a atividade antes que ela possa ser colocada em produção.
 
   Como Ernie não tem nenhuma função que exija que ele veja o site da Rússia, o site da França ou o site de carreiras, ele não consegue ver as atividades desses sites.
 
@@ -174,13 +174,13 @@ Após uma reorganização, usando as pessoas das ilustrações acima, você pode
 
 * **Jan**: Jan é a Chefe de Otimização no Centro de Excelência de uma organização de cuidados de saúde que opera nos ramos de produtos hospitalares e de consumo. Ela provavelmente tem direitos de administrador do sistema na Adobe Experience Cloud.
 
-  Em sua função, ela tem permissões de Aprovador para o site do Hospital. Com as permissões de Aprovador, ela pode criar, editar e ativar ou interromper atividades.
+  Em sua função, ela tem permissões de Aprovador para o site do Hospital. Com a permissão do Aprovador, ela pode criar, editar e ativar ou parar atividades.
 
   Jan também consulta a equipe de otimização no ramo de produtos de consumo e, portanto, tem permissões de Observador para esse site que lhe dão acesso somente leitura às atividades. Jan pode exibir atividades, mas não pode criá-las ou editá-las.
 
 * **Ernie**: Ernie é um gerente de marketing da organização responsável pelo marketing no espaço do produto do consumidor.
 
-  Como Ernie é relativamente novo na organização e inexperiente com o Target, ele tem permissões de Editor para o site do consumidor. Com permissões de Editor, Ernie pode criar e editar atividades antes que elas entrem ao vivo. Ele não pode aprovar a inicialização de uma atividade — alguém com permissões de Aprovação para o Site do Consumidor, mas não Jan neste cenário, deve aprovar a atividade antes que ela possa ser colocada em produção.
+  Como Ernie é relativamente novo na organização e inexperiente com o Target, ele tem permissão de Editor para o Site do consumidor. Com permissões de Editor, Ernie pode criar e editar atividades antes que elas entrem ao vivo. Ele não pode aprovar a inicialização de uma atividade — alguém com permissões de Aprovação para o Site do Consumidor, mas não Jan neste cenário, deve aprovar a atividade antes que ela possa ser colocada em produção.
 
   Como Ernie não tem nenhuma função que exija que ele veja o site do hospital, ele não consegue ver as atividades desse site.
 
@@ -209,7 +209,7 @@ A nova funcionalidade de Permissões pode ser vista em vários locais na interfa
 
 Considere o seguinte ao usar ou configurar propriedades e permissões no [!DNL Target] Premium:
 
-* **Importante**: não exclua espaços de trabalho com atividades. Se você excluir um espaço de trabalho com atividades, trabalhe com o atendimento ao cliente para recuperar essas atividades.
+* **Importante**: não exclua espaços de trabalho com atividades. Se você excluir um espaço de trabalho com atividades do, trabalhe com o Atendimento ao cliente para recuperar essas atividades.
 * Ao utilizar a exibição Todos os espaços de trabalho:
 
    * Você pode ver atividades, públicos-alvo e ofertas de todos os espaços de trabalho que você tem as funções e permissões corretas para acessar.
@@ -233,7 +233,7 @@ Considere o seguinte ao usar ou configurar propriedades e permissões no [!DNL T
 * Ao visualizar públicos-alvo da página [!DNL Audiences], ela carrega mais lentamente do que o esperado. Se você interagir com a barra de pesquisa de alguma forma, os públicos-alvo serão exibidos mais rapidamente. Esse problema é conhecido e será corrigido em uma atualização futura. Esse problema não afeta a seleção de públicos-alvo durante o fluxo de trabalho de criação de atividades.
 * Os seguintes recursos fazem parte do novo modelo de Permissões empresariais:
 
-   * Atividades, públicos-alvo e ofertas de código criadas no [!DNL Target Standard/Premium] estão disponíveis para uso depois que o cliente é habilitado para permissões. (Observação: os clientes devem ter direito ao [!DNL Target Premium].)
+   * Atividades, públicos-alvo e oferta de código criados no [!DNL Target Standard/Premium] estão disponíveis para uso depois que o cliente é habilitado para permissões. (Observação: os clientes devem ter direito ao [!DNL Target Premium].)
    * As propriedades podem ser adicionadas às atividades existentes no Espaço de trabalho padrão; no entanto, essa abordagem está sujeita a alterações.
    * Somente os novos recursos (como atividades, ofertas de código e públicos-alvo) criados no Target Premium (após a ativação das Permissões empresariais) estão disponíveis para restringir por permissões.
    * Os recursos externos estão disponíveis somente para os usuários do Espaço de trabalho padrão. A função de um usuário no Espaço de trabalho padrão se aplica globalmente (a todas as solicitações e recursos do Target).
@@ -253,7 +253,7 @@ Considere o seguinte ao usar ou configurar propriedades e permissões no [!DNL T
 
   Em uma versão futura, o Target funcionará em páginas em que nenhum token `at_property` está presente ou páginas em que um token diferente de `at_property` estiver presente.
 
-* A funcionalidade Permissões de usuário do Enterprise não é compatível com chamadas da API do Adobe I/O.
+* A funcionalidade Permissões de usuário do Enterprise não é compatível com chamadas de API do Adobe Developer.
 
 ## Perguntas frequentes {#faqs}
 
@@ -267,7 +267,7 @@ Se um usuário tiver várias funções e permissões, a função com as permiss�
 
 Infelizmente, não é possível mover atividades de um espaço de trabalho para outro. No entanto, é possível copiar uma atividade para qualquer espaço de trabalho sabendo que os dados de relatórios não são transferidos. Para obter mais informações, consulte &quot;Copiando/editando uma atividade ao usar espaços de trabalho&quot; em [Copiando/editando uma atividade ao usar espaços de trabalho](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
-As atividades criadas antes da migração continuam sendo executadas da mesma maneira no Espaço de trabalho padrão, a menos que sejam editadas e atribuídas a propriedades. As atividades em um espaço de trabalho específico respeitam as propriedades atribuídas a esse espaço de trabalho e, portanto, o comportamento pode não permanecer o mesmo de antes da migração.
+As atividades criadas antes da migração continuam sendo executadas da mesma maneira no Espaço de trabalho padrão, a menos que sejam editadas e atribuídas a propriedades. As atividades em uma propriedade de honra específica do espaço de trabalho atribuídas a esse espaço de trabalho e, portanto, o comportamento podem não permanecer o mesmo de antes da migração.
 
 ### Posso mover um público-alvo de um espaço de trabalho para outro? {#move-audience}
 
@@ -289,7 +289,7 @@ Sim, você pode mover públicos-alvo entre espaços de trabalho usando o [!UICON
 
 Se você implementou [!DNL Target] com tags na [!DNL Adobe Experience Platform] e receber uma mensagem de erro indicando que não há propriedade associada à atividade, passe a variável `at_property` parâmetro com o `targetPageParams` função.
 
-### As conversões de rastreamento de cliques são registradas se uma página de redirecionamento e o URL da atividade pertencerem a propriedades diferentes?
+### As conversões de rastreamento de cliques são registradas se uma página redirecionada e o URL da atividade pertencerem a propriedades diferentes?
 
 O rastreamento de cliques não é registrado quando a página e o URL da atividade pertencerem a propriedades diferentes.
 
