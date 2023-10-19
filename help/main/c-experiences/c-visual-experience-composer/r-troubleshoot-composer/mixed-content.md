@@ -1,13 +1,13 @@
 ---
-keywords: conteúdo misto;seguro;inseguro;chrome;solução de problemas;vec;visual experience composer;não seguro;http;https;firefox;internet explorer
-description: Saiba como habilitar conteúdo misto no [!DNL Chrome], [!DNL Firefox], e [!DNL Edge].
-title: Como ativar conteúdo misto no meu navegador
+keywords: conteúdo misto;seguro;inseguro;chrome;solução de problemas;vec;visual experience composer;inseguro;http;https;firefox;internet explorer
+description: Saiba como habilitar conteúdo misto no  [!DNL Chrome], no  [!DNL Firefox] e no  [!DNL Edge].
+title: Como habilitar conteúdo misto no meu navegador
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 source-git-commit: c5b43faa2fc55c2c8737e586cfdfaa1444a05880
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ O conteúdo misto ocorre se a solicitação inicial estiver segura por HTTPS, ma
 
 Navegadores modernos podem bloquear a exibição de uma página ou exibir mensagens de aviso se o conteúdo seguro estiver misturado com conteúdo não seguro.
 
-Uma mensagem de aviso será exibida se o [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] tentar abrir uma página com conteúdo misto. Esta mensagem informa como desativar o bloqueio no navegador. Desativar o bloqueio permite abrir um site HTTP ou um site que tenha conteúdo misto (HTTPS e HTTP).
+Uma mensagem de aviso será exibida se o [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] tentar abrir uma página com conteúdo misto. Esta mensagem informa como desativar o bloqueio no navegador. Desabilitar o bloqueio permite abrir um site HTTP ou um site que tenha conteúdo misto (HTTPS e HTTP).
 
 ![Aviso de conteúdo misto](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -35,11 +35,11 @@ Para obter mais informações, consulte [Conteúdo misto](https://developer.mozi
 
 ## Habilitar conteúdo misto no [!DNL Google Chrome] {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-Se você está acessando um site através de uma conexão segura, [!DNL Chrome] O verifica se o conteúdo da página da web foi transmitido em segurança.
+Se você estiver acessando um site através de uma conexão segura, o [!DNL Chrome] verifica se o conteúdo da página da web foi transmitido em segurança.
 
-Consulte &quot;[Gerenciar avisos sobre sites não seguros](https://support.google.com/chrome/answer/99020?hl=pt)&quot; na Ajuda do Google Chrome.
+Consulte “[Gerenciamento de avisos sobre sites inseguros](https://support.google.com/chrome/answer/99020?hl=pt-BR)” na Ajuda do Google Chrome.
 
-Se estiver usando o VEC com a versão mais recente do [!DNL Chrome] (versão 79.0.3945.117 ou posterior), você deve atualizar as configurações do site. Os visitantes do seu site não precisam concluir essas etapas.
+Se estiver usando o VEC com a versão mais recente do [!DNL Chrome] (versão 79.0.3945.117 ou posterior), será necessário atualizar as configurações do site. Os visitantes do seu site não precisam concluir essas etapas.
 
 1. Clique no ícone de bloqueio (cuidado) e clique em **[!UICONTROL Configurações do site]**.
 
@@ -53,7 +53,7 @@ Se estiver usando o VEC com a versão mais recente do [!DNL Chrome] (versão 79.
 
 ## Habilitar conteúdo misto no [!DNL Mozilla Firefox] {#task_5448763B8DC941FD80F84041AEF0A14D}
 
-Por padrão, [!DNL Firebox] O bloqueia páginas que misturam conteúdo seguro e inseguro. Você deve alterar esta configuração permanentemente para usar o [!DNL Target]. Os visitantes do seu site não precisam concluir essas etapas.
+Por padrão, o [!DNL Firebox] bloqueia páginas que misturam conteúdo seguro e inseguro. É necessário alterar esta configuração permanentemente para usar o [!DNL Target]. Os visitantes do seu site não precisam concluir essas etapas.
 
 1. No Firefox, digite `about:config` na barra de endereços.
 1. Confirme a mensagem de aviso exibida pelo [!DNL Firefox].
@@ -74,14 +74,14 @@ Por padrão, [!DNL Firebox] O bloqueia páginas que misturam conteúdo seguro e 
 
 ## Habilitar conteúdo misto no [!DNL Microsoft Edge]
 
-Se você está acessando um site através de uma conexão segura, [!DNL Edge] O verifica se o conteúdo da página da web foi transmitido em segurança.
+Se você estiver acessando um site através de uma conexão segura, o [!DNL Edge] verifica se o conteúdo da página da web foi transmitido em segurança.
 
-Se estiver usando o VEC com a versão mais recente do [!DNL Edge], você deve atualizar as configurações do site. Os visitantes do seu site não precisam concluir essas etapas.
+Se estiver usando o VEC com a versão mais recente do [!DNL Edge], será necessário atualizar as configurações do site. Os visitantes do seu site não precisam concluir essas etapas.
 
-1. Entrada [!DNL Edge], clique em **[!DNL Microsoft Edge]** na barra de menus, **[!UICONTROL Configurações]** e, em seguida, clique em **Cookies e permissões do site**.
+1. No [!DNL Edge], clique em **[!DNL Microsoft Edge]** na barra de menu, **[!UICONTROL Configurações]** e selecione **Cookies e permissões do site**.
 
 1. Navegue até **[!UICONTROL Conteúdo inseguro]**.
 
-1. Clique em **[!UICONTROL Conteúdo inseguro]** e, em seguida, clique em **[!UICONTROL Adicionar]** ao lado de **[!UICONTROL Permitir]**, adicione o site no qual deseja permitir conteúdo não seguro e clique em **[!UICONTROL Adicionar]**.
+1. Clique em **[!UICONTROL Conteúdo inseguro]** e selecione **[!UICONTROL Adicionar]** ao lado de **[!UICONTROL Permitir]**. Adicione o site no qual deseja permitir o conteúdo inseguro e clique em **[!UICONTROL Adicionar]**.
 
 1. Recarregue a página do VEC.
