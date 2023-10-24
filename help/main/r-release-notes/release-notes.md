@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
+source-git-commit: 594999c57d10d88d48f34599e67cbf6649351aa9
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 77%
 
 ---
 
@@ -19,60 +19,15 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Target] Standard/Premium 23.9.4 (4 a 6 de outubro de 2023)
-
-Esta versão estará disponível de acordo com o seguinte cronograma:
-
-* **4 de outubro**: região da Ásia-Pacífico (APAC)
-* **5 de outubro**: região da Europa, Oriente Médio e África (EMEA)
-* **6 de outubro**: região das Américas
+## [!DNL Target] Standard/Premium 23.10.2 (24 de outubro de 2023)
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-| Recurso | Detalhes |
-| --- | --- |
-| Atualização da interface de [!UICONTROL Atividades]<P>e<P>Atualização da interface de [!UICONTROL Feeds] | Como parte do esforço contínuo da equipe do [!DNL Adobe Target] em aprimorar a experiência para usuários do [!DNL Target], esta versão atualiza as páginas [!UICONTROL Atividades] e [!DNL Recommendations] [!UICONTROL Feeds] na interface do [!DNL Target]. Essa atualização unifica e uniformiza padrões de design que eram inconsistentes, além de adicionar novas melhorias.<P>Para obter mais informações, consulte [Atividades](/help/main/c-activities/activities.md) e [Feeds](/help/main/c-recommendations/c-products/feeds.md). |
-| Padrão de implementação do [!DNL Recommendations] | Os artigos da seção *Padrão de implementação do Recommendations com o uso da at.js* ajudam você a entender e criar uma implementação do [!DNL Adobe Target Recommendations] usando a biblioteca JavaScript da at.js.<P>Para obter mais informações, consulte a visão geral do [Padrão de implementação do Recommendations com o uso da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html?lang=pt-BR){target=_blank} no *Guia de desenvolvimento do Adobe Target*. |
-
-* Adição de aprimoramentos do [!UICONTROL Visual Experience Composer] (VEC) para estruturas dinâmicas. (TGT-44064)
-* Correção de um problema que atualizava incorretamente a data selecionada na solicitação `getViewInAnalyticsId`. Essa correção ajuda a recalcular o link do [!DNL Analytics] nos relatórios quando as configurações de intervalo de datas e métricas do relatório são alteradas. (TGT-46246)
-
-## [!DNL Target] Standard/Premium 23.9.3 (18 de setembro de 2023)
-
-Essa versão conta com os seguintes aprimoramentos e correções:
-
-* Aprimoramento do [!UICONTROL Visual Experience Composer] (VEC) para oferecer suporte a componentes Lightning Web (DOM de luz). (TGT-45422)
-* Correção de um problema que fazia com que as ações do VEC fossem aplicadas na ordem incorreta. Em alguns casos, o VEC aplicava algumas modificações de forma assíncrona e adicionar modificações extras a um elemento causava erros se esse elemento fosse exibido após uma ação [!UICONTROL Inserir]. Também corrige o URL do VEC que agora é atualizado ao clicar em links de âncora. (TGT-45983)
-* Correção de um problema com o recurso [!UICONTROL Sobreposição] do VEC, que agora oferece suporte a elementos em DOMs de sombra. (TGT-45202 e TGT-45262)
-* Correção de um problema ao abrir uma página de Aplicativo de página única (SPA) no VEC e acessar o modo [!UICONTROL Procurar] que fazia com que as setas Voltar e Avançar não funcionassem corretamente. (TGT-45956)
-* Correção de um problema que impedia o carregamento de algumas páginas da Web no VEC. (TGT-45983)
-
-## [!DNL Target] Standard/Premium 23.9.2 (12 a 14 de setembro de 2023)
-
-Esta versão estará disponível de acordo com o seguinte cronograma:
-
-* **12 de setembro**: região das Américas
-* **13 de setembro**: região Ásia-Pacífico (APAC)
-* **14 de setembro**: regiões da Europa, Oriente Médio e África (EMEA)
-
-Essa versão conta com os seguintes aprimoramentos e correções:
-
-* Alteração da API do [!DNL Analytics] para a nova API versão 2.0 do [!DNL Analytics]. (TGT-45345)
-* Correção de problemas que afetavam atividades da [!UICONTROL Automated Personalization] (AP) para alguns clientes, incluindo a sincronização oportuna da atividade no back-end do [!DNL Target] e a entrega da experiência esperada nos links de visualização. (TGT-46202)
-
-## [!DNL Target] Standard/Premium 23.9.1 (6 a 11 de setembro de 2023)
-
-Esta versão estará disponível de acordo com o seguinte cronograma:
-
-* **6 de setembro**: região das Américas
-* **7 de setembro**: regiões da Europa, Oriente Médio e África (EMEA)
-* **11 de setembro**: região Ásia-Pacífico (APAC)
-
-Essa versão conta com os seguintes aprimoramentos e correções:
-
-* Correção de um problema que causava inconsistência nos dados de relatórios na interface do [!DNL Target] e do [!DNL Adobe Analytics] para atividades de [!UICONTROL Alocação automática] que usam o [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios. (TGT-46112)
-* O tempo limite das chamadas de PUT para a API de entrega do Target foi aumentado para 15 segundos para evitar erros de tempo limite. (TGT-46091)
-* Correção de um problema que impedia a atualização consistente do URL ao navegar por um site de aplicativo de página única (SPA). (TGT-45417)
+* Aprimoramento do novo [!UICONTROL Atividades] Interface para que o [!UICONTROL Visual Experience Composer] (VEC) abre com as configurações padrão para `selectorCriteria` ao criar uma nova atividade. (TGT-46586)
+* Correção de um problema que impedia alguns clientes de editar elementos no [!UICONTROL Compositor] ao usar o VEC. (TGT-46470)
+* Adição da capacidade de especificar um seletor preferencial genérico ao usar atributos personalizados. (TGT-46545)
+* Correção de um problema que, ocasionalmente, impedia uma [!UICONTROL Direcionamento automático] relatório que usa [!UICONTROL Analytics for Target] (A4T) de exibir no [!DNL Target] embora o relatório fosse exibido corretamente na [!DNL Adobe Analysis Workspace]. (TGT-46494)
+* Atualização de várias cadeias de caracteres localizadas na interface do usuário do Target. (TGT-18899)
 
 ## Notas de versão adicionais e detalhes da versão
 
