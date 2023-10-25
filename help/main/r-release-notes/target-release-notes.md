@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 594999c57d10d88d48f34599e67cbf6649351aa9
+source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 69%
+source-wordcount: '370'
+ht-degree: 59%
 
 ---
 
@@ -15,13 +15,21 @@ ht-degree: 69%
 
 Este artigo contém informações de pré-lançamento das próximas versões do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: 24 de outubro de 2023**
+**Última atualização: 25 de outubro de 2023**
 
 >[!NOTE]
 >
 >As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 >
 >Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
+
+## [!UICONTROL Atividades] atualização da interface do usuário da página (25 de outubro de 2023)
+
+Como parte da [!DNL Adobe Target] esforço contínuo da equipe do para melhorar a experiência do usuário para [!DNL Target] usuários, esta versão atualiza a [!UICONTROL Atividades] página no [!DNL Target] IU. Essa atualização unifica e uniformiza padrões de design que eram inconsistentes, além de adicionar novas melhorias.
+
+A partir de quarta-feira, 25 de outubro, um percentual de clientes terá acesso à nova interface do usuário com clientes adicionais que obterão acesso nos próximos dias.
+
+Para obter mais informações, consulte [Atividades](/help/main/c-activities/activities.md).
 
 ## [!DNL Target] Standard/Premium 23.10.2 (24 de outubro de 2023)
 
