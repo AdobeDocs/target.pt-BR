@@ -4,9 +4,9 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: e0a72a21792800fda8a15999be7aab48b5ff136d
+source-git-commit: a4b0ccb35201d8e2ca06d8c5a20983ca84f378ee
 workflow-type: tm+mt
-source-wordcount: '37635'
+source-wordcount: '37582'
 ht-degree: 96%
 
 ---
@@ -29,7 +29,6 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 
 | Recurso | Detalhes |
 | --- | --- |
-| Atualização da interface de [!UICONTROL Atividades]<P>e<P>Atualização da interface de [!UICONTROL Feeds] | Como parte do esforço contínuo da equipe do [!DNL Adobe Target] em aprimorar a experiência para usuários do [!DNL Target], esta versão atualiza as páginas [!UICONTROL Atividades] e [!DNL Recommendations] [!UICONTROL Feeds] na interface do [!DNL Target]. Essa atualização unifica e uniformiza padrões de design que eram inconsistentes, além de adicionar novas melhorias.<P>Para obter mais informações, consulte [Atividades](/help/main/c-activities/activities.md) e [Feeds](/help/main/c-recommendations/c-products/feeds.md). |
 | Padrão de implementação do [!DNL Recommendations] | Os artigos da seção *Padrão de implementação do Recommendations com o uso da at.js* ajudam você a entender e criar uma implementação do [!DNL Adobe Target Recommendations] usando a biblioteca JavaScript da at.js.<P>Para obter mais informações, consulte a visão geral do [Padrão de implementação do Recommendations com o uso da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html?lang=pt-BR){target=_blank} no *Guia de desenvolvimento do Adobe Target*. |
 
 * Adição de aprimoramentos do [!UICONTROL Visual Experience Composer] (VEC) para estruturas dinâmicas. (TGT-44064)
