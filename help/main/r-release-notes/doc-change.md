@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
+source-git-commit: aef672454e3f5fe2980411b821de1cf49f1ec4f9
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2144'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 28 de outubro | [Detalhes da versão de at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank} | Adição de detalhes sobre a versão 2.11.2 da at.js. |
 | 25 de outubro | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Adição de informações sobre o [!UICONTROL Atividades] atualização da interface do usuário da página (25 de outubro de 2023) |
 | 24 de outubro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.10.2 do [!DNL Target Standard/Premium]. |
 
