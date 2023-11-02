@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
 workflow-type: tm+mt
 source-wordcount: '370'
-ht-degree: 59%
+ht-degree: 84%
 
 ---
 
@@ -35,11 +35,11 @@ Para obter mais informações, consulte [Atividades](/help/main/c-activities/act
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Aprimoramento do novo [!UICONTROL Atividades] Interface para que o [!UICONTROL Visual Experience Composer] (VEC) abre com as configurações padrão para `selectorCriteria` ao criar uma nova atividade. (TGT-46586)
-* Correção de um problema que impedia alguns clientes de editar elementos no [!UICONTROL Compositor] ao usar o VEC. (TGT-46470)
+* Aprimoramento da nova interface de [!UICONTROL Atividades] para que o [!UICONTROL Visual Experience Composer] (VEC) abra com as configurações padrão para `selectorCriteria` ao criar uma nova atividade. (TGT-46586)
+* Correção de um problema que impedia alguns clientes de editar elementos no modo [!UICONTROL Compositor] ao usar o VEC. (TGT-46470)
 * Adição da capacidade de especificar um seletor preferencial genérico ao usar atributos personalizados. (TGT-46545)
-* Correção de um problema que, ocasionalmente, impedia uma [!UICONTROL Direcionamento automático] relatório que usa [!UICONTROL Analytics for Target] (A4T) de exibir no [!DNL Target] embora o relatório fosse exibido corretamente na [!DNL Adobe Analysis Workspace]. (TGT-46494)
-* Atualização de várias cadeias de caracteres localizadas na interface do usuário do Target. (TGT-18899)
+* Correção de um problema que, ocasionalmente, impedia um relatório de [!UICONTROL Direcionamento automático] que usa o [!UICONTROL Analytics for Target] (A4T) de ser exibido na interface do [!DNL Target] embora o relatório fosse exibido corretamente no [!DNL Adobe Analysis Workspace]. (TGT-46494)
+* Atualização de várias strings localizadas na interface do Target. (TGT-18899)
 
 ## Notas de versão adicionais e detalhes da versão
 
