@@ -5,9 +5,9 @@ title: Quais são os novos recursos e melhorias que serão incluídos na próxim
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 >
 >Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-## [!UICONTROL Atividades] atualização da interface do usuário da página (25 de outubro de 2023)
+## Atualização da interface da página [!UICONTROL Atividades] (25 de outubro de 2023)
 
-Como parte da [!DNL Adobe Target] esforço contínuo da equipe do para melhorar a experiência do usuário para [!DNL Target] usuários, esta versão atualiza a [!UICONTROL Atividades] página no [!DNL Target] IU. Essa atualização unifica e uniformiza padrões de design que eram inconsistentes, além de adicionar novas melhorias.
+Como parte do esforço contínuo da equipe do [!DNL Adobe Target] em aprimorar a experiência de usuários(as) do [!DNL Target], esta versão atualiza a página [!UICONTROL Atividades] na interface do [!DNL Target]. Essa atualização une e uniformiza padrões de design que eram inconsistentes, além de adicionar novas melhorias.
 
-A partir de quarta-feira, 25 de outubro, um percentual de clientes terá acesso à nova interface do usuário com clientes adicionais que obterão acesso nos próximos dias.
+A partir de quarta-feira, 25 de outubro, um percentual de clientes terá acesso à nova interface com mais clientes obtendo acesso nos próximos dias.
 
 Para obter mais informações, consulte [Atividades](/help/main/c-activities/activities.md).
 
