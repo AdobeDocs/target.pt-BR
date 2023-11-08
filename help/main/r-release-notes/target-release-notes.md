@@ -4,7 +4,7 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 4d32ae98c90b881e14b33a76ad51ea7662aeebc4
+source-git-commit: 059a19926a2c4943661e0fffd0abc0f0280aa5af
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 53%
@@ -15,7 +15,7 @@ ht-degree: 53%
 
 Este artigo contém informações de pré-lançamento das próximas versões do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: 7 de novembro de 2023**
+**Última atualização: 8 de novembro de 2023**
 
 >[!NOTE]
 >
