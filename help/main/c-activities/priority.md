@@ -1,29 +1,29 @@
 ---
 keywords: configurações;priority
-description: Saiba como Adobe [!DNL Target] determina qual atividade (ou quais atividades) mostrar em uma página de forma diferente, dependendo de qual [!DNL Target] e qual função de criação de atividade você está usando.
+description: Saiba como [!DNL Adobe Target] determina qual atividade (ou quais atividades) mostrar em uma página de forma diferente, dependendo de qual [!DNL Target] e qual função de criação de atividade você está usando.
 title: Como o [!DNL Target] Atribuir prioridade a atividades diferentes?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 18765a82b5dca94654a412e2012a3f6c1a7b5128
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 87%
+source-wordcount: '1105'
+ht-degree: 40%
 
 ---
 
 # Prioridade
 
-O Target determina qual atividade (ou quais atividades) mostrar em uma página de maneira diferente, dependendo da interface do Target e da função de criação de atividade (Visual Experience Composer ou Compositor baseado em formulário) que você está usando.
+[!DNL Adobe Target] determina qual atividade (ou quais atividades) mostrar em uma página de forma diferente, dependendo de qual [!DNL Target] e qual função de criação de atividade ([[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) ou [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md)) você está usando.
 
-## Visual Experience Composer do Target Standard/Premium somente ou Composer baseado em formulário usando global [!DNL Target] Somente Solicitação {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer] somente ou [!UICONTROL Experience Composer baseado em formulário] usar uma global [!DNL Target] somente solicitação {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
-Se a sua empresa usa exclusivamente o Target Standard/Premium e o Visual Experience Composer, então o conteúdo de várias atividades pode ser retornado para a mesma chamada. As atividades são entregues por meio do seguinte fluxo de decisão:
+Se sua empresa usar [!DNL Target Standard/Premium] e a variável [!UICONTROL Visual Experience Composer] exclusivamente, o conteúdo de várias atividades pode ser retornado para a mesma chamada. As atividades são entregues por meio do seguinte fluxo de decisão:
 
-1. A chamada do servidor do Target chega ao Target com informações sobre o URL.
-1. O Target extrai todas as atividades em execução nesse URL.
-1. O Target tenta corresponder o visitante às atividades.
+1. A variável [!DNL Target] chamada de servidor recebida em [!DNL Target] com informações sobre o URL.
+1. [!DNL Target]O extrai todas as atividades em execução nesse URL.
+1. [!DNL Target]O tenta corresponder o visitante às atividades.
 
-   Se o visitante já está em um teste A/B ou em um teste multivariado, será feita a correlação nesse teste até a conversão. Se anteriormente ele estava em uma atividade de direcionamento de experiência, a correlação deve ser feita novamente. Se atende às regras de público-alvo, o visitante é enquadrado nessas atividades e em experiências específicas.
+   Se o visitante já estiver em uma [!UICONTROL Teste A/B] ou [!UICONTROL Teste multivariado] atividade, elas correspondem a essa atividade até a conversão. Se estavam anteriormente em uma [!UICONTROL Direcionamento de experiência] atividade, eles devem corresponder a ela novamente. Se atende às regras de público-alvo, o visitante é enquadrado nessas atividades e em experiências específicas.
 
 1. O conteúdo de todas as atividades e experiências que o visitante corresponde é retornado à página.
 1. Se o conteúdo de cada atividade fizer referencia a  [seletores CSS diferentes](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), então todo o conteúdo é exibido.
@@ -32,67 +32,67 @@ Se a sua empresa usa exclusivamente o Target Standard/Premium e o Visual Experie
 
    >[!IMPORTANT]
    >
-   >O Target retorna o conteúdo de todas as atividades na página, começando com o conteúdo de prioridade mais baixa, que é substituído em seguida a cada atividade, da prioridade mais baixa até a mais alta. Na maioria dos casos, isso resulta na exibição do conteúdo de prioridade mais alta. No entanto, se uma atividade de prioridade mais baixa alterar a estrutura do DOM para a página, será possível que a atividade de prioridade mais alta não reconheça a estrutura da página, de modo que o conteúdo de prioridade mais baixa será exibido. Os resultados de todas as atividades executadas na página são contados e refletidos nos relatórios.
+   >[!DNL Target]O retorna o conteúdo de todas as atividades na página, começando com o conteúdo de prioridade mais baixa, que é substituído em seguida a cada atividade, da prioridade mais baixa até a mais alta. Normalmente, isso resulta na exibição do conteúdo de prioridade mais alta. No entanto, se uma atividade de prioridade mais baixa alterar a estrutura do DOM para a página, é possível que a atividade de prioridade mais alta não reconheça a estrutura da página, de modo que o conteúdo de prioridade mais baixa seja exibido. Os resultados de todas as atividades executadas na página são contados e refletidos nos relatórios.
 
-1. Se várias atividades compartilham o mesmo nível de prioridade, há dois pontos decisivos:
+1. Se várias atividades compartilharem o nível de prioridade, há dois fatores que quebram os níveis:
 
    * Se apenas uma atividade tem direcionamento de público-alvo, essa atividade é exibida.
-   * Se há direcionamento em todas ou nenhuma, a atividade que foi aprovada primeiro é exibida.
+   * Se todos ou nenhum tiver direcionamento, a atividade que foi aprovada primeiro será exibida.
 
-## Criador baseado em formulário do Target Standard/Premium e [!DNL Target] Visual Experience Composer Standard/Premium {#section_4620253E1CE942DD830724C7822B175F}
+## [!DNL Target Standard/Premium] [!UICONTROL Experience Composer baseado em formulário] e [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
 >Essas informações também se aplicam a todas as campanhas que foram criadas em [!DNL Target Classic].
 
-Se a sua empresa usa um Composer baseado em formulário no Target Standard/Premium e o Visual Experience Composer do Target Standard/Premium, então o conteúdo de várias atividades do Visual Experience Composer podem ser entregues, mas somente uma atividade do fluxo de trabalho baseado em formulário. A entrega da atividade é determinada por meio do seguinte fluxo de decisão:
+Se sua empresa usar o [!UICONTROL Experience Composer baseado em formulário] in [!DNL Target Standard/Premium] e a variável [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer], depois conteúdo de vários [!UICONTROL Visual Experience Composer] as atividades podem fornecer, mas somente uma atividade do fluxo de trabalho baseado em formulário. A entrega da atividade é determinada por meio do seguinte fluxo de decisão:
 
-1. A chamada do servidor do Target contém informações sobre o [!DNL Target] solicitação e URL.
-1. O Target Classic e o Standard extraem todas as atividades em execução nesse [!DNL Target] solicitação.
-1. O Target tenta corresponder o visitante às atividades.
+1. [!DNL Target] chamada de servidor recebida em [!DNL Target] com informações sobre o [!DNL Target] solicitação e URL.
+1. [!DNL Target Classic] e [!DNL Target Standard/Premium] obtenha todas as atividades em execução [!DNL Target] solicitação.
+1. [!DNL Target]O tenta corresponder o visitante às atividades.
 
-   Se o visitante já está em um teste A/B ou em um teste multivariado, será feita a correlação nesse teste até a conversão. Se anteriormente ele estava em uma atividade de direcionamento de experiência, a correlação deve ser feita novamente. Se atende às regras de público-alvo, o visitante é enquadrado nessas atividades e em experiências específicas.
+   Se o visitante já estiver em uma [!UICONTROL Teste A/B] ou [!UICONTROL Teste multivariado] atividade, elas correspondem nesse teste até a conversão. Se estavam anteriormente em uma [!UICONTROL Direcionamento de experiência] atividade, eles devem corresponder a ela novamente. Se atende às regras de público-alvo, o visitante é enquadrado nessas atividades e em experiências específicas.
 
-1. Se uma atividade baseada em formulário tiver prioridade mais alta, então o conteúdo dela é retornado juntamente com todo o conteúdo de atividade correspondente das atividades do Visual Experience Composer.
-1. Se uma atividade do Visual Experience Composer tiver prioridade mais alta, então o conteúdo de todas as atividades correspondentes do Visual Experience Composer são retornadas, mas nenhum conteúdo do Target Classic ou da atividade baseada em formulário é retornada.
+1. Se uma atividade baseada em formulário tiver a prioridade mais alta, esse conteúdo de atividade será retornado junto com todo o conteúdo de atividade correspondente de [!UICONTROL Visual Experience Composer] atividades.
+1. Se um [!UICONTROL Visual Experience Composer] a atividade tem a prioridade mais alta e, em seguida, o conteúdo de todas as [!UICONTROL Visual Experience Composer] atividades é retornado, mas nenhuma [!DNL Target Classic] ou o conteúdo da atividade baseada em formulário é retornado.
 
    Os resultados de todas as atividades executadas na página são contados e refletidos nos relatórios.
 
 **Exemplo**
 
-Por exemplo, se você tiver duas atividades, uma definindo as metas da palavra-chave de pesquisa de marca conhecida Nike e outra definindo a palavra-chave de marca não conhecida tênis, as prioridades de ambas as atividades serão verificadas. Se a atividade Nike tiver uma prioridade mais alta, esse conteúdo será exibido. Se a atividade tênis tiver uma prioridade mais alta, seu conteúdo será exibido.
+Se você tiver duas atividades, uma direcionada à palavra-chave de pesquisa de marca &quot;Nike&quot; e a segunda direcionada à palavra-chave não de marca &quot;tênis&quot;, as prioridades de ambas as atividades serão verificadas. Se a atividade Nike tiver uma prioridade mais alta, esse conteúdo será exibido. Se a atividade tênis tiver uma prioridade mais alta, seu conteúdo será exibido.
 
 Se ambas as atividades direcionadas tiverem a mesma prioridade, a atividade que foi mais recentemente visualizada é exibida. Se o visitante for novo na página, a atividade ativada por último será exibida.
 
-## Composer baseado em formulário do Target Standard/Premium com dimensão não global [!DNL Target] Solicitações {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## [!DNL Target Standard/Premium] [!UICONTROL Experience Composer baseado em formulário] com propriedades não globais [!DNL Target] solicitações {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
->Essas informações também se aplicam a todas as campanhas que foram criadas no Target Classic.
+>Essas informações também se aplicam a todas as atividades que foram criadas em [!DNL Target Classic].
 
 Se sua empresa usar [!DNL Target] solicitações que não sejam a global [!DNL Target] solicitação no compositor baseado em formulário, o conteúdo de apenas uma atividade pode ser retornado por chamada. A entrega da atividade é determinada por meio do seguinte fluxo de decisão:
 
 1. A variável [!DNL Target] chamada de servidor recebida em [!DNL Target] com informações sobre o [!DNL Target] solicitação e URL.
 1. [!DNL Target] O extrai cada atividade em execução nesse [!DNL Target] solicitação.
-1. [!DNL Target]O tenta corresponder o visitante à atividades com prioridade mais alta.
+1. [!DNL Target] O tenta direcionar o visitante à atividade de prioridade mais alta.
 
-   Se o visitante já está em um teste A/B ou em um teste multivariado, será feita a correlação nesse teste até a conversão. Se anteriormente ele estava em uma atividade de direcionamento de experiência, a correlação deve ser feita novamente. Se atende às regras de público-alvo, o visitante é enquadrado nessas atividades e em experiências específicas.
+   Se o visitante já estiver em uma [!UICONTROL Teste A/B] ou [!UICONTROL Teste multivariado] atividade, elas correspondem a essa atividade até a conversão. Se estavam anteriormente em uma [!UICONTROL Direcionamento de experiência] atividade, eles devem corresponder a ela novamente. Se atende às regras de público-alvo, o visitante é enquadrado nessas atividades e em experiências específicas.
 
-1. Se várias atividades compartilham o mesmo nível de prioridade, há dois pontos decisivos:
+1. Se várias atividades compartilharem o nível de prioridade, há dois fatores que quebram os níveis:
 
    * Se apenas uma atividade tem direcionamento de público-alvo, essa atividade é exibida.
-   * Se há direcionamento em todas ou nenhuma, a atividade que foi aprovada primeiro é exibida.
+   * Se todos ou nenhum tiver direcionamento, a atividade que foi aprovada primeiro será exibida.
 
 ## Exemplos {#section_F6A788AAC3884A2FA03E47F0557A1213}
 
 >[!NOTE]
 >
->Dependendo das configurações, os valores de prioridade variam. É possível usar as configurações herdadas de Baixo, Médio ou Alto, ou pode ativar as prioridades otimizadas de 0 a 999. Para obter mais informações, consulte [Configurações da atividade](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
+>Dependendo das configurações, os valores de prioridade variam. É possível usar as configurações herdadas de [!UICONTROL Baixa], [!UICONTROL Medium]ou [!UICONTROL Alta]ou você pode ativar as prioridades otimizadas de 0 a 999. Para obter mais informações, consulte [Configurações de atividade](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Duas campanhas do Target Classic usam solicitações não globais do Target**
+**Dois [!DNL Target Classic] atividades usam não globais [!DNL Target] solicitações**
 
-* Campanha 1: homePageHero, offer1, prioridade alta
-* Campanha 2: homePageHero, offer2, prioridade baixa
+* Atividade 1: homePageHero, offer1, priority high
+* Atividade 2: homePageHero, offer2, priority low
 
 Resposta: offer1
 
@@ -112,20 +112,20 @@ Resposta: visualExpCompOffer1, visualExpCompOffer2
 
 >[!NOTE]
 >
->Essa é a mesma resposta do segundo caso de uso acima, pois o Target Classic não processa conflitos do seletor. O Target Standard detecta tal comportamento e outros casos de uso, quando os seletores podem entrar em conflito no DOM e visualmente (normalmente, feito no nível de editor de experiência ou no modo de simulação da campanha).
+>Essa é a mesma resposta do segundo caso de uso acima, pois [!DNL Target Classic] não tratou colisões de seletores. [!DNL Target Standard/Premium] O captura esse comportamento e outros casos de uso quando os seletores podem colidir no DOM e visualmente (geralmente feito no nível do editor de experiência ou no modo de simulação de atividade).
 
-**Duas atividades usam ofertas criadas no Visual Experience Composer e duas campanhas do Target Classic**
+**Duas atividades usam ofertas criadas no [!UICONTROL Visual Experience Composer] e dois [!DNL Target Classic] atividades**
 
 * Atividade 1: target-global-mbox, selector1, visualExpCompOffer1, prioridade média
 * Atividade 2: target-global-mbox, selector2, visualExpCompOffer2, prioridade baixa
-* Campanha 1: target-global-mbox, offer1, prioridade alta
-* Campanha 2: target-global-mbox, offer2, prioridade baixa
+* Atividade 1: target-global-mbox, offer1, priority high
+* Atividade 2: target-global-mbox, offer2, priority low
 
 Resposta: offer1, visualExpCompOffer2, visualExpCompOffer1
 
 >[!NOTE]
 >
->A ordem das respostas combinadas é o conteúdo do Classic em primeiro (somente uma resposta do Classic será atendida, como no caso de uso 1) e, em seguida, as respostas de oferta do Visual Experience Composer ordenadas por prioridade invertida.
+>A ordem das respostas combinadas é que [!DNL Target Classic] o conteúdo vem primeiro. Somente um [!DNL Target Classic] a resposta é atendida como no caso de uso 1 e, em seguida, [!UICONTROL Visual Experience Composer] respostas de oferta ordenadas por prioridade invertida.
 
 ## Vídeo de treinamento: configurações da atividade (3:02)
 
