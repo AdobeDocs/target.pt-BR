@@ -4,9 +4,9 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3cce7d181de4e344b1878990fd5506000d40befd
+source-git-commit: 2421c9c0c3cf4cb2f914ef270fcb4fcf0dd3c3c3
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '381'
 ht-degree: 54%
 
 ---
@@ -31,12 +31,11 @@ Esta versão está agendada para os seguintes dias:
 * **14 de novembro**: região das Américas
 * **14 de novembro**: região da Europa, Oriente Médio e África (EMEA)
 
-Esta versão inclui as seguintes correções:
+Essa versão conta com os seguintes aprimoramentos e correções:
 
 * Aprimoramento do [Controle de qualidade da atividade](/help/main/c-activities/c-activity-qa/activity-qa.md) recurso para oferecer suporte [desativação de ofertas duplicadas](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) para experiências no [!UICONTROL Automated Personalization] atividades. (TGT-46627)
 * Adição de uma dica de ferramenta no [!DNL Target] Interface para ajudar os clientes a entender por que pode não haver dados disponíveis nos relatórios de atividade se nenhum tráfego estiver alocado para a experiência de controle. Um link para obter mais informações está incluído na dica de ferramenta: [Por que não há dados disponíveis para o meu relatório de atividade?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
 * Correção de um problema que impedia a exibição correta das atividades no [!UICONTROL Atividades] página para alguns clientes. (TGT-46830)
-
 * Correção dos seguintes problemas que afetavam as atividades que usam [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) como fonte de relatórios:
    * Correção de um problema que impedia que alguns clientes visualizassem dados de relatórios. (TGT-46557)
    * Correção de um problema que às vezes causava a [!UICONTROL Exibir no Analytics] link nas páginas do relatório de atividades para não funcionar corretamente. (TGT-46731)
