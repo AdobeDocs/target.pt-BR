@@ -4,10 +4,10 @@ description: Saiba como usar datas e horas de início e término para direcionar
 title: Posso direcionar visitantes que visitam meu site em horários específicos?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1081baa170e8ee979562223c0aa760002d4b9c8c
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 44%
+source-wordcount: '453'
+ht-degree: 43%
 
 ---
 
@@ -31,7 +31,11 @@ Por exemplo, usando o [recurso de públicos-alvo ad hoc combinados](/help/main/c
 
    >[!NOTE]
    >
-   >O fuso horário é exibido para datas de início/término como GMT +/- NN:NN, onde NN:NN é o deslocamento de GMT e reflete o fuso horário no nível da conta, em vez do fuso horário do visitante. Por exemplo, o fuso horário da Califórnia seria exibido como GMT -08:00.
+   >Considere o seguinte:
+   >
+   >* O fuso horário é exibido para datas de início/término como GMT +/- NN:NN, onde NN:NN é o deslocamento de GMT e reflete o fuso horário no nível da conta, em vez do fuso horário do visitante. Por exemplo, o fuso horário da Califórnia seria exibido como GMT -08:00.
+   >
+   >* [!DNL Target] Os públicos-alvo de horário não consideram as alterações do Horário de verão. Você deve atualizar os públicos-alvo manualmente para levar em conta as alterações de horário de verão.
 
 1. (Condicional) Clique em **[!UICONTROL Definir frequência]** para definir padrões recorrentes, incluindo dias das semanas e horas.
 
