@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1081baa170e8ee979562223c0aa760002d4b9c8c
+source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2227'
 ht-degree: 97%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 97%
 # Alterações de documentação
 
 Essa página lista alterações importantes feitas na documentação do [!DNL Adobe Target].
+
+## [!DNL Target] Standard/Premium 23.11.1 (13 e 14 de novembro de 2023)
+
+| Data | Tópico | Alterações |
+| --- | --- | --- |
+| 24 de outubro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.11.1 do [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.10.2 (24 de outubro de 2023)
 

@@ -4,9 +4,9 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: a4b0ccb35201d8e2ca06d8c5a20983ca84f378ee
+source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
 workflow-type: tm+mt
-source-wordcount: '37582'
+source-wordcount: '37687'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,16 @@ As notas de versão são processadas em ordem decrescente por mês e ano da vers
 >Consulte [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2023
+
+### [!DNL Target] Standard/Premium 23.10.2 (24 de outubro de 2023)
+
+Essa versão conta com os seguintes aprimoramentos e correções:
+
+* Aprimoramento da nova interface de [!UICONTROL Atividades] para que o [!UICONTROL Visual Experience Composer] (VEC) abra com as configurações padrão para `selectorCriteria` ao criar uma nova atividade. (TGT-46586)
+* Correção de um problema que impedia alguns clientes de editar elementos no modo [!UICONTROL Compositor] ao usar o VEC. (TGT-46470)
+* Adição da capacidade de especificar um seletor preferencial genérico ao usar atributos personalizados. (TGT-46545)
+* Correção de um problema que, ocasionalmente, impedia um relatório de [!UICONTROL Direcionamento automático] que usa o [!UICONTROL Analytics for Target] (A4T) de ser exibido na interface do [!DNL Target] embora o relatório fosse exibido corretamente no [!DNL Adobe Analysis Workspace]. (TGT-46494)
+* Atualização de várias strings localizadas na interface do Target. (TGT-18899)
 
 ### [!DNL Target] Standard/Premium 23.9.4 (4 a 6 de outubro de 2023)
 
