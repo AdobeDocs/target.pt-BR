@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 2421c9c0c3cf4cb2f914ef270fcb4fcf0dd3c3c3
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 54%
+ht-degree: 76%
 
 ---
 
@@ -34,12 +34,12 @@ Esta versão está agendada para os seguintes dias:
 Essa versão conta com os seguintes aprimoramentos e correções:
 
 * Aprimoramento do [Controle de qualidade da atividade](/help/main/c-activities/c-activity-qa/activity-qa.md) recurso para oferecer suporte [desativação de ofertas duplicadas](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) para experiências no [!UICONTROL Automated Personalization] atividades. (TGT-46627)
-* Adição de uma dica de ferramenta no [!DNL Target] Interface para ajudar os clientes a entender por que pode não haver dados disponíveis nos relatórios de atividade se nenhum tráfego estiver alocado para a experiência de controle. Um link para obter mais informações está incluído na dica de ferramenta: [Por que não há dados disponíveis para o meu relatório de atividade?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
-* Correção de um problema que impedia a exibição correta das atividades no [!UICONTROL Atividades] página para alguns clientes. (TGT-46830)
+* Adição de uma dica de ferramenta na interface do [!DNL Target] para ajudar clientes a entender por que pode não haver dados disponíveis nos relatórios de atividade se nenhum tráfego estiver alocado para a experiência de controle. Um link para obter mais informações está incluído na dica de ferramenta: [Por que não há dados disponíveis para o meu relatório de atividade?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
+* Correção de um problema que impedia a exibição correta das atividades na página [!UICONTROL Atividades] para alguns clientes. (TGT-46830)
 * Correção dos seguintes problemas que afetavam as atividades que usam [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) como fonte de relatórios:
    * Correção de um problema que impedia que alguns clientes visualizassem dados de relatórios. (TGT-46557)
    * Correção de um problema que às vezes causava a [!UICONTROL Exibir no Analytics] link nas páginas do relatório de atividades para não funcionar corretamente. (TGT-46731)
-   * Correção de um problema que impedia que dados do [!UICONTROL Elevação] e [!UICONTROL Confiança] para exibir corretamente no [!DNL Target] IU. (TGT-46592, TGT-46554, &amp; TGT-46586)
+   * Correção de um problema que impedia que dados do [!UICONTROL Elevação] e [!UICONTROL Confiança] para exibir corretamente no [!DNL Target] IU. (TGT-46592, TGT-46554, e TGT-46586)
 
 ## Notas de versão adicionais e detalhes da versão
 
