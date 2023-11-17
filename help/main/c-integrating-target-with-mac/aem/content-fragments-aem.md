@@ -4,10 +4,10 @@ description: Saiba como usar  [!DNL Adobe Experience Manager] [!UICONTROL fragme
 title: Como usar [!UICONTROL fragmentos de conteúdo] do  [!DNL Adobe Experience Manager]  (AEM)?
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
+source-git-commit: 593cbcc1ff8ccae7afa6098524e95659aa6890f3
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 100%
+source-wordcount: '736'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ Considere o seguinte ao trabalhar com [!UICONTROL fragmentos de conteúdo] do AE
    * [[!UICONTROL Teste A/B]](/help/main/c-activities/t-test-ab/test-ab.md)
    * [[!UICONTROL Alocação automática]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
    * [[!UICONTROL Direcionamento automático]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL Personalização automatizada] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
    * [[!UICONTROL Direcionamento de experiência] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * Os [!UICONTROL fragmentos de experiência] e [!UICONTROL fragmentos de conteúdo] não estão disponíveis para os seguintes tipos de atividade:
@@ -39,7 +39,7 @@ Para saber mais sobre os [!UICONTROL fragmentos de conteúdo] e [!UICONTROL frag
 
 ## Requisitos {#requirements}
 
-Você deve ter a funcionalidade de [!UICONTROL fragmentos de conteúdo] provisionada no [!DNL Target]. Além disso, você deve usar o [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Seu representante de conta pode ajudar a assegurar que você atenda aos requisitos para usar este recurso:
+Você deve estar usando [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Seu representante de conta pode ajudar a assegurar que você atenda aos requisitos para usar este recurso:
 
 Entre em contato com o [Atendimento ao cliente do Adobe Target](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para ativar a integração e obter os detalhes de autenticação.
 
@@ -74,7 +74,6 @@ Você pode consumir [!UICONTROL fragmentos de conteúdo] em atividades do [!DNL 
 >* Para utilizar toda a funcionalidade de IA e aprendizado de máquina do [!DNL Target], você pode selecionar o recurso de [alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) ou [direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) ao criar uma atividade de [!UICONTROL Teste A/B].
 >
 >* [!UICONTROL Fragmentos de conteúdo] não são compatíveis com atividades do [!DNL Recommendations]. No entanto, para usar [!UICONTROL fragmentos de conteúdo] em recomendações, você pode criar uma atividade de [!UICONTROL Teste A/B] (incluindo [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]) ou uma atividade de [!UICONTROL Direcionamento de experiência] (XT) e [incluir o Recommendations como uma oferta](/help/main/c-recommendations/recommendations-as-an-offer.md).
-
 
 **Para consumir [!UICONTROL fragmentos de conteúdo] usando o [!UICONTROL Experience Composer baseado em formulário]:**
 
