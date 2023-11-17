@@ -5,10 +5,10 @@ title: Quais são os vários limites de caracteres, tamanho e outros limites no 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 0a8842f0c29b61ee8cd362edf3e4e4afecbe847a
+source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 83%
+source-wordcount: '1609'
+ht-degree: 81%
 
 ---
 
@@ -40,7 +40,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 * **Limite**: 50 chamadas por minuto para as APIs de Administração, Relatórios e atualização de perfil em massa. Esse limite não se aplica às APIs de entrega e atualização de perfil único.
 
-   Se você fizer mais de 50 chamadas de API por minuto, o [!DNL Target] retornará uma mensagem de erro &quot;Status HTTP 503&quot;.
+  Se você fizer mais de 50 chamadas de API por minuto, o [!DNL Target] retornará uma mensagem de erro &quot;Status HTTP 503&quot;.
 
 ## Públicos-alvo
 
@@ -64,35 +64,35 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 * **Limite**: 100 solicitações simultâneas [!DNL Target] de entrega de conteúdo por sessão de usuário.
 
-   Se um cliente exceder 100 solicitações simultâneas de entrega de conteúdo [!DNL Target] para determinada sessão de usuário, todas as solicitações subsequentes para essa sessão de usuário serão bloqueadas. Duas ou mais solicitações serão consideradas simultâneas se todas forem enviadas ao servidor [!DNL Target] antes que a resposta seja recebida para qualquer uma delas. [!DNL Target] processa solicitações simultâneas para a mesma sessão sequencialmente.
+  Se um cliente exceder 100 solicitações simultâneas de entrega de conteúdo [!DNL Target] para determinada sessão de usuário, todas as solicitações subsequentes para essa sessão de usuário serão bloqueadas. Duas ou mais solicitações serão consideradas simultâneas se todas forem enviadas ao servidor [!DNL Target] antes que a resposta seja recebida para qualquer uma delas. [!DNL Target] processa solicitações simultâneas para a mesma sessão sequencialmente.
 
    * **Comportamento de erro**:
 
       * API de entrega e mBox de lote v2:
          * Código de erro: HTTP 420 Demasiadas solicitações
          * Mensagem de erro: &quot;Muitas solicitações com a mesma ID de sessão&quot;
+
       * API mBox herdada:
          * Conteúdo padrão com comentário &quot;Muitas solicitações com a mesma ID de sessão&quot;
+
       * at.js:
          * Conteúdo padrão exibido
 
-
-
 * **Limite**: 50 mboxes por [!DNL Target] solicitação de mbox de lote de entrega de conteúdo.
 
-   Superior a 50 mboxes por [!DNL Target] a solicitação de mbox de lote de entrega de conteúdo resulta em um código de erro de resposta `HTTP 400` com mensagem de erro `size must be between 0 and 50`.
+  Superior a 50 mboxes por [!DNL Target] a solicitação de mbox de lote de entrega de conteúdo resulta em um código de erro de resposta `HTTP 400` com mensagem de erro `size must be between 0 and 50`.
 
-   As solicitações de mbox de lote são processadas sequencialmente, aumentando o tempo de resposta geral com cada iteração. Quanto mais mboxes na solicitação em lote, mais latência de resposta pode ser esperada e, portanto, há potencial para tempos limite. Se a renderização da experiência estiver bloqueada nessas solicitações em lote de alta latência, a latência pode resultar em uma experiência do usuário degradada, à medida que os usuários aguardam a renderização das experiências.
+  As solicitações de mbox de lote são processadas sequencialmente, aumentando o tempo de resposta geral com cada iteração. Quanto mais mboxes na solicitação em lote, mais latência de resposta pode ser esperada e, portanto, há potencial para tempos limite. Se a renderização da experiência estiver bloqueada nessas solicitações em lote de alta latência, a latência pode resultar em uma experiência do usuário degradada, à medida que os usuários aguardam a renderização das experiências.
 
 * **Limite**: tamanho do corpo do POST HTTP de 60 MB para [!DNL Target] solicitações de entrega de conteúdo.
 
-   Excedendo 60 MB no tamanho do corpo do POST HTTP de um [!DNL Target] a solicitação de entrega de conteúdo resulta em um código de erro de resposta `HTTP 413 Request Entity Too Large`.
+  Excedendo 60 MB no tamanho do corpo do POST HTTP de um [!DNL Target] a solicitação de entrega de conteúdo resulta em um código de erro de resposta `HTTP 413 Request Entity Too Large`.
 
 * **Limite recomendado**: 50 notificações por [!DNL Target] solicitação de lote de entrega.
 
-   Superior a 50 notificações por [!DNL Target] a solicitação em lote de delivery provavelmente resulta em maior latência de resposta e tempos limite.
+  Superior a 50 notificações por [!DNL Target] a solicitação em lote de delivery provavelmente resulta em maior latência de resposta e tempos limite.
 
-   As solicitações de notificação em lote são processadas sequencialmente, aumentando o tempo de resposta geral com cada iteração. Quanto mais notificações na solicitação em lote, mais latência de resposta pode ser esperada e, portanto, há potencial para tempos limite. Algumas latências adicionais nas solicitações de notificação em lote podem ser aceitáveis para alguns clientes, mas esteja ciente de que tempos limite e quaisquer tentativas subsequentes podem causar ainda mais latência.
+  As solicitações de notificação em lote são processadas sequencialmente, aumentando o tempo de resposta geral com cada iteração. Quanto mais notificações na solicitação em lote, mais latência de resposta pode ser esperada e, portanto, há potencial para tempos limite. Algumas latências adicionais nas solicitações de notificação em lote podem ser aceitáveis para alguns clientes, mas esteja ciente de que tempos limite e quaisquer tentativas subsequentes podem causar ainda mais latência.
 
 ## Atributos do cliente
 
@@ -127,25 +127,25 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
    * 15.000 caracteres (idiomas de valor único, de um e dois bytes)
    * 500 valores, 100 caracteres por valor (vários valores)
 
-   O tamanho máximo dos atributos personalizados da entidade de valor único é de 15.000 caracteres (para idiomas codificados de um e dois bytes UTF -8, como inglês e outros alfabetos de script latinos) ou 10.000 caracteres (para idiomas codificados em três bytes UTF-8, como chinês, japonês e coreano).
+  O tamanho máximo dos atributos personalizados da entidade de valor único é de 15.000 caracteres (para idiomas codificados de um e dois bytes UTF -8, como inglês e outros alfabetos de script latinos) ou 10.000 caracteres (para idiomas codificados em três bytes UTF-8, como chinês, japonês e coreano).
 
-   Os atributos personalizados de entidade de vários valores não podem conter mais de 500 valores. Cada valor individual é limitado a 100 caracteres. O número total de caracteres em todos os valores deve estar em conformidade com o limite de tamanho máximo dos atributos personalizados da entidade de valor único (veja acima).
+  Os atributos personalizados de entidade de vários valores não podem conter mais de 500 valores. Cada valor individual é limitado a 100 caracteres. O número total de caracteres em todos os valores deve estar em conformidade com o limite de tamanho máximo dos atributos personalizados da entidade de valor único (veja acima).
 
 ### entity.id
 
 * **Limite para implementações que exigem a captura de informações de compra**: 50 caracteres.
 
-   Esse limite é aplicado porque o parâmetro da mBox `productPurchasedId` captura entity.ids, o que limita a contagem de caracteres a 50.
+  Esse limite é aplicado porque o parâmetro da mBox `productPurchasedId` captura entity.ids, o que limita a contagem de caracteres a 50.
 
 * **Limite para implementações que exigem apenas algoritmos baseados em visualização**: 1.000 caracteres.
 
-   Os algoritmos baseados em visualização incluem visualização/visualização, a mais exibida, a mais exibida recentemente e assim por diante.
+  Os algoritmos baseados em visualização incluem visualização/visualização, a mais exibida, a mais exibida recentemente e assim por diante.
 
 ## excludedIds {#excludedid}
 
 * **Limite**: 5 KB para solicitações POST. 2.083 caracteres menos o comprimento do URL para solicitações GET.
 
-   Para solicitações GET, embora o limite no back end seja de 5 KB, devido ao limite de 2.083 caracteres do URL do Microsoft Internet Explorer, o limite realista é de 2.083 caracteres menos o comprimento atual do URL.
+  Para solicitações GET, embora o limite no back end seja de 5 KB, devido ao limite de 2.083 caracteres do URL do Microsoft Internet Explorer, o limite realista é de 2.083 caracteres menos o comprimento atual do URL.
 
 ## Experiências
 
@@ -157,7 +157,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 * **Limite**: 2.000 experiências por [!UICONTROL Direcionamento de experiência] XT), [!UICONTROL Teste A/B], [!UICONTROL Teste multivariado] (MVT) e [!UICONTROL Direcionamento automático] atividade.
 
-   30.000 experiências por atividade de Automated Personalization (AP).
+  30.000 experiências por atividade de Automated Personalization (AP).
 
 ### Modificações por experiência
 
@@ -165,11 +165,11 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 ## mboxes
 
-### Valor do atributo de perfil da in-mbox
+### Valor do atributo de perfil da in-mbox {#in-mbox}
 
 * **Limite**: 256 caracteres.
 
-   Valores mais longos do que isso são truncados.
+  Valores mais longos do que isso são truncados ao usar o at.js 1.*x*. Se você enviar mais de 256 caracteres ao usar o at.js 2.*x* ou o [!DNL Adobe Experience Platform Web SDK], você receberá uma mensagem de erro (os valores não são truncados automaticamente).
 
 ### Nomes de perfil da in-mbox
 
@@ -179,50 +179,39 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 * **Limite**: 250 caracteres.
 
-   Para a API de entrega (at.js 2.*x*), Batch mbox V2 e integrações SDK da Web da AEP (alloy.js), nomes de mbox *pode* Conter caracteres alfanuméricos (A-Z, a-z, 0-9) e qualquer um dos seguintes caracteres:
+  Para a API de entrega (at.js 2.*x*), Batch mbox V2 e integrações SDK da Web da AEP (alloy.js), nomes de mbox *pode* Conter caracteres alfanuméricos (A-Z, a-z, 0-9) e qualquer um dos seguintes caracteres:
 
-   ```
-   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
-   ```
+  ```
+  - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
+  ```
 
-   Para at.js 1.*x* integrações, nomes de mbox *não é possível* Conter qualquer um dos seguintes caracteres:
+  Para at.js 1.*x* integrações, nomes de mbox *não é possível* Conter qualquer um dos seguintes caracteres:
 
-   ```
-   ' " %22 %27 < > %3C %3E 
-   ```
+  ```
+  ' " %22 %27 < > %3C %3E 
+  ```
 
 ### parâmetros de mbox {#mbox-parameters}
 
 * **Limite**: os seguintes limites se aplicam aos parâmetros da mbox:
 
-   Para chamadas de mbox padrão:
+  Para chamadas de mbox padrão:
 
    * Parâmetros da mbox: 500 parâmetros por mbox.
    * Parâmetros do perfil: 500 parâmetros do perfil por mbox.
    * Outros parâmetros (URL, URL de referência etc.): 50 por mbox para cada tipo de parâmetro.
 
-   Esses limites se aplicam a menos que a solicitação seja diminuída devido a limitações do navegador da Web.
+  Esses limites se aplicam a menos que a solicitação seja diminuída devido a limitações do navegador da Web.
 
-   Se estiver usando a API de entrega em lote, o limite será de 50 mboxes por solicitação em lote.
+  Se estiver usando a API de entrega em lote, o limite será de 50 mboxes por solicitação em lote.
 
-   Se estiver usando a API de entrega em lote no SDK do Mobile Services, os limites de 50 parâmetros de mbox, 50 parâmetros de perfil e 50 para outros tipos de parâmetros são limitações da própria API. Não é possível enviar uma solicitação que contém mais que esses números usando a API de entrega em lote. Se uma solicitação contém mais que esses limites, a API retornará a seguinte mensagem de erro:
+  Se estiver usando a API de entrega em lote no SDK do Mobile Services, os limites de 50 parâmetros de mbox, 50 parâmetros de perfil e 50 para outros tipos de parâmetros são limitações da própria API. Não é possível enviar uma solicitação que contém mais que esses números usando a API de entrega em lote. Se uma solicitação contém mais que esses limites, a API retornará a seguinte mensagem de erro:
 
-   &quot;O número de mboxParameters não pode exceder 50.&quot;
+  &quot;O número de mboxParameters não pode exceder 50.&quot;
 
-   Limites definidos para endpoints:
+  Limites definidos para endpoints:
 
-   **Batch mbox v2**:
-
-   * 100 parâmetros de mbox
-   * tamanho máx. do nome do parâmetro da mbox 128
-   * O valor do parâmetro da mbox não pode ser nulo
-   * valor do parâmetro da mbox 5000
-   * parâmetros de perfil 50
-   * tamanho máx. do nome do parâmetro do perfil 128
-   * O valor do parâmetro do perfil não pode ser nulo
-   * tamanho máximo do valor do parâmetro do perfil 5000
-
-   **Endpoint da API de entrega**:
+  **Batch mbox v2**:
 
    * 100 parâmetros de mbox
    * tamanho máx. do nome do parâmetro da mbox 128
@@ -233,13 +222,22 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
    * O valor do parâmetro do perfil não pode ser nulo
    * tamanho máximo do valor do parâmetro do perfil 5000
 
+  **Endpoint da API de entrega**:
 
+   * 100 parâmetros de mbox
+   * tamanho máx. do nome do parâmetro da mbox 128
+   * O valor do parâmetro da mbox não pode ser nulo
+   * valor do parâmetro da mbox 5000
+   * parâmetros de perfil 50
+   * tamanho máx. do nome do parâmetro do perfil 128
+   * O valor do parâmetro do perfil não pode ser nulo
+   * tamanho máximo do valor do parâmetro do perfil 5000
 
 ### URLs de solicitação de mbox
 
 * **Limite**: 2.083 caracteres.
 
-   Esse limite é devido a restrições de tamanho de URL do Microsoft Internet Explorer.
+  Esse limite é devido a restrições de tamanho de URL do Microsoft Internet Explorer.
 
 ### parâmetro mbox3rdPartyId
 
@@ -263,9 +261,9 @@ Os seguintes limites de tamanho se aplicam às ofertas:
 * 1024 KB (para cada experiência) para ofertas visuais da interface do usuário.
 * 1024 KB da API.
 
-   Se estiver usando uma mbox global, o limite será para todo o conjunto de conteúdo retornado para a página. A limitação do tamanho da oferta melhora o tempo de carregamento da página. Se o limite for excedido, a seguinte mensagem será exibida:
+  Se estiver usando uma mbox global, o limite será para todo o conjunto de conteúdo retornado para a página. A limitação do tamanho da oferta melhora o tempo de carregamento da página. Se o limite for excedido, a seguinte mensagem será exibida:
 
-   &quot;O conteúdo da experiência é grande demais para entrega. Modifique a experiência para afetar menos o código da página.&quot;
+  &quot;O conteúdo da experiência é grande demais para entrega. Modifique a experiência para afetar menos o código da página.&quot;
 
 ## parâmetro orderId
 
@@ -299,7 +297,7 @@ Os seguintes limites de tamanho se aplicam às ofertas:
 
 * **Limite recomendado**: 2.000 caracteres.
 
-   Depende do tamanho da cadeia de caracteres codificada, que pode ser muito maior que a cadeia bruta. Se a cadeia de caracteres for grande demais, falhará antes de chegar no [!DNL Adobe Target].
+  Depende do tamanho da cadeia de caracteres codificada, que pode ser muito maior que a cadeia bruta. Se a cadeia de caracteres for grande demais, falhará antes de chegar no [!DNL Adobe Target].
 
 ## Perfis de script
 
@@ -311,11 +309,11 @@ Os seguintes limites de tamanho se aplicam às ofertas:
 
 * **Limite**: 2.048 caracteres.
 
-   Por motivos de desempenho, recomendamos retornar um valor que não ultrapasse 256 caracteres.
+  Por motivos de desempenho, recomendamos retornar um valor que não ultrapasse 256 caracteres.
 
-   Para um valor de retorno de Sequência de caracteres, se o tamanho do valor de retorno exceder 2.048 caracteres, o script será desativado pelo sistema.
+  Para um valor de retorno de Sequência de caracteres, se o tamanho do valor de retorno exceder 2.048 caracteres, o script será desativado pelo sistema.
 
-   Para um valor de retorno de matriz, se o tamanho dos valores concatenados da matriz exceder 2.048 caracteres, o script será desativado pelo sistema.
+  Para um valor de retorno de matriz, se o tamanho dos valores concatenados da matriz exceder 2.048 caracteres, o script será desativado pelo sistema.
 
 ## Métricas de sucesso
 
@@ -327,7 +325,7 @@ Os seguintes limites de tamanho se aplicam às ofertas:
 
 * **Limite recomendado**: 1.000 valores.
 
-   Isso se refere ao número de valores separados por linha na área de texto de definição de metas. Por exemplo, inserir 1.000 códigos postais em uma meta de código postal.
+  Isso se refere ao número de valores separados por linha na área de texto de definição de metas. Por exemplo, inserir 1.000 códigos postais em uma meta de código postal.
 
 ### Regras de direcionamento {#targeting-rules}
 
