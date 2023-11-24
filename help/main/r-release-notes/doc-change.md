@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fe45d3b9a456a862ef2294aea59f972f861b0e1e
 workflow-type: tm+mt
 source-wordcount: '2373'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,10 +20,10 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 | --- | --- | --- |
 | 21 de novembro | [Detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank} | Adição das notas de versão para a at.js 2.11.3. |
-| 17 de novembro | [Primeiros passos do administrador](/help/main/administrating-target/start-target.md) | Adição da seguinte observação importante:<ul><li>Usuários com [!UICONTROL Administrador do produto] ou [!UICONTROL Administrador do sistema] direitos no [!DNL Adobe Admin Console] pode editar ou alterar todas as configurações no [!UICONTROL Administração] página de [!DNL Target], independentemente da sua [!DNL Target] função. Usuários sem [!UICONTROL Administrador do produto] ou [!UICONTROL Administrador do sistema] direitos no [!DNL Adobe Admin Console] deve ter as [!DNL Target] para fazer essas alterações.1</li></ul> |
-|  | [Limites](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | A seção foi atualizada com informações sobre como [!DNL Target] lida com o truncamento no at.js 2.*x* e a variável [!DNL Adobe Experience Platform Web SDK]. |
-|  | [API de entrega](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | Adicionados redirecionamentos à documentação atual da API de entrega e descontinuada a documentação herdada (`http://developers.adobetarget.com/api/delivery-api/`). Atualize os marcadores, conforme necessário. |
-| 16 de novembro | [API de atualização de perfil em massa](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | Adição do seguinte aviso: &quot;As atualizações geralmente ocorrem em menos de uma hora, mas podem levar até 24 horas para serem refletidas.&quot; |
+| 17 de novembro | [Primeiros passos de administrador](/help/main/administrating-target/start-target.md) | Adicionada a seguinte nota importante:<ul><li>Pessoas com direitos de [!UICONTROL Administrador do produto] ou [!UICONTROL Administrador do sistema] no [!DNL Adobe Admin Console] podem editar ou alterar todas as configurações na página [!UICONTROL Administração] do [!DNL Target], independentemente da sua função no [!DNL Target]. Pessoas sem direitos de [!UICONTROL Administrador do produto] ou [!UICONTROL Administrador do sistema] no [!DNL Adobe Admin Console] precisam ter a função específica do [!DNL Target] para fazer essas alterações.1</li></ul> |
+|  | [Limites](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | A seção foi atualizada com informações sobre como o [!DNL Target] lida com o truncamento no at.js 2.*x* e o [!DNL Adobe Experience Platform Web SDK]. |
+|  | [API de entrega](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=pt-BR){target=_blank} | Adição de redirecionamentos à documentação atual da API de entrega e a descontinuação da documentação herdada (`http://developers.adobetarget.com/api/delivery-api/`). Atualize os favoritos, conforme necessário. |
+| 16 de novembro | [API de atualização de perfil em massa](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=pt-BR){target=_blank} | Adição do seguinte aviso: “As atualizações geralmente ocorrem em menos de uma hora, mas podem levar até 24 horas para serem refletidas.” |
 | 13 de novembro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 23.11.1 do [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.10.2 (24 de outubro de 2023)
