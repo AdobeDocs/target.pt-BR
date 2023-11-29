@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fe45d3b9a456a862ef2294aea59f972f861b0e1e
+source-git-commit: 556a03b3caa7cca4ac48e9766e44f811550ea916
 workflow-type: tm+mt
-source-wordcount: '2373'
-ht-degree: 100%
+source-wordcount: '2417'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 29 de novembro | [API de atualização de perfil em massa](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=pt-BR){target=_blank} | Esclarecimento das diferenças sobre como [!DNL Target] O lida com atributos do cliente ao criar um perfil para um usuário [!DNL Target] ainda não viu ao usar o [!UICONTROL API de atualização de perfil em massa] v2 em vez de v1. |
 | 21 de novembro | [Detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank} | Adição das notas de versão para a at.js 2.11.3. |
 | 17 de novembro | [Primeiros passos de administrador](/help/main/administrating-target/start-target.md) | Adicionada a seguinte nota importante:<ul><li>Pessoas com direitos de [!UICONTROL Administrador do produto] ou [!UICONTROL Administrador do sistema] no [!DNL Adobe Admin Console] podem editar ou alterar todas as configurações na página [!UICONTROL Administração] do [!DNL Target], independentemente da sua função no [!DNL Target]. Pessoas sem direitos de [!UICONTROL Administrador do produto] ou [!UICONTROL Administrador do sistema] no [!DNL Adobe Admin Console] precisam ter a função específica do [!DNL Target] para fazer essas alterações.1</li></ul> |
 |  | [Limites](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | A seção foi atualizada com informações sobre como o [!DNL Target] lida com o truncamento no at.js 2.*x* e o [!DNL Adobe Experience Platform Web SDK]. |
