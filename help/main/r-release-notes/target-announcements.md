@@ -4,16 +4,35 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] 
 title: Onde posso encontrar informações sobre anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 5f782d0a2f632d2df3067825ebe829a6a781b3e0
-workflow-type: ht
-source-wordcount: '2128'
-ht-degree: 100%
+source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
+workflow-type: tm+mt
+source-wordcount: '2242'
+ht-degree: 94%
 
 ---
 
 # Anúncios e eventos do [!DNL Adobe Target]
 
 Avisos e informações sobre eventos do [!DNL Adobe Target], incluindo sessões de coffee-break do [!DNL Target], séries de webinários do [!DNL Target], sessões de construção de habilidades do [!DNL Target], bate-papos com desenvolvedores e muito mais. Se estiverem disponíveis, serão incluídos links para gravações anteriores.
+
+## [!DNL Adobe Target Community] Coffee Break
+
+* **Machine Learning &amp; AI Reporting &amp; Analysis**
+* **quinta-feira, 6 de dezembro de 2023**
+* **Das 8h às 9h (PST -8h GMT)**
+* **[Inscreva-se aqui](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+
+Ingressar [!DNL Adobe Target] especialistas Brent Kostak, Cristinel Anastasoaie, Drew Burns e Marisol St. John em um evento ask-me-anything para discutir aprendizado de máquina e relatórios e análise de IA no [!DNL Adobe Target].
+
++++Detalhes Esta discussão se concentrará nos seguintes tópicos:
+
+* Você está animado com o aprendizado de máquina e a IA e quer entender melhor o sucesso dos relatórios em suas atividades?
+* Procurando obter novas ideias e casos de uso nos quais você pode usar a personalização em tempo real para conteúdo, ofertas e mensagens?
+* Deseja conhecer as práticas recomendadas para criar atividades baseadas em formulários para testes no lado do servidor?
+* Você deseja melhorar a análise e a medição das atividades no [!UICONTROL Analytics for Target] (A4T)?
+* Suas equipes estão curiosas sobre como expandir além do teste A/B com testes e personalização em experiências autenticadas e conhecidas do cliente?
+
++++
 
 ## Série de webinários do [!DNL Adobe Target]  {#webinar-series}
 

@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 13b284d581dfa44e5a41f4403dc115a2f81a9dd5
+source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
 workflow-type: tm+mt
-source-wordcount: '2480'
-ht-degree: 96%
+source-wordcount: '2337'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 4 de dezembro | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Adição de informações de registro para o &quot;Machine Learning &amp; AI Reporting &amp; Analysis&quot; [!DNL Adobe Target Community] Sessão de coffee-break: quarta-feira, 6 de dezembro de 2023. |
 | 1 de dezembro | [APIs de atualização de perfil do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | A documentação da API herdada foi movida para os seguintes artigos:<ul><li>[Visão geral das APIs de perfil do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[API de atualização de perfil único do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[API de atualização de perfil em massa do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
 | 29 de novembro | [API de atualização de perfil em massa](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=pt-BR){target=_blank} | Esclarecimento das diferenças sobre como [!DNL Target] O lida com atributos do cliente ao criar um perfil para um usuário [!DNL Target] ainda não viu ao usar o [!UICONTROL API de atualização de perfil em massa] v2 em vez de v1. |
 | 21 de novembro | [Detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank} | Adição das notas de versão para a at.js 2.11.3. |
@@ -178,5 +179,5 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |  | [Criar públicos no Target](/help/main/c-target/c-audiences/create-audience.md) | Adição de uma lista dos caracteres e sequências de caracteres que não podem ser usados nos nomes de públicos. |
 | 31 de janeiro | [Limites](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | Adição da lista de caracteres permitidos e não permitidos em nomes de mbox. |
 | 25 de janeiro | [Criar ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Indicou que agora está disponível o suporte para ofertas JSON nas atividades de [!UICONTROL Automated Personalization] (AP) que usam o Experience Composer baseado em formulários. |
-|  | [Anúncios e eventos do Adobe Target](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de Perguntas&amp;respostas da comunidade: Casos de uso de dispositivos móveis e autenticados para otimização de experiência</li></ul> |
+|  | [Anúncios e eventos do Adobe Target](/help/main/r-release-notes/target-announcements.md) | Foram adicionadas informações sobre o seguinte evento:<ul><li>[!DNL Adobe Target] Sessão de perguntas e respostas da comunidade: casos de uso móveis e autenticados para otimização de experiência</li></ul> |
 |  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 22.13.3 do [!DNL Target Standard/Premium]. |
