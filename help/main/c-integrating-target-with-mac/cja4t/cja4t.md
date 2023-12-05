@@ -3,14 +3,14 @@ keywords: cja4t;Customer Journey Analytics;Customer Journey Analytics for Target
 description: Use o  [!DNL Adobe Customer Journey Analytics]  for  [!DNL Target]  (A4T) para criar atividades baseadas em métricas de conversão e segmentos de público-alvo do  [!DNL Customer Journey Analytics]  e use relatórios do  [!DNL Customer Journey Analytics]  para examinar os resultados.
 title: Qual é o objetivo do  [!DNL Adobe Customer Journey Analytics]  for  [!DNL Target]  (CJA4T)?
 feature: Integrations
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="O que são os recursos beta no [!DNL Adobe Target]."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#beta newtab=true" tooltip="O que são recursos beta no  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 source-git-commit: 16b325431224dfb6cd3e580937f6a3989d0ca577
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1066'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
