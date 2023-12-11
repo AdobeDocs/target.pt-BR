@@ -5,9 +5,9 @@ title: Onde posso encontrar informações sobre anúncios e eventos do  [!DNL Ta
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2242'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,22 +15,23 @@ ht-degree: 94%
 
 Avisos e informações sobre eventos do [!DNL Adobe Target], incluindo sessões de coffee-break do [!DNL Target], séries de webinários do [!DNL Target], sessões de construção de habilidades do [!DNL Target], bate-papos com desenvolvedores e muito mais. Se estiverem disponíveis, serão incluídos links para gravações anteriores.
 
-## [!DNL Adobe Target Community] Coffee Break
+## Coffee Break da [!DNL Adobe Target Community]
 
-* **Machine Learning &amp; AI Reporting &amp; Analysis**
-* **quinta-feira, 6 de dezembro de 2023**
-* **Das 8h às 9h (PST -8h GMT)**
+* **Aprendizado de máquina e Relatórios e análise de IA**
+* **quarta-feira, 6 de dezembro de 2023**
+* **Das 8h às 9h (PST, GMT - 8)**
 * **[Inscreva-se aqui](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
 
-Ingressar [!DNL Adobe Target] especialistas Brent Kostak, Cristinel Anastasoaie, Drew Burns e Marisol St. John em um evento ask-me-anything para discutir aprendizado de máquina e relatórios e análise de IA no [!DNL Adobe Target].
+Junte-se aos especialistas do [!DNL Adobe Target] Brent Kostak, Cristinel Anastasoaie, Drew Burns e Marisol St. John em um evento de perguntas e respostas para discutir sobre aprendizado de máquina e relatórios e análise de IA no [!DNL Adobe Target].
 
-+++Detalhes Esta discussão se concentrará nos seguintes tópicos:
++++Detalhes
+Esta discussão se concentrará nos seguintes tópicos:
 
-* Você está animado com o aprendizado de máquina e a IA e quer entender melhor o sucesso dos relatórios em suas atividades?
-* Procurando obter novas ideias e casos de uso nos quais você pode usar a personalização em tempo real para conteúdo, ofertas e mensagens?
+* Você está animado com o aprendizado de máquina e a IA e quer entender melhor o sucesso de relatórios em suas atividades?
+* Procurando obter novas ideias e casos de uso nos quais você pode usar a personalização em tempo real em conteúdos, ofertas e mensagens?
 * Deseja conhecer as práticas recomendadas para criar atividades baseadas em formulários para testes no lado do servidor?
-* Você deseja melhorar a análise e a medição das atividades no [!UICONTROL Analytics for Target] (A4T)?
-* Suas equipes estão curiosas sobre como expandir além do teste A/B com testes e personalização em experiências autenticadas e conhecidas do cliente?
+* Deseja melhorar a análise e a medição das atividades em relatórios do [!UICONTROL Analytics for Target] (A4T)?
+* Suas equipes estão curiosas sobre como expandir além do teste A/B com testes e personalização em experiências autenticadas de clientes conhecidos?
 
 +++
 
