@@ -4,7 +4,7 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] 
 title: Onde posso encontrar informações sobre anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
+source-git-commit: 626f6debb36d7610bd0284142caf57e6ce911f83
 workflow-type: tm+mt
 source-wordcount: '2348'
 ht-degree: 88%
@@ -30,22 +30,22 @@ Por que você deve participar:
 +++Datas e detalhes
 
 * **Arte do Possível**
-* **Terça-feira, 16 de janeiro de 2024**
-* **Das 10h às 11h (PST -8h GMT)**
+   * **Terça-feira, 16 de janeiro de 2024**
+   * **Das 10h às 11h (PST -8h GMT)**
 
-No centro da maturidade da personalização está a Inteligência artificial e o aprendizado de máquina. [!DNL Adobe Target] O utiliza essas tecnologias para entender o comportamento do usuário, prever preferências e adaptar dinamicamente o conteúdo. Ao aproveitar o potencial da IA e do aprendizado de máquina, saiba como as marcas estão indo além dos testes A/B estáticos e da personalização baseada em regras para fornecer experiências dinâmicas e contextualmente relevantes.
+     No centro da maturidade da personalização está a Inteligência artificial e o aprendizado de máquina. [!DNL Adobe Target] O utiliza essas tecnologias para entender o comportamento do usuário, prever preferências e adaptar dinamicamente o conteúdo. Ao aproveitar o potencial da IA e do aprendizado de máquina, saiba como as marcas estão indo além dos testes A/B estáticos e da personalização baseada em regras para fornecer experiências dinâmicas e contextualmente relevantes.
 
 * **Recommendations de alto desempenho**
-* **Terça-feira, 13 de fevereiro de 2024**
-* **Das 10h às 11h (PST -8h GMT)**
+   * **Terça-feira, 13 de fevereiro de 2024**
+   * **Das 10h às 11h (PST -8h GMT)**
 
-Saiba como os algoritmos de recomendação podem ser um divisor de águas para as empresas, gerando engajamento e receita. De sugestões personalizadas de produtos a recomendações de conteúdo, a capacidade de orientar os usuários de maneira contínua por meio de suas jornadas contribui diretamente para desbloquear um crescimento significativo dos negócios.
+     Saiba como os algoritmos de recomendação podem ser um divisor de águas para as empresas, gerando engajamento e receita. De sugestões personalizadas de produtos a recomendações de conteúdo, a capacidade de orientar os usuários de maneira contínua por meio de suas jornadas contribui diretamente para desbloquear um crescimento significativo dos negócios.
 
 * **Desbloquear a personalização alimentada por IA**
-* **Terça-feira, 12 de março de 2024**
-* **Das 10h às 11h (PST -8h GMT)**
+   * **Terça-feira, 12 de março de 2024**
+   * **Das 10h às 11h (PST -8h GMT)**
 
-[!DNL Adobe Target] O facilita os recursos de personalização alimentados por IA em cada estágio do ciclo de vida do cliente para experiências personalizadas de 1 para 1. Da aquisição à retenção, saiba como as empresas estão obtendo insights sobre a simplificação de processos, minimização de esforços manuais e fornecimento de experiências contextuais e envolventes ao cliente em escala.
+     [!DNL Adobe Target] O facilita os recursos de personalização alimentados por IA em cada estágio do ciclo de vida do cliente para experiências personalizadas de 1 para 1. Da aquisição à retenção, saiba como as empresas estão obtendo insights sobre a simplificação de processos, minimização de esforços manuais e fornecimento de experiências contextuais e envolventes ao cliente em escala.
 
 +++
 
