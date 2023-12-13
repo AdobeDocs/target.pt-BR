@@ -4,10 +4,10 @@ description: Leia os anúncios e cadastre-se em eventos do Adobe  [!DNL Target] 
 title: Onde posso encontrar informações sobre anúncios e eventos do  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
-workflow-type: ht
-source-wordcount: '2242'
-ht-degree: 100%
+source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
+workflow-type: tm+mt
+source-wordcount: '2348'
+ht-degree: 88%
 
 ---
 
@@ -15,31 +15,39 @@ ht-degree: 100%
 
 Avisos e informações sobre eventos do [!DNL Adobe Target], incluindo sessões de coffee-break do [!DNL Target], séries de webinários do [!DNL Target], sessões de construção de habilidades do [!DNL Target], bate-papos com desenvolvedores e muito mais. Se estiverem disponíveis, serão incluídos links para gravações anteriores.
 
-## Coffee Break da [!DNL Adobe Target Community]
+## Série de webinários de maturidade da personalização do Adobe Target 2024
 
-* **Aprendizado de máquina e Relatórios e análise de IA**
-* **quarta-feira, 6 de dezembro de 2023**
-* **Das 8h às 9h (PST, GMT - 8)**
-* **[Inscreva-se aqui](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+Esta série de webinários ao vivo destacará os principais [!DNL Adobe Target] recursos, casos de uso e dicas para desbloquear a personalização baseada em IA, à medida que os clientes expandem sua jornada de experimentação e personalização com o [!DNL Adobe Experience Platform].
 
-Junte-se aos especialistas do [!DNL Adobe Target] Brent Kostak, Cristinel Anastasoaie, Drew Burns e Marisol St. John em um evento de perguntas e respostas para discutir sobre aprendizado de máquina e relatórios e análise de IA no [!DNL Adobe Target].
+Por que você deve participar:
 
-+++Detalhes
-Esta discussão se concentrará nos seguintes tópicos:
+* **Saiba mais sobre os principais casos de uso**: Transforme visões em realidade com um projeto para otimização inteligente, amadurecimento [!DNL Adobe Target] clientes além da experimentação baseada em regras e do teste A/B.
+* **Maximize os recursos exclusivos**: personalize experiências para obter sucesso com recomendações de alto desempenho que maximizam o ROI, a receita e a conversão.
+* **Estratégias de personalização avançadas**: aprofunde as técnicas avançadas de IA/ML para dimensionar o impacto nos negócios, repercutir em novos segmentos/públicos-alvo e ajustar modelos de personalização para experiências otimizadas
 
-* Você está animado com o aprendizado de máquina e a IA e quer entender melhor o sucesso de relatórios em suas atividades?
-* Procurando obter novas ideias e casos de uso nos quais você pode usar a personalização em tempo real em conteúdos, ofertas e mensagens?
-* Deseja conhecer as práticas recomendadas para criar atividades baseadas em formulários para testes no lado do servidor?
-* Deseja melhorar a análise e a medição das atividades em relatórios do [!UICONTROL Analytics for Target] (A4T)?
-* Suas equipes estão curiosas sobre como expandir além do teste A/B com testes e personalização em experiências autenticadas de clientes conhecidos?
+* **[Inscreva-se aqui](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++Datas e detalhes
+
+* **Arte do Possível**
+* **Terça-feira, 16 de janeiro de 2024**
+* **Das 10h às 11h (PST -8h GMT)**
+
+No centro da maturidade da personalização está a Inteligência artificial e o aprendizado de máquina. [!DNL Adobe Target] O utiliza essas tecnologias para entender o comportamento do usuário, prever preferências e adaptar dinamicamente o conteúdo. Ao aproveitar o potencial da IA e do aprendizado de máquina, saiba como as marcas estão indo além dos testes A/B estáticos e da personalização baseada em regras para fornecer experiências dinâmicas e contextualmente relevantes.
+
+* **Recommendations de alto desempenho**
+* **Terça-feira, 13 de fevereiro de 2024**
+* **Das 10h às 11h (PST -8h GMT)**
+
+Saiba como os algoritmos de recomendação podem ser um divisor de águas para as empresas, gerando engajamento e receita. De sugestões personalizadas de produtos a recomendações de conteúdo, a capacidade de orientar os usuários de maneira contínua por meio de suas jornadas contribui diretamente para desbloquear um crescimento significativo dos negócios.
+
+* **Desbloquear a personalização alimentada por IA**
+* **Terça-feira, 12 de março de 2024**
+* **Das 10h às 11h (PST -8h GMT)**
+
+[!DNL Adobe Target] O facilita os recursos de personalização alimentados por IA em cada estágio do ciclo de vida do cliente para experiências personalizadas de 1 para 1. Da aquisição à retenção, saiba como as empresas estão obtendo insights sobre a simplificação de processos, minimização de esforços manuais e fornecimento de experiências contextuais e envolventes ao cliente em escala.
 
 +++
-
-## Série de webinários do [!DNL Adobe Target]  {#webinar-series}
-
-Inscreva-se nos seguintes webinários para ver como os clientes estão usando o [!DNL Target] para atingir suas metas de personalização e otimização:
-
-Nada agendado no momento.
 
 ## Gravações de webinários antigos e sessões do construtor de habilidades
 
