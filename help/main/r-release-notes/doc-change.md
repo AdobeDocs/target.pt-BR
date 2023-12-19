@@ -5,9 +5,9 @@ title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2360'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
-| 13 de dezembro | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Adição de informações sobre o [!DNL Adobe Target] Série de webinários Maturidade da personalização de 2024. |
+| 13 de dezembro | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Adição de informações sobre a série de webinários sobre maturidade de personalização do [!DNL Adobe Target] 2024. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=pt-BR){target=_blank} | Adição de duas novas configurações opcionais: <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
 | 4 de dezembro | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Adição de informações de registro para a sessão de Coffee Break “Aprendizado de máquina e Relatórios e análise de IA” do [!DNL Adobe Target Community]: quarta-feira, 6 de dezembro de 2023. |
 | 1º de dezembro | [APIs de atualização de perfil do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=pt-BR){target=_blank} | A documentação da API herdada foi movida para os seguintes artigos:<ul><li>[Visão geral das APIs de perfil do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=pt-BR){target=_blank}</li><li>[API de atualização de perfil único do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html?lang=pt-BR){target=_blank}</li><li>[API de atualização de perfil em massa do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?lang=pt-BR){target=_blank}</li></ul> |
