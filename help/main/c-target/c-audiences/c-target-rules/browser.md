@@ -4,10 +4,10 @@ description: Saiba como criar públicos-alvo no [!DNL Adobe Target] para direcio
 title: Posso definir visitantes como alvo com base no tipo de navegador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bb6d08581ddb685b4a311ad1c1d792546db12db6
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 76%
+source-wordcount: '675'
+ht-degree: 73%
 
 ---
 
@@ -24,7 +24,7 @@ Estes navegadores podem ser direcionados:
 * Microsoft Edge
 * Opera
 * iPad  
-* iPhone|
+* iPhone
 
 Há duas formas de direcionar navegadores:
 
@@ -38,7 +38,7 @@ Há duas formas de direcionar navegadores:
 
 * **Regra de público-alvo do navegador personalizado:** Um público-alvo personalizado permite direcionar vários navegadores ou configurar regras ou exclusões para navegadores, versões de navegadores ou idiomas específicos. Essa funcionalidade oferece flexibilidade significativa no direcionamento de uma atividade com base em atributos de navegador.
 
-   1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
+   1. No [!DNL Target] clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
    1. Nomeie o público-alvo e adicione uma descrição opcional.
    1. Arrastar e soltar **[!UICONTROL Navegador]** no Construtor de público-alvo.
 
@@ -49,12 +49,13 @@ Há duas formas de direcionar navegadores:
       * **Tipo:** direcione ou exclua um determinado navegador. Consulte [Tipo](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
       * **Idioma:** Direcione ou exclua determinados navegadores configurados para usar idiomas específicos. Consulte [Idioma](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
       * **Versão:** direcione ou exclua determinadas versões de um navegador. Consulte [Versão](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+
    1. (Opcional) Configure regras adicionais para o público-alvo.
    1. Clique em **[!UICONTROL Concluído]**.
 
-   O exemplo a seguir mostra um público-alvo que inclui usuários do Microsoft Edge nas versões 91 ou 92:
+  O exemplo a seguir mostra um público-alvo que inclui usuários do Microsoft Edge nas versões 91 ou 92:
 
-   ![Target Edge 91 ou 92](assets/target_edge.png)
+  ![Target Edge 91 ou 92](assets/target_edge.png)
 
 ## Opções de navegador {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -64,7 +65,7 @@ Direcione ou exclua participantes das atividades com base em tipo de navegador, 
 
 Direcione ou exclua um determinado navegador.
 
-Selecione **[!UICONTROL Tipo]** e escolha “é igual” ou “não é igual”.
+Selecione **[!UICONTROL Tipo]** e escolha &quot;é igual&quot; ou &quot;não é igual&quot;.
 
 * É igual: direciona os navegadores selecionados.
 * Não é igual: exclui os navegadores selecionados.
@@ -79,7 +80,7 @@ Por exemplo, se uma oferta está disponível em inglês, você pode direcionar n
 
 A inclusão ou exclusão de idiomas de navegador pode proporcionar um direcionamento de visitante mais preciso do que o direcionamento baseado em localização geográfica nos casos em que o idioma é mais importante que o local. Por exemplo, se está oferecendo um artigo escrito em inglês, você pode direcionar países de língua inglesa ou navegadores configurados para língua inglesa. O direcionamento ao navegador disponibiliza o artigo para falantes de inglês em países nos quais o inglês não é o idioma principal.
 
-Selecione **[!UICONTROL Idioma]** e escolha “é igual” ou “não é igual”.
+Selecione **[!UICONTROL Idioma]** e escolha &quot;é igual&quot; ou &quot;não é igual&quot;.
 
 * É igual: direciona os idiomas de navegador selecionados.
 * Não é igual: exclui os idiomas de navegador selecionados.
