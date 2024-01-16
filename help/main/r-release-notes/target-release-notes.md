@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2421c9c0c3cf4cb2f914ef270fcb4fcf0dd3c3c3
+source-git-commit: 78bedce2134061edc48baf7023107e1dd48da2a1
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 50%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Este artigo contém informações de pré-lançamento das próximas versões do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: 8 de novembro de 2023**
+**Última atualização: terça-feira, 16 de janeiro de 2023**
 
 >[!NOTE]
 >
@@ -23,23 +23,27 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 >
 >Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.11.1 (13 e 14 de novembro de 2023)
+## Substituição do iPad e do iPhone pelo atributo de público-alvo do navegador (30 de abril de 2024)
+
+| Substituição | Detalhes |
+|--- |--- |
+| [!DNL iPad] e [!DNL iPhone] a ser descontinuado do [Atributo do navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md) usado ao criar públicos.<p>Data de desativação:<P>quarta-feira, 30 de abril de 2024 | [!DNL Adobe Target] permite [direcionar em qualquer um dos vários atributos de categoria](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), incluindo os usuários que utilizam um [opções do navegador ou do navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md) quando visitarem sua página.<P><B>A partir de 30 de abril de 2024, o iPad e o iPhone serão removidos do disponível [!UICONTROL Navegador] digite a lista suspensa ao criar categorias para públicos-alvo.</b><P>Se você tiver públicos-alvo que direcionem iPads ou iPhones usando o [!UICONTROL Navegador] você deve alterar essas configurações antes de 30 de abril de 2024 para garantir que esses públicos-alvo continuem a funcionar conforme esperado.<P>As seguintes configurações devem ser usadas a partir de agora:<ul><li>[!UICONTROL Dispositivo móvel] > [!UICONTROL é tablet]<P>![dispositivo móvel é tablet](/help/main/r-release-notes/assets/is-tablet.png)</li><li>[!UICONTROL Dispositivo móvel] > [!UICONTROL Nome de comercialização do dispositivo] [!UICONTROL corresponde a] [!DNL iPad]<P>![iPad](/help/main/r-release-notes/assets/ipad.png)</li><li>[!UICONTROL Dispositivo móvel] > [!UICONTROL Nome de comercialização do dispositivo] [!UICONTROL corresponde a] [!DNL iPhone]<p>![iPhone](/help/main/r-release-notes/assets/iphone.png)</li></ul> |
+
+## [!DNL Target] Standard/Premium 24.1.1 (22, 23 e 25 de janeiro de 2024)
 
 Este lançamento está previsto para os seguintes dias:
 
-* **13 de novembro**: região Ásia-Pacífico (APAC)
-* **14 de novembro**: região das Américas
-* **14 de novembro**: região da Europa, Oriente Médio e África (EMEA)
+* **22 de janeiro**: regiões da Europa, Oriente Médio e África (EMEA)
+* **23 de janeiro**: região da Ásia-Pacífico (APAC)
+* **25 de janeiro**: região das Américas
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* Aprimoramento do recurso [Controle de qualidade da atividade](/help/main/c-activities/c-activity-qa/activity-qa.md) para ser compatível com a [proibição de ofertas duplicadas](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) para experiências nas atividades do [!UICONTROL Automated Personalization]. (TGT-46627)
-* Adição de uma dica de ferramenta na interface do [!DNL Target] para ajudar clientes a entender por que pode não haver dados disponíveis nos relatórios de atividade se nenhum tráfego estiver alocado para a experiência de controle. Um link para obter mais informações está incluído na dica de ferramenta: [Por que não há dados disponíveis para o meu relatório de atividade?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
-* Correção de um problema que impedia a exibição correta das atividades na página [!UICONTROL Atividades] para alguns clientes. (TGT-46830)
-* Correção dos seguintes problemas que afetavam as atividades que usavam o [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) como fonte de relatórios:
-   * Correção de um problema que impedia que alguns clientes visualizassem dados de relatórios. (TGT-46557)
-   * Correção de um problema que às vezes fazia o link [!UICONTROL Exibir no Analytics] nas páginas do relatório de atividades não funcionar corretamente. (TGT-46731)
-   * Correção de um problema que impedia a exibição correta de dados de [!UICONTROL Elevação] e de [!UICONTROL Confiança] na interface do [!DNL Target]. (TGT-46592, TGT-46554, e TGT-46586)
+* Correção de um problema que fazia com que os intervalos de datas do relatório não funcionassem corretamente. (TGT-47396)
+* Correção de um problema que fazia com que o status incorreto fosse exibido no [!UICONTROL Todas as atividades] depois que os clientes ativaram ou desativaram uma atividade usando o [!UICONTROL Mais ações] ícone. (TGT-47367)
+* Correção de um problema que causava a [!UICONTROL Atributos importantes] relatório que não será exibido para um cliente. (TGT-47272)
+* Correção de um problema que exibia a mensagem &quot;Carga inválida&quot; quando um cliente tentava habilitar &quot;Requer autenticação&quot;. (TGT-47195)
+* Atualização de várias strings localizadas no [!DNL Target] IU.
 
 ## Notas de versão adicionais e detalhes da versão
 
