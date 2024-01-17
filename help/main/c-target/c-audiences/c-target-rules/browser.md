@@ -4,10 +4,10 @@ description: Saiba como criar públicos-alvo no [!DNL Adobe Target] para direcio
 title: Posso definir visitantes como alvo com base no tipo de navegador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
+source-git-commit: 335b5eaa9240fb4ecc592063bebd3ba977fb8d6e
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 54%
+source-wordcount: '943'
+ht-degree: 53%
 
 ---
 
@@ -145,15 +145,15 @@ As seguintes configurações podem ser usadas a partir de agora:
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* [!UICONTROL Dispositivo móvel] > [!UICONTROL é tablet]
+* [!UICONTROL Dispositivo móvel] > [!UICONTROL é tablet] > [!UICONTROL true]
 
   ![dispositivo móvel é tablet](/help/main/r-release-notes/assets/is-tablet.png)
 
-* [!UICONTROL Dispositivo móvel] > [!UICONTROL Nome de comercialização do dispositivo] [!UICONTROL corresponde a] [!DNL iPad]
+* [!UICONTROL Dispositivo móvel] > [!UICONTROL Nome de comercialização do dispositivo] [!UICONTROL corresponde a] [!DNL iPad] com um contêiner And com [!UICONTROL Dispositivo móvel] > [!UICONTROL É tablet] é [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* [!UICONTROL Dispositivo móvel] > [!UICONTROL Nome de comercialização do dispositivo] [!UICONTROL corresponde a] [!DNL iPhone]
+* [!UICONTROL Dispositivo móvel] > [!UICONTROL Nome de comercialização do dispositivo] [!UICONTROL corresponde a] [!DNL iPhone] com um contêiner And com [!UICONTROL Dispositivo móvel] > [!UICONTROL É telefone celular] é [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
