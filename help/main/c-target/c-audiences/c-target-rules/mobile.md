@@ -4,10 +4,10 @@ description: Saiba como criar públicos-alvo no [!DNL Adobe Target] para disposi
 title: Posso definir visitantes como alvo com base nas opções de dispositivos móveis?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 0f51f2a8c501ebfc2f11aebd9bfc434160a6b471
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 42%
+source-wordcount: '687'
+ht-degree: 34%
 
 ---
 
@@ -33,13 +33,13 @@ Para resolver esse problema, [!DNL Target] O coleta dados adicionais para detect
 
 >[!NOTE]
 >
->Os clientes que usam o SDK móvel não precisam fazer nada para aplicar essa funcionalidade. Clientes usando at.js devem [atualização para a at.js versão 1.5.0](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank} (ou posteriormente).
+>Os clientes que usam o SDK móvel não precisam fazer nada para aplicar essa funcionalidade. Clientes usando at.js devem [atualização para a at.js versão 1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank} (ou posteriormente).
 
 Você pode escolher mais de uma propriedade de dispositivo móvel. Várias seleções são unidas com um operador OR.
 
 Os clientes que usam uma integração personalizada (que não usa at.js ou o Mobile SDK) podem coletar esses parâmetros e passá-los como parâmetros da mbox.
 
-1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
+1. No [!DNL Target] clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
 1. Nomeie o público-alvo e adicione uma descrição opcional.
 1. Arrastar e soltar **[!UICONTROL Dispositivo móvel]** no painel do audience builder.
 1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
@@ -61,7 +61,7 @@ Os clientes que usam uma integração personalizada (que não usa at.js ou o Mob
 1. (Opcional) Configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Concluído]**.
 
- ilustração a seguir mostra um público-alvo direcionando visitantes que usam dispositivos móveis fabricados pelo Google.
+A ilustração a seguir mostra um público-alvo direcionando visitantes que usam dispositivos móveis fabricados pela Google.
 
 ![Dispositivos móveis do Target](assets/target_mobile.png)
 

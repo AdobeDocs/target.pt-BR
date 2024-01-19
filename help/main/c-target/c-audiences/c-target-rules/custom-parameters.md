@@ -4,10 +4,10 @@ description: Saiba como transmitir parâmetros personalizados para o [!DNL Adobe
 title: Posso definir visitantes como alvo com base em parâmetros personalizados?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 43%
+source-wordcount: '491'
+ht-degree: 37%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 43%
 
 Os parâmetros personalizados são parâmetros mbox no [!DNL Adobe Target]. Se você passar algum parâmetro de mbox para mboxes, ou usar o `targetPageParams` esses parâmetros aparecem aqui para uso em públicos-alvo.
 
-Para obter mais informações, consulte [Envio de parâmetros para uma mbox global](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=pt-BR){target=_blank}.
+Para obter mais informações, consulte [Envio de parâmetros para uma mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.
 
 Ao criar um público-alvo personalizado com base em um parâmetro de mbox, `mboxParameter` não solicita mais `mboxName`. O nome da mbox agora é opcional. Essa alteração permite usar parâmetros de várias mboxes ou referenciar um parâmetro que ainda não foi gravado na borda.
 
-1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
+1. No [!DNL Target] clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
 1. Nomeie o público-alvo e adicione uma descrição opcional.
 1. Arrastar e soltar **[!UICONTROL Personalizado]** no Construtor de público-alvo.
 
@@ -60,7 +60,7 @@ Ao criar um público-alvo personalizado com base em um parâmetro de mbox, `mbox
 1. (Opcional) Configure regras adicionais para o público-alvo.
 1. Clique em **[!UICONTROL Concluído]**.
 
-O [cartão pop-up dos detalhes de definição](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) do público-alvo mostra o nome do parâmetro na seção Regras. **** Não há referência à mbox usada para filtragem.
+Do público-alvo [cartão pop-up de detalhes da definição](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) mostra o nome do parâmetro na variável **[!UICONTROL Regras]** seção. Não há referência à mbox usada para filtragem.
 
 >[!NOTE]
 >

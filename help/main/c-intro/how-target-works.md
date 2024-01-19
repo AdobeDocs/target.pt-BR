@@ -4,10 +4,10 @@ description: Saiba como o  [!DNL Adobe Target]  funciona, incluindo informaçõe
 title: Como o  [!DNL Target]  funciona?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2565'
-ht-degree: 100%
+source-wordcount: '2507'
+ht-degree: 99%
 
 ---
 
@@ -19,8 +19,8 @@ Saiba como o [!DNL Adobe Target] funciona, incluindo informações sobre as bibl
 
 O [!DNL Target] integra-se a sites usando o [!DNL Experience Platform Web SDK] ou a at.js:
 
-* **[!DNL Adobe Experience Platform Web SDK]:** o [SDK da web da Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank} é uma nova biblioteca de JavaScript do lado do cliente. O [!DNL Experience Platform Web SDK] permite que os clientes da [!DNL Adobe Experience Cloud] interajam com os vários serviços na [!DNL Experience Cloud] (incluindo o [!DNL Target]) por meio da rede de borda da [!DNL Experience Platform]. A [!DNL Adobe] recomenda que todos os novos clientes do [!DNL Target] implementem o [!DNL Experience Platform Web SDK].
-* **at.js:** A biblioteca at.js é uma biblioteca de implementação para [!DNL Target]. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é atualizada frequentemente com novos recursos. A [!DNL Adobe] recomenda que todos os clientes que usam a at.js atualizem suas implementações para a [versão mais recente da at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank}.
+* **[!DNL Adobe Experience Platform Web SDK]:** o [SDK da web da Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank} é uma nova biblioteca de JavaScript do lado do cliente. O [!DNL Experience Platform Web SDK] permite que os clientes da [!DNL Adobe Experience Cloud] interajam com os vários serviços na [!DNL Experience Cloud] (incluindo o [!DNL Target]) por meio da rede de borda da [!DNL Experience Platform]. A [!DNL Adobe] recomenda que todos os novos clientes do [!DNL Target] implementem o [!DNL Experience Platform Web SDK].
+* **at.js:** A biblioteca at.js é uma biblioteca de implementação para [!DNL Target]. A biblioteca at.js melhora os tempos de carregamento de página de implementações da Web e fornece opções de implementações melhores para aplicativos de página única. A at.js é atualizada frequentemente com novos recursos. A [!DNL Adobe] recomenda que todos os clientes que usam a at.js atualizem suas implementações para a [versão mais recente da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank}.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Consulte o [!DNL Experience Platform Web SDK] ou at.js em todas as páginas do s
 Os seguintes recursos contêm informações detalhadas para ajudar você a implementar o [!DNL Experience Platform Web SDK] ou a at.js:
 
 * [[!DNL Adobe Experience Platform Web SDK] extensão](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=pt-BR){target=_blank}
-* [Implementar o  [!DNL Target]  usando a  [!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=pt-BR){target=_blank}
+* [Implementar o  [!DNL Target]  usando a  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
 
 Cada vez que um visitante solicita uma página que foi otimizada para [!DNL Target], uma solicitação é enviada para o sistema de direcionamento. A solicitação ajuda a determinar qual conteúdo será enviado para esse visitante. Esse processo ocorre em tempo real. Esse processo ocorre em tempo real. Sempre que uma página é carregada, uma solicitação para o conteúdo é feita e preenchida pelo sistema. O conteúdo é regulado pelas leis de atividades e experiências controladas pelo comerciante e direcionado para o visitante individual do site. O conteúdo é disponibilizado para cada visitante do site com maior probabilidade de responder, interagir ou comprar. O conteúdo personalizado ajuda a maximizar as taxas de resposta, as taxas de aquisição e a receita.
 
@@ -134,7 +134,7 @@ O serviço [!DNL Target Recommendations] é hospedado em um data center [!DNL Ad
 >
 >No momento, o [!DNL Adobe Target] não tem um cluster de borda na China e o desempenho do visitante permanece limitado para clientes do [!DNL Target] na China. Devido ao firewall e à falta de clusters de borda no país, as experiências dos sites com [!DNL Target] implantado podem ser afetadas. As experiências podem ser renderizadas lentamente e os carregamentos de página podem ser afetados. Além disso, os profissionais de marketing podem identificar latência ao usar a interface de criação do [!DNL Target].
 
-Você pode adicionar clusters de borda do [!DNL Target] à lista de permissões, se desejar. Para obter mais informações, consulte a [lista de permissões de nós de borda do Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank}.
+Você pode adicionar clusters de borda do [!DNL Target] à lista de permissões, se desejar. Para obter mais informações, consulte a [lista de permissões de nós de borda do Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=pt-BR){target=_blank}.
 
 ## Experiência do usuário protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -166,25 +166,25 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
 * **Sem cloaking**: o cloaking mostra um conjunto de conteúdo para seus usuários e um conjunto diferente de conteúdo para os bots do mecanismo de pesquisa. O cloaking é realizado ao identificar bots especificamente e enviar conteúdo diferente propositalmente.
 
-   O [!DNL Target], como uma plataforma, foi configurado para tratar bots de mecanismo de pesquisa como qualquer usuário. Como resultado, os bots podem ser incluídos em atividades caso sejam selecionados aleatoriamente e “vejam” as variações do teste.
+  O [!DNL Target], como uma plataforma, foi configurado para tratar bots de mecanismo de pesquisa como qualquer usuário. Como resultado, os bots podem ser incluídos em atividades caso sejam selecionados aleatoriamente e “vejam” as variações do teste.
 
 * **Use rel=&quot;canonical&quot;**: algumas vezes, um teste A/B precisa ser configurado utilizando URLs diferentes para as variações. Nesses casos, todas as variações devem conter uma tag `rel="canonical"` que faça referência à URL original (controle). Por exemplo, suponha que a [!DNL Adobe] esteja testando sua página inicial usando URLs diferentes para cada variação. A tag canônica a seguir para a página inicial seria inserida na tag `<head>` para cada uma das variações:
 
-   `<link rel="canonical" href="https://www.adobe.com" />`
+  `<link rel="canonical" href="https://www.adobe.com" />`
 
 * **Use redirecionamentos 302 (temporário) redirects**: Nos casos em que são utilizados URLs individuais para as variações de páginas em um teste, o Google recomenda o uso de um redirecionamento 302 a fim de direcionar o tráfego para as variações de teste. O redirecionamento 302 informa aos mecanismos de pesquisa que o redirecionamento é temporário e está ativo somente enquanto o teste estiver em execução.
 
-   Um redirecionamento 302 é um redirecionamento no lado do servidor e o [!DNL Target], juntamente com a maioria dos provedores de otimização, utiliza as capacidades do lado do cliente. Portanto, essa é uma área em que o [!DNL Target] não está em total conformidade com as recomendações do Google. Isso, entretanto, só afeta uma pequena fração dos testes. A abordagem padrão para execução de testes por meio do [!DNL Target] pede a alteração do conteúdo em um único URL, então não há necessidade de redirecionamentos. Há casos em que os clientes precisam usar vários URLs para representar suas variações no teste. Nesses casos, o [!DNL Target] usa o comando `window.location` do JavaScript. Esse comando direciona os usuários para variações do teste, o que não indica explicitamente se o redirecionamento é um 301 ou 302.
+  Um redirecionamento 302 é um redirecionamento no lado do servidor e o [!DNL Target], juntamente com a maioria dos provedores de otimização, utiliza as capacidades do lado do cliente. Portanto, essa é uma área em que o [!DNL Target] não está em total conformidade com as recomendações do Google. Isso, entretanto, só afeta uma pequena fração dos testes. A abordagem padrão para execução de testes por meio do [!DNL Target] pede a alteração do conteúdo em um único URL, então não há necessidade de redirecionamentos. Há casos em que os clientes precisam usar vários URLs para representar suas variações no teste. Nesses casos, o [!DNL Target] usa o comando `window.location` do JavaScript. Esse comando direciona os usuários para variações do teste, o que não indica explicitamente se o redirecionamento é um 301 ou 302.
 
-   O [!DNL Adobe] continua a procurar soluções viáveis para se alinhar completamente às diretrizes do mecanismo de pesquisa. Para os clientes que devem usar URLs separados para testes, a [!DNL Adobe] está confiante de que a implementação adequada das tags canônicas diminui o risco associado a essa abordagem.
+  O [!DNL Adobe] continua a procurar soluções viáveis para se alinhar completamente às diretrizes do mecanismo de pesquisa. Para os clientes que devem usar URLs separados para testes, a [!DNL Adobe] está confiante de que a implementação adequada das tags canônicas diminui o risco associado a essa abordagem.
 
 * **Execute experimentos somente enquanto for necessário**: a [!DNL Adobe] acredita que “conforme necessário” é o quanto for necessário para atingir significância estatística. O [!DNL Target] fornece práticas recomendadas e a [Calculadora de tamanho da amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) do [!DNL Adobe Target] para determinar quando seu teste atingiu esse ponto. A [!DNL Adobe] recomenda que você incorpore a implementação codificada permanentemente de testes vencedores no seu fluxo de trabalho de testes e aloque os recursos apropriados.
 
-   A utilização da plataforma [!DNL Target] para “publicar” testes vencedores não é recomendada como uma solução permanente. Se o teste vencedor for publicado para 100% dos usuários em 100% das vezes, essa abordagem poderá ser usada enquanto o processo de codificação rígida do teste vencedor for concluído.
+  A utilização da plataforma [!DNL Target] para “publicar” testes vencedores não é recomendada como uma solução permanente. Se o teste vencedor for publicado para 100% dos usuários em 100% das vezes, essa abordagem poderá ser usada enquanto o processo de codificação rígida do teste vencedor for concluído.
 
-   É importante levar em consideração também o que seu teste alterou. Apenas atualizar a cor de botões ou outros itens de menor importância não baseados em texto na página não exercerá qualquer influência sobre suas classificações orgânicas. As alterações, entretanto, devem ser codificadas permanentemente.
+  É importante levar em consideração também o que seu teste alterou. Apenas atualizar a cor de botões ou outros itens de menor importância não baseados em texto na página não exercerá qualquer influência sobre suas classificações orgânicas. As alterações, entretanto, devem ser codificadas permanentemente.
 
-   Também é importante considerar a acessibilidade da sua página que você está testando. Se a página não estiver acessível para mecanismos de pesquisa e nunca tiver sido projetada para classificar em pesquisa orgânica, nenhuma das considerações acima se aplicam. Um exemplo é uma página de aterrissagem dedicada a uma campanha de email.
+  Também é importante considerar a acessibilidade da sua página que você está testando. Se a página não estiver acessível para mecanismos de pesquisa e nunca tiver sido projetada para classificar em pesquisa orgânica, nenhuma das considerações acima se aplicam. Um exemplo é uma página de aterrissagem dedicada a uma campanha de email.
 
 O Google declara que seguir essas diretrizes “deve resultar em pequeno ou nenhum impacto dos seus testes sobre o seu site nos resultados de pesquisa”.
 

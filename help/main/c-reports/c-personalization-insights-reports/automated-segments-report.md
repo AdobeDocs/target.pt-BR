@@ -2,17 +2,17 @@
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, direcionamento automático, direcionamento automático, relatório de direcionamento automático, relatório de direcionamento automático, personalização, insights, segmentos automatizados, perguntas frequentes, perguntas frequentes
 description: Saiba como diferentes segmentos definidos pelo Adobe [!DNL Target] os modelos de personalização respondem às ofertas/experiências na atividade ao exibir o relatório de Segmentos automatizados.
 title: O que é o relatório de Segmentos automatizados?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2142'
-ht-degree: 75%
+source-wordcount: '2166'
+ht-degree: 70%
 
 ---
 
-# [!UICONTROL Relatório de Segmentos automáticos]
+# [!UICONTROL Segmentos automatizados] relatório
 
 Informações sobre o [!UICONTROL Segmentos automatizados] relatório, um dos dois relatórios especializados à disposição dos [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] (AT) atividades.
 
@@ -22,14 +22,13 @@ Informações sobre o [!UICONTROL Segmentos automatizados] relatório, um dos do
 >
 >* As atividades de AP e AT estão disponíveis como parte da solução [!DNL Target Premium]. Não estão incluídos com o [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
 >
->* [!UICONTROL Os relatórios de insights de personalização estão disponíveis apenas para atividades de AP e AT que usam uma meta de otimização de conversão. ] As atividades em que a meta de otimização foi alterada para a conversão da receita após a atividade já estar ativa também não são compatíveis.
+>* [!UICONTROL Insights de personalização] Os relatórios do estão disponíveis somente para atividades de AP e AT que usam uma meta de otimização de conversão. As atividades em que a meta de otimização foi alterada para a conversão da receita após a atividade já estar ativa também não são compatíveis.
 >
 >* [!UICONTROL Insights de personalização] Os relatórios do estão disponíveis somente se o [!UICONTROL Meta primária] está selecionado no [!UICONTROL Métrica de relatório] lista suspensa.
 >
->* Os relatórios de insights de personalização são suportados somente no [ambiente padrão](/help/main/administrating-target/hosts.md).
+>* [!UICONTROL Insights de personalização] Os relatórios do são compatíveis com o [ambiente padrão](/help/main/administrating-target/hosts.md) somente.
 >
 >* [!UICONTROL Insights de personalização] os relatórios são gerados somente para atividades que estão na [!UICONTROL Ao vivo] e foram ativados e receberam tráfego por pelo menos 15 dias.
-
 
 Visitantes diferentes respondem de forma distinta às ofertas/experiências na atividade de AP/AT. Este relatório mostra como diferentes segmentos automatizados, definidos pelos modelos de personalização do Target, responderam às ofertas/experiências na atividade.
 
@@ -113,7 +112,7 @@ Há diversos motivos pelos quais os relatórios dos [!UICONTROL Insights de pers
 
 Um atributo é a informação sobre um visitante ou sua visita específica usada pelos algoritmos de personalização para saber como personalizar o tráfego. Por exemplo, um atributo pode ser o tipo de navegador, a localização, a hora do dia da visita e assim por diante.
 
-Para obter mais informações sobre quais atributos o [!DNL Target] usa em seus modelos de personalização, consulte [Coleta de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obter mais informações sobre como fazer upload de novos atributos no Target para usar nos modelos de personalização do Target, consulte [Métodos para colocar os dados no Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=pt-BR){target=_blank}.
+Para obter mais informações sobre quais atributos o [!DNL Target] usa em seus modelos de personalização, consulte [Coleta de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obter mais informações sobre como fazer upload de novos atributos no Target para usar nos modelos de personalização do Target, consulte [Métodos para colocar os dados no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 **O que é um segmento automatizado?**
 
@@ -121,7 +120,7 @@ Um &quot;segmento automatizado&quot; é como um público-alvo, mas é definido p
 
 Um segmento automatizado é composto de valores específicos (ou intervalos de valores), de atributos específicos. Consulte a Etapa 5 acima para obter exemplos de segmentos automatizados. Segmentos podem se sobrepor.
 
-Para saber mais sobre o algoritmo de personalização random forest, que é a base para os modelos de personalização do Target, consulte  [Algoritmo Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
+Para saber mais sobre o algoritmo de personalização random forest, que é a base para os modelos de personalização do Target, consulte [Algoritmo Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
 **O que decide a ordem dos segmentos automatizados?**
 

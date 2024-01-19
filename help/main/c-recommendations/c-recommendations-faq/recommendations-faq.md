@@ -2,13 +2,13 @@
 keywords: solução de problemas, perguntas frequentes, FAQ, FAQs, recommendations, caracteres especiais, ponderação de atributos, similaridade de conteúdo
 description: Veja uma lista de perguntas frequentes e respostas sobre atividades do Adobe [!DNL Target] Recommendations.
 title: Onde posso encontrar perguntas e respostas sobre o  [!DNL Target]  Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3400'
-ht-degree: 91%
+source-wordcount: '3471'
+ht-degree: 90%
 
 ---
 
@@ -38,7 +38,7 @@ Após importar um arquivo de feed ou depois de receber atualizações de entidad
 
 * Se um item tiver sido excluído anteriormente, mas agora precisar ser incluído, ele será incluído na próxima execução do algoritmo (12 a 24 horas).
 
-   Essa situação ocorre porque o [!DNL Target] aplica exclusões online e offline. Quando um item é recém-excluído, a exclusão online se aplica rapidamente. Quando um item é recém-incluído, a exclusão online desaparece rapidamente, mas a exclusão offline não desaparece até que o próximo algoritmo seja executado.
+  Essa situação ocorre porque o [!DNL Target] aplica exclusões online e offline. Quando um item é recém-excluído, a exclusão online se aplica rapidamente. Quando um item é recém-incluído, a exclusão online desaparece rapidamente, mas a exclusão offline não desaparece até que o próximo algoritmo seja executado.
 
 * Se um item foi incluído anteriormente, mas agora deve ser excluído, o item é excluído de acordo com a linha do tempo &quot;Atributos do item atualizados...&quot; discutida acima, dependendo da origem do feed (15 minutos via mbox/API ou 12 a 24 horas via feed).
 
@@ -95,7 +95,7 @@ Se a localização na qual você estiver aplicando esse critério não contiver 
 
 Se você usar um local em que a ID de categoria está presente na mbox, o seletor de critérios conterá todos os critérios aplicáveis.
 
-O [!DNL Target] tem uma configuração de [Critérios de filtro incompatíveis](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} para controlar a filtragem inteligente do seletor de algoritmo.
+[!DNL Target] tem um [Filtrar critérios incompatíveis](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} configuração para controlar a filtragem inteligente do seletor de algoritmo.
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Considere as informações a seguir se você vir uma coleção em zero que anter
 * Você pode salvar novamente a coleção e ver se ela atualiza o número. Ao salvar novamente, a coleção executa todos os algoritmos que estão usando essa coleção.
 * Você está olhando para o ambiente certo? Vá para [!DNL /target/products.html#recsSettings] para verificar novamente (conforme mostrado abaixo).
 
-   ![imagem product_catalog](assets/product_catalog.png)
+  ![imagem product_catalog](assets/product_catalog.png)
 
 * O seu índice está atualizado? Ir para [!DNL /target/products.html#productSearch] e verifique quantas horas têm o índice (por exemplo, &quot;Indexado há 3 horas&quot;). Você pode atualizar o índice, conforme necessário.
 * Você alterou algo no feed ou na camada de dados que resultou na falta de correspondência das suas entidades com as regras de coleção? Certifique-se de que as LETRAS MAIÚSCULAS E MINÚSCULAS estejam correspondentes (sensível à maiúscula e minúsculas).
@@ -214,19 +214,19 @@ NO_CONTENT é retornado quando as recomendações não estão disponíveis para 
 
 * Os resultados ainda não estão prontos.
 
-   Normalmente, essa situação ocorre ao salvar uma atividade recém-criada ou depois que alterações de configuração são feitas na coleção, nos critérios ou nas promoções usadas na atividade.
+  Normalmente, essa situação ocorre ao salvar uma atividade recém-criada ou depois que alterações de configuração são feitas na coleção, nos critérios ou nas promoções usadas na atividade.
 
 * Os resultados estão prontos, mas ainda não são armazenados em cache no servidor de borda mais próximo para a combinação de algoritmo/chave solicitada.
 
-   A solicitação inicia uma operação de cache, portanto, esse problema deve ser resolvido após alguns recarregamentos de página e/ou alguns minutos.
+  A solicitação inicia uma operação de cache, portanto, esse problema deve ser resolvido após alguns recarregamentos de página e/ou alguns minutos.
 
 * Os resultados estão prontos, mas não estão disponíveis para o valor principal fornecido.
 
-   Normalmente, essa situação ocorre ao solicitar recomendações para um item que foi adicionado ao catálogo após a execução mais recente do algoritmo e se resolverá após a execução do próximo algoritmo.
+  Normalmente, essa situação ocorre ao solicitar recomendações para um item que foi adicionado ao catálogo após a execução mais recente do algoritmo e se resolverá após a execução do próximo algoritmo.
 
 * A renderização parcial do modelo está desativada e não há resultados suficientes disponíveis para preencher o modelo.
 
-   Essa situação normalmente ocorre quando você tem uma regra de inclusão dinâmica, que filtra agressivamente muitos itens dos resultados possíveis. Para evitar situações, ative os backups e não aplique a regra de inclusão aos backups ou use os critérios em sequência com critérios filtrados menos agressivos.
+  Essa situação normalmente ocorre quando você tem uma regra de inclusão dinâmica, que filtra agressivamente muitos itens dos resultados possíveis. Para evitar situações, ative os backups e não aplique a regra de inclusão aos backups ou use os critérios em sequência com critérios filtrados menos agressivos.
 
 ## As recomendações baseadas em itens visualizados recentemente persistem em vários dispositivos para um único visitante? {#persist-across-devices}
 
@@ -244,7 +244,7 @@ Se o visitante não tiver duas sessões ativas ao mesmo tempo, os itens visualiz
 
 ## Posso usar um algoritmo criado no [!DNL Adobe Recommendations Classic] no [!DNL Recommendations Premium]?
 
-Um algoritmo criado no [!DNL Recommendations Classic] não é compatível com o [!DNL Recommendations Premium]. Você pode usar o algoritmo herdado no [!DNL Target Premium]; no entanto, o algoritmo pode criar problemas de sincronização ao desativar ou excluir a atividade na interface do [!DNL Target Premium]. Para obter mais informações sobre as diferenças entre as duas soluções, consulte atividades do [[!DNL Recommendations Classic] versus [!DNL Recommendations] no [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+Um algoritmo criado no [!DNL Recommendations Classic] não é compatível com o [!DNL Recommendations Premium]. Você pode usar o algoritmo herdado no [!DNL Target Premium]; no entanto, o algoritmo pode criar problemas de sincronização ao desativar ou excluir a atividade na interface do [!DNL Target Premium]. Para obter mais informações sobre as diferenças entre as duas soluções, consulte [[!DNL Recommendations Classic] versus [!DNL Recommendations] atividades no [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
 ## Como posso recomendar somente novos artigos ou vídeos? {#recommend-new-articles}
 

@@ -5,10 +5,10 @@ title: Como baseio a recomendação em uma Chave de recomendação?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3999'
-ht-degree: 37%
+source-wordcount: '4013'
+ht-degree: 34%
 
 ---
 
@@ -34,7 +34,7 @@ Diferentes algoritmos de recomendações se prestam ao posicionamento em diferen
 
 ## Baseado em carrinho {#cart-based}
 
-A variável [!UICONTROL Baseado em carrinho] o tipo de algoritmo permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio de [parâmetro da mbox `cartIds`](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} em valores separados por vírgulas. Somente os primeiros dez valores são considerados.
+A variável [!UICONTROL Baseado em carrinho] o tipo de algoritmo permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio de [parâmetro da mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} em valores separados por vírgulas. Somente os primeiros dez valores são considerados.
 
 A lógica de recomendação baseada em carrinho é semelhante à &quot;[!UICONTROL Recomendado Para Você]&quot;algoritmo com base no usuário e para o&quot;[!UICONTROL Pessoas que visualizaram e compraram essas]&quot; e &quot;[!UICONTROL Pessoas que compraram isto, compraram aquilo]&quot; algoritmos baseados em itens.
 
@@ -44,11 +44,11 @@ A lógica de recomendação baseada em carrinho é semelhante à &quot;[!UICONTR
 
 * **[!UICONTROL Sessão única]**: com base no que outros visitantes fizeram em uma única sessão.
 
-   Observar o comportamento em uma única sessão pode fazer sentido quando há uma sensação de que os produtos &quot;acompanham&quot; um ao outro com base em um uso, ocasião ou evento. Por exemplo, um visitante está comprando uma impressora e também pode precisar de tinta e papel. Ou um visitante está comprando manteiga de amendoim e também pode precisar de pão e geleia.
+  Observar o comportamento em uma única sessão pode fazer sentido quando há uma sensação de que os produtos &quot;acompanham&quot; um ao outro com base em um uso, ocasião ou evento. Por exemplo, um visitante está comprando uma impressora e também pode precisar de tinta e papel. Ou um visitante está comprando manteiga de amendoim e também pode precisar de pão e geleia.
 
 * **[!UICONTROL Entre sessões]**: com base no que outros visitantes fizeram em várias sessões.
 
-   Observar o comportamento em várias sessões pode fazer sentido quando há uma sensação de que os produtos &quot;acompanham&quot; um ao outro com base na preferência ou no gosto do visitante. Por exemplo, um visitante gosta de Star Wars e também pode gostar de Indiana Jones, mesmo que o visitante não queira necessariamente assistir a ambos os filmes na mesma sessão. Ou, um visitante gosta do jogo de tabuleiro &quot;Codenames&quot; e também pode gostar do jogo de tabuleiro &quot;Avalon&quot;, mesmo que o visitante não possa jogar ambos os jogos simultaneamente. 
+  Observar o comportamento em várias sessões pode fazer sentido quando há uma sensação de que os produtos &quot;acompanham&quot; um ao outro com base na preferência ou no gosto do visitante. Por exemplo, um visitante gosta de Star Wars e também pode gostar de Indiana Jones, mesmo que o visitante não queira necessariamente assistir a ambos os filmes na mesma sessão. Ou, um visitante gosta do jogo de tabuleiro &quot;Codenames&quot; e também pode gostar do jogo de tabuleiro &quot;Avalon&quot;, mesmo que o visitante não possa jogar ambos os jogos simultaneamente. 
 
 [!DNL Target] O faz recomendações para cada visitante com base nos itens em seu carrinho atual, independentemente de você observar o comportamento do visitante em uma única sessão ou em várias sessões.
 
@@ -258,10 +258,10 @@ O algoritmo de Itens visualizados recentemente retorna um resultado específico 
 >
 >Você não pode usar o [!UICONTROL Itens visualizados recentemente] critérios para recomendações de backup.
 
-Os itens/mídias visualizados recentemente agora podem ser filtrados para que somente os itens com um determinado atributo sejam exibidos.
+[!UICONTROL Itens visualizados recentemente]/Media pode ser filtrado para que apenas itens com um determinado atributo sejam exibidos.
 
 * Os critérios visualizados recentemente são configuráveis, exatamente como os outros critérios nas recomendações.
-* Você pode utilizar [coleções](/help/main/c-recommendations/c-products/collections.md), [exclusões](/help/main/c-recommendations/c-products/exclusions.md) e [inclusões](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluindo as regras especiais para Preço e Inventário) da mesma forma que os outros critérios.
+* Você pode usar [coleções](/help/main/c-recommendations/c-products/collections.md), [exclusões](/help/main/c-recommendations/c-products/exclusions.md), e [inclusões](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluindo as regras especiais para Preço e Inventário) da mesma forma que os outros critérios.
 
 Os possíveis casos de uso incluem: uma empresa multinacional com várias empresas pode ter um visitante para visualizar itens em várias propriedades digitais. Nesse caso, é possível limitar os itens exibidos recentemente somente àqueles da respectiva propriedade em que foram visualizados. Isso impede que itens visualizados recentemente sejam exibidos no site de outra propriedade digital.
 
@@ -308,7 +308,7 @@ Essa funcionalidade significa que você pode usar [!DNL Target] para adicionar p
 Com a adição das regras de inclusão aos critérios personalizados, as recomendações foram transformadas de estáticas para dinâmicas com base nos interesses de um visitante.
 
 * Os critérios personalizados agora podem ser configurados, assim como outros critérios nas recomendações.
-* Você pode utilizar [coleções](/help/main/c-recommendations/c-products/collections.md), [exclusões](/help/main/c-recommendations/c-products/exclusions.md) e [inclusões](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluindo as regras especiais para Preço e Inventário) da mesma forma que os outros critérios.
+* Você pode usar [coleções](/help/main/c-recommendations/c-products/collections.md), [exclusões](/help/main/c-recommendations/c-products/exclusions.md), e [inclusões](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluindo as regras especiais para Preço e Inventário) da mesma forma que os outros critérios.
 
 Os possíveis casos de uso incluem:
 
@@ -361,7 +361,7 @@ Use o [!UICONTROL Último item comprado] chave de recomendações em seu site em
 Você pode basear as recomendações no valor de um atributo de perfil personalizado. Por exemplo, suponha que você deseja exibir filmes recomendados com base no filme adicionado recentemente por um visitante à fila.
 
 1. Selecione o atributo de perfil personalizado na **[!UICONTROL Chave de recomendação]** (por exemplo, &quot;Último programa adicionado à Lista de favoritos&quot;).
-1. Em seguida, selecione a **[!UICONTROL Lógica de recomendação]** (por exemplo, &quot;Pessoas que assistiram isto, assistiram aquilo&quot;).
+1. Em seguida, selecione o **[!UICONTROL Lógica de recomendação]** (por exemplo, &quot;Pessoas que viram isto, viram aquilo&quot;).
 
    ![Caixa de diálogo Criar novos critérios](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
@@ -369,7 +369,7 @@ Se o atributo de perfil personalizado não corresponder diretamente a uma única
 
 1. Selecione o atributo de perfil personalizado na **[!UICONTROL Chave de recomendação]** (por exemplo, &quot;Marca favorita&quot;).
 
-1. Em seguida, selecione **[!UICONTROL Lógica de recomendação]** que deseja usar com esta chave (por exemplo, &quot;Mais vendidos&quot;).
+1. Em seguida, selecione o **[!UICONTROL Lógica de recomendação]** que deseja usar com essa chave (por exemplo, &quot;Mais vendidos&quot;).
 
    A opção [!UICONTROL Agrupar por valor exclusivo de] é exibida.
 

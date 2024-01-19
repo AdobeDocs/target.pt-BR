@@ -4,10 +4,10 @@ description: Saiba como criar exclusões no Adobe [!DNL Target] Recommendations 
 title: Como usar exclusões nas atividades do Recommendations?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 44%
+source-wordcount: '619'
+ht-degree: 34%
 
 ---
 
@@ -37,15 +37,15 @@ Alguns exemplos de vezes que você usaria exclusões incluem:
 
    ![imagem exclusions_list](assets/exclusions_list.png)
 
-   O “Número de itens” relatado para cada exclusão na exibição de lista das [!UICONTROL Exclusões] é o número de produtos que correspondem às regras da exclusão no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR) para alterar o grupo de hosts padrão.{target=_blank}
+   O “Número de itens” relatado para cada exclusão na exibição de lista das [!UICONTROL Exclusões] é o número de produtos que correspondem às regras da exclusão no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para alterar o grupo de hosts padrão.
 
 1. Clique em **[!UICONTROL Criar exclusão]**.
 
-1. (Condicional) Escolha um ambiente no filtro **[!UICONTROL Ambiente]** ao criar (ou atualizar) uma exclusão para visualizar o conteúdo da exclusão no ambiente. Por padrão, os resultados do grupo de hosts padrão são exibidos.
+1. (Condicional) Escolha um ambiente na lista **[!UICONTROL Ambiente]** ao criar (ou atualizar) uma exclusão para visualizar o conteúdo da exclusão nesse ambiente. Por padrão, os resultados do grupo de hosts padrão são exibidos.
 
    ![Criar exclusão](/help/main/c-recommendations/c-products/assets/CreateExclusion.png)
 
-1. Digite um **[!UICONTROL Nome]** de exclusão e insira uma descrição opcional.
+1. Digite uma exclusão **[!UICONTROL Nome]** e insira uma descrição opcional.
 
 1. Use o criador de regras para criar suas exclusões.
 

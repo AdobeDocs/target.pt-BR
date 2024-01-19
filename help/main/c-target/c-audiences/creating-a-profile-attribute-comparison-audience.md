@@ -4,10 +4,10 @@ description: Saiba como definir um público-alvo para comparar dois atributos de
 title: Posso comparar dois atributos de perfil para uso em públicos-alvo?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 62%
+source-wordcount: '428'
+ht-degree: 53%
 
 ---
 
@@ -28,9 +28,9 @@ Por exemplo, vamos supor que você trabalhe para uma empresa de mobília e tenha
 * Probabilidade de comprar móveis para a sala de jantar nos próximos 90 dias
 * Probabilidade de comprar móveis para a sala de estar nos próximos 90 dias
 
-Você poderia criar um público-alvo definido como a propensão para comprar móveis para a sala de jantar maior do que para comprar móveis para a sala de estar. [!DNL Target]O compararia dinamicamente as pontuações de propensão para sala de jantar e sala de estar de um visitante específico, para determinar se ele é qualificável para esse público-alvo.
+Você poderia criar um público-alvo definido como a propensão para comprar móveis para a sala de jantar maior do que para comprar móveis para a sala de estar. [!DNL Target] O compararia dinamicamente as pontuações de propensão da sala de jantar e da sala de estar de um visitante específico para determinar se ele se qualifica para esse público-alvo.
 
-Para obter mais informações, consulte [Métodos para obter dados no Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=pt-BR){target=_blank}.
+Para obter mais informações, consulte [Métodos para colocar os dados no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ## Criar um público-alvo de comparação do atributo de perfil {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 

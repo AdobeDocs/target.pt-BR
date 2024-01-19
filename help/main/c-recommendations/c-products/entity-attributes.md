@@ -1,24 +1,24 @@
 ---
 keywords: entidade; atributos de entidade, transmitir informações para o Recommendations, dados comportamentais, contador de dados, definir URL relativo, exibir nível de inventário, definir preço, definir margem de lucro, atributos personalizados
 description: Saiba como usar atributos de entidade para transmitir informações de produto ou conteúdo ao [!DNL Target] Recommendations.
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 title: Como usar atributos de entidade?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 55%
+source-wordcount: '1090'
+ht-degree: 52%
 
 ---
 
 # Atributos da entidade
 
-Use atributos de entidade para passar informações do produto ou conteúdo para o [!DNL Adobe Target Recommendations].
+Usar atributos de entidade para passar informações de produto ou conteúdo para [!DNL Adobe Target Recommendations].
 
 As entidades referem-se a itens que você quer recomendar. As entidades podem incluir produtos, conteúdo (artigos, apresentação de slides, imagens, filmes e programas de televisão), listas de trabalho, restaurantes e assim por diante.
 
-[!DNL Recommendations] envia `productId` ou `productPurchasedId` (referido como `entity.id` no código) que é usado no algoritmo.
+[!DNL Recommendations] envia o `productId` ou `productPurchasedId` (referido como `entity.id` no código) que é usado nos algoritmos.
 
 Considere o seguinte:
 
@@ -31,7 +31,7 @@ Em geral, a mbox de informações de exibição é semelhante ao seguinte exempl
 
 >[!NOTE]
 >
->Se estiver usando a at.js 2.*x*, `mboxCreate` (conforme usado no exemplo a seguir) não é mais compatível. Para passar informações sobre o produto ou conteúdo para [!DNL Recommendations] uso do at.js 2.*x*, use [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank}.
+>Se estiver usando a at.js 2.*x*, `mboxCreate` (conforme usado no exemplo a seguir) não é mais compatível. Para passar informações sobre o produto ou conteúdo para [!DNL Recommendations] uso do at.js 2.*x*, use [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -183,7 +183,7 @@ A margem de lucro ou outro valor do item.
 
 Exemplo: `'entity.margin=1.00'`
 
-### entity.*custom*
+### entidade.*custom*
 
 Suporta vários valores (matriz JSON).
 
@@ -224,4 +224,3 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 >[!MORELIKETHIS]
 >
 >* [Atributos de entidade personalizados](/help/main/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
-

@@ -4,10 +4,10 @@ description: Veja uma lista de perguntas frequentes e respostas sobre o Adobe [!
 title: Onde posso encontrar respostas para perguntas sobre o [!DNL Target] Reportando?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 27%
+source-wordcount: '1385'
+ht-degree: 25%
 
 ---
 
@@ -65,7 +65,7 @@ Alguns visitantes acessam a métrica de conversão, que foi configurada como &qu
 
 As atividades de XT devem sempre ter uma experiência de controle. Se você estiver usando uma atividade de XT de maneira semelhante a uma atividade de [!UICONTROL Teste A/B], que é um cenário bastante comum, os dados da experiência de controle são úteis. Você pode ignorar os dados da experiência de controle se não forem úteis nos relatórios.
 
-## Por que os números de visitas são menores no [!DNL Target] do que em outras soluções da [!DNL Adobe Experience Cloud]?  {#section_7E626FDB417E41B8B58BBF30FB207409}
+## Por que os números de visitas diminuem no [!DNL Target] do que em outros [!DNL Adobe Experience Cloud] soluções? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
 Números de métrica, por exemplo, visitas, informados por [!DNL Target] são sempre inferiores aos números relatados em outros [!DNL Experience Cloud] por vários motivos:
 
@@ -87,7 +87,7 @@ Se um conteúdo de atividade foi entregue com sucesso aos usuários, mas o relat
 
 Para alterar o ambiente de um relatório de atividade:
 
-1. Clique em **[!UICONTROL Atividades]**, clique na atividade desejada da lista, em seguida, clique na guia **[!UICONTROL Relatórios.]**
+1. Clique em **[!UICONTROL Atividades]**, clique na atividade desejada da lista, em seguida, clique na guia **[!UICONTROL Relatórios]**.
 1. Clique no ícone de engrenagem para configurar o relatório.
 
    ![Caixa de diálogo Configurações A/B](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
@@ -104,7 +104,7 @@ Para obter mais informações sobre os ambientes, consulte [Hosts](/help/main/ad
 
 Se um conteúdo de atividade foi entregue com sucesso aos usuários, mas o relatório não contiver dados, certifique-se de usar uma experiência com tráfego como experiência de controle.
 
-1. Clique em **[!UICONTROL Atividades]**, clique na atividade desejada da lista, em seguida, clique na guia **[!UICONTROL Relatórios.]**
+1. Clique em **[!UICONTROL Atividades]**, clique na atividade desejada da lista, em seguida, clique na guia **[!UICONTROL Relatórios]**.
 1. Clique no ícone de engrenagem para configurar o relatório.
 
 1. No **[!UICONTROL Controle]** selecione uma experiência que receba tráfego.
@@ -125,6 +125,6 @@ Por exemplo, eu defini a divisão de tráfego para 50/50 ou 25/25/25/25, mas est
 * A prática recomendada para testes A/B e MVT é manter as divisões de tráfego uniformes. Alterar a distribuição de tráfego entre experiências (por exemplo, de 90/10 para 50/50) durante um teste pode levar a visitantes desiguais entre experiências. A experiência de tráfego mais baixo pode nunca &quot;alcançar o topo&quot;.
 * Se estiver seguindo as práticas recomendadas acima e a divisão de tráfego não normalizar ao longo do tempo, verifique o seguinte:
 
-   * Você está usando a biblioteca at.js mais recente? Para obter mais informações sobre a versão atual e as notas de versão associadas, consulte [Detalhes da versão da at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank}.
+   * Você está usando a biblioteca at.js mais recente? Para obter mais informações sobre a versão atual e as notas de versão associadas, consulte [Detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank}.
 
    * É um teste de redirecionamento? O tempo incorreto de disparo de tags na página pode gerar divisões de tráfego desiguais, especialmente ao usar [!DNL Analytics] como a fonte de dados de um [!DNL Target] atividade. Para obter detalhes sobre como solucionar a distribuição de tráfego desigual em uma atividade de redirecionamento com o Analytics for Target (A4T), consulte [Ofertas de redirecionamento - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

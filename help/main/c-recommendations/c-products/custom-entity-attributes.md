@@ -2,14 +2,14 @@
 keywords: atributos de entidade com vários valores, atributos de entidade personalizados, JSON válido, valor do atributo de entidade, matriz JSON, vários valores
 description: Saiba como usar atributos de entidade personalizados de valor único e múltiplo para definir informações adicionais sobre itens em seu Adobe [!DNL Target] catálogo Recommendations.
 title: Como Usar Atributos De Entidade Personalizados?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 88%
+source-wordcount: '1454'
+ht-degree: 81%
 
 ---
 
@@ -63,13 +63,13 @@ Depois que um atributo personalizado é enviado como uma matriz JSON válida, el
 
 ## Implementar atributos de vários valores {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Atributos de entidade personalizados de vários valores são compatíveis quando você usa feeds (CSV), `targetPageParams`e a API de entrega para carregar os produtos. Novos valores substituem valores atuais; eles não são anexados. Matrizes vazias ([]) são tratadas como não tendo valores.
+Atributos de entidade personalizados de vários valores são compatíveis quando você usa feeds (CSV), `targetPageParams`e a API de entrega para carregar os produtos. Novos valores substituem valores atuais; eles não são anexados. Matrizes vazias ( [] ) são tratados como não tendo valores.
 
 Aspas duplas devem ser evitadas. Por exemplo, `"[""test"", ""value""]"` é uma matriz JSON que pode ser usada no CSV.
 
 É possível incluir até 500 valores em um atributo de vários valores.
 
-### Uso de targetPageParams
+### Utilização de targetPageParams
 
 O exemplo a seguir mostra como usar `targetPageParams`
 
@@ -127,19 +127,18 @@ Você pode passar atributos de vários valores usando a API de entrega em um par
   }
 ```
 
-Consulte a [documentação da API do Adobe Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} para obter informações sobre 
-como usar as APIs de entidades de Entrega e Salvamento.
+Consulte a [Documentação da API do Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para obter informações sobre como usar as APIs de entidades de Entrega e Salvamento.
 
 ## Uso de operadores com atributos de vários valores {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Quando você aplica operadores a atributos personalizados de vários valores em regras de inclusão de algoritmo, regras de catálogo e regras de exclusão, o resultado será *true* se pelo menos um valor na lista passar na operação (booleano *ou*).
 
-No exemplo a seguir, a regra é  `message contains abc`.
+No exemplo a seguir, a regra é `message contains abc`.
 
 * Caso 1: `entity.genre = ["ab", "bc", "de"]`. O resultado é false porque nenhum valor contém `abc`.
 * Caso 2: `entity.genre = ["abcde","de","ef"]`. O resultado é true porque contém um valor `abc`.
 
-Para operadores negativos, todos os valores de atributo devem passar (booleano *e*). Por exemplo, se o operador for  `notEquals`, o resultado será *false* se qualquer valor for compatível.
+Para operadores negativos, todos os valores de atributo devem passar (booleano *e*). Por exemplo, se o operador for `notEquals`, o resultado será *false* se qualquer valor for compatível.
 
 Consulte as seguintes seções para conhecer o comportamento do operador nas regras de inclusão de algoritmo, regras de catálogo e regras de exclusão.
 

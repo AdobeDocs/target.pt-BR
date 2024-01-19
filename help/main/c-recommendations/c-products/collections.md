@@ -2,19 +2,19 @@
 keywords: coleção, direcionamento
 description: Saiba como usar coleções no Adobe [!DNL Target] Recommendations. Uma coleção é um conjunto de produtos ou itens que são qualificados para uma recomendação.
 title: Como usar coleções em atividades do Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 60%
+source-wordcount: '891'
+ht-degree: 52%
 
 ---
 
 # Coleções
 
-Uma coleção é um conjunto de produtos ou itens que são qualificados para uma recomendação. Uma coleção é definida especificando as condições que devem ser atendidas pelos itens para fazerem parte dela.
+Uma coleção é um conjunto de produtos ou itens qualificados para uma recomendação. Uma coleção é definida especificando as condições que devem ser atendidas pelos itens para fazerem parte dela.
 
 Normalmente, uma coleção é um conjunto de itens semelhantes ou relacionados, como uma coleção de um único produto. No entanto, você pode agrupar qualquer item em uma categoria que faça sentido para o seu negócio, como produtos em uma determinada faixa de preço ou cor ou itens que provavelmente serão interessantes em uma área geográfica específica.
 
@@ -34,11 +34,11 @@ Quando você está criando ou editando uma atividade do [!DNL Recommendations], 
 >
 >As coleções não são aplicadas quando você usa a chave de recomendação [!UICONTROL Itens recentemente visualizados].
 
-## Crie uma coleta {#task_1256DFF6842141FCAADD9E1428EF7F08}
+## Crie uma coleção {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
 Crie uma coleção para organizar os produtos ou conteúdo que deseja mostrar em suas recomendações.
 
-1.  Clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Coleções]** para exibir a lista de coleções existentes. 
+1. Clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Coleções]** para exibir a lista de coleções existentes.
 
    ![Lista de coleções](assets/collections_list.png)
 
@@ -46,15 +46,15 @@ Crie uma coleção para organizar os produtos ou conteúdo que deseja mostrar em
 
    ![Ícones de flutuação: editar, copiar e excluir](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   O “Número de itens” relatado para cada coleção na exibição de lista das [!UICONTROL Coleções] é o número de produtos que correspondem às regras da coleção no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR) para alterar o grupo de hosts padrão.{target=_blank}
+   O “Número de itens” relatado para cada coleção na exibição de lista das [!UICONTROL Coleções] é o número de produtos que correspondem às regras da coleção no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para alterar o grupo de hosts padrão.
 
 1. Clique em **[!UICONTROL Criar coleção]**.
 
-1. (Condicional) Escolha um ambiente no filtro **[!UICONTROL Ambiente]** ao criar (ou atualizar) uma coleção para visualizar o conteúdo da coleção no ambiente. Por padrão, os resultados do grupo de hosts padrão são exibidos.
+1. (Condicional) Escolha um ambiente na lista **[!UICONTROL Ambiente]** ao criar (ou atualizar) uma coleção para visualizar o conteúdo da coleção nesse ambiente. Por padrão, os resultados do grupo de hosts padrão são exibidos.
 
    ![Criar coleção](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. Digite um **[!UICONTROL Nome]** para a coleção.
+1. Digite a **[!UICONTROL Nome]** para a coleção.
 
    Você também pode inserir uma **[!UICONTROL Descrição opcional]**.
 

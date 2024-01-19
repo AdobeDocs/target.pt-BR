@@ -4,10 +4,10 @@ description: Saiba como usar públicos-alvo na [!DNL Adobe Target].
 title: Como usar a lista de públicos-alvo?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 33%
+source-wordcount: '802'
+ht-degree: 26%
 
 ---
 
@@ -28,13 +28,13 @@ Há dois tipos de público-alvo no [!DNL Target]:
 * **Direcionamento de públicos:** Usado para fornecer conteúdo diferente para diferentes tipos de visitantes.
 * **Relatórios de públicos-alvo:** Usado para determinar como diferentes tipos de visitantes respondem ao mesmo conteúdo para que você possa analisar os resultados de seus testes.
 
-  No [!DNL Target], é possível configurar relatórios de públicos-alvo apenas se você usar o [!DNL Target] como fonte de geração de relatórios. Se você usa o [ Adobe Analytics como fonte de relatórios](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), precisa configurar os públicos dos relatórios no [!DNL Analytics].
+  No [!DNL Target], é possível configurar relatórios de públicos-alvo apenas se você usar o [!DNL Target] como fonte de geração de relatórios. Se você usar [Adobe Analytics como fonte de relatórios](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), você deve configurar os públicos-alvo dos relatórios no [!DNL Analytics].
 
 ## Use o [!UICONTROL Públicos-alvo] lista {#use-list}
 
 Para acessar a lista [!UICONTROL Públicos-alvo], clique em **[!UICONTROL Públicos-alvo]** na barra do menu superior:
 
-![Lista de públicos](assets/audiences_list.png)
+![[!UICONTROL Públicos-alvo] lista](assets/audiences_list.png)
 
 A variável [!UICONTROL Públicos-alvo] A lista contém os públicos-alvo que você pode usar nas atividades. Use o [!UICONTROL Públicos-alvo] para criar, editar, duplicar, copiar ou combinar públicos. A lista também mostra a fonte onde o público-alvo foi criado:
 
@@ -45,7 +45,7 @@ A variável [!UICONTROL Públicos-alvo] A lista contém os públicos-alvo que vo
 
   >[!NOTE]
   >
-  >A variável [!DNL Adobe Experience Platform] a origem está disponível para todos [!DNL Target] clientes que usam o [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank}. Públicos-alvo disponíveis no [!DNL Adobe Experience Platform] pode ser usado como está ou [combinado com públicos existentes](/help/main/c-target/combining-multiple-audiences.md).
+  >A variável [!DNL Adobe Experience Platform] a origem está disponível para todos [!DNL Target] clientes que usam o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank}. Públicos-alvo disponíveis no [!DNL Adobe Experience Platform] pode ser usado como está ou [combinado com públicos existentes](/help/main/c-target/combining-multiple-audiences.md).
   >
   >Os usuários devem ter [!UICONTROL Aprovador] ou acima do status em [!DNL Target] para configurar [!DNL Target] [!UICONTROL Destinos] placas na AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
   >
@@ -82,7 +82,7 @@ O seguinte cartão de definição de público-alvo é acessado clicando no ícon
 
 O cartão de definição de público-alvo mostra o tipo, a origem e os atributos do público-alvo. Clique em **[!UICONTROL Exibir detalhes completos]** para ver outras atividades que fazem referência a esse público-alvo, se aplicável. Se você estiver visualizando um cartão de definição de público-alvo a partir da [!UICONTROL Visão geral] clique em **[!UICONTROL Uso do público-alvo]**.
 
-As informações de uso do público podem ajudar você a evitar impacto acidental em outras atividades ao editar públicos. As informações incluem [!UICONTROL Atividades online], [!UICONTROL Atividades inativas], [!UICONTROL Atividades arquivadas], e [!UICONTROL Atividades de sincronização]. Esse recurso está disponível para todos os públicos-alvo (público-alvo de biblioteca e  [públicos-alvo somente de atividades](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
+As informações de uso do público podem ajudar você a evitar impacto acidental em outras atividades ao editar públicos. As informações incluem [!UICONTROL Atividades online], [!UICONTROL Atividades inativas], [!UICONTROL Atividades arquivadas], e [!UICONTROL Atividades de sincronização]. Esse recurso está disponível para todos os públicos-alvo (público-alvo de biblioteca e [públicos-alvo somente de atividades](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
 Se um público-alvo for [combinado com outro público-alvo](/help/main/c-target/combining-multiple-audiences.md) e o público-alvo combinado é usado para criar uma atividade, as informações de uso para ambos os públicos-alvo listam essa atividade recém-criada.
 
@@ -107,7 +107,7 @@ Keep the following points in mind as you work with imported audiences:
 
 ## Usar públicos da [!DNL Adobe Experience Platform] {#aep}
 
-O uso de públicos criados na [!DNL Adobe Experience Platform] fornece dados mais avançados do cliente, o que resulta em personalizações mais impactantes.
+Uso de públicos-alvo criados no [!DNL Adobe Experience Platform] O fornece dados mais avançados do cliente, o que resulta em personalizações mais impactantes.
 
 Para obter mais informações, consulte [Usar públicos-alvo da [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
 

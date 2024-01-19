@@ -2,13 +2,13 @@
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, direcionamento automático, direcionamento automático, relatório do direcionamento automático, relatório de direcionamento automático, personalização, insights, perguntas frequentes, perguntas frequentes, atributos importantes
 description: Saiba como usar o [!UICONTROL Atributos importantes] relatório que mostra os principais atributos que influenciaram o modelo de personalização e sua importância relativa.
 title: O que é o Relatório de atributos importantes?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1855'
-ht-degree: 76%
+source-wordcount: '1871'
+ht-degree: 67%
 
 ---
 
@@ -22,14 +22,13 @@ Informações sobre o [!UICONTROL Atributos importantes] relatório, um dos dois
 >
 >* As atividades de AP e AT estão disponíveis como parte da solução [!DNL Target Premium]. Não estão incluídos com o [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
 >
->* [!UICONTROL Os relatórios de insights de personalização estão disponíveis apenas para atividades de AP e AT que usam uma meta de otimização de conversão. ] As atividades em que a meta de otimização foi alterada para a conversão da receita após a atividade já estar ativa também não são compatíveis.
+>* [!UICONTROL Insights de personalização] Os relatórios do estão disponíveis somente para atividades de AP e AT que usam uma meta de otimização de conversão. As atividades em que a meta de otimização foi alterada para a conversão da receita após a atividade já estar ativa também não são compatíveis.
 >
 >* [!UICONTROL Insights de personalização] Os relatórios do estão disponíveis somente se o [!UICONTROL Meta primária] está selecionado no menu [!UICONTROL Métrica de relatório] lista suspensa.
 >
->* Os relatórios de insights de personalização são suportados somente no [ambiente padrão](/help/main/administrating-target/hosts.md).
+>* [!UICONTROL Insights de personalização] Os relatórios do são compatíveis com o [ambiente padrão](/help/main/administrating-target/hosts.md) somente.
 >
 >* [!UICONTROL Insights de personalização] os relatórios são gerados somente para atividades que estão na [!UICONTROL Ao vivo] e foram ativados e receberam tráfego por pelo menos 15 dias.
-
 
 Em atividades diferentes, atributos distintos são mais ou menos importantes para a forma como o modelo decide personalizar. Este relatório mostra os principais atributos que influenciaram o modelo e sua importância relativa.
 
@@ -85,14 +84,14 @@ A tabela a seguir explica como interpretar o relatório e descreve seus elemento
 
 | Elemento | Detalhes |
 |--- |--- |
-| Gráfico de barras | O gráfico de barras multicolorido na parte superior da tela permite visualizar essas pontuações de importância relativa e mapeia a cor do ponto ao lado de cada atributo respectivo na tabela. Você também pode passar o mouse sobre uma cor específica no gráfico de barras para ver o atributo que ela representa.  As pontuações de importância nos 100 principais atributos somam 100%. Para obter mais informações sobre como adicionar mais atributos que podem ser usados pelos modelos de personalização do Target, consulte  [Fazer upload de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
+| Gráfico de barras | O gráfico de barras multicolorido na parte superior da tela permite visualizar essas pontuações de importância relativa e mapeia a cor do ponto ao lado de cada atributo respectivo na tabela. Você também pode passar o mouse sobre uma cor específica no gráfico de barras para ver o atributo que ela representa.  As pontuações de importância nos 100 principais atributos somam 100%. Para obter mais informações sobre como adicionar mais atributos que os modelos de personalização do Target podem usar, consulte [Fazer upload de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
 | Gráfico de Classificação de atributo do modelo | A Classificação de atributo do modelo inclui os 10 principais atributos que foram mais importantes para a forma como o modelo de personalização do Target decidiu qual conteúdo mostrar para cada visitante. Em relação aos 100 principais atributos, a pontuação de importância mostra o quão importante um atributo específico foi para os modelos de personalização do Target nessa atividade. |
 
 ## Perguntas frequentes de atributos importantes {#section_740910A52FA646B4AC9452F98C2F5719}
 
 Consulte as seguintes perguntas frequentes para obter respostas sobre o uso do [!UICONTROL Atributos importantes] relatório.
 
-###  Relatórios de Insights de personalização não estão disponíveis ainda para minha atividade. Por que isso ocorre?
+### Relatórios de Insights de personalização não estão disponíveis ainda para minha atividade. Por que isso ocorre?
 
 Há diversos motivos pelos quais os relatórios dos [!UICONTROL Insights de personalização] podem ainda não estar disponíveis para a sua atividade:
 
@@ -104,7 +103,7 @@ Há diversos motivos pelos quais os relatórios dos [!UICONTROL Insights de pers
 
 Um atributo é a informação sobre um visitante ou sua visita específica usada pelos algoritmos de personalização para saber como personalizar o tráfego. Por exemplo, um atributo pode ser o tipo de navegador, a localização, a hora do dia da visita e assim por diante.
 
-Para obter mais informações sobre quais atributos o [!DNL Target] usa em seus modelos de personalização, consulte [Coleta de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obter mais informações sobre como fazer upload de novos atributos no Target para usar nos modelos de personalização do Target, consulte [Métodos para colocar os dados no Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=pt-BR){target=_blank}.
+Para obter mais informações sobre quais atributos o [!DNL Target] usa em seus modelos de personalização, consulte [Coleta de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obter mais informações sobre como fazer upload de novos atributos no Target para usar nos modelos de personalização do Target, consulte [Métodos para colocar os dados no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ### Há um ou mais atributos que não desejo que o modelo use para treinamento. Posso remover esses atributos do modelo de treinamento? {#models-api}
 
@@ -112,7 +111,7 @@ A variável [!UICONTROL API de modelos], também chamada de API de Inclui na lis
 
 Para obter informações detalhadas, consulte [Visão geral da API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
-### As informações nos relatórios dos [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes] são as mesmas que no download do CSV?
+### As informações na variável [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes] relatórios iguais aos do download de CSV?
 
 Não, o relatório da interface do usuário contém informações selecionadas. O download do CSV contém detalhes adicionais. O download do relatório de Insights do segmento automatizado contém Segmentos automatizados adicionais, além dos principais segmentos incluídos na interface do usuário, juntamente com a forma como esses segmentos são executados em relação às ofertas ou experiências. O relatório de Atributos importantes inclui os 100 principais atributos de visitantes e sua importância relativa, enquanto a interface do usuário inclui apenas os 10 principais atributos de visitantes.
 
@@ -120,7 +119,7 @@ Não, o relatório da interface do usuário contém informações selecionadas. 
 
 Os relatórios dos Insights de personalização (os [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes]) estão disponíveis apenas para intervalos de datas fixos: 15 dias, 30 dias, 45 dias, 60 dias e 90 dias. Esses intervalos de datas fixos permitem que os [!UICONTROL Insights de personalização] usem um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. Você pode selecionar essas durações para qualquer data final (onde esses dados são suficientes na atividade para atender a duração).
 
-### Como os [!UICONTROL Insights de personalização] são criados?
+### Como o [!UICONTROL Insights de personalização] criado?
 
 Os [!UICONTROL Insights de personalização] são criados usando uma técnica de patente pendente da Adobe chamada MAGIX (Model Agnostic Globally Interpretable Explanations). Você pode saber mais sobre o MAGIX no paper publicado pela equipe de pesquisa do Adobe sobre o [site arXiv.org](https://arxiv.org/abs/1706.07160).
 
@@ -144,7 +143,7 @@ Há vários motivos possíveis pelos quais você pode ver mais visitas para uma 
 
 Pode ser útil saber como o modelo fornece o tráfego. Cada indivíduo é servido com base no seu perfil total. No entanto, os relatórios de Insights generalizam esse comportamento para facilitar sua interpretação por um humano. Como resultado, os segmentos não são mutuamente exclusivos. Isso pode fazer com que segmentos individuais exibam esse tipo de comportamento, pois uma mesma pessoa pode aparecer em vários segmentos.
 
-### Quais são as diferentes formas de usar as informações nos Insights de personalização?
+### Quais são as diferentes maneiras de aproveitar as informações nos Insights de personalização?
 
 * Descubra novos públicos-alvo para direcionar: se visualizar um segmento automatizado específico com um desempenho particularmente bom, considere criar um público-alvo para que seja possível reutilizá-lo em outros relatórios.
 * Teste suas hipóteses de que tipo de visitantes responderá a quais experiências.

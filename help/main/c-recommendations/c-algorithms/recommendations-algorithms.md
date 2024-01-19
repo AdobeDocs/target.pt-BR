@@ -2,20 +2,20 @@
 keywords: recomendações algoritmos;treinamento de modelo;serviço de modelo;entrega de conteúdo;baseado em item;baseado em usuário;baseado em popularidade;baseado em carrinho;critérios personalizados
 description: Saiba mais sobre os algoritmos usados no [!DNL Target Recommendations], incluindo a formação de modelos e o serviço de modelos.
 title: Onde posso aprender sobre a ciência por trás dos algoritmos Recommendations do Target?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2842'
-ht-degree: 1%
+source-wordcount: '2832'
+ht-degree: 0%
 
 ---
 
 # A ciência por trás dos algoritmos de recomendações do Target
 
-Uma descrição detalhada dos algoritmos usados no [!DNL Adobe Target Recommendations], incluindo os detalhes lógicos e matemáticos da formação de modelos e do processo de fornecimento de modelos.
+Uma descrição detalhada dos algoritmos usados no [!DNL Adobe Target Recommendations], incluindo os detalhes lógicos e matemáticos da formação de modelos e o processo de fornecimento de modelos.
 
 O treinamento de modelo é o processo de como as recomendações são geradas pelo [!DNL Adobe Target] algoritmos de aprendizado. Fornecimento de modelo é como [!DNL Target] O entrega recomendações aos visitantes do site (também conhecido como entrega de conteúdo).
 
@@ -65,7 +65,7 @@ O fluxo lógico da implementação real do algoritmo é mostrado no diagrama esq
 
 Veja a seguir os detalhes dessas etapas:
 
-* **Dados de entrada**: dados comportamentais, na forma de exibições e compras de visitantes coletados quando você [implementar o Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dados de entrada**: dados comportamentais, na forma de exibições e compras de visitantes coletados quando você [implementar o Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Treinamento de modelo**:
 
@@ -89,24 +89,24 @@ Embora os aspectos de veiculação e entrega de conteúdo do modelo [!DNL Target
 
 Veja a seguir os detalhes dessas etapas:
 
-* **Dados de entrada**: conforme descrito anteriormente, esse algoritmo se baseia meramente nos dados de catálogo (assimilados para [!DNL Target] via [Feed de catálogo, API de entidades ou de atualizações na página](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank}.
+* **Dados de entrada**: conforme descrito anteriormente, esse algoritmo se baseia meramente nos dados de catálogo (assimilados para [!DNL Target] via [Feed de catálogo, API de entidades ou de atualizações na página](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Treinamento de modelo**:
 
    * **Extração de atributo**: após a aplicação de filtros estáticos regulares, regras de catálogo e exclusões globais, esse algoritmo extrai campos textuais relevantes do esquema de entidade. [!DNL Target] O usa automaticamente os campos name, message e category dos atributos de entidade e tenta extrair quaisquer campos de string do personalizado [atributos de entidade](/help/main/c-recommendations/c-products/entity-attributes.md). Esse processo é feito garantindo que a maioria dos valores desse campo não seja analisável como um número, data ou booleano.
-   * **Remoção de lematização e palavras de interrupção**: para uma correspondência de similaridade de texto mais precisa, é prudente remover palavras &quot;stop&quot; muito comuns que não alteram significativamente o significado de um item (por exemplo, &quot;foi&quot;, &quot;é&quot;, &quot;e&quot; e assim por diante). Da mesma forma, o radical refere-se ao processo de redução de palavras com sufixos diferentes para sua palavra raiz, que tem um significado idêntico (por exemplo, &quot;conectar&quot;, &quot;conectar&quot; e &quot;conexão&quot; têm a mesma palavra raiz: &quot;conectar&quot;). [!DNL Target] usa o lematizador de Snowball. [!DNL Target] O executa a detecção automática de idioma primeiro e pode fazer a remoção de palavras de interrupção para até 50 idiomas e a ramificação para 18 idiomas.
+   * **Remoção de lematização e palavras de interrupção**: para uma correspondência de similaridade de texto mais precisa, é prudente remover palavras &quot;stop&quot; muito comuns que não alteram significativamente o significado de um item (por exemplo, &quot;foi&quot;, &quot;é&quot;, &quot;e&quot; e assim por diante). Da mesma forma, o radical refere-se ao processo de redução de palavras com sufixos diferentes para sua palavra raiz, que tem um significado idêntico (por exemplo, &quot;conectar&quot;, &quot;conectar&quot; e &quot;conexão&quot; têm a mesma palavra raiz: &quot;conectar&quot;). [!DNL Target] usa o leme de Snowball. [!DNL Target] O executa a detecção automática de idioma primeiro e pode fazer a remoção de palavras de interrupção para até 50 idiomas e a ramificação para 18 idiomas.
    * **criação de n-gramas**: após as etapas anteriores, cada palavra é tratada como um token. O processo de combinação de sequências contíguas de tokens em um único token é conhecido como criação n-grama. [!DNL Target]Os algoritmos do consideram até 2 gramas.
    * **computação de tf-idf**: a próxima etapa envolve a criação de vetores tf-idf para refletir a importância relativa de tokens na descrição do item. Para cada ficha/termo t num item i, num catálogo D com |D| itens, o termo frequência TF(t, i) é calculado primeiro (o número de vezes que o termo aparece no item i), bem como a frequência do documento DF(t, D). Em essência, o número de itens em que o token t existe. A medida tf-idf é então
 
-      ![Fórmula mostrando a medida tf-idf](assets/formula2.png)
+     ![Fórmula mostrando a medida tf-idf](assets/formula2.png)
 
-      [!DNL Target] usa o Apache Spark *tf-idf* implementação de recursos do, que sob o capô hash cada token para um espaço de 218 tokens. Nesta etapa, o reforço e a enterramento de atributos especificados pelo cliente também são aplicados ajustando as frequências do termo em cada vetor com base nas configurações especificadas no [critérios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+     [!DNL Target] usa o Apache Spark *tf-idf* implementação de recursos do, que sob o capô hash cada token para um espaço de 218 tokens. Nesta etapa, o reforço e a enterramento de atributos especificados pelo cliente também são aplicados ajustando as frequências do termo em cada vetor com base nas configurações especificadas no [critérios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
    * **Cálculo de similaridade de item**: o cálculo de similaridade do item final é feito usando uma similaridade aproximada do cosseno. Para dois itens, *A* e *B*, com os vetores tA e tB, a similaridade do cosseno é definida como:
 
-      ![Fórmula mostrando o cálculo de similaridade de item](assets/formula3.png)
+     ![Fórmula mostrando o cálculo de similaridade de item](assets/formula3.png)
 
-      Para evitar uma complexidade significativa no cálculo das semelhanças entre todos os elementos N x N, a *tf-idf* o vetor é truncado para conter apenas suas 500 maiores entradas e, em seguida, calcula as semelhanças do cosseno entre os itens usando essa representação de vetor truncada. Essa abordagem se mostra mais robusta para computações de similaridade de vetor esparso, em comparação a outras técnicas de vizinho mais próximo aproximado (ANN), como hash sensível à localidade.
+     Para evitar uma complexidade significativa no cálculo das semelhanças entre todos os elementos N x N, a *tf-idf* o vetor é truncado para conter apenas suas 500 maiores entradas e, em seguida, calcula as semelhanças do cosseno entre os itens usando essa representação de vetor truncada. Essa abordagem se mostra mais robusta para computações de similaridade de vetor esparso, em comparação a outras técnicas de vizinho mais próximo aproximado (ANN), como hash sensível à localidade.
 
    * **Veiculação de modelos**: esse processo é idêntico às técnicas de filtragem colaborativa item a item descritas na seção anterior.
 
@@ -127,7 +127,7 @@ A lógica das etapas de treinamento e pontuação do modelo é mostrada no diagr
 
 Veja a seguir os detalhes dessas etapas:
 
-* **Dados de entrada**: é idêntico aos métodos de Filtragem colaborativa (CF) item-item. [!UICONTROL Ambos Recomendados Para Você] Os algoritmos baseados em carrinho e carrinho usam dados comportamentais, na forma de exibições e compras de usuários coletadas quando você [implementar o Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dados de entrada**: é idêntico aos métodos de Filtragem colaborativa (CF) item-item. [!UICONTROL Ambos Recomendados Para Você] Os algoritmos baseados em carrinho e carrinho usam dados comportamentais, na forma de exibições e compras de usuários coletadas quando você [implementar o Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Treinamento de modelo**:
 
@@ -135,14 +135,13 @@ Veja a seguir os detalhes dessas etapas:
    * **Divisão do teste do comboio**: executa uma divisão cronológica dos usos para cada usuário, alocando os primeiros 80% de seus usos para dados de treinamento, com os 20% restantes alocados para os dados de teste.
    * **Treinamento de modelo de similaridade de item**: o cálculo de similaridade do item principal é diferente para [!UICONTROL Recomendado Para Você] e algoritmos baseados em carrinho na forma como os vetores de item candidatos são construídos. Para [!UICONTROL Recomendado Para Você], os vetores de item têm NUsers de dimensão, onde cada entrada representa a soma das classificações implícitas para esse usuário do item. As compras de um item recebem um peso 2x maior que as visualizações do item. Para recomendações Baseadas em Carrinho, os vetores de item têm entradas binárias; se o comportamento dentro da sessão for considerado apenas, haverá uma nova entrada para cada sessão. Caso contrário, haverá uma entrada nesse vetor de item para cada visitante.
 
-   A etapa de treinamento calcula vários tipos de similaridades de vetor: similaridade de LLR ([discutido aqui](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), similaridade do cosseno (definida anteriormente) e uma similaridade L2 normalizada, definida como:
+  A etapa de treinamento calcula vários tipos de similaridades de vetor: similaridade de LLR ([discutido aqui](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), similaridade do cosseno (definida anteriormente) e uma similaridade L2 normalizada, definida como:
 
-   ![Fórmula mostrando o cálculo do treinamento](assets/formula4.png)
+  ![Fórmula mostrando o cálculo do treinamento](assets/formula4.png)
 
    * **Avaliação de modelo de similaridade de item**: a avaliação do modelo é feita tomando as recomendações geradas na etapa anterior e fazendo previsões no conjunto de dados de teste. A fase de pontuação online é imitada pela ordem cronológica do uso dos itens de cada usuário no conjunto de dados de teste, fazendo 100 recomendações para subconjuntos ordenados de itens em uma tentativa de prever exibições e compras subsequentes. Uma métrica de recuperação de informações, a variável [Precisão Média Média](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval), é usado para avaliar a qualidade dessas recomendações. Essa métrica leva em conta a ordem das recomendações e favorece itens relevantes mais altos na lista de recomendações, o que é uma propriedade importante para os sistemas de classificação.
    * **Seleção de modelo**: Após a avaliação offline, o modelo com a Precisão Média mais alta é selecionado e todas as recomendações individuais de item são computadas para ele.
    * **Filtragem offline**: a fase final do treinamento de modelo é a aplicação de quaisquer filtros dinâmicos aplicáveis. Após essa etapa, as recomendações pré-calculadas são armazenadas em cache globalmente para estarem disponíveis para veiculação.
-
 
 * **Veiculação de modelos**: Ao contrário de algoritmos anteriores, nos quais as recomendações de veiculação envolvem a especificação de uma única chave para recuperação, seguida da aplicação de regras de negócios, a variável [!UICONTROL Recomendado para você] Os algoritmos baseados em carrinho e carrinho empregam um processo de tempo de execução mais complexo.
 
