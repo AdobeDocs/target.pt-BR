@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 62%
+ht-degree: 78%
 
 ---
 
@@ -36,10 +36,10 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 
 * [!UICONTROL Analytics for Target] (A4T) atividades com métricas de meta de receita não exibiam &quot;Receita&quot; como o nome da coluna e a métrica de receita não era exibida no formato ($) no relatório. Esse era um problema superficial que foi remediado. (TGT-46995)
 * Correção de um problema que fazia com que os intervalos de datas do relatório não funcionassem corretamente. (TGT-47396)
-* Correção de um problema que fazia com que o status incorreto fosse exibido no [!UICONTROL Todas as atividades] depois que os clientes ativaram ou desativaram uma atividade usando o [!UICONTROL Mais ações] ícone. (TGT-47367)
+* Correção de um problema que fazia com que um status incorreto fosse exibido na página [!UICONTROL Todas as atividades] depois que os clientes ativavam ou desativavam uma atividade usando o ícone [!UICONTROL Mais ações]. (TGT-47367)
 * Correção de um problema que causava a [!UICONTROL Atributos importantes] relatório que não será exibido para um único cliente. (TGT-47272)
 * Correção de um problema que exibia a mensagem &quot;Carga inválida&quot; quando um único cliente tentava habilitar &quot;Requer autenticação&quot;. (TGT-47195)
-* Atualização de várias strings localizadas no [!DNL Target] IU.
+* Atualização de várias strings localizadas na interface do [!DNL Target].
 
 ## Notas de versão adicionais e detalhes da versão
 
