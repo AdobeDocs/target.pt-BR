@@ -3,10 +3,10 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 94%
+source-wordcount: '1225'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 + Introdução {#introduction}
    + [Introdução ao Target](c-intro/intro.md)
    + [Acessar o Target na Adobe Experience Cloud](c-intro/target-access-from-mac.md)
-   + [Target principais conceitos](c-intro/target-key-concepts.md)
+   + [Conceitos-chave do Target](c-intro/target-key-concepts.md)
    + [Compreensão do tempo limite da interface do Target](/help/main/c-intro/understand-the-target-ui.md)
    + Kit de boas-vindas do Adobe Target {#welcome}
       + [Visão geral do kit de boas-vindas do Target](/help/main/c-intro/target-welcome-kit.md)
@@ -93,6 +93,7 @@ ht-degree: 94%
       + [Adobe Customer Journey Analytics como origem de relatório do Target (CJA4T)](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
    + Integração do Target ao Adobe Journey Optimizer (AJO) {#ajo}
       + [Usar decisões de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
+      + [Integrar [!DNL Adobe Target Recommendations] e [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
    + [Públicos-alvo da Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integração do Target ao Adobe Experience Manager (AEM) {#aem}
       + [Visão geral da integração do Target ao AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
@@ -129,7 +130,7 @@ ht-degree: 94%
       + [Visão geral do direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
       + [Criar uma atividade de direcionamento automático](/help/main/c-activities/auto-target/create-auto-target.md)
       + [Perguntas frequentes e solução de problemas do Direcionamento automático](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
-      + [Relatórios e Direcionamento automático](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
+      + [Geração de relatórios e direcionamento automático](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Visão geral da Automated Personalization](c-activities/t-automated-personalization/automated-personalization.md)
       + [Algoritmo Random Forest](c-activities/t-automated-personalization/algo-random-forest.md)
@@ -197,7 +198,7 @@ ht-degree: 94%
          + [Móvel](c-target/c-audiences/c-target-rules/mobile.md)
          + [Sistema operacional](c-target/c-audiences/c-target-rules/operating-system.md)
          + [Páginas do site](c-target/c-audiences/c-target-rules/site-pages.md)
-         + [Target Biblioteca](c-target/c-audiences/c-target-rules/target-library.md)
+         + [Biblioteca do Target](c-target/c-audiences/c-target-rules/target-library.md)
          + [Intervalo de tempo](c-target/c-audiences/c-target-rules/time-frame.md)
          + [Fontes de tráfego](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [Perfil do visitante](c-target/c-audiences/c-target-rules/visitor-profile.md)
