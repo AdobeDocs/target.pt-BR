@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
+source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 98%
+source-wordcount: '1237'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 24 de janeiro | [Detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank} | Adição das notas de versão para a at.js versão 2.11.4. |
+|  | [Navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Anunciamos que os dois novos perfis ainda não estão disponíveis. Essas notas serão atualizadas quando esses perfis estiverem disponíveis. |
 | 22 de Janeiro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Adição de informações importantes sobre a descontinuação do iPad e iPhone do [!UICONTROL Navegador] atributo de público-alvo que requer alterações de sua parte antes de 30 de abril de 2024. |
 |  | [Navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Adição de uma nova seção: <ul><li>Descontinuação do iPad e iPhone do atributo de público-alvo do navegador (30 de abril de 2024)</li></ul> |
 |  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 24.1.1 do [!DNL Target Standard/Premium]. |

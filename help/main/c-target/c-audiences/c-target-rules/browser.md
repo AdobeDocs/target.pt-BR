@@ -4,10 +4,10 @@ description: Saiba como criar públicos-alvo no [!DNL Adobe Target] para direcio
 title: Posso definir visitantes como alvo com base no tipo de navegador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
+source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 55%
+source-wordcount: '1022'
+ht-degree: 53%
 
 ---
 
@@ -139,6 +139,8 @@ A partir de 30 de abril de 2024, o iPad e o iPhone serão removidos do disponív
 
 Se você tiver públicos-alvo que visam iPads ou iPhones usando o atributo [!UICONTROL Navegador], será necessário alterar essas configurações antes de 30 de abril de 2024 para garantir que esses públicos-alvo continuem funcionando conforme o esperado.
 
+### Públicos-alvo criados usando o [!DNL Target] IU
+
 As seguintes configurações podem ser usadas a partir de agora:
 
 * **Para correspondências de navegador[!DNL Apple]**: [!UICONTROL Dispositivo móvel] > [!UICONTROL Fornecedor do dispositivo] [!UICONTROL corresponde a] [!DNL Apple]
@@ -167,16 +169,19 @@ Há muitas outras configurações possíveis que podem ser usadas, por exemplo, 
 
   ![Não tablet](/help/main/r-release-notes/assets/tablet-false.png)
 
-Se você usar `user.browserType` nos segmentos do JavaScript, as alterações devem incluir o seguinte:
+### Públicos-alvo criados usando scripts de perfil
+
+Se você usar `user.browserType` em segmentos JavaScript, conforme explicado em [Perfil e glossário de variáveis](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), as alterações devem incluir o seguinte:
 
 >[!NOTE]
 >
->As seguintes adições estão programadas para serem lançadas em 24 de janeiro de 2024. Essas adições possibilitam as seguintes alterações:
->
->* `profile.mobile.isTablet`
->
->* `profile.mobile.isMobilePhone`
+>Os perfis a seguir estão programados para serem lançados nos próximos dias, a partir de 24 de janeiro de 2024. A variável [notas de versão atuais](/help/main/r-release-notes/release-notes.md) serão atualizadas quando esses perfis estiverem disponíveis.
 
+Esses perfis possibilitam as seguintes alterações:
+>>
+* `profile.mobile.isTablet`
+>>
+* `profile.mobile.isMobilePhone`
 
 * **BrowserType é iPhone**:
 
