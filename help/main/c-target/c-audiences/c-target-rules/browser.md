@@ -4,10 +4,10 @@ description: Saiba como criar públicos-alvo no [!DNL Adobe Target] para direcio
 title: Posso definir visitantes como alvo com base no tipo de navegador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
+source-git-commit: 968f9982299156d3f4d599d00322106fe3629610
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 53%
+source-wordcount: '1057'
+ht-degree: 37%
 
 ---
 
@@ -17,22 +17,22 @@ Você pode direcionar os usuários que utilizam um determinado navegador ou dete
 
 Estes navegadores podem ser direcionados:
 
-* Chrome
-* Firefox
-* Safari
-* Internet Explorer
-* Microsoft Edge
-* Opera
-* iPad  
-* iPhone
+* [!UICONTROL Chrome]
+* [!UICONTROL Firefox]
+* [!UICONTROL Safari]
+* [!UICONTROL Internet Explorer]
+* [!UICONTROL Microsoft Edge]
+* [!UICONTROL Opera]
+* [!DNL iPad]
+* [!DNL iPhone]
 
 >[!IMPORTANT]
 >
->A partir de 30 de abril de 2024, o iPad e o iPhone serão removidos do disponível [!UICONTROL Navegador] digite a lista suspensa ao criar categorias para públicos-alvo. Para obter configurações alternativas, consulte [Substituição do iPad e do iPhone pelo atributo de público-alvo do navegador (30 de abril de 2024)](#deprecation) abaixo.
+>A partir de 30 de abril de 2024, [!DNL iPad] e [!DNL iPhone] serão removidos do disponível [!UICONTROL Navegador] digite a lista suspensa ao criar categorias para públicos-alvo. Para obter configurações alternativas, consulte [Substituição do iPad e do iPhone pelo atributo de público-alvo do navegador (30 de abril de 2024)](#deprecation) abaixo.
 
 Há duas formas de direcionar navegadores:
 
-* **Público-alvo previamente criado:** use o público-alvo previamente criado se quiser direcionar somente visitantes que usam um navegador específico para visitar seu site. Por exemplo, se estiver oferecendo uma extensão do Chrome, você só direcionará usuários do Chrome.
+* **Público-alvo previamente criado:** use o público-alvo previamente criado se quiser direcionar somente visitantes que usam um navegador específico para visitar seu site. Por exemplo, se você estiver oferecendo uma [!DNL Chrome] extensão, você somente direcionaria [!DNL Chrome] usuários.
 
    1. Ao configurar sua atividade, selecione o navegador na lista suspensa.
 
@@ -57,7 +57,7 @@ Há duas formas de direcionar navegadores:
    1. (Opcional) Configure regras adicionais para o público-alvo.
    1. Clique em **[!UICONTROL Concluído]**.
 
-  O exemplo a seguir mostra um público-alvo que inclui usuários do Microsoft Edge nas versões 91 ou 92:
+  O exemplo a seguir mostra um público-alvo que inclui [!DNL Microsoft Edge] usuários nas versões 91 ou 92:
 
   ![Target Edge 91 ou 92](assets/target_edge.png)
 
@@ -71,8 +71,8 @@ Direcione ou exclua um determinado navegador.
 
 Selecione **[!UICONTROL Tipo]** e escolha &quot;é igual&quot; ou &quot;não é igual&quot;.
 
-* É igual: direciona os navegadores selecionados.
-* Não é igual: exclui os navegadores selecionados.
+* [!UICONTROL Igual a]: Direciona os navegadores selecionados.
+* [!UICONTROL Não é igual a]: exclua os navegadores selecionados.
 
 Selecione um ou mais navegadores. Várias opções estão conectadas a um OR.
 
@@ -86,8 +86,8 @@ A inclusão ou exclusão de idiomas de navegador pode proporcionar um direcionam
 
 Selecione **[!UICONTROL Idioma]** e escolha &quot;é igual&quot; ou &quot;não é igual&quot;.
 
-* É igual: direciona os idiomas de navegador selecionados.
-* Não é igual: exclui os idiomas de navegador selecionados.
+* [!UICONTROL Igual a]: segmenta os idiomas do navegador selecionados.
+* [!UICONTROL Não é igual a]: exclua os idiomas do navegador selecionados.
 
 Selecione um ou mais idiomas. Várias opções estão conectadas a um OR.
 
@@ -107,16 +107,16 @@ Os seguintes idiomas de navegador podem ser direcionados ou excluídos:
 
 Direcione ou exclua determinadas versões de um navegador.
 
-Por exemplo, se sua página não aparece corretamente no Internet Explorer 11 ou em versões anteriores, você pode criar um público-alvo que exclua essas versões. Nesse caso, você configurará uma regra na qual o tipo de navegador &quot;é igual&quot; a Internet Explorer e adicionará uma segunda regra na qual a versão &quot;é menor que ou igual a&quot; 11.
+Por exemplo, se a página não for exibida corretamente no [!DNL Internet Explorer] versão 11 ou anterior, você pode criar um público-alvo que exclua essas versões. Nesse caso, você configuraria uma regra em que o tipo de navegador fosse igual a [!DNL Internet Explorer] e adicione uma segunda regra quando a versão for menor ou igual a 11.
 
 Selecione **[!UICONTROL Versão]** e escolha um operador:
 
-* Igual
-* Não é igual
-* É maior que
+* [!UICONTROL Igual]
+* [!UICONTROL Não é igual a]
+* [!UICONTROL É maior que]
 * É maior que ou igual a
-* É menor que
-* É menor que ou igual a
+* [!UICONTROL É menor que]
+* [!UICONTROL É menor que ou igual a]
 
 Digite o número da versão. Somente versões principais podem ser inseridas no campo de texto. A versão especificada inclui todas as versões intermediárias. Por exemplo, se você especificar a versão 10, os visitantes da versão 10.1 também serão incluídos.
 
@@ -137,7 +137,9 @@ Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
 A partir de 30 de abril de 2024, o iPad e o iPhone serão removidos do disponível [!UICONTROL Navegador] digite a lista suspensa ao criar categorias para públicos-alvo.
 
-Se você tiver públicos-alvo que visam iPads ou iPhones usando o atributo [!UICONTROL Navegador], será necessário alterar essas configurações antes de 30 de abril de 2024 para garantir que esses públicos-alvo continuem funcionando conforme o esperado.
+Públicos-alvo integrados, como &quot;Navegador: iPad&quot; e &quot;Navegador: iPhone&quot;, serão movidos automaticamente para a nova definição de Público-alvo. Qualquer script de perfil que use &quot;user.browserType&quot; *não* ser atualizado automaticamente: se você não atualizá-los manualmente, a qualificação do usuário pode não ocorrer conforme esperado.
+
+Se você tiver públicos-alvo que direcionem iPads ou iPhones usando o [!UICONTROL Navegador] você deve alterar essas configurações antes de 30 de abril de 2024 para garantir que esses públicos-alvo continuem a funcionar conforme esperado.
 
 ### Públicos-alvo criados usando o [!DNL Target] IU
 
@@ -171,17 +173,17 @@ Há muitas outras configurações possíveis que podem ser usadas, por exemplo, 
 
 ### Públicos-alvo criados usando scripts de perfil
 
-Se você usar `user.browserType` em segmentos JavaScript, conforme explicado em [Perfil e glossário de variáveis](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), as alterações devem incluir o seguinte:
+Se você usar `user.browserType` em públicos-alvo que usam scripts de perfil, conforme explicado em [Perfil e glossário de variáveis](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), as alterações devem incluir o seguinte:
 
 >[!NOTE]
 >
 >Os perfis a seguir estão programados para serem lançados nos próximos dias, a partir de 24 de janeiro de 2024. A variável [notas de versão atuais](/help/main/r-release-notes/release-notes.md) serão atualizadas quando esses perfis estiverem disponíveis.
-
-Esses perfis possibilitam as seguintes alterações:
->>
-* `profile.mobile.isTablet`
->>
-* `profile.mobile.isMobilePhone`
+>
+>Esses perfis possibilitam as seguintes alterações:
+>
+>* `profile.mobile.isTablet`
+>
+>* `profile.mobile.isMobilePhone`
 
 * **BrowserType é iPhone**:
 
