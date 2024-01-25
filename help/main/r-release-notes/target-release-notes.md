@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 80%
+ht-degree: 96%
 
 ---
 
@@ -39,11 +39,11 @@ Este lançamento está previsto para os seguintes dias:
 
 Essa versão conta com os seguintes aprimoramentos e correções:
 
-* [!UICONTROL Analytics for Target] (A4T) atividades com métricas de meta de receita não exibiam &quot;Receita&quot; como o nome da coluna e a métrica de receita não era exibida no formato ($) no relatório. Esse era um problema superficial que foi remediado. (TGT-46995)
+* As atividades do [!UICONTROL Analytics for Target] (A4T) com métricas de meta de receita não exibiam “Receita” como o nome da coluna e a métrica de receita não era exibida no formato ($) no relatório. Era um problema superficial que foi corrigido. (TGT-46995)
 * Correção de um problema que fazia com que os intervalos de datas do relatório não funcionassem corretamente. (TGT-47396)
 * Correção de um problema que fazia com que um status incorreto fosse exibido na página [!UICONTROL Todas as atividades] depois que os clientes ativavam ou desativavam uma atividade usando o ícone [!UICONTROL Mais ações]. (TGT-47367)
-* Correção de um problema que causava a [!UICONTROL Atributos importantes] relatório que não será exibido para um único cliente. (TGT-47272)
-* Correção de um problema que exibia a mensagem &quot;Carga inválida&quot; quando um único cliente tentava habilitar &quot;Requer autenticação&quot;. (TGT-47195)
+* Correção de um problema que fazia com que o relatório [!UICONTROL Atributos importantes] não fosse exibido para um cliente. (TGT-47272)
+* Correção de um problema que fazia com que uma mensagem “Conteúdo inválido” fosse exibida quando um único cliente tentava habilitar a opção “Exigir autenticação”. (TGT-47195)
 * Atualização de várias strings localizadas na interface do [!DNL Target].
 
 ## Notas de versão adicionais e detalhes da versão
