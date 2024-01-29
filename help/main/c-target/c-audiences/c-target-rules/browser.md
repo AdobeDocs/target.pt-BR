@@ -4,9 +4,9 @@ description: Saiba como criar públicos-alvo no [!DNL Adobe Target] para direcio
 title: Posso definir visitantes como alvo com base no tipo de navegador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 968f9982299156d3f4d599d00322106fe3629610
+source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1059'
 ht-degree: 37%
 
 ---
@@ -135,13 +135,13 @@ Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
 [!DNL Adobe Target] permite [direcionar em qualquer um dos vários atributos de categoria](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), incluindo usuários que utilizam um determinado navegador ou opções de navegador quando visitam sua página.
 
-A partir de 30 de abril de 2024, o iPad e o iPhone serão removidos do disponível [!UICONTROL Navegador] digite a lista suspensa ao criar categorias para públicos-alvo.
+A partir de 30 de abril de 2024, o iPad e o iPhone serão removidos do disponível [!UICONTROL Navegador] digite a lista suspensa no [!DNL Target] Interface ao criar categorias para públicos.
 
-Públicos-alvo integrados, como &quot;Navegador: iPad&quot; e &quot;Navegador: iPhone&quot;, serão movidos automaticamente para a nova definição de Público-alvo. Qualquer script de perfil que use &quot;user.browserType&quot; *não* ser atualizado automaticamente: se você não atualizá-los manualmente, a qualificação do usuário pode não ocorrer conforme esperado.
+Públicos-alvo integrados criados usando o [!DNL Target] A interface do usuário, como &quot;Navegador: iPad&quot; e &quot;Navegador: iPhone&quot;, será movida automaticamente para a nova definição de Público-alvo. No entanto, a partir de agora, você deverá usar as configurações [descrito abaixo](#ui).
 
-Se você tiver públicos-alvo que direcionem iPads ou iPhones usando o [!UICONTROL Navegador] você deve alterar essas configurações antes de 30 de abril de 2024 para garantir que esses públicos-alvo continuem a funcionar conforme esperado.
+Se você usar `user.browserType` em qualquer script de perfil para verificar se é uma iPhone ou iPad (por exemplo, `user.browserType == 'iphone'` ou `user.browserType != 'ipad'`), esses scripts de perfil devem ser alterados como [instruído abaixo](#profile-scripts) antes de 30 de abril de 2024 para garantir que esses públicos-alvo continuem funcionando conforme o esperado.
 
-### Públicos-alvo criados usando o [!DNL Target] IU
+### Públicos-alvo criados usando o [!DNL Target] IU {#ui}
 
 As seguintes configurações podem ser usadas a partir de agora:
 
@@ -171,7 +171,7 @@ Há muitas outras configurações possíveis que podem ser usadas, por exemplo, 
 
   ![Não tablet](/help/main/r-release-notes/assets/tablet-false.png)
 
-### Públicos-alvo criados usando scripts de perfil
+### Públicos-alvo criados usando scripts de perfil {#profile-scripts}
 
 Se você usar `user.browserType` em públicos-alvo que usam scripts de perfil, conforme explicado em [Perfil e glossário de variáveis](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), as alterações devem incluir o seguinte:
 
