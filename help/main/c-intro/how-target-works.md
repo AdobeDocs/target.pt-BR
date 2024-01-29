@@ -5,9 +5,9 @@ title: Como o  [!DNL Target]  funciona?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2507'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,8 +30,8 @@ Consulte o [!DNL Experience Platform Web SDK] ou at.js em todas as páginas do s
 
 Os seguintes recursos contêm informações detalhadas para ajudar você a implementar o [!DNL Experience Platform Web SDK] ou a at.js:
 
-* [[!DNL Adobe Experience Platform Web SDK] extensão](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=pt-BR){target=_blank}
-* [Implementar o  [!DNL Target]  usando a  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
+* Extensão do [[!DNL Adobe Experience Platform Web SDK] ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=pt-BR){target=_blank}
+* [Implementar o  [!DNL Target]  usando a  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=pt-BR){target=_blank}
 
 Cada vez que um visitante solicita uma página que foi otimizada para [!DNL Target], uma solicitação é enviada para o sistema de direcionamento. A solicitação ajuda a determinar qual conteúdo será enviado para esse visitante. Esse processo ocorre em tempo real. Esse processo ocorre em tempo real. Sempre que uma página é carregada, uma solicitação para o conteúdo é feita e preenchida pelo sistema. O conteúdo é regulado pelas leis de atividades e experiências controladas pelo comerciante e direcionado para o visitante individual do site. O conteúdo é disponibilizado para cada visitante do site com maior probabilidade de responder, interagir ou comprar. O conteúdo personalizado ajuda a maximizar as taxas de resposta, as taxas de aquisição e a receita.
 
