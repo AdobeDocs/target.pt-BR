@@ -4,10 +4,10 @@ description: Veja uma lista de vários perfis, variáveis e parâmetros úteis e
 title: Quais perfis, variáveis e parâmetros são usados no [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: d3c9a5bfa1e0496387103d82dd811f28581ba8bf
+source-git-commit: 8ff786fe55337df2465426c9a87f71002cce3de5
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 70%
+source-wordcount: '665'
+ht-degree: 69%
 
 ---
 
@@ -48,8 +48,8 @@ Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de per
 | profile.browserTime | A hora do navegador local do visitante. Para a hora do sistema, crie um novo objeto de data no script de perfil |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
-| profile.mobile.isTablet | O dispositivo do visitante é um tablet.<P>Este perfil substitui o herdado obsoleto [O navegador é a categoria de público-alvo do iPad](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
-| profile.mobile.isMobilePhone | O dispositivo do visitante é um telefone celular.<P>Este perfil substitui o herdado obsoleto [O navegador é a categoria de público-alvo do iPhone](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
+| profile.mobile.isTablet | O dispositivo do visitante é um tablet.<P>**NOTA**: este perfil substitui o navegador herdado obsoleto na categoria de público-alvo do iPad. Consulte [Navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) para obter mais informações. |
+| profile.mobile.isMobilePhone | O dispositivo do visitante é um telefone celular.<P>**NOTA**: este perfil substitui o navegador herdado obsoleto na categoria de público-alvo do iPhone. Consulte [Navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) para obter mais informações. |
 | parameter= | Termo genérico para valores adicionais transmitidos com uma mbox, normalmente como pares de nome/valor. Não é persistente, a menos que tornado persistente com `profile.parameter` ou `user.parameter`. |
 
 ## Variáveis de URL {#section_8F25958273164EBAA6DC659302993FD3}
