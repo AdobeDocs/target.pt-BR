@@ -4,10 +4,10 @@ description: Veja uma lista de vários perfis, variáveis e parâmetros úteis e
 title: Quais perfis, variáveis e parâmetros são usados no [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: d3c9a5bfa1e0496387103d82dd811f28581ba8bf
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 74%
+source-wordcount: '653'
+ht-degree: 70%
 
 ---
 
@@ -48,6 +48,8 @@ Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de per
 | profile.browserTime | A hora do navegador local do visitante. Para a hora do sistema, crie um novo objeto de data no script de perfil |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
+| profile.mobile.isTablet | O dispositivo do visitante é um tablet.<P>Este perfil substitui o herdado obsoleto [O navegador é a categoria de público-alvo do iPad](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
+| profile.mobile.isMobilePhone | O dispositivo do visitante é um telefone celular.<P>Este perfil substitui o herdado obsoleto [O navegador é a categoria de público-alvo do iPhone](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
 | parameter= | Termo genérico para valores adicionais transmitidos com uma mbox, normalmente como pares de nome/valor. Não é persistente, a menos que tornado persistente com `profile.parameter` ou `user.parameter`. |
 
 ## Variáveis de URL {#section_8F25958273164EBAA6DC659302993FD3}
