@@ -4,10 +4,10 @@ description: Saiba como criar públicos-alvo no [!DNL Adobe Target] para direcio
 title: Posso definir visitantes como alvo com base no tipo de navegador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
+source-git-commit: aa7bef57c94c0dc996c9e1bd0ed23b48aa199874
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 37%
+source-wordcount: '1098'
+ht-degree: 35%
 
 ---
 
@@ -141,6 +141,8 @@ Públicos-alvo integrados criados usando o [!DNL Target] A interface do usuário
 
 Se você usar `user.browserType` em qualquer script de perfil para verificar se é uma iPhone ou iPad (por exemplo, `user.browserType == 'iphone'` ou `user.browserType != 'ipad'`), esses scripts de perfil devem ser alterados como [instruído abaixo](#profile-scripts) antes de 30 de abril de 2024 para garantir que esses públicos-alvo continuem funcionando conforme o esperado.
 
+Os públicos-alvo do JavaScript que usam scripts de perfil são públicos-alvo herdados que foram descontinuados com o [!DNL Target Classic] IU. Esses públicos-alvo só podem ser modificados por meio da API. Os clientes devem atualizar esses públicos-alvo somente se estiverem usando públicos-alvo herdados em atividades no novo [!DNL Target Standard/Premium] IU.
+
 ### Públicos-alvo criados usando o [!DNL Target] IU {#ui}
 
 As seguintes configurações podem ser usadas a partir de agora:
@@ -173,11 +175,11 @@ Há muitas outras configurações possíveis que podem ser usadas, por exemplo, 
 
 ### Públicos-alvo criados usando scripts de perfil {#profile-scripts}
 
-Se você usar `user.browserType` em públicos-alvo que usam scripts de perfil, conforme explicado em [Perfil e glossário de variáveis](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), as alterações devem incluir o seguinte:
+Se você usar `user.browserType` em herdados [!DNL Target Classic] públicos-alvo que usam scripts de perfil, conforme explicado em [Perfil e glossário de variáveis](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), as alterações devem incluir o seguinte:
 
 >[!NOTE]
 >
->Os perfis a seguir estão programados para serem lançados nos próximos dias, a partir de 24 de janeiro de 2024. A variável [notas de versão atuais](/help/main/r-release-notes/release-notes.md) serão atualizadas quando esses perfis estiverem disponíveis.
+>Os perfis a seguir estão programados para serem lançados nas próximas semanas, a partir de 24 de janeiro de 2024. A variável [notas de versão atuais](/help/main/r-release-notes/release-notes.md) serão atualizadas quando esses perfis estiverem disponíveis.
 >
 >Esses perfis possibilitam as seguintes alterações:
 >
