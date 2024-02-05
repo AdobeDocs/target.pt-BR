@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
+source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1343'
 ht-degree: 95%
 
 ---
@@ -21,6 +21,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | --- | --- | --- |
 | 5 de fevereiro | [Crie uma atividade que use o Analytics como fonte de relatórios](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | Adição de texto especificando que não é possível usar o mesmo nome de atividade para duas atividades de espaços de trabalho separados ao usar [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios. |
 |  | [Configurações de atividade - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Adição de texto especificando que não é possível usar o mesmo nome de atividade para duas atividades de espaços de trabalho separados ao usar [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios. |
+|  | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Adição de informações sobre o Coffee Break da comunidade do Adobe Target programado para 7 de fevereiro de 2024. |
 | 24 de janeiro | [Detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank} | Adição das notas de versão para a at.js versão 2.11.4. |
 |  | [Navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Informamos que os dois novos perfis ainda não estão disponíveis. Essas notas serão atualizadas quando esses perfis estiverem disponíveis. |
 |  | [Perguntas frequentes sobre at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=pt-BR){target=_blank} | Adição de perguntas frequentes sobre a at.js em um ambiente de aplicativo Ionic. Esta implementação não foi testada ou é recomendada. |
