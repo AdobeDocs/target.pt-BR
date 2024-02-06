@@ -4,10 +4,10 @@ description: Veja uma lista de vários perfis, variáveis e parâmetros úteis e
 title: Quais perfis, variáveis e parâmetros são usados no [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 2b72d2edb3da75e6a3f5d0af4ddb18a49f39b851
+source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 69%
+source-wordcount: '677'
+ht-degree: 67%
 
 ---
 
@@ -28,6 +28,7 @@ Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de per
 | user.isNewSession |  |
 | user.daysSinceLastVisit |  |
 | user.browser | O agente do usuário |
+| user.browserType | Retorna o tipo de navegador, por exemplo, safari, chrome e assim por diante. |
 | user.header | Todos os perfis `user.header` são incorporados nos dados do cabeçalho da solicitação de mbox |
 | user.header(&#39;x-forwarded-for&#39;) | O endereço IP voltado para o público da conexão de rede do visitante.<br>É possível obter isso de várias maneiras, por exemplo [whatismyip.com](https://www.whatismyip.com/). O endereço IP não é o endereço NAT (endereço interno), que começa com 10., 192.168. ou 172.<br>Observação: user.header(&#39;x-cluster-client-ip&#39;) foi descontinuado. |
 | user.header(&#39;host&#39;) | Nome do host do site |

@@ -4,10 +4,10 @@ description: Saiba como criar públicos-alvo no [!DNL Adobe Target] para direcio
 title: Posso definir visitantes como alvo com base no tipo de navegador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: aa7bef57c94c0dc996c9e1bd0ed23b48aa199874
+source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 35%
+source-wordcount: '1089'
+ht-degree: 36%
 
 ---
 
@@ -141,7 +141,7 @@ Públicos-alvo integrados criados usando o [!DNL Target] A interface do usuário
 
 Se você usar `user.browserType` em qualquer script de perfil para verificar se é uma iPhone ou iPad (por exemplo, `user.browserType == 'iphone'` ou `user.browserType != 'ipad'`), esses scripts de perfil devem ser alterados como [instruído abaixo](#profile-scripts) antes de 30 de abril de 2024 para garantir que esses públicos-alvo continuem funcionando conforme o esperado.
 
-Os públicos-alvo do JavaScript que usam scripts de perfil são públicos-alvo herdados que foram descontinuados com o [!DNL Target Classic] IU. Esses públicos-alvo só podem ser modificados por meio da API. Os clientes devem atualizar esses públicos-alvo somente se estiverem usando públicos-alvo herdados em atividades no novo [!DNL Target Standard/Premium] IU.
+Os públicos-alvo do JavaScript são públicos-alvo herdados que usam expressões do Target que foram descontinuadas com o [!DNL Target Classic] IU. Esses públicos-alvo só podem ser modificados por meio da API. Os clientes devem atualizar esses públicos-alvo somente se continuarem usando públicos-alvo herdados em atividades.
 
 ### Públicos-alvo criados usando o [!DNL Target] IU {#ui}
 
@@ -175,7 +175,7 @@ Há muitas outras configurações possíveis que podem ser usadas, por exemplo, 
 
 ### Públicos-alvo criados usando scripts de perfil {#profile-scripts}
 
-Se você usar `user.browserType` em herdados [!DNL Target Classic] públicos-alvo que usam scripts de perfil, conforme explicado em [Perfil e glossário de variáveis](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), as alterações devem incluir o seguinte:
+Se você usar `user.browserType` em herdados [!DNL Target Classic] públicos-alvo ou em scripts de perfil, as alterações devem incluir o seguinte:
 
 >[!NOTE]
 >
