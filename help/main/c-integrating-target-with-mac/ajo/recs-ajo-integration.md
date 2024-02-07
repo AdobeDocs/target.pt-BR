@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#beta newtab=true" tooltip="O que são recursos beta no  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: 094ae9cc8b9700fab4ec583d045c0c31e741ddcb
+source-git-commit: 9cf9236dbd830796ef5362a9e292de7ec6fd8491
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ Para usar o [!DNL Target Recommendations] e [!DNL Adobe Journey Optimizer] integ
 
 ## Casos de uso de exemplo
 
-Veja a seguir apenas alguns casos de uso possíveis para integração do [!DNL Target Recommendations] com [!DNL Adobe Journey Optimizer]:
+Estes são apenas alguns casos de uso possíveis para integrar o [!DNL Target Recommendations] com [!DNL Adobe Journey Optimizer]:
 
 * **[!DNL Adobe Journey Optimizer]envia um email personalizado após o abandono do carrinho**: esse caso de uso se baseia no fato de um cliente visitar um site, colocar itens no carrinho de compras e sair do site sem concluir o processo de compra.
 
