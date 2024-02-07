@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#beta newtab=true" tooltip="O que são recursos beta no  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: f0e8ec873b2cc7bb6bb03aa99d5e5e96beac3b56
+source-git-commit: 094ae9cc8b9700fab4ec583d045c0c31e741ddcb
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '582'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 Este artigo explica casos de uso e informações para ajudar você a configurar a integração entre o [!DNL Adobe Target Recommendations] e [!DNL Adobe Journey Optimizer] para ajudar você a fornecer experiências conectadas, contextuais e personalizadas aos seus clientes.
 
-Essa integração pode ajudá-lo a gerar mais conversões e ver o impacto de mensagens de email que contêm recomendações personalizadas.
+Essa integração ajuda você a gerar mais conversões e ver o impacto de mensagens de email que contêm recomendações personalizadas.
 
 ## Pré-requisitos
 
@@ -26,7 +26,7 @@ Para usar o [!DNL Target Recommendations] e [!DNL Adobe Journey Optimizer] integ
 
 * [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) implementado usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank}.
 
-  O recurso não está disponível com uma [!DNL Target Standard] licença ou ao implementar [!DNL Target] com at.js ou outro [!DNL Target] SDKs.
+  Este recurso não está disponível com uma [!DNL Target Standard] licença ou ao implementar [!DNL Target] com at.js ou outro [!DNL Target] SDKs.
 
 * [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html){target=_blank}.
 
@@ -40,16 +40,16 @@ Veja a seguir apenas alguns casos de uso possíveis para integração do [!DNL T
 
   Após um período especificado, talvez algumas horas ou um dia, uma ação personalizada no [!DNL Adobe Journey Optimizer] faz uma chamada para [!DNL Target Recommendations] para determinar o conteúdo do carrinho de compras abandonado usando um [recomendações baseadas em carrinho](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) algoritmo. [!DNL Adobe Journey Optimizer] em seguida, envia a esse visitante um email personalizado como um lembrete de que o processo de compra não foi concluído, juntamente com imagens e links para os itens abandonados.
 
-* **[!DNL Adobe Journey Optimizer]envia um email após a visita ao site para lembrar ao visitante quais itens foram visualizados**: esse caso de uso se baseia em um visitante que visita um site, visualiza vários itens e sai do site sem colocar itens no carrinho de compras.
+* **[!DNL Adobe Journey Optimizer]envia um email após a visita ao site para lembrar ao visitante quais itens foram visualizados**: esse caso de uso se baseia em um visitante que visita um site, visualiza vários itens e depois sai do site ou aplicativo sem colocar itens no carrinho de compras.
 
-  Após um período especificado, uma ação personalizada no [!DNL Adobe Journey Optimizer] faz uma chamada para [!DNL Target Recommendations] para determinar quais itens este visitante visualizou, usando a variável [!DNL Adobe Experience Cloud Identifier] (EDID), a conta do visitante [!DNL Target] e um [baseado no usuário](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) algoritmo. [!DNL Adobe Journey Optimizer] em seguida, envia a esse visitante um email personalizado com imagens e links para os itens visualizados para que o visitante retorne ao site e faça uma compra.
+  Após um período especificado, uma ação personalizada no [!DNL Adobe Journey Optimizer] faz uma chamada para [!DNL Target Recommendations] para determinar quais itens este visitante visualizou, usando a variável [!DNL Adobe Experience Cloud Identifier] (EDID), a conta do visitante [!DNL Target] e um [baseado no usuário](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) algoritmo. [!DNL Adobe Journey Optimizer] em seguida, envia a esse visitante um email personalizado com imagens e links para os itens visualizados para que o visitante retorne e faça uma compra.
 
-  Neste cenário, a variável [!UICONTROL ID de visitante Experience Cloud] (ECID) e o conteúdo do relatório do usuário [!DNL Target] profile é o usado para gerar a recomendação com base no algoritmo visualizado recentemente.
+  Neste cenário, a variável [!UICONTROL ID de visitante Experience Cloud] (ECID) e o conteúdo do relatório do usuário [!DNL Target] O perfil é usado para gerar a recomendação com base no algoritmo visualizado recentemente.
 
   Suponha, por exemplo, que um visitante visite um site de varejo e visualize vários relógios. Do visitante [!DNL Target] o perfil é atualizado com uma lista dos relógios visualizados. Usar a ECID e a permissão do visitante [!DNL Target] perfil, [!DNL Target] envia a recomendação para [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] em seguida, envia um email contendo imagens e links para os relógios que esse visitante visualizou usando o algoritmo visualizado recentemente.
 
 * **[!DNL Adobe Journey Optimizer]envia um email após a visita ao site para sugerir itens populares**: este caso de uso se baseia em um visitante que visita um site, mas não visualiza itens específicos. Ao contrário dos casos de uso anteriores, o email é enviado em massa para todos aqueles que se qualificam para um público específico, por exemplo.
 
-  Suponha que o visitante não visualize nenhum relógio específico. Talvez o visitante simplesmente tenha clicado no site e visualizado páginas de categoria ou entradas do blog. Como resultado, a [!DNL Target] o perfil não tem informações específicas sobre os itens visualizados recentemente. Nesta situação, [!DNL Target Recommendations] pode usar um [recomendação de backup](/help/main/c-recommendations/c-algorithms/backup-recs.md) para que [!DNL Adobe Journey Optimizer] O pode enviar um email com imagens e links para itens populares no site para fazer com que o visitante retorne ao site e, possivelmente, faça uma compra.
+  Suponha que o visitante não visualize nenhum relógio específico. Talvez o visitante simplesmente tenha clicado no site e visualizado páginas de categoria ou entradas do blog. Como resultado, a [!DNL Target] o perfil não tem informações específicas sobre os itens visualizados recentemente. Nesta situação, [!DNL Target Recommendations] pode usar um [recomendação de backup](/help/main/c-recommendations/c-algorithms/backup-recs.md) para que [!DNL Adobe Journey Optimizer] O pode enviar um email com imagens e links para itens populares no site para fazer com que o visitante retorne e possivelmente faça uma compra.
 
 
