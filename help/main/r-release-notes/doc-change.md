@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
+source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 95%
+source-wordcount: '1361'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 8 de fevereiro | [Pré-busca](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | Nova seção adicionada: &quot;Buscar previamente mboxes com métricas de rastreamento de cliques ao usar o Analytics for Target (A4T)&quot; |
 | 5 de fevereiro | [Crie uma atividade que use o Analytics como fonte de relatórios](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | Adição de texto especificando que não é possível usar o mesmo nome de atividade para duas atividades de espaços de trabalho separados ao usar [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios. |
 |  | [Configurações de atividade - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Adição de texto especificando que não é possível usar o mesmo nome de atividade para duas atividades de espaços de trabalho separados ao usar [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios. |
 |  | Anúncios e eventos do [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Adição de informações sobre o Coffee Break da comunidade do Adobe Target programado para 7 de fevereiro de 2024. |
