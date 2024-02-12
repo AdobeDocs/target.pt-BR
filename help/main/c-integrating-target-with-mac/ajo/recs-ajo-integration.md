@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#beta newtab=true" tooltip="O que são recursos beta no  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: d93e58540568fb685bd18ee5e39ad2917323bce4
+source-git-commit: e0d1e06f21c9a1e630643ed045c970526bc2a3b6
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '606'
 ht-degree: 1%
 
 ---
@@ -40,13 +40,13 @@ Estes são apenas alguns casos de uso possíveis para integrar o [!DNL Target Re
 
   Após um período especificado, talvez algumas horas ou um dia, uma ação personalizada no [!DNL Adobe Journey Optimizer] faz uma chamada para [!DNL Target Recommendations] para determinar o conteúdo do carrinho de compras abandonado usando um [recomendações baseadas em carrinho](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) algoritmo. [!DNL Adobe Journey Optimizer] em seguida, envia a esse visitante um email personalizado como um lembrete de que o processo de compra não foi concluído, juntamente com imagens e links para os itens abandonados.
 
-* **[!DNL Adobe Journey Optimizer]envia um email em massa após visitas ao site para lembrar aos visitantes quais itens foram visualizados**: esse caso de uso se baseia em visitantes que visitam um site, visualizam vários itens e depois saem do site ou aplicativo sem colocar itens no carrinho de compras.
+* **[!DNL Adobe Journey Optimizer]envia um email em massa após visitas ao site para lembrar aos visitantes quais itens foram visualizados**: esse caso de uso se baseia nos visitantes que visitam um site, visualizam vários itens e depois saem do site ou aplicativo sem colocar itens no carrinho de compras.
 
   Após um período especificado, uma ação personalizada no [!DNL Adobe Journey Optimizer] faz uma chamada para [!DNL Target Recommendations] para determinar quais itens cada visitante visualizou, usando a [!DNL Adobe Experience Cloud Identifier] (EDID), a conta do visitante [!DNL Target] e um [baseado no usuário](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) algoritmo. [!DNL Adobe Journey Optimizer] em seguida, o envia a cada membro do público qualificado um email personalizado com imagens e links para os itens visualizados de cada visitante, para que o visitante retorne e faça uma compra.
 
-  Neste cenário, a variável [!UICONTROL ID de visitante Experience Cloud] (ECID) e o conteúdo do relatório de [!DNL Target] O perfil é usado para gerar a recomendação com base no algoritmo visualizado recentemente.
+  Neste cenário, a variável [!UICONTROL ID de visitante Experience Cloud] (ECID) e o conteúdo do relatório de cada visitante [!DNL Target] O perfil é usado para gerar a recomendação com base no algoritmo visualizado recentemente.
 
-  Suponha, por exemplo, que um visitante visite um site de varejo e visualize vários relógios. Do visitante [!DNL Target] o perfil é atualizado com uma lista dos relógios visualizados. Usar a ECID e a permissão do visitante [!DNL Target] perfil, [!DNL Target] envia a recomendação para [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] em seguida, envia um email contendo imagens e links para os relógios que esse visitante visualizou usando o algoritmo visualizado recentemente. Outro visitante receberia um email personalizado com imagens e links para os itens que esse visitante visualizou. Cada mensagem de email é personalizada.
+  Suponha, por exemplo, que um visitante visite um site de varejo e visualize vários relógios. Do visitante [!DNL Target] o perfil é atualizado com uma lista dos relógios visualizados. Usar a ECID e a permissão do visitante [!DNL Target] perfil, [!DNL Target] envia a recomendação para [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] em seguida, envia um email contendo imagens e links para os relógios que esse visitante visualizou, usando o algoritmo visualizado recentemente. Outro visitante recebe um email personalizado contendo imagens e links para os itens que esse visitante visualizou. Cada mensagem de email é personalizada para cada visitante.
 
 * **[!DNL Adobe Journey Optimizer]envia um email em massa para visitantes qualificados após uma visita ao site para sugerir itens populares**: este caso de uso se baseia em um visitante que visita um site, mas não visualiza itens específicos. O email é enviado em massa para todos aqueles que se qualificam para um público-alvo específico, por exemplo:
 
