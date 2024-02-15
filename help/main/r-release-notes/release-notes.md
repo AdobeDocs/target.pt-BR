@@ -7,9 +7,9 @@ title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 | Descontinuação | Detalhes |
 |--- |--- |
-| [!DNL iPad] e [!DNL iPhone] serão descontinuados do [atributo do navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md) usado ao criar públicos-alvo.<p>Data da descontinuação:<P>30 de abril de 2024 | O [!DNL Adobe Target] permite [segmentar qualquer um dos vários atributos de categoria](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), incluindo usuários que usam um [navegador específico ou opções de navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md) quando visitam sua página.<P><B>A partir de 30 de abril de 2024, o iPad e o iPhone serão removidos da lista suspensa do tipo [!UICONTROL Navegador] disponível ao criar categorias para públicos-alvo.</b><P>Públicos-alvo integrados criados usando o [!DNL Target] A interface do usuário, como &quot;Navegador: iPad&quot; e &quot;Navegador: iPhone&quot;, será movida automaticamente para a nova definição de Público-alvo.<p>Para obter exemplos de configurações alternativas que devem ser alteradas manualmente, consulte [Substituição do iPad e do iPhone pelo atributo de público-alvo do navegador (30 de abril de 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
+| [!DNL iPad] e [!DNL iPhone] serão descontinuados do [atributo do navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md) usado ao criar públicos-alvo.<p>Data da descontinuação:<P>30 de abril de 2024 | O [!DNL Adobe Target] permite [segmentar qualquer um dos vários atributos de categoria](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), incluindo usuários que usam um [navegador específico ou opções de navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md) quando visitam sua página.<P><B>A partir de 30 de abril de 2024, o iPad e o iPhone serão removidos da lista suspensa do tipo [!UICONTROL Navegador] disponível ao criar categorias para públicos-alvo.</b><P>Públicos-alvo integrados criados usando a interface [!DNL Target] , como “Navegador: iPad” e “Navegador: iPhone”, serão movidos automaticamente para a nova definição de público-alvo.<p>Para obter exemplos de configurações alternativas que precisam ser alteradas manualmente, consulte [Descontinuação do uso do iPad e do iPhone no atributo de público-alvo do navegador (30 de abril de 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1 (22, 23 e 25 de janeiro de 2024)
 
