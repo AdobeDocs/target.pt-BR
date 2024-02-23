@@ -4,10 +4,10 @@ description: Saiba mais sobre os atributos específicos do visitante armazenados
 title: O que são atributos de perfil?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
-workflow-type: ht
-source-wordcount: '2456'
-ht-degree: 100%
+source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
+workflow-type: tm+mt
+source-wordcount: '2465'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Os atributos do perfil no [!DNL Adobe Target] são parâmetros específicos de um visitante. Estes atributos são armazenados no perfil do visitante para fornecer informações sobre ele que podem ser usadas em suas atividades.
 
-Um perfil de usuário contém informações demográficas e comportamentais de um visitante da página da Web. Essas informações podem incluir idade, gênero, produtos comprados, última visita e assim por diante, que o [!DNL Target] usa para personalizar o conteúdo oferece ao visitante.
+Um perfil de usuário contém informações demográficas e comportamentais de um visitante da página da Web. Essas informações podem incluir idade, sexo, produtos comprados, última visita e assim por diante. [!DNL Target] O usa essas informações para personalizar o conteúdo disponibilizado para esse visitante.
 
 Conforme um visitante navega no site, ou quando ele retorna para uma outra sessão, os atributos do perfil salvos podem ser usados para segmentar o conteúdo ou registrar informações para a filtragem de segmentos.
 
@@ -33,8 +33,8 @@ Para configurar atributos do perfil:
 
    | Tipo do parâmetro | Descrição |
    |--- |--- |
-   | mbox | Passado diretamente pelo código de página ao criar a mbox. Consulte [Enviar parâmetros para uma mBox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=pt-BR){target=_blank}.<br>**Observação**: [!DNL Target] o tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para o [!DNL Target], é possível fazer isso usando o método de Atualização de perfil da API. Para obter mais informações, consulte [Atualização de perfil na documentação da API do  [!DNL Adobe Target] ](https://developers.adobetarget.com/api/#updating-profiles). |
-   | Perfil | Definido diretamente com um trecho de código JavaScript. Esses snippets podem armazenar totais, como o valor total gasto por consumidor e executado em cada solicitação de mbox. Consulte Atributos de script de perfil abaixo. |
+   | mbox | Passado diretamente pelo código de página ao criar a mbox. Consulte [Envio de parâmetros para uma mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=pt-BR){target=_blank} no *Guia do desenvolvedor do Target*..<P>**Observação**: [!DNL Target] o tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para [!DNL Target], passe-os usando o [!UICONTROL API de atualização de perfil] método. Para obter mais informações, consulte [Atualizar perfis](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=pt-BR){target=_blank} no *Guia do desenvolvedor do Target*. |
+   | Perfil | Definido diretamente com um trecho de código JavaScript. Esses snippets podem armazenar totais, como o valor total gasto por consumidor, e são executados em cada solicitação de mbox. Consulte *Atributos de script de perfil* abaixo. |
 
 ## Atributos de script de perfil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
