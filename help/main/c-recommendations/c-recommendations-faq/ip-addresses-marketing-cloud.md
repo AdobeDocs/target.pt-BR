@@ -5,10 +5,10 @@ title: Quais endereços IP os servidores de processamento de feed do Recommendat
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
-source-git-commit: 558de92e672c276474bc76fad19e5461ae7d4c88
+source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 49%
+source-wordcount: '175'
+ht-degree: 46%
 
 ---
 
@@ -18,7 +18,7 @@ Lista de endereços IP usados no [!DNL Adobe Target] [!DNL Recommendations] serv
 
 >[!IMPORTANT]
 >
->23 de fevereiro de 2023: O [!DNL Target] A equipe está atualizando os endereços de gateway NAT para download [!DNL Recommendations] Feeds. Se você implementar o incluir na lista de permissões de IP, certifique-se de incluir na lista de permissões os novos hosts AWS a seguir. Os hosts existentes estão programados para serem descontinuados no futuro. Todos os nove hosts agora estão operacionais.
+>A variável [!DNL Target] A equipe está atualizando os endereços de gateway NAT para download [!DNL Recommendations] Feeds. Se você implementar o incluir na lista de permissões de IP, certifique-se de incluir na lista de permissões os novos hosts AWS a seguir. Os hosts existentes estão programados para serem desativados em 30 de junho de 2024. Para garantir uma transição tranquila, inclua na lista de permissões todos os nove endereços. Não há urgência para remover os endereços existentes.
 
 As atividades do[!DNL Target] [!UICONTROL  Recommendations] usam os seguintes hosts AWS ao acessar os servidores FTP dos clientes:
 
