@@ -5,10 +5,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: Como usar atributos de entidade?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 52%
+source-wordcount: '1070'
+ht-degree: 48%
 
 ---
 
@@ -95,19 +95,19 @@ Exemplo: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Suporta valores múltiplos (lista separada por vírgulas).
 
-Categoria da página atual. A entity.categoryID pode incluir várias categorias, como uma subseção cardigãs (por exemplo, mulheres, mulheres:suéteres, mulheres:sweaters:cardigãs). Categorias múltiplas devem ser separadas por vírgulas.
+Categoria da página atual. A entity.categoryID pode incluir várias categorias, como uma subseção de cardigãs (por exemplo, `womens`, `womens:sweaters`, `womens:sweaters:cardigans`). Categorias múltiplas devem ser separadas por vírgulas.
 
 A variável `categoryId` é limitada a 250 caracteres.
 
 >[!NOTE]
 >
->Para mostrar uma recomendação com base em uma categoria da página [!UICONTROL Categoria], apenas um `categoryId` pode ser transmitido para a mbox usada para exibir essa determinada recomendação. O valor do `categoryId` deve corresponder exatamente ao valor do `entity.categoryId` transmitido na página [!UICONTROL Detalhes do produto].
+>Para mostrar uma recomendação com base em uma categoria de uma [!UICONTROL Category] página, somente uma `categoryId` pode ser passada para a mbox usada para exibir essa determinada recomendação. O valor de `categoryId` deve corresponder exatamente ao valor de `entity.categoryId` transmitidos no [!UICONTROL Product Detail] página.
 
 Exemplos:
 
-* Exemplo da página de detalhes do produto: womens, womens:sweaters, womens:sweaters:cardigãs
-* Exemplo da Página de categoria Sweaters: womens:sweaters:
-* Exemplo da página de categoria Cardigans: womens:sweaters:cardigãs
+* Exemplo de página de detalhes do produto: `womens`, `womens:sweaters`, `womens:sweaters:cardigans`
+* Exemplo de suéteres de página de categoria: `womens:sweaters`
+* Exemplo de Cardigans de página de categoria: `womens:sweaters:cardigans`
 
 Para recomendações baseadas em categorias, uma vírgula separa o valor da categoria. Quaisquer valores separados por vírgulas se tornam categorias. Você também pode definir subcategorias usando um separador diferente, como dois pontos (:), para separá-las dos valores de categoria.
 
@@ -117,7 +117,7 @@ Por exemplo, no código a seguir, a categoria Feminino é dividida em várias su
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-Para a entrega da mbox, o maior nome de atributo é usado para a chave. Se houver um vínculo, o último atributo será usado. No exemplo acima, a chave da categoria é Womens:Outerwear:Jaquetas:Caban.
+Para a entrega da mbox, o maior nome de atributo é usado para a chave. Se houver um vínculo, o último atributo será usado. No exemplo acima, a chave da categoria é `Womens:Outerwear:Jackets:Caban`.
 
 ### entity.brand
 
