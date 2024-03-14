@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0e4698935b90cc0236abe6a47a6183c7fd2a7b20
+source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
 workflow-type: tm+mt
-source-wordcount: '1507'
-ht-degree: 79%
+source-wordcount: '1518'
+ht-degree: 78%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 14 de março | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para o [!DNL Adobe Experience Platform Visual Editing Helper] para [!DNL Google Chrome]. |
 | 13 de março | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | Foram adicionadas informações a uma observação para salvar novamente os públicos-alvo com base na hora de verão (horário de verão). |
 | 6 de março | [Navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md) | Atualização das informações na seguinte seção: &quot;Atualizações do [!DNL iPad] e [!DNL iPhone] in [!UICONTROL Browser] atributos do público-alvo (30 de abril de 2024)&quot;. |
 |  | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Atualização de toda a seção: &quot;Atualizações do `Browser:iPad` e `Browser:iPhone` in [!UICONTROL Browser] atributos do público-alvo (30 de abril de 2024)&quot;. |
