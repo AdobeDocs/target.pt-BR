@@ -4,10 +4,10 @@ description: Saiba como visualizar seu Adobe [!DNL Target] Atividade do Recommen
 title: Como visualizar e iniciar uma atividade do Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 0d875bfaf8c0670f657046469d2adba0647de4fb
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 15%
+source-wordcount: '1340'
+ht-degree: 16%
 
 ---
 
@@ -93,7 +93,7 @@ Um arquivo CSV está sendo baixado. Abra-o para ver os itens recomendados:
 
 Da esquerda para a direita é uma lista de itens recomendados, neste caso, os mais vistos. As recomendações são separadas por ambiente. Nesse caso, somente o ambiente de Produção tem recomendações.
 
-Se um asterisco (*) for o primeiro valor de uma linha, ele indicará itens de backup. Os itens de backup são exibidos se nem todos os slots de um design puderem ser preenchidos pelos itens recomendados do algoritmo (critérios). Para um algoritmo popular, como o mais vendido, só pode haver zero ou uma linha que não seja de backup para cada ambiente no arquivo CSV, pois esses tipos de algoritmo não têm uma &quot;chave&quot;. Por exemplo, &quot;mostrar ao cliente os produtos mais populares, independentemente do que ele possa estar visualizando ou comprando&quot;. Portanto, ao contrário de outros algoritmos baseados em chave, por exemplo, view-view, o primeiro valor na linha NÃO é a chave, mas o primeiro item na lista de itens recomendados.
+Se um asterisco (*) for o primeiro valor de uma linha, ele indicará [itens de backup](/help/main/c-recommendations/c-algorithms/backup-recs.md). Os itens de backup são exibidos se nem todos os slots de um design puderem ser preenchidos pelos itens recomendados do algoritmo (critérios).
 
 Para outros tipos de algoritmo com base em um valor principal, como [!UICONTROL People Who Viewed This, Viewed That], os valores principais (ou seja, os itens &quot;Este&quot;) são listados na coluna mais à esquerda e os itens recomendados (ou seja, os itens &quot;Aquele&quot;) são listados da esquerda para a direita nas colunas Recommendation_X.
 

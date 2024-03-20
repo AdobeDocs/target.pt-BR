@@ -2,25 +2,25 @@
 keywords: recomendação, backup, fazer o back up
 description: Saiba como usar recomendações de backup no Adobe [!DNL Target] Recommendations. A recomendação de que não há itens recomendados suficientes exibe os resultados do algoritmo de backup.
 title: Como usar uma recomendação de backup no Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 82%
+source-wordcount: '527'
+ht-degree: 77%
 
 ---
 
 # Usar uma recomendação de backup
 
-Se você usar o recurso de recomendação de backup no Adobe Target, qualquer recomendação que não tenha itens recomendados suficientes não exibirá o conteúdo padrão. Em vez disso, as recomendações exibem os resultados do algoritmo de backup.
+Se você usar o recurso de recomendação de backup em [!DNL Adobe Target], qualquer recomendação que não tenha itens recomendados suficientes não exibirá o conteúdo padrão. Em vez disso, as recomendações exibem os resultados do algoritmo de backup.
 
 Se você não usar a recomendação de backup, se uma recomendação não tiver itens suficientes para preencher a tela, o sistema exibirá o conteúdo padrão para o usuário.
 
 >[!NOTE]
 >
->Informações adicionais estão incluídas no [Seção de conteúdo dos Critérios de criação](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) tópico, incluindo uma matriz que explica os resultados que você observará ao usar o [!UICONTROL Renderização de design parcial] e [!UICONTROL Mostrar Recommendations de backup] opções juntas ou separadamente.
+>Informações adicionais estão incluídas no [Seção de conteúdo dos Critérios de criação](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) tópico, incluindo uma matriz que explica os resultados que você observará ao usar o [!UICONTROL Partial Design Rendering] e [!UICONTROL Show Backup Recommendations] opções juntas ou separadamente.
 
 O recurso de recomendação de backup sempre usa os principais itens visualizados no site para preencher as vagas restantes após os dados do algoritmo serem usados. Por exemplo, seu modelo está configurado para mostrar cinco itens recomendados e você está usando o algoritmo de *Afinidades de compra*. No entanto, você só tem dados suficientes para preencher duas das cinco vagas, de modo que o recurso de recomendação de backup preenche as outras três vagas com os itens mais visualizados.
 
@@ -49,4 +49,4 @@ As duplicatas são removidas dos lotes de recomendações.
 
 O uso das recomendações de backup normalmente faz parte da discussão com a equipe de implementação durante a configuração inicial do programa. Se quiser mudar a configuração da recomendação de backup após a implementação, entre em contato com seu gerente de conta.
 
-Para Habilitar a renderização de design parcial (consulte  [Configurações de conteúdo](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) não estiverem ativadas e o modelo não for exibido, então a recomendação de backup ou o conteúdo padrão serão exibidos.
+Se Habilitar a renderização de design parcial (consulte [Configurações de conteúdo](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) não estiver ativada e o modelo não for exibido, a recomendação de backup ou o conteúdo padrão serão exibidos.
