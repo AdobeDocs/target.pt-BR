@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: 324274a9e97fceaa3e559e63b3b0f2e74bbd886f
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 78%
+source-wordcount: '1573'
+ht-degree: 76%
 
 ---
 
@@ -19,6 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 22 de março | [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Remoção das referências aos nós de borda 31 a 38 porque esses nós não existem mais. Certifique-se de que o seu incluo na lista de permissões esteja atualizado. |
+|  | [O impacto da descontinuação de cookies de terceiros no Target (at.js)](https://experienceleague.adobe.com/docs/target-dev/assets/third_party_cookie_deprecation){target=_blank} | Nova publicação do blog que descreve o que a desativação planejada de cookies de terceiros do Google significa para o seu [!DNL Adobe Target] Implementação da at.js. |
 | 14 de março | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para o [!DNL Adobe Experience Platform Visual Editing Helper] para [!DNL Google Chrome]. |
 | 13 de março | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | Foram adicionadas informações a uma observação para salvar novamente os públicos-alvo com base na hora de verão (horário de verão). |
 | 6 de março | [Navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md) | Atualização das informações na seguinte seção: &quot;Atualizações do [!DNL iPad] e [!DNL iPhone] in [!UICONTROL Browser] atributos do público-alvo (30 de abril de 2024)&quot;. |
