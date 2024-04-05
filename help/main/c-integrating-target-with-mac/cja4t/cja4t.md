@@ -7,7 +7,7 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 1ae3f234ee475e56c6c072ccceb79c417b7ba245
+source-git-commit: f87f6f13ab02c77d298ea9dac0d307852d3e64af
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 64%
@@ -22,7 +22,7 @@ Os principais benefícios de usar o [!DNL Customer Journey Analytics] como fonte
 
 * Profissionais de marketing podem aplicar dinamicamente as métricas de sucesso do [!DNL Customer Journey Analytics] nos relatórios de atividades do [!DNL Target] a qualquer momento. Não há necessidade de especificar tudo antes de executar a atividade.
 * Os profissionais de marketing podem aproveitar [!DNL Customer Journey Analytics] recursos, como o [Painel de experimentação](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, para analisar mais a personalização do site.
-*Os profissionais de marketing podem ter uma única fonte de relatórios para [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} e [!DNL Target]. Ambos os produtos de personalização podem ser conectados ao [!DNL Customer Journey Analytics] para obter uma visão mais completa da personalização na Web.
+* Os profissionais de marketing podem ter uma única fonte de relatórios para [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} e [!DNL Target]. Ambos os produtos de personalização podem ser conectados ao [!DNL Customer Journey Analytics] para obter uma visão mais completa da personalização na Web.
 
 ## Considerações
 
