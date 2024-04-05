@@ -7,7 +7,7 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: f87f6f13ab02c77d298ea9dac0d307852d3e64af
+source-git-commit: 07b7dd8e0e2dbf2b57d5b847f89886208eb66614
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 64%
@@ -37,7 +37,7 @@ Considere as informações a seguir antes de usar o [!DNL Customer Journey Analy
    * Se tiver uma conta do [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905), consulte [Especificar funções e permissões](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) em *Usuários*.
    * Se tiver uma conta do [Target Premium](/help/main/c-intro/intro.md#premium), consulte [Funções e permissões](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) em *Permissões para usuários corporativos*.
 
-* É necessário fazer parte de uma função na [!DNL Adobe Experience Platform] para configurar uma atividade do [!DNL Target] com [!DNL Customer Journey Analytics] como origem de relatórios. Para obter mais informações, consulte [Adicionar uma função na  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions){target=_blank} em *Configurar permissões* no *Tutorial do arquiteto de dados e engenheiro.*
+* É necessário fazer parte de uma função na [!DNL Adobe Experience Platform] para configurar uma atividade do [!DNL Target] com [!DNL Customer Journey Analytics] como origem de relatórios. Para obter mais informações, consulte [Adicionar uma função na  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank} em *Configurar permissões* no *Tutorial do arquiteto de dados e engenheiro.*
 * Dependendo das configurações, os relatórios podem ser alterados por atividade ou no nível da organização. Consulte [Solução de relatórios na nuvem](/help/main/administrating-target/reporting.md#solution) em *Configurar relatórios no Target*.
 * Você deve usar uma fonte de relatórios ou outra. Não é possível coletar dados de uma única atividade para diversas fontes de relatórios.
 * Ao definir o [!DNL Customer Journey Analytics] como fonte de relatórios, será solicitado que você especifique a sandbox para relatórios. Durante a configuração, somente as sandboxes às quais você tem acesso serão exibidas.
