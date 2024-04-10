@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 31ad1682fc85f65fb80e96d7303cce55e36a442f
+source-git-commit: 45576f31f055a83bcdc106771fb0fa25357d226a
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1613'
 ht-degree: 76%
 
 ---
@@ -19,6 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| 9 de abril | [Solução de problemas relacionados ao [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | Atualização da seguinte seção:<ul><li>Minha página não é exibida no VEC (somente VEC) </li></ul>Adição da seguinte nova seção:<ul><li>Problemas causados por conflitos CSS no [!UICONTROL Visual Experience Composer]</li></ul> |
+|  | [Relatórios de insights de personalização](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Atualização da seção Considerações. |
 | 22 de março | [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Remoção das referências aos nós de borda 31 a 38 porque esses nós não existem mais. Certifique-se de que o seu incluo na lista de permissões esteja atualizado. |
 |  | [O impacto da descontinuação de cookies de terceiros no Target (at.js)](https://experienceleague.adobe.com/docs/target-dev/assets/third_party_cookie_deprecation){target=_blank} | Nova publicação do blog que descreve o que a desativação planejada de cookies de terceiros do Google significa para o seu [!DNL Adobe Target] Implementação da at.js. |
 | 14 de março | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para o [!DNL Adobe Experience Platform Visual Editing Helper] para [!DNL Google Chrome]. |
