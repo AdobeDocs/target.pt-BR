@@ -3,9 +3,9 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
+source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1228'
 ht-degree: 92%
 
 ---
@@ -247,6 +247,7 @@ ht-degree: 92%
    + [Aplicativo de página única (SPA) no Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
    + Ofertas {#offers}
       + [Visão geral das ofertas](c-experiences/c-manage-content/manage-content.md)
+      + [Visão geral das ofertas beta](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#offers} {#hidden}
       + [Criar uma pasta de ofertas](c-experiences/c-manage-content/create-content-folder.md)
       + [Upload de conteúdo](c-experiences/c-manage-content/assets-upload.md)
       + [Criar Ofertas de redirecionamento](c-experiences/c-manage-content/offer-redirect.md)
