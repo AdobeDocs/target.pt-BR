@@ -6,16 +6,20 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#beta newtab=true" tooltip="O que são recursos beta no  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: d3379243f8c64a1a0b56268dd60447375020e11b
+source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 8%
+source-wordcount: '334'
+ht-degree: 7%
 
 ---
 
 # Criar pastas de ofertas
 
 Criar pastas no [!DNL Adobe Target] [!UICONTROL Offer] biblioteca para armazenar ofertas de código, ofertas de imagem, bem como outras pastas para criar uma estrutura de subpastas.
+
+>[!NOTE]
+>
+>Este artigo contém informações sobre atualizações no [!DNL Target] que atualmente faz parte de um programa Beta. A variável [!DNL Adobe Target] A equipe do geralmente ativa novos recursos para clientes selecionados para fins de teste e feedback. Após a conclusão do período de teste, esses recursos serão habilitados para todos os clientes no futuro [!DNL Target Standard/Premium] versões e anunciadas nas notas de versão.
 
 O processo para criar pastas para ofertas de código e ofertas de imagem é um pouco diferente. As seções a seguir contêm mais informações.
 
