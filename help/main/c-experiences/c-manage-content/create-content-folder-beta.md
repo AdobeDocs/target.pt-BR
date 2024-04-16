@@ -3,10 +3,13 @@ keywords: conteúdo; criar pasta; ativos; mover pasta; copiar pasta; excluir pas
 description: Como criar pastas no [!UICONTROL Offers] biblioteca?
 title: Saiba como criar pastas no [!UICONTROL Offers] biblioteca para armazenar ofertas de código e imagem, bem como outras pastas.
 feature: Experiences and Offers
-source-git-commit: cd8035d9e2a369b9503763474ce09c4fe2434ae9
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#beta newtab=true" tooltip="O que são recursos beta no  [!DNL Adobe Target]."
+hide: true
+hidefromtoc: true
+source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 5%
+source-wordcount: '286'
+ht-degree: 8%
 
 ---
 
