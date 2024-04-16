@@ -6,9 +6,9 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#beta newtab=true" tooltip="O que são recursos beta no  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
+source-git-commit: d3379243f8c64a1a0b56268dd60447375020e11b
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '282'
 ht-degree: 8%
 
 ---
@@ -19,7 +19,7 @@ Criar pastas no [!DNL Adobe Target] [!UICONTROL Offer] biblioteca para armazenar
 
 O processo para criar pastas para ofertas de código e ofertas de imagem é um pouco diferente. As seções a seguir contêm mais informações.
 
-## Pastas de oferta de código
+## [!UICONTROL Code Offer] pastas
 
 1. Clique em **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
@@ -35,7 +35,7 @@ O processo para criar pastas para ofertas de código e ofertas de imagem é um p
 
 Para obter informações sobre as tarefas que você pode executar em ofertas e pastas, consulte [Trabalhar com conteúdo na biblioteca de ativos](/help/main/c-experiences/c-manage-content/assets-working.md).
 
-## Pastas de ofertas de imagens
+## [!UICONTROL Image Offer] pastas
 
 1. Clique em **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
