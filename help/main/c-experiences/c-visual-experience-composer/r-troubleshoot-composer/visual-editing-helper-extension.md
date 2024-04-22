@@ -4,10 +4,10 @@ description: Descubra por que alguns sites podem não abrir de forma confiável 
 title: Como usar o [!UICONTROL Visual Editing Helper] Extensão?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 67%
+source-wordcount: '672'
+ht-degree: 64%
 
 ---
 
@@ -17,7 +17,7 @@ A variável [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] ext
 
 >[!IMPORTANT]
 >
->Esta nova extensão substitui a [extensão de navegador Auxiliar do VEC do Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Consulte a Nota importante na parte superior desse artigo.
+>Esta nova extensão substitui a [extensão de navegador Auxiliar do VEC do Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Consulte a Nota importante na parte superior desse artigo. Devido aos aprimoramentos de segurança no Manifest v3, [!DNL Adobe] requer o download desta nova extensão para continuar a criar visualmente seus sites no [!DNL Target].
 
 ## Motivos pelos quais alguns sites podem não abrir de forma confiável no VEC
 
