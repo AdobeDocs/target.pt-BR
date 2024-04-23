@@ -4,10 +4,10 @@ description: Descubra por que alguns sites podem não abrir de forma confiável 
 title: Como usar o [!UICONTROL Visual Experience Composer] Extensão de assistente do (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
+source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 48%
+source-wordcount: '1043'
+ht-degree: 50%
 
 ---
 
@@ -19,11 +19,9 @@ O navegador VEC Helper é um [!DNL Chrome] extensão. Essa extensão não é nec
 
 >[!IMPORTANT]
 >
->O atual [!DNL Target] A extensão do VEC Helper documentada neste artigo foi criada usando o Manifest v2. A Google anunciou recentemente que não permitirá mais novas extensões criadas usando o Manifest v2 a partir de junho de 2024. Para obter mais informações, consulte [Anúncio da linha do tempo de suporte do Manifest V2](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} de [!DNL Google] no *Chrome para desenvolvedores* local.
+>O legado [!DNL Target] A extensão do VEC Helper documentada neste artigo foi criada usando o Manifest V2. [!DNL Google] O anunciou que não permitirá mais extensões criadas usando o Manifest V2 a partir de junho de 2024. Para obter mais informações, consulte [Anúncio da linha do tempo de suporte do Manifest V2](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} de [!DNL Google] no *Chrome para desenvolvedores* local.
 >
->A extensão existente ainda funciona no Google Chrome. A partir de junho de 2024, [!DNL Adobe] começará a desabilitar a extensão auxiliar documentada neste tópico e exigirá que os clientes migrem para a mais recente [Extensão Auxiliar de edição visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
->
-Você será notificado por meio das notas de versão, de um anúncio no produto e de um texto neste artigo quando essa extensão deixar de funcionar. No entanto, devido aos aprimoramentos de segurança no Manifest v3, [!DNL Adobe] requer o download da nova extensão para continuar a criar visualmente seus sites no [!DNL Target].
+>A partir de junho de 2024, [!DNL Google] O começará a desabilitar extensões criadas usando o Manifesto V2, incluindo a extensão documentada neste tópico. [!DNL Adobe] A recomenda que os clientes mudem para a versão mais recente [Extensão Auxiliar de edição visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) logo que possível.
 
 ## Motivos pelos quais alguns sites podem não abrir de forma confiável no VEC
 

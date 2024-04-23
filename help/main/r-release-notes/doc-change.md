@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 45576f31f055a83bcdc106771fb0fa25357d226a
+source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 76%
+source-wordcount: '1688'
+ht-degree: 73%
 
 ---
 
@@ -19,6 +19,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 | --- | --- | --- |
+| Abril de 23 | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Foram adicionadas informações explicando o plano da Google para iniciar a desativação de extensões criadas usando o Manifesto V2. [!DNL Adobe] A recomenda que os clientes mudem para o novo [!UICONTROL Visual Editing Helper] prorrogação o mais rapidamente possível. |
+| Abril de 23 | [[!UICONTROL Visual Experience Composer] extensão auxiliar](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Atualização da observação Importante na parte superior da página que explica o plano da Google de começar a desabilitar extensões criadas usando o Manifesto V2, que inclui a extensão documentada neste artigo. [!DNL Adobe] A recomenda que os clientes mudem para o novo [!UICONTROL Visual Editing Helper] prorrogação o mais rapidamente possível. |
 | 9 de abril | [Solução de problemas relacionados ao [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | Atualização da seguinte seção:<ul><li>Minha página não é exibida no VEC (somente VEC) </li></ul>Adição da seguinte nova seção:<ul><li>Problemas causados por conflitos CSS no [!UICONTROL Visual Experience Composer]</li></ul> |
 |  | [Relatórios de insights de personalização](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Atualização da seção Considerações. |
 | 22 de março | [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Remoção das referências aos nós de borda 31 a 38 porque esses nós não existem mais. Certifique-se de que o seu incluo na lista de permissões esteja atualizado. |
