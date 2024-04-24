@@ -3,10 +3,10 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: bd7e6cc206f0d38ee6672c37d836e40b8831da1c
+source-git-commit: f11f65a9dc88acca53c34cb2a151dffb390cfee7
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 90%
+source-wordcount: '1239'
+ht-degree: 91%
 
 ---
 
@@ -89,8 +89,8 @@ ht-degree: 90%
          + [Compartilhamento de métricas, segmentos e relatórios - Perguntas frequentes sobre o A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Integração herdada do SiteCatalyst com o Test&amp;Target - Perguntas frequentes do A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Variações de dados esperadas entre o Target e o Analytics ao usar e não usar A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Integração do Target ao Adobe Customer Journey Analytics (CJA4T) {#cja4t} {#hidden}
-      + [Adobe Customer Journey Analytics como origem de relatório do Target (CJA4T)](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
+   + Integração do Target ao Adobe Customer Journey Analytics {#cja} {#hidden}
+      + [Relatórios do Target no Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Integração do Target ao Adobe Journey Optimizer (AJO) {#ajo}
       + [Usar decisões de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [Integrar [!DNL Adobe Target Recommendations] e [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
