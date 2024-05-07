@@ -4,16 +4,16 @@ description: Saiba como criar ofertas JSON no Adobe [!DNL Target] para uso no Ex
 title: Como criar ofertas JSON?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
+source-git-commit: 45b81a2a77410947ce828cbea69e4dad7fc1cb03
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 32%
+source-wordcount: '416'
+ht-degree: 30%
 
 ---
 
 # Criar ofertas JSON
 
-Criar ofertas JSON no [!UICONTROL Biblioteca de ofertas] in [!DNL Adobe Target] para uso na [!UICONTROL Experience Composer baseado em formulário].
+Criar ofertas JSON no [!UICONTROL Offer Library] in [!DNL Adobe Target] para uso na [!UICONTROL Form-Based Experience Composer].
 
 As ofertas JSON podem ser usadas em atividades baseadas em formulários, permitindo casos de uso em que [!DNL Target] a decisão é necessária para enviar uma oferta no formato JSON para consumo na estrutura SPA ou em integrações do lado do servidor.
 
@@ -21,26 +21,26 @@ As ofertas JSON podem ser usadas em atividades baseadas em formulários, permiti
 
 Considere as informações a seguir ao trabalhar com ofertas JSON:
 
-* No momento, as ofertas JSON estão disponíveis apenas para [!UICONTROL Teste A/B], Automated Personalization (AP) e [!UICONTROL Direcionamento de experiência] (XT) Atividades.
+* No momento, as ofertas JSON estão disponíveis apenas para [!UICONTROL A/B Test], Automated Personalization (AP) e [!UICONTROL Experience Targeting] (XT) Atividades.
 * As ofertas JSON podem ser usadas no [atividades baseadas em formulário](/help/main/c-experiences/form-experience-composer.md) somente.
-* A oferta JSON pode ser recuperada diretamente ao usar o [APIs do lado do servidor e SDKs Node.js móveis, Java, .NET e Python](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+* A oferta JSON pode ser recuperada diretamente ao usar o [APIs do lado do servidor e SDKs Node.js móveis, Java, .NET e Python](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=pt-BR){target=_blank}.
 * No navegador, as ofertas JSON podem ser recuperadas SOMENTE via at.js 1.2.3 (ou posterior) e usando [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} ao filtrar ações usando o `setJson` ação.
 * As ofertas JSON são entregues como objetos JSON nativos, e não como cadeia de caracteres. Os consumidores desses objetos não precisam mais manipular objetos como cadeia de caracteres e convertê-los em objetos JSON.
-* As ofertas JSON não são aplicadas automaticamente em oposição a outras ofertas (como ofertas de HTML) porque as ofertas JSON são ofertas não visuais. Os desenvolvedores devem escrever o código para obter explicitamente a oferta usando  [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
+* As ofertas JSON não são aplicadas automaticamente em oposição a outras ofertas (como ofertas de HTML) porque as ofertas JSON são ofertas não visuais. Os desenvolvedores devem gravar o código para obter explicitamente a oferta usando [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
 
 ## Criar uma oferta JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. Clique em **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de código]**.
+1. Clique em **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
    ![Ofertas > guia Ofertas de código](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
 
-1. Clique em **[!UICONTROL Criar]** > **[!UICONTROL Oferta JSON]**.
+1. Clique em **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
 
    ![imagem offer-json](assets/offer-json.png)
 
 1. Insira um nome de oferta.
-1. Insira ou cole seu código JSON na caixa **[!UICONTROL Código]**.
-1. Clique em **[!UICONTROL Salvar]**.
+1. Digite ou cole seu código JSON no **[!UICONTROL Code]** caixa.
+1. Clique em **[!UICONTROL Save]**.
 
 ## Exemplo de JSON {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -98,7 +98,7 @@ Digamos que a seguinte oferta JSON seja entregue em sua página da Web:
     "tags": [ 
       "esse", 
       "commodo", 
-      "excepteur", 
+      "excepteur"
     ], 
     "friends": [ 
       { 
@@ -108,7 +108,7 @@ Digamos que a seguinte oferta JSON seja entregue em sua página da Web:
       { 
         "id": 1, 
         "name": "Ollie Mooney" 
-      }, 
+      } 
     ], 
     "greeting": "Hello, Stephenson Fernandez! You have 4 unread messages.", 
     "favoriteFruit": "strawberry" 
@@ -139,6 +139,6 @@ Para obter mais informações, consulte [Compartilhar atributos de perfil da Rea
 
 ## Filtrar ofertas por tipo de oferta JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-É possível filtrar a variável [!UICONTROL Ofertas] biblioteca pelo tipo de oferta JSON clicando no link **[!UICONTROL Tipo]** e, em seguida, selecionando a opção **[!UICONTROL JSON]** caixa de seleção
+É possível filtrar a variável [!UICONTROL Offers] biblioteca pelo tipo de oferta JSON clicando no link **[!UICONTROL Type]** e, em seguida, selecionando a opção **[!UICONTROL JSON]** caixa de seleção
 
 ![imagem offer-json-filter](assets/offer-json-filter.png)
