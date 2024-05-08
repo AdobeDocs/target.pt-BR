@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
+source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 53%
+source-wordcount: '574'
+ht-degree: 58%
 
 ---
 
@@ -18,6 +18,18 @@ ht-degree: 53%
 Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium]. Além disso, as notas de versão para APIs [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações de plataforma também estão incluídas, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## [!DNL Target] relatórios no [!DNL Adobe Customer Journey Analytics] (8 de maio de 2024)
+
+A integração [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} e [!DNL Target] O fornece ferramentas poderosas de análise e economia de tempo para o seu programa de otimização.
+
+Os principais benefícios de usar o [!DNL Customer Journey Analytics] como fonte de relatórios para o [!DNL Target] são:
+
+* Profissionais de marketing podem aplicar dinamicamente as métricas de sucesso do [!DNL Customer Journey Analytics] nos relatórios de atividades do [!DNL Target] a qualquer momento. Não há necessidade de especificar tudo antes de executar a atividade.
+* Os profissionais de marketing podem aproveitar [!DNL Customer Journey Analytics] recursos, como o [Painel de experimentação](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, para analisar mais a personalização do site.
+* Os profissionais de marketing podem ter uma única fonte de relatórios para [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} e [!DNL Target]. Ambos os produtos de personalização podem ser conectados ao [!DNL Customer Journey Analytics] para obter uma visão mais completa da personalização na Web.
+
+Para obter mais informações, consulte [Relatórios do Target no Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 
 ## [!UICONTROL Visual Experience Composer] extensão auxiliar (23 de abril de 2024)
 
@@ -30,28 +42,6 @@ O legado [!DNL Target] A extensão auxiliar do Visual Experience Composer foi cr
 | Atualizações | Detalhes |
 |--- |--- |
 | [!UICONTROL Browser:iPad] e [!UICONTROL Browser:iPhone] atualizado em [Atributos do navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md) usado ao criar públicos. | [!DNL Adobe Target] permite [direcionar em qualquer um dos vários atributos de categoria](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), incluindo visitantes que usam um [opções do navegador ou do navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md) quando visitarem sua página.<P>Começando com o [!DNL Target] Standard/Premium 24.3.1 (4-6 de março de 2024), públicos-alvo integrados criados usando a interface do usuário do Target, como `Browser:iPad` e `Browser:iPhone` será atualizado para executar o direcionamento adequado para [!DNL iPad] e [!DNL iPhone] usar `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` e `profile.mobile.isTablet`.<P>Esta atualização não requer nenhuma ação por parte dos clientes.<p><B>Importante</b>: para que os clientes executem o direcionamento adequado para [!DNL iPad] e [!DNL iPhone] em scripts de perfil (e segmentos JavaScript), as alterações manuais devem ser feitas pelo cliente até **30 de abril de 2024**. Para obter exemplos de configurações alternativas que devem ser alteradas manualmente, consulte [Atualizações para [!DNL iPad] e [!DNL iPhone] in [!UICONTROL Browser] atributos de público](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
-
-## [!UICONTROL Visual Editing Helper] extensão (14 de março de 2024)
-
-Esta versão inclui os seguintes aprimoramentos e correções para o [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) extensão para [!DNL Google Chrome]:
-
-* O mecanismo de carregamento do iFrame foi aprimorado ao executar a criação nos sites dos clientes.
-* Correção de um problema que fazia com que a extensão duplicasse cookies ao executar a criação no [!UICONTROL Visual Experience Composer] (VEC).
-
-## [!DNL Target] Standard/Premium 24.3.1 (4-6 de março de 2024)
-
-Este lançamento está previsto para os seguintes dias:
-
-* **4 de março**: regiões da Europa, Oriente Médio e África (EMEA)
-* **5 de março**: região da Ásia-Pacífico (APAC)
-* **6 de março**: região das Américas
-
-Essa versão conta com os seguintes aprimoramentos e correções:
-
-* Correção da lógica que calcula o número de seletores únicos em uma atividade. (TGT-47878)
-* Correção de um problema que causava [!UICONTROL Multivariate] (MVT) atividades configuradas com [!UICONTROL Analytics for Target] (A4T) para não exibir corretamente. (TGT-47490)
-* Mensagem de aviso exibida nos relatórios quando uma experiência sem tráfego é usada como a experiência de controle. (TGT-47537)
-* Adição de muitas correções de back-end e localização.
 
 ## Notas de versão adicionais e detalhes da versão
 

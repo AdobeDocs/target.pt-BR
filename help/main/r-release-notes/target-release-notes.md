@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
+source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 76%
+source-wordcount: '285'
+ht-degree: 78%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 76%
 
 Este artigo contém informações de pré-lançamento das próximas versões do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: quinta-feira, 28 de fevereiro de 2024**
+**Última atualização: quinta-feira, 8 de maio de 2024**
 
 >[!NOTE]
 >
@@ -23,20 +23,17 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 >
 >Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 24.3.1 (4-6 de março de 2024)
+## [!DNL Target] relatórios no [!DNL Adobe Customer Journey Analytics] (8 de maio de 2024)
 
-Este lançamento está previsto para os seguintes dias:
+A integração [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} e [!DNL Target] O fornece ferramentas poderosas de análise e economia de tempo para o seu programa de otimização.
 
-* **4 de março**: regiões da Europa, Oriente Médio e África (EMEA)
-* **5 de março**: região da Ásia-Pacífico (APAC)
-* **6 de março**: região das Américas
+Os principais benefícios de usar o [!DNL Customer Journey Analytics] como fonte de relatórios para o [!DNL Target] são:
 
-Essa versão conta com os seguintes aprimoramentos e correções:
+* Profissionais de marketing podem aplicar dinamicamente as métricas de sucesso do [!DNL Customer Journey Analytics] nos relatórios de atividades do [!DNL Target] a qualquer momento. Não há necessidade de especificar tudo antes de executar a atividade.
+* Os profissionais de marketing podem aproveitar [!DNL Customer Journey Analytics] recursos, como o [Painel de experimentação](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, para analisar mais a personalização do site.
+* Os profissionais de marketing podem ter uma única fonte de relatórios para [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} e [!DNL Target]. Ambos os produtos de personalização podem ser conectados ao [!DNL Customer Journey Analytics] para obter uma visão mais completa da personalização na Web.
 
-* Correção da lógica que calcula o número de seletores únicos em uma atividade. (TGT-47878)
-* Correção de um problema que causava [!UICONTROL Multivariado] (MVT) atividades configuradas com [!UICONTROL Analytics for Target] (A4T) para não exibir corretamente. (TGT-47490)
-* Mensagem de aviso exibida nos relatórios quando uma experiência sem tráfego é usada como a experiência de controle. (TGT-47537)
-* Adição de muitas correções de back-end e localização.
+Para obter mais informações, consulte [Relatórios do Target no Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 
 ## Notas de versão adicionais e detalhes da versão
 
