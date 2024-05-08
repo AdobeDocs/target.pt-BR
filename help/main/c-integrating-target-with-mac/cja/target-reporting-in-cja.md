@@ -4,10 +4,10 @@ description: Uso [!DNL Target] relatórios no [!DNL Adobe Customer Journey Analy
 title: O que é o [!DNL Target] relatórios no [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
+source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 57%
+source-wordcount: '1031'
+ht-degree: 56%
 
 ---
 
@@ -68,6 +68,10 @@ Os seguintes tipos de atividades são permitidas ao usar a biblioteca JavaScript
 ## Criar uma atividade que use o [!DNL Customer Journey Analytics] como fonte de relatórios
 
 Criar uma atividade do [!DNL Target] que usa o [!DNL Customer Journey Analytics] como fonte de relatórios é semelhante à configurar uma atividade comum do [!DNL Target].
+
+>[!TIP]
+>
+>Você também pode especificar que [!DNL Target] usa relatórios no [!DNL Customer Journey Analytics] para todas as atividades criadas em sua conta (**[!UICONTROL Administration]** > **[!UICONTROL Reporting]** > **[!UICONTROL Reporting Experience Cloud Solution]**). Para obter mais informações, consulte *Solução da Reporting Cloud* in [Configurar relatórios no [!DNL Target]](/help/main/administrating-target/reporting.md#solution).
 
 1. No **[!UICONTROL Activities]** clique em **[!UICONTROL Create Activity]** e selecione o tipo de atividade (de acordo com as [gráfico de atividades suportado acima](#supported-activities)) e comece a configurar a atividade.
 1. Quando você chegar ao **[!UICONTROL Goals & Settings]** do fluxo de trabalho de criação da atividade de três partes, selecione **[!DNL Customer Journey Analytics]** como fonte de relatórios.

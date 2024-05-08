@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
+source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
 workflow-type: tm+mt
-source-wordcount: '3172'
+source-wordcount: '3171'
 ht-degree: 48%
 
 ---
@@ -259,7 +259,7 @@ Considere o seguinte ao usar ou configurar propriedades e permissões no [!DNL T
 
 As perguntas frequentes sobre as permissões empresariais incluem o seguinte:
 
-### O que acontece se um usuário tiver várias funções e permissões? [#multiple-roles]
+### O que acontece se um usuário tiver várias funções e permissões? {#multiple-roles}
 
 Se um usuário tiver várias funções e permissões, a função com as permissões de hirer será aplicada. Por exemplo, se um usuário tiver [!UICONTROL Observer] e [!UICONTROL Approver] funções, a variável [!UICONTROL Approver] é aplicada.
 
