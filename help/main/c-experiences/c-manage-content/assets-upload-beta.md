@@ -6,7 +6,8 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#beta newtab=true" tooltip="O que são recursos beta no  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: 7a81d4f0918599480c1d50c82c09dc3a62a5bf71
+exl-id: f509ff00-ed0e-4836-826d-f6cb122d8867
+source-git-commit: 94e391021d86607b830f9716742059c6aef8f004
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 13%
@@ -15,7 +16,7 @@ ht-degree: 13%
 
 # Fazer upload ou excluir ofertas de imagem
 
-Você pode fazer upload de imagens para o [!UICONTROL Image Offers] listar em [!DNL Adobe Target] para usar como ofertas de imagem em atividades do. Também é possível excluir ofertas de imagens quando elas não são mais necessárias nas atividades.
+Você pode fazer upload de imagens para o [!UICONTROL Image Offers] página em [!DNL Adobe Target] para usar como ofertas de imagem em atividades do. Também é possível excluir ofertas de imagens quando elas não são mais necessárias nas atividades.
 
 >[!NOTE]
 >
@@ -25,7 +26,7 @@ Você pode fazer upload de imagens para o [!UICONTROL Image Offers] listar em [!
 
 1. Clique em **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-   ![Ofertas > Ofertas de imagem](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
+   ![Ofertas > Ofertas de imagem](/help/main/c-experiences/c-manage-content/assets/image-offers-new.png)
 
 1. Clique em **[!UICONTROL Create]** > **[!UICONTROL Files]**.
 1. Navegue até o item que deseja adicionar, selecione-o e clique em **[!UICONTROL Open]**.
