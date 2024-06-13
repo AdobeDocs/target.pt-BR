@@ -2,13 +2,15 @@
 keywords: recommendations;implementar recomendações;código de cliente;token de autenticação;vertical do setor;modo incompatível com filtro;grupo de hosts padrão;base de miniaturas;gerar token de autenticação;token de autenticação;
 description: Saiba como definir configurações para [!DNL Adobe Target Recommendations].
 title: Como definir as configurações do Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Administration & Configuration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 3f4c744b9f6bb91f55616138901c20961a72629e
+exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
+source-git-commit: f29f9b5c234dc629d104afaccdf50010dc825ea1
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
