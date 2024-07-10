@@ -6,10 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: b6eaf89ef71ea3448584dcdadc926c45dba77504
+source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 29%
+source-wordcount: '707'
+ht-degree: 26%
 
 ---
 
@@ -65,17 +65,17 @@ Crie uma coleção para organizar os produtos ou conteúdo que deseja mostrar em
 
 1. Clique em **[!UICONTROL Create]**.
 
-## Crie uma coleção usando [!UICONTROL Advanced Search]
+<!-- ## Create a collection using [!UICONTROL Advanced Search]
 
-Também é possível criar coleções usando [!UICONTROL Advanced Search] no [Pesquisa no catálogo](/help/main/c-recommendations/c-products/catalog-search.md#save-as) página ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+You can also create collections using [!UICONTROL Advanced Search] on the [Catalog Search](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
 
-![Caixa de diálogo Salvar como](/help/main/c-recommendations/c-products/assets/save-as.png)
+![Save as dialog](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-Após criar uma pesquisa usando &quot;id > contains&quot; Por exemplo, você pode clicar em [!UICONTROL Save As] > [!UICONTROL Collection].
+After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Collection].
 
 >[!IMPORTANT]
 >
->A variável [!UICONTROL Advanced Search] A funcionalidade não diferencia maiúsculas de minúsculas; no entanto, os produtos retornados no momento do delivery baseiam-se na pesquisa sensível a maiúsculas e minúsculas. Essa não correspondência pode levar à confusão. Considere a diferenciação entre maiúsculas e minúsculas ao criar coleções com base nos resultados usando o [!UICONTROL Advanced Search] funcionalidade. Por exemplo, se você realiza uma busca para &quot;Feriado&quot;, essa busca inicial lista os resultados contendo &quot;Feriado&quot; e &quot;feriado&quot;. Em seguida, se você criar um catálogo com a intenção de encontrar produtos contendo &quot;feriado&quot;, somente os produtos contendo &quot;feriado&quot; serão exibidos. Os produtos contendo &quot;Feriado&quot; não serão exibidos.
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. -->
 
 ## Editar, copiar ou excluir uma coleção
 
@@ -100,12 +100,3 @@ Esteja ciente de que as coleções estão disponíveis em toda a conta. Consider
 1. (Condicional) Para alterar uma configuração de coleta existente, no campo **[!UICONTROL Experiences]** (etapa 2 do fluxo de trabalho guiado de três partes), clique em um local onde você fez as recomendações, clique em **[!UICONTROL Change Collection]** e selecione a coleção desejada.
 
    ![Opção Alterar coleção](/help/main/c-recommendations/c-products/assets/change-collection.png)
-
-## Vídeo de treinamento: criar coleções e exclusões no Recommendations (7:05) ![Selo do tutorial](/help/main/assets/tutorial.png)
-
-Este vídeo contém as seguintes informações:
-
-* Criar uma coleção
-* Criar uma exclusão
-
->[!VIDEO](https://video.tv.adobe.com/v/27689)
