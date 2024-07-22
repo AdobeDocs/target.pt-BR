@@ -5,7 +5,8 @@ title: Como criar ofertas JSON?
 feature: Experiences and Offers
 hide: true
 hidefromtoc: true
-source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
+exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
+source-git-commit: 9065fa16a2a5d742f7f91297ec7e7448db8cc7fc
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 25%
@@ -14,18 +15,18 @@ ht-degree: 25%
 
 # Criar ofertas JSON
 
-Criar ofertas JSON no [!UICONTROL Offer Library] in [!DNL Adobe Target] para uso na [!UICONTROL Form-Based Experience Composer].
+Crie ofertas JSON no [!UICONTROL Offer Library] em [!DNL Adobe Target] para usar no [!UICONTROL Form-Based Experience Composer].
 
-As ofertas JSON podem ser usadas em atividades baseadas em formulário para permitir casos de uso em que [!DNL Target] a decisão é necessária para enviar uma oferta no formato JSON para consumo na estrutura SPA ou em integrações do lado do servidor.
+As ofertas JSON podem ser usadas em atividades baseadas em formulário para habilitar casos de uso em que a decisão do [!DNL Target] é necessária para enviar uma oferta no formato JSON para consumo na estrutura SPA ou em integrações no lado do servidor.
 
 ## Considerações JSON
 
 Considere as informações a seguir ao trabalhar com ofertas JSON:
 
-* No momento, as ofertas JSON estão disponíveis apenas para [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Experience Targeting] (XT) Atividades.
-* As ofertas JSON podem ser usadas no [atividades baseadas em formulário](/help/main/c-experiences/form-experience-composer.md) somente.
-* As ofertas JSON podem ser recuperadas diretamente quando você estiver usando o [APIs do lado do servidor e SDKs Node.js móveis, Java, .NET e Python](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=pt-BR){target=_blank}.
-* No navegador, as ofertas JSON podem ser recuperadas somente por meio da at.js 1.2.3 (ou posterior) e usando [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} ao filtrar ações usando o `setJson` ação.
+* As ofertas JSON estão disponíveis no momento apenas para atividades do [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Experience Targeting] (XT).
+* As ofertas JSON podem ser usadas somente em [atividades baseadas em formulário](/help/main/c-experiences/form-experience-composer.md).
+* As ofertas JSON podem ser recuperadas diretamente quando você estiver usando as [APIs do Server Side e os SDKs Node.js para dispositivos móveis, Java, .NET e Python](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=pt-BR){target=_blank}.
+* No navegador, as ofertas JSON podem ser recuperadas apenas via at.js 1.2.3 (ou posterior) e usando [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} ao filtrar ações usando a ação `setJson`.
 * As ofertas JSON são entregues como objetos JSON nativos, e não como cadeia de caracteres. Os consumidores desses objetos não precisam mais manipular objetos como cadeia de caracteres e convertê-los em objetos JSON.
 * As ofertas JSON não são aplicadas automaticamente em oposição a outras ofertas (como ofertas de HTML) porque as ofertas JSON são ofertas não visuais. Os desenvolvedores devem gravar o código para obter explicitamente a oferta usando [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
 
@@ -40,14 +41,14 @@ Considere as informações a seguir ao trabalhar com ofertas JSON:
    ![imagem offer-json](assets/offer-json-new.png)
 
 1. Insira um nome de oferta.
-1. (Condicional) Se você tiver uma [[!DNL Target] Conta Premium](/help/main/c-intro/intro.md#premium), escolha a opção desejada [espaço de trabalho](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
+1. (Condicional) Se você tiver uma [[!DNL Target] conta Premium](/help/main/c-intro/intro.md#premium), escolha o [espaço de trabalho](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace) desejado.
 1. (Condicional) Escolha os atributos de perfil desejados.
-1. Digite ou cole seu código JSON no **[!UICONTROL Code]** caixa.
+1. Digite ou cole seu código JSON na caixa **[!UICONTROL Code]**.
 1. Clique em **[!UICONTROL Create]**.
 
 ## Exemplo de JSON {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-As ofertas JSON são suportadas somente em atividades criadas usando o [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md). Atualmente, a única maneira de poder usar ofertas JSON é por meio de chamadas diretas de API/SDK.
+Só há suporte para ofertas JSON em atividades criadas com o [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md). Atualmente, a única maneira de poder usar ofertas JSON é por meio de chamadas diretas de API/SDK.
 
 Exemplo:
 
@@ -84,7 +85,7 @@ A matriz de ações tem esta estrutura:
 ]
 ```
 
-Para extrair a oferta JSON, faça uma iteração por meio de ações e encontre a ação com o `setJson` e, em seguida, percorra a matriz de conteúdo.
+Para extrair a oferta JSON, faça uma iteração por meio de ações e encontre a ação com a ação `setJson` e, em seguida, percorra a matriz de conteúdo.
 
 ## Caso de uso {#section_85B07907B51A43239C8E3498EF58B1E5}
 
@@ -136,12 +137,12 @@ adobe.target.getOffer({
 
 ## Exemplo de oferta JSON usando atributos de perfil da Real-time CDP
 
-Os atributos de perfil da Real-time CDP podem ser compartilhados com [!DNL Target] para uso em ofertas HTML e JSON.
+Os Atributos de Perfil da Real-time CDP podem ser compartilhados com [!DNL Target] para uso em ofertas HTML e JSON.
 
-Para obter mais informações, consulte [Compartilhar atributos de perfil da Real-time CDP com a [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
+Para obter mais informações, consulte [Compartilhar Atributos de Perfil da Real-time CDP com o [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 
 ## Filtrar ofertas por tipo de oferta JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-É possível filtrar a variável [!UICONTROL Offers] biblioteca pelo tipo de oferta JSON clicando no link **[!UICONTROL Show filters]** e selecionando o **[!UICONTROL JSON]** caixa de seleção
+Você pode filtrar a biblioteca [!UICONTROL Offers] pelo tipo de oferta JSON ao clicar no ícone **[!UICONTROL Show filters]** e selecionar a caixa de seleção **[!UICONTROL JSON]**.
 
 ![imagem offer-json-filter](assets/offer-json-filter-new.png)

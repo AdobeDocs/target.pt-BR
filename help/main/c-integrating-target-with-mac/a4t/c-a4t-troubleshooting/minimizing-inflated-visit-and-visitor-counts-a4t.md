@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 100%
+source-wordcount: '1320'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,6 @@ Informações para ajudá-lo a minimizar os efeitos de contagens inflacionadas d
 >* Serviço de ID de visitante da Experience Cloud: visitorAPI.js versão 2.3.0 ou superior.
 >* Adobe Analytics: appMeasurement.js versão 2.1.
 >* Adobe Target: at.js versão 0.9.6 ou posterior (exceto a versão 1.1.0, se estiver usando ofertas de redirecionamento com A4T).
-
 
 ## O que mudou? {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 

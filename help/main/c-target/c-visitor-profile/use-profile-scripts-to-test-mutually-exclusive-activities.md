@@ -6,7 +6,7 @@ feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
 source-git-commit: 34db233e0790f8ef04309c3f4b5acd12b7cdd5ad
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '708'
 ht-degree: 74%
 
 ---
@@ -45,7 +45,7 @@ if (!user.get('twogroups')) {
 
 * `if (ran_number <= 49)` inicia uma rotina que determina a qual grupo o usuário pertence. Se o resultado for entre 0-49, o visitante é atribuído ao GrupoA. Se o resultado for entre 50-100, o visitante é atribuído ao GrupoB. O grupo determina qual atividade o visitante visualizará.
 
-Depois de criar o atributo de perfil, configure a primeira atividade para direcionar a população desejada exigindo que o parâmetro de perfil do usuário `user.twogroups` corresponde ao valor especificado para o GrupoA.
+Depois de criar o atributo de perfil, configure a primeira atividade para segmentar a população desejada, exigindo que o parâmetro de perfil de usuário `user.twogroups` corresponda ao valor especificado para o GrupoA.
 
 >[!NOTE]
 >

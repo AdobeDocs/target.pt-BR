@@ -6,8 +6,8 @@ feature: Audiences
 exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 46%
+source-wordcount: '131'
+ht-degree: 35%
 
 ---
 
@@ -15,21 +15,21 @@ ht-degree: 46%
 
 Você pode direcionar visitantes usando [!DNL Adobe Target] que usam um determinado sistema operacional.
 
-1. Na interface do [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
+1. Na interface [!DNL Target], clique em **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Nomeie o público-alvo e adicione uma descrição opcional.
-1. Arrastar e soltar **[!UICONTROL Sistema operacional]** no painel do audience builder.
-1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
+1. Arraste e solte **[!UICONTROL Operating System]** no painel do audience builder.
+1. Clique em **[!UICONTROL Select]** e selecione uma das seguintes opções:
 
    * Linux
    * Macintosh
    * Windows
 
 1. (Opcional) Configure regras adicionais para o público-alvo.
-1. Clique em **[!UICONTROL Concluído]**.
+1. Clique em **[!UICONTROL Done]**.
 
 A ilustração a seguir mostra um público-alvo direcionado a visitantes que usam Macintosh OS.
 
-![imagem target_os](assets/target_os.png)
+![imagem do target_os](assets/target_os.png)
 
 ## Vídeo de treinamento: Criação de públicos-alvo
 

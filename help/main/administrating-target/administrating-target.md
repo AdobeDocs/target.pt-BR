@@ -7,16 +7,16 @@ role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '92'
 ht-degree: 11%
 
 ---
 
-# Administrar [!DNL Target] Visão geral
+# Administrar visão geral do [!DNL Target]
 
-Informações para ajudar a administrar o [!DNL Adobe Target], incluindo configurações para o Visual Experience Composer (VEC), relatórios, configuração do Scene7, implementação, hosts, ambientes, tokens de resposta e usuários.
+Informações para ajudá-lo a administrar o [!DNL Adobe Target], incluindo definições de configuração para o Visual Experience Composer (VEC), relatórios, configuração do Scene7, implementação, hosts, ambientes, tokens de resposta e usuários.
 
-Para acessar o [!UICONTROL Administração] itens de menu, clique em **[!UICONTROL Administração]** na barra de menu superior, em seguida, clique na guia desejada no lado esquerdo:
+Para acessar os itens de menu [!UICONTROL Administration], clique em **[!UICONTROL Administration]** na barra de menu superior e, em seguida, clique na guia desejada no lado esquerdo:
 
 * [Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)
 * [Relatório](/help/main/administrating-target/reporting.md)

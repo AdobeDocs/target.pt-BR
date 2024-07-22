@@ -1,23 +1,23 @@
 ---
 keywords: afinidade, afinidade de categorias
-description: Saiba mais sobre a afinidade de categorias no [!DNL Adobe Target] que captura automaticamente as categorias visitadas por um usuário e calcula a afinidade de categoria do usuário para que possa ser direcionado e segmentado.
+description: Saiba mais sobre a afinidade de categorias no  [!DNL Adobe Target]  que captura automaticamente as categorias visitadas por um usuário e calcula a afinidade de categoria do usuário para que possa ser direcionado e segmentado.
 title: O Que É Afinidade De Categorias?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 66%
+source-wordcount: '865'
+ht-degree: 56%
 
 ---
 
 # Afinidade de categorias
 
-O recurso de afinidade de categorias no [!DNL Adobe Target] captura automaticamente as categorias do site que um usuário visita e calcula a afinidade do usuário para cada categoria para que possa ser direcionado e segmentado. A afinidade de categorias ajuda a garantir que o conteúdo seja direcionado para visitantes com maior probabilidade de agir de acordo com essas informações.
+O recurso de afinidade de categorias no [!DNL Adobe Target] captura automaticamente as categorias no site que um usuário visita e calcula a afinidade de cada categoria do usuário para que possa ser direcionado e segmentado. A afinidade de categorias ajuda a garantir que o conteúdo seja direcionado para visitantes com maior probabilidade de agir de acordo com essas informações.
 
-## Transmitindo informações de afinidade de categoria ao [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
+## Transmitindo informações de afinidade de categoria para [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-Sempre que um usuário visitar o site, parâmetros do perfil específicos do visitante serão gravados no banco de dados do [!DNL Target]. Os dados são vinculados ao cookie do usuário. Um parâmetro útil é `user.categoryId`, um parâmetro de mbox atribuído em uma página de produto. Conforme o visitante continua a navegação, ou retorna para outra sessão, as categorias de produtos que um usuário específico visualiza podem ser registradas. Você também pode registrar informações de categoria passando-as como parâmetro de mbox `user.categoryId` em qualquer mbox (incluindo uma mbox aninhada), como um parâmetro de URL `user.categoryId`, ou nos parâmetros da página do com uma mbox global. [!DNL Target] Consulte seu representante de conta para obter mais detalhes.
+Sempre que um usuário visitar o site, parâmetros do perfil específicos do visitante serão gravados no banco de dados do [!DNL Target]. Os dados são vinculados ao cookie do usuário. Um parâmetro útil é `user.categoryId`, um parâmetro de mbox atribuído em uma página de produto. Conforme o visitante continua a navegação, ou retorna para outra sessão, as categorias de produtos que um usuário específico visualiza podem ser registradas. Você também pode registrar informações de categoria passando-as como parâmetro de mbox `user.categoryId` em qualquer mbox (incluindo uma mbox aninhada), como um parâmetro de URL `user.categoryId`, ou em parâmetros de página [!DNL Target] com uma mbox global. Consulte seu representante de conta para obter mais detalhes.
 
 Separe as categorias com uma vírgula para incluir um item em várias categorias. Por exemplo:
 
@@ -25,11 +25,11 @@ Separe as categorias com uma vírgula para incluir um item em várias categorias
 
 Com base na frequência e recenticidade das visitas às categorias de seu produto, a afinidade de categoria (se houver) de um usuário será registrada. A Afinidade de categorias pode ser utilizada para definir populações para as suas atividades.
 
-Use `user.categoryAffinities[]` em um script de perfil para retornar uma matriz das afinidades que um visitante preencheu. Para obter mais informações, consulte [user.categoryAffinities em Objetos e métodos nos atributos do perfil](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects).
+Você pode usar `user.categoryAffinities[]` em um script de perfil para retornar uma matriz das afinidades que um visitante preencheu. Para obter mais informações, consulte [user.categoryAffinities em Objetos e métodos nos atributos de perfil](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects).
 
 >[!IMPORTANT]
 >
->A variável `user.categoryId` o atributo usado para o algoritmo de afinidade de categoria é diferente do `entity.categoryId` atributo usado para [!DNL Adobe Target Recommendations]Recomendações de produto e conteúdo do. O `user.categoryId` é necessário rastrear a categoria favorita de um usuário. O `entity.categoryId` é necessário para basear as recomendações na categoria da página ou do item atual. Transmita ambos os valores para [!DNL Target] se quiser usar ambos os recursos.
+>O atributo `user.categoryId` usado para o algoritmo de afinidade de categorias é diferente do atributo `entity.categoryId` usado nas recomendações de produto e conteúdo de [!DNL Adobe Target Recommendations]. O `user.categoryId` é necessário rastrear a categoria favorita de um usuário. O `entity.categoryId` é necessário para basear as recomendações na categoria da página ou do item atual. Passe ambos os valores para [!DNL Target] se quiser usar ambos os recursos.
 
 ## Caso de negócios para afinidade de categoria {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
@@ -39,7 +39,7 @@ A atividade de um visitante em uma sessão, como a categoria que ele visualiza c
 
 Suponha que você venda instrumentos musicais online e queira direcionar as promoções de vendas de baixos para visitantes que já tenham expressado interesse em instrumentos no passado. Utilizando a afinidade de categorias, você pode criar ofertas que sejam exibidas somente para os visitantes que tenham essa afinidade de categorias.
 
-## Algoritmo de afinidade de categoria {#section_8B86C7FF50294208866ABF16F07D5EB9}
+## Algoritmo de afinidade de categorias {#section_8B86C7FF50294208866ABF16F07D5EB9}
 
 O algoritmo de afinidade de categoria funciona da seguinte maneira:
 
@@ -52,7 +52,7 @@ O algoritmo de afinidade de categoria funciona da seguinte maneira:
 
 >[!NOTE]
 >
->Quando várias categorias são passadas em uma única chamada de mbox, a ordem das categorias em `categoryAffinities` não é garantido. Uma categoria arbitrária é registrada primeiro e recebe uma pontuação de 10.
+>Quando várias categorias são passadas em uma única chamada de mbox, a ordem das categorias em `categoryAffinities` não é garantida. Uma categoria arbitrária é registrada primeiro e recebe uma pontuação de 10.
 
 ### Exemplo: algoritmo de afinidade de categoria
 
@@ -98,21 +98,21 @@ Quando a sessão for encerrada e o usuário voltar posteriormente para o site, a
 
 * `beauty`: 1,5 (3/2)
 
-## Use afinidade de categorias para direcionamento {#concept_5750C9E6C97A40F8B062A5C16F2B5FFC}
+## Usar afinidade de categorias para direcionamento {#concept_5750C9E6C97A40F8B062A5C16F2B5FFC}
 
 As seções a seguir contêm informações para ajudar você a usar um público-alvo de afinidade de categorias para o direcionamento em uma atividade.
 
 ### Criar um público-alvo para usar a afinidade de categorias {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. No **[!UICONTROL Públicos-alvo]** clique em **[!UICONTROL Criar público-alvo]**.
+1. Na lista **[!UICONTROL Audiences]**, clique em **[!UICONTROL Create Audience]**.
 
    Ou
 
    Para copiar um público-alvo existente, na lista de Públicos-alvo, passe com o mouse sobre o público-alvo desejado e clique no ícone Copiar. Você pode editar o público-alvo para criar um público-alvo semelhante.
 
 1. Digite um nome de público-alvo descritivo.
-1. Clique em **[!UICONTROL + Adicionar regra]** > **[!UICONTROL Perfil do visitante]**.
-1. Na lista suspensa **[!UICONTROL Perfil do visitante]**, selecione **[!UICONTROL Afinidade de categorias]**.
+1. Clique em **[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]**.
+1. Na lista suspensa **[!UICONTROL Visitor Profile]**, selecione **[!UICONTROL Category Affinity]**.
 
    ![Perfil do visitante > Afinidade de categorias](assets/affinity.png)
 
@@ -138,8 +138,8 @@ As seções a seguir contêm informações para ajudar você a usar um público-
    * Igual
 
 1. Especifique cada novo valor em uma linha separada (por exemplo, &quot;sapatos&quot;).
-1. Clique em **[!UICONTROL Salvar]**.
+1. Clique em **[!UICONTROL Save]**.
 
 ### Usar o público-alvo da afinidade de categorias em uma atividade {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-Você pode usar públicos-alvo de afinidade de categorias em qualquer atividade. Durante o fluxo de trabalho guiado de três etapas, no [!UICONTROL Target] escolha o público-alvo desejado.
+Você pode usar públicos-alvo de afinidade de categorias em qualquer atividade. Durante o fluxo de trabalho guiado de três etapas, na etapa [!UICONTROL Target], escolha o público-alvo desejado.

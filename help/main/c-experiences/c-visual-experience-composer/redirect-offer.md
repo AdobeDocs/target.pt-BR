@@ -6,16 +6,16 @@ feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 82%
+source-wordcount: '475'
+ht-degree: 68%
 
 ---
 
 # Redirecionar para um URL
 
-Use o [!UICONTROL Redirecionar para URL] opção em [!DNL Adobe Target] quando quiser enviar o visitante para uma página diferente, em vez de mostrar o conteúdo na mesma página.
+Use a opção [!UICONTROL Redirect to URL] em [!DNL Adobe Target] quando quiser enviar o visitante para uma página diferente, em vez de mostrar o conteúdo na mesma página.
 
-Você pode ter duas páginas completamente diferentes para testar, em vez de mudar apenas partes do conteúdo dentro de uma página. Neste caso, o teste A/B compara a página A versus a página B. Configure uma campanha de testes A/B, com duas experiências: uma apontando para a página A padrão e a outra redirecionando para a página B. No menu Ação da experiência, localizado ao clicar no rótulo da letra da experiência, escolha **[!UICONTROL Redirecionar para URL]** e especifique o URL da página B. A oferta é configurada para redirecionar o visitante para uma página diferente.
+Você pode ter duas páginas completamente diferentes para testar, em vez de mudar apenas partes do conteúdo dentro de uma página. Nesse caso, o teste A/B compara a página A versus a página B. Configure uma campanha de testes A/B com duas experiências: uma apontando para a página A padrão e a outra redirecionando para a página B. No menu Ação de experiência, localizado ao clicar no rótulo da letra da experiência, escolha **[!UICONTROL Redirect to URL]** e especifique a URL da página B. A oferta é configurada para redirecionar o visitante para uma página diferente.
 
 A oferta de redirecionamento executa um código JavaScript para redirecionar o navegador. Ela usa o método `window.location.replace();`, de forma que a página a partir da qual o visitante é redirecionado não é armazenada no histórico do navegador. Isso permite que o visitante consiga utilizar o botão Voltar de seu navegador.
 
@@ -31,7 +31,7 @@ Ofertas de redirecionamento possuem algumas limitações:
 Para criar uma oferta de redirecionamento:
 
 1. Crie uma experiência.
-1. Passe com o mouse sobre uma experiência, depois clique no ícone Redirecionar para URL (![imagem icon_redirect_url](assets/icon_redirect_url.png)).
+1. Passe com o mouse sobre uma experiência, depois clique no ícone Redirecionar para URL (![icon_redirect_url image](assets/icon_redirect_url.png)).
 
    ![imagem exp_actions](assets/exp_actions.png)
 

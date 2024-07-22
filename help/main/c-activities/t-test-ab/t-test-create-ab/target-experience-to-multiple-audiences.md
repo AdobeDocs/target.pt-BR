@@ -1,19 +1,19 @@
 ---
 keywords: vários públicos-alvo; versões de experiência; versões de experiência de direcionamento
-description: Saiba como direcionar versões da mesma experiência para públicos-alvo diferentes no [!DNL Adobe Target] atividades A/B.
+description: Saiba como direcionar versões da mesma experiência para públicos-alvo diferentes em  [!DNL Adobe Target] atividades A/B.
 title: Posso usar várias versões de experiência em uma atividade A/B?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 56%
+source-wordcount: '590'
+ht-degree: 53%
 
 ---
 
 # Vários públicos-alvo de uma experiência em um Teste A/B
 
-Você pode direcionar versões da mesma experiência para públicos-alvo diferentes no [!DNL Adobe Target] atividades A/B. Você pode configurar vários públicos-alvo para uma experiência na [!UICONTROL Visual Experience Composer] (VEC) ou no Experience Composer baseado em formulário.
+Você pode direcionar versões da mesma experiência para públicos diferentes em [!DNL Adobe Target] atividades A/B. Você pode configurar vários públicos-alvo para uma experiência no [!UICONTROL Visual Experience Composer] (VEC) ou no Experience Composer baseado em formulário.
 
 Os visitantes podem alternar entre públicos-alvo de experiência à medida que seu perfil muda. Os visitantes não ficam presos na mesma experiência ao longo da vida útil da atividade.
 
@@ -33,13 +33,13 @@ Nesse caso, o que você precisa são versões geográficas específicas da exper
 
    Ao configurar a experiência que terá múltiplas versões, selecione o público-alvo para cada versão, conforme os passos a seguir.
 
-1. Selecione a experiência, clique em **[!UICONTROL Configurar]** > **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Múltiplos públicos-alvo]**.
+1. Selecione a experiência e clique em **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
 
    ![Opção de Vários públicos-alvo](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. Clique em **[!UICONTROL Adicionar público-alvo]** e selecione o primeiro público-alvo que deseja direcionar. Repita para cada público-alvo.
+1. Clique em **[!UICONTROL Add Audience]** e selecione o primeiro público-alvo que deseja direcionar. Repita para cada público-alvo.
 
-   ![imagem exp-versions](assets/exp-versions.png)
+   ![imagem de versões de expressão](assets/exp-versions.png)
 
    Se o público-alvo ainda não existir, clique em [Criar público-alvo](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) e configure-o.
 
@@ -51,4 +51,4 @@ Nesse caso, o que você precisa são versões geográficas específicas da exper
 
 * Escolha públicos-alvo mutuamente exclusivos. Se a atividade foi criada no VEC, se um visitante corresponder a mais de um público-alvo, o conteúdo para cada público será retornado, com o conteúdo do público listado por último sendo exibido na página.
 * Públicos-alvo de entrada de atividade definidos no diagrama são combinados com os públicos-alvo da experiência usando uma condição E. Para entrar na atividade, um visitante deve fazer parte do público-alvo da atividade e um dos públicos-alvo da experiência.
-* Adicione os mesmos públicos-alvo como segmentos para relatórios. Isso ajuda você a observar os resultados do teste no nível superior da experiência A versus B e no nível inferior da experiência A versus B apenas para o &quot;idioma do navegador ja_JP&quot;. Isso funciona somente para [!DNL Target]relatórios baseados em, não [!DNL Analytics]relatórios com base em.
+* Adicione os mesmos públicos-alvo como segmentos para relatórios. Isso ajuda você a observar os resultados do teste no nível superior da experiência A versus B e no nível inferior da experiência A versus B apenas para o &quot;idioma do navegador ja_JP&quot;. Isso funciona somente para relatórios baseados em [!DNL Target], não para relatórios baseados em [!DNL Analytics].

@@ -1,6 +1,6 @@
 ---
 keywords: Recommendations;oferta;visualização;iniciar;status;critérios;algoritmo;;offer;preview;launch;status;criteria;algorithm
-description: Saiba como visualizar seu Adobe [!DNL Target] Atividade do Recommendations para garantir que os resultados estejam disponíveis antes de iniciar a atividade.
+description: Saiba como visualizar sua atividade do Adobe [!DNL Target] Recommendations para garantir que os resultados estejam disponíveis antes de iniciar a atividade.
 title: Como visualizar e iniciar uma atividade do Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
@@ -13,31 +13,31 @@ ht-degree: 16%
 
 # Pré-visualizar e iniciar atividade do Recommendations
 
-Depois de criar seu [!UICONTROL Recommendations], [!UICONTROL A/B Test]ou [!UICONTROL Experience Targeting] (XT) atividade contendo [Ofertas do Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md), visualize suas recomendações para garantir que os resultados estejam disponíveis antes de iniciar a atividade. [!DNL Target Recommendations] O oferece várias maneiras de visualizar suas recomendações.
+Depois de criar sua atividade do [!UICONTROL Recommendations], [!UICONTROL A/B Test] ou [!UICONTROL Experience Targeting] (XT) contendo [ofertas do Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md), você visualizará suas recomendações para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O [!DNL Target Recommendations] oferece várias maneiras de visualizar suas recomendações.
 
 ## Verificação do status do algoritmo do Recommendations
 
-Depois de criar uma atividade, [!DNL Recommendations] O executa um algoritmo para gerar recomendações. Esse algoritmo pode levar algumas horas para ser executado.
+Depois de criar uma atividade, [!DNL Recommendations] executa um algoritmo para gerar recomendações. Esse algoritmo pode levar algumas horas para ser executado.
 
-Você pode verificar se o algoritmo terminou de ser executado no [!UICONTROL Activity] diagrama de visão geral, onde o status dos critérios é listado. A ilustração a seguir mostra o status no diagrama de atividades em uma [!DNL Recommendations] da atividade [!UICONTROL Overview] página:
+Você pode verificar se a execução do algoritmo foi concluída no diagrama de visão geral [!UICONTROL Activity], onde o status dos critérios está listado. A ilustração a seguir mostra o status no diagrama de atividades na página [!UICONTROL Overview] de uma atividade [!DNL Recommendations]:
 
-![Página Visão geral da atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
+![Página de visão geral da atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
-A ilustração a seguir descreve o status em um [!UICONTROL A/B Test] ou XT da atividade [!UICONTROL Overview] página:
+A ilustração a seguir descreve o status na página [!UICONTROL Overview] de uma atividade de [!UICONTROL A/B Test] ou XT:
 
-![Página Visão geral do teste A/B](/help/main/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
+![Página de visão geral do teste A/B](/help/main/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
 
 Os resultados do status incluem o seguinte, conforme ilustrado abaixo:
 
 * [!UICONTROL Results Ready]: indica que o algoritmo retornou resultados
-* [!UICONTROL Results Not Ready]: indica que a execução do algoritmo não terminou.
+* [!UICONTROL Results Not Ready]: indica que a execução do algoritmo não foi concluída.
 * [!UICONTROL Feed Failure]: indica que o arquivo de feed de critérios personalizados não pôde ser recuperado.
 
 ![Caixa de diálogo Resultados](/help/main/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
 ## Quanto tempo levará para o algoritmo ser executado?
 
-Depois de salvar uma atividade contendo um critério, [!DNL Target] O calcula as recomendações com base na coleção, nos critérios, no design e nas promoções selecionados. Esse cálculo leva algum tempo para ser executado e o período difere com base na lógica de recomendação selecionada, no intervalo de dados, no número de itens no catálogo, na quantidade de dados comportamentais gerados pelos clientes e na fonte de dados comportamentais selecionada.
+Depois de salvar uma atividade contendo um critério, o [!DNL Target] calcula as recomendações com base na coleção, nos critérios, no design e nas promoções selecionados. Esse cálculo leva algum tempo para ser executado e o período difere com base na lógica de recomendação selecionada, no intervalo de dados, no número de itens no catálogo, na quantidade de dados comportamentais gerados pelos clientes e na fonte de dados comportamentais selecionada.
 
 A fonte de dados comportamentais tem o maior impacto no tempo de processamento, da seguinte maneira:
 
@@ -50,22 +50,22 @@ Se as mboxes forem selecionadas como a fonte de dados comportamentais, depois de
 Se os critérios usarem o [!DNL Adobe Analytics] como a fonte de dados comportamentais, depois de criados, o tempo para a disponibilidade dos critérios dependerá se o conjunto de relatórios selecionado e a janela de lookback foram usados para quaisquer outros critérios.
 
 * **Configuração única do conjunto de relatórios**: a primeira vez que um conjunto de relatórios é usado com determinada janela de lookback do intervalo de dados, [!DNL Target Recommendations] pode levar de dois a sete dias para baixar completamente os dados comportamentais do conjunto de relatórios selecionado no [!DNL Analytics]. Esse período depende da carga do sistema do [!DNL Analytics].
-* **Critérios novos ou editados usando um conjunto de relatórios já disponível**: ao criar um novo critério ou editar um critério existente, se o conjunto de relatórios selecionado já tiver sido usado com o [!DNL Target Recommendations], com um intervalo de dados igual ou menor que o intervalo de dados selecionado, os dados são imediatamente disponibilizados e nenhuma configuração única é necessária. Nesse caso ou se as configurações de um algoritmo forem editadas, enquanto o conjunto de relatórios ou intervalo de dados selecionado não for modificado, o algoritmo será executado ou executado novamente em 12 horas.
-* **O algoritmo contínuo é executado**: os dados fluem do [!DNL Analytics] para [!DNL Target Recommendations] diariamente. Por exemplo, para o [!UICONTROL Viewed Affinity] recomendação, quando um usuário exibe um produto, uma chamada de rastreamento de exibições do produto é passada para [!DNL Analytics] quase em tempo real. A variável [!DNL Analytics] os dados são enviados para [!DNL Target] no início do dia seguinte e [!DNL Target] O executa o algoritmo em menos de 12 horas.
+* **Critérios novos ou editados usando um conjunto de relatórios já disponível**: ao criar um novo critério ou editar um critério existente, se o conjunto de relatórios selecionado já tiver sido usado com [!DNL Target Recommendations], com um intervalo de dados igual ou menor que o intervalo de dados selecionado, os dados serão imediatamente disponibilizados e a configuração única não será necessária. Nesse caso ou se as configurações de um algoritmo forem editadas, enquanto o conjunto de relatórios ou intervalo de dados selecionado não for modificado, o algoritmo será executado ou executado novamente em 12 horas.
+* **O algoritmo contínuo é executado**: os dados fluem do [!DNL Analytics] para [!DNL Target Recommendations] diariamente. Por exemplo, para a recomendação do [!UICONTROL Viewed Affinity], quando um usuário exibe um produto, uma chamada de rastreamento de exibições do produto é passada para o [!DNL Analytics] quase em tempo real. Os dados do [!DNL Analytics] são encaminhados para [!DNL Target] no início do dia seguinte e o [!DNL Target] executa o algoritmo em menos de 12 horas.
 
 >[!NOTE]
 >
->[!UICONTROL Recently Viewed Items] O não requer a execução de algoritmo offline e os resultados ficam disponíveis instantaneamente. [!UICONTROL Top Viewed] e [!UICONTROL Top Sellers] algoritmos baseados em dados mbox geralmente produzem resultados muito rapidamente devido à computação mais simples necessária. Essas podem ser boas opções quando você deseja visualizar uma alteração de design ou confirmar se os dados comportamentais estão sendo coletados corretamente.
+>[!UICONTROL Recently Viewed Items] não requer a execução de algoritmo offline e os resultados são disponibilizados instantaneamente. Os algoritmos [!UICONTROL Top Viewed] e [!UICONTROL Top Sellers] baseados em dados de mbox geralmente produzem resultados muito rapidamente devido ao cálculo mais simples necessário. Essas podem ser boas opções quando você deseja visualizar uma alteração de design ou confirmar se os dados comportamentais estão sendo coletados corretamente.
 
 ## Uso de links de controle de qualidade para visualização do Recommendations
 
-Depois que o algoritmo tiver os resultados prontos, você poderá visualizar esses resultados usando o [Link de controle de qualidade](/help/main/c-activities/c-activity-qa/activity-qa.md) funcionalidade do [!DNL Adobe Target]. Os links de controle de qualidade estão disponíveis no [!UICONTROL Activity QA] seção da página Visão geral da atividade:
+Depois que o algoritmo tiver os resultados prontos, você poderá visualizar esses resultados usando a funcionalidade [Link de controle de qualidade](/help/main/c-activities/c-activity-qa/activity-qa.md) de [!DNL Adobe Target]. Os links de controle de qualidade estão disponíveis na seção [!UICONTROL Activity QA] da página Visão geral da atividade:
 
 ![Link de controle de qualidade da atividade](/help/main/c-recommendations/t-create-recs-activity/assets/qa-link.png)
 
 >[!NOTE]
 >
->Por padrão, [!DNL Target] O adiciona automaticamente você ao público-alvo necessário para o link de controle de qualidade. Se essa configuração estiver desativada e sua atividade tiver regras de direcionamento, seu perfil de usuário precisará atender a essas regras de direcionamento para ver a experiência que contém recomendações.
+>Por padrão, o [!DNL Target] adiciona você automaticamente ao público-alvo necessário para o link de controle de qualidade. Se essa configuração estiver desativada e sua atividade tiver regras de direcionamento, seu perfil de usuário precisará atender a essas regras de direcionamento para ver a experiência que contém recomendações.
 
 Usar um link de controle de qualidade permite visualizar as recomendações na sua página:
 
@@ -75,15 +75,15 @@ Usar um link de controle de qualidade permite visualizar as recomendações na s
 >
 >* O modo de controle de qualidade do Target é &quot;aderente&quot; e salvo em um cookie. Se você não sair do modo de controle de qualidade, continuará vendo os resultados do controle de qualidade em todo o site. Para sair do modo de controle de qualidade, use o [bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
 >
->* Enquanto estiver no modo de QA, navegar no site não afetará a configuração do seu perfil [!UICONTROL Recently Viewed Items] ou [!UICONTROL Recently Purchased Items]. Esse comportamento ocorre por design para evitar a poluição não intencional dos dados comportamentais de produção. Para visualizar os resultados de um [!UICONTROL Recently Viewed Items] ou [!UICONTROL User-Based Recommendations] critérios, primeiro navegue no site fora do modo de QA e, em seguida, use a mesma sessão para abrir um link de modo de QA.
+>* Enquanto estiver no modo de controle de qualidade, navegar no site não afetará o [!UICONTROL Recently Viewed Items] ou o [!UICONTROL Recently Purchased Items] do seu perfil. Esse comportamento ocorre por design para evitar a poluição não intencional dos dados comportamentais de produção. Para visualizar os resultados de um critério de [!UICONTROL Recently Viewed Items] ou [!UICONTROL User-Based Recommendations], primeiro navegue no site fora do modo de QA e, em seguida, use a mesma sessão para abrir um link de modo de QA.
 
 ## Uso do download de CSV para visualizar recomendações
 
-Em alguns casos, talvez você queira auditar os itens específicos recomendados. Isso é particularmente útil ao usar algoritmos como [!UICONTROL People Who Viewed This, Viewed That], em que um conjunto diferente de itens é recomendado dependendo do item que o usuário está visualizando no momento, e você pode ter milhares ou milhões de itens diferentes no catálogo.
+Em alguns casos, talvez você queira auditar os itens específicos recomendados. Isso é particularmente útil ao usar algoritmos como o [!UICONTROL People Who Viewed This, Viewed That], em que um conjunto diferente de itens é recomendado dependendo do item que o usuário está visualizando no momento, e você pode ter milhares ou milhões de itens diferentes no catálogo.
 
-Os resultados não estão disponíveis para download até que um [!UICONTROL Results Ready] O status é mostrado para pelo menos um algoritmo na atividade.
+Os resultados não estão disponíveis para download até que um status [!UICONTROL Results Ready] seja mostrado para pelo menos um algoritmo na atividade.
 
-Para baixar os resultados para visualização, clique no ícone do menu no canto superior direito da página Visão geral da atividade e clique em **[!UICONTROL Download data]**.
+Para baixar os resultados para visualização, clique no ícone de menu no canto superior direito da página Visão geral da atividade e clique em **[!UICONTROL Download data]**.
 
 ![Opção Baixar dados](/help/main/c-recommendations/t-create-recs-activity/assets/download-data.png)
 
@@ -95,19 +95,19 @@ Da esquerda para a direita é uma lista de itens recomendados, neste caso, os ma
 
 Se um asterisco (*) for o primeiro valor de uma linha, ele indicará [itens de backup](/help/main/c-recommendations/c-algorithms/backup-recs.md). Os itens de backup são exibidos se nem todos os slots de um design puderem ser preenchidos pelos itens recomendados do algoritmo (critérios).
 
-Para outros tipos de algoritmo com base em um valor principal, como [!UICONTROL People Who Viewed This, Viewed That], os valores principais (ou seja, os itens &quot;Este&quot;) são listados na coluna mais à esquerda e os itens recomendados (ou seja, os itens &quot;Aquele&quot;) são listados da esquerda para a direita nas colunas Recommendation_X.
+Para outros tipos de algoritmo baseados em um valor de chave, como [!UICONTROL People Who Viewed This, Viewed That], os valores de chave (ou seja, os itens &quot;Este&quot;) são listados na coluna mais à esquerda e os itens recomendados (ou seja, os itens &quot;Aquele&quot;) são listados da esquerda para a direita nas colunas Recommendation_X.
 
 >[!NOTE]
 >
->Os downloads de resultados não estão disponíveis para atividades que contêm um [!UICONTROL User-Based Recommendations] algoritmo. Os downloads de resultados não estão disponíveis para critérios que usam a [!UICONTROL Recently-Viewed Items] lógica de recomendação.
+>Os downloads de resultados não estão disponíveis para atividades que contêm um algoritmo [!UICONTROL User-Based Recommendations]. Os downloads de resultados não estão disponíveis para os critérios que usam a lógica de recomendação [!UICONTROL Recently-Viewed Items].
 
 ## Ativação da atividade do Recommendations
 
-No [!UICONTROL Activity Overview] clique na seta suspensa ao lado do status e selecione **[!UICONTROL Activate]**.
+Na guia [!UICONTROL Activity Overview], clique na seta suspensa ao lado do status e selecione **[!UICONTROL Activate]**.
 
 ![Ativar opção](/help/main/c-recommendations/t-create-recs-activity/assets/activate.png)
 
-Observe que o status se torna [!UICONTROL Activating]:
+Observe que o status torna-se [!UICONTROL Activating]:
 
 ![Ativando](/help/main/c-recommendations/t-create-recs-activity/assets/activating.png)
 
@@ -119,7 +119,7 @@ Observe que você também pode desativar ou arquivar a atividade usando a mesma 
 
 ## Como evitar interrupções ao alterar configurações do Recommendations
 
-Alteração [!DNL Recommendations] coleções, critérios, promoções ou configurações de design em uma atividade ativa pode resultar na invalidade dos resultados do algoritmo e na alteração do status de um algoritmo para [!UICONTROL Results Not Ready].
+Alterar as configurações de coleções, critérios, promoções ou design do [!DNL Recommendations] em uma atividade ativa pode resultar na invalidade dos resultados do algoritmo e na alteração do status de um algoritmo para [!UICONTROL Results Not Ready].
 
 Para evitar interromper uma atividade ativa, recomendamos seguir a seguinte abordagem ao modificar uma atividade ativa:
 

@@ -2,13 +2,13 @@
 keywords: design personalizado;velocity;decimal;vírgula;personalizar design
 description: Saiba como usar a linguagem de design de código aberto do Velocity para personalizar designs de recomendação no Adobe  [!DNL Target]  Recommendations.
 title: Como personalizar um design usando o Velocity?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 76%
+source-wordcount: '1064'
+ht-degree: 72%
 
 ---
 
@@ -22,7 +22,7 @@ Use a linguagem de design de código aberto do Velocity para personalizar design
 
 Toda a lógica, sintaxe etc. da Velocity podem ser usados para um design de recomendação. Isso quer dizer que é possível criar *para* loops, instruções *se* e outros códigos usando Velocity em vez de JavaScript.
 
-Atributos de entidade enviados para [!DNL Recommendations] no `productPage` O upload da mbox ou do CSV pode ser exibido em um design, com exceção dos atributos de &quot;valores múltiplos&quot;. Qualquer tipo de atributo pode ser enviado; no entanto, [!DNL Target] não passa atributos do tipo &quot;multi-value&quot; como uma matriz sobre a qual um template pode iterar (por exemplo `entityN.categoriesList`).
+Os atributos de entidade enviados a [!DNL Recommendations] na mbox `productPage` ou no carregamento de CSV podem ser exibidos em um design, com exceção dos atributos de &quot;valores múltiplos&quot;. Qualquer tipo de atributo pode ser enviado; no entanto, [!DNL Target] não passa atributos do tipo &quot;multi-value&quot; como uma matriz sobre a qual um modelo pode iterar (por exemplo, `entityN.categoriesList`).
 
 Esses valores são referenciados com a seguinte sintaxe:
 
@@ -30,7 +30,7 @@ Esses valores são referenciados com a seguinte sintaxe:
 $entityN.variable
 ```
 
-Os nomes dos atributos de entidade devem seguir a notação abreviada Velocity, que consiste em uma entrelinha *$* seguida de um identificador VTL (Velocity Template Language). O identificador VTL deve começar com um caractere alfanumérico (a-z ou A-Z).
+Os nomes dos atributos de entidade devem seguir a notação abreviada do Velocity, que consiste em um caractere *$* à esquerda, seguido por um identificador VTL (Velocity Template Language). O identificador VTL deve começar com um caractere alfanumérico (a-z ou A-Z).
 
 Os nomes dos atributos de entidade do Velocity estão restritos aos seguintes tipos de caracteres:
 
@@ -125,14 +125,14 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 >
 >Se quiser adicionar texto após o valor de um atributo antes de uma tag que indica o término do nome do atributo, você poderá usar uma notação formal para delimitar o nome do atributo. Por exemplo: `${entity1.thumbnailUrl}.gif`.
 
-Também é possível usar `algorithm.name` e `algorithm.dayCount` como atributos de entidade em designs, um design pode ser usado para testar vários critérios e o nome do critério pode ser exibido dinamicamente no design. Isso mostra ao visitante que ele ou ela está olhando para os &quot;mais vendidos&quot; ou &quot;pessoas que viram isso compraram aquilo.&quot; Você ainda pode usar esses atributos para exibir a variável `dayCount` (número de dias dos dados usados nos critérios, como &quot;mais vendidos nos últimos dois dias&quot; etc.
+Você também pode usar `algorithm.name` e `algorithm.dayCount` como atributos de entidade em designs, assim, um design pode ser usado para testar vários critérios e o nome do critério pode ser exibido de forma dinâmica no design. Isso mostra ao visitante que ele ou ela está olhando para os &quot;mais vendidos&quot; ou &quot;pessoas que viram isso compraram aquilo.&quot; Você ainda pode usar esses atributos para exibir o `dayCount` (número de dias dos dados usados nos critérios, como &quot;mais vendidos nos últimos dois dias&quot; etc.
 
 ## Trabalhar com números em modelos do Velocity
 
 Por padrão, os modelos do Velocity tratam todos os atributos de entidade como valores de sequência. Talvez você queira tratar um atributo de entidade como um valor numérico para executar uma operação matemática ou compará-lo a outro valor numérico. Para tratar um atributo de entidade como um valor numérico, siga estas etapas:
 
 1. Declare uma variável fictícia e inicialize-a em um número inteiro arbitrário ou em um valor duplo.
-1. Certifique-se de que o atributo de entidade que deseja usar não esteja em branco (obrigatório para [!DNL Target Recommendations]&quot; analisador de modelo para validar e salvar o modelo).
+1. Certifique-se de que o atributo de entidade que deseja usar não esteja em branco (necessário para o analisador de modelo [!DNL Target Recommendations] validar e salvar o modelo).
 1. Passe o atributo de entidade para o método `parseInt` ou `parseDouble` na variável fictícia que você criou na etapa 1 para transformar a cadeia de caracteres em um número inteiro ou valor duplo.
 1. Execute a operação matemática ou a comparação no novo valor numérico.
 
@@ -208,9 +208,9 @@ Para fazer isso, crie uma coluna em seu design que use o atributo `$key` no qual
 
 O resultado é um design como o seguinte, em que uma coluna mostra o item chave.
 
-![imagem rec_key](assets/rec_key.png)
+![imagem da rec_key](assets/rec_key.png)
 
-Quando você está criando sua atividade do [!DNL Recommendations], se o item chave é obtido do perfil do visitante, como &quot;último item comprado&quot;, o [!DNL Target] exibe um produto aleatório no [!UICONTROL Visual Experience Composer] (VEC). Isso ocorre porque um perfil não está disponível enquanto você projeta a atividade. Quando os visitantes visualizam a página, eles verão o item chave esperado.
+Ao criar sua atividade do [!DNL Recommendations], se o item chave for obtido do perfil do visitante, como &quot;último item comprado&quot;, o [!DNL Target] exibe um produto aleatório no [!UICONTROL Visual Experience Composer] (VEC). Isso ocorre porque um perfil não está disponível enquanto você projeta a atividade. Quando os visitantes visualizam a página, eles verão o item chave esperado.
 
 ## Executar substituições em um valor de sequência. {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -240,7 +240,7 @@ O código a seguir é um exemplo condicional completo de um preço de venda:
 
 ## Personalizar o tamanho do modelo e procurar valores em branco {#default}
 
-Usando um script do Velocity para controlar o dimensionamento dinâmico da exibição da entidade, o modelo a seguir acomoda um resultado de 1 para muitos para evitar a criação de elementos HTML em branco quando não forem retornadas entidades correspondentes suficientes [!DNL Recommendations]. Esse script é mais adequado para cenários nos quais as recomendações reserva não fazem sentido e nos quais a [!UICONTROL Renderização parcial do modelo] está ativada.
+Usando um script do Velocity para controlar o dimensionamento dinâmico da exibição da entidade, o modelo a seguir acomoda um resultado de 1 para muitos para evitar a criação de elementos HTML em branco quando não forem retornadas entidades correspondentes suficientes [!DNL Recommendations]. Este script é mais adequado para cenários nos quais as recomendações reserva não fazem sentido e em que o [!UICONTROL Partial Template Rendering] está habilitado.
 
 O trecho HTML a seguir substitui a porção HTML existente no design 4 x 2 padrão (o CSS não está incluído aqui por motivos de brevidade):
 

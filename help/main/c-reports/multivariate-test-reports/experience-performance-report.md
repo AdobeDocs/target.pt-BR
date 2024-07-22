@@ -1,13 +1,13 @@
 ---
 keywords: teste multivariado, mvt, relatório de desempenho da experiência
-description: Saiba como usar o relatório de desempenho da experiência para o Adobe [!DNL Target] Atividades de Direcionamento de experiência que mostram como ocorre cada experiência da atividade.
+description: Saiba como usar o relatório de Desempenho da experiência para atividades do Adobe [!DNL Target] Direcionamento de experiência que mostra o desempenho de cada experiência da atividade.
 title: Como usar o relatório de desempenho da experiência para testes multivariados?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 88%
+ht-degree: 81%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 88%
 
 O relatório de desempenho da experiência mostra como ocorre cada experiência da atividade. Esse relatório inclui informações sobre o número de participantes, a taxa de conversão, o aumento e a confiança.
 
-Você pode selecionar uma ou mais experiências para compará-las. Clique na experiência e selecione **[!UICONTROL Visualizar]** para abrir a experiência em uma guia do navegador.
+Você pode selecionar uma ou mais experiências para compará-las. Clique em uma experiência e selecione **[!UICONTROL Preview]** para abrir a experiência em uma guia do navegador.
 
 ![Relatório de desempenho da experiência no Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
 

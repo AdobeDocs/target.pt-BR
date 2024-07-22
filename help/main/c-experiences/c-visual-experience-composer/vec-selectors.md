@@ -6,8 +6,8 @@ feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 79%
+source-wordcount: '403'
+ht-degree: 85%
 
 ---
 
@@ -17,9 +17,9 @@ Um seletor de elemento é uma expressão CSS que pode identificar um ou mais ele
 
 Você pode encontrar informações básicas sobre os seletores de CSS no documento [Seletores](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) no site Mozilla Developer Network (MDN).
 
-Você pode definir se deseja usar elemento em classes ou ID de elemento nas suas preferências de conta. Clique em **[!UICONTROL Administração > Visual Experience Composer]** e escolha seus seletores de CSS preferidos.
+Você pode definir se deseja usar elemento em classes ou ID de elemento nas suas preferências de conta. Clique em **[!UICONTROL Administration > Visual Experience Composer]** e escolha seus seletores de CSS preferidos.
 
-![imagem css_seletors](assets/css_selectors.png)
+![imagem de css_seletors](assets/css_selectors.png)
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Você pode definir se deseja usar elemento em classes ou ID de elemento nas suas
 
 Para obter informações sobre quando usar seletores de CSS e quando usar IDs exclusivas, consulte [Práticas recomendadas e limitações do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
-## Como Adobe [!DNL Target] Gera um Seletor para um Elemento {#section_D89D954BCBFB486CA081BE183776A475}
+## Como o Adobe [!DNL Target] gera um seletor para um elemento {#section_D89D954BCBFB486CA081BE183776A475}
 
 O Target usa um algoritmo simples para criar um seletor. Esta é uma breve explicação da lógica de geração:
 

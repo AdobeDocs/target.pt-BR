@@ -1,31 +1,31 @@
 ---
 keywords: A/B; métricas de atividade; métricas; definir métricas; métrica de objetivo; configurações de atividade; métrica de sucesso; conversão; receita; envolvimento
-description: Saiba como especificar métricas em uma [!DNL Adobe Target] Atividade A/B para determinar quando uma visita é bem-sucedida, como [!UICONTROL Conversão], [!UICONTROL Receita], e [!UICONTROL Envolvimento].
+description: Saiba como especificar métricas em uma atividade A/B [!DNL Adobe Target] para determinar quando uma visita é bem-sucedida, como [!UICONTROL Conversion], [!UICONTROL Revenue] e [!UICONTROL Engagement].
 title: Como definir métricas de meta em uma atividade A/B?
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
 source-git-commit: 2d5272a852dc879e7307695744b70afe7fee9a38
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 68%
+source-wordcount: '322'
+ht-degree: 59%
 
 ---
 
 # Definir métricas
 
-Usar métricas em uma [!DNL Adobe Target] Atividade A/B para determinar quando uma visita é bem-sucedida.
+Use métricas em uma atividade A/B [!DNL Adobe Target] para determinar quando uma visita é bem-sucedida.
 
-Para obter informações detalhadas sobre métricas de sucesso, consulte  [Métricas de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Para obter informações detalhadas sobre métricas de sucesso, consulte [Métricas de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
-1. No **[!UICONTROL Configurações de relatório]** seção do **[!UICONTROL Metas e configurações]** selecione uma [métrica de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. Na seção **[!UICONTROL Reporting Settings]** da página **[!UICONTROL Goals & Settings]**, selecione uma [métrica de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
    ![Selecionar métrica de sucesso](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 
-   A variável [!UICONTROL Selecionar métricas] A opção lista as métricas de sucesso que você pode escolher para a atividade. As métricas de sucesso são divididas nas seguintes categorias:
+   A opção [!UICONTROL Select Metrics] lista as métricas de sucesso que você pode escolher para sua atividade. As métricas de sucesso são divididas nas seguintes categorias:
 
-   * [!UICONTROL Conversão]
-   * [!UICONTROL Receita]
-   * [!UICONTROL Participação]
+   * [!UICONTROL Conversion]
+   * [!UICONTROL Revenue]
+   * [!UICONTROL Engagement]
 
    Você pode usar qualquer uma das métricas de sucesso predefinidas ou criar uma métrica de sucesso personalizadas. Você também pode marcar uma métrica de sucesso como uma métrica principal. Cartões de relatórios e Experience Cloud mostram a primeira métrica por padrão, se alguma estiver definida.
 
@@ -33,7 +33,7 @@ Para obter informações detalhadas sobre métricas de sucesso, consulte  [Métr
 
    As configurações disponíveis dependem da métrica de sucesso que você estiver usando.
 
-   Se estiver habilitado, o campo [!UICONTROL Valor estimado de conversão] (não disponível para as métricas de Pontuação da página) fornece um valor para a meta.  Este valor permite que o [!DNL Target] calcule a estimativa de aumento da receita. Este campo é opcional, mas a receita incremental para qualquer métrica que não seja de receita não pode ser calculada sem ele. O tipo de dados é a moeda. Este campo é exibido progressivamente depois que o usuário indica a ação realizada para satisfazer o objetivo. Consulte [Aumento estimado na receita](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) para obter mais informações.
+   Se estiver habilitado, o campo [!UICONTROL Estimated Value of the Conversion] (não disponível para as métricas [!UICONTROL Page Score]) fornece um valor para a meta. Este valor permite que o [!DNL Target] calcule a estimativa de aumento da receita. Este campo é opcional, mas a receita incremental para qualquer métrica que não seja de receita não pode ser calculada sem ele. O tipo de dados é a moeda. Este campo é exibido progressivamente depois que o usuário indica a ação realizada para satisfazer o objetivo. Consulte [Aumento estimado na receita](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) para obter mais informações.
 
    A configuração correta das métricas de sucesso é essencial para garantir que você obtenha os dados esperados.
 

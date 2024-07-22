@@ -13,7 +13,7 @@ ht-degree: 72%
 
 # Capítulo 4: dicas para usar o Target
 
-Baseado em nosso trabalho com muitos [!DNL Target] observamos maneiras de obter mais valor de seus [!DNL Target] solução. Resumimos elas nas várias dicas incluídas neste capítulo. Embora talvez você não esteja pronto para usar todas essas ideias imediatamente, lembre-se dessa lista. Quanto mais experiência você tiver com a solução e quanto mais seu programa amadurecer, mais você verá como essas dicas podem ajudar a fazer mais com o [!DNL Target].
+Com base em nosso trabalho com muitos usuários do [!DNL Target], observamos maneiras de obter mais valor da solução [!DNL Target]. Resumimos elas nas várias dicas incluídas neste capítulo. Embora talvez você não esteja pronto para usar todas essas ideias imediatamente, lembre-se dessa lista. Quanto mais experiência você tiver com a solução e quanto mais seu programa amadurecer, mais você verá como essas dicas podem ajudar a fazer mais com o [!DNL Target].
 
 ## Dica 1: aumente a personalização ao aumentar o perfil do visitante com dados adicionais.
 
@@ -25,7 +25,7 @@ Consulte [Atributos personalizados](https://experienceleague.adobe.com/docs/targ
 
 **Informações importantes**: como [!DNL Target] é uma plataforma aberta e agnóstica que funciona bem com diferentes tecnologias, você pode adicionar CRM ou dados adquiridos de várias maneiras diferentes. Isso significa que você pode escolher um método que funcione melhor para sua organização.
 
-Consulte [Métodos para colocar os dados no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} para obter mais informações.
+Consulte [Métodos para obter dados no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=pt-BR){target=_blank} para obter mais informações.
 
 ## Dica 2: personalize mais profundamente combinando públicos do [!DNL Target] com outros públicos da Adobe Experience Cloud.
 
@@ -33,11 +33,11 @@ A combinação de públicos-alvo que vivem em diferentes soluções [!DNL Adobe 
 
 Consulte [Combinar vários públicos](/help/main/c-target/combining-multiple-audiences.md) para obter instruções passo a passo.
 
-**Informações importantes**: os públicos-alvo do [!DNL Adobe Audience Manager] estão disponíveis no [!DNL Target] automaticamente. Mas o compartilhamento de público do [!DNL Adobe Analytics] requer uma configuração manual. Marque a caixa denominada &quot;Transformar em público-alvo Experience Cloud&quot; durante o processo de criação do público no [!DNL Analytics]. Depois de [!DNL Target], clique em &quot;Importar públicos-alvo do Experience Cloud&quot;.
+**Informações importantes**: os públicos-alvo do [!DNL Adobe Audience Manager] estão disponíveis no [!DNL Target] automaticamente. Mas o compartilhamento de público do [!DNL Adobe Analytics] requer uma configuração manual. Marque a caixa denominada &quot;Transformar em público-alvo Experience Cloud&quot; durante o processo de criação do público no [!DNL Analytics]. Em seguida, no [!DNL Target], clique em &quot;Importar públicos-alvo do Experience Cloud&quot;.
 
 ## Dica 3: exporte dados do [!DNL Target] para usar com ferramentas de terceiros.
 
-Com os tokens de resposta, os administradores podem enviar dados do [!DNL Target] para ferramentas de terceiros. Isso pode ser útil quando você quiser adicionar seus dados aos coletados em uma ferramenta de pesquisa. Por exemplo, se uma pesquisa mostrar uma amostra de uma população que pontuou uma experiência como &quot;9&quot; e outra que pontuou uma experiência como &quot;4&quot;, você poderá usar seus dados para ver quem viu a experiência A e quem viu a experiência B. Também é possível usar os tokens de resposta para exportar [!DNL Target] para seu data warehouse interno. Basta clicar em &quot;Administração&quot; e depois alternar o switch ao lado do Token de resposta desejado para a posição ligada. Em seguida, crie uma atividade. Os dados estão prontos para serem transferidos para o fornecedor terceirizado. Você pode verificar se o [!DNL Target] está exportando os dados usando as ferramentas de depuração.
+Com os tokens de resposta, os administradores podem enviar dados do [!DNL Target] para ferramentas de terceiros. Isso pode ser útil quando você quiser adicionar seus dados aos coletados em uma ferramenta de pesquisa. Por exemplo, se uma pesquisa mostrar uma amostra de uma população que pontuou uma experiência como &quot;9&quot; e outra que pontuou uma experiência como &quot;4&quot;, você poderá usar seus dados para ver quem viu a experiência A e quem viu a experiência B. Você também pode usar tokens de resposta para exportar dados do [!DNL Target] para seu data warehouse interno. Basta clicar em &quot;Administração&quot; e depois alternar o switch ao lado do Token de resposta desejado para a posição ligada. Em seguida, crie uma atividade. Os dados estão prontos para serem transferidos para o fornecedor terceirizado. Você pode verificar se o [!DNL Target] está exportando os dados usando as ferramentas de depuração.
 
 Consulte [Tokens de resposta](/help/main/administrating-target/response-tokens.md) para obter instruções passo a passo.
 
@@ -73,7 +73,7 @@ Veja como uma oferta, como frete grátis, é executada durante uma jornada do cl
 
 Consulte [Atividade multipáginas](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) para obter instruções passo a passo.
 
-**Dica útil**: alterar o URL após especificar um intervalo de páginas redefinirá a experiência. Isso significa que as variações especificadas não serão mais exibidas. Se precisar alterar o URL, lembre-se de redefinir a experiência.
+**Dica útil**: alterar a URL após especificar um intervalo de páginas redefinirá a experiência. Isso significa que as variações especificadas não serão mais exibidas. Se precisar alterar o URL, lembre-se de redefinir a experiência.
 
 ## Dica 7: teste uma oferta com públicos-alvo diferentes para descobrir se os públicos-alvo têm preferências diferentes.
 
@@ -109,7 +109,7 @@ Muitos profissionais de marketing lançam programas de otimização para segment
 * Qual é a taxa de conversão da página?
 * Por quanto tempo você antecipa a necessidade de executar o teste antes de poder considerá-lo como concluído com confiança?
 
-**Dica Útil**: Use o [!DNL Adobe Target] [Calculadora de tamanho da amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) para ajudar a determinar o tamanho da amostra necessário para um teste bem-sucedido.
+**Dica Útil**: Use a [!DNL Adobe Target] [Calculadora de Tamanho da Amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) para ajudar a determinar o tamanho da amostra necessário para um teste bem-sucedido.
 
 ## Dica 12: projete testes mais simples para garantir que você possa criá-los e implementá-los.
 

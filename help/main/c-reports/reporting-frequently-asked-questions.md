@@ -1,13 +1,13 @@
 ---
 keywords: solução de problemas;discrepâncias de métricas;FAQ;relatórios;novo visitante;novos visitantes;visitante recorrente;visitantes recorrentes;visita de retorno;nova visita
-description: Veja uma lista de perguntas frequentes e respostas sobre o Adobe [!DNL Target] relatórios.
-title: Onde posso encontrar respostas para perguntas sobre o [!DNL Target] Reportando?
+description: Veja uma lista de perguntas frequentes e respostas sobre os relatórios do Adobe [!DNL Target] .
+title: Onde posso encontrar respostas para perguntas sobre o  [!DNL Target] relatório?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1385'
-ht-degree: 25%
+source-wordcount: '1367'
+ht-degree: 20%
 
 ---
 
@@ -29,7 +29,7 @@ Um visitante é incluído no segmento Novos visitantes se uma das seguintes cond
 
 * É a primeira vez que o visitante acessa o site.
 * É a primeira vez que o visitante acessa o site desde a limpeza dos cookies.
-* É a primeira vez que o visitante acessa o site desde que [Tempo de vida do perfil do visitante](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) expirou.
+* É a primeira vez que o visitante acessa o site desde que a [duração do perfil do visitante](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) expirou.
 
 ### Visitantes que retornam
 
@@ -44,7 +44,7 @@ Como a duração do perfil é definida para 14 dias, esse visitante é incluído
 
 ### Exemplos que explicam discrepâncias entre contagens de métrica
 
-**Exemplo 1**: se esses dois segmentos forem aplicados a uma atividade, o segmento Novos visitantes e o segmento Visitantes recorrentes nem sempre somam o número total de visitantes.
+**Exemplo 1**: se esses dois segmentos forem aplicados a uma atividade, o segmento Novos visitantes e o segmento Visitantes recorrentes nem sempre somarão o número total de visitantes.
 
 Considere o exemplo a seguir, considerando as condições mencionadas acima para Novos visitantes e Visitantes recorrentes:
 
@@ -53,7 +53,7 @@ Considere o exemplo a seguir, considerando as condições mencionadas acima para
 
 Esse visitante é contado como um único visitante na contagem geral de visitantes da atividade, mesmo sendo contado nos segmentos Novos visitantes e Visitantes recorrentes.
 
-**Exemplo 2**: as discrepâncias entre as contagens de Novos visitantes e Visitantes recorrentes também dependem de como você configura a variável [métricas de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md).
+**Exemplo 2**: as discrepâncias entre as contagens de Novos visitantes e Visitantes recorrentes também dependem de como você configura as [métricas de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md) da atividade.
 
 Por exemplo:
 
@@ -61,13 +61,13 @@ Vários novos visitantes visitam seu site e são qualificados para uma atividade
 
 Alguns visitantes acessam a métrica de conversão, que foi configurada como &quot;Aumentar contagem e manter o usuário na atividade&quot;. Suponha que alguns desses usuários acessem a métrica de conversão várias vezes, a métrica de conversão não aumenta. Dada essa configuração, no entanto, alguns usuários podem atingir a métrica de conversão e navegar de volta para a página inicial, qualificando-se para a atividade novamente para registrar uma nova visita.
 
-## Por que os relatórios de [!UICONTROL Direcionamento de experiência] (XT) contêm métricas para controlar experiências?
+## Por que meus relatórios do [!UICONTROL Experience Targeting] (XT) contêm métricas para controlar experiências?
 
-As atividades de XT devem sempre ter uma experiência de controle. Se você estiver usando uma atividade de XT de maneira semelhante a uma atividade de [!UICONTROL Teste A/B], que é um cenário bastante comum, os dados da experiência de controle são úteis. Você pode ignorar os dados da experiência de controle se não forem úteis nos relatórios.
+As atividades de XT devem sempre ter uma experiência de controle. Se você estiver usando uma atividade de XT de maneira semelhante a uma atividade [!UICONTROL A/B Test], que é um cenário bastante comum, os dados da experiência de controle são úteis. Você pode ignorar os dados da experiência de controle se não forem úteis nos relatórios.
 
-## Por que os números de visitas diminuem no [!DNL Target] do que em outros [!DNL Adobe Experience Cloud] soluções? {#section_7E626FDB417E41B8B58BBF30FB207409}
+## Por que os números de visitas são menores em [!DNL Target] do que em outras soluções do [!DNL Adobe Experience Cloud]? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
-Números de métrica, por exemplo, visitas, informados por [!DNL Target] são sempre inferiores aos números relatados em outros [!DNL Experience Cloud] por vários motivos:
+Os números métricos, por exemplo visitas, informados por [!DNL Target] são sempre menores que os números informados em outras soluções do [!DNL Experience Cloud] por vários motivos:
 
 * O [!DNL Target] conta visitas somente para visitantes que se qualificaram para a atividade. Outra soluções contam as visitas de visitantes que exibem a página, independentemente de qual atividade os levou à página.
 * Pode haver situações em que diferentes atividades competem pelo mesmo local (mutuamente exclusivo). Como resultado, os visitantes visualizam diferentes conteúdos em uma página da Web, afetando os números de métrica informados pelo [!DNL Target].
@@ -87,16 +87,16 @@ Se um conteúdo de atividade foi entregue com sucesso aos usuários, mas o relat
 
 Para alterar o ambiente de um relatório de atividade:
 
-1. Clique em **[!UICONTROL Atividades]**, clique na atividade desejada da lista, em seguida, clique na guia **[!UICONTROL Relatórios]**.
+1. Clique em **[!UICONTROL Activities]**, clique na atividade desejada da lista, em seguida, clique na guia **[!UICONTROL Reports]**.
 1. Clique no ícone de engrenagem para configurar o relatório.
 
    ![Caixa de diálogo Configurações A/B](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
-1. Na lista suspensa **[!UICONTROL Ambiente]**, selecione **[!UICONTROL Produção]**.
+1. Na lista suspensa **[!UICONTROL Environment]**, selecione **[!UICONTROL Production]**.
 
    Os dados de relatório podem não estar disponíveis se você tem um ambiente de desenvolvimento selecionado.
 
-1. Clique em **[!UICONTROL Salvar]**.
+1. Clique em **[!UICONTROL Save]**.
 
 Para obter mais informações sobre os ambientes, consulte [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
@@ -104,27 +104,27 @@ Para obter mais informações sobre os ambientes, consulte [Hosts](/help/main/ad
 
 Se um conteúdo de atividade foi entregue com sucesso aos usuários, mas o relatório não contiver dados, certifique-se de usar uma experiência com tráfego como experiência de controle.
 
-1. Clique em **[!UICONTROL Atividades]**, clique na atividade desejada da lista, em seguida, clique na guia **[!UICONTROL Relatórios]**.
+1. Clique em **[!UICONTROL Activities]**, clique na atividade desejada da lista, em seguida, clique na guia **[!UICONTROL Reports]**.
 1. Clique no ícone de engrenagem para configurar o relatório.
 
-1. No **[!UICONTROL Controle]** selecione uma experiência que receba tráfego.
+1. Na lista suspensa **[!UICONTROL Control]**, selecione uma experiência que receba tráfego.
 
-1. Clique em **[!UICONTROL Salvar]**.
+1. Clique em **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Para obter mais informações sobre como atualizar uma [!UICONTROL Automated Personalization] e alterar a experiência de controle para uma experiência que recebe tráfego, consulte [Selecione o controle da atividade de Automated Personalization ou Direcionamento automático](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+>Para obter mais informações sobre como atualizar uma atividade de [!UICONTROL Automated Personalization] (AP) e alterar a experiência de controle para uma experiência que recebe tráfego, consulte [Selecionar o controle para sua atividade de Automated Personalization ou Direcionamento automático](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
 
 
 ## Por que o tráfego é dividido entre minhas experiências de forma desigual na minha atividade de A/B ou MVT? {#uneven}
 
-Por exemplo, eu defini a divisão de tráfego para 50/50 ou 25/25/25/25, mas estou vendo uma distribuição muito diferente entre as experiências nos relatórios. Há vários motivos explicáveis para contagens desiguais de visitantes em [!DNL Target] relatórios:
+Por exemplo, eu defini a divisão de tráfego para 50/50 ou 25/25/25/25, mas estou vendo uma distribuição muito diferente entre as experiências nos relatórios. Há vários motivos explicáveis para contagens desiguais de visitantes no relatório [!DNL Target]:
 
-* Quando um [!DNL Target] for iniciada pela primeira vez, a distribuição de tráfego poderá ser desigual devido à arquitetura de nó de borda que [!DNL Target] O usa o para otimizar a entrega da experiência. A prática recomendada é dar a uma atividade algum tempo para coletar mais dados e a distribuição normalizará. Para obter mais informações sobre [!DNL Adobe Target] e nós Edge, consulte [Como o Adobe Target funciona](/help/main/c-intro/how-target-works.md).
-* Se você estiver em [!DNL Target] ou [!DNL Analytics] e você estiver usando o **[!UICONTROL Visitas]** , lembre-se [!DNL Target] é um sistema baseado em visitantes e a distribuição de tráfego para um teste A/B ou MVT é atribuída no nível do visitante. Assim, se você examinar os resultados da atividade usando o **[!UICONTROL Visitas]** , a distribuição do tráfego pode parecer desigual porque alguns visitantes podem ter várias visitas. Visitantes é a métrica de normalização padrão ao avaliar o desempenho da atividade.
+* Quando uma atividade [!DNL Target] é iniciada pela primeira vez, a distribuição de tráfego pode ser desigual devido à arquitetura de nó de borda que o [!DNL Target] usa para otimizar a entrega de experiência. A prática recomendada é dar a uma atividade algum tempo para coletar mais dados e a distribuição normalizará. Para obter mais informações sobre os nós de arquitetura e Edge do [!DNL Adobe Target], consulte [Como o Adobe Target funciona](/help/main/c-intro/how-target-works.md).
+* Se você estiver em [!DNL Target] ou [!DNL Analytics] e estiver usando a métrica **[!UICONTROL Visits]**, lembre-se de que [!DNL Target] é um sistema baseado em visitantes e a distribuição de tráfego para um teste A/B ou MVT é atribuída no nível do visitante. Assim, se você examinar os resultados da atividade usando a métrica **[!UICONTROL Visits]**, a distribuição do tráfego poderá parecer desigual, pois alguns visitantes podem ter várias visitas. Visitantes é a métrica de normalização padrão ao avaliar o desempenho da atividade.
 * A prática recomendada para testes A/B e MVT é manter as divisões de tráfego uniformes. Alterar a distribuição de tráfego entre experiências (por exemplo, de 90/10 para 50/50) durante um teste pode levar a visitantes desiguais entre experiências. A experiência de tráfego mais baixo pode nunca &quot;alcançar o topo&quot;.
 * Se estiver seguindo as práticas recomendadas acima e a divisão de tráfego não normalizar ao longo do tempo, verifique o seguinte:
 
-   * Você está usando a biblioteca at.js mais recente? Para obter mais informações sobre a versão atual e as notas de versão associadas, consulte [Detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank}.
+   * Você está usando a biblioteca at.js mais recente? Para obter mais informações sobre a versão atual e as notas de versão associadas, consulte [detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank}.
 
-   * É um teste de redirecionamento? O tempo incorreto de disparo de tags na página pode gerar divisões de tráfego desiguais, especialmente ao usar [!DNL Analytics] como a fonte de dados de um [!DNL Target] atividade. Para obter detalhes sobre como solucionar a distribuição de tráfego desigual em uma atividade de redirecionamento com o Analytics for Target (A4T), consulte [Ofertas de redirecionamento - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
+   * É um teste de redirecionamento? O tempo incorreto de disparo de tags na página pode gerar divisões de tráfego desiguais, especialmente ao usar [!DNL Analytics] como fonte de dados para uma atividade [!DNL Target]. Para obter detalhes sobre como solucionar a distribuição de tráfego desigual em uma atividade de redirecionamento com o Analytics for Target (A4T), consulte [Perguntas frequentes sobre ofertas de redirecionamento - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

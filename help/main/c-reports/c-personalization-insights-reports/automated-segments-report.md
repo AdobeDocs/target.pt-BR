@@ -1,68 +1,68 @@
 ---
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, direcionamento automático, direcionamento automático, relatório de direcionamento automático, relatório de direcionamento automático, personalização, insights, segmentos automatizados, perguntas frequentes, perguntas frequentes
-description: Saiba como diferentes segmentos definidos pelo Adobe [!DNL Target] os modelos de personalização respondem às ofertas/experiências na atividade ao exibir o relatório de Segmentos automatizados.
+description: Saiba como diferentes segmentos definidos pelos modelos de personalização do Adobe [!DNL Target]  respondem às ofertas/experiências na atividade ao exibir o relatório de Segmentos automatizados.
 title: O que é o relatório de Segmentos automatizados?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2166'
-ht-degree: 70%
+source-wordcount: '2080'
+ht-degree: 60%
 
 ---
 
-# [!UICONTROL Segmentos automatizados] relatório
+# Relatório de [!UICONTROL Automated Segments]
 
-Informações sobre o [!UICONTROL Segmentos automatizados] relatório, um dos dois relatórios especializados à disposição dos [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] (AT) atividades.
+Informações sobre o relatório [!UICONTROL Automated Segments], um dos dois relatórios especializados disponíveis aos usuários de atividades de [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target] (AT).
 
 >[!NOTE]
 >
->Considere o seguinte ao usar relatórios de Insights de personalização:
+>Considere o seguinte ao usar os relatórios do Personalization Insights:
 >
 >* As atividades de AP e AT estão disponíveis como parte da solução [!DNL Target Premium]. Não estão incluídos com o [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
 >
->* [!UICONTROL Insights de personalização] Os relatórios do estão disponíveis somente para atividades de AP e AT que usam uma meta de otimização de conversão. As atividades em que a meta de otimização foi alterada para a conversão da receita após a atividade já estar ativa também não são compatíveis.
+>* Os relatórios [!UICONTROL Personalization Insights] estão disponíveis somente para atividades de AP e AT que usam uma meta de otimização de conversão. As atividades em que a meta de otimização foi alterada para a conversão da receita após a atividade já estar ativa também não são compatíveis.
 >
->* [!UICONTROL Insights de personalização] Os relatórios do estão disponíveis somente se o [!UICONTROL Meta primária] está selecionado no [!UICONTROL Métrica de relatório] lista suspensa.
+>* [!UICONTROL Personalization Insights] relatórios estão disponíveis somente se [!UICONTROL Primary Goal] estiver selecionado na lista suspensa [!UICONTROL Report Metric].
 >
->* [!UICONTROL Insights de personalização] Os relatórios do são compatíveis com o [ambiente padrão](/help/main/administrating-target/hosts.md) somente.
+>* Há suporte para [!UICONTROL Personalization Insights] relatórios somente no [ambiente padrão](/help/main/administrating-target/hosts.md).
 >
->* [!UICONTROL Insights de personalização] os relatórios são gerados somente para atividades que estão na [!UICONTROL Ao vivo] e foram ativados e receberam tráfego por pelo menos 15 dias.
+>* Os relatórios [!UICONTROL Personalization Insights] são gerados apenas para atividades que estão no status [!UICONTROL Live] e foram ativadas e receberam tráfego por pelo menos 15 dias.
 
 Visitantes diferentes respondem de forma distinta às ofertas/experiências na atividade de AP/AT. Este relatório mostra como diferentes segmentos automatizados, definidos pelos modelos de personalização do Target, responderam às ofertas/experiências na atividade.
 
 ## Acessar o relatório de Segmentos automatizados {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Clique em **[!UICONTROL Atividades]** e, em seguida, clique no link [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) atividade na lista.
+1. Clique em **[!UICONTROL Activities]** e depois clique na atividade [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) desejada da lista.
 
-   Se você tiver muitas atividades, pode filtrar a lista selecionando opções na [!UICONTROL Tipo], [!UICONTROL Status], [!UICONTROL Propriedade], [!UICONTROL Fonte dos relatórios], [!UICONTROL Experience Composer], [!UICONTROL Tipo de métricas], e [!UICONTROL Origem da atividade] listas suspensas.
+   Se você tem muitas atividades, você pode filtrar a lista selecionando opções nas listas suspensas [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] e [!UICONTROL Activity Source].
 
-1. Clique em **[!UICONTROL Relatórios]**.
+1. Clique em **[!UICONTROL Reports]**.
 
-   A variável [Resumo do Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) ou [Resumo do direcionamento automático](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) O relatório do é exibido com informações sobre o desempenho de suas atividades, representado pelo primeiro ícone da tela. Os dois ícones adicionais representam os dois relatórios dos Insights de personalização: Segmentos automatizados e Atributos importantes. O Direcionamento automático tem um ícone de gráfico extra para a exibição gráfica do [!UICONTROL Resumo] relatório.
+   O relatório do [Resumo do Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) ou do [Resumo do Direcionamento automático](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) é exibido e fornece informações sobre o desempenho de suas atividades, representado pelo primeiro ícone da tela. Os dois ícones adicionais representam os dois relatórios dos Insights de personalização: Segmentos automatizados e Atributos importantes. O Direcionamento automático tem um ícone de gráfico extra para a exibição gráfica do relatório [!UICONTROL Summary].
 
-   ![Relatório de insights de personalização no Adobe Target](/help/main/c-reports/assets/personalization_insights.png)
+   ![Relatório do Personalization Insights no Adobe Target](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
-   >O relatório de [!UICONTROL Segmentos automatizados] somente estará disponível em, no mínimo, 15 dias após você ter ativado a sua atividade. Durante esse período inicial, você não poderá acessar esse relatório ou clicar no ícone de [!UICONTROL Segmentos automatizados]. Após 15 dias, supondo que haja tráfego personalizado suficiente em sua atividade, o relatório de [!UICONTROL Segmentos automatizados] estará disponível.
+   >O relatório [!UICONTROL Automated Segments] somente estará disponível em, no mínimo, 15 dias após você ter ativado a sua atividade. Durante esse período inicial, você não poderá acessar esse relatório ou clicar no ícone [!UICONTROL Automated Segments]. Após 15 dias, supondo que haja tráfego personalizado suficiente em sua atividade, o relatório [!UICONTROL Automated Segments] estará disponível.
 
-1. Após 15 dias da ativação da atividade, você pode clicar no ícone de **[!UICONTROL Segmentos automatizados.]**
+1. Após 15 dias da ativação da atividade, você pode clicar no ícone **[!UICONTROL Automated Segments]**.
 
    ![Ícone de Segmentos automatizados](/help/main/c-reports/assets/icon-automated-sements.png)
 
 1. Selecione o intervalo de datas desejado.
 
-   Ao contrário do [!UICONTROL Resumo] relatório (relatórios de desempenho), [!UICONTROL Insights de personalização], incluindo [!UICONTROL Segmentos automatizados], está disponível apenas para intervalos de datas fixos: 15 dias, 30 dias e 60 dias. Esses intervalos de datas fixos permitem que os [!UICONTROL Insights de personalização] usem um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. As duas decisões que você pode fazer para o intervalo de datas é a &quot;Data final&quot; e a &quot;Duração&quot;. Você notará que a opção &quot;Iniciar&quot; está esmaecida. A data inicial muda automaticamente com base nas seleções de data final e duração.
+   Ao contrário do relatório do [!UICONTROL Summary] (relatórios de desempenho), o [!UICONTROL Personalization Insights], incluindo o [!UICONTROL Automated Segments], está disponível apenas para intervalos de datas fixos: 15 dias, 30 dias e 60 dias. Esses intervalos de datas fixos permitem que [!UICONTROL Personalization Insights] use um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. As duas decisões que você pode fazer para o intervalo de datas é a &quot;Data final&quot; e a &quot;Duração&quot;. Você notará que a opção &quot;Iniciar&quot; está esmaecida. A data inicial muda automaticamente com base nas seleções de data final e duração.
 
    ![Calendário no relatório do Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
-   Você pode acessar os intervalos de datas fixos disponíveis na lista suspensa [!UICONTROL Escolher duração].
+   Você pode acessar os intervalos de datas fixos disponíveis na lista suspensa [!UICONTROL Choose Duration].
 
-   ![Lista suspensa Duração no Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Lista suspensa de duração no Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
-1. Revise os dados do relatório de [!UICONTROL Segmentos automatizados].
+1. Revise os dados do relatório [!UICONTROL Automated Segments].
 
    ![Relatório de Segmentos automáticos](/help/main/c-reports/assets/automated_segments_report.png)
 
@@ -78,7 +78,7 @@ A tabela a seguir explica como interpretar o relatório e descreve seus elemento
 
 | Elemento | Detalhes |
 |--- |--- |
-| Painel lateral esquerdo | O painel lateral esquerdo lista os 20 maiores &quot;segmentos automatizados&quot; identificados pelos modelos de personalização do Target para esta atividade. Um &quot;segmento automatizado&quot; é como um público-alvo, mas é definido pelos modelos de personalização do Target, e não pelo profissional de marketing. Cada segmento automatizado é composto de valores específicos (ou intervalos de valores), de atributos específicos.<br>Segmentos automatizados podem se sobrepor. Os segmentos automatizados podem ser definidos por um, dois, três ou quatro atributos. Consulte os exemplos abaixo para obter mais detalhes.<br>Para saber mais sobre os modelos de personalização do Target, consulte [Algoritmo Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). Para saber mais sobre os atributos que os modelos de personalização do Target usam para criar segmentos automatizados, consulte [Coleta de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/ap-data.md). |
+| Painel lateral esquerdo | O painel lateral esquerdo lista os 20 maiores &quot;segmentos automatizados&quot; identificados pelos modelos de personalização do Target para esta atividade. Um &quot;segmento automatizado&quot; é como um público-alvo, mas é definido pelos modelos de personalização do Target, e não pelo profissional de marketing. Cada segmento automatizado é composto de valores específicos (ou intervalos de valores), de atributos específicos.<br>Segmentos automatizados podem sobrepor. Os segmentos automatizados podem ser definidos por um, dois, três ou quatro atributos. Consulte os exemplos abaixo para obter mais detalhes.<br>Para saber mais sobre os modelos de personalização do Target, consulte [Algoritmo Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). Para saber mais sobre os atributos que os modelos de personalização do Target usam para criar segmentos automatizados, consulte [Coleta de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/ap-data.md). |
 | Gráfico central | Os gráficos centrais mostram como o conteúdo da atividade foi executado para o segmento automatizado destacado. Ao clicar em segmentos diferentes no painel esquerdo, os gráficos centrais são atualizados. |
 | Gráficos de pizza | Os gráficos de pizza na parte superior do painel central mostram o tamanho do segmento automatizado, bem como o número total de visitas personalizadas na atividade (por exemplo, o tráfego para essa atividade que foi distribuído pelo modelo de personalização. Não inclui o tráfego de controle ou o tráfego distribuído pelo modelo vencedor global). O tamanho do segmento se baseia somente em visitas personalizadas.<br>![Gráfico de pizza](/help/main/c-reports/assets/pie.png) |
 | Gráfico de barras de dois eixos | O gráfico de barras de dois eixos inclui informações de visita e conversão por meio da oferta ou experiência para esse segmento automatizado específico. |
@@ -90,29 +90,29 @@ A tabela a seguir explica como interpretar o relatório e descreve seus elemento
 
 Este segmento automatizado é definido com base em apenas um atributo. Os visitantes incluídos neste segmento automatizado viram esta atividade de AP em um dia de semana fora do horário normal de trabalho ou em um final de semana.
 
-![Exemplo 1 de relatório de Segmentos automatizados](/help/main/c-reports/assets/automated_segment_example_1.png)
+![Exemplo de relatório de Segmentos automatizados 1](/help/main/c-reports/assets/automated_segment_example_1.png)
 
 **Exemplo de segmento automatizado 2**
 
 Este segmento automatizado é definido com base em dois atributos. Os visitantes incluídos neste segmento automatizado que viram esta atividade de AP tinham menos de três visualizações de página em sua visita atual e estavam geograficamente localizados na Latitude 42,57 e 47,29 (aproximadamente entre New Hampshire/Oregon e Washington/Maine para uma empresa com sede nos EUA).
 
-![Exemplo 2 de relatório de Segmentos automatizados](/help/main/c-reports/assets/automated_segment_example_2.png)
+![Exemplo de relatório de Segmentos automatizados 2](/help/main/c-reports/assets/automated_segment_example_2.png)
 
 ## Perguntas frequentes de Segmentos automáticos {#section_740910A52FA646B4AC9452F98C2F5719}
 
 **Relatórios de Insights de personalização não estão disponíveis ainda para minha atividade. Por que isso ocorre?**
 
-Há diversos motivos pelos quais os relatórios dos [!UICONTROL Insights de personalização] ainda não estão disponíveis para a sua atividade:
+Há vários motivos pelos quais os relatórios [!UICONTROL Personalization Insights] ainda não estão disponíveis para a sua atividade:
 
 * Não se passaram 15 dias desde que você ativou a atividade. Os relatórios de Segmentos automatizados e Atributos importantes não estarão disponíveis até pelo menos 15 dias após o início da atividade. Durante esse período inicial, você não poderá acessar esses relatórios ou clicar nos ícones de Segmentos automatizados e Atributos personalizados do modelo.
 * Sua atividade não teve tráfego suficiente durante o intervalo de tempo especificado. Após 15 dias, supondo que haja tráfego personalizado suficiente na atividade para criar modelos de personalização, os relatórios de Segmentos automatizados e Atributos importantes ficarão disponíveis.
-* Sua atividade tem uma meta de otimização de receita. Atualmente, [!UICONTROL Insights de personalização] O está disponível somente para atividades com meta de otimização de conversão. O Adobe adicionará suporte para atividades com meta de otimização de receita em uma versão futura.
+* Sua atividade tem uma meta de otimização de receita. Atualmente, o [!UICONTROL Personalization Insights] está disponível apenas para atividades com meta de otimização de conversão. O Adobe adicionará suporte para atividades com meta de otimização de receita em uma versão futura.
 
 **O que é um atributo?**
 
 Um atributo é a informação sobre um visitante ou sua visita específica usada pelos algoritmos de personalização para saber como personalizar o tráfego. Por exemplo, um atributo pode ser o tipo de navegador, a localização, a hora do dia da visita e assim por diante.
 
-Para obter mais informações sobre quais atributos o [!DNL Target] usa em seus modelos de personalização, consulte [Coleta de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obter mais informações sobre como fazer upload de novos atributos no Target para usar nos modelos de personalização do Target, consulte [Métodos para colocar os dados no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+Para obter mais informações sobre quais atributos o [!DNL Target] usa em seus modelos de personalização, consulte [Coleta de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obter mais informações sobre como carregar novos atributos no Target para usar nos modelos de personalização do Target, consulte [Métodos para obter dados no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=pt-BR){target=_blank}.
 
 **O que é um segmento automatizado?**
 
@@ -128,7 +128,7 @@ Uma pontuação é calculada para cada segmento, com base no seu tamanho e desem
 
 **Por que apenas algumas das minhas ofertas/experiências são exibidas no relatório dos Segmentos automatizados?**
 
-As atividades de AP e de AT criam um modelo por oferta (no caso de AP) e um modelo por experiência (no caso de AT). Essas atividades começam distribuindo o tráfego personalizado e criam seus [!UICONTROL Insights de personalização] com apenas dois modelos elaborados. Se não visualizar todas as suas ofertas/experiências no [!UICONTROL Insights de personalização], é provável que você não tenha modelos criados para essas ofertas/experiências específicas. Você pode verificar o status da sua atividade [!UICONTROL Resumo] relate e veja se há um ícone de relógio ao lado dessa oferta/experiência. Esse ícone indica que os modelos ainda não foram criados para essa oferta/experiência.
+As atividades de AP e de AT criam um modelo por oferta (no caso de AP) e um modelo por experiência (no caso de AT). Essas atividades começam distribuindo o tráfego personalizado e criam o seu [!UICONTROL Personalization Insights] com apenas dois modelos compilados. Se não visualizar todas as suas ofertas/experiências no [!UICONTROL Personalization Insights], é provável que você não tenha modelos criados para essas ofertas/experiências específicas. Você pode verificar o relatório de [!UICONTROL Summary] da sua atividade e ver se há um ícone de relógio ao lado dessa oferta/experiência. Esse ícone indica que os modelos ainda não foram criados para essa oferta/experiência.
 
 **Por que algumas ofertas/experiências com uma taxa de conversão mais baixa recebem uma quantidade maior de tráfego em comparação a outras ofertas/experiências para um determinado segmento automatizado?**
 
@@ -138,29 +138,29 @@ Há vários motivos possíveis pelos quais você pode ver mais visitas para uma 
 * Atividades com volume menor, nas quais determinadas ofertas/experiências não têm modelos criados ou os modelos foram criados antes para algumas ofertas/experiências do que para outras.
 * Regras de direcionamento em uma oferta específica que limitam quais visitantes podem ver quais ofertas/experiências.
 
-**As informações nos relatórios dos [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes] são as mesmas que no download do CSV?**
+**As informações nos relatórios [!UICONTROL Automated Segments] e [!UICONTROL Important Attributes] são as mesmas do download do CSV?**
 
 Não, o relatório da interface do usuário contém informações selecionadas. O download do CSV contém detalhes adicionais. O download do relatório de Insights do segmento automatizado contém Segmentos automatizados adicionais, além dos principais segmentos incluídos na interface do usuário, juntamente com a forma como esses segmentos são executados em relação às ofertas ou experiências. O relatório de Atributos importantes inclui os 100 principais atributos de visitantes e sua importância relativa, enquanto a interface do usuário inclui apenas os 10 principais atributos de visitantes.
 
-**Posso ver[!UICONTROL  os ]Insights de personalização para um intervalo de datas personalizado?**
+**Posso ver [!UICONTROL Personalization Insights] para um intervalo de datas personalizado?**
 
-Relatórios de insights de personalização (ambos [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes]) está disponível somente para intervalos de datas fixos: 15 dias, 30 dias e 60 dias. Esses intervalos de datas fixos permitem que os [!UICONTROL Insights de personalização] usem um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. Você pode selecionar essas durações para qualquer data final (onde esses dados são suficientes na atividade para atender a duração).
+Os relatórios do Personalization Insights ([!UICONTROL Automated Segments] e [!UICONTROL Important Attributes]) estão disponíveis apenas para intervalos de datas fixos: 15 dias, 30 dias e 60 dias. Esses intervalos de datas fixos permitem que [!UICONTROL Personalization Insights] use um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. Você pode selecionar essas durações para qualquer data final (onde esses dados são suficientes na atividade para atender a duração).
 
-**Como os [!UICONTROL Insights de personalização] são criados?**
+**Como [!UICONTROL Personalization Insights] é criado?**
 
-Os [!UICONTROL Insights de personalização] são criados usando uma técnica de patente pendente da Adobe chamada MAGIX (Model Agnostic Globally Interpretable Explanations). Você pode saber mais sobre o MAGIX no paper publicado pela equipe de pesquisa do Adobe sobre o [site arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Personalization Insights] é criado usando uma técnica de Adobe com patente pendente chamada MAGIX (Model Agnostic Globally Interpretable Explanations). Você pode saber mais sobre o MAGIX no paper publicado pela equipe de pesquisa do Adobe no [site arXiv.org](https://arxiv.org/abs/1706.07160).
 
-**Por que o total de dados de tráfego dos visitantes no relatório de [!UICONTROL Segmentos automatizados] não corresponde ao meu relatório de resumo/desempenho de AP ou AT?**
+**Por que o total de dados de tráfego dos visitantes no relatório [!UICONTROL Automated Segments] não corresponde ao meu relatório de Resumo/Desempenho de AP ou AT?**
 
-A variável [!UICONTROL Insights de personalização] os relatórios incluem apenas visitantes que viram uma parte do conteúdo selecionado por modelos de personalização do Target (isto é, não considera o tráfego de controle ou o tráfego distribuído pelo modelo vencedor global). Esse tipo de tráfego é chamado de tráfego &quot;personalizado&quot;. O relatório de resumo/desempenho em AP/AT inclui controle versus tráfego &quot;direcionado&quot;. O tráfego direcionado inclui o tráfego personalizado, bem como o distribuído usando o modelo vencedor global e algum tráfego distribuído aleatoriamente para continuar o aprendizado.
+Os relatórios [!UICONTROL Personalization Insights] incluem somente visitantes que viram uma parte do conteúdo selecionado por modelos de personalização do Target (isto é, não considera o tráfego de controle ou o tráfego distribuído pelo modelo vencedor global). Esse tipo de tráfego é chamado de tráfego &quot;personalizado&quot;. O relatório de resumo/desempenho em AP/AT inclui controle versus tráfego &quot;direcionado&quot;. O tráfego direcionado inclui o tráfego personalizado, bem como o distribuído usando o modelo vencedor global e algum tráfego distribuído aleatoriamente para continuar o aprendizado.
 
 **Os segmentos automatizados são mutuamente exclusivos?**
 
 Não, há uma sobreposição entre os segmentos automatizados.
 
-**Os [!UICONTROL Insights de personalização] estão disponíveis para metas de modelagem baseadas em receita/meta principal?**
+**O [!UICONTROL Personalization Insights] está disponível para metas de modelagem baseadas em receita/meta principal?**
 
-No momento, os [!UICONTROL Insights de personalização] estão disponíveis apenas para atividades com meta de otimização de conversão. O Adobe adicionará suporte para atividades com meta de otimização de receita em uma versão futura.
+No momento, o [!UICONTROL Personalization Insights] está disponível apenas para atividades com meta de otimização de conversão. O Adobe adicionará suporte para atividades com meta de otimização de receita em uma versão futura.
 
 **Quais são as diferentes formas de usar as informações nos Insights de personalização?**
 

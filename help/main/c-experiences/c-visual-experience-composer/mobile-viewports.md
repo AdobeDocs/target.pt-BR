@@ -6,8 +6,8 @@ feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 100%
+source-wordcount: '1350'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,6 @@ O recurso de visualização de visor móvel é projetado para sites responsivos 
 > * Use visores móveis se o seu site for responsivo e os mesmos elementos na sua página de desktop forem usados na sua página móvel em uma configuração diferente. Se você tiver um site móvel separado com uma estrutura separada, como `m.mysite.com`, use uma [atividade multipáginas](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48).
 >
 >* Os visores móveis não estarão disponíveis se sobrepostos por uma oferta de redirecionamento.
-
 
 Uma visor é definido pelo tamanho do retângulo preenchido por uma página da Web na sua tela. O visor é o tamanho da janela do navegador, menos as barras de rolagem e as barras de ferramentas. Os navegadores usam &quot;pixels CSS&quot;. Em vários dispositivos, como os com telas de retina, o visor é menor que a resolução de dispositivo anunciada.
 
@@ -55,7 +54,7 @@ Abaixo, estão visores e resoluções para dispositivos populares. Lembre-se de 
 | iPhone 6s | 375 x 667 | 750 x 1334 |
 | iPhone 6 Plus | 414 x 736 | 1080 x 1920 |
 | iPhone 6 | 375 x 667 | 750 x 1334 |
-| iPad   Pro | 1024 x 1366 | 2048 x 2732 |
+| iPad Pro | 1024 x 1366 | 2048 x 2732 |
 | iPad de terceira e quarta geração | 768 x 1024 | 1536 x 2048 |
 | iPad Air 1 e 2 | 768 x 1024 | 1536 x 2048 |
 | iPad Mini | 768 x 1024 | 768 x 1024 |
@@ -98,14 +97,14 @@ Se o seu site não for responsivo, use o Mobile Web Composer para exibir um site
 
 Configure os visores móveis que você deseja disponibilizar ao criar suas experiências.
 
-1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]**.
-1. Na seção **[!UICONTROL Configuração de visores móveis]**, clique em **[!UICONTROL Adicionar]**.
+1. Clique em **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
+1. Na seção **[!UICONTROL Mobile viewports configuration]**, clique em **[!UICONTROL Add]**.
 
    ![Adicionar visor](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
    Ou
 
-   Para alterar a configuração de um visor móvel existente, selecione o visor e clique no ícone [!UICONTROL Editar] (lápis).
+   Para alterar a configuração de um visor móvel existente, selecione o visor e clique no ícone [!UICONTROL Edit] (lápis).
 
 1. Digite um nome para a janela de visualização móvel.
 
@@ -127,7 +126,7 @@ Configure os visores móveis que você deseja disponibilizar ao criar suas exper
 
    Se você usa o [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) e selecionar um sistema operacional, o emula aquele dispositivo quando você visualiza a página. [!DNL Target] Por exemplo, se houver uma aparência diferente para Android e iOS em seu site responsivo, o [!DNL Target] imita esse comportamento.
 
-1. Clique em **[!UICONTROL Salvar]**.
+1. Clique em **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -138,11 +137,11 @@ Configure os visores móveis que você deseja disponibilizar ao criar suas exper
 Adicione visores móveis a atividades do [!DNL Target] para criar atividades responsivas para telas móveis.
 
 1. Crie a [atividade desejada](/help/main/c-activities/activities.md).
-1. No [!UICONTROL Visual Experience Composer] (VEC), clique no ícone de engrenagem **[!UICONTROL Configurações]** e selecione **[!UICONTROL Adicionar visores móveis]**.
+1. No [!UICONTROL Visual Experience Composer] (VEC), clique no ícone de engrenagem **[!UICONTROL Settings]** e selecione **[!UICONTROL Add Mobile Viewports]**.
 
    ![Opção adicionar visores móveisl](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. Clique no ícone **[!UICONTROL Dispositivos]** e ative cada dispositivo com um visor móvel.
+1. Clique no ícone **[!UICONTROL Devices]** e habilite cada dispositivo com um visor móvel.
 
    ![Ativar visores móveis](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 
@@ -164,7 +163,7 @@ Adicione visores móveis a atividades do [!DNL Target] para criar atividades res
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Visual Experience Composer (2 de 2) (7:29)  ![Selo de visão geral](/help/main/assets/overview.png)
+### Visual Experience Composer (2 de 2) (7:29) ![Selo de visão geral](/help/main/assets/overview.png)
 
 O vídeo de demonstração a seguir inclui informações sobre o uso do Visual Experience Composer para funcionar com visores móveis:
 

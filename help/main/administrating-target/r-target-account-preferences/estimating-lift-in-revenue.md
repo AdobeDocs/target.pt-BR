@@ -7,18 +7,18 @@ role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 84%
+source-wordcount: '533'
+ht-degree: 85%
 
 ---
 
 # Aumento estimado na receita
 
-Uso [!DNL Adobe Target] para fazer uma estimativa do aumento de receita que você obterá se todos os usuários visualizarem a experiência vencedora.
+Use [!DNL Adobe Target] para fazer uma estimativa do aumento de receita que você obterá se todos os usuários visualizarem a experiência vencedora.
 
 >[!NOTE]
 >
->O aumento estimado não está disponível para [!UICONTROL Direcionamento de experiência] atividades do (XT) neste momento.
+>O aumento estimado não está disponível para atividades de [!UICONTROL Experience Targeting] (XT) no momento.
 
 Por padrão, o recurso de estimativa de aumento fica desativado. Isso pode ser ativado nas suas preferências de conta. Apenas usuários de Administração da Experience Cloud podem habilitar ou desabilitar esse recurso. Se uma estimativa de aumento for desabilitada, os campos correspondentes não aparecerão na interface. Desabilitar o recurso não resulta em perda de dados, inclusive os dados usados para as estimativas. As estimativas são baseadas em dados coletados independentemente de o recurso estar habilitado ou não.
 
@@ -30,7 +30,7 @@ Esta estimativa calcula a quantidade de aumento alcançado pela experiência ven
 
 O aumento estimado na receita é calculado com base na receita por visita (RPV) obtida da métrica da meta primária.
 
-O aumento estimado é calculado utilizando a seguinte fórmula: (&lt;winning experience=&quot;&quot; rpv=&quot;&quot;> - &lt;control experience=&quot;&quot; rpv=&quot;&quot; span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />&lt;total number=&quot;&quot; of=&quot;&quot; visitors=&quot;&quot; in=&quot;&quot; the=&quot;&quot; activity=&quot;&quot;>&#42;
+O aumento estimado é calculado usando a seguinte fórmula: (&lt;RPV de experiência vencedora> - &lt;RPV de experiência de controle&lt;)&#42;&lt;número total de visitantes na atividade>
 
 O número resultante será arredondado para a casa decimal máxima, se a forma condensada tiver apenas um único dígito antes do decimal. Por exemplo: US$ 1,6 milhões, US$ 60 mil, US$ 900, US$ 8,5 mil, US$ 205 mil
 

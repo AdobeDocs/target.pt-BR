@@ -5,9 +5,9 @@ title: Como o  [!DNL Target]  funciona?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
-workflow-type: ht
-source-wordcount: '2507'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2465'
+ht-degree: 89%
 
 ---
 
@@ -39,7 +39,7 @@ No [!DNL Target], cada elemento na página faz parte de uma única experiência 
 
 O conteúdo exibido para os visitantes depende do tipo de atividade que você cria:
 
-### [!UICONTROL Teste A/B]
+### [!UICONTROL A/B Test]
 
 O conteúdo exibido em um teste A/B básico é escolhido aleatoriamente a partir das experiências atribuídas à atividade. É possível atribuir as porcentagens de alocação de tráfego para cada experiência. Como resultado dessa divisão aleatória de tráfego, pode ser necessário muito tráfego inicial mesmo antes das porcentagens aparecerem. Por exemplo, se você criar duas experiências, a inicial será escolhida aleatoriamente. Se houver pouco tráfego, é possível que a porcentagem de visitantes venha a tender para uma experiência. À medida que o tráfego aumenta, as porcentagens ficam iguais.
 
@@ -52,35 +52,35 @@ O conteúdo exibido em um teste A/B básico é escolhido aleatoriamente a partir
 
 Consulte [Criar um teste A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) para obter mais informações.
 
-### [!UICONTROL Alocação automática]
+### [!UICONTROL Auto-Allocate]
 
-[!UICONTROL A alocação automática] identifica um vencedor entre duas ou mais experiências. [!UICONTROL A alocação automática] realoca automaticamente mais tráfego para a experiência vencedora, o que ajuda a aumentar as conversões enquanto o teste continua a ser executado e aprendido.
+[!UICONTROL Auto-Allocate] identifica um vencedor entre duas ou mais experiências. O [!UICONTROL Auto-Allocate] realoca automaticamente mais tráfego para a experiência vencedora, o que ajuda a aumentar as conversões enquanto o teste continua a ser executado e aprendido.
 
-Consulte [[!UICONTROL Alocação automática]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) para obter mais informações.
+Consulte [[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) para obter mais informações.
 
-### [!UICONTROL Direcionamento automático] (AT)
+### [!UICONTROL Auto-Target] (ÀS)
 
-O [!UICONTROL direcionamento automático] usa aprendizagem de máquina avançada para selecionar várias experiências definidas pelo profissional de marketing com desempenho elevado. O [!UICONTROL direcionamento automático] entrega a experiência mais personalizada para cada visitante. A entrega de experiência é baseada em perfis de clientes individuais e no comportamento de visitantes anteriores com perfis semelhantes. Use o [!UICONTROL direcionamento automático] para personalizar o conteúdo e gerar conversões.
+[!UICONTROL Auto-Target] usa aprendizagem de máquina avançada para selecionar várias experiências definidas pelo profissional de marketing com desempenho elevado. [!UICONTROL Auto-Target] retorna a experiência mais personalizada para cada visitante. A entrega de experiência é baseada em perfis de clientes individuais e no comportamento de visitantes anteriores com perfis semelhantes. Use o [!UICONTROL Auto-Target] para personalizar o conteúdo e gerar conversões.
 
 Consulte [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) para obter mais informações.
 
 ### [!UICONTROL Automated Personalization] (AP)
 
-A [!UICONTROL Automated Personalization] (AP) combina ofertas ou mensagens e usa aprendizado de máquina avançado para combinar diferentes variações de oferta para cada visitante. A entrega de experiência é baseada em perfis de clientes individuais para personalizar o conteúdo e aumentar o incentivo.
+A [!UICONTROL Automated Personalization] (AP) combina ofertas ou mensagens e usa aprendizagem de máquina avançada para corresponder diferentes variações de oferta a cada visitante. A entrega de experiência é baseada em perfis de clientes individuais para personalizar o conteúdo e aumentar o incentivo.
 
 Consulte [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) para obter mais informações.
 
-### [!UICONTROL Direcionamento de experiência] (XT)
+### [!UICONTROL Experience Targeting] (XT)
 
-O [!UICONTROL Direcionamento de experiência] (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.
+O [!UICONTROL Experience Targeting] (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.
 
-O [!UICONTROL Direcionamento de experiência], incluindo a geolocalização, é algo valioso para definir regras que direcionem uma experiência ou conteúdo específico para um público em particular. Várias regras podem ser definidas em uma atividade para levar diferentes variações de conteúdo para públicos-alvo diferentes. Quando visitantes acessam o seu site, o [!UICONTROL direcionamento de experiência] (XT) os avalia para determinar se eles atendem aos critérios que você definiu. Se cumprirem os critérios, eles entram na atividade e a experiência projetada para o público-alvo qualificado é exibida. Você pode criar experiências para diversos públicos-alvo dentro de uma única atividade.
+[!UICONTROL Experience Targeting], incluindo a geolocalização, é algo valioso para definir regras que direcionem uma experiência ou conteúdo específico para um público em particular. Várias regras podem ser definidas em uma atividade para levar diferentes variações de conteúdo para públicos-alvo diferentes. Quando visitantes acessam o seu site, o [!UICONTROL Experience Targeting] (XT) os avalia para determinar se eles atendem aos critérios que você definiu. Se cumprirem os critérios, eles entram na atividade e a experiência projetada para o público-alvo qualificado é exibida. Você pode criar experiências para diversos públicos-alvo dentro de uma única atividade.
 
 Consulte [Direcionamento de experiência](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) para obter mais informações.
 
-### [!UICONTROL Teste multivariado] (MVT)
+### [!UICONTROL Multivariate Test] (MVT)
 
-O [!UICONTROL Multivariate Testing] (MVT) compara combinações de ofertas entre elementos de uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico. O MVT ajuda a identificar qual elemento afeta mais o sucesso da atividade.
+O [!UICONTROL Multivariate Testing] (MVT) compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico. O MVT ajuda a identificar qual elemento afeta mais o sucesso da atividade.
 
 Consulte [Teste multivariado](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) para obter mais informações.
 
@@ -148,14 +148,14 @@ A [!DNL Adobe] protege a experiência do usuário por otimizar e salvaguardar o 
 
 * A [!DNL Adobe] assegura referências de desempenho com base em padrões do setor, que são garantidos pelo Contrato de nível de serviço da Adobe.
 * A rede de borda assegura a entrega de dados em tempo hábil.
-* A [!UICONTROL Adobe] emprega uma abordagem de múltiplas camadas para proteger seus aplicativos, fornecendo o maior nível de disponibilidade e confiabilidade para os clientes.
+* A [!UICONTROL Adobe] emprega uma abordagem de múltiplas camadas para proteger seus aplicativos, fornecendo o mais alto nível de disponibilidade e confiabilidade para os clientes.
 * O [!DNL Target] Consulting oferece assistência na implementação e suporte contínuo ao produto.
 
 ## Teste compatível com a Otimização do mecanismo de pesquisa (SEO) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 O [!DNL Adobe Target] está alinhado às diretrizes de mecanismo de busca para teste.
 
-O Google incentiva os usuários a testarem. O Google declara em sua documentação que os testes A/B e o [!UICONTROL Multivariate Testing]não prejudicam as classificações dos mecanismos de pesquisa orgânica se determinadas diretrizes forem obedecidas.
+O Google incentiva os usuários a testarem. O Google declara em sua documentação que o A/B e o [!UICONTROL Multivariate Testing] não prejudicam as classificações dos mecanismos de pesquisa orgânica se determinadas diretrizes forem obedecidas.
 
 Para obter mais informações, consulte os seguintes recursos da Google:
 
@@ -194,7 +194,7 @@ Além dessas diretrizes, a Google também fornece mais uma diretriz na documenta
 
 A Google afirma, como um exemplo, que “se a página original de um site é carregada com palavras-chave não relacionadas às combinações sendo exibidas aos usuários, nós podemos remover esse site do nosso índice.”
 
-A [!UICONTROL Adobe] acha que seria difícil alterar involuntariamente o significado do conteúdo original nas variações de teste. No entanto, a [!UICONTROL Adobe] recomenda estar ciente dos temas de palavras-chave em uma página e mantê-los. Alterações no conteúdo da página, especialmente adicionando ou excluindo palavras-chave relevantes, pode resultar em alterações de classificação ao URL na pesquisa orgânica. A [!DNL Adobe] recomenda que você envolva seu parceiro de SEO como parte de protocolo de testes.
+[!UICONTROL Adobe] acha que seria difícil alterar involuntariamente o significado do conteúdo original nas variações de teste. No entanto, o [!UICONTROL Adobe] recomenda estar ciente dos temas de palavras-chave em uma página e mantê-los. Alterações no conteúdo da página, especialmente adicionando ou excluindo palavras-chave relevantes, pode resultar em alterações de classificação ao URL na pesquisa orgânica. A [!DNL Adobe] recomenda que você envolva seu parceiro de SEO como parte de protocolo de testes.
 
 ## Bots {#bots}
 
@@ -211,7 +211,7 @@ Especificamente para o tráfego de bot conhecido, o [!DNL Target] não:
 * Cria ou recupera um perfil do visitante
 * Registra os atributos de perfil ou executa scripts de perfil
 * Procura segmentos do [!DNL Adobe Audience Manager] (AAM) (se aplicável)
-* Use o tráfego de bots na modelagem e veiculação de conteúdo personalizado para atividades do [!UICONTROL Recommendations], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] ou [!UICONTROL Auto-Allocate]
+* Use o tráfego de bot para modelar e veicular conteúdo personalizado para atividades do [!UICONTROL Recommendations], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] ou [!UICONTROL Auto-Allocate]
 * Registra uma visita de atividade para relatório
 * Registra dados a serem enviados para a plataforma da [!DNL Adobe Experience Cloud]
 

@@ -1,6 +1,6 @@
 ---
 keywords: recommendations;implementar recomendações;código de cliente;token de autenticação;vertical do setor;modo incompatível com filtro;grupo de hosts padrão;base de miniaturas;gerar token de autenticação;token de autenticação;
-description: Saiba como definir configurações para [!DNL Adobe Target Recommendations].
+description: Saiba como definir configurações para  [!DNL Adobe Target Recommendations].
 title: Como definir as configurações do Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Administration & Configuration
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Saiba como definir configurações para [!DNL Adobe Target Recommendations].
 
-Para acessar o [!DNL Recommendations] opções de configurações, abrir [!DNL Target] no [!DNL Adobe Experience Cloud]e, em seguida, clique em [!UICONTROL Administration] > [!UICONTROL Recommendations].
+Para acessar as opções de configurações de [!DNL Recommendations], abra [!DNL Target] no [!DNL Adobe Experience Cloud] e clique em [!UICONTROL Administration] > [!UICONTROL Recommendations].
 
 Você pode definir as seguintes configurações:
 
@@ -31,4 +31,4 @@ Você pode definir as seguintes configurações:
 * Especificar o URL da base de miniaturas
 * Configurar chaves de atributo personalizadas
 
-Para obter informações detalhadas, consulte [Planejar e implementar o Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations-beta){target=_blank} no **[!DNL Adobe Target]Guia do desenvolvedor**.
+Para obter informações detalhadas, consulte [Planejar e implementar o Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations-beta){target=_blank} no **[!DNL Adobe Target]Guia do Desenvolvedor**.

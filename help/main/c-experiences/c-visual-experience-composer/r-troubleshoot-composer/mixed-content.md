@@ -5,9 +5,9 @@ title: Como habilitar conteúdo misto no meu navegador
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 source-git-commit: c5b43faa2fc55c2c8737e586cfdfaa1444a05880
-workflow-type: ht
-source-wordcount: '560'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '536'
+ht-degree: 87%
 
 ---
 
@@ -41,11 +41,11 @@ Consulte “[Gerenciamento de avisos sobre sites inseguros](https://support.goog
 
 Se estiver usando o VEC com a versão mais recente do [!DNL Chrome] (versão 79.0.3945.117 ou posterior), será necessário atualizar as configurações do site. Os visitantes do seu site não precisam concluir essas etapas.
 
-1. Clique no ícone de bloqueio (cuidado) e clique em **[!UICONTROL Configurações do site]**.
+1. Clique no ícone de bloqueio (cuidado) e clique em **[!UICONTROL Site settings]**.
 
    ![Configurações do site](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. Role a tela até **[!UICONTROL Conteúdo não seguro]**, em seguida, use a lista suspensa para alterar “Bloquear (padrão)” para “Permitir”.
+1. Role a tela até **[!UICONTROL Insecure content]**, em seguida, use a lista suspensa para alterar &quot;Bloquear (padrão)&quot; para &quot;Permitir&quot;.
 
    ![Conteúdo não seguro](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
@@ -78,10 +78,10 @@ Se você estiver acessando um site através de uma conexão segura, o [!DNL Edge
 
 Se estiver usando o VEC com a versão mais recente do [!DNL Edge], será necessário atualizar as configurações do site. Os visitantes do seu site não precisam concluir essas etapas.
 
-1. No [!DNL Edge], clique em **[!DNL Microsoft Edge]** na barra de menu, **[!UICONTROL Configurações]** e selecione **Cookies e permissões do site**.
+1. Em [!DNL Edge], clique em **[!DNL Microsoft Edge]** na barra de menus, **[!UICONTROL Settings]**, e em **Cookies e Permissões de Site**.
 
-1. Navegue até **[!UICONTROL Conteúdo inseguro]**.
+1. Navegue até **[!UICONTROL Insecure content]**.
 
-1. Clique em **[!UICONTROL Conteúdo inseguro]** e selecione **[!UICONTROL Adicionar]** ao lado de **[!UICONTROL Permitir]**. Adicione o site no qual deseja permitir o conteúdo inseguro e clique em **[!UICONTROL Adicionar]**.
+1. Clique em **[!UICONTROL Insecure content]** e, em seguida, clique em **[!UICONTROL Add]** ao lado de **[!UICONTROL Allow]**, adicione o site no qual deseja permitir conteúdo não seguro e clique em **[!UICONTROL Add]**.
 
 1. Recarregue a página do VEC.

@@ -1,23 +1,23 @@
 ---
 keywords: design de recomendações, modelo, criar design, entrega, saída
-description: Saiba como usar designs no Adobe [!DNL Target] Recommendations para definir como as recomendações são exibidas em uma página (1X4, 1X6, 2X2 e assim por diante).
+description: Saiba como usar designs no Adobe [!DNL Target] Recommendations para definir como as recomendações são exibidas em uma página (1X4, 1X6, 2X2, etc).
 title: Como usar designs no Recommendations?
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 32%
+source-wordcount: '201'
+ht-degree: 19%
 
 ---
 
 # Visão geral do design
 
-Designs em [!DNL Adobe Target Recommendations] defina como as recomendações são exibidas em uma página. Os designs definem o layout e o formato de suas recomendações para melhorar o envolvimento, a conversão e a receita do visitante.
+Os designs no [!DNL Adobe Target Recommendations] definem como as recomendações são exibidas em uma página. Os designs definem o layout e o formato de suas recomendações para melhorar o envolvimento, a conversão e a receita do visitante.
 
-[!DNL Recommendations] O vem com vários designs padrão (pré-compilação) ou você pode criar os seus próprios.
+O [!DNL Recommendations] vem com vários designs padrão (pré-compilação) ou você pode criar os seus próprios designs.
 
-[!DNL Target]O pode fornecer a aparência completa de suas recomendações, conforme mostrado na ilustração a seguir. O design pode incluir HTML, JavaScript e CSS. Esse design é chamado de design 4 x 1: quatro espaços em uma linha.
+O [!DNL Target] pode fornecer a aparência completa de suas recomendações, conforme mostrado na ilustração a seguir. O design pode incluir HTML, JavaScript e CSS. Esse design é chamado de design 4 x 1: quatro espaços em uma linha.
 
 ![imagem velocity_example](assets/velocity_example.png)
 

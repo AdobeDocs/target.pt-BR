@@ -6,14 +6,14 @@ feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 46%
+source-wordcount: '597'
+ht-degree: 33%
 
 ---
 
 # Incluir a mesma experiência em páginas semelhantes
 
-Usar um modelo de página no [!DNL Adobe Target] para fornecer estrutura às suas páginas, ou se as páginas contiverem elementos semelhantes, para testar variações em elementos de página estruturadas de forma semelhante ou em todo o domínio.
+Use um modelo de página no [!DNL Adobe Target] para fornecer estrutura às suas páginas, ou, se as páginas contiverem elementos semelhantes, para testar variações em elementos de página estruturadas de forma semelhante ou em todo o domínio.
 
 Para funcionar corretamente, esse recurso deve ser usado em páginas com uma estrutura semelhante ou conter elementos de modelo estruturados da mesma forma em todas as páginas.
 
@@ -32,15 +32,15 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
 
 1. Crie ou edite uma atividade conforme descrito em [Atividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Para especificar as páginas em que a experiência será exibida, na [!UICONTROL Visual Experience Composer] (VEC) clique no ícone de engrenagem e selecione **[!UICONTROL Entrega da página]**.
+1. Para especificar as páginas em que a experiência será exibida, no [!UICONTROL Visual Experience Composer] (VEC), clique no ícone de engrenagem e selecione **[!UICONTROL Page Delivery]**.
 
    ![Ícone de engrenagem > Entrega da página](/help/main/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
-1. Clique em **[!UICONTROL Adicionar regra de modelo]** e especifique os critérios para as páginas nas quais deseja adicionar a experiência.
+1. Clique em **[!UICONTROL Add Template Rule]** e especifique os critérios para as páginas nas quais deseja adicionar a experiência.
 
 1. Especifique o intervalo de páginas. O intervalo de páginas pode ser um dos seguintes:
 
-   * URL (Para obter mais informações sobre como o Target avalia URLs, consulte [Perguntas frequentes sobre direcionamentos e público](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+   * URL (Para obter mais informações sobre como o Target avalia URLs, consulte [Perguntas frequentes sobre direcionamentos e público-alvo](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
    * Domínio
    * Caminho
    * Fragmento de hash (#) (direciona a parte de um URL que segue o símbolo #.)
@@ -60,7 +60,7 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
 
 1. Digite as sequências de caracteres que definem onde é adicionada a experiência, como o domínio ou as sequências de caracteres contidas no nome da página.
 
-   Por exemplo, se você selecionar **[!UICONTROL Domínio]** e **[!UICONTROL É (diferencia maiúsculas de minúsculas)]**, digite o domínio em que deseja adicionar a experiência para todas as páginas.
+   Por exemplo, se você selecionar **[!UICONTROL Domain]** e **[!UICONTROL Is (case sensitive)]**, digite o domínio em que deseja adicionar a experiência para todas as páginas.
 
    É possível incluir vários itens.
 
@@ -68,13 +68,13 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
    >
    >Vários itens usam a lógica OR, ou seja, qualquer item único na lista torna a condição verdadeira.
 
-1. Se desejar, insira critérios adicionais, clicando em **[!UICONTROL Adicionar regra de modelo]** e repetindo o procedimento das etapas anteriores.
+1. Se desejar, insira critérios adicionais, clicando em **[!UICONTROL Add Template Rule]** e repita o procedimento das etapas anteriores.
 
-   Múltiplos critérios são agrupados com uma lógica E. [!DNL Target]O adiciona a experiência para todas as páginas que correspondem aos critérios especificados.
+   Múltiplos critérios são agrupados com uma lógica E. [!DNL Target] adiciona a experiência a todas as páginas que correspondem aos critérios especificados.
 
 >[!IMPORTANT]
 >
-> [!DNL Target]O não pode verificar as páginas para se certificar de que elas são exibidas conforme o esperado, por isso é sempre uma prática importante ao usar esse recurso testar as páginas afetadas antes de torná-las públicas.
+> O [!DNL Target] não pode verificar as páginas para se certificar de que elas são exibidas conforme o esperado, portanto, é sempre uma prática importante ao usar este recurso testar as páginas afetadas antes de torná-las públicas.
 
 ## Casos de uso
 
@@ -90,13 +90,13 @@ Você pode considerar o uso de regras de modelo para renderizar a mesma atividad
 
 1. Crie ou edite uma atividade conforme descrito em [Atividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Para especificar o domínio onde a experiência será exibida, no Visual Experience Composer, clique no ícone de engrenagem e selecione **[!UICONTROL Entrega da página]**.
+1. Para especificar o domínio onde a experiência será exibida, no Visual Experience Composer, clique no ícone de engrenagem e selecione **[!UICONTROL Page Delivery]**.
 
-1. Clique em **[!UICONTROL Adicionar regra de modelo]** > **[!UICONTROL Domínio]**.
+1. Clique em **[!UICONTROL Add Template Rule]** > **[!UICONTROL Domain]**.
 
-1. No **[!UICONTROL Escolher avaliador]** selecione **[!UICONTROL Contém]** e, em seguida, especifique o domínio.
+1. No menu suspenso **[!UICONTROL Choose evaluator]**, selecione **[!UICONTROL Contains]** e especifique o domínio.
 
-   ![O domínio contém](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
+   ![Domínio contém](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
 ## Vídeo de treinamento: Visual Experience Composer (2 de 2) (7:29) ![Selo do tutorial](/help/main/assets/tutorial.png)
 

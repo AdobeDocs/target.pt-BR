@@ -6,14 +6,14 @@ feature: A/B Tests
 exl-id: 7489f4f5-3655-45f9-a743-651ba1c23c53
 source-git-commit: 4f0ebdd06287a438e519d9bccb677ab1a9093396
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '940'
 ht-degree: 1%
 
 ---
 
 # Teste A/A
 
-Antes de executar um teste A/A no site usando [!DNL Adobe Target]Além disso, é importante entender o que é um teste A/A, por que você pode querer executar um teste A/A, por quanto tempo você deve executar o teste e como interpretar os resultados.
+Antes de executar um teste A/A em seu site usando o [!DNL Adobe Target], é importante entender o que é um teste A/A, por que você pode querer executar um teste A/A, por quanto tempo você deve executar o teste e como interpretar os resultados.
 
 ## O que é um teste A/A?
 
@@ -21,11 +21,11 @@ Antes de explicar o teste A/A, é bom revisar o teste A/B para que possamos disc
 
 Em um teste A/B padrão, o tráfego é alocado para duas ou mais experiências diferentes. Normalmente, uma experiência é o &quot;controle&quot; e variações da experiência são testadas em relação ao controle para ver qual experiência cria mais aumento em determinada métrica.
 
-No entanto, o teste A/A envolve alocar o tráfego para duas experiências idênticas, normalmente com uma divisão de alocação de tráfego 50/50. Com um teste A/B padrão, normalmente é desejável descobrir um aumento na conversão. Isso é diferente de um teste A/A no qual seu objetivo geralmente é determinar que há *não* diferença de aumento entre as experiências idênticas.
+No entanto, o teste A/A envolve alocar o tráfego para duas experiências idênticas, normalmente com uma divisão de alocação de tráfego 50/50. Com um teste A/B padrão, normalmente é desejável descobrir um aumento na conversão. Isso é diferente de um teste A/A no qual sua meta geralmente é determinar que há *não* diferença no aumento entre as experiências idênticas.
 
 ## Por que você desejaria testar duas experiências idênticas e o que isso faz?
 
-Algumas organizações executam testes A/A ao implementar uma nova ferramenta de teste, como [!DNL Target], para determinar se:
+Algumas organizações executam testes A/A ao implementar uma nova ferramenta de teste, como o [!DNL Target], para determinar se:
 
 * A atividade foi configurada corretamente
 * O código foi implementado corretamente
@@ -41,13 +41,13 @@ Há vários motivos pelos quais você pode ver o aumento de uma experiência em 
 
 Um problema comum na execução de qualquer tipo de teste, incluindo um teste A/A, é observar os resultados continuamente e interromper prematuramente um teste quando houver significância estatística e declarar uma experiência vencedora. Os analistas geralmente fazem o que se chama de &quot;espiada de dados&quot;. A espiada de dados envolve examinar os dados de teste antecipadamente e com frequência, enquanto tenta determinar qual experiência tem melhor desempenho. O risco é interromper o teste prematuramente, o que pode invalidar os resultados.
 
-Em um teste A/A, a espiada de dados geralmente pode fazer com que os analistas vejam o aumento em uma experiência, quando, na verdade, não deve haver diferença, pois as duas experiências são idênticas. Na verdade, com espiada contínua, os testes A/A são *garantido* para mostrar &quot;significância estatística&quot; (ou seja, uma confiança acima de um determinado limite, como 95%) em algum momento durante o teste.
+Em um teste A/A, a espiada de dados geralmente pode fazer com que os analistas vejam o aumento em uma experiência, quando, na verdade, não deve haver diferença, pois as duas experiências são idênticas. Na verdade, com a espiada contínua, os testes A/A são *garantidos* para mostrar &quot;significância estatística&quot; (ou seja, uma confiança acima de um determinado limite, como 95%) em algum ponto durante o teste.
 
 Para evitar isso, e assim como em um teste A/B regular, você deve decidir antecipadamente qual tamanho de amostra usar, com base no tamanho mínimo de efeito (o aumento mínimo abaixo do qual um efeito não é importante para sua empresa), potência e níveis de significância que você acha aceitáveis.
 
-Em um teste A/A, o objetivo seria então *não* ver um resultado estatisticamente significativo depois de o teste ter atingido o tamanho de amostra desejado.
+Em um teste A/A, o objetivo seria *não* ver um resultado estatisticamente significativo depois que seu teste atingisse o tamanho de amostra desejado.
 
-A variável [!UICONTROL Calculadora de tamanho da amostra do Adobe Target] O é uma ferramenta importante para ajudá-lo a determinar o tamanho da amostra que deve ser direcionado e por quanto tempo você deve executar o teste.
+O [!UICONTROL Adobe Target Sample Size Calculator] é uma ferramenta importante para ajudá-lo a determinar o tamanho da amostra que você deve apontar e por quanto tempo você deve executar o teste.
 
 * [Calculadora de tamanho do Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)
 
@@ -68,6 +68,6 @@ Suponha que você deseje atingir um nível de confiança de 95% com seu teste A/
 
 Se você decidir que um teste A/A é necessário em sua organização, esteja ciente de que as experiências idênticas podem mostrar temporariamente uma diferença em relação ao controle. Isso pode ser normal, dependendo do tempo que o teste tem permissão para ser executado. A diferença deve diminuir devido a mais tempo e visitantes.
 
-A prática recomendada é usar a metodologia de teste A/B regular: decida o tamanho da amostra antecipadamente com base em um tamanho de efeito relevante mínimo, potência desejada e significância usando o [Calculadora de tamanho do Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+A prática recomendada é usar a metodologia de teste A/B regular: decida o tamanho da amostra antecipadamente com base em um tamanho de efeito relevante mínimo, energia desejada e significância usando a [Calculadora de tamanho do Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 Em seguida, aguarde o tempo necessário e os visitantes antes de chegar a qualquer conclusão e lembre-se de que, dependendo do nível de significância do seu teste, há a chance de uma experiência mostrar uma diferença de aumento e até mesmo ser declarada vencedora.

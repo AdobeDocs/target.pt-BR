@@ -6,8 +6,8 @@ feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2750'
-ht-degree: 98%
+source-wordcount: '2721'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Visite o [Target Community Forum](/help/main/cmp-resources-and-contact-informati
 
 **Quais navegadores são compatíveis com o Target?**
 
-Leia a matriz de [Navegadores suportados](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html) para obter mais detalhes. {target=_blank} Observe que há dois aspectos: o suporte à interface do Target Standard/Premium Experience Cloud e o suporte a navegadores para usuário final em desktops/dispositivos.
+Leia nossa matriz [Navegadores suportados](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} para obter mais detalhes. Observe que há dois aspectos: o suporte à interface do Target Standard/Premium Experience Cloud e o suporte a navegadores para usuário final em desktops/dispositivos.
 
 ## Atividades {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -105,7 +105,7 @@ Você pode fazer isso com facilidade [ao inserir diretamente a etapa desejada de
 
 **Posso ficar em uma etapa específica, continuar modificando a atividade (texto da oferta ou código personalizado, por exemplo) e realizar o QA em outra guia?**
 
-Isso também é possível. Basta [usar a opção Salvar para fazer alterações adicionais sem sair da etapa](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+Isso também é possível. Basta [usar a opção Salvar para fazer alterações incrementais sem sair da etapa](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
 
 **Como posso visualizar e fazer QA de uma atividade que acabei de criar?**
 
@@ -168,7 +168,7 @@ Confira as [Regras de modelo](/help/main/c-experiences/c-visual-experience-compo
 
 Isso ocorre porque seu site tem conteúdo misto — é um site que busca recursos HTTP e HTTPS. Solicite que sua equipe mude totalmente para HTTPS.
 
-Até que isso aconteça, siga as instruções em  [Ativar conteúdo misto no navegador](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) para permitir que seu navegador carregue conteúdo misto. Este é um recurso de segurança da maioria dos navegadores modernos.
+Até que isso aconteça, siga as instruções em [Habilitar conteúdo misto no navegador](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) para permitir que seu navegador carregue conteúdo misto. Este é um recurso de segurança da maioria dos navegadores modernos.
 
 **Posso experimentar o Visual Experience Composer (VEC) no meu site mesmo que a biblioteca at.js do Target ainda não tenha sido implementada?**
 
@@ -180,7 +180,7 @@ Experimente as [informações de solução de problemas](/help/main/c-experience
 
 Também temos a [abordagem baseada em formulários](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) que pode desbloquear você.
 
-Leia também quando e por que o [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pode ser útil. Você pode precisar entrar em contato com seu departamento de TI para  [Incluir servidores proxy da Adobe na lista de permissões](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) também.
+Leia também quando e por que o [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pode ser útil. Talvez seja necessário entrar em contato com o departamento de TI para [incluir na lista de permissões os servidores proxy de Adobe](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) também.
 
 **Eu tenho um site responsivo. Ao criar uma atividade, como posso ter certeza de que estou levando em consideração dispositivos importantes?**
 
@@ -218,7 +218,7 @@ Use os recursos Escrever e Navegar para navegar até a página se sua escolha e 
 
 Clique na miniatura na frente do nome da experiência na etapa 2 e você será encaminhado para a experiência de sua escolha.
 
-![imagem de miniaturas_experiências](assets/thumbnail_experiences.png)
+![imagem de experiências_em_miniatura](assets/thumbnail_experiences.png)
 
 **Eu sou um antigo usuário do Target Classic. Posso utilizar minhas mboxes para certos casos de uso?**
 
@@ -283,11 +283,11 @@ Use as [opções Exporte relatórios para CSV e Detalhes de Pedido de Download p
 
 **Posso mudar a experiência de controle para avaliação de relatórios ou mudar a metodologia de contagem de Visitantes para Visitas?**
 
-Faça essas alterações usando a  [engrenagem de Configurações na página de relatórios](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Leia mais sobre essas configurações para compreender como os cálculos variam.
+Faça essas alterações usando a [engrenagem Configurações da página de relatórios](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Leia mais sobre essas configurações para compreender como os cálculos variam.
 
 **Como eu devo interpretar os relatórios?**
 
-Nós tentamos tornar os relatórios os mais intuitivos possível com recursos como  [Barras de intervalo de confiança, limites de incentivo, significância/confiança e múltiplas seleções métricas, visualizações em tabela e gráfico, médias de execução e mais](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) para possibilitar análise de relatórios poderosa, mas facilitada. Obviamente, você pode pesquisar Analytics se você estiver usando  [Atividades do Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) para mais análise sobre públicos-alvo.
+Tentamos tornar os relatórios o mais intuitivos possível com recursos como [barras de intervalo de confiança, limites de incentivo, significância/confiança e múltiplas seleções métricas, visualizações em tabela e gráfico, médias de execução e mais](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) para permitir análise de relatórios poderosa, mas facilitada. Obviamente, você pode examinar o Analytics se estiver usando [atividades do Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) para fazer uma análise mais aprofundada dos públicos-alvo.
 
 ## Tokens de resposta {#section_C2A7118B4B62482A9D630C2212112A3D}
 
@@ -303,10 +303,10 @@ Use a página [Status do sistema da Adobe](/help/main/r-release-notes/system-sta
 
 **Você tem um guia de solução de problemas?**
 
-Lamentamos saber que você está tendo problemas. Veja [Solução de problemas do Target](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) para obter links para vários tópicos de solução de problemas.
+Lamentamos saber que você está tendo problemas. Confira o [Destino da Solução de Problemas](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) com os links para vários tópicos de solução de problemas.
 
 ## APIs do Target {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Onde eu posso aprender mais sobre as APIs do Target?**
 
-Temos uma documentação completa sobre APIs. Consulte a documentação de [Delivery APIs, NodeJS SDK e APIs do Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+Temos uma documentação completa sobre APIs. Consulte a documentação de [Delivery APIs, NodeJS SDK e Recommendations APIs](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=pt-BR){target=_blank}.

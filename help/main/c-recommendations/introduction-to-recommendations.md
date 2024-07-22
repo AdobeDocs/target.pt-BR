@@ -105,7 +105,7 @@ Em seguida, você deve adicionar tags ou aproveitar a implementação existente 
 
 Você precisa garantir que o [!DNL Target] esteja ciente dos itens que os usuários estão vendo e comprando. Se a compra não for relevante para o contexto, talvez você queira rastrear um tipo diferente de evento de conversão, por exemplo, baixar um PDF, concluir uma pesquisa, assinar um boletim informativo, assistir a um vídeo e assim por diante.
 
-Se já estiver usando o [!DNL Target] para executar as atividades dos Testes A/B no site, talvez você já tenha concluído essa etapa. Ou se já estiver usando o [!DNL Adobe Analytics] para o relatório sobre visitas do site e comportamento de conversão, você poderá usar o [!DNL Analytics] como fonte de dados comportamentais. Caso contrário, é mais fácil definir essa etapa usando um gerenciador de tags, como na [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Também é possível enviar interações offline ou no aplicativo para [!DNL Target] via API em tempo real.
+Se já estiver usando o [!DNL Target] para executar as atividades dos Testes A/B no site, talvez você já tenha concluído essa etapa. Ou se já estiver usando o [!DNL Adobe Analytics] para o relatório sobre visitas do site e comportamento de conversão, você poderá usar o [!DNL Analytics] como fonte de dados comportamentais. Caso contrário, é mais fácil configurar isso usando um gerenciador de tags, como em [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=pt-BR){target=_blank}. Também é possível enviar interações offline ou no aplicativo para [!DNL Target] por meio da API em tempo real.
 
 ### Obter recomendações com o contexto adequado
 
@@ -129,7 +129,7 @@ Uma atividade do [!DNL Recommendations] consiste nos seguintes componentes:
 
 ![Ilustração que mostra em que consiste uma atividade de recomendações: públicos-avo, critérios e designs](/help/main/c-recommendations/assets/intro-12.png)
 
-Imediatamente, o [!DNL Target] inclui 14 públicos-alvo integrados, 42 critérios integrados e 10 modelos de design integrados. Você pode personalizar cada um desses itens ou adicionar os seus próprios. Já tivemos [webinários sobre criação de públicos](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Esta seção foca na definição dos critérios que determinam quais itens serão recomendados.
+Imediatamente, o [!DNL Target] inclui 14 públicos-alvo integrados, 42 critérios integrados e 10 modelos de design integrados. Você pode personalizar cada um desses itens ou adicionar os seus próprios. Já tivemos [webinars sobre a criação de públicos](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) em [!DNL Target]. Esta seção foca na definição dos critérios que determinam quais itens serão recomendados.
 
 O Target usa o conceito do cartão de critérios. Um cartão de critérios é como uma fórmula para personalização.
 

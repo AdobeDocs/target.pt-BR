@@ -1,19 +1,19 @@
 ---
 keywords: AB;A/B;AB...n;tamanho da amostra;calculadora de tamanho da amostra;alocação automática;alocação automática;calculadora
-description: Saiba por quanto tempo executar um teste A/B. Um teste A/B bem-sucedido no [!DNL Adobe Target] O requer visitantes suficientes (tamanho da amostra) para melhorar a taxa de conversão.
+description: Saiba por quanto tempo executar um teste A/B. Um teste A/B bem-sucedido no  [!DNL Adobe Target]  requer visitantes suficientes (tamanho da amostra) para melhorar o índice de conversão.
 title: Por quanto tempo devo executar um teste A/B?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
 source-git-commit: b5da2f5d41739af39d97e0ce9761006794c04d2b
 workflow-type: tm+mt
-source-wordcount: '3085'
-ht-degree: 49%
+source-wordcount: '3123'
+ht-degree: 46%
 
 ---
 
 # Por quanto tempo você deve executar um teste A/B?
 
-Um sucesso [!UICONTROL Teste A/B] atividade no [!DNL Adobe Target] O requer visitantes suficientes (tamanho da amostra) para melhorar a taxa de conversão. Como você sabe por quanto tempo executar um teste A/B? Este artigo contém informações sobre [!UICONTROL Alocação automática] atividades e o [!UICONTROL Adobe Target] Calculadora de tamanho de amostra para ajudá-lo a garantir que sua atividade tenha visitantes suficientes para atingir suas metas.
+Uma atividade [!UICONTROL A/B Test] bem-sucedida no [!DNL Adobe Target] requer visitantes suficientes (tamanho da amostra) para melhorar sua taxa de conversão. Como você sabe por quanto tempo executar um teste A/B? Este artigo contém informações sobre atividades do [!UICONTROL Auto-Allocate] e a Calculadora de tamanho da amostra do [!UICONTROL Adobe Target] para ajudá-lo a garantir que sua atividade tenha visitantes suficientes para atingir suas metas.
 
 É tentador parar uma atividade se uma das ofertas tiver um desempenho melhor ou pior do que os outros nos primeiros dias da atividade. No entanto, quando o número de observações é baixo, há uma alta probabilidade de que um aumento positivo ou negativo seja observado por acaso, porque a taxa de conversão é calculada em média por um número baixo de visitantes. À medida que a atividade coleta mais pontos de dados, as taxas de conversão convergem para seus valores verdadeiros de longo prazo.
 
@@ -21,27 +21,27 @@ Um sucesso [!UICONTROL Teste A/B] atividade no [!DNL Adobe Target] O requer visi
 >
 >Interromper uma atividade prematuramente é uma das dez armadilhas significativas em que você pode cair quando realiza testes A/B. Para obter mais informações, consulte [Dez erros comuns em testes A/B e como evitá-los](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
-[!DNL Adobe Target] O fornece ferramentas para ajudar a garantir que sua atividade tenha um tamanho de amostra grande o suficiente para atingir suas metas de conversão: Alocação automática.
+O [!DNL Adobe Target] fornece ferramentas para ajudar a garantir que sua atividade tenha um tamanho de amostra grande o suficiente para atingir suas metas de conversão: Alocação automática.
 
 ## Alocação automática {#auto-allocate}
 
-Um [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) A atividade é um tipo de teste A/B que identifica um vencedor entre duas ou mais experiências. Um [!UICONTROL Alocação automática] test realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.
+Uma atividade de [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) é um tipo de teste A/B que identifica um vencedor entre duas ou mais experiências. Um teste [!UICONTROL Auto-Allocate] realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.
 
 Os testes A/B padrão têm um custo inerente. Você deve gastar o tráfego para medir o desempenho de cada experiência e, por meio de análise, descobrir a experiência vencedora. A distribuição do tráfego permanece fixa mesmo depois de você reconhecer que algumas experiências estão superando outras. Além disso, é complicado descobrir o tamanho da amostra, e a atividade deve ser executada em sua totalidade para que você possa agir em um vencedor. E ainda há uma chance do vencedor identificado não ser um verdadeiro vencedor.
 
-A solução é [!UICONTROL Alocação automática]. [!UICONTROL A alocação automática reduz esse custo e a sobrecarga de determinar uma experiência vencedora. ] [!UICONTROL A alocação automática monitora o desempenho da métrica de meta de todas as experiências e envia mais novos participantes para as experiências de alto desempenho proporcionalmente. ] Há tráfego suficiente reservado para explorar as outras experiências. Você pode ver os benefícios da atividade em seus resultados, mesmo enquanto a atividade ainda estiver em execução: a otimização ocorre em paralelo ao aprendizado.
+Solução [!UICONTROL Auto-Allocate]. O [!UICONTROL Auto-Allocate] reduz esse custo e a sobrecarga de determinar uma experiência vencedora. [!UICONTROL Auto-Allocate] monitora o desempenho da métrica de meta de todas as experiências e envia mais novos participantes para as experiências de alto desempenho proporcionalmente. Há tráfego suficiente reservado para explorar as outras experiências. Você pode ver os benefícios da atividade em seus resultados, mesmo enquanto a atividade ainda estiver em execução: a otimização ocorre em paralelo ao aprendizado.
 
-[!UICONTROL A alocação automática move os visitantes para experiências vencedoras gradativamente, em vez de exigir que você aguarde o fim de uma atividade para determinar um vencedor. ] Você se beneficia do incentivo mais rapidamente porque os participantes da atividade que teriam sido enviados para experiências de menor sucesso recebem experiências vencedoras potenciais.
+[!UICONTROL Auto-Allocate] move os visitantes em direção a experiências vencedoras gradualmente, em vez de exigir que você aguarde até que uma atividade termine para determinar um vencedor. Você se beneficia do incentivo mais rapidamente porque os participantes da atividade que teriam sido enviados para experiências de menor sucesso recebem experiências vencedoras potenciais.
 
-Ao usar [!UICONTROL Alocação automática], [!DNL Target] O exibe um emblema na parte superior da página da atividade, indicando &quot;Ainda não há vencedor&quot; até que a atividade atinja o número mínimo de conversões com confiança suficiente. [!DNL Target]O declara a experiência vencedora exibindo um emblema no topo da página da atividade.
+Ao usar o [!UICONTROL Auto-Allocate], o [!DNL Target] exibe um emblema na parte superior da página da atividade, indicando &quot;Ainda não há vencedor&quot; até que a atividade atinja o número mínimo de conversões com confiança suficiente. [!DNL Target] declara a experiência vencedora ao exibir um selo na parte superior da página da atividade.
 
-Para obter mais informações, consulte [Visão geral da alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+Para obter mais informações, consulte [Visão geral da Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-## Adobe [!DNL Target] Calculadora de tamanho da amostra {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Calculadora de tamanho da amostra do Adobe [!DNL Target] {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-Se você optar por usar um manual [!UICONTROL Teste A/B] atividade em vez de [!UICONTROL Alocação automática], o [!DNL Target] A Calculadora de tamanho de amostra ajuda a determinar o tamanho de amostra necessário para um teste bem-sucedido. Um teste A/B manual é um teste de horizonte fixo, portanto, a calculadora é útil. Usar a calculadora para um [!UICONTROL Alocação automática] A atividade é opcional porque [!UICONTROL Alocação automática] declara um vencedor para você. A calculadora fornece uma estimativa aproximada do tamanho de amostra necessário. Continue a let para obter mais informações sobre como usar a calculadora.
+Se você optar por usar uma atividade manual [!UICONTROL A/B Test] em vez de [!UICONTROL Auto-Allocate], a Calculadora de Tamanho da Amostra [!DNL Target] ajudará a determinar o tamanho da amostra necessário para um teste bem-sucedido. Um teste A/B manual é um teste de horizonte fixo, portanto, a calculadora é útil. O uso da calculadora para uma atividade [!UICONTROL Auto-Allocate] é opcional porque [!UICONTROL Auto-Allocate] declara um vencedor para você. A calculadora fornece uma estimativa aproximada do tamanho de amostra necessário. Continue a let para obter mais informações sobre como usar a calculadora.
 
-Antes de configurar o teste A/B, acesse o [!DNL Adobe Target] [Calculadora de tamanho da amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR).
+Antes de configurar o teste A/B, acesse a [!DNL Adobe Target] [Calculadora de tamanho da amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR).
 
 ![Calculadora de tamanho da amostra do Adobe Target](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -65,7 +65,7 @@ Há cinco parâmetros estabelecidos pelo usuário que definem um teste A/B. Esse
 
 Para um teste A/B, a significância estatística, a potência estatística, o aumento mínimo detectável de confiabilidade e a taxa de conversão da linha de base são definidos pelo analista e, em seguida, o número necessário de visitantes é calculado com base nesses números. Este artigo discute esses elementos e fornece diretrizes sobre como determinar essas métricas para um teste específico.
 
-![imagem samplesize](assets/samplesize.png)
+![tamanho da imagem](assets/samplesize.png)
 
 A figura abaixo mostra os quatro resultados possíveis de um teste A/B:
 
@@ -77,7 +77,7 @@ A figura abaixo mostra os quatro resultados possíveis de um teste A/B:
 
 O nível de importância de um teste determina a probabilidade de o teste relatar uma diferença significativa nas taxas de conversão entre duas ofertas diferentes quando, na verdade, não há diferença real. Essa situação é conhecida como um falso positivo ou um erro Tipo I. O nível de significância é um limite especificado pelo usuário e é uma compensação entre a tolerância para falsos positivos e o número de visitantes que devem ser incluídos no teste.
 
-Em um teste A/B, presume-se inicialmente que ambas as ofertas têm a mesma taxa de conversão. Assim, a probabilidade do resultado observado é calculada com base dessa suposição. Se essa probabilidade (o valor p) for menor que algum limite predefinido (o nível de significância), [!DNL Target] A conclui que a suposição inicial — de que ambas as ofertas têm a mesma taxa de conversão — está incorreta. E, portanto, as taxas de conversão de A e B são estatisticamente diferentes no nível de significância dado.
+Em um teste A/B, presume-se inicialmente que ambas as ofertas têm a mesma taxa de conversão. Assim, a probabilidade do resultado observado é calculada com base dessa suposição. Se essa probabilidade (o valor p) for menor que algum limite predefinido (o nível de significância), [!DNL Target] conclui que a suposição inicial — de que ambas as ofertas têm a mesma taxa de conversão — está incorreta. E, portanto, as taxas de conversão de A e B são estatisticamente diferentes no nível de significância dado.
 
 Um nível de significância geralmente usado em testes A/B é 5%, o que corresponde a um nível de significância de 95% (nível de confiança = 100% - nível de significância). Um nível de confiança de 95% significa que cada vez que você faz um teste, há uma chance de 5% de detectar um aumento na significância estatística, mesmo que não exista diferença entre as ofertas.
 
@@ -113,11 +113,11 @@ Por exemplo, vamos supor que duas ofertas (A e B) tenham taxas de conversão ver
 
 A figura abaixo mostra essas distribuições de probabilidade.
 
-![imagem probability_distributions](assets/probability_distributions.png)
+![imagem de probabilidade_distribuições](assets/probability_distributions.png)
 
-Devido à grande sobreposição entre os dois intervalos, o teste não pode determinar se as taxas de conversão são diferentes. Assim, esse teste com 100 visitantes não pode distinguir entre as duas ofertas. No entanto, se [!DNL Target] O expõe as ofertas a 5.000 visitantes cada, há uma chance de 95% de que as taxas de conversão observadas caiam nos intervalos de 9% a 11% e 14% a 16%, respectivamente.
+Devido à grande sobreposição entre os dois intervalos, o teste não pode determinar se as taxas de conversão são diferentes. Assim, esse teste com 100 visitantes não pode distinguir entre as duas ofertas. No entanto, se [!DNL Target] expor as ofertas a 5.000 visitantes cada, há 95% de chance de as taxas de conversão observadas caírem nos intervalos de 9% a 11% e 14% a 16%, respectivamente.
 
-![imagem probability_distributions2](assets/probability_distributions2.png)
+![imagem de probabilidade_distribuições2](assets/probability_distributions2.png)
 
 Nesse caso, é improvável que o teste chegue a uma conclusão errada, de modo que o teste com 5.000 visitantes possa distinguir as duas ofertas. O teste com 5.000 visitantes tem um intervalo de confiança de +/-1%. Isso significa que o teste pode detectar diferenças de cerca de 1%. Assim, ainda mais visitantes seriam necessários se as taxas de conversão verdadeiras das ofertas fossem, por exemplo, 10% e 10,5%, em vez de 10% e 15%.
 
@@ -127,7 +127,7 @@ A taxa de conversão da linha de base é a taxa de conversão da oferta de contr
 
 ### Número de visitantes {#section_19009F165505429E95291E6976E498DD}
 
-Talvez seja difícil equilibrar os custos da oportunidade de executar um teste por um período longo com o risco de falsos positivos e falsos negativos. Obviamente, você não quer tomar as decisões erradas, mas ficar paralisado por padrões de teste muito restritos ou rígidos também não é desejável.
+Talvez seja difícil equilibrar os custos da oportunidade de executar um teste por um período longo com o risco de falsos positivos e falsos negativos. Obviamente, você não quer tomar as decisões erradas, mas ser paralisado por padrões de teste muito rigorosos ou rígidos também não é desejável.
 
 Como diretriz geral, um nível de confiança de 95% e uma potência estatística de 80% são recomendáveis.
 
@@ -135,17 +135,17 @@ A calculadora de tamanhos de amostra (link fornecido acima) solicita que você d
 
 Há uma compensação ente o aumento mínimo que pode ser identificado com confiança pelo teste e o número necessário de visitantes. A figura abaixo, que é válida para uma taxa de conversão da linha de base (controle) de 5%, mostra forte redução dos retornos para aumentar o número de visitantes. O aumento mínimo que pode ser detectado com confiança aumenta bastante durante a adição dos primeiros visitantes ao teste, mas é necessário um número cada vez maior de visitantes para melhorar o teste. A figura ajuda a encontrar uma compensação adequada entre o tempo necessário para executar o teste (conforme determinado pelo número de visitantes necessário e o tráfego do site) e o aumento mínimo que pode ser detectado com confiança pelo teste.
 
-![imagem samplesizecontrol](assets/samplesizecontrol.png)
+![samplesizecontrol image](assets/samplesizecontrol.png)
 
-Neste exemplo, você pode decidir ser capaz de detectar um aumento de 5% (correspondente a uma taxa de conversão da oferta alternativa de (100%+5%)&#42;5% = 5,25%) em 80 de 100 testes é adequado, portanto, você precisa de um tamanho de amostra de 100.000 visitantes para cada oferta. Se o site tiver 20.000 visitantes por dia e você estiver testando duas ofertas, o teste deverá ter permissão para ser executado por 2&#42;100.000/20.000 = 10 dias antes de ser possível determinar se a oferta alternativa é estatisticamente significativa superior à oferta de controle.
+Neste exemplo, você pode decidir ser capaz de detectar um aumento de 5% (correspondente a uma taxa de conversão da oferta alternativa de (100%+5%)&#42;5% = 5,25%) em 80 de 100 testes é adequado, portanto, você precisa de um tamanho de amostra de 100.000 visitantes para cada oferta. Se o site tiver 20.000 visitantes por dia e você estiver testando duas ofertas, o teste deverá ter permissão para ser 2&#42;100.000/20.000 = 10 dias antes de poder determinar se a oferta alternativa é estatisticamente significativa superior à oferta de controle.
 
 Novamente, é recomendável que o tempo necessário sempre seja arredondado para o número inteiro de semana mais próximo possível, para evitar efeitos de dia da semana. Assim, neste exemplo, o teste deverá ser executado por duas semanas antes da avaliação do resultado.
 
 ### Receita por métrica de visita  {#section_C704C0861C9B4641AB02E911648D2DC2}
 
-Ao usar a Receita por visita (RPV) como uma métrica, uma origem adicional de variação é adicionada, pois o RPV é o produto da receita por pedido e da taxa de conversão (RPV = Receita / #visitors = (Receita por pedido) &#42; #orders) / # visitantes = Receita por pedido &#42; (#visitors &#42; CTR) / #visitors = Receita por pedido &#42; CTR), cada um com sua própria variação. A variação da taxa de conversão pode ser estimada diretamente usando um modelo matemático, mas a variação da receita por pedido é específica da atividade. Portanto, use o conhecimento dessa variação em atividades anteriores ou execute o teste A/B por alguns dias para estimar a variação na receita. A variação é calculada a partir dos valores de Soma das vendas, Soma das vendas elevada ao quadrado e Número de visitantes encontrados no arquivo de download do CSV. Depois que isso for estabelecido, use a planilha para calcular o tempo necessário para concluir o teste.
+Ao usar a Receita por visita (RPV) como uma métrica, uma fonte adicional de variação é adicionada, pois o RPV é o produto da receita por pedido e taxa de conversão (RPV = Receita / #visitors = (Receita por pedido &#42; #orders) / Nº de visitantes = Receita por pedido &#42; (#visitors &#42; CTR) / #visitors = Receita por pedido &#42; CTR), cada um com sua própria variação. A variação da taxa de conversão pode ser estimada diretamente usando um modelo matemático, mas a variação da receita por pedido é específica da atividade. Portanto, use o conhecimento dessa variação em atividades anteriores ou execute o teste A/B por alguns dias para estimar a variação na receita. A variação é calculada a partir dos valores de Soma das vendas, Soma das vendas elevada ao quadrado e Número de visitantes encontrados no arquivo de download do CSV. Depois que isso for estabelecido, use a planilha para calcular o tempo necessário para concluir o teste.
 
-A calculadora do tamanho da amostra (link fornecido acima) pode ajudá-lo a configurar a métrica de RPV. Ao abrir a calculadora, você verá uma guia chamada [!UICONTROL Métrica de RPV]. Você precisará das informações a seguir ao usar a versão de RPV da calculadora:
+A calculadora do tamanho da amostra (link fornecido acima) pode ajudá-lo a configurar a métrica de RPV. Ao abrir a calculadora, você verá uma guia chamada [!UICONTROL RPV Metric]. Você precisará das informações a seguir ao usar a versão de RPV da calculadora:
 
 * Número de visitantes para a oferta de controle
 * Receita total para a oferta de controle
@@ -164,6 +164,6 @@ Cada vez que você compara duas ofertas, a possibilidade de receber um falso pos
 
 ## Conclusão  {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-Ao usar uma [!UICONTROL Alocação automática] atividade, [!DNL Target] O identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido. [!UICONTROL A alocação automática facilita a conquista das metas de conversão, além de remover a adivinhação.]
+Ao usar uma atividade [!UICONTROL Auto-Allocate], [!DNL Target] identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido. O [!UICONTROL Auto-Allocate] facilita o cumprimento de suas metas de conversão, ao mesmo tempo em que remove a adivinhação.
 
 Usando a calculadora de tamanho de amostra (link fornecido acima) introduzida neste artigo e permitindo que o teste seja executado pela quantidade de tempo sugerida por ele, você pode garantir que esteja sempre fazendo testes A/B de alta qualidade que aderem às taxas de falso positivo e falso negativo que você decidiu que são adequados para o teste específico. Isso assegura que os testes sejam consistentes e possam detectar com confiança o aumento que você está procurando.

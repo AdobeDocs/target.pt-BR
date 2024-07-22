@@ -1,7 +1,7 @@
 ---
 keywords: vec;visual experience composer; vec;iframe;extensão;navegador
 description: Descubra por que alguns sites podem não abrir de forma confiável no [!UICONTROL Visual Experience Composer] (VEC). A extensão de navegador VEC Helper permite carregar sites de maneira confiável no VEC.
-title: Como usar o [!UICONTROL Visual Experience Composer] Extensão de assistente do (VEC)?
+title: Como usar a extensão auxiliar do [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
 source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
@@ -11,17 +11,17 @@ ht-degree: 50%
 
 ---
 
-# [!UICONTROL Visual Experience Composer] extensão auxiliar
+# Extensão auxiliar do [!UICONTROL Visual Experience Composer]
 
-A variável [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] Extensão do navegador auxiliar do (VEC) para [!DNL Google Chrome] O permite carregar sites de maneira confiável no VEC para criar e controlar a qualidade das experiências da web com rapidez.
+A extensão de navegador do [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper para [!DNL Google Chrome] permite carregar sites de maneira confiável no VEC para criar e controlar a qualidade das experiências da web com rapidez.
 
-O navegador VEC Helper é um [!DNL Chrome] extensão. Essa extensão não é necessária ao usar [!DNL Mozilla Firefox].
+O navegador VEC Helper é uma extensão [!DNL Chrome]. Esta extensão não é necessária ao usar [!DNL Mozilla Firefox].
 
 >[!IMPORTANT]
 >
->O legado [!DNL Target] A extensão do VEC Helper documentada neste artigo foi criada usando o Manifest V2. [!DNL Google] O anunciou que não permitirá mais extensões criadas usando o Manifest V2 a partir de junho de 2024. Para obter mais informações, consulte [Anúncio da linha do tempo de suporte do Manifest V2](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} de [!DNL Google] no *Chrome para desenvolvedores* local.
+>A extensão auxiliar do VEC [!DNL Target] herdada documentada neste artigo foi criada usando o Manifest V2. [!DNL Google] anunciou que não permitirá mais extensões criadas usando o Manifest V2 a partir de junho de 2024. Para obter mais informações, consulte o [anúncio da linha do tempo de suporte do Manifest V2](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} de [!DNL Google] no site *Chrome para Desenvolvedores*.
 >
->A partir de junho de 2024, [!DNL Google] O começará a desabilitar extensões criadas usando o Manifesto V2, incluindo a extensão documentada neste tópico. [!DNL Adobe] A recomenda que os clientes mudem para a versão mais recente [Extensão Auxiliar de edição visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) logo que possível.
+>A partir de junho de 2024, o [!DNL Google] começará a desabilitar as extensões criadas usando o Manifesto V2, incluindo a extensão documentada neste tópico. A [!DNL Adobe] recomenda que os clientes mudem para a [extensão Auxiliar de edição visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) mais recente assim que possível.
 
 ## Motivos pelos quais alguns sites podem não abrir de forma confiável no VEC
 
@@ -29,7 +29,7 @@ O navegador VEC Helper é um [!DNL Chrome] extensão. Essa extensão não é nec
 * O site está em um iframe.
 * A biblioteca do at.js ainda não está implementada no site.
 * O site de controle de qualidade e/ou preparo do cliente não está disponível para partes externas (o site é interno).
-* Existem algumas limitações atuais ao tentar usar o VEC para abrir um site que esteja usando o [Trabalhadores do Serviço](https://developer.mozilla.org/pt-BR/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+* Existem algumas limitações atuais ao tentar usar o VEC para abrir um site que esteja usando o [Service Workers](https://developer.mozilla.org/pt-BR/docs/Web/API/Service_Worker_API){target=_blank} (SW).
 
 Um SW é uma tecnologia da Web que pode ser usada para interceptar solicitações do domínio em que estão instalados por uma página da Web. O SW se mantém na visita da página e se ativa em visitas subsequentes. Ele decide quais solicitações são passadas e quais são interceptadas e fornecidas a partir de um cache.
 
@@ -41,7 +41,7 @@ Como uma possível solução alternativa, você pode desativar o Service Workers
 
 * Você está usando o Google Chrome 80+ com políticas aprimoradas de imposição de cookies do SameSite. Para obter mais informações, consulte [Como as políticas de imposição de cookies SameSite do Google Chrome recentemente anunciadas afetam o VEC e o EEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
-A extensão de navegador VEC Helper para o Chrome resolve problemas de carregamento de site para os quais os clientes agora dependem do [!DNL Target] [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) ou extensões de terceiros, como Requestly.
+A extensão de navegador VEC Helper para o Chrome resolve problemas de carregamento de site para os quais os clientes agora dependem do [!DNL Target] [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) ou de extensões de terceiros, como o Requestly.
 
 ## Benefícios do uso da extensão VEC Helper
 
@@ -50,19 +50,19 @@ A extensão de navegador VEC Helper para o Chrome resolve problemas de carregame
 
   Observe que ao usar o Enhanced Experience Composer (EEC), a extensão não insere a at.js, mas a funcionalidade de cookie SameSite ainda está presente. Para inserir a at.js na página da Web, desative o EEC.
 
-* [Visores móveis](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) são compatíveis mesmo sem o [!UICONTROL Enhanced Experience Composer] (CEE).
+* [Visores móveis](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) são suportados mesmo sem o [!UICONTROL Enhanced Experience Composer] (EEC).
 * Os clientes novos do [!DNL Target] podem usar a extensão para experimentar com [!DNL Target] mesmo se os desenvolvedores de TI ainda não tiverem implementado o [!DNL Target] em seus sites.
 * Os parceiros que servem vários sites e contas do [!DNL Target] de vários clientes agora têm um mecanismo simples para suportar o carregamento do VEC, em vez de gerenciar várias regras em ferramentas de terceiros.
 
 ## Obter e instalar a extensão do navegador VEC Helper
 
-1. Navegue até a [Extensão de navegador do Adobe Target VEC Helper na Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. Navegue até a [extensão de navegador do Adobe Target VEC Helper na Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. Clique em **[!UICONTROL Add to Chrome > Add Extension]**.
 1. Abra o VEC no [!DNL Target].
 1. Para usar a extensão, clique no ícone de extensão do navegador do VEC Helper (![ícone do VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)) na barra de ferramentas do navegador Chrome no VEC ou no [Modo de QA](/help/main/c-activities/c-activity-qa/activity-qa.md).
-1. (Condicional) Deslize o **[!UICONTROL Inject Target Libraries]** alternar para a posição &quot;ativado&quot; se a página da Web ainda não contiver a variável [!DNL Target] Biblioteca JavaScript at.js.
+1. (Condicional) Deslize o botão **[!UICONTROL Inject Target Libraries]** para a posição &quot;ligado&quot; se a página da Web ainda não contiver a biblioteca at.js de JavaScript [!DNL Target].
 
-   A ilustração a seguir mostra o VEC Helper com o [!UICONTROL Inject Target Libraries] configuração ativada:
+   A ilustração a seguir mostra o VEC Helper com a configuração [!UICONTROL Inject Target Libraries] ativada:
 
    ![VEC Helper 1](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
@@ -70,7 +70,7 @@ A extensão de navegador VEC Helper para o Chrome resolve problemas de carregame
 
    ![VEC Helper 2](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
-1. (Condicional) Deslize o **[!UICONTROL Cookies]** alterne para a posição &quot;ativada&quot; para adicionar automaticamente a variável `SameSite=None` correção de navegador de atributo.
+1. (Condicional) Deslize o botão **[!UICONTROL Cookies]** para a posição &quot;ligado&quot; para adicionar automaticamente a correção de navegador do atributo `SameSite=None`.
 
    ![Alternância de cookies na extensão auxiliar do VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -78,11 +78,11 @@ A extensão de navegador VEC Helper para o Chrome resolve problemas de carregame
 
 ## Notas
 
-* A variável [!UICONTROL Inject Target libraries] o sinalizador na extensão está desativado por padrão. Você pode ativar esse sinalizador se desejar usar o VEC em um site que ainda não foi implementado para [!DNL Target].
+* O sinalizador [!UICONTROL Inject Target libraries] na extensão está desativado por padrão. Você pode ativar esse sinalizador se desejar usar o VEC em um site que ainda não foi implementado para [!DNL Target].
 
   Esse sinalizador é uma configuração global. O sinalizador é ativado ou desativado para todos os sites abertos no VEC. Assim, por exemplo, se você definir esse sinalizador como &quot;ativado&quot; e abrir um site que já esteja implementado com a at.js, você receberá uma mensagem informando que a at.js já está carregada. O Adobe prevê que a maioria dos clientes já tenha o at.js implementado em suas páginas e use a configuração padrão &quot;desativado&quot;.
 
-* A extensão carrega a versão mais recente da at.js disponível no [!DNL Target UI] in [!UICONTROL Administration > Implementation].
+* A extensão carrega a versão mais recente da at.js disponível do [!DNL Target UI] em [!UICONTROL Administration > Implementation].
 * Ao usar a extensão para inserir o at.js enquanto estiver no [Modo de QA](/help/main/c-activities/c-activity-qa/activity-qa.md), é necessário abrir outra guia do Chrome. Essa guia do Chrome deve ser autenticada na mesma organização de [!DNL Adobe Experience Cloud] na qual você criou a atividade.
 * As mensagens a seguir ajudam a manter você informado:
 

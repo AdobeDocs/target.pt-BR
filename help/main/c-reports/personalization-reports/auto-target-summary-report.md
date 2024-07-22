@@ -2,31 +2,31 @@
 keywords: relatórios;direcionamento automático;direcionamento automático;relatório;reports;auto-target;auto target;AT;report
 description: Saiba como interpretar o relatório de Resumo do direcionamento automático no Adobe Target. Você pode alternar para os relatórios de Segmentos automatizados e Atributos importantes a partir desse relatório.
 title: Como faço para usar o relatório de resumo do direcionamento automático?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 53%
+source-wordcount: '667'
+ht-degree: 52%
 
 ---
 
 # Relatório de Resumo do direcionamento automático
 
-Informações sobre como interpretar o [!UICONTROL Resumo do direcionamento automático] relatórios em [!DNL Adobe Target].
+Informações sobre como interpretar os relatórios de [!UICONTROL Auto-Target Summary] em [!DNL Adobe Target].
 
 >[!NOTE]
 >
->O [!UICONTROL Direcionamento automático] está disponível como parte da solução do [!DNL Target Premium]. Ela não está incluída no [!DNL Target Standard] como uma licença do [Target Premium](/help/main/c-intro/intro.md#premium).
+>[!UICONTROL Auto-Target] está disponível como parte da solução [!DNL Target Premium]. Ele não está incluído com [!DNL Target Standard] sem uma [licença do Target Premium](/help/main/c-intro/intro.md#premium).
 
-Para exibir a variável [!UICONTROL Resumo do direcionamento automático] relatórios:
+Para exibir os relatórios de [!UICONTROL Auto-Target Summary]:
 
-1. No [!UICONTROL Atividades] clique no link desejado [!UICONTROL Direcionamento automático] atividade.
+1. Na página [!UICONTROL Activities], clique na atividade [!UICONTROL Auto-Target] desejada.
 
-   Se você tiver muitas atividades, pode filtrar a lista selecionando opções na [!UICONTROL Tipo], [!UICONTROL Status], [!UICONTROL Propriedade], [!UICONTROL Fonte dos relatórios], [!UICONTROL Experience Composer], [!UICONTROL Tipo de métricas], e [!UICONTROL Origem da atividade] listas suspensas.
+   Se você tem muitas atividades, você pode filtrar a lista selecionando opções nas listas suspensas [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] e [!UICONTROL Activity Source].
 
-1. Clique em [!UICONTROL Relatórios] e clique no ícone desejado:
+1. Clique na guia [!UICONTROL Reports] e depois clique no ícone desejado:
 
    * Exibição em tabela 
    * Exibição em gráfico
@@ -35,11 +35,11 @@ Para exibir a variável [!UICONTROL Resumo do direcionamento automático] relat�
 
 ## Exibição em tabela 
 
-A ilustração a seguir mostra a aparência de um relatório de resumo típico no [!UICONTROL Exibição de tabela] ao visualizar um [!UICONTROL Direcionamento automático] relatório de atividade:
+A ilustração a seguir mostra a aparência típica de um relatório de resumo em [!UICONTROL Table View] ao visualizar um relatório de atividade de [!UICONTROL Auto-Target]:
 
-![Relatório de exibição de tabela do Direcionamento automático](/help/main/c-reports/assets/at-table-view.png)
+![Relatório de exibição de tabela de Direcionamento automático](/help/main/c-reports/assets/at-table-view.png)
 
-Algumas dicas e considerações ao interpretar o [!UICONTROL Direcionamento automático] relatórios:
+Algumas dicas e considerações ao interpretar os relatórios do [!UICONTROL Auto-Target]:
 
 * As várias linhas na tabela ajudam você a entender o desempenho da atividade.
 
@@ -52,13 +52,13 @@ Algumas dicas e considerações ao interpretar o [!UICONTROL Direcionamento auto
    * Neste caso, para aumentar a velocidade da atividade com modelos construídos para todas as experiências, o tráfego adicional é enviado para experiências com modelos não construídos.
    * Deve haver pelo menos duas experiências com modelos construídos (marca de seleção verde) para que a personalização comece.
 
-* Comparar o índice de conversão da experiência A com o da experiência B não é a comparação correta no [!UICONTROL Direcionamento automático]. A questão é se a experiência A tem um desempenho melhor quando é apresentada de maneira inteligente versus uma maneira aleatória (em outras palavras, versus o controle). Os profissionais de marketing também devem ter cautela ao interpretar os aumentos de experiências individuais, porque o algoritmo de personalização está tentando otimizar a métrica de sucesso em toda a atividade, não em cada experiência individual.
+* Comparar o índice de conversão da experiência A com o da experiência B não é a comparação correta em [!UICONTROL Auto-Target]. A questão é se a experiência A tem um desempenho melhor quando é apresentada de maneira inteligente versus uma maneira aleatória (em outras palavras, versus o controle). Os profissionais de marketing também devem ter cautela ao interpretar os aumentos de experiências individuais, porque o algoritmo de personalização está tentando otimizar a métrica de sucesso em toda a atividade, não em cada experiência individual.
 * Experiências com o aumento mais alto podem ser entendidas como tendo a maior diferenciação dentro da população. Esse é o algoritmo que encontrou um segmento que gosta mais dessa experiência em particular.
 * As várias colunas na tabela mostram o número de visitas, a taxa de conversão, o nível médio de aumento e confiança e a confiança. Para obter mais informações, consulte [Cálculos estatísticos em testes A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Exibição em gráfico
 
-A ilustração a seguir mostra a aparência de um relatório de resumo típico no [!UICONTROL Exibição em gráfico] ao visualizar um [!UICONTROL Direcionamento automático] relatório de atividade:
+A ilustração a seguir mostra a aparência típica de um relatório de resumo em [!UICONTROL Graph View] ao visualizar um relatório de atividade de [!UICONTROL Auto-Target]:
 
 ![Relatório de exibição de gráfico de Direcionamento automático](/help/main/c-reports/assets/at-graph-view.png)
 
@@ -68,7 +68,7 @@ Como mostrado abaixo, você pode usar as duas listas suspensas para escolher as 
 
 ## Segmentos automatizados
 
-Clique em [!UICONTROL Segmentos automatizados] ícone. Este relatório mostra como visitantes diferentes respondem de forma diferente às ofertas/experiências na atividade de AP/AT. Este relatório mostra como diferentes segmentos automatizados, definidos pelos modelos de personalização do Target, responderam às ofertas/experiências na atividade.
+Clique no ícone [!UICONTROL Automated Segments]. Este relatório mostra como visitantes diferentes respondem de forma diferente às ofertas/experiências na atividade de AP/AT. Este relatório mostra como diferentes segmentos automatizados, definidos pelos modelos de personalização do Target, responderam às ofertas/experiências na atividade.
 
 ![Ícone de Segmentos automatizados](/help/main/c-reports/assets/icon-automated-sements.png)
 
@@ -76,7 +76,7 @@ Para obter mais informações, consulte [Relatório de Segmentos automatizados](
 
 ## Atributos importantes
 
-Clique em [!UICONTROL Atributos importantes] ícone. Este relatório mostra como, em atividades diferentes, atributos distintos são mais (ou menos) importantes para a forma como o modelo decide personalizar. Este relatório mostra os principais atributos que influenciaram o modelo e sua importância relativa.
+Clique no ícone [!UICONTROL Important Attributes]. Este relatório mostra como, em atividades diferentes, atributos distintos são mais (ou menos) importantes para a forma como o modelo decide personalizar. Este relatório mostra os principais atributos que influenciaram o modelo e sua importância relativa.
 
 ![Ícone de atributos importantes](/help/main/c-reports/assets/icon-important-attributes.png)
 

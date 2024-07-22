@@ -1,35 +1,35 @@
 ---
 keywords: teste multivariado;mvt;fatorial completo;mvt ou a/b;multivariado a/b;avaliador de tráfego;quando usar mvt;considerações de mvt;multivariado;fatorial parcial;fatorial parcial;fatorial completo
-description: Saiba como usar um [!UICONTROL Teste multivariado] (MVT) em [!DNL Adobe Target] para comparar combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho.
-title: O que é uma [!UICONTROL Teste multivariado]?
+description: Saiba como usar um [!UICONTROL Multivariate Test] (MVT) no [!DNL Adobe Target] para comparar combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho.
+title: O que é um [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 49%
+source-wordcount: '1438'
+ht-degree: 47%
 
 ---
 
-# [!UICONTROL Visão geral de teste multivariado]
+# Visão geral de [!UICONTROL Multivariate Test]
 
-A [!UICONTROL Teste multivariado] (MVT) na [!DNL Adobe Target] compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico. A [!UICONTROL Teste multivariado] A atividade de também ajuda a identificar qual elemento afeta mais o sucesso da atividade.
+Uma atividade do [!UICONTROL Multivariate Test] (MVT) no [!DNL Adobe Target] compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico. Uma atividade [!UICONTROL Multivariate Test] também ajuda a identificar qual elemento afeta mais o sucesso da atividade.
 
 O teste multivariado ajuda você a descobrir a influência relativa que elementos específicos têm na conversão, em comparação a outros elementos na página. Testes multivariados também podem ajudar você a refinar uma combinação de elementos que se mostraram eficazes.
 
-Uma vantagem a [!UICONTROL Teste multivariado] O fornece em comparação a um teste A/B a capacidade de mostrar quais elementos na página têm maior influência na conversão. Essa vantagem também é conhecida como &quot;efeito principal&quot;. Essas informações são úteis, por exemplo, para ajudá-lo a determinar onde colocar o conteúdo que você deseja que receba mais atenção.
+Uma vantagem que um [!UICONTROL Multivariate Test] fornece em comparação a um teste A/B é a capacidade de mostrar quais elementos na sua página têm maior influência na conversão. Essa vantagem também é conhecida como &quot;efeito principal&quot;. Essas informações são úteis, por exemplo, para ajudá-lo a determinar onde colocar o conteúdo que você deseja que receba mais atenção.
 
-[!UICONTROL Teste multivariado] as atividades também ajudam a encontrar efeitos compostos entre dois ou mais elementos em uma página. Por exemplo, um determinado anúncio pode produzir mais conversas quando combinado com um certo banner ou imagem principal. Isso também é conhecido como &quot;efeito de interação&quot;.
+[!UICONTROL Multivariate Test] atividades também ajudam a encontrar efeitos compostos entre dois ou mais elementos em uma página. Por exemplo, um determinado anúncio pode produzir mais conversas quando combinado com um certo banner ou imagem principal. Isso também é conhecido como &quot;efeito de interação&quot;.
 
 [!DNL Target]O usa testes multivariados fatoriais completos para ajudar você a otimizar seu conteúdo. Um teste multivariado fatorial completo examina todas as combinações possíveis de conteúdo com igual probabilidade. Por exemplo, se houver dois elementos de página com três ofertas cada, haverá nove combinações possíveis (3x3). Três elementos, com dois deles contendo três ofertas possíveis e um com duas ofertas, oferecem 18 opções (3x3x2).
 
-Entrada [!DNL Target], cada combinação é uma experiência. A variável [!UICONTROL Teste multivariado] O compara cada experiência para que você possa saber quais combinações são as mais bem-sucedidas. Ao mesmo tempo, os dados são coletados e analisados para entender como cada local e as ofertas influenciam a métrica de sucesso.
+Em [!DNL Target], cada combinação é uma experiência. O [!UICONTROL Multivariate Test] compara cada experiência para que você possa saber quais combinações são as mais bem-sucedidas. Ao mesmo tempo, os dados são coletados e analisados para entender como cada local e as ofertas influenciam a métrica de sucesso.
 
 ![imagem multivariada](assets/multivariate.png)
 
-Devido ao número de combinações que podem ser geradas, uma [!UICONTROL Teste multivariado] O requer mais tempo e tráfego do que um teste A/B. A página deve receber tráfego suficiente para produzir resultados significativos estatisticamente para cada experiência. Para obter resultados úteis, você deve entender a quantidade de tráfego que sua página recebe e testar o número ideal de combinações para a quantidade certa de tempo para obter os resultados necessários.
+Devido ao número de combinações que podem ser geradas, um [!UICONTROL Multivariate Test] requer mais tempo e tráfego do que um teste A/B. A página deve receber tráfego suficiente para produzir resultados significativos estatisticamente para cada experiência. Para obter resultados úteis, você deve entender a quantidade de tráfego que sua página recebe e testar o número ideal de combinações para a quantidade certa de tempo para obter os resultados necessários.
 
-Target&#39;s [Avaliador de tráfego](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) O pode ajudar você a projetar um teste que funcione com seu tráfego. Antes de usar o Avaliador de tráfego, você deve ter boas estatísticas que demonstrem o número de impressões e conversas que o site recebe normalmente. Considere seus níveis diários de tráfego. Quanto mais experiências numa atividade, mais tráfego a atividade deve incluir ou mais sua atividade deve ser executada. Se a quantidade de tráfego não estiver alta, você deverá testar algumas combinações; caso contrário, a quantidade de tempo necessária para produzir resultados de teste significativos pode ser muito longa para ser útil.
+O [Avaliador de tráfego](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) do Target pode ajudar você a projetar um teste que funcione com seu tráfego. Antes de usar o Avaliador de tráfego, você deve ter boas estatísticas que demonstrem o número de impressões e conversas que o site recebe normalmente. Considere seus níveis diários de tráfego. Quanto mais experiências numa atividade, mais tráfego a atividade deve incluir ou mais sua atividade deve ser executada. Se a quantidade de tráfego não estiver alta, você deverá testar algumas combinações; caso contrário, a quantidade de tempo necessária para produzir resultados de teste significativos pode ser muito longa para ser útil.
 
 ## Terminologia do MVT {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
@@ -45,11 +45,11 @@ Há vários termos que são usados de maneiras diferentes no setor. Esta seção
 
 **Localização:** uma área de conteúdo específico em uma página, normalmente, contido por um elemento DOM. Na metodologia MVT, uma localização é, às vezes, chamado de *fator*. Um teste multivariado fatorial completo compara todas as combinações possíveis de ofertas nas localizações.
 
-## Quando usar [!UICONTROL Teste multivariado] vs A/B {#section_3D2B966B6671406C861A1843EA41D28C}
+## Quando usar [!UICONTROL Multivariate Test] vs. A/B {#section_3D2B966B6671406C861A1843EA41D28C}
 
 Os testes multivariados podem ser usados junto com testes A/B para otimizar sua página. Estes são alguns exemplos de ocasiões em que talvez você queira usá-los juntos:
 
-* Use um teste A/B para otimizar o layout da sua página, seguido por um teste MVT para determinar o melhor conteúdo em cada elemento na página.
+* Use um teste A/B para otimizar o layout da página, seguido de um teste MVT para determinar o melhor conteúdo em cada elemento na página.
 
   Um teste A/B pode gerar um feedback importante no layout, e os testes MVT são ótimos para testar o conteúdo dentro dos elementos no design da sua página. A execução de um teste A/B no layout antes de testar várias opções de conteúdo pode ajudar você a determinar o melhor layout e o conteúdo mais impactante.
 
@@ -59,7 +59,7 @@ Os testes multivariados podem ser usados junto com testes A/B para otimizar sua 
 
 ## Considerações {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
-* Use um teste MVT quando você tiver pelo menos três elementos para testar. Se tiver menos, execute uma série de  Testes A/B.
+* Use um teste MVT quando você tiver pelo menos três elementos para testar. Se houver menos elementos, execute uma série de testes A/B.
 * Selecione os elementos de página que você acha que têm maior impacto nos resultados.
 * Não inclua elementos nem locais demais em um teste. Quanto maior o número, maior será a duração do teste.
 * Planejar o teste com antecedência. Não edite um teste depois que ele entrar em funcionamento e os dados começarem a ser coletados e analisados.
@@ -67,11 +67,12 @@ Os testes multivariados podem ser usados junto com testes A/B para otimizar sua 
 
   Por exemplo, não teste o layout e o conteúdo no mesmo teste.
 
-* Inclua mais tempo para QA devido ao amento do número de experiências. Você também pode usar testes fatoriais parciais para diminuir a quantidade de tráfego necessária para um teste multivariado. Para obter mais informações, consulte Teste fatorial parcial abaixo:
+* Planeje mais tempo para o controle de qualidade devido ao aumento no número de experiências. Você também pode usar testes fatoriais parciais para diminuir a quantidade de tráfego necessária para um teste multivariado. Para obter mais informações, consulte Teste fatorial parcial abaixo:
 
 ## Teste fatorial parcial
 
-[!DNL Target]O oferece teste multivariado fatorial completo como uma opção de atividade incorporada. Em estatísticas, o &quot;Projeto de experimentos&quot; oferece muitas abordagens, ou projetos, para determinar quais fatores influenciam os resultados. Uma dessas abordagens é a [Método Taguchi](https://en.wikipedia.org/wiki/Taguchi_methods) para ensaios fatoriais parciais. O Taguchi permite que os profissionais de marketing criem um conjunto de suposições que reduzem o número de permutas de experiências que devem ser testadas e, por sua vez, diminuam os requisitos de tráfego para um teste multivariado. Essa abordagem de funcionalidade e teste pode ser aplicada em [!DNL Target] usar este [planilha offline](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+[!DNL Target]O oferece teste multivariado fatorial completo como uma opção de atividade incorporada. Nas estatísticas,
+O &quot;Projeto de experimentos&quot; oferece muitas abordagens, ou projetos, para determinar quais fatores influenciam os resultados. Uma abordagem como essa é o [Método Taguchi](https://en.wikipedia.org/wiki/Taguchi_methods) para testes fatoriais parciais. O Taguchi permite que os profissionais de marketing criem um conjunto de suposições que reduzem o número de permutas de experiências que devem ser testadas e, por sua vez, diminuam os requisitos de tráfego para um teste multivariado. Esta abordagem de funcionalidade e teste pode ser aplicada em [!DNL Target] usando esta [planilha offline](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
 Se a sua equipe usa outras abordagens de Projeto de Experimentos, você pode usar essa planilha como implementação de referência para projetos experimentais personalizados.
 
@@ -89,9 +90,9 @@ Para mais considerações e práticas recomendadas, consulte [Práticas recomend
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Tipos de atividade (9:03) ![Selo de visão geral](/help/main/assets/overview.png)
+### Tipos de atividades (9:03) ![Selo de visão geral](/help/main/assets/overview.png)
 
-Este vídeo de visão geral explica os tipos de atividades disponíveis no [!DNL Target]. O teste multivariado é discutido a partir de 04:20.
+Este vídeo de visão geral explica os tipos de atividades disponíveis em [!DNL Target]. O teste multivariado é discutido a partir de 04:20.
 
 * Descreva os tipos de atividade incluídos no [!DNL Adobe Target]
 * Selecione o tipo de atividade apropriado para atingir suas metas
@@ -99,9 +100,9 @@ Este vídeo de visão geral explica os tipos de atividades disponíveis no [!DNL
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Criação de testes multivariados (9:25) ![Selo do tutorial](/help/main/assets/tutorial.png)
+### Criando Testes Multivariados (9:25) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
-Este vídeo explica como entender, planejar e criar um teste multivariado usando o [!DNL]Fluxo de trabalho guiado de três etapas do Target.
+Este vídeo explica como entender, planejar e criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do [!DNL]Target.
 
 * Definir e projetar um teste multivariado
 * Criar um teste multivariado

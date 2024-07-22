@@ -17,7 +17,7 @@ ht-degree: 72%
 
 >[!IMPORTANT]
 >
->O [!DNL Recommendations Classic] é um produto herdado e não é mais licenciado para novos clientes. Para o melhor [!DNL Recommendations] experiência, atualizar para [!DNL Recommendations] atividades disponíveis em [Adobe Target Premium](/help/main/c-intro/intro.md).
+>O [!DNL Recommendations Classic] é um produto herdado e não é mais licenciado para novos clientes. Para obter a melhor experiência [!DNL Recommendations], atualize para as atividades [!DNL Recommendations] disponíveis no [Adobe Target Premium](/help/main/c-intro/intro.md).
 
 O Recommendations ajuda a direcionar clientes para itens que, de outra forma, eles talvez eles não conhecessem, melhorando as vendas geradas no seu site.
 

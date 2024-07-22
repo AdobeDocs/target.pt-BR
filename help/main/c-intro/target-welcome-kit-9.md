@@ -6,8 +6,8 @@ feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 82%
+source-wordcount: '657'
+ht-degree: 78%
 
 ---
 
@@ -21,7 +21,7 @@ Compilamos uma lista organizada de informações valiosas para ajudá-lo a obter
 
 ## Links de recursos
 
-* **Configuração do Adobe Target**: Informações para ajudá-lo a administrar o [!DNL Adobe Target], incluindo configurações para o [!UICONTROL Visual Experience Composer] (VEC), relatórios, [!DNL Scene7] configuração, implementação, hosts, ambientes, tokens de resposta e usuários. Consulte [Visão geral da administração do Target](/help/main/administrating-target/administrating-target.md).
+* **Configuração do Adobe Target**: Informações para ajudá-lo a administrar o [!DNL Adobe Target], incluindo definições de configuração para o [!UICONTROL Visual Experience Composer] (VEC), relatórios, configuração do [!DNL Scene7], implementação, hosts, ambientes, tokens de resposta e usuários. Consulte [Visão geral da administração do Target](/help/main/administrating-target/administrating-target.md).
 * **Documentação do produto Adobe Target**: Tudo o que você precisa saber sobre o Adobe Target. Consulte a [Documentação do produto Adobe Target](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=pt-BR).
 * **Documentação da API e do SDK do Adobe Target**: Saiba como implementar o [!DNL Target] em aplicativos do lado do cliente, aplicativos do lado do servidor, aplicativos móveis, IoT e muito mais. Além disso, saiba como trocar seus dados do [!DNL Target] com soluções de terceiros. Consulte [Visão geral da API do Adobe Target](/help/main/api/api-overview.md).
 * **Manual de atividades do Adobe Target**: Introdução às diferentes atividades que você pode usar no [!DNL Target]. Consulte [Tipos de atividade do Target](/help/main/c-activities/target-activities-guide.md).

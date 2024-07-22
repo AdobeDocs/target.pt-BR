@@ -1,23 +1,23 @@
 ---
 keywords: Definição de metas; experiência; adicionar experiência; adicionar experiência
 description: Saiba como usar o [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target].
-title: Como adicionar experiências em uma [!DNL Target] Atividade A/B?
+title: Como adicionar experiências em uma atividade A/B  [!DNL Target] ?
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 source-git-commit: 6fa1b428e7955bae976649c42d3eb9b2ddc2c79f
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '441'
 ht-degree: 43%
 
 ---
 
 # Adicionar experiência
 
-A variável [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] O (VEC) fornece uma interface visual para adicionar e editar as experiências na sua página.
+O [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) do fornece uma interface visual para adicionar e editar as experiências na sua página.
 
 Para obter mais detalhes sobre experiências, consulte [Experiências](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
-1. No **[!UICONTROL Experiências]** no VEC, clique em **[!UICONTROL Adicionar experiência]**.
+1. Na página **[!UICONTROL Experiences]** do VEC, clique em **[!UICONTROL Add Experience]**.
 
    ![Opção Adicionar experiência](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
 
@@ -29,7 +29,7 @@ Para obter mais detalhes sobre experiências, consulte [Experiências](/help/mai
 
    À medida que você passa o mouse sobre os elementos na página, eles são realçados. Qualquer elemento destacado pode ser alterado usando o VEC.
 
-   Se você criou um [!DNL Target] na página usando [!DNL Target Classic] (antigo [!DNL Test&Target]), que [!DNL Target] solicitação aparece como um elemento que mostra o nome da solicitação e pode ser modificado como qualquer outro elemento.
+   Se você criou uma solicitação [!DNL Target] na página usando [!DNL Target Classic] (antigo [!DNL Test&Target]), essa solicitação [!DNL Target] aparece como um elemento que mostra o nome da solicitação e pode ser modificada como qualquer outro elemento.
 
    Para ver uma lista de ações que podem ser executadas em um elemento de uma página exibida para alterar a experiência, consulte [Opções do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -37,11 +37,11 @@ Para obter mais detalhes sobre experiências, consulte [Experiências](/help/mai
    >
    >Se você apresentar uma imagem de uma fonte diferente da sua página principal (como uma imagem hospedada em `akamai.net` e disponibilizada em `example.com`), ela não será exibida na miniatura da página mostrada no diagrama de fluxo.
 
-1. Clique em **[!UICONTROL Salvar]** ao concluir a criação da experiência.
+1. Clique em **[!UICONTROL Save]** quando terminar de criar a experiência.
 
 ## Renomear experiência
 
-1. Clique em **[!UICONTROL Renomear experiência]** ícone em uma experiência em um [!UICONTROL Teste A/B] ou [!UICONTROL Direcionamento de experiência] (XT) para dar um novo nome à experiência.
+1. Clique no ícone **[!UICONTROL Rename Experience]** em uma experiência de uma atividade [!UICONTROL A/B Test] ou [!UICONTROL Experience Targeting] (XT) para dar um novo nome à experiência.
 
    ![Renomear experiência](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -62,7 +62,7 @@ Para obter mais detalhes sobre experiências, consulte [Experiências](/help/mai
 
 ## Redirecionar para URL
 
-1. Clique em **[!UICONTROL Mais]** ícone (as reticências verticais) em uma experiência em um [!UICONTROL Teste A/B] ou [!UICONTROL Direcionamento de experiência] (XT) e clique em **[!UICONTROL Redirecionar para URL]**.
+1. Clique no ícone **[!UICONTROL More]** (as reticências verticais) em uma experiência de uma atividade [!UICONTROL A/B Test] ou [!UICONTROL Experience Targeting] (XT) e clique em **[!UICONTROL Redirect to URL]**.
 
    Para obter mais informações, consulte [Redirecionar para URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
@@ -81,25 +81,25 @@ Para obter mais detalhes sobre experiências, consulte [Experiências](/help/mai
 
 1. Especifique o URL para o qual deseja redirecionar a experiência.
 
-1. (Condicional) Verifique a **[!UICONTROL Incluir parâmetros de consulta atuais]** caixa de seleção
+1. (Condicional) Marque a caixa de seleção **[!UICONTROL Include Current Query Parameters]**.
 
 ## Duplicar uma experiência
 
-É possível copiar uma experiência em um [!UICONTROL Teste A/B] para que você possa fazer pequenas alterações nele sem precisar recriar a experiência do zero.
+Você pode copiar uma experiência em um [!UICONTROL A/B Test] para fazer pequenas alterações nele sem ter que recriar a experiência do zero.
 
-1. No **[!UICONTROL Experiências]** (a primeira etapa no fluxo de trabalho guiado de três etapas), clique no ícone de reticências verticais > **[!UICONTROL Duplicar]**.
+1. Na página **[!UICONTROL Experiences]** (a primeira etapa do fluxo de trabalho guiado de três etapas), clique no ícone de reticências verticais > **[!UICONTROL Duplicate]**.
 
    ![Opção de experiência duplicada](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
 ## Excluir uma experiência
 
-1. No **[!UICONTROL Experiências]** (a primeira etapa no fluxo de trabalho guiado de três etapas), clique no ícone de reticências verticais > **[!UICONTROL Duplicar]**.
+1. Na página **[!UICONTROL Experiences]** (a primeira etapa do fluxo de trabalho guiado de três etapas), clique no ícone de reticências verticais > **[!UICONTROL Duplicate]**.
 
    ![Opção Excluir experiência](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Vídeo de treinamento: uso do [!UICONTROL Visual Experience Composer]
+## Vídeo de treinamento: usando o [!UICONTROL Visual Experience Composer]
 
-O vídeo abaixo fornece informações sobre o uso da [!UICONTROL Visual Experience Composer] opções. (7:17)
+O vídeo abaixo fornece informações sobre o uso das opções [!UICONTROL Visual Experience Composer]. (7:17)
 
 * Alterar o conteúdo de uma página
 * Alterar o layout de uma página

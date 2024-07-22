@@ -7,26 +7,26 @@ exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 79%
+ht-degree: 74%
 
 ---
 
 # Configurações de atividade
 
-Uso [!UICONTROL Configurações da atividade] in [!DNL Adobe Target] para gerenciar o objetivo, a prioridade e a duração de suas atividades.
+Use o [!UICONTROL Activity Settings] no [!DNL Adobe Target] para gerenciar o objetivo, a prioridade e a duração de suas atividades.
 
 1. Insira observações sobre o objetivo da atividade.
 
-   Digite qualquer informação sobre sua atividade que seja útil para manter ao seu alcance ou de outros membros da equipe. Arraste para redimensionar o campo [!UICONTROL Objetivo].
+   Digite qualquer informação sobre sua atividade que seja útil para manter ao seu alcance ou de outros membros da equipe. Arraste para redimensionar o campo [!UICONTROL Objective].
 1. Definir a prioridade da atividade.
 
-   Dependendo das configurações, a interface do usuário e as opções de [!UICONTROL Prioridade] variam. É possível usar as configurações herdadas de Baixo, Médio ou Alto, ou pode ativar as prioridades otimizadas de 0 a 999.
+   Dependendo das configurações, a interface do usuário e as opções para [!UICONTROL Priority] variam. É possível usar as configurações herdadas de Baixo, Médio ou Alto, ou pode ativar as prioridades otimizadas de 0 a 999.
 
    A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.
 
-   Se esta opção não estiver ativada no [!UICONTROL Administração] > [!UICONTROL Relatórios] (o padrão), especifique uma prioridade: baixa, média ou alta.
+   Se esta opção não estiver habilitada em [!UICONTROL Administration] > [!UICONTROL Reporting] (padrão), especifique uma prioridade: baixa, Medium ou alta.
 
-   Para ativar as prioridades otimizadas, clique em [!UICONTROL Administração] > [!UICONTROL Relatórios], em seguida, alterne a [!UICONTROL Ativar prioridades otimizadas] para a posição &quot;Ligado&quot;.
+   Para habilitar prioridades otimizadas, clique em [!UICONTROL Administration] > [!UICONTROL Reporting] e alterne a opção [!UICONTROL Enable Fine-Grained Priorities] para a posição &quot;Ativado&quot;.
 
    Se esta opção estiver ativada, especifique um valor entre 0 e 999:
 
@@ -47,7 +47,7 @@ Uso [!UICONTROL Configurações da atividade] in [!DNL Adobe Target] para gerenc
    >
    >O agendamento de uma atividade controla seu prazo de entrega; no entanto, a atividade deve ser ativada explicitamente para poder ser entregue de acordo com o agendamento especificado.
 
-A página [!UICONTROL Meta e configurações] inclui configurações adicionais que variam de acordo com o tipo de atividade que você está criando. Para obter mais informações sobre essas configurações, consulte seu tipo de atividade:
+A página [!UICONTROL Goal & Settings] inclui configurações adicionais que variam de acordo com o tipo de atividade que você está criando. Para obter mais informações sobre essas configurações, consulte seu tipo de atividade:
 
 * [Teste A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Personalização automatizada](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
@@ -65,4 +65,4 @@ Este vídeo inclui informações sobre as configurações da atividade.
 * Adicionar públicos-alvo para relatórios a fim de criar filtros de relatórios
 * Inserir observações para a atividade
 
-   >[!VIDEO](https://video.tv.adobe.com/v/17381)
+  >[!VIDEO](https://video.tv.adobe.com/v/17381)

@@ -13,11 +13,11 @@ ht-degree: 38%
 
 # Perfis do visitante
 
-Perfis do visitante em [!DNL Adobe Target] contém informações sobre como seus visitantes usam suas páginas e outros locais de conteúdo otimizado.
+Os perfis de visitantes no [!DNL Adobe Target] contêm informações sobre como seus visitantes usam suas páginas e outros locais de conteúdo otimizado.
 
-Se [!DNL Target] é usado com outro [!DNL Adobe Experience Cloud] soluções, como [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] O compartilha informações de visitantes em soluções.
+Se o [!DNL Target] for usado com outras soluções do [!DNL Adobe Experience Cloud], como o [!DNL Adobe Analytics], o [!DNL Experience Cloud Audiences] compartilhará informações de visitante entre as soluções.
 
-Por padrão, [!DNL Target] as informações do perfil são armazenadas em um único cookie primário. A configuração pode ser facilmente alterada para enviar cookies de terceiros também.
+Por padrão, as informações de perfil do [!DNL Target] são armazenadas em um único cookie próprio. A configuração pode ser facilmente alterada para enviar cookies de terceiros também.
 
 As seguintes seções contêm mais informações:
 

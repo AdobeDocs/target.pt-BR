@@ -1,19 +1,19 @@
 ---
 keywords: dados dinâmicos; ativos; dados; ofertas; ofertas personalizadas; ofertas pessoais; substituição de token
-description: Saiba como transmitir dados dinâmicos para o [!DNL Adobe Target] Ofertas.
+description: Saiba como transmitir dados dinâmicos para  [!DNL Adobe Target] Ofertas.
 title: Como transfiro dados dinâmicos em ofertas?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '535'
 ht-degree: 63%
 
 ---
 
 # Envio de dados dinâmicos em ofertas
 
-É possível exibir dinamicamente as informações do visitante armazenadas na [!DNL Adobe Target] perfil. Da mesma forma, as informações de atividade (como o nome da atividade ou o nome da experiência) também podem ser usadas para criar uma oferta única, que retorna dinamicamente o conteúdo personalizado com base nos interesses do visitante, no comportamento anterior e no perfil geral.
+Você pode exibir dinamicamente as informações do visitante armazenadas no perfil [!DNL Adobe Target]. Da mesma forma, as informações de atividade (como o nome da atividade ou o nome da experiência) também podem ser usadas para criar uma oferta única, que retorna dinamicamente o conteúdo personalizado com base nos interesses do visitante, no comportamento anterior e no perfil geral.
 
 ## Casos de negócios
 
@@ -47,7 +47,7 @@ Os valores a seguir podem ser &quot;substituídos por token&quot;:
 
 Informações de log no console para fins de depuração, como `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
-Para [!DNL Recommendations] designs, consulte mais exemplos em [Visão geral do design](/help/main/c-recommendations/c-design-overview/design-overview.md).
+Para designs do [!DNL Recommendations], consulte mais exemplos na [Visão geral do design](/help/main/c-recommendations/c-design-overview/design-overview.md).
 
 ## Implementação
 
@@ -59,7 +59,7 @@ Em parâmetros de perfil criados em um script de perfil, use a sintaxe:
 
 `${user.parameter}`
 
-Ao usar atributos dinâmicos em um [!DNL Recommendations] , você deve inserir uma barra invertida ( \ ) antes do cifrão ( $ ) para que o valor dinâmico seja renderizado corretamente:
+Ao usar atributos dinâmicos em um design do [!DNL Recommendations], você deve inserir uma barra invertida ( \ ) antes do cifrão ( $ ) para que o valor dinâmico seja renderizado adequadamente:
 
 `\${user.endpoint.lastViewedEntity}`
 
@@ -73,7 +73,7 @@ Quando `testAttribute` não existe ou está em branco, &quot;Todos os itens!&quo
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-Você também pode utilizar valores escape e unescape para serem exibidos. Se o valor tiver um apóstrofo, por exemplo, você poderá escapar o valor para que ele não quebre o JavaScript na página. (As ofertas são escritas em JavaScript. Dessa forma, um único apóstrofo pode ser confundido com uma citação.) Por exemplo:
+Você também pode utilizar valores escape e unescape para serem exibidos. Se o valor tiver um apóstrofo, por exemplo, você pode omitir o valor para que ele não quebre a JavaScript na página. (As ofertas são escritas em JavaScript. Dessa forma, um único apóstrofo pode ser confundido com uma citação.) Por exemplo:
 
 `${user.encodedValue encode="unescape"}`
 

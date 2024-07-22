@@ -6,8 +6,8 @@ feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 95%
+source-wordcount: '1622'
+ht-degree: 87%
 
 ---
 
@@ -27,20 +27,20 @@ Como mboxTrace e mboxDebug podem expor dados de campanha e dados de perfil a ter
 
 Você deve ter uma das seguintes permissões de usuário para gerar um token de autenticação:
 
-* Pelo menos permissão de [!UICONTROL Editor] (ou [!UICONTROL Aprovador])
+* Pelo menos [!UICONTROL Editor] permissão (ou [!UICONTROL Approver])
 
-   Para obter mais informações para clientes do [!DNL Target Standard], consulte [Especificar funções e permissões](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) em *Usuários*. Para obter mais informações para clientes do [!DNL Target Premium], consulte [Configurar permissões corporativas](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
+  Para obter mais informações para clientes do [!DNL Target Standard], consulte [Especificar funções e permissões](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) em *Usuários*. Para obter mais informações para clientes do [!DNL Target Premium], consulte [Configurar permissões corporativas](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 * Função de administrador no nível de espaço de trabalho/perfil de produto
 
-   Os espaços de trabalho estão disponíveis somente para clientes do [!DNL Target Premium]. Para obter mais informações, consulte [Configurar permissões corporativas](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
+  Os espaços de trabalho estão disponíveis somente para clientes do [!DNL Target Premium]. Para obter mais informações, consulte [Configurar permissões corporativas](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 * Direitos de administrador (permissão de Sysadmin) no nível do produto [!DNL Adobe Target]
 
 Para recuperar o token de autorização:
 
-1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Implementação]**.
-1. Na seção Ferramentas de depuração, clique em **[!UICONTROL Gerar novo token de autenticação]**.
+1. Clique em **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Na seção Ferramentas de Depuração, clique em **[!UICONTROL Generate New Authentication Token]**.
 
    ![Gerar novo token de autenticação](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -83,7 +83,7 @@ Algumas das informações incluem segmentos correspondentes ou não e IDs de dir
 * Exclusões e inclusões aplicadas
 * Regras de coleção
 
-Não é necessário incluir  `=console`, `=json` ou `=window` no parâmetro de consulta. Quando terminar com os detalhes do mboxTrace, adicione `=disable` e pressione **[!UICONTROL Enter]** para retornar ao modo normal de exibição.
+Não é necessário incluir `=console`, `=json` ou `=window` no parâmetro de consulta. Quando terminar com os detalhes do mboxTrace, adicione `=disable` e pressione **[!UICONTROL Enter]** para retornar ao modo normal de exibição.
 
 mboxTrace não altera o funcionamento e a aparência normais do site. Os visitantes verão o design normal do Recommendations.
 
@@ -127,7 +127,7 @@ O Target não é mais compatível com o IE8.
 
 ## O cookie do Target não é definido {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Se o seu site tiver um subdomínio, como [!DNL us.domain.com], mas você precisar que o cookie do esteja definido em [!DNL domain.com] (em vez de [!DNL us.domain.com]), você deve substituir a configuração `cookieDomain`. Para obter mais informações, consulte [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.
+Se o seu site tiver um subdomínio, como [!DNL us.domain.com], mas você precisar que o cookie do esteja definido em [!DNL domain.com] (em vez de [!DNL us.domain.com]), você deve substituir a configuração `cookieDomain`. Para obter mais informações, consulte [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=pt-BR){target=_blank}.
 
 ## O conteúdo do Target cintila ou não é exibido caso um elemento também faça parte da personalização do Adobe Experience Manager. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -153,11 +153,11 @@ A at.js não disparará solicitações do Target se você estiver usando um tipo
 
 ## Certifique-se de que as atividades do [!DNL Target] tratam corretamente os URLs com parâmetros de sequência de consulta. {#query-strings}
 
-O [!UICONTROL URL da atividade] determina a página que qualifica os visitantes para a atividade e renderiza as experiências da atividade para os usuários. Quando solicitado durante a criação da atividade, digitar o URL completo nem sempre garante que o conteúdo será entregue na página do site, especialmente com URLs que contenham parâmetros de sequência de consulta.
+O [!UICONTROL Activity URL] determina a página que qualifica os visitantes para a atividade e renderiza as experiências da atividade para os usuários. Quando solicitado durante a criação da atividade, digitar o URL completo nem sempre garante que o conteúdo será entregue na página do site, especialmente com URLs que contenham parâmetros de sequência de consulta.
 
 Por padrão, o [!UICONTROL Visual Experience Composer] (VEC) abre a página especificada nas suas [configurações do Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md). Você também pode especificar uma página diferente durante a criação da atividade.
 
-Para exibir uma página diferente após a abertura do VEC, clique no **[!UICONTROL ícone de Configuração]** > selecione **[!UICONTROL Entrega da página]** > e especifique o URL desejado no campo [!UICONTROL URL da atividade].
+Para exibir uma página diferente após a abertura do VEC, clique em **[!UICONTROL Configure gear icon]** > selecione **[!UICONTROL Page Delivery]** > e especifique a URL desejada no campo [!UICONTROL Activity URL].
 
 ![Definir a interface das configurações de Entrega de página](assets/configure-page-delivery.png)
 
@@ -183,13 +183,13 @@ Nesse cenário, o URL é `https://shopping.mycart.com?type=Summers%20Offers` e a
 
 ### Opção 3: Em vez de direcionar o URL completo, aproveite uma parte específica do URL.
 
-Nesse cenário, o URL é `https://shopping.mycart.com?type=Summers%20Offers` e regras de modelo adicionais especificam uma [!UICONTROL Consulta] com [!UICONTROL type] > [!UICONTROL é (diferencia maiúsculas de minúsculas)] > type=Summers%20Offers, separadas por um operador OU:
+Nesse cenário, a URL é `https://shopping.mycart.com?type=Summers%20Offers` e regras de modelo adicionais especificam um [!UICONTROL Query] com [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers, separadas por um operador OU:
 
 ![Regra de modelo aproveitando uma parte específica do URL](assets/option3.png)
 
-## Evitar aspas duplas em [!DNL Target] o valor do atributo de perfil não está funcionando como esperado. {#escape}
+## Evitar aspas duplas no valor do atributo de perfil [!DNL Target] não está funcionando como o esperado. {#escape}
 
-Quando você envia valores contendo aspas duplas em um [!DNL Target] atributo de perfil, você deve fazer o escape duas vezes como mostrado abaixo.
+Quando você envia valores contendo aspas duplas em um atributo de perfil [!DNL Target], você deve usar o escape duplo como mostrado abaixo.
 
 ```
 adobe.target.trackEvent({
@@ -204,7 +204,7 @@ adobe.target.trackEvent({
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Adicionar a extensão  ![Selo do tutorial](/help/main/assets/tutorial.png)
+### Adicione a Extensão ![Selo do tutorial](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 

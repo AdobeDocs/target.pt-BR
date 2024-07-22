@@ -6,14 +6,14 @@ feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '1723'
-ht-degree: 78%
+source-wordcount: '1724'
+ht-degree: 76%
 
 ---
 
 # Capítulo 7: Criar e executar a primeira atividade do [!DNL Target]
 
-Você está pronto para começar com sua primeira atividade no [!DNL Target]? Excelente. Vamos descobrir uma atividade para seu site, site móvel ou aplicativo móvel que não seja muito complexa. Ela pode fornecer ROI rápido e deixá-lo animado com o potencial de usar o [!DNL Target] para testar e personalizar. Dependendo da sua organização e do seu foco, você pode considerar seguir uma das três rotas diferentes com essa primeira atividade.
+Você está pronto para começar com sua primeira atividade em [!DNL Target]? Excelente. Vamos descobrir uma atividade para seu site, site móvel ou aplicativo móvel que não seja muito complexa. Ela pode fornecer ROI rápido e deixá-lo animado com o potencial de usar o [!DNL Target] para testar e personalizar. Dependendo da sua organização e do seu foco, você pode considerar seguir uma das três rotas diferentes com essa primeira atividade.
 
 A chave para sua primeira atividade, no entanto, é estabelecer uma linha de base da métrica de negócios que você está tentando melhorar: receita, click-throughs, envios de formulário, registros concluídos e assim por diante. Em um teste A/B, geralmente é possível usar a experiência ou oferta atual como um &quot;controle&quot; e medir o impacto de uma variante dessa experiência ou oferta em relação a ela. No entanto, com a maioria das atividades de personalização, você determinaria o desempenho da experiência atual antes de lançar uma versão personalizada. Isso permitirá medir o impacto da personalização.
 
@@ -51,7 +51,7 @@ Conforme você apresenta a ideia de teste, lembre-se de que deve ser capaz de ex
 
 ## Planejamento da atividade com o Planejador de atividades
 
-Incluímos o [Planejador de atividades do Adobe Target](/help/main/assets/activity-planner.pdf) como um PDF independente que pode ser salvo e usado repetidamente. Clique no link para visualizar o arquivo PDF. Clique com o botão direito do mouse para baixar o arquivo PDF.
+Incluímos o [Planejador do Adobe Target Activity](/help/main/assets/activity-planner.pdf) como um PDF independente que pode ser salvo e usado repetidamente. Clique no link para visualizar o arquivo PDF. Clique com o botão direito do mouse para baixar o arquivo PDF.
 
 Para executar uma atividade eficaz, você precisa preencher cada área do planejador. Use essa ferramenta enquanto você e outras pessoas discutem ideias para atividades de teste e personalização.
 
@@ -91,7 +91,7 @@ Se sua atividade exigir um assistente de um designer, um desenvolvedor da Web ou
 
 Você precisa de um determinado número de visitantes para ser colocado na população de teste para tirar uma conclusão estatisticamente significativa do teste. Pense nisso, se apenas duas pessoas participarem do seu teste, você terá confiança nos resultados?
 
-O [!DNL Target] depende de princípios estatísticos para determinar se os resultados de um teste são estatisticamente válidos. A variável [!DNL Adobe Target] [Calculadora de tamanho da amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) O ajuda a determinar o período para executar um teste com base na confiança necessária em seus resultados. Clique no link [!UICONTROL Saiba mais] nesta caixa para abrir e usar a calculadora.
+O [!DNL Target] depende de princípios estatísticos para determinar se os resultados de um teste são estatisticamente válidos. A [!DNL Adobe Target] [Calculadora de Tamanho da Amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) ajuda a determinar o período para executar um teste com base na confiança necessária em seus resultados. Clique no link [!UICONTROL Learn More] nesta caixa para abrir e usar a calculadora.
 
 ### Qual é a importância dessa atividade?
 
@@ -107,4 +107,4 @@ Os resultados da atividade geralmente fornecem insights das ações que você de
 
 ## Abrir o [!DNL Target], criar e iniciar a atividade
 
-Você preencheu o Planejador de atividades. Agora é hora de entrar na solução e criar sua atividade. O [!DNL Target]facilita a modificação da página da Web no [!UICONTROL Visual Experience Composer].
+Você preencheu o Planejador de atividades. Agora é hora de entrar na solução e criar sua atividade. O [!DNL Target] facilita a modificação da página da Web no [!UICONTROL Visual Experience Composer].

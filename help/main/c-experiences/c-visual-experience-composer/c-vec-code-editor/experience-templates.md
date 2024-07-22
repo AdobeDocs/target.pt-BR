@@ -6,14 +6,14 @@ feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 77%
+source-wordcount: '446'
+ht-degree: 75%
 
 ---
 
 # Modelos de experiência
 
-Informações sobre [!DNL Adobe Target] Modelos de experiência para uso no código personalizado. [!DNL Target]Os Modelos de experiência do são amostras pré-codificadas com entradas configuráveis a serem usadas para executar casos de uso de profissionais de marketing comuns.
+Informações sobre Modelos de Experiência do [!DNL Adobe Target] para uso no código personalizado. [!DNL Target] Modelos de experiência são amostras pré-codificadas com entradas configuráveis a serem usadas para executar casos de uso comuns de profissionais de marketing.
 
 Estes Modelos de experiência são fornecidos gratuitamente para desenvolvedores e profissionais de marketing como ponto de partida para executar casos de uso comuns, seja via VEC ou Experience Composer baseado em formulário.
 
@@ -51,7 +51,7 @@ O [modelo de experiência do Lightbox com contagem regressiva](https://github.co
 
 ## Lightbox com intenção de saída {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
 
-O [modelo de experiência do Lightbox com intenção de saída](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent) é um pop-up de sobreposição de lightbox acionado na intenção de saída (mover o mouse para o canto superior direito da tela) e pode ser implantado em qualquer propriedade da Web onde você deseja ter uma última chance de capturar atenção.
+O [modelo de experiência Lightbox com intenção de saída](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent) é um pop-up de sobreposição de lightbox acionado na intenção de saída (mover o mouse para o canto superior direito da tela) e pode ser implantado em qualquer propriedade da Web onde você deseja ter uma última chance de capturar atenção.
 
 ![imagem exp-template-lightbox-exit](assets/exp-template-lightbox-exit.png)
 
@@ -63,6 +63,6 @@ O [modelo de experiência do Lightbox](https://github.com/Adobe-Marketing-Cloud/
 
 ## Fita {#section_CCBB656265F140AEA1B200409D719000}
 
-O [modelo de experiência de fita](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon) é uma faixa de 100% largura inserida na parte superior da página da Web, normalmente usada para indicar uma promoção rápida, envio gratuito, segurança, evento climático ou outro anúncio importante.
+O [modelo de experiência de fita](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon) é uma fita de 100% de largura inserida na parte superior da página da Web, normalmente usada para indicar uma promoção rápida, envio gratuito, segurança, evento climático ou outro anúncio importante.
 
 ![imagem exp-template-ribbon](assets/exp-template-ribbon.png)

@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 100%
+source-wordcount: '926'
+ht-degree: 88%
 
 ---
 
@@ -21,15 +21,15 @@ Há vários motivos pelos quais dados exibidos como “não especificados” pod
 
 * A classificação no [!DNL Target] não foi completamente processada.
 
-   A classificação geralmente leva entre 24 e 72 horas para relatórios após a primeira gravação.
+  A classificação geralmente leva entre 24 e 72 horas para relatórios após a primeira gravação.
 
 * O conjunto de relatórios não contém nenhum dado, mas o [!DNL Target] tentou classificar os hits. O [!DNL Target] não pode classificar os dados até que o primeiro hit ocorra.
 
-   Verifique se o conjunto de relatórios teve pelo menos um hit.
+  Verifique se o conjunto de relatórios teve pelo menos um hit.
 
 * Houve falha na chamada de classificação do [!DNL Target] para o [!DNL Analytics].
 
-   [Entre em contato com o Atendimento ao cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para obter assistência.
+  [Entre em contato com o Atendimento ao cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para obter assistência.
 
 Se você analisar a linha “não especificado” pela dimensão “Analytics for Target” e ela não consistir em IDs de atividade, significa que tudo está classificado corretamente. Se as ids de atividade estiverem listadas lá, elas servirão como indicação para um problema de classificação.
 
@@ -41,13 +41,13 @@ Se você analisar a linha “não especificado” pela dimensão “Analytics fo
 
 ## Os relatórios de atividade do A4T incluem uma linha com muitos eventos “não especificados”. {#added_unspecified_events}
 
-Pode haver uma linha de eventos “[!UICONTROL Não especificado]” no relatório dependendo da métrica usada para exibir seus dados.
+Pode haver uma linha de eventos &quot;[!UICONTROL Unspecified]&quot; no relatório dependendo da métrica usada para exibir seus dados.
 
-Normalmente, essa linha é exibida se você escolher uma métrica comum no relatório que não é específico do [!DNL Target] (por exemplo, [!UICONTROL Exibições de página], [!UICONTROL Visitas], [!UICONTROL Visitantes únicos] e assim por diante). Nesse caso, a linha [!UICONTROL “Não especificados”] inclui todas as [!UICONTROL Exibições de página], [!UICONTROL Visitas] e [!UICONTROL Visitantes únicos] que não estão associados a atividades do [!DNL Target].
+Normalmente, esta linha é exibida se você escolher uma métrica comum no relatório que não é específico de [!DNL Target] (por exemplo, [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors] e assim por diante). Nesse caso, a linha [!UICONTROL "Unspecified"] inclui todas as [!UICONTROL Page Views], [!UICONTROL Visits] e [!UICONTROL Unique Visitors] que não estão associadas a [!DNL Target] atividades.
 
 Essa linha não terá nenhuma informação associada ao [!DNL Target] (por exemplo, nenhum visitante, visita ou impressão). Para obter mais informações, consulte [“Não especificados”, “Nenhum”, “Outros” e “Desconhecidos” nos relatórios](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=pt-BR) nas *notas técnicas do Analytics*.
 
-Se você escolher uma métrica específica do [!DNL Target] no relatório, a linha [!UICONTROL “Não especificados”] não será exibida. A única maneira de evitar que isso aconteça no relatório é definir uma chamada do [!DNL Target] em cada solicitação enviada dessa página, o que não é comum ou necessário.
+Se você escolher uma métrica específica para [!DNL Target] no relatório, essa linha [!UICONTROL "Unspecified"] não será exibida. A única maneira de evitar que isso aconteça no relatório é definir uma chamada do [!DNL Target] em cada solicitação enviada dessa página, o que não é comum ou necessário.
 
 ## O aumento estimado na métrica da receita não está mostrando os dados corretos. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -55,11 +55,11 @@ Os detalhes de incentivo e confiança não estão disponíveis no Analytics. No 
 
 ## As atividades não aparecem nos relatórios do Analytics.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-As atividades do A4T exigem que um servidor de rastreamento de análise seja especificado. Consulte [Uso do Servidor de rastreamento de análise](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para certificar-se de que seu Servidor de rastreamento de análise está configurado corretamente.
+As atividades do A4T exigem que um servidor de rastreamento de análise seja especificado. Consulte [Usar um servidor de rastreamento de análise](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para verificar se seu servidor de rastreamento de análise está configurado corretamente.
 
 >[!NOTE]
 >
->Você não precisa especificar um servidor de rastreamento durante a criação da atividade se estiver usando a at.js versão 0.9.1 (ou posterior). A biblioteca at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
+>Você não precisa especificar um servidor de rastreamento durante a criação da atividade se estiver usando a at.js versão 0.9.1 (ou posterior). A biblioteca at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Tracking Server] vazio na página [!UICONTROL Goals & Settings].
 
 ## Meus segmentos do Analytics não aparecem no Target.  {#section_DEE87F1557834F448E99381D3D02EEEF}
 

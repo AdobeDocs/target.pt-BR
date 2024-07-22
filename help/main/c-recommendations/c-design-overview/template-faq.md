@@ -2,13 +2,13 @@
 keywords: recomendações;perguntas frequentes;faq
 description: Revise uma lista de perguntas frequentes e suas respostas sobre os designs do Adobe  [!DNL Target]  Recommendations.
 title: Onde posso encontrar respostas para perguntas sobre design do  [!DNL Target]  Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 100%
+source-wordcount: '470'
+ht-degree: 94%
 
 ---
 
@@ -26,9 +26,9 @@ Duas opções estão disponíveis para resolver esse problema:
 
 * Você pode passar o preço do item em dois atributos de entidade separados. O primeiro, `entity.value`, pode ser usado para comparações numéricas (como regras de comparação de preço). O segundo deve ser um atributo personalizado, como `entity.displayValue`, que armazena o valor da entidade como uma string para permitir a renderização correta.
 
-   Por exemplo,
+  Por exemplo,
 
-   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
+  `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
 ## Por que a categoria não está sendo exibida no design? Estou usando `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 

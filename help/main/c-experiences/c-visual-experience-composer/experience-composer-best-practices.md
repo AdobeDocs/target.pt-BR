@@ -6,8 +6,8 @@ feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '2395'
-ht-degree: 93%
+source-wordcount: '2402'
+ht-degree: 91%
 
 ---
 
@@ -19,17 +19,17 @@ Ao seguir essas práticas recomendadas, você tem menos probabilidade de encontr
 
 ## Práticas recomendadas {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Coloque a referência at.js na parte superior do `<head>` seção da sua página.**
+**Coloque a referência da at.js na parte superior da seção `<head>` da página.**
 
 Se você também usa o Serviço de API do visitante, coloque o script de API do visitante acima da at.js.
 
 **Você pode ativar/desativar o Enhanced Experience Composer no nível da conta (ativada para todas as atividades criadas na conta) ou no nível da atividade individual.**
 
-Para ativar o Enhanced Experience Composer no nível da conta, clique em [!UICONTROL Administração > Visual Experience Composer]e, em seguida, alterne o switch para a posição Ligado.
+Para ativar o Enhanced Experience Composer no nível da conta, clique em [!UICONTROL Administration > Visual Experience Composer] e, em seguida, alterne o comutador para a posição Ligado.
 
-Para ativar o Enhanced Experience Composer no nível da atividade enquanto cria uma atividade no Visual Experience Composer, clique em [!UICONTROL Configurar > URL] e, em seguida, alterne o comutador para a posição Ligado.
+Para ativar o Enhanced Experience Composer no nível da atividade enquanto cria uma atividade no Visual Experience Composer, clique em [!UICONTROL Configure > URL] e, em seguida, alterne o comutador para a posição Ligado.
 
-**Lista de permissões Você pode modificar determinados endereços IP se o Enhanced Visual Experience Composer não carregar em páginas seguras no seu site.**
+incluir na lista de permissões **Você pode pesquisar determinados endereços IP se o Enhanced Visual Experience Composer não carregar em páginas seguras no seu site.**
 
 Problemas ao carregar o Enhanced Visual Experience Composer podem ser resolvidos através do incluir na lista de permissões dos seguintes endereços IP. Esses endereços IP são para o servidor do Adobe usado para o proxy do Enhanced Experience Composer. Eles são necessários somente para a atividade de edição. Incluir na lista de permissões Os visitantes do seu site não precisam desses endereços IP resolvidos.
 
@@ -217,7 +217,7 @@ O div externo não deve ser selecionado em uma experiência porque a mbox codifi
 
 Se você estiver usando o Enhanced Experienced Composer em um site sem transmissão ao vivo, como um ambiente de preparo, poderá observar erros de tempo limite e acesso negado, se o seu site bloquear RIPs.
 
-**Ao adicionar várias páginas, o painel de experiência e da página são abertos ao mesmo tempo. Isso eventualmente diminui com a largura do Visual Experience Composer para exibir o site para otimizações. Como resultado, os sites refluídos podem começar a aparecer no espaço reduzido de modo diferente do esperado.**
+**Ao adicionar várias páginas, o painel de experiência e da página são abertos ao mesmo tempo. Isso eventualmente diminui com a largura do Visual Experience Composer para exibir o site para otimizações. Como resultado, sites com fluxo redirecionado podem começar a aparecer de forma diferente do esperado no espaço reduzido.**
 
 A solução é recolher o painel de experiência e o painel da página, clicando nos ícones &quot;chevron&quot; esquerdos da página superior.
 

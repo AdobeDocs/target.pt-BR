@@ -2,19 +2,19 @@
 keywords: regras de inclusão;critérios de inclusão;recomendações;promoção;promoções;filtragem dinâmica;estático;filtro estático
 description: Saiba como inserir manualmente um ou mais valores estáticos para filtrar usando regras de inclusão no Adobe [!DNL Target] Recommendations.
 title: Como Filtro Por Valores Estáticos Nas Atividades Do Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 47%
+source-wordcount: '238'
+ht-degree: 45%
 
 ---
 
 # Filtro estático
 
-Insira manualmente um ou mais valores estáticos para filtrar usando regras de inclusão no [!DNL Adobe Target] [!DNL Recommendations].
+Insira manualmente um ou mais valores estáticos para filtrar usando regras de inclusão em [!DNL Adobe Target] [!DNL Recommendations].
 
 Por exemplo, apenas recomende um conteúdo com uma classificação de MPA (Motion Picture Association) de &quot;G&quot; ou &quot;PG&quot;.
 

@@ -1,14 +1,14 @@
 ---
 keywords: limite de caracteres;parâmetros da mbox;api de entrega em lote;parâmetros do perfil, limites;perfis incorporados;máximo;limite;restrição;caractere;prática recomendada;orderid;orderTotal;mbox3rdPartyID;categoria;categoryID
-description: Exibir uma lista de limites de caracteres e outros limites que afetam as atividades e outros elementos em [!DNL Adobe Target].
-title: Quais são os vários limites de caracteres, tamanho e outros limites no [!DNL Adobe Target]?
+description: Exiba uma lista de limites de caracteres e outros limites que afetam as atividades e outros elementos em  [!DNL Adobe Target].
+title: Quais são os vários limites de caracteres, tamanho e outros limites em [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 81%
+source-wordcount: '1693'
+ht-degree: 77%
 
 ---
 
@@ -80,17 +80,17 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 * **Limite**: 50 mboxes por [!DNL Target] solicitação de mbox de lote de entrega de conteúdo.
 
-  Superior a 50 mboxes por [!DNL Target] a solicitação de mbox de lote de entrega de conteúdo resulta em um código de erro de resposta `HTTP 400` com mensagem de erro `size must be between 0 and 50`.
+  Exceder 50 mboxes por [!DNL Target] solicitação de mbox em lote de entrega de conteúdo resulta em um código de erro de resposta `HTTP 400` com a mensagem de erro `size must be between 0 and 50`.
 
   As solicitações de mbox de lote são processadas sequencialmente, aumentando o tempo de resposta geral com cada iteração. Quanto mais mboxes na solicitação em lote, mais latência de resposta pode ser esperada e, portanto, há potencial para tempos limite. Se a renderização da experiência estiver bloqueada nessas solicitações em lote de alta latência, a latência pode resultar em uma experiência do usuário degradada, à medida que os usuários aguardam a renderização das experiências.
 
-* **Limite**: tamanho do corpo do POST HTTP de 60 MB para [!DNL Target] solicitações de entrega de conteúdo.
+* **Limite**: tamanho do corpo de POST HTTP de 60 MB para [!DNL Target] solicitações de entrega de conteúdo.
 
-  Excedendo 60 MB no tamanho do corpo do POST HTTP de um [!DNL Target] a solicitação de entrega de conteúdo resulta em um código de erro de resposta `HTTP 413 Request Entity Too Large`.
+  Exceder 60 MB no tamanho do corpo do POST HTTP de uma solicitação de entrega de conteúdo [!DNL Target] resulta em um código de erro de resposta `HTTP 413 Request Entity Too Large`.
 
 * **Limite recomendado**: 50 notificações por [!DNL Target] solicitação de lote de entrega.
 
-  Superior a 50 notificações por [!DNL Target] a solicitação em lote de delivery provavelmente resulta em maior latência de resposta e tempos limite.
+  Exceder 50 notificações por [!DNL Target] solicitação de lote de entrega provavelmente resulta em maior latência de resposta e tempos limite.
 
   As solicitações de notificação em lote são processadas sequencialmente, aumentando o tempo de resposta geral com cada iteração. Quanto mais notificações na solicitação em lote, mais latência de resposta pode ser esperada e, portanto, há potencial para tempos limite. Algumas latências adicionais nas solicitações de notificação em lote podem ser aceitáveis para alguns clientes, mas esteja ciente de que tempos limite e quaisquer tentativas subsequentes podem causar ainda mais latência.
 
@@ -116,7 +116,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 * A quantidade máxima de entidades que podem ser referenciadas em um design, seja em código fixo ou via loops, é de 99.
 * O limite recomendado para obter o melhor desempenho é manter o catálogo com menos de um milhão de itens por ambiente e menos de dez milhões de itens em todos os ambientes.
-* O limite máximo é de dez milhões de itens por ambiente e 100 milhões de itens em todos os ambientes. Se você tiver entre um milhão e dez milhões de itens por ambiente, o desempenho da interface do [!UICONTROL Pesquisa no catálogo] será afetado. No entanto, o [!DNL Target Recommendations] continua a produzir e fornecer recomendações.
+* O limite máximo é de dez milhões de itens por ambiente e 100 milhões de itens em todos os ambientes. Se você tiver entre um milhão e dez milhões de itens por ambiente, o desempenho da interface do usuário do [!UICONTROL Catalog Search] será afetado. No entanto, o [!DNL Target Recommendations] continua a produzir e fornecer recomendações.
 
 ### Atributos personalizados da entidade
 
@@ -155,7 +155,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 ### Experiências por atividade
 
-* **Limite**: 2.000 experiências por [!UICONTROL Direcionamento de experiência] XT), [!UICONTROL Teste A/B], [!UICONTROL Teste multivariado] (MVT) e [!UICONTROL Direcionamento automático] atividade.
+* **Limite**: 2.000 experiências por [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT) e [!UICONTROL Auto-Target] atividade.
 
   30.000 experiências por atividade de Automated Personalization (AP).
 
@@ -179,13 +179,13 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 * **Limite**: 250 caracteres.
 
-  Para [!DNL Delivery API] (at.js 2.*x*), Batch mbox V2 e [!DNL Adobe Experience Platform Web SDK] integrações do (alloy.js), nomes da mbox *pode* Conter caracteres alfanuméricos (A-Z, a-z, 0-9) e qualquer um dos seguintes caracteres:
+  Para [!DNL Delivery API] (at.js 2.*x*), mbox de lote V2 e integrações [!DNL Adobe Experience Platform Web SDK] (alloy.js), os nomes de mbox *can* contêm caracteres alfanuméricos (A-Z, a-z, 0-9) e qualquer um dos seguintes caracteres:
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
   ```
 
-  Para at.js 1.*x* integrações, nomes de mbox *não é possível* Conter qualquer um dos seguintes caracteres:
+  Para at.js 1.Integrações *x*, os nomes de mbox *não podem* conter nenhum dos seguintes caracteres:
 
   ```
   ' " %22 %27 < > %3C %3E 
@@ -297,7 +297,7 @@ Os seguintes limites de tamanho se aplicam às ofertas:
 
 * **Limite recomendado**: 2.000 caracteres.
 
-  Depende do tamanho da cadeia de caracteres codificada, que pode ser muito maior que a cadeia bruta. Se a cadeia de caracteres for grande demais, falhará antes de chegar no [!DNL Adobe Target].
+  Depende do tamanho da cadeia de caracteres codificada, que pode ser muito maior que a cadeia bruta. Se a cadeia de caracteres for muito grande, ela falhará antes de chegar a [!DNL Adobe Target].
 
 ## Perfis de script
 
@@ -330,5 +330,5 @@ Os seguintes limites de tamanho se aplicam às ofertas:
 ### Regras de direcionamento {#targeting-rules}
 
 * **Limite recomendado**: 2.500 caracteres por valor de regra de direcionamento.
-* **Limite recomendado**: 50,000 valores únicos por público-alvo nas regras de direcionamento.
+* **Limite recomendado**: 50.000 valores únicos por público-alvo nas regras de direcionamento.
 * **Limite recomendado**: 100.000 valores únicos de regras de direcionamento por atividade.

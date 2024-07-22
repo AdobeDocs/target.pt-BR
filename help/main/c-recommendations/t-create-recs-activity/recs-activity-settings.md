@@ -14,11 +14,11 @@ ht-degree: 48%
 
 # Configurações de atividade do Recommendations
 
-Informações sobre as configurações que podem ser usadas para descrever e controlar um [!UICONTROL Recommendations] atividade no [!DNL Adobe Target].
+Informações sobre as configurações que você pode usar para descrever e controlar uma atividade do [!UICONTROL Recommendations] no [!DNL Adobe Target].
 
 ![Página Metas e configurações do Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
-As seções a seguir descrevem as configurações disponíveis para um [!UICONTROL Recommendations] atividade.
+As seções a seguir descrevem as configurações disponíveis para uma atividade [!UICONTROL Recommendations].
 
 ## Nome
 
@@ -35,7 +35,7 @@ Os seguintes caracteres não são permitidos em um nome de atividade:
 `-`
 `@`
 
-Se você especificar um [!UICONTROL Recommendations] o nome da atividade que já existe para outra atividade no [!UICONTROL Recommendations Classic], a nova atividade será ressincronizada com um novo nome. O novo nome é o nome original anexado com um carimbo de data e hora que o torna exclusivo. O novo nome é exibido no [!DNL Target Standard/Premium] e no [!UICONTROL Recommendations Classic].
+Se você especificar um nome de atividade [!UICONTROL Recommendations] que já existe para outra atividade em [!UICONTROL Recommendations Classic], a nova atividade será ressincronizada com um novo nome. O novo nome é o nome original anexado com um carimbo de data e hora que o torna exclusivo. O novo nome é exibido no [!DNL Target Standard/Premium] e no [!UICONTROL Recommendations Classic].
 
 ## Objetivo
 
@@ -55,23 +55,23 @@ A atividade pode começar quando aprovada ou você pode definir data e hora espe
 
 ## Configurações da geração de relatórios
 
-* **Fonte dos relatórios:** Especificar de qual solução os dados são coletados:
+* **Source de Relatórios:** Especifique de quais dados de solução são coletados:
 
    * [!DNL Adobe Target]
    * [!DNL Adobe Analytics]
    * [!DNL Adobe Customer Journey Analytics]
 
-  Se uma solução de relatório for especificada no seu [configurações da conta](/help/main/administrating-target/reporting.md), a solução especificada é usada e essa configuração não fica visível.
+  Se uma solução de relatório for especificada nas [configurações da conta](/help/main/administrating-target/reporting.md), a solução especificada será usada e essa configuração não ficará visível.
 
   Não é possível alterar sua fonte de relatórios após a atividade entrar em vigor para manter os relatórios consistentes.
 
   **[!DNL Adobe Analytics]**: Consulte [[!DNL Adobe Analytics] como fonte de relatórios para [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) para saber mais sobre as diferenças entre as soluções de relatórios e as vantagens de cada uma.
 
-  Ao selecionar [!DNL Analytics] como fonte de relatórios para [!DNL Target] (A4T), você seleciona um [!DNL Analytics] conjunto de relatórios a ser recebido [!DNL Target] dados da atividade. Para fazer isso, primeiro escolha uma das opções [!DNL Analytics] empresas às quais sua conta está vinculada e, em seguida, selecione o conjunto de relatórios apropriado para a atividade. Somente conjuntos de relatórios provisionados para conexão com o [!DNL Target] estão disponíveis para seleção. Se você não vir o conjunto de relatórios esperado, primeiro tente fazer logoff e logon novamente na [!DNL Adobe Experience Cloud] para tentar novamente. Se o conjunto de relatórios ainda estiver ausente na lista, entre em contato com [Atendimento ao cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+  Ao selecionar [!DNL Analytics] como fonte de relatórios para [!DNL Target] (A4T), você seleciona um conjunto de relatórios [!DNL Analytics] para receber dados de atividade de [!DNL Target]. Para fazer isso, primeiro escolha uma das [!DNL Analytics] empresas vinculadas à sua conta e, em seguida, selecione o conjunto de relatórios apropriado para a atividade. Somente conjuntos de relatórios provisionados para conexão com [!DNL Target] estão disponíveis para seleção. Se você não vir o conjunto de relatórios esperado, primeiro tente fazer logoff e depois fazer logon novamente no [!DNL Adobe Experience Cloud] para tentar novamente. Se o conjunto de relatórios ainda estiver ausente na lista, contate o [Atendimento ao cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-  [!DNL Analytics for Target] O (A4T) exige um servidor de rastreamento para relatar os resultados corretamente. Um servidor de rastreamento padrão é exibido no [!UICONTROL Tracking Server] campo. Se você usar mais de um servidor de rastreamento, inclua o servidor de rastreamento correto neste campo. Consulte [Uso de um servidor de rastreamento de análise](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para obter mais informações.
+  O [!DNL Analytics for Target] (A4T) requer um servidor de rastreamento para relatar os resultados corretamente. Um servidor de rastreamento padrão é exibido no campo [!UICONTROL Tracking Server]. Se você usar mais de um servidor de rastreamento, inclua o servidor de rastreamento correto neste campo. Consulte [Usando um servidor de rastreamento do Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para obter mais informações.
 
-  **[!DNL Adobe Customer Journey Analytics]**: Consulte [[!DNL Target] relatórios no [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) para obter mais informações sobre a integração entre [!DNL Adobe Customer Journey Analytics] e [!DNL Target].
+  **[!DNL Adobe Customer Journey Analytics]**: Consulte [[!DNL Target] relatórios em [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) para obter mais informações sobre a integração entre [!DNL Adobe Customer Journey Analytics] e [!DNL Target].
 
 * **Métrica de objetivo:** selecione a métrica de sucesso que determina se a atividade é bem sucedida.
 * **Métricas adicionais:** configure métricas de sucesso adicionais para serem usadas nos relatórios.

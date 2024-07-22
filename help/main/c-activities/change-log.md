@@ -1,21 +1,21 @@
 ---
 keywords: log de alterações da atividade;log de alterações
-description: Acessar o log de alterações de uma atividade no Adobe [!DNL Target] para exibir um registro de quem alterou suas atividades e quando as alterações ocorreram.
+description: Acesse o log de alterações de uma atividade no Adobe [!DNL Target] para exibir um registro de quem alterou suas atividades e quando as alterações ocorreram.
 title: Como posso ver um log de alterações de atividades?
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 54%
+source-wordcount: '110'
+ht-degree: 49%
 
 ---
 
 # Log de alterações da atividade
 
-O login de alteração [!DNL Adobe Target] fornece um registro de quem alterou suas atividades e quando as alterações ocorreram.
+O log de alterações em [!DNL Adobe Target] fornece um registro de quem alterou suas atividades e quando as alterações ocorreram.
 
-1. Abra a atividade e clique em **[!UICONTROL Registro de alterações]**.
+1. Abra a atividade e clique em **[!UICONTROL Change Log]**.
 
    ![Log de alterações da atividade](/help/main/c-activities/assets/change_log.png)
 

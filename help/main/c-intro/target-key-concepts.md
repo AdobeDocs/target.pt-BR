@@ -6,8 +6,8 @@ feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 100%
+source-wordcount: '1523'
+ht-degree: 99%
 
 ---
 
@@ -107,7 +107,7 @@ Para obter informações sobre como o perfil do visitante acompanha informaçõe
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Tipos de atividades (9:03)  ![Selo de visão geral](/help/main/assets/overview.png)
+### Tipos de atividades (9:03) ![Selo de visão geral](/help/main/assets/overview.png)
 
 Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/Premium].
 

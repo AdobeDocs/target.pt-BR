@@ -2,33 +2,33 @@
 keywords: regras de inclusão;critérios de inclusão;recomendações;promoção;promoções;filtragem dinâmica;dinâmico;correspondência de atributos de entidade
 description: Saiba como filtrar dinamicamente no Adobe [!DNL Target] Recommendations comparando um pool de itens em potencial a um item específico com o qual o usuário interagiu.
 title: Como filtrar por Correspondência de atributos de entidade em atividades do Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
 # Correspondência de atributos de entidade
 
-Filtrar dinamicamente em [!DNL Adobe Target] [!DNL Recommendations] comparando um pool de itens de recomendações em potencial a um item específico com o qual o usuário interagiu.
+Filtre dinamicamente em [!DNL Adobe Target] [!DNL Recommendations] comparando um pool de possíveis itens de recomendações a um item específico com o qual o usuário interagiu.
 
 >[!NOTE]
 >
->A variável [processo para criar e usar regras de inclusão](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) para critérios e promoções é semelhante, assim como os casos de uso e exemplos.
+>O [processo para criar e usar regras de inclusão](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) para critérios e promoções é semelhante, assim como os casos de uso e exemplos.
 
 Por exemplo, recomende somente itens que correspondam à marca do item atual, como no exemplo a seguir:
 
-Se a mbox em uma página de aterrissagem de marca retornar `entity.brand=brandA`, então somente os produtos da Marca A serão retornados e exibidos nessa página. Da mesma forma, na Landing page da Marca B, somente os produtos da Marca B são devolvidos. Com esse tipo de regra de inclusão dinâmica, o usuário precisa especificar apenas uma regra de recomendação que retorne resultados de marca relevantes em todas as páginas de marca, em vez de especificar uma coleção ou um filtro estático para corresponder a cada nome de marca.
+Se a mbox em uma página de aterrissagem de marca retornar `entity.brand=brandA`, somente os produtos da marca A serão retornados e exibidos nessa página. Da mesma forma, na Landing page da Marca B, somente os produtos da Marca B são devolvidos. Com esse tipo de regra de inclusão dinâmica, o usuário precisa especificar apenas uma regra de recomendação que retorne resultados de marca relevantes em todas as páginas de marca, em vez de especificar uma coleção ou um filtro estático para corresponder a cada nome de marca.
 
-Observe que você deve fornecer o `entity.brand` na mbox nessas landing pages para que isso funcione.
+Observe que você deve fornecer o `entity.brand` na mbox nessas páginas de aterrissagem para que isso funcione.
 
 ## Exemplos de Correspondência de atributos de entidade
 
-[!UICONTROL Correspondência de atributos de entidade] permite recomendar somente os itens que correspondem, por exemplo:
+[!UICONTROL Entity Attribute Matching] permite que você recomende somente os itens correspondentes, por exemplo:
 
 * Um atributo do item que o usuário está visualizando no momento
 * O item exibido mais recentemente pelo usuário
@@ -42,17 +42,17 @@ Depois que as regras de atributo de entidade forem criadas, elas filtrarão toda
 
 O exemplo a seguir mostra recomendações que correspondem à marca de produto mostrada na página:
 
-Quando você visita uma página que apresenta um produto da Marca A, a página define o valor do `entity.brand` parâmetro para &quot;BrandA&quot;.
+Quando você visita uma página que apresenta um produto da Marca A, a página define o valor do parâmetro `entity.brand` como &quot;MarcaA&quot;.
 
 ![Exemplo de chamada do Target](/help/main/c-recommendations/c-algorithms/assets/example-target-call.png)
 
 Nas recomendações da página, você verá somente os produtos da Marca A.
 
-![Recomendações da marca A](/help/main/c-recommendations/c-algorithms/assets/brandA.png)
+![Recomendações para a marca A](/help/main/c-recommendations/c-algorithms/assets/brandA.png)
 
-Se, em seguida, você visualizar uma página de produto da Marca B, a variável `entity.brand` O valor será redefinido para &quot;MarcaB&quot; e você verá os produtos da Marca B recomendados nas páginas de produtos da Marca B.
+Se, em seguida, você visualizar uma página de produto da Marca B, o valor `entity.brand` será redefinido para &quot;MarcaB&quot; e você verá produtos da Marca B recomendados nas páginas de produto da Marca B.
 
-![Recomendações da marca B](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
+![Recomendações sobre a Marca B](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
 
 ### Venda adicional para um produto mais caro
 
