@@ -4,7 +4,7 @@ description: Saiba como as atividades do  [!DNL Target] permitem personalizar o 
 title: Como posso personalizar o conteúdo e testar designs de página com o  [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: be63fa4c89f229e3f4566cb400e1268d2cdf08d2
+source-git-commit: 0e2bc5c96671b47532b90f3ecb525a6a0506eb8d
 workflow-type: tm+mt
 source-wordcount: '2290'
 ht-degree: 36%
@@ -71,16 +71,17 @@ Acesse filtros clicando no ícone **[!UICONTROL Show Filters]** próximo à part
 ![Opções de filtro](/help/main/c-activities/assets/show-filters-options.png)
 
 O menu permite filtrar atividades pelos seguintes atributos:
-|Detalhes do atributo|
-| — | — |
-|[!UICONTROL Type]|Filtrar por [tipo de atividade](#types).|
-|[!UICONTROL Status]|Filtrar por status de atividade.|
-|[!UICONTROL Reporting Source]|Filtrar por fonte de relatórios.<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md): Exibir atividades que usam [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios.</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): Exibir atividades que usam [!DNL Target] como fonte de relatórios.</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): Exibir atividades que usam [!DNL Adobe Customer Analytics] como fonte de relatórios.</li></ul>|
-|[!UICONTROL Experience Composer]|Filtro pelo qual o Experience Composer foi usado durante a criação da atividade:<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): mostra as atividades que foram criadas usando o [!UICONTROL Visual Experience Composer] (VEC).</li><li>[Baseado em Formulário](/help/main/c-experiences/form-experience-composer.md): exibir atividades que foram criadas usando o [!UICONTROL Form-Based Experience Composer].</li></ul>|
-|[!UICONTROL Metrics Type]|Filtro pelo qual [métrica de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md) foi escolhida durante a criação da atividade.<ul><li>Conversão</li><li>Receita</li><li>Envolvimento</li></ul>|
-|[!UICONTROL Decisioning Method]|Filtre pelo método de decisão usado em cada atividade<ul><li>[Lado do servidor](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=pt-BR): exibir atividades que usam a decisão do lado do servidor.</li><li>[Lado do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html): exibir atividades que usam decisões do lado do cliente.</li></ul>|
-|[!UICONTROL Activity Source]|Filtre pela fonte de atividade usada para criar cada atividade.<ul><li>[!DNL Adobe Target]</li><li>[API Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=pt-BR)</li><li>[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)</li><li>[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=pt-BR)</li><li>[Serviços Adobe Mobile](https://developer.adobe.com/client-sdks/documentation/)</li></ul>|
-|[!UICONTROL Property]|Filtre pela [propriedade](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) em que a atividade foi criada.|
+
+| Atributo | Detalhes |
+| --- | --- |
+| [!UICONTROL Type] | Filtrar por [tipo de atividade](#types). |
+| [!UICONTROL Status] | Filtrar por status de atividade. |
+| [!UICONTROL Reporting Source] | Filtrar por fonte de relatórios.<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md): Exibir atividades que usam [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios.</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): Exibir atividades que usam [!DNL Target] como fonte de relatórios.</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): Exibir atividades que usam [!DNL Adobe Customer Analytics] como fonte de relatórios.</li></ul> |
+| [!UICONTROL Experience Composer] | Filtro pelo qual o Experience Composer foi usado durante a criação da atividade:<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): mostra as atividades que foram criadas usando o [!UICONTROL Visual Experience Composer] (VEC).</li><li>[Baseado em Formulário](/help/main/c-experiences/form-experience-composer.md): exibir atividades que foram criadas usando o [!UICONTROL Form-Based Experience Composer].</li></ul> |
+| [!UICONTROL Metrics Type] | Filtro pelo qual [métrica de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md) foi escolhida durante a criação da atividade.<ul><li>Conversão</li><li>Receita</li><li>Envolvimento</li></ul> |
+| [!UICONTROL Decisioning Method] | Filtrar pelo método de decisão usado em cada atividade<ul><li>[Lado do servidor](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=pt-BR): exibir atividades que usam a decisão do lado do servidor.</li><li>[Lado do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html): exibir atividades que usam decisões do lado do cliente.</li></ul> |
+| [!UICONTROL Activity Source] | Filtre pela fonte de atividade usada para criar cada atividade.<ul><li>[!DNL Adobe Target]</li><li>[API Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=pt-BR)</li><li>[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)</li><li>[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=pt-BR)</li><li>[Serviços Adobe Mobile](https://developer.adobe.com/client-sdks/documentation/)</li></ul> |
+| [!UICONTROL Property] | Filtrar pela [propriedade](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) na qual a atividade foi criada. |
 
 ## Executar ações rápidas {#quick-actions}
 
