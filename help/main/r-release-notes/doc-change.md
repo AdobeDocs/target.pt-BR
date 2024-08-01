@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 69ce4977d766d34367c46cd103ede90dd96c88e4
+source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 17%
+source-wordcount: '338'
+ht-degree: 16%
 
 ---
 
@@ -18,6 +18,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 ## Atualizações
 
 |Data|Tópico|Alterações|
+|1 de agosto|[Perguntas frequentes sobre o Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)|Adição das seguintes perguntas frequentes: &quot;É possível gerenciar ofertas visuais criadas pela interface do usuário do [!DNL Target] usando as APIs do [!DNL Target]?&quot;|
 |10 de julho|[Configuração de Proxy (Java)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank}|Adição de nova seção: Decisão no Dispositivo|
 |3 de junho|[Prioridade](/help/main/c-activities/priority.md)|Atualização de todo o tópico, incluindo a indicação de que o conteúdo de várias atividades do [!UICONTROL Form-Based Experience Composer] e do VEC pode fornecer. Anteriormente, somente uma atividade do fluxo de trabalho baseado em formulário podia fornecer. Não há mais um limite para o número de atividades baseadas em formulário que podem ser entregues.|
 incluir na lista de permissões |17 de maio|[Solução de problemas relacionados ao [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)|Adição de endereços IP adicionais que você pode atualizar ao usar o [!UICONTROL Enhanced Experience Composer].|
