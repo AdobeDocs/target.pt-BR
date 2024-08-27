@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 9a9447b3067311ef203e91b186fff506e60bf590
+source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,13 @@ ht-degree: 1%
 
 Este caso de uso ajuda a desbloquear os segredos para alterações eficazes no conteúdo do teste A/B no [!DNL Adobe Journey Optimizer].
 
-Este caso de uso foi projetado para demonstrar como executar uma tarefa familiar no [!DNL Adobe Target], teste A/B usando uma [atividade de Teste A/B](/help/main/c-activities/t-test-ab/test-ab.md), mas usando [!DNL Journey Optimizer].
+Este caso de uso foi projetado para demonstrar como executar tarefas familiares no [!DNL Adobe Target], teste A/B usando uma [atividade de Teste A/B](/help/main/c-activities/t-test-ab/test-ab.md), mas usando [!DNL Journey Optimizer].
 
-## Cenário
+## Cenários possíveis
 
-Uma empresa de vestuário aumentou as conversões testando várias imagens e personalizando landing pages de campanha com os nomes dos usuários nos atributos de perfil.
+* Uma empresa de vestuário aumentou as conversões testando várias imagens e personalizando landing pages de campanha com os nomes dos usuários nos atributos de perfil.
+
+* Ao testar várias descrições de produtos e imagens em uma página de aterrissagem de campanha, uma empresa de comércio eletrônico descobriu que seus membros de fidelidade Ouro tinham taxas de conversão mais altas, resultando em um aumento nas vendas.
 
 ## Benefícios e valor
 
@@ -29,13 +31,13 @@ Uma empresa de vestuário aumentou as conversões testando várias imagens e per
 * **Decisões orientadas por dados**: aproveite os dados para tomar decisões informadas em toda a sua estratégia de conteúdo, garantindo o impacto máximo.
 * **Experiência do usuário personalizada**: personalize o conteúdo para atender às preferências e necessidades exclusivas de todos os seus segmentos de público-alvo.
 
-## Instruções passo a passo
+## Etapas
 
 >[!NOTE]
 >
->As instruções nesta seção destacam as etapas necessárias para alterar uma imagem e usar atributos de perfil para personalizar mensagens de texto. Para obter mais informações sobre as opções disponíveis no web designer [!DNL Journey Optimizer], consulte [Editar conteúdo da Web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} na *documentação do Journey Optimizer*.
+>As instruções nesta seção destacam as etapas necessárias para alterar uma imagem e usar atributos de perfil para personalizar mensagens de texto. Para obter mais informações sobre as opções disponíveis no web designer [!DNL Journey Optimizer], consulte [Editar conteúdo da Web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} na *documentação do Journey Optimizer*. O vídeo na parte inferior da página é especialmente útil.
 
-Execute as seguintes etapas para otimizar uma página da Web testando várias imagens e personalizando mensagens com os nomes de usuário:
+Execute as seguintes etapas para otimizar uma página da Web testando várias imagens e personalizando mensagens com os nomes de usuário usando um script de perfil:
 
 1. Em [!DNL Adobe Journey Optimizer], clique em **Campanhas** no painel esquerdo para exibir a página [!UICONTROL Campaigns].
 
@@ -51,7 +53,7 @@ Execute as seguintes etapas para otimizar uma página da Web testando várias im
 
 1. (Condicional) Na seção **[!UICONTROL Audience]**, clique em **[!UICONTROL Select Audience]** e escolha o público-alvo desejado.
 
-   Para esse caso de uso, optamos por ativar a campanha para todos os visitantes (o padrão).
+   Para este caso de uso, optamos por ativar a campanha para [!UICONTROL All Visitors] (o padrão).
 
 1. Na seção **[!UICONTROL Action]**, escolha **[!UICONTROL Web]** na lista suspensa **[!UICONTROL Action]** e selecione ou crie uma nova configuração da Web.
 
@@ -111,6 +113,6 @@ Para obter mais informações, consulte [Introdução à nova interface de relat
 >[!MORELIKETHIS]
 >
 >[Editar conteúdo da Web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} na *documentação do Journey Optimizer*
->[Vídeo explicativo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/web-spa#video){target=_blank} na *documentação do Journey Optimizer*
+>[Vídeo explicativo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} na *documentação do Journey Optimizer*
 >[Criar uma campanha](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} em *Journey Optimizer Tutorials*
 
