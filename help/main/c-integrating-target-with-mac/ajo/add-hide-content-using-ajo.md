@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+source-git-commit: b68ee55246f46f59bc0117e7702b06589fc1e58c
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '588'
 ht-degree: 1%
 
 ---
@@ -69,9 +69,13 @@ Execute as seguintes etapas para adicionar componentes ou ocultar componentes em
 
    ![Página de aterrissagem de Yoga no site da LUMA](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. Para adicionar um botão de frase de chamariz, clique em **[!UICONTROL Edit Web Page]** no painel direito.
+1. Para adicionar ou ocultar um elemento, clique em **[!UICONTROL Edit Web Page]** no painel direito.
 
-1. Clique em
+1. Clique no elemento que você deseja ocultar e no botão [!UICONTROL Hide] no painel direito.
+
+   O painel direito exibe uma opção que pode ser executada no elemento selecionado. Essas opções variam, dependendo do elemento selecionado.
+
+   ![Botão Ocultar elemento](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
 
 1. Clique na seta para trás no canto superior esquerdo para retornar ao web designer.
 
