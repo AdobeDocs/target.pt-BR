@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
+source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '167'
 ht-degree: 7%
 
 ---
@@ -31,3 +31,4 @@ Os casos de uso a seguir demonstram como executar tarefas familiares a partir do
 Esses casos de uso se referem a canais da Web e baseados em código.
 
 * [Alterações de conteúdo por meio do teste A/B em  [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+* [Adicionar ou ocultar componentes da página da Web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)

@@ -3,9 +3,9 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
+source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1367'
 ht-degree: 83%
 
 ---
@@ -99,6 +99,7 @@ ht-degree: 83%
       + Casos de uso do Adobe Journey Optimizer {#use-cases}
          + [Principais casos de uso de otimização no Adobe Journey Optimizer - canais da Web e baseados em código](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Alterações de conteúdo por meio do teste A/B no Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+         + [Adicionar ou ocultar componentes da página da Web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Públicos-alvo da Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integrar o Target ao Adobe Experience Manager (AEM) {#aem}
       + [Visão geral da integração do Target ao AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
