@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 95e6802f5ba5e56962302c37691cc499d79cf68a
+source-git-commit: 6c4d5c5d415a16661a56bb0c4d5b72f295baf30a
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 23%
+source-wordcount: '384'
+ht-degree: 21%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 |--- |--- |--- |
+| 11 de setembro | [Usuários](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | Adição da seguinte observação em Especificar funções e permissões:<P> Para exibir atividades em [!DNL Target], os usuários devem ser atribuídos diretamente a um espaço de trabalho com pelo menos a função [!UICONTROL Observer]. A atribuição por meio de grupos de usuários sozinha é insuficiente. Geralmente, é recomendável conceder aos usuários acesso ao espaço de trabalho padrão. |
 | 1 de agosto | [Perguntas frequentes do Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Adição das seguintes perguntas frequentes: &quot;Posso gerenciar ofertas visuais criadas pela interface do usuário do [!DNL Target] usando as APIs do [!DNL Target]?&quot; |
 | 10 de julho | [Configuração de Proxy (Java)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank} | Adição de nova seção: Decisão no dispositivo |
 | 3 de junho | [Prioridade](/help/main/c-activities/priority.md) | Atualização de todo o tópico, incluindo a indicação de que o conteúdo de várias atividades do [!UICONTROL Form-Based Experience Composer] e do VEC pode entregar. Anteriormente, somente uma atividade do fluxo de trabalho baseado em formulário podia fornecer. Não há mais um limite para o número de atividades baseadas em formulário que podem ser entregues. |

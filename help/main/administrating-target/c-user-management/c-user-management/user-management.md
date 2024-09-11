@@ -5,10 +5,10 @@ title: Como adicionar usuários e gerenciar permissões em uma conta do  [!DNL T
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: 8560fa828fac91170fd295c9ef9a9b0e6ce1651c
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 66%
+source-wordcount: '862'
+ht-degree: 63%
 
 ---
 
@@ -79,6 +79,10 @@ Todo o gerenciamento de usuários deve ser executado no [!DNL Adobe Admin Consol
 Somente administradores de sistema podem definir funções de usuário no [!DNL Target]. Por exemplo, um usuário aprovador [!UICONTROL Standard] não pode alterar um observador para um aprovador, sem ter direitos de administrador [!DNL Experience Cloud].
 
 Os usuários administradores de sistema devem adicionar usuários ao sistema. Os usuários não são adicionados automaticamente. Eles são convidados por um email da [!DNL Experience Cloud] e devem confirmar seus endereços antes que suas contas sejam registradas.
+
+>[!NOTE]
+>
+>Para exibir atividades em [!DNL Target], os usuários devem ser atribuídos diretamente a um espaço de trabalho com pelo menos a função [!UICONTROL Observer]. A atribuição por meio de grupos de usuários sozinha é insuficiente. Geralmente, é recomendável conceder aos usuários acesso ao espaço de trabalho padrão.
 
 1. [No Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), clique em **[!UICONTROL Products]** e selecione o nome do produto desejado.
 
