@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6c4d5c5d415a16661a56bb0c4d5b72f295baf30a
+source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 21%
+source-wordcount: '398'
+ht-degree: 23%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 |--- |--- |--- |
+| 29 de setembro | [Detalhes da versão da at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Adição de informações sobre a versão 2.11.6 da at.js. |
 | 11 de setembro | [Usuários](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | Adição da seguinte observação em Especificar funções e permissões:<P> Para exibir atividades em [!DNL Target], os usuários devem ser atribuídos diretamente a um espaço de trabalho com pelo menos a função [!UICONTROL Observer]. A atribuição por meio de grupos de usuários sozinha é insuficiente. Geralmente, é recomendável conceder aos usuários acesso ao espaço de trabalho padrão. |
 | 1 de agosto | [Perguntas frequentes do Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Adição das seguintes perguntas frequentes: &quot;Posso gerenciar ofertas visuais criadas pela interface do usuário do [!DNL Target] usando as APIs do [!DNL Target]?&quot; |
 | 10 de julho | [Configuração de Proxy (Java)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank} | Adição de nova seção: Decisão no dispositivo |
