@@ -5,9 +5,9 @@ title: Quais são os vários limites de caracteres, tamanho e outros limites em 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
+source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1704'
 ht-degree: 77%
 
 ---
@@ -251,7 +251,9 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 ### Número de ofertas
 
-* **Limite recomendado**: 50.000 ofertas totais.
+* **Limite**: 150.000 ofertas totais.
+
+  Erros de sincronização de atividade ocorrem se o limite de 150.000 ofertas for excedido.
 
 ### Tamanho da oferta {#offer-size}
 
