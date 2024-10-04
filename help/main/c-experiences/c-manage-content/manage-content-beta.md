@@ -1,16 +1,16 @@
 ---
 keywords: conteúdo, ativos, administração de conteúdo, ofertas, administração de ativos, inserção do modo de seleção, modo de seleção
-description: Descubra como gerenciar ofertas de código e imagem com eficiência usando a biblioteca [!UICONTROL Offers]. Conheça as práticas recomendadas e dicas para simplificar seu fluxo de trabalho e aprimorar seus projetos.
+description: Descubra como gerenciar ofertas de código e imagem com eficiência usando a biblioteca [!UICONTROL Offers].
 title: Como gerenciar ofertas de código e imagem?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#beta newtab=true" tooltip="O que são recursos beta no  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 2831d370d774ce389a8c3621fa5e4354223af993
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 8%
+source-wordcount: '812'
+ht-degree: 9%
 
 ---
 

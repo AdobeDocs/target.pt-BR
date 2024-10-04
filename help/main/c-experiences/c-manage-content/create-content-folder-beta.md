@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 3959641b-e436-4890-86ec-72abf173540d
-source-git-commit: 7802e4b84791645193661320b9e8db15e286a250
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '325'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ O processo para criar pastas para ofertas de código e ofertas de imagem é um p
 
    ![guia Ofertas de código](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. Clique em **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+1. Clique em **[!UICONTROL Create Folder].
 
 1. Forneça um nome descritivo para a pasta.
 
@@ -44,9 +44,8 @@ Para obter informações sobre as tarefas que você pode executar em ofertas e p
 
 1. Clique em **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-   ![guia Ofertas de imagem](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
-
 1. Clique em **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+
 1. Especifique um **[!UICONTROL Title]** descritivo para a pasta.
 
    Por exemplo, você pode incluir o tipo de conteúdo que ele contém.
@@ -54,9 +53,9 @@ Para obter informações sobre as tarefas que você pode executar em ofertas e p
    O nome não pode conter os seguintes caracteres: Sinal de porcentagem `%`, Barra `/`, Barra invertida `\`, Dois-pontos `:`, Asterisco `*`, Ponto de interrogação `?`, Aspas duplas `"`, Colchete `[`, Colchete `]`, Sinal de adição: `+`, Barra Vertical: `|`, Período: `.`, Sinal numérico: `#`, Colchete: `{`, Colchete `}`, Cursor `^` ou Semiciclo dois pontos `;`. Você pode usar um hífen ( `- `) em vez desses caracteres.
 
 1. (Opcional) Especifique um **[!UICONTROL Name]** descritivo.
-1. (Opcional) Marque a caixa de seleção **[!UICONTROL Private]** para especificar que a pasta é privada para que somente você possa vê-la e seu conteúdo.
+1. (Opcional) Selecione **[!UICONTROL Private]** para especificar que a pasta é privada, de modo que só você possa vê-la e seu conteúdo.
 
-1. (Opcional) Marque a caixa de seleção **[!UICONTROL Reorder-able in List View]** para especificar que você e outras pessoas podem reordenar a posição da pasta no [!UICONTROL List View].
+1. (Opcional) Selecione **[!UICONTROL Reorder-able in List View]** para especificar que você e outras pessoas podem reordenar a posição da pasta no [!UICONTROL List View].
 
 1. Clique em **[!UICONTROL Create]**.
 

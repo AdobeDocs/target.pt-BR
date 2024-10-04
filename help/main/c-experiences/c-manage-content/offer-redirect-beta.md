@@ -1,16 +1,16 @@
 ---
-keywords: oferta de redirecionamento, criar oferta de redirecionamento, adicionar oferta html, passar todos parâmetros de URL no redirecionamento, passar mboxSessionId no redirecionamento (necessário somente quando o redirecionamento passar por um domínio diferente)
-description: Saiba como criar ofertas de redirecionamento no  [!DNL Target]  para fazer com que um navegador redirecione para uma nova página.
+keywords: oferta de redirecionamento;criar oferta de redirecionamento;adicionar oferta html;Passar todos os parâmetros de URL no redirecionamento
+description: Saiba como criar ofertas de redirecionamento para fazer com que um navegador redirecione para uma nova página.
 title: Como Criar Ofertas De Redirecionamento?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#beta newtab=true" tooltip="O que são recursos beta no  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: 751a8d97-2e35-4527-99f3-d7a42c104fcb
-source-git-commit: 182b5f286edd33f24b2b7efe3f9c583f7d0bc1ca
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 31%
+source-wordcount: '1137'
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,7 @@ Você pode ter duas páginas completamente diferentes para testar, em vez de mud
 >
 >* Não é possível usar ofertas de redirecionamento em mboxes AJAX (`mboxUpdate`).
 >
->* Para ofertas de redirecionamento em atividades que usam o Analytics como fonte de relatórios (A4T), sua implementação deve atender a certos requisitos mínimos. Além disso, há informações importantes que você precisa saber. Para obter mais informações, consulte [Perguntas frequentes das Ofertas de redirecionamento - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+>* Para ofertas de redirecionamento em atividades que usam o [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), sua implementação deve atender a certos requisitos mínimos. Além disso, há informações importantes que você precisa saber. Para obter mais informações, consulte [Perguntas frequentes das Ofertas de redirecionamento - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 >
 >* Para obter informações sobre como configurar uma experiência com redirecionamento, consulte [Redirecionar para um URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA).
 
@@ -43,13 +43,7 @@ A oferta de redirecionamento executa um código JavaScript para redirecionar o n
 ## Criar uma oferta de redirecionamento a partir da página [!UICONTROL Code Offers]
 
 1. Clique em **[!UICONTROL Offers]** e selecione a guia **[!UICONTROL Code Offers]**.
-
-   ![guia Ofertas de código](/help/main/c-experiences/c-manage-content/assets/offers-code-offers-new.png)
-
 1. Clique em **[!UICONTROL Create Offer]** > **[!UICONTROL Redirect Offer]**.
-
-   ![Caixa de diálogo Criar Oferta de Redirecionamento](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer-new.png)
-
 1. Forneça um nome descritivo para a oferta.
 
    Um nome descritivo ajuda você e outras pessoas a encontrar rapidamente a oferta na biblioteca [!UICONTROL Assets].
@@ -64,7 +58,7 @@ A oferta de redirecionamento executa um código JavaScript para redirecionar o n
 
 1. Selecione as opções desejadas para personalizar sua oferta de redirecionamento:
 
-   * **Incluir todos os parâmetros de URL:** Deslize o botão de alternância para habilitar esta opção se desejar que todos os parâmetros de URL presentes na página anterior sejam propagados para a página redirecionada.
+   * **Incluir todos os parâmetros de URL:** Habilite esta opção se desejar que todos os parâmetros de URL presentes na página anterior sejam propagados para a página redirecionada.
 
      Por exemplo, você quer redirecionar visitantes diretamente de uma página de produtos masculinos para uma página de categoria de camisas masculinas. Você também pode desejar que os parâmetros dinâmicos presentes no URL sejam enviados, porque dessa forma você pode identificar se o visitante acessou o seu site a partir de um email, banners publicitários, publicidade de pesquisa ou organicamente. Ao habilitar esta opção, sua oferta de redirecionamento na página `https://www.mycompany.com/mens.html?emailId=123` automaticamente se tornará `https://www.mycompany.com/mensShirts.html?emailId=123` quando o valor inserido na caixa de URL foi `https://www.mycompany.com/mensShirts.html`.
 
@@ -81,17 +75,8 @@ A oferta de redirecionamento executa um código JavaScript para redirecionar o n
 ## Criar uma oferta de redirecionamento usando o [!UICONTROL Form-Based Experience Composer]
 
 1. Ao criar uma atividade usando o [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md), selecione o local para exibir a seção **[!UICONTROL Content]**.
-
-   ![Seção de conteúdo no Experience Composer baseado em formulário](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
-
 1. Clique na lista suspensa **[!UICONTROL Default Content]** e em **[!UICONTROL Change Redirect Offer]**.
-
-   ![Alterar opção de Oferta de Redirecionamento](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
-
 1. Clique em **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**.
-
-   ![Caixa de diálogo Criar Oferta de Redirecionamento](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
-
 1. Forneça um nome descritivo para a oferta.
 
    Um nome descritivo ajuda você e outras pessoas a encontrar rapidamente a oferta na biblioteca [!UICONTROL Assets].
@@ -131,11 +116,7 @@ O [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] é uma experi�
 1. Especifique o local desejado e adicione os refinamentos de público-alvo, conforme necessário.
 
 1. Clique na lista suspensa na seção **[!UICONTROL Content]** e depois clique em **[!UICONTROL Change Redirect Offer]**.
-
-   ![Alterar opção de Oferta de Redirecionamento](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
-
 1. Selecione a oferta de redirecionamento desejada na caixa de diálogo [!UICONTROL Select Remote Offer] e clique em **[!UICONTROL Done]**.
-
 1. Termine configurando a atividade.
 
 ## Vídeo de treinamento: criador baseado em formulário ![Selo do tutorial](/help/main/assets/tutorial.png)
