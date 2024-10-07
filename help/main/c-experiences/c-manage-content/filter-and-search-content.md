@@ -4,14 +4,14 @@ description: Saiba como pesquisar ofertas de código e imagem na biblioteca Adob
 title: Como faço para pesquisar conteúdo na Biblioteca de ofertas?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: c9d987a7e27bbaa605f4d7b45975c854b61783de
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 8%
+source-wordcount: '235'
+ht-degree: 7%
 
 ---
 
-# Pesquisar conteúdo
+# Pesquisar e filtrar conteúdo
 
 Pesquisar ativos por palavras-chave na biblioteca [!UICONTROL Offers] em [!DNL Adobe Target].
 

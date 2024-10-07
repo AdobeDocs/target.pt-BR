@@ -6,9 +6,9 @@ feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
-source-git-commit: 9065fa16a2a5d742f7f91297ec7e7448db8cc7fc
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '421'
 ht-degree: 25%
 
 ---
@@ -33,13 +33,7 @@ Considere as informações a seguir ao trabalhar com ofertas JSON:
 ## Criar uma oferta JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
 1. Clique em **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
-
-   ![Ofertas > guia Ofertas de código](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-
 1. Clique em **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
-
-   ![imagem offer-json](assets/offer-json-new.png)
-
 1. Insira um nome de oferta.
 1. (Condicional) Se você tiver uma [[!DNL Target] conta Premium](/help/main/c-intro/intro.md#premium), escolha o [espaço de trabalho](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace) desejado.
 1. (Condicional) Escolha os atributos de perfil desejados.
@@ -143,6 +137,4 @@ Para obter mais informações, consulte [Compartilhar Atributos de Perfil da Rea
 
 ## Filtrar ofertas por tipo de oferta JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-Você pode filtrar a biblioteca [!UICONTROL Offers] pelo tipo de oferta JSON ao clicar no ícone **[!UICONTROL Show filters]** e selecionar a caixa de seleção **[!UICONTROL JSON]**.
-
-![imagem offer-json-filter](assets/offer-json-filter-new.png)
+Você pode filtrar a biblioteca [!UICONTROL Offers] pelo tipo de oferta JSON ao clicar no ícone **[!UICONTROL Show filters]** ( ![ícone Mostrar filtros](/help/main/assets/icons/Filter.svg) ) e marcar a caixa de seleção **[!UICONTROL JSON Offers]**.
