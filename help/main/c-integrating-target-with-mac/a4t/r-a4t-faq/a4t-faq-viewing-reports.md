@@ -4,10 +4,10 @@ description: Encontre respostas para perguntas frequentes sobre a exibição de 
 title: Encontre respostas para perguntas sobre a exibição de relatórios com o A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
+source-git-commit: c747a8a0ed480130f254818e21b98addca16ca41
 workflow-type: tm+mt
-source-wordcount: '2573'
-ht-degree: 25%
+source-wordcount: '2539'
+ht-degree: 24%
 
 ---
 
@@ -33,12 +33,10 @@ Um segmento também pode ser sobreposto diretamente na tabela de forma livre, ma
 
 +++
 
-## Posso aplicar o modelo de Attribution IQ &quot;Mesmo toque&quot; no [!DNL Analysis Workspace]?
+## Qual modelo de Attribution IQ é usado em [!DNL Analysis Workspace]?
 
 +++Resposta
-Ao usar impressões e conversões de atividade do [!DNL Target] no [!DNL Analysis Workspace], aplique o modelo de Attribution IQ &quot;Mesmo toque&quot; às métricas para garantir uma contagem precisa. Para aplicar um [modelo de atribuição não padrão](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=pt-BR), clique com o botão direito do mouse na métrica para **modificar Configurações de coluna > habilitar Usar modelo de atribuição não padrão > selecione Modelo de mesmo toque**. Sem esse modelo aplicado, as métricas são sobrescritas.
-
-Todos os pacotes [!DNL Adobe Analytics] atuais podem adicionar este modelo com [!UICONTROL Attribution IQ]. Se você não tiver acesso a [!UICONTROL Attribution IQ], confie nos dados do A4T em [!UICONTROL Reports & Analytics].
+Ao usar [!DNL Target] impressões e conversões de atividade no [!DNL Analysis Workspace], o modelo de Attribution IQ &quot;Mesmo toque&quot; é o modelo padrão aplicado às métricas para garantir uma contagem precisa. Esse modelo funciona bem em 99% dos casos. No entanto, você pode substituir essa atribuição padrão no Attribution IQ.
 
 +++
 
