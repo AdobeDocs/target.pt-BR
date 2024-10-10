@@ -3,9 +3,9 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
+source-git-commit: 54be0689d6e8aea9d7923a93a1660548894d9941
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1385'
 ht-degree: 82%
 
 ---
@@ -115,11 +115,13 @@ ht-degree: 82%
    + [Tipos de atividade do Target](c-activities/target-activities-guide.md)
    + Teste A/B {#abtest}
       + [Visão geral do teste A/B](c-activities/t-test-ab/test-ab.md)
+      + [Visão geral do teste A/B beta](c-activities/t-test-ab/test-ab-beta.md)
       + [Por quanto tempo você deve executar um teste A/B?](c-activities/t-test-ab/sample-size-determination.md)
       + [Dez erros comuns em testes A/B e como evitá-los](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + [Teste A/A](/help/main/c-activities/t-test-ab/aa-testing.md)
       + Criar um teste A/B {#create}
          + [Criar um teste A/B](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+         + [Criar um teste A/B beta](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [URL da atividade](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [Adicionar experiência](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [Seleção do público-alvo](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
