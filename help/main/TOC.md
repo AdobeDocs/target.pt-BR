@@ -3,10 +3,10 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+source-git-commit: f4af2527bfed992e6d341b503aa84ae74dc34d89
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 81%
+source-wordcount: '1410'
+ht-degree: 80%
 
 ---
 
@@ -129,9 +129,12 @@ ht-degree: 81%
          + [Seleção do público-alvo](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
          + [Selecionar público-alvo beta](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [Metas e Configurações](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
+         + [Beta de metas e configurações](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md)
          + [Usar dados do Analytics](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Definir métricas](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
+         + [Definir métricas beta](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md)
          + [Vários públicos-alvo de uma experiência em um Teste A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [Vários públicos-alvo de uma experiência em um Teste A/B beta](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md)
    + Alocação automática {#auto-allocate}
       + [Visão geral da alocação automática](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Criar uma atividade de alocação automática](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
