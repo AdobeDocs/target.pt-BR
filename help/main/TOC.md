@@ -3,10 +3,10 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: 54be0689d6e8aea9d7923a93a1660548894d9941
+source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
 workflow-type: tm+mt
-source-wordcount: '1385'
-ht-degree: 82%
+source-wordcount: '1394'
+ht-degree: 81%
 
 ---
 
@@ -123,8 +123,11 @@ ht-degree: 82%
          + [Criar um teste A/B](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [Criar um teste A/B beta](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [URL da atividade](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
+         + [URL da atividade beta](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md)
          + [Adicionar experiência](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
+         + [Adicionar experiência beta](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md)
          + [Seleção do público-alvo](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
+         + [Selecionar público-alvo beta](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [Metas e Configurações](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [Usar dados do Analytics](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Definir métricas](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
