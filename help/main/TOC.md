@@ -3,10 +3,10 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: f4af2527bfed992e6d341b503aa84ae74dc34d89
+source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -138,11 +138,15 @@ ht-degree: 80%
    + Alocação automática {#auto-allocate}
       + [Visão geral da alocação automática](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Criar uma atividade de alocação automática](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
+      + [Criar uma atividade de alocação automática](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md)
       + [Interpretar relatórios de autoalocação](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [Interpretar relatórios de alocação automática beta](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [A Alocação automática pode fornecer resultados de teste mais rápidos e receita maior do que um teste manual](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + Direcionamento automático {#auto-target}
       + [Visão geral do direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+      + [Visão geral beta do direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
       + [Criar uma atividade de direcionamento automático](/help/main/c-activities/auto-target/create-auto-target.md)
+      + [Criar uma atividade beta de Direcionamento automático](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [Perguntas frequentes e solução de problemas do Direcionamento automático](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [Geração de relatórios e direcionamento automático](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}

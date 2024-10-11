@@ -1,28 +1,24 @@
 ---
-keywords: Criar A/B;teste A/B;atividade A/B;nova atividade a/b;criar a/b
-description: Domine o [!UICONTROL Visual Experience Composer] (VEC) para criar atividades de Teste A/B diretamente em uma página habilitada para  [!DNL Target].
-title: Como criar um teste A/B?
-feature: A/B Tests
+keywords: criar alocação automática;teste A/B;atividade de alocação automática;nova atividade a/b;alocação automática;alocar automaticamente para a melhor experiência;alocar;alocar automaticamente
+description: Saiba como usar o [!UICONTROL Visual Experience Composer] (VEC) para criar [!UICONTROL Auto-Allocate] atividades de Teste A/B.
+title: Como criar uma atividade [!UICONTROL Auto-Allocate]?
+feature: Auto-Allocate
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+source-git-commit: fb29bd9704d3c2c3cf2c225114b2e52dc5061796
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 17%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Criar uma atividade de Teste A/B
+# Criar uma atividade [!UICONTROL Auto-Allocate]
 
-Aproveite o [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] para criar atividades do [!UICONTROL A/B Test] diretamente em uma página habilitada para [!DNL Target] e modificar seções de páginas no [!DNL Target].
+Use o [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] para criar sua atividade do [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] diretamente em uma página habilitada para [!DNL Target] e modificar partes da página no [!DNL Target].
 
->[!NOTE]
->
->Além da atividade [!UICONTROL Manual] (Padrão) [!UICONTROL A/B Test] (discutida neste artigo), [!DNL Target] fornece dois tipos adicionais de atividades [!UICONTROL A/B Test]: [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target].
->
->Consulte [Tipos de atividades de teste A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) na *Visão geral do teste A/B*.
+Além da atividade [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] (discutida neste artigo), [!DNL Target] fornece dois tipos adicionais de atividades [!UICONTROL A/B Test]: [!UICONTROL Manual (Default)] e [!UICONTROL Auto-Target]. Consulte [Tipos de atividades de teste A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) na *Visão geral do teste A/B*.
 
-Para criar uma atividade manual [!UICONTROL A/B Test]:
+Para criar uma atividade [!UICONTROL Auto-Allocate]:
 
 1. Na lista **[!UICONTROL Activities]**, clique em **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]**.
 
@@ -108,11 +104,11 @@ Para criar uma atividade manual [!UICONTROL A/B Test]:
 
    Por exemplo, você pode limitar as entradas a 50% de todos os visitantes ou 45% do público-alvo na Califórnia.
 
-1. Clique no controle **[!UICONTROL Traffic Allocation]** e escolha o método de alocação de tráfego desejado no painel direito, conforme mostrado abaixo:
+1. Clique no controle **[!UICONTROL Traffic Allocation]** e escolha o método de alocação de tráfego desejado no painel direito. Neste cenário, clique em **[!UICONTROL Auto-Allocate to best experience]**.
 
    ![Configurações do Método de Alocação de Tráfego](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
-   Escolha o método de alocação de tráfego desejado:
+   Os seguintes métodos de alocação de tráfego estão disponíveis:
 
    * **[!UICONTROL Manual (Default)]**: especifique a porcentagem de participantes que deseja visualizar cada experiência. Você pode dividir os percentuais igualmente entre todas as experiências ou especificar percentuais maiores ou menores para cada experiência. O total de experiências deve ser igual a 100%.
 
@@ -125,6 +121,10 @@ Para criar uma atividade manual [!UICONTROL A/B Test]:
 1. Quando estiver satisfeito com suas opções de público-alvo, experiência e alocação de tráfego, clique em **[!UICONTROL Next]** para ir até a terceira etapa do fluxo de trabalho guiado em três etapas.
 
 1. Especifique as [metas e configurações](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) da atividade.
+
+   >[!NOTE]
+   >
+   >Se você quiser usar o [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) com esta atividade, consulte informações importantes no [Suporte do A4T para atividades de Alocação automática e Direcionamento automático](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Clique em **[!UICONTROL Save & Close]** ou **[!UICONTROL Save]**.
 
