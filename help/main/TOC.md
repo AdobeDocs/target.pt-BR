@@ -3,10 +3,10 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1447'
+ht-degree: 78%
 
 ---
 
@@ -153,10 +153,13 @@ ht-degree: 0%
       + [Visão geral da Automated Personalization](c-activities/t-automated-personalization/automated-personalization.md)
       + [Algoritmo Random Forest](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Criar uma atividade de Automated Personalization](c-activities/t-automated-personalization/create-ap-activity.md)
+      + [Criar uma atividade beta do Automated Personalization](c-activities/t-automated-personalization/create-ap-activity-beta.md)
       + [Carregar dados para os algoritmos de personalização do Target](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Coleta de dados para os algoritmos de personalização do Target](c-activities/t-automated-personalization/ap-data.md)
       + [Estimativa de tráfego exigido para o sucesso](c-activities/t-automated-personalization/ap-traffic-estimator.md)
+      + [Estimar o tráfego necessário para o beta bem-sucedido](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md)
       + [Experiências de pré-visualização para um teste de Automated Personalization](c-activities/t-automated-personalization/ap-preview-experiences.md)
+      + [Experiências de visualização para um teste beta do Automated Personalization](c-activities/t-automated-personalization/ap-preview-experiences-beta.md)
       + [Ofertas de Automated Personalization do Target](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Gerenciar exclusões](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Oferecer Grupos de relatório na Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
