@@ -3,9 +3,9 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+source-git-commit: 2eb99fb0c108b600d098fc14036b678c50e689b3
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1454'
 ht-degree: 78%
 
 ---
@@ -161,7 +161,9 @@ ht-degree: 78%
       + [Experiências de pré-visualização para um teste de Automated Personalization](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Experiências de visualização para um teste beta do Automated Personalization](c-activities/t-automated-personalization/ap-preview-experiences-beta.md)
       + [Ofertas de Automated Personalization do Target](c-activities/t-automated-personalization/ap-target-offers.md)
+      + [Ofertas do Target Automated Personalization - beta](c-activities/t-automated-personalization/ap-target-offers-beta.md)
       + [Gerenciar exclusões](c-activities/t-automated-personalization/managing-exclusions.md)
+      + [Gerenciar exclusões beta](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Oferecer Grupos de relatório na Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
       + [Selecione o controle da atividade de Automated Personalization ou Direcionamento automático](c-activities/t-automated-personalization/experience-as-control.md)
       + [Perguntas frequentes sobre Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md)
