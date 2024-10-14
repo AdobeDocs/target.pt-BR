@@ -4,10 +4,10 @@ description: Descubra por que alguns sites podem não abrir de forma confiável 
 title: Como usar a extensão [!UICONTROL Visual Editing Helper]?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
+source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 64%
+source-wordcount: '712'
+ht-degree: 60%
 
 ---
 
@@ -17,7 +17,9 @@ A extensão de navegador [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editin
 
 >[!IMPORTANT]
 >
->Esta nova extensão substitui a [extensão de navegador Auxiliar do VEC do Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Consulte a Nota importante na parte superior desse artigo. Devido aos aprimoramentos de segurança no Manifesto v3, o [!DNL Adobe] exige o download desta nova extensão para continuar a criar visualmente seus sites no [!DNL Target].
+>* Esta nova extensão substitui a [extensão de navegador Auxiliar do VEC do Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Consulte a Nota importante na parte superior desse artigo. Devido aos aprimoramentos de segurança no Manifesto v3, o [!DNL Adobe] exige o download desta nova extensão para continuar a criar visualmente seus sites no [!DNL Target].
+>
+>* No momento, essa nova extensão não oferece suporte a Lojas Privadas na Web da Chrome. Esse recurso terá suporte até o final de janeiro de 2025. Para clientes que estão usando Lojas Privadas da Chrome na Web para carregar extensões, use a [extensão auxiliar [!UICONTROL Visual Experience Composer] herdada](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
 ## Motivos pelos quais alguns sites podem não abrir de forma confiável no VEC
 
