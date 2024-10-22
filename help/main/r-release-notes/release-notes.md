@@ -6,7 +6,7 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
+source-git-commit: ffd4cd4c39fca828f265ddfc50e9af297d9300cf
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 37%
@@ -52,7 +52,7 @@ O [!DNL Platform Web SDK] oferece suporte a dois tipos de implementação para r
 
   Este tipo de implementação é a nova [abordagem de implementação de split-call](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} recomendada por [!DNL Adobe]. Com esta abordagem, a nova otimização não afeta os relatórios do [!DNL Analytics] ou do A4T.
 
-Em caso de dúvidas, entre em contato com o [Adobe Customer Care](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
+Em caso de dúvidas, entre em contato com o [Adobe Client Care](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
 
 ## at.js versão 2.11.6 (segunda-feira, 29 de setembro de 2024)
 
