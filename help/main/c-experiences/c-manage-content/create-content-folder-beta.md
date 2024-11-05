@@ -7,20 +7,20 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 3959641b-e436-4890-86ec-72abf173540d
-source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
+source-git-commit: 4b57712b838906611702db521b51af84077501e6
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '322'
 ht-degree: 7%
 
 ---
 
 # Criar pastas de ofertas
 
-Crie pastas na biblioteca [!DNL Adobe Target] [!UICONTROL Offer] para armazenar ofertas de código, ofertas de imagem, bem como outras pastas para criar uma estrutura de subpastas.
+Crie pastas na biblioteca [!DNL Adobe Target] [!UICONTROL Offer] para conter ofertas de código e de imagem. Também é possível criar pastas para criar uma estrutura de subpastas.
 
 >[!NOTE]
 >
->Este artigo contém informações sobre atualizações na interface do usuário do [!DNL Target] que atualmente faz parte de um programa do Beta. A equipe do [!DNL Adobe Target] geralmente habilita novos recursos para clientes selecionados para fins de teste e feedback. Após a conclusão do período de teste, esses recursos serão habilitados para todos os clientes em versões futuras do [!DNL Target Standard/Premium] e anunciados nas notas de versão.
+>Este artigo contém informações sobre atualizações na interface do usuário do [!DNL Target] que atualmente faz parte de um programa do Beta. A equipe do [!DNL Adobe Target] geralmente habilita novos recursos para clientes selecionados para fins de teste e feedback. Após a conclusão do período de teste, esses recursos serão habilitados para todos os clientes em versões futuras do [!DNL Target] e anunciados nas [notas de versão](/help/main/r-release-notes/release-notes.md).
 
 O processo para criar pastas para ofertas de código e ofertas de imagem é um pouco diferente. As seções a seguir contêm mais informações.
 
@@ -28,9 +28,7 @@ O processo para criar pastas para ofertas de código e ofertas de imagem é um p
 
 1. Clique em **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
-   ![guia Ofertas de código](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-
-1. Clique em **[!UICONTROL Create Folder].
+1. Clique em **[!UICONTROL Create Folder]**.
 
 1. Forneça um nome descritivo para a pasta.
 
@@ -54,7 +52,6 @@ Para obter informações sobre as tarefas que você pode executar em ofertas e p
 
 1. (Opcional) Especifique um **[!UICONTROL Name]** descritivo.
 1. (Opcional) Selecione **[!UICONTROL Private]** para especificar que a pasta é privada, de modo que só você possa vê-la e seu conteúdo.
-
 1. (Opcional) Selecione **[!UICONTROL Reorder-able in List View]** para especificar que você e outras pessoas podem reordenar a posição da pasta no [!UICONTROL List View].
 
 1. Clique em **[!UICONTROL Create]**.
