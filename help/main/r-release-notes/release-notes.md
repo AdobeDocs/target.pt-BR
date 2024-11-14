@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a708699926bd6cc89adc5c72d88be1ca4f0f0495
+source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 37%
+source-wordcount: '699'
+ht-degree: 39%
 
 ---
 
@@ -53,12 +53,6 @@ O [!DNL Platform Web SDK] oferece suporte a dois tipos de implementação para r
   Este tipo de implementação é a nova [abordagem de implementação de split-call](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} recomendada por [!DNL Adobe]. Com esta abordagem, a nova otimização não afeta os relatórios do [!DNL Analytics] ou do A4T.
 
 Em caso de dúvidas, entre em contato com o [Adobe Customer Care](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
-
-## at.js versão 2.11.6 (segunda-feira, 29 de setembro de 2024)
-
-* Correção de um problema que impedia o [!DNL Target] de operar corretamente com ofertas de redirecionamento no [!UICONTROL Visual Experience Composer] (VEC) ou [!UICONTROL Form-Based Experience Composer].
-
-Para obter mais informações sobre as versões da at.js, consulte [detalhes da versão da at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} no *Guia do Desenvolvedor do Adobe Target*.
 
 ## Notas de versão adicionais e detalhes da versão
 

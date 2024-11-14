@@ -4,9 +4,9 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
+source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
 workflow-type: tm+mt
-source-wordcount: '38259'
+source-wordcount: '38296'
 ht-degree: 84%
 
 ---
@@ -22,6 +22,12 @@ As notas de versão são processadas em ordem decrescente por mês e ano da vers
 >Consulte [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2024
+
+### at.js versão 2.11.6 (segunda-feira, 29 de setembro de 2024)
+
+* Correção de um problema que impedia o [!DNL Target] de operar corretamente com ofertas de redirecionamento no [!UICONTROL Visual Experience Composer] (VEC) ou [!UICONTROL Form-Based Experience Composer].
+
+Para obter mais informações sobre as versões da at.js, consulte [detalhes da versão da at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} no *Guia do Desenvolvedor do Adobe Target*.
 
 ### [!DNL Target] relatórios em [!DNL Adobe Customer Journey Analytics] (8 de maio de 2024)
 
@@ -2093,7 +2099,7 @@ Esta versão inclui os seguintes recursos e aprimoramentos (os números de ediç
 
 Esta versão do [!DNL Target] inclui os seguintes aprimoramentos, correções e alterações voltados para o cliente:
 
-* É possível excluir públicos-alvo importados (Target Classic, Experience Cloud, etc.) da Biblioteca de público-alvo. O Target avisa se você tentar excluir um público-alvo usado em uma atividade ativa. (TGT-25171)
+* Você pode excluir públicos-alvo importados (Target Classic, Experience Cloud, etc.) da Biblioteca de público-alvo. O Target avisa se você tentar excluir um público-alvo usado em uma atividade ativa. (TGT-25171)
 * Os públicos-alvo importados do Target Classic agora são rotulados como Adobe Target Classic na Biblioteca de público-alvo. Antigamente, a interface do usuário não diferenciava entre Target Standard/Premium e Target Classic. (TGT-27093)
 * As coleções agora se aplicam a todos os critérios (incluindo itens visualizados recentemente). (TGT-26646)
 * É possível filtrar por espaço de trabalho na Biblioteca de público-alvo e na Biblioteca de ofertas (aplica-se a usuários do Target Premium com permissões de usuário empresarial). (TGT-26813)
@@ -2368,7 +2374,7 @@ Essa versão do [!DNL Target] inclui os seguintes aprimoramentos e correções v
 
   Se um usuário executar uma ação intermitente em uma página do [!DNL Target] e experimentar um tempo limite de sessão, ele será direcionado para fazer logon novamente e, em seguida, será direcionado para a última página trabalhada na interface do usuário do [!DNL Target].
 
-* Correção de um problema que fazia com que as alterações de código personalizadas fossem perdidas se o usuário saísse (altera as experiências, alterna a página, alterna o público-alvo, clica em Avançar etc.) e esquecesse de salvar as alterações. O usuário agora é solicitado a salvar as alterações. (TGT-23766)
+* Correção de um problema que causava a perda de alterações no código personalizado se o usuário navegasse (altera experiências, alterna páginas, alterna público, clica em Próximo, etc.) e se esquecesse de salvar as alterações. O usuário agora é solicitado a salvar as alterações. (TGT-23766)
 * Quando uma atividade é arquivada, &quot;Atividade arquivada&quot; é exibido em vez de &quot;Atualizando a atividade&quot;. (KB-1517)
 * O seletor suspenso nos seguintes locais da interface do usuário do Target foi substituído pela funcionalidade de preenchimento automático para melhorar a velocidade e o desempenho: (TGT-22939)
 
@@ -2559,7 +2565,7 @@ Esta versão do [!DNL Target] inclui os seguintes aprimoramentos e correções:
 * A interface do usuário do [!DNL Target] foi atualizada para oferecer suporte a ofertas de redirecionamento em atividades que usam o [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios. Esta funcionalidade exigirá a [!DNL at.js] 0.9.6, que estará disponível em breve.
 * A interface do usuário do [!DNL Target] foi atualizada em alguns aspectos:
 
-   * Nos relatórios e atividades, algumas opções ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs] etc.) agora são acessadas clicando no ícone [!UICONTROL More Options] ( ![imagem de icon_more_options](assets/icon_more_options.png)
+   * Nos relatórios e atividades, algumas opções ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs], etc.) agora são acessadas clicando no ícone [!UICONTROL More Options] ( ![ícone_mais_opções imagem](assets/icon_more_options.png)
 
       
    * Na biblioteca [!UICONTROL Offers], as ofertas agora são exibidas em uma lista em vez de em cartões. Outras alterações menores na interface do usuário foram feitas na interface do usuário da biblioteca [!UICONTROL Offers].
