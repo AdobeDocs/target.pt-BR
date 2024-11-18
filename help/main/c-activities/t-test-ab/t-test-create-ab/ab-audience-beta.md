@@ -5,10 +5,11 @@ title: Como selecionar um público-alvo em uma atividade A/B  [!DNL Target] ?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: cc823f84fb93cbe2e55d394d0f6f4fe48bbd5293
+exl-id: 117cec36-87ef-4bd5-8a39-fb885b679d95
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 12%
+source-wordcount: '526'
+ht-degree: 8%
 
 ---
 
@@ -40,10 +41,12 @@ Para obter mais informações sobre todas as opções no diagrama de fluxo, cons
 
 1. (Condicional) Clique em **Combinar públicos-alvo** para [criar um público-alvo que combine vários públicos-alvo](/help/main/c-target/combining-multiple-audiences.md).
 
-1. (Condicional) Para criar um novo público-alvo que ainda não esteja no [!UICONTROL Audience Library], clique em **Criar público-alvo**. Durante o [fluxo de trabalho de criação de público](/help/main/c-target/c-audiences/audiences.md), você pode escolher entre as seguintes opções:
+1. (Condicional) Para criar um novo público-alvo que ainda não esteja no [!UICONTROL Audience Library], clique em **Criar público-alvo**, defina o público-alvo e clique em **[!UICONTROL Done]**.
 
-   * Crie um público-alvo sob demanda que seja salvo no [!UICONTROL Audience Library] que possa ser reutilizado em outras atividades
-   * Crie um [público-alvo específico da atividade](/help/main/c-target/creating-activity-only-audience.md) que não seja salvo no [!UICONTROL Audience Library] e possa ser usado somente na atividade atual
+   Durante o [fluxo de trabalho de criação de público](/help/main/c-target/c-audiences/audiences.md), você pode escolher entre as seguintes opções:
+
+   * **[!UICONTROL Audience Library]**: Crie um público-alvo sob demanda que seja salvo no [!UICONTROL Audience Library] e que possa ser reutilizado em outras atividades.
+   * **[!UICONTROL This activity only]**: Crie um [público-alvo específico da atividade](/help/main/c-target/creating-activity-only-audience.md) que não seja salvo no [!UICONTROL Audience Library] e possa ser usado somente na atividade atual.
 
 1. Clique em **[!UICONTROL Visitor Percentage]** no painel direito e especifique a porcentagem de visitantes qualificados a serem incluídos na atividade.
 
@@ -51,7 +54,7 @@ Para obter mais informações sobre todas as opções no diagrama de fluxo, cons
 
 >[!NOTE]
 >
->Os públicos-alvo são importados automaticamente em segundo plano quando você abre a lista de públicos-alvo e os públicos importados foram criados há mais de 10 minutos.
+>Os públicos são importados automaticamente em segundo plano quando você abre a lista [!UICONTROL Audience] e os públicos importados foram criados há mais de 10 minutos.
 
 ## Exibir informações de um público-alvo
 
@@ -64,4 +67,3 @@ Para obter mais informações sobre todas as opções no diagrama de fluxo, cons
 Você pode editar ou copiar um público-alvo clicando no ícone [!UICONTROL More Actions] ( ![ícone Mais Ações](/help/main/assets/icons/More.svg) ) ao lado do público-alvo desejado na caixa de diálogo [!UICONTROL Add Audience] e clicando em [!UICONTROL Edit] ou [!UICONTROL Copy].
 
 Copiar um público-alvo é útil se você deseja criar outro semelhante para um público-alvo existente. Você pode fazer uma cópia do público-alvo, fazer suas edições e depois salvá-lo como um novo público-alvo.
-

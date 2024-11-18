@@ -5,9 +5,10 @@ title: Posso usar várias versões de experiência em uma atividade A/B?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: ec35109b5d668a96f7e71149df7c965ce2bf3ceb
+exl-id: 791423e3-c748-4771-b824-c5ba6d3d6c32
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '593'
 ht-degree: 52%
 
 ---
@@ -36,7 +37,7 @@ Nesse caso, o que você precisa são versões geográficas específicas da exper
 
 1. Selecione a experiência e clique em **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**.
 
-1. Clique no ícone **[!UICONTROL Add Audience]** ( ![Ícone Adicionar](/help/main/assets/icons/Add.svg) ) no painel Públicos-alvo de experiência e selecione o primeiro público-alvo que deseja direcionar. Repita para cada público-alvo.
+1. Clique no ícone **[!UICONTROL Add Audience]** ( ![Ícone Adicionar](/help/main/assets/icons/Add.svg) ) no painel [!UICONTROL Experience Audiences] e selecione o primeiro público-alvo que deseja direcionar. Repita para cada público-alvo.
 
    Se o público-alvo ainda não existir, clique em [Criar público-alvo](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) e configure-o.
 

@@ -1,11 +1,12 @@
 ---
 keywords: Criar A/B;teste A/B;atividade A/B;nova atividade a/b;criar a/b
-description: Domine o [!UICONTROL Visual Experience Composer] (VEC) para criar atividades de Teste A/B diretamente em uma página habilitada para  [!DNL Target].
+description: Use o [!UICONTROL Visual Experience Composer] (VEC) para criar atividades de Teste A/B diretamente em uma página habilitada para  [!DNL Target].
 title: Como criar um teste A/B?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: 35b8d451-289f-4c9d-82ed-c3bdb091c8e3
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 17%
@@ -101,8 +102,8 @@ Para criar uma atividade manual [!UICONTROL A/B Test]:
 
       Se você precisar criar um novo público-alvo que ainda não esteja no [!UICONTROL Audience Library], clique em **Criar público-alvo**. Durante o [fluxo de trabalho de criação de público-alvo](/help/main/c-target/c-audiences/audiences.md), você pode escolher entre as seguintes opções:
 
-      * Crie um público-alvo sob demanda que seja salvo no [!UICONTROL Audience Library] que possa ser reutilizado em outras atividades
-      * Crie um [público-alvo específico da atividade](/help/main/c-target/creating-activity-only-audience.md) que não seja salvo no [!UICONTROL Audience Library] e possa ser usado somente na atividade atual
+      * **[!UICONTROL Audience Library]**: Crie um público-alvo sob demanda que seja salvo no [!UICONTROL Audience Library] e que possa ser reutilizado em outras atividades.
+      * **[!UICONTROL This activity only]**: Crie um [público-alvo específico da atividade](/help/main/c-target/creating-activity-only-audience.md) que não seja salvo no [!UICONTROL Audience Library] e possa ser usado somente na atividade atual.
 
    1. Clique em **[!UICONTROL Visitor Percentage]** no quadro direito e escolha a porcentagem de visitantes qualificados que você deseja inserir na atividade.
 

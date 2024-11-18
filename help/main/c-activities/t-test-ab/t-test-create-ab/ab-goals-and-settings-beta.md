@@ -5,7 +5,8 @@ title: Como Especificar Metas e Configurações em uma Atividade A/B [!DNL Targe
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 22a12d29fb894e916783efc65dfe8dfd698dff83
+exl-id: aeafb4d8-a486-46cf-8871-4c220bc3674e
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 30%
@@ -16,7 +17,7 @@ ht-degree: 30%
 
 A página [!UICONTROL Goals & Settings] em [!DNL Adobe Target] é onde você especifica informações sobre as metas da atividade.
 
-As configurações disponíveis dependem se você usa o Target ou o [Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) como a fonte de relatórios.
+As configurações disponíveis dependem se você usa o Target ou o [Analytics como a fonte de relatórios](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
 ## [!UICONTROL Activity Settings] {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -54,7 +55,7 @@ As opções disponíveis são as seguintes:
 | Configuração | Descrição |
 |--- |--- |
 | [!UICONTROL Which success metric must be reached before incrementing this metric?] | Use essa opção para contar apenas alguém que atingiu a métrica de sucesso se já tiver atingido uma métrica de sucesso diferente. Por exemplo, uma conversão de atividade só pode ser válida se o visitante clicar na oferta ou acessar uma página específica antes da conversão. É possível fornecer dependência em várias métricas, juntamente com a flexibilidade para escolher se a métrica deve ser alcançada ou não para que a contagem seja incrementada. Defina ambas as métricas de sucesso (ou várias) para poder tornar uma dependente da outra. A opção [!UICONTROL Add Dependency] permite que a métrica de sucesso seja incrementada se outra métrica de sucesso for ou não alcançada. Para adicionar uma dependência:<ul><li>Depois de adicionar outras métricas, clique em [!UICONTROL Advanced Settings].</li><li>Clique na opção [!UICONTROL Add Dependency]:</li><li>Arraste e solte as métricas desejadas do painel esquerdo para o painel direito e clique em [!UICONTROL Reached] para alternar a configuração entre [!UICONTROL Reached] e [!UICONTROL  Not Reached].</li><li>É possível editar ou remover dependências depois de adicioná-las.</li></ul> |
-| [!UICONTROL What will happen after a user encounters this goal metric?] | Há três opções para o que acontece depois que um visitante atinge a métrica de meta:<ul><li>Selecione [!UICONTROL Increment Count & Keep User in Activity] para especificar como a contagem é incrementada.</li><li>Selecione [!UICONTROL Increment Count, Release User & Allow Reentry] para especificar a experiência que o usuário vê ao entrar na atividade novamente.</li><li>Selecione [!UICONTROL Increment Count, Release User & Bar from Reentry] para especificar o que o usuário vê em vez do conteúdo da atividade.</li></ul> |
+| [!UICONTROL What will happen after a user encounters this goal metric?] | Há três opções para o que acontece depois que um visitante atinge a métrica de meta:<ul><li>Selecione **[!UICONTROL Increment Count & Keep User in Activity]** para especificar como a contagem é incrementada.</li><li>Selecione **[!UICONTROL Increment Count, Release User & Allow Reentry]** para especificar a experiência que o usuário vê ao entrar na atividade novamente.</li><li>Selecione **[!UICONTROL Increment Count, Release User & Bar from Reentry]** para especificar o que o usuário vê em vez do conteúdo da atividade.</li></ul> |
 | [!UICONTROL How will the count be incremented?] | Existem três opções de como a contagem é incrementada:<ul><li>[!UICONTROL Once per Entrant]</li><li>[!UICONTROL On Every Impression (Excluding page refreshes)]</li><li>[!UICONTROL On Every Impression]</li></ul> |
 
 Consulte [Métricas de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) para obter mais informações sobre configurações avançadas.

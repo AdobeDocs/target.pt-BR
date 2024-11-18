@@ -5,9 +5,10 @@ title: Qual é o URL da atividade em uma atividade A/B?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 40%
 
 ---
@@ -26,7 +27,7 @@ Quando solicitado durante a criação da atividade, especifique o URL da ativida
 
 Por padrão, o [!UICONTROL Visual Experience Composer] abre a página especificada nas suas [configurações do Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md). Você pode especificar uma página diferente durante a criação da atividade.
 
-1. Para exibir uma página diferente depois da abertura de [!UICONTROL Visual Experience Composer], na página **[!UICONTROL Experiences]**, clique em **[!UICONTROL Configure]** na parte superior da página e selecione **[!UICONTROL Page Delivery]**.
+1. (Condicional) Para exibir uma página diferente após a abertura de [!UICONTROL Visual Experience Composer], na página **[!UICONTROL Experiences]**, clique em **[!UICONTROL Configure]** na parte superior da página e selecione **[!UICONTROL Page Delivery]**.
 
 1. Especifique a URL no campo **[!UICONTROL URL]**.
 
@@ -40,6 +41,7 @@ Por padrão, o [!UICONTROL Visual Experience Composer] abre a página especifica
    * Fragmento em hash (#)
    * Consulta
    * Parâmetro da mbox
+   * Personalizado
 
    Regras adicionais podem ser unidas ao URL da atividade com AND ou OR. Todas regras que você adicionar são avaliadas contra si próprias com AND.
 
