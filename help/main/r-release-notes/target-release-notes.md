@@ -4,9 +4,9 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7017c2f9d5294bd4f74a6fc359cdafbf13c6ab4c
+source-git-commit: 3f3f7484145c9fd43bf7ff7356cca0997057ef02
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '624'
 ht-degree: 26%
 
 ---
@@ -31,7 +31,7 @@ Todos os novos clientes do [!DNL Adobe Experience Platform Web SDK] terão essa 
 
 >[!IMPORTANT]
 >
->Se não conseguir concluir sua análise de implementação e resolver qualquer problema até 3 de fevereiro de 2025, você poderá solicitar uma extensão única de seis meses. Garanta que sua solicitação seja enviada até 31 de janeiro de 2025. O Adobe analisará e decidirá sobre sua solicitação.
+>Se não conseguir concluir sua análise de implementação e resolver qualquer problema até 3 de fevereiro de 2025, você poderá solicitar uma extensão única de seis meses. Verifique se sua solicitação foi enviada até 31 de janeiro de 2025. O Adobe analisará e decidirá sobre sua solicitação.
 
 Para se beneficiar dessa otimização em caso de renderização manual de propostas, revise seu [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} para garantir que você esteja enviando notificações após renderizar experiências manualmente ou ao usar o método `applyPropositions` (ou a ação [!DNL Launch] correspondente como auxiliar) para renderizar experiências.
 
