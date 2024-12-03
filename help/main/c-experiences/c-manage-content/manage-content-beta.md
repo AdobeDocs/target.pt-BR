@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 0c86e142b7d459d07af51ec0c3454611564c8e08
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '873'
 ht-degree: 8%
 
 ---
@@ -35,7 +35,7 @@ A biblioteca [!UICONTROL Offers] fornece uma visão geral de todas as ofertas de
 | Painel de navegação esquerdo | Alternar entre exibir [!UICONTROL Code Offers] ou [!UICONTROL Image Offers]. |
 | [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![Ícone Mostrar Filtros/Ocultar Filtros](/help/main/assets/icons/RailLeft.svg) | Clique no ícone **[!UICONTROL Show Folders]** ou **[!UICONTROL Hide Folders]** para alternar entre a exibição da estrutura de pastas de ofertas ou a não exibição da estrutura de pastas.<P>Para obter mais informações, consulte [Criar pastas de ofertas](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
 | Ícone do [!UICONTROL Show filters]<P>![Ícone Mostrar Filtros](/help/main/assets/icons/Filter.svg) | Clique no ícone **[!UICONTROL Show filters]** para filtrar ofertas de [!UICONTROL Type], [!UICONTROL Source] e [!UICONTROL AEM Type].<P>Para obter mais informações, consulte [Aplicar filtros à lista de Ofertas](#filters) abaixo. |
-| Pesquisar campos | Use os campos **[!UICONTROL Search in]** para localizar rapidamente uma oferta ou reduzir o número de ofertas exibidas na biblioteca [!UICONTROL Offers]. Você pode pesquisar por [!UICONTROL Offer Name], [!UICONTROL AEM Paths] ou [!UICONTROL AEM Tags]. |
+| Pesquisar campos | Use os campos **[!UICONTROL Search in]** para localizar rapidamente uma oferta ou reduzir o número de ofertas exibidas na biblioteca [!UICONTROL Offers]. Você pode pesquisar por [!UICONTROL Offer Name], [!UICONTROL AEM Paths] ou [!UICONTROL AEM Tags]. As opções de pesquisa são persistentes na sessão. |
 | [!UICONTROL Create Folder] | Clique em **[!UICONTROL Create Folder]** para criar pastas na biblioteca [!UICONTROL Offer] para conter ofertas de código, ofertas de imagem, bem como outras pastas para criar uma estrutura de subpastas.<P>Para obter mais informações, consulte [Criar pastas de ofertas](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
 | [!UICONTROL [!UICONTROL Create Offer]] | Clique em **[!UICONTROL Create Offer]** para criar uma oferta.<P>Para obter mais informações sobre como criar os vários tipos de oferta, consulte: <ul><li>Oferta HTML</li><li>[Oferta JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[Oferta de redirecionamento](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[Oferta remota](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
 | Caixas de seleção de operações em massa<P>![Ícone de Operações em Massa](/help/main/assets/icons/Rectangle.svg) | Clique nas caixas de seleção [!UICONTROL Bulk Operations] para executar operações em massa em todas as ofertas ou ofertas selecionadas.<P>Para obter uma lista de ações disponíveis (dependendo das suas permissões e do status da oferta), consulte [Executar ações rápidas](#quick-actions) abaixo. |
@@ -55,6 +55,8 @@ O ícone **[!UICONTROL Show filters]** permite filtrar ofertas pelas seguintes c
 * **[!UICONTROL Source]**: [!DNL Adobe Target], [!DNL Adobe Target Classic] e [!DNL Adobe Experience Manager].
 
 * **Tipo de AEM**: [Fragmentos de conteúdo](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) e [Fragmentos de experiência](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md). Para obter mais informações sobre os diferentes tipos de fragmentos, consulte [Visão geral dos Fragmentos de experiência e Fragmentos de conteúdo do AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
+
+Os filtros são persistentes na sessão.
 
 ## Executar ações rápidas {#quick-actions}
 
