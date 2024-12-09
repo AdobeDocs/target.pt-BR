@@ -1,35 +1,35 @@
 ---
 keywords: visual experience composer; práticas recomendadas do visual experience composer; limitações do visual experience composer; avisos do visual experience composer; práticas recomendadas do vec; vec
-description: Conheça as práticas recomendadas para que suas experiências funcionem conforme o esperado ao usar o Visual Experience Composer (VEC) no Adobe Target.
-title: Quais são as práticas recomendadas e limitações do Visual Experience Composer?
+description: Conheça as práticas recomendadas para que suas experiências funcionem conforme o esperado ao usar o [!UICONTROL Visual Experience Composer] (VEC).
+title: Quais são as práticas recomendadas e as limitações do [!UICONTROL Visual Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
-source-wordcount: '2402'
-ht-degree: 91%
+source-wordcount: '2414'
+ht-degree: 85%
 
 ---
 
-# Práticas recomendadas e limitações do Visual Experience Composer
+# Práticas recomendadas e limitações do [!UICONTROL Visual Experience Composer]
 
-Seguir as práticas recomendadas pode ajudar as suas experiências a funcionarem como esperado. Há também outras dicas e limitações que você deve conhecer ao usar o Visual Experience Composer (VEC) no [!DNL Adobe Target].
-
-Ao seguir essas práticas recomendadas, você tem menos probabilidade de encontrar problemas inesperados com as experiências que projeta.
+Seguir as práticas recomendadas pode ajudar as suas experiências a funcionarem como esperado. Também há outras dicas e limitações que você deve conhecer ao usar o [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target].
 
 ## Práticas recomendadas {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Coloque a referência da at.js na parte superior da seção `<head>` da página.**
+Estas são as práticas recomendadas ao usar o VEC:
+
+### Coloque a referência à at.js na parte superior da seção `<head>` da página.
 
 Se você também usa o Serviço de API do visitante, coloque o script de API do visitante acima da at.js.
 
-**Você pode ativar/desativar o Enhanced Experience Composer no nível da conta (ativada para todas as atividades criadas na conta) ou no nível da atividade individual.**
+### Você pode ativar/desativar o Enhanced Experience Composer no nível da conta (ativada para todas as atividades criadas na conta) ou no nível da atividade individual.
 
 Para ativar o Enhanced Experience Composer no nível da conta, clique em [!UICONTROL Administration > Visual Experience Composer] e, em seguida, alterne o comutador para a posição Ligado.
 
 Para ativar o Enhanced Experience Composer no nível da atividade enquanto cria uma atividade no Visual Experience Composer, clique em [!UICONTROL Configure > URL] e, em seguida, alterne o comutador para a posição Ligado.
 
-incluir na lista de permissões **Você pode pesquisar determinados endereços IP se o Enhanced Visual Experience Composer não carregar em páginas seguras no seu site.**
+### Incluir na lista de permissões Você pode modificar determinados endereços IP se o Enhanced Visual Experience Composer não carregar em páginas seguras no seu site.
 
 Problemas ao carregar o Enhanced Visual Experience Composer podem ser resolvidos através do incluir na lista de permissões dos seguintes endereços IP. Esses endereços IP são para o servidor do Adobe usado para o proxy do Enhanced Experience Composer. Eles são necessários somente para a atividade de edição. Incluir na lista de permissões Os visitantes do seu site não precisam desses endereços IP resolvidos.
 
@@ -39,13 +39,13 @@ Europa, Oriente Médio e África (EMEA): 52.51.238.221, 52.210.199.44 e 54.72.56
 
 Pacífico Asiático (APAC): 52.193.67.35, 54.199.198.109 e 54.199.241.57
 
-**Use IDs exclusivas para elementos de nível superior e outros elementos que podem ser bons candidatos a teste/direcionamento.**
+### Use IDs únicas para elementos de nível superior e outros elementos que podem ser bons candidatos a teste/direcionamento.
 
 Qualquer item imediatamente dentro do elemento body deve ter uma ID única. Se novos elementos forem inseridos no corpo de texto e o código for movido, pelo menos os elementos pai serão mais fáceis de reconhecer.
 
 O Adobe Target não requer IDs, mas o uso de IDs aumenta a confiabilidade das experiências criadas com o Experience Composer. O Target usa seletores de CSS para modificar seu conteúdo quando a experiência é entregue. Quando você edita uma experiência, o Visual Experience Composer ancora o seletor para o ancestral mais próximo com um atributo de ID não nulo para o elemento HTML sendo modificado. Portanto, não é aconselhável usar nenhum mecanismo, incluindo bibliotecas de JavaScript, que defina ou modifique atributos de ID HTML. Embora essas IDs possam estar disponíveis para o Target Experience Composer para a criação de atividade, se o JavaScript modificar IDs, a ID que foi usada quando a experiência foi criada talvez não esteja disponível quando a experiência for executada. Se não houver uma ID disponível, o seletor ancorado para a ID falhará.
 
-**Nomeie as classes CSS para identificá-las facilmente.**
+### Nomeie as classes CSS para identificá-las facilmente.
 
 Ao editar classes CSS no Visual Experience Composer, será útil tornar as classes facilmente identificáveis usando nomes de classe descritivos. Isso o ajuda a assegurar que você edite as classes CSS certas e suas páginas tenham a aparência esperada.
 
@@ -53,19 +53,19 @@ Não use a propriedade de CSS `!important` CSS ao ocultar ou remover elementos.
 
 Se a propriedade CSS 1!important1 CSS está presente, as alterações feitas por target.js durante a entrega serão substituídas pelas regras CSS do site.
 
-**Evite usar tabelas HTML para layouts de página.**
+### Evite usar tabelas HTML para layouts de página.
 
 O Target Standard e o Premium usam JavaScript para formatar uma página. É difícil modificar layouts baseados em tabelas com o JavaScript. Além disso, os layouts baseados em tabela podem não ser exibidos da mesma maneira em todos os navegadores. Para obter os melhores resultados, use CSS para criar layouts de página.
 
-**Reduza o uso de iFrames.**
+### Reduza o uso de iFrames.
 
 É uma boa prática reduzir o uso de iFrames, para simplificar o gerenciamento de páginas e teste. O Visual Experience Composer pode aplicar algumas ações em um iFrame, mas algumas delas, como redimensionar, não funcionam corretamente. É difícil gerenciar e redimensionar páginas que usam vários iFrames. Em virtude disso, testar páginas com muitos iFrames pode causar problemas.
 
-**Tente organizar todas as modificações de DOM dinâmicas assim que possível depois que o DOM estiver pronto.**
+### Tente organizar todas as modificações de DOM dinâmicas assim que possível depois que o DOM estiver pronto.
 
 Se as suas modificações não forem aplicadas antes da aplicação de target.js, a entrega de conteúdo poderá ser interrompida. Isso acontecerá somente quando houver uma alteração de DOM na hierarquia de um elemento direcionado.
 
-**Use somente texto simples ou uma tag de imagem nos seus elementos de ancoragem.**
+### Use somente texto simples ou uma tag de imagem nos seus elementos de ancoragem.
 
 `<a>Anchor Text</a>`
 
@@ -73,15 +73,15 @@ OU
 
 `<a href=""> <img src=""> </img> </a>`
 
-**Evite elementos de nível de bloco dentro de um elemento em linha.**
+### Evite elementos de nível de bloco dentro de um elemento em linha.
 
 Os elementos de nível de bloco não devem ser usados dentro de elementos em linha como âncora, span etc. Isso faz com que os elementos em linha percam sua altura e largura, de modo que a ferramenta de sobreposição no Visual Experience Composer talvez não funcione como esperado.
 
-**Não use a base da tag no seu site para resolver URLs e links.**
+### Não use a base da tag no seu site para resolver URLs e links.
 
-O Visual Experience Composer manipula o site em segundo plano, usando um servidor proxy que atualizou os links. Se você adicionar uma base de tag, os URLs utilizados pelo servidor proxy serão resolvidos novamente pelo navegador e aparecerão quebrados.
+O VEC manipula o site nos bastidores, usando um servidor proxy que atualizou os links. Se você adicionar uma base de tag, os URLs utilizados pelo servidor proxy serão resolvidos novamente pelo navegador e aparecerão quebrados.
 
-**O uso de EDIT HTML para manipular a estrutura DOM pode quebrar os seletores.**
+### O uso de EDIT HTML para manipular a estrutura DOM pode quebrar os seletores.
 
 Por exemplo, se você realizou duas ações:
 
@@ -94,22 +94,22 @@ Em outras palavras, se você adicionar um elemento com texto e, em seguida, edit
 
 Consulte [Seletores de elementos usados no Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
 
-**Use as tags `<b>` e `<i>` ao estilizar elementos de texto com o editor de rich text.**
+### Use as marcas `<b>` e `<i>` ao estilizar elementos de texto com o editor de rich text.
 
 * Para texto em negrito, use `<b>` em vez de `<strong>`.
 * Para texto em itálico, use `<i>` em vez de `<em>`.
 
 As tags `<strong>` e `<em>` podem causar resultados inesperados.
 
-**Tenha cuidado ao remover campos de formulário.**
+### Tenha cuidado ao remover campos de formulário.
 
 Certos campos de formulário poderão ser obrigatórios para envio. A remoção desses campos de formulário poderá afetar os envios.
 
-**Não inclua `mboxCreate` em scripts.**
+### Não inclua `mboxCreate` em scripts.
 
 Como `mboxCreate` usa `document.write`, não é recomendado incluir `mboxCreate` em scripts. Em vez disso, use `mboxDefine` e `mboxUpdate` para o mesmo propósito.
 
-**Não atualize um snippet de html usando Target Standard, se ele necessitar de um código JavaScript para a inicialização.**
+### Não atualize um snippet de html usando Target Standard, se ele necessitar de um código JavaScript para a inicialização.
 
 Quando uma ação (Edit HTML) é realizada nos componentes da página (como Controles deslizantes, Carrosséis etc.), a entrega pode parecer quebrada. O Visual Experience Composer executa a ação após o componente da página tiver sido instanciado pelo JavaScript.
 
@@ -122,11 +122,11 @@ Se você testar para entrega e ela funcionar da primeira vez, não há garantias
 
 Teste a sua página várias vezes, para ter certeza de que a entrega funciona conforme esperado.
 
-**Não use uma base da tag no seu site para resolver URLs e links.**
+### Não use uma base da tag no seu site para resolver URLs e links.
 
 Quando você usa o Enhanced Experience Composer, o site é manipulado em segundo plano por um servidor proxy que atualizou todos os URLs do link para que funcionem no proxy. Se você adicionar uma base da tag, todos esses URLs são resolvidos pelo navegador, então aparecem quebrados.
 
-**O texto importante no site que pode ser usado para direcionamento deve ser mantido no código HTML dentro de um elemento.**
+### O texto importante no site que pode ser usado para direcionamento deve ser mantido no código HTML dentro de um elemento.
 
 Por exemplo, você não pode direcionar o texto do Carrinho de compras no VEC, se o código for parecido com este:
 
@@ -144,11 +144,11 @@ Por exemplo, você não pode direcionar o texto do Carrinho de compras no VEC, s
 
 Neste exemplos, todo o elemento da âncora é selecionado no VEC, prejudicando outros elementos, se o direcionamento for realizado.
 
-**Não use `top` ou `self` variáveis no código JavaScript.**
+### Não use `top` ou `self` variáveis no código JavaScript.
 
 Quando o Enhanced Experience Composer está ativado, o valor das variáveis superior e própria é atualizado para desativar o iframe busting. Use um cabeçalho de X-frame-options para adicionar a edição do iframe, em vez dos códigos JavaScript personalizados.
 
-**Sempre teste o seu site se os parâmetros são adicionados durante o carregamento da página.**
+### Sempre teste o seu site se os parâmetros são adicionados durante o carregamento da página.
 
 Por exemplo, para abrir www.abc.com, os parâmetros de URL a seguir são usados:
 
@@ -158,7 +158,7 @@ Esses parâmetros ativam a edição em um iframe.
 
 Certifique-se de que o seu site carregue conforme esperado, após adicionar parâmetros como esses.
 
-**Certifique-se de que a sua página abra conforme esperado em um iframe.**
+### Certifique-se de que a sua página abra conforme esperado em um iframe.
 
 Desative as técnicas de edição de iframe no seu site e verifique se ele abre conforme esperado dentro de um iframe em uma página de teste. Por exemplo:
 
@@ -179,27 +179,27 @@ Desative as técnicas de edição de iframe no seu site e verifique se ele abre 
 
 ## Avisos {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
 
-Considere os avisos a seguir ao usar o Visual Experience Composer para projetar sua atividade.
+Considere os avisos a seguir ao usar o [!UICONTROL Visual Experience Composer] para criar sua atividade.
 
-**O recurso Move não tem suporte para o índice z.**
+### O recurso Move não tem suporte para o índice z.
 
 Como não há nenhuma funcionalidade de índice z, o elemento movido não pode ser movido para cima de outro elemento. Consulte [Limitações](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721) para obter mais detalhes.
 
-**A reorganização dos elementos afeta o rastreamento de cliques.**
+### A reorganização dos elementos afeta o rastreamento de cliques.
 
 Se um elemento marcado para rastreamento de cliques for reorganizado, os caminhos dos elementos reorganizados são alterados. Assim, o elemento no local em que o elemento original estava antes de ser reorganizado é aquele cujos cliques são acompanhados.
 
 Isso ocorre porque o código para entregar o conteúdo da atividade e o código para rastrear os cliques está incluído em um pedaço de código entregue à página. Se você navegar para uma página diferente e configurar o acompanhamento por clique, então o código de conteúdo da atividade e o código de rastreamento de cliques são fornecidos para essa página. Se a página de acompanhamento de clique tem uma estrutura de página similar à página de execução de teste, então o conteúdo de teste pode aparecer também na página de acompanhamento de clique.
 
-**A inserção de um elemento pode não funcionar em uma mbox `<div>`.**
+### A inserção de um elemento pode não funcionar em um `<div>` que seja uma mbox.
 
 Se uma mbox contiver uma oferta, inserir um elemento pode aparecer como insertBefore e não insertAfter, se a mbox estiver implementada incorretamente.
 
-**Ao editar um elemento principal e secundário, edite o principal primeiro.**
+### Ao editar um elemento principal e secundário, edite o principal primeiro.
 
 Se você trocar uma ação da imagem em um elemento e depois editar o texto ou HTML no seu elemento principal, poderá ocorrer problemas. O melhor fluxo de trabalho é editar o elemento principal antes de trocar a imagem no elemento secundário.
 
-**Não é possível selecionar o elemento de página que inclui uma mbox como um elemento filho.**
+### Não é possível selecionar o elemento de página que inclui uma mbox como um elemento filho.
 
 Por exemplo, se a sua página contiver:
 
@@ -213,55 +213,61 @@ Por exemplo, se a sua página contiver:
 
 O div externo não deve ser selecionado em uma experiência porque a mbox codificada na página ainda faz uma chamada para Target e recebe uma resposta. Essa resposta interfere na resposta pretendida para o elemento de página maior.
 
-**Os IPs proxy podem ser bloqueados no ambiente dos clientes.**
+### Os IPs proxy podem ser bloqueados no ambiente dos clientes.
 
 Se você estiver usando o Enhanced Experienced Composer em um site sem transmissão ao vivo, como um ambiente de preparo, poderá observar erros de tempo limite e acesso negado, se o seu site bloquear RIPs.
 
-**Ao adicionar várias páginas, o painel de experiência e da página são abertos ao mesmo tempo. Isso eventualmente diminui com a largura do Visual Experience Composer para exibir o site para otimizações. Como resultado, sites com fluxo redirecionado podem começar a aparecer de forma diferente do esperado no espaço reduzido.**
+### Ao adicionar várias páginas, o painel de experiência e da página são abertos ao mesmo tempo. Isso eventualmente diminui com a largura do Visual Experience Composer para exibir o site para otimizações. Como resultado, os sites refluídos podem começar a aparecer no espaço reduzido de modo diferente do esperado.
 
 A solução é recolher o painel de experiência e o painel da página, clicando nos ícones &quot;chevron&quot; esquerdos da página superior.
 
 ## Limitações {#section_F33C2EA27F2E417AA036BC199DD6C721}
 
-**Recurso Mover**
+Considere as seguintes limitações ao trabalhar com o VEC:
+
+### Não é possível mover um elemento fora de um container seguido de uma propriedade CSS.
 
 Um elemento não pode ser movido para fora de um contêiner seguido por uma propriedade CSS.
 
-**Somente ofertas de troca estão disponíveis em mboxes.**
+### Você não pode selecionar o elemento [!UICONTROL Button] para reorganização.
+
+[!UICONTROL Button] elementos não podem ser selecionados diretamente para reorganização. Para habilitar a reorganização, coloque botões dentro de um contêiner maior.
+
+### Somente ofertas de troca estão disponíveis em mboxes.
 
 Ações como Editar classe e Reorganizar não são permitidas dentro de uma mbox.
 
-**Você não deve reorganizar e mover o mesmo elemento.**
+### Você não deve reorganizar e mover o mesmo elemento.
 
 Se um elemento tiver sido movido para outro local e você selecionar o contêiner pai e tentar reorganizar os elementos filho, o elemento movido não será afetado e permanecerá onde está. A reorganização talvez não apareça da maneira desejada.
 
-**A ação de troca de imagem não funciona em uma Imagem no carrossel.**
+### A ação de troca de imagem não funciona em uma Imagem no carrossel.
 
 Se, por exemplo, a sua página tiver um carrossel com seis imagens e você quiser trocar uma imagem pela segunda imagem do carrossel, a ação Trocar imagem não vai funcionar.
 
 A solução é selecionar um contêiner principal e usar a ação Editar HTML para editar o HTML do carrossel, com o objetivo de atualizar a fonte de imagem da imagem desejada.
 
-**As imagens não podem ser redimensionadas em uma mbox.**
+### As imagens não podem ser redimensionadas em uma mbox.
 
 Se você trocar uma imagem em um elemento de mbox, tente redimensionar essa imagem de acordo com o tamanho do elemento da mbox, o redimensionamento não será permitido.
 
-**Depois que trocar uma imagem, você não poderá selecionar a ação Editar.**
+### Depois que trocar uma imagem, você não poderá selecionar a ação Editar.
 
 Depois que trocar a imagem, você não poderá editar o URL do Scene7.
 
-**Não é possível editar elementos HTML com a fonte externa.**
+### Não é possível editar elementos HTML com a fonte externa.
 
 Por exemplo: vídeo, tags de áudio, incorporado, iFrames, quadros.
 
-**O rastreamento de cliques não funciona para elementos de ancoragem que contenham qualquer coisa diferente de texto simples ou tags de imagem.**
+### O rastreamento de cliques não funciona para elementos de ancoragem que contenham qualquer coisa diferente de texto simples ou tags de imagem.
 
 Por exemplo, o rastreamento de cliques não funcionará se o elemento contiver JavaScript.
 
-**As páginas devem aceitar os parâmetros de URL para que o Visual Experience Composer funcione.**
+### As páginas devem aceitar os parâmetros de URL para que o Visual Experience Composer funcione.
 
 Alguns sites removem qualquer parâmetros de URL para as páginas. Entretanto, o Visual Experience Composer precisa desses parâmetros.
 
-**Ao usar um script como parte do html, qualquer variável e função acessada da parte externa deve ser declarada no espaço de nome da janela.**
+### Ao usar um script como parte do html, qualquer variável e função acessada da parte externa deve ser declarada no espaço de nome da janela.
 
 O script é executado dentro do escopo do target.js após a página carregar. Portanto, qualquer variável ou função que seja declarada localmente não está acessível da parte externa do bloco do script.
 
@@ -287,7 +293,7 @@ O script é executado dentro do escopo do target.js após a página carregar. Po
 </script>
 ```
 
-**Inserir uma imagem na Biblioteca de conteúdo (Scene7) e editar o HTML quebra o url da imagem.**
+### Inserir uma imagem na Biblioteca de conteúdo (Scene7) e editar o HTML quebra o URL da imagem.
 
 Adicione um elemento da âncora dentro do div &#39;customHeaderMessage&#39; com algum texto de teste:
 
@@ -310,10 +316,10 @@ Após a inserção da imagem, ele tem a seguinte aparência:
 
 Remova a extensão de texto de teste.
 
-**A ação customCode no Visual Experience Composer não funciona com o Internet Explorer 8.**
+### A ação customCode no VEC não funciona com o Internet Explorer 8.
 
 Devido às limitações do IE8 ao manipular o conteúdo do script, a target.js não oferece suporte a isso no IE8. Como solução, se a página contiver jQuery e estiver exposta ao objeto window globalmente, a target.js pode usar para fornecer a ação customCode. Certifique-se de que window.jQuery e window.jQuery.fn.prepend estejam definidas.
 
-**O rastreamento de cliques é compatível somente na página em que as experiências são criadas ou na página redirecionada.**
+### O rastreamento de cliques é compatível somente na página em que as experiências são criadas ou na página redirecionada.
 
 Embora o modo Navegar esteja disponível no VEC de rastreamento de cliques, ele não pode ser usado para adicionar o acompanhamento a uma página.

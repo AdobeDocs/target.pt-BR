@@ -4,7 +4,7 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 22%
@@ -25,11 +25,11 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 
 ## Atualização da interface do usuário do [!UICONTROL Offers Library] (9 de janeiro de 2024)
 
-Para aprimorar a experiência do usuário para [!DNL Adobe Target] usuários, esta versão atualiza a interface do usuário [!UICONTROL Offers Library]. Usando o sistema de design [!DNL Adobe Spectrum] mais recente, esta atualização padroniza padrões de design inconsistentes e introduz novos aprimoramentos, incluindo:
+Para aprimorar a experiência do usuário para [!DNL Adobe Target] usuários, esta versão atualiza a interface do usuário [!UICONTROL Offers Library]. Usando o sistema de design [!DNL Adobe Spectrum] mais recente, esta atualização padroniza padrões de design inconsistentes e introduz novas melhorias, incluindo as seguintes:
 
 * **Gerenciamento de ofertas em massa**: selecione e exclua várias ofertas simultaneamente.
 
-* **Atualizações do Editor de Códigos**: HTML e editores JSON atualizados com realce de sintaxe e numeração de linhas.
+* **[!UICONTROL Code Editor]atualizações**: HTML e editores JSON atualizados com realce de sintaxe e numeração de linha.
 
 * **Cartões de oferta aprimorados**: cartões de informações e detalhes rápidos aprimorados para facilitar o acesso às informações.
 

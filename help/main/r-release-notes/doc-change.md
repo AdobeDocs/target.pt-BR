@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 22%
+source-wordcount: '576'
+ht-degree: 21%
 
 ---
 
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 |--- |--- |--- |
+| 9 de dezembro | [[!UICONTROL Visual Experience Composer] práticas recomendadas e limitações](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md) | Adição da seguinte limitação:<ul><li>Você não pode selecionar o elemento [!UICONTROL Button] para reorganização.<P>[!UICONTROL Button] elementos não podem ser selecionados diretamente para reorganização. Para habilitar a reorganização, coloque botões dentro de um contêiner maior.</li></ul> |
 | 3 de dezembro | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de notas de pré-lançamento para a próxima atualização da interface de usuário do [!UICONTROL Offers Library]. |
 | 20 de novembro | [Lista de permissões de nós de borda no Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges#target-edge-ip-addresses){target=_blank} | Atualização da lista de endereços IP de borda do Target para incluir na lista de permissões. |
 | 19 de novembro | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Adição da seguinte observação importante à seção &quot;[!DNL Adobe Experience Platform Web SDK] `__view__` otimização de escopo (22 de outubro de 2024)&quot;:<ul><li>IMPORTANTE: se não conseguir concluir sua análise de implementação e resolver algum problema até 3 de fevereiro de 2025, você poderá solicitar uma extensão única de seis meses. Verifique se sua solicitação foi enviada até 31 de janeiro de 2025. O Adobe analisará e decidirá sobre sua solicitação.</li><ul> |
