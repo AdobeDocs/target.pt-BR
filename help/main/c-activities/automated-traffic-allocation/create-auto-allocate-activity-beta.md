@@ -6,9 +6,9 @@ feature: Auto-Allocate
 hide: true
 hidefromtoc: true
 exl-id: 1bfa311a-cbd9-48be-9b28-840be55b1118
-source-git-commit: 5846e567cffda70ecd75f2975b0891f9a3f423a5
+source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '894'
 ht-degree: 15%
 
 ---
@@ -45,7 +45,7 @@ Para criar uma atividade [!UICONTROL Auto-Allocate]:
 
    A [!UICONTROL Visual Experience Composer] é aberta, mostrando a página especificada na URL.
 
-1. Clique em **[!UICONTROL Untitled Activity]** na parte superior do VEC e especifique um nome para a atividade no espaço fornecido.
+1. Clique no ícone **[!UICONTROL Rename]** ( ![Ícone Renomear](/help/main/assets/icons/MoreSmallListVert.svg) ), clique em **[!UICONTROL Rename]**, especifique um nome para a atividade e clique em **[!UICONTROL Save]**.
 
    O nome da atividade não pode começar com nenhum dos seguintes caracteres:
 

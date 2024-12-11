@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
+source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 22%
+source-wordcount: '744'
+ht-degree: 21%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 22%
 
 Este artigo contém informações de pré-lançamento das próximas versões do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: quarta-feira, 3 de dezembro de 2024**
+**Última atualização: quinta-feira, 11 de dezembro de 2024**
 
 >[!NOTE]
 >
@@ -36,6 +36,10 @@ Para aprimorar a experiência do usuário para [!DNL Adobe Target] usuários, es
 * **Pesquisa e filtros persistentes**: adiciona opções de pesquisa e filtro persistentes na sessão.
 
 A partir de 9 de janeiro de 2025, todos os clientes do [!DNL Target] terão acesso à nova interface do usuário, com a opção de voltar para a versão atual, se necessário.
+
+Este é um vídeo curto que destaca as alterações nesta versão:
+
+![Vídeo de atualização da interface do usuário das ofertas](/help/main/r-release-notes/assets/offers-video-v2.gif)
 
 ## [!DNL Adobe Experience Platform Web SDK] Otimização de escopo do `__view__` (22 de outubro de 2024)
 

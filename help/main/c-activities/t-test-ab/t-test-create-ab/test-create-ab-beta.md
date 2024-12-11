@@ -6,9 +6,9 @@ feature: A/B Tests
 hide: true
 hidefromtoc: true
 exl-id: 35b8d451-289f-4c9d-82ed-c3bdb091c8e3
-source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
+source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '881'
 ht-degree: 17%
 
 ---
@@ -49,7 +49,7 @@ Para criar uma atividade manual [!UICONTROL A/B Test]:
 
    A [!UICONTROL Visual Experience Composer] é aberta, mostrando a página especificada na URL.
 
-1. Clique em **[!UICONTROL Untitled Activity]** na parte superior do VEC e especifique um nome para a atividade no espaço fornecido.
+1. Clique no ícone **[!UICONTROL Rename]** ( ![Ícone Renomear](/help/main/assets/icons/MoreSmallListVert.svg) ), clique em **[!UICONTROL Rename]**, especifique um nome para a atividade e clique em **[!UICONTROL Save]**.
 
    O nome da atividade não pode começar com nenhum dos seguintes caracteres:
 
