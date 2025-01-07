@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3f3f7484145c9fd43bf7ff7356cca0997057ef02
+source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 37%
+source-wordcount: '868'
+ht-degree: 31%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 37%
 Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium]. Além disso, as notas de versão para APIs [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações de plataforma também estão incluídas, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## Atualização da interface do usuário do [!UICONTROL Offers Library] (9 de janeiro de 2025)
+
+Para aprimorar a experiência do usuário para [!DNL Adobe Target] usuários, esta versão atualiza a interface do usuário [!UICONTROL Offers Library]. Usando o sistema de design [!DNL Adobe Spectrum] mais recente, esta atualização padroniza padrões de design inconsistentes e introduz novas melhorias, incluindo as seguintes:
+
+* **Gerenciamento de ofertas em massa**: selecione e exclua ou mova várias ofertas simultaneamente.
+
+* **[!UICONTROL Code Editor]atualizações**: HTML e editores JSON atualizados com realce de sintaxe e numeração de linha.
+
+* **Cartões de oferta aprimorados**: cartões de informações e detalhes rápidos aprimorados para facilitar o acesso às informações.
+
+* **Pesquisa e filtros persistentes**: adiciona opções de pesquisa e filtro persistentes na sessão.
+
+A partir de 9 de janeiro de 2025, todos os clientes do [!DNL Target] terão acesso à nova interface do usuário, com a opção de voltar para a versão atual, se necessário.
+
+Para obter mais informações, consulte [Ofertas](/help/main/c-experiences/c-manage-content/manage-content.md) e os subartigos desta seção.
+
+Este é um vídeo curto que destaca as alterações nesta versão:
+
+![Vídeo de atualização da interface do usuário das ofertas](/help/main/r-release-notes/assets/offers-video-v2.gif)
 
 ## [!DNL Adobe Experience Platform Web SDK] Otimização de escopo do `__view__` (22 de outubro de 2024)
 

@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
+source-git-commit: 320e2e3828061ee38342dfabcdd50a682a7125a5
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '624'
 ht-degree: 21%
 
 ---
@@ -19,6 +19,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 |--- |--- |--- |
+| 7 de janeiro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Adição das notas de versão para a atualização da interface do usuário do [!UICONTROL Offers Library] (agendada para 9 de janeiro de 2025). Todos os artigos de Ofertas foram atualizados para refletir as alterações na interface. |
 | 9 de dezembro | [[!UICONTROL Visual Experience Composer] práticas recomendadas e limitações](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md) | Adição da seguinte limitação:<ul><li>Você não pode selecionar o elemento [!UICONTROL Button] para reorganização.<P>[!UICONTROL Button] elementos não podem ser selecionados diretamente para reorganização. Para habilitar a reorganização, coloque botões dentro de um contêiner maior.</li></ul> |
 |  | [adobe.target.triggerView (viewName, options) - at.js 2.x](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2){target=_blank} | Adição da seguintes seção:<ul><li>Exemplo: melhor compatibilidade para `triggerView()` com a extensão Auxiliar de edição visual do Adobe</li></ul> |
 | 3 de dezembro | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de notas de pré-lançamento para a próxima atualização da interface de usuário do [!UICONTROL Offers Library]. |

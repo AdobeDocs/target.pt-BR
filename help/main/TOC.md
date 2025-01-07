@@ -3,10 +3,10 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: 65367f0a032d2eb680e26d43ee79f5ae0890024b
+source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 78%
+source-wordcount: '1420'
+ht-degree: 80%
 
 ---
 
@@ -271,21 +271,13 @@ ht-degree: 78%
    + [Aplicativo de página única (SPA) no Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
    + Ofertas {#offers}
       + [Visão geral das ofertas](c-experiences/c-manage-content/manage-content.md)
-      + [Visão geral das ofertas beta](/help/main/c-experiences/c-manage-content/manage-content-beta.md)
       + [Criar uma pasta de ofertas](c-experiences/c-manage-content/create-content-folder.md)
-      + [Criar pasta de ofertas beta](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md)
       + [Upload de conteúdo](c-experiences/c-manage-content/assets-upload.md)
-      + [Fazer upload ou excluir ofertas de imagem beta](/help/main/c-experiences/c-manage-content/assets-upload-beta.md)
       + [Criar Ofertas de redirecionamento](c-experiences/c-manage-content/offer-redirect.md)
-      + [Criar beta de ofertas de redirecionamento](c-experiences/c-manage-content/offer-redirect-beta.md)
       + [Criar ofertas remotas](c-experiences/c-manage-content/about-remote-offers.md)
-      + [Criar ofertas remotas beta](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md)
       + [Criar ofertas JSON](c-experiences/c-manage-content/create-json-offer.md)
-      + [Criar ofertas JSON beta](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [Trabalhar com conteúdo na biblioteca](c-experiences/c-manage-content/assets-working.md)
-      + [Trabalhar com conteúdo na biblioteca beta](/help/main/c-experiences/c-manage-content/assets-working-beta.md)
       + [Pesquisar e filtrar conteúdo](c-experiences/c-manage-content/filter-and-search-content.md)
-      + [Pesquisar e filtrar conteúdo beta](/help/main/c-experiences/c-manage-content/filter-and-search-content-beta.md)
       + [Envio de dados dinâmicos em ofertas](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [Fragmentos de experiência e conteúdo do AEM](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Relatórios {#reports}

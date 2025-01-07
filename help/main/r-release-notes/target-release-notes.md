@@ -4,9 +4,9 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cf00d2e43b0d0746e4369fcc7933a79f465c9549
+source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '757'
 ht-degree: 21%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 21%
 
 Este artigo contém informações de pré-lançamento das próximas versões do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: quinta-feira, 11 de dezembro de 2024**
+**Última atualização: quarta-feira, 7 de janeiro de 2025**
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 
 Para aprimorar a experiência do usuário para [!DNL Adobe Target] usuários, esta versão atualiza a interface do usuário [!UICONTROL Offers Library]. Usando o sistema de design [!DNL Adobe Spectrum] mais recente, esta atualização padroniza padrões de design inconsistentes e introduz novas melhorias, incluindo as seguintes:
 
-* **Gerenciamento de ofertas em massa**: selecione e exclua várias ofertas simultaneamente.
+* **Gerenciamento de ofertas em massa**: selecione e exclua ou mova várias ofertas simultaneamente.
 
 * **[!UICONTROL Code Editor]atualizações**: HTML e editores JSON atualizados com realce de sintaxe e numeração de linha.
 
@@ -36,6 +36,8 @@ Para aprimorar a experiência do usuário para [!DNL Adobe Target] usuários, es
 * **Pesquisa e filtros persistentes**: adiciona opções de pesquisa e filtro persistentes na sessão.
 
 A partir de 9 de janeiro de 2025, todos os clientes do [!DNL Target] terão acesso à nova interface do usuário, com a opção de voltar para a versão atual, se necessário.
+
+Para obter mais informações, consulte [Ofertas](/help/main/c-experiences/c-manage-content/manage-content.md) e os subartigos desta seção.
 
 Este é um vídeo curto que destaca as alterações nesta versão:
 

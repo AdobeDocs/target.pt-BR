@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 33195758db8ac27a9b45f77f5518c4c4ce5c70d9
+source-git-commit: 69c4bb69f77258d0e5d5d18750ccbeee0474763d
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '308'
 ht-degree: 62%
 
 ---
@@ -96,24 +96,6 @@ Use estes links para acessar a documentação atualizada como parte do programa 
    * [Activity QA overview](c-activities/c-activity-qa/activity-qa.md){target=_blank}
    * [Activity QA bookmarklet](c-activities/c-activity-qa/activity-qa-bookmark.md){target=_blank}
    * [Use Activity QA with server-side delivery](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md){target=_blank}-->
-
-## Ofertas
-
-+++Clique para expandir
-
-* [Visão geral das ofertas](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
-* [Criar uma pasta de ofertas](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
-* [Carregar conteúdo](/help/main/c-experiences/c-manage-content/assets-upload-beta.md){target="_blank"}
-* [Carregar ou excluir ofertas de imagem](/help/main/c-experiences/c-manage-content/assets-upload-beta.md){target="_blank"}
-* [Criar Ofertas de redirecionamento](/help/main/c-experiences/c-manage-content/offer-redirect-beta.md){target="_blank"}
-* [Criar ofertas remotas](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md){target="_blank"}
-* [Criar ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md){target="_blank"}
-* [Trabalhar com conteúdo na biblioteca](/help/main/c-experiences/c-manage-content/assets-working-beta.md){target="_blank"}
-* [Pesquisar conteúdo](/help/main/c-experiences/c-manage-content/filter-and-search-content.md){target="_blank"}
-* [Envio de dados dinâmicos em ofertas](/help/main/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md){target="_blank"}
-* [Fragmentos de experiência e conteúdo do AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md){target="_blank"}
-
-+++
 
 ## Recommendations
 

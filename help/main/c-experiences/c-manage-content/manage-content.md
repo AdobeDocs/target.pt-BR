@@ -1,101 +1,116 @@
 ---
 keywords: conteúdo, ativos, administração de conteúdo, ofertas, administração de ativos, inserção do modo de seleção, modo de seleção
-description: Saiba como gerenciar ofertas de código e imagem usando a biblioteca de ofertas no Adobe Target.
+description: Descubra como gerenciar ofertas de código e imagem com eficiência usando a biblioteca [!UICONTROL Offers].
 title: Como gerenciar ofertas de código e imagem?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: f93e33e91fb7be9c0d1772a2014864b46c1dfe47
+source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 16%
+source-wordcount: '833'
+ht-degree: 7%
 
 ---
 
 # Ofertas
 
-Use a biblioteca [!UICONTROL Offers] no [!DNL Adobe Target] para gerenciar sua oferta de código e conteúdo de oferta de imagem.
+Descubra como gerenciar com eficiência as ofertas de código e imagem usando a biblioteca [!UICONTROL Offers] no [!DNL Adobe Target].
 
-1. Clique em **[!UICONTROL Offers]** para abrir a biblioteca.
+Para exibir a biblioteca [!UICONTROL Offers], clique na guia **[!UICONTROL Offers]** na parte superior da interface do usuário do [!DNL Target].
 
-   A biblioteca contém as ofertas que foram configuradas por [!DNL Target Standard/Premium] [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) e APIs. As ofertas criadas em [!DNL Target Classic] ou outras soluções são editáveis [!DNL Target Standard/Premium].
+![Página de ofertas](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
 
-   A página [!UICONTROL Offers] tem duas guias no lado direito: [!UICONTROL Code Offers] e [!UICONTROL Image Offers] que permitem exibir ofertas por tipo.
+>[!NOTE]
+>
+>Este artigo documenta a atualização da interface do usuário do [!UICONTROL Offers] lançada em 9 de janeiro de 2025. Se preferir usar a interface herdada [!UICONTROL Offers], alterne [!UICONTROL Switch to the Old Experience] para a posição ligada.
 
-   ![Página Ofertas mostrando as guias Ofertas de código e Ofertas de imagem](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
+A biblioteca [!UICONTROL Offers] contém ofertas que foram configuradas via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) e APIs. As ofertas criadas em [!DNL Target Classic] ou outras soluções são editáveis [!DNL Target Standard/Premium].
 
-1. (Opcional) Clique na lista suspensa **[!UICONTROL Type]** para filtrar ofertas por tipo (Oferta HTML, [Fragmentos de experiência](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Oferta de redirecionamento](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Oferta remota](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [Ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) e [Pastas](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
+A biblioteca [!UICONTROL Offers] fornece uma visão geral de todas as ofertas de código e imagem e permite executar várias ações:
 
-   ![imagem de offer_filter](assets/offers_filter.png)
+| Elemento | Descrição |
+|--- |--- |
+| Painel de navegação esquerdo | Alternar entre exibir [!UICONTROL Code Offers] ou [!UICONTROL Image Offers]. |
+| [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![Ícone Mostrar Filtros/Ocultar Filtros](/help/main/assets/icons/RailLeft.svg) | Clique no ícone **[!UICONTROL Show Folders]** ou **[!UICONTROL Hide Folders]** para alternar entre a exibição da estrutura de pastas de ofertas ou a não exibição da estrutura de pastas.<P>Para obter mais informações, consulte [Criar pastas de ofertas](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
+| Ícone do [!UICONTROL Show filters]<P>![Ícone Mostrar Filtros](/help/main/assets/icons/Filter.svg) | Clique no ícone **[!UICONTROL Show filters]** para filtrar ofertas de [!UICONTROL Type], [!UICONTROL Source] e [!UICONTROL AEM Type].<P>Para obter mais informações, consulte [Aplicar filtros à lista de Ofertas](#filters) abaixo. |
+| Pesquisar campos | Use os campos **[!UICONTROL Search in]** para localizar rapidamente uma oferta ou reduzir o número de ofertas exibidas na biblioteca [!UICONTROL Offers]. Você pode pesquisar por [!UICONTROL Offer Name], [!UICONTROL AEM Paths] ou [!UICONTROL AEM Tags]. As opções de pesquisa são persistentes na sessão. |
+| [!UICONTROL Create Folder] | Clique em **[!UICONTROL Create Folder]** para criar pastas na biblioteca [!UICONTROL Offer] para conter ofertas de código, ofertas de imagem, bem como outras pastas para criar uma estrutura de subpastas.<P>Para obter mais informações, consulte [Criar pastas de ofertas](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
+| [!UICONTROL [!UICONTROL Create Offer]] | Clique em **[!UICONTROL Create Offer]** para criar uma oferta.<P>Para obter mais informações sobre como criar os vários tipos de oferta, consulte: <ul><li>Oferta HTML</li><li>[Oferta JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[Oferta de redirecionamento](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[Oferta remota](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
+| Caixas de seleção de operações em massa<P>![Ícone de Operações em Massa](/help/main/assets/icons/Rectangle.svg) | Clique nas caixas de seleção [!UICONTROL Bulk Operations] para executar operações em massa em todas as ofertas ou ofertas selecionadas.<P>Para obter uma lista de ações disponíveis (dependendo das suas permissões e do status da oferta), consulte [Executar ações rápidas](#quick-actions) abaixo. |
+| [!UICONTROL Name] | O nome de cada oferta.<P>Clique no ícone **[!UICONTROL Quick Info]** ( ![Ícone de Informações Rápidas](/help/main/assets/icons/InfoOutline.svg) ) ao lado de cada nome de oferta para exibir mais informações sobre ela em um cartão pop-up, incluindo a ID da oferta, o tipo, a data da última modificação da oferta, por quem e muito mais.<p>Clique no ícone **[!UICONTROL More Actions]** ( ![Ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) ao lado de cada nome de oferta para abrir um menu que permite executar ações rápidas em uma atividade. As seguintes ações estão disponíveis (dependendo das suas permissões e do status da oferta): [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete] e [!UICONTROL Move]. Para obter mais informações sobre cada ação, consulte [Executar ações rápidas](#quick-actions) abaixo.<P>Clique no cabeçalho da tabela para classificar a lista alfabeticamente em ordem crescente ou decrescente por nome. |
+| [!UICONTROL Type] | O tipo de oferta: [!UICONTROL HTML Offers], [[!UICONTROL Redirect Offers]](/help/main/c-experiences/c-manage-content/offer-redirect.md), [[!UICONTROL Remote Offers]](/help/main/c-experiences/c-manage-content/about-remote-offers.md) e [[!UICONTROL JSON Offers]](/help/main/c-experiences/c-manage-content/create-json-offer.md). |
+| [!UICONTROL Source] | Mostra onde a oferta foi criada: [!DNL Adobe Target], [!DNL Adobe Target Classic] e [!DNL Adobe Experience Manager]. |
+| [!UICONTROL Last updated] | Exibe a data e a hora em que a oferta foi modificada pela última vez e por quem.<P>Clique no cabeçalho da tabela para classificar a lista em ordem crescente ou decrescente por data. |
 
-1. (Opcional) Clique na lista suspensa **[!UICONTROL Source]** para filtrar ofertas por origem (Adobe Target, Adobe Target Classic e Adobe Experience Manager).
+## Aplicar filtros à biblioteca de ofertas {#filters}
 
-1. (Opcional) Execute tarefas adicionais passando o cursor do mouse sobre a oferta ou a pasta desejada na guia [!UICONTROL Code Offers] e clicando no ícone desejado.
+Clique no ícone **[!UICONTROL Show filters]** ( ![Ícone Mostrar Filtros na página Ofertas](/help/main/assets/icons/Filter.svg)) para filtrar ofertas por [!UICONTROL Type], [!UICONTROL Source] e [!UICONTROL AEM Type].
 
-   ![Opções de Ofertas de Código](assets/offer-picker-large.png)
+O ícone **[!UICONTROL Show filters]** permite filtrar ofertas pelas seguintes categorias:
 
-   As opções incluem:
+* **[!UICONTROL Type]**: [!UICONTROL HTML Offer], [[!UICONTROL Redirect Offer]](/help/main/c-experiences/c-manage-content/offer-redirect.md), [[!UICONTROL Remote Offer]](/help/main/c-experiences/c-manage-content/about-remote-offers.md) e [[!UICONTROL JSON Offer]](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
-   * Exibir (Para obter mais informações, consulte [Exibindo definições de oferta](#section_6B059DD121434E6292CAB393507D010E) abaixo.)
-   * Editar
-   * Copiar 
-   * Mover (por exemplo, para mover um ou mais itens para uma pasta, clique no ícone **[!UICONTROL Move]** do item desejado, clique na pasta desejada e, em seguida, clique em **[!UICONTROL Drop]**.)
-   * Excluir
+* **[!UICONTROL Source]**: [!DNL Adobe Target], [!DNL Adobe Target Classic] e [!DNL Adobe Experience Manager].
 
-   Dependendo das suas permissões, talvez você não veja ícones para todas as opções. Por exemplo, um usuário com permissões [!UICONTROL Observer] não tem direitos para usar a opção [!UICONTROL Copy].
+* **Tipo de AEM**: [Fragmentos de conteúdo](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) e [Fragmentos de experiência](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md). Para obter mais informações sobre os diferentes tipos de fragmentos, consulte [Visão geral dos Fragmentos de experiência e Fragmentos de conteúdo do AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
 
-   Para obter informações detalhadas sobre as tarefas que você pode executar em ofertas e pastas, consulte [Trabalhar com conteúdo na biblioteca de Ativos](/help/main/c-experiences/c-manage-content/assets-working.md).
+Os filtros são persistentes na sessão.
 
-1. (Opcional) Execute tarefas adicionais passando o cursor do mouse sobre a oferta de imagem ou a pasta desejada na guia [!UICONTROL Image Offers] e clicando no ícone desejado.
+## Executar ações rápidas {#quick-actions}
 
-   ![Opções de Ofertas de Imagem](/help/main/c-experiences/c-manage-content/assets/image-offers-icons.png)
+Você pode executar as seguintes ações rápidas clicando no ícone apropriado:
 
-   As opções incluem:
+### Informações rápidas
 
-   * Selecionar
-   * Baixar
-   * Propriedades da exibição
-   * Editar
-   * Anotar
-   * Copiar 
+Clique no ícone **[!UICONTROL Quick Info]** ( ![Ícone de Informações Rápidas](/help/main/assets/icons/InfoOutline.svg) ) ao lado de cada nome de oferta para exibir mais informações sobre ela em um cartão pop-up, incluindo a ID da oferta, o tipo, a data da última modificação da oferta, por quem e muito mais. As opções disponíveis dependem do tipo de oferta: [!UICONTROL HTML Offer], [[!UICONTROL JSON Offer]](/help/main/c-experiences/c-manage-content/create-json-offer.md), [[!UICONTROL Redirect Offer]](/help/main/c-experiences/c-manage-content/offer-redirect.md), [[!UICONTROL Remote Offer]](/help/main/c-experiences/c-manage-content/about-remote-offers.md).
 
-   Para obter informações detalhadas sobre as tarefas que você pode executar em ofertas e pastas, consulte [Trabalhar com conteúdo na biblioteca de Ativos](/help/main/c-experiences/c-manage-content/assets-working.md).
+### Mais ações
 
-   >[!NOTE]
-   >
-   >As ofertas de imagem não fazem parte do modelo [Permissões de Usuário Corporativo](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+As ações disponíveis para [!UICONTROL Code Offers] e para [!UICONTROL Image Offers] são ligeiramente diferentes. As seguintes seções contêm mais informações:
 
+#### [!UICONTROL Code Offer] opções
+
+Clique no ícone **[!UICONTROL More actions]** ( ![Ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) ao lado de cada nome de oferta para abrir um menu que permite executar ações rápidas em uma atividade.
+
+As seguintes ações estão disponíveis (dependendo das suas permissões e do status da oferta):
+
+* [!UICONTROL Edit]
+* [!UICONTROL Copy]
+* [!UICONTROL Delete]
+* [!UICONTROL Move] (Por exemplo, para mover um ou mais itens para uma pasta, clique em **[!UICONTROL Move]** próximo ao item desejado, clique na pasta desejada e em **[!UICONTROL Move]**.)
+
+Dependendo das suas permissões, talvez você não veja ícones para todas as opções. Por exemplo, um usuário com permissões [!UICONTROL Observer] não tem direitos para usar a opção [!UICONTROL Copy].
+
+Para obter informações detalhadas sobre as tarefas que você pode executar em ofertas e pastas, consulte [Trabalhar com conteúdo na biblioteca de Ativos](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+#### [!UICONTROL Image Offer] opções
+
+Execute tarefas adicionais passando o cursor do mouse sobre a oferta de imagem ou pasta desejada na guia [!UICONTROL Image Offers] e clicando no ícone desejado.
+
+As opções incluem:
+
+* [!UICONTROL Select]
+* [!UICONTROL Download]
+* [!UICONTROL View Properties]
+* [!UICONTROL More Actions]
+* [!UICONTROL Edit]
+* [!UICONTROL Annotate]
+* [!UICONTROL Copy]
+
+Para obter informações detalhadas sobre as tarefas que você pode executar em ofertas e pastas, consulte [Trabalhar com conteúdo na biblioteca de Ativos](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+>[!NOTE]
+>
+>As ofertas de imagem não fazem parte do modelo [Permissões de Usuário Corporativo](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
 ## Exibição de definições de oferta {#section_6B059DD121434E6292CAB393507D010E}
 
-Você pode exibir os detalhes da definição de oferta em um cartão pop-up na biblioteca [!UICONTROL Offers] sem abrir a oferta.
-
-Por exemplo, o seguinte cartão de definição de oferta para uma oferta HTML é acessado clicando no ícone de informações:
-
-![imagem offer-card-html](assets/offer-card-html-new.png)
+Para exibir os detalhes da definição de oferta em um cartão pop-up na biblioteca [!UICONTROL Offers] sem abrir a oferta, clique no ( ![ícone Informações Rápidas](/help/main/assets/icons/InfoOutline.svg) ).
 
 As informações a seguir estão disponíveis:
 
-* Nome
-* ID da oferta
-* Tipo
-* Última modificação
+* [!UICONTROL Name]
+* [!UICONTROL Offer ID]
+* [!UICONTROL Type]
+* [!UICONTROL Last Modified]
 
-Clique no link [!UICONTROL View Full Details] para exibir o conteúdo da oferta e as atividades que fazem referência a uma oferta de código. Dessa forma, é possível evitar um impacto nas outras atividades ao editar as ofertas. As informações incluem [!UICONTROL Live Activities] e [!UICONTROL Inactive Activities].
-
-As informações disponíveis em cada cartão variam de acordo com o tipo de oferta: HTML, [Fragmentos de experiência](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Oferta de redirecionamento](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Oferta remota](/help/main/c-experiences/c-manage-content/about-remote-offers.md) ou [Ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
-
-A funcionalidade de detalhes da oferta não se aplica a ofertas de imagem.
-
-<!--
-
-## Training video: The Content Repository ![Overview badge](/help/main/assets/overview.png)
-
-This video includes information about managing offers.
-
-* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
-* Custom HTML Offers 
-* Custom HTML Offer in the [!UICONTROL Visual Experience Composer]
-
->[!VIDEO](https://video.tv.adobe.com/v/17387)
-
--->
+Clique no link [!UICONTROL View Full Details] para exibir os atributos e as atividades da oferta que fazem referência a uma oferta de código no cartão pop-up de definição de cada oferta. Esta funcionalidade não se aplica às ofertas de imagem. Dessa forma, é possível evitar um impacto nas outras atividades ao editar as ofertas. As informações incluem detalhes de [!UICONTROL Live Activities] e [!UICONTROL Inactive Activities].
