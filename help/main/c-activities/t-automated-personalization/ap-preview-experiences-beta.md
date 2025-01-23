@@ -6,10 +6,11 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: true
 hidefromtoc: true
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+exl-id: 35f9d20e-923e-4305-9e42-8197b68e8ccf
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 8%
+source-wordcount: '191'
+ht-degree: 10%
 
 ---
 
@@ -29,6 +30,6 @@ Como as atividades de [!DNL Adobe Target] [!UICONTROL Automated Personalization]
 
    É possível excluir uma experiência que mostra variações conflitantes ou que não esteja esteticamente equilibrada.
 
-1. (Condicional) Para excluir várias experiências, marque as caixas de seleção das experiências desejadas e clique no ícone **[!UICONTROL More Actions]** ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) ao lado das experiências que deseja excluir e clique em **[!UICONTROL Exclude]**.
+1. (Condicional) Para excluir várias experiências, marque as caixas de seleção das experiências desejadas e clique em **[!UICONTROL Exclude]**.
 
-1. (Condicional) Para incluir várias experiências que foram excluídas, marque as caixas de seleção das experiências desejadas e clique no ícone **[!UICONTROL More Actions]** ( ![Ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) ao lado das experiências que deseja incluir, depois clique em **[!UICONTROL Include]**.
+1. (Condicional) Para incluir várias experiências que foram excluídas, marque as caixas de seleção das experiências desejadas e clique em **[!UICONTROL Include]**.
