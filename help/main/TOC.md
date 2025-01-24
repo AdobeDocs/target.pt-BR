@@ -3,10 +3,10 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 80%
+source-wordcount: '1436'
+ht-degree: 79%
 
 ---
 
@@ -166,7 +166,9 @@ ht-degree: 80%
       + [Gerenciar exclusões](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Gerenciar exclusões beta](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Oferecer Grupos de relatório na Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
+      + [Oferecer grupos de relatório no Automated Personalization-beta](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
       + [Selecione o controle da atividade de Automated Personalization ou Direcionamento automático](c-activities/t-automated-personalization/experience-as-control.md)
+      + [Selecione o controle da atividade beta de Automated Personalization ou Direcionamento automático](c-activities/t-automated-personalization/experience-as-control-beta.md)
       + [Perguntas frequentes sobre Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Solução de problemas de Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
    + Direcionamento de experiência {#experience-targeting}
