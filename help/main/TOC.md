@@ -3,10 +3,10 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '1436'
-ht-degree: 79%
+source-wordcount: '1449'
+ht-degree: 78%
 
 ---
 
@@ -175,9 +175,13 @@ ht-degree: 79%
       + [Visão geral de direcionamento da experiência](c-activities/t-experience-target/experience-target.md)
       + Criar uma atividade de direcionamento de experiência {#create-targeting}
          + [Crie uma atividade](c-activities/t-experience-target/t-xt-create/xt-create.md)
+         + [Criar uma atividade beta](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
          + [URL da atividade](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
+         + [URL-beta da atividade](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
          + [Crie uma experiência](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
+         + [Criar uma experiência beta](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
          + [Troca de experiências no Direcionamento de experiência](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
+         + [Troca de experiências no Direcionamento de experiência beta](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
          + [Metas e Configurações](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [Definir métricas](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + Teste multivariado {#multivariate-test}
