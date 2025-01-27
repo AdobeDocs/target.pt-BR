@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 0c57e47f026e7eb597b92a12fb984596beb4486d
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 49%
+source-wordcount: '119'
+ht-degree: 45%
 
 ---
 
@@ -21,5 +21,6 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 |--- |--- |--- |
+| 27 de Janeiro | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de notas de pré-lançamento para as seguintes atualizações: <ul><li>Atualização da interface do usuário do [!UICONTROL Activities] (6 de fevereiro de 2025)</li><li>Atualização da interface do usuário do [!DNL Recommendations] (7 de fevereiro de 2025)</li></ul> |
 | 22 de Janeiro | [Extensão Auxiliar de edição visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | O novo [!UICONTROL Visual Editing Helper Extension] agora dá suporte a [!DNL Private Chrome Web Stores]. Uma observação foi removida indicando que os clientes que usam o [!DNL Private Chrome Web Stores] continuam usando o [!UICONTROL Visual Experience Composer helper extension] herdado. |
 | 7 de janeiro | [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md) | Adição das notas de versão para a atualização da interface do usuário do [!UICONTROL Offers Library] (agendada para 9 de janeiro de 2025). Todos os artigos de Ofertas foram atualizados para refletir as alterações na interface. |
