@@ -4,7 +4,7 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0c57e47f026e7eb597b92a12fb984596beb4486d
+source-git-commit: e61bc64f70c0624f8f9e241d5f5b82c4c9d6735d
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 14%
@@ -43,13 +43,13 @@ Com base no sistema de design [!DNL Adobe Spectrum] mais recente, a atualizaçã
 
 ![Atividades atualizadas](/help/main/r-release-notes/assets/activities-refresh.png)
 
-## Atualização da interface do usuário do [!DNL Recommendations] (7 de fevereiro de 2025)
+## Atualização da interface do usuário do [!DNL Recommendations] (6 de fevereiro de 2025)
 
 Conforme o esforço de modernização da interface do usuário do [!DNL Adobe Target] continua, temos o prazer de anunciar a disponibilidade geral da interface do usuário do [!DNL Recommendations] atualizada.
 
 >[!NOTE]
 >
->A partir de quinta-feira, 7 de fevereiro, os clientes terão acesso gradual à nova interface do usuário do [!UICONTROL Recommendations]. Para garantir uma implantação perfeita para todos os clientes, esta versão será implantada em estágios controlados. O primeiro estágio atualizará o grupo inicial de clientes [!DNL Target] para a nova interface do usuário [!UICONTROL Activities]. Os estágios subsequentes atualizarão os clientes restantes.
+>A partir de quarta-feira, 6 de fevereiro, os clientes terão gradualmente acesso à nova interface do usuário do [!UICONTROL Recommendations]. Para garantir uma implantação perfeita para todos os clientes, esta versão será implantada em estágios controlados. O primeiro estágio atualizará o grupo inicial de clientes [!DNL Target] para a nova interface do usuário [!UICONTROL Activities]. Os estágios subsequentes atualizarão os clientes restantes.
 
 Com base no sistema de design [!DNL Adobe Spectrum] mais recente, a atualização padroniza padrões de design anteriormente inconsistentes, além de adicionar novas melhorias, como:
 
