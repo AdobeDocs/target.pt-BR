@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: d33fa5b84ccffc20d8db638aafcc0601c060dbcb
+exl-id: d97db163-62ef-4c6b-b0f7-e7e481073cc7
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '979'
 ht-degree: 19%
 
 ---
@@ -45,13 +46,11 @@ Você pode criar um design com base em um design padrão ou criar um design pers
 1. Clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** para exibir a biblioteca [!UICONTROL Designs].
 
 
-1. Passe o mouse sobre o cartão do design que deseja criar e clique no ícone **[!UICONTROL Copy]**.
-
-   ![Imagem Card_CopyDesign](/help/main/c-recommendations/c-design-overview/assets/card-copy-design.png)
+1. Clique no ícone Mais Ações ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) do design que você deseja criar e clique em **[!UICONTROL Copy]**.
 
    A caixa de diálogo [!UICONTROL Create Design] é exibida.
 
-1. No painel **[!UICONTROL Information]**, adicione uma **[!UICONTROL Content Name]** e uma imagem de visualização opcional para exibir no cartão de design.
+1. Digite um **[!UICONTROL  Name]** e uma imagem de visualização opcional para exibir no cartão de design.
 
    Quando você usa um design padrão, o nome do design e &quot;Cópia&quot; aparecem no campo **[!UICONTROL Content Name]**. Você pode editar o nome. Você também pode selecionar uma imagem para exibir no cartão de design.
 
@@ -65,7 +64,7 @@ Você pode criar um design com base em um design padrão ou criar um design pers
    >
    >A quantidade máxima de entidades que podem ser referenciadas em um design, seja em código rígido ou em loops, é de 99.
 
-1. Clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Create]**.
 
 ### Criar um design personalizado
 
@@ -73,21 +72,21 @@ Você pode criar um design com base em um design padrão ou criar um design pers
 
 1. Clique em **[!UICONTROL Create Design]**.
 
-   Para basear seu novo design personalizado em um design existente, passe com o mouse sobre o design desejado e clique no ícone [!UICONTROL Copy]. Em seguida, você pode editar a cópia para criar um novo design personalizado.
+   Para basear seu novo design personalizado em um design existente, clique no ícone [!UICONTROL More Actions] ( ![ícone de Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) do design que deseja criar e clique em [!UICONTROL Copy]. Em seguida, você pode editar a cópia para criar um novo design personalizado.
 
-1. Adicione um **[!UICONTROL Content Name]** e uma imagem de visualização opcional.
+1. Adicione um **[!UICONTROL Name]** e uma imagem de visualização opcional.
 
 1. (Condicional) Edite o design **[!UICONTROL Code]** conforme desejado.
 
    Consulte as informações na Etapa 4 acima para obter mais informações.
 
-1. Clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Create]**.
 
 ## Editar, copiar ou excluir um design
 
 Lembre-se de que não é possível editar ou copiar um design padrão; você só pode copiar designs padrão.
 
-Passe o mouse sobre o design desejado na biblioteca [!UICONTROL Design] e clique no ícone apropriado: editar, copiar ou excluir.
+Clique no ícone [!UICONTROL More Actions] ( ![Ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) do design que você deseja editar ou excluir e clique no ícone apropriado: [!UICONTROL Edit], [!UICONTROL Copy] ou [!UICONTROL Delete].
 
 É possível copiar um design existente para criar um design duplicado que você pode modificar. Esse processo permite criar um design semelhante com menos esforço.
 

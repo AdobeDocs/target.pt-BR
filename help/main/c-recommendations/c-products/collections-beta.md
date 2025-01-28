@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
+exl-id: da477e5c-1ce7-4042-b56d-8ae1b50ceb88
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '693'
 ht-degree: 26%
 
 ---
@@ -41,15 +42,11 @@ Crie uma coleção para organizar os produtos ou conteúdo que deseja mostrar em
 
 1. Clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** para exibir a lista de coleções existentes.
 
-   ![Lista de coleções](assets/collections-list.png)
-
-   A página [!UICONTROL Collections] exibe uma lista de suas coleções existentes. Crie novas coleções clicando no botão [!UICONTROL Create Collection]. Também é possível editar, copiar e excluir coleções existentes clicando no ícone de reticências ao lado da coleção desejada e clicando na opção desejada.
+   A página [!UICONTROL Collections] exibe uma lista de suas coleções existentes. Crie novas coleções clicando no botão [!UICONTROL Create Collection]. Também é possível editar, copiar e excluir coleções existentes clicando no ícone Mais Ações ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) ao lado da coleção desejada e clicando na opção desejada.
 
    O &quot;Número de Itens&quot; relatado para cada coleção na exibição de lista [!UICONTROL Collections] é o número de produtos que correspondem às regras da coleção no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para alterar o grupo de hosts padrão.
 
 1. Clique em **[!UICONTROL Create Collection]**.
-
-   ![Criar coleção](/help/main/c-recommendations/c-products/assets/create-collection.png)
 
 1. Digite um **[!UICONTROL Name]** para a coleção.
 
@@ -79,9 +76,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## Editar, copiar ou excluir uma coleção
 
-Clique no ícone de **reticências** ao lado da coleção desejada na lista e clique no ícone apropriado: editar, copiar ou excluir.
-
-![Ícones de flutuação: editar, copiar e excluir](/help/main/c-recommendations/c-products/assets/hover-icons-new.png)
+Clique no ( ![ícone de Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) ao lado da coleção desejada na lista e clique no ícone apropriado: [!UICONTROL Edit], [!UICONTROL Copy] ou [!DNL Delete].
 
 Você pode copiar uma coleção existente para criar uma coleção duplicada que poderá ser modificada. Isso permite criar uma coleção semelhante com menos esforço.
 
@@ -95,8 +90,4 @@ Esteja ciente de que as coleções estão disponíveis em toda a conta. Consider
 
 1. Após selecionar um critério e um design, a página [!UICONTROL Options] é exibida, onde você seleciona a coleção desejada.
 
-   ![Escolher opção de coleção](/help/main/c-recommendations/c-products/assets/choose-collection.png)
-
-1. (Condicional) Para alterar uma configuração de coleção existente, na página **[!UICONTROL Experiences]** (etapa 2 do fluxo de trabalho guiado de três etapas), clique em um local onde você inseriu as recomendações, clique em **[!UICONTROL Change Collection]** e selecione a coleção desejada.
-
-   ![Alterar opção de Coleção](/help/main/c-recommendations/c-products/assets/change-collection.png)
+1. (Condicional) Para alterar uma configuração de coleção existente, na página **[!UICONTROL Experiences]** (etapa 1 do fluxo de trabalho guiado de três etapas), clique em um local onde você inseriu as recomendações, clique em **[!UICONTROL Change Collection]** e selecione a coleção desejada.

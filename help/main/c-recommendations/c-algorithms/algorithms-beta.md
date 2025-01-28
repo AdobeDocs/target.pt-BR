@@ -6,10 +6,11 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 9c6ff35269a81aa0c2ea331985c6f5ddd5c8ccb3
+exl-id: 7809984d-259d-4b99-93cd-3073e2fcf8bb
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 6%
+source-wordcount: '496'
+ht-degree: 5%
 
 ---
 
@@ -27,15 +28,13 @@ Ao criar um critério, você seleciona um negócio vertical com base nas metas d
 |--- |--- |
 | [!UICONTROL Retail/Ecommerce] | Conversão resultando em compra |
 | [!UICONTROL Lead Generation/B2B/Financial Services] | Conversão sem compra |
-| [!UICONTROL Media/Publishing] | Envolvimento |
+| [!UICONTROL Media/Publishing] | Engajamento |
 
 Outras opções de critério mudam de acordo com o negócio vertical que você selecionar. Você pode definir seu negócio vertical padrão na página **[!UICONTROL Administration]>[!UICONTROL Recommendations]** ou pode especificar o setor vertical para cada critério.
 
 ## Tipo de algoritmo {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 O tipo de algoritmo selecionado determina os algoritmos disponíveis.
-
-![Página de critérios](assets/criteria-page-new.png)
 
 A tabela a seguir explica os vários tipos de algoritmos e os algoritmos que os acompanham.
 
@@ -75,11 +74,9 @@ Por exemplo, suponha que você deseja exibir filmes recomendados com base no fil
 
 Você pode exibir os detalhes dos critérios clicando nos critérios desejados na coluna [!UICONTROL Name].
 
-![Passar o mouse sobre o cartão de critérios](/help/main/c-recommendations/c-algorithms/assets/criteria-hover.png)
+As seções **[!UICONTROL Attributes]** e Detalhes permitem exibir informações gerais sobre os critérios selecionados, incluindo suas informações [!UICONTROL Name], [!UICONTROL Description], [!UICONTROL Industry Vertical], [!UICONTROL Page Types], [!UICONTROL Recommendation Key], [!UICONTROL Recommendation Logic], [!UICONTROL Algorithm ID] e as informações da Última Modificação (data e quem modificou o algoritmo).
 
-A guia **[!UICONTROL Algorithm Info]** permite exibir informações gerais sobre os critérios selecionados, incluindo [!UICONTROL Name], [!UICONTROL Description], [!UICONTROL Industry Vertical], [!UICONTROL Page Types], [!UICONTROL Recommendation Key], [!UICONTROL Recommendation Logic], [!UICONTROL Algorithm ID] e informações da Última Modificação (data e quem modificou o algoritmo).
-
-A seção **[!UICONTROL Algorithm Usage]** permite exibir uma lista de atividades que fazem referência aos critérios selecionados.
+A seção **[!UICONTROL Usage]** permite exibir uma lista de atividades que fazem referência aos critérios selecionados.
 
 >[!NOTE]
 >

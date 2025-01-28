@@ -5,10 +5,11 @@ title: Como faço para usar exclusões em atividades [!UICONTROL Recommendations
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
+exl-id: fb3c63b4-08be-4dac-b5a1-c6c1ecd4c4b3
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 18%
+source-wordcount: '503'
+ht-degree: 14%
 
 ---
 
@@ -36,23 +37,17 @@ Alguns exemplos de vezes que você usaria exclusões incluem:
 
 1. Clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** para exibir a lista de exclusões existentes.
 
-   ![imagem da lista de exclusões](assets/exclusions-list.png)
-
    O &quot;Número de Itens&quot; relatado para cada exclusão na exibição de lista [!UICONTROL Exclusions] é o número de produtos que correspondem às regras da exclusão no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Planejar e implementar [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} no *Guia do Desenvolvedor do Adobe Target* para obter informações sobre como alterar o grupo de hosts padrão.
 
-1. (Condicional) Clique no ícone [!UICONTROL Filter] e escolha o [ambiente](/help/main/administrating-target/environments.md) desejado na lista suspensa **[!UICONTROL Environment]** ao criar (ou atualizar) uma exclusão para visualizar o conteúdo da exclusão nesse ambiente. Por padrão, os resultados do grupo de hosts padrão são exibidos.
-
-   ![Criar exclusão](/help/main/c-recommendations/c-products/assets/choose-environment.png)
+1. (Condicional) Clique no ícone **[!UICONTROL Show Filters]** ( ![Ícone Mostrar filtros](/help/main/assets/icons/Filter.svg) ) e escolha o [ambiente](/help/main/administrating-target/environments.md) desejado na lista suspensa **[!UICONTROL Environment]** ao criar (ou atualizar) uma exclusão para visualizar o conteúdo da exclusão nesse ambiente. Por padrão, os resultados do grupo de hosts padrão são exibidos.
 
 1. Clique em **[!UICONTROL Create Exclusion]**.
-
-   ![Criar caixa de diálogo de exclusão](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
 
 1. Digite uma exclusão **[!UICONTROL Name]** e insira uma descrição opcional.
 
 1. Use o criador de regras para criar suas exclusões.
 
-   Selecione um parâmetro na lista Regras, selecione um operador e, em seguida, insira um ou mais valores para identificar os produtos. Separe vários valores com vírgulas.
+   Selecione um parâmetro na lista [!UICONTROL Rules], selecione um operador e insira um ou mais valores para identificar os produtos. Separe vários valores com vírgulas.
 
 1. Clique em **[!UICONTROL Create]**.
 
@@ -70,9 +65,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## Editar, copiar ou excluir uma exclusão
 
-Clique no ícone de **reticências** ao lado da exclusão desejada na lista e clique no ícone apropriado: editar, copiar ou excluir.
-
-![Opções: editar, copiar e excluir](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
+Clique no ícone Mais Ações ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) ao lado da exclusão desejada na lista e clique no ícone apropriado: [!UICONTROL Edit], [!UICONTROL Copy] ou [!UICONTROL Delete].
 
 Você pode copiar uma exclusão existente para criar uma exclusão duplicada que poderá ser modificada. Essa opção permite criar uma exclusão semelhante com menos esforço.
 

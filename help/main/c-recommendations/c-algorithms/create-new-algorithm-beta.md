@@ -6,7 +6,8 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: c8b0e0414603761b1c67b13d74ffa96d745c99e3
+exl-id: 7937e54a-7c10-445d-9d9a-9ddbdaa8086e
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 47%
@@ -55,7 +56,7 @@ As etapas a seguir consideram que você acesse a tela [!UICONTROL Create New Cri
    |--- |--- |
    | [!UICONTROL Retail/Ecommerce] | Conversão resultando em compra |
    | [!UICONTROL Lead Generation/B2B/Financial Services] | Conversão sem compra |
-   | [!UICONTROL Media/Publishing] | Envolvimento |
+   | [!UICONTROL Media/Publishing] | Engajamento |
 
    Outras opções de critério mudam de acordo com o negócio vertical que você selecionar.
 
@@ -88,6 +89,43 @@ As etapas a seguir consideram que você acesse a tela [!UICONTROL Create New Cri
 As opções de configuração de algoritmo restantes variam dependendo do algoritmo selecionado. Para concluir a configuração do algoritmo, selecione um [!UICONTROL Recommendation Key], [!UICONTROL Filtering Key], [!UICONTROL Co-Occurrence Basis], [!UICONTROL Analytics Metric], e/ou [!UICONTROL Item Attribute] e [!UICONTROL Profile Attribute to Match].
 
 Para obter mais informações sobre como escolher um [!UICONTROL Recommendation Key], consulte [Basear a recomendação em uma chave de recomendação](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+
+## [!UICONTROL Backup Content] {#content}
+
+[!UICONTROL Backup Content] regras determinam o que acontecerá se o número de itens recomendados não preencher seu [design de recomendações](/help/main/c-recommendations/c-design-overview/design-overview.md). É possível que os critérios [!DNL Recommendations] retornem menos recomendações do que suas chamadas de design. Como exemplo, se seu design tiver slots para quatro itens, mas seus critérios fizerem com que apenas dois itens sejam recomendados, você pode deixar os slots restantes vazios, pode usar recomendações de backup para preencher os slots extras ou pode optar por não exibir recomendações.
+
+1. (Opcional) Deslize o botão **[!UICONTROL Partial Design Rendering]** para a posição &quot;ligado&quot;.
+
+   O máximo possível de slots será preenchido, mas o modelo de design pode incluir espaço em branco para os slots restantes. Se essa opção estiver desativada e não houver conteúdo suficiente para preencher todos os slots disponíveis, as recomendações não serão fornecidas e o conteúdo padrão será exibido.
+
+   Ative essa opção se desejar que as recomendações sejam atendidas com slots em branco. Use recomendações de backup se quiser que os slots de recomendação sejam preenchidos com conteúdo com base em seus critérios, com slots vazios preenchidos com conteúdo semelhante ou popular do site, conforme explicado na próxima etapa.
+
+1. (Opcional) Deslize o botão **[!UICONTROL Show Backup Content]** para a posição &quot;ligado&quot;.
+
+   Preencha todos os espaços vazios restantes no design com uma seleção aleatória dos produtos mais visualizados em todo o site.
+
+   O uso de recomendações de backup garante que seu design de recomendação preencha todos os slots disponíveis. Suponha que você tenha um design 4 x 1, conforme ilustrado abaixo:
+
+   ![4 x 1 design](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
+
+   Suponha que seus critérios façam com que apenas dois itens sejam recomendados. Se você habilitar a opção [!UICONTROL Partial Design Rendering], os dois primeiros slots serão preenchidos, mas os dois slots restantes permanecerão vazios. No entanto, se você habilitar a opção [!UICONTROL Show Backup Recommendations], os dois primeiros slots serão preenchidos com base nos critérios especificados e os dois slots restantes serão preenchidos com base nas recomendações de backup.
+
+   A matriz a seguir mostra o resultado que você observará ao usar as opções [!UICONTROL Partial Design Rendering] e [!UICONTROL Backup Content]:
+
+   | Renderização parcial de design | Conteúdo de backup | Resultado |
+   |--- |--- |--- |
+   | Desativado | Desativado | Se forem retornadas menos recomendações do que o design solicita, o design das recomendações será substituído pelo conteúdo padrão, e nenhuma recomendação será exibida. |
+   | Ativado | Desativado | O design é renderizado, mas pode incluir um espaço em branco se forem retornadas menos recomendações do que o design solicita. |
+   | Ativado | Ativado | As recomendações de backup preencherão os &quot;slots&quot; de design disponíveis, renderizando totalmente o design.<br>Se a aplicação de regras de inclusão às recomendações de backup limitar o número de recomendações de backup qualificadas ao ponto de não ser possível preencher o design, o design será parcialmente renderizado.<br>Se os critérios não retornarem nenhuma recomendação e as regras de inclusão limitarem as recomendações de backup a zero, o design será substituído pelo conteúdo padrão. |
+   | Desativado | Ativado | As recomendações de backup preencherão os &quot;slots&quot; de design disponíveis, renderizando totalmente o design.<br>Se a aplicação de regras de inclusão às recomendações de backup limitar o número de recomendações de backup qualificadas ao ponto de não ser possível preencher o design, o design será substituído pelo conteúdo padrão, e nenhuma recomendação será exibida. |
+
+   Para obter mais informações, consulte [Usar uma recomendação de backup](/help/main/c-recommendations/c-algorithms/backup-recs.md).
+
+1. (Condicional) Se você selecionou **[!UICONTROL Show Backup Content]** na etapa anterior, é possível habilitar **[!UICONTROL Apply inclusion rules to backup recommendations]**.
+
+   As regras de inclusão determinam quais itens são incluídos em suas recomendações. As opções disponíveis dependem do seu negócio vertical.
+
+   Para obter mais detalhes, consulte [Especificar regras de inclusão](#inclusion) abaixo.
 
 ## [!UICONTROL Data Source] {#data-source}
 
@@ -128,43 +166,6 @@ Para obter mais informações sobre como escolher um [!UICONTROL Recommendation 
    | Duas semanas | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Popularity-Based] algoritmos</li><li>[!UICONTROL Item-Based] algoritmos</li><li>Todos os algoritmos [!UICONTROL User-Based]</li><li>[!UICONTROL Cart-Based] algoritmos</li></ul> |
    | Um mês (30 dias) | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Popularity-Based] algoritmos</li><li>[!UICONTROL Item-Based] algoritmos</li><li>[!UICONTROL User-Based] algoritmos</li><li>[!UICONTROL Cart-Based] algoritmos</li></ul> |
    | Dois meses (61 dias) | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Popularity-Based] algoritmos</li><li>[!UICONTROL Item-Based] algoritmos</li><li>[!UICONTROL User-Based] algoritmos</li><li>[!UICONTROL Cart-Based] algoritmos</li></ul> |
-
-## [!UICONTROL Backup Content] {#content}
-
-[!UICONTROL Backup Content] regras determinam o que acontecerá se o número de itens recomendados não preencher seu [design de recomendações](/help/main/c-recommendations/c-design-overview/design-overview.md). É possível que os critérios [!DNL Recommendations] retornem menos recomendações do que suas chamadas de design. Como exemplo, se seu design tiver slots para quatro itens, mas seus critérios fizerem com que apenas dois itens sejam recomendados, você pode deixar os slots restantes vazios, pode usar recomendações de backup para preencher os slots extras ou pode optar por não exibir recomendações.
-
-1. (Opcional) Deslize o botão **[!UICONTROL Partial Design Rendering]** para a posição &quot;ligado&quot;.
-
-   O máximo possível de slots será preenchido, mas o modelo de design pode incluir espaço em branco para os slots restantes. Se essa opção estiver desativada e não houver conteúdo suficiente para preencher todos os slots disponíveis, as recomendações não serão fornecidas e o conteúdo padrão será exibido.
-
-   Ative essa opção se desejar que as recomendações sejam atendidas com slots em branco. Use recomendações de backup se quiser que os slots de recomendação sejam preenchidos com conteúdo com base em seus critérios, com slots vazios preenchidos com conteúdo semelhante ou popular do site, conforme explicado na próxima etapa.
-
-1. (Opcional) Deslize o botão **[!UICONTROL Show Backup Content]** para a posição &quot;ligado&quot;.
-
-   Preencha todos os espaços vazios restantes no design com uma seleção aleatória dos produtos mais visualizados em todo o site.
-
-   O uso de recomendações de backup garante que seu design de recomendação preencha todos os slots disponíveis. Suponha que você tenha um design 4 x 1, conforme ilustrado abaixo:
-
-   ![4 x 1 design](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
-
-   Suponha que seus critérios façam com que apenas dois itens sejam recomendados. Se você habilitar a opção [!UICONTROL Partial Design Rendering], os dois primeiros slots serão preenchidos, mas os dois slots restantes permanecerão vazios. No entanto, se você habilitar a opção [!UICONTROL Show Backup Recommendations], os dois primeiros slots serão preenchidos com base nos critérios especificados e os dois slots restantes serão preenchidos com base nas recomendações de backup.
-
-   A matriz a seguir mostra o resultado que você observará ao usar as opções [!UICONTROL Partial Design Rendering] e [!UICONTROL Backup Content]:
-
-   | Renderização parcial de design | Conteúdo de backup | Resultado |
-   |--- |--- |--- |
-   | Desativado | Desativado | Se forem retornadas menos recomendações do que o design solicita, o design das recomendações será substituído pelo conteúdo padrão, e nenhuma recomendação será exibida. |
-   | Ativado | Desativado | O design é renderizado, mas pode incluir um espaço em branco se forem retornadas menos recomendações do que o design solicita. |
-   | Ativado | Ativado | As recomendações de backup preencherão os &quot;slots&quot; de design disponíveis, renderizando totalmente o design.<br>Se a aplicação de regras de inclusão às recomendações de backup limitar o número de recomendações de backup qualificadas ao ponto de não ser possível preencher o design, o design será parcialmente renderizado.<br>Se os critérios não retornarem nenhuma recomendação e as regras de inclusão limitarem as recomendações de backup a zero, o design será substituído pelo conteúdo padrão. |
-   | Desativado | Ativado | As recomendações de backup preencherão os &quot;slots&quot; de design disponíveis, renderizando totalmente o design.<br>Se a aplicação de regras de inclusão às recomendações de backup limitar o número de recomendações de backup qualificadas ao ponto de não ser possível preencher o design, o design será substituído pelo conteúdo padrão, e nenhuma recomendação será exibida. |
-
-   Para obter mais informações, consulte [Usar uma recomendação de backup](/help/main/c-recommendations/c-algorithms/backup-recs.md).
-
-1. (Condicional) Se você selecionou **[!UICONTROL Show Backup Content]** na etapa anterior, é possível habilitar **[!UICONTROL Apply inclusion rules to backup recommendations]**.
-
-   As regras de inclusão determinam quais itens são incluídos em suas recomendações. As opções disponíveis dependem do seu negócio vertical.
-
-   Para obter mais detalhes, consulte [Especificar regras de inclusão](#inclusion) abaixo.
 
 ## Similaridade de conteúdo {#similarity}
 

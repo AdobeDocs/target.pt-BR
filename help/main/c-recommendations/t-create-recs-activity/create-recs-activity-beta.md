@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 77fc3215f20b0d5f6407fc07889748b5734ca9ea
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1176'
 ht-degree: 52%
 
 ---
@@ -21,19 +21,15 @@ Use o [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma
 
 1. Selecione **[!UICONTROL Visual]**, se necessário.
 
-   ![Caixa de diálogo Criar atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
-
-   Se preferir usar o Experience Composer baseado em formulário, selecione [!UICONTROL Form]. Consulte [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md) para obter mais informações.
+   Se preferir usar o [!UICONTROL Form-Based Experience Composer], selecione [!UICONTROL Form]. Consulte [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md) para obter mais informações.
 
    >[!NOTE]
    >
    >Além do VEC e do [!UICONTROL Form-Based Experience Composer], o [!DNL Target] oferece o VEC [!UICONTROL Single Page Application]. Para obter mais informações sobre os vários composers, consulte [Experiências e ofertas](/help/main/c-experiences/experiences.md).
    >
    >Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
-   >
-   >A opção [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) na ilustração anterior é um recurso do [Target Premium](/help/main/c-intro/intro.md). Caso não veja essa opção, a licença da organização é [!UICONTROL Target Standard].
 
-1. (Condicional) Se você for um [cliente do Target Premium](/help/main/c-intro/intro.md#premium), escolha um [espaço de trabalho](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Condicional) Escolha um [espaço de trabalho](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Especifique uma URL de atividade e clique em **[!UICONTROL Create]**.
 

@@ -7,9 +7,9 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 53adc701-c389-4adf-a9c8-ca778aa0a8f3
-source-git-commit: 406076ba986171c29dfb7817a8ef0ef9bd52c458
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2417'
 ht-degree: 38%
 
 ---
@@ -37,8 +37,6 @@ As descrições de item podem ser passadas para [!DNL Target] usando feeds ou mb
 
 A lista [!UICONTROL Feeds] ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) fornece informações sobre os feeds criados.
 
-![Página de feeds](/help/main/c-recommendations/c-products/assets/feeds-page-new.png)
-
 A página [!UICONTROL Feeds] contém as seguintes colunas:
 
 * **Nome**: o nome do feed especificado durante a criação. Para editar o nome de um feed, edite o próprio feed. Quando você salva o feed com o novo nome, ele é atualizado.
@@ -48,11 +46,11 @@ A página [!UICONTROL Feeds] contém as seguintes colunas:
 * **Agenda**: exibe a agenda de atualização do feed: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks] ou [!UICONTROL Never].
 * **Última atualização**: exibe a data e a hora em que o feed foi atualizado pela última vez e o nome da pessoa que atualizou o feed.
 
-Clique no ícone [!UICONTROL Customize Table] ( ![Ícone Personalizar tabela](/help/main/c-recommendations/c-products/assets/customize-table-icon.png) ) para selecionar ou desmarcar as colunas que deseja exibir.
+Clique no ícone [!UICONTROL Customize Table] ( ![Ícone Personalizar tabela](/help/main/assets/icons/ColumnSetting.svg) ) para selecionar ou desmarcar as colunas que deseja exibir.
 
-Clique no ícone [!UICONTROL Information] para exibir um cartão com a data do último carregamento e a URL do feed.
+Clique no ícone [!UICONTROL Information] ( ![Ícone de informações](/help/main/assets/icons/InfoOutline.svg) ) para exibir um cartão com a data do último carregamento e a URL do feed.
 
-Clique no ícone de reticências para acessar as seguintes ações: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] e [!UICONTROL Delete].
+Clique no ícone [!UICONTROL More Actions] ( ![Ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) para acessar as seguintes ações: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] e [!UICONTROL Delete].
 
 >[!IMPORTANT]
 >
@@ -233,8 +231,6 @@ Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL 
 
 1. Na interface [!DNL Target], clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
 
-   ![Caixa de diálogo Criar feed](assets/CreateFeed.png)
-
 1. Especifique um nome descritivo para o feed.
 1. Selecione um **[!UICONTROL Source Type]**.
 
@@ -261,8 +257,6 @@ Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL 
 
 1. Clique na seta **[!UICONTROL Next]** para exibir as opções de [!UICONTROL Schedule].
 
-   ![Resultado da etapa](assets/CreateFeedSchedule.png)
-
 1. Selecione uma opção de atualização:
 
    * [!UICONTROL Daily]
@@ -275,8 +269,6 @@ Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL 
    Essa opção é baseada no fuso horário usado no seu navegador. Se desejar usar uma hora em um fuso horário diferente, deve calcular esse tempo de acordo com o seu fuso horário.
 
 1. Clique na seta **[!UICONTROL Next]** para exibir as opções de [!UICONTROL Mapping] e especifique como deseja mapear seus dados para as definições de [!DNL Target].
-
-   ![Resultado da etapa](assets/CreatFeedMapping.png)
 
 1. (Opcional) se você deseja que o feed pertença a um ambiente (grupo de hosts), selecione o grupo de hosts.
 

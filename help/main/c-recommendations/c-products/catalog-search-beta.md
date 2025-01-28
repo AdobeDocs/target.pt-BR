@@ -7,10 +7,10 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 6b0175b1-0eee-498d-8a08-513cf6695114
-source-git-commit: 16a7c11e8b9b1a08b1e467519f997d0b05e47529
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 21%
+source-wordcount: '508'
+ht-degree: 22%
 
 ---
 
@@ -22,9 +22,9 @@ Catálogos se referem a todo o conjunto de produtos (entidades). Seu catálogo p
 
 ## Acessar [!UICONTROL Catalog Search]
 
-Para acessar a página [!UICONTROL Catalog Search], clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+1. Para acessar a página [!UICONTROL Catalog Search], clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
-![Página de Pesquisa no Catálogo](/help/main/c-recommendations/c-products/assets/catalog-search-new.png)
+1. (Opcional) Para aplicar filtros à sua pesquisa, clique no ícone **[!UICONTROL Show Filters]** ( ![ícone Mostrar filtros](/help/main/assets/icons/Filter.svg) ). Você pode filtrar por [!UICONTROL Environment], [!UICONTROL Collections], [!UICONTROL Category], [!UICONTROL Brand], [!UICONTROL Inventory] e [!UICONTROL Value].
 
 ## Executar uma pesquisa simples
 
@@ -45,8 +45,6 @@ Para acessar a página [!UICONTROL Catalog Search], clique em **[!UICONTROL Reco
    > Quando você faz uma pesquisa no catálogo em um atributo personalizado com um valor numérico, os resultados tratam o atributo personalizado como um tipo de sequência em vez de um valor numérico.
    >
    >Não há nenhuma funcionalidade disponível no momento que permita alterar o tipo de um atributo. Para fazer uma alteração, [abra um problema do cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) referenciando os atributos que precisam de alteração do tipo de sequência para numérico.
-
-   Também é possível usar filtros para encontrar os produtos desejados. Por exemplo, ao clicar no ícone **[!UICONTROL Show Filters]** ( ![ícone Mostrar filtros](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ), expandir a faceta [!UICONTROL Collections] e selecionar uma ou mais coleções, todos os produtos pertencentes às coleções selecionadas no catálogo são exibidos.
 
 <!-- ### Perform an advanced search {#advanced-search}
 
@@ -110,7 +108,7 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 [Os ambientes](/help/main/administrating-target/environments.md) permitem organizar os sites e os ambientes de pré-produção para facilitar o gerenciamento e gerar relatórios separados.
 
-1. Clique no ícone Mostrar filtros ( ![ícone Mostrar filtros](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ).
+1. Clique no ícone Mostrar filtros ( ![ícone Mostrar filtros](/help/main/assets/icons/Filter.svg) ).
 
 1. Selecione o ambiente desejado na lista suspensa **[!UICONTROL Environment]**.
 
@@ -134,10 +132,10 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## Modificar colunas
 
-Você pode modificar temporariamente as colunas ativas na página [!UICONTROL Catalog Search].
+Você pode modificar as colunas ativas na página [!UICONTROL Catalog Search].
 
-1. Clique no ícone **[!UICONTROL Customize Table]** ( ![Ícone Personalizar tabela](/help/main/c-recommendations/c-products/assets/icon-customize-table.png) ).
+1. Clique no ícone **[!UICONTROL Customize Table]** ( ![Ícone Personalizar tabela](/help/main/assets/icons/ColumnSetting.svg) ).
 
 1. Marque ou desmarque as colunas desejadas que deseja exibir ou ocultar.
 
-Lembre-se de que as alterações feitas se aplicam somente à sessão atual.
+Todas as alterações feitas são persistentes nas sessões.

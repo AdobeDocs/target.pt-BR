@@ -4,9 +4,9 @@ description: Personalize o conteúdo e teste designs de página para públicos-a
 title: Como posso personalizar o conteúdo e testar designs de página com o  [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: '2218'
 ht-degree: 26%
 
 ---
@@ -25,15 +25,12 @@ A lista [!UICONTROL Activities] é o modo de exibição padrão quando você abr
 
 Você também pode exibir a lista [!UICONTROL Activities] clicando na guia [!UICONTROL Activities] na parte superior da interface do usuário do [!DNL Target].
 
-![Lista de atividades](/help/main/c-activities/assets/activities-list-new.png)
-
 A lista [!UICONTROL Activities] fornece uma visão geral de todas as atividades na implementação do [!DNL Target] e permite que você execute várias ações.
 
 A tabela a seguir ajuda você a entender vários elementos da lista [!UICONTROL Activities] na interface do usuário [!DNL Target]:
 
 | Elemento | Descrição |
 |--- |--- |
-| Painel de navegação esquerdo | Alterne entre suas atividades salvas ou ativas e as [atividades de rascunho](/help/main/c-activities/edit-activity.md) ou com falha. |
 | Ícone do [!UICONTROL Show filters]<P>![Ícone Mostrar Filtros](/help/main/assets/icons/Filter.svg) | Acesse filtros clicando no ícone **[!UICONTROL Show Filters]** próximo à parte superior da lista para filtrar as atividades por [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], [!UICONTROL Decisioning Source], [!UICONTROL Activity Source] e [!UICONTROL Properties].<P>Para obter mais informações, consulte [Aplicar filtros à [!UICONTROL Activities] lista](#filters) abaixo. |
 | Pesquisar campos | Localize rapidamente uma atividade ou reduza o número de atividades exibidas na lista [!UICONTROL Activity]. Você pode pesquisar por [!UICONTROL Activity Name], [!UICONTROL URL] ou [!UICONTROL ID] usando o menu suspenso. |
 | [!UICONTROL Create Activity] | Crie uma atividade.<P>Para obter mais informações sobre como criar os vários tipos de atividades, consulte: <ul><li>[Criar uma atividade [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[Criar uma atividade [!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[Criar uma atividade [!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[Criar uma atividade [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[Criar uma atividade [!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[Criar uma atividade](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[Criar uma atividade [!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)</li></ul>Para obter mais informações sobre cada tipo, consulte [Tipos de atividade](#types) abaixo. |

@@ -5,10 +5,10 @@ title: Como Definir As Configurações De Atividade Do Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
-source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 48%
+source-wordcount: '588'
+ht-degree: 45%
 
 ---
 
@@ -16,13 +16,11 @@ ht-degree: 48%
 
 Informações sobre as configurações que você pode usar para descrever e controlar uma atividade do [!UICONTROL Recommendations] no [!DNL Adobe Target].
 
-![Página Metas e configurações do Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
-
 As seções a seguir descrevem as configurações disponíveis para uma atividade [!UICONTROL Recommendations].
 
 ## Nome
 
-Forneça um nome descritivo que vai ajudar você e sua equipe a identificar a atividade.
+Clique no ícone Mais Ações ( ![Ícone Mais Ações](/help/main/assets/icons/MoreSmallListVert.svg) ) e em **[!UICONTROL Rename]** para fornecer um nome descritivo que ajudará você e sua equipe a identificarem a atividade.
 
 Os seguintes caracteres não são permitidos em um nome de atividade:
 
