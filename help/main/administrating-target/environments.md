@@ -5,10 +5,10 @@ title: O que são ambientes e como usá-los?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 49%
+source-wordcount: '644'
+ht-degree: 47%
 
 ---
 
@@ -23,8 +23,6 @@ Um ambiente, o ambiente padrão, é pré-nomeado como [!UICONTROL Production]. E
 Quando uma solicitação [!DNL Target] é recebida de novos sites ou domínios, estes sempre aparecem no ambiente [!UICONTROL Production]. O ambiente [!UICONTROL Production] não pode ter suas configurações alteradas, portanto, sites novos ou desconhecidos têm garantia de ver somente o conteúdo que está ativo e pronto. O gerenciamento de hosts também permite garantir a qualidade de novas atividades e do conteúdo em seus ambientes de teste, armazenamento temporário e desenvolvimento, antes das atividades serem ativadas.
 
 Para gerenciar ambientes, clique em **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
-
-![Lista de ambientes](/help/main/administrating-target/assets/environments.png)
 
 ## Adicionar um ambiente {#section_32097D0993724DF3A202D164D3F18674}
 

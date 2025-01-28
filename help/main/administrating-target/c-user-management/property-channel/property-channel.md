@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '3171'
+source-wordcount: '3165'
 ht-degree: 48%
 
 ---
@@ -192,18 +192,12 @@ A nova funcionalidade de Permissões pode ser vista em vários locais na interfa
 
 * Lista suspensa do **Workspace (Perfil do Produto):** A lista suspensa do Workspace é exibida na parte superior das páginas [!UICONTROL Activities], [!UICONTROL Audiences] e [!UICONTROL Offers]. Selecione o espaço de trabalho desejado para filtrar a lista e exibir somente itens no espaço de trabalho selecionado.
 
-  ![imagem do espaço de trabalho](assets/workspace_drop-down.png)
-
 * **Criação da atividade:** quando você cria uma atividade, ela é criada no espaço de trabalho selecionado no momento. Você vê as opções de seleção de canal na primeira caixa de diálogo que permite escolher o canal desejado para a atividade: Web, Aplicativo móvel, Email ou Outro/API.
-
-  ![imagem de channel_options](assets/channel_options.png)
 
 * **Criação de público-alvo:** Quando você cria um público-alvo, ele é criado no espaço de trabalho selecionado no momento.
 * **Lista de públicos-alvo:** Você pode mover públicos-alvo entre espaços de trabalho usando a opção [!UICONTROL More Actions] > [!DNL Move] na página [!UICONTROL Audiences].
 * **Criação da oferta:** quando você cria uma oferta, ela é criada no espaço de trabalho selecionado no momento.
 * Página **Propriedades (Administração > Propriedades):** Você pode usar a caixa [!UICONTROL Search] para pesquisar a lista [!UICONTROL Property].
-
-  ![imagem da lista de propriedades](assets/properties_list.png)
 
 ## Avisos {#section_9714311B1CD9497A86F4910F8AE635E2}
 

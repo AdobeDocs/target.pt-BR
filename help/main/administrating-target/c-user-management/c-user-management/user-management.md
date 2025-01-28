@@ -5,9 +5,9 @@ title: Como adicionar usuários e gerenciar permissões em uma conta do  [!DNL T
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: 8560fa828fac91170fd295c9ef9a9b0e6ce1651c
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '847'
 ht-degree: 63%
 
 ---
@@ -41,8 +41,6 @@ Os usuários administradores são identificados na lista [!UICONTROL Users]. Ent
 É possível visualizar uma lista de usuários atuais na interface do [!DNL Target], incluindo suas funções por espaço de trabalho e endereços de email.
 
 Para exibir a página [!UICONTROL Users], clique em **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
-
-![Lista de usuários no Target](/help/main/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
 >[!NOTE]
 >
@@ -86,19 +84,11 @@ Os usuários administradores de sistema devem adicionar usuários ao sistema. Os
 
 1. [No Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), clique em **[!UICONTROL Products]** e selecione o nome do produto desejado.
 
-   ![Guia Produtos](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
-
 1. Clique no espaço de trabalho desejado (por exemplo, Espaço de trabalho padrão).
-
-   ![Espaço de trabalho padrão](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
    A guia [!UICONTROL Users] exibe todos os usuários nesse espaço de trabalho.
 
-   ![usuários de configuração](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
-
 1. Selecione a função de permissões desejada ([!UICONTROL Approver], [!UICONTROL Editor], [!UICONTROL Observer] ou [!UICONTROL Publisher]) usando a lista suspensa para cada usuário na coluna [!UICONTROL Product Role].
-
-   ![Lista suspensa Função do produto](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Função | Descrição |
    |--- |--- |

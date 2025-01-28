@@ -5,9 +5,9 @@ title: O que são Tokens de resposta e como usá-los?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 74355ad115eba20a0078aa15970b23c5754842a4
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1622'
 ht-degree: 22%
 
 ---
@@ -26,7 +26,7 @@ Uma diferença importante entre plug-ins e tokens de resposta é que os plug-ins
 
 | SDK do Target | Ações sugeridas |
 |--- |--- |
-| [SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank} | Verifique se você está usando o SDK da Web da plataforma versão 2.6.0 ou posterior. Para obter informações sobre como baixar a versão mais recente do SDK da Web da Platform, consulte [Instalar o SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} na *visão geral do SDK da Web da Platform*. Para obter informações sobre a nova funcionalidade em cada versão do SDK da Web da Platform, consulte as [notas de versão](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=pt-BR) na *visão geral do SDK da Web da Platform*. |
+| [SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank} | Verifique se você está usando o Platform Web SDK versão 2.6.0 ou posterior. Para obter informações sobre como baixar a versão mais recente do Platform Web SDK, consulte [Instalar o SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} na *visão geral do Platform Web SDK* guia. Para obter informações sobre a nova funcionalidade em cada versão do Platform Web SDK, consulte as [notas de versão](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=pt-BR) na *visão geral do Platform Web SDK*. |
 | [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | Certifique-se de que você esteja usando a at.js versão 1.1 ou posterior. Para obter informações sobre como baixar a versão mais recente da at.js, consulte [Baixar a at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. Para obter informações sobre a nova funcionalidade em cada versão do at.js, consulte [Detalhes da versão do at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank}.<br>Os clientes que usam a at.js são incentivados a usarem os tokens de resposta e a evitarem os plugins. Alguns plug-ins do que dependem de métodos internos existentes na mbox.js (descontinuada), mas não na at.js, são entregues, mas apresentam falha. |
 
 ## Uso de tokens de resposta {#section_A9E141DDCBA84308926E68D05FD2AC62}
@@ -35,12 +35,10 @@ Uma diferença importante entre plug-ins e tokens de resposta é que os plug-ins
 
    Para obter mais informações:
 
-   * **SDK da Web da Platform**: consulte [Instalar o SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) no guia de *visão geral do SDK da Web da Platform*.
+   * **Platform Web SDK**: consulte [Instalar o SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) no guia de *visão geral do Platform Web SDK*.
    * **at.js**: consulte [Baixar at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
 
 1. Em [!DNL Target], clique em **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
-
-   ![response_tokens-new image](assets/response_tokens-new.png)
 
 1. Ative os tokens de resposta desejados, como `activity.id` e `offer.id`.
 
@@ -71,8 +69,6 @@ Uma diferença importante entre plug-ins e tokens de resposta é que os plug-ins
 1. (Condicional) Para usar um parâmetro de perfil como token de resposta, mas o parâmetro não foi transmitido por uma solicitação [!DNL Target] e, portanto, não foi carregado na interface do usuário [!DNL Target], você pode usar o botão [!UICONTROL Add Response Token] para adicionar o perfil à interface do usuário.
 
    Clique em **[!UICONTROL Add Response Token]**, forneça o nome do token e clique em **[!UICONTROL Activate]**.
-
-   ![response_token_create imagem](assets/response_token_create.png)
 
 1. Crie uma atividade.
 
@@ -220,9 +216,9 @@ O [!DNL Target] executa uma atualização de atributos em intervalos regulares. 
 
 As seções a seguir descrevem como enviar dados do [!DNL Target] para os Google Analytics 4. Os dados enviados por tokens de resposta também podem ser enviados para outras integrações de terceiros.
 
-### ![Selo da AEP](/help/main/assets/platform.png) Envio de dados para o Google Analytics via SDK da Web da plataforma
+### ![Selo da AEP](/help/main/assets/platform.png) Envio de dados para o Google Analytics via Platform Web SDK
 
-Os Google Analytics podem ser enviados por meio do SDK da Web da plataforma versão 2.6.0 (ou posterior), adicionando o seguinte código na página de HTML.
+Os Google Analytics podem ser enviados por meio da Platform Web SDK versão 2.6.0 (ou posterior), adicionando o seguinte código na página de HTML.
 
 >[!NOTE]
 >

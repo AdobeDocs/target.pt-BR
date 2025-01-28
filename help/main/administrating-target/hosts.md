@@ -5,9 +5,9 @@ title: O que são hosts e como usá-los?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1027'
 ht-degree: 17%
 
 ---
@@ -23,8 +23,6 @@ Um host é qualquer domínio a partir do qual uma solicitação [!DNL Target] é
 Por padrão, o [!DNL Target] não limita um host que possa fazer [!DNL Target] solicitações e receber [!DNL Target] respostas. Quando novos hosts fazem solicitações, eles funcionam automaticamente. Esse processo também permite testar em domínios diferentes que você não conhece ou não pode antecipar. Se quiser substituir esse comportamento padrão, você pode configurar um incluir na lista de permissões incluo na lista de bloqueios de navegação ou para limitar quais hosts funcionam com o [!DNL Target].
 
 Para gerenciar hosts, clique em **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
-
-![imagem de lista_de_hosts](assets/hosts_list.png)
 
 ## Reconhecimento de hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
@@ -97,7 +95,7 @@ Você também pode criar um incluo na lista de bloqueios que especifica os hosts
 
 >[!NOTE]
 >
->A lista [!UICONTROL Authorized Hosts] é usada para hosts [!DNL Target] e hosts de redirecionamento padrão. Adicione todos os domínios existentes aprovados para usar o [!DNL Adobe Target] SDK do JavaScript (at.js) *E* todos os domínios usados nas URLs de redirecionamento padrão da ubox. Adicione quaisquer domínios semelhantes ao incluo na lista de permissões no futuro.
+>A lista [!UICONTROL Authorized Hosts] é usada para hosts [!DNL Target] e hosts de redirecionamento padrão. Adicione todos os domínios existentes aprovados para usar o [!DNL Adobe Target] JavaScript SDK (at.js) *E* todos os domínios usados nas URLs de redirecionamento padrão da ubox. Adicione quaisquer domínios semelhantes ao incluo na lista de permissões no futuro.
 
 ## Excluir um host {#section_F56355BA4BC54B078A1A8179BC954632}
 
