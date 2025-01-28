@@ -4,9 +4,9 @@ description: Personalize o conteúdo e teste designs de página para públicos-a
 title: Como posso personalizar o conteúdo e testar designs de página com o  [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
+source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2234'
 ht-degree: 26%
 
 ---
@@ -48,9 +48,10 @@ A tabela a seguir ajuda você a entender vários elementos da lista [!UICONTROL 
 | [!UICONTROL Property] | Mostra a [propriedade](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) da atividade.<P>As permissões de usuários corporativos são um recurso do [Target Premium](/help/main/c-intro/intro.md#premium). |
 | [!UICONTROL Estimated Lift in Revenue] | Mostra o aumento previsto na receita se 100% do público-alvo visualizar a experiência vencedora.<P>Calculado com o uso da seguinte fórmula:<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>Esse número é arredondado para uma casa decimal, no máximo, se a forma condensada tiver apenas um único dígito antes do decimal. Por exemplo: US$ 1,6 milhões, US$ 60 mil, US$ 900, US$ 8,5 mil, US$ 205 mil<P>Essa coluna mostra &quot;---&quot; para atividades que não têm dados suficientes para chamar um uma exibição vencedora ou não têm uma estimativa de custo.<P>Consulte [Aumento estimado na receita](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) para obter mais informações. |
 | [!UICONTROL Source] | Mostra onde a atividade foi criada: [!DNL Adobe Target], [API do Adobe Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview), [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR), [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=pt-BR) ou [Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/). |
-| [!UICONTROL Location] | O URL da atividade identifica onde a atividade é exibida. Essa coluna ajuda você a identificar rapidamente uma atividade e determinar se uma determinada página já tem uma atividade em execução nela.<P>Se uma atividade for executada em vários URLs, um link mostrará quantos outros URLs serão usados. Clique no link para exibir a lista completa de URLs dessa atividade.<P>Você pode pesquisar com base no URL. Use a lista suspensa ao lado da caixa de pesquisa e selecione [!UICONTROL URL]. |
 | [!UICONTROL Author] | O nome da pessoa que criou a atividade. |
 | [!UICONTROL Decisioning Method] | O método de decisão usado em cada atividade: [Server-Side](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=pt-BR) ou [Client-Side](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html). |
+
+<!--|[!UICONTROL Location]|The URL for the activity identifies where the activity is displayed. This column helps you quickly identify an activity and determine whether a particular page already has an activity running on it.<P>If an activity runs on multiple URLs, a link shows how many more URLs are used. Click the link to view the complete list of URLs for that activity.<P>You can search based on the URL. Use the drop-down list next to the search box and select [!UICONTROL URL].|-->
 
 ## Tipos de atividades  {#types}
 
