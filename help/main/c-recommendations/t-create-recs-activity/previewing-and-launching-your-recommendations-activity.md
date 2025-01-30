@@ -4,10 +4,10 @@ description: Saiba como visualizar sua atividade do Adobe [!DNL Target] Recommen
 title: Como visualizar e iniciar uma atividade do Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 16%
+source-wordcount: '1316'
+ht-degree: 15%
 
 ---
 
@@ -21,11 +21,7 @@ Depois de criar uma atividade, [!DNL Recommendations] executa um algoritmo para 
 
 Você pode verificar se a execução do algoritmo foi concluída no diagrama de visão geral [!UICONTROL Activity], onde o status dos critérios está listado. A ilustração a seguir mostra o status no diagrama de atividades na página [!UICONTROL Overview] de uma atividade [!DNL Recommendations]:
 
-![Página de visão geral da atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
-
-A ilustração a seguir descreve o status na página [!UICONTROL Overview] de uma atividade de [!UICONTROL A/B Test] ou XT:
-
-![Página de visão geral do teste A/B](/help/main/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
+![Página de visão geral da atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 Os resultados do status incluem o seguinte, conforme ilustrado abaixo:
 
@@ -45,7 +41,7 @@ A fonte de dados comportamentais tem o maior impacto no tempo de processamento, 
 
 Se as mboxes forem selecionadas como a fonte de dados comportamentais, depois de criados, os critérios serão executados imediatamente. Dependendo da quantidade de dados comportamentais usados&#x200B; e do tamanho do catálogo, o algoritmo pode levar até 12 horas para ser executado. Fazer alterações na configuração dos critérios geralmente resulta na repetição do algoritmo. Dependendo da alteração feita, as recomendações calculadas anteriormente podem não estar disponíveis até que uma nova execução seja concluída ou, para alterações maiores, somente o backup ou o conteúdo padrão estará disponível até que uma nova execução seja concluída. Se um algoritmo não for modificado, ele será executado automaticamente pelo [!DNL Target] a cada 12-48 horas, dependendo do intervalo de dados selecionado.
 
-### Adobe Analytics
+### [!DNL Adobe Analytics]
 
 Se os critérios usarem o [!DNL Adobe Analytics] como a fonte de dados comportamentais, depois de criados, o tempo para a disponibilidade dos critérios dependerá se o conjunto de relatórios selecionado e a janela de lookback foram usados para quaisquer outros critérios.
 
@@ -59,9 +55,7 @@ Se os critérios usarem o [!DNL Adobe Analytics] como a fonte de dados comportam
 
 ## Uso de links de controle de qualidade para visualização do Recommendations
 
-Depois que o algoritmo tiver os resultados prontos, você poderá visualizar esses resultados usando a funcionalidade [Link de controle de qualidade](/help/main/c-activities/c-activity-qa/activity-qa.md) de [!DNL Adobe Target]. Os links de controle de qualidade estão disponíveis na seção [!UICONTROL Activity QA] da página Visão geral da atividade:
-
-![Link de controle de qualidade da atividade](/help/main/c-recommendations/t-create-recs-activity/assets/qa-link.png)
+Depois que o algoritmo tiver os resultados prontos, você poderá visualizar esses resultados usando a funcionalidade [Link de controle de qualidade](/help/main/c-activities/c-activity-qa/activity-qa.md) de [!DNL Adobe Target]. Os links de controle de qualidade estão disponíveis na seção [!UICONTROL Activity Location] da página de visão geral [!UICONTROL Activity]:
 
 >[!NOTE]
 >
@@ -103,19 +97,13 @@ Para outros tipos de algoritmo baseados em um valor de chave, como [!UICONTROL P
 
 ## Ativação da atividade do Recommendations
 
-Na guia [!UICONTROL Activity Overview], clique na seta suspensa ao lado do status e selecione **[!UICONTROL Activate]**.
+Na guia [!UICONTROL Activity Overview], clique na seta suspensa Status e selecione **[!UICONTROL Activate]**.
 
-![Ativar opção](/help/main/c-recommendations/t-create-recs-activity/assets/activate.png)
+Se sua atividade [!UICONTROL Recommendations] estiver atualmente no estado [!UICONTROL Inactive], a lista suspensa será rotulada [!UICONTROL Inactive].
 
-Observe que o status torna-se [!UICONTROL Activating]:
+Após alguns segundos a alguns minutos, o status muda para [!UICONTROL Live].
 
-![Ativando](/help/main/c-recommendations/t-create-recs-activity/assets/activating.png)
-
-Após alguns segundos a alguns minutos, o status muda para [!UICONTROL Live]:
-
-![Ao vivo](/help/main/c-recommendations/t-create-recs-activity/assets/live.png)
-
-Observe que você também pode desativar ou arquivar a atividade usando a mesma lista suspensa.
+Também é possível desativar ou arquivar a atividade usando a mesma lista suspensa.
 
 ## Como evitar interrupções ao alterar configurações do Recommendations
 
