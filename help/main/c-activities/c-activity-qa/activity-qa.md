@@ -4,9 +4,9 @@ description: Saiba como usar URLs de controle de qualidade do Adobe [!DNL Target
 title: Como faço para testar as atividades?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
+source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1658'
 ht-degree: 27%
 
 ---
@@ -31,11 +31,7 @@ O [!UICONTROL Activity QA] permite que você teste completamente suas atividades
 
 1. Na página [!UICONTROL Overview] de uma atividade, clique em **[!UICONTROL Activity QA]**.
 
-   ![Link de controle de qualidade da atividade](assets/qa_link.png)
-
 1. Configure as seguintes definições:
-
-   ![Opções de configuração do Link de controle de qualidade](assets/qa_link_config.png)
 
    * **[!UICONTROL Match audience rules to see experiences]:** Às vezes, você quer confirmar se a correspondência do seu público-alvo funciona. Outras vezes você deseja verificar a aparência da atividade. Se essa configuração for alternada para a posição &quot;ativada&quot;, os testadores deverão atender aos requisitos de direcionamento para se qualificarem para ver as experiências. Para as atividades do Direcionamento de experiência (XT), um único URL de atividade será fornecido. A experiência que você vê é determinada pela sua qualificação para uma das regras de direcionamento.
 
@@ -121,7 +117,7 @@ Se o site tiver o [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe
 
 A tabela a seguir lista os vários tipos de atividades e indica se há suporte para o modo [!UICONTROL Activity QA] para cada biblioteca:
 
-| Tipo de atividade | at.js 1.x | at.js 2.x | SDK da Web da Platform |
+| Tipo de atividade | at.js 1.x | at.js 2.x | Platform Web SDK |
 | --- | --- | --- | --- |
 | [!UICONTROL A/B Test] | Sim | Sim | Sim |
 | [!UICONTROL Auto-Allocate] | Sim | Sim | Sim |
