@@ -4,10 +4,10 @@ description: Saiba como criar uma atividade multipáginas no Adobe [!DNL Target]
 title: Como criar uma atividade multipáginas?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 70%
+source-wordcount: '341'
+ht-degree: 57%
 
 ---
 
@@ -27,21 +27,13 @@ Você pode especificar as regras do modelo para cada página no teste de multip�
 
 Para adicionar páginas a um teste:
 
-1. Clique no ícone de engrenagem **[!UICONTROL Configure]**.
+1. Clique no ícone **[!UICONTROL Configure]** ( ![Ícone Configurar](/help/main/assets/icons/Setting.svg) ).
 1. Clique em **[!UICONTROL Add Additional Pages]**.
 
-   Uma barra de navegação aparece à esquerda da tela.
+   Um painel [!UICONTROL Pages] é exibido no lado esquerdo da tela.
 
-   ![imagem de navegação_multipáginas](assets/multipage_nav.png)
+1. Especifique suas páginas e defina a página padrão.
 
-1. Use uma barra de navegação para especificar suas páginas e definir a página padrão.
+   Clique em **[!UICONTROL Add Page]** ( ![Ícone Adicionar](/help/main/assets/icons/Add.svg) ) para adicionar uma página adicional, especifique o nome e a URL da página e clique em **[!UICONTROL Save]**.
 
-   Clique em **[!UICONTROL Add Page]** para adicionar uma página adicional.
-
-   Clique no ícone de três elipses verticais para exibir um menu de ação:
-
-   ![imagem de menu_multipáginas](assets/multipage_menu.png)
-
-   Use este menu para renomear as páginas, realizar um teste de redirecionamento de dentro da atividade de multipágina ou excluir a página.
-
-1. Use o Visual Experience Composer para projetar o modo de exibição da oferta em cada página.
+1. Use o [!UICONTROL Visual Experience Composer] para criar a aparência da oferta em cada página.
