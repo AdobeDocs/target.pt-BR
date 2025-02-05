@@ -4,10 +4,10 @@ description: Saiba como usar a opção Redirecionar para URL no Adobe [!DNL Targ
 title: Posso redirecionar uma página para um URL diferente?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 68%
+source-wordcount: '472'
+ht-degree: 66%
 
 ---
 
@@ -31,16 +31,13 @@ Ofertas de redirecionamento possuem algumas limitações:
 Para criar uma oferta de redirecionamento:
 
 1. Crie uma experiência.
-1. Passe com o mouse sobre uma experiência, depois clique no ícone Redirecionar para URL (![icon_redirect_url image](assets/icon_redirect_url.png)).
-
-   ![imagem exp_actions](assets/exp_actions.png)
-
-1. Digite o URL.
+1. No quadro [!UICONTROL Experiences], clique no ícone **[!UICONTROL More Actions]** ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) para obter a experiência desejada.
+1. Clique em **[!UICONTROL Redirect to URL]**.
+1. Na caixa de diálogo Redirecionar para URL, digite o URL.
 1. Se desejar, selecione a opção para incluir parâmetros de consulta atuais.
 
    Se essa opção for selecionada, tudo depois de ? no URL do visitante será anexado ao URL de redirecionamento no momento do redirecionamento.
 
-   Essa opção está selecionada por padrão.
 1. (Opcional) Crie regras adicionais.
 
    Regras adicionais podem ser baseadas em qualquer um dos seguintes:

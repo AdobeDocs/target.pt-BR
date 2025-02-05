@@ -1,17 +1,17 @@
 ---
 keywords: alocação automática de tráfego;direcionamento;vencedor;garantia estatística;confiança;determinar vencedor;aumento;confiança;padrão;experiência padrão;alocação automática;alocação automática
-description: Saiba como interpretar os resultados de uma atividade A/B [!UICONTROL Auto-Allocate] em Adobe [!DNL Target]  examinando indicadores importantes, incluindo aumento e confiança.
+description: Descubra como interpretar [!UICONTROL Auto-Allocate] resultados de atividade A/B, com foco em indicadores-chave como aumento e confiança.
 title: Como Interpretar Relatórios De [!UICONTROL Auto-Allocate]?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: e9976135c46f6658030b07fce384364f0c9ff0ed
+source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 21%
+source-wordcount: '1163'
+ht-degree: 20%
 
 ---
 
-# Interpretar relatórios de autoalocação
+# Interpretar relatórios de [!UICONTROL Auto-Allocate]
 
 Interprete os resultados de uma atividade A/B [!UICONTROL Auto-Allocate] em [!UICONTROL Adobe Target] examinando indicadores importantes, incluindo aumento e confiança.
 
@@ -23,23 +23,23 @@ Para obter informações gerais sobre como declarar um vencedor, consulte [Dez e
 
 Ao usar o recurso [!UICONTROL Auto-Allocate], o [!DNL Target] exibe um emblema na parte superior da página da atividade, indicando &quot;Ainda não há vencedor&quot; até que a atividade atinja o número mínimo de conversões com confiança suficiente.
 
-![Sem selo de Vencedor](/help/main/c-activities/automated-traffic-allocation/assets/no-winner.png)
+![Sem selo de Vencedor](/help/main/c-activities/automated-traffic-allocation/assets/no-winner-new.png)
 
-Quando um vencedor claro é declarado, [!DNL Target] exibe &quot;Vencedor: Experiência *X*&quot;.
+Quando um vencedor claro é declarado, [!DNL Target] exibe o emblema &quot;Vencedor: Experiência *X*&quot;.
 
-![imagem vencedora](assets/winner.png)
+![Selo do vencedor](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
 
 >[!NOTE]
 >
->As atividades de alocação automática são projetadas para encontrar a melhor experiência entre todas as opções e não apenas para fazer comparações emparelhadas com controle.
+>As atividades do [!UICONTROL Auto-Allocate] foram projetadas para encontrar a melhor experiência entre todas as opções, e não apenas para fazer comparações emparelhadas com controle.
 
-## Garantias estatísticas da alocação automática {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
+## Garantias estatísticas de [!UICONTROL Auto-Allocate] {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
 No final de uma atividade A/B, [!UICONTROL Auto-Allocate] garante que o vencedor determinado tenha uma taxa de 5% de falso-positivo. Isso significa que apenas 5% do tempo, o vencedor determinado não é realmente a melhor experiência entre todas as experiências na atividade. Para um [teste A/A](/help/main/c-activities/t-test-ab/aa-testing.md) (com experiências idênticas), [!DNL Target] conclui um teste menos de 5% do tempo. O comportamento esperado para um teste A/A (com experiências idênticas) é para ser executado indefinidamente e, portanto, o emblema do vencedor nunca deve aparecer.
 
 [!DNL Target] não usa confiança baseada no valor p para [!UICONTROL Auto-Allocate].
 
-A coluna [!UICONTROL Confidence] em uma atividade [!UICONTROL Auto-Allocate] (ilustrada abaixo) exibe a probabilidade de uma experiência ser a vencedora dentro da margem de erro de 1%. O algoritmo usa um efeito mínimo detectável de 1% entre as melhores e as segundas melhores taxas de conversão. O algoritmo usa [Desigualdade de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) para calcular essa probabilidade.
+A coluna [!UICONTROL Confidence] em uma atividade [!UICONTROL Auto-Allocate] exibe a probabilidade de uma experiência ser a vencedora dentro da margem de erro de 1%. O algoritmo usa um efeito mínimo detectável de 1% entre as melhores e as segundas melhores taxas de conversão. O algoritmo usa [Desigualdade de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) para calcular essa probabilidade.
 
 Testes A/B normais calculam a confiança com base nos valores de p. [!UICONTROL Auto-Allocate] não usa valores p. Os valores de P calculam &quot;vagamente&quot; a probabilidade de que uma determinada experiência seja diferente do controle. Esses valores p podem ser usados apenas para determinar se uma experiência pode ser diferente do controle. Esses valores não podem ser usados para determinar se uma experiência é diferente de outra experiência (não de controle).
 
@@ -82,5 +82,3 @@ Qualquer um dos motivos a seguir descreve por que 0% é exibido na coluna [!UICO
 Os emblemas &quot;Ainda não há vencedor&quot; e &quot;Vencedor&quot; não estão disponíveis no painel [!UICONTROL A4T] em [!DNL Analysis Workspace]. Essas medalhas também não estarão disponíveis se o mesmo relatório for visualizado em [!DNL Target]. Um emblema de &quot;estrela&quot; vencedor mostrado em um relatório [!DNL Target] para uma atividade [!UICONTROL Auto-Allocate] usando A4T deve ser ignorado.
 
 Para obter mais informações sobre esta e outras limitações e observações, consulte [Alocação automática](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) no *Suporte do A4T para [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target] atividades*.
-
-

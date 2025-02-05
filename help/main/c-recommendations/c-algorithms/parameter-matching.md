@@ -5,14 +5,14 @@ title: Como filtrar por correspondência de parâmetros em atividades do Recomme
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '332'
 ht-degree: 10%
 
 ---
 
-# Correspondência de parâmetros
+# [!UICONTROL Parameter Matching]
 
 Filtre dinamicamente comparando itens (entidades) com um valor na solicitação (API ou mbox).
 
@@ -34,7 +34,7 @@ Por exemplo, recomende somente o conteúdo que corresponda ao parâmetro de pág
 
 [!UICONTROL Parameter Matching] permite que você recomende um conteúdo que corresponda aos parâmetros da página ou aos parâmetros do visitante, como dimensões de dispositivo ou localização geográfica, como no exemplo a seguir:
 
-[!DNL Recommendations] pode corresponder a valores de parâmetros enviados na chamada [!DNL Target]. Nesta instância, o [!DNL Target] detecta que um visitante está usando um dispositivo móvel, com base nos parâmetros de altura e largura da tela enviados na chamada do [!DNL Target], e recomendará somente itens que sejam dispositivos móveis.
+[!DNL Recommendations] pode corresponder a valores de parâmetros enviados na chamada [!DNL Target]. Nesta instância, o [!DNL Target] detecta que um visitante está usando um dispositivo móvel, com base nos parâmetros de altura e largura da tela enviados na chamada [!DNL Target], e recomenda apenas itens que sejam dispositivos móveis.
 
 Considere o exemplo de chamada do Target a seguir:
 

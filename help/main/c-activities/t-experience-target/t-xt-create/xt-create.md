@@ -4,10 +4,10 @@ description: Saiba como usar o [!UICONTROL Visual Experience Composer] (VEC) no 
 title: Como criar uma atividade [!UICONTROL Experience Targeting]?
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
-source-git-commit: 4faafcef38d02674072d8b20ae03d3e2ef2115d6
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 38%
+source-wordcount: '389'
+ht-degree: 33%
 
 ---
 
@@ -25,15 +25,13 @@ Para obter mais informações sobre [!UICONTROL Experience Targeting], um cenár
 
 1. Na lista [!UICONTROL Activities], clique em **[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]**.
 
-   ![Criar atividade > Direcionamento de experiência](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
-
    >[!NOTE]
    >
    >Os tipos de atividades disponíveis dependem da sua conta do [!DNL Target]. Alguns tipos de atividades podem não aparecer na lista. Por exemplo, [!UICONTROL Automated Personalization] é um [recurso do Target Premium](/help/main/c-intro/intro.md#premium).
    >
    >Para obter mais informações sobre os diversos tipos de atividades disponíveis no [!DNL Target] e suas diferenças, consulte [Atividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Consulte [Tipos de atividade do Target](/help/main/c-activities/target-activities-guide.md) para ajudá-lo a decidir qual tipo de atividade se adapta melhor as suas necessidades.
 
-1. Selecione **[!UICONTROL Visual (Default)]**, se necessário.
+1. Selecione **[!UICONTROL Visual]**, se necessário.
 
    Se preferir usar o [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md), selecione [!UICONTROL Form].
 
@@ -45,7 +43,7 @@ Para obter mais informações sobre [!UICONTROL Experience Targeting], um cenár
 
 1. (Condicional) Se você for um cliente do [!DNL Target Premium], [escolha um espaço de trabalho](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   A opção [!UICONTROL Choose Workplace] é um recurso do [Target Premium](/help/main/c-intro/intro.md). Se sua organização tiver uma licença do [!DNL Target Standard], caso você não veja essa opção.
+   A opção [!UICONTROL Choose Workplace] é um recurso [Target Premium](/help/main/c-intro/intro.md). Se sua organização tiver uma licença do [!DNL Target Standard], caso você não veja essa opção.
 
 1. Especifique o [URL da atividade](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) e clique em **[!UICONTROL Create]**.
 
@@ -53,11 +51,7 @@ Para obter mais informações sobre [!UICONTROL Experience Targeting], um cenár
 
    O VEC é aberto, mostrando a página especificada no URL.
 
-   ![Atividade de Direcionamento de experiência no VEC](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
-
-1. Digite um nome para a atividade no espaço fornecido.
-
-   ![Campo nome](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
+1. Clique no ícone **[!UICONTROL Rename]** ( ![Ícone Renomear](/help/main/assets/icons/MoreSmallListVert.svg) ), clique em **[!UICONTROL Rename]**, especifique um nome para a atividade e clique em **[!UICONTROL Save]**.
 
    O nome da atividade não pode começar com nenhum dos seguintes caracteres:
 

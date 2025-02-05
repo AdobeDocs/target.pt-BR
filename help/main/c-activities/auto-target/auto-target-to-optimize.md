@@ -1,14 +1,14 @@
 ---
 keywords: direcionamento automático;direcionamento;alocação de tráfego;perguntas frequentes;faq;solução de problemas;solucionar problemas
-description: Saiba como uma atividade do [!UICONTROL Auto-Target] no  [!DNL Target] serve a experiência mais personalizada para cada visitante com base nos perfis dos clientes e no comportamento de visitantes semelhantes.
+description: Saiba como uma atividade do [!UICONTROL Auto-Target] fornece a experiência mais personalizada para cada visitante com base nos perfis dos clientes e no comportamento de visitantes semelhantes.
 title: O Que É Uma Atividade [!UICONTROL Auto-Target]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 1b1b2271738d12f8da4e695900b70e280f50d8cf
+source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
 workflow-type: tm+mt
-source-wordcount: '1864'
-ht-degree: 21%
+source-wordcount: '1828'
+ht-degree: 18%
 
 ---
 
@@ -34,7 +34,7 @@ Continue lendo para saber como usar o [!UICONTROL Auto-Target] para aumentar o a
 
 Ao [criar uma atividade A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) usando o fluxo de trabalho guiado de três etapas, escolha a opção **[!UICONTROL Auto-Target for personalized experiences]** na página **[!UICONTROL Targeting]** (etapa 2).
 
-![Opção de Direcionamento automático para experiências personalizadas](/help/main/c-activities/assets/auto-target-ui-new.png)
+![Configurações do Método de Alocação de Tráfego](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
 A opção [!UICONTROL Auto-Target] no fluxo de atividade A/B permite aproveitar a aprendizagem de máquina para personalizar com base em um conjunto de experiências definidas pelo profissional de marketing em um clique. O [!UICONTROL Auto-Target] foi projetado para fornecer otimização máxima, em comparação ao teste A/B tradicional ou [!UICONTROL Auto Allocate], determinando qual experiência exibir para cada visitante. Ao contrário de uma atividade A/B na qual o objetivo é encontrar um único vencedor, [!UICONTROL Auto-Target] determina automaticamente a melhor experiência para um determinado visitante. A melhor experiência é baseada no perfil do visitante e outras informações contextuais para fornecer uma experiência altamente personalizada.
 
@@ -52,7 +52,7 @@ Algumas considerações importantes devem ser levadas em conta ao usar o [!UICON
 
   O tráfego de um segundo conjunto de modelos é criado para cada grupo de modelagem (AP) ou experiência (AT). Para cada um desses modelos, são consideradas ocorrências e conversões em todos os ambientes.
 
-  Os pedidos são atendidos com o mesmo modelo, independentemente do ambiente, mas a pluralidade de tráfego deve vir do ambiente padrão para garantir que a experiência vencedora geral identificada seja consistente com o comportamento real.
+  As solicitações são atendidas com o mesmo modelo, independentemente do ambiente. No entanto, a pluralidade do tráfego deve vir do ambiente padrão para garantir que a experiência vencedora geral identificada seja consistente com o comportamento real.
 
 * Use no mínimo duas experiências.
 
@@ -82,21 +82,21 @@ Dependendo do objetivo da sua atividade, você pode escolher uma alocação de t
 
 A lista suspensa [!UICONTROL Custom Allocation] permite escolher entre as seguintes opções:
 
-* [!UICONTROL Evaluate Personalization Algorithm]
-* [!UICONTROL Maximize Personalization Traffic]
+* [!UICONTROL Evaluate Personalization Algorithm (50/50)]
+* [!UICONTROL Maximize Personalization Traffic (90/10)]
 * [!UICONTROL Custom Allocation]
 
-![Lista suspensa Meta de alocação](/help/main/c-activities/assets/split-new.png)
+![Lista suspensa Meta de alocação](/help/main/c-activities/assets/split-new-ui.png)
+
+A tabela a seguir explica as três opções:
 
 | Objetivo da atividade | Sugestão de alocação de tráfego | Compensações |
 |--- |--- |--- |
-| **Avaliar o algoritmo de personalização (50/50):** se o objetivo for testar o algoritmo, use uma divisão de visitantes de 50/50% entre o controle e o algoritmo de destino. Esta divisão fornece a estimativa mais precisa do aumento. Recomenda-se usar com &quot;experiências aleatórias&quot; como controle. | Divisão de 50% controle / 50% experiência personalizada | <ul><li>Maximiza a precisão do aumento entre controle e personalizado</li><li>Relativamente menos visitantes têm uma experiência personalizada</li></ul> |
-| **Maximizar o tráfego do Personalization (90/10)**: se o objetivo for criar uma atividade &quot;sempre ativa&quot;, coloque 10% dos visitantes no controle, a fim de garantir que haja dados suficientes para que os algoritmos continuem aprendendo ao longo do tempo. A desvantagem aqui é que, em troca da personalização de uma proporção maior de seu tráfego, você tem menos precisão em saber qual é o aumento exato. Independentemente da meta, esta é a divisão de tráfego recomendada ao usar uma experiência específica como controle. | A prática recomendada é usar uma divisão de 10% a 30% Controle / 70% - 90% Experiência personalizada | <ul><li>Maximiza o número de visitantes que têm uma experiência personalizada</li><li>Maximiza o aumento</li><li>Menos precisão quanto ao que é o aumento para a atividade</li></ul> |
+| **[!UICONTROL Evaluate Personalization Algorithm (50/50)]**: se o objetivo for testar o algoritmo, use uma divisão de visitantes de 50/50% entre o controle e o algoritmo de destino. Esta divisão fornece a estimativa mais precisa do aumento. Recomenda-se usar com &quot;experiências aleatórias&quot; como controle. | Divisão de 50% controle / 50% experiência personalizada | <ul><li>Maximiza a precisão do aumento entre controle e personalizado</li><li>Relativamente menos visitantes têm uma experiência personalizada</li></ul> |
+| **[!UICONTROL Maximize Personalization Traffic (90/10)]**: se o objetivo for criar uma atividade &quot;sempre ativa&quot;, coloque 10% dos visitantes no controle, a fim de garantir que haja dados suficientes para que os algoritmos continuem aprendendo ao longo do tempo. A desvantagem aqui é que, em troca da personalização de uma proporção maior de seu tráfego, você tem menos precisão em saber qual é o aumento exato. Independentemente da meta, esta é a divisão de tráfego recomendada ao usar uma experiência específica como controle. | A prática recomendada é usar uma divisão de 10% a 30% Controle / 70% - 90% Experiência personalizada | <ul><li>Maximiza o número de visitantes que têm uma experiência personalizada</li><li>Maximiza o aumento</li><li>Menos precisão quanto ao que é o aumento para a atividade</li></ul> |
 | **Alocação personalizada** | Divida manualmente a porcentagem conforme desejado. | <ul><li>Você pode não conseguir os resultados desejados. Se você não tiver certeza, siga as sugestões para qualquer uma das opções anteriores</li></ul> |
 
-Para ajustar a porcentagem de [!UICONTROL Control], clique nos ícones na coluna [!UICONTROL Allocation]. Você não pode diminuir o grupo de controle para menos de 10%.
-
-![Alterar a alocação de tráfego do Direcionamento automático](/help/main/c-activities/assets/auto-target-control.png)
+Para ajustar a porcentagem de [!UICONTROL Control], clique em [!UICONTROL Experiences] no painel [!UICONTROL Traffic Allocation] e ajuste as porcentagens conforme desejado. Você não pode diminuir o grupo de controle para menos de 10%.
 
 Você pode [selecionar uma experiência específica para usar como controle](/help/main/c-activities/t-automated-personalization/experience-as-control.md) ou usar a opção de experiência Aleatória.
 
@@ -158,20 +158,8 @@ Para [!UICONTROL Auto-Target], as regras básicas podem ser usadas para entender
 ### [!UICONTROL Auto-Target] fornece uma extensa estrutura de testes online.
 
 * O multi-arm bandit faz parte de uma estrutura maior de testes online, permitindo que cientistas de dados e pesquisadores do [!DNL Adobe] entendam os benefícios de suas melhorias contínuas nas condições do mundo real.
-* Futuramente, este ambiente de teste permitirá a abertura da plataforma de aprendizado de máquina [!DNL Adobe] para clientes com alto conhecimento de dados, para que eles possam trazer seus próprios modelos e aumentar os modelos [!DNL Target].
+* Futuramente, este teste permitirá a abertura da plataforma de aprendizado de máquina [!DNL Adobe] para clientes com conhecimento de dados, para que eles possam trazer seus próprios modelos para aumentar os modelos [!DNL Target].
 
 ## Relatórios e [!UICONTROL Auto-Target] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
 Para obter mais informações, consulte [Relatórios e Direcionamento automático](/help/main/c-activities/auto-target/reporting-and-auto-target.md).
-
-## Vídeo de treinamento: Entendendo as atividades de direcionamento automático
-
-Este vídeo explica como configurar uma atividade A/B do [!UICONTROL Auto-Target].
-
-Depois de concluir este treinamento, você será capaz de:
-
-* Definir teste de [!UICONTROL Auto-Target]
-* Comparar e contrastar [!UICONTROL Auto-Target] com [!UICONTROL Automated Personalization]
-* Criar [!UICONTROL Auto-Target] atividades
-
->[!VIDEO](https://video.tv.adobe.com/v/18558)

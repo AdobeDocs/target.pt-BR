@@ -4,10 +4,10 @@ description: Saiba como usar o relatório de Contribuição de localização par
 title: Como usar o relatório [!UICONTROL Location Contribution] para atividades [!UICONTROL Multivariate Test]?
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
-source-git-commit: 6f70ff18cfbee5c02e6bb2bd345acbd2e1b2006f
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 39%
+source-wordcount: '259'
+ht-degree: 38%
 
 ---
 
@@ -31,14 +31,10 @@ O relatório [!UICONTROL Location Contribution] inclui duas tabelas.
 
 A primeira tabela mostra a influência relativa de cada elemento. Esta tabela mostra qual dos elementos em que você adicionou ofertas está resultando no maior número de conversões.
 
-![Relatório de contribuição de localização no Adobe Target](/help/main/c-reports/assets/locationcontributiontop.png)
-
 A segunda tabela fornece um relatório de nível de oferta. Ela mostra o índice de conversão, levantamento e confiança para cada oferta em cada elemento. Essa tabela ajuda a determinar quais ofertas são as mais bem-sucedidas. A segunda coluna mostra os valores para a métrica selecionada (índice de conversão, RPV, AOV, pedidos ou métricas de envolvimento) da oferta e uma padronização.
 
-![Relatório de contribuição de localização no Adobe Target](/help/main/c-reports/assets/locationcontributionbottom.png)
+## Vídeo de treinamento: Criar um teste MVT
 
-## Vídeo de treinamento: Criar um teste MVT ![Selo do tutorial](/help/main/assets/tutorial.png)
-
-Este vídeo mostra como criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target. O relatório de Contribuição da localização é descrito no começo às 08:45.
+Este vídeo demonstra como criar um teste multivariado usando o fluxo de trabalho guiado de três etapas do [!DNL Target]. O relatório de Contribuição da localização é descrito no começo às 08:45.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)

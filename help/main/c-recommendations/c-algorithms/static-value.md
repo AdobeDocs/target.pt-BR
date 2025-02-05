@@ -5,16 +5,16 @@ title: Como Filtro Por Valores Estáticos Nas Atividades Do Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 45%
 
 ---
 
-# Filtro estático
+# [!UICONTROL Static Filter]
 
-Insira manualmente um ou mais valores estáticos para filtrar usando regras de inclusão em [!DNL Adobe Target] [!DNL Recommendations].
+Insira manualmente um ou mais valores estáticos para filtrar usando regras de inclusão em [!DNL Adobe Target Recommendations].
 
 Por exemplo, apenas recomende um conteúdo com uma classificação de MPA (Motion Picture Association) de &quot;G&quot; ou &quot;PG&quot;.
 
@@ -26,6 +26,4 @@ Você pode criar a quantidade de regras de inclusão necessária. As regras de i
 
 ## Conteúdo recomendado classificado como G ou PG
 
-Para criar uma regra de inclusão com valores estáticos para recomendar conteúdo com uma classificação MPA de &quot;G&quot; ou &quot;PG&quot; apenas (excluir conteúdo &quot;R&quot; e &quot;NC17&quot;), você pode criar as seguintes regras de filtragem &quot;classificação de filme é igual a g&quot; e &quot;classificação de filme igual a pg&quot;, conforme mostrado abaixo.
-
-![exemplo de classificação de filme](/help/main/c-recommendations/c-algorithms/assets/movies.png)
+Para criar uma regra de inclusão com valores estáticos para recomendar conteúdo com uma classificação MPA de &quot;G&quot; ou &quot;PG&quot; apenas (excluir conteúdo &quot;R&quot; e &quot;NC17&quot;), você pode criar as seguintes regras de filtragem &quot;classificação de filme é igual a qualquer um dos g-ratings&quot; e &quot;classificação de filme é igual a qualquer um dos pg-ratings&quot;.

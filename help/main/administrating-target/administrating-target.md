@@ -5,16 +5,16 @@ title: Como Administrar O Target?
 feature: Administration & Configuration
 role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 11%
+source-wordcount: '89'
+ht-degree: 13%
 
 ---
 
 # Administrar visão geral do [!DNL Target]
 
-Informações para ajudá-lo a administrar o [!DNL Adobe Target], incluindo definições de configuração para o Visual Experience Composer (VEC), relatórios, configuração do Scene7, implementação, hosts, ambientes, tokens de resposta e usuários.
+Informações para ajudá-lo a administrar o [!DNL Adobe Target], incluindo definições de configuração para o Visual Experience Composer (VEC), relatórios, configuração do Scene7, implementação, hosts, ambientes, tokens de resposta, usuários e [!DNL Recommendations].
 
 Para acessar os itens de menu [!UICONTROL Administration], clique em **[!UICONTROL Administration]** na barra de menu superior e, em seguida, clique na guia desejada no lado esquerdo:
 
@@ -27,5 +27,4 @@ Para acessar os itens de menu [!UICONTROL Administration], clique em **[!UICONTR
 * [Ambientes](/help/main/administrating-target/environments.md)
 * [Tokens de resposta](/help/main/administrating-target/response-tokens.md)
 * [Usuários](/help/main/administrating-target/c-user-management/user-management.md)
-
-![Menu Administração do Adobe Target](/help/main/administrating-target/assets/administration.png)
+* [Recommendations](/help/main/administrating-target/recommendations-settings.md)

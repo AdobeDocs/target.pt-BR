@@ -5,10 +5,10 @@ title: Como usar os relatórios de resumo do Automated Personalization?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 12%
+source-wordcount: '641'
+ht-degree: 11%
 
 ---
 
@@ -18,13 +18,13 @@ Relatórios de resumo especializados estão disponíveis para usuários de ativi
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization] está disponível como parte da solução [!DNL Target Premium]. Ele não está incluído com [!DNL Target Standard] sem uma [licença do Target Premium](/help/main/c-intro/intro.md#premium).
+>[!UICONTROL Automated Personalization] está disponível como parte da solução [!DNL Target Premium]. Ela não está incluída no [!DNL Target Standard] sem uma [licença do Target Premium](/help/main/c-intro/intro.md#premium).
 
 1. Clique em **[!UICONTROL Activities]**, clique na atividade [!UICONTROL Automated Personalization] desejada da lista, em seguida, clique na guia **[!UICONTROL Reports]**.
 
-   Se você tem muitas atividades, você pode filtrar a lista selecionando [!UICONTROL Automated Personalization] na lista suspensa [!UICONTROL Type].
+   Se você tiver muitas atividades, clique no ícone Filtro ( ![Ícone Filtro](/help/main/assets/icons/Filter.svg) ) para filtrar a lista selecionando opções nas listas suspensas [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] e [!UICONTROL Activity Source].
 
-1. (Opcional) Clique no ícone **[!UICONTROL Download]** para baixar a exibição de resumo (por exemplo, comparação de Controle e Tráfego direcionado) conforme detalhado por todas as métricas de sucesso disponíveis.
+1. (Opcional) Clique no ícone **[!UICONTROL Download]** ( ![Ícone de download](/help/main/assets/icons/Download.svg) ) para baixar a exibição de resumo (por exemplo, comparação de Controle e Tráfego direcionado) conforme detalhado por todas as métricas de sucesso disponíveis.
 
 [!UICONTROL Automated Personalization] fornece os seguintes relatórios:
 
@@ -37,8 +37,6 @@ Relatórios de resumo especializados estão disponíveis para usuários de ativi
 
 O relatório [!UICONTROL Activity Level] compara o desempenho agregado do uso de um algoritmo [!UICONTROL Automated Personalization] com o conteúdo disponibilizado aleatoriamente (controle).
 
-![Relatório de nível de atividade](/help/main/c-reports/assets/box_plot_ap.png)
-
 As regras padrão da interpretação de resultados do teste A/B ainda são aplicáveis, incluindo incentivo, confiança, tendência, duração e assim por diante. Para obter mais informações sobre como interpretar resultados, consulte [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Relatório de nível de oferta {#section_CAA6409879E349C6906E2BE8156D87A1}
@@ -46,8 +44,6 @@ As regras padrão da interpretação de resultados do teste A/B ainda são aplic
 O relatório [!UICONTROL Offer Level] da experiência do Random Forest compara o desempenho de cada oferta aplicada por algoritmo à mesma oferta disponibilizada aleatoriamente (Controle). Portanto, as ofertas não devem ser comparadas nesta visualização.
 
 Clique no algoritmo da experiência (Floresta Aleatória ou controle) para exibir o relatório [!UICONTROL Offer Level].
-
-![Relatório de nível de oferta no Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 >[!NOTE]
 >
@@ -59,15 +55,11 @@ As ofertas podem ser exibidas em [grupos de relatórios](/help/main/c-activities
 
 Clique no ícone [!UICONTROL Automated Segments]. Este relatório mostra como visitantes diferentes respondem de forma diferente às ofertas/experiências na atividade de AP/AT. Este relatório mostra como diferentes segmentos automatizados, definidos pelos modelos de personalização do Target, responderam às ofertas/experiências na atividade.
 
-![Ícone de Segmentos automatizados](/help/main/c-reports/assets/icon-automated-sements-ap.png)
-
 Para obter mais informações, consulte [Relatório de Segmentos automatizados](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Atributos importantes
 
 Clique no ícone [!UICONTROL Important Attributes]. Este relatório mostra como, em atividades diferentes, atributos distintos são mais (ou menos) importantes para a forma como o modelo decide personalizar. Este relatório mostra os principais atributos que influenciaram o modelo e sua importância relativa.
-
-![Ícone de atributos importantes](/help/main/c-reports/assets/icon-important-attributes-ap.png)
 
 Para obter mais informações, consulte [Relatório de atributos importantes](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 

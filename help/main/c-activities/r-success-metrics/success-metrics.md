@@ -4,10 +4,10 @@ description: Saiba mais sobre as métricas de sucesso do Adobe [!DNL Target]  qu
 title: O que são métricas de sucesso?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 43%
+source-wordcount: '1190'
+ht-degree: 41%
 
 ---
 
@@ -57,9 +57,9 @@ Algumas métricas, como [!UICONTROL Custom Scoring] e [!UICONTROL Revenue Per Vi
 
 Use as configurações avançadas para gerenciar a medição do sucesso. As opções incluem adicionar dependências, escolher se deseja manter o usuário na atividade ou removê-lo e se deseja contar a métrica uma vez por participante ou em cada impressão.
 
-Para acessar as opções [!UICONTROL Advanced Settings], clique no **[!UICONTROL vertical ellipses]** > **[!UICONTROL Advanced Settings]**.
+Para acessar as opções de [!UICONTROL Advanced Settings], clique no ícone **[!UICONTROL More Actions]** ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmallListVert.svg) ) e clique em **[!UICONTROL Advanced Settings]**.
 
-![Menu Configurações avançadas](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
+![Menu Configurações avançadas](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
 >[!NOTE]
 >
@@ -68,8 +68,6 @@ Para acessar as opções [!UICONTROL Advanced Settings], clique no **[!UICONTROL
 ### Adicionar dependência
 
 Você pode usar as configurações avançadas para criar métricas de sucesso dependentes, incrementando apenas uma métrica se um visitante atingir outra métrica primeiro.
-
-![Adicionar dependência](/help/main/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 Por exemplo, uma conversão de teste só pode ser válida se o visitante clica na oferta ou atinge uma página específica antes da conversão.
 
@@ -83,7 +81,7 @@ A funcionalidade de dependência *não* tem suporte para o seguinte:
 As métricas de sucesso dependentes não serão convertidas nos seguintes casos:
 
 * Se você criar uma dependência circular na qual a métrica1 é dependente da métrica2 e a métrica2 é dependente da métrica1, nenhuma métrica poderá ser convertida.
-* As atividades de Personalização automatizada liberam os usuários e reiniciam a atividade quando as métricas de conversão são atingidas; portanto, qualquer métrica dependente da métrica de conversão não será convertida.
+* [!UICONTROL Automated Personalization] atividades liberam usuários e reiniciam a atividade quando as métricas de conversão são atingidas, portanto, as métricas dependentes da métrica de conversão não serão convertidas.
 
 ### O que acontece depois que um usuário atinge esta métrica de meta?
 

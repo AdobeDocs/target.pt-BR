@@ -1,14 +1,14 @@
 ---
 keywords: avaliador de tráfego;personalização automatizada;ap;estimar tráfego;traffic estimor;automated personalization;ap;estimate traffic
-description: Use o  [!DNL Adobe Target] [!UICONTROL Traffic Estimator] para determinar se você tem tráfego suficiente para que sua atividade [!UICONTROL Automated Personalization] tenha êxito.
+description: Use o [!UICONTROL Traffic Estimator] para avaliar se você tem tráfego suficiente para uma atividade [!UICONTROL Automated Personalization] ser bem-sucedida.
 title: Quanto tráfego é necessário para uma atividade [!UICONTROL Automated Personalization] bem-sucedida?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 10%
+source-wordcount: '721'
+ht-degree: 9%
 
 ---
 
@@ -24,13 +24,13 @@ Lembre-se de que o [!DNL Target] fornece experiências aleatoriamente até que o
 
 ## Usar o Avaliador de tráfego
 
-1. Na página [!UICONTROL Experiences] de [!UICONTROL Visual Experience Composer] em uma atividade [!UICONTROL Automated Personalization], clique no ícone **[!UICONTROL Traffic]**.
+1. Na página [!UICONTROL Experiences] de [!UICONTROL Visual Experience Composer] em uma atividade [!UICONTROL Automated Personalization], clique no ícone **[!UICONTROL Traffic]** ( ![Ícone do Avaliador de Tráfego](/help/main/assets/icons/Gauge2.svg) ) no canto superior esquerdo da página [!UICONTROL Experiences].
 
-   ![Ícone de tráfego](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
+   O [!UICONTROL Traffic Estimator] se abre.
 
-   O [!UICONTROL Traffic Estimator] se abre. Você pode clicar em **[!UICONTROL Traffic]** novamente para ocultar o [!UICONTROL Traffic Estimator].
+   ![Interface de usuário do Avaliador de tráfego](assets/ap-est.png)
 
-   ![Interface de usuário do Avaliador de tráfego](assets/ap_est.png)
+   Você pode clicar no ícone novamente para ocultar o [!UICONTROL Traffic Estimator].
 
 1. Especifique o índice de conversão típico (ou o índice de conversão que você espera dessa atividade), as impressões de atividade estimadas por dia e a duração do teste.
 
@@ -45,19 +45,19 @@ Lembre-se de que o [!DNL Target] fornece experiências aleatoriamente até que o
 
    Próximo à parte superior de [!UICONTROL Traffic Estimator], os valores inseridos são calculados e os resultados são mostrados.
 
-   ![Estimativa de tráfego com valores e resultados exibidos](assets/ap_est_no.png)
+   ![Estimativa de tráfego com valores e resultados exibidos](assets/ap-est-no.png)
 
    A estimativa muda, à medida que você muda os números. Por exemplo, se você estiver testando muitas combinações e sua taxa de conversão e impressões estiverem muito baixas, o [!UICONTROL Traffic Estimator] mostra por quanto tempo o teste deve ser executado para ser bem-sucedido. Ou, se o tráfego for baixo, o [!UICONTROL Traffic Estimator] pode sugerir um número menor de combinações de ofertas para que você possa executar o teste pelo número desejado de dias.
 
    Se você não tiver tráfego suficiente, considere o seguinte:
 
-   * Considere usar uma atividade de [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) em vez de [!UICONTROL Automated Personalization] para criar experiências com várias alterações de oferta em uma variação de experiência.
+   * Considere usar uma atividade [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) em vez de [!UICONTROL Automated Personalization] para criar experiências com várias alterações de oferta em uma variação de experiência.
    * Reduza o número de combinações de ofertas na atividade [!UICONTROL Automated Personalization].
    * Aumente a duração da atividade.
 
    Ajuste os números até que [!UICONTROL Traffic Estimator] indique que você tem tráfego suficiente e, em seguida, crie seu teste de acordo.
 
-   ![Avaliador de tráfego mostrando mensagem de tráfego suficiente](assets/ap_est_yes.png)
+   ![Avaliador de tráfego mostrando mensagem de tráfego suficiente](assets/ap-est-yes.png)
 
    Se o tráfego for suficiente, o ícone [!UICONTROL Traffic] mostrará uma marca de seleção verde. Se não for suficiente, o ícone mostrará um rótulo de aviso vermelho.
 

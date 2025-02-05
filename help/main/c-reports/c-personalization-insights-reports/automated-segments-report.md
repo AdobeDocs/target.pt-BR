@@ -5,10 +5,10 @@ title: O que é o relatório de Segmentos automatizados?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '2080'
-ht-degree: 60%
+source-wordcount: '2066'
+ht-degree: 59%
 
 ---
 
@@ -18,7 +18,7 @@ Informações sobre o relatório [!UICONTROL Automated Segments], um dos dois re
 
 >[!NOTE]
 >
->Considere o seguinte ao usar os relatórios do Personalization Insights:
+>Leve em consideração o seguinte ao usar relatórios de [!UICONTROL Personalization Insights]:
 >
 >* As atividades de AP e AT estão disponíveis como parte da solução [!DNL Target Premium]. Não estão incluídos com o [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
 >
@@ -36,13 +36,11 @@ Visitantes diferentes respondem de forma distinta às ofertas/experiências na a
 
 1. Clique em **[!UICONTROL Activities]** e depois clique na atividade [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) desejada da lista.
 
-   Se você tem muitas atividades, você pode filtrar a lista selecionando opções nas listas suspensas [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] e [!UICONTROL Activity Source].
+   Se você tiver muitas atividades, clique no ícone Filtro ( ![Ícone Filtro](/help/main/assets/icons/Filter.svg) ) para filtrar a lista selecionando opções nas listas suspensas [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] e [!UICONTROL Activity Source].
 
 1. Clique em **[!UICONTROL Reports]**.
 
-   O relatório do [Resumo do Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) ou do [Resumo do Direcionamento automático](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) é exibido e fornece informações sobre o desempenho de suas atividades, representado pelo primeiro ícone da tela. Os dois ícones adicionais representam os dois relatórios dos Insights de personalização: Segmentos automatizados e Atributos importantes. O Direcionamento automático tem um ícone de gráfico extra para a exibição gráfica do relatório [!UICONTROL Summary].
-
-   ![Relatório do Personalization Insights no Adobe Target](/help/main/c-reports/assets/personalization_insights.png)
+   O relatório do [Resumo do Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) ou do [Resumo do Direcionamento automático](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) é exibido e fornece informações sobre o desempenho de suas atividades, representado pelo primeiro ícone da tela. Os dois ícones adicionais representam os dois relatórios do [!UICONTROL Personalization Insights]: **[!UICONTROL Automated Segments]** ( ![relatório de Segmentos automatizados](/help/main/assets/icons/AutomatedSegment.svg) ) e **[!UICONTROL Important Attributes]** ( ![ícone de Atributos importantes](/help/main/assets/icons/ViewList.svg) ). O Direcionamento automático tem um ícone de gráfico extra para a exibição gráfica do relatório [!UICONTROL Summary].
 
    >[!IMPORTANT]
    >
@@ -50,23 +48,15 @@ Visitantes diferentes respondem de forma distinta às ofertas/experiências na a
 
 1. Após 15 dias da ativação da atividade, você pode clicar no ícone **[!UICONTROL Automated Segments]**.
 
-   ![Ícone de Segmentos automatizados](/help/main/c-reports/assets/icon-automated-sements.png)
-
 1. Selecione o intervalo de datas desejado.
 
    Ao contrário do relatório do [!UICONTROL Summary] (relatórios de desempenho), o [!UICONTROL Personalization Insights], incluindo o [!UICONTROL Automated Segments], está disponível apenas para intervalos de datas fixos: 15 dias, 30 dias e 60 dias. Esses intervalos de datas fixos permitem que [!UICONTROL Personalization Insights] use um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. As duas decisões que você pode fazer para o intervalo de datas é a &quot;Data final&quot; e a &quot;Duração&quot;. Você notará que a opção &quot;Iniciar&quot; está esmaecida. A data inicial muda automaticamente com base nas seleções de data final e duração.
 
-   ![Calendário no relatório do Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
-
-   Você pode acessar os intervalos de datas fixos disponíveis na lista suspensa [!UICONTROL Choose Duration].
-
-   ![Lista suspensa de duração no Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   Você pode acessar os intervalos de datas fixos disponíveis na lista suspensa [!UICONTROL Preset Date Range].
 
 1. Revise os dados do relatório [!UICONTROL Automated Segments].
 
-   ![Relatório de Segmentos automáticos](/help/main/c-reports/assets/automated_segments_report.png)
-
-1. (Opcional) [Baixe o relatório no formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) para análise no Excel e em outras ferramentas.
+1. (Opcional) Clique no ícone **[!UICONTROL Download]** ( ![Ícone de download](/help/main/assets/icons/Download.svg) ) para [baixar o relatório no formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) para análise no Excel e em outras ferramentas.
 
    >[!NOTE]
    >

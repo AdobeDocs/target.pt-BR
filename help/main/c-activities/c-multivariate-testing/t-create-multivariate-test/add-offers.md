@@ -4,10 +4,10 @@ description: Saiba como usar o [!UICONTROL Visual Experience Composer] (VEC) no 
 title: Como criar combinações em um [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-source-git-commit: 4a18dc6c9988e593a65bdcf695113d7179d88290
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 56%
+source-wordcount: '470'
+ht-degree: 54%
 
 ---
 
@@ -27,33 +27,25 @@ Para obter mais informações sobre como usar o VEC para criar e editar ofertas,
 
 Teste várias ofertas de imagens dentro de um local para determinar qual imagem é mais bem sucedida.
 
-1. Clique em uma imagem na sua página e selecione **[!UICONTROL Change Image]**.
+1. Clique em uma imagem na sua página e selecione **[!UICONTROL Change Image Offer]**.
 
-   ![Opção Alterar imagem](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
-
-1. Selecione todas as imagens que deseja incluir no teste e clique em **[!UICONTROL Save]**.
-
-   ![Caixa de diálogo Selecionar conteúdo usada para adicionar imagens](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
+1. Na caixa de diálogo [!UICONTROL Image Offer], selecione todas as imagens que deseja incluir no teste e clique em **[!UICONTROL Add]**.
 
 Cada imagem se torna uma experiência separada nesse local.
 
 ## Ofertas HTML  {#section_DF016101AFA9412C9B99862C23DE77B1}
 
-Teste várias ofertas em Texto/HTML de um local para determinar qual é mais bem-sucedida.
+Teste várias ofertas HTML de um local para determinar qual é mais bem sucedida.
 
-1. Clique na oferta Texto/HTML na sua página e depois em **[!UICONTROL Change Text/HTML]**.
+1. Clique em uma oferta HTML na sua página e em **[!UICONTROL Change HTML Offer]**.
 
-   ![Alterar texto/HTML](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
+1. Clique em **[!UICONTROL Create Offer]**, clique em **[!UICONTROL HTML Offer]**, nomeie a oferta, digite ou cole o código para a oferta HTML e clique em **[!UICONTROL Create]**.
 
-1. Clique em **[!UICONTROL Add Text/HTML Offer]**, nomeie a oferta e digite ou cole o código para a oferta Text/HTML.
-
-   ![Editar ofertas](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
-
-   Repita o procedimento para qualquer oferta em Texto/HTML adicional que queira incluir.
+   Repita o procedimento para qualquer oferta em HTML adicional que queira incluir.
 
 1. Clique em **[!UICONTROL Save]**.
 
-Cada oferta em Texto/HTML se torna uma experiência separada nesse local.
+Cada oferta em HTML se torna uma experiência separada nesse local.
 
 ## Práticas recomendadas {#section_2E98C23D2F1A460FA732A31799CE6291}
 
@@ -64,4 +56,3 @@ Cada oferta em Texto/HTML se torna uma experiência separada nesse local.
 * Você deve ter pelo menos três elementos para testar. Se houver menos elementos, execute uma série de testes A/B.
 * As alternativas de cada elemento devem ser significativamente diferentes entre si.
 * Embora não seja obrigatório, é uma boa prática que cada elemento tenha o mesmo número de alternativas.
-

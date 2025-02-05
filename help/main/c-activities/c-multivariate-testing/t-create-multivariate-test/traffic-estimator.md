@@ -4,18 +4,18 @@ description: Saiba como usar o Avaliador de tráfego que permite saber se você 
 title: Quanto tráfego é necessário para uma atividade de [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
-source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 53%
+source-wordcount: '485'
+ht-degree: 21%
 
 ---
 
 # Estimar o tráfego necessário para uma atividade [!UICONTROL Multivariate Test] bem-sucedida
 
-Como o teste multivariado compara várias experiências, é importante saber qual é a quantidade de tráfego necessária para oferecer resultados significativos. O Avaliador de tráfego usa estatísticas sobre a página e a quantidade de experiências que estão sendo testadas para estimar a quantidade de tráfego e a duração do teste necessárias para que o teste seja bem-sucedido.
+Como o teste multivariado compara várias experiências, é importante saber qual é a quantidade de tráfego necessária para oferecer resultados significativos. O [!UICONTROL Traffic Estimator] usa estatísticas sobre sua página e o número de experiências que estão sendo testadas para estimar a quantidade de tráfego e a duração do teste necessárias para tornar o teste bem-sucedido.
 
-O Avaliador de tráfego prevê o tamanho da amostra necessária para assegurar o seguinte:
+O [!UICONTROL Traffic Estimator] prevê o tamanho de amostra necessário para garantir o seguinte:
 
 * 95% de confiança. Essa estatística significa que a chance de relatar um falso positivo se não houver aumento real é de 5% (100% - nível de confiança).
 * 80% de potência estatística. Essa estatística significa que o teste tem uma probabilidade de 80% de detectar um aumento real de 25% ou mais.
@@ -23,34 +23,32 @@ O Avaliador de tráfego prevê o tamanho da amostra necessária para assegurar o
 
 O teste usa a correção de Bonferroni para corrigir para várias comparações. Esse método é conhecido por ser conservador, pois é balanceado pela aplicação de uma elevação mínima detectável confiável grande.
 
-O Avaliador de tráfego também fornece um feedback que informa se você tem tráfego suficiente para que o teste que criou seja bem-sucedido.
+O [!UICONTROL Traffic Estimator] também fornece feedback que permite saber se você tem tráfego suficiente para o teste que você projetou para ter sucesso.
 
-1. No [!UICONTROL Visual Experience Composer], clique no ícone **[!UICONTROL Traffic]**.
+1. Na página [!UICONTROL Experiences] de [!UICONTROL Visual Experience Composer] em uma atividade [!UICONTROL Multivariate], clique no ícone **[!UICONTROL Traffic]** ( ![Ícone do Avaliador de Tráfego](/help/main/assets/icons/Gauge2.svg) ) no canto superior esquerdo da página [!UICONTROL Experiences].
 
-   O Avaliador de tráfego é aberto. Você pode clicar no ícone **[!UICONTROL Traffic]** novamente para ocultar o Avaliador de tráfego.
+   O [!UICONTROL Traffic Estimator] se abre.
 
-   ![imagem estimada vazia](assets/estimatorempty.png)
+   ![Interface de usuário do Avaliador de tráfego](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-est.png)
 
-1. Forneça a taxa de conversão típica, os visitantes estimados por dia e a duração do teste.
+   Você pode clicar no ícone novamente para ocultar o [!UICONTROL Traffic Estimator].
+
+   Próximo à parte superior de [!UICONTROL Traffic Estimator], os valores inseridos são calculados e os resultados são mostrados.
+
+1. (Condicional) Forneça a taxa de conversão típica, os visitantes estimados por dia e a duração do teste.
 
    * **[!UICONTROL Number of Content Combinations]**: calculado automaticamente com base no número de experiências que estão sendo criadas como parte da atividade após as exclusões.
    * **[!UICONTROL Typical Conversion Rate]**: A taxa de conversão é expressa como uma porcentagem, com base na estimativa ou dados passados do sistema de análise.
    * **[!UICONTROL Estimated Visitors Per Day]**: esse é o número de visitantes que provavelmente visualizarão essa página com base nos critérios de direcionamento. Isso pode se basear nos dados da análise.
    * **[!UICONTROL Test Duration]**: a quantidade de dias de duração da execução da atividade.
 
-   O Avaliador de tráfego usa essas estatísticas para determinar quais ajustes são necessários para executar um teste bem-sucedido.
+   O [!UICONTROL Traffic Estimator] usa essas estatísticas para determinar quais ajustes são necessários para executar um teste bem-sucedido.
 
-   Próximo da parte superior do Avaliador de tráfego, os valores inseridos são calculados, e os resultados são exibidos.
-
-   ![imagem insuficiente do estimador](assets/estimatorinsufficient.png)
-
-   A estimativa muda, à medida que você muda os números. Por exemplo, se você estiver testando muitas experiências e sua taxa de conversão e impressões estiverem muito baixas, o Avaliador de tráfego mostrará por quanto tempo o teste deve ser executado para ser bem-sucedido. Ou, se o tráfego for baixo, o Avaliador de tráfego poderá sugerir um número mais baixo de experiências para você poder executar o teste durante o número desejado de dias.
+   A estimativa muda, à medida que você muda os números. Por exemplo, se você estiver testando muitas experiências e sua taxa de conversão e impressões estiverem muito baixas, o [!UICONTROL Traffic Estimator] mostra por quanto tempo o teste deve ser executado para ser bem-sucedido. Ou, se o tráfego for baixo, o [!UICONTROL Traffic Estimator] pode sugerir um número menor de experiências para que você possa executar o teste o número desejado de dias.
 
    Caso não tenha tráfego suficiente, você pode fazer uma ou ambas as opções a seguir:
 
    * Reduza o número de combinações de ofertas e o número de locais.
    * Aumente a duração do teste.
 
-   Ajuste os números até que o Avaliador de tráfego indique que você tem tráfego suficiente, então, crie seu teste de acordo.
-
-   ![imagem estimatorok](assets/estimatorok.png)
+   Ajuste os números até que [!UICONTROL Traffic Estimator] indique que você tem tráfego suficiente e, em seguida, crie seu teste de acordo.

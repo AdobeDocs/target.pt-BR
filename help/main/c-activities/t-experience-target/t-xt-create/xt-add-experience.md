@@ -4,10 +4,10 @@ description: Saiba como usar o  [!DNL Adobe Target] [!UICONTROL Visual Experienc
 title: Como criar experiências em uma atividade [!UICONTROL Experience Targeting]?
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
-source-git-commit: 0dfdd995c00961ed2aed91ec03406e8493292af7
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 36%
+source-wordcount: '897'
+ht-degree: 24%
 
 ---
 
@@ -19,7 +19,7 @@ O [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] fornece u
 
    Ao [criar uma atividade [!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), a etapa um do fluxo de trabalho guiado de três etapas ([!UICONTROL Experiences]) exibe o [!UICONTROL Experience A] padrão com um público-alvo [!UICONTROL All Visitors].
 
-   ![Público-alvo de todos os visitantes](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
+   ![Público-alvo de todos os visitantes](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors-new.png)
 
    Todas as alterações feitas agora se aplicam a [!UICONTROL Experience A]. Em uma etapa abaixo, você clica em **[!UICONTROL Add Experience Targeting]** para criar experiências adicionais.
 
@@ -29,15 +29,13 @@ O [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] fornece u
    >
    >Por padrão, o VEC não permite alterações a elementos que contenham JavaScript, como banners giratórios. Você pode desativar o JavaScript para alterar esses elementos usando o VEC.
 
-1. Para criar experiências adicionais, clique em **[!UICONTROL Add Experience Targeting]**.
-
-   ![Link Adicionar Direcionamento de experiência](/help/main/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
+1. Para criar experiências adicionais, clique em **[!UICONTROL Add]** ( ![Botão Adicionar](/help/main/assets/icons/Add.svg) ).
 
    A caixa de diálogo [!UICONTROL Add Audience] é exibida. Para direcionar uma experiência para um público-alvo, selecione-o antes de adicionar a experiência.
 
    A biblioteca de público-alvo contém públicos que foram definidos previamente, inclusive alguns comuns que são predefinidos como parte do [!DNL Target]. Você pode selecionar um público-alvo da biblioteca ou [criar um novo público-alvo](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
-   Além de selecionar um público-alvo existente, você pode combinar vários deles para criar públicos-alvo combinados ad hoc em vez de criar um novo. Para obter mais informações, consulte [Combinar vários públicos-alvo](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   Além de selecionar um público existente, você pode combinar vários deles para criar públicos combinados sob demanda em vez de criar um novo. Para obter mais informações, consulte [Combinar vários públicos-alvo](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
    Ao criar um público-alvo, você pode selecionar um local e especificar parâmetros para esse local. Em [!UICONTROL Custom] ([!UICONTROL Create Audience] > [!UICONTROL Custom]), selecione o local e especifique os parâmetros desejados.
 
@@ -45,11 +43,9 @@ O [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] fornece u
    >
    >Os públicos-alvo são importados automaticamente em segundo plano quando você abre a lista de públicos-alvo e os públicos importados foram criados há mais de dez minutos.
 
-1. Selecione um ou mais públicos para direcionar com a experiência e clique em **[!UICONTROL Done]**.
+1. Selecione um ou mais públicos para direcionar com a experiência e clique em **[!UICONTROL Assign Audience]**.
 
-   ![Experiência B](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
-
-   A Experiência B agora é exibida na ilustração anterior e essa experiência é direcionada ao público-alvo de visitantes dos EUA.
+   A experiência B agora é exibida na ilustração anterior e essa experiência é direcionada para o público-alvo apropriado.
 
 1. Selecione os elementos que deseja alterar para essa experiência e faça as alterações desejadas, conforme explicado na Etapa 1 acima.
 
@@ -59,7 +55,7 @@ O [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] fornece u
 
    O diagrama da atividade é exibido:
 
-   ![Diagrama de Direcionamento XT](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
+   ![Diagrama de Direcionamento XT](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-refresh.png)
 
    >[!NOTE]
    >
@@ -67,38 +63,28 @@ O [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] fornece u
 
 1. (Condicional) Arraste e solte pares de público-alvo e experiência ao criar ou editar atividades do [!UICONTROL Experience Targeting] para organizar os pares na ordem desejada.
 
-   Os visitantes são avaliados quanto às experiências em ordem, de cima para baixo.
+   Clique no ícone Reordenar ( ![Ícone Reordenar](/help/main/assets/icons/Reorder.svg) ) para exibir a coluna [!UICONTROL Experiences] no lado direito e reorganize as experiências conforme desejado.
 
-   ![Mover experiências](/help/main/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
+   Os visitantes são avaliados quanto às experiências em ordem, de cima para baixo.
 
    [!UICONTROL Experience Targeting] presume que a ordem é importante. Se um visitante se enquadrar no primeiro par de público-alvo e experiência, a primeira experiência será entregue.
 
-   Por exemplo, suponha que você não estivesse ciente de que a ordem é importante ao criar uma atividade [!UICONTROL Experience Targeting]. Mais tarde você percebe durante os testes que visitantes que você pensava que deveriam se qualificar para as experiências B ou C estão se qualificando para a experiência A. Isso pode ocorrer pois os públicos-alvo não são mutualmente exclusivos e não estão na ordem correta (por exemplo, experiência A = Estados Unidos, experiência B = São Francisco e experiência C = Califórnia). Nesse cenário, todos os usuários dos Estados Unidos se qualificam para a experiência A, mesmo se estiverem em São Francisco ou em outro lugar da Califórnia. É possível reordenar os pares de público-alvo e experiência do mais restritivo para o menos restritivo (São Francisco > Califórnia > Estados Unidos) sem recriar toda a atividade.
+   Por exemplo, suponha que você não estivesse ciente de que a ordem é importante ao criar uma atividade [!UICONTROL Experience Targeting]. Posteriormente, você percebe, durante os testes, que os visitantes que você acha que deveriam se qualificar para as experiências B ou C estão qualificados para a experiência A. Essa situação pode ocorrer porque os públicos-alvo não são mutuamente exclusivos e não estão na ordem adequada (por exemplo, experiência A = Estados Unidos, experiência B = São Francisco e experiência C = Califórnia). Nesse cenário, todos os usuários dos Estados Unidos se qualificam para a experiência A, mesmo se estiverem em São Francisco ou em outro lugar da Califórnia. É possível reordenar os pares de público-alvo e experiência do mais restritivo para o menos restritivo (São Francisco > Califórnia > Estados Unidos) sem recriar toda a atividade.
 
    Se você tiver um público-alvo de [!UICONTROL All Visitors], certifique-se de que não seja o primeiro no diagrama. Uma experiência direcionada para &quot;[!UICONTROL All Visitors]&quot; pode ser usada como a última experiência na atividade [!UICONTROL Experience Targeting] para &quot;capturar&quot; todos os visitantes que não se enquadram em nenhuma outra experiência.
 
-## Renomear ou editar uma experiência
+## Renomear, editar, duplicar ou excluir uma experiência
 
-Você pode clicar no ícone [!UICONTROL Edit] (as reticências verticais) em uma experiência em uma atividade [!UICONTROL Experience Targeting] e escolher as seguintes opções, conforme necessário:
+Clique em uma experiência no diagrama em uma atividade [!UICONTROL Experience Targeting] para exibir a coluna [!UICONTROL Experiences] no lado direito.
 
-* [!UICONTROL Rename]
-* [!UICONTROL Edit]
+![Opções Renomear e Editar](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience_edit-refresh.png)
 
-![Opções Renomear e Editar](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience_edit-new.png)
+Escolha entre as seguintes opções, conforme necessário:
 
-## Excluir uma experiência
-
-Na página **[!UICONTROL Experiences]** (a primeira etapa do fluxo de trabalho guiado de três etapas), clique no ícone de reticências verticais > **[!UICONTROL Delete]**.
-
-![Excluir experiência](/help/main/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
-
-## Duplicar uma experiência
-
-Você pode copiar uma experiência em uma atividade [!UICONTROL Experience Targeting] para fazer pequenas alterações nela sem ter que recriar toda a experiência.
-
-Na página **[!UICONTROL Experiences]** (a primeira etapa do fluxo de trabalho guiado de três etapas), clique no ícone de reticências verticais > **[!UICONTROL Duplicate]**.
-
-![Experiência duplicada](/help/main/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
+* **[!UICONTROL Rename]**: Digite o nome desejado no campo [!UICONTROL Name].
+* **[!UICONTROL Edit]**: Clique no ícone Editar ( ![Ícone Editar](/help/main/assets/icons/Edit.svg) ) e faça as alterações desejadas.
+* **[!UICONTROL Duplicate]**: Copie uma experiência em uma atividade [!UICONTROL Experience Targeting] para fazer pequenas alterações nela sem ter que recriar toda a experiência. Clique no ícone [!UICONTROL Duplicate] ( ![Ícone Duplicar](/help/main/assets/icons/Duplicate.svg) ) e edite a experiência conforme necessário.
+* **[!UICONTROL Delete]**: Clique no ícone [!UICONTROL Delete] (![Ícone Excluir](/help/main/assets/icons/Delete.svg) ) e confirme a exclusão.
 
 ## Vídeos de treinamento:
 

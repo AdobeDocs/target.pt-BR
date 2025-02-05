@@ -6,10 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 42%
+source-wordcount: '768'
+ht-degree: 39%
 
 ---
 
@@ -30,8 +30,15 @@ Há duas opções disponíveis para controle nas atividades [!UICONTROL Automate
 ## Definir uma experiência específica como controle
 
 1. Ao criar ou editar uma atividade [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) ou [[!UICONTROL Auto-Target]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configure as experiências conforme desejado.
-1. Na página [!UICONTROL Targeting] (etapa 2 do fluxo de trabalho guiado de três etapas), selecione a experiência desejada como controle.
-1. Especifique a alocação de tráfego desejada para a experiência de controle e outras experiências.
+1. Na página [!UICONTROL Targeting] (etapa 2 do fluxo de trabalho guiado de três etapas), clique na experiência de controle para exibir as opções de [!UICONTROL Control] no painel direito.
+
+   ![Painel de controle](/help/main/c-activities/t-automated-personalization/assets/control.png)
+
+1. Na lista suspensa [!UICONTROL Control], selecione [!UICONTROL Random Experience] ou selecione a experiência desejada que deseja usar para o controle.
+
+1. Clique no controle [!UICONTROL Traffic Allocation] e especifique a alocação de tráfego desejada para a experiência de controle e as outras experiências.
+
+   ![Painel de alocação de tráfego](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation.png)
 
    Para um controle de experiência específico, recomenda-se de 10% a 30%.
 

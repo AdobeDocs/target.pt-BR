@@ -1,13 +1,13 @@
 ---
 keywords: vários públicos-alvo; versões de experiência; versões de experiência de direcionamento
-description: Saiba como direcionar versões da mesma experiência para públicos-alvo diferentes em  [!DNL Adobe Target] atividades A/B.
+description: Descubra como direcionar diferentes segmentos de público-alvo com versões da mesma experiência em atividades A/B.
 title: Posso usar várias versões de experiência em uma atividade A/B?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 53%
+source-wordcount: '593'
+ht-degree: 52%
 
 ---
 
@@ -33,13 +33,9 @@ Nesse caso, o que você precisa são versões geográficas específicas da exper
 
    Ao configurar a experiência que terá múltiplas versões, selecione o público-alvo para cada versão, conforme os passos a seguir.
 
-1. Selecione a experiência e clique em **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. Selecione a experiência e clique em **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**.
 
-   ![Opção de Vários públicos-alvo](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
-
-1. Clique em **[!UICONTROL Add Audience]** e selecione o primeiro público-alvo que deseja direcionar. Repita para cada público-alvo.
-
-   ![imagem de versões de expressão](assets/exp-versions.png)
+1. Clique no ícone **[!UICONTROL Add Audience]** ( ![Ícone Adicionar](/help/main/assets/icons/Add.svg) ) no painel [!UICONTROL Experience Audiences] e selecione o primeiro público-alvo que deseja direcionar. Repita para cada público-alvo.
 
    Se o público-alvo ainda não existir, clique em [Criar público-alvo](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) e configure-o.
 

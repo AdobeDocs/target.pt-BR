@@ -1,15 +1,15 @@
 ---
 keywords: personalização automatizada;ofertas;direcionamento;público-alvo;regras de direcionamento;direcionamento
-description: Saiba como direcionar ofertas individuais para públicos-alvo específicos usando uma atividade de [!UICONTROL Automated Personalization] (AP) no  [!DNL Adobe Target].
+description: Descubra como direcionar ofertas individuais para públicos específicos usando atividades de [!UICONTROL Automated Personalization] (AP).
 title: Como Posso Direcionar Ofertas De [!UICONTROL Automated Personalization]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
-source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 27%
+source-wordcount: '370'
+ht-degree: 19%
 
 ---
 
@@ -30,28 +30,24 @@ Nesse cenário, o Visitante 1 vê a Oferta 1 (porque esse visitante se qualifica
 
 ## Configurar regras de direcionamento
 
-1. Crie uma [atividade do Automated Personalization](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) contendo as ofertas que deseja direcionar.
-1. Depois de configurar as ofertas para a atividade no [!UICONTROL Visual Experience Composer], clique em **[!UICONTROL Manage Content]**.
-
-   ![Gerenciar conteúdo](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+1. Crie ou edite uma [atividade do Automated Personalization](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) contendo as ofertas que deseja direcionar.
+1. Depois de configurar as ofertas para a atividade no [!UICONTROL Visual Experience Composer], clique no ícone **[!UICONTROL Manage Content]** ( ![Ícone Gerenciar Conteúdo](/help/main/assets/icons/Experience.svg) ).
 
    A caixa de diálogo [!UICONTROL Manage Content] é exibida.
 
 1. Clique na guia **[!UICONTROL Offers]**.
 
-   ![Página de ofertas](/help/main/c-activities/t-automated-personalization/assets/manage-content-offers.png)
-
 1. Selecione as ofertas desejadas e escolha os públicos que deseja qualificar para ver essa oferta.
 
-   Para configurar o direcionamento para uma única oferta, passe o mouse sobre a oferta desejada e clique no ícone **[!UICONTROL Targeting]**.
+   Para configurar o direcionamento para uma única oferta, clique no ícone Mais Informações ( ![Mais Informações](/help/main/assets/icons/MoreSmallList.svg) ) ao lado da oferta desejada e, em seguida, clique em **[!UICONTROL Target Audience]** para exibir a caixa de diálogo [!UICONTROL Add Audiences].
 
-   Para configurar o direcionamento para várias ofertas, marque as caixas de seleção para as ofertas desejadas e clique no ícone **[!UICONTROL Targeting]**, que é exibido na parte superior direita da lista.
+   Para configurar o direcionamento para várias ofertas, marque as caixas de seleção para as ofertas desejadas e clique no link **[!UICONTROL Target Audience]**, que é exibido na parte inferior da lista.
 
-1. Na caixa de diálogo [!UICONTROL Choose Audience], selecione os públicos desejados para as ofertas e clique em **[!UICONTROL Done]** para retornar à caixa de diálogo [!UICONTROL Manage Content].
+1. Na caixa de diálogo [!UICONTROL Add Audiences], selecione os públicos desejados para as ofertas e clique em **[!UICONTROL Assign Audience]** para retornar à caixa de diálogo [!UICONTROL Manage Content].
 
    >[!NOTE]
    >
-   >Além de selecionar um público-alvo existente, você pode combinar vários deles para criar públicos-alvo combinados ad hoc em vez de criar um novo. Para obter mais informações, consulte [Combinar vários públicos-alvo](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >Além de selecionar um público existente, você pode combinar vários deles para criar públicos combinados sob demanda em vez de criar um novo. Para obter mais informações, consulte [Combinar vários públicos-alvo](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
 1. Clique em **[!UICONTROL Done]**.
 

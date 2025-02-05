@@ -1,12 +1,12 @@
 ---
 keywords: vários valores;atributos;recomendações;vários valores;vários valores
-description: Saiba como trabalhar com um campo de vários valores no Adobe [!DNL Target] Recommendations usando operadores especiais de vários valores, por exemplo, ao recomendar filmes com vários atores.
+description: Saiba como trabalhar com um campo de vários valores no  [!DNL Target Recommendations] usando operadores especiais de vários valores.
 title: Posso usar atributos de vários valores no Recommendations?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '441'
 ht-degree: 9%
 
 ---
@@ -118,7 +118,7 @@ Representação da API JSON da regra de inclusão:
 
 ### Exemplo: criação de critérios pela API recomendando itens dos favoritos de um usuário
 
-Critérios usando regras de filtragem de vários valores, como todos os critérios, podem ser criados por meio de APIs Adobe I/O. Um exemplo de chamada de API para criar um critério em que o atributo de entidade `id` está contido na lista de parâmetros de mbox `favorites` é fornecido aqui:
+Critérios usando regras de filtragem de vários valores, como todos os critérios, podem ser criados por meio de [!DNL Adobe Target] APIs. Um exemplo de chamada de API para criar um critério em que o atributo de entidade `id` está contido na lista de parâmetros de mbox `favorites` é fornecido aqui:
 
 ```
 curl -X POST \
@@ -158,7 +158,7 @@ curl -X POST \
 Isso seria emparelhado com o JavaScript na página para transmitir o conteúdo dos favoritos:
 
 ```
-<!-- pass in the value of mbox parameter “favorites” as JSON array -->
+<!-- pass in the value of mbox parameter "favorites" as JSON array -->
 <script type="text/javascript">
    mboxCreate('myMbox','entity.id=<key>','favorites=["a","b","c"]');
 </script>

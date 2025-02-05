@@ -4,7 +4,7 @@ description: Saiba como especificar métricas em uma atividade  [!DNL Adobe Targ
 title: Como definir métricas de meta em uma atividade [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
-source-git-commit: 6c00224e814abb33cdf968a249bd36fb2e5ed2ed
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 60%
@@ -20,7 +20,7 @@ Para obter informações detalhadas sobre métricas de sucesso, consulte [Métri
 1. Especifique a meta da atividade.
 1. Selecione uma métrica [de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![Definir lista de métricas](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
+   ![Definir lista de métricas](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list-new.png)
 
    A página [!UICONTROL Select Metrics] lista as métricas de sucesso que você pode escolher para a sua atividade. As métricas de sucesso são divididas nas seguintes categorias:
 
@@ -41,7 +41,7 @@ Para obter informações detalhadas sobre métricas de sucesso, consulte [Métri
    Para obter mais informações, consulte [Métricas de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
 1. (Opcional) Adicione condições adicionais.
-1. Clique em **[!UICONTROL Continue]** quando terminar de definir suas métricas.
+1. Clique em **[!UICONTROL Save and Close]** quando terminar de definir suas métricas.
 
 Ao nomear ou renomear uma métrica, os seguintes caracteres não são permitidos:
 

@@ -4,18 +4,18 @@ description: Veja um resumo da atividade de [!UICONTROL Multivariate Test] (MVT)
 title: Como posso visualizar o resumo de uma atividade do [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
-source-git-commit: ba4eb936a0fcf3a8ec7ed7ca87625a9829deb901
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 39%
+source-wordcount: '101'
+ht-degree: 34%
 
 ---
 
 # Resumo do teste ([!UICONTROL Multivariate Test])
 
-O resumo do teste fornece uma visão geral visual do seu [!DNL Adobe Target] [!UICONTROL Multivariate Test].
+A página [!UICONTROL Targeting] fornece uma visão geral visual do [!UICONTROL Multivariate Test] do [!DNL Adobe Target].
 
-![Caixa de diálogo Testar resumo](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary2new.png)
+![Caixa de diálogo Testar resumo](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary-new.png)
 
 O resumo do teste mostra:
 
@@ -25,4 +25,4 @@ O resumo do teste mostra:
 * Algoritmo: O único algoritmo disponível é [!UICONTROL Full Factorial]. O nome do algoritmo é fornecido apenas para fins informativos, para que você saiba qual algoritmo está sendo usado.
 * O número de experiências incluídas e excluídas.
 
-Clique em **[!UICONTROL Continue]** quando você estiver satisfeito com a configuração de teste. A página Metas e configurações é aberta.
+Clique em **[!UICONTROL Next]** quando você estiver satisfeito com a configuração de teste. A página [!UICONTROL Goals and Settings] é aberta.

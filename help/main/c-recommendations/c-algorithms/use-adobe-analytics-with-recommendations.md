@@ -1,32 +1,30 @@
 ---
 keywords: fonte de dados comportamentais;análises;recomendações;critérios;variáveis do produto
-description: Saiba como usar o [!DNL Adobe Analytics] como a fonte de dados comportamentais para usar os dados comportamentais baseados em visualização e/ou compra do [!DNL Analytics] no [!DNL Target Recommendations].
+description: Saiba como usar o  [!DNL Adobe Analytics]  como a fonte de dados comportamentais no  [!DNL Target Recommendations].
 title: Como usar [!DNL Adobe Analytics] com [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 1%
+source-wordcount: '757'
+ht-degree: 0%
 
 ---
 
 # Usar [!DNL Adobe Analytics] com [!DNL Recommendations]
 
-Usar [!DNL Adobe Analytics] como fonte de dados comportamentais permite que os clientes usem os dados comportamentais baseados em visualização e/ou compra de [!DNL Analytics] em [!DNL Adobe Target] [!DNL Recommendations] atividades. Este recurso é especialmente útil em situações em que a configuração do [!DNL Target Recommendations] é nova e o [!DNL Analytics] tem muitos dados históricos para usar.
+Usar [!DNL Adobe Analytics] como a fonte de dados comportamentais permite que os clientes usem os dados comportamentais baseados em visualização e em compra de [!DNL Analytics] em [!DNL Adobe Target Recommendations] atividades. Este recurso é especialmente útil em situações em que a configuração do [!DNL Target Recommendations] é nova e o [!DNL Analytics] tem muitos dados históricos para usar.
 
 Usar [!DNL Analytics] como fonte de dados comportamentais pode atuar como uma fonte rica de informações sobre o comportamento do usuário. Essas informações podem incluir dados de uma fonte de terceiros ou feed que são compartilhados somente com [!DNL Analytics].
 
 Ao [criar o critério](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) em [!DNL Recommendations], há dois botões de opção que permitem escolher qual fonte de dados deve ser usada: [!UICONTROL mboxes] ou [!UICONTROL Analytics]. Para criar um critério, clique em [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]. Para obter mais informações, consulte [Criar critérios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
 
-![Botões comportamentais da fonte de dados](assets/behavioral-data-source.png)
-
 >[!NOTE]
 >
 >Se esses dois botões não forem exibidos na sua conta, entre em contato com o [Atendimento ao cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-## Casos de uso para dados do Analytics no Target
+## Casos de uso para dados [!DNL Analytics] em [!DNL Target]
 
 Usar [!DNL Analytics] como a fonte de dados comportamentais para recomendações também permite implantar casos de uso específicos sem o requisito de marcar páginas de entidade com todos os parâmetros de entidade [!DNL Target]. Embora isso exija que determinados pré-requisitos estejam em vigor, a disponibilidade de &quot;Variáveis de produto&quot; é a coisa mais importante para que essa funcionalidade funcione perfeitamente. eVars e Props comuns não são suficientes para que esse handshake ocorra automaticamente entre [!DNL Analytics] e [!DNL Target].
 
@@ -63,13 +61,9 @@ Agora é hora de mapear essas variáveis no lado [!DNL Target] para o fornecimen
 
 1. Em [!DNL Target], clique em **[!UICONTROL Recommendations]** e, em seguida, clique na guia **[!UICONTROL Feeds]**.
 
-   ![Feeds](/help/main/c-recommendations/c-algorithms/assets/feeds-tab.png)
-
 1. Clique em **[!UICONTROL Create Feed]**.
 
 1. Selecione **[!UICONTROL Analytics Classifications]** e especifique o conjunto de relatórios.
-
-   ![Opção de Classificações do Analytics](/help/main/c-recommendations/c-algorithms/assets/analytics-classifications.png)
 
 1. Clique em **[!UICONTROL Next]** para avançar para as configurações de **[!UICONTROL Schedule]** e selecione um período de frequência para o feed:
 
@@ -81,8 +75,6 @@ Agora é hora de mapear essas variáveis no lado [!DNL Target] para o fornecimen
    Você também pode selecionar a hora do dia em que o feed será processado.
 
 1. Clique em **[!UICONTROL Next]** para avançar para as configurações de **[!UICONTROL Mapping]** e mapear os cabeçalhos de coluna de campo para os nomes de campo [!UICONTROL Recommendations] apropriados.
-
-   ![Seção de mapeamento](/help/main/c-recommendations/c-algorithms/assets/mapping.png)
 
 1. Clique em **[!UICONTROL Save]**.
 

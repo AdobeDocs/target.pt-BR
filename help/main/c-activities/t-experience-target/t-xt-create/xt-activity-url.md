@@ -4,10 +4,10 @@ description: Saiba como especificar a [!UICONTROL Activity URL] que determina a 
 title: O que é o [!UICONTROL Activity URL] em uma atividade [!UICONTROL Experience Targeting] (XT)?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-source-git-commit: 24513d8cb39d38dcfbc74bf40961d5517cc90a4b
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 39%
+source-wordcount: '259'
+ht-degree: 38%
 
 ---
 
@@ -27,13 +27,11 @@ O [!UICONTROL Activity URL] determina a página que é usada em uma atividade [!
 
 1. (Condicional) Para exibir uma página diferente após a abertura do VEC, clique em **[!UICONTROL Configure]**, selecione **[!UICONTROL Page Delivery]** e especifique a URL no campo [!UICONTROL URL].
 
-   ![Caixa de diálogo Entrega de página](/help/main/c-activities/t-experience-target/t-xt-create/assets/url-config-new.png)
-
    >[!NOTE]
    >
    >Se você alterar o URL após fazer alterações de uma ou mais experiências em uma página, a experiência será redefinida usando a nova página, e as alterações que você fez são perdidas.
 
-1. (Condicional) Clique em **[!UICONTROL Add Template Rule]** para adicionar mais páginas ou seções à atividade.
+1. (Condicional) Clique em **[!UICONTROL Add Rule]** para adicionar mais páginas ou seções à atividade.
 
    Regras adicionais podem ser baseadas em qualquer um dos seguintes:
 

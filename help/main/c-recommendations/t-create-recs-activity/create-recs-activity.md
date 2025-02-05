@@ -1,48 +1,44 @@
 ---
 keywords: criar recomendações, atividade do recommendations, novas recomendações, visão geral do recommendations
-description: Saiba como usar o Adobe [!DNL Target] Visual Experience Composer (VEC) para criar uma atividade do Recommendations diretamente em uma página habilitada para  [!DNL Target].
-title: Como criar uma atividade do Recommendations?
+description: Saiba como usar o  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma atividade  [!DNL Recommendations] .
+title: Como criar uma atividade  [!DNL Recommendations] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 3c687b2d28f576a60951c8bb10434250104500b4
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 55%
+source-wordcount: '1176'
+ht-degree: 52%
 
 ---
 
-# Criar uma atividade do Recommendations
+# Criar uma atividade [!DNL Recommendations]
 
-Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Recommendations diretamente em uma página habilitada para o Target e modificar partes da página no Target.
+Use o [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma atividade do [!DNL Recommendations] diretamente em uma página habilitada para [!DNL Target] e modificar partes da página no [!DNL Target].
 
 1. Clique em **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
 
-1. Selecione **[!UICONTROL Visual (Default)]**, se necessário.
+1. Selecione **[!UICONTROL Visual]**, se necessário.
 
-   ![Caixa de diálogo Criar atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
-
-   Se preferir usar o Experience Composer baseado em formulário, selecione [!UICONTROL Form]. Consulte [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md) para obter mais informações.
+   Se preferir usar o [!UICONTROL Form-Based Experience Composer], selecione [!UICONTROL Form]. Consulte [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md) para obter mais informações.
 
    >[!NOTE]
    >
-   >Além do VEC e do Experience Composer baseado em formulário, o Target oferece o VEC para aplicativo de página única e o VEC para aplicativos móveis. Para obter mais informações sobre os vários composers, consulte [Experiências e ofertas](/help/main/c-experiences/experiences.md).
+   >Além do VEC e do [!UICONTROL Form-Based Experience Composer], o [!DNL Target] oferece o VEC [!UICONTROL Single Page Application]. Para obter mais informações sobre os vários composers, consulte [Experiências e ofertas](/help/main/c-experiences/experiences.md).
    >
    >Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
-   >
-   >A opção [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) na ilustração anterior é um recurso do [Target Premium](/help/main/c-intro/intro.md). Caso não veja essa opção, a licença da organização é da Target Standard.
 
-1. (Condicional) Se você for um [cliente do Target Premium](/help/main/c-intro/intro.md#premium), escolha um [espaço de trabalho](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Condicional) Escolha um [espaço de trabalho](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. Especifique uma URL de atividade e clique em **[!UICONTROL Next]**.
+1. Especifique uma URL de atividade e clique em **[!UICONTROL Create]**.
 
    >[!NOTE]
    >
    >[!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]). Como resultado, [!DNL `http://www.adobe.com`] e [!DNL `https://wwww.adobe.com`] são correspondentes.
 
-   O URL de atividade é a página onde as recomendações serão exibidas.
+   O URL da atividade é a página onde as recomendações são exibidas.
 
-   Ao clicar em [!UICONTROL Next], o VEC é aberto e mostra sua página. Você pode substituir um elemento atual com recomendações ou inseri-las.
+   Ao clicar em [!UICONTROL Create], o VEC é aberto e mostra sua página. Você pode substituir um elemento atual com recomendações ou inseri-las.
 
 1. Clique em um elemento na página e, em seguida, se as recomendações estiverem disponíveis no local onde esse elemento está localizado, clique em **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]** ou **[!UICONTROL Insert Recommendations After]**.
 

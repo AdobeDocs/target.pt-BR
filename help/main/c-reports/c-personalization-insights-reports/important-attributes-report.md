@@ -5,9 +5,9 @@ title: O que é o Relatório de atributos importantes?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1773'
 ht-degree: 56%
 
 ---
@@ -36,25 +36,20 @@ Em atividades diferentes, atributos distintos são mais ou menos importantes par
 
 1. Clique em **[!UICONTROL Activities]** e depois clique na atividade [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) desejada da lista.
 
-   Se você tem muitas atividades, você pode filtrar a lista selecionando opções nas listas suspensas [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] e [!UICONTROL Activity Source].
+   Se você tiver muitas atividades, clique no ícone Filtro ( ![Ícone Filtro](/help/main/assets/icons/Filter.svg) ) para filtrar a lista selecionando opções nas listas suspensas [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] e [!UICONTROL Activity Source].
 
 1. Clique em **[!UICONTROL Reports]**.
 
-   O relatório do [Resumo do Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) ou do [Resumo do Direcionamento automático](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) é exibido e fornece informações sobre o desempenho de suas atividades, representado pelo primeiro ícone da tela. Os dois ícones adicionais representam os dois relatórios do [!UICONTROL Personalization Insights]: [!UICONTROL Automated Segments] e [!UICONTROL Important Attributes].
+   O relatório do [Resumo do Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) ou do [Resumo do Direcionamento automático](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) é exibido e fornece informações sobre o desempenho de suas atividades, representado pelo primeiro ícone da tela. Os dois ícones adicionais representam os dois relatórios do [!UICONTROL Personalization Insights]: **[!UICONTROL Automated Segments]** ( ![relatório de Segmentos automatizados](/help/main/assets/icons/AutomatedSegment.svg) ) e **[!UICONTROL Important Attributes]** ( ![ícone de Atributos importantes](/help/main/assets/icons/ViewList.svg) ).
 
-   ![Relatório de resumo da atividade do Automated Personalization](/help/main/c-reports/assets/summary-report-ap.png)
 
    Observe que [!UICONTROL Auto-Target] tem um ícone de gráfico adicional para a exibição gráfica do relatório [!UICONTROL Summary].
-
-   ![Relatório de resumo da atividade de Direcionamento automático](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
    >O relatório [!UICONTROL Important Attributes] somente estará disponível em, no mínimo, 15 dias após você ter ativado a sua atividade. Durante esse período inicial, você não poderá acessar esse relatório ou clicar no ícone [!UICONTROL Important Attributes]. Após 15 dias, supondo que haja tráfego personalizado suficiente em sua atividade, o relatório [!UICONTROL Important Attributes] ficará disponível.
 
-1. Após 15 dias da ativação da atividade, clique no ícone **[!UICONTROL Important Attributes]**.
-
-   ![Ícone de Atributos importantes em um relatório do Adobe Target](/help/main/c-reports/assets/model_attribute_ranking.png)
+1. Após 15 dias da ativação da atividade, clique no ícone **[!UICONTROL Important Attributes]** ( ![Atributos importantes](/help/main/assets/icons/ViewList.svg) ).
 
 1. Selecione o intervalo de datas desejado.
 
@@ -62,17 +57,11 @@ Em atividades diferentes, atributos distintos são mais ou menos importantes par
 
    Esses intervalos de datas fixos permitem que [!UICONTROL Personalization Insights] use um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. As duas decisões que você pode fazer para o intervalo de datas é a &quot;Data final&quot; e a &quot;Duração&quot;. Você perceberá que a opção &quot;Iniciar&quot; está em cinza. A data inicial muda automaticamente com base nas seleções de data final e duração.
 
-   ![Calendário em um relatório do Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
-
-   Você pode acessar os intervalos de datas fixos disponíveis na lista suspensa [!UICONTROL Choose Duration].
-
-   ![Escolha a lista suspensa Duração em um relatório](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   Você pode acessar os intervalos de datas fixos disponíveis na lista suspensa [!UICONTROL Preset Date Range].
 
 1. Revise os dados do relatório [!UICONTROL Important Attributes].
 
-   ![Relatório de Atributos Importantes no Adobe Target](/help/main/c-reports/assets/model_attribute_ranking_report.png)
-
-1. (Opcional) [Baixe o relatório no formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) para análise no Excel e em outras ferramentas.
+1. (Opcional) Clique no ícone Baixar ( ![ícone Baixar](/help/main/assets/icons/Download.svg) ) para [baixar o relatório no formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) para análise no Excel e em outras ferramentas.
 
    >[!NOTE]
    >

@@ -4,16 +4,16 @@ description: Saiba como criar públicos-alvo personalizados e salvá-los na bibl
 title: Como Construir Públicos?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
+source-git-commit: 19d2b14f137fe4dbf95e9f9f9b84f80b93d1e281
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 55%
+ht-degree: 48%
 
 ---
 
 # Criar públicos em [!DNL Target]
 
-Você pode criar públicos-alvo personalizados e salvá-los na biblioteca [!DNL Adobe Target] [!UICONTROL Audiences] para serem usados em suas atividades. Você também pode copiar um público-alvo existente que poderá editar para criar um público-alvo semelhante e combinar vários públicos-alvo.
+Crie públicos-alvo personalizados e salve-os na biblioteca [!DNL Adobe Target] [!UICONTROL Audiences] para usar em suas atividades. Você também pode copiar um público-alvo existente que poderá editar para criar um público-alvo semelhante e combinar vários públicos-alvo.
 
 ## Visão geral do público
 
@@ -25,13 +25,13 @@ Quando você combina regras e parâmetros com OU, qualquer membro em potencial d
 
 Você pode misturar operadores booleanos para criar regras complexas; no entanto, operadores no mesmo nível da regra devem ser compatíveis. A interface de usuário aplica o operador correto automaticamente.
 
-Por exemplo, a seguinte regra busca visitantes que estão usando Chrome *ou* Firefox em um computador com Windows:
+Por exemplo, a regra a seguir é direcionada a visitantes que usam [!DNL Chrome] *ou* [!DNL Firefox] em um computador [!DNL Windows]:
 
 ![Criar público-alvo](assets/audience_create.png)
 
 >[!NOTE]
 >
->Tenha cuidado para evitar criar regras que excluem todos membros em potencial do público-alvo. Por exemplo, não é possível alguém visitar sua página usando o Chrome *e* o Firefox simultaneamente.
+>Tenha cuidado para evitar criar regras que excluem todos membros em potencial do público-alvo. Por exemplo, não é possível alguém visitar sua página usando [!DNL Chrome] *e* [!DNL Firefox] simultaneamente.
 
 ## Criar um público-alvo
 
@@ -43,7 +43,7 @@ Por exemplo, a seguinte regra busca visitantes que estão usando Chrome *ou* Fir
 
    Ou
 
-   Para copiar um público-alvo existente, na lista [!UICONTROL Audiences], clique no ícone **[!UICONTROL More Actions]** (o ícone de reticências) e clique em **[!UICONTROL Duplicate]**. Você pode editar o público-alvo para criar um público-alvo semelhante.
+   Para copiar um público-alvo existente, na lista [!UICONTROL Audiences], clique no ícone **[!UICONTROL More Actions]** ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmallListVert.svg) ) do público-alvo que você deseja copiar e clique em **[!UICONTROL Duplicate]**. Você pode editar o público-alvo para criar um público-alvo semelhante.
 
 1. Digite um nome de público-alvo descritivo e exclusivo e uma descrição opcional.
 
@@ -55,7 +55,7 @@ Por exemplo, a seguinte regra busca visitantes que estão usando Chrome *ou* Fir
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. Arraste e solte os atributos desejados da lista **[!UICONTROL Attributes]** à direita do painel do audience builder.
+1. Arraste e solte os atributos desejados da lista **[!UICONTROL Attributes]** à esquerda do painel do audience builder.
 
    ![Arrastar e soltar atributos](assets/drag-attribute.png)
 
@@ -63,7 +63,7 @@ Por exemplo, a seguinte regra busca visitantes que estão usando Chrome *ou* Fir
 
 1. Defina os parâmetros da regra.
 
-   Por exemplo, o público-alvo a seguir é direcionado a visitantes de Utah que usam o sistema operacional Macintosh.
+   Por exemplo, o público-alvo a seguir é direcionado aos visitantes de Utah que usam o sistema operacional [!DNL Macintosh].
 
    ![Público de Utah/Macintosh](assets/adience-builder.png)
 

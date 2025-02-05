@@ -1,14 +1,14 @@
 ---
 keywords: personalização automatizada;ap
-description: Saiba como criar uma atividade de [!UICONTROL Automated Personalization] (AP) no  [!DNL Adobe Target] usando o [!UICONTROL Visual Experience Composer].
+description: Saiba como criar uma atividade de [!UICONTROL Automated Personalization] (AP) usando o [!UICONTROL Visual Experience Composer].
 title: Como criar uma atividade [!UICONTROL Automated Personalization]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 27%
+source-wordcount: '1844'
+ht-degree: 23%
 
 ---
 
@@ -19,8 +19,6 @@ Crie uma atividade [!UICONTROL Automated Personalization] (AP) em [!DNL Adobe Ta
 O fluxo de trabalho da atividade de [!UICONTROL Automated Personalization] (AP) em [!DNL Target] varia do fluxo de trabalho dos outros tipos de atividade.
 
 1. Na lista [!DNL Target] [!UICONTROL Activities], clique em **[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]**.
-
-   ![Criar atividade: Personalização automatizada](/help/main/c-activities/t-automated-personalization/assets/ap-create-new.png)
 
 1. Para usar o [!UICONTROL Visual Experience Composer] (VEC), clique em **[!UICONTROL Visual]**.
 
@@ -34,17 +32,17 @@ O fluxo de trabalho da atividade de [!UICONTROL Automated Personalization] (AP) 
 
 1. (Condicional) [Escolha um espaço de trabalho](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. Verifique ou insira a URL da atividade e clique em **[!UICONTROL Create]**.
+1. Na caixa **[!UICONTROL Enter Activity URL]**, especifique sua [URL de atividade](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md).
 
-   >[!NOTE]
-   >
-   >[!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]). Como resultado, [!DNL `http://www.adobe.com`] e [!DNL `https://wwww.adobe.com`] são correspondentes.
+   Se sua conta foi [configurada com um URL padrão](/help/main/administrating-target/visual-experience-composer-set-up.md), esse URL aparece por padrão. Você pode alterar o URL padrão para outro, se necessário.
+
+   [!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]). Como resultado, [!DNL `http://www.adobe.com`] e [!DNL `https://wwww.adobe.com`] são correspondentes.
+
+1. Clique em **[!UICONTROL Create]**.
 
    A página com o URL especificado é aberta no VEC.
 
-1. Clique no campo **[!UICONTROL Name]** e digite o nome da atividade.
-
-   ![Campo nome](/help/main/c-activities/t-automated-personalization/assets/ap-new-name.png)
+1. Clique no ícone **[!UICONTROL Rename]** ( ![Ícone Renomear](/help/main/assets/icons/MoreSmallListVert.svg) ), clique em **[!UICONTROL Rename]**, especifique um nome para a atividade e clique em **[!UICONTROL Save]**.
 
    O nome da atividade não pode começar com nenhum dos seguintes caracteres:
 
@@ -74,13 +72,9 @@ O fluxo de trabalho da atividade de [!UICONTROL Automated Personalization] (AP) 
 
    Você pode selecionar várias imagens de uma vez no gerenciador de ativos. Isso permite visualizar rapidamente a página com cada uma das imagens configuradas para a atividade. Você também pode editar facilmente os elementos de texto em suas ofertas. Quando você edita um elemento, barras aparecem nele para indicar que foi alterado.
 
-1. Clique em **[!UICONTROL Manage Content]** para configurar as combinações disponíveis.
+1. Clique no ícone **[!UICONTROL Manage Content]** ( ![Ícone Gerenciar conteúdo](/help/main/assets/icons/Experience.svg) ) para configurar as combinações disponíveis.
 
-   ![Opção Gerenciar conteúdo](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
-
-   Uma caixa de diálogo é exibida com três opções na parte superior da tela: [!UICONTROL Experiences], [!UICONTROL Offers] e [!UICONTROL Exclusion Groups].
-
-   ![Caixa de diálogo Gerenciar conteúdo](/help/main/c-activities/t-automated-personalization/assets/ap_content-new.png)
+   Uma caixa de diálogo é exibida com duas opções na parte superior da tela: [!UICONTROL Experiences] e [!UICONTROL Offers].
 
    >[!NOTE]
    >
@@ -88,37 +82,60 @@ O fluxo de trabalho da atividade de [!UICONTROL Automated Personalization] (AP) 
 
    A lista [!UICONTROL Experiences] mostra cada parte do conteúdo selecionado para a atividade e o local ao qual está atribuído.
 
-   Você pode excluir experiências específicas ao passar o mouse sobre a experiência desejada e clicar no ícone [!UICONTROL Exclude].
+   Você pode excluir experiências específicas marcando a caixa de seleção ao lado da experiência desejada e clicando no ícone [!UICONTROL Exclude].
 
-   ![Cursor do mouse sobre o ícone Excluir](/help/main/c-activities/t-automated-personalization/assets/icon-exclude.png)
-
-   Você pode excluir ou incluir em lote as experiências marcando a caixa de seleção das experiências relevantes e, em seguida, clicando no ícone [!UICONTROL Exclude] no canto superior direito da caixa de diálogo.
-
-   ![Opções de exclusão em lote](/help/main/c-activities/t-automated-personalization/assets/batch-exclude.png)
-
-   É possível filtrar essa exibição de lista para ver apenas as atividades excluídas ou incluídas, clicando na lista suspensa [!UICONTROL Status].
+   Você pode excluir ou incluir em lote as experiências marcando a caixa de seleção das experiências relevantes e, em seguida, clicando no ícone [!UICONTROL Exclude].
 
 1. (Condicional) Clique em **[!UICONTROL Offers]** para selecionar partes do conteúdo e as atribuir a grupos de relatórios ou somente permitir que alguns visitantes vejam determinadas ofertas com o direcionamento.
 
    Para obter mais informações sobre grupos de relatórios, consulte [Oferecer grupos de relatórios no Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
 
-1. (Condicional) Clique em **[!UICONTROL Exclusion Groups]** para escolher qualquer combinação de elementos que você deseja excluir da atividade.
+<!--
+1. (Conditional) Click **[!UICONTROL Exclusion Groups]** to choose any combination of elements that you want to exclude from the activity.
 
-   ![Guia Grupos de exclusão da caixa de diálogo Gerenciar conteúdo](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
+   ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Embora você possa criar até 30.000 experiências em um teste de AP, o algoritmo tem melhor desempenho quando menos de 10.000 experiências distintas são usadas. Esse mesmo limite é aplicado mesmo quando a atividade tiver habilitado a opção [!UICONTROL Disalow Duplicates].
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
 
-   Se, atualmente, você não tem grupos de exclusão incluídos na atividade, clique em **Criar grupo de exclusão**. É possível filtrar para criar uma lista que mostre apenas as combinações que deseja excluir. Nomeie o grupo de exclusão e clique em **Salvar**.
+   If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
-   Para editar um grupo de exclusão existente, passe o mouse sobre o grupo que deseja editar e clique no ícone de lápis.
+   To edit an existing exclusion group, hover over the group you want to edit, then click the pencil icon.-->
 
 1. Clique em **[!UICONTROL Done]** quando terminar de configurar o conteúdo da sua atividade.
 
-1. A etapa **Direcionamento** lhe parece familiar se você já tiver usado outros tipos de atividades [!DNL Target]. Aqui, é possível selecionar um público-alvo e especificar a porcentagem de visitantes que visualizarão a experiência de controle clicando na lista suspensa **[!UICONTROL Custom Allocation]** e em **Avançar**.
+1. Clique em **[!UICONTROL Targeting]** na parte superior de [!UICONTROL Visual Experience Composer] para ir até a próxima etapa do fluxo de trabalho guiado em três etapas.
 
-   A lista suspensa [!UICONTROL Custom Allocation] permite escolher entre as seguintes opções:
+   A etapa **Direcionamento** lhe parece familiar se você já tiver usado outros tipos de atividades [!DNL Target]. Aqui, é possível selecionar um público-alvo e especificar a porcentagem de visitantes que visualizarão cada experiência.
 
-   ![Lista suspensa Meta de alocação de tráfego](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
+   O diagrama do fluxo é aberto.
+
+   ![Etapa de teste de direcionamento de AP](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
+
+   O diagrama do fluxo guia você pelas etapas da atribuição de um público-alvo e sua porcentagem de tráfego, selecionando o método de alocação de tráfego e especificando a alocação de tráfego para cada experiência na atividade.
+
+1. (Condicional) Clique no controle **[!UICONTROL All Visitors]** para selecionar outro público-alvo para a atividade.
+
+   O público-alvo [!UICONTROL All Visitors] está definido como padrão. Se você selecionar outro público-alvo, o nome dele será exibido no controle mais à esquerda.
+
+   O quadro direito é exibido, permitindo adicionar ou excluir um público-alvo e atribuir a porcentagem de visitante à atividade.
+
+   1. Para alterar o público-alvo, clique no ícone **[!UICONTROL Replace]** ( ![Ícone Substituir](/help/main/assets/icons/Retweet.svg) ) no quadro direito.
+   1. Na caixa de diálogo [!UICONTROL Add Audience], [selecione o público desejado](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) e clique em **[!UICONTROL Assign Audience]**.
+
+      Você pode clicar em **Combinar Públicos-alvo** para [criar um público-alvo que combine vários públicos-alvo](/help/main/c-target/combining-multiple-audiences.md).
+
+      Se você precisar criar um novo público-alvo que ainda não esteja no [!UICONTROL Audience Library], clique em **Criar público-alvo**. Durante o [fluxo de trabalho de criação de público-alvo](/help/main/c-target/c-audiences/audiences.md), você pode escolher entre as seguintes opções:
+
+      * **[!UICONTROL Audience Library]**: Crie um público-alvo sob demanda que seja salvo no [!UICONTROL Audience Library] e que possa ser reutilizado em outras atividades.
+      * **[!UICONTROL This activity only]**: Crie um [público-alvo específico da atividade](/help/main/c-target/creating-activity-only-audience.md) que não seja salvo no [!UICONTROL Audience Library] e possa ser usado somente na atividade atual.
+
+   1. Clique em **[!UICONTROL Visitor Percentage]** no quadro direito e escolha a porcentagem de visitantes qualificados que você deseja inserir na atividade.
+
+   Por exemplo, você pode limitar as entradas a 50% de todos os visitantes ou 45% do público-alvo na Califórnia.
+
+1. Clique no controle **[!UICONTROL Traffic Allocation]** para escolher entre as seguintes opções:
+
+   ![Opções da Meta de alocação de tráfego](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap-new.png)
 
    * **[!UICONTROL Evaluate Personalization Algorithm (50/50)]:** Se o objetivo for testar o algoritmo, use uma divisão de visitantes de 50/50% entre o controle e o algoritmo de destino. Esta divisão fornece a estimativa mais precisa do aumento. Recomenda-se usar com &quot;experiências aleatórias&quot; como controle.
    * **[!UICONTROL Maximizing Personalization Traffic (90/10)]:** Se o objetivo for criar uma atividade &quot;sempre ativa&quot;, coloque 10% dos visitantes no controle. Essa opção garante que haja dados suficientes para que os algoritmos continuem aprendendo ao longo do tempo. A desvantagem aqui é que, em troca da personalização de uma proporção maior de seu tráfego, você tem menos precisão em saber qual é o aumento exato. Independentemente da meta, essa opção é a divisão de tráfego recomendada ao usar uma experiência específica como controle.

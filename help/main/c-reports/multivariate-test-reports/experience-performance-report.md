@@ -4,26 +4,24 @@ description: Saiba como usar o relatório de Desempenho da experiência para ati
 title: Como usar o relatório de desempenho da experiência para testes multivariados?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 81%
+source-wordcount: '326'
+ht-degree: 75%
 
 ---
 
-# Relatório de desempenho da experiência (MVT)
+# Relatório [!UICONTROL Experience Performance] (MVT)
 
-O relatório de desempenho da experiência mostra como ocorre cada experiência da atividade. Esse relatório inclui informações sobre o número de participantes, a taxa de conversão, o aumento e a confiança.
+O relatório [!UICONTROL Experience Performance] mostra como ocorre cada experiência da atividade. Esse relatório inclui informações sobre o número de participantes, a taxa de conversão, o aumento e a confiança.
 
 Você pode selecionar uma ou mais experiências para compará-las. Clique em uma experiência e selecione **[!UICONTROL Preview]** para abrir a experiência em uma guia do navegador.
-
-![Relatório de desempenho da experiência no Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
 
 A parte superior do relatório mostra a métrica, as datas de início e término e o público-alvo usado no relatório. Você pode alterar qualquer um desses fatores.
 
 >[!NOTE]
 >
->O público-alvo e o seletor de métrica só estarão disponíveis se o Analytics for usado como a fonte de geração de relatórios.
+>O público-alvo e o seletor de métrica só estarão disponíveis se [!DNL Analytics] for usado como a fonte de relatórios.
 
 Em seguida, um gráfico de linhas fornece uma comparação visual de cada experiência em intervalos de tempo específicos. Este gráfico ajuda a visualizar se cada experiência é bem executada e como a hora do dia afeta o desempenho.
 

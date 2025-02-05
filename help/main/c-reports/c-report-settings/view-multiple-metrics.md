@@ -4,9 +4,9 @@ description: Saiba como selecionar várias métricas para visualizar em um relat
 title: Como exibir várias métricas em um relatório?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '391'
 ht-degree: 12%
 
 ---
@@ -27,8 +27,6 @@ Esteja ciente das seguintes informações ao trabalhar com várias métricas nos
 1. Para exibir um relatório, clique em **[!UICONTROL Activities]**, clique na atividade desejada da lista e na guia **[!UICONTROL Reports]**.
 1. Clique na lista suspensa **[!UICONTROL Report Metric]** para exibir as listas [!UICONTROL Shown Metrics] e [!UICONTROL Hidden Metrics].
 
-   ![imagem de multiple_metrics](assets/multiple_metrics.png)
-
    Você pode usar a caixa [!UICONTROL Search] para localizar rapidamente as métricas disponíveis para adicionar à lista [!UICONTROL Shown Metrics].
 
    Observe que você pode selecionar várias métricas dos modos [!UICONTROL Table View] e [!UICONTROL Graph View] do relatório.
@@ -46,10 +44,6 @@ Esteja ciente das seguintes informações ao trabalhar com várias métricas nos
 1. Clique em **[!UICONTROL Save]** quando terminar.
 1. (Condicional) Ao visualizar o relatório no [!UICONTROL Table View], passe o mouse sobre o cabeçalho da coluna de qualquer métrica para exibir uma seta azul. Clique na seta para expandir a tabela e exibir a [!UICONTROL Lift] e [!UICONTROL Confidence] para essa métrica.
 
-   ![imagem de tabela_de_métricas_múltiplas](assets/multiple_metrics_table.png)
-
    Você pode expandir apenas uma métrica/coluna por vez. Clique na seta novamente para recolher as colunas.
 
-1. (Condicional) Ao visualizar o relatório na Exibição em gráfico, você pode selecionar métricas individuais para exibição na lista suspensa:
-
-   ![imagem multiple_metrics_graph](assets/multiple_metrics_graph.png)
+1. (Condicional) Ao visualizar o relatório no [!UICONTROL Graph View], você pode selecionar métricas individuais para exibição na lista suspensa.

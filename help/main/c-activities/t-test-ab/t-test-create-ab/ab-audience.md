@@ -1,84 +1,67 @@
 ---
 keywords: público-alvo; selecionar público-alvo; escolher público-alvo; Seletores
-description: O público-alvo determina quais visitantes do site são inseridos na atividade Adobe [!DNL Target] .
+description: Defina quais visitantes do site ingressarão na sua atividade Adobe [!DNL Target] com base nos critérios de público-alvo.
 title: Como selecionar um público-alvo em uma atividade A/B  [!DNL Target] ?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: 676350453268e4ffc04df83dcda0525842ca8b07
+source-git-commit: f6845756f9d4220214b0d9131cd5f27db2ae94a9
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 64%
+source-wordcount: '526'
+ht-degree: 8%
 
 ---
 
 # Seleção do público-alvo
 
-O público-alvo determina quais visitantes do site são inseridos na atividade [!DNL Adobe Target].
+O público determina quais visitantes qualificados são inseridos na atividade [!DNL Adobe Target].
 
->[!NOTE]
->
->Além de selecionar um público-alvo existente, você pode combinar vários deles para criar públicos-alvo combinados ad hoc em vez de criar um novo. Para obter mais informações, consulte [Combinar vários públicos-alvo](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+A etapa [!UICONTROL Targeting] do fluxo de trabalho guiado de três partes ao [criar uma atividade](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) exibe um diagrama de fluxo que guia você pelas etapas de atribuição de um público-alvo e sua porcentagem de tráfego, selecionando o método de alocação de tráfego e especificando a alocação de tráfego para cada experiência na atividade.
 
-1. Na caixa [!UICONTROL Audience], clique no ícone **[!UICONTROL Edit]** (as reticências verticais) e clique em **[!UICONTROL Replace Audience]**.
+![Etapa de direcionamento de Teste A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
 
-   ![Opção Substituir público-alvo](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+Para obter mais informações sobre todas as opções no diagrama de fluxo, consulte [Criar uma atividade de Teste A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
-   Por padrão, todos os visitantes são seu público-alvo. No entanto, você pode mudar o público-alvo. Os públicos-alvo são selecionados na biblioteca de público-alvo ou você pode criar um público-alvo com apenas uma atividade. A biblioteca de público-alvo contém públicos que foram definidos previamente, inclusive alguns comuns que são predefinidos como parte de [!DNL Target].
+## Selecionar um público-alvo para a atividade
 
-1. Selecione ou crie o público-alvo desejado:
+1. Clique no controle **[!UICONTROL All Visitors]** para selecionar outro público-alvo para a atividade.
 
-   * Selecionar um público-alvo da biblioteca
-   * [Combinar vários públicos](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)
-   * [Criar um novo público](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
-   * [Criar um público somente atividade](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   O público-alvo [!UICONTROL All Visitors] está definido como padrão. Se você selecionar outro público-alvo, o nome dele será exibido no controle mais à esquerda.
 
    Para um teste A/B sem direcionamento específico de público, escolha o padrão, [!UICONTROL All Visitors].
 
-   Você também pode editar ou copiar um público-alvo passando o cursor do mouse sobre o público-alvo desejado na caixa de diálogo [!UICONTROL Add Audience], conforme mostrado abaixo.
+   O quadro direito é exibido, permitindo adicionar ou excluir um público-alvo e atribuir a porcentagem de visitante à atividade.
 
-   Copiar um público-alvo é útil se você deseja criar outro semelhante para um público-alvo existente. Você pode fazer uma cópia do público-alvo, fazer suas edições e salvá-lo como um público-alvo novo. Essa funcionalidade de passar o mouse sobre o item também existe em outros tipos de atividade.
+1. Para alterar o público-alvo, clique no ícone **[!UICONTROL Replace]** ( ![Ícone Substituir](/help/main/assets/icons/Retweet.svg) ) no quadro direito.
 
-   ![Cursor do mouse sobre o público-alvo](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
+1. Na caixa de diálogo [!UICONTROL Add Audience], [selecione o público desejado](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) e clique em **[!UICONTROL Assign Audience]**.
 
-   Ao criar um público-alvo, você pode selecionar um local (mbox) e especificar os parâmetros para esse local. Em [!UICONTROL Custom Parameters], selecione a mbox e especifique os parâmetros desejados.
+   Por padrão, todos os visitantes são seu público-alvo. No entanto, você pode mudar o público-alvo. Os públicos-alvo estão selecionados em [!UICONTROL Audience Library] ou você pode criar um público-alvo somente atividade. O [!UICONTROL Audience Library] contém públicos que foram definidos previamente, inclusive alguns comuns que são predefinidos como parte do [!DNL Target].
 
-   >[!NOTE]
-   >
-   >Os públicos-alvo são importados automaticamente em segundo plano quando você abre a lista de públicos-alvo e os públicos importados foram criados há mais de 10 minutos.
+1. (Condicional) Clique em **Combinar públicos-alvo** para [criar um público-alvo que combine vários públicos-alvo](/help/main/c-target/combining-multiple-audiences.md).
 
-1. (Condicional) Especifique a porcentagem de visitantes qualificados a serem incluídos na atividade.
+1. (Condicional) Para criar um novo público-alvo que ainda não esteja no [!UICONTROL Audience Library], clique em **Criar público-alvo**, defina o público-alvo e clique em **[!UICONTROL Done]**.
 
-   Por exemplo, você pode optar por incluir 50% de todos os visitantes.
+   Durante o [fluxo de trabalho de criação de público](/help/main/c-target/c-audiences/audiences.md), você pode escolher entre as seguintes opções:
 
-   ![Porcentagem de público-alvo](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+   * **[!UICONTROL Audience Library]**: Crie um público-alvo sob demanda que seja salvo no [!UICONTROL Audience Library] e que possa ser reutilizado em outras atividades.
+   * **[!UICONTROL This activity only]**: Crie um [público-alvo específico da atividade](/help/main/c-target/creating-activity-only-audience.md) que não seja salvo no [!UICONTROL Audience Library] e possa ser usado somente na atividade atual.
 
-   Você também pode optar por permitir que o Target [aloque tráfego automaticamente](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+1. Clique em **[!UICONTROL Visitor Percentage]** no painel direito e especifique a porcentagem de visitantes qualificados a serem incluídos na atividade.
 
-## Vídeos de treinamento
+1. Quando estiver satisfeito com seu público-alvo, clique em **[!UICONTROL Next]** para ir até a terceira etapa do fluxo de trabalho guiado em três etapas.
 
-Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
+>[!NOTE]
+>
+>Os públicos são importados automaticamente em segundo plano quando você abre a lista [!UICONTROL Audience] e os públicos importados foram criados há mais de 10 minutos.
 
-### Uso do Audiences no Adobe Target (6:21) ![Selo de visão geral](/help/main/assets/overview.png)
+## Exibir informações de um público-alvo
 
-Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium].
+1. Na caixa de diálogo [!UICONTROL Add Audiences], clique no ícone **[!UICONTROL Information]** ( ![Ícone de informações](/help/main/assets/icons/InfoOutline.svg) ) ao lado de um público-alvo para exibir detalhes sobre esse público-alvo, incluindo sua origem e atributos.
 
-* Explique o termo &quot;público-alvo&quot;
-* Explicar as duas maneiras como o público-alvo é usado para otimização
-* Encontre públicos-alvo na lista de públicos-alvo
-* Segmente uma atividade para um público-alvo
-* Use públicos-alvo para relatórios passivos em uma atividade
+1. Clique em **[!UICONTROL View Full Details]** para exibir detalhes adicionais sobre o público. Os detalhes incluem os atributos do público-alvo; a descrição, o espaço de trabalho, o tipo e a fonte do público-alvo; e uma lista de atividades que fazem referência a esse público-alvo. Você pode ver informações sobre cada público-alvo, incluindo nome da atividade, status, espaço de trabalho e quando o público-alvo foi modificado pela última vez e por quem.
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+## Editar ou copiar um público-alvo
 
-### Fluxo de trabalho da atividade - Direcionamento (2:14) ![Selo do tutorial](/help/main/assets/tutorial.png)
+Você pode editar ou copiar um público-alvo clicando no ícone [!UICONTROL More Actions] ( ![ícone Mais Ações](/help/main/assets/icons/More.svg) ) ao lado do público-alvo desejado na caixa de diálogo [!UICONTROL Add Audience] e clicando em [!UICONTROL Edit] ou [!UICONTROL Copy].
 
-Este vídeo inclui informações sobre a configuração de públicos-alvo.
-
-* Designar um público-alvo para sua atividade
-* Controle do tráfego
-* Selecione seu método de alocação de tráfego
-* Aloque o tráfego entre diferentes experiências
-
->[!VIDEO](https://video.tv.adobe.com/v/17385)
-
-Para obter informações detalhadas, consulte [Públicos-alvo](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+Copiar um público-alvo é útil se você deseja criar outro semelhante para um público-alvo existente. Você pode fazer uma cópia do público-alvo, fazer suas edições e depois salvá-lo como um novo público-alvo.

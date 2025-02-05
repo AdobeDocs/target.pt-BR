@@ -1,14 +1,14 @@
 ---
 keywords: recomendação, backup, fazer o back up
-description: Saiba como usar recomendações de backup no Adobe [!DNL Target] Recommendations. A recomendação de que não há itens recomendados suficientes exibe os resultados do algoritmo de backup.
-title: Como usar uma recomendação de backup no Recommendations?
+description: Saiba como usar recomendações de backup no Adobe [!DNL Target Recommendations].
+title: Como usar uma recomendação de backup no  [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 77%
+source-wordcount: '508'
+ht-degree: 70%
 
 ---
 
@@ -22,11 +22,11 @@ Se você não usar a recomendação de backup, se uma recomendação não tiver 
 >
 >Informações adicionais estão incluídas na seção [Conteúdo do tópico Criar critérios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), incluindo uma matriz que explica os resultados que você observará ao usar as opções [!UICONTROL Partial Design Rendering] e [!UICONTROL Show Backup Recommendations] juntas ou separadamente.
 
-O recurso de recomendação de backup sempre usa os principais itens visualizados no site para preencher as vagas restantes após os dados do algoritmo serem usados. Por exemplo, seu modelo está configurado para mostrar cinco itens recomendados e você está usando o algoritmo de *Afinidades de compra*. No entanto, você só tem dados suficientes para preencher duas das cinco vagas, de modo que o recurso de recomendação de backup preenche as outras três vagas com os itens mais visualizados.
+O recurso de recomendação de backup sempre usa os itens mais visualizados no site para preencher os slots restantes depois que os dados do algoritmo são usados. Por exemplo, seu modelo está configurado para mostrar cinco itens recomendados e você está usando o algoritmo de *Afinidades de compra*. No entanto, você só tem dados suficientes para preencher duas das cinco vagas, de modo que o recurso de recomendação de backup preenche as outras três vagas com os itens mais visualizados.
 
 As recomendações de backup são escolhidas de maneira aleatória dentre os 500 produtos mais exibidos em todo o site. O período para recomendações de backup é de uma semana.
 
-Os 500 resultados mais visualizados são ordenados sequencialmente e depois divididos em compartimentos de 20. Os compartimentos são exibidos em ordem, mas os resultados dentro de cada compartimento são randomizados e devolvidos à página. Se os usuários atualizarem a página, elas serão apresentadas com novos resultados aleatórios. Se o conjunto de resultados da união da coleção e das regras de filtragem for menor que 20, ele selecionará aleatoriamente a partir da coleção.
+Os 500 resultados mais visualizados são ordenados sequencialmente e depois divididos em compartimentos de 20. Os compartimentos são exibidos em ordem, mas os resultados dentro de cada compartimento são randomizados e devolvidos à página. Se os usuários atualizarem a página, elas serão apresentadas com novos resultados aleatórios. Se o conjunto de resultados da união da coleção e as regras de filtragem forem menores que 20, ele selecionará aleatoriamente da coleção.
 
 Esse processo de divisão de compartimentos significa que as recomendações de backup são exibidas na seguinte ordem:
 
