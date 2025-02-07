@@ -5,10 +5,8 @@ title: Como definir as configurações do Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Administration & Configuration
 role: Admin
-hide: true
-hidefromtoc: true
 exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
-source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
+source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
