@@ -4,9 +4,9 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f4562e10183f141fd78eb1e6daa95bd4e17be430
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1131'
 ht-degree: 15%
 
 ---
@@ -40,13 +40,13 @@ Conforme o esforço de modernização da interface do usuário do [!DNL Adobe Ta
 
 Com base no sistema de design [!DNL Adobe Spectrum] mais recente, a atualização padroniza padrões de design anteriormente inconsistentes, além de adicionar novas melhorias, como:
 
-* Relatórios reprojetados para obter melhores insights sobre os resultados da atividade
+* [Relatórios reprojetados](/help/main/administrating-target/reporting.md) para obter melhores insights sobre os resultados da atividade
 * Atualização da página [!UICONTROL Audit], obtendo agora as informações do [!DNL Audit API] para insights em tempo real
-* Exibições de lista personalizáveis no para maior flexibilidade entre diferentes necessidades de equipe
-* Melhorias nas telas de detalhes e informações rápidas para facilitar o acesso às informações
-* Opções de filtro e pesquisa persistentes na sessão
-* [!UICONTROL Visual Editing Composer] completamente reconstruído com suporte para as últimas atualizações de segurança de provedores de navegador e uma interface de usuário moderna
-* Atualização da extensão [!DNL Chrome] com suporte ao Manifesto V3 para maior segurança e melhor suporte para cookies primários
+* [Exibições de lista personalizáveis](/help/main/c-activities/activities.md) para oferecer mais flexibilidade entre diferentes necessidades de equipe
+* [Triagens de detalhes e informações rápidas aprimoradas](/help/main/c-activities/activities.md) para facilitar o acesso às informações
+* [Opções de filtro e pesquisa persistentes na sessão](/help/main/c-activities/activities.md)
+* [recriou completamente o [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) com suporte para as últimas atualizações de segurança de provedores de navegador e uma interface de usuário moderna
+* [Atualização [!DNL Chrome] extensão](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) com suporte ao Manifest V3 para maior segurança e melhor suporte para cookies próprios
 
 ![Atividades atualizadas](/help/main/r-release-notes/assets/activities-refresh.png)
 
@@ -60,11 +60,11 @@ Conforme o esforço de modernização da interface do usuário do [!DNL Adobe Ta
 
 Com base no sistema de design [!DNL Adobe Spectrum] mais recente, a atualização padroniza padrões de design anteriormente inconsistentes, além de adicionar novas melhorias, como:
 
-* A pesquisa no catálogo de produtos agora apresenta um banco de dados atualizado que permite a sincronização de produtos em tempo real
-* [!UICONTROL Recommendation] objetos ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] e [!UICONTROL Exclusions]) criados através da API agora estão disponíveis na interface
-* As configurações foram consolidadas na seção [!UICONTROL Administration]
+* A [pesquisa no catálogo de produtos](/help/main/c-recommendations/c-products/catalog-search.md) agora apresenta um banco de dados atualizado que permite a sincronização de produtos em tempo real
+* [!UICONTROL Recommendations] objetos ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] e [!UICONTROL Exclusions]) [criados através da API agora estão disponíveis na interface](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
+* [As configurações do Recommendations](/help/main/administrating-target/recommendations-settings.md) foram consolidadas na seção [!UICONTROL Administration]
 * Exibições de lista personalizáveis para maior flexibilidade entre diferentes necessidades da equipe
-* Editores de código HTML e JSON atualizados com realce de sintaxe e numeração de linha
+* Editores de HTML e código JSON atualizados com [realce de sintaxe e numeração de linha](/help/main/c-experiences/c-manage-content/create-json-offer.md)
 * Melhorias nas telas de detalhes e informações rápidas para facilitar o acesso às informações
 * Opções de filtro e pesquisa persistentes na sessão
 

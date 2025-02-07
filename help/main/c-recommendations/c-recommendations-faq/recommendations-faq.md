@@ -5,9 +5,9 @@ title: Onde posso encontrar perguntas e respostas sobre o  [!DNL Recommendations
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3506'
 ht-degree: 84%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 84%
 # Perguntas frequentes do Recommendations
 
 Lista de perguntas frequentes sobre as atividades do [!DNL Adobe Target] [!DNL Recommendations].
+
+## Os objetos [!DNL Recommendations] criados por meio da API são exibidos na interface do usuário [!DNL Target]?
+
+Sim, [!UICONTROL Recommendations] objetos ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] e [!UICONTROL Exclusions]) criados através da API agora estão disponíveis na interface.
 
 ## Posso gerenciar ofertas visuais criadas pela interface do usuário do [!DNL Target] usando as APIs do [!DNL Target]?
 
