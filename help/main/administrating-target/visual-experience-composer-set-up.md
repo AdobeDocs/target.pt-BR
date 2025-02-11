@@ -5,9 +5,9 @@ title: Como configurar o Visual Experience Composer (VEC)?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '679'
 ht-degree: 49%
 
 ---
@@ -55,7 +55,12 @@ Essa opção é útil se, por exemplo:
 
 Quando os instantâneos de experiência estão ativados, miniaturas são geradas para as experiências no diagrama de fluxo de trabalho da atividade. A desativação de instantâneos pode resultar no desempenho mais rápido para alguns usuários.
 
-## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."}
+## Configuração da janela de visualização móvel
+
+>[!NOTE]
+>
+>As configurações de [!UICONTROL Mobile Viewport Configuration] são um recurso do [Target Premium](/help/main/c-intro/intro.md#premium).
+
 
 É possível adicionar dispositivos para usar ao visualizar experiências. Cada dispositivo está associado a um público-alvo.
 
