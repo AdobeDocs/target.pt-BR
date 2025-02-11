@@ -4,9 +4,9 @@ description: Entenda as alterações introduzidas no Visual Experience Composer 
 title: Quais alterações são introduzidas no novo Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 75f44b7ea4c3aff0e33cc2ee54bc39a705deaf2a
+source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '643'
 ht-degree: 1%
 
 ---
@@ -15,11 +15,15 @@ ht-degree: 1%
 
 A versão [!DNL Adobe Target Standard/Premium] 25.2.1 (11 de fevereiro de 2015) introduz um [!UICONTROL Visual Experience Composer] (VEC) atualizado. Este artigo explica as diferenças entre as versões anteriores e atualizadas do VEC.
 
+>[!IMPORTANT]
+>
+>O [!UICONTROL Visual Editing Composer] atualizado exige a [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] extensão](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) disponível no Chrome Web Store.
+
 O VEC é exibido ao criar ou editar uma atividade existente.
 
 ![Visual Experience Composer (VEC)](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
 
-## Grandes alterações
+## Principais alterações no VEC
 
 As seções a seguir explicam as principais alterações no VEC atualizado em comparação à versão anterior.
 
@@ -99,4 +103,6 @@ O VEC atualizado também permite aumentar ou diminuir o zoom clicando no ícone 
 
 A ilustração a seguir mostra as alterações da interface do usuário de alto nível feitas no VEC atualizado. A parte superior da ilustração mostra a interface atualizada do VEC e a parte inferior mostra a interface anterior. As setas mostram para onde vários elementos foram movidos.
 
-![Comparação de VEC-novo para a interface anterior](/help/main/c-experiences/c-visual-experience-composer/assets/vec-comparison.png)
+(Clique na imagem para expandi-la até a largura total do navegador.)
+
+![Comparação de VEC-novo para a interface anterior](/help/main/c-experiences/c-visual-experience-composer/assets/vec-comparison.png){width="600" zoomable="yes"}
