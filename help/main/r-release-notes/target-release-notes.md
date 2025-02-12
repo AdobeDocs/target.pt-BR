@@ -4,7 +4,7 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 15%
@@ -15,7 +15,7 @@ ht-degree: 15%
 
 Este artigo contém informações de pré-lançamento das próximas versões do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: terça-feira, 10 de fevereiro de 2025**
+**Última atualização: quinta-feira, 12 de fevereiro de 2025**
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 >
 >Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-## Target Standard/Premium 25.2.1 (quarta-feira, 11 de fevereiro de 2025)
+## Target Standard/Premium 25.2.1 (quinta-feira, 12 de fevereiro de 2025)
 
 Esta versão do inclui as seguintes atualizações:
 
@@ -36,7 +36,7 @@ Conforme o esforço de modernização da interface do usuário do [!DNL Adobe Ta
 
 >[!NOTE]
 >
->A partir de 11 de fevereiro, os clientes terão gradualmente acesso à nova interface do usuário do [!UICONTROL Activities]. Para garantir uma implantação perfeita para todos os clientes, esta versão será implantada em estágios controlados. O primeiro estágio atualizará o grupo inicial de clientes [!DNL Target] para a nova interface do usuário [!UICONTROL Activities]. Os estágios subsequentes atualizarão os clientes restantes.
+>A partir de 12 de fevereiro, os clientes terão acesso gradual à nova interface do usuário do [!UICONTROL Activities]. Para garantir uma implantação perfeita para todos os clientes, esta versão será implantada em estágios controlados. O primeiro estágio atualizará o grupo inicial de clientes [!DNL Target] para a nova interface do usuário [!UICONTROL Activities]. Os estágios subsequentes atualizarão os clientes restantes.
 
 Com base no sistema de design [!DNL Adobe Spectrum] mais recente, a atualização padroniza padrões de design anteriormente inconsistentes, além de adicionar novas melhorias, como:
 
@@ -59,7 +59,7 @@ Conforme o esforço de modernização da interface do usuário do [!DNL Adobe Ta
 
 >[!NOTE]
 >
->A partir de 11 de fevereiro, os clientes terão gradualmente acesso à nova interface do usuário do [!UICONTROL Recommendations]. Para garantir uma implantação perfeita para todos os clientes, esta versão será implantada em estágios controlados. O primeiro estágio atualizará o grupo inicial de clientes [!DNL Target] para a nova interface do usuário [!UICONTROL Activities]. Os estágios subsequentes atualizarão os clientes restantes.
+>A partir de 12 de fevereiro, os clientes terão acesso gradual à nova interface do usuário do [!UICONTROL Recommendations]. Para garantir uma implantação perfeita para todos os clientes, esta versão será implantada em estágios controlados. O primeiro estágio atualizará o grupo inicial de clientes [!DNL Target] para a nova interface do usuário [!UICONTROL Activities]. Os estágios subsequentes atualizarão os clientes restantes.
 
 Com base no sistema de design [!DNL Adobe Spectrum] mais recente, a atualização padroniza padrões de design anteriormente inconsistentes, além de adicionar novas melhorias, como:
 
@@ -67,11 +67,11 @@ Com base no sistema de design [!DNL Adobe Spectrum] mais recente, a atualizaçã
 * [!UICONTROL Recommendations] objetos ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] e [!UICONTROL Exclusions]) [criados através da API agora estão disponíveis na interface](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [As configurações do Recommendations](/help/main/administrating-target/recommendations-settings.md) foram consolidadas na seção [!UICONTROL Administration]
 * Exibições de lista personalizáveis para maior flexibilidade entre diferentes necessidades da equipe
-* Editores de HTML e código JSON atualizados com [realce de sintaxe e numeração de linha](/help/main/c-experiences/c-manage-content/create-json-offer.md)
+* Editores de código HTML e JSON atualizados com [realce de sintaxe e numeração de linha](/help/main/c-experiences/c-manage-content/create-json-offer.md)
 * Melhorias nas telas de detalhes e informações rápidas para facilitar o acesso às informações
 * Opções de filtro e pesquisa persistentes na sessão
 
-![Atualização da interface do Recommendations](/help/main/r-release-notes/assets/recs-ui-refresh.png)
+![Atualização da interface do usuário do Recommendations](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
 ## Target Standard/Premium 25.1.1 (sexta-feira, 9 de janeiro de 2025)
 
@@ -89,7 +89,7 @@ Usando o sistema de design [!DNL Adobe Spectrum] mais recente, esta atualizaçã
 
 * **Gerenciamento de ofertas em massa**: selecione e exclua ou mova várias ofertas simultaneamente.
 
-* **[!UICONTROL Code Editor]atualizações**: HTML e editores JSON atualizados com realce de sintaxe e numeração de linha.
+* **[!UICONTROL Code Editor]atualizações**: editores HTML e JSON atualizados com realce de sintaxe e numeração de linha.
 
 * **Cartões de oferta aprimorados**: cartões de informações e detalhes rápidos aprimorados para facilitar o acesso às informações.
 
@@ -109,7 +109,7 @@ Todos os novos clientes do [!DNL Adobe Experience Platform Web SDK] terão essa 
 
 >[!IMPORTANT]
 >
->Se não conseguir concluir sua análise de implementação e resolver qualquer problema até 3 de fevereiro de 2025, você poderá solicitar uma extensão única de seis meses. Verifique se sua solicitação foi enviada até 31 de janeiro de 2025. O Adobe analisará e decidirá sobre sua solicitação.
+>Se não conseguir concluir sua análise de implementação e resolver qualquer problema até 3 de fevereiro de 2025, você poderá solicitar uma extensão única de seis meses. Verifique se sua solicitação foi enviada até 31 de janeiro de 2025. O Adobe analisará e decidirá sua solicitação.
 
 Para se beneficiar dessa otimização em caso de renderização manual de propostas, revise seu [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} para garantir que você esteja enviando notificações após renderizar experiências manualmente ou ao usar o método `applyPropositions` (ou a ação [!DNL Launch] correspondente como auxiliar) para renderizar experiências.
 
@@ -127,7 +127,7 @@ O [!DNL Platform Web SDK] oferece suporte a dois tipos de implementação para r
 
 * **Chamada única para personalização e medição.**
 
-  Inicialmente recomendada, a abordagem de chamada única para [!DNL Platform Web SDK] está agendada para ser descontinuada em favor da abordagem de chamada dividida. O Adobe aconselha todas as novas implementações a usarem a nova abordagem de chamada dividida e recomenda que os clientes existentes também façam a transição para o método de chamada dividida.
+  Inicialmente recomendada, a abordagem de chamada única para [!DNL Platform Web SDK] está agendada para ser descontinuada em favor da abordagem de chamada dividida. A Adobe aconselha todas as novas implementações a usarem a nova abordagem de chamada dividida e recomenda que os clientes existentes também façam a transição para o método de chamada dividida.
 
   Se você continuar usando a abordagem de chamada única, poderá observar as seguintes alterações inesperadas em seus relatórios do [!DNL Analytics]:
 
@@ -138,7 +138,7 @@ O [!DNL Platform Web SDK] oferece suporte a dois tipos de implementação para r
 
   Este tipo de implementação é a nova [abordagem de implementação de split-call](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} recomendada por [!DNL Adobe]. Com esta abordagem, a nova otimização não afeta os relatórios do [!DNL Analytics] ou do A4T.
 
-Em caso de dúvidas, entre em contato com o [Adobe Customer Care](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
+Em caso de dúvidas, entre em contato com o [Atendimento ao cliente da Adobe](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
 
 <!-- 
 ## [!DNL Target Standard/Premium] 24.10.2 (October 21, 2024)

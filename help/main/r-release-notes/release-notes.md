@@ -6,7 +6,7 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7a8d34f3155622bc288fc2b3017edb8fde7e18a3
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 22%
@@ -19,7 +19,7 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## Target Standard/Premium 25.2.1 (quarta-feira, 11 de fevereiro de 2025)
+## Target Standard/Premium 25.2.1 (quinta-feira, 12 de fevereiro de 2025)
 
 Esta versão do inclui as seguintes atualizações:
 
@@ -32,7 +32,7 @@ Conforme o esforço de modernização da interface do usuário do [!DNL Adobe Ta
 
 >[!NOTE]
 >
->A partir de 11 de fevereiro, os clientes terão gradualmente acesso à nova interface do usuário do [!UICONTROL Activities]. Para garantir uma implantação perfeita para todos os clientes, esta versão será implantada em estágios controlados. O primeiro estágio atualizará o grupo inicial de clientes [!DNL Target] para a nova interface do usuário [!UICONTROL Activities]. Os estágios subsequentes atualizarão os clientes restantes.
+>A partir de 12 de fevereiro, os clientes terão acesso gradual à nova interface do usuário do [!UICONTROL Activities]. Para garantir uma implantação perfeita para todos os clientes, esta versão será implantada em estágios controlados. O primeiro estágio atualizará o grupo inicial de clientes [!DNL Target] para a nova interface do usuário [!UICONTROL Activities]. Os estágios subsequentes atualizarão os clientes restantes.
 
 Com base no sistema de design [!DNL Adobe Spectrum] mais recente, a atualização padroniza padrões de design anteriormente inconsistentes, além de adicionar novas melhorias, como:
 
@@ -55,7 +55,7 @@ Conforme o esforço de modernização da interface do usuário do [!DNL Adobe Ta
 
 >[!NOTE]
 >
->A partir de 11 de fevereiro, os clientes terão gradualmente acesso à nova interface do usuário do [!UICONTROL Recommendations]. Para garantir uma implantação perfeita para todos os clientes, esta versão será implantada em estágios controlados. O primeiro estágio atualizará o grupo inicial de clientes [!DNL Target] para a nova interface do usuário [!UICONTROL Activities]. Os estágios subsequentes atualizarão os clientes restantes.
+>A partir de 12 de fevereiro, os clientes terão acesso gradual à nova interface do usuário do [!UICONTROL Recommendations]. Para garantir uma implantação perfeita para todos os clientes, esta versão será implantada em estágios controlados. O primeiro estágio atualizará o grupo inicial de clientes [!DNL Target] para a nova interface do usuário [!UICONTROL Activities]. Os estágios subsequentes atualizarão os clientes restantes.
 
 Com base no sistema de design [!DNL Adobe Spectrum] mais recente, a atualização padroniza padrões de design anteriormente inconsistentes, além de adicionar novas melhorias, como:
 

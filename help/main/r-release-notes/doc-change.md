@@ -4,7 +4,7 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 36%
@@ -17,12 +17,12 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 ## Atualizações
 
-### [!DNL Target Standard/Premium] 25.2.1 (11 de fevereiro de 2025)
+### [!DNL Target Standard/Premium] 25.2.1 (12 de fevereiro de 2025)
 
 | Data | Tópico | Alterações |
 |--- |--- |--- |
 | 11 de fevereiro | [Alterações no Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | Novo artigo para explicar as diferenças entre as versões anterior e atualizada do VEC. |
-|  | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Adição das notas de versão para a atualização da interface do usuário do [!DNL Target Standard/Premium] 25.2.1 (agendada para 11 de fevereiro de 2025). Muitos artigos foram atualizados para refletir as alterações na interface. |
+|  | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Adição das notas de versão para a atualização da interface do usuário do [!DNL Target Standard/Premium] 25.2.1 (agendada para 12 de fevereiro de 2025). Muitos artigos foram atualizados para refletir as alterações na interface. |
 
 ### [!DNL Target Standard/Premium] 25.1.1 (sexta-feira, 9 de janeiro de 2025)
 

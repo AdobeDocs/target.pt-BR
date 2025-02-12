@@ -1,10 +1,10 @@
 ---
-keywords: opções do visual experience composer;opções do visual experience composer;opções de experiência;editar texto;editar html;editar texto/html;editar cor de fundo;cor de fundo;inserir elemento;editar link;link;link do visual experience composer;editar classe css;classe css;trocar oferta;troca de oferta;trocar imagem;troca de imagem;remover item;item remover;ocultar item;ocultação de item;reorganizar;mover elemento;elemento mover;redimensionar elemento;elemento redimensionar;elemento;expandir seleção;navegar até este link;navegar no link;navegar;link;navegar;desfazer;refazer/refazer;eventos personalizados;componentes da web;decisão de oferta;offer decisioning
+keywords: opções do visual experience composer;opções do visual experience composer;opções de experiência;editar texto;editar html;editar texto/html;editar cor de fundo;cor de fundo;inserir elemento;editar link;link;link do visual experience composer;editar classe css;classe css;trocar oferta;troca de oferta;trocar imagem;troca de imagem;remover item;item remover;ocultar item;ocultar item;reorganizar;mover elemento;elemento mover;redimensionar elemento;elemento redimensionar;elemento;expandir seleção;navegar até este link;navegar no link;navegar;link;navegar;desfazer;refazer/refazer;eventos personalizados;componentes da web;decisão de oferta;decisão de oferta
 description: Explore as opções disponíveis no  [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
 title: Como faço para usar as Opções do [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 14%
@@ -17,7 +17,7 @@ Ao clicar em um elemento de página no [!DNL Adobe Target] [!UICONTROL Visual Ex
 
 >[!NOTE]
 >
->A versão [!DNL Target Standard/Premium] 25.2.1 (11 de fevereiro de 2025) incluiu uma versão atualizada do VEC. Para obter informações sobre como o VEC atualizado difere da versão anterior, consulte [alterações do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+>A versão [!DNL Target Standard/Premium] 25.2.1 (12 de fevereiro de 2025) incluiu uma versão atualizada do VEC. Para obter informações sobre como o VEC atualizado difere da versão anterior, consulte [alterações do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
 
 
 As várias ações do [!UICONTROL Visual Experience Composer] (VEC) são agrupadas nas opções de menu apropriadas para tornar seu trabalho mais rápido e eficiente:
@@ -38,7 +38,7 @@ Selecione componentes no quadro Componentes à esquerda para inserir os seguinte
 
 * Básico (divisor, HTML, imagem).
 * Texto (cabeçalho, parágrafo, link).
-* Dinâmico ([Recomendação](/help/main/c-recommendations/recommendations-as-an-offer.md), [Fragmento de experiência](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), oferta HTML).
+* Dinâmico ([Recomendação](/help/main/c-recommendations/recommendations-as-an-offer.md), [Fragmento de experiência](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), oferta do HTML).
 
 O menu na parte superior da imagem permite fazer o seguinte:
 
@@ -77,7 +77,7 @@ Selecione componentes do quadro [!UICONTROL Components] no lado esquerdo para in
 
 * Básico (divisor, HTML, imagem).
 * Texto (cabeçalho, parágrafo, link).
-* Dinâmico ([Recomendação](/help/main/c-recommendations/recommendations-as-an-offer.md), [Fragmento de experiência](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), oferta HTML).
+* Dinâmico ([Recomendação](/help/main/c-recommendations/recommendations-as-an-offer.md), [Fragmento de experiência](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), oferta do HTML).
 
 Clique no ícone [!UICONTROL Show Modifications] ( ![Ícone Mostrar modificações](/help/main/assets/icons/History.svg) ) para exibir as modificações na experiência.
 
@@ -88,7 +88,7 @@ O menu na parte superior do elemento de texto permite fazer o seguinte:
 * Configure os atributos do texto (negrito, itálico, sublinhado ou tachado) ( ![Ícone Escolher atributos de texto](/help/main/assets/icons/Text.svg) ).
 * Configure o alinhamento do texto (esquerda, centro, direita, justificado) ( ![Ícone de Alinhamento de Texto](/help/main/assets/icons/TextAlignCenter.svg) ).
 * Inserir um link ( ![ícone Inserir link](/help/main/assets/icons/Link.svg) ).
-* Substitua o conteúdo por uma oferta HTML, [Fragmento de experiência](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) ou [Recomendação]/help/main/c-recommendations/recommendations-as-an-offer.md).
+* Substitua o conteúdo por uma oferta do HTML, [Fragmento de experiência](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) ou [Recomendação]/help/main/c-recommendations/recommendations-as-an-offer.md).
 * Edite o HTML ( ![Ícone Inserir HTML](/help/main/assets/icons/Code.svg) ).
 * Adicionar personalização ( ![Ícone Adicionar Personalization](/help/main/assets/icons/PersonalizationField.svg) ).
 * Excluir a imagem ( ![Ícone Excluir](/help/main/assets/icons/Delete.svg) ).
