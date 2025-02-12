@@ -4,16 +4,16 @@ description: Entenda as alterações introduzidas no Visual Experience Composer 
 title: Quais alterações são introduzidas no novo Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 84a73954261c61a48c92b40b879937febaa57f24
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Visual Experience Composer] alterado
 
-A versão [!DNL Adobe Target Standard/Premium] 25.2.1 (11 de fevereiro de 2015) introduz um [!UICONTROL Visual Experience Composer] (VEC) atualizado. Este artigo explica as diferenças entre as versões anteriores e atualizadas do VEC.
+A versão [!DNL Adobe Target Standard/Premium] 25.2.1 (12 de fevereiro de 2015) introduz um [!UICONTROL Visual Experience Composer] (VEC) atualizado. Este artigo explica as diferenças entre as versões anteriores e atualizadas do VEC.
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Você pode adicionar vários componentes à sua página da Web e editá-los conf
 
 ![Painel Componentes](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-Para adicionar um novo componente, arraste o componente que deseja inserir sobre um elemento de página existente na tela de edição. Em seguida, escolha inserir o componente antes de depois do elemento selecionado.
+Para adicionar um novo componente, arraste o componente do painel Componentes que deseja inserir sobre um elemento de página existente na tela Design. Em seguida, escolha inserir o componente antes de depois do elemento selecionado.
 
 Em comparação com a versão anterior do VEC, não é possível substituir um elemento selecionado por um componente.
 
