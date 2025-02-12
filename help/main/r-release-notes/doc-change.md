@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
+source-git-commit: be6bc2b1ed05f1e54ac6399a20e1e26dd78b4e2a
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 36%
+source-wordcount: '187'
+ht-degree: 33%
 
 ---
 
@@ -21,7 +21,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 |--- |--- |--- |
-| 11 de fevereiro | [Alterações no Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | Novo artigo para explicar as diferenças entre as versões anterior e atualizada do VEC. |
+| 12 de fevereiro | [Navegadores com suporte](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Adição de informações sobre quais navegadores são compatíveis em uma implementação do Target usando o [!DNL Adobe Experience Platform Web SDK]. |
+|  | [Alterações no Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | Novo artigo para explicar as diferenças entre as versões anterior e atualizada do VEC. |
 |  | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Adição das notas de versão para a atualização da interface do usuário do [!DNL Target Standard/Premium] 25.2.1 (agendada para 12 de fevereiro de 2025). Muitos artigos foram atualizados para refletir as alterações na interface. |
 
 ### [!DNL Target Standard/Premium] 25.1.1 (sexta-feira, 9 de janeiro de 2025)
