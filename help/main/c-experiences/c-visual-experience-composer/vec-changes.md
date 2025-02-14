@@ -1,10 +1,10 @@
 ---
 keywords: visual experience composer;vec;wysiwyg
-description: Entenda as alterações introduzidas no Visual Experience Composer (VEC) na versão 25.2.1 do Adobe Target (11 de fevereiro de 2025).
+description: Entenda as alterações introduzidas no Visual Experience Composer (VEC) na versão 25.2.1 do Adobe Target (17 de fevereiro de 2025).
 title: Quais alterações são introduzidas no novo Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # [!UICONTROL Visual Experience Composer] alterado
 
-A versão [!DNL Adobe Target Standard/Premium] 25.2.1 (12 de fevereiro de 2015) introduz um [!UICONTROL Visual Experience Composer] (VEC) atualizado. Este artigo explica as diferenças entre as versões anteriores e atualizadas do VEC.
+A versão [!DNL Adobe Target Standard/Premium] 25.2.1 (17 de fevereiro de 2015) introduz um [!UICONTROL Visual Experience Composer] (VEC) atualizado. Este artigo explica as diferenças entre as versões anteriores e atualizadas do VEC.
 
 >[!IMPORTANT]
 >
