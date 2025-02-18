@@ -4,9 +4,9 @@ description: Um seletor de elementos é uma expressão CSS que pode identificar 
 title: Posso usar seletores de elementos no Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '390'
 ht-degree: 85%
 
 ---
@@ -91,8 +91,6 @@ O Target usa um algoritmo simples para criar um seletor. Esta é uma breve expli
    ```
 
    Seletor: `#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
-
-   Saiba mais sobre [nth-of-type na página da Web de Dicas de CSS](https://css-tricks.com/almanac/selectors/n/nth-of-type/).
 
 No processo acima:
 

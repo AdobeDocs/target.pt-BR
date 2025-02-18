@@ -4,9 +4,9 @@ description: Leia dicas do nosso painel de especialistas sobre como usar o  [!DN
 title: Onde posso encontrar dicas e truques para usar o Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2883'
 ht-degree: 72%
 
 ---
@@ -33,7 +33,7 @@ A combinação de públicos-alvo que vivem em diferentes soluções [!DNL Adobe 
 
 Consulte [Combinar vários públicos](/help/main/c-target/combining-multiple-audiences.md) para obter instruções passo a passo.
 
-**Informações importantes**: os públicos-alvo do [!DNL Adobe Audience Manager] estão disponíveis no [!DNL Target] automaticamente. Mas o compartilhamento de público do [!DNL Adobe Analytics] requer uma configuração manual. Marque a caixa denominada &quot;Transformar em público-alvo Experience Cloud&quot; durante o processo de criação do público no [!DNL Analytics]. Em seguida, no [!DNL Target], clique em &quot;Importar públicos-alvo do Experience Cloud&quot;.
+**Informações importantes**: os públicos-alvo do [!DNL Adobe Audience Manager] estão disponíveis no [!DNL Target] automaticamente. Mas o compartilhamento de público do [!DNL Adobe Analytics] requer uma configuração manual. Marque a caixa denominada &quot;Transformar em público da Experience Cloud&quot; durante o processo de criação do público no [!DNL Analytics]. Em seguida, no [!DNL Target], clique em &quot;Importar públicos-alvo da Experience Cloud&quot;.
 
 ## Dica 3: exporte dados do [!DNL Target] para usar com ferramentas de terceiros.
 
@@ -79,7 +79,7 @@ Consulte [Atividade multipáginas](/help/main/c-experiences/c-visual-experience-
 
 Com as versões da experiência, você pode executar um teste com variações para quantos públicos desejar. Por exemplo, você pode criar um anúncio de banner oferecendo frete grátis, com variações de imagem e moeda para clientes nos EUA, Reino Unido e EUA, sem precisar executar testes para três públicos diferentes.
 
-Consulte [Vários públicos-alvo de experiência em um Teste A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) e [Versões de experiência no Adobe Target](https://helpx.adobe.com/br/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) para obter instruções passo a passo.
+Consulte para [Vários públicos-alvo de experiência em um Teste A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) para obter instruções passo a passo.
 
 ## Dica 8: economize tempo replicando as experiências da atividade em páginas semelhantes.
 
