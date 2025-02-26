@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e4263593b9279847c565396c7b11d55c503b5507
+source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 32%
+source-wordcount: '256'
+ht-degree: 30%
 
 ---
 
@@ -21,6 +21,8 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 |--- |--- |--- |
+| 26 de fevereiro | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Foram adicionadas informações sobre as seguintes versões:<ul><li>[!DNL Target Standard/Premium] 25.2.3 (26 de fevereiro de 2025)</li><li>at.js versão 2.11.7 (26 de fevereiro de 2025)</li></ul> |
+|  | [Detalhes da versão da at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Adição de informações sobre a versão 2.11.7 da at.js (26 de fevereiro de 2025). |
 | 13 de fevereiro | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Alterada a versão de atualização da interface do usuário do [!DNL Target Standard/Premium] 25.2.1 para 17 de fevereiro de 2025. |
 | 12 de fevereiro | [Opções do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Atualização de todo o tópico para explicar o VEC atualizado introduzido na versão [!DNL Target Standard/Premium] 25.2.1 (12 de fevereiro de 2025). |
 |  | [Navegadores com suporte](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Adição de informações sobre quais navegadores são compatíveis em uma implementação do Target usando o [!DNL Adobe Experience Platform Web SDK]. |
