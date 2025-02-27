@@ -6,9 +6,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2049'
 ht-degree: 98%
 
 ---
@@ -207,16 +207,14 @@ O ano de 2022 proporcionou às empresas um ambiente dinâmico e em rápida mudan
 
 Saiba como a Inteligência artificial continua redefinindo as expectativas do consumidor, à medida que modelos de aprendizado de máquina e insights de dados abrem novas portas para comerciantes, desenvolvedores e proprietários de produtos, para envolver os consumidores com experiências personalizadas importantes. Faça um tour passo a passo pelos fluxos de trabalho do [!DNL Adobe Analytics] + [!DNL Adobe Target] para personalização, direcionamento e teste.
 
-* [Link da gravação](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
++++Detalhes
 
-  +++Detalhes
+Junte-se a Jordan Ison (Consultor-especialista em soluções na [!DNL Adobe]) para discutir:
 
-  Junte-se a Jordan Ison (Consultor-especialista em soluções na [!DNL Adobe]) para discutir:
-
-   * Como profissionais de marketing, desenvolvedores e equipes de produtos podem abrir a “caixa preta” da IA para conduzir testes e estratégias de personalização futuras
-   * Como superar os desafios na otimização da Web, do aplicativo móvel, do email, da IoT e de cada ponto de contato digital para oferecer mais conversão e engajamento
-   * Passo a passo guiado dos fluxos de trabalho do [!DNL Adobe Analytics] e do [!DNL Target] para personalização, direcionamento e teste
-   * Principais casos de uso para explorar quais atributos preveem o comportamento do visitante e quais atributos são mais importantes para as principais visualizações e análise de segmentação
+* Como profissionais de marketing, desenvolvedores e equipes de produtos podem abrir a “caixa preta” da IA para conduzir testes e estratégias de personalização futuras
+* Como superar os desafios na otimização da Web, do aplicativo móvel, do email, da IoT e de cada ponto de contato digital para oferecer mais conversão e engajamento
+* Passo a passo guiado dos fluxos de trabalho do [!DNL Adobe Analytics] e do [!DNL Target] para personalização, direcionamento e teste
+* Principais casos de uso para explorar quais atributos preveem o comportamento do visitante e quais atributos são mais importantes para as principais visualizações e análise de segmentação
 
 +++
 
