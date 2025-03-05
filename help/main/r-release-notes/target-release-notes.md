@@ -4,9 +4,9 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: fe370f57978ace161ca2ba2b9f6b11ae8f9b4cfa
+source-git-commit: 82e10bdecbaff95e16c34ae5b4b0acad9f2b6e5e
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1696'
 ht-degree: 13%
 
 ---
@@ -15,13 +15,27 @@ ht-degree: 13%
 
 Este artigo contém informações de pré-lançamento das próximas versões do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: terça-feira, 3 de março de 2025**
+**Última atualização: quinta-feira, 5 de março de 2025**
 
 >[!NOTE]
 >
 >As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 >
 >Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 25.3.2 (6 de março de 2025)
+
+Esta versão do inclui as seguintes correções e atualizações:
+
+* Correção de um problema em que a cópia de uma atividade com um público-alvo somente de atividade não criava uma nova atividade, usando erroneamente o público-alvo da atividade original. (TGT-51855)
+* Correção de um problema que impedia a edição de [!UICONTROL Experience Targeting] atividades (XT) com públicos somente atividade. (TGT-51846)
+* Correção de um problema em que o [!UICONTROL Visual Experience Composer] (VEC) não aplicava modificações em uma experiência corretamente na primeira edição. (TGT-51843)
+* Correção de um problema que acionava um erro de &quot;ID&quot; ao clicar em determinados elementos no VEC. (TGT-51814)
+* Atualização do tratamento de erros no VEC durante a criação da atividade. (TGT-51759)
+* Correção de um problema em que a ausência de um modo de exibição no painel [!UICONTROL Modifications] causava um erro de &quot;entrada de usuário inválida&quot; ao salvar a atividade. (TGT-51827)
+* Correção de um problema que impedia a criação de critérios de recomendações. (TGT-51834)
+* Adição de uma mensagem de confirmação antes de redirecionar para um URL diferente. (TGT-51703)
+* Correção de problemas com testes de integração do GraphQL em ofertas e pastas. (TGT-51839)
 
 ## [!DNL Target Standard/Premium] 25.3.1 (3 de março de 2025)
 
