@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: cee17e318dedffaadccd2f93ae593e5fdd2bd600
+source-git-commit: 911950b341d8221145eeacfa288926b0a1be434e
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 48%
+source-wordcount: '731'
+ht-degree: 43%
 
 ---
 
@@ -18,6 +18,15 @@ ht-degree: 48%
 Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium]. Além disso, as notas de versão para APIs [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações de plataforma também estão incluídas, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 25.3.5 (11 de março de 2025)
+
+Esta versão do inclui as seguintes correções e atualizações:
+
+* Correção de um problema no [!UICONTROL Visual Experience Composer] (VEC) atualizado em que as navegações estruturais nem sempre eram exibidas na parte inferior do editor, causando dificuldades na seleção precisa de elementos. (TGT-51844)
+* Solução de um problema que impedia os usuários de alterar ofertas no painel [!UICONTROL Modifications]. (TGT-51800)
+* Solução de um problema em que as ações eram exibidas incorretamente no painel esquerdo para experiências e públicos, incluindo no modo [!UICONTROL ClickTrack]. (TGT-51895)
+* Solução de um problema em que [!UICONTROL ClickTrack] seletores não eram aplicados à página de público-alvo correta. (TGT-51871)
 
 ## [!DNL Target Standard/Premium] 25.3.4 (7 de março de 2025)
 
