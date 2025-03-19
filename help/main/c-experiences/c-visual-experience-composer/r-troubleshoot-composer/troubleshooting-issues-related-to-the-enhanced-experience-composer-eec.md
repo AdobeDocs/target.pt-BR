@@ -4,9 +4,9 @@ description: Saiba como solucionar problemas que às vezes ocorrem no Enhanced E
 title: Como solucionar problemas relacionados ao Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 1908c9ebe94931778e792a75e75eff04076ae5c5
+source-git-commit: b14c39bd1de3f8d78aa720f7a064009759916802
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '443'
 ht-degree: 23%
 
 ---
@@ -102,7 +102,7 @@ Peça à sua equipe de TI para incluir na lista de permissões os seguintes ende
 
 ### Endereços IP herdados
 
-Incluir na lista de permissões Os seguintes endereços IP herdados devem continuar a ser até aviso em contrário.
+Incluir na lista de permissões Os endereços IP herdados a seguir devem continuar sendo migrados até notificação adicional.
 
 34.254.77.200
 54.73.207.147
