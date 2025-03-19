@@ -4,9 +4,9 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 80e4741f5f501a48b15b718c6c0bf55a86c4d676
+source-git-commit: 1908c9ebe94931778e792a75e75eff04076ae5c5
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '380'
 ht-degree: 41%
 
 ---
@@ -21,6 +21,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 |--- |--- |--- |
+| 19 de março | [Solução de problemas relacionados ao [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Atualização de endereços IP para incluir na lista de permissões. |
 | 18 de março | [Suporte do A4T para [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target] atividades](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Adição de observação à seção *Métricas de meta compatíveis*. |
 | 14 de março | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.3.6 do [!DNL Target Standard/Premium]. |
 | 13 de março | [Navegadores com suporte](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Atualização de navegadores compatíveis e adição da seção &quot;Requisitos de edição visual&quot;. |
