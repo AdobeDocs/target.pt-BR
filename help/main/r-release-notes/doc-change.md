@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
+source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 41%
+source-wordcount: '436'
+ht-degree: 39%
 
 ---
 
@@ -23,6 +23,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |--- |--- |--- |
 | 26 de março | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.3.7 do [!DNL Target Standard/Premium]. |
 |  | [Perguntas frequentes do Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | As perguntas frequentes foram atualizadas para indicar que [!DNL Recommendations] objetos criados por meio da API estão disponíveis na interface do usuário do [!DNL Target]. |
+|  | [Coleções](/help/main/c-recommendations/c-products/collections.md) | Adição da seguinte observação: as regras de coleta se aplicam aos itens de recomendação gerados após a execução dos critérios. Elas afetam somente as Recomendações de entidade (ERs) na saída, não a chave. |
 | 19 de março | [Solução de problemas relacionados ao [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Atualização de endereços IP para incluir na lista de permissões. |
 | 18 de março | [Suporte do A4T para [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target] atividades](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Adição de observação à seção *Métricas de meta compatíveis*. |
 | 14 de março | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.3.6 do [!DNL Target Standard/Premium]. |

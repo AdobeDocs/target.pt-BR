@@ -1,14 +1,14 @@
 ---
 keywords: coleção, direcionamento
 description: Saiba como usar coleções de produtos ou itens no [!DNL Target Recommendations].
-title: Como usar coleções em atividades do Recommendations?
+title: Como usar coleções nas atividades do Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 26%
+source-wordcount: '716'
+ht-degree: 25%
 
 ---
 
@@ -32,7 +32,9 @@ Quando você está criando ou editando uma atividade do [!DNL Recommendations], 
 
 >[!NOTE]
 >
->As coleções não são aplicadas quando você usa a chave de recomendação [!UICONTROL Recently Viewed Items].
+>* As regras de coleta se aplicam a itens de recomendação gerados após a execução dos critérios. Elas afetam somente as Recomendações de entidade (ERs) na saída, não a chave.
+>
+>* As coleções não são aplicadas quando você usa a chave de recomendação [!UICONTROL Recently Viewed Items].
 
 ## Crie uma coleção {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
@@ -84,7 +86,7 @@ Esteja ciente de que as coleções estão disponíveis em toda a conta. Consider
 
 1. Crie uma coleção usando um dos métodos mencionados acima.
 
-1. Clique em **[!UICONTROL Activities]** e [criar uma nova atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) ou editar uma atividade existente.
+1. Clique em **[!UICONTROL Activities]** e [crie uma nova atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) ou edite uma atividade existente.
 
 1. Após selecionar um critério e um design, a página [!UICONTROL Options] é exibida, onde você seleciona a coleção desejada.
 
