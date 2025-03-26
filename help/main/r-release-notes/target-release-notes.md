@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cd335504f5354aa9052ae7e958cf803cd90a9ae9
+source-git-commit: bdc2f76af2a1f1554556d56a983748aa2c9caf2c
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 30%
+source-wordcount: '1047'
+ht-degree: 24%
 
 ---
 
@@ -22,6 +22,30 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 >As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 >
 >Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 25.3.7 (26 de março de 2025)
+
+Esta versão do inclui as seguintes correções e atualizações:
+
+* Correção de um problema que bloqueava o salvamento de atividades de várias páginas se uma página fosse excluída após as modificações. (TGT-51988)
+* Correção de um erro que ocorria ao editar uma atividade: `default message [Invalid optionLocalIds: xx]]`. (TGT-51985)
+* Solução de um problema em que a adição de novas modificações a uma atividade removia as modificações existentes. (TGT-51981)
+* Solução de um problema em que a substituição de um público-alvo por &quot;[!UICONTROL All visitors]&quot; durante a criação ou edição da atividade causava um erro &quot;Públicos-alvo duplicados não são permitidos&quot;. (TGT-51978)
+* Solução de um problema que causava um erro de &quot;Entrada de usuário inválida&quot; ao salvar uma atividade [!UICONTROL A/B Test]. (TGT-51976)
+* Solução de um problema que impedia a exibição correta das métricas calculadas na página [!UICONTROL Goals & Settings]. (TGT-51975)
+* Solução de um problema que impedia a correspondência de `companyName` e `reportSuite` na configuração [!DNL Analytics] para a métrica `pageviews`. (TGT-51965)
+* Solução de um problema em que a troca de experiências em uma atividade removia as modificações. (TGT-51945)
+* Solução de um problema em que a remoção de um público-alvo de página também removia [!UICONTROL ClickTrack] seletores. (TGT-51935)
+* Solução de um problema que tornava uma atividade não editável após abrir sua página [!UICONTROL Overview]. (TGT-51931)
+* Solução de um problema que causava um erro `[Unused optionLocalIds: 0]]` durante a criação da atividade. (TGT-51920)
+* Solução de um problema em que algumas alterações não eram traduzidas corretamente após a remoção das alterações de estilo do texto. (TGT-51876)
+* Correção de um problema que impedia a atualização correta de públicos-alvo direcionados no [!UICONTROL Form-Based Experience Composer]. (TGT-51845)
+* Solução de um problema em que a URL no [!UICONTROL Visual Experience Composer] não era atualizada corretamente durante a navegação da atividade. (TGT-51832)
+* Solução de um problema que impedia a exibição de ofertas na interface do usuário do [!UICONTROL Offers], apesar de serem exibidas corretamente ao criar uma atividade e adicionar ofertas. (TGT-51805)
+* Solução de um problema em que algumas atividades não tinham uma tela de fallback para exibir o conteúdo padrão quando o conteúdo personalizado ou direcionado não podia ser entregue. (TGT-51638)
+* Solução de um problema que impedia que ofertas ativas e determinadas pastas fossem exibidas corretamente na interface do usuário do [!UICONTROL Offers]. (TGT-51628)
+* Solução de um problema que impedia que algumas cadeias de caracteres de URL e goURLs fossem localizadas corretamente. (TGT-35741)
+* Correção de um problema que impedia que as funções ([!UICONTROL Approver], [!UICONTROL Editor] e [!UICONTROL Observer]) fossem localizadas corretamente na interface do usuário [!DNL Target]. (TGT-29925)
 
 ## [!DNL Target Standard/Premium] 25.3.6 (14 de março de 2025)
 
