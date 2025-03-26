@@ -5,10 +5,10 @@ title: Onde posso encontrar perguntas e respostas sobre o  [!DNL Recommendations
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
+source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
 workflow-type: tm+mt
-source-wordcount: '3506'
-ht-degree: 84%
+source-wordcount: '3444'
+ht-degree: 83%
 
 ---
 
@@ -18,11 +18,11 @@ Lista de perguntas frequentes sobre as atividades do [!DNL Adobe Target] [!DNL R
 
 ## Os objetos [!DNL Recommendations] criados por meio da API são exibidos na interface do usuário [!DNL Target]?
 
-Sim, [!UICONTROL Recommendations] objetos ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] e [!UICONTROL Exclusions]) criados através da API agora estão disponíveis na interface.
+Sim, [!UICONTROL Recommendations] objetos ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] e [!UICONTROL Exclusions]) criados através da API estão disponíveis na interface do usuário e podem ser editados via API ou interface do usuário [!DNL Target].
 
 ## Posso gerenciar ofertas visuais criadas pela interface do usuário do [!DNL Target] usando as APIs do [!DNL Target]?
 
-Não. [!DNL Recommendations] atividades com ofertas visuais criadas na interface do usuário [!DNL Target] não são gerenciáveis usando as APIs [!DNL Target]. Embora essas atividades sejam exibidas na lista [!UICONTROL Activities], você não pode lê-las ou atualizá-las (usando GET/PUT).
+Não. [!DNL Recommendations] atividades com ofertas visuais criadas na interface do usuário [!DNL Target] não são gerenciáveis usando as APIs [!DNL Target]. Embora essas atividades sejam exibidas na lista [!UICONTROL Activities], não é possível lê-las ou atualizá-las (usando GET/PUT).
 
 ## Por que o [!UICONTROL Catalog Search] não mostra os resultados corretos quando procuro um atributo personalizado com um valor numérico?
 
@@ -291,6 +291,5 @@ A seguir, os problemas conhecidos com [!UICONTROL Recommendations] atividades:
 * Quando o [!DNL Target] retorna uma oferta JSON com getOffer(), ela retorna com o tipo de JSON. No entanto, se você retornar um design de JSON do Recommendations, ele retornará com um tipo de HTML.
 * As entidades expiram corretamente após 60 dias sem receber nenhuma atualização via feed ou API; no entanto, as entidades expiradas não são removidas do índice da Pesquisa de catálogo após a expiração. No momento, entidades excluídas por meio do feed ou da API também não são removidas do índice de Pesquisa de catálogo. (IRI-857)
 * As ofertas do Recommendations nas atividades A/B e direcionamento de experiência não mostram uma exibição visual da bandeja do Recommendations. (TGT-33426)
-* Coleções, exclusões, critérios e projetos criados por API não estão visíveis na interface do usuário do Target e podem ser editados por meio da API. Da mesma forma, se você criar qualquer um desses itens na interface do usuário do Target e depois editá-los por meio da API, essas alterações não serão refletidas na interface do usuário do Target. Os itens editados por meio da API devem continuar sendo editados por meio da API para evitar a perda de modificações. (TGT-35777)
 * As atividades do Recommendations criadas por meio da API podem ser visualizadas na interface do usuário, mas só podem ser editadas por meio da API.
 * O status do feed de Critérios personalizados exibido na visualização da lista de critérios (cartão) é atualizado a cada dez minutos e pode estar desatualizado em mais de dez minutos em raras circunstâncias. O status exibido na visualização de edição de Critérios personalizados é buscado em tempo real e está sempre atualizado. (TGT-35896, TGT-36173)
