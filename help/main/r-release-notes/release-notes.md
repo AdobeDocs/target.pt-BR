@@ -6,9 +6,9 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: bdc2f76af2a1f1554556d56a983748aa2c9caf2c
+source-git-commit: 36f269331d992f621d71fc085c85f3a7ad5bdfa6
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1181'
 ht-degree: 31%
 
 ---
@@ -18,6 +18,12 @@ ht-degree: 31%
 Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium]. Além disso, as notas de versão para APIs [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações de plataforma também estão incluídas, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 25.3.8 (28 de março de 2025)
+
+Esta versão do inclui as seguintes correções e atualizações:
+
+* Solução de um problema que fazia com que a página [!UICONTROL Activities] carregasse lentamente. (TGT-51151)
 
 ## [!DNL Target Standard/Premium] 25.3.7 (26 de março de 2025)
 
