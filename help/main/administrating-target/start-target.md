@@ -5,10 +5,10 @@ title: Onde Começar A Administrar O  [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: 0618d39fc5966c64cceea8f5bcccb625fc243ebb
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 35%
+source-wordcount: '443'
+ht-degree: 32%
 
 ---
 
@@ -20,7 +20,7 @@ Este artigo contém as primeiras etapas que os administradores do [!DNL Adobe Ta
 
 Um administrador do sistema no [!DNL Adobe Admin Console] deve adicioná-lo como usuário no [!DNL Target], convidando-o para entrar. Em seguida, o administrador do sistema deve adicioná-lo a um ou mais grupos específicos da função. Ambas as tarefas são executadas no [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Para obter mais informações, consulte [Gerenciar usuários e produtos do Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) na *ajuda do Experience Cloud e dos Serviços principais*.
+Para obter mais informações, consulte [Gerenciar usuários e produtos da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) na *ajuda da Experience Cloud e dos Serviços principais*.
 
 Você receberá um email de convite depois que o administrador do sistema executar essas etapas.
 
@@ -58,6 +58,10 @@ Se sua organização tiver uma licença do [Target Premium](/help/main/c-intro/i
 
 A próxima etapa deve ser configurar usuários em [!DNL Target Standard] e [!DNL Target Premium]. Para obter mais informações, consulte [Gerenciamento de usuários](/help/main/administrating-target/c-user-management/user-management.md).
 
->[!IMPORTANT]
->
->Usuários com direitos de [!UICONTROL Product Admin] ou [!UICONTROL System Admin] no [!DNL Adobe Admin Console] podem editar ou alterar todas as configurações na página [!UICONTROL Administration] de [!DNL Target], independentemente da sua função [!DNL Target]. Usuários sem direitos de [!UICONTROL Product Admin] ou [!UICONTROL System Admin] em [!DNL Adobe Admin Console] devem ter a função de [!DNL Target] específica para fazer essas alterações.
+## Permissões necessárias para editar configurações de [!UICONTROL Administration] {#admin-permissions}
+
+**Antes de 22 de abril de 2025**: os usuários com direitos de [!UICONTROL Approvers] no [!DNL Adobe Admin Console] podem editar ou alterar todas as configurações na página [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) de [!DNL Target], independentemente da sua função [!DNL Target].
+
+**A partir de 22 de abril de 2025**: somente administradores do [!UICONTROL Product] e do [!UICONTROL Solutions] poderão atualizar configurações nas seções [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md), independentemente de suas funções nos espaços de trabalho [!DNL Target]. Os usuários sem esta permissão terão acesso somente leitura às seções [!UICONTROL Administration].
+
+Essa atualização melhora o controle organizacional sobre as configurações da instância [!DNL Target], evitando atualizações acidentais que podem afetar a entrega da atividade em várias equipes de teste e personalização.
