@@ -1,20 +1,22 @@
 ---
-keywords: relatório;relatórios;relatório;solução da experience cloud;fuso horário;fuso horário;moeda;excluir IPs;aumento estimado na receita;receita;aumento na receita;prioridades otimizadas;otimizado
-description: Use [!DNL Target], [!DNL Adobe Analytics], or [!DNL Adobe Customer Journey Analytics] como fonte de relatórios, especifique o fuso horário e o formato da moeda padrão, adicione endereços IP a serem excluídos dos relatórios e muito mais.
-title: Como configurar relatórios no  [!DNL Target]?
+keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
+description: Use [!DNL Target], [!DNL Adobe Analytics], or [!DNL Adobe Customer Journey Analytics] as the reporting source, specify the default time zone and currency format, add IP addresses to exclude from reporting, and more.
+title: How Do I Configure Reporting in [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: ea9513c4310d13e1e7899aa7e228b4d7ecdf0748
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 22%
 
 ---
 
-# Configurar relatórios em [!DNL Target]
+# Configure reporting in [!DNL Target]
 
-Defina as configurações gerais a serem usadas nos relatórios do [!DNL Adobe Target] que se aplicam a toda a sua conta do [!DNL Target].
+Configure general settings to use in [!DNL Adobe Target] reporting that apply to your entire [!DNL Target] account.
+
+{{permissions-update}}
 
 Para acessar a página de configuração [!UICONTROL Reporting], clique em **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
 
@@ -24,14 +26,14 @@ Você pode especificar as seguintes configurações nesta página:
 * O fuso horário a ser usado para relatórios
 * A moeda a ser usada para relatórios
 * Endereços IP a serem excluídos dos relatórios
-* Mostrar ou não a elevação estimada na receita em relatórios
-* Se as prioridades otimizadas devem ser habilitadas
+* Whether to show estimated lift in revenue in reporting
+* Whether to enable fine-grained priorities
 
 >[!NOTE]
 >
->Esteja ciente de que o fuso horário, a moeda e os endereços IP para excluir as configurações se aplicam às atividades que usam os relatórios do [!DNL Target]. Estas configurações não se aplicam a atividades que usam o [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) ou o [!DNL Customer Journey Analytics] como fonte de relatórios.
+>Be aware that the time zone, currency, and IP addresses to exclude settings apply to activities that use [!DNL Target] reporting. These settings do not apply to activities that use [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) or [!DNL Customer Journey Analytics] as the reporting source.
 
-![Página de relatórios](/help/main/administrating-target/assets/reporting.png)
+![Reporting page](/help/main/administrating-target/assets/reporting.png)
 
 ## Solução da Reporting Cloud {#solution}
 
@@ -44,9 +46,9 @@ Considere as informações a seguir ao escolher sua origem de relatórios:
 * **[!DNL Adobe Target]**: Se a fonte de relatórios for definida aqui como **[!DNL Target]**, você não poderá criar ou ativar uma atividade que usa [!DNL Analytics] ou [!DNL Customer Journey Analytics] como fonte de relatórios. Você deve alterar a fonte de relatórios para **[!UICONTROL Select per activity]**.
 * **[!DNL Adobe Analytics]**: Se a fonte de relatórios for definida aqui como **[!DNL Analytics]**, você não poderá criar ou ativar uma atividade que usa [!DNL Target] ou [!DNL Customer Journey Analytics] como fonte de relatórios. Você deve alterar a fonte de relatórios para **[!UICONTROL Select per activity]**.
 * **[!DNL Adobe Customer Journey Analytics]**: Se a fonte de relatórios for definida aqui como **[!DNL Customer Journey Analytics]**, você não poderá criar ou ativar uma atividade que usa [!DNL Target] ou [!DNL Analytics] como fonte de relatórios. Você deve alterar a fonte de relatórios para **[!UICONTROL Select per activity]**.
-* **Selecionar por atividade**: se a fonte de relatórios estiver definida aqui como **[!UICONTROL Select per activity]**, você poderá criar e ativar atividades compatíveis com a fonte de relatórios selecionada.
+* **Select per activity**: If the reporting source is set to **[!UICONTROL Select per activity]** here, you can create and activate activities that are supported by the selected reporting source.
 
-Ao determinar sua fonte de geração de relatórios, considere as seguintes informações:
+When determining your reporting source, consider the following information:
 
 * **[!DNL Analytics]**: Para obter uma matriz de atividades com suporte usando [!DNL Analytics] como fonte de relatórios (A4T), consulte [Tipos de atividades com suporte](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) no *Adobe Analytics como fonte de relatórios do Adobe Target (A4T)*.
 
@@ -60,13 +62,13 @@ Ao determinar sua fonte de geração de relatórios, considere as seguintes info
 
   Mesmo que você especifique [!DNL Customer Journey Analytics] como fonte de geração de relatórios, [!DNL Target] será usado como fonte de relatórios para [!DNL Automated Personalization] atividades.
 
-  Se você especificar [!DNL Customer Journey Analytics] como fonte de relatórios para atividades de [!UICONTROL Auto-Allocate] ou [!UICONTROL Auto-Target], [!DNL Target] ou [!DNL Analytics] poderá ser usado como fonte de relatórios.
+  If you specify [!DNL Customer Journey Analytics] as your reporting source for [!UICONTROL Auto-Allocate] or [!UICONTROL Auto-Target] activities, [!DNL Target] or [!DNL Analytics] can be used as the reporting source.
 
-## Fuso horário para relatórios
+## Timezone for Reporting
 
-Especifique o fuso horário a ser usado para relatórios.
+Specify the time zone to use for reporting.
 
-## Moeda para relatórios
+## Currency for Reporting
 
 Especifique a moeda a ser usada para relatórios.
 
@@ -78,9 +80,9 @@ Insira cada endereço IP em uma nova linha.
 
 ## Mostrar aumento estimado na receita
 
-Você pode optar por mostrar o aumento estimado na receita se inserir um valor monetário para sua meta. [!DNL Target]O pode fazer uma estimativa do aumento de receita que você obterá se todos os usuários visualizarem a experiência vencedora. O recurso de aumento estimado está desativado por padrão.
+You can choose to show the estimated lift in revenue if you enter a monetary value for your goal. [!DNL Target]O pode fazer uma estimativa do aumento de receita que você obterá se todos os usuários visualizarem a experiência vencedora. O recurso de aumento estimado está desativado por padrão.
 
-Apenas [!DNL Experience Cloud] usuários administradores podem habilitar ou desabilitar este recurso. Se uma estimativa de aumento for desabilitada, os campos correspondentes não aparecerão na interface. Desabilitar o recurso não resulta em perda de dados, inclusive os dados usados para as estimativas. As estimativas são baseadas em dados coletados independentemente de o recurso estar habilitado ou não.
+Only [!DNL Experience Cloud] Admin users can enable or disable this feature. Se uma estimativa de aumento for desabilitada, os campos correspondentes não aparecerão na interface. Desabilitar o recurso não resulta em perda de dados, inclusive os dados usados para as estimativas. As estimativas são baseadas em dados coletados independentemente de o recurso estar habilitado ou não.
 
 Para obter informações detalhadas, consulte [Aumento estimado na receita](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
@@ -88,6 +90,6 @@ Para obter informações detalhadas, consulte [Aumento estimado na receita](/hel
 
 Permitir entradas numéricas para prioridades que variam de 0 a 999.
 
-Dependendo das configurações, a interface do usuário e as opções de Prioridade variam. É possível usar as configurações herdadas de Baixo, Médio ou Alto, ou pode ativar as prioridades otimizadas de 0 a 999.
+Depending on your settings, the UI and options for Priority  vary. É possível usar as configurações herdadas de Baixo, Médio ou Alto, ou pode ativar as prioridades otimizadas de 0 a 999.
 
 A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.

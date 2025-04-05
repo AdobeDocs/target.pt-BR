@@ -5,7 +5,7 @@ title: O que são hosts e como usá-los?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 17%
@@ -21,6 +21,8 @@ O objetivo principal do gerenciamento de hosts é assegurar que nenhum conteúdo
 Um host é qualquer domínio a partir do qual uma solicitação [!DNL Target] é feita. Em um site, geralmente é a propriedade `location.hostname` da URL que está fazendo a solicitação [!DNL Target].
 
 Por padrão, o [!DNL Target] não limita um host que possa fazer [!DNL Target] solicitações e receber [!DNL Target] respostas. Quando novos hosts fazem solicitações, eles funcionam automaticamente. Esse processo também permite testar em domínios diferentes que você não conhece ou não pode antecipar. Se quiser substituir esse comportamento padrão, você pode configurar um incluir na lista de permissões incluo na lista de bloqueios de navegação ou para limitar quais hosts funcionam com o [!DNL Target].
+
+{{permissions-update}}
 
 Para gerenciar hosts, clique em **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 

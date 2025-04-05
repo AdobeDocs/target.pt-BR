@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c6799d43ee2f5ebe568f7199ae4ec1deaa164c06
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 42%
+source-wordcount: '530'
+ht-degree: 40%
 
 ---
 
@@ -21,6 +21,10 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 |--- |--- |--- |
+| 4 de abril | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão atualizadas para a próxima atualização de permissões do [!DNL Target] programada para 22 de abril de 2025. |
+|  | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Atualização das notas de pré-lançamento da próxima atualização de permissões do [!DNL Target] programada para 22 de abril de 2025. |
+|  | [Primeiros passos de administrador](/help/main/administrating-target/start-target.md#admin-permissions) | Nova seção adicionada: &quot;Permissões necessárias para editar configurações de [!UICONTROL Administration]&quot;. |
+|  | [Administrar [!DNL Target] Visão geral](/help/main/administrating-target/administrating-target.md) | Adição de uma observação importante sobre as permissões necessárias para editar configurações de [!UICONTROL Administration].<P>Adição da mesma observação a todos os artigos na seção [!UICONTROL Administration]. |
 | Abril de 2 | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.4.1 do [!DNL Target Standard/Premium]. |
 
 ### [!DNL Target Standard/Premium] 25.3.1 (3 de março de 2025)

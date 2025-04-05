@@ -1,12 +1,12 @@
 ---
 keywords: espaços de trabalho;gerenciar propriedade;permissões;configuração do produto;perfil do produto;funções;projeto;observador;editor;aprovador;editor;workspaces;manage property;permissions;product configuration;product profile;roles;project;observer;editor;approver;publisher
-description: Saiba como criar espaços de trabalho separados (perfis de produto) e atribuir aos usuários diferentes funções e permissões para páginas, propriedades ou sites individuais.
-title: O que são permissões de usuário corporativo e como usá-las?
+description: Learn how to create separate workspaces (product profiles) and then assign users different roles and permissions for individual pages, properties, or web sites.
+title: What Are Enterprise User Permissions and How Do I Use Them?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '3165'
 ht-degree: 48%
@@ -17,11 +17,13 @@ ht-degree: 48%
 
 As permissões de usuários corporativos são um meio de administrar formalmente o acesso de usuários corporativos a [!DNL Adobe Target]. Adicione usuários ao [!DNL Target], atribua permissões com base em suas funções e crie espaços de trabalho para equipes com base em diferentes departamentos, localidades globais, canais e outros agrupamentos lógicos. Você pode atribuir aos usuários as funções de [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver] ou [!UICONTROL Publisher].
 
+{{permissions-update}}
+
 ## Determine se você tem acesso a permissões de usuário do Enterprise
 
 >[!NOTE]
 >
->A funcionalidade do [!UICONTROL Properties and Permissions] está disponível como parte da solução do [!DNL Target] Premium. Elas não estão disponíveis no [!DNL Target] Standard sem uma licença do [!DNL Target] Premium.
+>[!UICONTROL Properties and Permissions] functionality is available as part of the [!DNL Target] Premium solution. Elas não estão disponíveis no [!DNL Target] Standard sem uma licença do [!DNL Target] Premium.
 >
 >Sua implementação do [!DNL Target] pode usar qualquer versão do at.js ou [!DNL Adobe Experience Platform Web SDK].
 
@@ -31,15 +33,15 @@ As permissões de usuários corporativos são um meio de administrar formalmente
 
 * Clientes **[!DNL Target Premium]**: se você vir a guia [!UICONTROL Properties] ([!UICONTROL Administration > Properties]) e a guia [!UICONTROL Users], sua organização tem uma licença [!DNL Target Premium]. Os clientes da [!DNL Target Premium] devem seguir as instruções neste artigo e em [Configurar permissões corporativas](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
-## Antes de começar a usar permissões corporativas
+## Before you get started with enterprise permissions
 
 >[!IMPORTANT]
 >
->Certifique-se de ler a seção [Avisos](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) abaixo antes de prosseguir com as permissões corporativas.
+>Ensure that you read the [Caveats](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) section below before proceeding with enterprise permissions.
 
-## Termos e definições usados nesta seção {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
+## Terms and definitions used in this section {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
 
-Os termos a seguir são usados em toda esta seção e podem ser novidade para os usuários que desejam usar a funcionalidade Propriedades e Permissões no [!DNL Target] Premium.
+The following terms are used throughout this section and might be new to users wanting to use the Properties and Permissions functionality in [!DNL Target] Premium.
 
 ### Propriedade
 
@@ -81,11 +83,11 @@ Todas as funções de usuário e o acesso a todas as funcionalidades do [!DNL Ta
 
 ### Grupos de usuários
 
-Você pode criar grupos de usuários, como desenvolvedores, analistas, profissionais de marketing e executivos. Em seguida, você pode atribuir privilégios entre vários produtos Adobe e espaços de trabalho. A atribuição de todos os privilégios apropriados a um novo membro da equipe em diferentes produtos da Adobe pode ser tão fácil quanto adicioná-lo a um grupo de usuários específico.
+Você pode criar grupos de usuários, como desenvolvedores, analistas, profissionais de marketing e executivos. Em seguida, você pode atribuir privilégios a vários produtos e espaços de trabalho da Adobe. A atribuição de todos os privilégios apropriados a um novo membro da equipe em diferentes produtos da Adobe pode ser tão fácil quanto adicioná-lo a um grupo de usuários específico.
 
 ### Funções e permissões {#roles-permissions}
 
-As funções e permissões determinam os níveis de acesso que os usuários têm para criar e gerenciar atividades na implementação do [!DNL Target]. Em [!DNL Target], as funções incluem:
+Roles and permissions determine the access levels that users have to create and manage activities in your [!DNL Target] implementation. In [!DNL Target], roles include the following:
 
 | Função | Descrição |
 |--- |--- |
@@ -110,9 +112,9 @@ A nova funcionalidade [!UICONTROL Permissions] permite criar projetos diferentes
 
 Por exemplo, um usuário específico pode ter acesso de &quot;aprovação&quot; nos sites das Américas, mas apenas de &quot;visualização&quot; no aplicativo móvel Europeu. Esse mesmo usuário pode não ter acesso para ver as atividades oferecidas nas propriedades da Web e de dispositivos móveis na região APAC.
 
-O modelo [!DNL Target] [!UICONTROL Permissions] possui as seguintes funções de permissão (Observador, Editor, Aprovador e Observador). A função de Observador não é mostrada nas ilustrações deste artigo.
+The [!DNL Target] [!UICONTROL Permissions] model has the following permission roles (Observer, Editor, Approver, and Observer). The Observer role is not shown in illustrations in this article.
 
-![permissões_1 imagem](assets/permissions_1.png)
+![permissions_1 image](assets/permissions_1.png)
 
 Cada função tem diferentes níveis de permissões:
 
@@ -125,11 +127,11 @@ Cada função tem diferentes níveis de permissões:
 
 É importante observar que a função de cada usuário se aplica a todas as páginas, propriedades ou sites da conta que incluam tags do [!DNL Target], conforme mostrado abaixo:
 
-![permissões_2 imagem](assets/permissions_2.png)
+![permissions_2 image](assets/permissions_2.png)
 
-O novo modelo [!DNL Target] [!UICONTROL Permissions] tem as mesmas três funções de permissão (Observador, Editor e Aprovador); entretanto, é possível atribuir funções de permissões de um usuário separadamente para páginas, propriedades ou sites individuais, conforme mostrado abaixo.
+The new [!DNL Target] [!UICONTROL Permissions] model has the same three permission roles (Observer, Editor, and Approver); however, you can assign a user&#39;s permissions roles separately for individual pages, properties, or sites, as shown below:
 
-![permissões_3 imagem](assets/permissions_3.png)
+![permissions_3 image](assets/permissions_3.png)
 
 Neste exemplo, Jan tem permissões de Aprovador para a página inicial dos EUA e o site dos EUA, bem como permissões de Observador para o site da França.
 
@@ -201,7 +203,7 @@ A nova funcionalidade de Permissões pode ser vista em vários locais na interfa
 
 ## Avisos {#section_9714311B1CD9497A86F4910F8AE635E2}
 
-Considere o seguinte ao usar ou configurar propriedades e permissões no [!DNL Target] Premium:
+Consider the following when using or configuring properties and permissions in [!DNL Target] Premium:
 
 * **Importante**: não exclua espaços de trabalho com atividades. Se você excluir um espaço de trabalho com atividades do, trabalhe com o Atendimento ao cliente para recuperar essas atividades.
 * Ao utilizar a exibição Todos os espaços de trabalho:
@@ -236,8 +238,8 @@ Considere o seguinte ao usar ou configurar propriedades e permissões no [!DNL T
 
    * Ofertas de imagem
    * Todos os recursos do Recommendations, incluindo Biblioteca de critérios, Biblioteca de design, Catálogo, Configuração de recomendações.
-   * Os recursos existentes (como atividades, ofertas de código e públicos-alvo) criados no Target Premium antes da ativação das Permissões empresariais podem ser copiados, mas não podem ser movidos para outros espaços de trabalho.
-   * Atividades, públicos, ofertas de código, ofertas de imagem ou qualquer outro recurso criado usando as seguintes soluções ou métodos não podem ser controlados pelo modelo de Permissões empresariais, mas fazem parte do Workspace padrão: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services e recursos criados por meio da API. Os recursos criados por meio da API incluem atividades, públicos-alvo, ofertas de código e ofertas de imagem).
+   * Existing resources (such as activities, code offers, and audiences) created within Target Premium before enabling Enterprise Permissions can be copied but cannot be moved to other workspaces.
+   * Activities, audiences, code offers, image offers, or any other resource created using the following solutions or methods cannot be controlled by the Enterprise Permissions model, but are part of the Default Workspace: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services, and resources created via API. Os recursos criados por meio da API incluem atividades, públicos-alvo, ofertas de código e ofertas de imagem).
    * Ofertas de imagem (os ativos armazenados em `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` não podem ser controlados no momento pelo modelo de Permissões empresariais.
    * O clickTracking e os redirecionamentos funcionam quando o link ou a página de destino fazem parte de uma propriedade incluída na atividade. Além disso, clickTracking pode não funcionar ao usar a função `targetPageParams()`. A função recomendada é `targetPageParamsAll()`.
 
@@ -277,11 +279,11 @@ Sim, você pode mover públicos entre espaços de trabalho usando a opção [!UI
 
 >[!NOTE]
 >
->Você deve ter os direitos apropriados para editar um público-alvo. Além disso, o público-alvo não deve ser usado em outras atividades. Se o público-alvo estiver sendo usado em outras atividades e você ainda quiser movê-lo para outro local de trabalho, remova-o das outras atividades em que está sendo usado.
+>Você deve ter os direitos apropriados para editar um público-alvo. In addition, the audience must not be used in other activities. Se o público-alvo estiver sendo usado em outras atividades e você ainda quiser movê-lo para outro local de trabalho, remova-o das outras atividades em que está sendo usado.
 
 ### Por que recebo uma mensagem de erro indicando que nenhuma propriedade está associada a essa atividade, mesmo que haja uma propriedade atribuída?
 
-Se você implementou [!DNL Target] com marcas em [!DNL Adobe Experience Platform] e recebeu uma mensagem de erro indicando que não há propriedade associada à atividade, passe o parâmetro `at_property` com a função `targetPageParams`.
+If you implemented [!DNL Target] with tags in [!DNL Adobe Experience Platform] and get an error message indicating that there is no property associated with the activity, pass the `at_property` parameter with the `targetPageParams` function.
 
 ### As conversões de rastreamento de cliques são registradas se uma página redirecionada e o URL da atividade pertencerem a propriedades diferentes?
 
@@ -293,7 +295,7 @@ Considere a seguinte situação
 * A página 2 pertence à Propriedade 2.
 * Na atividade, a Página 1 redireciona para a Página 2, que contém rastreamento de cliques.
 
-Quando um visitante abre a Página 1 em um navegador, ele é redirecionado para a Página 2. Como a Página 2 não está qualificada para fornecer a atividade, sua chamada do Target não terá rastreamentos de cliques na resposta.
+When a visitor opens Page1 in a browser, the visitor is redirected to Page2. Como a Página 2 não está qualificada para fornecer a atividade, sua chamada do Target não terá rastreamentos de cliques na resposta.
 
 Se a página de redirecionamento e o URL da atividade pertencerem à mesma propriedade, o rastreamento de cliques funcionará como esperado. Para obter mais informações, consulte [Rastreamento de cliques](/help/main/c-activities/r-success-metrics/click-tracking.md).
 
@@ -301,7 +303,7 @@ Se a página de redirecionamento e o URL da atividade pertencerem à mesma propr
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Vídeo de Treinamento: Vídeo de Treinamento de Permissões Empresariais ![Selo de visão geral](/help/main/assets/overview.png)
+### Training Video: Enterprise Permissions Training Video ![Overview badge](/help/main/assets/overview.png)
 
 Objetivos de aprendizagem:
 
@@ -311,7 +313,7 @@ Objetivos de aprendizagem:
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### Horário comercial: [!DNL Target] Premium Workspaces
+### Office hours: [!DNL Target] Premium Workspaces
 
 Este vídeo é uma gravação de &quot;No expediente&quot;, uma iniciativa da equipe de Atendimento ao cliente da Adobe.
 

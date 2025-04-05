@@ -1,11 +1,11 @@
 ---
 keywords: ambiente;solução de problemas;práticas recomendadas;ubox;redireciona;redirecionar;lista de permissões;lista negra;incluir na lista de bloqueios;incluir na lista de permissões
-description: Saiba como usar ambientes no Adobe [!DNL Target] para organizar seus sites e ambientes de pré-produção para facilitar o gerenciamento e gerar relatórios separados.
+description: Saiba como usar ambientes no Adobe [!DNL Target] para organizar seus sites e ambientes de pré-produção para facilitar o gerenciamento e os relatórios separados.
 title: O que são ambientes e como usá-los?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 47%
@@ -21,6 +21,8 @@ Os hosts são agrupados em ambientes para facilitar o gerenciamento. Por exemplo
 Um ambiente, o ambiente padrão, é pré-nomeado como [!UICONTROL Production]. Esse ambiente padrão não pode ser removido, mesmo que você o renomeie. O [!DNL Target] parte do princípio que este é o local onde você disponibiliza atividades finais, aprovadas e testes.
 
 Quando uma solicitação [!DNL Target] é recebida de novos sites ou domínios, estes sempre aparecem no ambiente [!UICONTROL Production]. O ambiente [!UICONTROL Production] não pode ter suas configurações alteradas, portanto, sites novos ou desconhecidos têm garantia de ver somente o conteúdo que está ativo e pronto. O gerenciamento de hosts também permite garantir a qualidade de novas atividades e do conteúdo em seus ambientes de teste, armazenamento temporário e desenvolvimento, antes das atividades serem ativadas.
+
+{{permissions-update}}
 
 Para gerenciar ambientes, clique em **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
 

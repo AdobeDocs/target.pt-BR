@@ -5,7 +5,7 @@ title: O que são Tokens de resposta e como usá-los?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 22%
@@ -19,6 +19,8 @@ Os tokens de resposta permitem enviar automaticamente informações específicas
 Os tokens de resposta permitem escolher quais variáveis (em pares de valores chave) usar e depois habilitar eles para serem enviados como parte de uma resposta [!DNL Target]. Você habilita uma variável usando o switch e a variável é enviada com [!DNL Target] respostas, que podem ser validadas em chamadas de rede. Os tokens de resposta também funcionam no modo [!UICONTROL Preview].
 
 Uma diferença importante entre plug-ins e tokens de resposta é que os plug-ins fornecem o JavaScript à página que é executada na entrega. Os tokens de resposta, no entanto, fornecem um objeto que pode ser lido e utilizado com o uso de ouvintes de eventos. A abordagem do token de resposta é mais segura e permite um desenvolvimento e manutenção mais fáceis de integrações de terceiros.
+
+{{permissions-update}}
 
 >[!NOTE]
 >
@@ -46,7 +48,7 @@ Uma diferença importante entre plug-ins e tokens de resposta é que os plug-ins
 
    | Tipo | Parâmetro | Notas |
    |--- |--- |--- |
-   | Perfis incorporados | `profile.activeActivities` | Retorna uma matriz do `activityIds` para o qual os visitantes estão qualificados. Ele é incrementado à medida que os usuários são qualificados. Por exemplo, em uma página com duas solicitações [!DNL Target] que fornecem duas atividades diferentes, a segunda solicitação inclui ambas as atividades. |
+   | Perfis integrados | `profile.activeActivities` | Retorna uma matriz do `activityIds` para o qual os visitantes estão qualificados. Ele é incrementado à medida que os usuários são qualificados. Por exemplo, em uma página com duas solicitações [!DNL Target] que fornecem duas atividades diferentes, a segunda solicitação inclui ambas as atividades. |
    |  | `profile.isFirstSession` | Retorna &quot;true&quot; ou &quot;false.&quot; |
    |  | `profile.isNewSession` | Retorna &quot;true&quot; ou &quot;false.&quot; |
    |  | `profile.daysSinceLastVisit` | Retorna o número de dias, desde a última visita do visitante. |
@@ -80,11 +82,11 @@ O processo usado para ouvir respostas do [!DNL Target] e ler tokens de resposta 
 
 Use a classe de objeto Handle, que tem um objeto de metadados e um objeto de dados para escutar respostas [!DNL Target] e ler os tokens de resposta.
 
-O exemplo de resposta a seguir adiciona um manipulador de eventos personalizado [!DNL Platform Web SDK] diretamente à página HTML (a tabela explica os objetos usados no código):
+O exemplo de resposta a seguir adiciona um manipulador de eventos personalizado [!DNL Platform Web SDK] diretamente à página do HTML (a tabela explica os objetos usados no código):
 
 | Objeto | Informações |
 | --- | --- |
-| Tipo - Personalization.decision | Se a decisão foi tomada pelo [!DNL Target] ou pelo provedor do Offer decisioning. |
+| Tipo - Personalization.decision | Se a decisão foi tomada pelo [!DNL Target] ou pelo provedor do Offer Decisioning. |
 | Provedor de decisão - TGT | TGT-[!DNL Target]. [!DNL Target] fornece os valores e metadados do token de resposta à página. |
 | Meta | Metadados passados para a página. |
 | Dados | Valores dos metadados passados para a página. |
@@ -214,11 +216,11 @@ O [!DNL Target] executa uma atualização de atributos em intervalos regulares. 
 
 ## Enviar dados para o Google Analytics
 
-As seções a seguir descrevem como enviar dados do [!DNL Target] para os Google Analytics 4. Os dados enviados por tokens de resposta também podem ser enviados para outras integrações de terceiros.
+As seções a seguir descrevem como enviar dados do [!DNL Target] para o Google Analytics 4. Os dados enviados por tokens de resposta também podem ser enviados para outras integrações de terceiros.
 
-### ![Selo da AEP](/help/main/assets/platform.png) Envio de dados para o Google Analytics via Platform Web SDK
+### ![Selo da AEP](/help/main/assets/platform.png) Envio de dados para a Google Analytics via Platform Web SDK
 
-Os Google Analytics podem ser enviados por meio da Platform Web SDK versão 2.6.0 (ou posterior), adicionando o seguinte código na página de HTML.
+O Google Analytics pode enviar dados por meio da Platform Web SDK versão 2.6.0 (ou posterior) adicionando o seguinte código na página do HTML.
 
 >[!NOTE]
 >
@@ -254,7 +256,7 @@ Os Google Analytics podem ser enviados por meio da Platform Web SDK versão 2.6.
 </script>
 ```
 
-### ![selo da at.js](/help/main/assets/atjs.png) Envio de dados para o Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![selo da at.js](/help/main/assets/atjs.png) Envio de dados para a Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 O Google Analytics pode enviar dados via at.js ao adicionar o seguinte código na página HTML:
 
@@ -312,7 +314,7 @@ As seções a seguir fornecem informações sobre a depuração de tokens de res
 
 ### ![selo da at.js](/help/main/assets/atjs.png) Google Analytics e depuração
 
-O código a seguir permite depurar usando Google Analytics:
+O código a seguir permite depurar usando o Google Analytics:
 
 ```javascript
 <script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
