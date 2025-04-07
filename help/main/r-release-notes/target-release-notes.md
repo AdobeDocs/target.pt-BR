@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0618d39fc5966c64cceea8f5bcccb625fc243ebb
+source-git-commit: 203c0ca94b198ee7ce8379731d31d32b27cb8a0d
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 38%
+source-wordcount: '653'
+ht-degree: 31%
 
 ---
 
@@ -30,6 +30,22 @@ Essa atualização futura melhora o controle organizacional sobre as configuraç
 A partir de 22 de abril de 2025, somente [!UICONTROL Product] e [!UICONTROL Solutions] administradores poderão atualizar as configurações nas seções [!UICONTROL Administration], independentemente de suas funções nos espaços de trabalho [!DNL Target]. Os usuários sem esta permissão terão acesso somente leitura às seções [!UICONTROL Administration].
 
 Para obter mais informações, consulte [Administrar Target](/help/main/administrating-target/start-target.md).
+
+## [!DNL Target Standard/Premium] 25.4.3 (10 de abril de 2025)
+
+Esta versão do inclui as seguintes correções e atualizações:
+
+* Correção de um problema em que o link [!UICONTROL Activity QA] em [!UICONTROL Form-Based Experience Composer] era redirecionado incorretamente para a página inicial [!DNL Adobe Experience Cloud]. (TGT-52055)
+* Adição de uma mensagem de erro para orientar os usuários sobre a resolução de opções de duplicação em uma atividade. (TGT-51927)
+
+## [!DNL Target Standard/Premium] 25.4.2 (8 de abril de 2025)
+
+Esta versão do inclui as seguintes correções e atualizações:
+
+* Correção de um problema em que páginas adicionais adicionadas à atividade [!UICONTROL A/B Test] não eram mantidas após salvar e reabrir. (TGT-51994)
+* Correção de um problema que impedia os clientes de excluir estilos na seção de estilo em linha. (TGT-52070)
+* Restaurado o acesso a [cartões de definição de público-alvo](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) na caixa de diálogo [!UICONTROL Activity QA], semelhante à interface herdada. (TGT-52056)
+* A interface atualizada não salva páginas ou públicos-alvo sem modificações. Se os clientes adicionaram novas páginas ou públicos-alvo a uma atividade, mas não fizeram alterações, [!DNL Target] descartou os públicos-alvo não modificados ao salvar. Foram adicionadas notificações em locais relevantes para informar os usuários sobre esse comportamento. (TGT-52104)
 
 ## [!DNL Target Standard/Premium] 25.4.1 (2 de abril de 2025)
 
