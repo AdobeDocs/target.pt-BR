@@ -4,16 +4,25 @@ description: Saiba como o [!DNL Adobe Target] funciona, incluindo informações 
 title: Como o  [!DNL Target]  funciona?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 71bc1a51fd066ea4f47f0f8bc16d983a238014ea
+source-git-commit: 70b3dbc7f0521e865de781e72bb1e5ca98df0258
 workflow-type: tm+mt
-source-wordcount: '2226'
-ht-degree: 25%
+source-wordcount: '2306'
+ht-degree: 24%
 
 ---
 
 # Como o [!DNL Adobe Target] funciona
 
-Saiba como o [!DNL Adobe Target] funciona, incluindo detalhes sobre as bibliotecas JavaScript ([!DNL Adobe Experience Platform Web SDK] e at.js). Este artigo também aborda os vários tipos de atividades que você pode criar, as estratégias de contagem de uso do [!DNL Target], o Edge Network do [!DNL Target], o SEO e a detecção de bot.
+Saiba como [!DNL Adobe Target] funciona, incluindo detalhes sobre o JavaScript bibliotecas ([!DNL Adobe Experience Platform Web SDK] e o at.js). Este artigo também aborda os diversos tipos de atividade que você pode criar, [!DNL Target] estratégias de contagem de uso, a [!DNL Target] Rede Edge, SEO e detecção de bot.
+
+Os pontos-chave incluem:
+
+* **Bibliotecas** JavaScript: aprenda informações sobre o [!DNL Target] bibliotecas de JavaScript: [!DNL Adobe Experience Platform Web SDK] e o at.js.
+* **Estratégias de uso de chamadas do servidor: entenda como [!DNL Target] conta várias** chamadas do servidor, incluindo endpoints, mbox único, mbox em lote, executar, pré-busca e chamadas notificação.
+* **Edge Network**: Descubra como [!DNL Target] interage com o [!DNL Adobe Experience Platform Edge Network].
+* **Experiência de usuário protegida**: saiba como o [!DNL Adobe] garante a disponibilidade e o desempenho de sua infraestrutura de direcionamento.
+* **Diretrizes de SEO**: siga as práticas recomendadas para alinhar as atividades de [!DNL Target] com as diretrizes de SEO.
+* **Tráfego de** bot: saiba como a Target lida com bot tráfego para evitar o viés de testes e algoritmos personalização.
 
 ## Bibliotecas de JavaScript do [!DNL Adobe Target] {#libraries}
 
@@ -43,10 +52,10 @@ O conteúdo exibido depende do tipo de atividade que você cria:
 
 Em um teste A/B básico, o conteúdo é escolhido aleatoriamente a partir das experiências atribuídas. É possível definir porcentagens de alocação de tráfego para cada experiência. Inicialmente, o tráfego pode ser distribuído de forma desigual devido à divisão aleatória, mas é equalizado à medida que o tráfego aumenta. Por exemplo, com duas experiências, a experiência inicial é escolhida aleatoriamente. Tráfego baixo pode distorcer as porcentagens de visitantes em direção a uma experiência, mas essa situação equilibra com mais tráfego.
 
-Especifique metas de porcentagem para cada experiência. Um número aleatório é gerado para selecionar a experiência a ser exibida. Embora as porcentagens resultantes possam não corresponder exatamente aos alvos, um tráfego maior leva a uma divisão mais próxima dos objetivos do alvo.
+Especifique os direcionamentos da porcentagem para cada experiência. Um número aleatório é gerado para selecionar o experiência a ser exibido. Embora as porcentagens resultantes possam não corresponder exatamente aos alvos, as tráfego mais altas levam a uma divisão mais próxima dos Direcionamento gols.
 
-1. Um cliente solicita uma página do seu servidor, que é exibida no navegador.
-1. Um cookie próprio é definido no navegador do cliente para armazenar seu comportamento.
+1. Um cliente solicita uma página do seu servidor, que é exibida em suas navegador.
+1. Um cookie próprio é configurado na navegador do cliente para armazenamento seu comportamento.
 1. A página chama o sistema de direcionamento.
 1. O conteúdo é exibido com base nas regras de atividade.
 
@@ -72,7 +81,7 @@ Consulte [Automated Personalization](/help/main/c-activities/t-automated-persona
 
 ### [!UICONTROL Experience Targeting] (XT)
 
-O [!UICONTROL Experience Targeting] (XT) fornece conteúdo a públicos-alvo específicos com base em regras e critérios definidos pelo profissional de marketing. Incluindo a geolocalização, o XT é importante para definir regras que direcionem experiências ou conteúdo específicos para públicos-alvo específicos. Várias regras podem ser definidas em uma atividade para fornecer diferentes variações de conteúdo para públicos diferentes. Quando visitantes acessam o seu site, o XT os avalia para determinar se eles atendem aos critérios. Se qualificados, eles entram na atividade e veem a experiência projetada para eles. Você pode criar experiências para diversos públicos-alvo dentro de uma única atividade.
+O [!UICONTROL Experience Targeting] (XT) fornece conteúdo a públicos-alvo específicos com base em regras e critérios definidos pelo profissional de marketing. Incluindo a geolocalização, o XT é importante para definir regras que direcionem experiências ou conteúdo específicos para públicos-alvo específicos. Várias regras podem ser definidas em uma atividade para fornecer diferentes variações de conteúdo para públicos diferentes. Quando os visitantes visualização site, o XT os avalia para determinar se eles atendem aos critérios. Se eles se qualificarem, eles entram na atividade e vêem os experiência projetados para eles. Você pode criar experiências para diversos públicos-alvo dentro de uma única atividade.
 
 Consulte [Direcionamento de experiência](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) para obter mais informações.
 
@@ -121,9 +130,9 @@ Cada cluster do Edge contém todas as informações necessárias para responder 
 
 Para obter mais informações, consulte o white paper [Visão geral da segurança no Adobe Target](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
 
-O [!DNL Target] está hospedado em data centers próprios e alugados pela Adobe Adobe no mundo inteiro.
+[!DNL Target] É hospedada em Adobe Systems data centers próprios e Adobe Systems de propriedade Adobe Systems em todo o mundo.
 
-Os locais do cluster central abrigam centros de coleta e processamento de dados. Os locais do Edge Cluster contêm apenas centros de coleta de dados. Cada conjunto de relatórios é atribuído a um centro de processamento de dados específico.
+Os locais do Cluster central abrigam centros de coleção de dados e processamento de dados. Os locais do Edge Cluster contêm apenas centros de coleta de dados. Cada conjunto de relatórios é atribuído a um centro de processamento de dados específico.
 
 Os dados de atividade do site do cliente são coletados pelo mais próximo de sete clusters Edge. Esses dados são então direcionados a um destino de cluster central predeterminado (Oregon, Dublin ou Singapura) para processamento. Os dados do perfil do visitante são armazenados no cluster de borda mais próximo do visitante do site. Os locais do Edge Cluster incluem os locais centrais do Cluster, bem como Virgínia, Mumbai, Sydney e Tóquio.
 
@@ -151,7 +160,7 @@ O serviço [!DNL Target Recommendations] é hospedado em um data center [!DNL Ad
 
 >[!IMPORTANT]
 >
->Atualmente, o [!DNL Target] não tem um cluster do Edge na China, o que limita o desempenho do visitante para [!DNL Target] clientes na região. O firewall e a ausência de clusters do Edge podem afetar as experiências do site, causando renderização lenta e tempos de carregamento de página. Além disso, os profissionais de marketing podem experimentar latência ao usar a interface de criação do [!DNL Target].
+>[!DNL Target] No momento, não há um Cluster edge em China, limitando o desempenho visitante para [!DNL Target] os clientes no região. O firewall e a ausência de clusters do Edge podem afetar as experiências do site, causando renderização lenta e tempos de carregamento de página. Além disso, os profissionais de marketing podem experiência latência ao usar o [!DNL Target] interface de criação.
 
 Você pode adicionar clusters de borda do [!DNL Target] à lista de permissões, se desejar. Para obter mais informações, consulte [lista de permissões de nós de borda do Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges).
 
@@ -165,9 +174,9 @@ Nenhuma alteração será feita na página se o navegador do visitante não pude
 
 A [!DNL Adobe] protege a experiência do usuário por otimizar e salvaguardar o desempenho.
 
-* O [!DNL Adobe] garante referências de desempenho com base em padrões do setor, garantidos pelo [!UICONTROL Adobe Service Level Agreement].
+* [!DNL Adobe] garante os referenciais de desempenho com base nos padrões do setor, garantidos pelo [!UICONTROL Adobe Service Level Agreement]parâmetro .
 * A rede de borda assegura a entrega de dados em tempo hábil.
-* O [!UICONTROL Adobe] emprega uma abordagem de múltiplas camadas para proteger seus aplicativos, fornecendo o mais alto nível de disponibilidade e confiabilidade para os clientes.
+* [!UICONTROL Adobe] emprega uma abordagem multinível para proteger seus aplicativos, fornecendo o mais alto nível de disponibilidade e confiabilidade para os clientes.
 * O [!DNL Target] Consulting oferece assistência na implementação e suporte contínuo ao produto.
 
 ## Teste compatível com a Otimização do mecanismo de pesquisa (SEO) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
@@ -224,9 +233,9 @@ A Google afirma, como um exemplo, que “se a página original de um site é car
 >
 > Para solicitações de [!DNL Server-Side], o valor transmitido no [nó “Contexto” da solicitação](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) tem prioridade sobre a sequência de agente do usuário para detecção de bot.
 
-O tráfego identificado como gerado pelo bot ainda recebe conteúdo. Os bots são tratados como usuários regulares para garantir que o [!DNL Target] se alinhe às diretrizes de SEO. No entanto, o tráfego de bot pode distorcer testes A/B ou algoritmos de personalização se for tratado como usuários normais. Portanto, o tráfego de bot conhecido na atividade [!DNL Target] é tratado de forma diferente. A remoção do tráfego de bot fornece uma medida mais precisa da atividade do usuário.
+O tráfego identificado como gerado pelo bot ainda recebe conteúdo. Os bots são tratados como usuários regulares para garantir que o [!DNL Target] se alinhe às diretrizes de SEO. No entanto, o tráfego de bot pode distorcer testes A/B ou algoritmos de personalização se for tratado como usuários normais. Portanto, o tráfego de bot conhecido na atividade [!DNL Target] é tratado de forma diferente. A remoção bot tráfego fornece uma medida mais precisa das usuário atividade.
 
-Para tráfego de bot conhecido, [!DNL Target] não:
+Para bot conhecidos tráfego, [!DNL Target] não:
 
 * Cria ou recupera um perfil do visitante
 * Registrar atributos de perfil ou executar scripts de perfil
