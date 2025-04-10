@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8af56181ea0ed74eb41d799908ce50f0436d330c
+source-git-commit: 7e23eea48abdebd60f37ad1bf453813a63779d33
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 30%
+source-wordcount: '744'
+ht-degree: 28%
 
 ---
 
@@ -31,6 +31,16 @@ A partir de 22 de abril de 2025, somente [!UICONTROL Product] e [!UICONTROL Solu
 
 Para obter mais informações, consulte [Administrar Target](/help/main/administrating-target/start-target.md).
 
+## [!DNL Target Standard/Premium] 25.4.4 (15 de abril de 2025)
+
+Esta versão do inclui as seguintes correções e atualizações:
+
+* Adição de uma mensagem de erro para orientar os usuários sobre a resolução de opções de duplicação em uma atividade. (TGT-51927)
+* Correção de um problema em que os seletores ClickTrack não eram removidos ao excluir páginas ou experiências com ofertas de redirecionamento. (TGT-51952)
+* Correção de um problema em que [!DNL Target] não detectava corretamente um caractere &quot;#&quot; na URL da atividade. (TGT-52093)
+* Correção de um problema em que as definições de público-alvo não estavam visíveis ao editar o direcionamento no nível de oferta nas atividades de [!UICONTROL Automated Personalization] (AP). (TGT-52148)
+* Correção de um problema em que os refinamentos de público-alvo e os públicos-alvo de direcionamento de atividades eram revertidos na interface do usuário. (TGT-52158)
+
 ## [!DNL Target Standard/Premium] 25.4.3 (10 de abril de 2025)
 
 Esta versão do inclui as seguintes correções e atualizações:
@@ -51,7 +61,6 @@ Esta versão do inclui as seguintes correções e atualizações:
 * Correção de um problema que impedia que a URL de toda a experiência fosse exibida no [!UICONTROL Browse mode] no [!UICONTROL Visual Experience Composer] (VEC). (TGT-52101)
 * Correção de um problema em que a edição de uma atividade fazia com que a entrega da página adicionasse &quot;/&quot; ao final do URL, tornando-a inválida. (TGT-52114)
 * Correção de um problema em que o link [!UICONTROL Activity QA] em [!UICONTROL Form-Based Experience Composer] era redirecionado incorretamente para a página inicial [!DNL Adobe Experience Cloud]. (TGT-52055)
-* Adição de uma mensagem de erro para orientar os usuários sobre a resolução de opções de duplicação em uma atividade. (TGT-51927)
 * Correção de um problema em que páginas adicionais adicionadas à atividade [!UICONTROL A/B Test] não eram mantidas após salvar e reabrir. (TGT-51994)
 * Correção de um problema que impedia os clientes de excluir estilos na seção de estilo em linha. (TGT-52070)
 * Restaurado o acesso a [cartões de definição de público-alvo](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) na caixa de diálogo [!UICONTROL Activity QA], semelhante à interface herdada. (TGT-52056)
