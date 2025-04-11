@@ -4,7 +4,7 @@ description: Saiba como o [!DNL Adobe Target] funciona, incluindo informações 
 title: Como o  [!DNL Target]  funciona?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
+source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
 workflow-type: tm+mt
 source-wordcount: '2400'
 ht-degree: 23%
@@ -103,10 +103,10 @@ Consulte [Recommendations](/help/main/c-recommendations/recommendations.md#conce
 
 As informações a seguir ajudam você a entender a estratégia de contagem usada para [!DNL Target] chamadas de servidor, conforme mostrado na tabela abaixo:
 
-* **Contar uma vez**: conta uma vez por chamada de API
-* **Contar o número de mboxes**: conta o número de mboxes na matriz na carga de uma única chamada de API
-* **Ignorar**: não é contado
-* **Contar o Número de Exibições (Uma Vez)**: conta o número de exibições na matriz na carga. Em uma implementação típica, uma notificação de exibição tem apenas uma exibição no array de notificações, tornando isso equivalente a contar uma vez na maioria das implementações
+* **Contar uma vez**: conta uma vez por chamada de API.
+* **Contar o número de mboxes**: conta o número de mboxes na matriz na carga de uma única chamada de API.
+* **Ignorar**: não é contado.
+* **Contar o Número de Exibições (Uma Vez)**: conta o número de exibições na matriz na carga. Em uma implementação típica, uma notificação de exibição tem apenas uma exibição na matriz de notificações, tornando isso equivalente a contar uma vez na maioria das implementações.
 
 | Endpoint | Tipo de busca | Opções | Estratégia de contagem |
 |--- |--- |--- |-- |
