@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 218036d23803643f25e6cf9dd91ea71dd55342ea
+source-git-commit: cd25bda52b7a1b916a73ca5e531a7134ba8cef4e
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 50%
+source-wordcount: '416'
+ht-degree: 43%
 
 ---
 
@@ -28,10 +28,15 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 Esta versão do inclui as seguintes correções e atualizações:
 
 * Adição de uma mensagem de erro para orientar os usuários sobre a resolução de opções de duplicação em uma atividade. (TGT-51927)
-* Correção de um problema em que os seletores ClickTrack não eram removidos ao excluir páginas ou experiências com ofertas de redirecionamento. (TGT-51952)
-* Correção de um problema em que [!DNL Target] não detectava corretamente um caractere &quot;#&quot; na URL da atividade. (TGT-52093)
+* Correção de um problema em que `ClickTrack` seletores não eram removidos ao excluir páginas ou experiências com ofertas de redirecionamento. (TGT-51952)
+* Correção de um problema causado pela permissão de seletores `ClickTrack` vazios. [!DNL Target] agora exige que o campo seletor não esteja em branco. (TGT-52107)
+* Correção de um problema que permitia incorretamente métricas com nomes duplicados. Métricas agora exigem nomes exclusivos. (TGT-52201)
 * Correção de um problema em que as definições de público-alvo não estavam visíveis ao editar o direcionamento no nível de oferta nas atividades de [!UICONTROL Automated Personalization] (AP). (TGT-52148)
-* Correção de um problema em que os refinamentos de público-alvo e os públicos-alvo de direcionamento de atividades eram revertidos na interface do usuário. (TGT-52158)
+* Correção de um problema que impedia clientes com direitos de [!UICONTROL Editor] de salvar atividades. (TGT-52227)
+* `OptionLocalIDs` não incrementa mais incorretamente quando a opção permanece inalterada. (TGT-52139)
+* Correção de um problema que causava uma mensagem &quot;Inválido `optionLocalIds`&quot; ao tentar criar uma atividade. (TGT-52154)
+* Foram corrigidas discrepâncias entre `OptionLocalIDs` definidas para uma atividade e aquelas usadas para definir experiências. (TGT-52215)
+* Correção de um problema que causava uma falha de validação que ocorria ao tentar criar uma atividade A/B. (TGT-51923)
 
 ## Atualização de permissões do Target (22 de abril de 2025)
 
