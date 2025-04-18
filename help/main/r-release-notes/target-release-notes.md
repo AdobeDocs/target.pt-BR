@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
+source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 67%
+source-wordcount: '373'
+ht-degree: 47%
 
 ---
 
@@ -22,6 +22,19 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 >As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio.
 >
 >Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 25.4.5 (24 de abril de 2025)
+
+Esta versão do inclui as seguintes correções e atualizações:
+
+* Correção de um problema que fazia com que vários públicos-alvo de experiência fossem exibidos ao editar ou salvar uma atividade. (TGT-52134)
+* Correção de um problema em que as recomendações não eram exibidas no site do cliente após ativar a atividade [!DNL Recommendations]. (TGT-52164)
+* `OptionLocalIDs` não aumenta mais incorretamente quando a opção permanece inalterada. (TGT-52187)
+* Os arquivos de relatórios baixados agora mostram corretamente os dados presentes na interface do usuário dos relatórios. (TGT-52068)
+* Correção de um problema que impedia o Target de reconhecer o caractere &quot;#&quot; no URL de um site. (TGT-52093)
+* As operações em lote não falham mais após a adição de regras de entrega de página. (TGT-52097)
+* Correção de um problema que fazia com que [!DNL Target] cortasse todos os parâmetros de consulta da URL do site. (TGT-52100)
+* Correção de um problema que fazia com que refinamentos de público-alvo e públicos-alvo de atividades fossem revertidos na interface do usuário atualizada. (TGT-52158)
 
 ## Atualização de permissões do Target (22 de abril de 2025)
 
