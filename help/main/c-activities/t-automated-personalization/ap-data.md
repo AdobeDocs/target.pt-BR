@@ -5,9 +5,9 @@ title: Quais dados são coletados para criar algoritmos de aprendizado de máqui
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c
+source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1958'
 ht-degree: 51%
 
 ---
@@ -41,9 +41,9 @@ A tabela a seguir mostra os dados fornecidos pelo cliente coletados por [!UICONT
 | Atributos do cliente | CRS | Atributos do Cliente carregados para o perfil [!DNL Target] por meio de [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}. | Personalizado - Perfil do visitante - [nome do atributo] |
 | Parâmetros de URL | URL | URL e parâmetros de URL da página exibida no momento. | Personalizado - Parâmetro de URL - [Parâmetro de URL] |
 | URL de referência | REF | URL de referência e quaisquer parâmetros de URL para o URL de referência. | Personalizado - [Parâmetro de URL de Referência] - [Valor de parâmetro] |
-| [!DNL Adobe Experience Cloud] públicos-alvo compartilhados | AAM | Todos os públicos-alvo compartilhados com [!DNL Target] de outras soluções [!DNL Adobe Experience Cloud] (por exemplo, [!DNL Adobe Audience Manager] e [!DNL Adobe Analytics], por meio de [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Personalizado - Público-Alvo Do Experience Cloud - [Nome Do Público-Alvo] |
+| [!DNL Adobe Experience Cloud] públicos-alvo compartilhados | AAM | Todos os públicos-alvo compartilhados com [!DNL Target] de outras soluções [!DNL Adobe Experience Cloud] (por exemplo, [!DNL Adobe Audience Manager] e [!DNL Adobe Analytics], através de [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Personalizado - Público-Alvo Do Experience Cloud - [Nome Do Público-Alvo] |
 | [!DNL Adobe Experience Platform Real-time CDP] públicos-alvo | UPS | Públicos da CDP em tempo real da Platform compartilhados com [!DNL Target] via [!UICONTROL Destinations]. |  |
-| [!DNL Adobe Experience Platform Real-time CDP] atributos | AEP | Atributos da CDP em Tempo Real da Platform compartilhados com [!DNL Target] via [!UICONTROL Destinations]. |  |
+
 
 ## Bloqueando recursos de algoritmos de aprendizado de máquina do [!DNL Target]
 
