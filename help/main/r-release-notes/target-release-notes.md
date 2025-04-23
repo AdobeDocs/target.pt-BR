@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
+source-git-commit: ad82d108adc6f5c76b2104f40fb0bb2c66e98a2b
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 47%
+source-wordcount: '589'
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 47%
 
 Este artigo contém informações de pré-lançamento das próximas versões do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: sexta-feira, 17 de abril de 2025**
+**Última atualização: quinta-feira, 23 de abril de 2025**
 
 >[!NOTE]
 >
@@ -27,14 +27,25 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 
 Esta versão do inclui as seguintes correções e atualizações:
 
-* Correção de um problema que fazia com que vários públicos-alvo de experiência fossem exibidos ao editar ou salvar uma atividade. (TGT-52134)
 * Correção de um problema em que as recomendações não eram exibidas no site do cliente após ativar a atividade [!DNL Recommendations]. (TGT-52164)
 * `OptionLocalIDs` não aumenta mais incorretamente quando a opção permanece inalterada. (TGT-52187)
 * Os arquivos de relatórios baixados agora mostram corretamente os dados presentes na interface do usuário dos relatórios. (TGT-52068)
-* Correção de um problema que impedia o Target de reconhecer o caractere &quot;#&quot; no URL de um site. (TGT-52093)
 * As operações em lote não falham mais após a adição de regras de entrega de página. (TGT-52097)
 * Correção de um problema que fazia com que [!DNL Target] cortasse todos os parâmetros de consulta da URL do site. (TGT-52100)
-* Correção de um problema que fazia com que refinamentos de público-alvo e públicos-alvo de atividades fossem revertidos na interface do usuário atualizada. (TGT-52158)
+* Correção de um erro de console que impedia os clientes de criar atividades na interface do usuário do Target herdada e atualizada. (TGT-52181)
+* Correção de um problema que impedia os clientes de adicionar novas páginas, causando um erro de entrada de usuário inválido. (TGT-52258)
+* Correção de um problema que fazia com que as modificações desaparecessem após adicionar outras páginas e navegar de volta para a guia [!UICONTROL Experiences]. (TGT-52264)
+* Correção de um problema que impedia os clientes de alterar o público-alvo em uma atividade [!UICONTROL Experience Targeting] (XT). (TGT-52191)
+* Correção de um erro que impedia a edição de uma atividade de XT devido a uma regra de interface do usuário não compatível. (TGT-52273)
+* Correção de um problema em que as modificações de atividade não eram exibidas na interface do usuário do [!DNL Target], apesar de serem entregues com êxito à página da Web. (TGT-52192)
+* Correção de um problema no [!UICONTROL Visual Experience Composer] (VEC) atualizado em que as navegações estruturais nem sempre eram exibidas na parte inferior do editor, causando dificuldades na seleção precisa de elementos. (TGT-51169)
+* Correção de um problema em que a lista suspensa [!UICONTROL Audience] não exibia todos os públicos-alvo devido à paginação. (TGT-52204)
+* Correção de um problema que causava uma mensagem de entrada de usuário inválida ao adicionar novas ofertas em [!UICONTROL Automated Personalization] atividades (AP). (TGT-52210)
+* Correção de um problema em que [!UICONTROL Analytics for Target] (A4T) era selecionado incorretamente como fonte de relatórios, mesmo que o cliente não tivesse acesso ao A4T. (TGT-52226)
+* Correção de um problema que impedia salvar uma atividade com a métrica de URL [!UICONTROL View a Page]. (TGT-52260)
+* Correção de um problema que impedia os clientes de selecionar espaços de trabalho ao criar ofertas em uma atividade. (TGT-52289)
+* Correção de um problema em que as modificações de uma experiência eram exibidas incorretamente ao alternar para outra experiência. (TGT-52184)
+* Correção de um problema em que a oferta padrão era exibida incorretamente na interface do usuário do [!DNL Target] após a abertura da atividade. (TGT-52198)
 
 ## Atualização de permissões do Target (22 de abril de 2025)
 
