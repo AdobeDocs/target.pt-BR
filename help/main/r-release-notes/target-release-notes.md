@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ad82d108adc6f5c76b2104f40fb0bb2c66e98a2b
+source-git-commit: b09796cd8464b54dcc1945ae1ec00eb914ba218c
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 33%
+source-wordcount: '642'
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 33%
 
 Este artigo contém informações de pré-lançamento das próximas versões do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: quinta-feira, 23 de abril de 2025**
+**Última atualização: sexta-feira, 24 de abril de 2025**
 
 >[!NOTE]
 >
@@ -23,14 +23,16 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 >
 >Para ver informações sobre a versão atual, consulte [Notas de versão do Target](release-notes.md). As informações nessas páginas podem ser as mesmas, dependendo do momento dos lançamentos. Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 25.4.5 (24 de abril de 2025)
+## [!DNL Target Standard/Premium] 25.4.5 (25 de abril de 2025)
 
 Esta versão do inclui as seguintes correções e atualizações:
 
+* Correção de um problema que gerava discrepâncias nas listagens de público entre a página de configurações [!UICONTROL Activity] e a página de visão geral [!UICONTROL Reporting]. (TGT-52203)
+* Correção de um problema que impedia a adição de uma nova página a uma atividade devido a um erro de entrada de usuário inválido. (TGT-52263)
 * Correção de um problema em que as recomendações não eram exibidas no site do cliente após ativar a atividade [!DNL Recommendations]. (TGT-52164)
-* `OptionLocalIDs` não aumenta mais incorretamente quando a opção permanece inalterada. (TGT-52187)
-* Os arquivos de relatórios baixados agora mostram corretamente os dados presentes na interface do usuário dos relatórios. (TGT-52068)
-* As operações em lote não falham mais após a adição de regras de entrega de página. (TGT-52097)
+* Correção de um problema que fazia com que `OptionLocalIDs` fosse incrementado incorretamente quando a opção permanecesse inalterada. (TGT-52187)
+* Correção de um problema para que os arquivos de relatórios baixados mostrassem corretamente os dados presentes na interface do usuário dos relatórios. (TGT-52068)
+* Correção de um problema para que as operações em lote não falhassem mais após a adição das regras de entrega de página. (TGT-52097)
 * Correção de um problema que fazia com que [!DNL Target] cortasse todos os parâmetros de consulta da URL do site. (TGT-52100)
 * Correção de um erro de console que impedia os clientes de criar atividades na interface do usuário do Target herdada e atualizada. (TGT-52181)
 * Correção de um problema que impedia os clientes de adicionar novas páginas, causando um erro de entrada de usuário inválido. (TGT-52258)
@@ -45,7 +47,7 @@ Esta versão do inclui as seguintes correções e atualizações:
 * Correção de um problema que impedia salvar uma atividade com a métrica de URL [!UICONTROL View a Page]. (TGT-52260)
 * Correção de um problema que impedia os clientes de selecionar espaços de trabalho ao criar ofertas em uma atividade. (TGT-52289)
 * Correção de um problema em que as modificações de uma experiência eram exibidas incorretamente ao alternar para outra experiência. (TGT-52184)
-* Correção de um problema em que a oferta padrão era exibida incorretamente na interface do usuário do [!DNL Target] após a abertura da atividade. (TGT-52198)
+* Correção de um problema em que a oferta padrão era exibida incorretamente na interface do usuário do [!DNL Target] ao abrir a atividade. (TGT-52198)
 
 ## Atualização de permissões do Target (22 de abril de 2025)
 
