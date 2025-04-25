@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b09796cd8464b54dcc1945ae1ec00eb914ba218c
+source-git-commit: 24cbccca7ac76dd77668abf0b4498ab4fd374893
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 31%
+source-wordcount: '707'
+ht-degree: 29%
 
 ---
 
@@ -48,6 +48,14 @@ Esta versão do inclui as seguintes correções e atualizações:
 * Correção de um problema que impedia os clientes de selecionar espaços de trabalho ao criar ofertas em uma atividade. (TGT-52289)
 * Correção de um problema em que as modificações de uma experiência eram exibidas incorretamente ao alternar para outra experiência. (TGT-52184)
 * Correção de um problema em que a oferta padrão era exibida incorretamente na interface do usuário do [!DNL Target] ao abrir a atividade. (TGT-52198)
+
+## [!DNL Target Standard/Premium] 25.4.5 (25 de abril de 2025)
+
+Esta versão do inclui as seguintes correções e atualizações:
+
+* Correção de um problema que impedia [!DNL Target] de reconhecer o caractere &quot;#&quot; na URL de um site. (TGT-52093)
+* Correção de um problema que impedia a limpeza e a edição de públicos-alvo combinados na interface atualizada para atividades de [!UICONTROL Automated Personalization] (AP). (TGT-52149)
+* Correção de um problema que fazia com que refinamentos de público-alvo e públicos-alvo de atividades fossem revertidos na interface do usuário atualizada. (TGT-52158)
 
 ## Atualização de permissões do Target (22 de abril de 2025)
 
