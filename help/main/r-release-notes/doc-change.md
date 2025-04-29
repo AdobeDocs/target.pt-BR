@@ -4,10 +4,10 @@ description: Mantenha-se atualizado com as adições e as alterações important
 title: Onde posso ver as atualizações da documentação do [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 579ebd9bebd3faa724f0d1d542f4d23766adefe3
+source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 38%
+source-wordcount: '704'
+ht-degree: 39%
 
 ---
 
@@ -26,7 +26,6 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | 17 de abril | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.4.4 do [!DNL Target Standard/Premium]. |
 |  | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de datas de notas de pré-lançamento para a versão 25.4.5. |
 | 11 de abril | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.4.3 do [!DNL Target Standard/Premium]. |
-|  | [Como [!DNL Target] funciona](/help/main/c-intro/how-target-works.md#usage) | Nova seção adicionada: &quot;Como [!DNL Target] conta o uso de chamadas do servidor.&quot; |
 | 9 de abril | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Atualização das datas das notas de pré-lançamento da versão 25.4.4. |
 | 8 de abril | [CNAME e Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank} | Atualização do seguinte:<ul><li>Todos os certificados são RSA SHA-256 e as chaves são RSA 2048-bit, por padrão. Tamanhos de chaves maiores que 2048 bits devem ser solicitados explicitamente pelo Atendimento ao cliente. (Tamanhos de chave maiores que 2048 bits declarados anteriormente não eram suportados.)</li><li>Atualização do script bash.</li><li>Atualização do trecho do código de saída de validação.</li></ul> |
 | Abril de 7 | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de notas de pré-lançamento para a seguinte versão futura:<UL><li>[!DNL Target Standard/Premium] 25.4.3 (10 de abril de 2025)</li></ul> |

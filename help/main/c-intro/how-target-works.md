@@ -4,10 +4,10 @@ description: Saiba como o [!DNL Adobe Target] funciona, incluindo informações 
 title: Como o  [!DNL Target]  funciona?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
+source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '2400'
-ht-degree: 23%
+source-wordcount: '2215'
+ht-degree: 24%
 
 ---
 
@@ -35,11 +35,11 @@ O Target integra-se a sites usando o [!DNL Experience Platform Web SDK] ou a at.
 >
 >A biblioteca mbox.js é uma implementação herdada do [!DNL Target] e não é mais suportada após 31 de março de 2021. Atualize para o [!UICONTROL Experience Platform Web SDK] (preferencial) ou para a versão mais recente do at.js.
 
-Consulte o [!UICONTROL Experience Platform Web SDK] ou a at.js em todas as páginas do site. Por exemplo, adicione uma dessas bibliotecas ao seu cabeçalho global. Como alternativa, use [marcas na Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} para implementar o [!DNL Target].
+Consulte o [!UICONTROL Experience Platform Web SDK] ou a at.js em todas as páginas do site. Por exemplo, adicione uma dessas bibliotecas ao seu cabeçalho global. Como alternativa, use [tags na Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} para implementar o [!DNL Target].
 
 Os seguintes recursos contêm informações detalhadas para ajudar você a implementar o [!DNL Experience Platform Web SDK] ou a at.js:
 
-* Extensão do [[!DNL Adobe Experience Platform Web SDK] ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=pt-BR){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK] extensão](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=pt-BR){target=_blank}
 * [Implementar o  [!DNL Target]  usando a  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Cada vez que um visitante solicita uma página otimizada para [!DNL Target], uma solicitação em tempo real é enviada para o sistema de direcionamento para determinar o conteúdo a ser veiculado. Essa solicitação é feita e preenchida sempre que uma página é carregada, regida por atividades e experiências controladas pelo profissional de marketing. O conteúdo é direcionado para visitantes individuais do site, maximizando as taxas de resposta, as taxas de aquisição e a receita. O conteúdo personalizado ajuda a garantir que os visitantes respondam, interajam ou façam compras.
@@ -97,33 +97,36 @@ As atividades do [!UICONTROL Recommendations] exibem automaticamente produtos ou
 
 Consulte [Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) para obter mais informações.
 
-## Como o [!DNL Target] conta o uso de chamadas do servidor {#usage}
+<!--
+## How [!DNL Target] counts server-call usage {#usage}
 
-[!DNL Target] conta somente chamadas de servidor que fornecem valor aos clientes. A tabela a seguir mostra como [!DNL Target] conta pontos de extremidade, mbox única, chamadas de mbox em lote, executar, realizar uma busca prévia e chamadas de notificação.
+[!DNL Target] counts only server calls that provide value to customers. The following table shows how [!DNL Target] counts endpoints, single mbox, batch mbox calls, execute, prefetch, and notification calls.
 
-As informações a seguir ajudam você a entender a estratégia de contagem usada para [!DNL Target] chamadas de servidor, conforme mostrado na tabela abaixo:
+The following information helps you understand the counting strategy used for [!DNL Target] server calls, as shown in the table below:
 
-* **Contar uma vez**: conta uma vez por chamada de API.
-* **Contar o número de mboxes**: conta o número de mboxes na matriz na carga de uma única chamada de API.
-* **Ignorar**: não é contado.
-* **Contar o Número de Exibições (Uma Vez)**: conta o número de exibições na matriz na carga. Em uma implementação típica, uma notificação de exibição tem apenas uma exibição na matriz de notificações, tornando isso equivalente a contar uma vez na maioria das implementações.
+* **Count Once**: Counts once per API call.
+* **Count the Number of mboxes**: Counts the number of mboxes under the array in the payload of a single API call.
+* **Ignore**: Is not counted at all.
+* **Count the Number of Views (Once)**: Counts the number of views under the array in the payload. In a typical implementation, a view notification has only one view under the notifications array, making this equivalent to counting once in most implementations.
 
-| Endpoint | Tipo de busca | Opções | Estratégia de contagem |
+|Endpoint|Fetch type|Options|Counting strategy|
 |--- |--- |--- |-- |
-| `rest//v1/mbox` | Única | [!UICONTROL execute] | Contar uma vez |
-| `rest/v2/batchmbox` | Lote | [!UICONTROL execute] | Contar o número de mboxes |
-|  | Lote | [!UICONTROL prefetch] | Ignorar |
-|  | Lote | [!UICONTROL notifications] | Contar o número de mboxes |
-| `/ubox/[raw\|image\|page]` | Única | [!UICONTROL execute] | Contar uma vez |
-| `rest/v1/delivery`<p>`/rest/v1/target-upstream` | Única | [!UICONTROL execute] > [!UICONTROL pageLoad] | Contar uma vez |
-|  | Única | [!UICONTROL prefetch] > [!UICONTROL pageLoad] | Ignorar |
-|  | Única | [!UICONTROL prefetch] > [!UICONTROL views] | Ignorar |
-|  | Lote | [!UICONTROL execute] > [!UICONTROL mboxes] | Contar o número de mboxes |
-|  | Lote | [!UICONTROL prefetch] > [!UICONTROL mboxes] | Ignorar |
-|  | Lote | [!UICONTROL notifications] > [!UICONTROL views] | Contar o número de visualizações (uma vez) |
-|  | Lote | [!UICONTROL notifications] > [!UICONTROL pageLoad] | Contar uma vez |
-|  | Lote | [!UICONTROL notifications] > tipo ([!UICONTROL conversions]) | Contar uma vez |
-|  | Lote | [!UICONTROL notifications] > [!UICONTROL mboxes] | Contar o número de mboxes |
+|`rest//v1/mbox`|Single|[!UICONTROL execute]|Count once|
+|`rest/v2/batchmbox`|Batch|[!UICONTROL execute]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch]|Ignore|
+||Batch|[!UICONTROL notifications]|Count the number of mboxes|
+|`/ubox/[raw\|image\|page]`|Single|[!UICONTROL execute]|Count once|
+|`rest/v1/delivery`<p>`/rest/v1/target-upstream`|Single|[!UICONTROL execute] > [!UICONTROL pageLoad]|Count once|
+||Single|[!UICONTROL prefetch] > [!UICONTROL pageLoad]|Ignore|
+||Single|[!UICONTROL prefetch] > [!UICONTROL views]|Ignore|
+||Batch|[!UICONTROL execute] > [!UICONTROL mboxes]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch] > [!UICONTROL mboxes]|Ignore|
+||Batch|[!UICONTROL notifications] > [!UICONTROL views]|Count the number of views (once)|
+||Batch|[!UICONTROL notifications] > [!UICONTROL pageLoad]|Count once|
+||Batch|[!UICONTROL notifications] > type ([!UICONTROL conversions])|Count once|
+||Batch|[!UICONTROL notifications] > [!UICONTROL mboxes]|Count the number of mboxes|
+
+-->
 
 ## A rede de borda {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
@@ -169,7 +172,7 @@ O serviço [!DNL Target Recommendations] é hospedado em um data center [!DNL Ad
 >
 >Atualmente, o [!DNL Target] não tem um cluster do Edge na China, o que limita o desempenho do visitante para [!DNL Target] clientes na região. O firewall e a ausência de clusters do Edge podem afetar as experiências do site, causando renderização lenta e tempos de carregamento de página. Além disso, os profissionais de marketing podem experimentar latência ao usar a interface de criação do [!DNL Target].
 
-Você pode adicionar clusters de borda do [!DNL Target] à lista de permissões, se desejar. Para obter mais informações, consulte a [lista de permissões de nós de borda do Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
+Você pode adicionar clusters de borda do [!DNL Target] à lista de permissões, se desejar. Para obter mais informações, consulte [lista de permissões de nós de borda do Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Experiência do usuário protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
