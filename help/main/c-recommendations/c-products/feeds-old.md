@@ -2,7 +2,7 @@
 keywords: recommendations feed;feed;SAINT;ftp;csv;classificações;análises classificações
 description: Saiba como os feeds importam entidades para o  [!DNL Adobe Target] [!DNL Recommendations] usando arquivos CSV, o formato de feed do Google Product Search e  [!DNL Analytics] classificações de produtos.
 title: Como usar [!UICONTROL Feeds] no  [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Classificações de produto de [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-A classificação do Produto [!DNL Analytics] é a única classificação disponível para recomendações. Para obter mais informações sobre esse arquivo de classificação, consulte [Sobre classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) no guia *Componentes do Analytics*. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, portanto, siga este guia do usuário se desejar adicioná-las ao arquivo de classificações.
+A classificação do Produto [!DNL Analytics] é a única classificação disponível para recomendações. Para obter mais informações sobre esse arquivo de classificação, consulte [Sobre classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=pt-BR) no guia *Componentes do Analytics*. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, portanto, siga este guia do usuário se desejar adicioná-las ao arquivo de classificações.
 
 >[!IMPORTANT]
 >

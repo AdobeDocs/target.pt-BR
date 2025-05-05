@@ -39,7 +39,7 @@ No [!UICONTROL List View], clique na imagem em miniatura no lado esquerdo da lis
 
 Este vídeo inclui informações sobre o gerenciamento de conteúdo.
 
-* Conexão entre a [biblioteca de ativos da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) e a biblioteca de conteúdo do Target
+* Conexão entre a [biblioteca de ativos da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=pt-BR) e a biblioteca de conteúdo do Target
 * Ofertas HTML personalizadas
 * Ofertas HTML personalizadas no Visual Experience Composer
 

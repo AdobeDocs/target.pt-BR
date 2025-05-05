@@ -2,7 +2,7 @@
 keywords: espaços de trabalho;gerenciar propriedade;permissões;configuração do produto;perfil do produto;funções;projeto;observador;editor;aprovador;editor;workspaces;manage property;permissions;product configuration;product profile;roles;project;observer;editor;approver;publisher
 description: Learn how to create separate workspaces (product profiles) and then assign users different roles and permissions for individual pages, properties, or web sites.
 title: What Are Enterprise User Permissions and How Do I Use Them?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc

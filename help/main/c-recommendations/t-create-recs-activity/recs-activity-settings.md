@@ -2,7 +2,7 @@
 keywords: Recommendations, Configurações, nome, objetivo, prioridade, duração, configurações de relatórios, outros metadados
 description: Saiba como definir as configurações usadas para descrever e controlar uma atividade do Recommendations no Adobe Target.
 title: Como Definir As Configurações De Atividade Do Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c

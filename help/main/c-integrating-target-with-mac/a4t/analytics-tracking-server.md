@@ -29,7 +29,7 @@ O depurador deve ser exibido em uma página onde a atividade é entregue para ga
 
 1. Na página em que você está criando sua atividade, abra o [!DNL Adobe Experience Platform Debugger].
 
-   Se você não tiver instalado o depurador, consulte [visão geral do Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html).
+   Se você não tiver instalado o depurador, consulte [visão geral do Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=pt-BR).
 
 1. Clique em **[!UICONTROL Analytics]** no menu de navegação esquerdo.
 

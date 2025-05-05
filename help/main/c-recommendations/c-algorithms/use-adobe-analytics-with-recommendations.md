@@ -2,7 +2,7 @@
 keywords: fonte de dados comportamentais;análises;recomendações;critérios;variáveis do produto
 description: Saiba como usar o  [!DNL Adobe Analytics]  como a fonte de dados comportamentais no  [!DNL Target Recommendations].
 title: Como usar [!DNL Adobe Analytics] com [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -47,7 +47,7 @@ Um exemplo de formato de feed do [!DNL Target Recommendations] atua como guia no
 >
 >Se for um site de conteúdo, as respectivas partes de conteúdo deverão ser tratadas como &quot;produtos&quot; e os atributos associados sobre esse conteúdo deverão ser passados como atributos. Esses atributos podem incluir nome do autor, data de publicação, título do conteúdo, mês de lançamento e assim por diante. A granularidade do nível de categoria ou dos tipos de categoria deve ser decidida pela empresa com base nos requisitos do caso de uso.
 
-Para obter mais detalhes sobre como configurar variáveis de produto, consulte [produtos](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) no guia *Implementar o Adobe Analytics*. Algumas das notas nessa documentação exigem a discrição da equipe que está implantando (exemplo : Categoria). É sempre aconselhável consultar [!DNL Adobe] antes de realizar esta atividade.
+Para obter mais detalhes sobre como configurar variáveis de produto, consulte [produtos](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=pt-BR) no guia *Implementar o Adobe Analytics*. Algumas das notas nessa documentação exigem a discrição da equipe que está implantando (exemplo : Categoria). É sempre aconselhável consultar [!DNL Adobe] antes de realizar esta atividade.
 
 ### Considerações
 

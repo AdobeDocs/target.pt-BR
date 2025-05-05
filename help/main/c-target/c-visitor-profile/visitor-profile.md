@@ -24,6 +24,6 @@ As seguintes seções contêm mais informações:
 - [Duração do perfil do visitante](visitor-profile-lifetime.md)
 - [Atributos do perfil](profile-parameters.md)
 - [Afinidade de categorias](category-affinity.md)
-- [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+- [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=pt-BR)
 - [Sincronização de perfil em tempo real para mbox3rdPartyID](3rd-party-id.md)
 - [Glossário de variáveis e perfis](variables-profiles-parameters-methods.md)

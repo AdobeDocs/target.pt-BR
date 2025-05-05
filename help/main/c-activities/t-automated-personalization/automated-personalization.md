@@ -2,7 +2,7 @@
 keywords: personalização automatizada;ap;públicos;conjunto;random forest;multi-armed bandit;thompson sampling;ml;aprendizado de máquina
 description: Saiba como usar as atividades de [!UICONTROL Automated Personalization] (AP) no  [!DNL Adobe Target] que usam aprendizagem de máquina avançada para corresponder diferentes variações de oferta a cada visitante.
 title: O que é uma atividade de [!UICONTROL Automated Personalization] (AP)?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd

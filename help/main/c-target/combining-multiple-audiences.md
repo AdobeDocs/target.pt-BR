@@ -17,7 +17,7 @@ Combine vários públicos-alvo (incluindo [!DNL Adobe Experience Cloud], [!DNL A
 
 >[!NOTE]
 >
->A origem [!DNL Adobe Experience Platform] está disponível para todos os clientes [!DNL Target] que usam o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. Os públicos-alvo disponíveis no [!DNL Adobe Experience Platform] podem ser usados como estão ou combinados com públicos-alvo existentes, conforme explicado neste tópico.
+>A origem [!DNL Adobe Experience Platform] está disponível para todos os clientes [!DNL Target] que usam o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank}. Os públicos-alvo disponíveis no [!DNL Adobe Experience Platform] podem ser usados como estão ou combinados com públicos-alvo existentes, conforme explicado neste tópico.
 >
 >Para obter mais informações, consulte [Usar públicos do Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 

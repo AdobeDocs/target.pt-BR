@@ -2,7 +2,7 @@
 keywords: Criar direcionamento automático;teste A/B;atividade de direcionamento automático;nova atividade a/b;direcionamento automático;direcionamento automático para experiências personalizadas;personalizado;otimização
 description: Saiba como usar o [!UICONTROL Visual Experience Composer] (VEC) no  [!DNL Adobe Target] para criar uma atividade de Teste A/B do [!UICONTROL Auto-Target].
 title: Como criar uma atividade [!UICONTROL Auto-Target]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71

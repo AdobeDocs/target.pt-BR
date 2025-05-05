@@ -35,12 +35,12 @@ O Target integra-se a sites usando o [!DNL Experience Platform Web SDK] ou a at.
 >
 >A biblioteca mbox.js é uma implementação herdada do [!DNL Target] e não é mais suportada após 31 de março de 2021. Atualize para o [!UICONTROL Experience Platform Web SDK] (preferencial) ou para a versão mais recente do at.js.
 
-Consulte o [!UICONTROL Experience Platform Web SDK] ou a at.js em todas as páginas do site. Por exemplo, adicione uma dessas bibliotecas ao seu cabeçalho global. Como alternativa, use [tags na Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} para implementar o [!DNL Target].
+Consulte o [!UICONTROL Experience Platform Web SDK] ou a at.js em todas as páginas do site. Por exemplo, adicione uma dessas bibliotecas ao seu cabeçalho global. Como alternativa, use [tags na Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/home){target=_blank} para implementar o [!DNL Target].
 
 Os seguintes recursos contêm informações detalhadas para ajudar você a implementar o [!DNL Experience Platform Web SDK] ou a at.js:
 
 * [[!DNL Adobe Experience Platform Web SDK] extensão](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=pt-BR){target=_blank}
-* [Implementar o  [!DNL Target]  usando a  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [Implementar o  [!DNL Target]  usando a  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Cada vez que um visitante solicita uma página otimizada para [!DNL Target], uma solicitação em tempo real é enviada para o sistema de direcionamento para determinar o conteúdo a ser veiculado. Essa solicitação é feita e preenchida sempre que uma página é carregada, regida por atividades e experiências controladas pelo profissional de marketing. O conteúdo é direcionado para visitantes individuais do site, maximizando as taxas de resposta, as taxas de aquisição e a receita. O conteúdo personalizado ajuda a garantir que os visitantes respondam, interajam ou façam compras.
 
@@ -172,7 +172,7 @@ O serviço [!DNL Target Recommendations] é hospedado em um data center [!DNL Ad
 >
 >Atualmente, o [!DNL Target] não tem um cluster do Edge na China, o que limita o desempenho do visitante para [!DNL Target] clientes na região. O firewall e a ausência de clusters do Edge podem afetar as experiências do site, causando renderização lenta e tempos de carregamento de página. Além disso, os profissionais de marketing podem experimentar latência ao usar a interface de criação do [!DNL Target].
 
-Você pode adicionar clusters de borda do [!DNL Target] à lista de permissões, se desejar. Para obter mais informações, consulte [lista de permissões de nós de borda do Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
+Você pode adicionar clusters de borda do [!DNL Target] à lista de permissões, se desejar. Para obter mais informações, consulte [lista de permissões de nós de borda do Target](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Experiência do usuário protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

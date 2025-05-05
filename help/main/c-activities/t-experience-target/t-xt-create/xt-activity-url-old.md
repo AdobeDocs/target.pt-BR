@@ -23,7 +23,7 @@ O [!UICONTROL Activity URL] determina a página que é usada em uma atividade [!
    >
    >Por padrão, o VEC ou o [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md) abre a página especificada nas suas [configurações do Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md). Você pode especificar uma página diferente durante a criação da atividade.
    >
-   >Se você especificar uma URL para um site que não inclui uma biblioteca de JavaScript [[!DNL Target] at.js ou [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}, não será possível selecionar elementos da página.
+   >Se você especificar uma URL para um site que não inclui uma biblioteca de JavaScript [[!DNL Target] at.js ou [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=pt-BR){target=_blank}, não será possível selecionar elementos da página.
 
 1. (Condicional) Para exibir uma página diferente após a abertura do VEC, clique em **[!UICONTROL Configure]**, selecione **[!UICONTROL Page Delivery]** e especifique a URL no campo [!UICONTROL URL].
 

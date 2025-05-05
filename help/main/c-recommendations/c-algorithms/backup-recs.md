@@ -2,7 +2,7 @@
 keywords: recomendação, backup, fazer o back up
 description: Saiba como usar recomendações de backup no Adobe [!DNL Target Recommendations].
 title: Como usar uma recomendação de backup no  [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

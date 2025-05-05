@@ -37,7 +37,7 @@ Alguns exemplos de vezes que você usaria exclusões incluem:
 
    ![imagem da lista de exclusões](assets/exclusions_list.png)
 
-   O &quot;Número de Itens&quot; relatado para cada exclusão na exibição de lista [!UICONTROL Exclusions] é o número de produtos que correspondem às regras da exclusão no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para alterar o grupo de hosts padrão.
+   O &quot;Número de Itens&quot; relatado para cada exclusão na exibição de lista [!UICONTROL Exclusions] é o número de produtos que correspondem às regras da exclusão no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} para alterar o grupo de hosts padrão.
 
 1. Clique em **[!UICONTROL Create Exclusion]**.
 

@@ -52,4 +52,4 @@ entre em contato com os participantes existentes para conversar sobre isso.
 
 ## Problemas de segurança
 
-Problemas de segurança não devem ser denunciados neste rastreador de problemas. Em vez disso, [registre um problema junto aos nossos especialistas em segurança](https://helpx.adobe.com/security/alertus.html)
+Problemas de segurança não devem ser denunciados neste rastreador de problemas. Em vez disso, [registre um problema junto aos nossos especialistas em segurança](https://helpx.adobe.com/br/security/alertus.html)

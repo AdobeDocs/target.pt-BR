@@ -2,7 +2,7 @@
 keywords: recomendações;perguntas frequentes;faq
 description: Perguntas frequentes e suas respostas sobre  [!DNL Target Recommendations]  designs.
 title: Onde posso obter respostas para perguntas sobre design do  [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
