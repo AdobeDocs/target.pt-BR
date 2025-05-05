@@ -113,7 +113,7 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 * Alterar o conteúdo de uma página
 * Alterar o layout de uma página
 
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+>[!VIDEO](https://video.tv.adobe.com/v/31293?captions=por_br)
 
 ### Visual Experience Composer (2 de 2) (7:29) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
@@ -124,7 +124,7 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 * Visualizar e criar a experiência para sites responsivos
 * Use sobreposições para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/30981?captions=por_br)
 
 ### Office hours: Visual Experience Composer ![Selo do tutorial](/help/main/assets/tutorial.png)
 

@@ -37,4 +37,4 @@ A segunda tabela fornece um relatório de nível de oferta. Ela mostra o índice
 
 Este vídeo demonstra como criar um teste multivariado usando o fluxo de trabalho guiado de três etapas do [!DNL Target]. O relatório de Contribuição da localização é descrito no começo às 08:45.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30985?captions=por_br)

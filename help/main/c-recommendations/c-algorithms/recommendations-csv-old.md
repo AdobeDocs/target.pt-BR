@@ -88,4 +88,4 @@ Este vídeo contém as seguintes informações (os detalhes sobre o upload de cr
 * Criar sequências de critérios
 * Upload dos critérios personalizados
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35374?quality=12&captions=por_br)

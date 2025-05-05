@@ -94,7 +94,7 @@ Os modelos [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target
 
 ## Vídeo de treinamento: usar os relatórios do Personalization Insights ![Selo do tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/)
+>[!VIDEO](https://video.tv.adobe.com/v/30851?captions=por_br)
 
 Para obter mais informações, consulte [Uso dos Relatórios do Personalization Insights no Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 

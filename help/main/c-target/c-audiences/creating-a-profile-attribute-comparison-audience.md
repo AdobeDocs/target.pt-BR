@@ -65,4 +65,4 @@ Para obter mais informações, consulte [Métodos para obter dados no Target](ht
 
 Assista ao vídeo a seguir para obter mais informações e um cenário no qual seja possível usar esse recurso:
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/)
+>[!VIDEO](https://video.tv.adobe.com/v/30849?captions=por_br)

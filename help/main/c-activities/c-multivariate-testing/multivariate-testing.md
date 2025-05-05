@@ -98,7 +98,7 @@ Este vídeo de visão geral explica os tipos de atividades disponíveis em [!DNL
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/31290?captions=por_br)
 
 ### Criando Testes Multivariados (9:25) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
@@ -107,4 +107,4 @@ Este vídeo explica como entender, planejar e criar um teste multivariado usando
 * Definir e projetar um teste multivariado
 * Criar um teste multivariado
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30985?captions=por_br)

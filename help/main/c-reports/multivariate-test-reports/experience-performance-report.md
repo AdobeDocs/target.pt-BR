@@ -37,4 +37,4 @@ Abaixo do gráfico, uma tabela mostra quantos participantes visualizaram cada ex
 
 Este vídeo mostra como criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target. O relatório de Desempenho da experiência é descrito no começo às 8:20.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30985?captions=por_br)

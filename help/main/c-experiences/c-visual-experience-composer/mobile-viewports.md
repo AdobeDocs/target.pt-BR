@@ -174,7 +174,7 @@ O vídeo de demonstração a seguir inclui informações sobre o uso do Visual E
 * Visualizar e criar a experiência para sites responsivos
 * Use sobreposições para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/30981?captions=por_br)
 
 ### Preferências da conta no Adobe Target ![Selo de visão geral](/help/main/assets/overview.png)
 
