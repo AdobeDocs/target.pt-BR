@@ -29,7 +29,7 @@ Para usar a integração do [!DNL Target Recommendations] e do [!DNL Adobe Journ
 
   Este recurso não está disponível com uma licença [!DNL Target Standard] ou ao implementar o [!DNL Target] com a at.js ou outros SDKs [!DNL Target].
 
-* [[!DNL Adobe Journey Optimizer]1{target=_blank}.](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home)
+* [[!DNL Adobe Journey Optimizer]1.](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target=_blank}
 
 ## Casos de uso de exemplo
 

@@ -20,7 +20,7 @@ Por exemplo, você pode definir metas com base no navegador do visitante, mecani
 É possível combinar múltiplas fontes de tráfego para criar uma regra complexa de direcionamento.
 
 1. Na interface [!DNL Target], clique em **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
-1. 
+1. &#x200B;
    1. Nomeie o público-alvo e adicione uma descrição opcional.
 1. Arraste e solte **[!UICONTROL Traffic Sources]** no painel do audience builder.
 

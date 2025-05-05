@@ -132,7 +132,7 @@ Estamos felizes em compartilhar grandes e inovadoras notícias sobre a personali
    * Como as marcas podem fornecer velocidades e decisões mais rápidas ajustando seus algoritmos alimentados por IA
    * Casos de uso únicos para fornecer personalização de 1 para 1
 
-+++
+  +++
 
 ### Construtores de habilidades do [!DNL Adobe Target] - Personalização orientada por IA e recomendações (15 de setembro de 2022) {#AI}
 
@@ -156,11 +156,11 @@ As experiências móveis estão promovendo a inovação da maneira como as equip
    * Métricas de ciclo de vida para testes e direcionamento em todas as experiências do cliente
    * SDKs móveis = APIs para implementações flexíveis (plataformas iOS e Android)
 
-+++
+  +++
 
 ### Coleção do Chef: receitas para personalização (30 de agosto de 2022)
 
-Junte-se à equipe do [!DNL Adobe Target] [!DNL] durante a apresentação de algumas novas ideias sobre como tirar o máximo proveito do Target. Baseado em nosso eBook mais recente, “Coleção do Chef: ideias para personalização”.
+Junte-se à equipe do [!DNL Adobe Target]  durante a apresentação de algumas novas ideias sobre como tirar o máximo proveito do Target. Baseado em nosso eBook mais recente, “Coleção do Chef: ideias para personalização”.
 
 * [Link da gravação](https://video.tv.adobe.com/v/346970/){target=_blank}
 
@@ -172,7 +172,7 @@ Junte-se à equipe do [!DNL Adobe Target] [!DNL] durante a apresentação de alg
    * Otimização para obter vantagem competitiva
    * Criar experiências hiperpersonalizadas
 
-+++
+  +++
 
 ### Ativação de fidelidade em tempo real (25 de agosto de 2022)
 
@@ -201,7 +201,7 @@ O ano de 2022 proporcionou às empresas um ambiente dinâmico e em rápida mudan
 
   Junte-se a Michael Klein (Diretor, Estratégia do setor de varejo) e Leina Betzer (Consultora do Target, Adobe Premier Support) para discutir como as vendas de comércio eletrônico de varejo estão disparando à medida que os padrões e comportamentos de compra do consumidor mudam, com maior demanda por bens e serviços em certos mercados.
 
-+++
+  +++
 
 ### [!DNL Adobe]: Personalização com precisão - [!DNL Adobe Analytics] e [!DNL Target] (2 de junho de 2022)
 
@@ -235,7 +235,7 @@ Conheça as práticas recomendadas para aumentar os programas de personalizaçã
    * Impacto geral nos negócios por meio do dimensionamento de atividades de personalização e experimentação na Web e em dispositivos móveis
    * Dicas e truques de varejo para usar dados de análise para transformar visitantes médios em atletas recorrentes
 
-+++
+  +++
 
 ### [!DNL Adobe]: Insider do setor de personalização - Serviços financeiros e seguros (24 de maio de 2022)
 
@@ -247,7 +247,7 @@ Saiba como as empresas de serviços financeiros estão apoiando e informando cli
 
   Junte-se a Christopher Young (Diretor, Serviços financeiros de estratégia setorial) e a James Capasso (Consultor do Target, Adobe Premier Support), para saber como as marcas estão respondendo a mudanças imediatas na demanda e, ao mesmo tempo, colocando a personalização no centro dos engajamentos com os clientes. Saiba como as empresas de serviços financeiros estão apoiando e informando clientes em todo o mundo que estão preocupados com os padrões de inflação e as circunstâncias recentes em seus investimentos.
 
-+++
+  +++
 
 ### City National Bank: Como alcançar o 1% principal em otimização digital (26 de maio de 2022)
 
@@ -266,7 +266,7 @@ Visualize o kit de ferramentas e os casos de uso para implementar estratégias d
    * Acelerar o crescimento dos negócios com mais engajamento e adoção de ofertas personalizadas
    * Otimizar campanhas multicanal para otimizar o tempo de obtenção de valor e o ROI.
 
-+++
+  +++
 
 ### Webinário: Personalize e teste em latência zero com decisões no dispositivo do [!DNL Adobe Target]
 
@@ -278,7 +278,7 @@ Visualize o kit de ferramentas e os casos de uso para implementar estratégias d
 
   Neste webinário gravado, os especialistas em produtos do Adobe Target discutem como mover as decisões de otimização de experiência crítica no dispositivo para execução local com latência zero pode abrir portas para novos casos de uso interessantes e, ao mesmo tempo, melhorar o desempenho do site para seus clientes.
 
-+++
+  +++
 
 ### Webinário: Como o HSBC usa o Adobe [!DNL Target] e IA para otimizar rapidamente e fornecer personalização em escala
 
@@ -298,7 +298,7 @@ Visualize o kit de ferramentas e os casos de uso para implementar estratégias d
 
    * Artigo da McKinsey: “[A recuperação da COVID-19 será digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)”, maio de 2020
 
-+++
+  +++
 
 ### [!DNL Adobe Target] Skill Builder: bate-papo com o desenvolvedor, migre da mbox.js do [!DNL Adobe Target] para a at.js {#skill-builder}
 

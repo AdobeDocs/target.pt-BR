@@ -48,7 +48,7 @@ Você pode criar um design com base em um design padrão ou criar um design pers
 
    A caixa de diálogo [!UICONTROL Create Design] é exibida.
 
-1. Digite um **[!UICONTROL  Name]** e uma imagem de visualização opcional para exibir no cartão de design.
+1. Digite um **[!UICONTROL &#x200B; Name]** e uma imagem de visualização opcional para exibir no cartão de design.
 
    Quando você usa um design padrão, o nome do design e &quot;Cópia&quot; aparecem no campo **[!UICONTROL Content Name]**. Você pode editar o nome. Você também pode selecionar uma imagem para exibir no cartão de design.
 
