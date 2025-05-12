@@ -5,9 +5,9 @@ title: O que são hosts e como usá-los?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1029'
 ht-degree: 17%
 
 ---
@@ -51,7 +51,7 @@ Depois que um host for adicionado à lista [!UICONTROL Host], verifique se ele �
 
    Por padrão, um host recém-reconhecido é colocado no ambiente [!UICONTROL Production]. O ambiente [!UICONTROL Production] é o mais seguro porque não permite que atividades inativas sejam visualizadas desses hosts.
 
-1. (Condicional) Clique no ícone **[!UICONTROL Move]** ( ![ícone de movimentação](/help/main/administrating-target/assets/icon-move.png) ) para mover o host para o [!UICONTROL Development], [!UICONTROL Staging] ou outro ambiente.
+1. (Condicional) Clique no ícone **[!UICONTROL Move]** ( ![ícone de movimentação](/help/main/assets/icons/MoveTo.svg) ) para mover o host para o [!UICONTROL Development], [!UICONTROL Staging] ou outro ambiente.
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Se uma solicitação [!DNL Target] for feita em um host não autorizado, a chama
 
 >[!IMPORTANT]
 >
->**Práticas recomendadas de segurança**: se você usar a funcionalidade de ubox do [!DNL Target], essa incluída na lista de permissões também controlará a lista de domínios para os quais seus [redirecionadores](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=pt-BR){target=_blank} podem navegar. Adicione todos os domínios aos quais deseja redirecionar ao usar o ubox como parte da implementação. Se a inclui na lista de permissões for deixada não especificada, [!DNL Adobe] não poderá verificar as URLs de redirecionamento e proteger contra possíveis redirecionamentos mal-intencionados.
+>**Práticas recomendadas de segurança**: se você usar a funcionalidade de ubox do [!DNL Target], essa incluída na lista de permissões de domínio também controlará a lista de domínios para os quais seus [redirecionadores](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} poderão navegar. Adicione todos os domínios aos quais deseja redirecionar ao usar o ubox como parte da implementação. Se a inclui na lista de permissões for deixada não especificada, [!DNL Adobe] não poderá verificar as URLs de redirecionamento e proteger contra possíveis redirecionamentos mal-intencionados.
 >
 >A inclui na lista de permissões tem precedência sobre os ambientes. Limpe todos os hosts antes de usar o recurso de incluir na lista de permissões inclui na lista de permissões e, em seguida, somente os hosts permitidos pelo arquivo serão exibidos na lista de hosts. Em seguida, você poderá mover os hosts para o ambiente desejado.
 
@@ -103,7 +103,7 @@ Você também pode criar um incluo na lista de bloqueios que especifica os hosts
 
 Você pode excluir um host quando ele não é mais necessário.
 
-1. Na lista [!UICONTROL Hosts], clique no ícone **[!UICONTROL Delete]**.
+1. Na lista [!UICONTROL Hosts], clique no ícone **[!UICONTROL Delete]** ( ![Ícone Excluir](/help/main/assets/icons/DeleteOutline.svg) ).
 1. Clique em **[!UICONTROL Delete]** para confirmar a exclusão.
 
 >[!NOTE]
