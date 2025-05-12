@@ -128,4 +128,4 @@ Este vídeo demonstra como planejar e criar um teste multivariado usando o fluxo
 * Definir e projetar um teste multivariado
 * Criar um teste multivariado
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30985?captions=por_br)
