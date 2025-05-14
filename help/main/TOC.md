@@ -3,9 +3,9 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: d1afb007d3cd257a2682c5d3a1833bbc33cad1a8
+source-git-commit: 5ae34c65a9c65a9385c6041756a4835af29e61d1
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1277'
 ht-degree: 85%
 
 ---
@@ -27,8 +27,9 @@ ht-degree: 85%
    + [Acessar o Target na Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Conceitos-chave do Target](c-intro/target-key-concepts.md)
    + [Compreensão do tempo limite da interface do Target](/help/main/c-intro/understand-the-target-ui.md)
-   + Assistente de IA do Adobe Target {#ai-assistant}
-      + [Habilitar o assistente de IA](/help/main/c-intro/ai-assistant.md)
+   + Assistente de IA do Adobe Target {#assistant-ai}
+      + [Visão geral do Assistente de IA](/help/main/c-intro/ai-assistant.md)
+      + [Habilitar o assistente de IA](/help/main/c-intro/enabling-ai-assistant.md)
       + [Use o Assistente de IA para obter conhecimento sobre o produto](/help/main/c-intro/ai-assistant-product-knowledge.md)
    + Kit de boas-vindas do Adobe Target {#welcome}
       + [Visão geral do kit de boas-vindas do Target](/help/main/c-intro/target-welcome-kit.md)
