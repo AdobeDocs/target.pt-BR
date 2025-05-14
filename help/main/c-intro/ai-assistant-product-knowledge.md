@@ -3,9 +3,8 @@ keywords: assistente de ia;assistente de inteligência artificial
 description: Saiba como obter [!DNL Target] conhecimento sobre produtos com [!DNL AI Assistant].
 title: Como usar o [!DNL AI Assistant] in [!DNL Target] para obter conhecimento sobre o produto?
 feature: Overview
-hide: true
-hidefromtoc: true
-source-git-commit: f1f1eb08367b26206df74a3b81af0750e6180b9f
+exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
+source-git-commit: b30c7e0bed23b87a34dae5d47bcbe80edd957bb3
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 6%
@@ -61,19 +60,10 @@ Para acessar o [!DNL AI Assistant]:
 
 Conheça os aplicativos do [!DNL Adobe Experience Platform] no [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441029/?learn=on&#x26;enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Validar respostas do Assistente de IA
 
 Saiba como verificar e validar as respostas que o [!DNL AI Assistant] em [!DNL Adobe Experience Platform] fornece.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441744/?learn=on&#x26;enablevpops&captions=por_br)
-
-
-
-
-
-
-
-
-
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
