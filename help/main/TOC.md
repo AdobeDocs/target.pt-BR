@@ -3,10 +3,10 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: d1afb007d3cd257a2682c5d3a1833bbc33cad1a8
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 89%
+source-wordcount: '1274'
+ht-degree: 85%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 89%
    + [Acessar o Target na Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Conceitos-chave do Target](c-intro/target-key-concepts.md)
    + [Compreensão do tempo limite da interface do Target](/help/main/c-intro/understand-the-target-ui.md)
-   + [Usar o Assistente de IA](/help/main/c-intro/ai-assistant.md)
+   + Assistente de IA do Adobe Target {#ai-assistant}
+      + [Habilitar o assistente de IA](/help/main/c-intro/ai-assistant.md)
+      + [Use o Assistente de IA para obter conhecimento sobre o produto](/help/main/c-intro/ai-assistant-product-knowledge.md)
    + Kit de boas-vindas do Adobe Target {#welcome}
       + [Visão geral do kit de boas-vindas do Target](/help/main/c-intro/target-welcome-kit.md)
       + [Capítulo 1: Introdução](/help/main/c-intro/target-welcome-kit-1.md)
@@ -69,7 +71,7 @@ ht-degree: 89%
 + Implementar o Target {#implement-target}
    + [Implementar a visão geral do Target](c-implementing-target/implementing-target.md)
 + Integração do Target à Experience Cloud {#integrate}
-   + Adobe Analytics como origem de relatório do Adobe Target (A4T) {#a4t}
+   + Adobe Analytics como origem de relatório do Target (A4T) {#a4t}
       + [Visão geral do A4T](c-integrating-target-with-mac/a4t/a4t.md)
       + [Antes da implementação](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Implementação do Analytics for Target](c-integrating-target-with-mac/a4t/a4timplementation.md)
@@ -78,9 +80,9 @@ ht-degree: 89%
       + [Suporte do A4T para atividades de Alocação automática e Direcionamento automático](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)
       + [Usar um servidor de rastreamento do Analytics](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [Relatórios do A4T](c-integrating-target-with-mac/a4t/reporting.md)
-      + Solução de problemas da integração do Analytics e do Target (A4T) {#troubleshoot-a4t}
+      + Solução de problemas na integração do Analytics e do Target (A4T) {#troubleshoot-a4t}
          + [Solução de problemas de A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-      + Perguntas frequentes sobre o A4T {#a4t-faq}
+      + Perguntas frequentes sobre o A4T  {#a4t-faq}
          + [Provisionamento inicial - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Configurações de atividade - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [Exibição de relatórios - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -93,7 +95,7 @@ ht-degree: 89%
       + [Variações de dados esperadas entre o Target e o Analytics ao usar e não usar A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + Integração do Target ao Adobe Customer Journey Analytics {#cja}
       + [Relatórios do Target no Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
-   + Integrar o Target ao Adobe Journey Optimizer (AJO) {#ajo}
+   + Integração do Target ao Adobe Journey Optimizer (AJO) {#ajo}
       + [Usar decisões de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [Integrar [!DNL Adobe Target Recommendations] e [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
       + Casos de uso do Adobe Journey Optimizer {#use-cases}
@@ -101,8 +103,8 @@ ht-degree: 89%
          + [Alterações de conteúdo por meio do teste A/B no Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + [Adicionar ou ocultar componentes da página da Web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Públicos-alvo da Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Integrar o Target ao Adobe Experience Manager (AEM) {#aem}
-      + [Visão geral da integração do Target ao AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+   + Integração do Target ao Adobe Experience Manager (AEM) {#aem}
+      + [Visão geral da integração do Target com o AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Fragmentos de experiência e Fragmentos de conteúdo {#fragments}
          + [Visão geral dos Fragmentos de experiência e Fragmentos de conteúdo do AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [Fragmentos de experiência do AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
@@ -275,11 +277,11 @@ ht-degree: 89%
    + Relatórios do Personalization {#personalization-reports}
       + [Relatório de Resumo do direcionamento automático](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Relatórios de resumo de Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md)
-   + Relatório de insights de personalização {#insights}
+   + Relatório do Personalization Insights {#insights}
       + [Visão geral dos relatórios do Insights](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Relatório de Segmentos automáticos](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Relatório de atributos importantes](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + Relatórios de Teste multivariado {#multivariate-test-reports}
+   + Relatórios de teste multivariado {#multivariate-test-reports}
       + [Relatório de desempenho da experiência (MVT)](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
       + [Relatório de contribuição de localização (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Relatórios do Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
@@ -303,7 +305,7 @@ ht-degree: 89%
       + [Basear a recomendação em uma chave de recomendação](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [A ciência por trás dos algoritmos de recomendações do Target](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [Upload dos critérios personalizados](c-recommendations/c-algorithms/recommendations-csv.md)
-      + Uso das regras de inclusão estática e dinâmica {#dynamic-static}
+      + Regras de inclusão estática e dinâmica {#dynamic-static}
          + [Uso das regras de inclusão estática e dinâmica](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [Correspondência de atributo de entidade](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [Correspondência de atributo de perfil](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
