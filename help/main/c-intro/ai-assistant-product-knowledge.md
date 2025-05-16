@@ -3,12 +3,11 @@ keywords: assistente de ia;assistente de inteligência artificial
 description: Saiba como obter [!DNL Target] conhecimento sobre produtos com [!DNL AI Assistant].
 title: Como usar o [!DNL AI Assistant] in [!DNL Target] para obter conhecimento sobre o produto?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#beta newtab=true" tooltip="O que são recursos beta no  [!DNL Adobe Target]."
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
+source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 9%
+source-wordcount: '302'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +25,7 @@ As perguntas de conhecimento do produto incluem [!DNL Adobe] conceitos relaciona
 
 Para acessar o [!DNL AI Assistant]:
 
-1. Verifique se você concluiu as tarefas de pré-requisito em [Habilitando [!DNL Adobe Experience Platform] [!DNL AI Assistant] em [!DNL Adobe Target]](/help/main/c-intro/ai-assistant.md).
+1. Verifique se você concluiu as tarefas de pré-requisito em [Habilitando [!DNL Adobe Experience Platform] [!DNL AI Assistant] em [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md).
 
    * Sua organização deve primeiro concordar com termos legais. Para obter mais informações, entre em contato com a equipe de conta da Adobe.
    * Seus administradores devem conceder permissões suficientes para acessar [!DNL AI Assistant].
@@ -61,10 +60,10 @@ Para acessar o [!DNL AI Assistant]:
 
 Conheça os aplicativos do [!DNL Adobe Experience Platform] no [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441029/?learn=on&#x26;enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Validar respostas do Assistente de IA
 
 Saiba como verificar e validar as respostas que o [!DNL AI Assistant] em [!DNL Adobe Experience Platform] fornece.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441744/?learn=on&#x26;enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
