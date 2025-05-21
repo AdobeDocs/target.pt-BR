@@ -4,9 +4,9 @@ description: Saiba como obter [!DNL Target] conhecimento sobre produtos com [!DN
 title: Como usar o [!DNL AI Assistant] in [!DNL Target] para obter conhecimento sobre o produto?
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 04e06151e87df0fea7b4eacbe4993dc7fb3702e2
+source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '316'
 ht-degree: 6%
 
 ---
@@ -54,11 +54,11 @@ Para acessar o [!DNL AI Assistant] para obter conhecimento sobre o produto:
    >
    >As respostas da IA podem ser imprecisas ou errôneas. Certifique-se de confirmar as respostas e fontes.
 
-1. (Opcional) Forneça feedback ao Assistente de IA.
+1. (Opcional) Forneça feedback a [!DNL AI Assistant].
 
    * Clique no ícone de Polegar para cima ( ![ícone de Polegar para cima](/help/main/assets/icons/ThumbUp.svg) ) para informar a [!DNL AI Assistant] que a resposta está correta.
    * Clique no ícone de Miniaturas para baixo ( ![ícone de Miniaturas para baixo](/help/main/assets/icons/ThumbDown.svg) ) para informar a [!DNL AI Assistant] que a resposta está incorreta.
-   * Clique no ícone Resultados do Relatório ( ![Ícone de resultados do relatório](/help/main/assets/icons/Flag.svg) ) para relatar um problema à [!DNL AI Assistant].
+   * Clique no ícone Resultados do Relatório ( ![Ícone de resultados do relatório](/help/main/assets/icons/Flag.svg) ) para relatar um problema ao [!DNL AI Assistant].
 
 ## Vídeos de treinamento
 
@@ -66,10 +66,10 @@ Para acessar o [!DNL AI Assistant] para obter conhecimento sobre o produto:
 
 Conheça os aplicativos do [!DNL Adobe Experience Platform] no [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441029/?learn=on&#x26;enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Validar respostas do Assistente de IA
 
 Saiba como verificar e validar as respostas que o [!DNL AI Assistant] em [!DNL Adobe Experience Platform] fornece.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441744/?learn=on&#x26;enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
