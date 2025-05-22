@@ -7,10 +7,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
+source-git-commit: 5ad564e43cd6f66e7f31072348f17e52013ed759
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 2%
+source-wordcount: '750'
+ht-degree: 1%
 
 ---
 
@@ -47,6 +47,8 @@ Para gerar texto usando [!DNL AI Assistant]:
 
    Por exemplo, para uma venda de férias sazonais, você pode digitar &quot;Escreva um texto de herói envolvente anunciando uma venda de férias de verão por tempo limitado&quot;.
 
+   Consulte [Variações de exemplo](#variations) abaixo para ver como o [!DNL AI Assistant] transforma um prompt simples em uma cópia de anúncio de formato mais longo e cativante para uma aventura excitante na Nova York.
+
 1. Clique no ícone **[!UICONTROL Text Settings]** para especificar o tom do texto e a estratégia de comunicação.
 
    * **Estratégia de comunicação**: escolha o estilo de comunicação mais adequado para o texto gerado.
@@ -73,8 +75,21 @@ Para gerar texto usando [!DNL AI Assistant]:
    * Clique no ícone de Miniaturas para baixo ( ![ícone de Miniaturas para baixo](/help/main/assets/icons/ThumbDown.svg) ) para informar a [!DNL AI Assistant] que você não gosta da variação.
    * Clique no ícone [!UICONTROL Report Results] ( ![Ícone de resultados do relatório](/help/main/assets/icons/Flag.svg) ) para relatar um problema ao [!DNL AI Assistant].
 
+## Variações de exemplo {#variations}
+
+Alterar o texto herói é apenas o começo. Com [!DNL AI Assistant] em [!DNL Target], você não está limitado a edições básicas. Você tem o poder de criar, refinar e elevar conteúdo em toda a sua experiência. Quer você esteja fazendo brainstorming de variações, otimizando mensagens ou gerando uma nova cópia em tempo real, o [!DNL AI Assistant] usa o poder da IA gerativa para ajudá-lo a criar conteúdo atraente e de alto impacto em segundos.
+
+O prompt e as variações a seguir mostram a potência de [!DNL AI Assistant].
+
+**[!UICONTROL Prompt]**: Escreva um anúncio envolvente para uma viagem de três dias a Nova York para visitar os principais destinos.
+**[!UICONTROL Text Settings]**: duração de FOMO, inglês, persuasivo e Medium.
+* **[!UICONTROL Variation 1]**: Descubra a magia da Nova York com nossa viagem exclusiva de três dias! Mergulhe em pontos turísticos icônicos como a Times Square, o Central Park e a Estátua da Liberdade. Junte-se a inúmeros outros que já experimentaram a emoção e a beleza da cidade que nunca dorme. Não perca memórias inesquecíveis. Reserve sua aventura hoje e faça parte da excitação! Pontos limitados disponíveis!
+* **[!UICONTROL Variation 2]**: Descubra a magia da Nova York com nossa escapada exclusiva de três dias! Visite pontos de referência icônicos como a Times Square e o Central Park, e mergulhe em restaurantes e entretenimento de classe mundial. Não perca esta aventura inesquecível. Os espaços são limitados e todos estão entusiasmados com suas experiências incríveis. Reserve agora e faça parte do entusiasmo que está atraindo os viajantes do mundo inteiro!
+* **[!UICONTROL Variation 3]**: Embarque em uma emocionante fuga de três dias para Nova York, onde marcos icônicos aguardam! Descubra a vibração elétrica da Times Square, saboreie delícias culinárias em Manhattan e capture vistas deslumbrantes do Empire State Building. Aja agora e junte-se a inúmeros aventureiros que vivem seus sonhos. Não deixe de criar memórias inesquecíveis na cidade que nunca dorme. Pontos limitados disponíveis. Reserve sua aventura hoje mesmo!
+* **[!UICONTROL Variation 4]**: Reserve agora sua aventura de três dias em Nova York e experimente a magia da cidade como nunca! De vistas icônicas a gemas escondidas, cada canto do Big Apple contém algo emocionante. Não perca momentos inesquecíveis que outros já estão aproveitando. Faça parte do burburinho. Proteja seu lugar hoje e crie memórias que durarão toda a vida. Depressa, os espaços estão se enchendo rapidamente!
+
 ## Vídeos de treinamento
 
 ### Criar conteúdo usando o Assistente de IA para geração de conteúdo
 
->[!VIDEO](https://video.tv.adobe.com/v/3434640/?learn=on&captions=por_br">https://video.tv.adobe.com/v/3434640/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
