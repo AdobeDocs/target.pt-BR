@@ -6,9 +6,9 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d8bdd7f00911136f3089cef135928153a86096a9
+source-git-commit: 15aa5cc44cd610dd330b5c1fb4f0a771f71b2f84
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: '1670'
 ht-degree: 21%
 
 ---
@@ -31,7 +31,7 @@ Estamos oferecendo um recurso temporário que permite alternar entre a interface
 
 ![Alternância da versão da interface do usuário de destino](/help/main/r-release-notes/assets/toggle.png)
 
-Quando a implantação for concluída, o botão de alternância será removido e todos os usuários farão a transição permanente para a interface do usuário atualizada. Embora não tenhamos uma data de término confirmada devido à resolução de problemas em andamento, recomendamos o planejamento antecipado, pois esse recurso será eliminado em breve.
+Quando a implantação for concluída, o botão de alternância será removido e todos os usuários farão a transição permanente para a interface atualizada em **22 de junho de 2025**. A Adobe recomenda um planejamento antecipado, pois esse recurso será descontinuado em breve.
 
 **Limitações do comportamento de alternância da interface**
 
