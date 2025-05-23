@@ -6,9 +6,9 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 15aa5cc44cd610dd330b5c1fb4f0a771f71b2f84
+source-git-commit: 0d7ae6e269211b1c0beea346f527d28c8765f8c3
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1669'
 ht-degree: 21%
 
 ---
@@ -39,10 +39,12 @@ Quando a implantação for concluída, o botão de alternância será removido e
 * **Editar atividades existentes**: as alterações feitas nas atividades existentes (originalmente criadas na interface herdada) ao usar a interface atualizada serão publicadas no seu site. No entanto, essas atualizações não estarão visíveis na interface herdada se você voltar; somente as últimas atualizações feitas na interface herdada aparecerão lá.
 * **Consistência dos detalhes da atividade**: as alterações mais recentes, independentemente da interface do usuário usada, serão refletidas no seu site ativo. No entanto, a interface herdada mostrará apenas as alterações mais recentes feitas nessa versão. Isso pode causar confusão se as atividades editadas na interface atualizada forem diferentes do que você vê na interface herdada.
 
-Para obter mais informações sobre a interface atualizada, consulte as seguintes notas de versões anteriores:
+Para obter mais informações sobre a interface atualizada, consulte os seguintes recursos:
 
 * [Notas de versão do [!DNL Target Standard/Premium] 25.2.1 (17 de fevereiro de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)
 * [Notas de versão do [!DNL Target Standard/Premium] 25.1.1 (9 de janeiro de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)
+* [[!UICONTROL Visual Experience Composer] alterado](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+* [[!UICONTROL Visual Experience Composer] opções](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
 ## [!DNL Target Standard/Premium] 25.5.3 (22 de maio de 2025)
 
