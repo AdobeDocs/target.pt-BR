@@ -4,36 +4,36 @@ description: Uma lista das perguntas mais frequentes sobre o uso dos recursos do
 title: Onde posso encontrar respostas a minhas perguntas sobre otimização e personalização?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
+source-git-commit: 21d31fdf145f7c74be717885c15b35c3d1d61ed9
 workflow-type: tm+mt
-source-wordcount: '2678'
-ht-degree: 94%
+source-wordcount: '2623'
+ht-degree: 78%
 
 ---
 
 # Perguntas frequentes sobre otimização e personalização do Target
 
-Uma lista das perguntas mais frequentes sobre o uso dos recursos do Adobe Target, juntamente com informações e links para obter mais informações.
+Uma lista de perguntas frequentes sobre o uso dos recursos do [!DNL Adobe Target], juntamente com informações e links para obter mais informações.
 
 ## Informações gerais {#section_CE5713B5AAC341C9A75586C107797FA3}
 
-**Como posso observar como outros clientes usaram o Adobe Target para obter melhores resultados?**
+**Como posso observar como outros clientes usaram o [!DNL Target] para obter melhores resultados?**
 
 Veja algumas das nossas [histórias de sucesso de clientes](https://www.adobe.com/br/marketing-cloud/target/resources.html#x). Veja como clientes como você utilizaram o Target para melhorar a otimização e personalização com o intuito de alcançar metas empresariais.
 
 Observe que alguns desses estudos de caso utilizaram capacidades do Adobe Target Premium.
 
-**Onde posso obter mais informações sobre os recursos mais recentes do Target?**
+**Onde posso obter mais informações sobre os recursos mais recentes do [!DNL Target]?**
 
 Consulte as [Notas de versão](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para verificar os detalhes da versão mais recente. As informações sobre todas as [versões anteriores](/help/main/r-release-notes/release-notes-for-previous-releases.md) também estão disponíveis online.
 
-**A Adobe tem uma Comunidade/Fórum onde eu possa encontrar respostas e mais informações sobre o Target?**
+**O [!DNL Adobe] tem uma Comunidade/Fórum onde eu possa encontrar respostas e mais informações sobre o [!DNL Target]?**
 
 Visite o [Target Community Forum](/help/main/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42), onde ajudamos nossos clientes, mas, principalmente, gostaríamos que praticantes do Adobe Target como você ajudem uns aos outros. Afinal, o sucesso de uma comunidade e de um fórum depende da participação ativa de seus membros. Torne-se parte de uma comunidade e contribua e procure respostas para suas perguntas.
 
-**Quais navegadores são compatíveis com o Target?**
+**A quais navegadores [!DNL Target] oferece suporte?**
 
-Leia a matriz de [Navegadores suportados](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=pt-BR){target=_blank} para obter mais detalhes. Observe que há dois aspectos: o suporte à interface do Target Standard/Premium Experience Cloud e o suporte a navegadores para usuário final em desktops/dispositivos.
+Leia a matriz de [Navegadores suportados](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} para obter mais detalhes. Observe que há dois aspectos: o suporte à interface do Target Standard/Premium Experience Cloud e o suporte a navegadores para usuário final em desktops/dispositivos.
 
 ## Atividades {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -99,7 +99,7 @@ Use o recurso [Agendamento na etapa Metas e configurações](/help/main/c-activi
 
 Lembre-se de ativar a atividade. Apenas atividades ativas aderem à programação especificada. Depois de atingida a data de encerramento, a atividade vai para o estado Encerrada.
 
-**Posso fazer uma alteração apenas na etapa de direcionamento e não percorrer todo o fluxo de trabalho orientado de três etapas para edição?**
+**Posso fazer uma alteração apenas na etapa [!UICONTROL Targeting] e não percorrer todo o fluxo de trabalho guiado de três etapas para edição?**
 
 Você pode fazer isso com facilidade [ao inserir diretamente a etapa desejada de sua escolha na página Visão geral da atividade](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) e, em seguida, sair dessa etapa usando a opção Salvar e fechar.
 
@@ -111,7 +111,7 @@ Isso também é possível. Basta [usar a opção Salvar para fazer alterações 
 
 Use nosso [poderoso recurso de Modo de QA](/help/main/c-activities/c-activity-qa/activity-qa.md) para executar o QA. Você pode compartilhar links com sua equipe de QA e também testar a atividade de ponta a ponta, incluindo a criação de relatórios, para assegurar que, depois que a atividade estiver sendo realizada, ela funcione como pretendido e testado.
 
-**Como posso usar o poder de decisão do Target para receber uma experiência/oferta que possa ser usada em aplicativos de página única (SPAs) ou integrações no lado do servidor?**
+**Como posso usar o poder de decisão do [!DNL Target] para receber uma experiência/oferta que possa ser usada em aplicativos de página única (SPAs) ou integrações no lado do servidor?**
 
 Use o poder das [atividades baseadas em formulário](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) com [ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) para atender à sua meta.
 
@@ -128,7 +128,7 @@ Existem duas opções:
 
 ## Públicos-alvo {#section_FA6314777ABC46D8B198D6F388051460}
 
-**Posso criar um segmento de públicos-alvo em uma atividade que seja específico a ela? Eu não acredito que um público-alvo como esse deva ser criado na Biblioteca de público-alvo, pois não há fator de reutilização.**
+**Posso criar um segmento de públicos-alvo em uma atividade que seja específico a ela? Eu não acredito que um público-alvo como esse deva ser criado no [!UICONTROL Audience Library], pois não há fator de reutilização.**
 
 Comece usando o [recurso Audience somente para atividades](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) a fim de definir audiences locais para a atividade.
 
@@ -150,12 +150,12 @@ Experimente o [recurso Scripts de perfil](/help/main/c-target/c-visitor-profile/
 
 Use os controles de alocação de porcentagem disponíveis na [Etapa 2 do fluxo de trabalho guiado em três partes do Target (página de Direcionamento)](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) para decidir como você deseja proceder em relação à configuração da atividade.
 
-**Eu também tenho o Adobe Analytics e desejo utilizá-lo com o Target. Quais capacidades principais eu obterei integrando as duas soluções?**
+**Eu também tenho [!DNL Adobe Analytics] e desejo utilizá-lo com [!DNL Target]. Quais capacidades principais eu obterei integrando as duas soluções?**
 
 Veja os seguintes aspectos do produto:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=pt-BR)
+* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Públicos-alvo](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Experiências {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -164,17 +164,17 @@ Veja os seguintes aspectos do produto:
 
 Confira as [Regras de modelo](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) para incluir várias páginas estruturadas semelhantes à atividade, enquanto ainda cria a experiência no único URL fornecido.
 
-**Estou cansado de ver a mensagem &quot;Deixe seu carregador carregar os scripts&quot; quando tento carregar minha página no Visual Experience Composer (VEC). Como posso evitar isso?**
+**Estou cansado de ver a mensagem &quot;Deixe seu navegador carregar os scripts&quot; quando tento carregar minha página no [!UICONTROL Visual Experience Composer] (VEC). Como posso evitar isso?**
 
 Isso ocorre porque seu site tem conteúdo misto — é um site que busca recursos HTTP e HTTPS. Solicite que sua equipe mude totalmente para HTTPS.
 
 Até que isso aconteça, siga as instruções em [Habilitar conteúdo misto no navegador](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) para permitir que seu navegador carregue conteúdo misto. Este é um recurso de segurança da maioria dos navegadores modernos.
 
-**Posso experimentar o Visual Experience Composer (VEC) no meu site mesmo que a biblioteca at.js do Target ainda não tenha sido implementada?**
+**Posso experimentar o [!UICONTROL Visual Experience Composer] (VEC) no meu site mesmo que a biblioteca at.js do [!DNL Target] ainda não tenha sido implantada?**
 
 Experimente carregar a página com o [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D).
 
-**Por que o meu site não está carregando dentro do Visual Experience Composer (VEC)?**
+**Por que meu site não está carregando no [!UICONTROL Visual Experience Composer] (VEC)?**
 
 Experimente as [informações de solução de problemas](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4) descritas em nossa página de ajuda. Entre em contato com o [Suporte da Adobe](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) se nenhuma dessas abordagens funcionar.
 
@@ -186,7 +186,7 @@ Leia também quando e por que o [Enhanced Experience Composer](/help/main/c-expe
 
 Experimente o recurso [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5). Observe que ele funciona quando o Enhanced Experience Composer está ativado.
 
-**Eu tenho múltiplos domínios. Um dos domínios precisa que o Enhanced Experience Composer seja ativado, enquanto outros precisam que ele seja desativado. Como posso fazer isso?**
+**Eu tenho múltiplos domínios. Um dos domínios precisa que o [!UICONTROL Enhanced Experience Composer] esteja habilitado, enquanto outros precisam que ele esteja desabilitado. Como posso fazer isso?**
 
 Você sempre pode usar a [opção Enhanced Experience Composer no nível da atividade](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) para anular a configuração padrão (Administração > Preferências).
 
@@ -198,7 +198,7 @@ Entre em contato com a Adobe para [garantir que sua conta esteja configurada par
 
 Você pode fazer isso facilmente com o recurso [Multiple Experience Versions](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF). Observe as nuances relacionadas à entrega nesses testes
 
-**Como posso ver quais modificações eu fiz no Visual Experience Composer (VEC)?**
+**Como posso ver quais modificações eu fiz no [!UICONTROL Visual Experience Composer] (VEC)?**
 
 Sempre mostramos as alterações no [Editor de código](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). A guia Modificações mostra o Seletor de CSS ou mbox que você aplicou à sua oferta.
 
@@ -208,13 +208,13 @@ Observe que o Seletor de CSS é um seletor do Sizzle. Você pode usar esta seç�
 
 Uma das maneiras é usar o [Editor de código personalizado](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). Siga em frente e coloque seu JavaScript na seção e ele será fornecido. Você tem a opção de oferecê-lo no cabeçalho ou na parte superior do corpo, dependendo das suas necessidades.
 
-**Por que eu não posso ir além da página de login dentro do Visual Experience Composer (VEC) ou para uma página entranhada nas profundezas para a qual eu não tenha um URL específico?**
+**Por que não posso ir além da página de logon no [!UICONTROL Visual Experience Composer] (VEC) ou para uma página entranhada nas profundezas para a qual eu não tenha uma URL específica?**
 
-Use os recursos Escrever e Navegar para navegar até a página se sua escolha e começar a criar sua experiência.
+Use os recursos do [!UICONTROL Compose] e do [!UICONTROL Browse] para navegar até a página de escolha e começar a criar sua experiência.
 
 ![Alternância de design e navegação](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
-**Eu sou um antigo usuário do Target Classic. Posso utilizar minhas mboxes para certos casos de uso?**
+**Eu sou um antigo usuário [!DNL Target Classic]. Posso utilizar minhas mboxes para certos casos de uso?**
 
 Use [a abordagem baseada em formulário](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) para criar atividades.
 
@@ -240,19 +240,19 @@ Temos [o recurso de URL de redirecionamento](/help/main/c-experiences/c-manage-c
 
 Use nosso [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) e verifique se [há conflito de atividade](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
-**Posso usar o poder de decisão do Target para receber uma experiência/oferta que possa ser usada em aplicativos de página única (SPAs) ou integrações no lado do servidor?**
+**Posso usar o poder de decisão do [!UICONTROL Target] para receber uma experiência/oferta que possa ser usada em aplicativos de página única (SPAs) ou integrações no lado do servidor?**
 
 Use o poder das [atividades baseadas em formulário](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) com [ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) para atender à sua meta.
 
 ## Relatórios (Incluído Analytics for Target - A4T) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-**Eu também tenho o Adobe Analytics e desejo utilizá-lo com o Target. Quais capacidades principais eu obterei integrando as duas soluções?**
+**Eu também tenho [!DNL Adobe Analytics] e desejo utilizá-lo com [!DNL Target]. Quais capacidades principais eu obterei integrando as duas soluções?**
 
 Veja os seguintes aspectos do produto:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=pt-BR)
+* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Públicos-alvo](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -261,7 +261,7 @@ Veja os seguintes aspectos do produto:
 
 É aqui que entra o recurso [Públicos-alvo para relatórios](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF), disponível na página Metas e configurações da etapa 3 do fluxo de trabalho orientado.
 
-Você tem a opção de adicionar 50 desses segmentos e também o ponto de aplicação (Entrada de atividade ou uma métrica específica) para ter uma forma poderosa de destrinchar os dados.
+Você tem a opção de adicionar 50 desses segmentos e também o ponto de aplicação ([!UICONTROL Activity Entry] ou uma métrica específica) para ter uma maneira poderosa de destrinchar os dados.
 
 Observe que o Target coleta os dados relacionados a isso a partir do momento que você adiciona esses públicos-alvo, então se você deixar de adicionar segmentos antes de executar o teste, você está sem sorte.
 
@@ -269,13 +269,13 @@ Observe que o Target coleta os dados relacionados a isso a partir do momento que
 
 **O que posso fazer para tornar este processo mais fácil?**
 
-É aqui que o [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) é útil. Se você tem o Adobe Analytics, simplesmente escolha a fonte como Analytics, que elimina essa restrição. Agora você pode realizar análise em qualquer público-alvo e você não precisa definir os públicos-alvo de criação de relatórios antecipadamente.
+É aqui que o [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) é útil. Se você tiver [!DNL Adobe Analytics], basta escolher a origem como [!DNL Analytics], o que elimina essa restrição. Agora você pode realizar análise em qualquer público-alvo e você não precisa definir os públicos-alvo de criação de relatórios antecipadamente.
 
 **Posso realizar cálculos de criação de relatórios off-line?**
 
-Use as [opções Exporte relatórios para CSV e Detalhes de Pedido de Download para CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) na página Relatórios para baixar os dados de criação de relatórios desejados.
+Use as [Opções Exportar Relatórios para CSV e Detalhes de Pedido de Download para CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) na página Reportas para baixar os dados de relatórios desejados.
 
-**Posso mudar a experiência de controle para avaliação de relatórios ou mudar a metodologia de contagem de Visitantes para Visitas?**
+**Posso mudar a experiência de controle para avaliação de relatórios ou mudar a metodologia de contagem de [!UICONTROL Visitors] para [!UICONTROL Visits]?**
 
 Faça essas alterações usando a [engrenagem Configurações da página de relatórios](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Leia mais sobre essas configurações para compreender como os cálculos variam.
 
@@ -285,21 +285,21 @@ Tentamos tornar os relatórios o mais intuitivos possível com recursos como [ba
 
 ## Tokens de resposta {#section_C2A7118B4B62482A9D630C2212112A3D}
 
-**Eu posso realizar uma integração com um sistema de terceiros, como Google Analytics ou ClickTale, para transmitir as informações de atividade entregues a um usuário final para análise?**
+**Posso realizar uma integração com um sistema de terceiros, como [!DNL Google Analytics] ou [!DNL ClickTal]e, para transmitir as informações de atividade entregues a um usuário final para análise?**
 
 Temos uma solução para isso também com nosso [recurso de Tokens de resposta](/help/main/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4).
 
 ## Solução de problemas {#section_6B8B4DC62AE34066A8C55915E9EC6C19}
 
-**Como eu posso saber o status de disponibilidade do Adobe Target?**
+**Como posso saber o status de disponibilidade de [!DNL Target]?**
 
-Use a página [Status do sistema da Adobe](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) para visualizar o status dos produtos da Adobe e das soluções da Experience Cloud, incluindo o Target. Esta página ajuda a determinar se os problemas encontrados foram causados por atualizações do sistema ou pela manutenção de rotina.
+Use a [página Status do Sistema da Adobe](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) para exibir o status de [!DNL Adobe] produtos e [!DNL Experience Cloud] soluções, incluindo [!DNL Target]. Esta página ajuda a determinar se os problemas encontrados foram causados por atualizações do sistema ou pela manutenção de rotina.
 
 **Você tem um guia de solução de problemas?**
 
 Lamentamos saber que você está tendo problemas. Confira o [Destino da Solução de Problemas](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) com os links para vários tópicos de solução de problemas.
 
-## APIs do Target {#section_714E85EFF6E3400389EF2E40D538E1DA}
+## [!DNL Target] APIs {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Onde eu posso aprender mais sobre as APIs do Target?**
 
