@@ -6,9 +6,9 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 53fc39f66ca954c1c9908a12ece6c0beeebed2eb
+source-git-commit: 97fd3be049ffb0f9dd27c89288a82695d86d5302
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1744'
 ht-degree: 20%
 
 ---
@@ -25,7 +25,7 @@ A implantação da nova interface de usuário do [!DNL Target] será concluída 
 
 A partir de **22 de junho de 2025**, a alternância de versão da interface do usuário será removida. Todos os usuários farão a transição permanente para a nova interface, sem a opção de reverter para a versão anterior.
 
-**Informações importantes sobre a alternância da versão da interface do usuário**
+### Informações importantes sobre a alternância da versão da interface do usuário
 
 Estamos oferecendo um recurso temporário que permite alternar entre a interface atualizada do usuário do [!DNL Target] e a versão herdada usando um botão de alternância. Essa opção está disponível somente durante a fase final de implantação da interface.
 
@@ -33,33 +33,23 @@ Estamos oferecendo um recurso temporário que permite alternar entre a interface
 
 Quando a implantação for concluída, o botão de alternância será removido e todos os usuários farão a transição permanente para a interface atualizada em **22 de junho de 2025**. A Adobe recomenda um planejamento antecipado, pois esse recurso será descontinuado em breve.
 
-**Limitações do comportamento de alternância da interface**
+### Limitações do comportamento de alternância da interface
 
 * **Visibilidade das novas atividades**: as atividades criadas na interface atualizada não estarão visíveis se você voltar para a interface herdada.
 * **Editar atividades existentes**: as alterações feitas nas atividades existentes (originalmente criadas na interface herdada) ao usar a interface atualizada serão publicadas no seu site. No entanto, essas atualizações não estarão visíveis na interface herdada se você voltar; somente as últimas atualizações feitas na interface herdada aparecerão lá.
 * **Consistência dos detalhes da atividade**: as alterações mais recentes, independentemente da interface do usuário usada, serão refletidas no seu site ativo. No entanto, a interface herdada mostrará apenas as alterações mais recentes feitas nessa versão. Isso pode causar confusão se as atividades editadas na interface atualizada forem diferentes do que você vê na interface herdada.
 
-Para obter mais informações sobre a interface atualizada, consulte os seguintes recursos:
+### Mais informações sobre a interface atualizada
 
-* [Notas de versão do [!DNL Target Standard/Premium] 25.2.1 (17 de fevereiro de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)
+* Notas de versão do [[!DNL Target Standard/Premium] 25.2.1 (17 de fevereiro de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): fornece um resumo das principais alterações na interface do usuário do [!DNL Target] para [!UICONTROL Activities], [!UICONTROL Recommendations] e o [!UICONTROL Visual Experience Composer] (VEC).
 
-  Fornece um resumo das alterações na interface do usuário principal do [!DNL Target] para [!UICONTROL Activities], [!UICONTROL Recommendations] e [!UICONTROL Visual Experience Composer] (VEC).
+* Notas de versão do [[!DNL Target Standard/Premium] 25.1.1 (9 de janeiro de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): fornece um resumo das principais alterações na interface do usuário do [!DNL Target] para o [!UICONTROL Offers Library].
 
-* [Notas de versão do [!DNL Target Standard/Premium] 25.1.1 (9 de janeiro de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)
+* [Compreender a [!DNL Target] Interface](/help/main/c-intro/understand-the-target-ui.md): fornece uma breve visão geral para ajudá-lo a se familiarizar com o [!DNL Target] e fornece links para informações mais detalhadas e instruções passo a passo.
 
-  Fornece um resumo das alterações na interface do usuário principal em [!DNL Target] para [!UICONTROL Offers Library].
+* [[!UICONTROL Visual Experience Composer] alterações](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): a versão [!DNL Adobe Target Standard/Premium] 25.2.1 (17 de fevereiro de 2015) introduz um [!UICONTROL Visual Experience Composer] (VEC) atualizado. Este artigo explica as diferenças entre as versões herdadas e atualizadas do VEC.
 
-* [Compreender a interface de usuário do  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md)
-
-  Fornece uma breve visão geral para ajudá-lo a se familiarizar com o [!DNL Target] e fornece links para informações mais detalhadas e instruções passo a passo.
-
-* [[!UICONTROL Visual Experience Composer] alterado](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
-
-  A versão [!DNL Adobe Target Standard/Premium] 25.2.1 (17 de fevereiro de 2015) introduz um [!UICONTROL Visual Experience Composer] (VEC) atualizado. Este artigo explica as diferenças entre as versões herdadas e atualizadas do VEC.
-
-* [[!UICONTROL Visual Experience Composer] opções](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
-
-  Este artigo explica a interface do usuário do VEC atualizada e suas opções.
+* [[!UICONTROL Visual Experience Composer] opções](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): este artigo explica a interface do usuário do VEC atualizada e suas opções.
 
 ## [!DNL Target Standard/Premium] 25.5.3 (22 de maio de 2025)
 
