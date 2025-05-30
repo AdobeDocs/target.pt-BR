@@ -4,10 +4,10 @@ title: Guia do profissional de negócios do Adobe Target
 description: Saiba como usar o Adobe  [!DNL Target]  para personalizar a experiência de seus clientes a fim de maximizar a receita em seus sites, aplicativos e outros canais digitais.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 3e2682acdf8c7be86285c901ddcdae0f43b647f2
+source-git-commit: 5d36a47a6cdd4d87345bd83f6060b4245d271d6b
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 33%
+source-wordcount: '625'
+ht-degree: 30%
 
 ---
 
@@ -47,10 +47,14 @@ A interface foi projetada para oferecer clareza e eficiência, ajudando você a 
 
 Além deste guia, as seguintes guias do [!DNL Adobe Target] também estão disponíveis:
 
-- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/overview){target=_blank}
-- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/pt-br/docs/target-learn/tutorials/overview){target=_blank}
+- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview){target=_blank}
+- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/overview){target=_blank}
 
 >[!ENDTABS]
+
+>[!IMPORTANT]
+>
+>A implantação da nova interface do usuário do [!DNL Target] foi concluída em 27 de maio de 2025. Todos os clientes agora têm acesso à versão mais recente da interface do usuário. A partir de 22 de junho de 2025, o botão de alternância da versão da interface do usuário será removido. Todos os usuários farão a transição permanente para a nova interface, sem a opção de reverter para a versão anterior. Para obter mais informações, consulte [Desativação de alternância de versão da interface do usuário de destino](/help/main/r-release-notes/release-notes.md#toggle).
 
 As seguintes seções apontam para links úteis neste guia, organizados por público-alvo com base em funções de trabalho típicas:
 
