@@ -4,14 +4,14 @@ title: Guia do profissional de negócios do Adobe Target
 description: Saiba como usar o Adobe  [!DNL Target]  para personalizar a experiência de seus clientes a fim de maximizar a receita em seus sites, aplicativos e outros canais digitais.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b98c38e4730e725041bed8636c03f9a4f6b32385
+source-git-commit: f448b619a5b59de6f14909dd2705b2dcf9ab093f
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 29%
+source-wordcount: '622'
+ht-degree: 28%
 
 ---
 
-# Guia do profissional de negócios do Adobe Target
+# Guia do profissional de negócios do [!DNL Adobe Target]
 
 O [!DNL Adobe Target] é a solução completa da [!DNL Adobe Experience Cloud] para ajustar e personalizar a experiência do cliente e maximizar a receita em sites móveis e da web, aplicativos, redes sociais e outros canais digitais.
 
@@ -19,9 +19,9 @@ O [!DNL Adobe Target] é a solução completa da [!DNL Adobe Experience Cloud] p
 
 >[!BEGINTABS]
 
->[!TAB Importante]
+>[!TAB Informações importantes]
 
-**A interface do usuário do Target atualizada foi totalmente implantada**
+Desativação da alternância de versão da interface do usuário **[!DNL Target]**
 
 A partir de 27 de maio de 2025, todos os clientes terão acesso à nova interface do usuário do [!DNL Target]. A partir de 22 de junho de 2025, a alternância da interface do usuário será removida e todos os usuários farão a transição permanente para a interface do usuário atualizada, sem a opção de reverter.
 
