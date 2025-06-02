@@ -4,10 +4,10 @@ description: Conheça as práticas recomendadas para que suas experiências func
 title: Quais são as práticas recomendadas e as limitações do [!UICONTROL Visual Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
+source-git-commit: 197aa3a0ab060481120abd0d12cdb7b581369929
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 85%
+source-wordcount: '2512'
+ht-degree: 81%
 
 ---
 
@@ -33,11 +33,11 @@ Para ativar o Enhanced Experience Composer no nível da atividade enquanto cria 
 
 Problemas ao carregar o Enhanced Visual Experience Composer podem ser resolvidos através do incluir na lista de permissões dos seguintes endereços IP. Esses endereços IP são para o servidor do Adobe usado para o proxy do Enhanced Experience Composer. Eles são necessários somente para a atividade de edição. Incluir na lista de permissões Os visitantes do seu site não precisam desses endereços IP resolvidos.
 
-Estados Unidos: 52.55.99.45, 54.80.158.92, and 54.204.197.253
+Estados Unidos: 52.55.99.45, 54.80.158.92 e 54.204.197.253
 
 Europa, Oriente Médio e África (EMEA): 52.51.238.221, 52.210.199.44 e 54.72.56.50
 
-Pacífico Asiático (APAC): 52.193.67.35, 54.199.198.109 e 54.199.241.57
+Ásia-Pacífico (APAC): 52.193.67.35, 54.199.198.109 e 54.199.241.57
 
 ### Use IDs únicas para elementos de nível superior e outros elementos que podem ser bons candidatos a teste/direcionamento.
 
@@ -224,6 +224,18 @@ A solução é recolher o painel de experiência e o painel da página, clicando
 ## Limitações {#section_F33C2EA27F2E417AA036BC199DD6C721}
 
 Considere as seguintes limitações ao trabalhar com o VEC:
+
+### Manipulação da compatibilidade do VEC com alterações na política de extensão do Chrome.
+
+Devido às políticas atualizadas do Manifesto [V3 no Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}, as extensões não podem mais modificar o DOM original antes que ele seja analisado pelo navegador. Como resultado, determinados scripts de segurança, como implementações de edição de iframe, podem impedir que as páginas sejam carregadas no VEC.
+
+Para garantir a compatibilidade, esses scripts devem ser desabilitados condicionalmente quando a página for carregada dentro do iframe [!DNL Target]. Esse processo pode ser feito com segurança verificando a presença do objeto `window.adobeVecExtension`, que é inserido por [!DNL Target] durante o carregamento do VEC.
+
+Os trechos de código a seguir são exemplos de código de interrupção de iframe que podem fazer com que a página da Web não seja carregada no VEC:
+
+`window.top.location = window.self.location;`
+
+`top.location.href = self.location.href;`
 
 ### Não é possível mover um elemento fora de um container seguido de uma propriedade CSS.
 
