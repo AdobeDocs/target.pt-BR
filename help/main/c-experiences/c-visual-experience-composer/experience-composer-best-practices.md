@@ -4,10 +4,10 @@ description: Conheça as práticas recomendadas para que suas experiências func
 title: Quais são as práticas recomendadas e as limitações do [!UICONTROL Visual Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 7577a4da162c94b78cceb8618eefa95cde426081
+source-git-commit: d94dad7795ef024feb19234c2a20423b074ea768
 workflow-type: tm+mt
-source-wordcount: '2512'
-ht-degree: 81%
+source-wordcount: '2534'
+ht-degree: 80%
 
 ---
 
@@ -236,6 +236,14 @@ Os trechos de código a seguir são exemplos de código de interrupção de ifra
 `window.top.location = window.self.location;`
 
 `top.location.href = self.location.href;`
+
+Uma verificação simples pode ser usada para verificar quando uma página da Web é inserida dentro de [!DNL Target]. Um trecho de código deve ser semelhante a:
+
+```
+if(!window.adobeVecExtension) {
+    // additional security logic
+}
+```
 
 ### Não é possível mover um elemento fora de um container seguido de uma propriedade CSS.
 
