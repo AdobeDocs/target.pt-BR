@@ -4,10 +4,10 @@ description: Conheça as práticas recomendadas para que suas experiências func
 title: Quais são as práticas recomendadas e as limitações do [!UICONTROL Visual Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: d7ca0867314808f4d38c0de0b8c1e1f0cbf70cc0
+source-git-commit: 1f2c6bbabf0158672e5f926ffdf9662637cd8416
 workflow-type: tm+mt
-source-wordcount: '2434'
-ht-degree: 38%
+source-wordcount: '2435'
+ht-degree: 37%
 
 ---
 
@@ -301,6 +301,7 @@ Considere as seguintes limitações ao trabalhar com o VEC:
 
 ### Manipulando compatibilidade do VEC com [!DNL Chrome] alterações de política de extensão. {#ext}
 
++++Detalhes
 Devido às políticas atualizadas do Manifesto [V3 no Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}, as extensões não podem mais modificar o DOM original antes que ele seja analisado pelo navegador. Como resultado, determinados scripts de segurança, como implementações de edição de iframe, podem impedir que as páginas sejam carregadas no VEC.
 
 Para garantir a compatibilidade, esses scripts devem ser desabilitados condicionalmente quando a página for carregada dentro do iframe [!DNL Target]. Esse processo pode ser feito com segurança verificando a presença do objeto `window.adobeVecExtension`, que é inserido por [!DNL Target] durante o carregamento do VEC.
