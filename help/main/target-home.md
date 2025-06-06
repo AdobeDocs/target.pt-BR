@@ -4,9 +4,9 @@ title: Guia do profissional de negócios do Adobe Target
 description: Saiba como usar o Adobe  [!DNL Target]  para personalizar a experiência de seus clientes a fim de maximizar a receita em seus sites, aplicativos e outros canais digitais.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 197aa3a0ab060481120abd0d12cdb7b581369929
+source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '620'
 ht-degree: 28%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 28%
 
 O [!DNL Adobe Target] é a solução completa da [!DNL Adobe Experience Cloud] para ajustar e personalizar a experiência do cliente e maximizar a receita em sites móveis e da web, aplicativos, redes sociais e outros canais digitais.
 
-**Última atualização: 2 de junho de 2025 ( [Atualizações da documentação: veja o que mudou](r-release-notes/doc-change.md) )**
+**Última atualização: 6 de junho de 2025 ( [veja o que mudou](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
@@ -29,9 +29,9 @@ A partir de 27 de maio de 2025, todos os clientes terão acesso à nova interfac
 
 >[!TAB Novidades]
 
-**[!DNL Target]25.5.4 está ativo!**
+**[!DNL Target]25.6.1 está ativo!**
 
-Lançada em 29 de maio de 2025, essa atualização traz novas melhorias na interface do usuário e principais melhorias na documentação. Mergulhe e explore as novidades!
+Lançada em 6 de junho de 2025, essa atualização traz novas melhorias na interface do usuário e principais melhorias na documentação. Mergulhe e explore as novidades!
 
 [![Ícone Saiba mais](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
 

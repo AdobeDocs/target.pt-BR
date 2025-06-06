@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: bc9a0fe1977629a00eebb2f7aafd30263c8b55af
+source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
 workflow-type: tm+mt
-source-wordcount: '2119'
-ht-degree: 18%
+source-wordcount: '1105'
+ht-degree: 28%
 
 ---
 
@@ -19,23 +19,30 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 25.5.4 (29 de maio de 2025)
+## [!DNL Target Standard/Premium] 25.6.1 (sábado, 6 de junho de 2025)
 
 Esta versão do inclui as seguintes correções e atualizações:
 
-* Correção de um problema que impedia a adição ou edição de URLs no modo de QA. (TGT-51941)
-* Adição de uma configuração de Tráfego do Modo de QA em [!UICONTROL Reports] > [!UICONTROL Report Settings] ( ![ícone de Configurações de Relatório](/help/main/assets/icons/Setting.svg) ) para alinhar-se à funcionalidade da interface herdada [!DNL Target]. (TGT-52228 e TGT-52329)
-* Correção de um problema em que a atividade baseada em formulário gerava links de controle de qualidade incorretos. O URL/local da atividade incluía um &quot;1&quot; não intencional no final, que agora foi removido para garantir a vinculação precisa. (TGT-52355 e TGT-52358)
-* Correção de um problema em que a atividade baseada em formulário gerava links de controle de qualidade incorretos. A URL da atividade incluía um `http://pid-ppc` não intencional no início da URL, que agora foi removido para garantir a vinculação precisa. (TGT-52557)
-* Correção de um problema em que [!DNL Target] gerava links de controle de qualidade inválidos para atividades baseadas em formulário. (TGT-52528 e TGT-52603)
-* Correção de um problema em que salvar uma atividade modificada parecia ser processado, mas nunca concluído, e nenhuma mensagem de erro era exibida em [!DNL Target]. (TGT-52461)
-* Correção de um problema em que o VEC ([!UICONTROL Visual Experience Composer] atualizado) não detectava automaticamente o valor `at_property`. (TGT-52347)
-* Correção de um problema que causava o registro de duas modificações quando apenas uma era esperada após alternar entre os modos [!UICONTROL Browse] e [!UICONTROL Design] no VEC ao interagir com um elemento de formulário. (TGT-52455)
-* Correção de um problema que impedia a seleção da configuração [!UICONTROL Clicked an Element] no VEC atualizado devido a um erro informando que o seletor era inválido, já estava em uso ou não estava visível. (TGT-52467)
-* Correção de um problema em que a adição de uma caixa [!UICONTROL Recommendation Offer] no VEC atualizado fazia com que caixas duplicadas (fantasmas) fossem exibidas. A alternância entre a Experiência A e B adicionou repetidamente mais caixas fantasmas. (TGT-52505 e TGT-52519)
-* Correção de um problema na interface do usuário atualizada do [!DNL Target], em que as alterações em uma Oferta da HTML feitas por meio do menu [!UICONTROL Offer] não eram refletidas na atividade associada, e vice-versa. Esse comportamento agora corresponde à interface herdada, na qual as atualizações são sincronizadas corretamente entre o menu [!UICONTROL Offer] e a atividade. (TGT-52540 e TGT-52541)
-* Correção de um problema em que atualizações recentes de [!UICONTROL Experience Fragments] no [!UICONTROL Offers Library] não eram refletidas ao tentar usá-las em uma atividade. (TGT-52659)
-* Correção de um problema de localização na tradução para chinês simplificado de uma mensagem de confirmação. A versão anterior não tinha aspas ao redor do nome do local e usava linguagem informal, ao contrário do guia de estilo do cliente. A tradução atualizada agora usa pontuação adequada e um tom formal. (TGT-52364)
+* Correção de um problema em que os links de controle de qualidade não forneciam a experiência correta para a atividade associada. (TGT-52163 e TGT-52790)
+* Correção de um problema em que os links de controle de qualidade não tinham a ID de público-alvo associada. (TGT-52722)
+* Correção de um problema para garantir que as experiências fossem entregues somente quando as condições configuradas do URL de entrega da página fossem atendidas com precisão. (TGT-52696)
+* Correção de um problema que impedia os clientes de criar um modelo de design do [!DNL Recommendations]. A tentativa de criar um modelo acionou o erro: &quot;Deve haver pelo menos uma variável de entidade usada dentro do script&quot;. (TGT-52395)
+* Correção de um problema que impedia salvar [!DNL Recommendations] designs usando matrizes do Velocity. A mensagem de erro &quot;Deve haver pelo menos uma variável de entidade usada dentro do script&quot; foi acionada incorretamente. (TGT-52734)
+* Correção de um problema em que as modificações estavam inacessíveis no [!UICONTROL Visual Experience Composer] (VEC) quando a página não podia ser carregada para páginas da Web internas. (TGT-52488 &amp;TGT-52470)
+* Correção de um problema em que o painel [!UICONTROL Modifications] não estava visível em telas menores no VEC. (TGT-52470)
+* Correção de um problema no VEC atualizado em que a alternância do modo [!UICONTROL Browse] de volta para o modo [!UICONTROL Design] causava um erro de console e impedia mais interação. (TGT-52532)
+* Correção de um problema no VEC em que um clique em determinados elementos expandia involuntariamente seu tamanho. (TGT-52497)
+* Correção de um problema em que determinados elementos da página não eram carregados ou reconhecidos no VEC, impedindo interações como a seleção de botões ou banners e interrompendo o rastreamento preciso de eventos nas atividades do. (TGT-52663)
+* Correção de um problema que impedia os clientes de excluir ou remover ofertas nas atividades de [!UICONTROL Automated Personalization] (AP). (TGT-52690)
+* Correção de um problema que causava um comportamento inconsistente de qualificação de atividade em atividades de várias páginas. (TGT-52694)
+* Correção de um problema que fazia com que a página [!UICONTROL Overview] da atividade mostrasse uma URL inválida para o [!UICONTROL Activity Location]. (TGT-52695)
+* Correção de um problema na interface do usuário atualizada do [!DNL Target] que fazia com que entradas duplicadas fossem exibidas para os locais de atividades. (TGT-52693)
+* Correção de um problema que acionava um erro `getAudiencesV3`, impedindo clientes de editar ou copiar atividades. (TGT-52709)
+* Correção de um problema que causava um erro de carga inválida ao adicionar [!UICONTROL Experience Fragments] ou ofertas do HTML a uma atividade. (TGT-52779 e TGT-52773)
+* Correção de um problema na interface do usuário atualizada [!DNL Target] em que E[!UICONTROL xperience Fragments] não era exibido corretamente devido a um erro de entrada inválido. (TGT-52701)
+* Correção de um problema que impedia os clientes de editar atividades no [!UICONTROL Form-based Experience Composer] devido a um erro de usuário inválido. (TGT-52470)
+* Correção de um problema de localização no idioma coreano, em que as traduções anteriores usavam caracteres fora do Plano Multilíngue Básico. A tradução atualizada usa caracteres apropriados que transmitem com precisão o significado pretendido. (TGT-52508 e TGT-52509)
+* Correção de um problema de localização no idioma coreano em que a tradução de &quot;data&quot; estava inconsistente ao selecionar datas de início e término de uma atividade. (TGT-52510)
 
 ## Desativação do alternador de versão da interface do usuário do Target (23 de maio de 2025) {#toggle}
 
@@ -68,80 +75,6 @@ Quando a implantação for concluída, o botão de alternância será removido e
 * [[!UICONTROL Visual Experience Composer] alterações](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): a versão [!DNL Adobe Target Standard/Premium] 25.2.1 (17 de fevereiro de 2015) introduz um [!UICONTROL Visual Experience Composer] (VEC) atualizado. Este artigo explica as diferenças entre as versões herdadas e atualizadas do VEC.
 
 * [[!UICONTROL Visual Experience Composer] opções](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): este artigo explica a interface do usuário do VEC atualizada e suas opções.
-
-## [!DNL Target Standard/Premium] 25.5.3 (22 de maio de 2025)
-
-Esta versão do inclui as seguintes correções e atualizações:
-
-* Correção de um problema em que o recurso pesquisar por nome na lista [!UICONTROL Activities] não funcionava corretamente com consultas de várias palavras. (TGT-52529)
-* Correção de um problema que impedia a exclusão de experiências de [!UICONTROL Automated Personalization] atividades (AP). (TGT-52383)
-* Correção de um problema em que a opção &quot;[!UICONTROL Contains]&quot; estava ausente em [!UICONTROL Filter Rules] ao gerenciar conteúdo em atividades de AP. (TGT-52384)
-* Correção de uma inconsistência de relatórios em atividades de [!UICONTROL Automated Personalization] (AP), especificamente relacionada ao modo como as ofertas padrão são rastreadas e relatadas usando valores `optionLocalId` do sistema interno de [!DNL Target].
-* Correção de um problema em que os links de controle de qualidade falhavam em fornecer a experiência de atividade desejada. (TGT-52163)
-* Correção de um problema em que usuários com permissões [!UICONTROL Approver] eram impedidos de editar atividades ao vivo incorretamente, recebendo uma mensagem de erro &quot;Acesso negado&quot;. (TGT-52416)
-* Correção de um problema em que os refinamentos de público-alvo não eram exibidos para determinadas atividades na interface do usuário atualizada [!DNL Target]. (TGT-52057)
-* Correção de um problema que fazia com que refinamentos de público-alvo e públicos-alvo de atividades fossem revertidos na interface do usuário atualizada. (TGT-52158)
-* Correção de um problema em que a geração de ofertas ad-hoc resultava em ofertas duplicadas. (TGT-51938)
-* Correção de um problema que bloqueava atualizações de ofertas e exibia incorretamente um erro &quot;Usuário inválido&quot;. (TGT-52361)
-* Correção de um problema que impedia o salvamento de atividades existentes, acionando um erro &quot;Entrada de usuário inválida&quot;. (TGT-52422)
-* Correção de um problema que bloqueava a edição de ofertas existentes do HTML, acionando um erro &quot;Entrada de usuário inválida&quot; ao salvar, mesmo quando nenhuma alteração de código era feita. (TGT-52351)
-* Correção de um problema que impedia [!DNL Target] de reconhecer o caractere &quot;#&quot; na URL de um site. (TGT-52093)
-* Correção de um problema que impedia a edição de atividades [!DNL Recommendations] para adicionar ou atualizar promoções, o que causava falhas no salvamento e promoções duplicadas. (TGT-52343)
-* Correção de um problema que impedia alterações em critérios ou designs nas atividades [!DNL Recommendations], resultando em um erro &quot;JSON inválido: nome de propriedade não reconhecido&quot;. (TGT-52375)
-* Correção de um problema em que os critérios de sequência não eram exibidos corretamente no [!UICONTROL Visual Experience Composer] (VEC) para [!DNL Recommendations] atividades. (TGT-52435)
-* Correção de um problema em que os modos de exibição não eram identificados corretamente em páginas do SPA ao usar o [!DNL Adobe Experience Platform Web SDK]. (TGT-52106)
-* Correção de um problema em que os detalhes da Decisão no dispositivo (ODS) não eram salvos corretamente, apesar de serem incluídos na carga da operação em lote. (TGT-52406)
-* Adição de um campo `audienceMetadata` às atividades, permitindo que ele seja lido e atualizado durante a edição. (TGT-51004)
-* Adição de uma mensagem de erro para alertar os usuários quando um período de público-alvo for inválido. (TGT52522)
-* Atualização da estrutura da atividade para oferecer suporte a públicos-alvo duplicados de diferentes tipos. (TGT-51200)
-
-## Versão do [!DNL Adobe Target] [!DNL AI Assistant] (16 de maio de 2025)
-
-Temos o prazer de anunciar o lançamento do [!DNL AI Assistant] em [!DNL Adobe Target]! Este poderoso recurso de interface do usuário foi projetado para ajudá-lo a navegar e compreender conceitos do [!DNL Target] com facilidade. Disponível em vários produtos no [!DNL Adobe Experience Cloud], incluindo o [!DNL Target], o [!DNL AI Assistant] está aqui para revolucionar sua experiência.
-
-O [!DNL AI Assistant] no [!UICONTROL Target] é uma ferramenta de conversação que você pode usar para acelerar seus fluxos de trabalho com aplicativos e serviços do [!DNL Experience Platform]. Use o [!DNL AI Assistant] para aumentar sua produtividade geral e ampliar sua compreensão do conhecimento sobre o produto
-
-Em [!DNL Target], a primeira fase do [!DNL AI Assistant] fornece conhecimentos inestimáveis sobre o produto com base na documentação do [!DNL Experience League]. Esteja você configurando um script de perfil, solucionando erros ou pensando em atualizar para o AEP Web SDK, o [!DNL AI Assistant] é o que você precisa.
-
-Para obter mais informações, consulte [Visão geral do Assistente do Adobe Experience Platform AI](/help/main/c-intro/ai-assistant.md).
-
-## [!DNL Target Standard/Premium] 25.5.2 (8 de maio de 2025)
-
-Esta versão do inclui as seguintes correções e atualizações:
-
-* [!DNL Target] usuários com direitos de [!UICONTROL Product Administrator] e [!UICONTROL System Administrator] agora podem editar todas as configurações nas páginas [!UICONTROL Administration], independentemente de sua função no [!DNL Target]. Os usuários sem essas permissões têm acesso somente leitura a essas configurações. Esta atualização garante um controle de acesso mais rigoroso sobre [Configurações de administração](/help/main/administrating-target/administrating-target.md). (TGT-48179)
-* Correção de um problema de cache que impedia salvar a atividade [Preferências do site](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings). (TGT-52213)
-* Correção de um problema em que os clientes não podiam habilitar a seleção por ID e classe na seção [!UICONTROL Site Preferences] após carregar o site no VEC. A configuração [!UICONTROL Site Preferences] foi automaticamente revertida para desabilitada mesmo depois de ser habilitada. (TGT-52207)
-* Correção de um problema em que o [!UICONTROL Visual Experience Composer] (VEC) não exibia a página correta quando as URLs de [entrega de página](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings) terminavam com uma barra (/). (TGT-52237)
-* Correção de um problema que impedia a remoção de modificações de código personalizadas ao alterar experiências. (TGT-52240)
-* Correção de um problema em que as modificações do HTML no VEC sobrepunham elementos de página existentes. (TGT-52265)
-* Correção de um problema que impedia a edição do código personalizado no VEC atualizado porque o código personalizado existente não estava visível no editor. (TGT-52272)
-* Correção de um problema que causava uma mensagem de erro &quot;Nomes duplicados não são permitidos&quot; ao salvar uma atividade do Recommendations. (TGT-52318)
-* Correção de um problema no VEC atualizado que impedia os clientes de editar elementos de texto ou remover objetos de contêiner. (TGT-52348)
-* Correção de um problema que impedia a exibição correta de [!DNL Customer Journey Analytics] em uma página de atividade [!UICONTROL Overview]. (TGT-52359)
-* Correção de um problema que impedia que os grupos de relatórios persistissem nas atividades de [!UICONTROL Automated Personalization] (AP). (TGT-52368)
-* Correção de um problema que impedia o salvamento de atividades que incluíam o Offer Decisioning. (TGT-52390)
-* Correção de um problema em que a oferta padrão era selecionada, mas o outro conteúdo de oferta era exibido nas atividades [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Multivariate Test] (MVT). (TGT-52372)
-* Correção da lógica de permissões do GET para verificar com OU entre o acesso completo à organização e o acesso específico à organização + usuário. (TGT-52374)
-* Correção de um problema em que os nomes de público-alvo não eram exibidos após a seleção de um público-alvo para [!UICONTROL Managed Content] e [!UICONTROL Reporting Audiences], mesmo que [!UICONTROL Show Only Selected] estivesse habilitado. (TGT-52393)
-
-## [!DNL Target Standard/Premium] 25.5.1 (5 de maio de 2025)
-
-Esta versão do inclui as seguintes correções e atualizações:
-
-* Correção de um problema que impedia que refinamentos de público-alvo fossem exibidos para determinadas atividades na interface atualizada. (TGT-52057)
-* Correção de um problema que impedia o uso de públicos-alvo combinados em atividades do. (TGT-52346)
-* Correção de um problema que impedia a criação de uma nova atividade em um espaço de trabalho não padrão usando um público somente atividade do mesmo espaço de trabalho. (TGE-52349)
-* Correção de um problema que fazia com que os públicos-alvo somente de atividades desaparecessem da interface atualizada após criar e selecionar um novo público-alvo. (TGT=52091)
-* Correção de um problema que impedia o uso de públicos-alvo duplicados em atividades do. (TGT-51200 e TGT-52057)
-* Correção de um problema que fazia com que refinamentos de público-alvo e públicos-alvo de atividades fossem revertidos na interface do usuário atualizada. (TGT-52158)
-* Correção de um problema que impedia a criação de uma nova atividade devido ao erro de entrada do usuário: &quot;espaço de trabalho não padrão não permitido para este usuário&quot;. (TGT-52267)
-* Correção de um problema que impedia a exibição de ofertas na interface atualizada para espaços de trabalho padrão e não padrão. [!DNL Target] agora exibe ofertas de ambos os espaços de trabalho. (TGT-52339)
-* Correção de um problema em que [!DNL Target] não avisava os clientes ao editar uma atividade e alterar um elemento de site modificado. (TGT-52100)
-* Correção de um problema em que a edição de uma oferta com ofertas ad-hoc criava uma nova oferta em vez de atualizar a existente. (TGT-52135)
-* Correção de um problema que causava um erro de carga inválida ao mover ofertas para pastas. (TGT-52325)
-* Correção de um problema que causava um erro de entrada do usuário ao mover ofertas para pastas. (TGT-52296)
-* Adicionado um campo `audienceMetadata` para cada atividade, e verificado se ele é lido e atualizado ao editar a atividade. (TGT-51004)
 
 ## Notas de versão adicionais e detalhes da versão
 
