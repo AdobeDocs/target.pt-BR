@@ -4,9 +4,9 @@ description: Saiba como adicionar uma decisão de oferta criada no  [!DNL Adobe 
 title: Como Usar As Decisões De Oferta?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: d31c9a6f47ea73342cfb638600f351ade4be7013
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Adicione decisões de oferta criadas em [!DNL Adobe Journey Optimizer] às ativi
 
 Para obter mais informações sobre [!DNL Adobe Journey Optimizer] e decisões de oferta, consulte os seguintes tópicos na documentação de *[!DNL Journey Optimizer]*:
 
-* [Introdução ao Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=pt-BR)
+* [Introdução ao Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
 * [Sobre o Gerenciamento de Decisão](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=pt-BR)
 
@@ -64,29 +64,27 @@ No [!DNL Adobe Journey Optimizer], você pode criar uma oferta principal da pág
    >
    >Você também pode criar uma experiência que use o [!UICONTROL Offer Decisions] no [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md).
 
-1. Clique em **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]** ou **[!UICONTROL Replace Content]** e depois em **[!UICONTROL Offer Decision]**.
+1. Clique em **[!UICONTROL Replace Content]** e depois em **[!UICONTROL Offer Decision]**.
 
    A opção [!UICONTROL Offer Decision] está disponível somente durante a edição ou criação das atividades [manuais [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) ou [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Essa opção não está disponível para outros tipos de atividade. As opções disponíveis no menu variam de acordo com o elemento selecionado.
 
    ![Menu Opções no Visual Experience Composer](assets/options-menu.png)
 
-1. Na caixa de diálogo **[!UICONTROL Add Offer Decision]**, selecione a sandbox e o posicionamento desejados.
+1. No painel **[!UICONTROL Add Offer Decision]**, no lado direito do VEC, selecione a sandbox desejada e clique em Selecionar decisão de oferta.placement.
 
-   Uma [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=pt-BR){target=_blank} no [!DNL Adobe Experience Platform] permite particionar sua instância em ambientes virtuais. Por exemplo, você pode ter um ambiente de produção e um ambiente de preparo. Um [posicionamento](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=pt-BR){target=_blank} em [!DNL Adobe Journey Optimizer] ajuda a garantir que o conteúdo de oferta correto seja exibido no local correto.
+   Uma [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} no [!DNL Adobe Experience Platform] permite particionar sua instância em ambientes virtuais. Por exemplo, você pode ter um ambiente de produção e um ambiente de preparo. Um [posicionamento](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} em [!DNL Adobe Journey Optimizer] ajuda a garantir que o conteúdo de oferta correto seja exibido no local correto.
 
    ![Listas suspensas de Sandbox e Posicionamentos na caixa de diálogo Adicionar Decisão de Oferta](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
-1. Selecione a decisão de oferta desejada e clique em **[!UICONTROL Create]**.
+1. Selecione o posicionamento de oferta e a decisão de oferta desejados e clique em **[!UICONTROL Add]**.
 
-   ![Decisão de oferta selecionada na caixa de diálogo Adicionar Decisão de Oferta](assets/offer-decision.png)
+   ![Caixa de diálogo Selecionar decisão de oferta](/help/main/c-integrating-target-with-mac/ajo/assets/select-offer-decision.png)
 
-   Seu site é exibido no VEC, onde você pode ver a decisão de oferta recém-criada no painel [!UICONTROL Modifications] à direita. Você pode passar o mouse sobre a modificação e clicar no ícone [!UICONTROL Preview] para examinar a decisão de oferta.
+   Seu site é exibido no VEC, onde você pode ver a decisão de oferta recém-criada no painel [!UICONTROL Modifications]. Você pode clicar em uma oferta em [!UICONTROL Offer Preview] na parte inferior do painel [!UICONTROL Offer Decision] para examinar a decisão de oferta.
 
-   ![Ícone Visualizar](assets/preview-icon.png)
+   <!--You can examine the various offers contained in the offer by clicking the appropriate icon at the bottom of the [!UICONTROL Offer Preview] dialog box, including the fallback offer. A fallback offer is the default offer displayed when a visitor is not eligible for any of the personalized offers in the collection.-->
 
-   Você pode examinar as várias ofertas contidas na oferta clicando no ícone apropriado na parte inferior da caixa de diálogo [!UICONTROL Offer Preview], incluindo a oferta substituta. Uma oferta substituta é a oferta padrão exibida quando um visitante não está qualificado para nenhuma oferta personalizada na coleção.
-
-   ![Visualização da oferta](assets/offer-preview.png)
+   ![Visualização da oferta](assets/offer-preview2.png)
 
 1. Conclua a criação da atividade concluindo as etapas [!UICONTROL Targeting] e [!UICONTROL Goals & Settings] do fluxo de trabalho guiado de três partes.
 
@@ -94,13 +92,11 @@ No [!DNL Adobe Journey Optimizer], você pode criar uma oferta principal da pág
    >
    >Para garantir que a atividade [!DNL Target] seja personalizada, verifique se as datas de início/término da atividade atual estão sincronizadas com as datas de início/término da decisão de oferta em [!DNL Adobe Journey Optimizer]. Se as datas de início/término de [!DNL Target] estiverem fora do intervalo de datas de início/término da decisão de oferta, o conteúdo [!DNL Target] padrão será exibido para os visitantes.
 
-   ![Mensagem de aviso da decisão de oferta](/help/main/c-integrating-target-with-mac/ajo/assets/offer-decision-warning.png)
-
 ## Observações e limitações
 
 Considere as seguintes informações ao trabalhar com as decisões de oferta:
 
-* A integração do offer decisioning funciona para implementações do [!DNL Target] com base no [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank}. Este recurso não está disponível ao implementar o [!DNL Target] com a at.js ou outros [!DNL Target] SDKs.
+* A integração do Offer Decisioning funciona para [!DNL Target] implementações baseadas no [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank}. Este recurso não está disponível ao implementar o [!DNL Target] com a at.js ou outros [!DNL Target] SDKs.
 
 * A integração [!DNL Target]/[!DNL Adobe Journey Optimizer] dá suporte somente às atividades [manuais [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) e [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Este recurso não está disponível para outros tipos de atividades.
 
