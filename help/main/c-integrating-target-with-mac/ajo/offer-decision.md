@@ -19,7 +19,7 @@ Adicione decisões de oferta criadas em [!DNL Adobe Journey Optimizer] às ativi
 
 Para obter mais informações sobre [!DNL Adobe Journey Optimizer] e decisões de oferta, consulte os seguintes tópicos na documentação de *[!DNL Journey Optimizer]*:
 
-* [Introdução ao Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
+* [Introdução ao Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=pt-BR)
 
 * [Sobre o Gerenciamento de Decisão](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=pt-BR)
 
@@ -72,7 +72,7 @@ No [!DNL Adobe Journey Optimizer], você pode criar uma oferta principal da pág
 
 1. No painel **[!UICONTROL Add Offer Decision]**, no lado direito do VEC, selecione a sandbox desejada e clique em Selecionar decisão de oferta.placement.
 
-   Uma [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} no [!DNL Adobe Experience Platform] permite particionar sua instância em ambientes virtuais. Por exemplo, você pode ter um ambiente de produção e um ambiente de preparo. Um [posicionamento](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} em [!DNL Adobe Journey Optimizer] ajuda a garantir que o conteúdo de oferta correto seja exibido no local correto.
+   Uma [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=pt-BR){target=_blank} no [!DNL Adobe Experience Platform] permite particionar sua instância em ambientes virtuais. Por exemplo, você pode ter um ambiente de produção e um ambiente de preparo. Um [posicionamento](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=pt-BR){target=_blank} em [!DNL Adobe Journey Optimizer] ajuda a garantir que o conteúdo de oferta correto seja exibido no local correto.
 
    ![Listas suspensas de Sandbox e Posicionamentos na caixa de diálogo Adicionar Decisão de Oferta](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
