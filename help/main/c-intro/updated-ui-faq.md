@@ -5,21 +5,31 @@ title: Onde posso encontrar perguntas frequentes sobre a interface do usuário d
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
+source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
-# Perguntas frequentes sobre a interface do usuário do Target atualizadas
+# Perguntas frequentes sobre atualização da interface do usuário do [!DNL Target]
 
-Encontre respostas para perguntas comuns sobre a interface do usuário do [!DNL Adobe Target] atualizada, com dicas e links úteis para saber mais.
+Nova em 2025, a interface de usuário atualizada do [!DNL Adobe Target] apresenta uma experiência simplificada e intuitiva projetada para aprimorar a usabilidade e a eficiência em todas as funções. Estas Perguntas Frequentes abordam perguntas comuns sobre a nova interface do usuário do [!DNL Target] e do [!UICONTROL Visual Experience Composer] (VEC), incluindo alterações de navegação, locais de recursos e a desativação da opção de versão temporária da interface do usuário. Seja você um profissional de marketing, desenvolvedor ou administrador, essas Perguntas frequentes ajudarão a fazer a transição descomplicada e a aproveitar ao máximo a interface atualizada.
 
 ## Onde posso encontrar mais informações sobre a interface atualizada do usuário do [!DNL Target]?
 
 +++Detalhes
-{{updated-ui}}
+Os recursos a seguir fornecem informações para saber mais sobre a interface do usuário do [!DNL Target] atualizada:
+
+* Notas de versão do [[!DNL Target Standard/Premium] 25.2.1 (17 de fevereiro de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): fornece um resumo das principais alterações na interface do usuário do [!DNL Target] para [!UICONTROL Activities], [!UICONTROL Recommendations] e o [!UICONTROL Visual Experience Composer] (VEC).
+
+* Notas de versão do [[!DNL Target Standard/Premium] 25.1.1 (9 de janeiro de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): fornece um resumo das principais alterações na interface do usuário do [!DNL Target] para o [!UICONTROL Offers Library].
+
+* [Compreender a [!DNL Target] Interface](/help/main/c-intro/understand-the-target-ui.md): fornece uma breve visão geral para ajudá-lo a se familiarizar com o [!DNL Target] e fornece links para informações mais detalhadas e instruções passo a passo.
+
+* [[!UICONTROL Visual Experience Composer] alterações](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): a versão [!DNL Adobe Target Standard/Premium] 25.2.1 (17 de fevereiro de 2015) introduz um [!UICONTROL Visual Experience Composer] (VEC) atualizado. Este artigo explica as diferenças entre as versões herdadas e atualizadas do VEC.
+
+* [[!UICONTROL Visual Experience Composer] opções](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): este artigo explica a interface do usuário do VEC atualizada e suas opções.
 
 +++
 
@@ -50,7 +60,7 @@ A alternância da versão da interface do usuário é um recurso temporário que
 
 Há várias limitações no uso da versão da interface do usuário, incluindo a visibilidade de novas atividades, a edição de atividades existentes e a consistência dos detalhes da atividade.
 
-Para obter mais informações sobre a implantação e a desativação da opção de versão temporária da interface, consulte [Desativação da opção de versão da interface do usuário do Target (23 de maio de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) em *Notas de versão para versões anteriores*.
+Para obter mais informações, consulte [Desativação da alternância de versão da interface do usuário do Target (23 de maio de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) em *Notas de versão para versões anteriores*.
 
 ++++
 
@@ -61,7 +71,7 @@ O [!DNL Target] não oferece a opção de atrasar ou personalizar o tempo das mi
 
 Há várias limitações no uso da versão da interface do usuário, incluindo a visibilidade de novas atividades, a edição de atividades existentes e a consistência dos detalhes da atividade.
 
-Para obter mais informações sobre a implantação e a desativação da opção de versão temporária da interface, consulte [Desativação da opção de versão da interface do usuário do Target (23 de maio de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) em *Notas de versão para versões anteriores*.
+Para obter mais informações, consulte [Desativação da alternância de versão da interface do usuário do Target (23 de maio de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) em *Notas de versão para versões anteriores*.
 
 +++
 

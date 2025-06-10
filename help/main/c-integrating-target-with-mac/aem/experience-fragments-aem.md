@@ -4,9 +4,9 @@ description: Saiba como usar  [!DNL Adobe Experience Manager] [!UICONTROL Experi
 title: Como Usar O  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Experience Fragments]?
 feature: Integrations
 exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
-source-git-commit: d31c9a6f47ea73342cfb638600f351ade4be7013
+source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1084'
 ht-degree: 32%
 
 ---
@@ -58,8 +58,8 @@ Para usar [!DNL AEM] [!UICONTROL Experience Fragments] em [!DNL Target], você d
 
 Para obter mais informações, consulte:
 
-* **AEM as a Cloud Service**: [Integração com o Adobe Target](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} no guia do *Experience Manager as a Cloud Service*.
-* **Adobe Developer**: [Integração com o Adobe Target usando o Adobe I/O](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html?lang=pt-BR){target=_blank} na documentação do *Guia de Administração do Usuário*.
+* **AEM as a Cloud Service**: [Integração com o Adobe Target](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} no guia do *Experience Manager as a Cloud Service*.
+* **Adobe Developer**: [Integração com o Adobe Target usando o Adobe I/O](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html){target=_blank} na documentação do *Guia de Administração do Usuário*.
 * **[!DNL AEM]6.5**: [Ativação do Adobe Analytics e do Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=pt_BR){target=_blank} na documentação do *Adobe Experience Manager 6.5*.
 * **[!DNL AEM]6.4**: [Ativação do Adobe Analytics e do Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=pt_BR){target=_blank} na documentação do *Adobe Experience Manager 6.4*.
 
@@ -84,7 +84,7 @@ Para obter mais informações, consulte:
 
 Dependendo da versão do [!DNL AEM], consulte os seguintes links para obter instruções passo a passo:
 
-* **AEM as a Cloud Service**: [Exportar [!UICONTROL Experience Fragments] para Adobe Target](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank} no guia do *Experience Manager as a Cloud Service*.
+* **AEM as a Cloud Service**: [Exportar [!UICONTROL Experience Fragments] para Adobe Target](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank} no guia do *Experience Manager as a Cloud Service*.
 * **[!DNL AEM]6.5**: [Exportação de um fragmento de experiência para o Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=pt-BR){target=_blank} na documentação do *Adobe Experience Manager 6.5*.
 * **[!DNL AEM]6.4**: [Exportação de um fragmento de experiência para o Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=pt_BR){target=_blank} na documentação do *Adobe Experience Manager 6.4*.
 
@@ -118,11 +118,11 @@ Você pode consumir [!UICONTROL Experience Fragments] em [!DNL Target] atividade
 
 1. No [!DNL Target], ao criar ou editar uma experiência no [Visual Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), clique no local da página onde você deseja inserir o conteúdo do [!DNL AEM] e, em seguida, clique em **[!UICONTROL Replace Content]** > **[!UICONTROL Experience Fragment]** para exibir a caixa de diálogo [!UICONTROL Experience Fragment].
 
-   A lista [!UICONTROL Experience Fragment] exibe o conteúdo criado em [!DNL AEM] que está agora nativamente disponível dentro de [!DNL Target].
+   A caixa de diálogo [!UICONTROL Experience Fragment] exibe o conteúdo criado em [!DNL AEM] que está agora nativamente disponível dentro de [!DNL Target].
 
    >[!NOTE]
    >
-   >A opção [!UICONTROL Swap with Experience Fragment] não está disponível para imagens. Se você quiser usar essa opção com uma imagem, clique no elemento de contêiner que contém a imagem desejada.
+   >A opção [!UICONTROL Replace Content] não está disponível para imagens. Se você quiser usar essa opção com uma imagem, clique no elemento de contêiner que contém a imagem desejada.
 
    ![imagem experience_fragment_list](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
 
@@ -146,7 +146,7 @@ Você pode consumir [!UICONTROL Experience Fragments] em [!DNL Target] atividade
 
    ![imagem experience_fragment_list](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
 
-   A lista [!UICONTROL Experience Fragment] exibe o conteúdo criado em [!DNL AEM] que está agora nativamente disponível dentro de [!DNL Target].
+   A caixa de diálogo [!UICONTROL Experience Fragment] exibe o conteúdo criado em [!DNL AEM] que está agora nativamente disponível dentro de [!DNL Target].
 
 1. Selecione o [!UICONTROL Experience Fragment] desejado e clique em **[!UICONTROL Add]**.
 1. Termine configurando a atividade.
@@ -170,7 +170,7 @@ Para obter mais informações, consulte a seguinte publicação do blog: [AEM 6.
 
 O vídeo a seguir mostra como configurar e usar o [!UICONTROL Experience Fragments]:
 
->[!VIDEO](https://video.tv.adobe.com/v/34848?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/22383)
 
 >[!NOTE]
 >

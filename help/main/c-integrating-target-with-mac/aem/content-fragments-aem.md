@@ -1,19 +1,19 @@
 ---
 keywords: experiência;json;aem;gerenciador de experiência da adobe;exportar para o adobe target;fragmentos de conteúdo;fragmentos;CF;cf;headless;personalização;experimentação
 description: Saiba como usar  [!DNL Adobe Experience Manager] [!UICONTROL Content Fragments] em  [!DNL Adobe Target] atividades.
-title: Como usar  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments]?
+title: Como Usar O  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments]?
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 21%
+source-wordcount: '569'
+ht-degree: 15%
 
 ---
 
 # AEM [!UICONTROL Content Fragments]
 
-Use os [!UICONTROL Content Fragments] (CFs) criados em [!DNL Adobe Experience Manager] (AEM) em atividades de [!DNL Target] para auxiliar na personalização e experimentação headless.
+Use os [!UICONTROL Content Fragments] (CFs) criados no [!DNL Adobe Experience Manager] (AEM) em atividades do [!DNL Target] para auxiliar na personalização e experimentação headless.
 
 ## Considerações
 
@@ -39,15 +39,15 @@ Para saber mais sobre o AEM [!UICONTROL Content Fragments] e [!UICONTROL Experie
 
 ## Requisitos {#requirements}
 
-É necessário usar o [[!DNL AEM]  as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=pt-BR){target=_blank}.  Seu representante de conta pode ajudar a assegurar que você atenda aos requisitos para usar este recurso:
+Você deve usar o [[!DNL AEM] as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=pt-BR){target=_blank}. Seu representante de conta pode ajudar a assegurar que você atenda aos requisitos para usar este recurso:
 
 Entre em contato com o [Atendimento ao cliente do Adobe Target](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para ativar a integração e obter os detalhes de autenticação.
 
 ## Configurando e trabalhando com [!UICONTROL Content Fragments] em [!DNL AEM] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-Para exportar [!UICONTROL Content Fragments] para uso em atividades [!DNL Target], é necessário executar algumas etapas preliminares no AEM. Para obter mais informações, consulte [Exportar fragmentos de conteúdo para o Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html?lang=pt-BR){target=_blank} na *documentação do Experience Manager as a Cloud Service*.
+Para exportar [!UICONTROL Content Fragments] para uso em atividades [!DNL Target], é necessário executar algumas etapas preliminares no AEM. Para obter mais informações, consulte [Exportar fragmentos de conteúdo para o Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank} na *documentação do Experience Manager as a Cloud Service*.
 
-Para obter informações sobre como projetar, criar, preparar e publicar [!UICONTROL Content Fragments], consulte [[!UICONTROL Content Fragments]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=pt-BR){target=_blank} e [Trabalhando com Fragmentos de Conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html?lang=pt-BR){target=_blank} na [documentação as a Cloud Service do Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=pt-BR){target=_blank}.
+Para obter informações sobre como projetar, criar, preparar e publicar [!UICONTROL Content Fragments], consulte [[!UICONTROL Content Fragments]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=pt-BR){target=_blank} e [Trabalhando com Fragmentos de Conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html?lang=pt-BR){target=_blank} na [documentação do Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=pt-BR){target=_blank}.
 
 ## Usando [!UICONTROL Content Fragments] em [!DNL Target] atividades {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -61,9 +61,7 @@ Você pode filtrar e pesquisar por [!UICONTROL HTML XFs], [!UICONTROL JSON XFs] 
 
 ![Filtrar por tipos de fragmento de conteúdo (HTML ou JSON) na interface do Target](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
 
-Você pode passar o mouse sobre um [!UICONTROL Content Fragment] na lista e clicar no ícone [!UICONTROL View] ![Ícone de informações](/help/main/c-integrating-target-with-mac/aem/assets/icon-info.png) para ver informações adicionais sobre o [!UICONTROL Content Fragment], incluindo seus [!UICONTROL AEM path] e [!UICONTROL AEM deep link]. Clique na guia [!UICONTROL Offer Usage] para ver as atividades que fazem referência a esta oferta.
-
-![Pop-up de informações do fragmento de conteúdo](/help/main/c-integrating-target-with-mac/aem/assets/cf-info-popup.png)
+Você pode passar o mouse sobre um [!UICONTROL Experience Fragment] na lista e clicar no ícone [!UICONTROL View] ![Ícone de informações](/help/main/assets/icons/InfoOutline.svg) para ver informações adicionais sobre o [!UICONTROL Content Fragment], incluindo suas informações sobre [!UICONTROL Name], [!UICONTROL Type], [!UICONTROL Offer ID], [!UICONTROL Offer path] e sobre as últimas modificações. Clique em [!UICONTROL [!UICONTROL View Full Details]] para ver as atividades que fazem referência a esta oferta.
 
 Você pode consumir [!UICONTROL Content Fragments] em [!DNL Target] atividades usando somente o [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md). Você *não pode* consumir [!UICONTROL Content Fragments] em [!DNL Target] atividades usando o [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC). [!UICONTROL Content Fragments] são exportados como JSON em [!DNL Target] e não podem ser usados em atividades criadas usando o VEC.
 
@@ -90,5 +88,5 @@ Você pode consumir [!UICONTROL Content Fragments] em [!DNL Target] atividades u
 
 * [!DNL Target] atualmente procura [!UICONTROL Content Fragments] para importar a cada dez minutos. O [!UICONTROL Content Fragment] importado deve estar disponível em [!DNL Target] dentro de dez minutos, mas esse intervalo de tempo deve ficar mais curto no futuro.
 * O [!UICONTROL Content Fragment] é importado para [!DNL Target] como uma oferta JSON. A versão &quot;principal&quot; do [!UICONTROL Content Fragment] permanece em [!DNL AEM]. Você não pode editar o [!UICONTROL Content Fragment] em [!DNL Target].
-* Você não pode criar [!UICONTROL Content Fragments] usando [!DNL Adobe I/O]. Crie [!UICONTROL Content Fragments] usando AEM, conforme explicado acima.
+* Você não pode criar [!UICONTROL Content Fragments] usando [!DNL Adobe I/O]. Crie [!UICONTROL Content Fragments] usando o AEM, conforme explicado acima.
 * Se você atualizar o [!UICONTROL Content Fragment] no AEM, o [!UICONTROL Content Fragment] deverá ser publicado e exportado novamente para [!DNL Target] para que o [!DNL Target] possa usar as alterações mais recentes.
