@@ -5,9 +5,9 @@ title: Onde posso encontrar perguntas frequentes sobre a interface do usuário d
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: b43d852a077bad7dfcc6ab39b7865bd20d77d539
+source-git-commit: bd39f65366e131fe92061430fd11a47d471851d8
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,11 @@ A alternância da versão da interface do usuário é um recurso temporário que
 
 Há várias limitações no uso da versão da interface do usuário, incluindo a visibilidade de novas atividades, a edição de atividades existentes e a consistência dos detalhes da atividade.
 
+>[!NOTE]
+>
+>Os clientes com casos especiais que precisam manter a opção após 22 de junho podem entrar em contato com o Atendimento ao cliente da Adobe para obter assistência.
+
+
 Para obter mais informações, consulte [Desativação da alternância de versão da interface do usuário do Target (23 de maio de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) em *Notas de versão para versões anteriores*.
 
 ++++
@@ -85,21 +90,23 @@ As atividades criadas ou editadas na interface atualizada seguem o mesmo fluxo d
 ## Quais são as diferenças entre criar ofertas na interface herdada e na interface atualizada? São necessários atributos adicionais?
 
 +++Detalhes
-Muti, ajuda necessária.
+A interface do usuário do [!UICONTROL Offer Library] requer definições de atributo consistentes para todas as ofertas. Ao criar uma oferta somente de atividade (ad-hoc), os usuários também devem especificar um nome de oferta. Essas informações aparecem no [!UICONTROL Form-based Experience Composer], facilitando a identificação de ofertas sem a revisão do código ou do conteúdo.
 
 +++
 
 ## O que aconteceu com os links de pré-visualização da oferta na interface atualizada?
 
 +++Detalhes
-Muti, ajuda necessária.
+Os links de visualização do [!UICONTROL Experience Fragment] estão disponíveis no popover [!UICONTROL Quick Info], exibido ao clicar no ícone de informações ( ![ícone de informações](/help/main/assets/icons/InfoOutline.svg) ) correspondente ao fragmento selecionado.
 
 +++
 
 ## Preciso desabilitar o [!UICONTROL Enhanced Experience Composer] ao editar atividades existentes com a interface atualizada. O [!DNL Adobe] observou comportamento semelhante com outros clientes?
 
 +++Detalhes
-Muti, ajuda necessária.
+Sim. Ao usar o [!DNL Adobe Experience Cloud] [!DNL Visual Editing Helper extension], talvez seja necessário desabilitar o [!UICONTROL Enhanced Experience Composer] (EEC).
+
+Para obter mais informações, consulte [Extensão do Auxiliar de edição visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
 +++
 
@@ -113,7 +120,7 @@ Incluir na lista de permissões Para obter mais informações sobre endereços I
 
 +++
 
-## Tivemos problemas com a navegação que não funciona ou que nos permite navegar. O [!DNL Adobe] observou comportamento semelhante com outros clientes?
+## Tivemos problemas com [!UICONTROL Browse] que não funcionam ou nos permitem navegar. O [!DNL Adobe] observou comportamento semelhante com outros clientes?
 
 +++Detalhes
 Muti, ajuda necessária.
@@ -123,7 +130,9 @@ Muti, ajuda necessária.
 ## O ambiente é redefinido para preparo por padrão na nova interface do usuário do Recommendations?
 
 +++Detalhes
-Muti, ajuda necessária.
+Agora, os ambientes assumem o padrão do último ambiente usado pelo cliente. Para alternar ambientes, use o seletor [!UICONTROL Environment] no canto superior direito da interface do usuário [!UICONTROL Catalog Search].
+
+![Opção de ambiente](/help/main/c-intro/assets/environmnent.png)
 
 +++
 
