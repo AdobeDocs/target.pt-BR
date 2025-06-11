@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
+source-git-commit: 65ac352a1de7ad532f8c39781054fb09fa62c0fa
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 28%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,6 +49,10 @@ Esta versão do inclui as seguintes correções e atualizações:
 A implantação da nova interface de usuário do [!DNL Target] será concluída em **27 de maio de 2025**. Nesse momento, todos os clientes terão acesso à versão mais recente da interface do usuário.
 
 A partir de **22 de junho de 2025**, a alternância de versão da interface do usuário será removida. Todos os usuários farão a transição permanente para a nova interface, sem a opção de reverter para a versão anterior.
+
+>[!NOTE]
+>
+>Os clientes com casos especiais que precisam manter a opção após 22 de junho podem entrar em contato com o Atendimento ao cliente da Adobe para obter assistência.
 
 ### Informações importantes sobre a alternância da versão da interface do usuário
 
