@@ -4,10 +4,10 @@ title: Guia do profissional de negócios do Adobe Target
 description: Saiba como usar o Adobe  [!DNL Target]  para personalizar a experiência de seus clientes a fim de maximizar a receita em seus sites, aplicativos e outros canais digitais.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
+source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 28%
+source-wordcount: '659'
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 28%
 
 O [!DNL Adobe Target] é a solução completa da [!DNL Adobe Experience Cloud] para ajustar e personalizar a experiência do cliente e maximizar a receita em sites móveis e da web, aplicativos, redes sociais e outros canais digitais.
 
-**Última atualização: 6 de junho de 2025 ( [veja o que mudou](r-release-notes/doc-change.md) )**
+**Última atualização: 12 de junho de 2025 ( [veja o que mudou](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
@@ -29,11 +29,11 @@ A partir de 27 de maio de 2025, todos os clientes terão acesso à nova interfac
 
 >[!TAB Novidades]
 
-**[!DNL Target]25.6.1 está ativo!**
+Perguntas frequentes sobre atualização da interface do **[!DNL Target]**
 
-Lançada em 6 de junho de 2025, essa atualização traz novas melhorias na interface do usuário e principais melhorias na documentação. Mergulhe e explore as novidades!
+Lançada em 6 de junho de 2025, essa atualização traz novas melhorias na interface do usuário e principais melhorias na documentação. Estas Perguntas Frequentes abordam perguntas comuns sobre a nova interface do usuário do [!DNL Target] e do [!UICONTROL Visual Experience Composer] (VEC), incluindo alterações de navegação, locais de recursos e a desativação da opção de versão temporária da interface do usuário. Seja você um profissional de marketing, desenvolvedor ou administrador, essas Perguntas frequentes ajudarão a fazer a transição descomplicada e a aproveitar ao máximo a interface atualizada.
 
-[![Ícone Saiba mais](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
+[![Ícone Saiba mais](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
 >[!TAB Interface do Usuário de Destino Atualizada]
 
