@@ -5,16 +5,16 @@ title: Quais são os vários limites de caracteres, tamanho e outros limites em 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
+source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 77%
+source-wordcount: '1734'
+ht-degree: 74%
 
 ---
 
 # Limites
 
-Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, parâmetros etc.) que afetam as atividades e outros elementos no [!DNL Adobe Target].
+Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, parâmetros, etc.) que afetam as atividades e outros elementos em [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -84,9 +84,9 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
   As solicitações de mbox de lote são processadas sequencialmente, aumentando o tempo de resposta geral com cada iteração. Quanto mais mboxes na solicitação em lote, mais latência de resposta pode ser esperada e, portanto, há potencial para tempos limite. Se a renderização da experiência estiver bloqueada nessas solicitações em lote de alta latência, a latência pode resultar em uma experiência do usuário degradada, à medida que os usuários aguardam a renderização das experiências.
 
-* **Limite**: tamanho do corpo de POST HTTP de 60 MB para [!DNL Target] solicitações de entrega de conteúdo.
+* **Limite**: tamanho do corpo POST HTTP de 60 MB para [!DNL Target] solicitações de entrega de conteúdo.
 
-  Exceder 60 MB no tamanho do corpo do POST HTTP de uma solicitação de entrega de conteúdo [!DNL Target] resulta em um código de erro de resposta `HTTP 413 Request Entity Too Large`.
+  Exceder 60 MB no tamanho do corpo HTTP POST de uma solicitação de entrega de conteúdo [!DNL Target] resulta em um código de erro de resposta `HTTP 413 Request Entity Too Large`.
 
 * **Limite recomendado**: 50 notificações por [!DNL Target] solicitação de lote de entrega.
 
@@ -294,6 +294,10 @@ Os seguintes limites de tamanho se aplicam às ofertas:
 ## Segmentos/públicos-alvo dos relatórios
 
 * **Limite**: 50 públicos-alvos/segmentos por atividade.
+
+## sessionID
+
+A ID da sessão pode ser qualquer string imprimível, exceto um espaço, um ponto de interrogação ( ? ), chaves ( { } ) ou uma barra ( / ). Deve ter entre 1 e 128 caracteres de comprimento.
 
 ## Caixa de entrada de perfil de script na interface do [!DNL Target]
 
