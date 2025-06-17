@@ -4,9 +4,9 @@ title: Guia do profissional de negócios do Adobe Target
 description: Saiba como usar o Adobe  [!DNL Target]  para personalizar a experiência de seus clientes a fim de maximizar a receita em seus sites, aplicativos e outros canais digitais.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '669'
 ht-degree: 26%
 
 ---
@@ -15,19 +15,25 @@ ht-degree: 26%
 
 O [!DNL Adobe Target] é a solução completa da [!DNL Adobe Experience Cloud] para ajustar e personalizar a experiência do cliente e maximizar a receita em sites móveis e da web, aplicativos, redes sociais e outros canais digitais.
 
-**Última atualização: 16 de junho de 2025 ( [veja o que mudou](r-release-notes/doc-change.md) )**
+**Última atualização: 17 de junho de 2025 ( [veja o que mudou](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
->[!TAB Informações importantes]
+>[!TAB Atenção!]
 
-Desativação da alternância de versão da interface do usuário **[!DNL Target]**
+**Atualizado: desativação da alternância da versão da interface do usuário [!DNL Target] (17 de junho de 2025)**
 
-A partir de 27 de maio de 2025, todos os clientes terão acesso à nova interface do usuário do [!DNL Target]. A partir de 22 de junho de 2025, a alternância da interface do usuário será removida e todos os usuários farão a transição permanente para a interface do usuário atualizada, sem a opção de reverter.
+A equipe do [!DNL Target] ajustou a linha do tempo para a desativação da versão da interface do usuário.
 
-[![Ícone Saiba mais](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#toggle)
+[![Ícone Saiba mais](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
 
->[!TAB Novidades]
+>[!TAB Novidades?]
+
+**Atualização das informações sobre a desativação da versão da interface do usuário**
+
+A equipe do [!DNL Target] ajustou a linha do tempo para a desativação da versão da interface do usuário.
+
+[![Ícone Saiba mais](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
 
 **O Target 25.6.2 está ativo!**
 

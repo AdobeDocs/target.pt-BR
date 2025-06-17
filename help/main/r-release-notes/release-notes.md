@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 1d72a708ce68d34a603f750010caa4eb68290f7a
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 21%
+source-wordcount: '1935'
+ht-degree: 19%
 
 ---
 
@@ -18,6 +18,28 @@ ht-degree: 21%
 Essas notas de versão fornecem informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Adobe Target Standard] e do [!DNL Target Premium]. Além disso, as notas de versão para APIs [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outras alterações de plataforma também estão incluídas, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## Atualizado: Desativação da alternância de versão da interface do usuário [!DNL Target] (17 de junho de 2025) {#revised}
+
+A partir de 17 de junho de 2025, todas as Organizações IMS devem ter sido habilitadas para a interface do usuário atualizada [!DNL Target], para usuários específicos ou em toda a organização, para começar a testar a nova experiência.
+
+Devido aos problemas recentes identificados, relacionados principalmente a personalizações complexas de clientes, a equipe do [!DNL Target] ajustou a linha do tempo de desativação:
+
+* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4} se tornará a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
+
+   * Os clientes que atualmente veem a interface herdada, por padrão, agora verão a interface atualizada ao fazer logon.
+   * O botão de alternância da versão da interface do usuário permanecerá disponível até o final de julho, permitindo que os usuários alternem de volta, se necessário.
+
+  >[!IMPORTANT]
+  >
+  > A [!DNL Adobe] recomenda o uso da interface atualizada do usuário do [!DNL Target]. Retorne à interface herdada somente se ocorrer um problema de bloqueador. Consulte [[!DNL Target] Desativação da alternância de versão da interface do usuário (23 de maio de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) nas notas de versão de versões anteriores para obter informações importantes sobre a alternância.
+
+* **15 de julho a 30 de julho de 2025**: o botão de alternância da versão da interface do usuário será desabilitado permanentemente em fases. As organizações IMS afetadas não poderão mais reverter para a interface do usuário herdada.
+
+   * As exceções serão analisadas caso a caso.
+   * Atrasos na desativação do botão serão concedidos apenas brevemente (alguns dias) enquanto problemas de bloqueador são resolvidos.
+
+Entre em contato com o [Atendimento ao cliente da Adobe](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) se tiver dúvidas ou se antecipar problemas durante essa transição.
 
 ## [!DNL Target Standard/Premium] 25.6.2 (sexta-feira, 12 de junho de 2025)
 
@@ -49,8 +71,6 @@ Esta versão do inclui as seguintes correções e atualizações:
 * Correção de um problema em que a interface do usuário não permitia a atribuição manual de uma ID de ambiente a um critério. Em vez disso, padronizou para a ID do grupo de hosts [!UICONTROL Product Catalog Search]. Essa correção garante que as alterações de critério agora sejam aplicadas em todos os ambientes, não apenas no padrão. (TGT-52817)
 * Correção de um problema em que a opção &quot;[!UICONTROL Download Recommendations data]&quot; estava ausente para atividades [!UICONTROL Experience Targeting] (XT) com recomendações. (TGT-52730 e TGT-52756)
 
-
-
 ## [!DNL Target Standard/Premium] 25.6.1 (sábado, 6 de junho de 2025)
 
 Esta versão do inclui as seguintes correções e atualizações:
@@ -76,7 +96,11 @@ Esta versão do inclui as seguintes correções e atualizações:
 * Correção de um problema de localização no idioma coreano, em que as traduções anteriores usavam caracteres fora do Plano Multilíngue Básico. A tradução atualizada usa caracteres apropriados que transmitem com precisão o significado pretendido. (TGT-52508 e TGT-52509)
 * Correção de um problema de localização no idioma coreano em que a tradução de &quot;data&quot; estava inconsistente ao selecionar datas de início e término de uma atividade. (TGT-52510)
 
-## Desativação do alternador de versão da interface do usuário do Target (23 de maio de 2025) {#toggle}
+## Desativação da alternância de versão da interface do usuário do [!DNL Target] (23 de maio de 2025) {#toggle}
+
+>[!IMPORTANT]
+>
+>A equipe do [!DNL Target] ajustou a linha do tempo para a desativação da versão da interface do usuário. Consulte [Atualizado: [!DNL Target] Desativação da alternância de versão da interface do usuário (17 de junho de 2025)](#revised) para obter mais informações.
 
 A implantação da nova interface de usuário do [!DNL Target] será concluída em **27 de maio de 2025**. Nesse momento, todos os clientes terão acesso à versão mais recente da interface do usuário.
 

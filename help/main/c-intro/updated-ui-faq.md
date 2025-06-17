@@ -3,9 +3,9 @@ keywords: interface do usuário de destino;interface do usuário;perguntas frequ
 description: Perguntas e respostas sobre a interface do usuário do  [!DNL Target]t atualizada.
 title: Onde posso encontrar perguntas frequentes sobre a interface do usuário do  [!DNL Target] atualizada?
 feature: Overview
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,13 @@ ht-degree: 0%
 # Perguntas frequentes sobre atualização da interface do usuário do [!DNL Target]
 
 Nova em 2025, a interface de usuário atualizada do [!DNL Adobe Target] apresenta uma experiência simplificada e intuitiva projetada para aprimorar a usabilidade e a eficiência em todas as funções. Estas Perguntas Frequentes abordam perguntas comuns sobre a nova interface do usuário do [!DNL Target] e do [!UICONTROL Visual Experience Composer] (VEC), incluindo alterações de navegação, locais de recursos e a desativação da opção de versão temporária da interface do usuário. Seja você um profissional de marketing, desenvolvedor ou administrador, essas Perguntas frequentes ajudarão a fazer a transição descomplicada e a aproveitar ao máximo a interface atualizada.
+
+## A linha do tempo para desativação da versão da interface do usuário do Target foi atualizada.
+
++++Detalhes
+Sim. Você pode encontrar a nova linha do tempo e informações importantes em [Atualizado: [!DNL Target] Desativação da versão da interface do usuário (17 de junho de 2025)](/help/main/r-release-notes/release-notes.md#revised).
+
++++
 
 ## Onde posso encontrar mais informações sobre a interface atualizada do usuário do [!DNL Target]?
 
@@ -60,8 +67,7 @@ Há várias limitações no uso da versão da interface do usuário, incluindo a
 
 >[!NOTE]
 >
->Os clientes com casos especiais que precisam manter a opção após 22 de junho podem entrar em contato com o Atendimento ao cliente da Adobe para obter assistência.
-
+>Os clientes com casos especiais que precisam manter a opção após 22 de junho podem entrar em contato com o Atendimento ao cliente da Adobe para obter assistência. Consulte [Atualizado: [!DNL Target] Desativação da alternância de versão da interface do usuário (17 de junho de 2025)](/help/main/r-release-notes/release-notes.md#revised) para obter mais informações.
 
 Para obter mais informações, consulte [Desativação da alternância de versão da interface do usuário do Target (23 de maio de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) em *Notas de versão para versões anteriores*.
 
