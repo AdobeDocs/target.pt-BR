@@ -25,7 +25,7 @@ A partir de 17 de junho de 2025, todas as Organizações IMS devem ter sido habi
 
 Devido aos problemas recentes identificados, relacionados principalmente a personalizações complexas de clientes, a equipe do [!DNL Target] ajustou a linha do tempo de desativação:
 
-* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4} se tornará a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
+* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4&rbrace; se tornará a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
 
    * Os clientes que atualmente veem a interface herdada, por padrão, agora verão a interface atualizada ao fazer logon.
    * O botão de alternância da versão da interface do usuário permanecerá disponível até o final de julho, permitindo que os usuários alternem de volta, se necessário.
