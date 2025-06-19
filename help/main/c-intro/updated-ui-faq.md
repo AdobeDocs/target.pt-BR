@@ -3,7 +3,8 @@ keywords: interface do usuário de destino;interface do usuário;perguntas frequ
 description: Perguntas e respostas sobre a interface do usuário do  [!DNL Target]t atualizada.
 title: Onde posso encontrar perguntas frequentes sobre a interface do usuário do  [!DNL Target] atualizada?
 feature: Overview
-source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
+exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
+source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Nova em 2025, a interface de usuário atualizada do [!DNL Adobe Target] apresenta uma experiência simplificada e intuitiva projetada para aprimorar a usabilidade e a eficiência em todas as funções. Estas Perguntas Frequentes abordam perguntas comuns sobre a nova interface do usuário do [!DNL Target] e do [!UICONTROL Visual Experience Composer] (VEC), incluindo alterações de navegação, locais de recursos e a desativação da opção de versão temporária da interface do usuário. Seja você um profissional de marketing, desenvolvedor ou administrador, essas Perguntas frequentes ajudarão a fazer a transição descomplicada e a aproveitar ao máximo a interface atualizada.
 
-## A linha do tempo para desativação da versão da interface do usuário do Target foi atualizada.
+## A linha do tempo para a desativação da opção de versão da interface do usuário do Target foi atualizada?
 
 +++Detalhes
 Sim. Você pode encontrar a nova linha do tempo e informações importantes em [Atualizado: [!DNL Target] Desativação da versão da interface do usuário (17 de junho de 2025)](/help/main/r-release-notes/release-notes.md#revised).
@@ -145,7 +146,3 @@ Integrar o [!DNL Adobe Analytics] (AA) ou o [!DNL Customer Journey Analytics] (C
 * Validar configurações de atribuição e coleção de dados
 
 +++
-
-
-
-
