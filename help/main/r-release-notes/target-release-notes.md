@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 71f88ad173599b3a582a1d2c261ba8a562cf734a
+source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 28%
+source-wordcount: '168'
+ht-degree: 75%
 
 ---
 
@@ -27,22 +27,7 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 
 ## [!DNL Target Standard/Premium] 25.6.3 (sábado, 20 de junho de 2025)
 
-Esta versão do inclui as seguintes correções e atualizações:
-
-* Adicionada a opção [!UICONTROL Rearrange] à interface do VEC ([!UICONTROL Visual Experience Composer]) atualizada para alinhar-se à funcionalidade disponível no VEC herdado. (TGT-46957)
-* Correção de um problema em que copiar uma atividade de um espaço de trabalho para outro espaço de trabalho acionava erros como &quot;não deve ser nulo&quot; ou &quot;Algo deu errado&quot;. (TGT-52474)
-* Correção de um problema em que os relatórios [!UICONTROL Automated Segments] e [!UICONTROL Important Attributes] não eram gerados para determinadas atividades. (TGT-52904)
-* Correção de um problema no VEC atualizado em que o manuseio de conteúdo padrão em atividades de [!UICONTROL Automated Personalization] (AP) não correspondia à interface do usuário herdada. O sistema agora adiciona automaticamente um `optionGroup` padrão chamado &quot;Conteúdo padrão&quot; com `optionGroupLocalId = 0` quando nenhum grupo é explicitamente adicionado. Este grupo inclui a opção padrão (por exemplo, `optionLocalId: 0`). Se o conteúdo padrão for removido, o grupo de opções correspondente também será removido. (TGT-52651)
-* Correção de um problema nas atividades [!UICONTROL Multivariate Test] (MVT) em que o reuso de um `experienceLocalId` de experiências removidas anteriormente não era permitido incorretamente. (TGT-52672)
-* Correção de um problema em que os URLs nos locais de atividade falhavam em exibir parâmetros de consulta devido a caracteres inválidos, como barras (/). (TNT52845)
-* Mensagem de erro de validação aprimorada para [!DNL A/B Test] atualizações de atividade por meio da API de back-end. Quando nomes de locais duplicados estão presentes, a mensagem agora diz claramente: &quot;Nomes duplicados não são permitidos&quot; para `locations.selectors`. (TGT-52589)
-* Correção de um erro que ocorria ao atualizar uma atividade [!UICONTROL Recommendations] em tempo real devido a uma propriedade não reconhecida na carga da solicitação. O sistema agora lida corretamente com o &quot;JSON inválido. Erro &quot;Nome de propriedade não reconhecido&quot;. (TGT-52723)
-* Correção de um problema que impedia a criação de um design do [!DNL Recommendations]. Clicar em [!UICONTROL Create] acionou a mensagem: &quot;Deve haver pelo menos 1 variável de entidade usada dentro do script.&quot; (TGT-52395 e TGT-52899)
-* Correção de um problema em que foi bloqueado salvar novamente um design do [!DNL Recommendations] sem modificações. (TGT-52879)
-* Correção de um erro de validação de backend que causava um erro &quot;400 Solicitação inválida&quot; ao salvar uma atividade [!UICONTROL Recommendations]. (TGT-52716)
-* Correção de um problema no [!UICONTROL Form-Based Experience Composer] em que passar o mouse sobre uma mbox com caracteres especiais no menu suspenso [!UICONTROL Location] fazia com que o editor ficasse em branco e disparasse uma &quot;Falha ao executar &#39;querySelector&#39; em &#39;Elemento&#39;.&quot; . (TGT-52717)
-* Melhoria na precisão do status do feed com um novo indicador &quot;PARCIALLY_IMPORTED&quot;. Anteriormente, os feeds eram marcados como &quot;sucesso&quot; mesmo quando nem todas as linhas de um arquivo eram importadas, o que induzir em erro. (TGT-52892)
-* Correção de um erro em que, após a migração para o AP V2, determinadas chamadas de API para `/admin/rest/ui/v1/campaigns` retornavam erros do lado do cliente (HTTP 4xx). (TGT-52721)
+Consulte as [[!DNL Target] notas de versão (atuais)](/help/main/r-release-notes/release-notes.md).
 
 ## Notas de versão adicionais e detalhes da versão
 
