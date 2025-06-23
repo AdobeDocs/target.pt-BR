@@ -6,9 +6,9 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
+source-git-commit: c380a07cb46241e428ad4946643eb2c011638c24
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2311'
 ht-degree: 17%
 
 ---
@@ -23,7 +23,6 @@ Essas notas de versão fornecem informações sobre recursos, aprimoramentos e c
 
 Esta versão do inclui as seguintes correções e atualizações:
 
-* Adicionada a opção [!UICONTROL Rearrange] à interface do VEC ([!UICONTROL Visual Experience Composer]) atualizada para alinhar-se à funcionalidade disponível no VEC herdado. (TGT-46957)
 * Correção de um problema em que copiar uma atividade de um espaço de trabalho para outro espaço de trabalho acionava erros como &quot;não deve ser nulo&quot; ou &quot;Algo deu errado&quot;. (TGT-52474)
 * Correção de um problema em que os relatórios [!UICONTROL Automated Segments] e [!UICONTROL Important Attributes] não eram gerados para determinadas atividades. (TGT-52904)
 * Correção de um problema no VEC atualizado em que o manuseio de conteúdo padrão em atividades de [!UICONTROL Automated Personalization] (AP) não correspondia à interface do usuário herdada. O sistema agora adiciona automaticamente um `optionGroup` padrão chamado &quot;Conteúdo padrão&quot; com `optionGroupLocalId = 0` quando nenhum grupo é explicitamente adicionado. Este grupo inclui a opção padrão (por exemplo, `optionLocalId: 0`). Se o conteúdo padrão for removido, o grupo de opções correspondente também será removido. (TGT-52651)
@@ -45,7 +44,7 @@ A partir de 17 de junho de 2025, todas as Organizações IMS devem ter sido habi
 
 Devido aos problemas recentes identificados, relacionados principalmente a personalizações complexas de clientes, a equipe do [!DNL Target] ajustou a linha do tempo de desativação:
 
-* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4&rbrace; se tornará a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
+* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4} se tornará a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
 
    * Os clientes que atualmente veem a interface herdada, por padrão, agora verão a interface atualizada ao fazer logon.
    * O botão de alternância da versão da interface do usuário permanecerá disponível até o final de julho, permitindo que os usuários alternem de volta, se necessário.
