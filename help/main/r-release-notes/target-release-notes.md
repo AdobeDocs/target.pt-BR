@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c380a07cb46241e428ad4946643eb2c011638c24
+source-git-commit: c882a5eb6530f3b3fe44484ee580beadeddaae23
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 60%
+source-wordcount: '512'
+ht-degree: 29%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 60%
 
 Este artigo contém informações de pré-lançamento das próximas versões do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: 23 de junho de 2025**
+**Última atualização: 25 de junho de 2025**
 
 >[!NOTE]
 >
@@ -29,9 +29,18 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 
 Esta versão do inclui as seguintes correções e atualizações:
 
-* Adicionada a opção [!UICONTROL Rearrange] à interface do VEC ([!UICONTROL Visual Experience Composer]) atualizada para alinhar-se à funcionalidade disponível no VEC herdado. (TGT-46957)
+* Adicionada a opção [!UICONTROL Rearrange] à interface do VEC ([!UICONTROL Visual Experience Composer]) atualizada para alinhar-se à funcionalidade disponível no VEC herdado. (TGT-46957 e TGT-52876)
+* Correção de um problema em que as modificações feitas nas experiências de variante (por exemplo, Experiência B) em uma atividade [!UICONTROL A/B Test] não eram retidas. Depois de alternar entre experiências, as alterações na variante desapareceriam. Esse problema não afetou a experiência de controle. (TGT-52664)
+* Correção de um problema em que determinados clientes não podiam criar ou salvar atividades, enquanto outros podiam executar as mesmas ações sem problema. O problema era inconsistente entre as contas.(TGT-52842)
 * Correção de uma exceção de ponteiro nulo que ocorria ao buscar dados de relatórios para [!UICONTROL Automated Personalization] atividades (AP). (TGT-52362)
-* Correção de um problema que impedia a edição de uma atividade [!DNL Recommendations]. (TGT-52823)
+* Correção de um problema que impedia que detalhes no nível da oferta fossem exibidos no arquivo .CSV para atividades de [!UICONTROL Automated Personalization] (AP). (TGT-52675)
+* Ao aplicar modificações no VEC atualizado, as alterações inicialmente aparecem corretamente, incluindo a [!UICONTROL Experience Fragment] esperada. No entanto, ao alternar experiências ou fazer edições adicionais, algumas modificações não são aplicadas devido a problemas do seletor. (TGT-52679)
+* Correção de um problema em que, quando uma nova atividade era criada por meio da clonagem de uma atividade existente, os links de controle de qualidade na atividade clonada retinham incorretamente os URLs da página da atividade original. (TGT-52775)
+* Correção de um problema que impedia involuntariamente a disponibilização do [!UICONTROL On-device Decisioning] no VEC atualizado. (TGT-52371)
+* Correção de um problema que impedia a edição de uma atividade do produto [!DNL Recommendations]. Ao tentar acessar o VEC por meio da interface do usuário do Target, um erro apareceu na página [!UICONTROL Overview], impedindo edições. (TGT-52823)
+* Correção de um problema que impedia salvar uma atividade [!DNL Recommendations] quando os nomes de experiência excediam 50 caracteres. (TGT-52619)
+* Correção de um problema em que os clientes não conseguiam salvar uma atividade do Recommendations após modificar os critérios na nova interface do usuário. O problema parece estar relacionado à permissão e não afeta todos os usuários com funções semelhantes. (TGT-52816)
+* Correção de um problema em que os usuários com a função [!UICONTROL Editor] não conseguiam editar uma atividade [!DNL Recommendations]. A tentativa de alterar o design e salvar a atividade resultou em um erro 403 Proibido, informando que o privilégio &quot;[editor]&quot; era necessário, mesmo que o usuário já tivesse essa função no espaço de trabalho relevante. (TGT-52836)
 
 ## Notas de versão adicionais e detalhes da versão
 
