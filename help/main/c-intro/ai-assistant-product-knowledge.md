@@ -4,7 +4,7 @@ description: Saiba como obter [!DNL Target] conhecimento sobre produtos com [!DN
 title: Como usar o [!DNL AI Assistant] in [!DNL Target] para obter conhecimento sobre o produto?
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 3e2682acdf8c7be86285c901ddcdae0f43b647f2
+source-git-commit: 1615dcf80643a1391a3b1fbad8e8378ff2785fd3
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 6%
@@ -32,7 +32,7 @@ Para acessar o [!DNL AI Assistant] para obter conhecimento sobre o produto:
    * Sua organização deve primeiro concordar com termos legais. Para obter mais informações, entre em contato com a equipe de conta da Adobe.
    * Seus administradores devem conceder permissões suficientes para acessar [!DNL AI Assistant].
 
-## Use o AI Assistant para obter conhecimento sobre o produto
+## Use o Assistente de IA para obter conhecimento sobre o produto
 
 Para acessar o [!DNL AI Assistant] para obter conhecimento sobre o produto:
 
@@ -66,10 +66,10 @@ Para acessar o [!DNL AI Assistant] para obter conhecimento sobre o produto:
 
 Conheça os aplicativos do [!DNL Adobe Experience Platform] no [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441029/?learn=on&#x26;enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Validar respostas do Assistente de IA
 
 Saiba como verificar e validar as respostas que o [!DNL AI Assistant] em [!DNL Adobe Experience Platform] fornece.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441744/?learn=on&#x26;enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
