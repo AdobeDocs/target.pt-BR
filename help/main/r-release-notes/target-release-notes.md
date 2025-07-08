@@ -4,9 +4,9 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: dc291b4573e00512edd44b94304be2a25106b234
+source-git-commit: 3bae9b212182cbbe9a801a1e2cdb401162fa1eb6
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1893'
 ht-degree: 11%
 
 ---
@@ -27,7 +27,7 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 
 ## [!DNL Target Standard/Premium] 25.7.1 (quarta-feira, 8 de julho de 2025)
 
-Esta versão do inclui as seguintes correções e atualizações:
+Devido aos problemas recentes identificados, principalmente relacionados às personalizações complexas do cliente, esta versão inclui as seguintes correções e atualizações:
 
 * Correção de um problema em que os refinamentos de público-alvo somente de atividade desapareciam da interface do usuário imediatamente após serem removidos de um local, mesmo antes de a atividade ser salva. Esse comportamento contradizia a funcionalidade esperada e a orientação da dica de ferramenta, que declara: &quot;Todos os públicos-alvo não usados dessa biblioteca serão excluídos assim que a atividade for salva.&quot; (TGT-52982)
 * Correção de um problema ao tentar atribuir um público-alvo diferente de [!UICONTROL All Visitors] a uma atividade. Ao salvar, a seguinte mensagem de erro era exibida: &quot;Não podemos concluir sua solicitação. Entre em contato com o atendimento ao cliente da Adobe se o problema persistir.&quot; (TGT-53008)
