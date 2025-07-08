@@ -4,9 +4,9 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a527cc60552a47f65a079009400049b738adf811
+source-git-commit: 54e97914f5d1f61dc04bc8afb34eac2899933a90
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1888'
 ht-degree: 11%
 
 ---
@@ -58,7 +58,6 @@ Devido aos problemas recentes identificados, principalmente relacionados às per
 * Esclarecimento sobre o comportamento para o cliente em que as modificações feitas usando uma Oferta da HTML podem parecer ausentes ao navegar da etapa [!UICONTROL Targeting] de volta para [!UICONTROL Experiences]. Para esse cliente, o site afetado gerou dinamicamente vários seletores DOM que foram alterados a cada carregamento de página. Como resultado, o seletor originalmente usado para a modificação não pode ser encontrado quando o editor é reaberto, fazendo com que a modificação pareça ausente ou inválida. Isto está funcionando como projetado. Para garantir que as modificações persistam visualmente no editor, é recomendável que os clientes usem seletores estáveis e consistentes que não sejam alterados durante os recarregamentos de página. (TGT-52874)
 * Correção de um problema em que a tentativa de excluir ou desativar uma oferta que fazia parte de uma experiência excluída acionava um erro &quot;Entrada de usuário inválida&quot;. Esse problema ocorria mesmo se a oferta não fosse usada ativamente nas experiências incluídas. (TGT-52917)
 * Correção de um problema em que a lista suspensa de métricas [!UICONTROL Revenue] na etapa [!UICONTROL Goals & Settings] assumia incorretamente o padrão [!UICONTROL Revenue per Visit] (RPVISIT), mesmo após o usuário selecionar uma métrica diferente.  ocorreu um problema ao recolher e expandir novamente o painel de configuração de métrica, fazendo com que o valor selecionado anteriormente fosse redefinido. (TGT-52811 e TGT-52878)
-* Correção de um problema que bloqueava
 * Correção de vários problemas no fluxo de trabalho de criação da atividade relacionados à nomeação da oferta e à conversão de conteúdo em [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Multivariate Testing] (MVT) atividades:
 
   Principais problemas abordados:
