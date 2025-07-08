@@ -4,7 +4,7 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3bae9b212182cbbe9a801a1e2cdb401162fa1eb6
+source-git-commit: a527cc60552a47f65a079009400049b738adf811
 workflow-type: tm+mt
 source-wordcount: '1893'
 ht-degree: 11%
@@ -15,7 +15,7 @@ ht-degree: 11%
 
 Este artigo contém informações de pré-lançamento das próximas versões do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: 7 de julho de 2025**
+**Última atualização: 8 de julho de 2025**
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 >
 >* Os números de edição entre parênteses são para uso interno da [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 25.7.1 (quarta-feira, 8 de julho de 2025)
+## [!DNL Target Standard/Premium] 25.7.1 (quinta-feira, 9 de julho de 2025)
 
 Devido aos problemas recentes identificados, principalmente relacionados às personalizações complexas do cliente, esta versão inclui as seguintes correções e atualizações:
 
