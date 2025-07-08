@@ -4,9 +4,9 @@ description: Perguntas e respostas sobre a interface do usuário do  [!DNL Targe
 title: Onde posso encontrar perguntas frequentes sobre a interface do usuário do  [!DNL Target] atualizada?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
+source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Nova em 2025, a interface de usuário atualizada do [!DNL Adobe Target] apresent
 ## A linha do tempo para a desativação da opção de versão da interface do usuário do Target foi atualizada?
 
 +++Detalhes
-Sim. Você pode encontrar a nova linha do tempo e informações importantes em [Atualizado: [!DNL Target] Desativação da versão da interface do usuário (17 de junho de 2025)](/help/main/r-release-notes/release-notes.md#revised).
+Sim. Você pode encontrar a nova linha do tempo e informações importantes em [Atualizações sensíveis ao tempo que você precisa saber](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -44,9 +44,7 @@ Os recursos a seguir fornecem informações para saber mais sobre a interface do
 +++Detalhes
 A interface atualizada está disponível para todos os [!DNL Target] clientes, [!UICONTROL Standard] e [!UICONTROL Premium]. Não é necessária nenhuma licença ou SKU atualizada.
 
-A implantação da nova interface do usuário do [!DNL Target] foi concluída em 27 de maio de 2025. Nesse momento, todos os clientes terão acesso à versão mais recente da interface do usuário.
-
-Para obter mais informações sobre a implantação e a desativação da opção de versão temporária da interface, consulte [Desativação da opção de versão da interface do usuário do Target (23 de maio de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) em *Notas de versão para versões anteriores*.
+Para obter mais informações sobre a implantação e a desativação da opção de versão temporária da interface, consulte [Atualizações sensíveis ao tempo que você precisa saber](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -55,22 +53,18 @@ Para obter mais informações sobre a implantação e a desativação da opção
 +++Detalhes
 A equipe do [!DNL Target] está ativamente cuidando dos problemas relacionados à nova implantação da interface do usuário. As atualizações e as melhorias contínuas estão detalhadas nas notas de versão.
 
-Para obter mais informações sobre a implantação e a desativação da opção de versão temporária da interface, consulte [Desativação da opção de versão da interface do usuário do Target (23 de maio de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) em *Notas de versão para versões anteriores*.
+Para obter mais informações sobre a implantação e a desativação da opção de versão temporária da interface, consulte [Atualizações sensíveis ao tempo que você precisa saber](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
 ## Os clientes podem solicitar que a versão da interface do usuário seja alternada para permanecer em suas contas se preferirem permanecer com a interface do usuário herdada?
 
 +++Detalhes
-A alternância da versão da interface do usuário é um recurso temporário que permite alternar entre a interface do usuário do [!DNL Target] atualizada e a versão herdada usando um botão de alternância. Essa opção está disponível somente durante a fase final de implantação da interface. Quando a implantação for concluída, o botão de alternância será removido e todos os usuários farão a transição permanente para a interface atualizada em 22 de junho de 2025.
+A alternância da versão da interface do usuário é um recurso temporário que permite alternar entre a interface do usuário do [!DNL Target] atualizada e a versão herdada usando um botão de alternância. Essa opção está disponível somente durante a fase final de implantação da interface. Quando a implantação for concluída, o botão de alternância será removido e todos os usuários farão a transição permanente para a interface do usuário atualizada.
 
 Há várias limitações no uso da versão da interface do usuário, incluindo a visibilidade de novas atividades, a edição de atividades existentes e a consistência dos detalhes da atividade.
 
->[!NOTE]
->
->Os clientes com casos especiais que precisam manter a opção após 22 de junho podem entrar em contato com o Atendimento ao cliente da Adobe para obter assistência. Consulte [Atualizado: [!DNL Target] Desativação da alternância de versão da interface do usuário (17 de junho de 2025)](/help/main/r-release-notes/release-notes.md#revised) para obter mais informações.
-
-Para obter mais informações, consulte [Desativação da alternância de versão da interface do usuário do Target (23 de maio de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) em *Notas de versão para versões anteriores*.
+Para obter mais informações, consulte [Atualizações sensíveis ao tempo que você precisa saber](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 ++++
 
@@ -81,7 +75,7 @@ O [!DNL Target] não oferece a opção de atrasar ou personalizar o tempo das mi
 
 Há várias limitações no uso da versão da interface do usuário, incluindo a visibilidade de novas atividades, a edição de atividades existentes e a consistência dos detalhes da atividade.
 
-Para obter mais informações, consulte [Desativação da alternância de versão da interface do usuário do Target (23 de maio de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) em *Notas de versão para versões anteriores*.
+Para obter mais informações, consulte [Atualizações sensíveis ao tempo que você precisa saber](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
