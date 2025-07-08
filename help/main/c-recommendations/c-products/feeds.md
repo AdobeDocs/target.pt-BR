@@ -346,7 +346,7 @@ Este vídeo contém as seguintes informações:
 * Entender a finalidade dos feeds
 * Entender o valor dos feeds
 
->[!VIDEO](https://video.tv.adobe.com/v/27695)
+>[!VIDEO](https://video.tv.adobe.com/v/33963?captions=por_br)
 
 ### Criar um feed (6:44) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
@@ -355,4 +355,4 @@ Este vídeo contém as seguintes informações:
 * Configurar um feed
 * Saber qual tipo de feed usar
 
->[!VIDEO](https://video.tv.adobe.com/v/27696)
+>[!VIDEO](https://video.tv.adobe.com/v/33962?captions=por_br)
