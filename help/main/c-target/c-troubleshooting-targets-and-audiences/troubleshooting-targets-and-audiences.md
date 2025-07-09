@@ -1,13 +1,13 @@
 ---
 keywords: solução de problemas, perguntas frequentes, perguntas frequentes, perguntas frequentes, metas, públicos-alvo
-description: Veja as perguntas frequentes sobre o direcionamento de experiência e os públicos-alvo usados nas atividades do Adobe [!DNL Target] .
+description: Exiba as perguntas frequentes sobre o direcionamento de experiência e os públicos-alvo usados nas atividades do Adobe [!DNL Target] .
 title: Onde posso encontrar perguntas e respostas sobre direcionamentos e públicos-alvo?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
+source-git-commit: cf7f18b5fd9647bbecda2e6b6419c3a927708bd6
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 56%
+source-wordcount: '973'
+ht-degree: 53%
 
 ---
 
@@ -25,7 +25,7 @@ Considere o seguinte URL:
 
 ### Direcionamento de URL de público
 
-Para aplicar o direcionamento do URL de público-alvo, ao criar uma atividade, na página Experiências (etapa um do fluxo de trabalho guiado de três etapas), clique no ícone de engrenagem, clique em Entrega da página e especifique o URL desejado.
+Para aplicar o direcionamento de URL de público-alvo, ao criar uma atividade, na página **[!UICONTROL Experiences]** (etapa um do fluxo de trabalho guiado de três etapas), clique no ícone **[!UICONTROL Configure]** ( ![ícone Configurar](/help/main/assets/icons/Setting.svg) ), clique em **[!UICONTROL Page Delivery]** e especifique a URL desejada.
 
 ![URL de Entrega de Página](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -41,7 +41,7 @@ Direcionamento de URL de público-alvo e direcionamento de URL adicionado via [!
 
 ### Direcionamento de URL {#url-targeting}
 
-Para aplicar o direcionamento de URL, ao criar um público-alvo, clique em [!UICONTROL Add Rule], clique em [!UICONTROL Site Pages], selecione uma opção na primeira lista suspensa ([!UICONTROL Current Page], [!UICONTROL Previous Page] ou [!UICONTROL Landing Page]), selecione [!UICONTROL URL] na segunda lista suspensa, especifique um avaliador e especifique a URL desejada.
+Para aplicar o direcionamento de URL, ao criar um público-alvo, clique em arrastar **[!UICONTROL Site Pages]** e solte-o no painel [!UICONTROL Create Audiences], clique em **[!UICONTROL Site Pages]**, selecione uma opção na primeira lista suspensa ([!UICONTROL Current Page], [!UICONTROL Previous Page] ou [!UICONTROL Landing Page]), selecione [!UICONTROL URL] na segunda lista suspensa, especifique um avaliador e especifique a URL desejada.
 
 ![Páginas do Site > Página Atual > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
@@ -80,11 +80,9 @@ Por padrão, o tráfego é dividido igualmente entre as experiências. No entant
 
 O usuário se qualifica para a primeira experiência/público-alvo exibido na página [!UICONTROL Target] da atividade.
 
-Por exemplo, na seguinte ilustração, um usuário da Califórnia que usa um dispositivo Windows se qualifica para a Experiência A (público-alvo do Windows) e a Experiência C (público-alvo da Califórnia). Para esse usuário seria mostrada a Experiência A, pois ela é exibida na lista Experiência C acima, na página de Direcionamentos.
+Por exemplo, suponha que a experiência/público-alvo liste o Windows como Experiência A, o iOS como Experiência B e a Califórnia como Experiência C. Um usuário da Califórnia que usa um dispositivo Windows se qualifica para a Experiência A (público-alvo do Windows) e a Experiência C (público-alvo da Califórnia). Para esse usuário seria mostrada a Experiência A, pois ela é exibida na lista Experiência C acima, na página de Direcionamentos.
 
-![imagem de audiences_order](assets/audiences_order.png)
-
-## Por que os nomes para o mesmo público-alvo do [!DNL Target] , do Adobe Audience Manager (AAM) e da Biblioteca de público-alvo nos serviços principais são diferentes? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
+## Por que os nomes para o mesmo público-alvo do [!DNL Target], do Adobe Audience Manager (AAM) e da Biblioteca de público-alvo nos serviços principais são diferentes? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
 Os nomes dos públicos-alvo no [!DNL Target] são exclusivos; no entanto, no [!DNL AAM] e no [!DNL Audience Library], você pode ter vários públicos-alvo com o mesmo nome (se estiverem em pastas diferentes). Quando o [!DNL Target] encontra um nome de público-alvo que corresponde a um público-alvo do [!DNL AAM] ou do [!DNL Audience Library], o [!DNL Target] adiciona &quot;#&lt;number>&quot; ao nome.
 
