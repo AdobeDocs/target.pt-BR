@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: f8e91caa133a1addc12ab1834d7e178df7e7a3ce
+source-git-commit: 6b4c3b04abe09cc2e440b24c3ff07cb6875ca816
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
@@ -59,11 +59,11 @@ Para gerar texto envolvente usando [!DNL AI Assistant]:
 
    * **Tom**: o tom do seu texto deve repercutir na sua audiência. Se você quiser soar informativo, excitante, divertido ou persuasivo, [!DNL AI Assistant] poderá adaptar a mensagem de acordo.
 
-     As opções incluem: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] e [!UICONTROL Conversational].
+     As opções incluem: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] e [!UICONTROL Conversational].
 
-1. Use o controle deslizante para escolher o comprimento do texto ([!UICONTROL Shorter Text] a [!UICONTROL Larger Text]).
+1. Use o controle deslizante para determinar quanto tempo você deseja que o texto fique, do mais curto ao mais longo.
 
-1. (Opcional) Clique em Brand Assets para fazer upload ou alternar ativos de marca para contexto de conteúdo adicional durante a geração.
+1. (Opcional) Clique em **[!UICONTROL Brand Assets]** para carregar ou alternar os ativos da marca para contexto de conteúdo adicional durante a geração.
 
 1. Clique em **[!UICONTROL Generate]** para criar uma lista de variações de texto.
 
@@ -100,4 +100,4 @@ O prompt e as variações a seguir mostram a potência de [!DNL AI Assistant].
 
 ### Criar conteúdo usando o Assistente de IA para geração de conteúdo
 
->[!VIDEO](https://video.tv.adobe.com/v/3434640/?learn=on&captions=por_br">https://video.tv.adobe.com/v/3434640/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
