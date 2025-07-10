@@ -4,9 +4,9 @@ title: Guia do profissional de negócios do Adobe Target
 description: Saiba como usar o Adobe  [!DNL Target]  para personalizar a experiência de seus clientes a fim de maximizar a receita em seus sites, aplicativos e outros canais digitais.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
+source-git-commit: 6bb44d984a80007834f9ca4917551e1a2c052798
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '670'
 ht-degree: 26%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 26%
 
 O [!DNL Adobe Target] é a solução completa da [!DNL Adobe Experience Cloud] para ajustar e personalizar a experiência do cliente e maximizar a receita em sites móveis e da web, aplicativos, redes sociais e outros canais digitais.
 
-**Última atualização: 8 de julho de 2025 ( [veja o que mudou](r-release-notes/doc-change.md) )**
+**Última atualização: 10 de julho de 2025 ( [veja o que mudou](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
@@ -25,7 +25,7 @@ O [!DNL Adobe Target] é a solução completa da [!DNL Adobe Experience Cloud] p
 
 A equipe do [!DNL Target] ajustou a linha do tempo para a desativação da versão da interface do usuário.
 
-[![Ícone Saiba mais](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
+[![Ícone Saiba mais](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
 
 >[!TAB Novidades?]
 
@@ -33,9 +33,9 @@ A equipe do [!DNL Target] ajustou a linha do tempo para a desativação da vers�
 
 A equipe do [!DNL Target] ajustou a linha do tempo para a desativação da versão da interface do usuário.
 
-[![Ícone Saiba mais](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
+[![Ícone Saiba mais](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
 
-**O Target 25.6.4 está ativo!**
+**O Target 25.7.1 está ativo!**
 
 Esta versão do está focada em correções e aprimoramentos na interface do usuário do [!DNL Target] e do [!UICONTROL Visual Experience Composer] (VEC) atualizados.
 
