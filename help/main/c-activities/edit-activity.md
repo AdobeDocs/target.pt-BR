@@ -1,23 +1,23 @@
 ---
 keywords: atividades; atividade; tipos de atividade; editar atividade; editar; rascunho
-description: Saiba mais sobre as diferentes maneiras de editar uma atividade existente no Adobe Target, incluindo como salvar uma atividade no formato de rascunho.
+description: Saiba mais sobre as diferentes maneiras de editar uma atividade existente, incluindo como salvar uma atividade no formato de rascunho.
 title: Como editar uma atividade ou Salvar como rascunho?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: cdd2a3995ef5b386afd45fed17c490ab9e6864fa
+source-git-commit: 9d9caa1d0d17f2126352d60f2ff1c09bfe87125e
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 44%
+source-wordcount: '1010'
+ht-degree: 39%
 
 ---
 
 # Editar uma atividade ou Salvar como rascunho
 
-Saiba como editar atividades existentes no [!DNL Adobe Target], incluindo como salvar alterações como rascunhos. Este artigo aborda os diferentes métodos disponíveis na interface do [!DNL Target] para modificar atividades, quer você esteja atualizando experiências, ajustando regras de direcionamento ou configurando metas, enquanto garante que suas alterações sejam salvas com segurança antes da ativação.
+Saiba como editar atividades existentes no [!DNL Adobe Target], incluindo como salvar alterações como rascunhos. Este artigo aborda os diferentes métodos disponíveis na interface do [!DNL Target] para modificar atividades. Esteja você atualizando experiências, ajustando regras de direcionamento ou configurando metas, o Target garante que suas alterações sejam salvas com segurança antes da ativação.
 
-O [!DNL Target] fornece vários locais na interface do usuário onde você pode editar atividades existentes. Esse processo varia conforme o método escolhido por você.
+O [!DNL Target] fornece vários locais na interface do usuário onde você pode editar atividades existentes. O processo varia dependendo do método escolhido.
 
-## Edite uma atividade usando o botão de flutuação na página Atividades {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Edite uma atividade usando o ícone de passar o mouse [!UICONTROL More Actions] na página Atividades {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. Na página **[!UICONTROL Activities]**, clique no ícone **[!UICONTROL More Actions]** ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmall.svg) ) ao lado da atividade que você deseja editar e clique em [!UICONTROL **Editar**].
 
@@ -32,7 +32,7 @@ O [!DNL Target] fornece vários locais na interface do usuário onde você pode 
    * **[!UICONTROL Save & Close]:** Clique em **[!UICONTROL Save and Close]** para salvar suas alterações e exibir a página [!UICONTROL Overview] da atividade.
    * **Salvar:** Clique no ícone **[!UICONTROL More Actions]** ( ![Ícone Mais Ações](/help/main/assets/icons/MoreSmallListVert.svg) ) e selecione **[!UICONTROL Save]** para salvar suas alterações e permanecer no VEC, onde você pode continuar a fazer alterações. Aguarde a conclusão do salvamento para fazer novas alterações. O VEC é recarregado com as alterações atualizadas depois da conclusão do salvamento.
 
-## Edite uma atividade abrindo a atividade clicando no seu nome na página [!UICONTROL Activities] {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Edite uma atividade clicando no seu nome na página [!UICONTROL Activities] {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. Para evitar a necessidade de percorrer todo o fluxo de trabalho, clique na atividade desejada na página [!UICONTROL Activities] para abri-la, selecione uma opção na lista suspensa **[!UICONTROL Edit Activity]** e selecione a opção desejada.
 
@@ -63,7 +63,7 @@ Ao criar uma nova atividade que ainda não foi salva ou ao editar uma atividade 
 
 É possível salvar uma atividade no modo de rascunho se a configuração da atividade tiver sido iniciada, mas não estiver pronta para operação.
 
-1. Criar novas atividades ou editar atividades existentes que estejam em formato de rascunho.
+1. Crie uma nova atividade ou edite uma atividade existente que esteja no formato de rascunho.
 1. Selecione a opção desejada no botão dividido:
 
    ![Salvar rascunho](/help/main/c-activities/assets/save_draft.png)
@@ -88,7 +88,7 @@ Se você tiver Permissões e usuário empresarial ativadas no seu ambiente, pode
 
 Leve em consideração as seguintes informações ao usar a funcionalidade de copiar/editar com espaços de trabalho:
 
-* Ao copiar uma atividade dentro do mesmo espaço de trabalho, a primeira etapa do fluxo de criação da atividade recém-copiada se abre no modo de edição.
+* Ao copiar uma atividade no mesmo espaço de trabalho, a primeira etapa do fluxo de criação da atividade recém-copiada é aberta no modo de edição.
 * Ao copiar uma atividade para um espaço de trabalho diferente, a atividade é copiada para o outro espaço de trabalho sem abri-lo no fluxo de criação da atividade. Depois que a atividade for copiada com êxito, uma mensagem é exibida, indicando que a atividade foi copiada com êxito e inclui um link para abrir a nova atividade.
 
 Se o seu ambiente não tiver a funcionalidade Permissões de usuário empresarial ativada, todas as atividades se abrirão no modo de edição antes de copiar.
