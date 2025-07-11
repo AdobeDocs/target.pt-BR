@@ -4,9 +4,9 @@ description: Saiba mais sobre as diferentes maneiras de editar uma atividade exi
 title: Como editar uma atividade ou Salvar como rascunho?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 9d9caa1d0d17f2126352d60f2ff1c09bfe87125e
+source-git-commit: fd368ba4a59c855fe9fc7c4bada4d93fcda006f0
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '925'
 ht-degree: 39%
 
 ---
@@ -92,11 +92,3 @@ Leve em consideração as seguintes informações ao usar a funcionalidade de co
 * Ao copiar uma atividade para um espaço de trabalho diferente, a atividade é copiada para o outro espaço de trabalho sem abri-lo no fluxo de criação da atividade. Depois que a atividade for copiada com êxito, uma mensagem é exibida, indicando que a atividade foi copiada com êxito e inclui um link para abrir a nova atividade.
 
 Se o seu ambiente não tiver a funcionalidade Permissões de usuário empresarial ativada, todas as atividades se abrirão no modo de edição antes de copiar.
-
-## Práticas recomendadas
-
-* Como prática recomendada, tente atualizar a atividade usando o mesmo método (interface do usuário ou API) usado para criar a atividade originalmente.
-
-  As atividades criadas usando a interface do usuário [!DNL Target] devem ser atualizadas por meio da interface do usuário [!DNL Target]. As atividades criadas por meio da API devem ser atualizadas por meio da API. Se originalmente você criar uma atividade usando a API, por exemplo, mas posteriormente editar a atividade por meio da interface do usuário do [!DNL Target], nem todas as alterações serão atualizadas. Todas as alterações são armazenadas no back-end e podem ser atualizadas fazendo outra chamada de API.
-
-
