@@ -1,19 +1,19 @@
 ---
-keywords: atividades; atividade; tipos de atividade; editar atividade; editar; rascunho
-description: Saiba mais sobre as diferentes maneiras de editar uma atividade existente, incluindo como salvar uma atividade no formato de rascunho.
-title: Como editar uma atividade ou Salvar como rascunho?
+keywords: atividades;atividade;tipos de atividade;editar atividade;editar;activities;activity;activity;activity types;edit
+description: Saiba mais sobre as diferentes maneiras de editar uma atividade existente.
+title: Como editar uma atividade?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: fd368ba4a59c855fe9fc7c4bada4d93fcda006f0
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 39%
+source-wordcount: '769'
+ht-degree: 41%
 
 ---
 
-# Editar uma atividade ou Salvar como rascunho
+# Editar uma atividade
 
-Saiba como editar atividades existentes no [!DNL Adobe Target], incluindo como salvar alterações como rascunhos. Este artigo aborda os diferentes métodos disponíveis na interface do [!DNL Target] para modificar atividades. Esteja você atualizando experiências, ajustando regras de direcionamento ou configurando metas, o Target garante que suas alterações sejam salvas com segurança antes da ativação.
+Saiba como editar atividades existentes no [!DNL Adobe Target]. Este artigo aborda os diferentes métodos disponíveis na interface do [!DNL Target] para modificar atividades. Esteja você atualizando experiências, ajustando regras de direcionamento ou configurando metas, o [!DNL Target] garante que suas alterações sejam salvas com segurança antes da ativação.
 
 O [!DNL Target] fornece vários locais na interface do usuário onde você pode editar atividades existentes. O processo varia dependendo do método escolhido.
 
@@ -59,18 +59,7 @@ Não é possível editar uma [!DNL Recommendations] atividade diretamente. Se vo
 
 ## Salvar uma atividade no formato de rascunho {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-Ao criar uma nova atividade que ainda não foi salva ou ao editar uma atividade que tinha sido salva no formato de rascunho, as opções [!UICONTROL Save Draft] são exibidas no botão dividido.
-
-É possível salvar uma atividade no modo de rascunho se a configuração da atividade tiver sido iniciada, mas não estiver pronta para operação.
-
-1. Crie uma nova atividade ou edite uma atividade existente que esteja no formato de rascunho.
-1. Selecione a opção desejada no botão dividido:
-
-   ![Salvar rascunho](/help/main/c-activities/assets/save_draft.png)
-
-   * **Avançar:** Para editar outra página no fluxo de trabalho de três etapas, clique em **[!UICONTROL Next]** para avançar para a etapa desejada.
-   * **Salvar rascunho e fechar:** Faça as alterações desejadas na etapa atual, clique na lista suspensa no botão dividido e selecione **[!UICONTROL Save Draft and Close]** para salvar suas alterações e exibir a página [!UICONTROL Overview] da atividade.
-   * **Salvar rascunho:** Faça as alterações desejadas em uma etapa, clique na lista suspensa no botão dividido e, em seguida, selecione **[!UICONTROL Save Draft]** para salvar suas alterações e permanecer naquela etapa.
+O recurso Salvar como rascunho não está mais disponível. Para obter mais informações, consulte *[!UICONTROL Status]* em [Aplicar filtros à lista de Atividades](/help/main/c-activities/activities.md#filters).
 
 ## Copiar/editar uma atividade ao usar espaços de trabalho {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 

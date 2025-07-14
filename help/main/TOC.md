@@ -3,10 +3,10 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 85%
+source-wordcount: '1283'
+ht-degree: 84%
 
 ---
 
@@ -180,7 +180,7 @@ ht-degree: 85%
          + [Definir métricas](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
          + [Solução de problemas de testes multivariados](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [Atividade do Recommendations](c-activities/recommendations-activity.md)
-   + [Editar uma atividade ou Salvar como rascunho](c-activities/edit-activity.md)
+   + [Editar uma atividade](c-activities/edit-activity.md)
    + [Prioridade](c-activities/priority.md)
    + [Configurações de atividade](c-activities/activity-settings.md)
    + Métricas de sucesso {#success-metrics}

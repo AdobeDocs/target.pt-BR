@@ -4,9 +4,9 @@ description: Perguntas e respostas sobre a interface do usuário do  [!DNL Targe
 title: Onde posso encontrar perguntas frequentes sobre a interface do usuário do  [!DNL Target] atualizada?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,15 @@ O [!DNL Target] não oferece a opção de atrasar ou personalizar o tempo das mi
 Há várias limitações no uso da versão da interface do usuário, incluindo a visibilidade de novas atividades, a edição de atividades existentes e a consistência dos detalhes da atividade.
 
 Para obter mais informações, consulte [Atualizações sensíveis ao tempo que você precisa saber](/help/main/r-release-notes/release-notes.md#time-sensitive).
+
++++
+
+## Os estados [!UICONTROL Save as Draft] e [!UICONTROL Syncing] ainda estão disponíveis?
+
++++Detalhes
+
+
+Com as atualizações mais recentes na interface do usuário, os estados [!UICONTROL Save as Draft] e [!UICONTROL Syncing] não estão mais disponíveis. Para obter mais informações, consulte Status em [Aplicar filtros à lista de Atividades](/help/main/c-activities/activities.md#filters) em *[!UICONTROL Activities overview]*.
 
 +++
 
