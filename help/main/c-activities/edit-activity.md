@@ -1,13 +1,13 @@
 ---
-keywords: atividades;atividade;tipos de atividade;editar atividade;editar;activities;activity;activity;activity types;edit
+keywords: atividades;atividade;tipos de atividade;editar atividade;editar;copiar;activities;activity;activity;activity types;edit activity;copy
 description: Saiba mais sobre as diferentes maneiras de editar uma atividade existente.
 title: Como editar uma atividade?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: caf431736f1e59473d3d5e564ab71088545837b7
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 41%
+source-wordcount: '889'
+ht-degree: 28%
 
 ---
 
@@ -77,7 +77,24 @@ Se você tiver Permissões e usuário empresarial ativadas no seu ambiente, pode
 
 Leve em consideração as seguintes informações ao usar a funcionalidade de copiar/editar com espaços de trabalho:
 
-* Ao copiar uma atividade no mesmo espaço de trabalho, a primeira etapa do fluxo de criação da atividade recém-copiada é aberta no modo de edição.
-* Ao copiar uma atividade para um espaço de trabalho diferente, a atividade é copiada para o outro espaço de trabalho sem abri-lo no fluxo de criação da atividade. Depois que a atividade for copiada com êxito, uma mensagem é exibida, indicando que a atividade foi copiada com êxito e inclui um link para abrir a nova atividade.
+* Se você copiar uma atividade no mesmo espaço de trabalho ou do espaço de trabalho padrão para um espaço de trabalho não padrão, o Assistente de atividade será aberto automaticamente. Em cópias entre espaços de trabalho, talvez você só precise atualizar as propriedades da atividade.
+* Quando uma atividade é copiada de um espaço de trabalho não padrão para outro espaço de trabalho (seja padrão ou não padrão), o Assistente de atividade é aberto e alguma entrada manual é necessária para concluir a configuração:
+   * **[!UICONTROL Properties]**: as propriedades podem diferir entre os espaços de trabalho. Essa situação pode acionar um aviso:
 
-Se o seu ambiente não tiver a funcionalidade Permissões de usuário empresarial ativada, todas as atividades se abrirão no modo de edição antes de copiar.
+      * No [!UICONTROL Form-Based Experience Composer], os avisos são exibidos diretamente na interface do usuário para visibilidade imediata.
+
+        ![Aviso de espaço de trabalho baseado em formulário](/help/main/c-activities/assets/form-based-warning.png)
+
+      * No VEC, os avisos ficam visíveis ao clicar em [!UICONTROL Configure] > [!UICONTROL Properties].
+
+        ![vec-warning](/help/main/c-activities/assets/vec-warning.png)
+
+        Para resolver esse problema, clique em [!UICONTROL Add/Remove] para que somente as propriedades disponíveis no espaço de trabalho de destino sejam exibidas para seleção.
+
+   * **Públicos-alvo e ofertas**: todos os públicos-alvo e ofertas do espaço de trabalho original devem ser substituídos. Como alternativa, você pode copiá-los das páginas [!UICONTROL Audiences] ou [!UICONTROL Offers] e selecionar os itens apropriados na lista correspondente na atividade.
+
+   * **Alterações manuais necessárias**: todas as alterações manuais necessárias estão resumidas na etapa final ([!UICONTROL Save & Close]). Um pop-up exibe uma lista de entidades que exigem atualizações, ajudando a garantir que todos os ajustes necessários sejam feitos antes de concluir a configuração da atividade.
+
+     ![aviso de validação do Workspace](/help/main/c-activities/assets/work-space-validation.png)
+
+Se o ambiente não tiver a funcionalidade [!UICONTROL Enterprise User Permissions] habilitada, todas as atividades serão abertas no modo de edição antes da cópia.
