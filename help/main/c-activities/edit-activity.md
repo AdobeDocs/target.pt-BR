@@ -4,9 +4,9 @@ description: Saiba mais sobre as diferentes maneiras de editar uma atividade exi
 title: Como editar uma atividade?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: caf431736f1e59473d3d5e564ab71088545837b7
+source-git-commit: cf7bc0f9ce72d5a170db76f5a932b196d4e1ddb0
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 28%
 
 ---
@@ -73,7 +73,7 @@ Se você fizer parte de uma organização multinacional, poderá ter um espaço 
 
 Para obter mais informações sobre espaços de trabalho e a funcionalidade Permissões de Usuário de Empresa, consulte [Permissões de Usuário de Empresa](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
-Se você tiver Permissões e usuário empresarial ativadas no seu ambiente, poderá copiar atividades para o mesmo espaço de trabalho, ou para outro espaço de trabalho. Atualmente, não é possível mover uma atividade de um espaço de trabalho para outro. Para copiar uma atividade para outro espaço de trabalho, na página [!UICONTROL Activities], clique no ícone **[!UICONTROL More Actions]** ( ![ícone de Mais Ações](/help/main/assets/icons/MoreSmall.svg) ) ao lado da atividade que você deseja copiar e clique em [!UICONTROL **Copiar**].
+Se você tiver Permissões e usuário empresarial ativadas no seu ambiente, poderá copiar atividades para o mesmo espaço de trabalho, ou para outro espaço de trabalho. Atualmente, não é possível mover uma atividade de um espaço de trabalho para outro. Para copiar uma atividade para outro espaço de trabalho, na página [!UICONTROL Activities], clique no ícone **[!UICONTROL More Actions]** ( ![ícone de Mais Ações](/help/main/assets/icons/MoreSmall.svg) ) ao lado da atividade que você deseja copiar e clique em [!UICONTROL **Copiar**] ou **[!UICONTROL Edit]**.
 
 Leve em consideração as seguintes informações ao usar a funcionalidade de copiar/editar com espaços de trabalho:
 
