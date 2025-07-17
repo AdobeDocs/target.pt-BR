@@ -4,9 +4,9 @@ description: Saiba mais sobre as métricas de sucesso que ajudam você a determi
 title: O que são métricas de sucesso?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: ad26684d40ccb5239a345da73adfa924a04189ef
+source-git-commit: a34d40bef584bfa941731df718cb402c658f5d28
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1362'
 ht-degree: 22%
 
 ---
@@ -33,8 +33,8 @@ As seguintes métricas de sucesso podem ser configuradas na seção [!UICONTROL 
 
 | Métrica de Sucesso | Abordagem de medida | Definição |
 |--- |--- |--- |
-| [!UICONTROL Con]versão | Com base em conversão | A conversão é quando um visitante executa uma ação no site definida por você, como <ul><li>Visualizou uma página</li><li>Visualizou uma mbox</li><li>Clicou em um elemento</li></ul>Uma conversão pode ser contada uma vez por visitante ou cada vez que um visitante conclui uma conversão. |
-| [!UICONTROL Revenue] | Com base em conversão | A receita gerada pela visita. Você pode escolher apenas uma métrica de receita:<ul><li>Visualizou uma mbox</li></ul>Para obter mais informações sobre alterações na interface atualizada do usuário [!DNL Target], pois ela pertence às métricas de sucesso de receita, consulte [alterações na interface relacionadas às métricas de sucesso](#changes) abaixo. |
+| [!UICONTROL Conversion] | Com base em conversão | A conversão é quando um visitante executa uma ação no site definida por você, como <ul><li>Visualizou uma página</li><li>Visualizou uma mbox</li><li>Clicou em um elemento</li></ul>Uma conversão pode ser contada uma vez por visitante ou cada vez que um visitante conclui uma conversão. |
+| [!UICONTROL Revenue] | Com base em conversão | A receita gerada pela visita. Você pode escolher apenas uma métrica de receita:<ul><li>Visualizou uma mbox</li></ul>Para obter mais informações sobre alterações na interface atualizada do usuário [!DNL Target], pois ela se refere às métricas de sucesso de receita, consulte [Alterações atualizadas [!DNL Target] na interface](#changes) abaixo. |
 | [!UICONTROL Engagement] | Com base em participação | Engajamento gerado pela visita. Você pode escolher entre as seguintes métricas de envolvimento:<UL><li>Exibições de página: cada visita única é contada como uma conversão.</li><li>[!UICONTROL Custom Scoring]: pontuação agregada com base no valor atribuído às páginas visitadas no site, a partir do momento em que o visitante exibe a primeira solicitação de [!DNL Target] da atividade.</li>[!DNL Time on Site]: Tempo gasto na visita (em segundos) a partir do momento em que o visitante visualiza a primeira solicitação [!DNL Target] de exibição da atividade até o carregamento da página final com uma solicitação na sessão.</UL> |
 
 Para métricas baseadas em participação (diferente de métricas baseadas em conversão e baseadas em receita), os visitantes devem se requalificar para a atividade em cada visita para incrementar a contagem dessa sessão. A métrica associada começa a incrementar após a requalificação e interrompe no final de cada sessão do visitante. Uma sessão é finalizada depois de 30 minutos de inatividade. Portanto, você não vê os resultados imediatamente durante o teste; no entanto, todos os resultados dessa sessão estão disponíveis dentro de alguns minutos após o término da sessão.
@@ -111,11 +111,11 @@ Escolha o comportamento desejado:
 
   Quando uma métrica de sucesso é definida para incrementar a cada impressão, [!DNL Target] conta o visitante novamente sempre que ele visitar a métrica de sucesso. [!DNL Target] então redefine a métrica de sucesso &quot;associação&quot; para 0 para que ela possa contar novamente na próxima impressão. Portanto, se outra métrica exigir que essa métrica tenha sido visualizada primeiro, [!DNL Target] nunca reconhecerá que o usuário viu a primeira métrica.
 
-## Alterações na interface do usuário do Target atualizadas
+## Atualizadas [!DNL Target] alterações na interface {#changes}
 
 A [[!DNL Target Standard/Premium] versão 25.2.1](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2), iniciada em 17 de fevereiro de 2015, apresentou interfaces do usuário atualizadas do [!DNL Target] e do [!UICONTROL Visual Experience Composer] (VEC). Esta seção descreve as principais diferenças entre a interface herdada e a atualizada, especificamente porque estão relacionadas à configuração e ao gerenciamento de métricas de sucesso.
 
-### Alterações na interface do usuário relacionadas a [!UICONTROL Revenue] métricas de sucesso {#changes}
+### Alterações na interface do usuário relacionadas a [!UICONTROL Revenue] métricas de sucesso
 
 Na interface atualizada [!DNL Target], o menu suspenso [!UICONTROL Default View for Reporting] foi removido. Este campo era redundante, pois anteriormente salvava o modo de exibição de relatórios padrão em [!DNL Overview] > [!UICONTROL Reports] na interface herdada.
 
