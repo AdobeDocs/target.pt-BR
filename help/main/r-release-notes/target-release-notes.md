@@ -4,7 +4,7 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: df7e28060a6add53e1aaed928351b4f399b19c17
+source-git-commit: 2812132c2720f54fa7bee2b0a5e16623362fdc33
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 34%
@@ -33,6 +33,8 @@ Devido aos problemas recentes identificados, principalmente relacionados às per
 
 +++Ver detalhes
 * Correção de um problema em que o método `buildViews` na classe de construtor definia incorretamente `viewMaxLocalId` para a contagem total de exibições, em vez da maior `viewLocalId` atribuída. (TGT-53207)
+
++++
 
 **Experience Composer baseado em formulário**
 
