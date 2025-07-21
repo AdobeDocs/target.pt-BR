@@ -4,9 +4,9 @@ description: Entenda as alterações introduzidas no Visual Experience Composer 
 title: Quais alterações são introduzidas no novo Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,23 @@ Você pode adicionar vários componentes à sua página da Web e editá-los conf
 
 Para adicionar um novo componente, arraste o componente do painel [!UICONTROL Components] que você deseja inserir sobre um elemento de página existente na tela [!UICONTROL Design]. Em seguida, escolha inserir o componente antes de depois do elemento selecionado.
 
+>[!NOTE]
+>
+>Se você vir o painel [!UICONTROL Modifications] nessa área em vez do painel [!UICONTROL Components], clique no ícone **[!UICONTROL Show Components]** ( ![ícone Mostrar componentes](/help/main/assets/icons/Add.svg) ). O ícone [!UICONTROL Show Components] ( ![Mostrar ícone Componentes](/help/main/assets/icons/Add.svg) ) e o ícone [!UICONTROL Show Modifications] ( ![Mostrar painel Modificações](/help/main/assets/icons/History.svg) ) atuam como alternadores para mostrar as opções apropriadas.
+>
+>Para recolher o painel [!UICONTROL Components] e ampliar a tela [!UICONTROL Design], enquanto o painel [!UICONTROL Components] estiver aberto, clique no ícone ( ![Mostrar componentes](/help/main/assets/icons/Add.svg) ).
+
 ### Painel [!UICONTROL Modifications]
 
 Para abrir o painel [!UICONTROL Modifications], clique no ícone [!UICONTROL Show Modifications] ( ![Mostrar painel de Modificações](/help/main/assets/icons/History.svg) ) no painel [!UICONTROL Components]. O painel [!UICONTROL Modifications] alterou a posição do lado direito para o lado esquerdo da tela de edição.
 
 ![Painel de modificações](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+
+>[!NOTE]
+>
+>O ícone [!UICONTROL Show Components] ( ![Mostrar ícone Componentes](/help/main/assets/icons/Add.svg) ) e o ícone [!UICONTROL Show Modifications] ( ![Mostrar painel Modificações](/help/main/assets/icons/History.svg) ) atuam como alternadores para mostrar as opções apropriadas.
+>
+>Para recolher o painel [!UICONTROL Modifications] e ampliar a tela [!UICONTROL Design], enquanto o painel [!UICONTROL Modifications] estiver aberto, clique no ícone [!UICONTROL Show Modifications] ( ![Mostrar painel de Modificações](/help/main/assets/icons/History.svg) ).
 
 O painel [!UICONTROL Modifications] mostra todas as alterações feitas em sua página no VEC e permite que você faça alterações adicionais (como Seletor de CSS, Mbox e Código personalizado).
 

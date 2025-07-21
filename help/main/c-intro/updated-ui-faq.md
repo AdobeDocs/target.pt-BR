@@ -4,10 +4,10 @@ description: Perguntas e respostas sobre a interface do usuário do  [!DNL Targe
 title: Onde posso encontrar perguntas frequentes sobre a interface do usuário do  [!DNL Target] atualizada?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 0%
+source-wordcount: '1084'
+ht-degree: 1%
 
 ---
 
@@ -79,11 +79,29 @@ Para obter mais informações, consulte [Atualizações sensíveis ao tempo que 
 
 +++
 
-## Os estados [!UICONTROL Save as Draft] e [!UICONTROL Syncing] ainda estão disponíveis?
+## Posso recolher os painéis [!UICONTROL Components] e [!UICONTROL Modifications] para ampliar o painel [!UICONTROL Design]? {#collapse}
 
 +++Detalhes
 
+Sim, você pode recolher ambos os painéis para permitir expandir a tela [!UICONTROL Design] para facilitar a edição. Veja como:
 
+>[!NOTE]
+>
+>O ícone [!UICONTROL Show Components] ( ![Mostrar ícone Componentes](/help/main/assets/icons/Add.svg) ) e o ícone [!UICONTROL Show Modifications] ( ![Mostrar painel Modificações](/help/main/assets/icons/History.svg) ) atuam como alternadores para mostrar as opções apropriadas.
+
+**Recolher o painel [!UICONTROL Components]**
+
+Para recolher o painel [!UICONTROL Components] e ampliar a tela [!UICONTROL Design], enquanto o painel [!UICONTROL Components] estiver aberto, clique no ícone ( ![Mostrar componentes](/help/main/assets/icons/Add.svg) ).
+
+**Recolher o painel [!UICONTROL Modifications]**
+
+Para recolher o painel [!UICONTROL Modifications] e ampliar a tela [!UICONTROL Design], enquanto o painel [!UICONTROL Modifications] estiver aberto, clique no ícone [!UICONTROL Show Modifications] ( ![Mostrar painel de Modificações](/help/main/assets/icons/History.svg) ).
+
++++
+
+## Os estados [!UICONTROL Save as Draft] e [!UICONTROL Syncing] ainda estão disponíveis?
+
++++Detalhes
 Com as atualizações mais recentes na interface do usuário, os estados [!UICONTROL Save as Draft] e [!UICONTROL Syncing] não estão mais disponíveis. Para obter mais informações, consulte Status em [Aplicar filtros à lista de Atividades](/help/main/c-activities/activities.md#filters) em *[!UICONTROL Activities overview]*.
 
 +++
