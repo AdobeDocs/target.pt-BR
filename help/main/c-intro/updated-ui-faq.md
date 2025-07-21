@@ -4,10 +4,10 @@ description: Perguntas e respostas sobre a interface do usuário do  [!DNL Targe
 title: Onde posso encontrar perguntas frequentes sobre a interface do usuário do  [!DNL Target] atualizada?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
+source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 1%
+source-wordcount: '1112'
+ht-degree: 0%
 
 ---
 
@@ -79,11 +79,11 @@ Para obter mais informações, consulte [Atualizações sensíveis ao tempo que 
 
 +++
 
-## Posso recolher os painéis [!UICONTROL Components] e [!UICONTROL Modifications] para ampliar o painel [!UICONTROL Design]? {#collapse}
+## Posso recolher os painéis [!UICONTROL Components], [!UICONTROL Modifications] e [!UICONTROL Properties] para ampliar o painel [!UICONTROL Design]? {#collapse}
 
 +++Detalhes
 
-Sim, você pode recolher ambos os painéis para permitir expandir a tela [!UICONTROL Design] para facilitar a edição. Veja como:
+Sim, você pode recolher esses painéis para permitir expandir a tela de [!UICONTROL Design] para facilitar a edição. Veja como:
 
 >[!NOTE]
 >
@@ -96,6 +96,10 @@ Para recolher o painel [!UICONTROL Components] e ampliar a tela [!UICONTROL Desi
 **Recolher o painel [!UICONTROL Modifications]**
 
 Para recolher o painel [!UICONTROL Modifications] e ampliar a tela [!UICONTROL Design], enquanto o painel [!UICONTROL Modifications] estiver aberto, clique no ícone [!UICONTROL Show Modifications] ( ![Mostrar painel de Modificações](/help/main/assets/icons/History.svg) ).
+
+**Recolher o painel [!UICONTROL Properties]**
+
+Para recolher o painel [!UICONTROL Properties] e ampliar a tela [!UICONTROL Design], clique no ícone [!UICONTROL Show/Hide Properties] ( ![Ícone Propriedades](/help/main/assets/icons/Propertie.svg) ) à direita do painel para recolher ou exibir o painel [!UICONTROL Properties].
 
 +++
 
