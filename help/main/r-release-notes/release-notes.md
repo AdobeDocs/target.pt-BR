@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d6d58e94f4d4745b0783321671025d9cdd07f57f
+source-git-commit: 265108dbb0a459e1b111fda01a35042170f05562
 workflow-type: tm+mt
-source-wordcount: '3287'
-ht-degree: 12%
+source-wordcount: '4383'
+ht-degree: 11%
 
 ---
 
@@ -40,7 +40,7 @@ Devido aos problemas recentes identificados, relacionados principalmente a perso
 
 * **17 de junho de 2025**: todas as Organizações IMS foram habilitadas para a interface do usuário [!DNL Target] atualizada, para usuários específicos ou em toda a organização, para começar a testar a nova experiência.
 
-* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4&rbrace; se tornou a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
+* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4} se tornou a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
 
    * Os clientes que atualmente veem a interface herdada, por padrão, agora veem a interface atualizada ao fazer logon.
    * O botão de alternância da versão da interface do usuário permanece disponível até o final de julho, permitindo que os usuários alternem de volta, se necessário.
@@ -75,6 +75,103 @@ As informações a seguir descrevem as limitações que você deve conhecer ao o
 
 +++
 
+## [!DNL Target Standard/Premium] 25.7.3 (sexta-feira, 24 de julho de 2025)
+
+Devido aos problemas recentes identificados, principalmente relacionados às personalizações complexas do cliente, esta versão inclui as seguintes correções e atualizações:
+
+**Atividades**
+
++++Ver detalhes
+* Correção de um problema em que o método `buildViews` na classe de construtor definia incorretamente `viewMaxLocalId` para a contagem total de exibições, em vez da maior `viewLocalId` atribuída. (TGT-53207)
+* Correção de um problema na interface do usuário atualizada do [!DNL Target], em que as ofertas excluídas nas atividades do [!UICONTROL Automated Personalization] (AP) eram exibidas como `Deleted option with ID: X` em vez de seus nomes originais (por exemplo, `Offer Name [Deleted]`, como mostrado na interface do usuário herdada). Essa correção restaura a rotulagem significativa de ofertas excluídas, melhorando a clareza e tornando os relatórios mais precisos e fáceis de usar. (TGT-52921)
+* Correção de um problema em que algumas atividades migradas do front-end do [!DNL Target] para o [!DNL Target] Central tinham configurações de métrica inconsistentes devido a um erro de sincronização corrigido anteriormente. Especificamente, as atividades que originalmente usavam uma métrica de conversão e foram atualizadas posteriormente para uma métrica baseada em análise mantiveram valores desatualizados nos campos `primaryMetricType` e `successCriteria`. (TGT-52643)
+* Correção de um problema em que todo o conteúdo de uma página de visualização de QA se tornava editável devido à inclusão não intencional do atributo `contentEditable` nas modificações do HTML. Isso permitia que os usuários clicassem e editassem qualquer texto na página, causando possivelmente problemas de layout e confusão durante o controle de qualidade. (TGT-53247)
+* Correção de um problema em que mover uma modificação de [!DNL Page Load] para [!UICONTROL View] fazia com que a modificação fosse duplicada, permanecendo em [!UICONTROL Page Load] enquanto também aparecia em [!UICONTROL View]. Além disso, a remoção da modificação de [!UICONTROL View] também a removeria incorretamente de [!UICONTROL Page Load]. (TGT-53270)
+
++++
+
+**APIs**
+
++++Ver detalhes
+* Correção de um problema na camada de persistência de backend em que as opções excluídas eram armazenadas corretamente, mas não acessíveis por meio de pontos de extremidade de API existentes. Como resultado, os aplicativos de front-end não puderam recuperar nomes significativos para opções excluídas, afetando as exibições de relatórios históricos. Essa correção garante que os dados de opção excluídos preservados agora possam ser exibidos corretamente na interface do usuário. (TGT-52973)
+* Implementação de um novo ponto de extremidade de migração para oferecer suporte à transferência de opções de atividades excluídas de atividades baseadas em JCR para a [!DNL Target] Central. Essa funcionalidade permite o rastreamento e a geração de relatórios consistentes em todos os sistemas. Esse recurso garante que as opções excluídas sejam preservadas e sincronizadas no front-end e back-end do [!DNL Target], melhorando a integridade dos dados e dos relatórios históricos. (TGT-53217)
+* Introdução de um novo endpoint de API que permite que os usuários restaurem opções de atividades excluídas anteriormente de um banco de dados secundário. Essa funcionalidade aproveita a infraestrutura existente fornecida pelas classes `RemovedCampaignElements` e `RemovedOptionInfo`, garantindo a reintegração perfeita das opções excluídas nas atividades ativas. (TGT-52903)
+* Correção de um problema em que [!DNL Recommendations] atividades contendo nomes de métricas com mais de 25 caracteres não podiam ser abertas ou editadas devido a limitações de API. Essa correção garante a compatibilidade com nomes de métricas que excedem o limite de caracteres, restaurando o acesso total às atividades afetadas. (TGT-52839)
+
++++
+
+**Experience Composer baseado em formulário**
+
++++Ver detalhes
+* Correção de um problema no [!UICONTROL Form-Based Experience Composer] que causava a falha do editor após clicar no ícone **[!UICONTROL Manage Content]** ( ![Ícone Gerenciar conteúdo](/help/main/assets/icons/Experience.svg) ) ao criar ou editar uma atividade de [!UICONTROL Automated Personalization] (AP). (TGT-53047)
+
++++
+
+**Recommendations**
+
++++Ver detalhes
+* Correção de um problema que impedia [!UICONTROL Catalog Search] de carregar resultados adicionais ao rolar a tela para a parte inferior da lista, restaurando o comportamento consistente com a interface herdada. (TGT-53088)
+* Correção de um problema que bloqueava a exclusão de itens da caixa de diálogo [!UICONTROL Criteria Details]. (TGT-53245)
+* Correção de um problema que impedia a abertura ou interação com produtos sem nome. Esse problema ocorria ao selecionar ambientes que retornavam resultados sem nome, impedindo o acesso aos detalhes do produto. (TGT-53007)
+* Correção de um problema que causava a falha da página [!UICONTROL Catalog Search] e exibia uma tela em branco ao selecionar determinados produtos. (TGT-53087)
+* Correção de um problema em que os usuários não conseguiam editar a atividade [!DNL Recommendation] site_cart_z1 na interface do usuário do [!DNL Target]. A tentativa de abrir a atividade disparou um erro na página [!UICONTROL Overview], bloqueando o acesso ao editor. (TGT-53221)
+
++++
+
+**Relatório**
+
++++Ver detalhes
+* Correção de um problema em que o campo sandbox no banco de dados de atividades não era limpo ao alternar a fonte de relatórios de [!DNL Customer Journey Analytics] ou [!DNL Analytics] para [!DNL Target]. Anteriormente, a interface do usuário enviava a sandbox corretamente: nulo, mas o back-end ignorava esse valor, deixando dados desatualizados da sandbox no lugar. O back-end agora limpa corretamente o campo da sandbox quando nulo é recebido. (TGT-52798)
+* A camada de persistência de opções excluídas foi reimplementada no back-end do Target para oferecer suporte a relatórios históricos precisos nas atividades de [!UICONTROL Automated Personalization] (AP). Anteriormente, quando uma opção era excluída, seu nome era perdido, dificultando a interpretação de dados de desempenho anteriores.
+
+  **Principais melhorias**:
+
+   * As opções excluídas agora são rastreadas usando a infraestrutura `RemovedCampaignElements` e `RemovedOptionInfo` existente.
+   * Quando uma opção é removida de uma atividade de AP, seus metadados (por exemplo, ID e nome) são preservados.
+   * A interface do usuário de relatórios agora pode exibir o nome de opção original (por exemplo, `Option Name [Deleted]`) junto com métricas históricas, melhorando a clareza e a usabilidade.
+
+  Essa atualização garante relatórios consistentes e significativos, mesmo depois que as opções são removidas de uma atividade. (TGT-52986)
+
++++
+
+**Visual Experience Composer (VEC)**
+
++++Ver detalhes
+
+* Correção de um problema no VEC em que a aplicação de uma modificação em uma exibição causava duplicação e acionava um erro &quot;Entrada de usuário inválida&quot;. (TGT-52886)
+* Correção de um problema com a funcionalidade [!UICONTROL Undo] para as opções [!UICONTROL Insert Before] e [!UICONTROL Insert After] ao configurar ofertas de imagem no VEC.
+
+  Anteriormente, desfazer uma ação de [!UICONTROL Insert Before] ou [!UICONTROL Insert After] em ofertas de imagem resultava em um comportamento inconsistente ou na falha ao reverter corretamente a modificação, especialmente em atividades criadas na interface herdada [!DNL Target]. Esse problema foi resolvido para garantir que as ações de desfazer agora funcionem de forma confiável para essas modificações. (TGT-52809)
+
+* Correção de um problema em que o atributo `contentEditable` era definido involuntariamente como verdadeiro e persistia no conteúdo HTML salvo. Essa atualização garante uma saída do HTML mais limpa e esperada sem comportamento de edição não intencional. (TGT-52319)
+* Para evitar a perda permanente de opções excluídas e garantir um comportamento consistente entre os serviços, a funcionalidade de exclusão reversível foi implementada para opções na interface do usuário e nos microsserviços relacionados.
+
+  **Alterações de Chave**:
+
+   * As opções não são mais excluídas permanentemente. Em vez disso, eles são marcados com um novo sinalizador deleted: true no objeto XML de parâmetros.
+   * Esse sinalizador é usado somente pela interface atualizada do usuário [!DNL Target] para excluir opções excluídas da renderização e impedir que sejam enviadas para serviços de borda.
+   * As opções excluídas permanecem como parte da carga útil da atividade durante as edições, garantindo a rastreabilidade e evitando a entrega de opções inexistentes para os clientes.
+
+  Essa atualização melhora a integridade dos dados e se alinha às práticas recomendadas para gerenciar exclusões em sistemas distribuídos. (TGT-52726)
+
++++
+
+**Espaços de trabalho**
+
++++Ver detalhes
+* Correção de um problema ao copiar uma atividade de um espaço de trabalho não padrão para um padrão ou entre espaços de trabalho não padrão. As ofertas agora são duplicadas com rastreamento e nomenclatura aprimorados para evitar conflitos.
+
+  **Principais melhorias**:
+   * As ofertas são recriadas no espaço de trabalho de destino com IDs e metadados atualizados.
+   * As ofertas copiadas são renomeadas usando o formato: &quot;Cópia do nome da oferta&quot;, além de um número aleatório ou carimbo de data e hora para garantir exclusividade.
+   * O sistema atualiza os estados de oferta e atividade para refletir as novas IDs.
+   * Essa funcionalidade evita erros causados por vários nomes idênticos de &quot;Cópia de oferta&quot; durante ações de cópia repetidas.
+   * As ofertas podem não aparecer imediatamente na lista de ofertas do espaço de trabalho de destino, mas são processadas e exibidas adequadamente.
+
+  Essa atualização melhora a confiabilidade e a rastreabilidade ao gerenciar ofertas em vários espaços de trabalho. (TGT-53080)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.7.2 (sábado, 18 de julho de 2025)
 
 Devido aos problemas recentes identificados, principalmente relacionados às personalizações complexas do cliente, esta versão inclui as seguintes correções e atualizações:
@@ -94,7 +191,7 @@ Devido aos problemas recentes identificados, principalmente relacionados às per
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Ver detalhes
 * Correção de um problema em que os clientes visualizavam relatórios para atividades específicas na página [!UICONTROL Goals & Settings]. O link [!UICONTROL View in Analytics] aponta incorretamente para o ambiente de controle de qualidade em vez do ambiente de produção. (TGT-53163)
@@ -133,7 +230,7 @@ Devido aos problemas recentes identificados, principalmente relacionados às per
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Ver detalhes
 * Solução de um problema na página [!UICONTROL Goals & Settings] em que os seletores usados em várias experiências não eram realçados consistentemente como selecionados. (TGT-53062)
@@ -184,7 +281,7 @@ Devido aos problemas recentes identificados, principalmente relacionados às per
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Ver detalhes
 * Correção de um problema em que copiar uma atividade existente e alterar a fonte de relatórios para [!DNL Adobe Analytics] (A4T) resultava em um erro &quot;Entrada de usuário inválida&quot;. O erro foi disparado quando determinadas ações de métrica incompatíveis com os relatórios do [!DNL Analytics], como `restart_same_experience`, `restart_random_experience` e `restart_new_experience`, eram retidas da atividade original. (TGT-52900)
@@ -241,7 +338,7 @@ Devido aos problemas recentes identificados, principalmente relacionados às per
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Ver detalhes
 * Solução de um problema em que a aplicação de uma modificação em uma exibição resultava na duplicação da exibição e a atividade retornava um erro &quot;Entrada de usuário inválida&quot;. Essa correção garante que as modificações de exibição sejam aplicadas corretamente sem disparar erros de duplicação ou validação. (TGT-52886)
