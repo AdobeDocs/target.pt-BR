@@ -5,9 +5,9 @@ title: Onde Começar A Administrar O  [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: e2954a6d93041712a141a7029a964e596c80f8be
+source-git-commit: 614fd89c9746ce55f502debd5b689c34de400ae5
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '436'
 ht-degree: 32%
 
 ---
@@ -18,9 +18,9 @@ Este artigo contém as primeiras etapas que os administradores do [!DNL Adobe Ta
 
 ## Seja convidado para [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-Um administrador do sistema no [!DNL Adobe Admin Console] deve adicioná-lo como usuário no [!DNL Target], convidando-o para entrar. Em seguida, o administrador do sistema deve adicioná-lo a um ou mais grupos específicos da função. Ambas as tarefas são executadas no [[!DNL Adobe Admin Console]](https://adminconsole.adobe.com).
+Um administrador do sistema no [!DNL Adobe Admin Console] deve adicioná-lo como usuário no [!DNL Target], convidando-o para entrar. O administrador do sistema deve então adicioná-lo a um ou mais perfis de produto com função específica (grupos de usuários). Ambas as tarefas são executadas no [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Para obter mais informações, consulte [Gerenciar usuários e produtos da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=pt-BR) na *ajuda da Experience Cloud e dos Serviços principais*.
+Para obter mais informações, consulte [Gerenciar grupos de usuários](https://helpx.adobe.com/enterprise/using/users.html).
 
 Você receberá um email de convite depois que o administrador do sistema executar essas etapas.
 
