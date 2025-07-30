@@ -1,39 +1,63 @@
 ---
 keywords: Target Standard;perguntas frequentes;perguntas frequentes;gabarito;gabarito
-description: Uma lista das perguntas mais frequentes sobre o uso dos recursos do Adobe Target, juntamente com informações e links para obter mais informações.
+description: Veja uma lista de perguntas frequentes sobre o uso dos recursos do  [!DNL Target], além de informações e links para obter mais informações.
 title: Onde posso encontrar respostas a minhas perguntas sobre otimização e personalização?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 21d31fdf145f7c74be717885c15b35c3d1d61ed9
+source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
 workflow-type: tm+mt
-source-wordcount: '2623'
-ht-degree: 78%
+source-wordcount: '2693'
+ht-degree: 70%
 
 ---
 
 # Perguntas frequentes sobre otimização e personalização do Target
 
-Uma lista de perguntas frequentes sobre o uso dos recursos do [!DNL Adobe Target], juntamente com informações e links para obter mais informações.
+Explore as respostas das perguntas frequentes sobre o uso dos recursos do [!DNL Adobe Target]. Saiba como otimizar seus experimentos, personalizar experiências e acessar recursos úteis com links diretos para obter insights mais profundos.
 
 ## Informações gerais {#section_CE5713B5AAC341C9A75586C107797FA3}
 
+**Onde posso encontrar informações sobre a interface do usuário do [!DNL Target] e o [!UICONTROL Visual Experience Composer] (VEC) atualizados?**
+
++++Ver detalhes
+
+A interface do usuário é organizada em um formato lógico e amigável para ajudar você o a aproveitar ao máximo o [!DNL Target]. A breve visão geral a seguir ajuda você a se familiarizar com o [!DNL Target] e o VEC e fornece links para informações mais detalhadas e instruções passo a passo.
+
+Consulte [Entender a [!DNL Target] IU](/help/main/c-intro/understand-the-target-ui.md) para obter mais informações.
+
++++
+
 **Como posso observar como outros clientes usaram o [!DNL Target] para obter melhores resultados?**
 
-Veja algumas das nossas [histórias de sucesso de clientes](https://www.adobe.com/br/marketing-cloud/target/resources.html#x). Veja como clientes como você utilizaram o Target para melhorar a otimização e personalização com o intuito de alcançar metas empresariais.
++++Ver detalhes
+Explore as [histórias de sucesso de clientes](https://www.adobe.com/br/marketing-cloud/target/resources.html#x) reais para ver como as organizações estão usando o [!DNL Target] para otimizar a otimização, personalizar experiências e alcançar resultados comerciais mensuráveis.
 
-Observe que alguns desses estudos de caso utilizaram capacidades do Adobe Target Premium.
++++
 
 **Onde posso obter mais informações sobre os recursos mais recentes do [!DNL Target]?**
 
-Consulte as [Notas de versão](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para verificar os detalhes da versão mais recente. As informações sobre todas as [versões anteriores](/help/main/r-release-notes/release-notes-for-previous-releases.md) também estão disponíveis online.
++++Ver detalhes
+Mantenha-se atualizado com as versões de [!DNL Target].
+
+* **Versão mais recente**: confira as [[!DNL Target] notas de versão (atuais)](/help/main/r-release-notes/release-notes.md) para obter detalhes sobre novos recursos, aprimoramentos e correções de erros.
+* **Próximas versões**: visite [[!DNL Target] notas de versão (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) para visualizar o que está por vir.
+* **Versões anteriores**: procure [Notas de versão para versões anteriores](/help/main/r-release-notes/release-notes-for-previous-releases.md) para atualizações e alterações históricas.
+
++++
 
 **O [!DNL Adobe] tem uma Comunidade/Fórum onde eu possa encontrar respostas e mais informações sobre o [!DNL Target]?**
 
-Visite o [Target Community Forum](/help/main/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42), onde ajudamos nossos clientes, mas, principalmente, gostaríamos que praticantes do Adobe Target como você ajudem uns aos outros. Afinal, o sucesso de uma comunidade e de um fórum depende da participação ativa de seus membros. Torne-se parte de uma comunidade e contribua e procure respostas para suas perguntas.
++++Ver detalhes
+Conecte-se com outros profissionais do [!DNL Target] no [Fórum da comunidade do Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=pt){target=_blank}. Compartilhe sua experiência, faça perguntas e colabore com outras pessoas que usam o [!DNL Target] para impulsionar a personalização e a experimentação. Uma comunidade próspera depende de participação ativa. Seus insights e experiências podem ajudar outras pessoas a serem bem-sucedidas. Entre rapidamente, contribua e encontre as respostas necessárias.
+
++++
 
 **A quais navegadores [!DNL Target] oferece suporte?**
 
-Leia a matriz de [Navegadores suportados](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=pt-BR){target=_blank} para obter mais detalhes. Observe que há dois aspectos: o suporte à interface do Target Standard/Premium Experience Cloud e o suporte a navegadores para usuário final em desktops/dispositivos.
++++Ver detalhes
+Leia nossa matriz de [Navegadores suportados](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} para obter mais detalhes. Observe que há dois aspectos: o suporte à interface do [!DNL Target Standard/Premium] e o suporte a navegadores para usuários finais em desktops/dispositivos.
+
++++
 
 ## Atividades {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +179,7 @@ Use os controles de alocação de porcentagem disponíveis na [Etapa 2 do fluxo 
 Veja os seguintes aspectos do produto:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=pt-BR)
+* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Públicos-alvo](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Experiências {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -194,7 +218,7 @@ Você sempre pode usar a [opção Enhanced Experience Composer no nível da ativ
 
 Entre em contato com a Adobe para [garantir que sua conta esteja configurada para o Scene7](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5). Depois de aprovisionado, você será capaz de trocar uma imagem por outra com facilidade.
 
-**Eu desejo testar entre duas experiências diferentes, por exemplo, desconto com valor fixo ou desconto em porcentagem, mas quero direcionar as experiências apropriadamente (mostrar texto local diferente ou moeda diferente para pessoas de países diferentes). Como posso fazer isso?**
+**Eu desejo testar entre duas experiências diferentes, por exemplo, desconto com valor fixo ou desconto em porcentagem, mas quero direcionar as experiências apropriadamente (mostrar texto de localidade diferente ou moeda diferente para pessoas de países diferentes). Como posso fazer isso?**
 
 Você pode fazer isso facilmente com o recurso [Multiple Experience Versions](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF). Observe as nuances relacionadas à entrega nesses testes
 
@@ -252,7 +276,7 @@ Veja os seguintes aspectos do produto:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=pt-BR)
+* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Públicos-alvo](/help/main/c-integrating-target-with-mac/mmp.md)
 
