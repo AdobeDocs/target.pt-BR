@@ -4,10 +4,10 @@ description: Veja uma lista de perguntas frequentes sobre o uso dos recursos do 
 title: Onde posso encontrar respostas a minhas perguntas sobre otimização e personalização?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
+source-git-commit: 2e993336859f096f5685e2929041f83db216d3b8
 workflow-type: tm+mt
-source-wordcount: '2693'
-ht-degree: 70%
+source-wordcount: '2678'
+ht-degree: 56%
 
 ---
 
@@ -55,7 +55,7 @@ Conecte-se com outros profissionais do [!DNL Target] no [Fórum da comunidade do
 **A quais navegadores [!DNL Target] oferece suporte?**
 
 +++Ver detalhes
-Leia nossa matriz de [Navegadores suportados](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=pt-BR){target=_blank} para obter mais detalhes. Observe que há dois aspectos: o suporte à interface do [!DNL Target Standard/Premium] e o suporte a navegadores para usuários finais em desktops/dispositivos.
+Leia nossa matriz de [Navegadores suportados](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} para obter mais detalhes. Observe que há dois aspectos: o suporte à interface do [!DNL Target Standard/Premium] e o suporte a navegadores para usuários finais em desktops/dispositivos.
 
 +++
 
@@ -63,92 +63,132 @@ Leia nossa matriz de [Navegadores suportados](https://experienceleague.adobe.com
 
 **Posso realizar atividades estatisticamente rigorosas para encontrar uma experiência vencedora e uma perdedora ao usar uma experiência de controle?**
 
-Use o [Teste A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) (opção Direcionamento manual) juntamente com a [Calculadora de tamanho da amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5) para obter melhores resultados.
++++Ver detalhes
+Use o [Teste A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) (opção Direcionamento manual) juntamente com a [Calculadora de Tamanho da Amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5) para obter melhores resultados.
+
++++
 
 **Como saberei quando interromper uma atividade?**
 
-Interromper atividades prematuramente pode resultar em conclusões incorretas. Esteja ciente das [armadilhas comuns e garanta práticas para evitá-las](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Consulte também [Por quanto tempo você deve executar um teste A/B](/help/main/c-activities/t-test-ab/sample-size-determination.md)?
++++Ver detalhes
+Interromper atividades prematuramente pode resultar em conclusões incorretas. Esteja ciente das [armadilhas comuns e como evitá-las](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Consulte também [Por quanto tempo você deve executar um teste A/B](/help/main/c-activities/t-test-ab/sample-size-determination.md)?
 
-**Como faço para realizar uma atividade se a janela de tempo for pequena?**
++++
 
-**Posso otimizar minha meta enquanto testo?**
+**Como posso realizar uma atividade se a janela de tempo for pequena e posso otimizar minha meta enquanto testo?**
 
-Use os [relatórios para determinar a experiência vencedora](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9).
++++Ver detalhes
+Consulte [relatórios para determinar a experiência vencedora](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9).
+
++++
 
 **Posso realizar uma atividade com um nível de personalização como parte integrante da atividade?**
 
-Confira a opção [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
++++Ver detalhes
+Confira o tipo de atividade [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+
++++
 
 **Como posso saber qual tipo de atividade é atende melhor às minhas necessidades?**
 
-Leia o [Guia de atividades do Target](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) para entender os cenários em que cada uma das opções fornecidas pelo Adobe Target faz sentido.
++++Ver detalhes
+Leia o [Guia de Atividades do Target](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) para entender os cenários em que cada uma das opções fornecidas por [!DNL Target] faz sentido.
 
 Considere também as [atividades do Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
++++
+
 **Como faço para descobrir quais combinações de elementos na minha página contribuem para seu sucesso e até que ponto cada elemento ajuda?**
 
-Confira as atividades [Multivariadas fatoriais completas (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) com a análise de contribuição do Elemento para ver se atende às suas necessidades.
++++Ver detalhes
+Confira nossas [atividades Multivariadas fatoriais completas (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) com a análise de contribuição do Elemento para ver se atende às suas necessidades.
 
 Observe que o requisito de tráfego aumenta com atividades MVT.
 
-**Posso executar uma atividade abrangendo múltiplas páginas com estruturas diferentes?**
++++
 
-**Posso aplicar ofertas a locais diferentes (por exemplo, o funil de check-out)?**
+**Posso executar uma atividade abrangendo múltiplas páginas com estruturas diferentes? Posso aplicar ofertas a locais diferentes (por exemplo, o funil de check-out)?**
 
-Experimente o recurso de [Atividade multipáginas](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) que permite usar várias páginas nas experiências.
++++Ver detalhes
+Experimente o [recurso de atividade com várias páginas](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) que permite usar várias páginas nas experiências.
+
++++
 
 **Como posso assegurar que uma meta (Primária ou secundária) tenha sido atingida, que um usuário nunca entre na atividade novamente e, ao invés disso, veja uma atividade diferente ao prosseguir?**
 
-Isso é fácil de conseguir usando a opção [Configurações avançadas](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) disponível com cada meta. Você tem opções para decidir o que deve acontecer depois que o usuário atingir a meta e como você deseja que a contagem seja incrementada.
++++Ver detalhes
+É fácil fazer isso usando a opção [Configurações Avançadas](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) disponível com cada meta. Você tem opções para decidir o que deve acontecer depois que o usuário atingir a meta e como você deseja que a contagem seja incrementada.
 
 Então, neste caso, você pode escolher &quot;Incrementar contagem, liberar usuário e impedir reentrada&quot; juntamente com &quot;Conteúdo de outra atividade/atividade padrão&quot; para atingir o objetivo. Verifique também outras opções.
 
-**Eu criei várias metas na minha atividade. Posso criar uma cadeia de metas como um funil para fins de análise e criação de relatórios?**
++++
 
-**Por exemplo, eu desejo considerar a Meta B quando o usuário tiver atingido a Meta A, para que eu possa monitorar os números para um funil específico.**
+**Eu criei várias metas na minha atividade. Posso criar uma cadeia de metas como um funil para fins de análise e criação de relatórios? Por exemplo, eu desejo considerar a Meta B quando o usuário tiver atingido a Meta A, para que eu possa monitorar os números para um funil específico.**
 
-O Target tem uma maneira robusta de atingir isso com nosso recurso de dependência de métrica. Simplesmente [adicione dependências em outra métrica de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Você tem opções como &quot;Atingido&quot; e &quot;Não atingido,&quot; juntamente com a capacidade de combinar métricas de várias formas para criar qualquer combinação que você desejar.
++++Ver detalhes
+O [!DNL Target] tem uma maneira robusta de fazer isso com nosso recurso [!UICONTROL Metrics Dependency]. Simplesmente [adicione dependências em outra métrica de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Você tem opções como &quot;Atingido&quot; e &quot;Não atingido,&quot; juntamente com a capacidade de combinar métricas de várias formas para criar qualquer combinação que você desejar.
+
++++
 
 **Como posso ter certeza sobre como configurar uma atividade para atingir meus objetivos?**
 
-As [metas são inseridas aqui](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC).
++++Ver detalhes
+É aqui que entram as [metas](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC).
 
-Você deve começar por saber o que você deseja otimizar. Isso é receita, conversão ou envolvimento? Cada uma dessas opções está disponível na seção de metas. E, para cada uma delas, você pode definir que ação um usuário tomaria no seu site para qualificar que a meta foi atingida.
+Você deve começar por saber o que você deseja otimizar. É [!UICONTROL Revenue], [!UICONTROL Conversion] ou [!UICONTROL Engagement]? Cada uma dessas opções está disponível na seção de metas. E, para cada uma delas, você pode definir que ação um usuário tomaria no seu site para qualificar que a meta foi atingida.
 
-Isso é possibilitado pela configuração de meta primária na etapa 3 do fluxo de trabalho orientado de três partes. Você também pode adicionar metas, que podem ajudar você a criar relatórios melhores
+Isso é possibilitado pela configuração [!UICONTROL Primary Goal] na Etapa 3 do fluxo de trabalho guiado de três partes. Você também pode adicionar outras metas, o que pode ajudá-lo a melhorar os relatórios.
+
++++
 
 **Posso programar uma atividade para iniciar e encerrar em um horário fixado?**
 
-Use o recurso [Agendamento na etapa Metas e configurações](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) do fluxo de trabalho da atividade de três partes especificando as datas inicial e final.
++++Ver detalhes
+Use o recurso [Agendamento na etapa [!UICONTROL Goals & Settings]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) do fluxo de trabalho da atividade de três partes especificando as datas inicial e final.
 
-Lembre-se de ativar a atividade. Apenas atividades ativas aderem à programação especificada. Depois de atingida a data de encerramento, a atividade vai para o estado Encerrada.
+Lembre-se de ativar a atividade. Apenas atividades ativas aderem à programação especificada. Depois que a data de término é atingida, a atividade entra no estado [!UICONTROL Ended].
+
++++
 
 **Posso fazer uma alteração apenas na etapa [!UICONTROL Targeting] e não percorrer todo o fluxo de trabalho guiado de três etapas para edição?**
 
-Você pode fazer isso com facilidade [ao inserir diretamente a etapa desejada de sua escolha na página Visão geral da atividade](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) e, em seguida, sair dessa etapa usando a opção Salvar e fechar.
++++Ver detalhes
+Você pode fazer isso com facilidade [ao inserir diretamente a etapa desejada de sua escolha na [!UICONTROL Activity Overview] página](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) e, em seguida, sair dessa etapa usando a opção [!UICONTROL Save and Close].
+
++++
 
 **Posso ficar em uma etapa específica, continuar modificando a atividade (texto da oferta ou código personalizado, por exemplo) e realizar o QA em outra guia?**
 
-Isso também é possível. Basta [usar a opção Salvar para fazer alterações incrementais sem sair da etapa](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
++++Ver detalhes
+Isso é possível. Basta [usar a opção [!UICONTROL Save] para fazer alterações incrementais sem sair da etapa](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+
++++
 
 **Como posso visualizar e fazer QA de uma atividade que acabei de criar?**
 
++++Ver detalhes
 Use nosso [poderoso recurso de Modo de QA](/help/main/c-activities/c-activity-qa/activity-qa.md) para executar o QA. Você pode compartilhar links com sua equipe de QA e também testar a atividade de ponta a ponta, incluindo a criação de relatórios, para assegurar que, depois que a atividade estiver sendo realizada, ela funcione como pretendido e testado.
+
++++
 
 **Como posso usar o poder de decisão do [!DNL Target] para receber uma experiência/oferta que possa ser usada em aplicativos de página única (SPAs) ou integrações no lado do servidor?**
 
-Use o poder das [atividades baseadas em formulário](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) com [ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) para atender à sua meta.
++++Ver detalhes
+Use o poder das [atividades baseadas em formulário](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) com [ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) para atingir sua meta.
 
-**Eu configurei duas atividades. Como sei qual delas um visitante acabará visualizando?**
++++
 
 **Posso definir a ordem de prioridade para algumas atividades?**
 
-Use a configuração de prioridade disponível na etapa 3 do fluxo de trabalho orientado do Target (Página Metas e configurações) para [definir a prioridade das atividades](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
++++Ver detalhes
+Use a configuração [!UICONTROL Priority] disponível na Etapa 3 do fluxo de trabalho guiado de três partes do [!DNL Target] (página Metas e Configurações) para [definir a prioridade das atividades](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
 
 Existem duas opções:
 
 * Padrão, com três níveis (Baixo/Médio/Alto)
-* Personalizada, com um intervalo entre 0 e 999. Para Personalizar, ative o recurso Prioridades otimizadas (Administração > Visual Experience Composer).
+* Personalizada, com um intervalo entre 0 e 999. Para Personalizado, habilite o recurso [!UICONTROL Fine-Grained Priorities] ([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]).
+
++++
 
 ## Públicos-alvo {#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -179,7 +219,7 @@ Use os controles de alocação de porcentagem disponíveis na [Etapa 2 do fluxo 
 Veja os seguintes aspectos do produto:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=pt-BR)
+* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Públicos-alvo](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Experiências {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -276,7 +316,7 @@ Veja os seguintes aspectos do produto:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=pt-BR)
+* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Públicos-alvo](/help/main/c-integrating-target-with-mac/mmp.md)
 
