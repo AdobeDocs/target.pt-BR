@@ -4,9 +4,9 @@ description: Saiba mais sobre os cálculos estatísticos usados nas atividades m
 title: Como posso obter mais informações sobre os cálculos estatísticos usados nas atividades de [!UICONTROL A/B Test]?
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: bb95d160940737e23022d70cbe56567f79cbf255
+source-git-commit: 18f8ccd3edfda635c3f47bd67ff0b7a516748fa8
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1143'
 ht-degree: 2%
 
 ---
@@ -50,6 +50,8 @@ Aqui,
 O intervalo de confiança da taxa de conversão é intuitivamente definido como um intervalo de taxas de conversão possíveis consistente com os dados subjacentes.
 
 Ao executar experimentos, o índice de conversão para uma determinada experiência é uma *estimativa* do índice de conversão &quot;verdadeiro&quot;. Para quantificar a incerteza nesta estimativa, [!DNL Target] usa um intervalo de confiança. [!DNL Target] sempre relata um intervalo de confiança de 95%, o que significa que, no final, 95% dos intervalos de confiança calculados incluem o verdadeiro índice de conversão da experiência.
+
+Um número de &quot;Confiança&quot; também é relatado ao lado da experiência principal ou vencedora no momento. Este número é relatado somente até que a [!UICONTROL Confidence] da experiência principal atinja pelo menos 60%. Se duas experiências estiverem presentes na atividade, esse número representará o nível de confiança de que a experiência está tendo um desempenho melhor do que a outra experiência. Se mais de duas experiências estiverem presentes na atividade, esse número representará o nível de confiança de que a experiência está tendo um desempenho melhor do que a experiência de &quot;Controle&quot; definida. Se a experiência de &quot;Controle&quot; estiver ganhando, nenhum valor de &quot;Confiança&quot; será relatado.
 
 Um intervalo de confiança de 95% da taxa de conversão *μ<sub>ν</sub>* é definido como o intervalo de valores:
 
@@ -111,11 +113,11 @@ A estatística *t* é definida como a diferença entre as médias de quaisquer d
 
 <p style="text-align:center;"><img width="100px" src="img/t_value.png"></p>
 
-Onde *μ<sub>v</sub>* e *μ<sub>v0</sub>* são os meios de *ν* e *ν<sub>0{10 μ{12 μ<sub>, respectivamente, e o erro padrão da diferença entre*&#x200B;µ}v </sub>*e*&#x200B;µ}v0 </sub>*é dado por:</sub>*<sub>
+Onde *μ<sub>v</sub>* e *μ<sub>v0</sub>* são os meios de *ν* e *ν<sub>0{10 μ{12 μ</sub>*, respectivamente, e o erro padrão da diferença entre *µ}v<sub> e</sub>*&#x200B;µ}v0 *é dado por:<sub></sub>*
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Onde *σ<sup>2</sup><sub>v</sub>* e *σ<sup>2</sup><sub>v<sub>0</sub></sub>* são as variações de duas experiências *ν* e *ν<sub>0{13 ν{22 ν<sub>0</sub>*, respectivamente, e *N<sub>v</sub>* e *N<sub>v<sub>0</sub></sub>* são tamanhos de amostra para *µ} e*&#x200B;µ}, respectivamente.</sub>**
+Onde *σ<sup>2</sup><sub>v</sub>* e *σ<sup>2</sup><sub>v<sub>0</sub></sub>* são as variações de duas experiências *ν* e *ν<sub>0{13 ν{22 ν</sub>* 0 *, respectivamente, e <sub>N</sub>* v *e <sub>N<sub>v</sub></sub>* 0 *são tamanhos de amostra para*&#x200B;µ} e *µ}, respectivamente.<sub></sub>*
 
 Para o teste t de Welch, o grau de liberdade é calculado do seguinte modo:
 
