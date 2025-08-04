@@ -4,9 +4,9 @@ description: Perguntas e respostas sobre a interface do usuário do  [!DNL Targe
 title: Onde posso encontrar perguntas frequentes sobre a interface do usuário do  [!DNL Target] atualizada?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
+source-git-commit: 91059ceb8cc0fd4e7aa72f347ffd1584999ed264
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,35 @@ O [!DNL Target] não oferece a opção de atrasar ou personalizar o tempo das mi
 Há várias limitações no uso da versão da interface do usuário, incluindo a visibilidade de novas atividades, a edição de atividades existentes e a consistência dos detalhes da atividade.
 
 Para obter mais informações, consulte [Atualizações sensíveis ao tempo que você precisa saber](/help/main/r-release-notes/release-notes.md#time-sensitive).
+
++++
+
+## Como o VEC atualizado lida com as opções de reorganizar, redimensionar, mover, ocultar e remover e como essas opções diferem do VEC herdado? {#options}
+
++++Detalhes
+**[!UICONTROL Rearrange*]*: no VEC herdado, a opção de reorganizar usava uma sobreposição para permitir que os usuários reposicionassem um elemento em seu grupo irmão. O movimento limitou-se a mudar a ordem entre os elementos irmãos.
+
+No VEC atualizado, essa funcionalidade é simplificada por meio de ações de avançar e retroceder. Esses controles ajustam a posição de um elemento no layout, tanto horizontal quanto verticalmente, deslocando-o para frente ou para trás na ordem de empilhamento.
+
+**Redimensionar**: o recurso [!UICONTROL Resize] está localizado no painel [!UICONTROL Properties], na seção [!UICONTROL Size]. Os usuários podem ajustar diretamente a largura e a altura de um elemento. As configurações avançadas incluem:
+
+* Controles de largura e altura mín./máx.
+* Configurações de comportamento de estouro.
+* Opções de ajuste de objeto para elementos de mídia
+
+Essas ferramentas fornecem controle preciso sobre as dimensões do elemento e o comportamento do layout.
+
+**Mover**: a opção [!UICONTROL Move] é encontrada no painel [!UICONTROL Properties] na seção [!UICONTROL Position]. Essa opção permite que os usuários:
+
+* Definir a posição do elemento (por exemplo, absoluta, relativa, fixa)
+* Definir o índice z para camadas
+* Escolher um tipo de posicionamento
+
+O painel [!UICONTROL Properties] atualizado também oferece suporte a estilos em linha personalizados, oferecendo flexibilidade quando as opções predefinidas não atenderem às necessidades de layout.
+
+**[!UICONTROL Hide]**: O recurso [!UICONTROL Hide] está localizado no painel [!UICONTROL Properties]. Depois de selecionar um elemento, clique em [!UICONTROL Hide Element] para removê-lo da exibição sem excluí-lo. Isso é útil para gerenciar a visibilidade durante o design ou a pré-visualização.
+
+**[!UICONTROL Remove]**: O recurso [!UICONTROL Remove] pode ser acessado por meio do painel [!UICONTROL Properties]. Depois de selecionar um elemento, clique em Remover elemento para excluí-lo da página. Essa ação remove permanentemente o elemento do layout.
 
 +++
 
