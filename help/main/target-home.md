@@ -4,10 +4,10 @@ title: Guia do profissional de negócios do Adobe Target
 description: Saiba como usar o Adobe  [!DNL Target]  para personalizar a experiência de seus clientes a fim de maximizar a receita em seus sites, aplicativos e outros canais digitais.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 91059ceb8cc0fd4e7aa72f347ffd1584999ed264
+source-git-commit: bc5be9a922c5c853c3fb466102cb8fb622e4494e
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 26%
+source-wordcount: '648'
+ht-degree: 27%
 
 ---
 
@@ -29,23 +29,11 @@ A equipe do [!DNL Target] ajustou a linha do tempo para a desativação da vers�
 
 >[!TAB Novidades?]
 
-**Atualização das informações sobre a desativação da versão da interface do usuário**
-
-A equipe do [!DNL Target] ajustou a linha do tempo para a desativação da versão da interface do usuário.
-
-[![Ícone Saiba mais](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
-
-**O Target 25.7.3 está ativo!**
+**O Target 25.7.4 está ativo!**
 
 Esta versão do está focada em correções e aprimoramentos na interface do usuário do [!DNL Target] e do [!UICONTROL Visual Experience Composer] (VEC) atualizados.
 
 [![Ícone Saiba mais](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
-
-Perguntas frequentes sobre atualização da interface do **[!DNL Target]**
-
-Estas Perguntas Frequentes abordam perguntas comuns sobre a nova interface do usuário do [!DNL Target] e do [!UICONTROL Visual Experience Composer] (VEC), incluindo alterações de navegação, locais de recursos e a desativação da opção de versão temporária da interface do usuário. Seja você um profissional de marketing, desenvolvedor ou administrador, essas Perguntas frequentes ajudarão a fazer a transição descomplicada e a aproveitar ao máximo a interface atualizada.
-
-[![Ícone Saiba mais](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
 >[!TAB Interface do Usuário de Destino Atualizada]
 
@@ -54,6 +42,12 @@ Estas Perguntas Frequentes abordam perguntas comuns sobre a nova interface do us
 A interface foi projetada para oferecer clareza e eficiência, ajudando você a obter o máximo do [!DNL Target]. Explore recursos para ajudá-lo a se atualizar rapidamente, com links diretos para artigos detalhados e instruções passo a passo.
 
 [![Ícone Saiba mais](/help/main/assets/learn-more.svg)](/help/main/c-intro/understand-the-target-ui.md)
+
+*[!DNL *Targe]t Perguntas frequentes sobre atualização da interface do usuário**
+
+Estas Perguntas Frequentes abordam perguntas comuns sobre a nova interface do usuário do [!DNL Target] e do [!UICONTROL Visual Experience Composer] (VEC), incluindo alterações de navegação, locais de recursos e a desativação da opção de versão temporária da interface do usuário. Seja você um profissional de marketing, desenvolvedor ou administrador, essas Perguntas frequentes ajudarão a fazer a transição descomplicada e a aproveitar ao máximo a interface atualizada.
+
+[![Ícone Saiba mais](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
 >[!TAB Assistente de IA]
 
