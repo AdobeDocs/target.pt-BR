@@ -21,7 +21,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 
 | Data | Tópico | Alterações |
 |--- |--- |--- |
-| 5 de agosto | [SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} | Todos os artigos do *Adobe Experience Platform Web SDK* do guia *Coleção de dados* foram movidos para consolidar todas as informações relacionadas ao [!DNL Target] em um único guia de desenvolvedores. Isso ajuda a manter o conteúdo organizado e mais fácil de consultar. |
+| 5 de agosto | [SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} | Todos os artigos do *Adobe Experience Platform Web SDK* do guia *Coleção de dados* foram movidos para consolidar todas as informações relacionadas ao [!DNL Target] em um único guia de desenvolvedores. Isso ajuda a manter o conteúdo organizado e mais fácil de consultar. |
 | 4 de agosto | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.7.4 do [!DNL Target Standard/Premium]. |
 |  | [[!DNL Target] Perguntas frequentes sobre atualização da interface do usuário](/help/main/c-intro/updated-ui-faq.md#options) | Adição das seguintes perguntas frequentes: &quot;Como o VEC atualizado lida com as opções de reorganizar, redimensionar, mover, ocultar e remover e como essas opções diferem do VEC herdado?&quot; |
 | 29 de julho | [Editar uma atividade](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6) | Atualize a seção Públicos e ofertas em *Copiar/editar uma atividade ao usar espaços de trabalho*. |
