@@ -4,9 +4,9 @@ description: Saiba mais sobre as diferentes maneiras de editar uma atividade exi
 title: Como editar uma atividade?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 53bac4b1e778fb760a37e7287e0d8dbbe3a56b47
+source-git-commit: b46ff78a9145e2e837a849d72adc4a7fb8797d00
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '962'
 ht-degree: 22%
 
 ---
@@ -75,7 +75,7 @@ Leve em consideração as seguintes informações ao usar a funcionalidade de co
 
         Para resolver esse problema, clique em [!UICONTROL Add/Remove] para que somente as propriedades disponíveis no espaço de trabalho de destino sejam exibidas para seleção.
 
-   * **Públicos-alvo e ofertas**: ao copiar uma atividade para um novo espaço de trabalho, todos os públicos-alvo e ofertas associados do espaço de trabalho original são duplicados usando o formato: `Entity Name Copy <Date>`.
+   * **Públicos-alvo e ofertas**: ao copiar uma atividade para um novo espaço de trabalho, todos os [!DNL Target] públicos-alvo e ofertas ad hoc associados do espaço de trabalho original são duplicados usando o formato: `<Entity Name> Copy <Date>` para [!DNL Target] públicos-alvo e para ofertas ad hoc `<Entity Name>`.
 
      Detalhes de comportamento:
 
@@ -85,9 +85,9 @@ Leve em consideração as seguintes informações ao usar a funcionalidade de co
 
      Esse processo garante uma duplicação mais suave de atividades entre espaços de trabalho, mantendo a flexibilidade para personalização.
 
-     Ao copiar uma atividade, os públicos-alvo combinados, os públicos-alvo que não são de destino e as ofertas que não são salvas no espaço de trabalho atual ou no espaço de trabalho padrão devem ser substituídos manualmente.
+     Ao copiar uma atividade, os públicos-alvo que não são de destino e as ofertas que não são salvas no espaço de trabalho atual ou no espaço de trabalho padrão devem ser substituídos manualmente.
 
-     A substituição manual desses públicos-alvo combinados, públicos-alvo que não são de direcionamento e ofertas garante que apenas entidades válidas e acessíveis sejam usadas na atividade copiada e evita erros durante a edição ou o delivery.
+     A substituição manual desses públicos-alvo que não são de destino e ofertas garante que apenas entidades válidas e acessíveis sejam usadas na atividade copiada e evita erros durante a edição ou o delivery.
 
      ![Mensagem de aviso](/help/main/c-activities/assets/copy.png)
 
