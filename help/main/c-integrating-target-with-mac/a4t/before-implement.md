@@ -4,10 +4,10 @@ description: Saiba mais sobre os requisitos de implementação do Analytics for 
 title: O Que Devo Saber Antes De Implementar O A4T?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 656f728ba890f1f5afc0404e22f6acb1a2565fe6
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 23%
+source-wordcount: '957'
+ht-degree: 24%
 
 ---
 
@@ -19,13 +19,13 @@ Antes de decidir usar essa integração, analise as seções a seguir e consider
 
 >[!NOTE]
 >
->Este artigo se aplica somente às implementações da at.js.
+>Este artigo se aplica somente às implementações da at.js. Para obter informações sobre como implementar o [!UICONTROL Analytics for Target] (A4T) com o [!DNL Adobe Experience Platform Web SDK], consulte o log do [Adobe Analytics for Target (A4T) no Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html){target=_blank}.
 
 ## Requisitos de implementação {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
 >[!IMPORTANT]
 >
->Antes de começar a usar o A4T, você deve solicitar que sua conta seja provisionada para a integração. Use o [Formulário de Provisionamento de Integrações do Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} para solicitar o provisionamento.
+>Antes de começar a usar o A4T, você deve solicitar que sua conta seja provisionada para a integração. Use o [Formulário de provisionamento de Integrações do Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} para solicitar o provisionamento.
 
 Essa integração do A4T requer que você implemente as seguintes versões de biblioteca (ou mais recentes), dependendo se deseja ou não usar ofertas de redirecionamento com o A4T.
 
@@ -83,7 +83,7 @@ O aumento da latência começa após a implementação do serviço de ID de visi
 
 Todas as chamadas [!DNL Target] usadas por uma atividade do A4T para fornecer conteúdo ou registrar a métrica de meta devem ter uma ocorrência [!DNL Analytics] correspondente que compartilhe a ID complementar do A4T para funcionar corretamente.
 
-Ocorrências que contêm dados de [!DNL Analytics] e [!DNL Target] contêm uma ID de dados complementar. Você pode ver esta ID no [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=pt-BR) como o parâmetro `sdid`. Por exemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Esta ID é gerada a qualquer momento em que os seguintes critérios estiverem em vigor:
+Ocorrências que contêm dados de [!DNL Analytics] e [!DNL Target] contêm uma ID de dados complementar. Você pode ver esta ID no [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) como o parâmetro `sdid`. Por exemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Esta ID é gerada a qualquer momento em que os seguintes critérios estiverem em vigor:
 
 * O serviço de ID de visitante for implementado
 
@@ -101,8 +101,8 @@ Ao preencher o [Formulário de provisionamento de Integrações do Marketing Clo
 
 ![Formulário de solicitação](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
-Ao solicitar o [!UICONTROL Shared Audiences], você habilita o [!UICONTROL Target] e o [!UICONTROL Adobe Audience Manager] (AAM) para compartilhar informações, neste caso, públicos-alvo.
+Ao solicitar o [!UICONTROL Shared Audiences], você habilita o [!UICONTROL Target] e o [!UICONTROL Adobe Audience Manager] (AAM) a compartilhar informações, neste caso, públicos-alvo.
 
 >[!IMPORTANT]
 >
->Essa integração entre o [!UICONTROL Target] e o AAM vem com custos extras. Você é cobrado por cada chamada [!UICONTROL Target] no AAM.
+>Essa integração entre o [!UICONTROL Target] e o AAM traz custos extras. Você é cobrado por cada chamada [!UICONTROL Target] no AAM.
