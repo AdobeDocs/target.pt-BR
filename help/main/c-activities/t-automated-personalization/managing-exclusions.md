@@ -1,59 +1,21 @@
 ---
-keywords: deduplicação;permitir duplicatas;excluir ofertas duplicadas;personalização automatizada;não permitir ofertas duplicadas;excluir;conteúdo padrão;grupo de exclusão;
+keywords: deduplicação;permitir duplicatas;excluir ofertas duplicadas;personalização automatizada;não permitir ofertas duplicadas;excluir;conteúdo padrão;
 description: Gerenciar exclusões nas atividades de [!UICONTROL Automated Personalization] (AP).
 title: Como gerenciar exclusões em atividades de [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+source-git-commit: c5016d212edafa908b8755044e73d28167e20e8a
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 41%
+source-wordcount: '652'
+ht-degree: 37%
 
 ---
 
 # Gerenciar exclusões
 
-Gerencie exclusões criando grupos de exclusão e excluindo ofertas duplicadas, experiências específicas e o conteúdo padrão nas atividades de [!UICONTROL Automated Personalization] (AP) em [!DNL Adobe Target].
-
-## Criar grupos de exclusão {#task_AAAA6C7239A84F7696C8492F04B575A2}
-
-Crie grupos de exclusão em atividades de [!UICONTROL Automated Personalization] (AP) para garantir que as experiências com as ofertas designadas sejam excluídas automaticamente.
-
-Os grupos de exclusão são uma maneira excelente de garantir que as ofertas incompatíveis não sejam apresentadas na mesma experiência em diferentes locais. Por exemplo, suponha que você tenha duas ofertas: uma é para um desconto de 20% para todas as mercadorias e a outra é para um desconto de 15%. Você nunca quer que essas duas ofertas sejam apresentadas aos visitantes na mesma experiência. Se você adicionar essas duas ofertas a um grupo de exclusão, poderá garantir que essa situação nunca seja o caso.
-
-Você também pode limitar quais públicos-alvo podem ver as ofertas específicas nas atividades de AP. Para obter mais informações, consulte [Ofertas de Personalização automatizada do Target](/help/main/c-activities/t-automated-personalization/ap-target-offers.md).
-
-**Para criar um grupo de exclusão:**
-
-1. Ao [criar ou editar uma atividade de AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), clique no ícone **[!UICONTROL Manage Content]** ( ![Ícone Gerenciar conteúdo](/help/main/assets/icons/Experience.svg) ).
-
-   A caixa de diálogo [!UICONTROL Manage Content] é exibida.
-
-1. Clique na guia **[!UICONTROL Experiences]**.
-
-1. Na caixa de diálogo [!UICONTROL Manage Content], clique em **[!UICONTROL Exclusion Groups]**.
-
-   ![Caixa de diálogo Gerenciar conteúdo > Grupos de exclusão](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
-
-   Se você criou previamente os grupos de exclusão, eles são exibidos na lista. Se você ainda não criou um grupo de exclusão, será solicitado a criar um.
-
-1. Clique em **[!UICONTROL Create Exclusion Group.]**
-
-   ![Caixa de diálogo Criar grupo de exclusão](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create_dialog-new.png)
-
-1. (Obrigatório) Especifique um nome descritivo para o grupo de exclusão.
-
-   Um nome descritivo ajuda você e outras pessoas a localizarem e compreenderem rapidamente o propósito de um grupo.
-
-1. Localize e selecione as ofertas desejadas que deseja adicionar ao grupo de exclusão.
-
-   Você pode selecionar várias ofertas do mesmo local em um grupo de exclusão.
-
-1. Clique em **[!UICONTROL Save]**.
-
-As ofertas no grupo de exclusão são excluídas automaticamente das mesmas experiências a partir de agora.
+Gerencie exclusões excluindo ofertas duplicadas, experiências específicas e o conteúdo padrão nas atividades de [!UICONTROL Automated Personalization] (AP) em [!DNL Adobe Target].
 
 ## Excluir ofertas duplicadas {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
@@ -61,7 +23,7 @@ Evite que as ofertas da biblioteca de ofertas sejam duplicadas quando usadas em 
 
 Você pode ter uma atividade, por exemplo, seis locais na página com 12 ofertas. Há uma chance de que a mesma oferta possa ser colocada em um ou mais locais na atividade. Esse recurso evita a exibição e ofertas duplicadas ao mesmo tempo em locais diferentes, dentro da mesma atividade.
 
-Clique na opção de engrenagem **[!UICONTROL Configure]** > **[!UICONTROL Duplicate Offers]** e clique em **[!UICONTROL Allow Duplicates]** ou **[!UICONTROL Disallow Duplicates]**.
+Clique no ícone **[!UICONTROL Configure]** > **[!UICONTROL Duplicate Offers]** e clique em **[!UICONTROL Allow Duplicates]** ou **[!UICONTROL Disallow Duplicates]**.
 
 ![Opções de ofertas duplicadas](/help/main/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
@@ -79,7 +41,7 @@ Pode haver determinadas combinações que não funcionam juntas ou você pode es
 
 1. Exclua as experiências, conforme desejado.
 
-   Você pode excluir as experiências específicas ao passar o cursor do mouse sobre a experiência desejada e clicar no ícone de exclusão.
+   Você pode excluir as experiências específicas ao passar o mouse sobre a experiência desejada e clicar no ícone de exclusão.
 
    ![Excluir experiência ao passar o cursor do mouse](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
