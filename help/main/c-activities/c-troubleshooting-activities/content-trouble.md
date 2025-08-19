@@ -111,7 +111,7 @@ Com o depurador da Adobe Experience Cloud é mais rápido e fácil entender a im
 
 Para obter mais informações, consulte os vídeos de treinamento abaixo:
 
-Para obter informações mais detalhadas, consulte [Depurar at.js usando o Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
+Para obter informações mais detalhadas, consulte [Depurar at.js usando o Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=pt-BR){target=_blank}.
 
 ## Os melhores vendedores não aparecem no Recommendations  {#section_3920C857270A406C80BE6CBAC8221ECD}
 

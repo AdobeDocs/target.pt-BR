@@ -50,7 +50,7 @@ Para definir o ambiente padrão para relatório:
 >
 >[!DNL Recommendations]Os usuários do devem recriar sua base de dados comportamental e a base de dados de produtos se os hosts alternarem os grupos de host.
 >
->Se você especificar um [ambiente padrão em uma [!DNL Adobe Experience Platform] sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, esta configuração substituirá a configuração em [!DNL Target].
+>Se você especificar um [ambiente padrão em uma [!DNL Adobe Experience Platform] sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=pt-BR#target){target=_blank}, esta configuração substituirá a configuração em [!DNL Target].
 
 ## Alterar o nome de um ambiente {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

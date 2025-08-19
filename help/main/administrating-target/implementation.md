@@ -24,4 +24,4 @@ Para obter mais informações, consulte os vários tópicos em [Implementar o Ta
 
 1. Para acessar a página [!UICONTROL Implementation], clique em **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
-1. Para obter informações aplicáveis às configurações desta página, consulte [Implementar o Target sem um gerenciador de tags](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
+1. Para obter informações aplicáveis às configurações desta página, consulte [Implementar o Target sem um gerenciador de tags](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=pt-BR){target=_blank}.

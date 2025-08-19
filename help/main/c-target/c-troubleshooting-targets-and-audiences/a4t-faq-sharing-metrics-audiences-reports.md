@@ -20,7 +20,7 @@ Este tópico contém respostas para as perguntas mais frequentes sobre compartil
 +++Resposta
 Geralmente, você deseja criar uma visualização de um teste para diferentes grupos de usuários para facilitar a análise dos resultados do teste. No Analytics, é possível criar um marcador que salve a exibição atual de um relatório, incluindo métricas, intervalos de datas, segmentos e outros dados.
 
-Para obter mais informações, consulte [Gerenciador de marcadores](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html).
+Para obter mais informações, consulte [Gerenciador de marcadores](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html?lang=pt-BR).
 
 +++
 
@@ -29,6 +29,6 @@ Para obter mais informações, consulte [Gerenciador de marcadores](https://expe
 +++Resposta
 Se você estiver usando métricas e segmentos especiais com um teste, considere a possibilidade de criar um grupo de usuários para sua equipe de otimização. Compartilhe essas métricas e segmentos com o grupo em vez de membros individuais para garantir que todos tenham acesso aos segmentos e métricas. Apenas administradores podem compartilhar com grupos.
 
-Consulte [Compartilhando segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) e [Compartilhando métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
+Consulte [Compartilhando segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html?lang=pt-BR) e [Compartilhando métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html?lang=pt-BR).
 
 +++

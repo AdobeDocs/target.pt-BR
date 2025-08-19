@@ -33,4 +33,4 @@ O Portal do desenvolvedor inclui informações sobre os seguintes tipos de imple
 * APIs de relatórios.
 * APIs de recomendação.
 
-Para obter mais informações, consulte [Visão geral da API do Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank} no [Guia do Desenvolvedor do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
+Para obter mais informações, consulte [Visão geral da API do Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=pt-BR){target=_blank} no [Guia do Desenvolvedor do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=pt-BR){target=_blank}.

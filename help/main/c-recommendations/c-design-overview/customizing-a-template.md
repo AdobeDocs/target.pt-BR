@@ -2,7 +2,7 @@
 keywords: design personalizado;velocity;decimal;vírgula;personalizar design
 description: Saiba como usar a linguagem de design de código aberto [!DNL Velocity] para personalizar designs de recomendação no [!DNL Target] Recommendations.
 title: Como personalizar um design usando o Velocity?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76

@@ -20,7 +20,7 @@ A integração A4T permite:
 * Use o recurso de bandit de vários braços do [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) para direcionar tráfego para experiências vencedoras.
 * Use o algoritmo de aprendizado de máquina do conjunto de [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) para escolher a melhor experiência para cada visitante. O [!UICONTROL Auto-Target] escolhe a melhor experiência com base no perfil, comportamento e contexto de cada usuário, tudo isso usando uma métrica de meta [!DNL Adobe Analytics] e os recursos avançados de relatório e análise do [!DNL Adobe Analytics].
 
-Verifique se você implementou o [A4T para uso com atividades de Teste A/B e Direcionamento de experiência](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Se você usar `analyticsLogging = client_side`, também deverá passar o valor `sessionId` para [!DNL Analytics]. Para obter mais informações, consulte [Relatórios do Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} no *Guia do Desenvolvedor do Adobe Target*.
+Verifique se você implementou o [A4T para uso com atividades de Teste A/B e Direcionamento de experiência](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Se você usar `analyticsLogging = client_side`, também deverá passar o valor `sessionId` para [!DNL Analytics]. Para obter mais informações, consulte [Relatórios do Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=pt-BR){target=_blank} no *Guia do Desenvolvedor do Adobe Target*.
 
 Para começar:
 
@@ -132,7 +132,7 @@ Algumas limitações e observações se aplicam às atividades [!UICONTROL Auto-
 
 * Ao usar [!DNL Analytics] como fonte de dados para uma atividade [!UICONTROL Auto-Target], as sessões terminam após seis horas. As conversões que ocorrem após seis horas não são contadas.
 
-Para obter mais informações, consulte [Modelos de atribuição e janelas de pesquisa](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) no *Guia de Ferramentas do Analytics*.
+Para obter mais informações, consulte [Modelos de atribuição e janelas de pesquisa](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=pt-BR) no *Guia de Ferramentas do Analytics*.
 
 ## Tutoriais
 

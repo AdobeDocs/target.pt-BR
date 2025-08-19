@@ -2,7 +2,7 @@
 keywords: visualização de experiência, urls de experiências, gerar urls, ver urls de experiências
 description: Saiba como usar as URLs de visualização de experiência para atividades do Adobe [!DNL Target] Automated Personalization e ver o conteúdo da experiência diretamente no seu site antes da atividade estar ativa.
 title: Como posso usar os URLS de visualização de experiência nas atividades do Automated Personalization?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3

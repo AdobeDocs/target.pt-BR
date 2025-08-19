@@ -135,7 +135,7 @@ Selecione o ambiente (grupo de hosts) a ser usado para o relatório. Para obter 
 
 >[!NOTE]
 >
->Se sua organização estiver usando o [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) para enviar dados de métricas para [!DNL Target], o ambiente na sequência de dados do AEP deverá corresponder ao ambiente nas configurações de relatório do [!DNL Target].
+>Se sua organização estiver usando o [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR){target=_blank} (AEP) para enviar dados de métricas para [!DNL Target], o ambiente na sequência de dados do AEP deverá corresponder ao ambiente nas configurações de relatório do [!DNL Target].
 
 ### Redefinir dados do relatório
 

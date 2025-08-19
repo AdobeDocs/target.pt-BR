@@ -86,7 +86,7 @@ A ilustração a seguir mostra os ícones de flutuação ao visualizar o [!UICON
 
 Este vídeo inclui informações sobre o gerenciamento de conteúdo. (4:56)
 
-* Conexão entre a [biblioteca de ativos da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) e a biblioteca de conteúdo do Target
+* Conexão entre a [biblioteca de ativos da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=pt-BR) e a biblioteca de conteúdo do Target
 * Ofertas HTML personalizadas
 * Ofertas HTML personalizadas no Visual Experience Composer
 

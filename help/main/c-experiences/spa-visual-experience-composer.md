@@ -25,17 +25,17 @@ O VEC do Adobe Target para SPAs utiliza um novo conceito chamado Exibições: um
 
 Para explicar mais sobre o que são Exibições, vamos navegar neste site de comércio eletrônico online hipotético implementado no React e explorar alguns exemplos de Exibições. Clique nos links abaixo para abrir este site em uma nova aba do navegador.
 
-**Link: [Site Residencial](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
+**Link: [Site Residencial](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/)**
 
 ![site inicial](/help/main/c-experiences/assets/home.png)
 
 Quando navegamos para o site inicial, é possível visualizar imediatamente uma imagem hero que promove uma venda de Páscoa e os produtos mais recentes à venda no site. Nesse caso, uma Exibição pode ser definida como todo o site inicial. Isso é útil para observar como expandiremos mais isso na seção Implementação de exibições do Adobe Target abaixo.
 
-**Link: [Site do Produto](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
+**Link: [Site do Produto](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products)**
 
 ![site do produto](/help/main/c-experiences/assets/product-site.png)
 
-Conforme o interesse nos produtos aumenta, decidimos clicar no link Produtos. Assim como o site inicial, a totalidade do site de produtos pode ser definida como uma Exibição. É possível nomear os &quot;produtos&quot; dessa exibição como o nome do caminho em `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products`.
+Conforme o interesse nos produtos aumenta, decidimos clicar no link Produtos. Assim como o site inicial, a totalidade do site de produtos pode ser definida como uma Exibição. É possível nomear os &quot;produtos&quot; dessa exibição como o nome do caminho em `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products`.
 
 ![site do produto 2](/help/main/c-experiences/assets/product-site-2.png)
 
@@ -45,7 +45,7 @@ No início desta seção, definimos Exibições como o site inteiro ou até mesm
 
 Decidimos clicar no botão Carregar mais para explorar mais produtos no site. Nesse caso, o URL do site não é alterado. Entretanto, uma Exibição aqui pode representar apenas a segunda linha de produtos mostrados acima. O nome da exibição pode ser chamado de &quot;PRODUCTS-PAGE-2&quot;.
 
-**Link: [Check-out](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+**Link: [Check-out](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/checkout)**
 
 ![página de checkout](/help/main/c-experiences/assets/checkout.png)
 
@@ -67,7 +67,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    Baixe a at.js 2.x pela interface do usuário do Adobe Target localizada em [!UICONTROL Administration > Implementation]. A at.js 2.x também pode ser implantada por meio de tags na [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=pt-BR){target=_blank}. No entanto, as extensões do Adobe Target não estão atualizadas e não são compatíveis no momento.
 
-1. Implemente a função mais recente da at.js 2.x: [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} em seus sites.
+1. Implemente a função mais recente da at.js 2.x: [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html?lang=pt-BR){target=_blank} em seus sites.
 
    Após definir as Exibições de SPA, onde deseja executar um teste A/B ou XT, implemente a função `triggerView()` da at.js 2.x com as Exibições passadas como parâmetro. Isso permite que os profissionais de marketing usem o VEC para projetar e executar os testes A/B e XT para essas Exibições definidas. Se a função `triggerView()` não estiver definida para essas Exibições, o VEC não detectará as Exibições e, portanto, os profissionais de marketing não poderão usar o VEC para projetar e executar testes A/B.
 
@@ -81,7 +81,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    Agora vamos analisar alguns exemplos de casos de uso de como invocar a função `triggerView()` no React para nosso SPA hipotético de comércio eletrônico:
 
-   **Link: [Site Residencial](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
+   **Link: [Site Residencial](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/)**
 
    ![home-react-1](/help/main/c-experiences/assets/react1.png)
 
@@ -112,7 +112,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Link: [Site de Produtos](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
+   **Link: [Site de Produtos](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products)**
 
    Agora, vejamos um exemplo que é um pouco mais complicado. Digamos que, como profissionais de marketing, gostaríamos de personalizar a segunda linha dos produtos alterando a cor do rótulo de preço para vermelho, depois que um usuário clicou no botão Carregar mais.
 
@@ -141,7 +141,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
    }
    ```
 
-   **Link: [Check-out](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+   **Link: [Check-out](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/checkout)**
 
    ![checkout do react](/help/main/c-experiences/assets/react6.png)
 
@@ -354,7 +354,7 @@ Se você quiser usar atividades A/B de Direcionamento automático, mova todas as
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Sim |
 | [Públicos-alvo da Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md) | Sim |
-| [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | Sim |
+| [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=pt-BR){target=_blank} | Sim |
 | [Fragmentos de experiência do AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Sim |
 
 ## Recursos compatíveis {#supported-features}
@@ -389,10 +389,10 @@ Considere este exemplo de caso de uso:
 
 As seguintes alterações foram feitas:
 
-* Alteração da cor de fundo no modo de exibição Início, localizado na URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
-* Alteração da cor do botão na exibição Produtos, localizada na URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* Alteração da cor de fundo no modo de exibição Início, localizado na URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/).
+* Alteração da cor do botão na exibição Produtos, localizada na URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products).
 
-Com o exemplo acima em mente, o que acontece quando definimos as configurações de [!UICONTROL Page Delivery] para incluir apenas: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/) em um SPA com at.js 2.*x*?
+Com o exemplo acima em mente, o que acontece quando definimos as configurações de [!UICONTROL Page Delivery] para incluir apenas: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/) em um SPA com at.js 2.*x*?
 
 ![Caixa de diálogo Entrega de página](/help/main/c-experiences/assets/spa-page-delivery.png)
 
@@ -402,22 +402,22 @@ A ilustração a seguir mostra o Fluxo do Target - Solicitação de carregamento
 
 **Jornada do usuário nº 1**
 
-* Um usuário navega diretamente para [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
-* at.js 2.*x* faz uma consulta à Edge para ver se alguma atividade precisa ser executada para a URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* Um usuário navega diretamente para [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/).
+* at.js 2.*x* faz uma consulta à Edge para ver se alguma atividade precisa ser executada para a URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/).
 * Na etapa 6, o Target Edge retorna as ações para as exibições Início e Produtos para que sejam armazenadas em cache no navegador.
 
-**Resultado**: o usuário vê a cor de fundo verde na exibição Início. Quando o usuário navega para [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products), a cor de fundo azul do botão é vista porque a ação foi armazenada no cache do navegador no modo de exibição Produtos.
+**Resultado**: o usuário vê a cor de fundo verde na exibição Início. Quando o usuário navega para [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products), a cor de fundo azul do botão é vista porque a ação foi armazenada no cache do navegador no modo de exibição Produtos.
 
-Observação: a navegação do usuário para [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) não disparou um carregamento de página.
+Observação: a navegação do usuário para [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products) não disparou um carregamento de página.
 
 **Jornada do usuário nº 2**
 
-* Um usuário navega diretamente para [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
-* at.js 2.*x* faz uma consulta à Edge para ver se alguma atividade precisa ser executada para a URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
-* Não há atividades qualificadas para [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* Um usuário navega diretamente para [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products).
+* at.js 2.*x* faz uma consulta à Edge para ver se alguma atividade precisa ser executada para a URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products).
+* Não há atividades qualificadas para [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products).
 * Como não há atividades qualificadas, não há ações e Exibições para armazenar em cache para a at.js 2.*x* acionar.
 
-**Resultado**: mesmo que você tenha definido `triggerView()` para a exibição Produtos e executado uma ação na exibição Produtos por meio do SPA VEC, você não verá a ação esperada, pois não criou uma regra que incluísse [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) nas configurações de Entrega de página.
+**Resultado**: mesmo que você tenha definido `triggerView()` para a exibição Produtos e executado uma ação na exibição Produtos por meio do SPA VEC, você não verá a ação esperada, pois não criou uma regra que incluísse [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products) nas configurações de Entrega de página.
 
 ### Prática recomendada
 
