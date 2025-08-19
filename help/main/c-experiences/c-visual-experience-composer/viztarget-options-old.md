@@ -178,7 +178,7 @@ Pontos azuis no painel principal e ao lado de cada opção nos vários painéis 
    * [!UICONTROL Blur]
    * [!UICONTROL Opacity]
    * [!UICONTROL Invert]
-*[!UICONTROL  Hue-rotate]
+*[!UICONTROL &#x200B; Hue-rotate]
    * [!UICONTROL Saturate]
 
 * **[!UICONTROL CSS Editor]**

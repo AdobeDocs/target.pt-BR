@@ -102,7 +102,7 @@ Este vídeo de visão geral explica os tipos de atividades disponíveis em [!DNL
 
 ### Criando Testes Multivariados (9:25) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
-Este vídeo explica como entender, planejar e criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do [!DNL]Target.
+Este vídeo explica como entender, planejar e criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target.
 
 * Definir e projetar um teste multivariado
 * Criar um teste multivariado

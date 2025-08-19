@@ -1,6 +1,6 @@
 ---
 keywords: assistente de ia;assistente de inteligência artificial
-description: Saiba como habilitar [!DNL AI Assistant] em[!DNL  Adobe Target].
+description: Saiba como habilitar [!DNL AI Assistant] em[!DNL &#x200B; Adobe Target].
 title: Como habilitar [!DNL AI Assistant] em [!DNL Target]?
 feature: Overview
 exl-id: 6897059c-65e2-4e21-b4b5-bef0a04fa6b6

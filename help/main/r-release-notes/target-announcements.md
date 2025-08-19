@@ -160,7 +160,7 @@ As experiências móveis estão promovendo a inovação da maneira como as equip
 
 ### Coleção do Chef: receitas para personalização (30 de agosto de 2022)
 
-Junte-se à equipe do [!DNL Adobe Target] [!DNL] durante a apresentação de algumas novas ideias sobre como tirar o máximo proveito do Target. Baseado em nosso eBook mais recente, “Coleção do Chef: ideias para personalização”.
+Junte-se à equipe do [!DNL Adobe Target]  durante a apresentação de algumas novas ideias sobre como tirar o máximo proveito do Target. Baseado em nosso eBook mais recente, “Coleção do Chef: ideias para personalização”.
 
 * [Link da gravação](https://video.tv.adobe.com/v/346970/){target=_blank}
 

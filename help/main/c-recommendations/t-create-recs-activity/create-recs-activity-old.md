@@ -30,7 +30,7 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
    >
    >Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >A opção [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) na ilustração anterior é um recurso [Target Premium](/help/main/c-intro/intro.md). Caso não veja essa opção, a licença da organização é da Target Standard.
+   >A opção [[!UICONTROL [Choose Workplace]]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) na ilustração anterior é um recurso [Target Premium](/help/main/c-intro/intro.md). Caso não veja essa opção, a licença da organização é da Target Standard.
 
 1. (Condicional) Se você for um [cliente do Target Premium](/help/main/c-intro/intro.md#premium), escolha um [espaço de trabalho](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
