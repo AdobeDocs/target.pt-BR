@@ -13,7 +13,7 @@ ht-degree: 40%
 
 # Visão geral do AEM [!UICONTROL Experience Fragments] e [!UICONTROL Content Fragments]
 
-Use os [!UICONTROL Experience Fragments] (XFs) e [!UICONTROL Content Fragments] (CFs) criados em [!DNL Adobe Experience Manager] (AEM) em [!DNL Target] atividades para auxiliar na otimização e na personalização.
+Use os [!UICONTROL Experience Fragments] (XFs) e [!UICONTROL Content Fragments] (CFs) criados no [!DNL Adobe Experience Manager] (AEM) em [!DNL Target] atividades para auxiliar na otimização e na personalização.
 
 O uso de [!UICONTROL Experience Fragments] e [!UICONTROL Content Fragments] criados em [!DNL AEM] em [!DNL Target] atividades permite combinar a facilidade de uso e o poder do [!DNL AEM] com os poderosos recursos de Inteligência Artificial (AI) e Aprendizado de Máquina (ML) no [!DNL Target] para testar e personalizar experiências em escala.
 

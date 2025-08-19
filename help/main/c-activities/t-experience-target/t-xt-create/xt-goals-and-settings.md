@@ -7,7 +7,7 @@ exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
 source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 39%
+ht-degree: 38%
 
 ---
 
@@ -52,7 +52,7 @@ Para atividades criadas em versões anteriores do [!DNL Target], a prioridade [!
 
 ### [!UICONTROL Duration]
 
-A atividade pode começar quando aprovada ou você pode definir data e hora específicas. Da mesma forma, a atividade pode terminar quando é desativada ou você pode definir uma data e hora para a atividade terminar. O seletor de hora usa um relógio de 24 horas, sendo 00h a meia-noite. O fuso horário é definido para o que foi configurado no navegador. Para usar um fuso horário diferente, defina o navegador para outro fuso horário e reinicie-o.
+A atividade pode começar quando aprovada ou você pode definir data e hora específicas. Da mesma forma, a atividade pode terminar quando é desativada ou você pode definir uma data e hora para a atividade terminar. O seletor de hora usa um relógio de 24 horas, sendo 00:00 meia-noite. O fuso horário é definido para o que foi configurado no navegador. Para usar um fuso horário diferente, defina o navegador para outro fuso horário e reinicie-o.
 
 ## [!UICONTROL Reporting Settings] {#section_13119392051044FBA6387D9B3B1C43CF}
 

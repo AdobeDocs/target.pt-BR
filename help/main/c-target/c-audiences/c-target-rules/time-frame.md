@@ -1,13 +1,13 @@
 ---
-keywords: intervalo de tempo, data de início, data de término, datas de início/término, intervalo de tempo, agenda do target, divisão de semana, divisão de dia, divisão
+keywords: intervalo de tempo, data inicial, data final, datas inicial/final, intervalo de tempo, agenda do target, divisão de semana, divisão de dia, divisão
 description: Saiba como usar datas e horas de início e término para direcionar os usuários que visitam seu site durante um período específico.
 title: Posso direcionar visitantes que visitam meu site em horários específicos?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 source-git-commit: 0e4698935b90cc0236abe6a47a6183c7fd2a7b20
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 35%
+source-wordcount: '431'
+ht-degree: 25%
 
 ---
 
@@ -33,7 +33,7 @@ Por exemplo, usando o [recurso de públicos-alvo ad hoc combinados](/help/main/c
    >
    >Considere o seguinte:
    >
-   >* O fuso horário é exibido para datas de início/término como GMT +/- NN:NN, onde NN:NN é o deslocamento de GMT e reflete o fuso horário no nível da conta, em vez do fuso horário do visitante. Por exemplo, o fuso horário da Califórnia seria exibido como GMT -08:00.
+   >* O fuso horário é exibido para datas de Início/Término como GMT +/- NN:NN, onde NN:NN é o deslocamento de GMT e reflete o fuso horário no nível da conta, em vez do fuso horário do visitante. Por exemplo, o fuso horário da Califórnia seria exibido como GMT -08:00.
    >
    >* [!DNL Target] públicos-alvo não consideram as alterações do horário de verão. Você deve salvar os públicos novamente manualmente para levar em conta as alterações de horário de verão.
 
@@ -47,7 +47,7 @@ Por exemplo, usando o [recurso de públicos-alvo ad hoc combinados](/help/main/c
 
    >[!NOTE]
    >
-   >O fuso horário de [!UICONTROL Week and Day Parting] é exibido como GMT +/- NN:NN, onde NN:NN é o deslocamento de GMT e reflete o fuso horário no nível da conta, em vez do fuso horário do visitante. Por exemplo, o fuso horário da Califórnia para o Horário de verão do Pacífico seria exibido como GMT -07:00.
+   >O fuso horário de [!UICONTROL Week and Day Parting] é exibido como GMT +/- NN:NN, onde NN:NN é o deslocamento de GMT e reflete o fuso horário no nível da conta, em vez do fuso horário do visitante. Por exemplo, o fuso horário da Califórnia para o Horário de Verão do Pacífico seria exibido como GMT -07:00.
 
 1. (Opcional) Configure regras adicionais para o público-alvo.
 

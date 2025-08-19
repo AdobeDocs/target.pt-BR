@@ -1,13 +1,13 @@
 ---
 keywords: público-alvo; selecionar público-alvo; escolher público-alvo; Seletores
-description: O público-alvo determina quais visitantes do site são inseridos na atividade Adobe [!DNL Target] .
+description: O público-alvo determina quais visitantes do site são inseridos na atividade  [!DNL Target]  do Adobe.
 title: Como selecionar um público-alvo em uma atividade A/B  [!DNL Target] ?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 64%
+ht-degree: 62%
 
 ---
 
@@ -58,7 +58,7 @@ O público-alvo determina quais visitantes do site são inseridos na atividade [
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Uso do Audiences no Adobe Target (6:21) ![Selo de visão geral](/help/main/assets/overview.png)
+### Usando o Audiences na Adobe Target (6:21) ![Selo de visão geral](/help/main/assets/overview.png)
 
 Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium].
 
@@ -68,7 +68,7 @@ Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium
 * Segmente uma atividade para um público-alvo
 * Use públicos-alvo para relatórios passivos em uma atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/30984?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
 ### Fluxo de trabalho da atividade - Direcionamento (2:14) ![Selo do tutorial](/help/main/assets/tutorial.png)
 

@@ -125,7 +125,7 @@ Use um:
 
   Se esse comportamento não corresponder aos seus requisitos, considere executar uma das seguintes ações:
 
-   * Passar [parâmetros de mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=pt-BR){target=_blank} para [!DNL Target] para serem usados para fins de direcionamento.
+   * Passe [parâmetros de mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=pt-BR){target=_blank} para [!DNL Target] para serem usados para fins de direcionamento.
    * Use uma [atividade de Teste A/B](/help/main/c-activities/t-test-ab/test-ab.md) em vez de uma atividade de página de aterrissagem. As atividades de Teste A/B não alternam experiências para o mesmo visitante.
    * Em vez disso, use um [perfil de visitante](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md).
 

@@ -2,7 +2,7 @@
 keywords: personalização automatizada;ofertas;direcionamento;público-alvo;regras de direcionamento;direcionamento
 description: Saiba como direcionar ofertas individuais para públicos-alvo específicos usando uma atividade de [!UICONTROL Automated Personalization] (AP) no  [!DNL Adobe Target].
 title: Como Posso Direcionar Ofertas De [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be

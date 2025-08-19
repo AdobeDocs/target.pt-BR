@@ -1,7 +1,7 @@
 ---
 keywords: conteúdo; criar pasta; ativos; mover pasta; copiar pasta; excluir pasta; pasta de download; pasta
 description: Como criar pastas na biblioteca de ofertas?
-title: Saiba como criar pastas na biblioteca de Adobe [!DNL Target] Ofertas para conter ofertas de código e imagem, bem como outras pastas.
+title: Saiba como criar pastas na biblioteca de ofertas do Adobe [!DNL Target] para conter ofertas de código e imagem, bem como outras pastas.
 feature: Experiences and Offers
 exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a

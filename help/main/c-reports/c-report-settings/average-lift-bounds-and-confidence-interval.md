@@ -1,6 +1,6 @@
 ---
 keywords: Target, relatórios, configurações de relatório, ambiente, aumento, limite de incentivo, variação, confiança, controle
-description: Saiba como interpretar relatórios do Adobe [!DNL Target] que incluem pontos de dados e representações de visualização para ajudá-lo a entender os limites de aumento e o nível de confiança de suas atividades.
+description: Saiba como interpretar relatórios do Adobe [!DNL Target] , que incluem pontos de dados e representações de visualização para ajudá-lo a entender os limites de aumento e o nível de confiança de suas atividades.
 title: Como vejo a média de aumento, os limites de aumento e o intervalo de confiança?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323

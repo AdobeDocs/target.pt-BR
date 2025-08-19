@@ -1,5 +1,5 @@
 ---
-keywords: Recommendations;oferta;visualização;iniciar;status;critérios;algoritmo;;offer;preview;launch;status;criteria;algorithm
+keywords: Recomendações;oferta;visualização;iniciar;status;critérios;algoritmo;Recommendations;offer;preview;launch;status;criteria;algorithm
 description: Saiba como visualizar sua atividade do Adobe [!DNL Target] Recommendations para garantir que os resultados estejam disponíveis antes de iniciar a atividade.
 title: Como visualizar e iniciar uma atividade do Recommendations?
 feature: Recommendations
@@ -14,13 +14,13 @@ ht-degree: 15%
 
 # Pré-visualizar e iniciar atividade do Recommendations
 
-Depois de criar sua atividade do [!UICONTROL Recommendations], [!UICONTROL A/B Test] ou [!UICONTROL Experience Targeting] (XT) contendo [ofertas do Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md), você visualizará suas recomendações para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O [!DNL Target Recommendations] oferece várias maneiras de visualizar suas recomendações.
+Depois de criar sua atividade do [!UICONTROL Recommendations], [!UICONTROL A/B Test] ou [!UICONTROL Experience Targeting] (XT) contendo [ofertas do Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md), você pré-visualizará suas recomendações para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O [!DNL Target Recommendations] oferece várias maneiras de visualizar suas recomendações.
 
 ## Verificação do status do algoritmo do Recommendations
 
 Depois de criar uma atividade, [!DNL Recommendations] executa um algoritmo para gerar recomendações. Esse algoritmo pode levar algumas horas para ser executado.
 
-Você pode verificar se a execução do algoritmo foi concluída no diagrama de visão geral [!UICONTROL Activity], onde o status dos critérios está listado. A ilustração a seguir mostra o status no diagrama de atividades na página [!UICONTROL Overview] de uma atividade [!DNL Recommendations]:
+Você pode verificar se a execução do algoritmo foi concluída no diagrama de visão geral [!UICONTROL Activity], onde o status dos critérios está listado. A ilustração a seguir mostra o status no diagrama de atividades na página [!DNL Recommendations] de uma atividade [!UICONTROL Overview]:
 
 ![Página de visão geral da atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
@@ -54,7 +54,7 @@ Se os critérios usarem o [!DNL Adobe Analytics] como a fonte de dados comportam
 >
 >[!UICONTROL Recently Viewed Items] não requer a execução de algoritmo offline e os resultados são disponibilizados instantaneamente. Os algoritmos [!UICONTROL Top Viewed] e [!UICONTROL Top Sellers] baseados em dados de mbox geralmente produzem resultados muito rapidamente devido ao cálculo mais simples necessário. Essas podem ser boas opções quando você deseja visualizar uma alteração de design ou confirmar se os dados comportamentais estão sendo coletados corretamente.
 
-## Uso de links de controle de qualidade para visualização do Recommendations
+## Uso de links de controle de qualidade para visualizar Recommendations
 
 Depois que o algoritmo tiver os resultados prontos, você poderá visualizar esses resultados usando a funcionalidade [Link de controle de qualidade](/help/main/c-activities/c-activity-qa/activity-qa.md) de [!DNL Adobe Target]. Os links de controle de qualidade estão disponíveis na seção [!UICONTROL Activity Location] da página de visão geral [!UICONTROL Activity]:
 
@@ -96,7 +96,7 @@ Para outros tipos de algoritmo baseados em um valor de chave, como [!UICONTROL P
 >
 >Os downloads de resultados não estão disponíveis para atividades que contêm um algoritmo [!UICONTROL User-Based Recommendations]. Os downloads de resultados não estão disponíveis para os critérios que usam a lógica de recomendação [!UICONTROL Recently-Viewed Items].
 
-## Ativação da atividade do Recommendations
+## Ativar sua atividade do Recommendations
 
 Na guia [!UICONTROL Activity Overview], clique na seta suspensa Status e selecione **[!UICONTROL Activate]**.
 
@@ -106,7 +106,7 @@ Após alguns segundos a alguns minutos, o status muda para [!UICONTROL Live].
 
 Também é possível desativar ou arquivar a atividade usando a mesma lista suspensa.
 
-## Como evitar interrupções ao alterar configurações do Recommendations
+## Como evitar interrupções ao alterar as configurações do Recommendations
 
 Alterar as configurações de coleções, critérios, promoções ou design do [!DNL Recommendations] em uma atividade ativa pode resultar na invalidade dos resultados do algoritmo e na alteração do status de um algoritmo para [!UICONTROL Results Not Ready].
 

@@ -1,6 +1,6 @@
 ---
 keywords: Visão geral e referência
-description: Saiba como usar o Adobe [!DNL Target] com o Adobe Campaign para otimizar o conteúdo de email.
+description: Saiba como usar o Adobe [!DNL Target] com o Adobe Campaign para otimizar conteúdo de email.
 title: Como integrar o  [!DNL Target]  ao Adobe Campaign?
 feature: Integrations
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1

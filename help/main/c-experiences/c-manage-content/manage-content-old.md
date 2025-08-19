@@ -23,7 +23,7 @@ Use a biblioteca [!UICONTROL Offers] no [!DNL Adobe Target] para gerenciar sua o
 
    ![Página Ofertas mostrando as guias Ofertas de código e Ofertas de imagem](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
 
-1. (Opcional) Clique na lista suspensa **[!UICONTROL Type]** para filtrar ofertas por tipo (Oferta HTML, [Fragmentos de experiência](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Oferta de redirecionamento](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Oferta remota](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [Ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) e [Pastas](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
+1. (Opcional) Clique na lista suspensa **[!UICONTROL Type]** para filtrar ofertas por tipo (Oferta do HTML, [Fragmentos de experiência](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Oferta de redirecionamento](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Oferta remota](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [Ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) e [Pastas](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
 
    ![imagem de offer_filter](assets/offers_filter.png)
 
@@ -69,7 +69,7 @@ Use a biblioteca [!UICONTROL Offers] no [!DNL Adobe Target] para gerenciar sua o
 
 Você pode exibir os detalhes da definição de oferta em um cartão pop-up na biblioteca [!UICONTROL Offers] sem abrir a oferta.
 
-Por exemplo, o seguinte cartão de definição de oferta para uma oferta HTML é acessado clicando no ícone de informações:
+Por exemplo, o seguinte cartão de definição de oferta para uma oferta do HTML é acessado clicando no ícone de informações:
 
 ![imagem offer-card-html](assets/offer-card-html-new.png)
 
@@ -82,7 +82,7 @@ As informações a seguir estão disponíveis:
 
 Clique no link [!UICONTROL View Full Details] para exibir o conteúdo da oferta e as atividades que fazem referência a uma oferta de código. Dessa forma, é possível evitar um impacto nas outras atividades ao editar as ofertas. As informações incluem [!UICONTROL Live Activities] e [!UICONTROL Inactive Activities].
 
-As informações disponíveis em cada cartão variam de acordo com o tipo de oferta: HTML, [Fragmentos de experiência](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Oferta de redirecionamento](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Oferta remota](/help/main/c-experiences/c-manage-content/about-remote-offers.md) ou [Ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+As informações disponíveis em cada cartão variam de acordo com o tipo de oferta: Oferta do HTML, [Fragmentos de experiência](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Oferta de redirecionamento](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Oferta remota](/help/main/c-experiences/c-manage-content/about-remote-offers.md) ou [Ofertas JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 A funcionalidade de detalhes da oferta não se aplica a ofertas de imagem.
 
@@ -92,7 +92,7 @@ A funcionalidade de detalhes da oferta não se aplica a ofertas de imagem.
 
 This video includes information about managing offers.
 
-* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=pt-BR) and the Target Content Library 
+* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
 * Custom HTML Offers 
 * Custom HTML Offer in the [!UICONTROL Visual Experience Composer]
 

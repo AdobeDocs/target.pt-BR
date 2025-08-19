@@ -69,7 +69,7 @@ Você está utilizando o Target Standard? Você ainda pode [atribuir três níve
 
 ## Dica 6: descubra como uma oferta é exibida em uma jornada do cliente, testando-a em cada página da jornada.
 
-Veja como uma oferta, como frete grátis, é executada durante uma jornada do cliente que ocorre em várias páginas do seu site.
+Veja como uma oferta, como envio grátis, é executada durante uma jornada do cliente que ocorre em várias páginas do seu site.
 
 Consulte [Atividade multipáginas](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) para obter instruções passo a passo.
 
@@ -77,7 +77,7 @@ Consulte [Atividade multipáginas](/help/main/c-experiences/c-visual-experience-
 
 ## Dica 7: teste uma oferta com públicos-alvo diferentes para descobrir se os públicos-alvo têm preferências diferentes.
 
-Com as versões da experiência, você pode executar um teste com variações para quantos públicos desejar. Por exemplo, você pode criar um anúncio de banner oferecendo frete grátis, com variações de imagem e moeda para clientes nos EUA, Reino Unido e EUA, sem precisar executar testes para três públicos diferentes.
+Com as versões da experiência, você pode executar um teste com variações para quantos públicos desejar. Por exemplo, você pode criar um anúncio de banner oferecendo envio grátis, com variações de imagem e moeda para clientes nos EUA, Reino Unido e EUA, sem precisar executar testes para três públicos diferentes.
 
 Consulte para [Vários públicos-alvo de experiência em um Teste A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) para obter instruções passo a passo.
 
@@ -145,7 +145,7 @@ Um teste é inútil se você não souber como aproveitar os dados. Isso inclui c
 
 As organizações de otimização bem-sucedidas acreditam no conceito de teste e entendem que suas opiniões profissionais sobre qual experiência ganhará o teste nem sempre são verdadeiras. Elas determinam o vencedor com base em uma sólida base de dados, e estão ansiosas e dispostas a impulsionar a experiência vencedora em tempo real depois que os resultados forem divulgados, mesmo que não esteja em conformidade com suas expectativas ou pareça contraintuitivo.
 
-Por exemplo, um cliente de serviços da área de saúde da Adobe demonstrou recentemente o valor do teste, mostrando como um banner de imagem que a equipe havia considerado como perfeito afetou negativamente a conversão. Se sua organização ainda não adotou totalmente os testes, é melhor realizar testes de escopo mais simples e menores para que as alterações nos resultados dos testes possam ser feitas de forma incremental.
+Por exemplo, um cliente de serviços da área de saúde da Adobe demonstrou recentemente o valor do teste, mostrando como um banner hero que a equipe havia considerado como perfeito afetou negativamente a conversão. Se sua organização ainda não adotou totalmente os testes, é melhor realizar testes de escopo mais simples e menores para que as alterações nos resultados dos testes possam ser feitas de forma incremental.
 
 ## Dica 19: informe a todos que você iniciou um teste para evitar preocupações quando o site mudar.
 

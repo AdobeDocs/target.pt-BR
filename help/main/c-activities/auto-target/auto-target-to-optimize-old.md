@@ -2,7 +2,7 @@
 keywords: direcionamento automático;direcionamento;alocação de tráfego;perguntas frequentes;faq;solução de problemas;solucionar problemas
 description: Saiba como uma atividade do [!UICONTROL Auto-Target] no  [!DNL Target] serve a experiência mais personalizada para cada visitante com base nos perfis dos clientes e no comportamento de visitantes semelhantes.
 title: O Que É Uma Atividade [!UICONTROL Auto-Target]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
@@ -12,7 +12,7 @@ ht-degree: 21%
 
 ---
 
-# Visão geral de [!UICONTROL Auto-Target]
+# Visão geral das [!UICONTROL Auto-Target]
 
 [!UICONTROL Auto-Target] atividades no [!DNL Adobe Target] usam aprendizagem de máquina avançada para selecionar várias experiências de alto desempenho definidas pelo profissional de marketing para personalizar o conteúdo e gerar conversões. [!UICONTROL Auto-Target] oferece a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares.
 
@@ -24,7 +24,7 @@ ht-degree: 21%
 
 ## História de sucesso real usando o direcionamento automático {#success}
 
-Um grande varejista de roupas usou recentemente uma atividade [!UICONTROL Auto-Target] com dez experiências baseadas em categorias de produto (além de controle aleatório) para fornecer o conteúdo correto a cada visitante. &quot;[!UICONTROL Add to Cart]&quot; foi escolhido como a métrica de otimização primária. As experiências direcionadas tiveram um aumento médio de 29,09%. Após a criação dos modelos [!UICONTROL Auto-Target], a atividade foi definida como 90% de experiências personalizadas.
+Uma importante retailer de roupas recentemente usou uma atividade [!UICONTROL Auto-Target] com dez experiências baseadas em categorias de produtos (além de controle aleatório) para fornecer o conteúdo correto a cada visitante. &quot;[!UICONTROL Add to Cart]&quot; foi escolhido como a métrica de otimização primária. As experiências direcionadas tiveram um aumento médio de 29,09%. Após a criação dos modelos [!UICONTROL Auto-Target], a atividade foi definida como 90% de experiências personalizadas.
 
 Em apenas dez dias, mais de US$ 1.700.000 em aumento foram obtidos.
 
@@ -62,7 +62,7 @@ Os termos a seguir são úteis quando falamos de [!UICONTROL Auto-Target]:
 
 | Termo | Definição |
 |---|---|
-| [Bandit multicampo](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | Uma abordagem multi-armed bandit à otimização equilibra o aprendizado exploratório e o aproveitamento desse aprendizado. |
+| [Bandit multi-armado](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | Uma abordagem multi-armed bandit à otimização equilibra o aprendizado exploratório e o aproveitamento desse aprendizado. |
 | [Floresta Aleatória](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Random Forest é uma abordagem de aprendizado de máquina líder. Em linguagem da ciência de dados, é um método de classificação de conjunto, ou regressão, que funciona construindo muitas árvores de decisão com base nos atributos do visitante e da visita. Dentro de [!DNL Target], o Random Forest é usado para determinar qual experiência deve ter a maior probabilidade de conversão (ou a maior receita por visita) para cada visitante específico. |
 | [Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | O objetivo do Thompson Sampling é determinar qual experiência é a melhor em geral (não personalizada), minimizando o &quot;custo&quot; de encontrar essa experiência. A Amostragem de Thompson sempre escolhe um vencedor, mesmo se não houver diferença estatística entre duas experiências. |
 

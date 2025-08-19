@@ -1,13 +1,13 @@
 ---
 keywords: Meta e Configurações;objetivo;prioridade;duração;Goal & Settings;objetive;priority;duration
-description: Saiba como usar as Configurações de atividade no Adobe [!DNL Target] para gerenciar o objetivo, a prioridade e a duração de suas atividades.
+description: Saiba como usar as Configurações de Atividade no Adobe [!DNL Target] para gerenciar o objetivo, a prioridade e a duração de suas atividades.
 title: Como Especificar Configurações De Atividade?
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 74%
+ht-degree: 71%
 
 ---
 
@@ -41,7 +41,7 @@ Use o [!UICONTROL Activity Settings] no [!DNL Adobe Target] para gerenciar o obj
 
 1. Defina a duração da atividade.
 
-   É possível ativar e desativar manualmente a atividade ou especificar uma data e hora para a entrega da atividade. O controle de hora usa um relógio de 24 horas, sendo 00:00 a meia-noite. O fuso horário é definido para o que foi configurado no navegador. Para usar um fuso horário diferente, defina o navegador para outro fuso horário e reinicie-o.
+   É possível ativar e desativar manualmente a atividade ou especificar uma data e hora para a entrega da atividade. O controle de tempo usa um relógio de 24 horas, sendo 00:00 meia-noite. O fuso horário é definido para o que foi configurado no navegador. Para usar um fuso horário diferente, defina o navegador para outro fuso horário e reinicie-o.
 
    >[!NOTE]
    >

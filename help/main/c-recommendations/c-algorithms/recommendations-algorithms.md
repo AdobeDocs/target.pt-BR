@@ -1,8 +1,8 @@
 ---
 keywords: recomendações algoritmos;treinamento de modelo;serviço de modelo;entrega de conteúdo;baseado em item;baseado em usuário;baseado em popularidade;baseado em carrinho;critérios personalizados
 description: Saiba mais sobre os algoritmos usados no [!DNL Target Recommendations], incluindo treinamento e fornecimento de modelos.
-title: Onde posso aprender sobre a ciência por trás dos algoritmos Recommendations do Target?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+title: Onde posso aprender sobre a ciência por trás dos algoritmos de recomendações do Target?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -51,13 +51,13 @@ Os algoritmos de recomendação do filtro colaborativo Item-Item são baseados n
 
 Para o algoritmo &quot;pessoas que visualizaram/compraram esse item também visualizaram/compraram esses itens&quot;, o objetivo é calcular uma similaridade s(A,B) entre todos os pares de itens. Para um determinado item A, as principais recomendações são ordenadas por sua similaridade s(A,B).
 
-Um exemplo de similaridade é a coocorrência entre itens: uma contagem simples do número de usuários que compraram ambos os itens. Embora intuitiva, essa métrica é ingênua, pois é tendenciosa para recomendar itens populares. Por exemplo, se em um supermercado a maioria das pessoas comprar pão, o pão terá uma alta coocorrência com todos os itens, mas não é necessariamente uma boa recomendação. [!DNL Target] em vez disso, usa uma métrica de similaridade mais sofisticada conhecida como LLR (log probability ratio, taxa de probabilidade de log). Essa quantidade é grande quando a probabilidade de dois itens, A e B, coocorrendo é muito diferente da probabilidade deles não coocorrendo. Para concretude, considere um caso do algoritmo [!UICONTROL People Who Viewed This, Bought That]. A similaridade LLR é grande quando a probabilidade de B ter sido comprado é *não*, independentemente de alguém ter visto A.
+Um exemplo de similaridade é a coocorrência entre itens: uma contagem simples do número de usuários que compraram ambos os itens. Embora intuitiva, essa métrica é ingênua, pois é tendenciosa para recomendar itens populares. Por exemplo, se em um supermercado retailer a maioria das pessoas comprar pão, o pão terá uma alta coocorrência com todos os itens, mas não é necessariamente uma boa recomendação. [!DNL Target] em vez disso, usa uma métrica de similaridade mais sofisticada conhecida como LLR (log probability ratio, taxa de probabilidade de log). Essa quantidade é grande quando a probabilidade de dois itens, A e B, coocorrendo é muito diferente da probabilidade deles não coocorrendo. Para concretude, considere um caso do algoritmo [!UICONTROL People Who Viewed This, Bought That]. A similaridade LLR é grande quando a probabilidade de B ter sido comprado é *não*, independentemente de alguém ter visto A.
 
 Por exemplo, se
 
 ![Fórmula para o algoritmo exibido/comprado](assets/formula.png)
 
-então o item B não deve ser recomendado com o item A. Detalhes completos deste cálculo de similaridade da taxa de probabilidade de log são fornecidos [neste PDF](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
+o item B não deve ser recomendado com o item A. Detalhes completos do cálculo de similaridade da taxa de probabilidade do log são fornecidos [neste PDF](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
 
 O fluxo lógico da implementação real do algoritmo é mostrado no diagrama esquemático a seguir:
 
@@ -65,7 +65,7 @@ O fluxo lógico da implementação real do algoritmo é mostrado no diagrama esq
 
 Veja a seguir os detalhes dessas etapas:
 
-* **Dados de entrada**: dados comportamentais, na forma de exibições e compras de visitantes coletados quando você [implementa o Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} ou o [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dados de entrada**: dados comportamentais, na forma de exibições e compras de visitantes coletados quando você [implementa o Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} ou o [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Treinamento de modelo**:
 
@@ -73,7 +73,7 @@ Veja a seguir os detalhes dessas etapas:
    * **Cálculo de similaridade de item**: esta é a etapa computacional principal: calcular a similaridade da taxa de probabilidade do log entre todos os pares de itens candidatos e classificar pares de itens por essa pontuação de similaridade.
    * **Filtragem offline**: finalmente, todos os outros filtros dinâmicos aplicáveis são aplicados (por exemplo, exclusões de categoria dinâmica). Após essa etapa, as recomendações pré-calculadas são armazenadas em cache globalmente para estarem disponíveis para veiculação.
 
-* **Serviço de modelo**: o conteúdo do Recommendations é entregue a partir da [rede &quot;Edge&quot; global](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) da [!DNL Target]. Quando as solicitações da mbox são feitas para [!DNL Target] e é determinado que o conteúdo das recomendações deve ser entregue à página, a solicitação da [chave de item](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) apropriada para o algoritmo de recomendações é analisada a partir da solicitação ou pesquisada a partir do perfil do usuário e, em seguida, usada para recuperar as recomendações computadas nas etapas anteriores. Filtros dinâmicos adicionais são aplicados neste momento, antes que o [design](/help/main/c-recommendations/c-design-overview/create-design.md) apropriado seja renderizado.
+* **Atendimento de modelos**: o conteúdo do Recommendations é entregue a partir da [!DNL Target]rede &quot;Edge&quot; global[ de ](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). Quando as solicitações da mbox são feitas para [!DNL Target] e é determinado que o conteúdo das recomendações deve ser entregue à página, a solicitação da [chave de item](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) apropriada para o algoritmo de recomendações é analisada a partir da solicitação ou pesquisada a partir do perfil do usuário e, em seguida, usada para recuperar as recomendações computadas nas etapas anteriores. Filtros dinâmicos adicionais são aplicados neste momento, antes que o [design](/help/main/c-recommendations/c-design-overview/create-design.md) apropriado seja renderizado.
 
 ## Similaridade de conteúdo
 
@@ -89,7 +89,7 @@ Embora os aspectos de veiculação e entrega de conteúdo dos algoritmos de simi
 
 Veja a seguir os detalhes dessas etapas:
 
-* **Dados de entrada**: conforme descrito anteriormente, este algoritmo se baseia exclusivamente nos dados de catálogo (assimilados para [!DNL Target] por meio de um [Feed de Catálogo, da API de Entidades ou de atualizações na página](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank}.
+* **Dados de entrada**: conforme descrito anteriormente, este algoritmo se baseia exclusivamente nos dados de catálogo (assimilados para [!DNL Target] por meio de um [Feed de Catálogo, da API de Entidades ou de atualizações na página](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Treinamento de modelo**:
 
@@ -119,7 +119,7 @@ Os algoritmos incluem:
 
 As adições mais recentes ao conjunto [!DNL Target] de algoritmos de recomendações são [!UICONTROL Recommended For You] e uma série de algoritmos de recomendações baseadas em carrinho. Ambos os tipos de algoritmos usam técnicas de filtragem colaborativa para formar recomendações individuais baseadas em itens. Em seguida, no momento do servidor, vários itens no histórico de navegação do usuário (para [!UICONTROL Recommended For You]) ou no carrinho atual do usuário (para recomendações baseadas em carrinho) são usados para recuperar essas recomendações baseadas em itens, que são mescladas para formar a lista final de recomendações. Observe que existem muitas opções de algoritmos de recomendação personalizados. A escolha de um algoritmo de várias chaves significa que as recomendações são disponibilizadas imediatamente depois que um visitante tem um histórico de navegação e as recomendações podem ser atualizadas para responder ao comportamento mais recente do visitante.
 
-Esses algoritmos se baseiam nas técnicas fundamentais de filtragem colaborativa descritas na seção recomendações baseadas em itens, mas também incorporam o ajuste de hiperparâmetros para determinar a métrica de similaridade ideal entre itens. O algoritmo executa uma divisão cronológica de dados comportamentais para cada usuário e treina modelos de recomendação nos dados anteriores enquanto tenta prever os itens que um usuário visualiza ou compra posteriormente. A métrica de similaridade que produz a [Precisão média ideal] (https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval) é escolhida.
+Esses algoritmos se baseiam nas técnicas fundamentais de filtragem colaborativa descritas na seção recomendações baseadas em itens, mas também incorporam o ajuste de hiperparâmetros para determinar a métrica de similaridade ideal entre itens. O algoritmo executa uma divisão cronológica de dados comportamentais para cada usuário e treina modelos de recomendação nos dados anteriores enquanto tenta prever os itens que um usuário visualiza ou compra posteriormente. A métrica de similaridade que produz a [Precisão média ideal]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval) é escolhida.
 
 A lógica das etapas de treinamento e pontuação do modelo é mostrada no diagrama a seguir:
 
@@ -127,7 +127,7 @@ A lógica das etapas de treinamento e pontuação do modelo é mostrada no diagr
 
 Veja a seguir os detalhes dessas etapas:
 
-* **Dados de entrada**: é idêntico aos métodos de filtragem colaborativa (CF) item-item. O [!UICONTROL Both Recommended For You] e os algoritmos baseados em carrinho usam dados comportamentais, na forma de exibições e compras de usuários coletados quando você [implementa o Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} ou o [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dados de entrada**: é idêntico aos métodos de filtragem colaborativa (CF) item-item. Os algoritmos baseados em carrinho e [!UICONTROL Both Recommended For You] usam dados comportamentais, na forma de exibições e compras de usuários coletados ao [implementar o Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} ou no [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Treinamento de modelo**:
 
@@ -139,7 +139,7 @@ Veja a seguir os detalhes dessas etapas:
 
   ![Fórmula mostrando o cálculo de treinamento](assets/formula4.png)
 
-   * **Avaliação do modelo de similaridade de item**: a avaliação do modelo é feita tomando as recomendações geradas na etapa anterior e fazendo previsões no conjunto de dados de teste. A fase de pontuação online é imitada pela ordem cronológica do uso dos itens de cada usuário no conjunto de dados de teste, fazendo 100 recomendações para subconjuntos ordenados de itens em uma tentativa de prever exibições e compras subsequentes. Uma métrica de recuperação de informações, a [Precisão média média](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)), é usada para avaliar a qualidade dessas recomendações. Essa métrica leva em conta a ordem das recomendações e favorece itens relevantes mais altos na lista de recomendações, o que é uma propriedade importante para os sistemas de classificação.
+   * **Avaliação do modelo de similaridade de item**: a avaliação do modelo é feita tomando as recomendações geradas na etapa anterior e fazendo previsões no conjunto de dados de teste. A fase de pontuação online é imitada pela ordem cronológica do uso dos itens de cada usuário no conjunto de dados de teste, fazendo 100 recomendações para subconjuntos ordenados de itens em uma tentativa de prever exibições e compras subsequentes. Uma métrica de recuperação de informações, a [Precisão média média]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)), é usada para avaliar a qualidade dessas recomendações. Essa métrica leva em conta a ordem das recomendações e favorece itens relevantes mais altos na lista de recomendações, o que é uma propriedade importante para os sistemas de classificação.
    * **Seleção de modelo**: após a avaliação offline, o modelo que tem a Precisão Média mais alta é selecionado e todas as recomendações individuais de item são computadas para ele.
    * **Filtragem offline**: a etapa final do treinamento de modelo é a aplicação de filtros dinâmicos aplicáveis. Após essa etapa, as recomendações pré-calculadas são armazenadas em cache globalmente para estarem disponíveis para veiculação.
 

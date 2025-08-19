@@ -2,7 +2,7 @@
 keywords: design de recomendações, criar design, copiar design
 description: Saiba como criar um design do  [!DNL Target Recommendations]  usando um design padrão ou criando um design personalizado para melhor se ajustar ao layout da sua página.
 title: Como criar um design no Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -48,7 +48,7 @@ Você pode criar um design com base em um design padrão ou criar um design pers
 
    A caixa de diálogo [!UICONTROL Create Design] é exibida.
 
-1. Digite um **[!UICONTROL &#x200B; Name]** e uma imagem de visualização opcional para exibir no cartão de design.
+1. Digite um **[!UICONTROL  Name]** e uma imagem de visualização opcional para exibir no cartão de design.
 
    Quando você usa um design padrão, o nome do design e &quot;Cópia&quot; aparecem no campo **[!UICONTROL Content Name]**. Você pode editar o nome. Você também pode selecionar uma imagem para exibir no cartão de design.
 
@@ -56,7 +56,7 @@ Você pode criar um design com base em um design padrão ou criar um design pers
 
    Os designs de recomendação usam o idioma de design da Velocity de fonte aberta. É possível encontrar informações sobre o Velocity em [https://velocity.apache.org](https://velocity.apache.org) e em [Personalizar um design usando o Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Um design pode ser HTML ou não-HTML. Por padrão, os designs de HTML são envolvidos com uma tag `<div>` para permitir o rastreamento de cliques em um ambiente da Web. Designs não HTML são para ambientes que não sejam da Web onde click-tracking não é possível. Deslize o botão [!UICONTROL HTML Design] para a posição &quot;desligado&quot; para usar um código não-HTML.
+   Um design pode ser HTML ou não-HTML. Por padrão, os designs do HTML são envolvidos com uma tag `<div>` para permitir o rastreamento de cliques em um ambiente da Web. Designs que não sejam do HTML são para ambientes que não sejam da Web onde click-tracking não é possível. Deslize o botão [!UICONTROL HTML Design] para a posição &quot;desligado&quot; para usar um código que não seja HTML.
 
    >[!NOTE]
    >
@@ -94,7 +94,7 @@ Esteja ciente de que os designs estão disponíveis em toda a conta. Considere o
 
 O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configurar uma atividade por meio do [editor baseado em formulário](/help/main/c-experiences/form-experience-composer.md).
 
-1. Crie um design no [!UICONTROL Design library] ou no fluxo de trabalho baseado em formulário. Se você tentar criar um design dentro do fluxo de trabalho do [!UICONTROL Visual Experience Composer] (VEC), não poderá criar nada além de um design de HTML, que está envolvido em um `<div>` para fins de rastreamento de cliques.
+1. Crie um design no [!UICONTROL Design library] ou no fluxo de trabalho baseado em formulário. Se você tentar criar um design dentro do fluxo de trabalho do [!UICONTROL Visual Experience Composer] (VEC), não poderá criar nada além de um design do HTML, que está envolvido em um `<div>` para fins de rastreamento de cliques.
 
 1. Verifique se a opção &quot;HTML Design&quot; está desativada:
 
@@ -320,4 +320,4 @@ Este vídeo contém as seguintes informações:
 * Criar um design personalizado
 * Saiba como fazer referência às variáveis de exibição em seus designs
 
->[!VIDEO](https://video.tv.adobe.com/v/35373?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

@@ -1,6 +1,6 @@
 ---
 keywords: Target, relatórios, configurações de relatório, pedidos extremos, valores extremos
-description: Saiba como excluir valores extremos de relatórios que afetam o Adobe [!DNL Target]  para que algumas ordens incomuns não afetem os resultados da atividade.
+description: Saiba como excluir valores extremos de afetar relatórios no Adobe [!DNL Target]  para que algumas ordens incomuns não afetem os resultados da atividade.
 title: Como excluir valores extremos em relatórios?
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74

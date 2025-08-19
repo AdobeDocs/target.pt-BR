@@ -19,7 +19,7 @@ Dicas para ajudá-lo a melhorar o desempenho, evitar problemas e corrigir proble
 
 * Conheça os locais na sua página que provavelmente produzirão resultados significativos.
 
-  Um banner ou uma imagem herói, por exemplo, provavelmente gerará mais conversões do que uma mudança no rodapé. A inclusão de localizações menos influentes no seu teste somente aumenta a quantidade de tráfego e o tempo necessários para testar as localizações de maior destaque na página.
+  Um banner ou uma imagem hero, por exemplo, provavelmente gerará mais conversões do que uma mudança no rodapé. A inclusão de localizações menos influentes no seu teste somente aumenta a quantidade de tráfego e o tempo necessários para testar as localizações de maior destaque na página.
 * Prepare suas variações de página com antecedência.
 
   Conheça as diferenças de conteúdo de cada oferta e crie imagens, texto, e ofertas de HTML que você espera usar no teste MVT.
@@ -65,4 +65,4 @@ Dicas para ajudá-lo a melhorar o desempenho, evitar problemas e corrigir proble
 
 * Ao seguir o teste MVT com um ou mais testes A/B, você pode determinar o melhor conteúdo possível para os resultados que deseja.
 
-  Depois que determinar quais localizações e conteúdo são mais úteis para ajudar a atingir suas metas, você poderá executar um teste A/B para refinar mais os resultados. Por exemplo, quando você souber quais locais são mais importantes, teste duas imagens específicas entre si ou compare o texto ou as cores de um chamado para ação.
+  Depois que determinar quais localizações e conteúdo são mais úteis para ajudar a atingir suas metas, você poderá executar um teste A/B para refinar mais os resultados. Por exemplo, quando você souber quais locais são mais importantes, teste duas imagens específicas entre si ou compare o texto ou as cores de uma call to action.

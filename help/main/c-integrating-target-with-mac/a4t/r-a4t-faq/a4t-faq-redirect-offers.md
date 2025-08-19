@@ -7,7 +7,7 @@ exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '1430'
-ht-degree: 44%
+ht-degree: 50%
 
 ---
 
@@ -25,7 +25,7 @@ Sim, se sua implementação usar [!DNL at.js]. No entanto, sua implementação d
 ## Quais são os requisitos mínimos para usar as ofertas de redirecionamento com o A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
 +++Resposta
-Sua implementação deve atender aos seguintes requisitos mínimos:
+Sua implementação deve atender os seguintes requisitos mínimos:
 
 * Serviço de ID de visitante da Experience Cloud: [!DNL visitorAPI.js] versão 2.3.0 ou superior.
 * Adobe Analytics: [!DNL appMeasurement.js] versão 2.1.
@@ -63,7 +63,7 @@ Considere o seguinte:
 ## Por que as visualizações de página na página original e na página de redirecionamento são contadas às vezes? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 +++Resposta
-Ao usar a at.js versão 1.6.3 ou posterior, contar as exibições de página em ambas as páginas não é um problema. Essa condição de corridas afeta apenas os clientes que usam as versões anteriores. A equipe do Target mantém duas versões do at.js, a versão atual e a segunda versão mais recente. Atualize o at.js conforme necessário para garantir que você esteja executando uma [versão com suporte](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank}.
+Ao usar a at.js versão 1.6.3 ou posterior, contar as exibições de página em ambas as páginas não é um problema. Essa condição de corridas afeta apenas os clientes que usam as versões anteriores. A equipe do Target mantém duas versões do at.js, a versão atual e a segunda versão mais recente. Atualize o at.js conforme necessário para garantir que você esteja executando uma [versão compatível](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank}.
 
 Se você estiver usando uma versão anterior não compatível do at.js, existe a possibilidade de ocorrer uma condição de corrida que pode fazer com que a chamada do Analytics seja acionada antes que o redirecionamento seja executado na primeira página. Essa situação pode fazer com que as exibições de página na página original e na página de redirecionamento sejam contadas. Essa situação resulta em uma exibição de página extra na primeira página, quando o visitante nunca &quot;viu&quot; realmente essa primeira página.
 
@@ -85,11 +85,11 @@ Se você usa seu próprio código personalizado para o redirecionamento, deve ga
 ## Quais são os novos parâmetros de cadeia de caracteres de consulta adicionados aos URLs de redirecionamento? {#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682}
 
 +++Resposta
-Os seguintes parâmetros de cadeia de caracteres de consulta estão associados às ofertas de redirecionamento:
+Os seguintes parâmetros de cadeia de caracteres de consulta estão associados a ofertas de redirecionamento:
 
 | Parâmetro | Descrição |
 |--- |--- |
-| `adobe_mc_sdid` | O parâmetro `adobe_mc_sdid` passa a Id de Dados Suplementares (SDID) e a Id de Organização Experience Cloud da página padrão para a nova página. Essas IDs permitem que o A4T &quot;junte&quot; a solicitação do Target na página padrão com a solicitação do Analytics na nova página.<br>O formato esperado para passar sdid na url (para aplicativos híbridos ou de um aplicativo para o site ou de um site para outro) é `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
+| `adobe_mc_sdid` | O parâmetro `adobe_mc_sdid` passa a Id de Dados Suplementares (SDID) e a Id de Organização da Experience Cloud da página padrão para a nova página. Essas IDs permitem que o A4T &quot;junte&quot; a solicitação do Target na página padrão com a solicitação do Analytics na nova página.<br>O formato esperado para passar sdid na url (para aplicativos híbridos ou de um aplicativo para o site ou de um site para outro) é `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
 | `adobe_mc_ref` | O parâmetro `adobe_mc_ref` passa o URL de referência da página padrão para a página nova. Quando usado com a versão 2.1 (ou posterior) do AppMeasurement.js, o Analytics usa esse valor de parâmetro como o URL de referência na nova página. |
 
 Esses parâmetros são adicionados automaticamente aos URLs de redirecionamento ao usar as ofertas de redirecionamento integradas no VEC e no Experience Compose baseado em formulário quando o serviço de identificação do visitante está implementado na página. Se você estiver usando seu próprio código de redirecionamento personalizado no VEC ou no Compositor baseado em formulário, deve certificar-se de passar esses parâmetros com seu código personalizado.
@@ -119,11 +119,11 @@ No entanto, como prática recomendada, convém manter o parâmetro `adobe_mc_ref
 ## Por que os parâmetros adobe_mc_ref e adobe_mc_sdid estão codificados com URL duplo na minha implementação? {#section_5EFE5F012B944C40865731EA18E7E79E}
 
 +++Resposta
-Se você usa o A4T e ofertas de redirecionamento, o Target anexa os parâmetros `adobe_mc_ref` e `adobe_mc_sdid` à URL. Esses valores já estão codificados por URL. Na maioria das vezes, tudo funciona conforme o esperado, no entanto, alguns clientes podem ter balanceadores de carga ou servidores WEB que tentam codificar os parâmetros de cadeia de caracteres de consulta mais uma vez.
+Se você usa o A4T e ofertas de redirecionamento, o Target anexa os parâmetros `adobe_mc_ref` e `adobe_mc_sdid` ao URL. Esses valores já estão codificados por URL. Na maioria das vezes, tudo funciona conforme o esperado, no entanto, alguns clientes podem ter balanceadores de carga ou servidores WEB que tentam codificar os parâmetros de cadeia de caracteres de consulta mais uma vez.
 
 Devido a essa codificação dupla, quando a API de visitante tenta decodificar o valor `adobe_mc_sdid`, ele não pode extrair o valor SDID e gera um novo SDID. Esse processo faz com que valores SDID incorretos sejam enviados para o Target e o Analytics, e você vê a divisão desigual para redirecionamentos nos relatórios do Analytics.
 
-A Adobe incluir na lista de permissões recomenda que você converse com sua equipe de TI para garantir que `adobe_mc_ref` e `adobe_mc_sdid` sejam alterados para que esses valores não sejam transformados de forma alguma.
+A Adobe incluir na lista de permissões recomenda que você converse com sua equipe de TI para garantir que `adobe_mc_ref` e `adobe_mc_sdid` sejam transformados para que esses valores não sejam transformados de forma alguma.
 
 +++
 
@@ -141,18 +141,18 @@ Com o [!DNL at.js] versão 0.9.6 (ou posterior) e o [!DNL AppMeasurement.js] 2.1
 ## Posso usar ofertas de redirecionamento personalizadas/HTML? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 +++Resposta
-Não, você deve usar uma oferta de redirecionamento integrada para atividades que usam o [!DNL Analytics] como fonte de relatórios (A4T). Da perspectiva do [!DNL Target], as ofertas de HTML são opacas: o [!DNL Target] não pode saber que uma determinada parte do HTML contém JavaScript que instancia um redirecionamento.
+Não, você deve usar as ofertas de redirecionamento integradas para atividades que usam o [!DNL Analytics] como fonte de geração de relatórios (A4T). Da perspectiva do [!DNL Target], as ofertas de HTML são opacas: o [!DNL Target] não pode saber que uma determinada parte do HTML contém JavaScript que instancia um redirecionamento.
 
 +++
 
-## ![Selo do SDK da Web da Adobe Experience Platform](/help/main/assets/platform.png) O [!DNL Adobe Experience Platform Web SDK] oferece suporte a ofertas de redirecionamento para o A4T? {#platform}
+## ![Selo do Adobe Experience Platform Web SDK](/help/main/assets/platform.png) O [!DNL Adobe Experience Platform Web SDK] oferece suporte às ofertas de redirecionamento para o A4T? {#platform}
 
 As perguntas frequentes a seguir fornecem mais informações sobre o uso do A4T e ofertas de redirecionamento com o [!DNL Platform Web SDK].
 
 ### O Analytics for Target (A4T) é compatível com as ofertas de redirecionamento?
 
 +++Resposta
-Sim, o A4T através do SDK da Web da Platform suporta [ofertas de redirecionamento](/help/main/c-experiences/c-manage-content/offer-redirect.md).
+Sim, o A4T via Platform Web SDK oferece suporte a [ofertas de redirecionamento](/help/main/c-experiences/c-manage-content/offer-redirect.md).
 
 +++
 
@@ -166,6 +166,6 @@ Sim, o [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visu
 ### Posso usar ofertas de redirecionamento personalizadas/HTML com o [!DNL Platform Web SDK]?
 
 +++Resposta
-Não, você deve usar uma oferta de redirecionamento integrada para atividades que usam o A4T. Da perspectiva [!DNL Target], as ofertas de HTML são opacas. [!DNL Target] não pode saber que uma determinada parte do HTML contém JavaScript que instancia um redirecionamento.
+Não, você deve usar uma oferta de redirecionamento integrada para atividades que usam o A4T. Da perspectiva do [!DNL Target], as ofertas do HTML são opacas. [!DNL Target] não pode saber que uma determinada parte do HTML contém JavaScript que instancia um redirecionamento.
 
 +++

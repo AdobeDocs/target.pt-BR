@@ -108,14 +108,14 @@ Por exemplo, se estiver otimizando para exibições de página por visitante, vo
 1. Clique em **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
 1. Na guia **[!UICONTROL Data Warehouse Request]**, preencha os campos.
 
-   Para obter mais informações sobre cada campo, consulte &quot;Descrições do Data Warehouse&quot; em [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=pt-BR).
+   Para obter mais informações sobre cada campo, consulte &quot;Descrições do Data Warehouse&quot; em [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
 
    | Campo | Instruções |
    |--- |--- |
    | Nome da solicitação | Especifique um nome para sua solicitação. |
    | Data de relatório | Especifique um período de tempo e granularidade.<br>Como prática recomendada, escolha não mais que uma hora ou um dia de dados para sua primeira solicitação.  Os arquivos do Data Warehouse demoram mais para processar quanto mais longo for o tempo solicitado, por isso, é sempre uma prática recomendada solicitar primeiro um pequeno período de tempo para garantir que o arquivo retorne o resultado esperado. Em seguida, vá para o Gerenciador de solicitações, duplique sua solicitação e solicite mais dados pela segunda vez. Além disso, se você alternar a granularidade para algo diferente de &quot;Nenhum&quot;, o tamanho do arquivo aumentará drasticamente.<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
    | Segmentos disponíveis | Aplique um segmento, se necessário. |
-   | Detalhamentos | Selecione as dimensões desejadas: Padrão é pronto (OOTB), enquanto Personalizado inclui eVars e props. É recomendável usar &quot;ID de visitante&quot; se as informações no nível de ID de visitante forem necessárias, em vez de &quot;ID de visitante do Experience Cloud&quot;.<ul><li>ID do visitante é a ID final usada pelo Analytics. Ela será AID (se o cliente for legado) ou MID (se o cliente for novo ou tiver eliminado os cookies desde que o serviço de identificação de visitante do MC foi iniciado).</li><li>A ID de visitante da Experience Cloud só será definida para clientes novos ou com cookies eliminados desde que o serviço de ID de visitante do MC foi iniciado.</li></ul> |
+   | Detalhamentos | Selecione as dimensões desejadas: Padrão é pronto (OOTB), enquanto Personalizado inclui eVars e props. É recomendável usar &quot;ID de visitante&quot; se as informações no nível de ID de visitante forem necessárias, em vez de &quot;ID de visitante da Experience Cloud&quot;.<ul><li>ID do visitante é a ID final usada pelo Analytics. Ela será AID (se o cliente for legado) ou MID (se o cliente for novo ou tiver eliminado os cookies desde que o serviço de identificação de visitante do MC foi iniciado).</li><li>A ID de visitante da Experience Cloud só será definida para clientes novos ou com cookies eliminados desde que o serviço de ID de visitante do MC foi iniciado.</li></ul> |
    | Métricas | Selecione sua métrica desejada. O padrão é OOTB, enquanto o Personalizado inclui eventos personalizados. |
    | Visualização de Relatório | Revise suas configurações antes de agendar o relatório.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
    | Agendar entrega | Digite um endereço de email para entregar o arquivo, nomeie o arquivo e selecione [!UICONTROL Send Immediately].<br>Observação: o arquivo pode ser entregue via FTP em [!UICONTROL Advanced Delivery Options]<br>![Agendar Entrega](/help/main/c-reports/assets/datawarehouse3.png). |
@@ -128,8 +128,8 @@ Por exemplo, se estiver otimizando para exibições de página por visitante, vo
 
 Para obter mais informações sobre [!DNL Data Warehouse], consulte os seguintes links na documentação de ajuda do [!DNL Analytics]:
 
-* [Criar uma solicitação de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=pt-BR)
-* [práticas recomendadas do Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=pt-BR)
+* [Criar uma solicitação Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [práticas recomendadas da Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Metodologia de contagem {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -176,7 +176,7 @@ A [!DNL Target] recomenda usar o [teste t de Welch](https://en.wikipedia.org/wik
 
 ### Em mais detalhes
 
-Ao executar testes A/B online, cada usuário/visitante é atribuído aleatoriamente a uma única variante. Posteriormente, fazemos medições das métricas de negócios de interesse (por exemplo, conversões, pedidos, receita etc.) para visitantes em cada variante. O teste estatístico que usamos então testa a hipótese de que a métrica média de negócios (por exemplo, taxa de conversão, pedidos por usuário, receita por usuário etc.) é igual para o controle e uma determinada variante alternativa.
+Ao executar testes A/B online, cada usuário/visitante é atribuído aleatoriamente a uma única variante. Posteriormente, fazemos medições das métricas de negócios de interesse (por exemplo, conversões, pedidos, receita, etc.) para visitantes em cada variante. O teste estatístico que usamos então testa a hipótese de que a métrica média de negócios (por exemplo, taxa de conversão, pedidos por usuário, receita por usuário etc.) é igual para o controle e uma determinada variante alternativa.
 
 Embora a métrica de negócios em si possa ser distribuída de acordo com alguma distribuição arbitrária, a distribuição da média desta métrica (dentro de cada variante) deve convergir para uma distribuição normal através do [Teorema central do limite](https://en.wikipedia.org/wiki/Central_limit_theorem). Observe que, embora não haja garantias sobre a rapidez com que essa distribuição de amostragem da média convergirá para o normal, essa condição é normalmente alcançada dada a escala de visitantes em testes online.
 

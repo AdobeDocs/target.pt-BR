@@ -2,7 +2,7 @@
 keywords: Automated Personalization;ap;visualizar;excluir experiência;;ap;preview;exclude experience
 description: Saiba como visualizar cada experiência em uma atividade do [!UICONTROL Automated Personalization] (AP) usando o [!UICONTROL Visual Experience Composer] (VEC).
 title: Como posso visualizar experiências do [!UICONTROL Automated Personalization] no VEC?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88

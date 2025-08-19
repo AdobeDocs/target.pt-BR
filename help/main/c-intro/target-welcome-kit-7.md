@@ -51,7 +51,7 @@ Conforme você apresenta a ideia de teste, lembre-se de que deve ser capaz de ex
 
 ## Planejamento da atividade com o Planejador de atividades
 
-Incluímos o [Planejador do Adobe Target Activity](/help/main/assets/activity-planner.pdf) como um PDF independente que pode ser salvo e usado repetidamente. Clique no link para visualizar o arquivo PDF. Clique com o botão direito do mouse para baixar o arquivo PDF.
+Incluímos o [Planejador do Adobe Target Activity](/help/main/assets/activity-planner.pdf) como um PDF independente que você pode salvar e usar repetidamente. Clique no link para visualizar o arquivo PDF. Clique com o botão direito do mouse para baixar o arquivo PDF.
 
 Para executar uma atividade eficaz, você precisa preencher cada área do planejador. Use essa ferramenta enquanto você e outras pessoas discutem ideias para atividades de teste e personalização.
 
@@ -73,7 +73,7 @@ Marque a caixa do tipo de atividade que deseja executar. Você pode revisar o t�
 
 ### Quem é o público-alvo?
 
-Em um teste A/B com uma experiência de controle e uma variante, por exemplo, você pode incluir toda a população de visitantes. Por padrão, o [!DNL Target] fornece 50% para o controle e 50% para a variante. Mas, se estiver personalizando, você pode descrever o público ou públicos para os quais está personalizando. Ao usar IA, observe que você a está usando para personalizar o indivíduo. Observe que sua hipótese deve indicar por que você está escolhendo um público específico para uma atividade se estiver escolhendo um.
+Em um teste A/B com uma experiência de controle e uma variante, por exemplo, você pode incluir toda a população de visitantes. Por padrão, o [!DNL Target] fornece 50% para o controle e 50% para a variante. Mas, se estiver personalizando, você pode descrever o público ou públicos para os quais está personalizando. Ao usar IA, observe que você a está usando para personalizar para a pessoa. Observe que sua hipótese deve indicar por que você está escolhendo um público específico para uma atividade se estiver escolhendo um.
 
 ### Quais são as métricas principais para medir o impacto da atividade?
 

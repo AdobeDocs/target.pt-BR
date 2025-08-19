@@ -121,11 +121,11 @@ O [!UICONTROL Multivariate Test] (MVT) ocupa um relatório de primeira página. 
 
 1. Clique em **[!UICONTROL Save and Close]** para criar a atividade.
 
-## Vídeo de treinamento: Criação de testes multivariados (9:25) ![Selo do tutorial](/help/main/assets/tutorial.png)
+## Vídeo de treinamento: Criando Testes Multivariados (9:25) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
 Este vídeo demonstra como planejar e criar um teste multivariado usando o fluxo de trabalho guiado de três etapas do [!DNL Target].
 
 * Definir e projetar um teste multivariado
 * Criar um teste multivariado
 
->[!VIDEO](https://video.tv.adobe.com/v/30985?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

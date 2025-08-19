@@ -1,8 +1,8 @@
 ---
 keywords: regras de inclusão;critérios de inclusão;recomendações;promoção;promoções;filtragem dinâmica;dinâmico;correspondência de atributo de perfil
 description: Saiba como filtrar dinamicamente no Adobe [!DNL Target] Recommendations comparando itens (entidades) com um valor no perfil do usuário.
-title: Como filtrar por correspondência de atributos de perfil nas atividades do Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+title: Como filtrar por Correspondência de atributos de perfil nas atividades do Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -65,10 +65,10 @@ Suponha que você tenha criado um script de perfil para rastrear e contar o núm
 
 Se o visitante retornar à Página inicial, verá recomendações filtradas com base no fato de mais fãs pequenos ou grandes terem sido clicados.
 
-Recommendations com base na exibição de mais fãs pequenos no site:
+Recomendações baseadas na exibição de mais fãs pequenos no site:
 
 ![recomendações para fãs pequenos](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
 
-Recommendations com base na exibição de mais fãs grandes no site:
+Recomendações com base na exibição de mais fãs grandes no site:
 
 ![recomendações para grandes fãs](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)

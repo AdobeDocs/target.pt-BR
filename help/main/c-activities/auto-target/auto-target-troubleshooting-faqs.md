@@ -2,13 +2,13 @@
 keywords: direcionamento automático; direcionamento; alocação de tráfego; perguntas frequentes; faq; solução de problemas; solucionar problemas; tráfego
 description: Explore tópicos de solução de problemas e perguntas frequentes sobre as atividades de [!UICONTROL Auto-Target].
 title: Como posso solucionar problemas de atividades do [!UICONTROL Auto-Target]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: 3e8c2d77f300bf0e2ca83a53d30e7b9eee48894e
 workflow-type: tm+mt
 source-wordcount: '1850'
-ht-degree: 29%
+ht-degree: 32%
 
 ---
 
@@ -37,7 +37,7 @@ Consulte as seguintes perguntas frequentes e respostas ao trabalhar com as ativi
 
 ### [!UICONTROL Adobe] que você recomenda usar [!UICONTROL Auto Target] com uma divisão de 90(Controle)/10(Direcionado) até que os modelos sejam compilados?
 
-+++Resposta
++++Resposta 
 A divisão de alocação de tráfego ideal depende do que você deseja realizar.
 
 Se o objetivo for personalizar o máximo de tráfego possível, você poderá manter a alocação direcionada de 90% e o controle de 10% durante todo o tempo de vida útil da atividade. Se o objetivo for executar um experimento comparando como os algoritmos personalizados são executados em relação ao controle, uma divisão 50/50 é melhor para o tempo de vida da atividade.
@@ -116,7 +116,7 @@ Você pode começar a ver os resultados do teste do [!UICONTROL Auto-Target] dep
 ### Posso definir uma experiência específica para ser usada como controle?
 
 +++Resposta
-Você pode selecionar uma experiência para ser usada como controle ao criar uma atividade do [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou do [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT).
+É possível selecionar uma experiência para ser usada como controle ao criar uma atividade de [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou de [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT).
 
 Esse recurso permite rotear todo o tráfego de controle para uma experiência específica, com base na porcentagem de alocação de tráfego configurada na atividade. Em seguida, você pode avaliar os relatórios de desempenho do tráfego personalizado com relação ao tráfego de controle para essa experiência única.
 
@@ -127,7 +127,7 @@ Para obter mais informações, consulte [Usar uma experiência específica como 
 ### Posso alterar a métrica de meta durante uma atividade de [!UICONTROL Auto-Target]? {#change-metric}
 
 +++Resposta
-O Adobe não recomenda alterar a métrica de meta durante uma atividade. Embora seja possível alterar a métrica de meta durante uma atividade utilizando a interface do usuário [!DNL Target], você sempre deve iniciar uma nova atividade. O Adobe não garante o que acontece se você alterar a métrica de meta em uma atividade após sua execução.
+A Adobe não recomenda alterar a métrica de meta durante uma atividade. Embora seja possível alterar a métrica de meta durante uma atividade utilizando a interface do usuário [!DNL Target], você sempre deve iniciar uma nova atividade. A Adobe não garante o que acontece se você alterar a métrica de meta em uma atividade após sua execução.
 
 Esta recomendação se aplica às atividades de [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization] que usam [!DNL Target] ou [!DNL Analytics] (A4T) como fonte de relatórios.
 

@@ -19,7 +19,7 @@ Antes de decidir usar essa integração, analise as seções a seguir e consider
 
 >[!NOTE]
 >
->Este artigo se aplica somente às implementações da at.js. Para obter informações sobre como implementar o [!UICONTROL Analytics for Target] (A4T) com o [!DNL Adobe Experience Platform Web SDK], consulte o log do [Adobe Analytics for Target (A4T) no Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html?lang=pt-BR){target=_blank}.
+>Este artigo se aplica somente às implementações da at.js. Para obter informações sobre como implementar o [!UICONTROL Analytics for Target] (A4T) com o [!DNL Adobe Experience Platform Web SDK], consulte o log do [Adobe Analytics for Target (A4T) no Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html){target=_blank}.
 
 ## Requisitos de implementação {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
@@ -83,7 +83,7 @@ O aumento da latência começa após a implementação do serviço de ID de visi
 
 Todas as chamadas [!DNL Target] usadas por uma atividade do A4T para fornecer conteúdo ou registrar a métrica de meta devem ter uma ocorrência [!DNL Analytics] correspondente que compartilhe a ID complementar do A4T para funcionar corretamente.
 
-Ocorrências que contêm dados de [!DNL Analytics] e [!DNL Target] contêm uma ID de dados complementar. Você pode ver esta ID no [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=pt-BR) como o parâmetro `sdid`. Por exemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Esta ID é gerada a qualquer momento em que os seguintes critérios estiverem em vigor:
+Ocorrências que contêm dados de [!DNL Analytics] e [!DNL Target] contêm uma ID de dados complementar. Você pode ver esta ID no [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) como o parâmetro `sdid`. Por exemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Esta ID é gerada a qualquer momento em que os seguintes critérios estiverem em vigor:
 
 * O serviço de ID de visitante for implementado
 

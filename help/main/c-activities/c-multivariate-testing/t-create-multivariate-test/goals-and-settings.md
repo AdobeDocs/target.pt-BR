@@ -7,7 +7,7 @@ exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
 source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
 workflow-type: tm+mt
 source-wordcount: '1164'
-ht-degree: 41%
+ht-degree: 38%
 
 ---
 
@@ -54,7 +54,7 @@ Para atividades criadas em versões anteriores do [!DNL Target], a prioridade [!
 
 ### Duração
 
-A atividade pode começar quando aprovada ou você pode definir data e hora específicas. Da mesma maneira, a atividade não pode terminar quando é desativada, ou você pode definir uma data e hora. O seletor de hora usa um relógio de 24 horas, sendo 00h a meia-noite. O fuso horário é definido para o que foi configurado no navegador. Para usar um fuso horário diferente, defina o navegador para outro fuso horário e reinicie-o.
+A atividade pode começar quando aprovada ou você pode definir data e hora específicas. Da mesma maneira, a atividade não pode terminar quando é desativada, ou você pode definir uma data e hora. O seletor de hora usa um relógio de 24 horas, sendo 00:00 meia-noite. O fuso horário é definido para o que foi configurado no navegador. Para usar um fuso horário diferente, defina o navegador para outro fuso horário e reinicie-o.
 
 ## Configurações da geração de relatórios {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -159,7 +159,7 @@ Digite quaisquer informações sobre sua atividade que sejam úteis para você m
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Configurações de atividade (3:02)
+### Configurações de Atividade (3:02)
 
 Este vídeo inclui informações sobre as configurações da atividade.
 
@@ -171,11 +171,11 @@ Este vídeo inclui informações sobre as configurações da atividade.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Criação de testes multivariados (9:25)
+### Criando Testes Multivariados (9:25)
 
 Este vídeo demonstra como criar um teste multivariado usando o fluxo de trabalho guiado de três etapas do [!DNL Target]. Metas e configurações são discutidas a partir de 7:00.
 
 * Definir e projetar um teste multivariado
 * Criar um teste multivariado
 
->[!VIDEO](https://video.tv.adobe.com/v/30985?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

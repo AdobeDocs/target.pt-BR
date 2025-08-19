@@ -7,7 +7,7 @@ exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 38%
+ht-degree: 35%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 38%
 
 O relatório [!UICONTROL Location Contribution] mostra o desempenho de cada elemento e cada oferta.
 
-A parte superior do relatório mostra a métrica, as datas de início e término e o público-alvo usado no relatório. Você pode alterar qualquer um desses fatores.
+A parte superior do relatório mostra a métrica, as datas inicial e final e o público-alvo usado no relatório. Você pode alterar qualquer um desses fatores.
 
 >[!NOTE]
 >
@@ -35,6 +35,6 @@ A segunda tabela fornece um relatório de nível de oferta. Ela mostra o índice
 
 ## Vídeo de treinamento: Criar um teste MVT
 
-Este vídeo demonstra como criar um teste multivariado usando o fluxo de trabalho guiado de três etapas do [!DNL Target]. O relatório de Contribuição da localização é descrito no começo às 08:45.
+Este vídeo demonstra como criar um teste multivariado usando o fluxo de trabalho guiado de três etapas do [!DNL Target]. O relatório de Contribuição de localização é descrito a partir de 8:45.
 
->[!VIDEO](https://video.tv.adobe.com/v/30985?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

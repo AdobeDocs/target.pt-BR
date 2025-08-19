@@ -1,13 +1,13 @@
 ---
 keywords: teste multivariado, mvt, relatório de desempenho da experiência
-description: Saiba como usar o relatório de Desempenho da experiência para atividades do Adobe [!DNL Target] Direcionamento de experiência que mostra o desempenho de cada experiência da atividade.
+description: Saiba como usar o relatório de desempenho da experiência para atividades de Direcionamento de experiência do Adobe [!DNL Target] que mostram como ocorre cada experiência da atividade.
 title: Como usar o relatório de desempenho da experiência para testes multivariados?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 75%
+ht-degree: 72%
 
 ---
 
@@ -17,7 +17,7 @@ O relatório [!UICONTROL Experience Performance] mostra como ocorre cada experi�
 
 Você pode selecionar uma ou mais experiências para compará-las. Clique em uma experiência e selecione **[!UICONTROL Preview]** para abrir a experiência em uma guia do navegador.
 
-A parte superior do relatório mostra a métrica, as datas de início e término e o público-alvo usado no relatório. Você pode alterar qualquer um desses fatores.
+A parte superior do relatório mostra a métrica, as datas inicial e final e o público-alvo usado no relatório. Você pode alterar qualquer um desses fatores.
 
 >[!NOTE]
 >
@@ -35,6 +35,6 @@ Abaixo do gráfico, uma tabela mostra quantos participantes visualizaram cada ex
 
 ## Vídeo de treinamento: Criar um teste MVT ![Selo do tutorial](/help/main/assets/tutorial.png)
 
-Este vídeo mostra como criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target. O relatório de Desempenho da experiência é descrito no começo às 8:20.
+Este vídeo mostra como criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target. O relatório de Desempenho da Experiência é descrito a partir de 8:20.
 
->[!VIDEO](https://video.tv.adobe.com/v/30985?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

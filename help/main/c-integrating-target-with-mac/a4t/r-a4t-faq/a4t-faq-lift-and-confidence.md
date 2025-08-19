@@ -7,7 +7,7 @@ exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
 source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 15%
+ht-degree: 25%
 
 ---
 
@@ -18,7 +18,7 @@ Este tópico contém respostas para as perguntas mais frequentes sobre aumento e
 ## Posso realizar cálculos offline para o A4T? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
 +++Resposta
-Você pode realizar cálculos offline para o A4T, mas isso requer uma etapa com as exportações de dados no [!DNL Analytics]. Para obter mais informações, consulte [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+Você pode realizar cálculos offline para o A4T, mas isso exige uma etapa com as exportações de dados no [!DNL Analytics]. Para obter mais informações, consulte [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 +++
 
@@ -46,7 +46,7 @@ Eventos não calculados (padrão) são aceitos em incentivo e confiança. Eles s
 Exemplos de métricas ou casos de uso não compatíveis incluem:
 
 * Valor médio de pedido (Receita/Pedido, por visitante). Não há suporte para AOV porque o numerador é uma métrica calculada. Em vez disso, a recomendação é considerar as duas métricas influenciadoras do AOV - Receita por visitantes e Taxa de conversão.
-* Métricas calculadas que são a soma dos eventos padrão. Por exemplo, você pode rastrear dez formulários de cliente potencial diferentes em dez eventos separados e depois adicioná-los juntos para obter o envio total de clientes potenciais. Um método recomendado para rastrear esses eventos é implementar um único evento de envio de lead no Analytics e usar um eVar para coletar o tipo de formulário de lead. O uso desse método requer menos variáveis e garante que você possa usar a métrica de envio de cliente potencial único em funções de aumento e confiança.
+* Métricas calculadas que são a soma dos eventos padrão. Por exemplo, você pode rastrear dez formulários de cliente potencial diferentes em dez eventos separados e depois adicioná-los juntos para obter o envio total de clientes potenciais. Um método recomendado para rastrear esses eventos é implementar um único evento de envio de lead no Analytics e usar uma eVar para coletar o tipo de formulário de lead. O uso desse método requer menos variáveis e garante que você possa usar a métrica de envio de cliente potencial único em funções de aumento e confiança.
 
 +++
 
@@ -60,5 +60,5 @@ Exemplos de métricas ou casos de uso não compatíveis incluem:
 ## O aumento e a confiança funcionam na Ad Hoc e Report Builder? Se não é nativo, posso fazer isso sozinho? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
 +++Resposta
-O incentivo e a confiança não funcionam na Ad Hoc ou no Report Builder e não podem ser calculados por conta própria para variáveis contínuas. É possível calcular manualmente para métricas binárias.
+O aumento e a confiança não funcionam na Ad Hoc ou no Report Builder e não podem ser calculados para variáveis contínuas. É possível calcular manualmente para métricas binárias.
 +++

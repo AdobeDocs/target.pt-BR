@@ -1,6 +1,6 @@
 ---
 keywords: relatórios, baixar relatórios, csv, métrica de sucesso, detalhes do pedido
-description: Saiba como baixar dados de atividades Adobe [!DNL Target] em um formato CVS para permitir uma importação rápida para Excel, Access ou outros programas de análise de dados.
+description: Saiba como baixar dados de atividades do Adobe [!DNL Target]  em um formato CVS para permitir uma importação rápida para Excel, Access ou outros programas de análise de dados.
 title: Como baixar dados de relatório em um arquivo CSV?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e

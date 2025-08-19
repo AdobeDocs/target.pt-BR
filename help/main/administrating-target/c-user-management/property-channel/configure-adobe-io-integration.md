@@ -1,8 +1,8 @@
 ---
 keywords: integração; funções; permissões do usuário; admin console
-description: Saiba como conceder acesso às integrações de Adobe I/O existentes para todos os espaços de trabalho com a função desejada no Adobe Target.
-title: Como Conceder Acesso ao Adobe I/O para Espaços de Trabalho e Atribuir Funções?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+description: Saiba como conceder acesso às integrações existentes do Adobe I/O para todos os espaços de trabalho com a função desejada no Adobe Target.
+title: Como conceder acesso ao Adobe I/O a espaços de trabalho e atribuir funções?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
@@ -26,11 +26,11 @@ O recurso [!UICONTROL Enterprise Permissions] facilita a escala eficaz de progra
 Com a versão [!DNL Target] de setembro de 2019, o [!DNL Target] [!UICONTROL Enterprise Permissions] fornece aos clientes os seguintes controles de acesso:
 
 * É possível escolher os espaços de trabalho aos quais a integração pode ser aplicada
-* Você pode aplicar uma função à integração de Adobe I/O: [!UICONTROL Approver], [!UICONTROL Editor] ou [!UICONTROL Observer].
+* Você pode aplicar uma função à integração do Adobe I/O: [!UICONTROL Approver], [!UICONTROL Editor] ou [!UICONTROL Observer].
 
 Esta atualização oferece suporte para os seguintes casos de uso:
 
-* Conceda acesso à integração de Adobe I/O a todos os espaços de trabalho com a função [!UICONTROL Observer] para fins de relatório, sem direitos para criar ou editar recursos.
+* Conceda acesso à integração do Adobe I/O a todos os espaços de trabalho com a função [!UICONTROL Observer] para fins de relatório, sem direitos para criar ou editar recursos.
 * Conceda acesso à integração do Adobe I/O para selecionar espaços de trabalho com a função apropriada para permitir que uma equipe central faça alterações orientadas por API em apenas alguns espaços de trabalho.
 * Permita que cada equipe que possui seu espaço de trabalho tenha sua própria integração sempre que estiver pronta para explorar APIs e escolher a função de acordo.
 * Misture e associe qualquer cenário acima.

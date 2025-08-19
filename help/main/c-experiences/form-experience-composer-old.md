@@ -104,7 +104,7 @@ Se você estiver criando uma atividade [!UICONTROL Recommendations], não há ex
 
    **Adicionar decisão de oferta:**
 
-   Adicione uma oferta criada em [!DNL Adobe Journey Optimizer] (AJO) a uma atividade [!DNL Adobe Target] para apresentar a melhor oferta dinâmica e experiência aos visitantes do seu site ou site móvel usando o offer decisioning. Esta opção está disponível somente para atividades manuais [!UICONTROL A/B Test] e [!UICONTROL Experience Targeting] (XT).
+   Adicione uma oferta criada em [!DNL Adobe Journey Optimizer] (AJO) a uma atividade [!DNL Adobe Target] para apresentar a melhor oferta dinâmica e experiência aos visitantes do seu site ou site móvel usando o Offer Decisioning. Esta opção está disponível somente para atividades manuais [!UICONTROL A/B Test] e [!UICONTROL Experience Targeting] (XT).
 
    Para obter mais informações, consulte [Usar decisões de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 

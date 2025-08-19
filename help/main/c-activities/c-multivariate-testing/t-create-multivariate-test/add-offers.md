@@ -1,6 +1,6 @@
 ---
 keywords: mvt;teste multivariado;ofertas;combinações
-description: Saiba como usar o [!UICONTROL Visual Experience Composer] (VEC) no Adobe [!DNL Target] para criar as ofertas que deseja incluir no [!UICONTROL Multivariate Test] (MVT).
+description: Saiba como usar o [!UICONTROL Visual Experience Composer] (VEC) no Adobe [!DNL Target] para criar as ofertas que deseja incluir no seu [!UICONTROL Multivariate Test] (MVT).
 title: Como criar combinações em um [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
@@ -37,9 +37,9 @@ Cada imagem se torna uma experiência separada nesse local.
 
 Teste várias ofertas HTML de um local para determinar qual é mais bem sucedida.
 
-1. Clique em uma oferta HTML na sua página e em **[!UICONTROL Change HTML Offer]**.
+1. Clique em uma oferta do HTML na sua página e em **[!UICONTROL Change HTML Offer]**.
 
-1. Clique em **[!UICONTROL Create Offer]**, clique em **[!UICONTROL HTML Offer]**, nomeie a oferta, digite ou cole o código para a oferta HTML e clique em **[!UICONTROL Create]**.
+1. Clique em **[!UICONTROL Create Offer]**, clique em **[!UICONTROL HTML Offer]**, nomeie a oferta, digite ou cole o código para a oferta do HTML e clique em **[!UICONTROL Create]**.
 
    Repita o procedimento para qualquer oferta em HTML adicional que queira incluir.
 

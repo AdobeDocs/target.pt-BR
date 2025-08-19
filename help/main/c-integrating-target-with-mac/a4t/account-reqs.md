@@ -1,6 +1,6 @@
 ---
 keywords: Analytics como fonte de geração de relatórios;a4t;A4T;requisitos
-description: Saiba como configurar os requisitos da conta de usuário necessários para criar uma atividade baseada em Adobe Analytics no Adobe [!DNL Target] usando o Analytics for [!DNL Target] (A4T).
+description: Saiba como configurar os requisitos da conta de usuário necessários para criar uma atividade baseada no Adobe Analytics no Adobe [!DNL Target] usando o Analytics for [!DNL Target] (A4T).
 title: Quais requisitos de permissão de usuário são necessários para o A4T?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
@@ -28,13 +28,13 @@ Conclua as seguintes tarefas no [!DNL Adobe Experience Cloud] [Admin Console](ht
 
 Suas contas de usuário do [!DNL Analytics] e do [!DNL Target] devem estar vinculadas a sua Adobe ID.
 
-Para obter mais informações, consulte [Organizações e vinculação de contas](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR).
+Para obter mais informações, consulte [Organizações e vinculação de contas](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
 
 ### Configurar a associação do grupo da Experience Cloud
 
 Você deve ser um membro de um ou mais grupos do [!DNL Experience Cloud] com acesso ao [!DNL Analytics] e [!DNL Target].
 
-Para obter mais informações, consulte [Gerenciar usuários e produtos do Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=pt-BR).
+Para obter mais informações, consulte [Gerenciar usuários e produtos da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
@@ -48,7 +48,7 @@ Para usar o A4T em um conjunto de relatórios específico, você deve ter acesso
 
    A ilustração a seguir é um exemplo de um perfil de produto que tem acesso a todos os conjuntos de relatórios:
 
-   ![guia Permissão de Admin Console](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![Guia de Permissão do Admin Console](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 1. Configure o acesso ao grupo [!UICONTROL Web Services Access].
 

@@ -19,7 +19,7 @@ O navegador VEC Helper é uma extensão [!DNL Chrome]. Esta extensão não é ne
 
 >[!IMPORTANT]
 >
->* A extensão auxiliar do VEC [!DNL Target] herdada documentada neste artigo foi criada usando o Manifest V2. [!DNL Google] anunciou que não permitirá mais extensões criadas usando o Manifest V2 a partir de junho de 2024. Para obter mais informações, consulte o [anúncio da linha do tempo de suporte do Manifest V2](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} de [!DNL Google] no site *Chrome para Desenvolvedores*.
+>* A extensão auxiliar do VEC [!DNL Target] herdada documentada neste artigo foi criada usando o Manifest V2. [!DNL Google] anunciou que não permitirá mais extensões criadas usando o Manifest V2 a partir de junho de 2024. Para obter mais informações, consulte o [anúncio da linha do tempo de suporte do Manifest V2](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} de [!DNL Google] no site *Chrome para desenvolvedores*.
 >
 >* A partir de junho de 2024, o [!DNL Google] começará a desabilitar as extensões criadas usando o Manifesto V2, incluindo a extensão documentada neste tópico. A [!DNL Adobe] recomenda que os clientes mudem para a [extensão Auxiliar de edição visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) mais recente assim que possível.
 
@@ -80,7 +80,7 @@ A extensão de navegador VEC Helper para o Chrome resolve problemas de carregame
 
 * O sinalizador [!UICONTROL Inject Target libraries] na extensão está desativado por padrão. Você pode ativar esse sinalizador se desejar usar o VEC em um site que ainda não foi implementado para [!DNL Target].
 
-  Esse sinalizador é uma configuração global. O sinalizador é ativado ou desativado para todos os sites abertos no VEC. Assim, por exemplo, se você definir esse sinalizador como &quot;ativado&quot; e abrir um site que já esteja implementado com a at.js, você receberá uma mensagem informando que a at.js já está carregada. O Adobe prevê que a maioria dos clientes já tenha o at.js implementado em suas páginas e use a configuração padrão &quot;desativado&quot;.
+  Esse sinalizador é uma configuração global. O sinalizador é ativado ou desativado para todos os sites abertos no VEC. Assim, por exemplo, se você definir esse sinalizador como &quot;ativado&quot; e abrir um site que já esteja implementado com a at.js, você receberá uma mensagem informando que a at.js já está carregada. O Adobe prevê que a maioria dos clientes já tenha a at.js implementada em suas páginas e use a configuração padrão &quot;desativada&quot;.
 
 * A extensão carrega a versão mais recente da at.js disponível do [!DNL Target UI] em [!UICONTROL Administration > Implementation].
 * Ao usar a extensão para inserir o at.js enquanto estiver no [Modo de QA](/help/main/c-activities/c-activity-qa/activity-qa.md), é necessário abrir outra guia do Chrome. Essa guia do Chrome deve ser autenticada na mesma organização de [!DNL Adobe Experience Cloud] na qual você criou a atividade.

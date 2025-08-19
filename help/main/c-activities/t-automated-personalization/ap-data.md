@@ -2,7 +2,7 @@
 keywords: dados ambientais;dados de sessão;dados geográficos;dados geográficos;dados do dispositivo;dados móveis;atributos;atributos de perfil;algoritmos de personalização;algoritmos de aprendizado de máquina;algoritmos de aprendizado de máquina
 description: Saiba quais dados  [!DNL Adobe Target]  coletam e usam para criar seus algoritmos de aprendizado de máquina.
 title: Quais dados são coletados para criar algoritmos de aprendizado de máquina do?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
@@ -38,10 +38,10 @@ A tabela a seguir mostra os dados fornecidos pelo cliente coletados por [!UICONT
 | --- | --- | --- | --- |
 | Parâmetros da página | CAIXA | Parâmetros de página personalizados (&quot;parâmetros mbox&quot;) passados na chamada para [!DNL Target]. | Personalizado - Parâmetro da Mbox - [nome do parâmetro] |
 | [!DNL Target] perfil | PRO | Os atributos de perfil personalizados são carregados diretamente no perfil do [!DNL Target] por meio da API ou do parâmetro de página e dos scripts de perfil do [!DNL Target]. | Personalizado - Perfil do visitante - [nome do atributo] |
-| Atributos do cliente | CRS | Atributos do Cliente carregados para o perfil [!DNL Target] por meio de [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=pt-BR){target=_blank}. | Personalizado - Perfil do visitante - [nome do atributo] |
+| Atributos do cliente | CRS | Atributos do Cliente carregados para o perfil [!DNL Target] por meio de [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}. | Personalizado - Perfil do visitante - [nome do atributo] |
 | Parâmetros de URL | URL | URL e parâmetros de URL da página exibida no momento. | Personalizado - Parâmetro de URL - [Parâmetro de URL] |
 | URL de referência | REF | URL de referência e quaisquer parâmetros de URL para o URL de referência. | Personalizado - [Parâmetro de URL de Referência] - [Valor de parâmetro] |
-| [!DNL Adobe Experience Cloud] públicos-alvo compartilhados | AAM | Todos os públicos-alvo compartilhados com [!DNL Target] de outras soluções [!DNL Adobe Experience Cloud] (por exemplo, [!DNL Adobe Audience Manager] e [!DNL Adobe Analytics], através de [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=pt-BR){target=_blank}). | Personalizado - Público-Alvo Do Experience Cloud - [Nome Do Público-Alvo] |
+| [!DNL Adobe Experience Cloud] públicos-alvo compartilhados | AAM | Todos os públicos-alvo compartilhados com [!DNL Target] de outras soluções [!DNL Adobe Experience Cloud] (por exemplo, [!DNL Adobe Audience Manager] e [!DNL Adobe Analytics], através de [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Personalizado - Público-Alvo Do Experience Cloud - [Nome Do Público-Alvo] |
 | [!DNL Adobe Experience Platform Real-time CDP] públicos-alvo | UPS | Públicos da CDP em tempo real da Platform compartilhados com [!DNL Target] via [!UICONTROL Destinations]. |  |
 
 
@@ -49,7 +49,7 @@ A tabela a seguir mostra os dados fornecidos pelo cliente coletados por [!UICONT
 
 Os recursos podem ser bloqueados de [!DNL Target] algoritmos de aprendizado de máquina, impedindo que sejam usados em qualquer modelo ou atividade do [!UICONTROL Automated Personalization] ou [!UICONTROL Auto-Target].
 
-Incluir na lista de bloqueios Para obter mais informações, consulte [Visão geral da API de modelos ()](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=pt-BR){target=_blank} no *[!DNL Adobe Target]Guia do Desenvolvedor*.
+Incluir na lista de bloqueios Para obter mais informações, consulte [Visão geral da API de modelos ()](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} no *[!DNL Adobe Target]Guia do Desenvolvedor*.
 
 ## Dispositivo e dados móveis {#device-mobile}
 
@@ -124,5 +124,5 @@ Incluir na lista de bloqueios Para obter mais informações, consulte [Visão ge
 | Visitor Profile - Time in Visit Before Enter Activity | Especifica a diferença entre a última interação com [!DNL Target] e quando a visita atual começou. Esse atributo pode ser considerado duração da visita/sessão, até que o usuário entre na atividade e o instantâneo seja tirado.<br>Valores negativos ocorrem quando o início da sessão e a hora da última atualização são acionados pela mesma chamada [!DNL Target]. Valores negativos devem ser considerados como 0 (zero). | Duplo, milissegundos | SES_SESSION_TIME |
 | Perfil do visitante - Visitas totais | Especifica o número total de visitas/sessões. Isso não inclui a visita/sessão atual. | Duplo (apenas número positivo inteiro) 1, 2, 3 e assim por diante. | SES_TOTAL_SESSIONS |
 | Visitor Profile - Total Visits to Activity | Especifica o número de visitas a uma atividade específica. Se não houver visita anterior, retorna 0 (zero). | Duplo (apenas número positivo inteiro) 1, 2, 3 e assim por diante. | SES_PREVIOUS_VISIT_COUNT |
-| Visitor Profile - Total Visits to Activity with Conversion | Especifica o número de visitas/sessões a uma atividade específica quando houve pelo menos uma conversão durante a visita. | Dupla | SES_CUMULATIVE_SUCCESS |
-| Visitor Profile - Visits to Activity with No Conversion | Número de visitas/sessões sem conversões a uma atividade específica. Esse valor é redefinido como zero depois da conversão ou -1 se a conversão nunca tiver ocorrido. | Duplo (apenas número positivo inteiro) 1, 2, 3 e assim por diante. | SES_SUCCESS_RECENCY |
+| Perfil de visitante - Total de visitas à atividade com conversão | Especifica o número de visitas/sessões a uma atividade específica quando houve pelo menos uma conversão durante a visita. | Dupla | SES_CUMULATIVE_SUCCESS |
+| Perfil de visitante - Visitas à atividade sem conversão | Número de visitas/sessões sem conversões a uma atividade específica. Esse valor é redefinido como zero depois da conversão ou -1 se a conversão nunca tiver ocorrido. | Duplo (apenas número positivo inteiro) 1, 2, 3 e assim por diante. | SES_SUCCESS_RECENCY |

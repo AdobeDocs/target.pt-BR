@@ -88,7 +88,7 @@ Alguns motivos pelos quais você pode cancelar o carregamento de uma página no 
 * Você inseriu erroneamente o URL incorreto da página
 * Você deseja ativar ou desativar o JavaScript antes de carregar a página no VEC
 * Você deseja adicionar mais regras de teste de modelo aos critérios de Entrega da página
-* Você deseja substituir o botão geral do Enhanced Experience Composer (EEC) ao carregar uma página pelo EEC ou somente no iframe, o que pode variar de uma página para outra
+* Você deseja substituir o botão de alternância geral do Enhanced Experience Composer (EEC) ao carregar uma página pelo EEC ou somente no iframe, o que pode variar de uma página para outra
 
 Depois de cancelar o carregamento de página no VEC, você pode alternar entre experiências na atividade sem esperar que a página seja carregada. Para visualizar a página no VEC novamente, clique no botão **[!UICONTROL Reload]**.
 
@@ -113,7 +113,7 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 * Alterar o conteúdo de uma página
 * Alterar o layout de uma página
 
->[!VIDEO](https://video.tv.adobe.com/v/31293?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
 
 ### Visual Experience Composer (2 de 2) (7:29) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
@@ -124,7 +124,7 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 * Visualizar e criar a experiência para sites responsivos
 * Use sobreposições para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/30981?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Office hours: Visual Experience Composer ![Selo do tutorial](/help/main/assets/tutorial.png)
 

@@ -3,7 +3,7 @@ keywords: ajo;adobe jornada otimizer;adobe jornada otimizer destino integração
 description: Integrar [!DNL Adobe Target Recommendations] com [!DNL Adobe Journey Optimizer].
 title: Como usar o  [!DNL Target Recommendations] em jornadas de clientes usando o  [!DNL Adobe Journey Optimizer]?
 feature: Integrations
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#beta newtab=true" tooltip="O que são recursos beta no  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
@@ -25,11 +25,11 @@ Essa integração ajuda você a gerar mais conversões e ver o impacto de mensag
 
 Para usar a integração do [!DNL Target Recommendations] e do [!DNL Adobe Journey Optimizer], você precisa do seguinte:
 
-* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) implementado usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
+* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) implementado usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
 
   Este recurso não está disponível com uma licença [!DNL Target Standard] ou ao implementar o [!DNL Target] com a at.js ou outros SDKs [!DNL Target].
 
-* [[!DNL Adobe Journey Optimizer]1.](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target=_blank}
+* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target=_blank}.
 
 ## Casos de uso de exemplo
 

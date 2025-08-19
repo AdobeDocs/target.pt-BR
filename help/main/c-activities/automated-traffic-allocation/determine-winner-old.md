@@ -1,6 +1,6 @@
 ---
 keywords: alocação automática de tráfego;direcionamento;vencedor;garantia estatística;confiança;determinar vencedor;aumento;confiança;padrão;experiência padrão;alocação automática;alocação automática
-description: Saiba como interpretar os resultados de uma atividade A/B [!UICONTROL Auto-Allocate] em Adobe [!DNL Target]  examinando indicadores importantes, incluindo aumento e confiança.
+description: Saiba como interpretar os resultados de uma atividade A/B [!UICONTROL Auto-Allocate] no Adobe [!DNL Target]  examinando indicadores importantes, incluindo aumento e confiança.
 title: Como Interpretar Relatórios De [!UICONTROL Auto-Allocate]?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc

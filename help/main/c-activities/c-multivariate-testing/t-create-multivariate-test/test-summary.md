@@ -13,7 +13,7 @@ ht-degree: 34%
 
 # Resumo do teste ([!UICONTROL Multivariate Test])
 
-A página [!UICONTROL Targeting] fornece uma visão geral visual do [!UICONTROL Multivariate Test] do [!DNL Adobe Target].
+A página [!UICONTROL Targeting] fornece uma visão geral visual do [!DNL Adobe Target] do [!UICONTROL Multivariate Test].
 
 ![Caixa de diálogo Testar resumo](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary-new.png)
 

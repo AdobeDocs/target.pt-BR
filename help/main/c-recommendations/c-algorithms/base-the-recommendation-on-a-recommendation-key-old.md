@@ -1,6 +1,6 @@
 ---
 keywords: chave de recomendação;lógica de recomendação;categoria atual;atributo personalizado;último item comprado;último item exibido;item mais exibido;item mais exibido;categoria favorita;popularidade;item exibido recentemente;última compra;última visualização;mais exibido;favorito;exibido recentemente
-description: Saiba como usar recomendações com base em chaves que usam o contexto de comportamento do visitante para mostrar resultados relevantes em atividades do Adobe [!DNL Target] Recommendations.
+description: Saiba como usar recomendações com base em chaves que usam o contexto de comportamento do visitante para mostrar resultados relevantes nas atividades do Adobe [!DNL Target] Recommendations.
 title: Como baseio a recomendação em uma Chave de recomendação?
 feature: Recommendations
 mini-toc-levels: 2
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # Basear a recomendação em uma chave de recomendação
 
-O Recommendations baseado em algoritmos usa o contexto de comportamento do visitante para mostrar resultados relevantes em [!DNL Adobe Target] [!DNL Recommendations] atividades.
+As recomendações baseadas em algoritmos usam o contexto de comportamento do visitante para mostrar resultados relevantes em [!DNL Adobe Target] [!DNL Recommendations] atividades.
 
 Cada tipo de algoritmo fornece algoritmos diferentes apropriados para seu tipo, conforme mostrado na tabela a seguir:
 
@@ -34,7 +34,7 @@ Diferentes algoritmos de recomendações se prestam ao posicionamento em diferen
 
 ## Baseado em carrinho {#cart-based}
 
-O tipo de algoritmo [!UICONTROL Cart-Based] permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio do [parâmetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} em valores separados por vírgulas. Somente os primeiros dez valores são considerados.
+O tipo de algoritmo [!UICONTROL Cart-Based] permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio do [parâmetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} em valores separados por vírgulas. Somente os primeiros dez valores são considerados.
 
 A lógica de recomendação baseada em carrinho é semelhante ao algoritmo baseado em usuário &quot;[!UICONTROL Recommended For You]&quot; e aos algoritmos baseados em item &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; e &quot;[!UICONTROL People Who Bought These, Bought Those]&quot;.
 
@@ -62,7 +62,7 @@ Essa lógica retorna outros produtos que as pessoas visualizaram após verem ess
 
 Essa lógica permite criar oportunidades de conversão adicionais, recomendando itens que outros visitantes que visualizaram um item também visualizaram. Por exemplo, os visitantes que visualizam bicicletas rodoviárias em seu site também podem ver capacetes de bicicleta, kits de ciclismo, fechaduras e assim por diante. Você pode criar uma recomendação usando essa lógica que sugere que outros produtos ajudam a aumentar a receita.
 
-Se você selecionar esse algoritmo, poderá selecionar as seguintes chaves Recommendations:
+Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves do Recommendations:
 
 * Item Atual
 * Último item comprado
@@ -77,7 +77,7 @@ Essa lógica retorna outros produtos que as pessoas compraram após verem este; 
 
 Essa lógica permite aumentar as oportunidades de venda cruzada ao exibir uma recomendação em uma página de produto, por exemplo, que exibe itens que outros visitantes que visualizaram o item compraram. Por exemplo, se o visitante estiver visualizando uma vara de pesca, a recomendação poderá mostrar itens adicionais que outros visitantes compraram, como caixas de engrenagens, pernaltas e iscas de pesca. À medida que os visitantes navegam em seu site, você fornece a eles recomendações de compra adicionais.
 
-Se você selecionar esse algoritmo, poderá selecionar as seguintes chaves Recommendations:
+Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves do Recommendations:
 
 * Item Atual
 * Último item comprado
@@ -92,7 +92,7 @@ Essa lógica retorna outros produtos comprados pelas pessoas após a compra dest
 
 Essa lógica permite aumentar as oportunidades de venda cruzada ao exibir uma recomendação em uma página de resumo do carrinho de compras, por exemplo, que exibe itens que outros compradores também compraram. Por exemplo, se o visitante estiver comprando um terno, a recomendação poderá exibir itens adicionais que outros visitantes compraram junto com o terno, como gravatas, sapatos e abotoaduras. À medida que os visitantes revisam suas compras, você fornece a eles recomendações adicionais.
 
-Se você selecionar esse algoritmo, poderá selecionar as seguintes chaves Recommendations:
+Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves do Recommendations:
 
 * Item Atual
 * Último item comprado
@@ -132,7 +132,7 @@ Por exemplo, a visualização da categoria A e da categoria B em uma sessão res
 
 Use esse algoritmo em páginas gerais, como página inicial ou de aterrissagem e anúncios em outros sites.
 
-Se você selecionar o algoritmo Mais visualizados por categoria, poderá selecionar as seguintes Chaves Recommendations:
+Se você selecionar o algoritmo Mais visualizados por categoria, poderá selecionar as seguintes Chaves de recomendações:
 
 * Categoria Atual
 * Categoria favorita
@@ -157,7 +157,7 @@ Exibe os itens incluídos nas ordens mais concluídas por categoria. Várias uni
 
 Esse algoritmo permite criar recomendações para os itens mais vendidos em seu site com base na categoria para aumentar a conversão e a receita. Essa lógica é especialmente adequada para visitantes novos do site.
 
-Se você selecionar o algoritmo Mais visualizados por categoria, poderá selecionar as seguintes Chaves Recommendations:
+Se você selecionar o algoritmo Mais visualizados por categoria, poderá selecionar as seguintes Chaves de recomendações:
 
 * Categoria Atual
 * Categoria favorita
@@ -188,7 +188,7 @@ Essa lógica retorna outros produtos que as pessoas visualizaram após verem ess
 
 Essa lógica permite criar oportunidades de conversão adicionais, recomendando itens que outros visitantes que visualizaram um item também visualizaram. Por exemplo, os visitantes que visualizam bicicletas rodoviárias em seu site também podem ver capacetes de bicicleta, kits de ciclismo, fechaduras e assim por diante. Você pode criar uma recomendação usando essa lógica que sugere que outros produtos ajudam a aumentar a receita.
 
-Se você selecionar esse algoritmo, poderá selecionar as seguintes chaves Recommendations:
+Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves do Recommendations:
 
 * Item Atual
 * Último item comprado
@@ -203,7 +203,7 @@ Essa lógica retorna outros produtos que as pessoas compraram após verem este; 
 
 Essa lógica permite aumentar as oportunidades de venda cruzada ao exibir uma recomendação em uma página de produto, por exemplo, que exibe itens que outros visitantes que visualizaram o item compraram. Por exemplo, se o visitante estiver visualizando uma vara de pesca, a recomendação poderá mostrar itens adicionais que outros visitantes compraram, como caixas de engrenagens, pernaltas e iscas de pesca. À medida que os visitantes navegam em seu site, você fornece a eles recomendações de compra adicionais.
 
-Se você selecionar esse algoritmo, poderá selecionar as seguintes chaves Recommendations:
+Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves do Recommendations:
 
 * Item Atual
 * Último item comprado
@@ -218,7 +218,7 @@ Essa lógica retorna outros produtos comprados pelas pessoas após a compra dest
 
 Essa lógica permite aumentar as oportunidades de venda cruzada ao exibir uma recomendação em uma página de resumo do carrinho de compras, por exemplo, que exibe itens que outros compradores também compraram. Por exemplo, se o visitante estiver comprando um terno, a recomendação poderá exibir itens adicionais que outros visitantes compraram junto com o terno, como gravatas, sapatos e abotoaduras. À medida que os visitantes revisam suas compras, você fornece a eles recomendações adicionais.
 
-Se você selecionar esse algoritmo, poderá selecionar as seguintes chaves Recommendations:
+Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves do Recommendations:
 
 * Item Atual
 * Último item comprado
@@ -233,7 +233,7 @@ Se selecionar Itens/mídia com atributos similares, você terá a opção de def
 
 Usar a similaridade de conteúdo para gerar recomendações é especialmente eficaz para novos itens, que provavelmente não serão exibidos nas recomendações usando Pessoas que visualizaram isto, visualizaram aquilo e outra lógica baseada no comportamento anterior. Você também pode usar similaridade de conteúdo para gerar recomendações úteis para novos visitantes, que não possuem compras antigas ou outros dados de histórico.
 
-Se você selecionar esse algoritmo, poderá selecionar as seguintes chaves Recommendations:
+Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves do Recommendations:
 
 * Item Atual
 * Último item comprado
@@ -450,7 +450,7 @@ Recomenda itens com base na certeza de uma relação entre os itens. Você pode 
 
 Por exemplo, se você definir uma afinidade muito forte e seu design incluir cinco itens, três dos quais alcançam o limite de força de conexão, os dois itens que não alcançarem os requisitos mínimos de força não serão exibidos nas recomendações e serão substituídos por seus itens de backup definidos. Os itens com a maior afinidade são exibidos primeiro.
 
-Por exemplo, um varejista online pode recomendar itens em visitas subsequentes em que um visitante mostrou interesse durante sessões anteriores. A atividade para cada sessão de visitante é capturada para calcular uma afinidade com base em um modelo de recenticidade e frequência. À medida que esse visitante retorna ao seu site, a afinidade do site é usada para exibir recomendações com base em ações anteriores no site.
+Por exemplo, um retailer online pode recomendar itens em visitas subsequentes nas quais um visitante tenha mostrado interesse durante sessões anteriores. A atividade para cada sessão de visitante é capturada para calcular uma afinidade com base em um modelo de recenticidade e frequência. À medida que esse visitante retorna ao seu site, a afinidade do site é usada para exibir recomendações com base em ações anteriores no site.
 
 Alguns clientes com coleções de produtos e comportamento do site diversos poderão obter melhores resultados caso definam uma afinidade do site fraca.
 

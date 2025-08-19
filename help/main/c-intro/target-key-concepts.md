@@ -115,9 +115,9 @@ Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/31290?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Uso do Audiences no Adobe Target (6:21) ![Selo de visão geral](/help/main/assets/overview.png)
+### Usando o Audiences na Adobe Target (6:21) ![Selo de visão geral](/help/main/assets/overview.png)
 
 Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium].
 
@@ -127,4 +127,4 @@ Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium
 * Segmente uma atividade para um público-alvo
 * Use públicos-alvo para relatórios passivos em uma atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/30984?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

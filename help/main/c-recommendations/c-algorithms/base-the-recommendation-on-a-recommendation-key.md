@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # Basear a recomendação em uma chave de recomendação
 
-O Recommendations baseado em algoritmos usa o contexto de comportamento do visitante para mostrar resultados relevantes em [!DNL Adobe Target] [!DNL Recommendations] atividades.
+As recomendações baseadas em algoritmos usam o contexto de comportamento do visitante para mostrar resultados relevantes em [!DNL Adobe Target] [!DNL Recommendations] atividades.
 
 Cada tipo de algoritmo fornece algoritmos diferentes apropriados para seu tipo, conforme mostrado na tabela a seguir:
 
@@ -34,7 +34,7 @@ Diferentes algoritmos de recomendações se prestam ao posicionamento em diferen
 
 ## Baseado em carrinho {#cart-based}
 
-O tipo de algoritmo [!UICONTROL Cart-Based] permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio do [parâmetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} em valores separados por vírgulas. Somente os primeiros dez valores são considerados.
+O tipo de algoritmo [!UICONTROL Cart-Based] permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio do [parâmetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} em valores separados por vírgulas. Somente os primeiros dez valores são considerados.
 
 A lógica de recomendação baseada em carrinho é semelhante ao algoritmo baseado em usuário &quot;[!UICONTROL Recommended For You]&quot; e aos algoritmos baseados em item &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; e &quot;[!UICONTROL People Who Bought These, Bought Those]&quot;.
 
@@ -62,7 +62,7 @@ Essa lógica retorna outros produtos visualizados após a visualização deste. 
 
 Essa lógica permite criar oportunidades de conversão adicionais, recomendando itens que outros visitantes que visualizaram um item também visualizaram. Por exemplo, os visitantes que visualizam bicicletas rodoviárias em seu site também podem ver capacetes de bicicleta, kits de ciclismo, fechaduras e assim por diante. Você pode criar uma recomendação usando essa lógica que sugere que outros produtos ajudam a aumentar a receita.
 
-Se você selecionar esse algoritmo, poderá selecionar as seguintes chaves Recommendations:
+Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves do Recommendations:
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -77,7 +77,7 @@ Essa lógica retorna outros produtos que as pessoas compraram após visualizar e
 
 Essa lógica permite aumentar as oportunidades de venda cruzada ao exibir uma recomendação em uma página de produto, por exemplo, que exibe itens que outros visitantes que visualizaram o item compraram. Por exemplo, se o visitante estiver visualizando uma vara de pesca, a recomendação poderá mostrar itens adicionais que outros visitantes compraram, como caixas de engrenagens, pernaltas e iscas de pesca. À medida que os visitantes navegam em seu site, você fornece a eles recomendações de compra adicionais.
 
-Se você selecionar esse algoritmo, poderá selecionar as seguintes chaves Recommendations:
+Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves do Recommendations:
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -92,7 +92,7 @@ Essa lógica retorna outros produtos que as pessoas compraram após comprar este
 
 Essa lógica permite aumentar as oportunidades de venda cruzada ao exibir uma recomendação em uma página de resumo do carrinho de compras, por exemplo, que exibe itens que outros compradores também compraram. Por exemplo, se o visitante estiver comprando um terno, a recomendação poderá exibir itens adicionais que outros visitantes compraram junto com o terno, como gravatas, sapatos e abotoaduras. À medida que os visitantes revisam suas compras, você fornece a eles recomendações adicionais.
 
-Se você selecionar esse algoritmo, poderá selecionar as seguintes chaves Recommendations:
+Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves do Recommendations:
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -132,7 +132,7 @@ Por exemplo, visualizar a categoria A e depois a categoria B em uma sessão resu
 
 Use esse algoritmo em páginas gerais, como página inicial ou de aterrissagem e anúncios em outros sites.
 
-Se você selecionar o algoritmo Mais visualizados por categoria, poderá selecionar as seguintes Chaves Recommendations:
+Se você selecionar o algoritmo Mais visualizados por categoria, poderá selecionar as seguintes Chaves de recomendações:
 
 * [!UICONTROL Current Category]
 * [!UICONTROL Favorite Category]
@@ -446,7 +446,7 @@ Recomenda itens com base na certeza de uma relação entre os itens. Você pode 
 
 Por exemplo, se você definir uma afinidade muito forte e seu design incluir cinco itens, três dos quais alcançam o limite de força de conexão, os dois itens que não alcançarem os requisitos mínimos de força não serão exibidos nas recomendações e serão substituídos por seus itens de backup definidos. Os itens com a maior afinidade são exibidos primeiro.
 
-Por exemplo, um varejista online pode recomendar itens em visitas subsequentes em que um visitante mostrou interesse durante sessões anteriores. A atividade para cada sessão de visitante é capturada para calcular uma afinidade com base em um modelo de recenticidade e frequência. À medida que esse visitante retorna ao seu site, a afinidade do site é usada para exibir recomendações com base em ações anteriores no site.
+Por exemplo, um retailer online pode recomendar itens em visitas subsequentes nas quais um visitante tenha mostrado interesse durante sessões anteriores. A atividade para cada sessão de visitante é capturada para calcular uma afinidade com base em um modelo de recenticidade e frequência. À medida que esse visitante retorna ao seu site, a afinidade do site é usada para exibir recomendações com base em ações anteriores no site.
 
 Alguns clientes com coleções de produtos e comportamento do site diversos poderão obter melhores resultados caso definam uma afinidade do site fraca.
 

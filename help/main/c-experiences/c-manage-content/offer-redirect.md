@@ -31,7 +31,7 @@ A oferta de redirecionamento executa um código JavaScript para redirecionar o n
 
 >[!NOTE]
 >
->Se quiser passar o valor referenciador da landing page, use uma oferta HTML em vez de uma oferta de redirecionamento.
+>Se quiser passar o valor referenciador da landing page, use uma oferta do HTML em vez de uma oferta de redirecionamento.
 
 ## Criar uma oferta de redirecionamento a partir da página [!UICONTROL Code Offers]
 

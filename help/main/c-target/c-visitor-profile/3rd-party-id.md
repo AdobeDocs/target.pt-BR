@@ -42,7 +42,7 @@ Quando o visitante faz logoff, o perfil mesclado é mantido.
 
 * Se a página contiver várias mboxes e somente algumas usarem a `3rdPartyID`, o [!DNL Target] não terá um perfil do visitante/contexto separado para cada solicitação do visitante. O contexto da `3rdPartyID` tem prioridade sobre o contexto da PCID. Basta que uma mbox transmita a `3rdPartyId` para que o contexto tenha prioridade sobre a PCID.
 
-  Por exemplo, suponha que um visitante acesse uma página antes de fazer logon e visualize uma experiência. A mbox global não usa a `3rdPartyID`. Depois de fazer logon, o visitante visualiza uma das três experiências com mboxes secundárias, sendo que algumas usam a `3rdPartyID`. O visitante visita várias páginas no site e usa o botão Voltar para retornar à página principal acessada antes de fazer logon e visualizar uma experiência diferente. Neste cenário, a mbox global não transmitiu a `3rdPartyID`, mas uma ou mais mboxes secundárias transmitiram. A `3rdPartyID` teve prioridade sobre a PCID.
+  Por exemplo, suponha que um visitante acesse uma página antes de fazer logon e visualize uma experiência. A mbox global não usa a `3rdPartyID`. Depois de fazer logon, o visitante visualiza uma das três experiências com mboxes filhas, sendo que algumas usam a `3rdPartyID`. O visitante visita várias páginas no site e usa o botão Voltar para retornar à página principal acessada antes de fazer logon e visualizar uma experiência diferente. Neste cenário, a mbox global não transmitiu a `3rdPartyID`, mas uma ou mais mboxes filhas transmitiram. A `3rdPartyID` teve prioridade sobre a PCID.
 
 * Você pode enviar as IDs de cliente dos visitantes para o [!DNL Target] usando duas abordagens:
 

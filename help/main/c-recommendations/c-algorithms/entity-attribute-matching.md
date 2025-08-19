@@ -2,7 +2,7 @@
 keywords: regras de inclusão;critérios de inclusão;recomendações;promoção;promoções;filtragem dinâmica;dinâmico;correspondência de atributos de entidade
 description: Saiba como filtrar dinamicamente no  [!DNL Target Recommendations]  comparando um pool de itens em potencial a um item específico com o qual o usuário interagiu.
 title: Como filtrar por Correspondência de atributos de entidade em atividades do Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -56,7 +56,7 @@ Se, em seguida, você visualizar uma página de produto da Marca B, o valor `ent
 
 ### Venda adicional para um produto mais caro
 
-Suponha que você seja um varejista de vestuário e queira incentivar os usuários a considerar itens mais caros e, portanto, mais lucrativos. Você pode usar os operadores &quot;equals&quot; e &quot;is between&quot; para promover itens mais caros que sejam da mesma categoria e da mesma marca. Por exemplo, um varejista de sapatos pode promover tênis de corrida mais caros em um esforço para fazer uma venda adicional de um visitante que procura tênis de corrida, como na seguinte amostra:
+Suponha que você seja um retailer de vestuário e queira incentivar os usuários a considerar itens mais caros e, portanto, mais lucrativos. Você pode usar os operadores &quot;equals&quot; e &quot;is between&quot; para promover itens mais caros que sejam da mesma categoria e da mesma marca. Por exemplo, uma retailer de sapatos pode promover tênis de corrida mais caros em um esforço para fazer uma venda adicional de um visitante que procura tênis de corrida, como na seguinte amostra:
 
 ![Venda adicional](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
 

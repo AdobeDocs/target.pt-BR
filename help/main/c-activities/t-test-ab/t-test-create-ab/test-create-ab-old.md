@@ -1,6 +1,6 @@
 ---
 keywords: Criar A/B;teste A/B;atividade A/B;nova atividade a/b;criar a/b
-description: Saiba como usar o Visual Experience Composer (VEC) no Adobe [!DNL Target] para criar sua atividade de Teste A/B diretamente em uma página habilitada para  [!DNL Target].
+description: Saiba como usar o Visual Experience Composer (VEC) no Adobe [!DNL Target]  para criar sua atividade de Teste A/B diretamente em uma página habilitada para  [!DNL Target].
 title: Como criar um teste A/B?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
@@ -132,4 +132,4 @@ Este vídeo mostra como criar um teste A/B usando fluxo de trabalho orientado de
 * Criar uma atividade [!UICONTROL A/B Test] em [!DNL Adobe Target]
 * Aloque o tráfego usando uma divisão manual ou automática
 
->[!VIDEO](https://video.tv.adobe.com/v/31295?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

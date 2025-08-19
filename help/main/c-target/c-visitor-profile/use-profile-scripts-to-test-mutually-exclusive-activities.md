@@ -1,6 +1,6 @@
 ---
 keywords: Script de perfil;atributos de script de perfil;atividades mutuamente exclusivas
-description: Saiba como usar atributos de perfil para configurar testes no Adobe [!DNL Target] que comparam várias atividades, mas não permitem que os mesmos visitantes participem de cada atividade.
+description: Saiba como usar atributos de perfil para configurar testes no Adobe [!DNL Target]  que comparam várias atividades, mas não permitem que os mesmos visitantes participem de cada atividade.
 title: Posso usar scripts de perfil para testar atividades mutuamente exclusivas?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c

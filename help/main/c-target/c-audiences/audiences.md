@@ -21,7 +21,7 @@ Os público-alvo são usados sempre que o direcionamento estiver disponível. Ao
 * [Criar um público-alvo específico para a atividade](/help/main/c-target/creating-activity-only-audience.md) e direcioná-lo
 * [Combinar vários públicos-alvo](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para criar um público-alvo ad hoc
 
-Você também pode usar os dados de público-alvo coletados pelo [!DNL Adobe Analytics] para o direcionamento e personalização em tempo real no [!DNL Target] e em outros aplicativos do [!DNL Adobe Experience Cloud]. Consulte [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR) no guia *Experience Cloud Componentes da interface central*.
+Você também pode usar os dados de público-alvo coletados pelo [!DNL Adobe Analytics] para o direcionamento e personalização em tempo real no [!DNL Target] e em outros aplicativos do [!DNL Adobe Experience Cloud]. Consulte [Públicos-alvo do Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR) no guia *Componentes da Interface Central do Experience Cloud*.
 
 Há dois tipos de público-alvo em [!DNL Target]:
 
@@ -47,7 +47,7 @@ A lista [!UICONTROL Audiences] contém os públicos-alvo que você pode usar em 
   >
   >A origem [!DNL Adobe Experience Platform] está disponível para todos os clientes [!DNL Target] que usam o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank}. Os públicos-alvo disponíveis em [!DNL Adobe Experience Platform] podem ser usados como estão ou [combinados com públicos-alvo existentes](/help/main/c-target/combining-multiple-audiences.md).
   >
-  >Os usuários devem ter o status [!UICONTROL Approver] ou superior em [!DNL Target] para configurar cartões [!DNL Target] [!UICONTROL Destinations] em AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
+  >Os usuários devem ter o status [!UICONTROL Approver] ou superior em [!DNL Target] para configurar cartões [!DNL Target] [!UICONTROL Destinations] no AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
   >
   >Para obter mais informações, consulte [Usar públicos do Adobe Experience Platform](#aep).
 
@@ -121,4 +121,4 @@ Este vídeo inclui informações sobre o uso de públicos-alvo.
 * Segmente uma atividade para um público-alvo
 * Use públicos-alvo para relatórios passivos em uma atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/30984?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

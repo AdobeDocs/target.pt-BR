@@ -23,7 +23,7 @@ O [!UICONTROL Experience Targeting] é uma primeira etapa no mundo da personaliz
 
 ## Cenário: direcionamento da experiência
 
-Suponha que seu site tenha equipamentos para atividades ao ar livre. Os relatórios do teste A/B indicam que você tem três experiências que refletem em públicos-alvo diferentes. Para aplicar essa descoberta, você deseja exibir uma imagem principal diferente na página inicial para atrair esses públicos diferentes, dependendo da localização ou dos hobbies dos visitantes. Neste cenário, você deseja exibir uma imagem de caminhada para os visitantes de Nova Jersey e uma de surfe para os visitantes do Havaí. Você também tem um público-alvo que gosta de ciclismo. Você deseja exibir uma terceira imagem principal que atraia o público-alvo de ciclismo.
+Suponha que seu site tenha equipamentos para atividades ao ar livre. Os relatórios do teste A/B indicam que você tem três experiências que refletem em públicos-alvo diferentes. Para aplicar essa descoberta, você deseja exibir uma imagem principal diferente na página inicial para atrair esses públicos diferentes, dependendo da localização ou dos hobbies dos visitantes. Neste cenário, você deseja exibir uma imagem de caminhada para os visitantes de Nova Jersey e uma de surfe para os visitantes do Havaí. Você também tem um público-alvo que gosta de ciclismo. Você deseja exibir uma terceira imagem hero que atraia o público-alvo de ciclismo.
 
 Uma atividade [!UICONTROL Experience Targeting] permite direcionar esses três públicos-alvo com uma imagem principal diferente que atrai cada um deles. O vídeo abaixo, *Do Teste A/B ao direcionamento de experiência*, mostra como criar experiências direcionadas para ambos os estados e uma terceira experiência direcionada para os fãs de ciclismo. O vídeo também mostra como classificar as três experiências para atingir as suas metas. Assista ao vídeo e prossiga com [Criar uma atividade de Direcionamento de experiência](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).
 
@@ -39,4 +39,4 @@ Este vídeo descreve como elevar o teste A/B para o próximo nível com o [!UICO
 * Descreva como fornecer conteúdo específico de localização para públicos em diferentes áreas geográficas
 * Descreve como reorganizar experiências para garantir que o conteúdo correto seja entregue ao público-alvo certo
 
->[!VIDEO](https://video.tv.adobe.com/v/39861?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)

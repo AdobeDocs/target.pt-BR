@@ -2,13 +2,13 @@
 keywords: personalização automatizada;ap;públicos;conjunto;random forest;multi-armed bandit;thompson sampling;ml;aprendizado de máquina
 description: Saiba como usar as atividades de [!UICONTROL Automated Personalization] (AP) no  [!DNL Adobe Target] que usam aprendizagem de máquina avançada para corresponder diferentes variações de oferta a cada visitante.
 title: O que é uma atividade de [!UICONTROL Automated Personalization] (AP)?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -69,17 +69,17 @@ Random Forest é uma abordagem líder de aprendizado de máquina. Em termos de c
 Dados offline, como informações de CRM ou pontuações de propensão de churn do cliente, podem ser incrivelmente valiosos ao criar modelos de personalização. Há várias maneiras de inserir dados em algoritmos de personalização do [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target].
 
 * [parâmetros de mbox](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=pt-BR){target=_blank}
-* [Parâmetros de perfil](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=pt-BR){target=_blank}
-* [APIs do servidor para atualização de perfil](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=pt-BR){target=_blank}
+* [Parâmetros do perfil](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=pt-BR){target=_blank}
+* [APIs do lado do servidor para atualização de perfil](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=pt-BR){target=_blank}
 
 Para obter informações sobre os dados coletados e usados automaticamente pelos algoritmos de personalização [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target], consulte [Coleção de dados do Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-data.md).
 
 ## Vídeo de treinamento: tipos de atividade
 
-Este vídeo explica os tipos de atividade disponíveis no [!DNL Target]. O [!UICONTROL Automated Personalization] é discutido a partir de 5:55.
+Este vídeo explica os tipos de atividade disponíveis no [!DNL Target]. [!UICONTROL Automated Personalization] é discutido a partir de 5:55.
 
 * Descreva os tipos de atividade incluídos no [!DNL Adobe Target]
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/31290?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

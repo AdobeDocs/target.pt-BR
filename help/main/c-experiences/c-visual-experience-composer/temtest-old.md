@@ -1,6 +1,6 @@
 ---
 keywords: teste de modelo, modelo, mesma experiência em páginas semelhantes, teste de modelo
-description: Saiba como usar o Adobe [!DNL Target] Visual Experience Composer (VEC) para incluir a mesma experiência em várias páginas estruturadas de forma semelhante ou que contêm os mesmos elementos de modelo.
+description: Saiba como usar o Visual Experience Composer (VEC) do Adobe [!DNL Target]  para incluir a mesma experiência em várias páginas estruturadas de forma semelhante ou que contêm os mesmos elementos de modelo.
 title: Posso incluir a mesma experiência em páginas semelhantes?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
@@ -107,4 +107,4 @@ Você pode considerar o uso de regras de modelo para renderizar a mesma atividad
 * Visualizar e criar a experiência para sites responsivos
 * Use sobreposições para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/30981?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)

@@ -35,7 +35,7 @@ Considere simplificar o design removendo determinados elementos completamente do
 
 ## Ideia 4: Melhore a conversão da pesquisa com conteúdo direcionado.
 
-Os clientes em potencial envolvidos na pesquisa do site fornecem parte do tráfego no site mais qualificado. Quanto mais direcionado e relevante for o conteúdo na página de resultados da pesquisa, mais provável será a conversão de clientes potenciais.
+Os clientes potenciais envolvidos na pesquisa do site fornecem parte do tráfego no site mais qualificado. Quanto mais direcionado e relevante for o conteúdo na página de resultados da pesquisa, mais provável será a conversão de clientes potenciais.
 
 Considere fornecer informações contextuais adicionais diretamente nas miniaturas de pesquisa. Usando recursos de adesivos direcionados, como descontos, disponibilidade de inventário, tamanhos ou cores, você pode ajudar os consumidores a encontrar rapidamente as informações necessárias para tomar decisões de compra e agir.
 

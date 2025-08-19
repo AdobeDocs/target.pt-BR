@@ -7,7 +7,7 @@ exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 source-git-commit: 2e607b92e9d3408c1e91abd4646fe8eb840f2c30
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 55%
+ht-degree: 52%
 
 ---
 
@@ -40,7 +40,7 @@ Os valores a seguir podem ser &quot;substituídos por token&quot;:
 | Parâmetros do perfil de script | `${user.lifetimeSpend}` |
 | Parâmetros de mbox | `${mbox.favoriteColor}` |
 | Informações da campanha | `${campaign.name}`, `${campaign.recipe.name}`, `${campaign.id}`, `${campaign.recipe.id}` e `${campaign.recipe.trafficType}` |
-| Id única do visitante | `${user.pcId}` |
+| Id de visitante único | `${user.pcId}` |
 | Id única da sessão | `${user.sessionId}` |
 | Primeira sessão do visitante (true ou false) | `${user.isFirstSession}` |
 | Comportamento anterior | `${user.endpoint.lastPurchasedEntity}`, `${user.endpoint.lastViewedEntity}`, `${user.endpoint.mostViewedEntity}`, `${user.endpoint.categoryAffinity}` |
@@ -73,7 +73,7 @@ Quando `testAttribute` não existe ou está em branco, &quot;Todos os itens!&quo
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-Você também pode utilizar valores escape e unescape para serem exibidos. Se o valor tiver um apóstrofo, por exemplo, você pode omitir o valor para que ele não quebre a JavaScript na página. (As ofertas são escritas em JavaScript. Dessa forma, um único apóstrofo pode ser confundido com uma citação.) Por exemplo:
+Você também pode utilizar valores escape e unescape para serem exibidos. Se o valor tiver um apóstrofo, por exemplo, você pode omitir o valor para que ele não quebre a JavaScript na página. (As ofertas são escritas em JavaScript, portanto, um único apóstrofo pode ser confundido com uma citação.) Por exemplo:
 
 `${user.encodedValue encode="unescape"}`
 

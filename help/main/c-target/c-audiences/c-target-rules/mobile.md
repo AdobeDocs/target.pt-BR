@@ -7,7 +7,7 @@ exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -33,7 +33,7 @@ Para resolver esse problema, o [!DNL Target] coleta dados adicionais para detect
 
 >[!NOTE]
 >
->Os clientes que usam o SDK móvel não precisam fazer nada para aplicar essa funcionalidade. Clientes usando at.js devem [atualizar para a at.js versão 1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank} (ou posterior).
+>Os clientes que usam o Mobile SDK não precisam fazer nada para aplicar essa funcionalidade. Clientes usando at.js devem [atualizar para a nova versão at.js 1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank} (ou posterior).
 
 Você pode escolher mais de uma propriedade de dispositivo móvel. Várias seleções são unidas com um operador OR.
 

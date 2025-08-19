@@ -7,7 +7,7 @@ exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '1350'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -174,10 +174,10 @@ O vídeo de demonstração a seguir inclui informações sobre o uso do Visual E
 * Visualizar e criar a experiência para sites responsivos
 * Use sobreposições para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/30981?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Preferências da conta no Adobe Target ![Selo de visão geral](/help/main/assets/overview.png)
 
-Este vídeo inclui informações sobre como configurar visores móveis, começando às 4:40 do vídeo.
+Este vídeo inclui informações sobre a configuração de visores móveis, começando em 4:40 no vídeo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

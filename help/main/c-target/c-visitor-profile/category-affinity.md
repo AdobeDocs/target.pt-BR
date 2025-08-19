@@ -108,7 +108,7 @@ As seções a seguir contêm informações para ajudar você a usar um público-
 
    Ou
 
-   Para copiar um público-alvo existente, na lista de Públicos-alvo, passe com o mouse sobre o público-alvo desejado e clique no ícone Copiar. Você pode editar o público-alvo para criar um público-alvo semelhante.
+   Para copiar um público-alvo existente, na lista de Públicos-alvo, passe o mouse sobre o público-alvo desejado e clique no ícone Copiar. Você pode editar o público-alvo para criar um público-alvo semelhante.
 
 1. Digite um nome de público-alvo descritivo.
 1. Clique em **[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]**.

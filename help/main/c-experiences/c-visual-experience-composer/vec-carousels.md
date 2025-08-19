@@ -1,6 +1,6 @@
 ---
 keywords: Visual Experience Composer;VEC;carrossel
-description: Saiba como criar um carrossel que pode ser editado no Adobe [!DNL Target] Visual Experience Composer (VEC).
+description: Saiba como criar um carrossel que pode ser editado no Visual Experience Composer (VEC) do Adobe [!DNL Target] .
 title: Como criar carrosséis no Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 50bc11d2-c9fc-4b53-8218-49842b59269a
@@ -35,6 +35,6 @@ Quando seguir as etapas abaixo, o [!DNL Target] sempre saberá que o slide terá
    >
    >A opção [!UICONTROL Render Using JavaScript] não tem suporte no momento se for usada em conjunto com um código personalizado no Visual Experience Composer.
 
-1. Atualize o classNames somente para ocultar outros e exibir o próximo com tempo/animação.
+1. Atualize o classNames somente para ocultar outros e exibir o próximo com temporizador/animação.
 
    Jamais atualize a estrutura DOM usando JavaScript.

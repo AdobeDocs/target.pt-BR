@@ -1,6 +1,6 @@
 ---
 keywords: oferta remota;matriz de seleção de oferta remota;conteúdo armazenado em cache;conteúdo dinâmico;tipo de url
-description: Saiba como usar ofertas remotas no Adobe [!DNL Target] para hospedar conteúdo externo (conteúdo em um CMS ou outro sistema). Descubra por que você pode querer usar ofertas remotas.
+description: Saiba como usar ofertas remotas no Adobe [!DNL Target]  para hospedar conteúdo externo (conteúdo em um CMS ou outro sistema). Descubra por que você pode querer usar ofertas remotas.
 title: Como criar ofertas remotas?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade

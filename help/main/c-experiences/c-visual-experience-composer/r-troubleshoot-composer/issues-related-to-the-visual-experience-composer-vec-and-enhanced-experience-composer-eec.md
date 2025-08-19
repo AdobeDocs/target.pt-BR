@@ -7,7 +7,7 @@ exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 26%
+ht-degree: 32%
 
 ---
 
@@ -114,7 +114,7 @@ Por padrão, o VEC bloqueia elementos do JavaScript. Você pode trabalhar com es
 ## Quando eu altero um elemento na página, vários elementos são alterados. (VEC e EEC) {#section_309188ACF34942989BE473F63C5710AF}
 
 +++Detalhes
-Se a mesma ID do elemento DOM for usada em vários elementos da página, alterar um desses elementos alterará todos os elementos com essa ID. Para evitar que isso aconteça, uma ID só deverá ser usada uma vez em cada página. Esta é uma prática recomendada padrão do HTML. Para obter mais informações, consulte [Cenários de modificação da página](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Se a mesma ID de elemento DOM for usada em vários elementos na página, a alteração desses elementos modificará todos os elementos com essa ID. Para evitar que isso aconteça, uma ID só deverá ser usada uma vez em cada página. Esta é uma prática recomendada padrão do HTML. Para obter mais informações, consulte [Cenários de modificação da página](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 +++
 
@@ -132,7 +132,7 @@ Esse problema pode ser resolvido habilitando o [!UICONTROL Enhanced Experience C
 ## Quero configurar testes em páginas que ainda não têm a implementação da mbox/[!DNL Target] concluída. (VEC e EEC) {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++Detalhes
-Consulte &quot;Não consigo editar experiências para um site de intermitência de iFrame&quot; acima.
+Consulte &quot;Não consigo editar experiências para um site do iFrame&quot;.
 
 +++
 
@@ -155,6 +155,6 @@ Caso veja esse problema:
 ## Para atividades de Personalização automatizada, a troca de imagem aparece quebrada no VEC ou no EEC. (VEC e EEC) {#section_88AABFDFE6A3420299B0D508B12A3994}
 
 +++Detalhes
-A adição de uma oferta de imagem a um local utiliza a dimensão completa do espaço da imagem original no VEC ou no EEC. Na entrega, a imagem não é expandida e é mostrada como está, de modo que não há impacto na entrega.
+A adição de uma oferta de imagem a um local obtém a dimensão completa do espaço de imagem original no VEC ou no EEC. Na entrega, a imagem não é expandida e é mostrada como está, de modo que não há impacto na entrega.
 
 +++

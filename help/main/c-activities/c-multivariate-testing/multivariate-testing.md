@@ -7,11 +7,11 @@ exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
 workflow-type: tm+mt
 source-wordcount: '1438'
-ht-degree: 47%
+ht-degree: 46%
 
 ---
 
-# Visão geral de [!UICONTROL Multivariate Test]
+# Visão geral das [!UICONTROL Multivariate Test]
 
 Uma atividade do [!UICONTROL Multivariate Test] (MVT) no [!DNL Adobe Target] compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico. Uma atividade [!UICONTROL Multivariate Test] também ajuda a identificar qual elemento afeta mais o sucesso da atividade.
 
@@ -55,7 +55,7 @@ Os testes multivariados podem ser usados junto com testes A/B para otimizar sua 
 
 * Use um teste MVT para determinar qual elemento é o mais importante e acompanhe com um teste A/B mais focado nesse elemento.
 
-  Quando o número de experiências diferentes exceder cinco e abranger dois ou mais elementos, é uma boa ideia considerar um teste MVT antes de realizar seus testes A/B. O teste MVT mostra quais áreas da página têm maior probabilidade de melhorar a conversão. Esses são os elementos em que um profissional de marketing deve se concentrar. Por exemplo, o teste de MVT pode mostrar que a chamada à ação é o elemento mais importante para atingir suas metas. Depois de determinar quais elementos e conteúdo são mais úteis para ajudá-lo a atingir suas metas, você pode executar um teste A/B para refinar ainda mais os resultados. Por exemplo, você pode testar duas imagens específicas umas contra as outras ou comparar o texto ou as cores de uma chamada para ação. Ao seguir o teste MVT com um ou mais testes A/B, você pode determinar o melhor conteúdo possível para os resultados que deseja.
+  Quando o número de experiências diferentes exceder cinco e abranger dois ou mais elementos, é uma boa ideia considerar um teste MVT antes de realizar seus testes A/B. O teste MVT mostra quais áreas da página têm maior probabilidade de melhorar a conversão. Esses são os elementos em que um profissional de marketing deve se concentrar. Por exemplo, o teste de MVT pode mostrar que a chamada à ação é o elemento mais importante para atingir suas metas. Depois de determinar quais elementos e conteúdo são mais úteis para ajudá-lo a atingir suas metas, você pode executar um teste A/B para refinar ainda mais os resultados. Por exemplo, você pode testar duas imagens específicas umas contra as outras ou comparar o texto ou as cores de uma call to action. Ao seguir o teste MVT com um ou mais testes A/B, você pode determinar o melhor conteúdo possível para os resultados que deseja.
 
 ## Considerações {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
@@ -92,19 +92,19 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 
 ### Tipos de atividades (9:03) ![Selo de visão geral](/help/main/assets/overview.png)
 
-Este vídeo de visão geral explica os tipos de atividades disponíveis em [!DNL Target]. O teste multivariado é discutido a partir de 04:20.
+Este vídeo de visão geral explica os tipos de atividades disponíveis em [!DNL Target]. Teste multivariado discutido a partir de 4:20.
 
 * Descreva os tipos de atividade incluídos no [!DNL Adobe Target]
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/31290?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Criando Testes Multivariados (9:25) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
-Este vídeo explica como entender, planejar e criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target.
+Este vídeo explica como entender, planejar e criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do [!DNL]Target.
 
 * Definir e projetar um teste multivariado
 * Criar um teste multivariado
 
->[!VIDEO](https://video.tv.adobe.com/v/30985?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

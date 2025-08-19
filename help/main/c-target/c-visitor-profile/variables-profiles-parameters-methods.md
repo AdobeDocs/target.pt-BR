@@ -29,7 +29,7 @@ Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de per
 | user.daysSinceLastVisit |  |
 | user.browser | O agente do usuário |
 | user.browserType | Retorna o tipo de navegador, por exemplo, safari, chrome e assim por diante. |
-| user.header | Todos os perfis `user.header` são incorporados nos dados do cabeçalho da solicitação de mbox |
+| user.header | Todos os perfis `user.header` são integrados nos dados do cabeçalho da solicitação de mbox |
 | user.header(&#39;x-forwarded-for&#39;) | O endereço IP voltado para o público da conexão de rede do visitante.<br>Você pode obter isso de várias maneiras, por exemplo [whatismyip.com](https://www.whatismyip.com/). O endereço IP não é o endereço NAT (endereço interno), que começa com 10., 192.168. ou 172.<br>Observação: user.header(&#39;x-cluster-client-ip&#39;) foi descontinuado. |
 | user.header(&#39;host&#39;) | Nome do host do site |
 | user.header(&#39;cookie&#39;) | Dados de cookie do visitante |
@@ -45,7 +45,7 @@ Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de per
 | user.parameter | Atributos de perfil persistentes criados a partir de scripts de perfil. Também faz referência a perfis de &quot;sistema&quot; como geolocalização, contagem de visitas etc. |
 | profile.get(&#39;param_name&#39;) | A maneira correta de obter um parâmetro de perfil a ser usado em um script de perfil é o método profile.get(&#39;param_name&#39;). |
 | profile.param(&#39;param_name&#39;); |  |
-| profile.parameter(&#39;parameter_name&#39;); | Os parâmetros da mbox que são tornados persistentes devido ao seu prefixo profile. . |
+| profile.parameter(&#39;parameter_name&#39;); | Os parâmetros da mbox que são tornados persistentes devido ao seu prefixo profile. prefixo. |
 | profile.browserTime | A hora do navegador local do visitante. Para a hora do sistema, crie um novo objeto de data no script de perfil |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
@@ -85,7 +85,7 @@ Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de per
 | mbox.param(&#39;param_name&#39;) |  |
 | Parâmetros enviados automaticamente com cada solicitação:<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | Parâmetros enviados com as mboxes do pedido:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
-| mbox3rdPartyId | Um parâmetro de mbox para sincronizar uma ID de cliente com a mboxPCID do Target. Uma ID de cliente é uma ID que sua empresa usa para rastrear visitantes, como uma ID de CRM, uma ID de associação ou algo semelhante. Essa ID pode ser usada para adicionar informações por meio das APIs de perfil e dos [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=pt-BR){target=_blank}. |
+| mbox3rdPartyId | Um parâmetro de mbox para sincronizar uma ID de cliente com a mboxPCID do Target. Uma ID de cliente é uma ID que sua empresa usa para rastrear visitantes, como uma ID de CRM, uma ID de associação ou algo semelhante. Essa ID pode ser usada para adicionar informações por meio das APIs de perfil e dos [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank}. |
 | mboxPageValue | Em cada chamada de mbox, a página recebe um valor. |
 | mboxDebug | Usado somente para depurar informações. Adicionado ao url da página em que o at.js procura isso. |
 | mboxOverride.browserIp | Define uma geografia diferente do local real para que seja possível testar como algo seria em outro local.<br>**Observação:** os parâmetros mboxOverride devem ser usados somente durante o teste da atividade e não em produção. O uso de qualquer parâmetro mboxOverride pode causar discrepâncias no relatório ao usar o [Analytics para Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Você deve usar o [modo de QA da atividade](/help/main/c-activities/c-activity-qa/activity-qa.md) durante o teste para garantir que sua atividade funciona como o esperado antes de enviar a atividade para o ambiente ativo. |

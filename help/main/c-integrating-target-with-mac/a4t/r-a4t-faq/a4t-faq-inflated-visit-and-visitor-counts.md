@@ -7,7 +7,7 @@ exl-id: e936b1f6-dc72-4ab2-9bb5-169d1710edbe
 source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 45%
+ht-degree: 69%
 
 ---
 
@@ -18,20 +18,20 @@ Este tópico contém respostas para as perguntas mais frequentes sobre as contag
 ## Posso ver um pico nas visitas. Como posso saber se essas visitas são causadas por hits de dados parciais? {#section_28506672C6224ED18AC74F6A02F6F811}
 
 +++Resposta
-Você pode entrar em contato com o [Atendimento ao cliente do Adobe](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para recuperar um relatório de Dados parciais. Estas informações não estão disponíveis diretamente na interface do usuário do [!DNL Analytics].
+Você pode entrar em contato com o [Atendimento ao cliente da Adobe](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para recuperar um relatório de Dados parciais. Estas informações não estão disponíveis diretamente na interface do usuário do [!DNL Analytics].
 
 +++
 
 ## Quais são as possíveis causas de hits de dados parciais? {#section_C4BB9925CE6444BE8CB9FBEFE5085546}
 
 +++Resposta
-Os acessos a dados parciais geralmente são o resultado de uma implementação incorreta, como IDs de conjunto de relatórios desalinhadas. Há também causas legítimas, que incluem páginas lentas, erros de página, ofertas de redirecionamento em uma atividade ou versões de biblioteca desatualizadas.
+Os hits de dados parciais geralmente são o resultado de uma implementação inadequada, como IDs de conjuntos de relatórios desalinhadas. Há também causas legítimas, que incluem páginas lentas, erros de página, ofertas de redirecionamento em uma atividade ou versões de biblioteca desatualizadas.
 
 +++
 
 ## Existem tipos específicos de atividades do [!DNL Target] com maior probabilidade de causar hits de dados parciais? {#section_69837442A9B84366BEFDA4588B31E574}
 
 +++Resposta
-As ofertas de redirecionamento enviam imediatamente um usuário para uma página diferente, o que significa que a chamada do [!DNL Analytics] não é acionada na primeira página.
+As ofertas de redirecionamento enviam imediatamente um usuário para uma página diferente, o que significa que o [!DNL Analytics] não é acionado na primeira página.
 
 +++

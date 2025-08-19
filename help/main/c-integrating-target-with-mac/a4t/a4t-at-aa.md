@@ -20,7 +20,7 @@ A integração A4T permite:
 * Use o recurso de bandit de vários braços do [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) para direcionar tráfego para experiências vencedoras.
 * Use o algoritmo de aprendizado de máquina do conjunto de [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) para escolher a melhor experiência para cada visitante. O [!UICONTROL Auto-Target] escolhe a melhor experiência com base no perfil, comportamento e contexto de cada usuário, tudo isso usando uma métrica de meta [!DNL Adobe Analytics] e os recursos avançados de relatório e análise do [!DNL Adobe Analytics].
 
-Verifique se você implementou o [A4T para uso com atividades de Teste A/B e Direcionamento de experiência](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Se você usar `analyticsLogging = client_side`, também deverá passar o valor `sessionId` para [!DNL Analytics]. Para obter mais informações, consulte [Relatórios do Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=pt-BR){target=_blank} no *Guia do Desenvolvedor do Adobe Target*.
+Verifique se você implementou o [A4T para uso com atividades de Teste A/B e Direcionamento de experiência](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Se você usar `analyticsLogging = client_side`, também deverá passar o valor `sessionId` para [!DNL Analytics]. Para obter mais informações, consulte [Relatórios do Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} no *Guia do Desenvolvedor do Adobe Target*.
 
 Para começar:
 
@@ -120,7 +120,7 @@ Algumas limitações e observações se aplicam às atividades [!UICONTROL Auto-
 ### Alocação automática {#aa}
 
 * **Frequência de Treinamento**: [!UICONTROL Auto-Allocate] modelos continuam treinando a cada hora, como de costume.
-* **Modelos de Atribuição**: [!DNL Target] usa o modelo de atribuição padrão [!DNL Adobe Analytics] para [!UICONTROL &#x200B; Auto-Allocate] atividades que usam o A4T.
+* **Modelos de Atribuição**: [!DNL Target] usa o modelo de atribuição padrão [!DNL Adobe Analytics] para [!UICONTROL  Auto-Allocate] atividades que usam o A4T.
 * **Confiança**: a fórmula de confiança usada por [!UICONTROL Auto-Allocate] atividades é diferente da fórmula mostrada por padrão no painel [!DNL Adobe Analytics] [!UICONTROL A4T]. [Conforme descrito aqui](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL Auto-Allocate] usa intervalos de confiança mais conservadores do que as atividades [!UICONTROL A/B Test] regulares. Esses níveis de confiança conservadores compensam avaliações repetidas (picos) nos dados. Como resultado, o relatório padrão em [!DNL Adobe Analytics] mostra intervalos de confiança mais estreitos em comparação aos intervalos sendo usados pelo algoritmo [!UICONTROL Auto-Allocate]. No entanto, você pode determinar qual experiência é favorecida pelos algoritmos com base na experiência que tem mais visitantes únicos sendo enviados para ela.
 * **Status do vencedor**: atualmente, os emblemas [&quot;Ainda não há vencedor&quot; e &quot;Vencedor&quot;](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) não estão disponíveis no painel [!UICONTROL A4T] em [!DNL Analysis Workspace]. Essas medalhas também não estarão disponíveis se o mesmo relatório for visualizado em [!DNL Target]. Um emblema de &quot;estrela&quot; vencedor mostrado em um relatório [!DNL Target] para uma atividade [!UICONTROL Auto-Allocate] usando A4T deve ser ignorado. Este selo reflete cálculos de confiança regulares, e não os cálculos usados por [!UICONTROL Auto-Allocate].
 
@@ -132,7 +132,7 @@ Algumas limitações e observações se aplicam às atividades [!UICONTROL Auto-
 
 * Ao usar [!DNL Analytics] como fonte de dados para uma atividade [!UICONTROL Auto-Target], as sessões terminam após seis horas. As conversões que ocorrem após seis horas não são contadas.
 
-Para obter mais informações, consulte [Modelos de atribuição e janelas de pesquisa](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=pt-BR) no *Guia de Ferramentas do Analytics*.
+Para obter mais informações, consulte [Modelos de atribuição e janelas de pesquisa](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) no *Guia de Ferramentas do Analytics*.
 
 ## Tutoriais
 

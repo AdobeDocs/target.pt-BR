@@ -1,6 +1,6 @@
 ---
 keywords: Experience Cloud Audiences;audiences
-description: Saiba como o Adobe Experience Cloud Audiences permite que as soluções Experience Cloud se comuniquem e compartilhem informações sobre visitantes do site com outras soluções Adobe.
+description: Saiba como o Adobe Experience Cloud Audiences permite que as soluções da Experience Cloud se comuniquem e compartilhem informações sobre visitantes do site com outras soluções da Adobe.
 title: Como usar os públicos-alvo da Adobe Experience Cloud no Target?
 feature: Integrations
 exl-id: 4502e77d-1310-41f3-8d14-ba69692df1af

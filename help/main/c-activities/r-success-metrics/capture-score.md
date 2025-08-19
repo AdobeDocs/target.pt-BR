@@ -23,7 +23,7 @@ Nesse exemplo, o primeiro visitante acessa a experiência do gato. Suponha que u
 
 A primeira página adiciona 1 à pontuação, a segunda página 0,25, a terceira 0,10, e a quarta 0,10 para um total de 1,45. Isto poderia ser interpretado como moeda ou pontos. Em uma visita separada, um visitante acessou a experiência do cão e, embora o visitante tenha visualizado um número menor de páginas, a pontuação é 2.10, maior do que a outra visita porque o visitante visualizou páginas com valor mais alto.
 
-Você pode levar em consideração os custos de aquisição e receita de links associados ao enviar adboxes e redirecionadores, conforme demonstrado no fluxo da página a seguir. Observe que, neste exemplo, ambas as solicitações [!DNL Target] na página do artigo passam uma pontuação, possivelmente representando um CPM conhecido.
+Você pode levar em consideração os custos de aquisição e receita de links associados ao enviar adboxes e redirecionadores, conforme demonstrado no fluxo da página a seguir. Observe que, neste exemplo, ambas as solicitações [!DNL Target] na página de artigo passam uma pontuação, possivelmente representando um CPM conhecido.
 
 ![exemplo_pontuação2 imagem](assets/example_score2.png)
 

@@ -25,7 +25,7 @@ Estes são alguns cenários nos quais você pode experimentar a variação de da
 
   Se um teste de redirecionamento estiver configurado no Target para dividir o tráfego 50/50 (ou 25/25/25/25, e assim por diante), o comportamento do usuário pode não ser dividido uniformemente. Se você vir uma divisão desigual, isso significa simplesmente que um grupo de usuários executou menos chamadas do Analytics na landing page do que os outros grupos. Essa falha na execução da chamada do Analytics para um grupo fez com que a ocorrência do Target para esse usuário fosse excluída, criando a desigualdade.
 
-  A Adobe espera abordar esse problema no futuro, à medida que as equipes do Adobe trabalham em direção ao A4T no Adobe Experience Platform. As equipes do Adobe estão determinando como lidar com esses diferentes eventos em momentos distintos na página.
+  A Adobe espera abordar esse problema no futuro, à medida que as equipes do Adobe trabalharem com o A4T no Adobe Experience Platform. As equipes do Adobe estão determinando como lidar com esses diferentes eventos em momentos diferentes na página.
 
 ## Variação de dados esperada quando *não está usando* A4T {#expected-not-using-a4t}
 
@@ -35,7 +35,7 @@ Apesar de os dados reais poderem variar de forma significativa, as tendências n
 
 [!DNL Analytics]O usa um sistema com base em visitas e transações, enquanto o usa métricas com base em visitantes. [!DNL Target] Sempre que um visitante abrir uma página, ela será contada como uma visita em [!DNL Analytics], mas [!DNL Target] não contará a visita até que as condições definidas na atividade sejam atendidas.
 
-Os relatórios em [!DNL Target] mostram o desempenho com base na mbox de conversão selecionada durante a definição da atividade. No entanto, esses dados da mbox de conversão não são enviados para [!DNL Analytics], que tem suas próprias variáveis de conversão, conforme definido pela sua implementação de marcação [!DNL Analytics]. Onde você espera dados idênticos (por exemplo, se o pedido de um varejista confirmar que a página contém uma mbox de conversão e um evento de compra [!DNL Analytics]), os dados podem diferir devido à colocação dessas tags. Em geral, as tendências nos relatórios dos dois produtos são semelhantes.
+Os relatórios em [!DNL Target] mostram o desempenho com base na mbox de conversão selecionada durante a definição da atividade. No entanto, esses dados da mbox de conversão não são enviados para [!DNL Analytics], que tem suas próprias variáveis de conversão, conforme definido pela sua implementação de marcação [!DNL Analytics]. Quando você espera dados idênticos (por exemplo, se um pedido de retailer confirmar que a página contém uma mbox de conversão e um evento de compra [!DNL Analytics]), os dados podem diferir devido à colocação dessas tags. Em geral, as tendências nos relatórios dos dois produtos são semelhantes.
 
 As variações de dados esperadas podem ser causadas por variações técnicas e comerciais.
 

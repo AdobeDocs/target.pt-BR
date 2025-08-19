@@ -1,6 +1,6 @@
 ---
 keywords: qa, lado do servidor, lado do servidor, visualização, visualização de links
-description: Saiba como usar URLs de controle de qualidade do Adobe [!DNL Target] com entrega do lado do servidor para realizar o controle de qualidade das atividades com facilidade utilizando links de visualização que nunca mudam, direcionamento opcional de público-alvo e relatórios de controle de qualidade que permanecem segmentados a partir dos dados de atividade em tempo real.
+description: Saiba como usar as URLs de controle de qualidade do Adobe [!DNL Target] com entrega do lado do servidor para realizar o controle de qualidade das atividades com facilidade utilizando links de visualização que nunca mudam, direcionamento opcional de público-alvo e relatórios de controle de qualidade que permanecem segmentados a partir dos dados de atividade em tempo real.
 title: Usar o Posso executar o controle de qualidade de atividade com entrega do lado do servidor?
 feature: Activities
 exl-id: eb6965be-92a6-452d-ac01-7ae1533239cc

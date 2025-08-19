@@ -2,13 +2,13 @@
 keywords: Recommendations; intro; introdução, webinar, demonstração
 description: Saiba mais sobre as atividades do Recommendations no Adobe  [!DNL Target]  que exibem automaticamente conteúdo que pode interessar a seus clientes, com base na atividade anterior do usuário ou outros algoritmos.
 title: O que são as atividades do Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '2086'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -39,7 +39,7 @@ O [!DNL Adobe Target] entrega conteúdo personalizado em todos os locais.
 * **Publicação**: os editores da Web usam o [!DNL Target Recommendations] para recomendar artigos aos visitantes do site e impulsionar maior engajamento.
 * **Tutoriais em vídeo**: o [!DNL Adobe Creative Cloud] usa o [!DNL Target] para recomendar tutoriais em vídeo aos usuários do Photoshop no aplicativo Photoshop.
 * **Jogos**: as empresas de jogos usam o [!DNL Target] para recomendar jogos e conteúdo aos usuários em seus consoles.
-* **Vendas B2B**: [As empresas B2B usam o Target para recomendar vídeos, whitepapers e publicações do blog para prospectos B2B; entregar downloads; e fornecer ajuda aos clientes](https://theblog.adobe.com/testing-shifts-high-gear-intel).
+* **Vendas B2B**: [As empresas B2B usam o Target para recomendar vídeos, whitepapers e publicações do blog para clientes potenciais B2B; entregar downloads; e fornecer ajuda aos clientes](https://theblog.adobe.com/testing-shifts-high-gear-intel).
 
 * **Viagem**: [Uma agência de viagens alemã usa o Target para recomendar hotéis e muito mais aos viajantes](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
@@ -183,11 +183,11 @@ Imediatamente, o [!DNL Target] inclui um portfólio de algoritmos.
 * Os **algoritmos personalizados** incluem Visualizados recentemente, Afinidade do site e Filtros colaborativos aprimorados por perfil.
 * Os **algoritmos próprios** permitem usar seus próprios algoritmos personalizados.
 
-### Regras de ebusiness
+### Regras de negócios online
 
-A última etapa é aplicar as regras de ebusiness. É aqui que você capacita os algoritmos com conhecimento de domínio e contexto atual com base no que o visitante está fazendo em sua propriedade digital.
+A última etapa é aplicar as regras de negócios online. É aqui que você capacita os algoritmos com conhecimento de domínio e contexto atual com base no que o visitante está fazendo em sua propriedade digital.
 
-![Ilustração de regras de ebusiness](/help/main/c-recommendations/assets/intro-18.png)
+![Ilustração de regras de negócios online](/help/main/c-recommendations/assets/intro-18.png)
 
 Por exemplo, no contexto de conteúdo, você pode excluir os filmes que o visitante assistiu anteriormente, recomendar os filmes do mesmo diretor ou impulsionar os filmes do mesmo gênero. No contexto de varejo, talvez você queira excluir os produtos indisponíveis, mostrar os itens em um intervalo de preço de $5 a $500 ou impulsionar os itens da mesma marca.
 

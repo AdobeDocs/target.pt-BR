@@ -7,7 +7,7 @@ exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 36%
+ht-degree: 35%
 
 ---
 
@@ -112,17 +112,17 @@ Este vídeo descreve como elevar o teste A/B para o próximo nível com o [!UICO
 * Descreva como fornecer conteúdo específico de localização para públicos em diferentes áreas geográficas
 * Descreve como reorganizar experiências para garantir que o conteúdo correto seja entregue ao público-alvo certo
 
->[!VIDEO](https://video.tv.adobe.com/v/39861?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
-### Tipos de atividades (9:03) 
+### Tipos de Atividades (9:03)
 
-Este vídeo explica os tipos de atividade disponíveis no [!DNL Target]. O [!UICONTROL Experience Targeting] é discutido a partir de 5:15.
+Este vídeo explica os tipos de atividade disponíveis no [!DNL Target]. [!UICONTROL Experience Targeting] é discutido a partir de 5:15.
 
 * Descreva os tipos de atividade incluídos no [!DNL Adobe Target]
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/31290?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Usando o [!UICONTROL Visual Experience Composer]
 
@@ -131,4 +131,4 @@ Este vídeo fornece informações sobre o uso das opções do [!UICONTROL Experi
 * Alterar o conteúdo de uma página
 * Alterar o layout de uma página
 
->[!VIDEO](https://video.tv.adobe.com/v/31293?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

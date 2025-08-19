@@ -11,7 +11,7 @@ ht-degree: 35%
 
 ---
 
-# Visão geral de [!UICONTROL Auto-Allocate]
+# Visão geral das [!UICONTROL Auto-Allocate]
 
 Uma atividade [!UICONTROL Auto-Allocate] em [!DNL Adobe Target] identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.
 
@@ -29,11 +29,11 @@ Uma atividade [!UICONTROL Auto-Allocate] reduz esse custo e a sobrecarga de dete
 
 Um teste A/B normal em [!DNL Target] mostra apenas comparações emparelhadas de desafiantes com o controle. Por exemplo, se uma atividade tiver experiências: A, B, C e D, onde A é o controle, um teste A/B normal de [!DNL Target] compararia A versus B, A versus C e A versus D.
 
-Nesses testes, a maioria dos produtos, incluindo o [!DNL Target], usa um [teste t de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} para produzir confiança baseada em valores p. Este valor de confiança é então usado para determinar se o desafiante é suficientemente diferente do controle. No entanto, [!DNL Target] não executa automaticamente as comparações implícitas (B versus C, B versus D e C versus D) necessárias para encontrar a &quot;melhor&quot; experiência. Como resultado, o profissional de marketing deve analisar manualmente os resultados para determinar a &quot;melhor&quot; experiência.
+Nesses testes, a maioria dos produtos, incluindo o [!DNL Target], usa um [teste t de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} para produzir confiança baseada em valor p. Este valor de confiança é então usado para determinar se o desafiante é suficientemente diferente do controle. No entanto, [!DNL Target] não executa automaticamente as comparações implícitas (B versus C, B versus D e C versus D) necessárias para encontrar a &quot;melhor&quot; experiência. Como resultado, o profissional de marketing deve analisar manualmente os resultados para determinar a &quot;melhor&quot; experiência.
 
 [!UICONTROL Auto-Allocate] executa todas as comparações implícitas entre experiências e produz um vencedor &quot;verdadeiro&quot;. Não há noção de experiência de &quot;controle&quot; no teste.
 
-[!UICONTROL Auto-Allocate] aloca de forma inteligente novos visitantes para experiências até que o intervalo de confiança da melhor experiência não se sobreponha ao intervalo de confiança de outra experiência. Normalmente, este processo pode produzir falsos positivos, mas [!UICONTROL Auto-Allocate] usa intervalos de confiança baseados na [Desigualdade de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29){target=_blank} que compensa avaliações repetidas. Neste ponto, há um verdadeiro vencedor. Quando [!UICONTROL Auto-Allocate] para, desde que não haja uma dependência de tempo substancial para os visitantes que chegam à página, há pelo menos 95% de chance de [!UICONTROL Auto-Allocate] retornar uma experiência cuja resposta verdadeira não seja pior do que 1% (relativa) menos do que a verdadeira resposta da experiência vencedora.
+[!UICONTROL Auto-Allocate] aloca de forma inteligente novos visitantes para experiências até que o intervalo de confiança da melhor experiência não se sobreponha ao intervalo de confiança de outra experiência. Normalmente, esse processo pode produzir falsos positivos, mas [!UICONTROL Auto-Allocate] usa intervalos de confiança baseados na [Desigualdade de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29){target=_blank} que compensa avaliações repetidas. Neste ponto, há um verdadeiro vencedor. Quando [!UICONTROL Auto-Allocate] para, desde que não haja uma dependência de tempo substancial para os visitantes que chegam à página, há pelo menos 95% de chance de [!UICONTROL Auto-Allocate] retornar uma experiência cuja resposta verdadeira não seja pior do que 1% (relativa) menos do que a verdadeira resposta da experiência vencedora.
 
 ## Quando usar [!UICONTROL Auto-Allocate] versus [!UICONTROL A/B Test] ou [!UICONTROL Automated Personalization] atividades {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
@@ -51,7 +51,7 @@ Nesses testes, a maioria dos produtos, incluindo o [!DNL Target], usa um [teste 
 
 Os termos a seguir são úteis quando falamos de [!UICONTROL Auto-Allocate]:
 
-**Bandit multi-armed:** uma abordagem [bandit multi-armed](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} à otimização equilibra o aprendizado exploratório e o aproveitamento desse aprendizado.
+**Multi-armed bandit:** Uma abordagem [multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} à otimização equilibra o aprendizado exploratório e o aproveitamento desse aprendizado.
 
 ## Como o algoritmo funciona {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
@@ -83,7 +83,7 @@ A ilustração mostra como o tráfego alocado para cada experiência progride ao
 >
 >Se uma atividade tiver apenas duas experiências, ambas as experiências obterão tráfego igual até que [!DNL Target] encontre uma experiência vencedora com 75% de confiança. Nesse ponto, dois terços do tráfego é alocado para o vencedor e um terço para o perdedor. Depois disso, quando uma experiência atingir a confiança de 95%, 90% do tráfego será alocado ao vencedor e 10% será alocado ao perdedor. [!DNL Target] sempre envia algum tráfego para a experiência &quot;perdida&quot; para evitar falsos positivos no final (ou seja, manter alguma exploração).
 
-Após a ativação de uma atividade [!UICONTROL Auto-Allocate], as seguintes operações da interface Target não são permitidas:
+Após a ativação de uma atividade [!UICONTROL Auto-Allocate], as seguintes operações da interface Tar[!DNL]get não são permitidas:
 
 * Alternar o modo &quot;Alocação de tráfego&quot; para &quot;Manual&quot;
 * Alterar o tipo de métrica de meta
@@ -241,9 +241,9 @@ Este vídeo inclui informações sobre a configuração da alocação de tráfeg
 
 ### Criação de testes A/B (8:36) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
-Este vídeo monstra como criar um teste A/B usando o fluxo de trabalho orientado de três etapas do Target. O [!UICONTROL Auto-Allocate] é discutido a partir de 4:45.
+Este vídeo monstra como criar um teste A/B usando o fluxo de trabalho orientado de três etapas do Target. [!UICONTROL Auto-Allocate] é discutido a partir de 4:45.
 
 * Criar uma atividade A/B em [!DNL Adobe Target]
 * Aloque o tráfego usando uma divisão manual ou automática
 
->[!VIDEO](https://video.tv.adobe.com/v/31295?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)
