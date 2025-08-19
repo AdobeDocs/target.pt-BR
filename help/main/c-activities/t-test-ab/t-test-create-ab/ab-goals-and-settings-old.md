@@ -87,4 +87,4 @@ Este vídeo demonstra como a configuração das atividades se encaixa no fluxo d
 * Criar uma atividade A/B no Adobe Target
 * Aloque o tráfego usando uma divisão manual ou automática
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/31295?captions=por_br)

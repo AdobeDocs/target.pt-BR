@@ -320,4 +320,4 @@ Este vídeo contém as seguintes informações:
 * Criar um design personalizado
 * Saiba como fazer referência às variáveis de exibição em seus designs
 
->[!VIDEO](https://video.tv.adobe.com/v/27687)
+>[!VIDEO](https://video.tv.adobe.com/v/35373?captions=por_br)

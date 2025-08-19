@@ -88,4 +88,4 @@ Este vídeo contém as seguintes informações (detalhes sobre como carregar cri
 * Criar sequências de critérios
 * Upload dos critérios personalizados
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35374?quality=12&captions=por_br)

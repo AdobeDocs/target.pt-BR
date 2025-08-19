@@ -120,4 +120,4 @@ Este vídeo mostra como criar um teste A/B usando fluxo de trabalho orientado de
 * Criar uma atividade [!UICONTROL A/B Test] em [!DNL Adobe Target]
 * Aloque o tráfego usando uma divisão manual ou automática
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/31295?captions=por_br)

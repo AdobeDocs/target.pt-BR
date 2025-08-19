@@ -104,4 +104,4 @@ O vídeo abaixo fornece informações sobre o uso das opções [!UICONTROL Visua
 * Alterar o conteúdo de uma página
 * Alterar o layout de uma página
 
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+>[!VIDEO](https://video.tv.adobe.com/v/31293?captions=por_br)

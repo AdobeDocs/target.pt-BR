@@ -206,12 +206,12 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 
 ### Adicione a Extensão ![Selo do tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/33296?captions=por_br)
 
 ### Depuração básica do Adobe Target ![Selo do tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/33298?captions=por_br)
 
 ### Mbox Trace ![Selo do tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/33345?captions=por_br)

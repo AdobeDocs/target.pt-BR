@@ -437,6 +437,6 @@ Esta mensagem é exibida quando você adiciona a primeira ação a uma Exibiçã
 
 ## Vídeo de treinamento: uso do VEC para SPAs no Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/26249)
+>[!VIDEO](https://video.tv.adobe.com/v/34802?captions=por_br)
 
 Consulte [Uso do Visual Experience Composer para Single Page Application (SPA VEC) no Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) para obter mais informações.

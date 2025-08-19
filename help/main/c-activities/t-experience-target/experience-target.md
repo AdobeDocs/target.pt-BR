@@ -39,4 +39,4 @@ Este vídeo descreve como elevar o teste A/B para o próximo nível com o [!UICO
 * Descreva como fornecer conteúdo específico de localização para públicos em diferentes áreas geográficas
 * Descreve como reorganizar experiências para garantir que o conteúdo correto seja entregue ao público-alvo certo
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/39861?captions=por_br)
