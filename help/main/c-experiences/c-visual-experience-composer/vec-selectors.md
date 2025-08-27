@@ -25,7 +25,7 @@ Você pode definir se deseja usar elemento em classes ou ID de elemento nas suas
 
 >[!NOTE]
 >
->As Classes de Elemento estão disponíveis como seletores em atividades [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] e [!UICONTROL  Multivariate Test].
+>As Classes de Elemento estão disponíveis como seletores em atividades [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] e [!UICONTROL &#x200B; Multivariate Test].
 
 Para obter informações sobre quando usar seletores de CSS e quando usar IDs exclusivas, consulte [Práticas recomendadas e limitações do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
