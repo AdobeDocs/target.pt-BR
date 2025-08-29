@@ -54,7 +54,7 @@ Esta versão inclui as seguintes atualizações e correções:
 * **A alternância de públicos na página Relatórios causou erros na interface do usuário de Destino**: os clientes encontraram erros ao selecionar determinados públicos na seção Reports da interface do usuário de Destino atualizada. Esse problema era causado pelo tratamento inválido de público nas chamadas de back-end do GraphQL, resultando em erros inesperados e dados ausentes. O problema foi resolvido e os públicos-alvo da área de trabalho agora são carregados sem erros, mesmo quando não há dados disponíveis. (TGT-53370)
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalhes
 * **Falha ao clicar em &quot;Aceitar Cookies&quot; usando o [!UICONTROL Enhanced Experience Composer] (EEC) devido a uma função ausente**: os clientes relataram que tentar aceitar cookies por meio do EEC resultou em um erro de console: `handleclickAcceptAllButton is not defined`. A funcionalidade de aceitação de cookies agora funciona conforme esperado, garantindo uma experiência mais suave durante a criação da atividade na interface atualizada. (TGT-52794)
