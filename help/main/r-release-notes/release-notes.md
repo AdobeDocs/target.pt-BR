@@ -40,7 +40,7 @@ Devido aos problemas recentes identificados, relacionados principalmente a perso
 
 * **17 de junho de 2025**: todas as Organizações IMS foram habilitadas para a interface do usuário [!DNL Target] atualizada, para usuários específicos ou em toda a organização, para começar a testar a nova experiência.
 
-* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4} se tornou a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
+* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4&rbrace; se tornou a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
 
    * Os clientes que atualmente veem a interface herdada, por padrão, agora veem a interface atualizada ao fazer logon.
    * O botão de alternância da versão da interface do usuário permanece disponível até o final de julho, permitindo que os usuários alternem de volta, se necessário.
@@ -107,7 +107,7 @@ Esta versão inclui as seguintes atualizações e correções:
 * **[!UICONTROL Graph view]na seção [!UICONTROL Reports] não exibia valores de[!DNL Analytics]**: os clientes que acessam [!UICONTROL Graph view] na seção Reports encontraram dados ausentes, com todos os valores aparecendo como zero. Este problema foi causado pela recuperação de dados incorreta de [!UICONTROL Analytics]. [!UICONTROL Graph view] agora exibe valores precisos conforme esperado. (TGT-52792)
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalhes
 * **Falha ao clicar em &quot;Aceitar Cookies&quot; usando o [!UICONTROL Enhanced Experience Composer] (EEC) devido a uma função ausente**: os clientes relataram que tentar aceitar cookies por meio do EEC resultou em um erro de console: `handleclickAcceptAllButton is not defined`. A funcionalidade de aceitação de cookies agora funciona conforme esperado, garantindo uma experiência mais suave durante a criação da atividade na interface atualizada. (TGT-52794)
@@ -139,7 +139,7 @@ Esta versão inclui as seguintes atualizações e correções:
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++Ver detalhes
 * **Correção de um problema em que os clientes não podiam digitar nomes de conjunto de relatórios durante o processo de criação de atividade**: os clientes que usavam [!DNL Adobe Analytics] como fonte de relatórios durante o processo de criação de atividade não podiam digitar na lista suspensa [!UICONTROL Report Suite] para procurar conjuntos de relatórios específicos. Isso afetou os fluxos de trabalho de organizações com um grande número de conjuntos de relatórios, em que a rolagem manual atrasava significativamente a configuração. A lista suspensa não era ordenada alfabeticamente e não respondia consistentemente à entrada digitada, dificultando a localização de conjuntos de relatórios como &quot;Office + Store - Web - Prod&quot;. Esse problema foi resolvido e os clientes agora podem pesquisar com eficiência digitando nomes de conjuntos de relatórios. (TGT-53345)
@@ -173,7 +173,7 @@ Esta versão inclui as seguintes atualizações e correções:
 
 +++Ver detalhes
 * **Correção de um problema na interface do usuário [!DNL Recommendations] em que o download do CSV de critérios personalizados retornava o erro 404**: correção de um problema em que os clientes não conseguiam baixar o CSV de critérios personalizados no processo de criação de atividades. O link de download agora funciona corretamente, permitindo que os clientes exportem critérios personalizados conforme esperado. (TGT-51966)
-* **Correção de um carregamento de imagem inconsistente em[!UICONTROL Catalog Search]**: correção de um problema em que as miniaturas e imagens em [!UICONTROL  Catalog Search] não eram carregadas de forma consistente no processo de criação da atividade. As imagens não eram exibidas a menos que a coluna &quot;URL da miniatura&quot; estivesse visível e algumas imagens do produto fossem carregadas parcialmente ou não fossem carregadas após as ações de navegação ou pesquisa. O comportamento de carregamento da imagem foi estabilizado e as miniaturas agora são exibidas de forma confiável, independentemente das ações de visibilidade da coluna ou de navegação. (TGT-52778)
+* **Correção de um carregamento de imagem inconsistente em[!UICONTROL Catalog Search]**: correção de um problema em que as miniaturas e imagens em [!UICONTROL &#x200B; Catalog Search] não eram carregadas de forma consistente no processo de criação da atividade. As imagens não eram exibidas a menos que a coluna &quot;URL da miniatura&quot; estivesse visível e algumas imagens do produto fossem carregadas parcialmente ou não fossem carregadas após as ações de navegação ou pesquisa. O comportamento de carregamento da imagem foi estabilizado e as miniaturas agora são exibidas de forma confiável, independentemente das ações de visibilidade da coluna ou de navegação. (TGT-52778)
 * **Correção de um problema em que a edição de uma recomendação em uma experiência duplicada afetava a experiência original**: os clientes relataram que a modificação de uma recomendação em uma experiência duplicada alterava involuntariamente a experiência original. Especificamente, após a duplicação da Experiência B no processo de criação de atividade e a edição do design ou dos critérios, as mesmas alterações foram refletidas na Experiência B original, apesar de serem entidades separadas. As experiências duplicadas agora mantêm configurações separadas, garantindo que as edições em uma experiência não afetem a original. (TGT-53369)
 * **Correção de um problema em que as alterações em uma experiência duplicada afetavam involuntariamente a experiência original em uma atividade**: os clientes relatavam que, ao duplicar uma experiência em uma atividade e atribuir um novo público-alvo, todas as alterações feitas no design ou nos critérios da experiência duplicada também eram refletidas na experiência original. Esse problema ocorria mesmo se nenhuma edição fosse feita diretamente na versão original, afetando a capacidade de criar variações independentes na mesma atividade. O processo de criação de atividade agora isola corretamente as experiências duplicadas, garantindo que as edições feitas em uma experiência não afetem a original. (TGT-53361)
 * **Correção de um problema em que [!UICONTROL Recommendation Catalog] falhava intermitentemente em exibir dados completos de atributos de produto**: na interface do usuário atualizada [!DNL Recommendations], os clientes tinham um problema em que determinados atributos de produto, como mensagem, não eram exibidos de forma consistente nos resultados [!UICONTROL Catalog Search], mesmo que os dados existissem no feed. Esse problema exigia que os clientes reconfigurassem manualmente a visibilidade da coluna para recuperar os valores ausentes. [!UICONTROL Catalog Search] agora exibe de forma confiável todos os atributos configurados, eliminando a necessidade de redefinições manuais de colunas. (TGT-52769)
@@ -204,7 +204,7 @@ Esta versão inclui as seguintes atualizações e correções:
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalhes
 * **Correção de um problema no processo de criação de atividade que bloqueava a progressão para a etapa [!UICONTROL Targeting] nas atividades de AP**: correção de um problema no processo de criação de atividade em que os clientes não conseguiam prosseguir para a etapa [!UICONTROL Targeting] nas atividades de [!UICONTROL Automated Personalization] (AP), a menos que dois locais fossem adicionados. Esse comportamento foi diferente da experiência anterior, onde um único local com várias ofertas era suficiente. O requisito foi corrigido, permitindo que os clientes continuem usando configurações de local único como parte de seus workflows de AP. (TGT-53426)
