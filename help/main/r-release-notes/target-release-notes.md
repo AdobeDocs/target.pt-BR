@@ -4,10 +4,10 @@ description: Saiba mais sobre os novos recursos, melhorias e correções adicion
 title: Quais são os novos recursos e melhorias que serão incluídos na próxima versão do  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: fda279c909e2bb35e919d1bb4f4b611401a367cf
+source-git-commit: 223a0f62bcd9a52bd9181e0a439e02164abbfec4
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 17%
+source-wordcount: '204'
+ht-degree: 60%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 17%
 
 Este artigo contém informações de pré-lançamento das próximas versões do [!DNL Adobe Target], incluindo SDKs, APIs e bibliotecas JavaScript.
 
-**Última atualização: 29 de agosto de 2025**
+**Última atualização: 4 de setembro de 2025**
 
 >[!NOTE]
 >
@@ -27,42 +27,11 @@ Este artigo contém informações de pré-lançamento das próximas versões do 
 
 ## [!DNL Target Standard/Premium] 25.8.4 (1º de setembro de 2025)
 
-Esta versão inclui as seguintes atualizações e correções:
+Esta versão está disponível. Consulte as [[!DNL Target] notas de versão (atuais)](/help/main/r-release-notes/release-notes.md) para obter mais detalhes.
 
-**[!UICONTROL Activities]**
+## [!DNL Target Standard/Premium] 25.9.1 (4 de setembro de 2025)
 
-+++Ver detalhes
-* **Os clientes não puderam copiar os nomes de atividades ou documentos do[!UICONTROL Activity Overview]**: anteriormente, os clientes não conseguiam copiar o nome de uma atividade ou a oferta/documento associado diretamente do [!UICONTROL Activity Overview] no processo de criação de atividades atualizado. Essa limitação afetou a usabilidade, especialmente em telas menores. Agora, os clientes podem copiar facilmente os nomes das atividades e dos documentos sem soluções alternativas. (TGT-51850)
-* **Assimilação proativa de dados de clientes [!DNL Target] com curadoria durante a criação da atividade**: melhoria do processo de criação da atividade ao habilitar a coleta proativa de relatórios, conteúdo e capturas de tela de clientes [!DNL Target]. Esse aprimoramento aborda as lacunas de dados identificadas em casos de uso existentes e ajuda a garantir insights mais precisos durante a atividade e a configuração de experimentos. (TGT-52415)
-* **As atividades de AP não buscaram dados prontos para modelo na [!UICONTROL Reports] seção**: os clientes que visualizam atividades de Automated Personalization (AP) na seção [!UICONTROL Reports] não puderam ver os indicadores prontos para modelo no nível do grupo de relatórios e da oferta. Esse problema ocorria porque os dados prontos para modelo não eram obtidos corretamente do back-end. A funcionalidade foi restaurada e os dados prontos para modelo agora são exibidos conforme esperado. (TGT-53600 e TGT-53601)
-
-+++
-
-**[!UICONTROL Recommendations]**
-
-+++Ver detalhes
-* **A lista de produtos não estava visível na caixa de diálogo [!UICONTROL View Collection]:** anteriormente, os clientes não conseguiam ver a lista de produtos ao visualizar uma coleção na guia [!UICONTROL Recommendations]. A caixa de diálogo [!UICONTROL View Collection] agora exibe corretamente os produtos associados, melhorando a transparência e a usabilidade na interface atualizada do usuário do Recommendations. (TGT-50531)
-* **Correção de um problema que fazia com que a filtragem diferenciasse maiúsculas e minúsculas na [!UICONTROL Product Catalog Search] pesquisa avançada**: a filtragem de pesquisa avançada na página [!UICONTROL Product Catalog Search] agora ignora corretamente a diferenciação entre maiúsculas e minúsculas, alinhando-se ao comportamento do back-end e dos serviços do GraphQL. Essa atualização garante resultados de sugestões consistentes e precisos para os clientes, independentemente da capitalização do texto. (TGT-53585)
-* **A pesquisa avançada na interface atualizada [!UICONTROL Product Catalog Search] não forneceu sugestões**: os clientes que usam o recurso de pesquisa avançada na interface atualizada [!UICONTROL Product Catalog Search] precisaram inserir valores exatos com ortografia correta, pois nenhuma sugestão foi exibida. Isso dificultava a localização eficiente dos produtos. Agora as sugestões são exibidas conforme esperado durante a entrada da pesquisa avançada. (TGT-52008)
-
-+++
-
-**[!UICONTROL Reports]**
-
-+++Ver detalhes
-* **Falha ao carregar relatórios para o público-alvo da área de trabalho devido a um erro de nome de público-alvo inválido**: os clientes encontraram um erro de GraphQL ao tentar exibir relatórios para o público-alvo no processo de criação de atividade. O sistema retornou uma mensagem &quot;Nome de público-alvo inválido: XXXXX&quot;, impedindo o acesso aos dados de relatórios. Agora os relatórios são carregados corretamente para o público-alvo da Área de trabalho. (TGT-53371)
-* **A alternância de públicos na página Relatórios causou erros na interface do usuário de Destino**: os clientes encontraram erros ao selecionar determinados públicos na seção Reports da interface do usuário de Destino atualizada. Esse problema era causado pelo tratamento inválido de público nas chamadas de back-end do GraphQL, resultando em erros inesperados e dados ausentes. O problema foi resolvido e os públicos-alvo da área de trabalho agora são carregados sem erros, mesmo quando não há dados disponíveis. (TGT-53370)
-+++
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++Ver detalhes
-* **Falha ao clicar em &quot;Aceitar Cookies&quot; usando o [!UICONTROL Enhanced Experience Composer] (EEC) devido a uma função ausente**: os clientes relataram que tentar aceitar cookies por meio do EEC resultou em um erro de console: `handleclickAcceptAllButton is not defined`. A funcionalidade de aceitação de cookies agora funciona conforme esperado, garantindo uma experiência mais suave durante a criação da atividade na interface atualizada. (TGT-52794)
-* **A nova interface do EEC falhou ao carregar determinadas páginas que eram anteriormente compatíveis com a interface do usuário herdada**: os clientes relataram que o novo EEC não pôde carregar algumas páginas, que estavam acessíveis na interface do usuário herdada, apesar do código de interrupção de iframe presente no site. O processo de criação de atividade atualizado agora oferece suporte ao carregamento dessas páginas, restaurando a compatibilidade para fluxos de trabalho de criação de atividade. (TGT-53061)
-* **O VEC exibiu uma tela em branco ao editar as experiências**: os clientes de um determinado locatário relataram que a tela do VEC ficava em branco ao tentar editar experiências no VEC atualizado. Esse problema afetava atividades recém-criadas e mais antigas, impedindo a continuidade do fluxo de trabalho. O VEC agora é carregado corretamente, permitindo que os clientes editem as experiências sem interrupção. (TGT-53547)
-* **O VEC falhou e exibiu uma tela em branco ao carregar determinadas atividades**: os clientes de um determinado locatário relataram que o VEC falhou ao carregar atividades específicas. O editor de experiência permaneceu preso na &quot;Aplicação de modificações iniciais&quot; antes de travar e mostrar uma tela em branco. Erros de console indicaram uma falha na leitura de propriedades indefinidas. O editor agora carrega as atividades afetadas sem erros no VEC atualizado. (TGT-53548)
-
-+++
+Esta versão está programada para 4 de setembro. Esta seção será atualizada até a semana.
 
 ## Notas de versão adicionais e detalhes da versão
 
