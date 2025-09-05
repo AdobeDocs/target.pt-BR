@@ -426,4 +426,4 @@ O vídeo a seguir explica como usar tokens de resposta e eventos personalizados 
 >
 >O vídeo menciona `option.name` e `option.id`, que foram substituídos por `offer.name` e `offer.id`, respectivamente.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/)
+>[!VIDEO](https://video.tv.adobe.com/v/33346?captions=por_br)
