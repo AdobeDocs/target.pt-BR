@@ -2,14 +2,14 @@
 keywords: deduplicação;permitir duplicatas;excluir ofertas duplicadas;personalização automatizada;não permitir ofertas duplicadas;excluir;conteúdo padrão;
 description: Gerenciar exclusões nas atividades de [!UICONTROL Automated Personalization] (AP).
 title: Como gerenciar exclusões em atividades de [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: c5016d212edafa908b8755044e73d28167e20e8a
+source-git-commit: e620cd189e2783ba3abbe93bb9c5000866c41b99
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 37%
+source-wordcount: '456'
+ht-degree: 28%
 
 ---
 
@@ -17,15 +17,13 @@ ht-degree: 37%
 
 Gerencie exclusões excluindo ofertas duplicadas, experiências específicas e o conteúdo padrão nas atividades de [!UICONTROL Automated Personalization] (AP) em [!DNL Adobe Target].
 
-## Excluir ofertas duplicadas {#concept_4EF78013F80E48EFA024AE0274C9F037}
+## Permitir ou não ofertas duplicadas {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
 Evite que as ofertas da biblioteca de ofertas sejam duplicadas quando usadas em locais diferentes nas atividades [!UICONTROL Automated Personalization].
 
-Você pode ter uma atividade, por exemplo, seis locais na página com 12 ofertas. Há uma chance de que a mesma oferta possa ser colocada em um ou mais locais na atividade. Esse recurso evita a exibição e ofertas duplicadas ao mesmo tempo em locais diferentes, dentro da mesma atividade.
+Você pode ter uma atividade, por exemplo, seis locais na página com 12 ofertas. Há uma chance de que a mesma oferta possa ser colocada em um ou mais locais na atividade. Esse recurso permite impedir que ofertas duplicadas sejam exibidas ao mesmo tempo em locais diferentes na mesma atividade.
 
-Clique no ícone **[!UICONTROL Configure]** > **[!UICONTROL Duplicate Offers]** e clique em **[!UICONTROL Allow Duplicates]** ou **[!UICONTROL Disallow Duplicates]**.
-
-![Opções de ofertas duplicadas](/help/main/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
+1. Ao [criar ou editar uma atividade de AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), clique no ícone **[!UICONTROL Configure]** ( ![Ícone Configurar](/help/main/assets/icons/Setting.svg) ) > clique no **[!UICONTROL Allow Duplicate Offers]** para ativar ou desativar este recurso, dependendo das suas necessidades.
 
 ## Excluir experiências específicas {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
@@ -33,76 +31,71 @@ Exclua experiências específicas se quiser excluir determinadas combinações d
 
 Pode haver determinadas combinações que não funcionam juntas ou você pode estar limitando o número de experiências testadas para diminuir os requisitos de tráfego para sua atividade.
 
-1. Ao [criar ou editar uma atividade de AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), clique em **Gerenciar conteúdo** na barra de cabeçalho.
-
-   ![Link Gerenciar conteúdo](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+1. Ao [criar ou editar uma atividade de AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), clique no ícone **Gerenciar conteúdo** ( ![Ícone Gerenciar conteúdo](/help/main/assets/icons/Experience.svg) ).
 
    A lista [!UICONTROL Experiences] mostra cada experiência gerada com permutas de todas as opções de conteúdo e locais.
 
 1. Exclua as experiências, conforme desejado.
 
-   Você pode excluir as experiências específicas ao passar o mouse sobre a experiência desejada e clicar no ícone de exclusão.
+   Você pode excluir experiências específicas clicando no ícone [!UICONTROL **Mais Ações**] ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmall.svg) ) e clicando em [!UICONTROL **Excluir**].
 
-   ![Excluir experiência ao passar o cursor do mouse](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
+   Ou você pode excluir experiências em lote marcando a caixa de seleção das experiências relevantes e, em seguida, clicando em **[!UICONTROL Exclude]**. O ícone [!UICONTROL Exclude] é exibido quando uma ou mais experiências são verificadas.
 
-   Ou você pode excluir em lote as experiências marcando a caixa de seleção das experiências relevantes e, em seguida, clicando no ícone **[!UICONTROL Exclude]** no canto superior direito da caixa de diálogo. O ícone [!UICONTROL Exclude] é exibido quando uma ou mais experiências são verificadas.
-
-   ![Exclusão em lote de experiências](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
-
-   É possível filtrar essa exibição de lista para ver apenas as atividades excluídas ou incluídas, clicando na lista suspensa [!UICONTROL Status].
+   ![Exclusão em lote de experiências](/help/main/c-activities/t-automated-personalization/assets/exclude1.png)
 
    As experiências agora são excluídas da atividade e seus [!UICONTROL Status] são exibidos como [!UICONTROL Excluded].
 
-   ![Experiências excluídas](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_3a.png)
-
 ## Excluir conteúdo padrão {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-Às vezes, você pode não querer incluir seu conteúdo padrão como parte de sua atividade [!UICONTROL Automated Personalization]. A maneira pela qual você acessa essa configuração é diferente da criação de grupos de exclusão. Você pode usar esse método para ter somente uma oferta (diferente do conteúdo padrão) em uma localização, como parte da sua atividade de AP.
+Às vezes, você pode não querer incluir seu conteúdo padrão como parte de sua atividade [!UICONTROL Automated Personalization]. Você pode usar esse método para ter somente uma oferta (diferente do conteúdo padrão) em uma localização, como parte da sua atividade de AP.
 
 Excluir o conteúdo padrão é uma excelente maneira de alterar a aparência do restante da página, a fim de adequar as ofertas que você estiver testando com a atividade de AP. Por exemplo, pressuponha que você deseja corresponder a paleta de cores das ofertas que está testando, poderia alterar a cor do fundo da sua página e excluir a cor do fundo padrão.
 
 **Para excluir o conteúdo padrão usando o [!UICONTROL Visual Experience Composer] (VEC):**
 
-1. Ao [criar ou editar uma atividade de AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), selecione o conteúdo que deseja substituir e clique para acessar **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]** ou **[!UICONTROL Change Background Color]**.
-1. Na caixa de diálogo, crie seu novo conteúdo e desmarque **Incluir** à direita do conteúdo padrão (ou desmarque Imagem/Vídeo padrão na tela [!UICONTROL Select Content]).
+1. Ao [criar ou editar uma atividade de AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), selecione o conteúdo que deseja substituir e clique para acessar **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image Offer]** ou **[!UICONTROL Change Background Color]**. As opções disponíveis variam, dependendo do tipo de conteúdo.
 
-   Dependendo do tipo de conteúdo ou oferta, a caixa de seleção [!UICONTROL Include] está em um local um pouco diferente.
+   ![Alterar opções](/help/main/c-activities/t-automated-personalization/assets/options.png)
 
-   Para conteúdo de texto/HTML:
+1. Crie seu novo conteúdo e desmarque **Incluir** à direita do conteúdo padrão (ou desmarque Imagem/Vídeo padrão na tela [!UICONTROL Select Content]).
 
-   ![Incluir caixa de seleção na caixa de diálogo Editar texto/HTML](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_1a.png)
+   <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
-   Para conteúdo de imagem/vídeo:
+   For Text/HTML content: 
 
-   ![Incluir caixa de seleção na caixa de diálogo Selecionar conteúdo](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_2a.png)
+   ![Include checkbox in Edit Text/HTML dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_1a.png)
 
-   Para cor do fundo:
+   For Image/Video content: 
 
-   ![Incluir caixa de seleção na caixa de diálogo Editar cor do fundo](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
+   ![Include checkbox in Select Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_2a.png)
 
-1. Clique em **[!UICONTROL Save]**.
+   For background color: 
 
-   Você pode ver as experiências criadas com base nas ofertas especificadas em [!UICONTROL Manage Content]. Você observou que nenhuma experiência é criada em [!UICONTROL Manage Content] usando a oferta padrão excluída.
+   ![Include checkbox in Edit Background Color dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)-->
 
-   ![excluir_conteúdo_vec_4 imagem](assets/exclude_content_vec_4.png)
+<!-- 1. Click **[!UICONTROL Save]**.
 
-**Para excluir o conteúdo padrão usando o [!UICONTROL Form-Based Experience Composer]:**
+   You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You notice that no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
 
-1. Ao criar ou editar uma atividade de AP, clique em **[!UICONTROL Change Text/HTML]** ou **[!UICONTROL Change Image Offer]** em **[!UICONTROL Content]**.
-1. Na caixa de diálogo, crie seu novo conteúdo e desmarque **[!UICONTROL Include]** à direita do conteúdo padrão (ou desmarque Imagem/Vídeo padrão na tela [!UICONTROL Select Content]).
+   ![exclude_content_vec_4 image](assets/exclude_content_vec_4.png)
 
-   Dependendo do tipo de conteúdo ou oferta, a caixa de seleção [!UICONTROL Include] está em um local um pouco diferente.
+**To exclude default content using the [!UICONTROL Form-Based Experience Composer]:** 
 
-   Para conteúdo de texto/HTML:
+1. While creating or editing an AP activity, click **[!UICONTROL Change Text/HTML]** or **[!UICONTROL Change Image Offer]** under **[!UICONTROL Content]**. 
+1. In the dialog box, create your new content and uncheck **[!UICONTROL Include]** to the right of the default content (or uncheck the Default Image/Video in the [!UICONTROL Select Content] screen). 
 
-   ![excluir_conteúdo_formulário_1 imagem](assets/exclude_content_form_1.png)
+   Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
-   Para conteúdo de imagem/vídeo:
+   For Text/HTML content: 
 
-   ![excluir_conteúdo_formulário_2 imagem](assets/exclude_content_form_2.png)
+   ![exclude_content_form_1 image](assets/exclude_content_form_1.png)
 
-1. Clique em **[!UICONTROL Save]**.
+   For Image/Video content: 
 
-   Você pode ver as experiências criadas com base nas ofertas especificadas em [!UICONTROL Manage Content]. Você observou que nenhuma experiência é criada em [!UICONTROL Manage Content] usando a oferta padrão excluída.
+   ![exclude_content_form_2 image](assets/exclude_content_form_2.png)
 
-   ![excluir_conteúdo_formulário_3 imagem](assets/exclude_content_form_3.png)
+1. Click **[!UICONTROL Save]**. 
+
+   You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You notice that no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
+
+   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)-->
