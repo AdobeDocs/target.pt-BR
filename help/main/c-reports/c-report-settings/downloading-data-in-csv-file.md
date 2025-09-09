@@ -4,7 +4,7 @@ description: Saiba como baixar dados de atividades do Adobe [!DNL Target]  em um
 title: Como baixar dados de relatório em um arquivo CSV?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: e42398b8774fff57c00658636a52bd0038ad94b4
+source-git-commit: c0342f51d998d27eef9af189c7ebb364095699ed
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 30%
@@ -26,20 +26,6 @@ Download de dados em um arquivo CSV:
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
-
-## Formato de download CSV para popularidade e algoritmos baseados em chave {#format}
-
-O arquivo de download de CSV reflete consistentemente os resultados gerados após a execução dos critérios de backend.
-
-**Para algoritmos de popularidade (não baseados em chave), o arquivo inclui:**
-
-* Uma linha de recomendações de backup com o prefixo *
-* Uma lista de linhas separada faz recomendações com base nas configurações de algoritmo
-
-**Para algoritmos baseados em chave, o arquivo inclui:**
-
-* Uma linha de backup semelhante a algoritmos de popularidade
-* Várias linhas no formato de valor-chave, em que a primeira entrada é a ID de produto da chave, seguidas por IDs de produto separadas por vírgulas representando candidatos a recomendação
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
@@ -83,6 +69,20 @@ O relatório [!UICONTROL Order Details] mostra as informações sobre seus pedid
 >
 >* Os dados do relatório do pedido incluem quatro semanas de dados para o ambiente padrão (grupo de hosts) e duas semanas para todos os ambientes não padrão.
 >* Métricas de receita definidas como &quot;[!UICONTROL Increment count and keep the user in the activity]&quot; registram detalhes da ordem somente para a primeira ordem feita pelo mesmo visitante. Todos os pedidos subsequentes aumentam a contagem de conversão, mas não adicionam receita a RPV/AOV/Vendas e não estão incluídos no relatório [!UICONTROL Order Details].
+
+## Formato de download CSV para popularidade e algoritmos baseados em chave {#format}
+
+O arquivo de download de CSV reflete consistentemente os resultados gerados após a execução dos critérios de backend.
+
+**Para algoritmos de popularidade (não baseados em chave), o arquivo inclui:**
+
+* Uma linha de recomendações de backup com o prefixo *
+* Uma lista de linhas separada faz recomendações com base nas configurações de algoritmo
+
+**Para algoritmos baseados em chave, o arquivo inclui:**
+
+* Uma linha de backup semelhante a algoritmos de popularidade
+* Várias linhas no formato de valor-chave, em que a primeira entrada é a ID de produto da chave, seguidas por IDs de produto separadas por vírgulas representando candidatos a recomendação
 
 ## Práticas recomendadas
 
