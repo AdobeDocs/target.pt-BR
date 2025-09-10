@@ -4,10 +4,10 @@ description: Saiba como baixar dados de atividades do Adobe [!DNL Target]  em um
 title: Como baixar dados de relatório em um arquivo CSV?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: be02c0405133e4fc4e7f668a2b72a61b94070740
+source-git-commit: 26b0c5455e82014dab92c925ecc88bddb3947d2f
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 30%
+source-wordcount: '652'
+ht-degree: 34%
 
 ---
 
@@ -69,20 +69,6 @@ O relatório [!UICONTROL Order Details] mostra as informações sobre seus pedid
 >
 >* Os dados do relatório do pedido incluem quatro semanas de dados para o ambiente padrão (grupo de hosts) e duas semanas para todos os ambientes não padrão.
 >* Métricas de receita definidas como &quot;[!UICONTROL Increment count and keep the user in the activity]&quot; registram detalhes da ordem somente para a primeira ordem feita pelo mesmo visitante. Todos os pedidos subsequentes aumentam a contagem de conversão, mas não adicionam receita a RPV/AOV/Vendas e não estão incluídos no relatório [!UICONTROL Order Details].
-
-## Formato de download CSV para algoritmos baseados em chave e popularidade {#format}
-
-O arquivo de download de CSV reflete consistentemente os resultados gerados após a execução dos critérios de backend.
-
-* **Para algoritmos baseados em popularidade (não baseados em chave), o arquivo inclui:**
-
-   * Uma linha de recomendações de backup com o prefixo * (um asterisco)
-   * Uma lista de linhas separada faz recomendações com base nas configurações de algoritmo
-
-* **Para algoritmos baseados em chave, o arquivo inclui:**
-
-   * Uma linha de backup semelhante aos algoritmos baseados em popularidade
-   * Várias linhas no formato de valor-chave, em que a primeira entrada é a ID de produto da chave, seguidas por IDs de produto separadas por vírgulas representando candidatos a recomendação
 
 ## Práticas recomendadas
 

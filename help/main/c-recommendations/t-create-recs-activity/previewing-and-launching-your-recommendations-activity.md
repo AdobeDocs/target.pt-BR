@@ -4,9 +4,9 @@ description: Saiba como visualizar sua atividade do Adobe [!DNL Target] Recommen
 title: Como visualizar e iniciar uma atividade do Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
+source-git-commit: 26b0c5455e82014dab92c925ecc88bddb3947d2f
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1398'
 ht-degree: 15%
 
 ---
@@ -94,6 +94,20 @@ Para outros tipos de algoritmo baseados em um valor de chave, como [!UICONTROL P
 >[!NOTE]
 >
 >Os downloads de resultados não estão disponíveis para atividades que contêm um algoritmo [!UICONTROL User-Based Recommendations]. Os downloads de resultados não estão disponíveis para os critérios que usam a lógica de recomendação [!UICONTROL Recently-Viewed Items].
+
+### Formato de download CSV para algoritmos baseados em chave e popularidade {#format}
+
+O arquivo de download de CSV reflete consistentemente os resultados gerados após a execução dos critérios de backend.
+
+* **Para algoritmos baseados em popularidade (não baseados em chave), o arquivo inclui:**
+
+   * Uma linha de recomendações de backup com o prefixo * (um asterisco)
+   * Uma lista de linhas separada faz recomendações com base nas configurações de algoritmo
+
+* **Para algoritmos baseados em chave, o arquivo inclui:**
+
+   * Uma linha de backup semelhante aos algoritmos baseados em popularidade
+   * Várias linhas no formato de valor-chave, em que a primeira entrada é a ID de produto da chave, seguidas por IDs de produto separadas por vírgulas representando candidatos a recomendação
 
 ## Ativar sua atividade do Recommendations
 
