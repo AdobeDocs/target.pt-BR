@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 29ddf23b41531e5fab80fe7d0f6bc913e778d839
+source-git-commit: 098415849152065b734cbebbab8dcf1d0805e202
 workflow-type: tm+mt
-source-wordcount: '1670'
-ht-degree: 15%
+source-wordcount: '1779'
+ht-degree: 14%
 
 ---
 
@@ -40,7 +40,7 @@ Devido aos problemas recentes identificados, relacionados principalmente a perso
 
 * **17 de junho de 2025**: todas as Organizações IMS foram habilitadas para a interface do usuário [!DNL Target] atualizada, para usuários específicos ou em toda a organização, para começar a testar a nova experiência.
 
-* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4&rbrace; se tornou a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
+* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4} se tornou a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
 
    * Os clientes que atualmente veem a interface herdada, por padrão, agora veem a interface atualizada ao fazer logon.
    * O botão de alternância da versão da interface do usuário permanece disponível até o final de julho, permitindo que os usuários alternem de volta, se necessário.
@@ -74,6 +74,18 @@ As informações a seguir descrevem as limitações que você deve conhecer ao o
 * [[!UICONTROL Visual Experience Composer] opções](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): este artigo explica a interface do usuário do VEC atualizada e suas opções.
 
 +++
+
+## Atualizações de sequência de dados (19 de setembro de 2025)
+
+A combinação da ID da sequência de dados e da sandbox deve ser exclusiva para [!DNL Adobe Target] conexões de destino.
+
+Atualização da lógica de validação para conexões de destino [!DNL Target] para impor que a combinação da ID da sequência de dados e do nome da sandbox seja exclusiva em uma Organização IMS. Isso significa:
+
+* O mesmo par de ID de fluxo de dados + nome de sandbox não pode ser reutilizado em várias conexões de destino [!DNL Target].
+* A mesma ID de fluxo de dados pode ser usada para conexões diferentes somente se estiverem configuradas em sandboxes diferentes.
+* Essa regra se aplica a todas as seleções de sequência de dados, incluindo quando &quot;Nenhum&quot; é selecionado.
+
+Essa atualização garante uma configuração consistente e evita conflitos em ambientes de várias sandboxes. Para obter mais informações, consulte [conexão com o Adobe Target](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} no guia *Destinos do Experience Platform*.
 
 ## [!DNL Target Standard/Premium] 25.9.1 (5 de setembro de 2025)
 
