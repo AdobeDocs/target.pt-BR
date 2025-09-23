@@ -4,7 +4,7 @@ description: Saiba como o [!DNL Adobe Target] funciona, incluindo informações 
 title: Como o  [!DNL Target]  funciona?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
+source-git-commit: 85edad5c3adb3a7b01ee6d1eaf2c30c7596d5f92
 workflow-type: tm+mt
 source-wordcount: '2214'
 ht-degree: 24%
@@ -28,19 +28,19 @@ Os principais pontos incluem:
 
 O Target integra-se a sites usando o [!DNL Experience Platform Web SDK] ou a at.js:
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank}**: esta biblioteca JavaScript do lado do cliente permite que os clientes do [!DNL Adobe Experience Cloud] interajam com vários serviços através do [!DNL Experience Platform Edge Network]. A [!DNL Adobe] recomenda que os novos clientes do [!DNL Target] implementem o [!DNL Experience Platform Web SDK].
-* **[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=pt-BR){target=_blank}**: esta biblioteca de implementação do [!DNL Target] melhora os tempos de carregamento de página de implementações da Web e oferece opções melhores para aplicativos de página única. Atualizado com frequência com novos recursos, o [!DNL Adobe] recomenda que todos os [usuários do at.js atualizem para a versão mais recente](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: esta biblioteca JavaScript do lado do cliente permite que os clientes do [!DNL Adobe Experience Cloud] interajam com vários serviços através do [!DNL Experience Platform Edge Network]. A [!DNL Adobe] recomenda que os novos clientes do [!DNL Target] implementem o [!DNL Experience Platform Web SDK].
+* **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: esta biblioteca de implementação do [!DNL Target] melhora os tempos de carregamento de página de implementações da Web e oferece opções melhores para aplicativos de página única. Atualizado com frequência com novos recursos, o [!DNL Adobe] recomenda que todos os [usuários do at.js atualizem para a versão mais recente](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >A biblioteca mbox.js é uma implementação herdada do [!DNL Target] e não é mais suportada após 31 de março de 2021. Atualize para o [!UICONTROL Experience Platform Web SDK] (preferencial) ou para a versão mais recente do at.js.
 
-Consulte o [!UICONTROL Experience Platform Web SDK] ou a at.js em todas as páginas do site. Por exemplo, adicione uma dessas bibliotecas ao seu cabeçalho global. Como alternativa, use [tags na Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/home){target=_blank} para implementar o [!DNL Target].
+Consulte o [!UICONTROL Experience Platform Web SDK] ou a at.js em todas as páginas do site. Por exemplo, adicione uma dessas bibliotecas ao seu cabeçalho global. Como alternativa, use [tags na Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} para implementar o [!DNL Target].
 
 Os seguintes recursos contêm informações detalhadas para ajudar você a implementar o [!DNL Experience Platform Web SDK] ou a at.js:
 
 * [[!DNL Adobe Experience Platform Web SDK] extensão](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=pt-BR){target=_blank}
-* [Implementar o  [!DNL Target]  usando a  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [Implementar o  [!DNL Target]  usando a  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Cada vez que um visitante solicita uma página otimizada para [!DNL Target], uma solicitação em tempo real é enviada para o sistema de direcionamento para determinar o conteúdo a ser veiculado. Essa solicitação é feita e preenchida sempre que uma página é carregada, regida por atividades e experiências controladas pelo profissional de marketing. O conteúdo é direcionado para visitantes individuais do site, maximizando as taxas de resposta, as taxas de aquisição e a receita. O conteúdo personalizado ajuda a garantir que os visitantes respondam, interajam ou façam compras.
 
@@ -172,7 +172,7 @@ O serviço [!DNL Target Recommendations] é hospedado em um data center [!DNL Ad
 >
 >Atualmente, o [!DNL Target] não tem um cluster do Edge na China, o que limita o desempenho do visitante para [!DNL Target] clientes na região. O firewall e a ausência de clusters do Edge podem afetar as experiências do site, causando renderização lenta e tempos de carregamento de página. Além disso, os profissionais de marketing podem experimentar latência ao usar a interface de criação do [!DNL Target].
 
-Você pode adicionar clusters de borda do [!DNL Target] à lista de permissões, se desejar. Para obter mais informações, consulte [lista de permissões de nós de borda do Target](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
+Você pode adicionar clusters de borda do [!DNL Target] à lista de permissões, se desejar. Para obter mais informações, consulte [lista de permissões de nós de borda do Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Experiência do usuário protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
