@@ -4,9 +4,9 @@ description: Descubra como aproveitar as ofertas remotas no  [!DNL Target]  para
 title: Como criar ofertas remotas?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: 856396264c4a7b7e3370cd268e7f010092e2eae2
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1029'
 ht-degree: 19%
 
 ---
@@ -31,6 +31,17 @@ Alguns exemplos de ofertas remotas incluem:
 ## Práticas recomendadas para usar ofertas remotas {#section_7718512D08E14121B6F6B8C38134F4BC}
 
 Práticas recomendadas para usar ofertas remotas em suas atividades:
+
+* As ofertas remotas são compatíveis com o:
+
+   * Atividades A/B
+   * Atividades do Direcionamento de experiência (XT)
+   * Fluxos de trabalho baseados em formulário
+
+* As ofertas remotas não são compatíveis com o:
+
+   * [Recursos premium](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), Direcionamento automático e Recommendations)
+   * Multivariate Testing (MVT), devido à dependência no VEC, que não oferece suporte a ofertas remotas.
 
 * Se a sua oferta estiver no mesmo domínio que as solicitações [!DNL Target], o uso da opção [!UICONTROL Cached] permitirá que você use URLs relativas na descrição da sua localização de oferta.
 

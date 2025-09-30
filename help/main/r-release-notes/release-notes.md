@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 186bfa96c0849d9cd838b3d493c10cccfd4ff068
+source-git-commit: 405faeac7fc633a64c441edeb2a95d90d896b21d
 workflow-type: tm+mt
-source-wordcount: '4104'
-ht-degree: 8%
+source-wordcount: '5412'
+ht-degree: 7%
 
 ---
 
@@ -40,7 +40,7 @@ Devido aos problemas recentes identificados, relacionados principalmente a perso
 
 * **17 de junho de 2025**: todas as Organizações IMS foram habilitadas para a interface do usuário [!DNL Target] atualizada, para usuários específicos ou em toda a organização, para começar a testar a nova experiência.
 
-* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4&rbrace; se tornou a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
+* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4} se tornou a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
 
    * Os clientes que atualmente veem a interface herdada, por padrão, agora veem a interface atualizada ao fazer logon.
    * O botão de alternância da versão da interface do usuário permanece disponível até o final de julho, permitindo que os usuários alternem de volta, se necessário.
@@ -75,6 +75,64 @@ As informações a seguir descrevem as limitações que você deve conhecer ao o
 
 +++
 
+## [!DNL Target Standard/Premium] 25.9.3 (30 de setembro de 2025)
+
+Esta versão inclui os seguintes aprimoramentos e correções.
+
++++[!UICONTROL Audiences]
+
+* **As regras de exclusão de público-alvo foram exibidas incorretamente como inclusão na interface do usuário [!DNL Target].** públicos-alvo configurados com regras de exclusão apareciam como incluídos ao editar o direcionamento em uma atividade. Embora a lógica de exclusão tenha sido aplicada corretamente durante a execução, a interface do usuário não refletia a regra com precisão, omitindo o rótulo &quot;excluindo&quot;. A interface do usuário do [!DNL Target] agora exibe corretamente as regras de exclusão nos fluxos de trabalho de configuração de público-alvo e direcionamento, garantindo clareza e consistência para a configuração da campanha. (TGT-53808)
+* **A seção [!UICONTROL Targeting] não indicou que uma regra de público-alvo foi definida para exclusão.** públicos-alvo configurados com lógica de exclusão foram exibidos incorretamente como inclusão na seção [!UICONTROL Targeting] da interface de criação da atividade. Embora o back-end tenha aplicado corretamente a regra de exclusão, a interface do usuário não conseguiu representá-la visualmente, omitindo o rótulo &quot;Excluir&quot; e causando confusão durante a configuração da campanha. A seção [!UICONTROL Targeting] agora exibe claramente as regras de exclusão, garantindo a consistência entre a configuração de público e a visualização de direcionamento. (TGT-53809)
+
++++
+
++++Localização
+
+* **Correção de uma inconsistência de terminologia na tradução do chinês simplificado de &quot;Exibição completa de detalhes&quot;.**
+Anteriormente, o termo &quot;Detalhes&quot; era traduzido incorretamente como &quot;详情&quot; na localidade do chinês simplificado (zh_CN), violando as diretrizes de terminologia estabelecidas. Esse valor foi corrigido para &quot;详细信息&quot; para garantir a consistência com o termo base. (TGT-53741)
+
++++
+
++++[!UICONTROL Recommendations]
+
+* **As caixas de recomendação foram difíceis de localizar e selecionar no VEC.** Depois de adicionar uma oferta do recommendations no (VEC), clicar na modificação no painel esquerdo não realçou nem rolou até a caixa de recomendação correspondente na página. Isso dificultava localizar e editar a oferta, especialmente quando oculta em seletores ou estilizada minimamente. Ao clicar em uma modificação de recomendação, agora o realça e rola corretamente para o elemento associado, melhorando a usabilidade e a eficiência de edição no processo de criação de atividade atualizado. (TGT-52571)
+* **Os seletores de recomendação foram regravados incorretamente após salvar uma atividade.** Ao adicionar uma recomendação a um elemento no VEC, o seletor estava inicialmente correto, mas após salvar e reabrir a atividade, ele foi alterado para um seletor genérico. As tentativas de restaurar manualmente o seletor original resultaram em erros de validação. Os seletores de recomendação agora persistem com precisão após salvar, garantindo um direcionamento confiável e capacidade de edição no processo de criação de atividade atualizado. (TGT-53709)
+* **Não foi possível editar o conteúdo dos critérios ao modificar uma atividade existente.** Ao editar uma atividade, a seção de conteúdo [!UICONTROL Criteria] aparecia desabilitada, com botões esmaecidos e sem resposta. Esse problema foi resolvido verificando se as configurações do [!UICONTROL Criteria] são totalmente editáveis durante as atualizações da atividade. Os clientes agora podem modificar o conteúdo do [!UICONTROL Criteria] sem precisar alternar seleções ou usar soluções alternativas, melhorando a flexibilidade e a usabilidade no processo de criação de atividades atualizado. (TGT-53812)
+* **Não foi possível editar o critério em uma atividade.** As opções [!UICONTROL Edit Criteria] e [!UICONTROL Remove Criteria] foram desabilitadas ao acessar critérios de dentro de uma atividade. No entanto, os mesmos critérios podem ser editados com êxito por meio da guia [!UICONTROL Recommendations]. Os critérios agora podem ser totalmente editados tanto no fluxo de trabalho de edição da atividade quanto na guia [!UICONTROL Recommendations], garantindo uma experiência de edição consistente e eficiente. (TGT-53814)
+
++++
+
++++[!UICONTROL Reports]
+
+* **Gerar ofertas ad-hoc em atividades A[!UICONTROL utomated Personalization] causou inconsistências de relatório.** O uso do recurso Gerar ofertas ad-hoc em [!UICONTROL Automated Personalization] atividades (AP) levou a relatórios imprecisos. Especificamente, as IDs de oferta foram reutilizadas em vários locais, fazendo com que os dados de relatório fossem atribuídos incorretamente ou substituídos. As ofertas ad-hoc agora são geradas com identificadores distintos por local, garantindo um rastreamento e relatórios precisos em todas as experiências configuradas. (TGT-53757)
+* **Falha ao carregar os relatórios de atividade devido a um erro no JavaScript.** Os clientes encontraram uma mensagem de &quot;Algo deu errado&quot; ao acessar a guia [!UICONTROL Reports] para determinadas atividades. O erro foi causado por uma exceção do JavaScript: não é possível ler propriedades de indefinido (lendo &#39;indexOf&#39;), acionado durante a chamada do GraphQL `getAnalyticsReportSummary`. Agora os relatórios são carregados corretamente, e o tratamento de erros foi aprimorado para evitar falhas semelhantes no fluxo de trabalho atualizado de criação de atividades. (TGT-53797)
+* **Os relatórios falharam após interagirem com a barra de rolagem.** Clicar na barra de rolagem na guia [!UICONTROL Reports] causou uma falha na página, acompanhada por um erro de JavaScript:
+  `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` Agora os relatórios são carregados e rolados corretamente sem erros ou falhas. (TGT-53828)
+* **Os relatórios não exibiram a métrica primária.** A métrica primária, configurada como uma métrica de conversão usando uma mbox, estava ausente nos relatórios de atividades. A pesquisa por nome de métrica ou nome de mbox não produziu resultados, impedindo a visibilidade dos principais dados de desempenho. As métricas primárias agora aparecem corretamente na guia [!UICONTROL Reports], garantindo um rastreamento e análise precisos do desempenho da campanha. (TGT-53773)
+* **A guia [!UICONTROL Reports] na interface atualizada falhou ao interagir com a barra de rolagem horizontal.** A exibição [!UICONTROL Reports] falhou intermitentemente com um erro &quot;Algo deu errado&quot; ao usar a barra de rolagem horizontal para acessar métricas fora da exibição. A barra de rolagem agora funciona de forma confiável, permitindo que os clientes visualizem e analisem todas as métricas sem precisar de soluções alternativas, como reduzir ou usar a rolagem shift. (TGT-53824)
+
++++
+
++++[!UICONTROL Visual Experience Composer] (VEC)
+
+* **Clicar em navegações estruturais no VEC não exibia de maneira consistente o menu de edição.**
+Ao selecionar elementos do HTML por meio da navegação estrutural no (VEC), o menu de edição não era exibido ou desaparecia rapidamente, o que tornava a seleção de elementos não confiável. O menu de edição agora é exibido de forma consistente ao navegar por navegações estruturais, melhorando o fluxo de trabalho de seleção de elemento no processo de criação de atividade atualizado. (TGT-52873)
+* **O menu de contexto falhou intermitentemente ao aparecer no VEC.** O menu de contexto na interface do VEC atualizada não era exibido de forma consistente ao clicar em elementos, dificultando o acesso às opções de edição. O menu de contexto agora é exibido de forma confiável a partir da seleção de elementos, melhorando o fluxo de trabalho de edição e a usabilidade geral no processo de criação de atividades atualizado. (TGT-53015)
+* **Falha ao exibir o menu de contexto para determinados elementos no VEC.** O menu de contexto não foi exibido ao selecionar elementos específicos no VEC atualizado, dificultando a aplicação de modificações. O menu de contexto agora é exibido de forma consistente para todos os elementos compatíveis, melhorando a confiabilidade e a usabilidade da experiência de edição no fluxo de trabalho de criação de atividade atualizado. (TGT-53248)
+* **O menu de contexto desapareceu no primeiro clique ao usar navegações estruturais no VEC.** Selecionar um elemento pai por meio da navegação estrutural no VEC fez com que o menu de contexto aparecesse brevemente e depois desaparecesse, dificultando o acesso às opções de edição. O menu de contexto agora permanece visível e funcional ao navegar pelos elementos por navegações estruturais, melhorando a confiabilidade do fluxo de trabalho de seleção de elementos no processo de criação de atividades atualizado. (TGT-53424)
+* **O menu de contexto não foi exibido para elementos de nível superior no VEC.** A seleção de elementos de nível superior, como `<div>` ou `<main>` marcas, por meio da navegação estrutural no VEC não acionou o menu de contexto, impedindo mais ações de edição. O menu de contexto agora é exibido de forma consistente para todos os elementos compatíveis, incluindo contêineres de nível superior, melhorando a flexibilidade e a usabilidade do fluxo de trabalho de criação da atividade. (TGT-53770)
+* **Os elementos em uma página específica não eram editáveis no VEC.** Determinados elementos na página não puderam ser selecionados ou editados no VEC atualizado. Esse problema foi isolado àquela página e não afetou outras páginas dentro da mesma conta. Todos os elementos na página agora podem ser selecionados e editados conforme esperado, restaurando a funcionalidade completa no fluxo de trabalho de criação da atividade. (TGT-53353)
+* **Fluxo de trabalho melhorado ao exibir elementos secundários durante a seleção de elementos no VEC.** Para melhorar a usabilidade e a precisão durante a criação da atividade, o VEC agora exibe elementos filho ao passar o mouse sobre ou selecionar um elemento HTML pai. Esse aprimoramento permite que os clientes entendam melhor a estrutura da página e façam modificações mais precisas, simplificando o fluxo de trabalho de edição na interface atualizada. (TGT-53416)
+* **Não foi possível editar elementos em atividades existentes usando a barra de modificação.** Ao editar atividades criadas anteriormente, a barra de modificação não era ativada para determinados elementos na página, impedindo atualizações. Esse problema foi observado principalmente em atividades modificadas e foi difícil de reproduzir nas recém-criadas. A barra de modificação agora é exibida de forma consistente e permite a edição de todos os elementos compatíveis, melhorando a confiabilidade e a usabilidade no fluxo de trabalho de criação de atividade atualizado. (TGT-53013)
+
++++
+
++++[!UICONTROL Workspaces]
+
+* **A clonagem de uma atividade para um espaço de trabalho diferente disparou um erro de &quot;Entrada de Usuário Inválida&quot;.** A tentativa de clonar uma atividade de um espaço de trabalho para outro resultou em um erro: &quot;InvalidProperty.Json - Nome de propriedade &#39;content&#39; não reconhecido.&quot; Esse problema era causado pelo manuseio inadequado de metadados de atividade durante o processo de clonagem. Agora, as atividades podem ser clonadas com êxito entre espaços de trabalho sem acionar erros de validação, garantindo workflows de implantação de atividades mais suaves. (TGT-53731 e TGT-53736)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.9.2 (22 de setembro de 2025)
 
 Essa versão inclui as seguintes correções e aprimoramentos:
@@ -83,14 +141,14 @@ Essa versão inclui as seguintes correções e aprimoramentos:
 
 +++Ver detalhes
 * **Correção de um problema em que as atividades não podiam ser copiadas devido a IDs de público-alvo inválidas.** Os clientes que tentam copiar atividades no processo de criação de atividade atualizado encontraram um erro causado por IDs de público-alvo inválidas (por exemplo, -1752722444307). Esse problema de validação de backend impedia a duplicação de atividades no mesmo espaço de trabalho. Esse problema foi resolvido e agora as atividades podem ser copiadas com êxito sem erros relacionados ao público-alvo. (TGT-53717)
-* **Correção de um problema em que erros de entrada de usuário inválidos apareciam em públicos somente atividade nas atividades [!UICONTROL Automated Personalization] do modal [!UICONTROL Manage Content].** Clientes encontraram erros de entrada de usuário inválidos ao configurar públicos somente atividade no modal [!UICONTROL &#x200B; Manage Content] para atividades de AP. Esse problema ocorreu apesar de os públicos-alvo serem usados anteriormente com sucesso. As configurações de público-alvo combinadas agora são salvas corretamente sem acionar erros de validação. (TGT-53749)
+* **Correção de um problema em que erros de entrada de usuário inválidos apareciam em públicos somente atividade nas atividades [!UICONTROL Automated Personalization] do modal [!UICONTROL Manage Content].** Clientes encontraram erros de entrada de usuário inválidos ao configurar públicos somente atividade no modal [!UICONTROL  Manage Content] para atividades de AP. Esse problema ocorreu apesar de os públicos-alvo serem usados anteriormente com sucesso. As configurações de público-alvo combinadas agora são salvas corretamente sem acionar erros de validação. (TGT-53749)
 
 +++
 
 **Documentação**
 
 +++Ver detalhes
-* **As páginas de documentação do Web SDK específicas do Target foram movidas para o repositório do Adobe Target.** Como parte da reestruturação da documentação do Web SDK, o conteúdo específico de [!DNL Target] foi migrado dos documentos gerais do Web SDK para o [!DNL Adobe Target] [Guia do desenvolvedor](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Essa alteração melhora a descoberta de conteúdo e garante que a orientação específica da solução seja mantida pela equipe apropriada do produto. (TGT-53374)
+* **As páginas de documentação do Web SDK específicas do Target foram movidas para o repositório do Adobe Target.** Como parte da reestruturação da documentação do Web SDK, o conteúdo específico de [!DNL Target] foi migrado dos documentos gerais do Web SDK para o [!DNL Adobe Target] [Guia do desenvolvedor](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Essa alteração melhora a descoberta de conteúdo e garante que a orientação específica da solução seja mantida pela equipe apropriada do produto. (TGT-53374)
 
 +++
 
@@ -166,7 +224,7 @@ Atualização da lógica de validação para conexões de destino [!DNL Target] 
 * A mesma ID de fluxo de dados pode ser usada para conexões diferentes somente se estiverem configuradas em sandboxes diferentes.
 * Essa regra se aplica a todas as seleções de sequência de dados, incluindo quando &quot;Nenhum&quot; é selecionado.
 
-Essa atualização garante uma configuração consistente e evita conflitos em ambientes de várias sandboxes. Para obter mais informações, consulte [conexão com o Adobe Target](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} no guia *Destinos do Experience Platform*.
+Essa atualização garante uma configuração consistente e evita conflitos em ambientes de várias sandboxes. Para obter mais informações, consulte [conexão com o Adobe Target](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} no guia *Destinos do Experience Platform*.
 
 ## [!DNL Target Standard/Premium] 25.9.1 (5 de setembro de 2025)
 
