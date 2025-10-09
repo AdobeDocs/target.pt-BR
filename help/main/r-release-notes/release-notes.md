@@ -95,7 +95,7 @@ Essa versão inclui as seguintes correções e aprimoramentos:
 
 +++Ver detalhes
 * **Correção de um problema em que as atividades não podiam ser copiadas devido a IDs de público-alvo inválidas.** Os clientes que tentam copiar atividades no processo de criação de atividade atualizado encontraram um erro causado por IDs de público-alvo inválidas (por exemplo, -1752722444307). Esse problema de validação de backend impedia a duplicação de atividades no mesmo espaço de trabalho. Esse problema foi resolvido e agora as atividades podem ser copiadas com êxito sem erros relacionados ao público-alvo. (TGT-53717)
-* **Correção de um problema em que erros de entrada de usuário inválidos apareciam em públicos somente atividade nas atividades [!UICONTROL Automated Personalization] do modal [!UICONTROL Manage Content].** Clientes encontraram erros de entrada de usuário inválidos ao configurar públicos somente atividade no modal [!UICONTROL  Manage Content] para atividades de AP. Esse problema ocorreu apesar de os públicos-alvo serem usados anteriormente com sucesso. As configurações de público-alvo combinadas agora são salvas corretamente sem acionar erros de validação. (TGT-53749)
+* **Correção de um problema em que erros de entrada de usuário inválidos apareciam em públicos somente atividade nas atividades [!UICONTROL Automated Personalization] do modal [!UICONTROL Manage Content].** Clientes encontraram erros de entrada de usuário inválidos ao configurar públicos somente atividade no modal [!UICONTROL &#x200B; Manage Content] para atividades de AP. Esse problema ocorreu apesar de os públicos-alvo serem usados anteriormente com sucesso. As configurações de público-alvo combinadas agora são salvas corretamente sem acionar erros de validação. (TGT-53749)
 
 +++
 
