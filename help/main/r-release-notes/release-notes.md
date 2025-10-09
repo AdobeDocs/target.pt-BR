@@ -6,7 +6,7 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
+source-git-commit: f0536e466d59fc4e3cccd61c25b7fe7f48f03954
 workflow-type: tm+mt
 source-wordcount: '4858'
 ht-degree: 7%
@@ -95,14 +95,14 @@ Essa versão inclui as seguintes correções e aprimoramentos:
 
 +++Ver detalhes
 * **Correção de um problema em que as atividades não podiam ser copiadas devido a IDs de público-alvo inválidas.** Os clientes que tentam copiar atividades no processo de criação de atividade atualizado encontraram um erro causado por IDs de público-alvo inválidas (por exemplo, -1752722444307). Esse problema de validação de backend impedia a duplicação de atividades no mesmo espaço de trabalho. Esse problema foi resolvido e agora as atividades podem ser copiadas com êxito sem erros relacionados ao público-alvo. (TGT-53717)
-* **Correção de um problema em que erros de entrada de usuário inválidos apareciam em públicos somente atividade nas atividades [!UICONTROL Automated Personalization] do modal [!UICONTROL Manage Content].** Clientes encontraram erros de entrada de usuário inválidos ao configurar públicos somente atividade no modal [!UICONTROL &#x200B; Manage Content] para atividades de AP. Esse problema ocorreu apesar de os públicos-alvo serem usados anteriormente com sucesso. As configurações de público-alvo combinadas agora são salvas corretamente sem acionar erros de validação. (TGT-53749)
+* **Correção de um problema em que erros de entrada de usuário inválidos apareciam em públicos somente atividade nas atividades [!UICONTROL Automated Personalization] do modal [!UICONTROL Manage Content].** Clientes encontraram erros de entrada de usuário inválidos ao configurar públicos somente atividade no modal [!UICONTROL  Manage Content] para atividades de AP. Esse problema ocorreu apesar de os públicos-alvo serem usados anteriormente com sucesso. As configurações de público-alvo combinadas agora são salvas corretamente sem acionar erros de validação. (TGT-53749)
 
 +++
 
 **Documentação**
 
 +++Ver detalhes
-* **As páginas de documentação do Web SDK específicas do Target foram movidas para o repositório do Adobe Target.** Como parte da reestruturação da documentação do Web SDK, o conteúdo específico de [!DNL Target] foi migrado dos documentos gerais do Web SDK para o [!DNL Adobe Target] [Guia do desenvolvedor](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Essa alteração melhora a descoberta de conteúdo e garante que a orientação específica da solução seja mantida pela equipe apropriada do produto. (TGT-53374)
+* **As páginas de documentação do Web SDK específicas do Target foram movidas para o repositório do Adobe Target.** Como parte da reestruturação da documentação do Web SDK, o conteúdo específico de [!DNL Target] foi migrado dos documentos gerais do Web SDK para o [!DNL Adobe Target] [Guia do desenvolvedor](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Essa alteração melhora a descoberta de conteúdo e garante que a orientação específica da solução seja mantida pela equipe apropriada do produto. (TGT-53374)
 
 +++
 
@@ -123,7 +123,7 @@ Essa versão inclui as seguintes correções e aprimoramentos:
 **[!DNL Recommendations]**
 
 +++Ver detalhes
-* **Rastreamento de cliques restaurado para [!UICONTROL Recommendations] atividades criadas na interface atualizada.** Solução de um problema em que [!UICONTROL Recommendations] atividades criadas na interface atualizada falhavam ao registrar o rastreamento de cliques, resultando em zero conversões relatadas. As atividades criadas na interface herdada rastrearam os cliques corretamente e relataram conversões conforme esperado. Essa correção garante que as atividades do Recommendations criadas na interface atualizada agora incluam os atributos de rastreamento corretos, restaurando o relatório de conversão e o alinhamento com as métricas do A4T. (TGT-53287)
+* **Rastreamento de cliques restaurado para [!UICONTROL Recommendations] atividades criadas na interface atualizada.** Solução de um problema em que as atividades [!UICONTROL Recommendations] criadas na interface atualizada não registravam o rastreamento de cliques, resultando em zero conversões relatadas. As atividades criadas na interface herdada rastrearam os cliques corretamente e relataram conversões conforme esperado. Essa correção garante que as atividades do Recommendations criadas na interface atualizada agora incluam os atributos de rastreamento corretos, restaurando o relatório de conversão e o alinhamento com as métricas do A4T. (TGT-53287)
 * **Rastreamento de cliques restaurado para atividades de Recomendação.** Solução de um problema em que as atividades [!UICONTROL Recommendations] criadas na interface atualizada não registravam o rastreamento de cliques, resultando em zero conversões relatadas. A interface herdada aplicou corretamente uma ID de rastreamento (`at-track-click`) ao conteúdo [!UICONTROL Recommendations], enquanto a interface atualizada inseriu por engano um espaço reservado (`__recsClickTrackIdPlaceholder__`), impedindo o rastreamento de back-end. Essa correção garante que o conteúdo do [!DNL Recommendations] agora inclua a ID de rastreamento correta, restaurando o relatório de conversão e o alinhamento com as métricas do A4T. (TGT-53496)
 * **Falha resolvida no editor de coleção na interface atualizada.** Correção de um problema na interface do VEC ([!UICONTROL Visual Experience Composer]) atualizada, em que abrir uma coleção no painel Editor causava uma falha da página com um TypeError: não é possível ler propriedades de indefinido (lendo &#39;customLocale&#39;). Este erro ocorreu em vários tipos de atividades, incluindo [!UICONTROL Recommendations] e testes A/B. (TGT-53703)
 * **Opção para remover a coleção selecionada restaurada no VEC.** Correção de um problema no VEC em que os usuários só podiam substituir uma coleção selecionada em uma atividade [!UICONTROL Recommendations], mas não podiam removê-la totalmente. Essa limitação bloqueou casos de uso que exigem uma remoção limpa da coleção sem substituição. Essa correção apresenta uma opção clara para remover a coleção selecionada, permitindo maior flexibilidade na configuração da atividade e alinhamento com o comportamento da interface herdada. (TGT-53652)
@@ -178,7 +178,7 @@ Atualização da lógica de validação para conexões de destino [!DNL Target] 
 * A mesma ID de fluxo de dados pode ser usada para conexões diferentes somente se estiverem configuradas em sandboxes diferentes.
 * Essa regra se aplica a todas as seleções de sequência de dados, incluindo quando &quot;Nenhum&quot; é selecionado.
 
-Essa atualização garante uma configuração consistente e evita conflitos em ambientes de várias sandboxes. Para obter mais informações, consulte [conexão com o Adobe Target](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} no guia *Destinos do Experience Platform*.
+Essa atualização garante uma configuração consistente e evita conflitos em ambientes de várias sandboxes. Para obter mais informações, consulte [conexão com o Adobe Target](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} no guia *Destinos do Experience Platform*.
 
 ## [!DNL Target Standard/Premium] 25.9.1 (5 de setembro de 2025)
 
