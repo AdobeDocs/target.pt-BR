@@ -4,7 +4,7 @@ description: Descubra por que alguns sites podem não abrir de forma confiável 
 title: Como usar a extensão auxiliar do [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 6f4fd14a46f06c1366c02cfaf5a0cee5edbb00c4
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 50%
@@ -56,7 +56,7 @@ A extensão de navegador VEC Helper para o Chrome resolve problemas de carregame
 
 ## Obter e instalar a extensão do navegador VEC Helper
 
-1. Navegue até a [extensão de navegador do Adobe Target VEC Helper na Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. Navegue até a [extensão de navegador do Adobe Target VEC Helper na Chrome Web Store](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca).
 1. Clique em **[!UICONTROL Add to Chrome > Add Extension]**.
 1. Abra o VEC no [!DNL Target].
 1. Para usar a extensão, clique no ícone de extensão do navegador do VEC Helper (![ícone do VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)) na barra de ferramentas do navegador Chrome no VEC ou no [Modo de QA](/help/main/c-activities/c-activity-qa/activity-qa.md).
@@ -66,7 +66,7 @@ A extensão de navegador VEC Helper para o Chrome resolve problemas de carregame
 
    ![VEC Helper 1](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
-   A ilustração a seguir mostra o VEC Helper perguntando se você deseja inserir bibliotecas do [!DNL Target] na página para ativar a criação:
+   A ilustração a seguir mostra o VEC Helper perguntando se você deseja inserir bibliotecas do [!DNL Target] na página para habilitar a criação:
 
    ![VEC Helper 2](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
@@ -78,9 +78,9 @@ A extensão de navegador VEC Helper para o Chrome resolve problemas de carregame
 
 ## Notas
 
-* O sinalizador [!UICONTROL Inject Target libraries] na extensão está desativado por padrão. Você pode ativar esse sinalizador se desejar usar o VEC em um site que ainda não foi implementado para [!DNL Target].
+* O sinalizador [!UICONTROL Inject Target libraries] na extensão está desativado por padrão. Você pode habilitar esse sinalizador se desejar usar o VEC em um site que ainda não foi implementado para [!DNL Target].
 
-  Esse sinalizador é uma configuração global. O sinalizador é ativado ou desativado para todos os sites abertos no VEC. Assim, por exemplo, se você definir esse sinalizador como &quot;ativado&quot; e abrir um site que já esteja implementado com a at.js, você receberá uma mensagem informando que a at.js já está carregada. O Adobe prevê que a maioria dos clientes já tenha a at.js implementada em suas páginas e use a configuração padrão &quot;desativada&quot;.
+  Esse sinalizador é uma configuração global. O sinalizador é habilitado ou desabilitado para todos os sites abertos no VEC. Assim, por exemplo, se você definir esse sinalizador como &quot;ativado&quot; e abrir um site que já esteja implementado com a at.js, você receberá uma mensagem informando que a at.js já está carregada. O Adobe prevê que a maioria dos clientes já tenha a at.js implementada em suas páginas e use a configuração padrão &quot;desativada&quot;.
 
 * A extensão carrega a versão mais recente da at.js disponível do [!DNL Target UI] em [!UICONTROL Administration > Implementation].
 * Ao usar a extensão para inserir o at.js enquanto estiver no [Modo de QA](/help/main/c-activities/c-activity-qa/activity-qa.md), é necessário abrir outra guia do Chrome. Essa guia do Chrome deve ser autenticada na mesma organização de [!DNL Adobe Experience Cloud] na qual você criou a atividade.
@@ -88,4 +88,4 @@ A extensão de navegador VEC Helper para o Chrome resolve problemas de carregame
 
    * Caso tente carregar um site usando o VEC que não é carregado, uma mensagem será exibida sugerindo que você instale a extensão de navegador VEC Helper.
    * Se o at.js ainda não estiver implementado no site, uma mensagem será exibida no VEC sugerindo que você instale a extensão.
-   * Se a extensão estiver ativada e promovendo o carregamento, as mensagens serão exibidas quando a extensão injetar a biblioteca do at.js (se necessário) ou ajudar a abrir o site de forma confiável no VEC.
+   * Se a extensão estiver habilitada e promovendo o carregamento, as mensagens serão exibidas quando a extensão injetar a biblioteca do at.js (se necessário) ou ajudar a abrir o site de forma confiável no VEC.
