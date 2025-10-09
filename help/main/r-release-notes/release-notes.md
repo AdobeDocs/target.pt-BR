@@ -6,9 +6,9 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 405faeac7fc633a64c441edeb2a95d90d896b21d
+source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
 workflow-type: tm+mt
-source-wordcount: '5412'
+source-wordcount: '4858'
 ht-degree: 7%
 
 ---
@@ -23,57 +23,11 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 [!BADGE Importante]{type=Informative}
 
-Para atualizações com limite de tempo relacionadas ao [!DNL Adobe Target] e à sua implementação, o [!DNL Adobe] fornece notas de versão e documentação detalhadas por meio do [!UICONTROL Experience League]. Estes são alguns destaques importantes para sua implementação:
+Para atualizações com limite de tempo relacionadas ao [!DNL Adobe Target] e à sua implementação, o [!DNL Adobe] fornece notas de versão detalhadas e documentação até [!UICONTROL Experience League]. Estes são alguns destaques importantes para sua implementação:
 
 ### Desativação da alternância de versão da interface do usuário [!DNL Target]
 
-+++Ver detalhes
-A equipe do [!DNL Target] está oferecendo um recurso temporário que permite alternar entre a interface atualizada do usuário do [!DNL Target] e a versão herdada usando um botão de alternância. Essa opção está disponível somente durante a fase final de implantação da interface.
-
-![Alternância da versão da interface do usuário de destino](/help/main/r-release-notes/assets/toggle.png)
-
-Quando a implantação for concluída, o botão de alternância será removido e todos os usuários farão a transição permanentemente para a interface atualizada. A [!DNL Adobe] recomenda um planejamento antecipado, pois esse recurso será eliminado em breve.
-
-#### Linha do tempo de descontinuação
-
-Devido aos problemas recentes identificados, relacionados principalmente a personalizações complexas de clientes, a equipe do [!DNL Target] ajustou a linha do tempo de desativação:
-
-* **17 de junho de 2025**: todas as Organizações IMS foram habilitadas para a interface do usuário [!DNL Target] atualizada, para usuários específicos ou em toda a organização, para começar a testar a nova experiência.
-
-* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4&rbrace; se tornou a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
-
-   * Os clientes que atualmente veem a interface herdada, por padrão, agora veem a interface atualizada ao fazer logon.
-   * O botão de alternância da versão da interface do usuário permanece disponível até o final de julho, permitindo que os usuários alternem de volta, se necessário.
-
-  >[!IMPORTANT]
-  >
-  > A [!DNL Adobe] recomenda o uso da interface atualizada do usuário do [!DNL Target]. Retorne à interface herdada somente se ocorrer um problema de bloqueador devido a [limitações do comportamento de alternância](#limitations).
-
-* **15 de julho a 30 de julho de 2025**: o botão de alternância da versão da interface do usuário será desabilitado permanentemente em fases. As organizações IMS afetadas não podem mais reverter para a interface do usuário herdada.
-
-   * As exceções são analisadas caso a caso.
-   * Atrasos na desativação do botão de alternância são concedidos apenas brevemente (alguns dias), enquanto problemas de bloqueador são resolvidos.
-
-Entre em contato com o [Atendimento ao cliente da Adobe](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) se tiver dúvidas ou se antecipar problemas durante essa transição.
-
-#### Limitações do comportamento de alternância da interface {#limitations}
-
-As informações a seguir descrevem as limitações que você deve conhecer ao optar por usar a opção de versão:
-
-* **Visibilidade das novas atividades**: as atividades criadas na interface atualizada não estarão visíveis se você voltar para a interface herdada.
-* **Editar atividades existentes**: as alterações feitas nas atividades existentes (originalmente criadas na interface herdada) ao usar a interface atualizada são publicadas no seu site. No entanto, essas atualizações não estarão visíveis na interface herdada se você voltar; somente as últimas atualizações feitas na interface herdada aparecerão lá.
-* **Consistência dos detalhes da atividade**: as alterações mais recentes, independentemente da interface do usuário usada, são refletidas em seu site ativo. No entanto, a interface herdada mostra apenas as alterações mais recentes feitas nessa versão. Essa situação pode causar confusão se as atividades editadas na interface atualizada forem diferentes do que você vê na interface herdada.
-
-#### Mais recursos para saber mais sobre a interface atualizada
-
-* [[!DNL Target] Perguntas frequentes sobre atualização da interface do usuário](/help/main/c-intro/updated-ui-faq.md): estas perguntas frequentes abordam perguntas comuns sobre a nova interface do usuário do [!DNL Target] e do [!UICONTROL Visual Experience Composer] (VEC), incluindo alterações na navegação, locais de recursos e substituição da versão temporária da interface do usuário. Seja você um profissional de marketing, desenvolvedor ou administrador, essas Perguntas frequentes ajudarão a fazer a transição descomplicada e a aproveitar ao máximo a interface atualizada.
-* Notas de versão do [[!DNL Target Standard/Premium] 25.2.1 (17 de fevereiro de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): fornece um resumo das principais alterações na interface do usuário do [!DNL Target] para [!UICONTROL Activities], [!UICONTROL Recommendations] e o [!UICONTROL Visual Experience Composer] (VEC).
-* Notas de versão do [[!DNL Target Standard/Premium] 25.1.1 (9 de janeiro de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): fornece um resumo das principais alterações na interface do usuário do [!DNL Target] para o [!UICONTROL Offers Library].
-* [Compreender a [!DNL Target] Interface](/help/main/c-intro/understand-the-target-ui.md): fornece uma breve visão geral para ajudá-lo a se familiarizar com o [!DNL Target] e fornece links para informações mais detalhadas e instruções passo a passo.
-* [[!UICONTROL Visual Experience Composer] alterações](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): a versão [!DNL Adobe Target Standard/Premium] 25.2.1 (17 de fevereiro de 2015) introduz um [!UICONTROL Visual Experience Composer] (VEC) atualizado. Este artigo explica as diferenças entre as versões herdadas e atualizadas do VEC.
-* [[!UICONTROL Visual Experience Composer] opções](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): este artigo explica a interface do usuário do VEC atualizada e suas opções.
-
-+++
+Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobre atualização da interface](/help/main/c-intro/updated-ui-faq.md).
 
 ## [!DNL Target Standard/Premium] 25.9.3 (30 de setembro de 2025)
 
@@ -141,14 +95,14 @@ Essa versão inclui as seguintes correções e aprimoramentos:
 
 +++Ver detalhes
 * **Correção de um problema em que as atividades não podiam ser copiadas devido a IDs de público-alvo inválidas.** Os clientes que tentam copiar atividades no processo de criação de atividade atualizado encontraram um erro causado por IDs de público-alvo inválidas (por exemplo, -1752722444307). Esse problema de validação de backend impedia a duplicação de atividades no mesmo espaço de trabalho. Esse problema foi resolvido e agora as atividades podem ser copiadas com êxito sem erros relacionados ao público-alvo. (TGT-53717)
-* **Correção de um problema em que erros de entrada de usuário inválidos apareciam em públicos somente atividade nas atividades [!UICONTROL Automated Personalization] do modal [!UICONTROL Manage Content].** Clientes encontraram erros de entrada de usuário inválidos ao configurar públicos somente atividade no modal [!UICONTROL &#x200B; Manage Content] para atividades de AP. Esse problema ocorreu apesar de os públicos-alvo serem usados anteriormente com sucesso. As configurações de público-alvo combinadas agora são salvas corretamente sem acionar erros de validação. (TGT-53749)
+* **Correção de um problema em que erros de entrada de usuário inválidos apareciam em públicos somente atividade nas atividades [!UICONTROL Automated Personalization] do modal [!UICONTROL Manage Content].** Clientes encontraram erros de entrada de usuário inválidos ao configurar públicos somente atividade no modal [!UICONTROL  Manage Content] para atividades de AP. Esse problema ocorreu apesar de os públicos-alvo serem usados anteriormente com sucesso. As configurações de público-alvo combinadas agora são salvas corretamente sem acionar erros de validação. (TGT-53749)
 
 +++
 
 **Documentação**
 
 +++Ver detalhes
-* **As páginas de documentação do Web SDK específicas do Target foram movidas para o repositório do Adobe Target.** Como parte da reestruturação da documentação do Web SDK, o conteúdo específico de [!DNL Target] foi migrado dos documentos gerais do Web SDK para o [!DNL Adobe Target] [Guia do desenvolvedor](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Essa alteração melhora a descoberta de conteúdo e garante que a orientação específica da solução seja mantida pela equipe apropriada do produto. (TGT-53374)
+* **As páginas de documentação do Web SDK específicas do Target foram movidas para o repositório do Adobe Target.** Como parte da reestruturação da documentação do Web SDK, o conteúdo específico de [!DNL Target] foi migrado dos documentos gerais do Web SDK para o [!DNL Adobe Target] [Guia do desenvolvedor](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Essa alteração melhora a descoberta de conteúdo e garante que a orientação específica da solução seja mantida pela equipe apropriada do produto. (TGT-53374)
 
 +++
 
@@ -224,7 +178,7 @@ Atualização da lógica de validação para conexões de destino [!DNL Target] 
 * A mesma ID de fluxo de dados pode ser usada para conexões diferentes somente se estiverem configuradas em sandboxes diferentes.
 * Essa regra se aplica a todas as seleções de sequência de dados, incluindo quando &quot;Nenhum&quot; é selecionado.
 
-Essa atualização garante uma configuração consistente e evita conflitos em ambientes de várias sandboxes. Para obter mais informações, consulte [conexão com o Adobe Target](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} no guia *Destinos do Experience Platform*.
+Essa atualização garante uma configuração consistente e evita conflitos em ambientes de várias sandboxes. Para obter mais informações, consulte [conexão com o Adobe Target](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} no guia *Destinos do Experience Platform*.
 
 ## [!DNL Target Standard/Premium] 25.9.1 (5 de setembro de 2025)
 

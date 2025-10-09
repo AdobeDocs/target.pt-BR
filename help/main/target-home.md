@@ -4,7 +4,7 @@ title: Guia do profissional de negócios do Adobe Target
 description: Saiba como usar o Adobe  [!DNL Target]  para personalizar a experiência de seus clientes a fim de maximizar a receita em seus sites, aplicativos e outros canais digitais.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: a68e7501fbb157a1ac5b0c0cbb3d574abdb747dd
+source-git-commit: fb04a75209ea6a9e20bd1f2eb83d0849374449fb
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 27%
@@ -25,7 +25,7 @@ O [!DNL Adobe Target] é a solução completa da [!DNL Adobe Experience Cloud] p
 
 A equipe do [!DNL Target] ajustou a linha do tempo para a desativação da versão da interface do usuário.
 
-[![Ícone Saiba mais](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
+[![Ícone Saiba mais](/help/main/c-intro/updated-ui-faq.md)]
 
 >[!TAB Novidades]
 
