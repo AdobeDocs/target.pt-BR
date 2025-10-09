@@ -2,13 +2,13 @@
 keywords: deduplicação;permitir duplicatas;excluir ofertas duplicadas;personalização automatizada;não permitir ofertas duplicadas;excluir;conteúdo padrão;
 description: Gerenciar exclusões nas atividades de [!UICONTROL Automated Personalization] (AP).
 title: Como gerenciar exclusões em atividades de [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: a68e7501fbb157a1ac5b0c0cbb3d574abdb747dd
+source-git-commit: 2715e803938ee552e2c6db438ed4dbece4b6220e
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '483'
 ht-degree: 21%
 
 ---
@@ -58,7 +58,7 @@ Excluir o conteúdo padrão é uma excelente maneira de alterar a aparência do 
    ![Alterar opções](/help/main/c-activities/t-automated-personalization/assets/options.png)
 1. Crie seu novo conteúdo.
 
-1. Clique no ícone **[!UICONTROL More Actions]** ( ![Mais ações](/help/main/assets/icons/Setting.svg) ) e no botão de alternância **Excluir oferta padrão/Incluir padrão**/ para excluir ou incluir a oferta padrão.
+1. Clique no ícone **[!UICONTROL More Actions]** ( ![Mais ações](/help/main/assets/icons/Setting.svg) ) e no botão de alternância **Excluir oferta padrão/Incluir oferta padrão**/ para excluir ou incluir a oferta padrão.
 
    <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
