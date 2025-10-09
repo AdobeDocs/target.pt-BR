@@ -2,24 +2,24 @@
 keywords: deduplicação;permitir duplicatas;excluir ofertas duplicadas;personalização automatizada;não permitir ofertas duplicadas;excluir;conteúdo padrão;
 description: Gerenciar exclusões nas atividades de [!UICONTROL Automated Personalization] (AP).
 title: Como gerenciar exclusões em atividades de [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: e620cd189e2783ba3abbe93bb9c5000866c41b99
+source-git-commit: a68e7501fbb157a1ac5b0c0cbb3d574abdb747dd
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 28%
+source-wordcount: '482'
+ht-degree: 21%
 
 ---
 
 # Gerenciar exclusões
 
-Gerencie exclusões excluindo ofertas duplicadas, experiências específicas e o conteúdo padrão nas atividades de [!UICONTROL Automated Personalization] (AP) em [!DNL Adobe Target].
+Assuma o controle da sua estratégia de [!UICONTROL Automated Personalization] (AP) dominando as exclusões. Independentemente de você estar evitando ofertas duplicadas, refinando combinações de experiências ou removendo conteúdo padrão, as exclusões permitem que você forneça experiências mais claras e relevantes que se alinham às suas metas e expectativas de público-alvo.
 
 ## Permitir ou não ofertas duplicadas {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
-Evite que as ofertas da biblioteca de ofertas sejam duplicadas quando usadas em locais diferentes nas atividades [!UICONTROL Automated Personalization].
+Evite que as ofertas da biblioteca de ofertas sejam duplicadas quando usadas em locais diferentes nas atividades AP.
 
 Você pode ter uma atividade, por exemplo, seis locais na página com 12 ofertas. Há uma chance de que a mesma oferta possa ser colocada em um ou mais locais na atividade. Esse recurso permite impedir que ofertas duplicadas sejam exibidas ao mesmo tempo em locais diferentes na mesma atividade.
 
@@ -27,7 +27,7 @@ Você pode ter uma atividade, por exemplo, seis locais na página com 12 ofertas
 
 ## Excluir experiências específicas {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
-Exclua experiências específicas se quiser excluir determinadas combinações de ofertas da atividade [!UICONTROL Automated Personalization].
+Exclua experiências específicas se desejar excluir determinadas combinações de ofertas da atividade de AP.
 
 Pode haver determinadas combinações que não funcionam juntas ou você pode estar limitando o número de experiências testadas para diminuir os requisitos de tráfego para sua atividade.
 
@@ -47,7 +47,7 @@ Pode haver determinadas combinações que não funcionam juntas ou você pode es
 
 ## Excluir conteúdo padrão {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-Às vezes, você pode não querer incluir seu conteúdo padrão como parte de sua atividade [!UICONTROL Automated Personalization]. Você pode usar esse método para ter somente uma oferta (diferente do conteúdo padrão) em uma localização, como parte da sua atividade de AP.
+Às vezes, você pode não querer incluir seu conteúdo padrão como parte da atividade de AP. Você pode usar esse método para ter apenas uma oferta (diferente do conteúdo padrão) em um local como parte da atividade.
 
 Excluir o conteúdo padrão é uma excelente maneira de alterar a aparência do restante da página, a fim de adequar as ofertas que você estiver testando com a atividade de AP. Por exemplo, pressuponha que você deseja corresponder a paleta de cores das ofertas que está testando, poderia alterar a cor do fundo da sua página e excluir a cor do fundo padrão.
 
@@ -56,8 +56,9 @@ Excluir o conteúdo padrão é uma excelente maneira de alterar a aparência do 
 1. Ao [criar ou editar uma atividade de AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), selecione o conteúdo que deseja substituir e clique para acessar **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image Offer]** ou **[!UICONTROL Change Background Color]**. As opções disponíveis variam, dependendo do tipo de conteúdo.
 
    ![Alterar opções](/help/main/c-activities/t-automated-personalization/assets/options.png)
+1. Crie seu novo conteúdo.
 
-1. Crie seu novo conteúdo e desmarque **Incluir** à direita do conteúdo padrão (ou desmarque Imagem/Vídeo padrão na tela [!UICONTROL Select Content]).
+1. Clique no ícone **[!UICONTROL More Actions]** ( ![Mais ações](/help/main/assets/icons/Setting.svg) ) e no botão de alternância **Excluir oferta padrão/Incluir padrão**/ para excluir ou incluir a oferta padrão.
 
    <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
