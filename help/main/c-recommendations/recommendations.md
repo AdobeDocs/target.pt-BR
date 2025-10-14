@@ -18,7 +18,7 @@ As atividades do [!DNL Adobe Target Recommendations] exibem automaticamente prod
 
 >[!NOTE]
 >
->As atividades do [!DNL Recommendations] estão disponíveis como parte da [solução Target Premium. ](/help/main/c-intro/intro.md#premium) Não estão disponíveis no [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
+>As atividades do [!DNL Recommendations] estão disponíveis como parte da [solução Target Premium. &#x200B;](/help/main/c-intro/intro.md#premium) Não estão disponíveis no [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
 >
 >Se você tiver o [!DNL Recommendations Classic], consulte [Atividades do Recommendations Classic versus Recommendations no Target Premium](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) para obter mais informações sobre as duas soluções.
 

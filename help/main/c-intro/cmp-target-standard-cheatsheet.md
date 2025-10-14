@@ -232,7 +232,7 @@ Use os controles de alocação de porcentagem disponíveis na [Etapa 2 do fluxo 
 +++ Ver detalhes
 Veja os seguintes aspectos do produto:
 
-* [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=pt-BR)
 * [Públicos-alvo](/help/main/c-integrating-target-with-mac/mmp.md)
 

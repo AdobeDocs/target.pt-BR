@@ -23,7 +23,7 @@ Por exemplo, você pode criar uma atividade que teste duas páginas de aterrissa
 
 Planeje cuidadosamente ao projetar uma atividade. Determine quando a atividade começa e quanto tempo ela dura. Depois, relacione as ofertas e atribua um público-alvo a cada uma.
 
-O Target inclui vários tipos de atividades. A tabela a seguir fornece uma visão geral de cada tipo de atividade com links para ajudá-lo a saber mais. Para ajudá-lo a escolher de maneira mais eficaz o melhor tipo de atividade para suas finalidades, também criamos o [ Manual de atividades do Adobe Target](/help/main/c-activities/target-activities-guide.md).
+O Target inclui vários tipos de atividades. A tabela a seguir fornece uma visão geral de cada tipo de atividade com links para ajudá-lo a saber mais. Para ajudá-lo a escolher de maneira mais eficaz o melhor tipo de atividade para suas finalidades, também criamos o [&#x200B; Manual de atividades do Adobe Target](/help/main/c-activities/target-activities-guide.md).
 
 | Tipo de atividade | Descrição |
 |--- |--- |

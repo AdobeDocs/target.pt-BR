@@ -118,7 +118,7 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 ### at.js
 
 * [Perguntas frequentes sobre a at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=pt-BR)
-* [Depuração da at.js usando o Adobe Experience Cloud Debugger ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=pt-BR)
+* [Depuração da at.js usando o Adobe Experience Cloud Debugger &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=pt-BR)
 * [Detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR)
 * &quot;Office Hours&quot; é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe.
 

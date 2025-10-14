@@ -51,7 +51,7 @@ Para obter mais informações, consulte [Visão geral do Assistente do Adobe Exp
 
 Clicar no ícone [!UICONTROL Help] ( ![ícone da Ajuda](/help/main/assets/icons/HelpOutline.svg) ) permite acessar informações, vídeos, blogs e muito mais para ajudá-lo a usar o [!DNL Target] com mais eficiência. Você pode criar um tíquete de suporte, encontrar números de telefone de suporte, fazer perguntas pelo Twitter ou fornecer feedback sobre o [!DNL Target] para deixar seus comentários.[!DNL Target]
 
-![Ajuda ](/help/main/c-intro/assets/help.png)
+![Ajuda &#x200B;](/help/main/c-intro/assets/help.png)
 
 ### Solicitações, notificações e anúncios {#notifications-announcements}
 
