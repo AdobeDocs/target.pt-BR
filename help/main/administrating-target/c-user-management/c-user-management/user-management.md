@@ -22,7 +22,7 @@ Para contas do [!DNL Target Standard], é possível adicionar usuários e gerenc
 >
 >É possível saber se sua organização tem uma licença do [!UICONTROL Standard] ou do [!UICONTROL Premium] clicando no link [!UICONTROL Administration] na parte superior da interface do usuário do [!DNL Target].
 >
->* **[!DNL Target][!UICONTROL Standard] Clientes**: se você vir a guia [!UICONTROL Users] ([!UICONTROL Administration > Users]) (e não a guia **[!UICONTROL Properties]**), sua organização tem uma licença [!DNL Target] [!UICONTROL Standard]. [!DNL Target] clientes do [!UICONTROL Standard] devem seguir as instruções neste artigo para adicionar usuários e atribuir permissões no [!DNL Adobe Admin Console].
+>* **[!DNL Target]&#x200B;[!UICONTROL Standard] Clientes**: se você vir a guia [!UICONTROL Users] ([!UICONTROL Administration > Users]) (e não a guia **[!UICONTROL Properties]**), sua organização tem uma licença [!DNL Target] [!UICONTROL Standard]. [!DNL Target] clientes do [!UICONTROL Standard] devem seguir as instruções neste artigo para adicionar usuários e atribuir permissões no [!DNL Adobe Admin Console].
 >
 >* Clientes do **[!DNL Target]Premium**: se você vir a guia [!UICONTROL Users] e a guia [!UICONTROL Properties] ([!UICONTROL Administration > Properties]), sua organização tem uma licença [!DNL Target] Premium. Os clientes do [!DNL Target] Premium devem seguir as instruções em [Permissões de usuário do Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) e [Configurar permissões do Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) para adicionar usuários e atribuir permissões no [!DNL Adobe Admin Console].
 >
