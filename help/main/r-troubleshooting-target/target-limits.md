@@ -5,7 +5,7 @@ title: Quais são os vários limites de caracteres, tamanho e outros limites em 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
+source-git-commit: 720f70a97c5c9457f134085696dd79196c7869bc
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 74%
@@ -220,7 +220,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
    * parâmetros de perfil 50
    * tamanho máx. do nome do parâmetro do perfil 128
    * O valor do parâmetro do perfil não pode ser nulo
-   * tamanho máximo do valor do parâmetro do perfil 5000
+   * tamanho máximo do valor do parâmetro do perfil 256
 
   **Endpoint da API de entrega**:
 
@@ -231,7 +231,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
    * parâmetros de perfil 50
    * tamanho máx. do nome do parâmetro do perfil 128
    * O valor do parâmetro do perfil não pode ser nulo
-   * tamanho máximo do valor do parâmetro do perfil 5000
+   * tamanho máximo do valor do parâmetro do perfil 256
 
 ### URLs de solicitação de mbox
 
@@ -281,7 +281,7 @@ Os seguintes limites de tamanho se aplicam às ofertas:
 
 ## Scripts de perfil
 
-* **Limite recomendado de scripts de perfil ativos (aqueles que estão ativados)**: 300
+* **Limite recomendado de scripts de perfil ativos (aqueles que estão habilitados)**: 300
 
 * **Limite recomendado do total de scripts de perfil por conta**: 2.000
 
