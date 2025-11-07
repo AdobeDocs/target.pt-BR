@@ -4,10 +4,10 @@ description: Saiba mais sobre os atributos específicos do visitante armazenados
 title: O que são atributos de perfil?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '2426'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -271,8 +271,8 @@ Todos os operadores JavaScript padrão estão presentes e utilizáveis. Os opera
 | `<=` | Igual a `<`, exceto se as variáveis forem iguais, então, será avaliado como verdadeiro. |
 | `>=` | Igual a `>`, exceto se as variáveis forem iguais, então, será avaliado como verdadeiro. |
 | `&&` | Na lógica, o operador “AND” só é verdadeiro quando ambas as expressões adjacentes, à esquerda e à direita, são verdadeiras (caso contrário, ele é falso). |
-| `||` | Na lógica, o operador “OR” só é verdadeiro quando uma das expressões adjacentes, à esquerda ou à direita, é verdadeira (caso contrário, ele é falso). |
-| `//` | Verifica se a origem contém todos os elementos que os booleanos de destino contém (origem da matriz, destino da matriz).<br>`//` extrai a subsequência do destino (correspondente ao regexp) e decodifica-a `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>O recurso também suporta o uso de valores de sequência constantes, agrupando-os (`condition1 || condition2) && condition3` e expressões regulares `/[^a-z]$/.test(landing.referring.url)`). |
+| `\|\|` | Na lógica, o operador “OR” só é verdadeiro quando uma das expressões adjacentes, à esquerda ou à direita, é verdadeira (caso contrário, ele é falso). |
+| `//` | Verifica se a origem contém todos os elementos que os booleanos de destino contém (origem da matriz, destino da matriz).<br>`//` extrai a subsequência do destino (correspondente ao regexp) e decodifica-a `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>O recurso também oferece suporte ao uso de valores de sequência constantes, agrupamentos (`condition1 \|\| condition2) && condition3`) e expressões regulares (`/[^a-z]$/.test(landing.referring.url)`). |
 
 ## Vídeo de treinamento: Scripts de perfil ![Selo do tutorial](/help/main/assets/tutorial.png)
 

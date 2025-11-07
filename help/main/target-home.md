@@ -4,7 +4,7 @@ title: Guia do profissional de negócios do Adobe Target
 description: Saiba como usar o Adobe  [!DNL Target]  para personalizar a experiência de seus clientes a fim de maximizar a receita em seus sites, aplicativos e outros canais digitais.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 3468c60fd6943df9b03025d4bd610c726a2597ab
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 27%
@@ -118,5 +118,4 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 
 | Ajuda das soluções do Adobe [!DNL Target] | [!DNL Adobe Experience Cloud] recursos |
 |--- |--- |
-| <ul><li>[[!DNL Adobe Target] Aprendizagem e Suporte](https://helpx.adobe.com/br/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] Documentação da API](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=pt-BR){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=pt)</li><li>[[!DNL Experience Cloud] Notas de versão](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR)</li><li>[[!DNL Experience Cloud] Página inicial da Ajuda](https://helpx.adobe.com/br/support/experience-cloud.html)</li><li>[[!DNL Adobe] Treinamento e tutoriais](https://helpx.adobe.com/br/learning.html?promoid=KAUDK)</li></ul> |  |
-
+| <ul><li>[[!DNL Adobe Target] Aprendizagem e Suporte](https://helpx.adobe.com/br/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] Documentação da API](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=pt-BR){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=pt)</li><li>[[!DNL Experience Cloud] Notas de versão](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR)</li><li>[[!DNL Experience Cloud] Página inicial da Ajuda](https://helpx.adobe.com/br/support/experience-cloud.html)</li><li>[[!DNL Adobe] Treinamento e tutoriais](https://helpx.adobe.com/br/learning.html?promoid=KAUDK)</li></ul> |

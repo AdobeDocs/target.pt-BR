@@ -3,10 +3,10 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Saiba como definir e personalizar a experiência de seus clientes para que você possa maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 feature-set: Target
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1283'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -93,14 +93,14 @@ ht-degree: 84%
          + [Aumento e Confiança - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
          + [Definições de métricas - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
          + [Classificações - Perguntas frequentes sobre o A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
-         + [Compartilhamento de métricas, segmentos e relatórios - Perguntas frequentes sobre o A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
+         + [Compartilhamento de métricas, públicos-alvos e relatórios - Perguntas frequentes sobre o A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Integração herdada do SiteCatalyst com o Test&amp;Target - Perguntas frequentes do A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Variações de dados esperadas entre o Target e o Analytics ao usar e não usar A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + Integração do Target ao Adobe Customer Journey Analytics {#cja}
       + [Relatórios do Target no Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Integração do Target ao Adobe Journey Optimizer (AJO) {#ajo}
       + [Usar decisões de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [Integrar [!DNL Adobe Target Recommendations] e [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
+      + [Integrar [!DNL Adobe Target Recommendations] e [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Casos de uso do Adobe Journey Optimizer {#use-cases}
          + [Principais casos de uso de otimização no Adobe Journey Optimizer - canais da Web e baseados em código](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Alterações de conteúdo por meio do teste A/B no Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
@@ -198,9 +198,9 @@ ht-degree: 84%
 + Públicos-alvo {#audiences}
    + [Visão geral de públicos-alvo](c-target/target.md)
    + Criar públicos-alvo {#create-audiences}
-      + [Visão geral da criação de públicos](c-target/c-audiences/audiences.md)
-      + [Criar públicos no Target](c-target/c-audiences/create-audience.md)
-      + Categorias para públicos {#categories-audiences}
+      + [Visão geral da criação de públicos-alvos](c-target/c-audiences/audiences.md)
+      + [Criar públicos-alvos no Target](c-target/c-audiences/create-audience.md)
+      + Categorias para públicos-alvos {#categories-audiences}
          + [Categorias para visão geral de públicos-alvo](c-target/c-audiences/c-target-rules/target-rules.md)
          + [Navegador](c-target/c-audiences/c-target-rules/browser.md)
          + [Parâmetros personalizados](c-target/c-audiences/c-target-rules/custom-parameters.md)
@@ -214,7 +214,7 @@ ht-degree: 84%
          + [Fontes de tráfego](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [Perfil do visitante](c-target/c-audiences/c-target-rules/visitor-profile.md)
       + [Criar um público-alvo de comparação do atributo de perfil](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
-   + [Combinar vários públicos](c-target/combining-multiple-audiences.md)
+   + [Combinar vários públicos-alvos](c-target/combining-multiple-audiences.md)
    + [Criar um público-alvo com apenas uma atividade](c-target/creating-activity-only-audience.md)
    + [Filtros de público-alvo para relatórios](c-target/managing-audience-filters.md)
    + [Aplicar um relatório de público-alvo a uma métrica de sucesso](c-target/apply-reporting-audience-success-metric.md)
@@ -227,8 +227,8 @@ ht-degree: 84%
       + [Atributos do cliente](c-target/c-visitor-profile/working-with-customer-attributes.md)
       + [Sincronização de perfil em tempo real para mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
       + [Glossário de variáveis e perfis](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
-   + Perguntas frequentes sobre direcionamentos e públicos {#faq-audiences}
-      + [Perguntas frequentes sobre direcionamentos e públicos](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
+   + Perguntas frequentes sobre direcionamentos e públicos-alvos {#faq-audiences}
+      + [Perguntas frequentes sobre direcionamentos e públicos-alvos](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 + Experiências e ofertas {#experiences}
    + [Visão geral das experiências e ofertas](c-experiences/experiences.md)
    + Visual Experience Composer (VEC) {#vec}
@@ -249,7 +249,7 @@ ht-degree: 84%
          + [Solução de problemas do Visual Experience Composer e no Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
          + [Solução de problemas do Visual Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
          + [Solução de problemas do Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
-         + [Ativar conteúdo misto no navegador](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
+         + [Habilitar conteúdo misto no navegador](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [Cenários de modificação da página](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
          + [Extensão Auxiliar de edição visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [Extensão de ajuda do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
@@ -339,4 +339,4 @@ ht-degree: 84%
    + [Limites](r-troubleshooting-target/target-limits.md)
 + APIs do Target {#apis}
    + [Visão geral da API do Adobe Target](/help/main/api/api-overview.md)
-+ [Recursos e informações de contato &#x200B;](cmp-resources-and-contact-information.md)
++ [Recursos e informações de contato ](cmp-resources-and-contact-information.md)

@@ -4,7 +4,7 @@ description: Use o  [!DNL Analytics]  for  [!DNL Target]  (A4T) para criar ativi
 title: O que é  [!DNL Analytics]  for  [!DNL Target]  (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 80%
@@ -48,7 +48,7 @@ Tenha os seguintes pontos em mente ao considerar o uso do A4T:
 
 ## Implementar o A4T
 
-Para obter informações sobre a implementação do A4T com a at.js e o [!DNL Adobe Experience Platform Web SDK], consulte implamentação do [Analytics for  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
+Para obter informações sobre a implementação do A4T com a at.js e o [!DNL Adobe Experience Platform Web SDK], consulte implamentação do [Analytics for  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
 ## Tipos de atividades aceitas {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -63,7 +63,7 @@ As seções a seguir contêm informações sobre os tipos de atividades compatí
 | [Teste multivariado (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Sim | Exige métrica de meta baseada em mbox para obter o relatório [!UICONTROL Element Contribution]. No momento, o relatório [!UICONTROL Element Contribution] não oferece suporte a métricas [!DNL Analytics]. |
 | [Atividade de Automated Personalization (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Não |  |
 | [Atividade do Recommendations](/help/main/c-recommendations/recommendations.md) | Sim |  |
-| [Qualquer atividade usando uma oferta de redirecionamento](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Sim |
+| [Qualquer atividade usando uma oferta de redirecionamento](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Sim |  |
 
 Como todos os tipos de atividade ainda não aceitam o A4T, é recomendável que você mantenha ou implemente mboxes de conversão importantes, como a mbox `orderConfirmPage`.
 
@@ -122,7 +122,7 @@ Este vídeo é uma gravação de &quot;[Horas do Office](/help/main/cmp-resource
 
 >[!MORELIKETHIS]
 >
->* Implementação do [Analytics for  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): contém informações de implementação da at.js e do SDK da Web da plataforma.
+>* Implementação do [Analytics for  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): contém informações de implementação da at.js e do SDK da Web da plataforma.
 >* [Ofertas de redirecionamento - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
 >* [O que é o SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR): contém informações de visão geral sobre o SDK da Web da plataforma.
 >* [Visão geral do Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=pt-BR): contém informações específicas do [!DNL Target] e [!DNL Platform Web SDK].
