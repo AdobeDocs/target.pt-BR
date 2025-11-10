@@ -6,7 +6,7 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 5c1dda629a33fc38f51e2e3198a7ea091a369897
+source-git-commit: 693b862bc39fc3b1b7d93988bd80cdd51657354b
 workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 19%
@@ -85,12 +85,12 @@ Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobr
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Ver detalhes
 * O problema do botão **[!UICONTROL Delete Modification]impediu a remoção das modificações da atividade.** Correção de um problema em que o botão [!UICONTROL Delete Modification] da interface do usuário [!DNL Target] não funcionava, impedindo usuários de removerem modificações nas atividades. O botão agora funciona conforme esperado, permitindo que as modificações sejam excluídas de forma confiável sem demora. (TGT-53728)
 * **Os seletores preferenciais não são reconhecidos na interface atualizada.** Correção de um problema na interface do usuário atualizada em que os seletores preferenciais, como `data-target-component-id`, não apareciam na lista do seletor de CSS no VEC. Os usuários agora podem selecionar atributos preferenciais de maneira confiável em vez de nomes de classe gerados dinamicamente, garantindo um direcionamento estável em atualizações de página de SPA. (TGT-53908)
-* **Incompatibilidade de alinhamento de local de atividade entre [!UICONTROL Edit] e [!UICONTROL Overview] páginas.** Correção de um problema em que a numeração do local da atividade na página [!UICONTROL Overview] não estava alinhada com as atualizações feitas na página [!UICONTROL &#x200B; Edit Experience]. Agora, os locais permanecem consistentes em ambas as exibições, garantindo um alinhamento preciso e evitando posições ausentes ou com numeração incorreta. (TGT-53960 e TGT-53954)
+* **Incompatibilidade de alinhamento de local de atividade entre [!UICONTROL Edit] e [!UICONTROL Overview] páginas.** Correção de um problema em que a numeração do local da atividade na página [!UICONTROL Overview] não estava alinhada com as atualizações feitas na página [!UICONTROL  Edit Experience]. Agora, os locais permanecem consistentes em ambas as exibições, garantindo um alinhamento preciso e evitando posições ausentes ou com numeração incorreta. (TGT-53960 e TGT-53954)
 * **Não é possível voltar para o modo [!UICONTROL Design] no VEC atualizado.** Correção de um problema na interface atualizada do VEC em que os usuários não podiam voltar para o modo [!UICONTROL Design] depois de navegarem para uma nova página no modo [!UICONTROL Browse]. A opção [!UICONTROL Design] agora funciona corretamente, permitindo que as modificações sejam aplicadas facilmente nas páginas. (TGT-53988 e TGT-53993)
 * **Parâmetro de consulta não exibido na visão geral da atividade.** Correção de um problema na interface atualizada em que os parâmetros de consulta não eram exibidos na página [!UICONTROL Overview] para atividades, causando discrepâncias entre o [!UICONTROL Overview] e as URLs de entrega da página. Agora os parâmetros de consulta são exibidos corretamente, garantindo que os locais de atividade sejam totalmente representados e consistentes em todas as exibições. (TGT-53701)
 
