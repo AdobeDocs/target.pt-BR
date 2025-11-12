@@ -22,7 +22,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | Data | Tópico | Alterações |
 |--- |--- |--- |
 | 12 de novembro | [[!DNL Adobe Target] [!DNL Bulk Profile Update API]](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/profile-apis/profile-bulk-api#benefits-of-the-bulk-profile-update-api){target=_blank} | A nota a seguir foi removida do arquivo em lote, pois não é mais verdadeira. &quot;Você pode enviar vários arquivos. No entanto, a soma total das linhas de todos os arquivos enviados em um dia não deve exceder um milhão para cada cliente.&quot; |
-| 10 de novembro | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.11.1 do [!DNL Target Standard/Premium]. |
+| 10 de novembro | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.11.1 do [!DNL Target Standard/Premium]. |
 
 ### [!DNL Target Standard/Premium] 25.10.2 (22 de outubro de 2025)
 
@@ -31,7 +31,7 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 | 5 de novembro | [[!DNL Adobe Targe]t [!DNL Bulk Profile Update API]](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/profile-apis/profile-bulk-api#empty){target=_blank} | Nova seção adicionada: Manipulando valores vazios no [!DNL Bulk Profile Update API]. |
 | 28 de outubro | [Incluir na lista de permissões [!DNL Target] nós de borda](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Endereços IP atualizados que você pode incluir na lista de permissões. |
 | 27 de outubro | [Limites](/help/main/r-troubleshooting-target/target-limits.md) | Limites corrigidos para o comprimento máximo do valor do parâmetro de perfil em *Batch mbox v2* e *endpoint da API de entrega*. |
-| 22 de outubro | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.10.1 do [!DNL Target Standard/Premium]. |
+| 22 de outubro | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.10.1 do [!DNL Target Standard/Premium]. |
 
 ### [!DNL Target Standard/Premium] 25.9.1 (5 de setembro de 2025)
 
@@ -42,131 +42,131 @@ Essa página lista alterações importantes feitas na documentação do [!DNL Ad
 |  | [[!DNL Target] Perguntas frequentes sobre atualização da interface do usuário](/help/main/c-intro/updated-ui-faq.md) | Informações de descontinuação realocadas na página Notas de versão. |
 | 7 de outubro | [CNAME e Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank} | <ul><li>Atualização de ambos os trechos de código em &quot;*Como posso validar se minha implementação CNAME está pronta para o tráfego?*&quot;</li><li>Atualização da seguinte seção: &quot;*Que tipo de chave e algoritmo de assinatura de certificado são usados para minha implementação CNAME?*&quot;</li></ul> |
 | 2 de outubro | [CNAME e Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank} | Instruções atualizadas. |
-| 30 de setembro | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.9.3 do [!DNL Target Standard/Premium]. |
+| 30 de setembro | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.9.3 do [!DNL Target Standard/Premium]. |
 | 29 de setembro | [Criar ofertas remotas](/help/main/c-experiences/c-manage-content/about-remote-offers.md) | Foram adicionadas informações detalhando quais tipos de atividade oferecem suporte a ofertas remotas. |
-| 22 de setembro | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.9.3 do [!DNL Target Standard/Premium]. |
+| 22 de setembro | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.9.3 do [!DNL Target Standard/Premium]. |
 | 19 de setembro | [conexão do Adobe Target](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} no guia de destinos [!DNL Adobe Experience Platform]. | Atualização da seguinte observação: *Exclusividade da sequência de dados na organização*. |
-|  | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Adição das notas de versão para a atualização do recurso de sequência de dados/sandbox. |
+|  | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Adição das notas de versão para a atualização do recurso de sequência de dados/sandbox. |
 | 9 de setembro | [Pré-visualizar e iniciar atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md#format) | Nova seção adicionada: &quot;Formato de download CSV para popularidade e algoritmos baseados em chave&quot;. |
-| 5 de setembro | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.9.1 do [!DNL Target Standard/Premium]. |
+| 5 de setembro | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.9.1 do [!DNL Target Standard/Premium]. |
 |  | [Tokens de resposta](/help/main/administrating-target/response-tokens.md) | Adição do parâmetro `geocountryCode`. Esse parâmetro representa um país visitante no formato ISO-3166 alpha-2. |
 
 ### [!DNL Target Standard/Premium] 25.8.1 (7 de agosto de 2025)
 
 | Data | Tópico | Alterações |
 |--- |--- |--- |
-| 1 de setembro | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.8.4 do [!DNL Target Standard/Premium]. |
+| 1 de setembro | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.8.4 do [!DNL Target Standard/Premium]. |
 | 27 de agosto | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Atualização das notas de pré-lançamento do [!DNL Target] versão 25.8.4. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio. As informações neste artigo são atualizadas com frequência, especialmente antes das versões do. |
 |  | [Seletores de elementos usados no Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) | Adicionada a opção &quot;[!UICONTROL Use preferred selectors]&quot;. |
 | 22 de agosto | [CNAME e [!DNL Target]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank} no *[!DNL Target]Guia do Desenvolvedor* | Atualização de todo o artigo para melhorar o fluxo de trabalho. |
 |  | [Planejar e implementar o Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations#set-up-your-recommendations-catalog){target=_blank} no *[!DNL Target]Guia do Desenvolvedor* | Adição de uma observação sobre o uso de cuidado ao atualizar [!DNL Recommendations] [!UICONTROL Catalogs] via [!DNL Target Delivery API]. |
-| 21 de agosto | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.8.3 do [!DNL Target Standard/Premium]. |
+| 21 de agosto | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.8.3 do [!DNL Target Standard/Premium]. |
 | 18 de agosto | [Relatórios do Analytics for Target (A4T)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/integration/a4t-reporting){target=_blank} no *[!DNL Target]Guia do desenvolvedor* | Atualização das seguintes seções:<ul><li>Atualização do trecho do código de solicitação do GET.</li><li>Atualização da tabela de parâmetros e variáveis da Sequência de consulta.</li><li>Atualização da *seção Obter chamada HTTP da inserção de dados do A4T de amostra*.</li></ul> |
 |  | [API de Atualização de Perfil em Massa do Adobe Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/profile-apis/profile-bulk-api){target=_blank} no *[!DNL Target]Guia do Desenvolvedor* | Atualização da observação sobre qual versão da API usar. |
 |  | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Atualização das notas de pré-lançamento do [!DNL Target] versão 25.8.3 (21 de agosto de 2025). As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio. As informações neste artigo são atualizadas com frequência, especialmente antes das versões do. |
-| 14 de agosto | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.8.2 do [!DNL Target Standard/Premium]. |
+| 14 de agosto | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.8.2 do [!DNL Target Standard/Premium]. |
 | 11 de agosto | [Logs do Adobe Analytics for Target (A4T) no Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t){target=_blank} | Para melhorar a organização do conteúdo e a acessibilidade, movemos toda a orientação de implementação para o [!UICONTROL Analytics for Target] (A4T) usando o [!DNL Adobe Experience Platform Web SDK] do guia *Coleção de dados* para o guia do desenvolvedor do [!DNL Target]. Essa consolidação garante que todas as informações relacionadas ao [!DNL Target] agora sejam armazenadas em um local único e simplificado, facilitando para os desenvolvedores a localização e a referência a conteúdos relevantes. |
 |  | [Editar uma atividade](/help/main/c-activities/edit-activity.md) | As seguintes edições foram feitas:<UL><li>Seção *Públicos-alvo e ofertas* editada para indicar que, para ofertas ad-hoc, o formato correto é `<Entity Name>`.</li><li>Seção *Públicos-alvo e ofertas* editada para remover informações sobre públicos-alvo combinados.</li></ul> |
-| 7 de agosto | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.8.1 do [!DNL Target Standard/Premium]. |
+| 7 de agosto | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.8.1 do [!DNL Target Standard/Premium]. |
 
 ### [!DNL Target Standard/Premium] 25.7.1 (quinta-feira, 9 de julho de 2025)
 
 | Data | Tópico | Alterações |
 |--- |--- |--- |
 | 5 de agosto | [SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} | Todos os artigos do *Adobe Experience Platform Web SDK* do guia *Coleção de dados* foram movidos para consolidar todas as informações relacionadas ao [!DNL Target] em um único guia de desenvolvedores. Isso ajuda a manter o conteúdo organizado e mais fácil de consultar. |
-| 4 de agosto | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.7.4 do [!DNL Target Standard/Premium]. |
+| 4 de agosto | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.7.4 do [!DNL Target Standard/Premium]. |
 |  | [[!DNL Target] Perguntas frequentes sobre atualização da interface do usuário](/help/main/c-intro/updated-ui-faq.md#options) | Adição das seguintes perguntas frequentes: &quot;Como o VEC atualizado lida com as opções de reorganizar, redimensionar, mover, ocultar e remover e como essas opções diferem do VEC herdado?&quot; |
 | 29 de julho | [Editar uma atividade](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6) | Atualize a seção Públicos e ofertas em *Copiar/editar uma atividade ao usar espaços de trabalho*. |
-| 24 de julho | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.7.3 do [!DNL Target Standard/Premium]. |
+| 24 de julho | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.7.3 do [!DNL Target Standard/Premium]. |
 | 21 de julho | [[!DNL Target] Perguntas frequentes sobre atualização da interface do usuário](/help/main/c-intro/updated-ui-faq.md#collapse) | Novas perguntas frequentes adicionadas: Posso recolher os painéis [!UICONTROL Components], [!UICONTROL Modifications] e [!UICONTROL Properties] para poder ampliar o painel [!UICONTROL Design]? |
 |  | [[!UICONTROL Visual Experience Composer] alterações](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | Foram adicionadas informações sobre como recolher os painéis [!UICONTROL Components] e [!UICONTROL Modifications] para ampliar o painel [!UICONTROL Design], o que facilita a edição. |
 |  | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de informações de pré-lançamento para a versão 25.7.3 do [!DNL Target Standard/Premium]. |
-| 18 de julho | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.7.2 do [!DNL Target Standard/Premium]. |
+| 18 de julho | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.7.2 do [!DNL Target Standard/Premium]. |
 | 17 de julho | [Métricas de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md) | As seguintes alterações foram feitas:<ul><li>Atualização da linha [!UICONTROL Revenue] em [!UICONTROL Overview].</li><li>Nova seção adicionada: Alterações na interface do usuário relacionadas a [!UICONTROL Revenue] métricas de sucesso.</li></ul> |
 | 15 de julho | [Editar uma atividade](/help/main/c-activities/edit-activity.md#ection_45A92E1DD3934523B07E71EF90C4F8B6) | Seção inteira atualizada: *Copiar/editar uma atividade ao usar espaços de trabalho*. |
 | 14 de julho | [Visão geral das atividades](/help/main/c-activities/activities.md#filters) | Adição de informações sobre a descontinuação dos status de [!UICONTROL Save as Draft] e [!UICONTROL Syncing] na interface atualizada. |
 |  | [[!DNL Target] Perguntas frequentes sobre atualização da interface do usuário](/help/main/c-intro/updated-ui-faq.md) | Adição de informações sobre a descontinuação dos status de [!UICONTROL Save as Draft] e [!UICONTROL Syncing] na interface atualizada. |
-| 10 de julho | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.7.1 do [!DNL Target Standard/Premium]. |
+| 10 de julho | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.7.1 do [!DNL Target Standard/Premium]. |
 
 ### [!DNL Target Standard/Premium] 25.6.1 (sábado, 6 de junho de 2025)
 
 | Data | Tópico | Alterações |
 |--- |--- |--- |
 | 8 de julho | [Feeds](/help/main/c-recommendations/c-products/feeds.md#status) | Adição de um novo status à tabela Status do feed: falha na importação parcial. |
-| 7 de julho | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Nova seção adicionada para destacar informações sensíveis ao tempo sobre o [!DNL Target] e sua implementação: &quot;Atualizações sensíveis ao tempo que você precisa saber .&quot; |
+| 7 de julho | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Nova seção adicionada para destacar informações sensíveis ao tempo sobre o [!DNL Target] e sua implementação: &quot;Atualizações sensíveis ao tempo que você precisa saber .&quot; |
 | 1 de julho | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de informações de pré-lançamento para a versão 25.7.1 do [!DNL Target Standard/Premium]. |
-| 27 de junho | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.6.4 do [!DNL Target Standard/Premium]. |
+| 27 de junho | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.6.4 do [!DNL Target Standard/Premium]. |
 | 25 de junho | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de informações de pré-lançamento para a versão 25.6.4 do [!DNL Target Standard/Premium]. |
-| 20 de junho | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.6.3 do [!DNL Target Standard/Premium]. |
+| 20 de junho | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.6.3 do [!DNL Target Standard/Premium]. |
 | 19 de junho | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de informações de pré-lançamento para a versão 25.6.3 do [!DNL Target Standard/Premium]. |
 | 16 de junho | [[!DNL Target] relatórios em [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Nova seção adicionada: Criar e exibir relatórios de atividades em [!DNL Customer Journey Analytics]. |
 |  | [Cookies do Adobe Target](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/target){target=_blank} | Texto atualizado para adicionar que `sessionId` não pode incluir chaves ( {} ).<P>O texto agora diz: A ID da sessão pode ser qualquer sequência de caracteres imprimível, exceto um espaço, um ponto de interrogação ( ? ), chaves ( { } ) ou uma barra ( / ). Deve ter entre 1 e 128 caracteres de comprimento. |
 |  | [API de entrega do Adobe Target](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} | Texto atualizado para adicionar que `sessionId` não pode incluir chaves ( {} ).<P> O texto agora diz: A ID da sessão pode ser qualquer sequência de caracteres imprimível, exceto um espaço, um ponto de interrogação ( ? ), chaves ( { } ) ou uma barra ( / ). Deve ter entre 1 e 128 caracteres de comprimento. |
-| 12 de junho | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.6.2 do [!DNL Target Standard/Premium]. |
+| 12 de junho | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.6.2 do [!DNL Target Standard/Premium]. |
 |  | [[!DNL Target] Perguntas frequentes sobre atualização da interface do usuário](/help/main/c-intro/updated-ui-faq.md) | Novo artigo.<P>Estas Perguntas Frequentes abordam perguntas comuns sobre a nova interface do usuário do [!DNL Target] e do [!UICONTROL Visual Experience Composer] (VEC), incluindo alterações de navegação, locais de recursos e a desativação da opção de versão temporária da interface do usuário. Seja você um profissional de marketing, desenvolvedor ou administrador, essas Perguntas frequentes ajudarão a fazer a transição descomplicada e a aproveitar ao máximo a interface atualizada. |
-| 6 de junho | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.6.1 do [!DNL Target Standard/Premium]. |
+| 6 de junho | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.6.1 do [!DNL Target Standard/Premium]. |
 
 ### [!DNL Target Standard/Premium] 25.5.1 (5 de maio de 2025)
 
 | Data | Tópico | Alterações |
 |--- |--- |--- |
 | 2 de junho | [[!UICONTROL Visual Experience Composer] práticas recomendadas e limitações](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#ext) | Adição da seguinte limitação: &quot;Manipulação da compatibilidade do VEC com alterações na política da extensão do Chrome&quot;. |
-| 29 de maio | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.5.4 do [!DNL Target Standard/Premium]. |
-| 23 de maio | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a descontinuação futura da opção de versão da interface do usuário do [!DNL Target]. |
-| 22 de maio | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.5.3 do [!DNL Target Standard/Premium]. |
-| 16 de maio | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para o recurso [!DNL Adobe Target] [!DNL AI Assistant]. |
+| 29 de maio | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.5.4 do [!DNL Target Standard/Premium]. |
+| 23 de maio | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a descontinuação futura da opção de versão da interface do usuário do [!DNL Target]. |
+| 22 de maio | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.5.3 do [!DNL Target Standard/Premium]. |
+| 16 de maio | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para o recurso [!DNL Adobe Target] [!DNL AI Assistant]. |
 | Maio de 13 | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adicionadas notas de pré-lançamento para o recurso [!DNL Adobe Target] [!DNL AI Assistant]. |
-| 8 de maio | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.5.2 do [!DNL Target Standard/Premium]. |
-| 5 de maio | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.5.1 do [!DNL Target Standard/Premium]. |
+| 8 de maio | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.5.2 do [!DNL Target Standard/Premium]. |
+| 5 de maio | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.5.1 do [!DNL Target Standard/Premium]. |
 
 ### [!DNL Target Standard/Premium] 25.4.1 (2 de abril de 2025)
 
 | Data | Tópico | Alterações |
 |--- |--- |--- |
-| 25 de abril | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.4.5 do [!DNL Target Standard/Premium]. |
+| 25 de abril | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.4.5 do [!DNL Target Standard/Premium]. |
 | Abril de 23 | [Integrar a  [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#limitations) | Adição do seguinte à *seção de considerações e limitações de recursos de Atributos de perfil do Real-Time CDP*: <ul><li>[!DNL Target] dá suporte somente ao tipo de dados &quot;cadeia de caracteres&quot; para atributos de perfil [!DNL Adobe Experience Platform] a serem usados em ofertas. Os atributos de tipo &quot;Map&quot; e &quot;Array&quot; ainda não são compatíveis.</li></ul> |
-| 17 de abril | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.4.4 do [!DNL Target Standard/Premium]. |
+| 17 de abril | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.4.4 do [!DNL Target Standard/Premium]. |
 |  | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de datas de notas de pré-lançamento para a versão 25.4.5. |
-| 11 de abril | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.4.3 do [!DNL Target Standard/Premium]. |
+| 11 de abril | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.4.3 do [!DNL Target Standard/Premium]. |
 | 9 de abril | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Atualização das datas das notas de pré-lançamento da versão 25.4.4. |
 | 8 de abril | [CNAME e Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank} | Atualização do seguinte:<ul><li>Todos os certificados são RSA SHA-256 e as chaves são RSA 2048-bit, por padrão. Tamanhos de chaves maiores que 2048 bits devem ser solicitados explicitamente pelo Atendimento ao cliente. (Tamanhos de chave maiores que 2048 bits declarados anteriormente não eram suportados.)</li><li>Atualização do script bash.</li><li>Atualização do trecho do código de saída de validação.</li></ul> |
 | Abril de 7 | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Adição de notas de pré-lançamento para a seguinte versão futura:<UL><li>[!DNL Target Standard/Premium] 25.4.3 (10 de abril de 2025)</li></ul> |
-| 4 de abril | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão atualizadas para a próxima atualização de permissões do [!DNL Target] programada para 22 de abril de 2025. |
+| 4 de abril | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão atualizadas para a próxima atualização de permissões do [!DNL Target] programada para 22 de abril de 2025. |
 |  | Notas de versão do [[!DNL Target]  (pré-lançamento)](/help/main/r-release-notes/target-release-notes.md) | Atualização das notas de pré-lançamento da próxima atualização de permissões do [!DNL Target] programada para 22 de abril de 2025. |
 |  | [Primeiros passos de administrador](/help/main/administrating-target/start-target.md#admin-permissions) | Nova seção adicionada: &quot;Permissões necessárias para editar configurações de [!UICONTROL Administration]&quot;. |
 |  | [Administrar [!DNL Target] Visão geral](/help/main/administrating-target/administrating-target.md) | Adição de uma observação importante sobre as permissões necessárias para editar configurações de [!UICONTROL Administration].<P>Adição da mesma observação a todos os artigos na seção [!UICONTROL Administration]. |
-| Abril de 2 | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.4.1 do [!DNL Target Standard/Premium]. |
+| Abril de 2 | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.4.1 do [!DNL Target Standard/Premium]. |
 
 ### [!DNL Target Standard/Premium] 25.3.1 (3 de março de 2025)
 
 | Data | Tópico | Alterações |
 |--- |--- |--- |
 | 31 de março | [Detalhes da versão da at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Adição de informações sobre a versão 2.11.8 da at.js. |
-| 26 de março | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.3.7 do [!DNL Target Standard/Premium]. |
+| 26 de março | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.3.7 do [!DNL Target Standard/Premium]. |
 |  | [Perguntas frequentes do Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | As perguntas frequentes foram atualizadas para indicar que [!DNL Recommendations] objetos criados por meio da API estão disponíveis na interface do usuário do [!DNL Target]. |
 |  | [Coleções](/help/main/c-recommendations/c-products/collections.md) | Adição da seguinte observação: as regras de coleta se aplicam aos itens de recomendação gerados após a execução dos critérios. Elas afetam somente as Recomendações de entidade (ERs) na saída, não a chave. |
 | 19 de março | [Solução de problemas relacionados ao [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Atualização de endereços IP para incluir na lista de permissões. |
 | 18 de março | [Suporte do A4T para [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target] atividades](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Adição de observação à seção *Métricas de meta compatíveis*. |
-| 14 de março | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.3.6 do [!DNL Target Standard/Premium]. |
+| 14 de março | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.3.6 do [!DNL Target Standard/Premium]. |
 | 13 de março | [Navegadores compatíveis](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Atualização de navegadores compatíveis e adição da seção &quot;Requisitos de edição visual&quot;. |
-| 11 de março | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.3.5 do [!DNL Target Standard/Premium]. |
-| 7 de março | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.3.4 do [!DNL Target Standard/Premium]. |
-| 6 de março | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.3.2 do [!DNL Target Standard/Premium]. |
-| 3 de março | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.3.1 do [!DNL Target Standard/Premium]. |
+| 11 de março | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.3.5 do [!DNL Target Standard/Premium]. |
+| 7 de março | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.3.4 do [!DNL Target Standard/Premium]. |
+| 6 de março | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.3.2 do [!DNL Target Standard/Premium]. |
+| 3 de março | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Notas de versão adicionadas para a versão 25.3.1 do [!DNL Target Standard/Premium]. |
 
 
 ### [!DNL Target Standard/Premium] 25.2.1 (17 de fevereiro de 2025)
 
 | Data | Tópico | Alterações |
 |--- |--- |--- |
-| 26 de fevereiro | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Foram adicionadas informações sobre as seguintes versões:<ul><li>[!DNL Target Standard/Premium] 25.2.3 (26 de fevereiro de 2025)</li><li>at.js versão 2.11.7 (26 de fevereiro de 2025)</li></ul> |
+| 26 de fevereiro | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Foram adicionadas informações sobre as seguintes versões:<ul><li>[!DNL Target Standard/Premium] 25.2.3 (26 de fevereiro de 2025)</li><li>at.js versão 2.11.7 (26 de fevereiro de 2025)</li></ul> |
 |  | [Detalhes da versão da at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Adição de informações sobre a versão 2.11.7 da at.js (26 de fevereiro de 2025). |
 |  | [Bookmarklet de controle de qualidade da atividade](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) | Atualização do bookmarklet de Controle de qualidade da atividade para at.js 2.x. |
-| 13 de fevereiro | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Alterada a versão de atualização da interface do usuário do [!DNL Target Standard/Premium] 25.2.1 para 17 de fevereiro de 2025. |
+| 13 de fevereiro | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Alterada a versão de atualização da interface do usuário do [!DNL Target Standard/Premium] 25.2.1 para 17 de fevereiro de 2025. |
 | 12 de fevereiro | [Opções do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Atualização de todo o tópico para explicar o VEC atualizado introduzido na versão [!DNL Target Standard/Premium] 25.2.1 (12 de fevereiro de 2025). |
 |  | [Navegadores compatíveis](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Adição de informações sobre quais navegadores são compatíveis em uma implementação do Target usando o [!DNL Adobe Experience Platform Web SDK]. |
 |  | [Alterações no Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | Novo artigo para explicar as diferenças entre as versões anterior e atualizada do VEC. |
-|  | Notas de versão (atuais) do [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Adição das notas de versão para a atualização da interface do usuário do [!DNL Target Standard/Premium] 25.2.1 (agendada para 17 de fevereiro de 2025). Muitos artigos foram atualizados para refletir as alterações na interface. |
+|  | Notas de versão (atuais) do [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Adição das notas de versão para a atualização da interface do usuário do [!DNL Target Standard/Premium] 25.2.1 (agendada para 17 de fevereiro de 2025). Muitos artigos foram atualizados para refletir as alterações na interface. |
 
 ### [!DNL Target Standard/Premium] 25.1.1 (sexta-feira, 9 de janeiro de 2025)
 
