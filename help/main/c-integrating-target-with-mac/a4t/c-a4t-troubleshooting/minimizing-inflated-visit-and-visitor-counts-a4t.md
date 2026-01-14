@@ -4,10 +4,10 @@ description: Saiba como minimizar os efeitos de contagens inflacionadas de visit
 title: Como minimizar as contagens aumentadas de visitas e visitantes no A4T?
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 99%
+source-wordcount: '1321'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ As causas identificadas de dados parciais incluem:
 
 * **IDs de conjunto de relatórios desalinhadas (Implementação):** O conjunto de relatórios especificado durante a configuração da atividade não corresponde ao conjunto de relatórios na página em que o teste foi fornecido. Os dados não podem ser reconciliados em servidores do [!DNL Analytics], portanto, parecem dados parciais.
 * **Páginas lentas:** as chamadas do [!DNL Target] estão no topo da página e as chamadas doo [!DNL Analytics] estão na parte inferior da página. Se a página carregar lentamente, aumenta a probabilidade de um visitante sair da página após a chamada do [!DNL Target] ser disparada, mas antes da chamada do [!DNL Analytics]. Páginas lentas podem ser especialmente problemáticas em sites para dispositivos móveis onde as conexões são geralmente mais lentas.
-* **Erros de página:** se houver erros de JavaScript ou outros cenários em que cada um dos pontos de contato não é acionado (Serviço da Experience Cloud ID, Target e Analytics), o resultado será dados parciais.
+* **Erros de página:** Se houver erros de JavaScript ou outros cenários em que cada um dos pontos de contato não é acionado (Serviços de ID da Experience Cloud, Target e Analytics), o resultado será dados parciais.
 * **Ofertas de redirecionamento na atividade do [!DNL Target]:** para ofertas de redirecionamento em atividades usando o A4T, sua implementação deve atender a certos requisitos mínimos. Além disso, há informações importantes que você precisa saber. Para obter mais informações, consulte [Perguntas frequentes das Ofertas de redirecionamento - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
 * **Versões antigas das bibliotecas:** no ano passado, a Adobe fez diversas melhorias nas bibliotecas do JavaScript ([!DNL appMeasurement.js], `at.js` e `visitorAPI.js`) para garantir que os dados sejam enviados da maneira mais eficiente possível. Para saber mais sobre os requisitos de implementação, consulte [Antes de implementar](/help/main/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 

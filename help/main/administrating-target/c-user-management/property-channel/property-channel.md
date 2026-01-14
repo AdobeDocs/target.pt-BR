@@ -2,13 +2,13 @@
 keywords: espaços de trabalho;gerenciar propriedade;permissões;configuração do produto;perfil do produto;funções;projeto;observador;editor;aprovador;editor;workspaces;manage property;permissions;product configuration;product profile;roles;project;observer;editor;approver;publisher
 description: Saiba como criar espaços de trabalho separados (perfis de produto) e atribuir aos usuários diferentes funções e permissões para páginas, propriedades ou sites individuais.
 title: O que são permissões de usuário corporativo e como usá-las?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3166'
 ht-degree: 48%
 
 ---
@@ -139,7 +139,7 @@ Além disso, Jan não pode ver as páginas, propriedades ou sites em [!DNL Targe
 
 ![permissões_4 imagem](assets/permissions_4.png)
 
-Neste exemplo, Jan não pode ver as páginas dos produtos, o site da Rússia e o site de carreiras.
+Neste exemplo, Jan não pode ver as páginas do produto, o site da Rússia e o site de carreiras.
 
 ## Cenários de caso de uso {#section_F3CE8576959E4F4CB13BEEED38311DD8}
 
@@ -164,7 +164,7 @@ Após uma reorganização, usando as pessoas das ilustrações acima, você pode
 
   Como Ernie não tem nenhuma função que exija que ele veja o site da Rússia, o site da França ou o site de carreiras, ele não consegue ver as atividades desses sites.
 
-* **Diana**: Diana agora é Analista da organização e recebeu permissões de Observador para a página inicial dos EUA, o site dos EUA, as páginas dos produtos, o site da Rússia e o site da França que lhe dão acesso somente leitura às atividades. Diana pode exibir atividades, mas não pode criá-las ou editá-las.
+* **Diana**: Diana agora é Analista da organização e recebeu permissões de Observador para a página inicial dos EUA, o site dos EUA, as páginas do produto, o site da Rússia e o site da França que lhe dão acesso somente leitura às atividades. Diana pode exibir atividades, mas não pode criá-las ou editá-las.
 
   Como Diana não tem nenhuma função que exija que ela veja o site de carreiras, ela não consegue ver as atividades desses sites.
 

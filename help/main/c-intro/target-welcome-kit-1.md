@@ -4,10 +4,10 @@ description: Inicie seu programa de otimização e personalização com o Adobe 
 title: Como começar a usar o Target?
 feature: Overview
 exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ Caso seja como a maioria das empresas atuais, você modernizou seus canais de ma
 Por exemplo:
 
 * Um grande banco testou e simplificou um formulário de pedido de empréstimo. O início do preenchimento de formulários triplicou e as conclusões aumentaram em mais de 50%.
-* Uma grande empresa de tecnologia B2B personalizou páginas de produtos com ativos como guias e white papers. Os cliques no ativo aumentaram em mais de 25%.
+* Uma grande empresa de tecnologia B2B personalizou páginas do produto com ativos como guias e white papers. Os cliques no ativo aumentaram em mais de 25%.
 * Uma grande empresa de hotéis personalizou seu conteúdo de aplicativo para dispositivos móveis. As taxas de conversão dobraram em relação ao seu site para dispositivos móveis e o aplicativo resultou em mais de US$ 1,5 bilhão em reservas.
 
 O envolvimento com seus clientes dessa maneira requer uma solução que pode ser usada em praticamente qualquer ponto de contato usando quase qualquer fonte de dados para entendê-los. O [!DNL Adobe Target], parte da [!DNL Adobe Experience Cloud], é essa solução. O [!DNL Target] oferece os recursos de otimização e personalização necessários para fornecer aos clientes experiências altamente relevantes e oportunas, que geram mais receita e conversões.
