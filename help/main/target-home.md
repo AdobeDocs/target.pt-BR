@@ -4,7 +4,7 @@ title: Guia do profissional de negócios do Adobe Target
 description: Saiba como usar o Adobe  [!DNL Target]  para personalizar a experiência de seus clientes a fim de maximizar a receita em seus sites, aplicativos e outros canais digitais.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 32b3a93b30c6ca6f7576be5dbb25b476167b33b7
+source-git-commit: 550fa1e8d4127babe02403708b73862505bf8c99
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 27%
@@ -15,7 +15,7 @@ ht-degree: 27%
 
 O [!DNL Adobe Target] é a solução completa da [!DNL Adobe Experience Cloud] para ajustar e personalizar a experiência do cliente e maximizar a receita em sites móveis e da web, aplicativos, redes sociais e outros canais digitais.
 
-**Última atualização: 20 de novembro de 2025 ( [veja o que mudou](r-release-notes/doc-change.md) )**
+**Última atualização: 18 de janeiro de 2026 ( [veja o que mudou](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
@@ -29,7 +29,7 @@ A equipe do [!DNL Target] ajustou a linha do tempo para a desativação da vers�
 
 >[!TAB Novidades]
 
-**O Target 25.11.2 está ativo!**
+**O Target 26.1.1 está ativo!**
 
 Esta versão do está focada em correções e aprimoramentos na interface do usuário do [!DNL Target] e do [!UICONTROL Visual Experience Composer] (VEC) atualizados.
 
@@ -94,7 +94,7 @@ Profissionais de marketing, desenvolvedores, administradores e engenheiros de co
 
 - [[!UICONTROL Activities]](c-activities/activities.md): explica como configurar, gerenciar e fazer o QA de [!DNL Target] atividades.
 - [[!UICONTROL Audiences]](c-target/target.md): explica como determinar quem verá o conteúdo e as experiências em atividades direcionadas.
-- [Experiências e ofertas](c-experiences/experiences.md): explica como determinar qual conteúdo aparece quando o visitante atende aos critérios de público-alvo de uma atividade.
+- [Experiências e ofertas](c-experiences/experiences.md): explica como determinar qual conteúdo é exibido quando o visitante atende aos critérios de público-alvo de uma atividade.
 - [[!DNL Recommendations]](c-recommendations/recommendations.md): explica como as atividades do [!DNL Recommendations] exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores.
 
 ## Desenvolvedores {#developers}
