@@ -4,10 +4,10 @@ description: Descubra por que alguns sites podem não abrir de forma confiável 
 title: Como usar a extensão [!UICONTROL Visual Editing Helper]?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 86139b5971f98091affefd771d9d138e31574727
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 64%
+source-wordcount: '765'
+ht-degree: 56%
 
 ---
 
@@ -18,6 +18,17 @@ A extensão de navegador [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editin
 >[!IMPORTANT]
 >
 >* Esta nova extensão substitui a [extensão de navegador Auxiliar do VEC do Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Consulte a Nota importante na parte superior desse artigo. Devido aos aprimoramentos de segurança no Manifesto v3, o [!DNL Adobe] exige o download desta nova extensão para continuar a criar visualmente seus sites no [!DNL Target].
+
+## Alterações na extensão do [!UICONTROL Visual Editing Helper] (17 de janeiro de 2026)
+
+### **Corrigido um problema adicionando o novo recurso experimental de limpeza de cookie de inicialização no VEC Helper.**
+
+* Correção de um problema ao adicionar um novo recurso experimental de limpeza de cookie de inicialização no VEC Helper.
+* Esse aprimoramento melhora o desempenho e a confiabilidade limpando cookies não particionados uma vez por guia quando a criação começa, em vez de continuamente.
+* O recurso rastreia o histórico de guias para evitar limpeza redundante e limpa o histórico no fechamento das guias para que a limpeza se comporte corretamente quando uma guia é reaberta.
+* Foram adicionados testes de unidade abrangentes para garantir um comportamento consistente.
+
+![Novas opções de VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
 
 ## Motivos pelos quais alguns sites podem não abrir de forma confiável no VEC
 
