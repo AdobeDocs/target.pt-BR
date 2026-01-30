@@ -87,7 +87,7 @@ Consulte o [Painel do Adobe Target Insights](/help/main/c-activities/insights-da
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalhes
 
