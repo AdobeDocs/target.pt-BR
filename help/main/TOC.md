@@ -3,9 +3,9 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Descubra como personalizar a experiência do cliente em sites, aplicativos e canais sociais para aumentar a receita.
 feature-set: Target
-source-git-commit: cc827c129da7208ee09d257faafa65ae6e7f4cf7
+source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1275'
 ht-degree: 83%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 83%
          + [Permissões de usuário empresarial](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configuração de permissões empresariais](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Conceder acesso às integrações do Adobe I/O para espaços de trabalho e atribuir funções](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Recommendations](/help/main/administrating-target/recommendations-settings.md)
+   + [Recomendações](/help/main/administrating-target/recommendations-settings.md)
 + Implementar o Target {#implement-target}
    + [Implementar a visão geral do Target](c-implementing-target/implementing-target.md)
 + Integração do Target à Experience Cloud {#integrate}
@@ -117,6 +117,7 @@ ht-degree: 83%
    + [Integração do Target ao Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Atividades {#activities}
    + [Visão geral das atividades](c-activities/activities.md)
+   + [Painel de insights](c-activities/insights-dashboard.md)
    + [Tipos de atividade do Target](c-activities/target-activities-guide.md)
    + Teste A/B {#abtest}
       + [Visão geral do teste A/B](c-activities/t-test-ab/test-ab.md)
@@ -179,7 +180,7 @@ ht-degree: 83%
          + [Metas e Configurações](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [Definir métricas](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
          + [Solução de problemas de testes multivariados](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
-   + [Atividade do Recommendations](c-activities/recommendations-activity.md)
+   + [Atividade do Recomendações](c-activities/recommendations-activity.md)
    + [Editar uma atividade](c-activities/edit-activity.md)
    + [Prioridade](c-activities/priority.md)
    + [Configurações de atividade](c-activities/activity-settings.md)
@@ -206,7 +207,7 @@ ht-degree: 83%
          + [Parâmetros personalizados](c-target/c-audiences/c-target-rules/custom-parameters.md)
          + [Geografia](c-target/c-audiences/c-target-rules/geo.md)
          + [Rede](c-target/c-audiences/c-target-rules/network.md)
-         + [Móvel](c-target/c-audiences/c-target-rules/mobile.md)
+         + [Dispositivo móvel](c-target/c-audiences/c-target-rules/mobile.md)
          + [Sistema operacional](c-target/c-audiences/c-target-rules/operating-system.md)
          + [Páginas do site](c-target/c-audiences/c-target-rules/site-pages.md)
          + [Biblioteca do Target](c-target/c-audiences/c-target-rules/target-library.md)
@@ -289,10 +290,10 @@ ht-degree: 83%
       + [Relatório de contribuição de localização (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Relatórios do Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
    + [Perguntas frequentes de geração de relatórios](c-reports/reporting-frequently-asked-questions.md)
-+ Recommendations {#recommendations}
-   + [Visão geral do Recommendations](c-recommendations/recommendations.md)
-   + [Introdução ao Recommendations](c-recommendations/introduction-to-recommendations.md)
-   + [Planejar e implementar o Recommendations](c-recommendations/plan-implement.md)
++ Recomendações {#recommendations}
+   + [Visão geral do Recomendações](c-recommendations/recommendations.md)
+   + [Introdução ao Recomendações](c-recommendations/introduction-to-recommendations.md)
+   + [Planejar e implementar o Recomendações](c-recommendations/plan-implement.md)
    + Entidades {#entities}
       + [Visão geral das entidades](c-recommendations/c-products/products.md)
       + [Atributos da entidade](c-recommendations/c-products/entity-attributes.md)
@@ -316,27 +317,27 @@ ht-degree: 83%
          + [Filtro estático](/help/main/c-recommendations/c-algorithms/static-value.md)
       + [Usar uma recomendação de backup](c-recommendations/c-algorithms/backup-recs.md)
       + [Trabalhar com atributos de vários valores](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
-      + [Usar o Adobe Analytics com o Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [Usar o Adobe Analytics com o Recomendações](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
    + Projeto {#recommendations-design}
       + [Visão geral do design](c-recommendations/c-design-overview/design-overview.md)
       + [Criar um design](c-recommendations/c-design-overview/create-design.md)
       + [Perguntas e respostas sobre design](c-recommendations/c-design-overview/template-faq.md)
       + [Personalizar um design usando a Velocity](c-recommendations/c-design-overview/customizing-a-template.md)
    + Atividade {#recommendations-activity}
-      + [Criar uma atividade do Recommendations](c-recommendations/t-create-recs-activity/create-recs-activity.md)
+      + [Criar uma atividade do Recomendações](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [Adicionar promoções](c-recommendations/t-create-recs-activity/adding-promotions.md)
-      + [Configurações de atividade do Recommendations](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [Pré-visualizar e iniciar atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
-   + [Recommendations como uma oferta](c-recommendations/recommendations-as-an-offer.md)
+      + [Configurações de atividade do Recomendações](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
+      + [Pré-visualizar e iniciar atividade do Recomendações](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+   + [Recomendações como oferta](c-recommendations/recommendations-as-an-offer.md)
    + Perguntas frequentes {#recommendations-faq}
-      + [Perguntas frequentes do Recommendations](c-recommendations/c-recommendations-faq/recommendations-faq.md)
-      + [Integração do Recommendations ao email](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
-      + [Endereços IP usados pelos servidores de processamento de feed do Recommendations](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
-      + [Atividades do Recommendations Classic versus Recommendations no Target Premium](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
+      + [Perguntas frequentes do Recomendações](c-recommendations/c-recommendations-faq/recommendations-faq.md)
+      + [Integração do Recomendações ao email](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
+      + [Endereços IP usados pelos servidores de processamento de feed do Recomendações](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
+      + [Atividades do Recommendations Classic versus Recomendações no Target Premium](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
    + [Documentação do Recommendations Classic](/help/main/c-recommendations/recommendations-classic-documentation.md)
 + Solução de problemas do Target {#troubleshoot}
    + [Solução de problemas do Target](r-troubleshooting-target/troubleshooting-target.md)
    + [Limites](r-troubleshooting-target/target-limits.md)
 + APIs do Target {#apis}
    + [Visão geral da API do Adobe Target](/help/main/api/api-overview.md)
-+ [Recursos e informações de contato &#x200B;](cmp-resources-and-contact-information.md)
++ [Recursos e informações de contato ](cmp-resources-and-contact-information.md)

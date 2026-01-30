@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 550fa1e8d4127babe02403708b73862505bf8c99
+source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 15%
+source-wordcount: '1862'
+ht-degree: 14%
 
 ---
 
@@ -29,6 +29,14 @@ Para atualizações com limite de tempo relacionadas ao [!DNL Adobe Target] e à
 
 Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobre atualização da interface](/help/main/c-intro/updated-ui-faq.md).
 
+## [!DNL Target Standard/Premium] 26.1.2 (sábado, 30 de janeiro de 2026)
+
+**Painel do Adobe Target Insights**
+
+O Adobe Target agora inclui um novo painel de insights que fornece uma visualização de alto nível de como sua organização está usando o Target para experimentação e personalização. O painel exibe as principais métricas, como atividades ativas, atividades ativas e modificadas, atividades concluídas, atividades publicadas e atividades de teste A/B. Use o seletor de intervalo de tempo para explorar tendências em diferentes períodos, incluindo uma visualização de recapitulação para 2025. Esse painel permanece disponível como uma maneira contínua de rastrear a adoção e a atividade ao longo do tempo.
+
+Consulte o [Painel do Adobe Target Insights](/help/main/c-activities/insights-dashboard.md)
+
 ## [!DNL Target Standard/Premium] 26.1.1 (segunda-feira, 18 de janeiro de 2026)
 
 **Atividades**
@@ -47,6 +55,7 @@ Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobr
 **Propriedades**
 
 +++Ver detalhes
+
 * **A edição da atividade não deve adicionar uma propriedade detectada automaticamente se já tiver sido removida.** Essa correção soluciona um problema em que a edição de uma atividade reintroduziria automaticamente uma propriedade detectada automaticamente que o usuário havia removido. Ao reabrir uma atividade para edição, o sistema restaurou incorretamente a propriedade removida, gerando comportamento inconsistente e confusão no [!UICONTROL Properties List]. A atualização garante que, uma vez removida, a propriedade detectada automaticamente permanecerá removida durante todas as edições subsequentes e não reaparecerá, a menos que o usuário a adicione explicitamente de volta. (TGT-54182)
 * **Não adicionar propriedades detectadas automaticamente se já tiverem sido removidas.** Essa correção garante que, uma vez que um usuário remova manualmente uma propriedade detectada automaticamente de uma atividade, o sistema não a reintroduza mais durante a navegação subsequente no editor de atividades. Anteriormente, se um usuário desmarcasse uma propriedade detectada automaticamente, movesse para a etapa [!UICONTROL Targeting] e retornasse a [!UICONTROL Experiences], o editor preencheria novamente a propriedade removida com base na lista detectada automaticamente armazenada na fatia de estado do Editor de atividades. A lógica atualizada agora compara as propriedades detectadas automaticamente com as propriedades atuais na fatia ~ActivityState~ e impede a readição de qualquer propriedade detectada automaticamente que o usuário já tenha removido. Isso resulta em um comportamento consistente nas etapas e respeita a intenção do usuário. (TGT-54181)
 * **Adicionar texto detectado automaticamente à lista de propriedades.** Esse aprimoramento atualiza o [!UICONTROL Properties List] para rotular claramente qualquer propriedade que tenha sido detectada automaticamente pelo sistema. Quando uma propriedade detectada automaticamente também está presente no [!UICONTROL Properties List] visível para o usuário, ela agora exibe o texto &quot;(Detectado Automaticamente)&quot; ao lado de seu nome, usando o valor armazenado no estado ~ActivityEditorSlice~. Isso espelha o comportamento da interface herdada e ajuda os usuários a distinguir facilmente entre as propriedades selecionadas manualmente e as propriedades identificadas automaticamente. (TGT-54120)
@@ -57,6 +66,7 @@ Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobr
 **Recomendações**
 
 +++Ver detalhes
+
 * O menu suspenso **[!UICONTROL Environment]mostra apenas 100 resultados.** Essa correção resolve uma limitação em que os clientes com mais de 100 ambientes só podiam ver as primeiras 100 entradas no menu suspenso [!UICONTROL Environment] em [!UICONTROL Recommendations]. A consulta subjacente do GraphQL (~getEnvironmentsV2~) foi paginada com um tamanho de página codificado de 100, fazendo com que a interface exiba apenas uma lista parcial, mesmo quando houver páginas adicionais disponíveis. Para clientes que têm mais de 100 ambientes, esse problema resultou na ausência de opções e em uma experiência de seleção incompleta. A atualização aumenta o limite para que todos os ambientes sejam retornados e exibidos, garantindo visibilidade total independentemente da contagem do ambiente. (TGT-53903)
 
 +++
@@ -77,9 +87,10 @@ Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobr
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Ver detalhes
+
 * O nome **[!UICONTROL Experience Fragment]foi truncado na nova interface do VEC** (TGT-54312)
 * **Não é possível usar [!UICONTROL Advanced Settings] para a métrica [!UICONTROL Revenue].** Essa correção soluciona um problema em que os usuários encontravam um erro 403 de &quot;Acesso negado&quot; ao configurar o [!UICONTROL Advanced Settings] para a métrica [!UICONTROL Revenue] no [!UICONTROL Goals & Settings]. O problema ocorria ao adicionar uma condição de dependência vinculada à meta principal; o back-end exigia incorretamente o privilégio do editor mesmo para usuários que já tinham permissões suficientes para criar e editar atividades. Como resultado, ocorreu uma falha ao salvar a atividade apesar da configuração válida. A atualização corrige a verificação de permissão para que os usuários com acesso apropriado possam adicionar com êxito as dependências da métrica Receita sem acionar um erro de recurso proibido. (TGT-54092)
 * **Correção de um problema em que o botão Adicionar não se aplicava às imagens selecionadas.** Correção de um problema que impedia os clientes de adicionar determinadas imagens ao selecionar ou atualizar uma imagem no processo de criação da atividade. Quando os clientes pesquisavam ativos específicos, por exemplo, as imagens retornadas ao pesquisar por &quot;ipp&quot;, clicando no botão [!UICONTROL Add], não aplicavam a imagem selecionada e nenhuma modificação era criada. A seleção de outras imagens, como `Homepage-banner-1-moz.jpg`, continuou a funcionar conforme esperado. Essa atualização garante que todas as imagens válidas possam ser aplicadas de forma consistente na interface atualizada. (TGT-53610)
