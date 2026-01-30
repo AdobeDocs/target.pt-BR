@@ -77,7 +77,7 @@ Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobr
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalhes
 * O nome **[!UICONTROL Experience Fragment]foi truncado na nova interface do VEC** (TGT-54312)
