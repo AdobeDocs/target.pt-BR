@@ -4,7 +4,7 @@ description: Perguntas e respostas sobre a interface do usuário do  [!DNL Targe
 title: Onde posso encontrar perguntas frequentes sobre a interface do usuário do  [!DNL Target] atualizada?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
+source-git-commit: ad45af0d0cb1a1ea26571cc985d6574ddd2c4963
 workflow-type: tm+mt
 source-wordcount: '1875'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Devido aos problemas recentes identificados, relacionados principalmente a perso
 
 * **17 de junho de 2025**: todas as Organizações IMS foram habilitadas para a interface do usuário [!DNL Target] atualizada, para usuários específicos ou em toda a organização, para começar a testar a nova experiência.
 
-* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4&rbrace; se tornou a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
+* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4} se tornou a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
 
    * Os clientes que atualmente veem a interface herdada, por padrão, agora veem a interface atualizada ao fazer logon.
    * O botão de alternância da versão da interface do usuário permanece disponível até o final de julho, permitindo que os usuários alternem de volta, se necessário.
@@ -107,7 +107,7 @@ Há várias limitações no uso da versão da interface do usuário, incluindo a
 
 Para obter mais informações, consulte [Atualizações sensíveis ao tempo que você precisa saber](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
-++++
++++
 
 ## O [!DNL Adobe] pode atrasar nossa migração para a interface do usuário atualizada até que a implantação completa seja concluída?
 
@@ -213,7 +213,7 @@ Para obter mais informações, consulte [Extensão do Auxiliar de edição visua
 ## Você pode me apontar os detalhes dos novos IPs para o incluir na lista de permissões?
 
 +++Detalhes
-Incluir na lista de permissões Para obter mais informações sobre endereços IP que podem ser pesquisados, consulte os seguintes artigos:
+Para obter mais informações sobre endereços IP que podem ser incluídos na lista de permissões, consulte os seguintes artigos:
 
 * **Enhanced Experience Composer (EEC)**: consulte [O EEC não carregará uma URL interna de controle de qualidade que não esteja acessível no IP público](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) em *Solução de problemas relacionados ao Enhanced Experience Composer*
 * **[!UICONTROL Recommendations]**: Consulte [Endereços IP usados pelos servidores de processamento de feed do Recommendations](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
