@@ -4,7 +4,7 @@ description: Saiba como usar o SPA VEC no Adobe [!DNL Target]  para criar testes
 title: Como usar o Visual Experience Composer (SPA VEC) para aplicativos de página única?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 3c9fcd7de9aac50617c5d9f7d9244026cd988d52
 workflow-type: tm+mt
 source-wordcount: '3569'
 ht-degree: 64%
@@ -49,7 +49,7 @@ Decidimos clicar no botão Carregar mais para explorar mais produtos no site. Ne
 
 ![página de checkout](/help/main/c-experiences/assets/checkout.png)
 
-Como curtimos alguns produtos mostrados no site, decidimos comprar alguns deles. Agora, no site de checkout, recebemos algumas opções para escolher a entrega normal ou a expressa. Como uma exibição pode ser qualquer grupo de elementos visuais em um site, podemos nomear essa opção como &quot;Exibir preferências de entrega&quot;.
+Como curtimos alguns produtos mostrados no site, decidimos comprar alguns deles. Agora, no site de check-out, recebemos algumas opções para escolher a entrega normal ou a expressa. Como uma exibição pode ser qualquer grupo de elementos visuais em um site, podemos nomear essa opção como &quot;Exibir preferências de entrega&quot;.
 
 Além disso, o conceito de Exibições pode ser estendido muito além disso. Se os profissionais de marketing quiserem personalizar o conteúdo no site, dependendo da preferência de entrega selecionada, é possível criar uma exibição para cada preferência de entrega. Nesse caso, quando selecionamos Entrega normal, a Exibição pode se chamar &quot;Entrega normal&quot;. Se a opção Entrega expressa estiver selecionada, a Exibição pode ser chamada de &quot;Entrega expressa&quot;.
 
@@ -143,7 +143,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    **Link: [Check-out](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/checkout)**
 
-   ![checkout do react](/help/main/c-experiences/assets/react6.png)
+   ![check-out do react](/help/main/c-experiences/assets/react6.png)
 
    Se os profissionais de marketing quiserem personalizar o conteúdo no site, dependendo da preferência de entrega selecionada, é possível criar uma exibição para cada preferência de entrega. Nesse caso, quando selecionamos Entrega normal, a Exibição pode se chamar &quot;Entrega normal&quot;. Se a opção Entrega expressa estiver selecionada, a Exibição pode ser chamada de &quot;Entrega expressa&quot;.
 
@@ -243,7 +243,7 @@ Por fim, como mencionado anteriormente, as Exibições podem ser definidas em n�
 1. Clique em [!UICONTROL Browse].
 1. Adicione alguns produtos ao carrinho.
 1. Clique no ícone do carrinho no canto superior direito.
-1. Clique em Checkout do pedido.
+1. Clique em Check-out do pedido.
 1. Clique no botão de opção Entrega expressa.
 1. Clique em [!UICONTROL Compose].
 1. Altere o botão &quot;Pagar&quot; para ler o botão &quot;Concluir o pedido&quot; e altere a cor para vermelho.
@@ -342,7 +342,7 @@ Sim, a at.js 2.x suporta o A4T para SPA por meio da função `triggerView()`, po
 | [Teste multivariado](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Não |
 | [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Não |
 | [Personalização automatizada](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Não |
-| [Recommendations](/help/main/c-recommendations/recommendations.md) | Não |
+| [Recomendações](/help/main/c-recommendations/recommendations.md) | Não |
 
 **Se a at.js 2.x for instalada e implementada `triggerView()` em nossos sites, como é possível executar atividades A/B de Direcionamento automático, já que a SPA do VEC não é compatível com o Direcionamento automático?**
 
