@@ -3,7 +3,7 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Descubra como personalizar a experiência do cliente em sites, aplicativos e canais sociais para aumentar a receita.
 feature-set: Target
-source-git-commit: 4e6941914a840267ac115d68ea317bc987bf8a83
+source-git-commit: 1cadff277a22d72e8d2a781f8a641033cedea520
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 83%
@@ -15,7 +15,7 @@ ht-degree: 83%
 
 + [Página inicial do Guia do profissional de negócios do Adobe Target](target-home.md)
 + Notas de versão do Target {#release-notes}
-   + [Anúncios e eventos do Target](/help/main/r-release-notes/target-announcements.md)
+   + {hide-from-toc}[Anúncios e eventos do Target](/help/main/r-release-notes/target-announcements.md)
    + [Notas de versão do Target (atual)](r-release-notes/release-notes.md)
    + [Notas de versão do Target (pré-lançamento)](r-release-notes/target-release-notes.md)
    + [Visão geral da documentação do Target](/help/main/r-release-notes/target-documentation.md)
@@ -32,7 +32,7 @@ ht-degree: 83%
       + [Visão geral do Assistente de IA](/help/main/c-intro/ai-assistant.md)
       + [Habilitar o assistente de IA](/help/main/c-intro/enabling-ai-assistant.md)
       + [Use o Assistente de IA para obter conhecimento sobre o produto](/help/main/c-intro/ai-assistant-product-knowledge.md)
-      + [Usar o Assistente de IA para geração de conteúdo](/help/main/c-intro/ai-assistant-content-generation.md)
+      + {hide-from-toc}[Usar o Assistente de IA para geração de conteúdo](/help/main/c-intro/ai-assistant-content-generation.md)
    + Kit de boas-vindas do Adobe Target {#welcome}
       + [Visão geral do kit de boas-vindas do Target](/help/main/c-intro/target-welcome-kit.md)
       + [Capítulo 1: Introdução](/help/main/c-intro/target-welcome-kit-1.md)
@@ -100,11 +100,11 @@ ht-degree: 83%
       + [Relatórios do Target no Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Integração do Target ao Adobe Journey Optimizer (AJO) {#ajo}
       + [Usar decisões de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [Integrar [!DNL Adobe Target Recommendations] e [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
+      + {hide-from-toc}[Integrar [!DNL Adobe Target Recommendations] e [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Casos de uso do Adobe Journey Optimizer {#use-cases}
-         + [Principais casos de uso de otimização no Adobe Journey Optimizer - canais da Web e baseados em código](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-         + [Alterações de conteúdo por meio do teste A/B no Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
-         + [Adicionar ou ocultar componentes da página da Web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
+         + {hide-from-toc}[Principais casos de uso de otimização na Adobe Journey Optimizer - canais da Web e baseados em código](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+         + {hide-from-toc}[Alterações de conteúdo por meio do teste A/B no Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+         + {hide-from-toc}[Adicionar ou ocultar componentes da sua página da Web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Públicos-alvo da Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integração do Target ao Adobe Experience Manager (AEM) {#aem}
       + [Visão geral da integração do Target com o AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
@@ -327,7 +327,7 @@ ht-degree: 83%
       + [Criar uma atividade do Recomendações](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [Adicionar promoções](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Configurações de atividade do Recomendações](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [Pré-visualizar e iniciar atividade do Recomendações](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + {hide-from-toc}[Pré-visualizar e iniciar atividade do Recomendações](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [Recomendações como oferta](c-recommendations/recommendations-as-an-offer.md)
    + Perguntas frequentes {#recommendations-faq}
       + [Perguntas frequentes do Recomendações](c-recommendations/c-recommendations-faq/recommendations-faq.md)
@@ -340,4 +340,4 @@ ht-degree: 83%
    + [Limites](r-troubleshooting-target/target-limits.md)
 + APIs do Target {#apis}
    + [Visão geral da API do Adobe Target](/help/main/api/api-overview.md)
-+ [Recursos e informações de contato &#x200B;](cmp-resources-and-contact-information.md)
++ [Recursos e informações de contato ](cmp-resources-and-contact-information.md)
