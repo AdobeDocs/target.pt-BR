@@ -2,11 +2,11 @@
 keywords: deduplicação;permitir duplicatas;excluir ofertas duplicadas;personalização automatizada;não permitir ofertas duplicadas;excluir;conteúdo padrão;
 description: Gerenciar exclusões nas atividades de [!UICONTROL Automated Personalization] (AP).
 title: Como gerenciar exclusões em atividades de [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 2715e803938ee552e2c6db438ed4dbece4b6220e
+source-git-commit: 482d3aa3345eb8e6ad4db4d10f9bcf883d6aba82
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 21%
@@ -60,7 +60,8 @@ Excluir o conteúdo padrão é uma excelente maneira de alterar a aparência do 
 
 1. Clique no ícone **[!UICONTROL More Actions]** ( ![Mais ações](/help/main/assets/icons/Setting.svg) ) e no botão de alternância **Excluir oferta padrão/Incluir oferta padrão**/ para excluir ou incluir a oferta padrão.
 
-   <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
+   <!--
+   Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
    For Text/HTML content: 
 
@@ -72,9 +73,11 @@ Excluir o conteúdo padrão é uma excelente maneira de alterar a aparência do 
 
    For background color: 
 
-   ![Include checkbox in Edit Background Color dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)-->
+   ![Include checkbox in Edit Background Color dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
+   -->
 
-<!-- 1. Click **[!UICONTROL Save]**.
+<!--
+1. Click **[!UICONTROL Save]**.
 
    You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You notice that no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
 
@@ -99,4 +102,5 @@ Excluir o conteúdo padrão é uma excelente maneira de alterar a aparência do 
 
    You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You notice that no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
 
-   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)-->
+   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)
+-->
