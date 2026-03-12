@@ -1,10 +1,10 @@
 ---
-keywords: Real-time Customer Data Platform;rtcdp;personalização;públicos da aep;públicos da adobe experience platform;atributos de perfil
+keywords: Real-time Customer Data Platform;rtcdp;personalização;públicos-alvos da aep;públicos-alvos da adobe experience platform;atributos de perfil
 description: Saiba como usar a integração  [!DNL Target]/[!DNL Real-Time Customer Data Platform]  (RTCDP) para fornecer dados mais avançados do cliente e personalização mais impactante.
 title: Como integrar o  [!DNL Target]  com a  [!DNL Real-Time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 4104b6cb67347205c0143c9dea46dd483a8266ce
+source-git-commit: 7e6947a37586c1840216d4137969f399f38a429d
 workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 71%
@@ -46,7 +46,7 @@ As seções a seguir mostram que tipo de caso de uso de personalização (próxi
 
 | Soluções | Caso de uso habilitado |
 | --- | --- |
-| <ul><li>[!DNL RTCDP] (qualquer SKU) e [!DNL Target]</li></ul> | <ul><li>Personalização da próxima sessão</li><ul><li>Para todas as páginas com o [!UICONTROL at.js]</li></ul><li>Personalização da mesma página</li><ul><li>Para todas as páginas com o [!DNL Platform Web SDK]</li></ul> |
+| <ul><li>[!DNL RTCDP] (qualquer SKU) e [!DNL Target]</li></ul> | <ul><li>Personalização da próxima sessão<ul><li>Para todas as páginas com o [!UICONTROL at.js]</li></ul></li><li>Personalização da mesma página<ul><li>Para todas as páginas com o [!DNL Platform Web SDK]</li></ul></li></ul> |
 | <ul><li>[!DNL RTCDP] (qualquer SKU), [!DNL AAM] e [!DNL Target]</li></ul> | <ul><li>Personalização da próxima sessão</li><ul><li>Para todas as páginas com o [!UICONTROL at.js]</li><li>Segmentos do [!DNL AAM]</li><li>Segmentos de terceiros por meio do [!DNL AAM]</li></ul> |
 
 ## Tempo de avaliação do segmento
@@ -61,11 +61,11 @@ A tabela a seguir mostra o tempo de avaliação do segmento para eventos proveni
 | Eventos de upload em lote | Não | Não | Sim |
 | Eventos de dados offline (fluxo) | Não | Sim | Sim |
 
-## Usar públicos da [!DNL Adobe Experience Platform] {#aep}
+## Usar públicos-alvos da [!DNL Adobe Experience Platform] {#aep}
 
-O uso de [públicos](/help/main/c-target/c-audiences/audiences.md) criados na [!DNL Adobe Experience Platform] fornece dados mais avançados do cliente, o que resulta em personalizações mais impactantes. O [Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR){target=_blank} (RTCDP), criado em [!DNL Adobe Experience Platform], ajuda as empresas a unirem dados conhecidos e anônimos de várias fontes corporativas. Esse processo permite criar perfis de clientes que podem ser usados para fornecer experiências personalizadas aos clientes em todos os canais e dispositivos em tempo real.
+O uso de [públicos-alvos](/help/main/c-target/c-audiences/audiences.md) criados na [!DNL Adobe Experience Platform] fornece dados mais avançados do cliente, o que resulta em personalizações mais impactantes. O [Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR){target=_blank} (RTCDP), criado em [!DNL Adobe Experience Platform], ajuda as empresas a unirem dados conhecidos e anônimos de várias fontes corporativas. Esse processo permite criar perfis de clientes que podem ser usados para fornecer experiências personalizadas aos clientes em todos os canais e dispositivos em tempo real.
 
-Ao conectar o [!DNL Target] à [!DNL Real-Time Customer Data Platform], os clientes podem enriquecer sua personalização da Web. Essa integração permite que você desbloqueie novos segmentos que antes eram inacessíveis ao [!DNL Target], a fim de permitir a personalização em tempo real em milissegundos na primeira página de uma visita à Web de um cliente. Usar públicos e atributos de perfil criados na [!DNL Adobe Experience Platform] permite expandir os pontos de dados disponíveis para uma personalização mais avançada.
+Ao conectar o [!DNL Target] à [!DNL Real-Time Customer Data Platform], os clientes podem enriquecer sua personalização da Web. Essa integração permite que você desbloqueie novos segmentos que antes eram inacessíveis ao [!DNL Target], a fim de permitir a personalização em tempo real em milissegundos na primeira página de uma visita à Web de um cliente. Usar públicos-alvos e atributos de perfil criados na [!DNL Adobe Experience Platform] permite expandir os pontos de dados disponíveis para uma personalização mais avançada.
 
 Essa integração desbloqueia os principais casos de uso da Real-Time CDP:
 
@@ -128,25 +128,25 @@ Para obter mais informações, consulte [Personalização de próxima ocorrênci
 
 Saiba como configurar o destino do [!DNL Adobe Target] na [!DNL Real-Time Customer Data Platform] para começar a enviar segmentos e atributos de perfil da [!DNL Real-Time CDP] para o [!DNL Target].
 
->[!VIDEO](https://video.tv.adobe.com/v/3449798/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
 
 ### Vídeo: ativar segmentos e atributos de perfil
 
 Saiba como ativar segmentos e atributos de perfil da [!DNL Adobe Real-Time Customer Data Platform] no [!DNL Adobe Target] para exibir conteúdo personalizado em tempo real em seus sites, aplicativos móveis e outras propriedades digitais.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447360/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
 
 ### Vídeo: usar segmentos da [!DNL Real-Time CDP] no [!DNL Target]
 
 Saiba como usar os segmentos da [!DNL Real-Time Customer Data Platform] no [!DNL Adobe Target] para oferecer experiências personalizadas em seu site e aplicativos móveis.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446832/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
 
 ### Vídeo: usar atributos de perfil da [!DNL Real-Time CDP] no [!DNL Adobe Target]
 
 Saiba como usar atributos de perfil da [!DNL Adobe Real-Time Customer Data Platform] no [!DNL Adobe Target] para oferecer experiências personalizadas em seu site e aplicativos móveis.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451898/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 ### Blog e vídeo do [!DNL Adobe Target]: personalização aprimorada de mesma página
 
