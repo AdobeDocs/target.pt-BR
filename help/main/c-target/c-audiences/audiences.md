@@ -4,7 +4,7 @@ description: Saiba como usar públicos no [!DNL Adobe Target].
 title: Como usar a lista de públicos-alvo?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 22%
@@ -74,11 +74,11 @@ Você pode exibir os detalhes de definição de público-alvo em um cartão pop-
 
 Por exemplo, o cartão de definição de público-alvo a seguir é acessado clicando-se no ícone [!UICONTROL View Details] para o público-alvo desejado:
 
-![Atividades > Definição de público](assets/audience_definition_list.png)
+![Atividades > Definição de público-alvo](assets/audience_definition_list.png)
 
 O seguinte cartão de definição de público-alvo é acessado clicando-se no ícone [!UICONTROL View Details] na página [!UICONTROL Overview] de uma atividade:
 
-![Atividades > Definição de público](assets/view-details-activity-overview.png)
+![Atividades > Definição de público-alvo](assets/view-details-activity-overview.png)
 
 O cartão de definição de público-alvo mostra o tipo, a origem e os atributos do público-alvo. Clique em **[!UICONTROL View full details]** para ver outras atividades que fazem referência a esse público-alvo, se aplicável. Se você estiver visualizando um cartão de definição de público-alvo na página [!UICONTROL Overview] de uma atividade, clique em **[!UICONTROL Audience Usage]**.
 
@@ -88,7 +88,8 @@ Se um público-alvo for [combinado com outro público-alvo](/help/main/c-target/
 
 ![imagem de audience_definition_list_usage](assets/audience_definition_list_usage.png)
 
-<!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
+<!--
+The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 
 ![Usage tab on Audience Definition card](assets/audience_definition_mc.png)
 
@@ -103,9 +104,10 @@ The following details are available for these imported audience types:
 Keep the following points in mind as you work with imported audiences:
 
 * Expression target audiences are no longer supported in Target Standard/Premium. 
-* Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
+* Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.
+-->
 
-## Usar públicos da [!DNL Adobe Experience Platform] {#aep}
+## Usar públicos-alvos da [!DNL Adobe Experience Platform] {#aep}
 
 O uso de públicos-alvo criados no [!DNL Adobe Experience Platform] fornece dados mais avançados do cliente, o que resulta em personalizações mais impactantes.
 
@@ -121,4 +123,4 @@ Este vídeo inclui informações sobre o uso de públicos-alvo.
 * Segmente uma atividade para um público-alvo
 * Use públicos-alvo para relatórios passivos em uma atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/30984?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

@@ -2,10 +2,10 @@
 keywords: pesquisa de catálogo;catálogo;pesquisa;exclusão;coleção;filtro;recomendações
 description: Saiba como usar o  [!DNL Recommendations] [!UICONTROL Catalog Search] para localizar produtos ou conteúdo, remover itens do catálogo e muito mais.
 title: Como usar o  [!DNL Recommendations] [!UICONTROL Catalog Search]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 22%
@@ -44,7 +44,8 @@ Catálogos se referem a todo o conjunto de produtos (entidades). Seu catálogo p
    >
    >Não há nenhuma funcionalidade disponível no momento que permita alterar o tipo de um atributo. Para fazer uma alteração, [abra um problema do cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) referenciando os atributos que precisam de alteração do tipo de sequência para numérico.
 
-<!-- ### Perform an advanced search {#advanced-search}
+<!--
+### Perform an advanced search {#advanced-search}
 
 You can use [!UICONTROL Advanced Search] to further refine your search results or to save your search results as a [collection](/help/main/c-recommendations/c-products/collections.md) or [exclusion](/help/main/c-recommendations/c-products/exclusions.md).
 
@@ -64,7 +65,8 @@ You can use [!UICONTROL Advanced Search] to further refine your search results o
 
    ![Save as options](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-   For more information, see [Create a collection or exclusion based on Advanced Search](#save-as) below.-->
+   For more information, see [Create a collection or exclusion based on Advanced Search](#save-as) below.
+-->
 
 ## Exibir detalhes de um item
 
@@ -88,7 +90,8 @@ O índice do catálogo é criado automaticamente ao carregar seu primeiro feed e
 
 O catálogo é atualizado automaticamente quando as atualizações são recebidas por meio de arquivos de feed, API ou atualizações de mbox. Normalmente, as atualizações são concluídas em uma hora. Se houver atualizações em andamento, será exibida a hora em que a atualização mais recente foi iniciada. Se não houver atualizações em andamento, será exibida a hora em que a atualização mais recente foi iniciada e finalizada.
 
-<!-- ## Create a collection or exclusion based on Advanced Search {#save-as}
+<!--
+## Create a collection or exclusion based on Advanced Search {#save-as}
 
 You can create [collections](/help/main/c-recommendations/c-products/collections.md) or [exclusions](/help/main/c-recommendations/c-products/exclusions.md) using [!UICONTROL Advanced Search] on the [!UICONTROL Catalog Search] page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
@@ -100,7 +103,8 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
    >[!IMPORTANT]
    >
-   >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. Exclusions are handled in a similar fashion.-->
+   >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. Exclusions are handled in a similar fashion.
+-->
 
 ## Alterar o ambiente
 
@@ -110,7 +114,8 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 1. Selecione o ambiente desejado na lista suspensa **[!UICONTROL Environment]**.
 
-<!-- ## Modify the Catalog Search page (filters and columns)
+<!--
+## Modify the Catalog Search page (filters and columns)
 
 You can temporarily modify the available filters and columns on the [!UICONTROL Catalog Search] page for the current session.
 
@@ -126,7 +131,8 @@ You can add additional filter facets to the [!UICONTROL Catalog Search] page.
 
    ![Add filters](/help/main/c-recommendations/c-products/assets/add-filters.png)
 
-Keep in mind that the additional filter facets are available in the current session only.-->
+Keep in mind that the additional filter facets are available in the current session only.
+-->
 
 ## Modificar colunas
 

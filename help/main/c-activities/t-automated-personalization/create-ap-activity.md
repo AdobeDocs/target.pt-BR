@@ -2,10 +2,10 @@
 keywords: personalização automatizada;ap
 description: Saiba como criar uma atividade de [!UICONTROL Automated Personalization] (AP) usando o [!UICONTROL Visual Experience Composer].
 title: Como criar uma atividade [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
+source-git-commit: 18d183798ee041bee761a108be3130e5ccb0a10a
 workflow-type: tm+mt
 source-wordcount: '1851'
 ht-degree: 23%
@@ -99,7 +99,8 @@ O fluxo de trabalho da atividade de [!UICONTROL Automated Personalization] (AP) 
 
    If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
-   To edit an existing exclusion group, hover over the group you want to edit, then click the pencil icon.-->
+   To edit an existing exclusion group, hover over the group you want to edit, then click the pencil icon.
+-->
 
 1. Clique em **[!UICONTROL Done]** quando terminar de configurar o conteúdo da sua atividade.
 

@@ -4,7 +4,7 @@ description: Saiba mais sobre as noções básicas de uso do Visual Experience C
 title: Como usar o Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: 3f5b198ad08d85caa9c859171e78b710083e44fb
+source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 43%
@@ -43,9 +43,11 @@ Você pode usar as guias no painel [!UICONTROL Experiences] para exibir sua pág
 
 Ao mover seu mouse pela página, uma caixa sensível ao contexto segue o cursor, destacando os elementos na página.
 
-<!--Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
+<!--
+Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
 
-![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)-->
+![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
+-->
 
 Clique em um elemento destacado para obter um menu de opções disponíveis para esse tipo de elemento. Por exemplo, você pode clicar em uma imagem e selecionar **[!UICONTROL Change Image]** para alterá-la para outra imagem. Ou clique em um botão e altere a cor do texto.
 
@@ -53,7 +55,7 @@ Você também pode clicar em **[!UICONTROL Browse]**, navegar para uma página q
 
 >[!NOTE]
 >
->Se um estado de passar o mouse depender do JavaScript, verifique se **[!UICONTROL Disable JavaScript]** não está selecionado. O JavaScript deve ser ativado para editar elementos de JavaScript.
+>Se um estado de passar o mouse depender do JavaScript, verifique se **[!UICONTROL Disable JavaScript]** não está selecionado. O JavaScript deve ser habilitado para editar elementos de JavaScript.
 
 Para obter informações sobre as opções disponíveis no VEC, consulte [Opções do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
 
@@ -84,7 +86,7 @@ Alguns motivos pelos quais você pode cancelar o carregamento de uma página no 
 * Você deseja excluir uma ou mais modificações existentes
 * Você deseja inserir ou editar um código personalizado
 * Você inseriu erroneamente o URL incorreto da página
-* Você deseja ativar ou desativar o JavaScript antes de carregar a página no VEC
+* Você deseja habilitar ou desabilitar o JavaScript antes de carregar a página no VEC
 * Você deseja adicionar mais regras de teste de modelo aos critérios [!UICONTROL Page Delivery]
 * Você deseja substituir o botão [!UICONTROL Enhanced Experience Composer] (EEC) global ao carregar uma página pelo EEC ou somente iframe
 
