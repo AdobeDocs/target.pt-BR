@@ -4,10 +4,11 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ab11438723edc8bb9f7e6aff0b10d48723623f3b
+hold: true
+source-git-commit: 44d9cd4de7ff2064e6005a4d7ece7f37194fbf2f
 workflow-type: tm+mt
-source-wordcount: '62551'
-ht-degree: 54%
+source-wordcount: '64670'
+ht-degree: 52%
 
 ---
 
@@ -20,6 +21,160 @@ As notas de versão estão listadas em ordem decrescente por mês e ano da vers�
 >[!NOTE]
 >
 >Consulte [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
+
+## Notas de versão - 2026
+
+### [!DNL Target Standard/Premium] 26.3.1 (3 de março de 2026)
+
+**Atividades**
+
++++Ver detalhes
+
+* **Código personalizado perdido quando aplicado a modos de exibição adicionais.** Essa correção resolve um problema em que o código personalizado aplicado a um modo de exibição era perdido ao adicionar e aplicar o código personalizado a um modo de exibição adicional. Anteriormente, quando os usuários aplicavam o código personalizado a várias exibições em uma atividade, o código personalizado aplicado anteriormente desaparecia. A correção garante que o código personalizado seja preservado corretamente em todas as exibições ao aplicar modificações a exibições adicionais. (TGT-54230)
+
++++
+
+**Critérios**
+
++++Ver detalhes
+
+* **A regra &#39;Entre&#39; do Parâmetro de perfil não é salva nos critérios.** Essa correção resolve um problema em que as regras de critério que usam o operador **Entre** para parâmetros de perfil não eram salvas corretamente. Anteriormente, quando os usuários configuravam uma regra com o operador **Entre** e inseriam valores de intervalo, os critérios pareciam ser salvos com êxito, mas a regra desaparecia ao reabrir ou editar os critérios. A correção garante que as regras **Entre** sejam salvas corretamente e persistam quando os critérios forem reabertos. (TGT-54498)
+
++++
+
+**Insights**
+
++++Ver detalhes
+
+* **Alterar a posição da página de Insights após todas as atividades.** A posição da **página de Insights** foi atualizada para aparecer após a página **Todas as Atividades** na navegação. A página Todas as atividades agora é a página padrão do aplicativo do Target. (TGT-54672)
+
++++
+
+**Navegação**
+
++++Ver detalhes
+
+* **Torne a navegação à esquerda recolhível.** A navegação à esquerda agora é recolhível e expansível para todas as guias. Quando recolhidos, os ícones são exibidos com dicas de ferramentas. Quando expandidos, os ícones e o texto são mostrados. Esse aprimoramento fornece aos usuários mais espaço na tela quando necessário, além de manter o acesso rápido às opções de navegação. (TGT-54608)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalhes
+
+* **ExperienceEditorType padrão como &quot;visual&quot; quando o back-end retorna nulo.** Essa correção soluciona um problema em que o valor `experienceEditorType` era retornado como nulo em alguns cenários, causando um comportamento não intencional na interface do usuário em que o tipo de editor não foi inicializado corretamente. (TGT-54690)
+
++++
+
+### [!DNL Target Standard/Premium] 26.2.2 (16 de fevereiro de 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalhes
+
+* **Não é possível adicionar imagens às atividades - Erro desconhecido.** Essa correção soluciona um problema em que os usuários encontravam um &quot;erro desconhecido&quot; ao tentar adicionar ou substituir imagens em atividades. O problema estava relacionado a falhas de sincronização e autenticação de URL do Scene7. A correção garante que as imagens possam ser adicionadas e substituídas corretamente no Visual Experience Composer. (TGT-54137)
+
++++
+
+### [!DNL Target Standard/Premium] 26.2.1 (8 de fevereiro de 2026)
+
+**Propriedades**
+
++++Ver detalhes
+
+* **O token de propriedade não é adicionado novamente automaticamente após a remoção.** Essa correção soluciona um problema em que os tokens de propriedade desmarcados pelos usuários eram automaticamente adicionados novamente durante a edição de uma atividade. Anteriormente, quando os usuários removiam uma propriedade detectada automaticamente e navegavam entre etapas, o sistema reintroduzia a propriedade removida sem qualquer alerta ou prompt, resultando na ativação de atividades em propriedades inesperadas. A atualização garante que, uma vez removido, o token de propriedade permaneça removido durante todas as edições e navegações subsequentes. (TGT-54040)
+
++++
+
+### [!DNL Target Standard/Premium] 26.1.2 (sábado, 30 de janeiro de 2026)
+
+**Painel do Adobe Target Insights**
+
++++Ver detalhes
+
+O Adobe Target agora inclui um novo painel de insights que fornece uma visualização de alto nível de como sua organização está usando o Target para experimentação e personalização. O painel exibe as principais métricas, como atividades ativas, atividades ativas e modificadas, atividades concluídas, atividades publicadas e atividades de teste A/B. Use o seletor de intervalo de tempo para explorar tendências em diferentes períodos, incluindo uma visualização de recapitulação para 2025. Esse painel permanece disponível como uma maneira contínua de rastrear a adoção e a atividade ao longo do tempo.
+
+Consulte o [Painel do Adobe Target Insights](/help/main/c-activities/insights-dashboard.md)
++++
+
+**Administração**
+
++++Ver detalhes
+
+* **recurso de gerenciamento de URLs Incluídos na lista de permissões.incluir na lista de permissões** Um novo recurso de gerenciamento &quot;URLs migradas&quot; foi adicionado à seção [!UICONTROL Administration] para gerenciar padrões de URL de oferta remota permitidos. Incluir na lista de permissões Esse recurso inclui a capacidade de exibir URLs classificados em uma tabela, pesquisar e filtrar URLs, adicionar novos URLs por meio de uma caixa de diálogo modal e excluir URLs com confirmação. O recurso ajuda os clientes a controlar quais URLs podem ser usados para ofertas remotas, melhorando a segurança e a conformidade. (TGT-54486)
+
++++
+
+**Insights**
+
++++Ver detalhes
+
+* **Suporte para filtragem por createdAt e modifiedAt no GraphQL.** O suporte para filtrar atividades pelos campos de data `createdAt` e `modifiedAt` foi adicionado à API do GraphQL. Esse aprimoramento permite a filtragem precisa na interface do Target, reduz o processamento de dados do lado do cliente e elimina a necessidade de várias chamadas de API para recuperar dados de atividade filtrados. (TGT-54499)
+
++++
+
+
+### [!DNL Target Standard/Premium] 26.1.1 (segunda-feira, 18 de janeiro de 2026)
+
+**Atividades**
+
++++Ver detalhes
+
+* **Não é possível copiar a atividade - entrada de usuário inválida.** O problema que fazia com que os usuários vissem um erro &quot;entrada de usuário inválida&quot; inútil ao copiar uma atividade foi corrigido. Anteriormente, quando uma atividade era duplicada, suas atribuições de propriedade específicas do espaço de trabalho não eram preservadas, fazendo com que o back-end rejeitasse a solicitação de salvamento porque ABActivity requer pelo menos uma propriedade pertencente a um espaço de trabalho não padrão. Essa incompatibilidade acionou um erro genérico na interface do usuário, deixando os usuários sem orientação. A correção garante que as atribuições de espaço de trabalho sejam retidas corretamente durante as operações de cópia, permitindo que os usuários salvem a atividade copiada sem modificação e evitando erros de validação enganosos. (TGT-54282)
+* **Habilitar a coluna de espaço de trabalho na oferta do editor da Web.** Essa atualização soluciona a confusão do cliente causada por ofertas do [!UICONTROL Default Workspace] que aparecem em outros espaços de trabalho dentro do Editor da Web. Embora esse comportamento esteja funcionando como projetado, as ofertas do [!UICONTROL Default Workspace] estão intencionalmente visíveis em todos os espaços de trabalho, os clientes relataram que a interface do usuário não deixou a origem do espaço de trabalho clara, especialmente ao criar atividades em um espaço de trabalho não padrão, como &quot;Aprovadores&quot;. Para melhorar a clareza, a coluna [!UICONTROL Workspace] foi habilitada na lista de ofertas do Editor da Web, permitindo que os usuários distingam facilmente a qual espaço de trabalho cada oferta pertence e evitando interpretações incorretas das ofertas adicionais exibidas. (TGT-54138)
+* **Links com target=&quot;_blank&quot; são abertos em uma nova guia.** Essa correção soluciona um problema em que sites criados contendo links com ~target=&quot;_blank&quot;~ abririam em uma nova guia do navegador quando clicados no modo [!UICONTROL Browse], interrompendo a experiência de visualização no editor. O comportamento ocorreu porque os atributos de link nativo da página criada não estavam sendo interceptados pelo JavaScript inserido na extensão, ao contrário da interface herdada, em que os elementos de ancoragem foram transformados e seus destinos foram substituídos para manter a navegação dentro do editor. A atualização garante que os links que usam ~target=&quot;_blank&quot;~ agora sejam manipulados corretamente no Editor da Web, para que não abram mais guias externas durante a criação. (TGT-54134)
+* **Aviso de desseleção de propriedade.** Esta atualização apresenta um aviso visual para informar claramente aos usuários quando eles desmarcam uma propriedade detectada automaticamente no Editor de atividades. Anteriormente, a remoção de uma propriedade detectada automaticamente não fornecia nenhuma indicação de que a propriedade seria excluída permanentemente, o que poderia levar à perda acidental da configuração de direcionamento. A correção adiciona um ícone de aviso, consistente com o comportamento na interface herdada, para notificar os usuários que desmarcar a propriedade a remove da atividade. (TGT-54121)
+* A lista suspensa **[!UICONTROL Workspaces]está limitada a 20 na seção [!UICONTROL Users].** Essa correção resolve um problema em que a lista suspensa [!UICONTROL Workspaces] na seção [!UICONTROL Administration] > [!UICONTROL Users] exibia apenas 20 espaços de trabalho, mesmo quando um usuário tinha acesso a muitos outros. A chamada subjacente do GraphQL para `licenseGroups` também foi limitada a 20 resultados, fazendo com que a interface do usuário mostrasse uma lista incompleta apesar de o usuário ter acesso a mais espaços de trabalho na organização. A atualização remove esse limite rígido para que o conjunto completo de espaços de trabalho disponíveis agora seja retornado e exibido corretamente. (TGT-53820)
+* **Correção de um problema em que o modal de ofertas não mostrava a coluna do espaço de trabalho.** Correção de um problema em que o modal de ofertas não exibia a coluna do espaço de trabalho na interface atualizada. Isso causou confusão para os clientes porque as ofertas do [!UICONTROL Default Workspace] apareciam junto com as ofertas do espaço de trabalho selecionado, sem nenhuma indicação de sua origem. A coluna espaço de trabalho agora está ativada para que os clientes possam identificar claramente a qual espaço de trabalho cada oferta pertence. (TGT-52320)
+
++++
+
+**Propriedades**
+
++++Ver detalhes
+
+* **A edição da atividade não deve adicionar uma propriedade detectada automaticamente se já tiver sido removida.** Essa correção soluciona um problema em que a edição de uma atividade reintroduziria automaticamente uma propriedade detectada automaticamente que o usuário havia removido. Ao reabrir uma atividade para edição, o sistema restaurou incorretamente a propriedade removida, gerando comportamento inconsistente e confusão no [!UICONTROL Properties List]. A atualização garante que, uma vez removida, a propriedade detectada automaticamente permanecerá removida durante todas as edições subsequentes e não reaparecerá, a menos que o usuário a adicione explicitamente de volta. (TGT-54182)
+* **Não adicionar propriedades detectadas automaticamente se já tiverem sido removidas.** Essa correção garante que, uma vez que um usuário remova manualmente uma propriedade detectada automaticamente de uma atividade, o sistema não a reintroduza mais durante a navegação subsequente no editor de atividades. Anteriormente, se um usuário desmarcasse uma propriedade detectada automaticamente, movesse para a etapa [!UICONTROL Targeting] e retornasse a [!UICONTROL Experiences], o editor preencheria novamente a propriedade removida com base na lista detectada automaticamente armazenada na fatia de estado do Editor de atividades. A lógica atualizada agora compara as propriedades detectadas automaticamente com as propriedades atuais na fatia ~ActivityState~ e impede a readição de qualquer propriedade detectada automaticamente que o usuário já tenha removido. Isso resulta em um comportamento consistente nas etapas e respeita a intenção do usuário. (TGT-54181)
+* **Adicionar texto detectado automaticamente à lista de propriedades.** Esse aprimoramento atualiza o [!UICONTROL Properties List] para rotular claramente qualquer propriedade que tenha sido detectada automaticamente pelo sistema. Quando uma propriedade detectada automaticamente também está presente no [!UICONTROL Properties List] visível para o usuário, ela agora exibe o texto &quot;(Detectado Automaticamente)&quot; ao lado de seu nome, usando o valor armazenado no estado ~ActivityEditorSlice~. Isso espelha o comportamento da interface herdada e ajuda os usuários a distinguir facilmente entre as propriedades selecionadas manualmente e as propriedades identificadas automaticamente. (TGT-54120)
+* **Adicionar [!UICONTROL Properties] detectado automaticamente ao estado.** Essa atualização garante que o estado ~ActivityEditorSlice.ExperienceEditor~ mantenha, de maneira consistente, uma lista atualizada de todas as IDs de propriedade detectadas automaticamente transmitidas do Editor da Web para a guia Atividade [!UICONTROL Experiences]. Cada vez que o usuário navega para a guia [!UICONTROL Experiences], o estado é atualizado com qualquer propriedade recém-detectada, evitando duplicatas, garantindo um rastreamento preciso e um comportamento downstream confiável. (TGT-54119)
+
++++
+
+**Recomendações**
+
++++Ver detalhes
+
+* O menu suspenso **[!UICONTROL Environment]mostra apenas 100 resultados.** Essa correção resolve uma limitação em que os clientes com mais de 100 ambientes só podiam ver as primeiras 100 entradas no menu suspenso [!UICONTROL Environment] em [!UICONTROL Recommendations]. A consulta subjacente do GraphQL (~getEnvironmentsV2~) foi paginada com um tamanho de página codificado de 100, fazendo com que a interface exiba apenas uma lista parcial, mesmo quando houver páginas adicionais disponíveis. Para clientes que têm mais de 100 ambientes, esse problema resultou na ausência de opções e em uma experiência de seleção incompleta. A atualização aumenta o limite para que todos os ambientes sejam retornados e exibidos, garantindo visibilidade total independentemente da contagem do ambiente. (TGT-53903)
+
++++
+
+**Relatórios**
+
++++Ver detalhes
+
+* **Correção de um problema em que a seta [!UICONTROL Reports] não indicava claramente colunas expansíveis.** Correção de um problema em que a tabela de relatórios não mostrava claramente que colunas adicionais poderiam ser expandidas na interface atualizada. Uma dica de ferramenta que desaparece foi adicionada à seta [!UICONTROL Reports] próxima aos cabeçalhos da coluna para ajudar os clientes a entenderem que mais colunas estão disponíveis. (TGT-53479)
+
++++
+
+**Exibições**
+
++++Ver detalhes
+
+* **Não é possível excluir as modificações aplicadas aos modos de exibição.** Essa correção resolve um problema em que os usuários não conseguiam excluir modificações em uma atividade, a menos que a modificação tivesse sido reaplicada primeiro a exibições adicionais. Ao editar uma atividade (por exemplo, ID de atividade 302467), as tentativas de excluir qualquer modificação não tinham efeito, impedindo que os usuários removessem alterações indesejadas. No entanto, uma vez que uma modificação foi reaplicada usando &quot;Aplicar a mais exibições&quot; e atribuída a um evento `Page Load`, a exclusão funcionou repentinamente como esperado. (TGT-54088)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalhes
+
+* O nome **[!UICONTROL Experience Fragment]foi truncado na nova interface do VEC** (TGT-54312)
+* **Não é possível usar [!UICONTROL Advanced Settings] para a métrica [!UICONTROL Revenue].** Essa correção soluciona um problema em que os usuários encontravam um erro 403 de &quot;Acesso negado&quot; ao configurar o [!UICONTROL Advanced Settings] para a métrica [!UICONTROL Revenue] no [!UICONTROL Goals & Settings]. O problema ocorria ao adicionar uma condição de dependência vinculada à meta principal; o back-end exigia incorretamente o privilégio do editor mesmo para usuários que já tinham permissões suficientes para criar e editar atividades. Como resultado, ocorreu uma falha ao salvar a atividade apesar da configuração válida. A atualização corrige a verificação de permissão para que os usuários com acesso apropriado possam adicionar com êxito as dependências da métrica Receita sem acionar um erro de recurso proibido. (TGT-54092)
+* **Correção de um problema em que o botão Adicionar não se aplicava às imagens selecionadas.** Correção de um problema que impedia os clientes de adicionar determinadas imagens ao selecionar ou atualizar uma imagem no processo de criação da atividade. Quando os clientes pesquisavam ativos específicos, por exemplo, as imagens retornadas ao pesquisar por &quot;ipp&quot;, clicando no botão [!UICONTROL Add], não aplicavam a imagem selecionada e nenhuma modificação era criada. A seleção de outras imagens, como `Homepage-banner-1-moz.jpg`, continuou a funcionar conforme esperado. Essa atualização garante que todas as imagens válidas possam ser aplicadas de forma consistente na interface atualizada. (TGT-53610)
+* **Correção de um problema em que a exclusão de uma condição de URL redefinia a configuração da métrica de meta.** Correção de um problema em que a remoção de uma única condição de URL na métrica [!UICONTROL Goal] fazia com que toda a configuração fosse redefinida na interface atualizada. Quando os clientes tentaram excluir uma condição de URL salva em [!UICONTROL Conversion] > [!UICONTROL Viewed a Page], o tipo de meta alternou inesperadamente para [!UICONTROL Viewed an Mbox] e todas as configurações definidas anteriormente foram removidas. Essa atualização garante que somente a condição de URL selecionada seja excluída e que todas as configurações de meta restantes permaneçam intactas. (TGT-53271)
+* **Correção de um problema em que a pesquisa não pesquisava subpastas.** Correção de um problema em que a pesquisa por ofertas não retornava resultados de subpastas na interface atualizada. Os clientes só poderiam encontrar uma oferta se navegassem manualmente para a pasta em que ela estava armazenada, tornando o comportamento da pesquisa inconsistente com os recursos da API. A pesquisa agora é compatível com a pesquisa recursiva de pastas para que os clientes possam localizar ofertas sem precisar abrir cada pasta individualmente. (TGT-51954)
+
++++
 
 ## Notas de versão - 2025
 
@@ -109,7 +264,7 @@ As notas de versão estão listadas em ordem decrescente por mês e ano da vers�
 
 +++
 
-### [!DNL Target Standard/Premium] 25.10.1 (22 de outubro de 2025)
+### [!DNL Target Standard/Premium] 25.10.1 (quinta-feira, 22 de outubro de 2025)
 
 Esta versão inclui as seguintes atualizações e correções:
 
@@ -187,7 +342,7 @@ Correção de um problema no VEC que causava a paralisação das experiências a
 
 +++
 
-### [!DNL Target Standard/Premium] 25.9.3 (30 de setembro de 2025)
+### [!DNL Target Standard/Premium] 25.9.3 (quarta-feira, 30 de setembro de 2025)
 
 Esta versão inclui os seguintes aprimoramentos e correções.
 
@@ -245,7 +400,7 @@ Ao selecionar elementos do HTML por meio da navegação estrutural no (VEC), o m
 
 +++
 
-### [!DNL Target Standard/Premium] 25.9.2 (22 de setembro de 2025)
+### [!DNL Target Standard/Premium] 25.9.2 (terça-feira, 22 de setembro de 2025)
 
 Essa versão inclui as seguintes correções e aprimoramentos:
 
@@ -338,7 +493,7 @@ Atualização da lógica de validação para conexões de destino [!DNL Target] 
 
 Essa atualização garante uma configuração consistente e evita conflitos em ambientes de várias sandboxes. Para obter mais informações, consulte [conexão com o Adobe Target](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} no guia *Destinos do Experience Platform*.
 
-### [!DNL Target Standard/Premium] 25.9.1 (5 de setembro de 2025)
+### [!DNL Target Standard/Premium] 25.9.1 (sábado, 5 de setembro de 2025)
 
 Esta versão inclui as seguintes atualizações e correções:
 
@@ -393,7 +548,7 @@ Esta versão inclui as seguintes atualizações e correções:
 
 +++
 
-### [!DNL Target Standard/Premium] 25.8.4 (1º de setembro de 2025)
+### [!DNL Target Standard/Premium] 25.8.4 (terça-feira, 1 de setembro de 2025)
 
 Esta versão inclui as seguintes atualizações e correções:
 
@@ -444,7 +599,7 @@ Esta versão inclui as seguintes atualizações e correções:
 
 +++
 
-### [!DNL Target Standard/Premium] 25.8.3 (21 de agosto de 2025)
+### [!DNL Target Standard/Premium] 25.8.3 (sexta-feira, 21 de agosto de 2025)
 
 Esta versão inclui as seguintes atualizações e correções:
 
@@ -539,7 +694,7 @@ Esta versão inclui as seguintes atualizações e correções:
 
 +++
 
-### [!DNL Target Standard/Premium] 25.8.2 (14 de agosto de 2025)
+### [!DNL Target Standard/Premium] 25.8.2 (sexta-feira, 14 de agosto de 2025)
 
 Esta versão do inclui as seguintes correções e atualizações:
 
@@ -599,7 +754,7 @@ Esta versão do inclui as seguintes correções e atualizações:
 
 +++
 
-### [!DNL Target Standard/Premium] 25.8.1 (7 de agosto de 2025)
+### [!DNL Target Standard/Premium] 25.8.1 (sexta-feira, 7 de agosto de 2025)
 
 Essa versão inclui os seguintes aprimoramentos e correções:
 
@@ -670,7 +825,7 @@ Essa versão inclui os seguintes aprimoramentos e correções:
 
 +++
 
-### [!DNL Target Standard/Premium] 25.7.4 (1º de agosto de 2025)
+### [!DNL Target Standard/Premium] 25.7.4 (sábado, 1 de agosto de 2025)
 
 Esta versão resolve problemas recentes, causados principalmente por personalizações complexas de clientes e inclui as seguintes correções e melhorias:
 
@@ -1207,7 +1362,7 @@ Esta versão do inclui as seguintes correções e atualizações:
 * Correção de um problema que causava um erro de entrada do usuário ao mover ofertas para pastas. (TGT-52296)
 * Adicionado um campo `audienceMetadata` para cada atividade, e verificado se ele é lido e atualizado ao editar a atividade. (TGT-51004)
 
-### [!DNL Target Standard/Premium] 25.4.5 (25 de abril de 2025)
+### [!DNL Target Standard/Premium] 25.4.5 (sábado, 25 de abril de 2025)
 
 Esta versão do inclui as seguintes correções e atualizações:
 
@@ -1243,7 +1398,7 @@ A partir de 22 de abril de 2025, somente [!UICONTROL Product] e [!UICONTROL Solu
 
 Para obter mais informações, consulte [Administrar Target](/help/main/administrating-target/start-target.md).
 
-### [!DNL Target Standard/Premium] 25.4.4 (17 de abril de 2025)
+### [!DNL Target Standard/Premium] 25.4.4 (sexta-feira, 17 de abril de 2025)
 
 Esta versão do inclui as seguintes correções e atualizações:
 
@@ -1258,7 +1413,7 @@ Esta versão do inclui as seguintes correções e atualizações:
 * Foram corrigidas discrepâncias entre `OptionLocalIDs` definidas para uma atividade e aquelas usadas para definir experiências. (TGT-52215)
 * Correção de um problema que causava uma falha de validação que ocorria ao tentar criar uma atividade A/B. (TGT-51923)
 
-### [!DNL Target Standard/Premium] 25.4.3 (11 de abril de 2025)
+### [!DNL Target Standard/Premium] 25.4.3 (sábado, 11 de abril de 2025)
 
 Esta versão do inclui as seguintes correções e atualizações:
 
@@ -1285,7 +1440,7 @@ Esta versão do inclui as seguintes correções e atualizações:
 * Restaurado o acesso a [cartões de definição de público-alvo](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) na caixa de diálogo [!UICONTROL Activity QA], semelhante à interface herdada. (TGT-52056)
 * A interface atualizada não salva páginas ou públicos-alvo sem modificações. Se os clientes adicionaram novas páginas ou públicos-alvo a uma atividade, mas não fizeram alterações, [!DNL Target] descartou os públicos-alvo não modificados ao salvar. Foram adicionadas notificações em locais relevantes para informar os usuários sobre esse comportamento. (TGT-52104)
 
-### [!DNL Target Standard/Premium] 25.4.1 (2 de abril de 2025)
+### [!DNL Target Standard/Premium] 25.4.1 (quinta-feira, 2 de abril de 2025)
 
 Esta versão do inclui as seguintes correções e atualizações:
 
@@ -1992,7 +2147,7 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 Esta versão inclui as seguintes correções:
 
 * Correção de um problema que fazia com que três algoritmos baseados no carrinho usassem a mesma condição Comprada/Comprada no backend do [!DNL Target]. (TGT-43456)
-* Habilitou a atualização do token da interface do usuário [!DNL Target] para organizações habilitadas com [contas Business ID](https://helpx.adobe.com/br/enterprise/using/identity.html){target=_blank} e Autenticação Baseada em Política (PBA). (TGT-42590)
+* Habilitou a atualização do token da interface do usuário [!DNL Target] para organizações habilitadas com [contas Business ID](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} e Autenticação Baseada em Política (PBA). (TGT-42590)
 
 ### Versão da plataforma do [!DNL Target] (quinta-feira, 27 de abril de 2022)
 

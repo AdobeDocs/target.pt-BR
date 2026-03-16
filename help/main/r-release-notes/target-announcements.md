@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
 workflow-type: tm+mt
 source-wordcount: '2049'
 ht-degree: 97%
@@ -17,7 +17,8 @@ ht-degree: 97%
 
 Avisos e informações sobre eventos do [!DNL Adobe Target], incluindo sessões de coffee-break do [!DNL Target], séries de webinários do [!DNL Target], sessões de construção de habilidades do [!DNL Target], bate-papos com desenvolvedores e muito mais. Se estiverem disponíveis, serão incluídos links para gravações anteriores.
 
-<!-- ## Adobe Target Community Q&A Coffee Break
+<!--
+## Adobe Target Community Q&A Coffee Break
 
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
@@ -36,7 +37,8 @@ If you missed the original webinar, [listen to the recording](https://experience
 
 Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=pt){target=_blank}."
 
-+++ -->
++++
+-->
 
 ## Gravações de webinários antigos e sessões do construtor de habilidades
 
@@ -142,7 +144,7 @@ A automação da experimentação e personalização continua a impulsionar as m
 
 ### Construtores de habilidades do [!DNL Adobe Target] - Otimização da experiência móvel (6 de setembro de 2022)
 
-As experiências móveis estão promovendo a inovação da maneira como as equipes de marketing e engenharia aproveitam estratégias lideradas por produtos para a personalização entre canais na Web e no aplicativo. Junte-se à sessão Construtores de habilidades da [!DNL Adobe] e saiba como o [!DNL Adobe Target] desbloqueia novos potenciais de envolvimento e crescimento de receita para profissionais de marketing, desenvolvedores e proprietários de produtos, o que resulta na criação de comunidades de produto prósperas.
+As experiências móveis estão promovendo a inovação da maneira como as equipes de marketing e engenharia aproveitam estratégias lideradas por produtos para a personalização entre canais na Web e no aplicativo. Junte-se à sessão Construtores de habilidades da [!DNL Adobe] e saiba como o [!DNL Adobe Target] desbloqueia novos potenciais de engajamento e crescimento de receita para profissionais de marketing, desenvolvedores e proprietários de produtos, o que resulta na criação de comunidades de produto prósperas.
 
 * [Link da gravação](https://video.tv.adobe.com/v/347360){target=_blank}
 

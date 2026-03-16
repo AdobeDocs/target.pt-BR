@@ -4,10 +4,10 @@ description: Saiba como criar ofertas de redirecionamento para orientar os naveg
 title: Como Criar Ofertas De Redirecionamento?
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: e42173fb4fe48e1ba74daaa8bae37da5799f9dc7
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 25%
+source-wordcount: '1080'
+ht-degree: 23%
 
 ---
 
@@ -47,7 +47,7 @@ A oferta de redirecionamento executa um código JavaScript para redirecionar o n
 
    >[!NOTE]
    >
-   >O redirecionamento de ofertas resulta em um loop infinito se o URL de redirecionamento também qualifica o usuário para a mesma atividade. Certifique-se de que o usuário não se requalifica para a atividade após ser redirecionado.
+   >O redirecionamento de ofertas resulta em um loop infinito se o URL de redirecionamento também qualifica o usuário para a mesma atividade. Para evitar isso, adicione um parâmetro de consulta à URL de redirecionamento (por exemplo, `?redirect=true`). Em seguida, no público-alvo da atividade ou na regra de modelo, verifique se esse parâmetro de consulta não está presente. Isso garante que o usuário não se requalifique para a atividade após ser redirecionado.
 
 1. Selecione as opções desejadas para personalizar sua oferta de redirecionamento:
 
@@ -78,7 +78,7 @@ A oferta de redirecionamento executa um código JavaScript para redirecionar o n
 
    >[!NOTE]
    >
-   >O redirecionamento de ofertas resulta em um loop infinito se o URL de redirecionamento também qualifica o usuário para a mesma atividade. Certifique-se de que o usuário não se requalifica para a atividade após ser redirecionado.
+   >O redirecionamento de ofertas resulta em um loop infinito se o URL de redirecionamento também qualifica o usuário para a mesma atividade. Para evitar isso, adicione um parâmetro de consulta à URL de redirecionamento (por exemplo, `?redirect=true`). Em seguida, no público-alvo da atividade ou na regra de modelo, verifique se esse parâmetro de consulta não está presente. Isso garante que o usuário não se requalifique para a atividade após ser redirecionado.
 
 1. Selecione as opções desejadas para personalizar sua oferta de redirecionamento:
 
