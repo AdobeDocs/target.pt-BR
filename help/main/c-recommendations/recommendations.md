@@ -2,7 +2,7 @@
 keywords: Recomendações, critérios do Recomendações, algoritmos do recommendations, atividade do recommendations, critérios, direcionamento do recommendations
 description: Saiba mais sobre as atividades do Recomendações no Adobe  [!DNL Target]  que exibem automaticamente conteúdo que pode interessar a seus clientes, com base na atividade anterior do usuário ou outros algoritmos.
 title: O que é o  [!DNL Target]  Recomendações?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 source-git-commit: 52025f1128e8c736bd1cb4eff871b65a00ec1c98
@@ -18,7 +18,7 @@ As atividades do [!DNL Adobe Target Recommendations] exibem automaticamente prod
 
 >[!NOTE]
 >
->As atividades do [!DNL Recommendations] estão disponíveis como parte da [solução Target Premium. &#x200B;](/help/main/c-intro/intro.md#premium) Não estão disponíveis no [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
+>As atividades do [!DNL Recommendations] estão disponíveis como parte da [solução Target Premium. ](/help/main/c-intro/intro.md#premium) Não estão disponíveis no [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
 >
 >Se você tiver o [!DNL Recommendations Classic], consulte [Atividades do Recommendations Classic versus Recomendações no Target Premium](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) para obter mais informações sobre as duas soluções.
 
@@ -33,7 +33,7 @@ O [!DNL Recommendations] ajuda a:
 
 A ilustração a seguir mostra as recomendações em página da Web:
 
-![velocity_example image](assets/velocity_example.png)
+![imagem velocity_example](assets/velocity_example.png)
 
 Uma recomendação determina como um produto é sugerido a um visitante, dependendo das atividades dele no site. Por exemplo:
 
@@ -64,13 +64,13 @@ Antes de começar a usar o [!DNL Recommendations], é útil se familiarizar com 
 
 ## Vídeo de treinamento: tipos de atividade ![Selo de visão geral](/help/main/assets/overview.png)
 
-Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/Premium]. [!DNL Recommendations] is discussed beginning at 7:20.
+Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/Premium]. [!DNL Recommendations] é discutido a partir de 7:20.
 
 * Descreva os tipos de atividade incluídos no [!DNL Adobe Target]
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/31290?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 <!--
 ## Adobe Target Basics Webinar: Introduction to Recommendations ![Tutorial badge](/help/main/assets/tutorial.png) {#intro-to-recs}

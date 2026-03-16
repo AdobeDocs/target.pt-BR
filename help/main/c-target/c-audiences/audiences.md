@@ -123,4 +123,4 @@ Este vídeo inclui informações sobre o uso de públicos-alvo.
 * Segmente uma atividade para um público-alvo
 * Use públicos-alvo para relatórios passivos em uma atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/30984?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
