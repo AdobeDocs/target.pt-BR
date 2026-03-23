@@ -4,8 +4,7 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-hold: true
-source-git-commit: 44d9cd4de7ff2064e6005a4d7ece7f37194fbf2f
+source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
 workflow-type: tm+mt
 source-wordcount: '64670'
 ht-degree: 52%
@@ -101,7 +100,7 @@ Consulte o [Painel do Adobe Target Insights](/help/main/c-activities/insights-da
 
 +++Ver detalhes
 
-* **recurso de gerenciamento de URLs Incluídos na lista de permissões.incluir na lista de permissões** Um novo recurso de gerenciamento &quot;URLs migradas&quot; foi adicionado à seção [!UICONTROL Administration] para gerenciar padrões de URL de oferta remota permitidos. Incluir na lista de permissões Esse recurso inclui a capacidade de exibir URLs classificados em uma tabela, pesquisar e filtrar URLs, adicionar novos URLs por meio de uma caixa de diálogo modal e excluir URLs com confirmação. O recurso ajuda os clientes a controlar quais URLs podem ser usados para ofertas remotas, melhorando a segurança e a conformidade. (TGT-54486)
+* **recurso de gerenciamento de URLs Incluídos na lista de permissões.** Um novo recurso de gerenciamento &quot;URLs migradas&quot; foi adicionado à seção [!UICONTROL Administration] para gerenciar padrões de URL de oferta remota permitidos. Esse recurso inclui a capacidade de exibir URLs classificados em uma tabela, pesquisar e filtrar URLs, adicionar novos URLs por meio de uma caixa de diálogo modal e excluir URLs com confirmação. O recurso ajuda os clientes a controlar quais URLs podem ser usados para ofertas remotas, melhorando a segurança e a conformidade. (TGT-54486)
 
 +++
 

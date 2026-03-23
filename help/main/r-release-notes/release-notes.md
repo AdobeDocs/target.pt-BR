@@ -6,11 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
-source-git-commit: 44d9cd4de7ff2064e6005a4d7ece7f37194fbf2f
+source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 41%
+source-wordcount: '516'
+ht-degree: 47%
 
 ---
 
@@ -56,13 +55,6 @@ Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobr
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++Ver detalhes
-
-* **As alterações do VEC não são refletidas nos sites que usam o DOM de Sombra (Salesforce Lightning Web Components).** Essa correção resolve um problema em que as alterações feitas no Adobe Target (como alterações de cor do CTA) não eram salvas ou refletidas no site ativo de sites baseados no Salesforce usando o LWC (Componentes Web Lightning). O CMS não aceitava atualizações de atividades do Target e esse problema ocorria consistentemente em testes A/B e outros tipos de atividades. (TGT-54059)
-
-+++
 
 ## Notas de versão adicionais e detalhes da versão
 
