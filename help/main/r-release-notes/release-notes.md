@@ -6,10 +6,11 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
+hold: true
+source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 47%
+source-wordcount: '447'
+ht-degree: 53%
 
 ---
 
@@ -29,32 +30,17 @@ Para atualizações com limite de tempo relacionadas ao [!DNL Adobe Target] e à
 
 Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobre atualização da interface](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.3.2 (10 de março de 2026)
+## [!DNL Target Standard/Premium] 26.3.4 (19 de março de 2026)
 
-**Atividades**
-
-+++Ver detalhes
-
-* **As alterações da oferta direta na experiência não foram salvas.** Essa correção resolve um problema em que as modificações feitas nas ofertas diretas em uma experiência de atividade não eram salvas. Anteriormente, quando os usuários abriam uma oferta direta, faziam alterações e as salvavam, as alterações apareciam refletidas inicialmente, mas eram perdidas ao reabrir a oferta. A correção garante que as alterações nas ofertas diretas sejam salvas corretamente e persistam quando a oferta for reaberta. (TGT-54653)
-
-+++
-
-**Implementação**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalhes
 
-* **Adicionar alternância de gerenciamento de cintilação na tela de Implementação.** Um novo botão de alternância foi adicionado à tela [!UICONTROL Implementation] para controlar a habilitação da configuração de gerenciamento de cintilação. Essa opção permite que os administradores configurem o gerenciamento de cintilação diretamente na tela de Implementação. (TGT-52247)
+* **Seleção do modo de Design/Navegação visível no editor da Web do Visual Experience Composer.** Essa correção resolve um problema em que a alternância entre os modos Design, Procurar e Visualizar funcionava corretamente, mas o modo ativo não era claramente indicado na interface. O modo selecionado agora está visivelmente realçado para que você possa ver em qual modo está. (TGT-54790)
+
+* **URLs de rede privada no Visual Experience Composer (Chrome).** O Chrome pode bloquear páginas em uma rede privada, a menos que o acesso à rede local seja permitido. O **[!UICONTROL Visual Experience Composer]** agora solicita essa permissão no enquadramento que o Experience Cloud usa, para que o Chrome possa mostrar um prompt de permissão em vez de falhar silenciosamente. Após permitir o acesso, URLs internos podem ser carregados no VEC quando o ambiente permitir. (TGT-54346)
 
 +++
-
-**Visão geral**
-
-+++Ver detalhes
-
-* **Mostrar nome completo do público-alvo e da experiência na página Visão geral.** Esse aprimoramento atualiza a página [!UICONTROL Overview] para exibir o nome completo dos públicos-alvo e experiências. Anteriormente, os nomes longos eram truncados e não eram totalmente visíveis, exigindo que os usuários clicassem três vezes para selecionar todo o texto e ver o nome completo. A atualização garante que os nomes completos de público-alvo e experiência estejam visíveis, facilitando para os usuários a identificação e a análise das configurações de atividade. (TGT-53323)
-
-+++
-
 
 ## Notas de versão adicionais e detalhes da versão
 

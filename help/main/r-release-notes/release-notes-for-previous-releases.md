@@ -4,9 +4,9 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
+source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
 workflow-type: tm+mt
-source-wordcount: '64670'
+source-wordcount: '64864'
 ht-degree: 52%
 
 ---
@@ -22,6 +22,32 @@ As notas de versão estão listadas em ordem decrescente por mês e ano da vers�
 >Consulte [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2026
+
+## [!DNL Target Standard/Premium] 26.3.2 (10 de março de 2026)
+
+**Atividades**
+
++++Ver detalhes
+
+* **As alterações da oferta direta na experiência não foram salvas.** Essa correção resolve um problema em que as modificações feitas nas ofertas diretas em uma experiência de atividade não eram salvas. Anteriormente, quando os usuários abriam uma oferta direta, faziam alterações e as salvavam, as alterações apareciam refletidas inicialmente, mas eram perdidas ao reabrir a oferta. A correção garante que as alterações nas ofertas diretas sejam salvas corretamente e persistam quando a oferta for reaberta. (TGT-54653)
+
++++
+
+**Implementação**
+
++++Ver detalhes
+
+* **Adicionar alternância de gerenciamento de cintilação na tela de Implementação.** Um novo botão de alternância foi adicionado à tela [!UICONTROL Implementation] para controlar a habilitação da configuração de gerenciamento de cintilação. Essa opção permite que os administradores configurem o gerenciamento de cintilação diretamente na tela de Implementação. (TGT-52247)
+
++++
+
+**Visão geral**
+
++++Ver detalhes
+
+* **Mostrar nome completo do público-alvo e da experiência na página Visão geral.** Esse aprimoramento atualiza a página [!UICONTROL Overview] para exibir o nome completo dos públicos-alvo e experiências. Anteriormente, os nomes longos eram truncados e não eram totalmente visíveis, exigindo que os usuários clicassem três vezes para selecionar todo o texto e ver o nome completo. A atualização garante que os nomes completos de público-alvo e experiência estejam visíveis, facilitando para os usuários a identificação e a análise das configurações de atividade. (TGT-53323)
+
++++
 
 ### [!DNL Target Standard/Premium] 26.3.1 (3 de março de 2026)
 
