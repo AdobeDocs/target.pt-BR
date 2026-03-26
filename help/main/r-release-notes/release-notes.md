@@ -6,11 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
-source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
+source-git-commit: d1517ad557dc63956346bf36fc2a001c848eb6ce
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 53%
+source-wordcount: '378'
+ht-degree: 62%
 
 ---
 
@@ -30,15 +29,14 @@ Para atualizações com limite de tempo relacionadas ao [!DNL Adobe Target] e à
 
 Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobre atualização da interface](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.3.4 (19 de março de 2026)
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+## [!DNL Target Standard/Premium] 26.3.7 (26 de março de 2026)
+
+**Públicos-alvo**
 
 +++Ver detalhes
 
-* **Seleção do modo de Design/Navegação visível no editor da Web do Visual Experience Composer.** Essa correção resolve um problema em que a alternância entre os modos Design, Procurar e Visualizar funcionava corretamente, mas o modo ativo não era claramente indicado na interface. O modo selecionado agora está visivelmente realçado para que você possa ver em qual modo está. (TGT-54790)
-
-* **URLs de rede privada no Visual Experience Composer (Chrome).** O Chrome pode bloquear páginas em uma rede privada, a menos que o acesso à rede local seja permitido. O **[!UICONTROL Visual Experience Composer]** agora solicita essa permissão no enquadramento que o Experience Cloud usa, para que o Chrome possa mostrar um prompt de permissão em vez de falhar silenciosamente. Após permitir o acesso, URLs internos podem ser carregados no VEC quando o ambiente permitir. (TGT-54346)
+* **Precisão do rótulo de origem do público na interface de Públicos.** Correção de um problema em que públicos-alvo provenientes do destino do Adobe Target v2 no Adobe Experience Platform podiam aparecer com **Adobe Experience Cloud** como origem em vez de **Adobe Experience Platform**. Essa atualização melhora a consistência do rótulo de origem ao filtrar e revisar públicos. (TGT-54802)
 
 +++
 
