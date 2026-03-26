@@ -4,9 +4,9 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 45225233e9eb2441d657402fe6309d927329aa5a
+source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
 workflow-type: tm+mt
-source-wordcount: '64938'
+source-wordcount: '65113'
 ht-degree: 52%
 
 ---
@@ -22,6 +22,28 @@ As notas de versão estão listadas em ordem decrescente por mês e ano da vers�
 >Consulte [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2026
+
+## [!DNL Target Standard/Premium] 26.3.6 (23 de março de 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalhes
+
+* **Tela cinza intermitente após a autenticação na nova interface do usuário do Visual Experience Composer.** Correção de um problema em que os usuários podiam ver uma tela cinza intermitentemente após entrarem no novo Visual Experience Composer, o que impedia mais edições. Essa atualização melhora a confiabilidade do carregamento pós-autenticação. (TGT-54626)
+
++++
+
+## [!DNL Target Standard/Premium] 26.3.4 (19 de março de 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalhes
+
+* **Seleção do modo de Design/Navegação visível no editor da Web do Visual Experience Composer.** Essa correção resolve um problema em que a alternância entre os modos Design, Procurar e Visualizar funcionava corretamente, mas o modo ativo não era claramente indicado na interface. O modo selecionado agora está visivelmente realçado para que você possa ver em qual modo está. (TGT-54790)
+
+* **URLs de rede privada no Visual Experience Composer (Chrome).** O Chrome pode bloquear páginas em uma rede privada, a menos que o acesso à rede local seja permitido. O **[!UICONTROL Visual Experience Composer]** agora solicita essa permissão no enquadramento que o Experience Cloud usa, para que o Chrome possa mostrar um prompt de permissão em vez de falhar silenciosamente. Após permitir o acesso, URLs internos podem ser carregados no VEC quando o ambiente permitir. (TGT-54346)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.2 (10 de março de 2026)
 
@@ -1705,7 +1727,7 @@ Todos os novos clientes do [!DNL Adobe Experience Platform Web SDK] terão essa 
 >
 >Se não conseguir concluir sua análise de implementação e resolver qualquer problema até 3 de fevereiro de 2025, você poderá solicitar uma extensão única de seis meses. Verifique se sua solicitação foi enviada até 31 de janeiro de 2025. O Adobe analisará e decidirá sua solicitação.
 
-Para se beneficiar dessa otimização em caso de renderização manual de propostas, revise seu [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} para garantir que você esteja enviando notificações após renderizar experiências manualmente ou ao usar o método `applyPropositions` (ou a ação [!DNL Launch] correspondente como auxiliar) para renderizar experiências.
+Para se beneficiar dessa otimização em caso de renderização manual de propostas, revise seu [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} para garantir que você esteja enviando notificações após renderizar experiências manualmente ou ao usar o método `applyPropositions` (ou a ação [!DNL Launch] correspondente como auxiliar) para renderizar experiências.
 
 Os cenários mais comuns quando as experiências são renderizadas manualmente incluem:
 

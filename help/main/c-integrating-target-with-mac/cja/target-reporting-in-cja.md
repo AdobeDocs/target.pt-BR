@@ -4,7 +4,7 @@ description: Use os [!DNL Target] relatórios [!DNL Adobe Customer Journey Analy
 title: O que é  [!DNL Target] um relatório em  [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
+source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 40%
@@ -39,7 +39,7 @@ Considere as informações a seguir antes de usar a integração [!DNL Customer 
 * Você deve usar uma fonte de relatórios ou outra. Não é possível coletar dados de uma única atividade para diversas fontes de relatórios.
 * Ao definir o [!DNL Customer Journey Analytics] como fonte de relatórios, será solicitado que você especifique a sandbox para relatórios. Durante a configuração, somente as sandboxes às quais você tem acesso serão exibidas.
 * Quaisquer atividades existentes do [!DNL Target] continuam a usar a coleta de dados do [!DNL Target] e não são afetadas pela habilitação dessa integração.
-* Para usar essa integração, o método de implementação preferido é ter [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/pt-br/docs/experience-platform){target=_blank} e [!DNL Target] implementados através de [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
+* Para usar essa integração, o método de implementação preferido é ter [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/pt-br/docs/experience-platform){target=_blank} e [!DNL Target] implementados através de [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}.
 
   Se você não tiver o [!DNL Adobe Experience Platform Web SDK] implementado, também poderá criar uma [[!DNL Adobe Analytics] conexão de origem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics) para trazer os dados para [!DNL Adobe Experience Platform]. Se você planeja usar esse método, selecione um conjunto de relatórios [!DNL Analytics] junto com a sandbox [!DNL Adobe Experience Platform] que você usa com [!DNL Customer Journey Analytics].
 
@@ -53,7 +53,7 @@ Considere as informações a seguir antes de usar a integração [!DNL Customer 
 
 ## Tipos de atividades aceitas {#supported-activities}
 
-Os seguintes tipos de atividades são suportados ao usar a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} ou a biblioteca JavaScript [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank}:
+Os seguintes tipos de atividades são suportados ao usar a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} ou a biblioteca JavaScript [at.js](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank}:
 
 | Tipos de atividades  | Suportado? |
 |--- |--- |
@@ -63,7 +63,7 @@ Os seguintes tipos de atividades são suportados ao usar a [Adobe Experience Pla
 | [Direcionamento de experiência (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Sim |
 | [Teste multivariado (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Sim |
 | [Atividade de Automated Personalization (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Não |
-| [Atividade do Recommendations](/help/main/c-recommendations/recommendations.md) | Sim |
+| [Atividade do Recomendações](/help/main/c-recommendations/recommendations.md) | Sim |
 
 ## Criar uma atividade que use o [!DNL Customer Journey Analytics] como fonte de relatórios
 
