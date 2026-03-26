@@ -5,7 +5,7 @@ title: O Que É Uma Atividade [!UICONTROL Auto-Target]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+source-git-commit: 5cd8cd0d25dea28f1dd46a59fdcaa4cfc48d9969
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 18%
@@ -163,3 +163,4 @@ Para [!UICONTROL Auto-Target], as regras básicas podem ser usadas para entender
 ## Relatórios e [!UICONTROL Auto-Target] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
 Para obter mais informações, consulte [Relatórios e Direcionamento automático](/help/main/c-activities/auto-target/reporting-and-auto-target.md).
+
