@@ -6,10 +6,11 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d1517ad557dc63956346bf36fc2a001c848eb6ce
+hold: true
+source-git-commit: cad8c365028b28bd9349d2d283370e2c8a750180
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 62%
+source-wordcount: '749'
+ht-degree: 35%
 
 ---
 
@@ -29,6 +30,58 @@ Para atualizações com limite de tempo relacionadas ao [!DNL Adobe Target] e à
 
 Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobre atualização da interface](/help/main/c-intro/updated-ui-faq.md).
 
+
+## [!DNL Target Standard/Premium] 26.4.1 (sexta-feira, 2 de abril de 2026)
+
+**Atividades**
+
++++Ver detalhes
+
+* **Atributos de público-alvo visíveis na exibição Atividades.** Correção de um problema em que os detalhes da regra de público-alvo visualizados de um **[!UICONTROL Activity]** não exibiam determinados atributos exibidos ao abrir o mesmo público-alvo da seção **[!UICONTROL Audiences]**. (TGT-54742)
+
+* **O código personalizado é preservado quando aplicado a modos de exibição adicionais.** Correção de um problema em que o código personalizado aplicado a um **[!UICONTROL View]** poderia ser removido ao adicionar ou salvar um código personalizado para outro **[!UICONTROL View]** no mesmo **[!UICONTROL Activity]**. (TGT-53933)
+
+* **Exportar CSV nas páginas de lista de Atividades e Públicos.** Adicionada uma ação **[!UICONTROL Export CSV]** para que você possa exportar listas de atividades da interface do usuário, inclusive quando os filtros são aplicados, sem depender exclusivamente de APIs para exportações de rotina. (TGT-51466)
+
+* **Modificações de experiência sinalizadas quando seletores não são encontrados.** Modificações de experiência agora executam uma verificação de existência de seletor; quando um seletor não é encontrado na página, a modificação é sinalizada como inválida. (TGT-54815)
+
+* **[!UICONTROL Automated personalization]atividades.** Correção de problemas de interface e carregamento de atividade que impediam os usuários de criar, editar ou gerenciar com confiança as atividades de Personalização automatizada, o que bloqueava a configuração da campanha e atrasava os casos de uso de personalização. (TGT-54421)
+
++++
+
+**Públicos-alvo**
+
++++Ver detalhes
+
+* **Nome e descrição do público-alvo visíveis ao criar públicos-alvo de uma atividade.** Correção de um problema em que os campos de público-alvo **[!UICONTROL Name]** e **[!UICONTROL Description]** não se destacavam claramente ao criar ou editar um público-alvo a partir do fluxo de atividade, em comparação à criação do público-alvo diretamente em **[!UICONTROL Audiences]**. (TGT-54837)
+
++++
+
+**Insights**
+
++++Ver detalhes
+
+* **[!UICONTROL Live Activities]conta com Insights.** Correção de um problema em que a métrica **[!UICONTROL Live Activities]** no painel de Insights podia relatar um total maior do que o número de atividades que apareciam como ativas em **[!UICONTROL All Activities]**. (TGT-54788)
+
++++
+
+**Recomendações**
+
++++Ver detalhes
+
+* **Listas de ID longas em [!UICONTROL Global Exclusions].** Correção de um problema em que a colagem ou a inserção de uma longa lista de IDs em **[!UICONTROL Global Exclusions]** poderia ser truncada na interface atualizada em comparação com a herdada, causando uma lista de exclusão incompleta. (TGT-54422)
+
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++Ver detalhes
+
+* **Indicador de status do Enhanced Experience Composer (EEC) no [!UICONTROL Visual Experience Composer].** O indicador EEC indica se o Enhanced Experience Composer está ativado. Sua apresentação foi revisada para não se parecer mais com um botão interativo, pois serve apenas como uma exibição de status não interativa. (TGT-54828)
+
+* **Painel esquerdo recolhível em [!UICONTROL Visual Experience Composer].** O painel esquerdo agora pode ser recolhido enquanto uma atividade estiver aberta para edição. Isso melhora o acesso a **[!UICONTROL Components]** e **[!UICONTROL Properties]** para atividades que incluem vários públicos e páginas, inclusive em exibições menores. (TGT-54269)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.7 (26 de março de 2026)
 
