@@ -87,7 +87,7 @@ Para problemas de entrega de conteúdo, consulte [Solucionar problemas de entreg
 
 ### Em caso de interrupção  {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
-Se você suspeitar que haja uma interrupção, verifique primeiro a [página Status do Sistema da Experience Cloud](https://status.adobe.com/pt) ([!DNL https://status.adobe.com]) Ela possui um registro de todas as interrupções, incidentes e manutenção das Soluções da Adobe Experience Cloud, incluindo o Target, e inclui as últimas atualizações da nossa equipe de Operações Técnicas. Se precisar de mais ajuda, verifique seu conhecimento sobre os seguintes itens além das informações listadas abaixo ao entrar em contato com o Atendimento ao cliente:
+Se você suspeitar que haja uma interrupção, verifique primeiro a [página Status do Sistema da Experience Cloud](https://status.adobe.com/pt) ([!DNL https://status.adobe.com/pt-br]) Ela possui um registro de todas as interrupções, incidentes e manutenção das Soluções da Adobe Experience Cloud, incluindo o Target, e inclui as últimas atualizações da nossa equipe de Operações Técnicas. Se precisar de mais ajuda, verifique seu conhecimento sobre os seguintes itens além das informações listadas abaixo ao entrar em contato com o Atendimento ao cliente:
 
 * O horário do início da interrupção
 * Explicação sobre o que está acontecendo

@@ -4,9 +4,9 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
+source-git-commit: 3a0f3a8a7cdf20cfc92b663bb148a334853350e1
 workflow-type: tm+mt
-source-wordcount: '65113'
+source-wordcount: '65169'
 ht-degree: 52%
 
 ---
@@ -22,6 +22,16 @@ As notas de versão estão listadas em ordem decrescente por mês e ano da vers�
 >Consulte [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2026
+
+## [!DNL Target Standard/Premium] 26.3.7 (26 de março de 2026)
+
+**Públicos-alvo**
+
++++Ver detalhes
+
+* **Precisão do rótulo de origem do público na interface de Públicos.** Correção de um problema em que públicos-alvo provenientes do destino do Adobe Target v2 no Adobe Experience Platform podiam aparecer com **Adobe Experience Cloud** como origem em vez de **Adobe Experience Platform**. Essa atualização melhora a consistência do rótulo de origem ao filtrar e revisar públicos. (TGT-54802)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.6 (23 de março de 2026)
 

@@ -5,14 +5,14 @@ title: Como visualizar e iniciar uma atividade do Recommendations?
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: ed400ad0ecf62a74283d2f24038bacab6a275461
+source-git-commit: 804953ecd9e5d437b513180e3fa632a0fd495ec2
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 15%
 
 ---
 
-# Pré-visualizar e iniciar atividade do Recommendations
+# Pré-visualizar e iniciar atividade do Recomendações
 
 Depois de criar sua atividade do [!UICONTROL Recommendations], [!UICONTROL A/B Test] ou [!UICONTROL Experience Targeting] (XT) contendo [ofertas do Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md), você pré-visualizará suas recomendações para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O [!DNL Target Recommendations] oferece várias maneiras de visualizar suas recomendações.
 

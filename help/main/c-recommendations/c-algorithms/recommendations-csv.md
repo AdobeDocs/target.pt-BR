@@ -5,7 +5,7 @@ title: Como faço para carregar critérios personalizados no  [!DNL Recommendati
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 9ab594394fab977b6bf83b5c6f5e3cb91b71fe80
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 33%
@@ -44,13 +44,13 @@ As etapas a seguir consideram que você acesse a tela [!UICONTROL Create New Cri
 
 1. Na seção **[!UICONTROL Upload CSV]**, selecione o **[!UICONTROL Location]** do arquivo CSV.
 
-O arquivo CSV deve estar formatado corretamente para ser carregado com sucesso. Clique em **[!UICONTROL Download the CSV template]** para obter um arquivo CSV formatado corretamente.
+   O arquivo CSV deve estar formatado corretamente para ser carregado com sucesso. Clique em **[!UICONTROL Download the CSV template]** para obter um arquivo CSV formatado corretamente.
 
-Você tem duas opções de local:
+   Você tem duas opções de local:
 
-    * **FTP:** Para carregar seu arquivo CSV de um servidor FTP, selecione **[!UICONTROL FTP]** e insira as informações necessárias. Você pode usar SSL, que usa o protocolo FTPS para transferir seu arquivo CSV em segurança.
-    
-    * **URL:** Para carregar seu arquivo CSV de uma URL, selecione **[!UICONTROL URL]** e insira uma URL de feed.
+   * **FTP:** Para carregar seu arquivo CSV de um servidor FTP, selecione **[!UICONTROL FTP]** e insira as informações necessárias. Você pode usar SSL, que usa o protocolo FTPS para transferir seu arquivo CSV em segurança.
+
+   * **URL:** Para carregar seu arquivo CSV de uma URL, selecione **[!UICONTROL URL]** e insira uma URL de feed.
 
 1. Clique em **[!UICONTROL Create]**.
 
