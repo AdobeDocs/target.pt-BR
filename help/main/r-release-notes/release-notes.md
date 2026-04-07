@@ -6,11 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
-source-git-commit: cad8c365028b28bd9349d2d283370e2c8a750180
+source-git-commit: ada5803424b4930d91dda735901390fe5073932f
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 35%
+source-wordcount: '660'
+ht-degree: 39%
 
 ---
 
@@ -30,6 +29,20 @@ Para atualizações com limite de tempo relacionadas ao [!DNL Adobe Target] e à
 
 Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobre atualização da interface](/help/main/c-intro/updated-ui-faq.md).
 
+<!--
+## [!DNL Target Standard/Premium] 26.4.2 (April 7, 2026)
+
+**Activities**
+
++++See details
+
+* **Custom code preserved when applied to additional views.** Fixed an issue where custom code applied to one **[!UICONTROL View]** could be removed when adding or saving custom code for another **[!UICONTROL View]** in the same **[!UICONTROL Activity]**. (TGT-53933)
+
+* **Reporting metrics column order.** The updated [!DNL Target] interface allows reporting metrics to be reordered without clearing the full selection and re-adding metrics in sequence. Previously, users were required to unselect all metrics and select them again in the desired order, which was time-consuming when many metrics were enabled and when adjusting column placement to limit horizontal scrolling. (TGT-53044)
+
++++
+
+-->
 
 ## [!DNL Target Standard/Premium] 26.4.1 (sexta-feira, 2 de abril de 2026)
 
@@ -38,8 +51,6 @@ Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobr
 +++Ver detalhes
 
 * **Atributos de público-alvo visíveis na exibição Atividades.** Correção de um problema em que os detalhes da regra de público-alvo visualizados de um **[!UICONTROL Activity]** não exibiam determinados atributos exibidos ao abrir o mesmo público-alvo da seção **[!UICONTROL Audiences]**. (TGT-54742)
-
-* **O código personalizado é preservado quando aplicado a modos de exibição adicionais.** Correção de um problema em que o código personalizado aplicado a um **[!UICONTROL View]** poderia ser removido ao adicionar ou salvar um código personalizado para outro **[!UICONTROL View]** no mesmo **[!UICONTROL Activity]**. (TGT-53933)
 
 * **Exportar CSV nas páginas de lista de Atividades e Públicos.** Adicionada uma ação **[!UICONTROL Export CSV]** para que você possa exportar listas de atividades da interface do usuário, inclusive quando os filtros são aplicados, sem depender exclusivamente de APIs para exportações de rotina. (TGT-51466)
 
@@ -73,7 +84,7 @@ Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobr
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Ver detalhes
 
@@ -83,15 +94,6 @@ Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobr
 
 +++
 
-## [!DNL Target Standard/Premium] 26.3.7 (26 de março de 2026)
-
-**Públicos-alvo**
-
-+++Ver detalhes
-
-* **Precisão do rótulo de origem do público na interface de Públicos.** Correção de um problema em que públicos-alvo provenientes do destino do Adobe Target v2 no Adobe Experience Platform podiam aparecer com **Adobe Experience Cloud** como origem em vez de **Adobe Experience Platform**. Essa atualização melhora a consistência do rótulo de origem ao filtrar e revisar públicos. (TGT-54802)
-
-+++
 
 ## Notas de versão adicionais e detalhes da versão
 
