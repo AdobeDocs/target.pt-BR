@@ -4,10 +4,10 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 3a0f3a8a7cdf20cfc92b663bb148a334853350e1
+source-git-commit: ee66ca185cc1d2c4659134d038add2e75026ad0d
 workflow-type: tm+mt
-source-wordcount: '65169'
-ht-degree: 52%
+source-wordcount: '65505'
+ht-degree: 51%
 
 ---
 
@@ -22,6 +22,56 @@ As notas de versão estão listadas em ordem decrescente por mês e ano da vers�
 >Consulte [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2026
+
+## [!DNL Target Standard/Premium] 26.4.1 (sexta-feira, 2 de abril de 2026)
+
+**Atividades**
+
++++Ver detalhes
+
+* **Atributos de público-alvo visíveis na exibição Atividades.** Correção de um problema em que os detalhes da regra de público-alvo visualizados de um **[!UICONTROL Activity]** não exibiam determinados atributos exibidos ao abrir o mesmo público-alvo da seção **[!UICONTROL Audiences]**. (TGT-54742)
+
+* **Exportar CSV na página da lista de atividades.** Adicionada uma ação **[!UICONTROL Export CSV]** para que você possa exportar listas de atividades da interface do usuário, inclusive quando os filtros são aplicados, sem depender exclusivamente de APIs para exportações de rotina. (TGT-51466)
+
+* **Modificações de experiência sinalizadas quando seletores não são encontrados.** Modificações de experiência agora executam uma verificação de existência de seletor; quando um seletor não é encontrado na página, a modificação é sinalizada como inválida. (TGT-54815)
+
+* **[!UICONTROL Automated personalization]atividades.** Correção de problemas de interface e carregamento de atividade que impediam os usuários de criar, editar ou gerenciar com confiança as atividades de Personalização automatizada, o que bloqueava a configuração da campanha e atrasava os casos de uso de personalização. (TGT-54421)
+
++++
+
+**Públicos-alvo**
+
++++Ver detalhes
+
+* **Nome e descrição do público-alvo visíveis ao criar públicos-alvo de uma atividade.** Correção de um problema em que os campos de público-alvo **[!UICONTROL Name]** e **[!UICONTROL Description]** não se destacavam claramente ao criar ou editar um público-alvo a partir do fluxo de atividade, em comparação à criação do público-alvo diretamente em **[!UICONTROL Audiences]**. (TGT-54837)
+
++++
+
+**Insights**
+
++++Ver detalhes
+
+* **[!UICONTROL Live Activities]conta com Insights.** Correção de um problema em que a métrica **[!UICONTROL Live Activities]** no painel de Insights podia relatar um total maior do que o número de atividades que apareciam como ativas em **[!UICONTROL All Activities]**. (TGT-54788)
+
++++
+
+**Recomendações**
+
++++Ver detalhes
+
+* **Listas de ID longas em [!UICONTROL Global Exclusions].** Correção de um problema em que a colagem ou a inserção de uma longa lista de IDs em **[!UICONTROL Global Exclusions]** poderia ser truncada na interface atualizada em comparação com a herdada, causando uma lista de exclusão incompleta. (TGT-54422)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalhes
+
+* **Indicador de status do Enhanced Experience Composer (EEC) no [!UICONTROL Visual Experience Composer].** O indicador EEC indica se o Enhanced Experience Composer está ativado. Sua apresentação foi revisada para não se parecer mais com um botão interativo, pois serve apenas como uma exibição de status não interativa. (TGT-54828)
+
+* **Painel esquerdo recolhível em [!UICONTROL Visual Experience Composer].** O painel esquerdo agora pode ser recolhido enquanto uma atividade estiver aberta para edição. Isso melhora o acesso a **[!UICONTROL Components]** e **[!UICONTROL Properties]** para atividades que incluem vários públicos e páginas, inclusive em exibições menores. (TGT-54269)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.7 (26 de março de 2026)
 
