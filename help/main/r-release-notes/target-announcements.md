@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '2049'
 ht-degree: 97%
@@ -23,7 +23,7 @@ Avisos e informações sobre eventos do [!DNL Adobe Target], incluindo sessões 
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123?profile.language=pt){target=_blank}**
+* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
 +++Details
 
@@ -33,9 +33,9 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 * How a non-technical user or marketer is in full control of configuring and managing the algorithms.
 * How to use AI and custom features with recommendations to unlock use cases that have immense impact on reduction in clicks and increasing revenue.
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=pt){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=pt){target=_blank}."
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
 
 +++
 -->
@@ -60,13 +60,13 @@ Por que você deve participar:
 
   No centro da maturidade de personalização está a Inteligência artificial e o aprendizado de máquina. O [!DNL Adobe Target] utiliza essas tecnologias para entender o comportamento do usuário, prever preferências e adaptar dinamicamente o conteúdo. Ao aproveitar o potencial da IA e do aprendizado de máquina, saiba como as marcas estão indo além dos testes A/B estáticos e da personalização baseada em regras para fornecer experiências dinâmicas e contextualmente relevantes.
 
-  [Ouvir a gravação.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=pt){target=_blank}
+  [Ouvir a gravação.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **Recomendações de alto desempenho**
 
   Saiba como os algoritmos de recomendação podem ser um divisor de águas para as empresas, impulsionando engajamento e receita. De sugestões personalizadas de produtos a recomendações de conteúdo, a capacidade de orientar pessoas suavemente por meio de suas jornadas contribui diretamente para fornecer um grande crescimento dos negócios.
 
-  [Ouvir a gravação.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=pt#M3685){target=_blank}
+  [Ouvir a gravação.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **Como explorar a personalização alimentada por IA**
 
@@ -162,7 +162,7 @@ As experiências móveis estão promovendo a inovação da maneira como as equip
 
 ### Coleção do Chef: receitas para personalização (30 de agosto de 2022)
 
-Junte-se à equipe do [!DNL Adobe Target]  durante a apresentação de algumas novas ideias sobre como tirar o máximo proveito do Target. Baseado em nosso eBook mais recente, “Coleção do Chef: ideias para personalização”.
+Junte-se à equipe do [!DNL Adobe Target] [!DNL] durante a apresentação de algumas novas ideias sobre como tirar o máximo proveito do Target. Baseado em nosso eBook mais recente, “Coleção do Chef: ideias para personalização”.
 
 * [Link da gravação](https://video.tv.adobe.com/v/346970/){target=_blank}
 

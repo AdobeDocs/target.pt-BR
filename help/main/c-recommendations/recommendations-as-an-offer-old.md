@@ -1,19 +1,19 @@
 ---
-keywords: Recommendations, oferta
-description: Saiba como utilizar o Adobe Recommendations como uma oferta em atividades de Testes A/B (incluindo Alocação automática e Direcionamento automático) e Direcionamento de experiência (XT)
-title: Como uso o Recommendations como uma oferta em outros tipos de atividade?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+keywords: Recomendações, oferta
+description: Saiba como utilizar o Recomendações da Adobe como uma oferta em atividades de Testes A/B (incluindo Alocação automática e Direcionamento automático) e Direcionamento de experiência (XT)
+title: Como uso o Recomendações como oferta em outros tipos de atividade?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 47%
 
 ---
 
-# Recommendations como uma oferta
+# Recomendações como oferta
 
 Agora você pode incluir recomendações nas atividades de [!UICONTROL A/B Test] (incluindo [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target]) e [!UICONTROL Experience Targeting] (XT).
 
@@ -47,7 +47,7 @@ Para começar, crie uma atividade [!UICONTROL A/B Test] ou [!UICONTROL Experienc
    * Página de carrinho
    * Página de categoria
    * Página inicial
-   * Página de aterrissagem
+   * Página de destino
    * Página do produto
    * Página de resultados da pesquisa
    * Página de agradecimento
@@ -55,7 +55,7 @@ Para começar, crie uma atividade [!UICONTROL A/B Test] ou [!UICONTROL Experienc
 
 1. Clique em **[!UICONTROL Create Criteria]** ou selecione um [critério](/help/main/c-recommendations/c-algorithms/algorithms.md) existente e clique em **[!UICONTROL Next]** para exibir a caixa de diálogo [!UICONTROL Select Design].
 
-1. Clique em **[!UICONTROL Create Design]** ou selecione um [design](/help/main/c-recommendations/c-design-overview/design-overview.md) existente e clique em **[!UICONTROL &#x200B; Next]**.
+1. Clique em **[!UICONTROL Create Design]** ou selecione um [design](/help/main/c-recommendations/c-design-overview/design-overview.md) existente e clique em **[!UICONTROL  Next]**.
 
 1. Na caixa de diálogo [!UICONTROL Options], especifique o seguinte:
 
@@ -65,11 +65,11 @@ Para começar, crie uma atividade [!UICONTROL A/B Test] ou [!UICONTROL Experienc
 1. Clique em **[!UICONTROL Save]**.
 1. Termine de configurar a atividade de Teste A/B ou XT usado o fluxo de trabalho orientado de três partes.
 
-## Editar a configuração de uma oferta do recommendations
+## Editar a configuração de uma oferta do Recomendações
 
 1. No painel [!UICONTROL Recommendation], clique no ícone **[!UICONTROL Edit]** ( ![Ícone Editar](/help/main/assets/icons/Edit.svg) ) ao lado de [!UICONTROL Criteria Name], [!UICONTROL Design Name] ou [!UICONTROL Collection Name] para alterar o elemento.
 
-## Excluir uma oferta do recommendations
+## Excluir uma oferta do Recomendações
 
 1. Clique no ícone **[!UICONTROL Delete]** ( ![Ícone Excluir](/help/main/assets/icons/Delete.svg) ) na parte superior do painel [!UICONTROL Recommendation].
 

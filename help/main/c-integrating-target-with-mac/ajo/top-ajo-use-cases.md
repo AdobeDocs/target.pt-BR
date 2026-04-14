@@ -7,7 +7,7 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: a00b4732-2740-4b35-a1c5-1ef2d78fecff
-source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 6%
@@ -22,7 +22,7 @@ Saiba como implementar os principais casos de uso de otimização no [!DNL Adobe
 
 Para executar os seguintes casos de uso, é necessário o seguinte:
 
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
 * Esses casos de uso não exigem uma licença do [!DNL Adobe Target]. Estes casos de uso demonstram como executar tarefas familiares no [!DNL Target] usando o [!DNL Journey Optimizer], permitindo que você explore e atinja os mesmos resultados com o [!DNL Journey Optimizer].
 
 ## Casos de uso
