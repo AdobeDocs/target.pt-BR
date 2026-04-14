@@ -7,7 +7,7 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 1%
@@ -126,4 +126,4 @@ Para obter mais informações, consulte [Introdução à nova interface de relat
 >[!MORELIKETHIS]
 >
 >[Trabalhar com o web designer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} na *documentação do Journey Optimizer*
->&#x200B;>[Criar uma campanha](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} em *Tutoriais do Journey Optimizer*
+>[Criar uma campanha](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} em *Tutoriais do Journey Optimizer*
