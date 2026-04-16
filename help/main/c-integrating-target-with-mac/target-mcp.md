@@ -9,14 +9,24 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 214a359b7ab0f6f03355241353e8c3fb6d8bb479
+source-git-commit: 75f0dddcf65e9708aa564335974de1b6c3fd58ca
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '2267'
 ht-degree: 1%
 
 ---
 
 # Trabalhar com clientes MCP {#target-mcp}
+
+>[!BEGINSHADEBOX]
+
+Índice:
+
+* **[Trabalhar com clientes MCP](target-mcp.md)**
+* [Referência de ferramentas do servidor MCP](target-mcp-tools-reference.md)
+* [Auto-hospedar o servidor MCP](target-mcp-self-hosted.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -174,6 +184,73 @@ Os seguintes exemplos mostram como interagir com o servidor MCP [!DNL Adobe Targ
 | **Auditoria de implementação** | &quot;Qual versão da at.js está configurada e quais tokens de resposta estão ativos no momento?&quot; |
 | **Alterar auditoria** | &quot;Mostre-me todas as alterações feitas na atividade 98765 nos últimos 30 dias e quem as fez.&quot; |
 
+## Apresentação do caso de uso {#mcp-use-case-walkthroughs}
+
+As apresentações a seguir mostram como executar tarefas comuns usando prompts em linguagem natural com o servidor MCP [!DNL Adobe Target].
+
++++Criação de um teste A/B
+
+**Aviso:**
+> &quot;Crie um teste A/B chamado de &#39;Teste de imagem de herói de página inicial&#39; com duas experiências: &#39;Controle&#39; mostrando o herói atual e &#39;Variante&#39; mostrando uma nova imagem de herói com tema de verão. Direcione a mbox da página inicial.&quot;
+
+O assistente de IA usa a ferramenta `create_ab_activity` para criar a atividade com a configuração descrita. A ferramenta retorna a nova ID de atividade e uma confirmação das experiências criadas.
+
++++
+
++++Verificar o desempenho da atividade
+
+**Aviso:**
+> &quot;Mostrar as métricas de desempenho da minha atividade &#39;Otimização do Fluxo de Check-out&#39; dos últimos 30 dias.&quot;
+
+O assistente de IA usa `get_ab_performance_report` ou `get_xt_performance_report` (dependendo do tipo de atividade) para recuperar taxas de conversão, contagens de visitantes e outras métricas para a janela de tempo especificada.
+
++++
+
++++Gerenciamento de ofertas
+
+**Aviso:**
+> &quot;Crie uma oferta do HTML chamada &#39;Banner de Vendas de Verão&#39; com um banner promocional que diz &#39;20% de desconto em todos os itens de verão&#39;.&quot;
+
+O assistente de IA usa a ferramenta `create_target_offer` para criar a oferta com o conteúdo HTML especificado e retorna uma confirmação com a nova ID da oferta.
+
++++
+
++++Criação de um público
+
+**Aviso:**
+> &quot;Crie um público-alvo chamado &#39;Visitantes móveis da Califórnia&#39; que segmente os usuários em dispositivos móveis localizados na Califórnia.&quot;
+
+O assistente de IA usa a ferramenta `create_target_audience` com as regras de direcionamento apropriadas derivadas da sua descrição.
+
++++
+
++++Gerar links de visualização de QA
+
+**Aviso:**
+> &quot;Gere URLs de visualização para a atividade 12345 para que eu possa testar cada experiência.&quot;
+
+O assistente de IA usa a ferramenta `preview_activity` para gerar URLs clicáveis que ignoram o direcionamento do público-alvo, permitindo que você visualize cada experiência diretamente no navegador.
+
++++
+
++++Criação de uma atividade de direcionamento de experiência
+
+**Aviso:**
+> &quot;Crie uma atividade de Direcionamento de Experiência chamada &#39;Geo Personalization&#39; que mostra banners herói diferentes para visitantes de diferentes regiões.&quot;
+
+O assistente de IA usa o `create_xt_activity` para criar a atividade com mapeamento de experiência baseado em público-alvo de acordo com as regiões que você descreve.
+
++++
+
++++Agendamento de uma atividade
+
+**Aviso:**
+> &quot;Atualize a programação da atividade 12345 para iniciar em 1º de maio e terminar em 31 de maio.&quot;
+
+O assistente de IA usa a ferramenta `update_activity_schedule` para aplicar as novas datas de início e término à atividade.
+
++++
+
 ## Pré-requisitos {#mcp-prerequisites}
 
 Antes de conectar o servidor MCP [!DNL Adobe Target] ao seu cliente MCP, verifique o seguinte:
@@ -322,3 +399,11 @@ No mínimo, a função **Observador** concede acesso a todas as ferramentas de l
 
 O servidor MCP define o escopo das operações para a organização associada às suas credenciais autenticadas do Adobe IMS. Se você tiver acesso a várias propriedades nessa organização, poderá consultar por propriedade usando a ferramenta `list_target_properties` e filtrar as solicitações subsequentes de acordo.
 +++
+
+## Recursos relacionados {#mcp-related}
+
+* [Referência de ferramentas do servidor MCP](target-mcp-tools-reference.md)
+* [Hospedar automaticamente o servidor MCP [!DNL Adobe Target] ](target-mcp-self-hosted.md)
+* [Documentação do Model Context Protocol](https://modelcontextprotocol.io/introduction){target="_blank"}
+* [[!DNL Adobe Target] Referência da API de administração](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [Documentação do cursor](https://docs.cursor.com/){target="_blank"}

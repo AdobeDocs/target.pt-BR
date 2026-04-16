@@ -3,10 +3,10 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Descubra como personalizar as experiências dos clientes em sites, aplicativos e redes sociais para aumentar a receita.
 feature-set: Target
-source-git-commit: 7d30e3b267a122976153c88c8e73de6b74bc4c4c
+source-git-commit: 75f0dddcf65e9708aa564335974de1b6c3fd58ca
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 84%
+source-wordcount: '1295'
+ht-degree: 83%
 
 ---
 
@@ -106,7 +106,10 @@ ht-degree: 84%
          + {hide-from-toc}[Alterações de conteúdo por meio do teste A/B no Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc}[Adicionar ou ocultar componentes da sua página da Web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Públicos-alvo da Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
-   + {hide-from-toc}[Trabalhar com clientes MCP](/help/main/c-integrating-target-with-mac/target-mcp.md)
+   + Trabalhar com clientes MCP {#mcp}
+      + {hide-from-toc}[Trabalhar com clientes MCP](/help/main/c-integrating-target-with-mac/target-mcp.md)
+      + {hide-from-toc}[Referência de ferramentas do servidor MCP do Adobe Target](/help/main/c-integrating-target-with-mac/target-mcp-tools-reference.md)
+      + {hide-from-toc}[Hospede automaticamente o servidor MCP do Adobe Target](/help/main/c-integrating-target-with-mac/target-mcp-self-hosted.md)
    + Integração do Target ao Adobe Experience Manager (AEM) {#aem}
       + [Visão geral da integração do Target com o AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Fragmentos de experiência e Fragmentos de conteúdo {#fragments}
@@ -341,4 +344,4 @@ ht-degree: 84%
    + [Limites](r-troubleshooting-target/target-limits.md)
 + APIs do Target {#apis}
    + [Visão geral da API do Adobe Target](/help/main/api/api-overview.md)
-+ [Recursos e informações de contato &#x200B;](cmp-resources-and-contact-information.md)
++ [Recursos e informações de contato ](cmp-resources-and-contact-information.md)
