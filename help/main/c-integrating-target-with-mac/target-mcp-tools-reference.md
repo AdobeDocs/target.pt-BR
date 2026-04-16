@@ -664,5 +664,5 @@ Nenhum parâmetro é necessário.
 ## Recursos relacionados {#tools-related}
 
 * [Trabalhar com clientes MCP](target-mcp.md)
-* [Hospedar automaticamente o servidor MCP [!DNL Adobe Target] ](target-mcp-self-hosted.md)
+* [Hospedar automaticamente o servidor MCP [!DNL Adobe Target] &#x200B;](target-mcp-self-hosted.md)
 * [[!DNL Adobe Target] Referência da API de administração](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}

@@ -403,7 +403,7 @@ O servidor MCP define o escopo das operações para a organização associada à
 ## Recursos relacionados {#mcp-related}
 
 * [Referência de ferramentas do servidor MCP](target-mcp-tools-reference.md)
-* [Hospedar automaticamente o servidor MCP [!DNL Adobe Target] ](target-mcp-self-hosted.md)
+* [Hospedar automaticamente o servidor MCP [!DNL Adobe Target] &#x200B;](target-mcp-self-hosted.md)
 * [Documentação do Model Context Protocol](https://modelcontextprotocol.io/introduction){target="_blank"}
 * [[!DNL Adobe Target] Referência da API de administração](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
 * [Documentação do cursor](https://docs.cursor.com/){target="_blank"}
