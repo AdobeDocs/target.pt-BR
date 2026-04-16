@@ -9,7 +9,7 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
+source-git-commit: a0fbca3156a7d2a1c582ce591112a18b4a122a64
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 1%
@@ -191,7 +191,7 @@ As apresentações a seguir mostram como executar tarefas comuns usando prompts 
 +++Criação de um teste A/B
 
 **Aviso:**
-> &quot;Crie um teste A/B chamado de &#39;Teste de imagem de herói de página inicial&#39; com duas experiências: &#39;Controle&#39; mostrando o herói atual e &#39;Variante&#39; mostrando uma nova imagem de herói com tema de verão. Direcione a mbox da página inicial.&quot;
+&quot;Crie um teste A/B chamado de &#39;Teste de imagem de herói de página inicial&#39; com duas experiências: &#39;Controle&#39; mostrando o herói atual e &#39;Variante&#39; mostrando uma nova imagem de herói com tema de verão. Direcione a mbox da página inicial.&quot;
 
 O assistente de IA usa a ferramenta `create_ab_activity` para criar a atividade com a configuração descrita. A ferramenta retorna a nova ID de atividade e uma confirmação das experiências criadas.
 
@@ -200,7 +200,7 @@ O assistente de IA usa a ferramenta `create_ab_activity` para criar a atividade 
 +++Verificar o desempenho da atividade
 
 **Aviso:**
-> &quot;Mostrar as métricas de desempenho da minha atividade &#39;Otimização do Fluxo de Check-out&#39; dos últimos 30 dias.&quot;
+&quot;Mostrar as métricas de desempenho da minha atividade &#39;Otimização do Fluxo de Check-out&#39; dos últimos 30 dias.&quot;
 
 O assistente de IA usa `get_ab_performance_report` ou `get_xt_performance_report` (dependendo do tipo de atividade) para recuperar taxas de conversão, contagens de visitantes e outras métricas para a janela de tempo especificada.
 
@@ -209,7 +209,7 @@ O assistente de IA usa `get_ab_performance_report` ou `get_xt_performance_report
 +++Gerenciamento de ofertas
 
 **Aviso:**
-> &quot;Crie uma oferta do HTML chamada &#39;Banner de Vendas de Verão&#39; com um banner promocional que diz &#39;20% de desconto em todos os itens de verão&#39;.&quot;
+&quot;Crie uma oferta do HTML chamada &#39;Banner de Vendas de Verão&#39; com um banner promocional que diz &#39;20% de desconto em todos os itens de verão&#39;.&quot;
 
 O assistente de IA usa a ferramenta `create_target_offer` para criar a oferta com o conteúdo HTML especificado e retorna uma confirmação com a nova ID da oferta.
 
@@ -218,7 +218,7 @@ O assistente de IA usa a ferramenta `create_target_offer` para criar a oferta co
 +++Criação de um público
 
 **Aviso:**
-> &quot;Crie um público-alvo chamado &#39;Visitantes móveis da Califórnia&#39; que segmente os usuários em dispositivos móveis localizados na Califórnia.&quot;
+&quot;Crie um público-alvo chamado &#39;Visitantes móveis da Califórnia&#39; que segmente os usuários em dispositivos móveis localizados na Califórnia.&quot;
 
 O assistente de IA usa a ferramenta `create_target_audience` com as regras de direcionamento apropriadas derivadas da sua descrição.
 
@@ -227,7 +227,7 @@ O assistente de IA usa a ferramenta `create_target_audience` com as regras de di
 +++Gerar links de visualização de QA
 
 **Aviso:**
-> &quot;Gere URLs de visualização para a atividade 12345 para que eu possa testar cada experiência.&quot;
+&quot;Gere URLs de visualização para a atividade 12345 para que eu possa testar cada experiência.&quot;
 
 O assistente de IA usa a ferramenta `preview_activity` para gerar URLs clicáveis que ignoram o direcionamento do público-alvo, permitindo que você visualize cada experiência diretamente no navegador.
 
@@ -236,7 +236,7 @@ O assistente de IA usa a ferramenta `preview_activity` para gerar URLs clicávei
 +++Criação de uma atividade de direcionamento de experiência
 
 **Aviso:**
-> &quot;Crie uma atividade de Direcionamento de Experiência chamada &#39;Geo Personalization&#39; que mostra banners herói diferentes para visitantes de diferentes regiões.&quot;
+&quot;Crie uma atividade de Direcionamento de Experiência chamada &#39;Geo Personalization&#39; que mostra banners herói diferentes para visitantes de diferentes regiões.&quot;
 
 O assistente de IA usa o `create_xt_activity` para criar a atividade com mapeamento de experiência baseado em público-alvo de acordo com as regiões que você descreve.
 
@@ -245,7 +245,7 @@ O assistente de IA usa o `create_xt_activity` para criar a atividade com mapeame
 +++Agendamento de uma atividade
 
 **Aviso:**
-> &quot;Atualize a programação da atividade 12345 para iniciar em 1º de maio e terminar em 31 de maio.&quot;
+&quot;Atualize a programação da atividade 12345 para iniciar em 1º de maio e terminar em 31 de maio.&quot;
 
 O assistente de IA usa a ferramenta `update_activity_schedule` para aplicar as novas datas de início e término à atividade.
 
@@ -403,7 +403,7 @@ O servidor MCP define o escopo das operações para a organização associada à
 ## Recursos relacionados {#mcp-related}
 
 * [Referência de ferramentas do servidor MCP](target-mcp-tools-reference.md)
-* [Hospedar automaticamente o servidor MCP [!DNL Adobe Target] &#x200B;](target-mcp-self-hosted.md)
+* [Hospedar automaticamente o servidor MCP [!DNL Adobe Target] ](target-mcp-self-hosted.md)
 * [Documentação do Model Context Protocol](https://modelcontextprotocol.io/introduction){target="_blank"}
 * [[!DNL Adobe Target] Referência da API de administração](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
 * [Documentação do cursor](https://docs.cursor.com/){target="_blank"}
