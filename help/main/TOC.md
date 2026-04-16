@@ -3,7 +3,7 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Descubra como personalizar as experiências dos clientes em sites, aplicativos e redes sociais para aumentar a receita.
 feature-set: Target
-source-git-commit: 17804b5f8cfce7033bffcad826e5510bfc42a832
+source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 83%
@@ -107,9 +107,9 @@ ht-degree: 83%
          + {hide-from-toc}[Adicionar ou ocultar componentes da sua página da Web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Públicos-alvo da Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
    + Trabalhar com clientes MCP {#mcp}
-      + {hide-from-toc}[Trabalhar com clientes MCP](/help/main/mcp/target-mcp.md)
-      + {hide-from-toc}[Referência de ferramentas do servidor MCP do Adobe Target](/help/main/mcp/target-mcp-tools-reference.md)
-      + {hide-from-toc}[Hospede automaticamente o servidor MCP do Adobe Target](/help/main/mcp/target-mcp-self-hosted.md)
+      + {hide-from-toc}[Trabalhar com clientes MCP](c-integrating-target-with-mac/mcp/target-mcp.md)
+      + {hide-from-toc}[Referência de ferramentas do servidor MCP do Adobe Target](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
+      + {hide-from-toc}[Hospede automaticamente o servidor MCP do Adobe Target](c-integrating-target-with-mac/mcp/target-mcp-self-hosted.md)
    + Integração do Target ao Adobe Experience Manager (AEM) {#aem}
       + [Visão geral da integração do Target com o AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Fragmentos de experiência e Fragmentos de conteúdo {#fragments}
@@ -344,4 +344,4 @@ ht-degree: 83%
    + [Limites](r-troubleshooting-target/target-limits.md)
 + APIs do Target {#apis}
    + [Visão geral da API do Adobe Target](/help/main/api/api-overview.md)
-+ [Recursos e informações de contato &#x200B;](cmp-resources-and-contact-information.md)
++ [Recursos e informações de contato ](cmp-resources-and-contact-information.md)
