@@ -9,7 +9,7 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
+source-git-commit: d24958d17ff62e957a8d3d6602abfcc8dfd67e46
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 15%
@@ -36,7 +36,7 @@ Esta página é uma referência completa para todas as ferramentas públicas exp
 
 ## Ferramentas de atividade {#tools-activities}
 
-### list_target_activities
++++list_target_activities
 
 Listar [!DNL Adobe Target] atividades com filtragem e classificação do lado do servidor.
 
@@ -67,7 +67,9 @@ Recupera uma lista paginada de atividades. Todos os filtros são aplicados no la
 
 **Prompt de exemplo:** &quot;Lista todos os testes A/B ativos classificados pela última modificação.&quot;
 
-### get_ab_activity
++++
+
++++get_ab_activity
 
 Obtenha informações detalhadas sobre uma atividade A/B.
 
@@ -81,7 +83,9 @@ Recupera a configuração completa de um teste A/B específico, incluindo experi
 
 **Prompt de exemplo:** &quot;Obter detalhes da atividade A/B 12345&quot;.
 
-### get_xt_activity
++++
+
++++get_xt_activity
 
 Obtenha informações detalhadas sobre uma atividade de Direcionamento de experiência (XT).
 
@@ -95,7 +99,9 @@ Recupera a configuração completa de uma atividade de XT específica, incluindo
 
 **Prompt de exemplo:** &quot;Obter detalhes da atividade de Direcionamento de Experiência 12345&quot;.
 
-### get_abt_activity
++++
+
++++get_abt_activity
 
 Obtenha informações detalhadas sobre uma atividade de Automated Personalization (AP).
 
@@ -107,7 +113,9 @@ Obtenha informações detalhadas sobre uma atividade de Automated Personalizatio
 
 **Prompt de exemplo:** &quot;Obter detalhes da atividade 12345 do Personalization Automático&quot;.
 
-### create_ab_activity
++++
+
++++create_ab_activity
 
 Crie uma nova atividade de teste A/B.
 
@@ -130,7 +138,9 @@ Cria um novo teste A/B com a configuração especificada, incluindo experiência
 
 **Prompt de exemplo:** &quot;Crie um teste A/B chamado &#39;Teste de Herói da Página Inicial&#39; com duas experiências testando imagens herói diferentes na mbox homepage-hero.&quot;
 
-### create_xt_activity
++++
+
++++create_xt_activity
 
 Crie uma nova atividade de Direcionamento de experiência (XT).
 
@@ -152,7 +162,9 @@ Cria uma atividade de XT que fornece experiências diferentes para públicos-alv
 
 **Prompt de exemplo:** &quot;Crie uma atividade de Direcionamento de Experiência chamada &#39;Geo Personalization&#39; que mostre conteúdo diferente para visitantes de regiões diferentes.&quot;
 
-### update_ab_activity
++++
+
++++update_ab_activity
 
 Atualizar uma atividade A/B existente.
 
@@ -167,7 +179,9 @@ Usa um padrão de leitura-modificação-gravação: busca o estado atual, mescla
 
 **Prompt de exemplo:** &quot;Atualize a atividade 12345 para alterar a alocação de tráfego para 70/30.&quot;
 
-### update_xt_activity
++++
+
++++update_xt_activity
 
 Atualizar uma atividade existente de Direcionamento de experiência.
 
@@ -182,7 +196,9 @@ Usa um padrão de leitura-modificação-gravação.
 
 **Prompt de exemplo:** &quot;Atualize a atividade XT 12345 para adicionar uma nova experiência para visitantes móveis.&quot;
 
-### update_abt_activity
++++
+
++++update_abt_activity
 
 Atualizar uma atividade existente do Automated Personalization.
 
@@ -197,7 +213,9 @@ Usa um padrão de leitura-modificação-gravação.
 
 **Prompt de exemplo:** &quot;Atualize a atividade 12345 do AutoPersonalization para alterar a meta de otimização.&quot;
 
-### update_activity_schedule
++++
+
++++update_activity_schedule
 
 Atualize as datas de início e término da atividade.
 
@@ -214,7 +232,9 @@ Atualiza o agendamento de uma atividade sem modificar outras configurações.
 
 **Prompt de exemplo:** &quot;Atualize o agendamento da atividade A/B 12345 para execução de 1º de maio a 31 de maio&quot;.
 
-### update_activity_state
++++
+
++++update_activity_state
 
 Alterar o estado da atividade (ativar, desativar ou pausar).
 
@@ -227,7 +247,9 @@ Alterar o estado da atividade (ativar, desativar ou pausar).
 
 **Prompt de exemplo:** &quot;Ativar atividade 12345&quot; ou &quot;Pausar o Teste Herói da Página Inicial&quot;.
 
-### update_activity_name
++++
+
++++update_activity_name
 
 Renomeie uma atividade.
 
@@ -242,7 +264,9 @@ Atualiza somente o nome sem modificar a configuração completa.
 
 **Prompt de exemplo:** &quot;Renomeie a atividade 12345 para &#39;Teste de Herói da Campanha de Verão&#39;.&quot;
 
-### update_activity_priority
++++
+
++++update_activity_priority
 
 Alterar prioridade da atividade.
 
@@ -257,7 +281,9 @@ Atividades de prioridade mais alta têm prioridade quando várias atividades tê
 
 **Prompt de exemplo:** &quot;Definir a prioridade da atividade 12345 para 100&quot;.
 
-### add_activity_variant
++++
+
++++add_activity_variant
 
 Adicionar uma nova experiência/variante a uma atividade.
 
@@ -278,7 +304,9 @@ Lida com toda a coordenação estrutural, incluindo a criação de opções, map
 
 **Prompt de exemplo:** &quot;Adicione uma nova variante chamada &#39;Tema de Feriado&#39; à atividade A/B 12345 usando a oferta 67890.&quot;
 
-### update_traffic_split
++++
+
++++update_traffic_split
 
 Atualizar alocação de tráfego entre variantes.
 
@@ -294,7 +322,9 @@ As porcentagens devem somar exatamente 100.
 
 **Prompt de exemplo:** &quot;Alterar a divisão de tráfego da atividade 12345 para 70% de Controle e 30% de Variante A&quot;.
 
-### update_variant_offer
++++
+
++++update_variant_offer
 
 Alterar a oferta de uma variante específica.
 
@@ -313,7 +343,9 @@ Funciona para atividades baseadas em formulário (usando `offer_id`) e atividade
 
 **Prompt de exemplo:** &quot;Atualize a experiência &#39;Variante A&#39; na atividade 12345 para usar a oferta 99999.&quot;
 
-### remove_activity_variant
++++
+
++++remove_activity_variant
 
 Remover uma experiência/variante de uma atividade.
 
@@ -329,9 +361,11 @@ Remove a experiência, limpa opções órfãs e redistribui o tráfego de maneir
 
 **Prompt de exemplo:** &quot;Remover a experiência &#39;Variante de Teste&#39; da atividade A/B 12345.&quot;
 
++++
+
 ## Ferramentas de oferta {#tools-offers}
 
-### list_target_offers
++++list_target_offers
 
 Liste todas as ofertas em seu locatário do [!DNL Target].
 
@@ -348,7 +382,9 @@ Recupera uma lista paginada de ofertas de conteúdo com filtragem opcional.
 
 **Prompt de exemplo:** &quot;Listar todas as ofertas JSON&quot;.
 
-### get_target_offer
++++
+
++++get_target_offer
 
 Obtenha informações detalhadas sobre uma oferta específica.
 
@@ -360,7 +396,9 @@ Obtenha informações detalhadas sobre uma oferta específica.
 
 **Exemplo de prompt:** &quot;Obter detalhes da oferta 67890&quot;.
 
-### create_target_offer
++++
+
++++create_target_offer
 
 Crie uma nova oferta de conteúdo do HTML.
 
@@ -374,7 +412,9 @@ Crie uma nova oferta de conteúdo do HTML.
 
 **Exemplo de prompt:** &quot;Crie uma oferta do HTML chamada &#39;Banner de Vendas de Verão&#39; com um banner promocional.&quot;
 
-### create_target_json_offer
++++
+
++++create_target_json_offer
 
 Crie uma nova oferta JSON para fornecer dados estruturados.
 
@@ -388,7 +428,9 @@ Crie uma nova oferta JSON para fornecer dados estruturados.
 
 **Exemplo de prompt:** &quot;Crie uma oferta JSON chamada &#39;Configuração de Sinalizadores de Recurso&#39; com configurações de alternância de recurso.&quot;
 
-### update_target_offer
++++
+
++++update_target_offer
 
 Atualizar uma oferta existente.
 
@@ -402,9 +444,11 @@ Atualizar uma oferta existente.
 
 **Prompt de exemplo:** &quot;Atualizar oferta 67890 com novo conteúdo promocional.&quot;
 
++++
+
 ## Ferramentas de público {#tools-audiences}
 
-### list_target_audiences
++++list_target_audiences
 
 Liste todos os públicos do seu locatário do [!DNL Target].
 
@@ -417,7 +461,9 @@ Liste todos os públicos do seu locatário do [!DNL Target].
 
 **Exemplo de prompt:** &quot;Listar todos os públicos-alvo&quot;.
 
-### create_target_audience
++++
+
++++create_target_audience
 
 Crie um novo público com regras de direcionamento.
 
@@ -432,9 +478,11 @@ Crie um novo público com regras de direcionamento.
 
 **Exemplo de prompt:** &quot;Crie um público chamado &#39;Visitantes móveis da Califórnia&#39; direcionado a usuários móveis na CA.&quot;
 
++++
+
 ## Ferramentas da mbox {#tools-mboxes}
 
-### list_target_mboxes
++++list_target_mboxes
 
 Liste todas as mboxes em seu locatário do [!DNL Target].
 
@@ -449,7 +497,9 @@ Liste todas as mboxes em seu locatário do [!DNL Target].
 
 **Exemplo de prompt:** &quot;Listar todas as mboxes contendo &#39;homepage&#39;.&quot;
 
-### get_target_mbox
++++
+
++++get_target_mbox
 
 Obtenha informações detalhadas sobre uma mbox específica.
 
@@ -461,7 +511,9 @@ Obtenha informações detalhadas sobre uma mbox específica.
 
 **Prompt de exemplo:** &quot;Obter detalhes da mbox &#39;homepage-hero&#39;.&quot;
 
-### list_target_mbox_profile_attributes
++++
+
++++list_target_mbox_profile_attributes
 
 Liste todos os atributos de perfil de mbox disponíveis para direcionamento.
 
@@ -471,9 +523,11 @@ Nenhum parâmetro é necessário.
 
 **Exemplo de prompt:** &quot;Quais atributos de perfil estão disponíveis para direcionamento?&quot;
 
++++
+
 ## Ferramentas de propriedade {#tools-properties}
 
-### list_target_properties
++++list_target_properties
 
 Liste todas as propriedades em seu locatário do [!DNL Target].
 
@@ -485,9 +539,11 @@ Nenhum parâmetro é necessário.
 
 **Prompt de exemplo:** &quot;Listar todas as propriedades do Target&quot;.
 
++++
+
 ## Ferramentas de relatórios {#tools-reporting}
 
-### get_ab_performance_report
++++get_ab_performance_report
 
 Obtenha um relatório de desempenho para uma atividade A/B.
 
@@ -502,7 +558,9 @@ Recupera taxas de conversão, aumentos e níveis de confiança.
 
 **Prompt de exemplo:** &quot;Mostrar o relatório de desempenho do teste A/B 12345 dos últimos 30 dias.&quot;
 
-### get_ab_orders_report
++++
+
++++get_ab_orders_report
 
 Obtenha um relatório de pedidos/receita para uma atividade A/B.
 
@@ -515,7 +573,9 @@ Obtenha um relatório de pedidos/receita para uma atividade A/B.
 
 **Exemplo de prompt:** &quot;Obter o relatório de pedidos para a atividade 12345&quot;.
 
-### get_xt_performance_report
++++
+
++++get_xt_performance_report
 
 Obtenha um relatório de desempenho para uma atividade de Direcionamento de experiência.
 
@@ -528,7 +588,9 @@ Obtenha um relatório de desempenho para uma atividade de Direcionamento de expe
 
 **Prompt de exemplo:** &quot;Mostrar desempenho para minha atividade de Direcionamento de Experiência 54321&quot;.
 
-### get_xt_orders_report
++++
+
++++get_xt_orders_report
 
 Obtenha um relatório de pedidos/receita para uma atividade de Direcionamento de experiência.
 
@@ -541,7 +603,9 @@ Obtenha um relatório de pedidos/receita para uma atividade de Direcionamento de
 
 **Exemplo de prompt:** &quot;Obter dados de pedidos para a atividade XT 54321&quot;.
 
-### get_activity_report_by_name
++++
+
++++get_activity_report_by_name
 
 Procure uma atividade por nome e obtenha o relatório de desempenho.
 
@@ -556,9 +620,11 @@ Procure uma atividade por nome e obtenha o relatório de desempenho.
 
 **Prompt de exemplo:** &quot;Obter o relatório de desempenho da minha atividade &#39;Teste de Herói da Página Inicial&#39;.&quot;
 
++++
+
 ## Ferramentas de visualização {#tools-preview}
 
-### preview_activity
++++preview_activity
 
 Gerar URLs de visualização de QA do navegador para uma atividade [!DNL Target].
 
@@ -574,9 +640,11 @@ Cria links de visualização clicáveis que forçam a exibição de experiência
 
 **Prompt de exemplo:** &quot;Gerar URLs de visualização para a atividade 12345 para que eu possa testar cada experiência no meu navegador.&quot;
 
++++
+
 ## Ferramentas de token de resposta {#tools-response-tokens}
 
-### list_target_response_tokens
++++list_target_response_tokens
 
 Liste todos os tokens de resposta em seu locatário do [!DNL Target].
 
@@ -588,7 +656,9 @@ Nenhum parâmetro é necessário.
 
 **Exemplo de prompt:** &quot;Listar todos os tokens de resposta&quot;.
 
-### create_target_response_token
++++
+
++++create_target_response_token
 
 Crie um novo token de resposta personalizado para coletar dados adicionais em [!DNL Target] respostas.
 
@@ -601,9 +671,11 @@ Crie um novo token de resposta personalizado para coletar dados adicionais em [!
 
 **Exemplo de prompt:** &quot;Criar um token de resposta personalizado chamado &#39;campaign_id&#39; do tipo ACTIVITY.&quot;
 
++++
+
 ## Ferramentas de revisão {#tools-revisions}
 
-### get_target_revisions
++++get_target_revisions
 
 Obter o log de auditoria para um tipo de recurso.
 
@@ -620,7 +692,9 @@ Recupera alterações feitas em [!DNL Target] recursos com filtragem opcional po
 
 **Prompt de exemplo:** &quot;Mostrar o log de auditoria para alterações de atividades&quot;.
 
-### get_target_entity_revisions
++++
+
++++get_target_entity_revisions
 
 Obtenha todas as revisões de uma entidade específica por ID.
 
@@ -633,9 +707,11 @@ Obtenha todas as revisões de uma entidade específica por ID.
 
 **Prompt de exemplo:** &quot;Mostrar todas as alterações feitas na atividade 12345.&quot;
 
++++
+
 ## Ferramentas de modelo {#tools-templates}
 
-### list_target_templates
++++list_target_templates
 
 Liste os recursos e modelos do MCP disponíveis para criar atividades e ofertas.
 
@@ -644,6 +720,8 @@ Nenhum parâmetro é necessário.
 **Retorna:** o objeto JSON está listando os modelos e recursos disponíveis.
 
 **Exemplo de prompt:** &quot;Quais modelos estão disponíveis para criar atividades?&quot;
+
++++
 
 ## Resumo das ferramentas {#tools-summary}
 
@@ -664,5 +742,5 @@ Nenhum parâmetro é necessário.
 ## Recursos relacionados {#tools-related}
 
 * [Trabalhar com clientes MCP](target-mcp.md)
-* [Hospedar automaticamente o servidor MCP [!DNL Adobe Target] &#x200B;](target-mcp-self-hosted.md)
+* [Hospedar automaticamente o servidor MCP [!DNL Adobe Target] ](target-mcp-self-hosted.md)
 * [[!DNL Adobe Target] Referência da API de administração](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
