@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
+source-git-commit: 79cce28b604c667b1339675a6846027477e5e3e2
 workflow-type: tm+mt
-source-wordcount: '2782'
+source-wordcount: '2941'
 ht-degree: 14%
 
 ---
@@ -43,7 +43,9 @@ Esta página é uma referência completa para todas as ferramentas públicas exp
 
 ## Ferramentas de atividade {#tools-activities}
 
-+++list_target_activities
++++Listar atividades
+
+**Ferramenta:** `list_target_activities`
 
 Listar [!DNL Adobe Target] atividades com filtragem e classificação do lado do servidor.
 
@@ -76,7 +78,9 @@ Recupera uma lista paginada de atividades. Todos os filtros são aplicados no la
 
 +++
 
-+++get_ab_activity
++++Obter uma atividade A/B
+
+**Ferramenta:** `get_ab_activity`
 
 Obtenha informações detalhadas sobre uma atividade A/B.
 
@@ -92,7 +96,9 @@ Recupera a configuração completa de um teste A/B específico, incluindo experi
 
 +++
 
-+++get_xt_activity
++++Obter uma atividade de direcionamento de experiência
+
+**Ferramenta:** `get_xt_activity`
 
 Obtenha informações detalhadas sobre uma atividade de Direcionamento de experiência (XT).
 
@@ -108,7 +114,9 @@ Recupera a configuração completa de uma atividade de XT específica, incluindo
 
 +++
 
-+++get_abt_activity
++++Obter uma atividade do Automated Personalization
+
+**Ferramenta:** `get_abt_activity`
 
 Obtenha informações detalhadas sobre uma atividade de Automated Personalization (AP).
 
@@ -122,7 +130,9 @@ Obtenha informações detalhadas sobre uma atividade de Automated Personalizatio
 
 +++
 
-+++create_ab_activity
++++Criar uma atividade A/B
+
+**Ferramenta:** `create_ab_activity`
 
 Crie uma nova atividade de teste A/B.
 
@@ -147,7 +157,9 @@ Cria um novo teste A/B com a configuração especificada, incluindo experiência
 
 +++
 
-+++create_xt_activity
++++Criar uma atividade de direcionamento de experiência
+
+**Ferramenta:** `create_xt_activity`
 
 Crie uma nova atividade de Direcionamento de experiência (XT).
 
@@ -171,7 +183,9 @@ Cria uma atividade de XT que fornece experiências diferentes para públicos-alv
 
 +++
 
-+++update_ab_activity
++++Atualizar uma atividade A/B
+
+**Ferramenta:** `update_ab_activity`
 
 Atualizar uma atividade A/B existente.
 
@@ -188,7 +202,9 @@ Usa um padrão de leitura-modificação-gravação: busca o estado atual, mescla
 
 +++
 
-+++update_xt_activity
++++Atualizar uma atividade de direcionamento de experiência
+
+**Ferramenta:** `update_xt_activity`
 
 Atualizar uma atividade existente de Direcionamento de experiência.
 
@@ -205,7 +221,9 @@ Usa um padrão de leitura-modificação-gravação.
 
 +++
 
-+++update_abt_activity
++++Atualizar uma atividade do Automated Personalization
+
+**Ferramenta:** `update_abt_activity`
 
 Atualizar uma atividade existente do Automated Personalization.
 
@@ -222,7 +240,9 @@ Usa um padrão de leitura-modificação-gravação.
 
 +++
 
-+++update_activity_schedule
++++Atualizar programação de atividades
+
+**Ferramenta:** `update_activity_schedule`
 
 Atualize as datas de início e término da atividade.
 
@@ -241,7 +261,9 @@ Atualiza o agendamento de uma atividade sem modificar outras configurações.
 
 +++
 
-+++update_activity_state
++++Alterar estado da atividade
+
+**Ferramenta:** `update_activity_state`
 
 Alterar o estado da atividade (ativar, desativar ou pausar).
 
@@ -256,7 +278,9 @@ Alterar o estado da atividade (ativar, desativar ou pausar).
 
 +++
 
-+++update_activity_name
++++Renomear uma atividade
+
+**Ferramenta:** `update_activity_name`
 
 Renomeie uma atividade.
 
@@ -273,7 +297,9 @@ Atualiza somente o nome sem modificar a configuração completa.
 
 +++
 
-+++update_activity_priority
++++Alterar prioridade da atividade
+
+**Ferramenta:** `update_activity_priority`
 
 Alterar prioridade da atividade.
 
@@ -290,7 +316,9 @@ Atividades de prioridade mais alta têm prioridade quando várias atividades tê
 
 +++
 
-+++add_activity_variant
++++Adicionar uma variante a uma atividade
+
+**Ferramenta:** `add_activity_variant`
 
 Adicionar uma nova experiência/variante a uma atividade.
 
@@ -313,7 +341,9 @@ Lida com toda a coordenação estrutural, incluindo a criação de opções, map
 
 +++
 
-+++update_traffic_split
++++Atualizar divisão de tráfego
+
+**Ferramenta:** `update_traffic_split`
 
 Atualizar alocação de tráfego entre variantes.
 
@@ -331,7 +361,9 @@ As porcentagens devem somar exatamente 100.
 
 +++
 
-+++update_variant_offer
++++Alterar a oferta de uma variante
+
+**Ferramenta:** `update_variant_offer`
 
 Alterar a oferta de uma variante específica.
 
@@ -352,7 +384,9 @@ Funciona para atividades baseadas em formulário (usando `offer_id`) e atividade
 
 +++
 
-+++remove_activity_variant
++++Remover uma variante de uma atividade
+
+**Ferramenta:** `remove_activity_variant`
 
 Remover uma experiência/variante de uma atividade.
 
@@ -372,7 +406,9 @@ Remove a experiência, limpa opções órfãs e redistribui o tráfego de maneir
 
 ## Ferramentas de oferta {#tools-offers}
 
-+++list_target_offers
++++Listar ofertas
+
+**Ferramenta:** `list_target_offers`
 
 Liste todas as ofertas em seu locatário do [!DNL Target].
 
@@ -391,7 +427,9 @@ Recupera uma lista paginada de ofertas de conteúdo com filtragem opcional.
 
 +++
 
-+++get_target_offer
++++Obter uma oferta
+
+**Ferramenta:** `get_target_offer`
 
 Obtenha informações detalhadas sobre uma oferta específica.
 
@@ -405,7 +443,9 @@ Obtenha informações detalhadas sobre uma oferta específica.
 
 +++
 
-+++create_target_offer
++++Criar uma oferta do HTML
+
+**Ferramenta:** `create_target_offer`
 
 Crie uma nova oferta de conteúdo do HTML.
 
@@ -421,7 +461,9 @@ Crie uma nova oferta de conteúdo do HTML.
 
 +++
 
-+++create_target_json_offer
++++Criar uma oferta JSON
+
+**Ferramenta:** `create_target_json_offer`
 
 Crie uma nova oferta JSON para fornecer dados estruturados.
 
@@ -437,7 +479,9 @@ Crie uma nova oferta JSON para fornecer dados estruturados.
 
 +++
 
-+++update_target_offer
++++Atualizar uma oferta
+
+**Ferramenta:** `update_target_offer`
 
 Atualizar uma oferta existente.
 
@@ -455,7 +499,9 @@ Atualizar uma oferta existente.
 
 ## Ferramentas de público {#tools-audiences}
 
-+++list_target_audiences
++++Listar públicos
+
+**Ferramenta:** `list_target_audiences`
 
 Liste todos os públicos do seu locatário do [!DNL Target].
 
@@ -470,7 +516,9 @@ Liste todos os públicos do seu locatário do [!DNL Target].
 
 +++
 
-+++create_target_audience
++++Criar um público-alvo
+
+**Ferramenta:** `create_target_audience`
 
 Crie um novo público com regras de direcionamento.
 
@@ -489,7 +537,9 @@ Crie um novo público com regras de direcionamento.
 
 ## Ferramentas da mbox {#tools-mboxes}
 
-+++list_target_mboxes
++++Listar mboxes
+
+**Ferramenta:** `list_target_mboxes`
 
 Liste todas as mboxes em seu locatário do [!DNL Target].
 
@@ -506,7 +556,9 @@ Liste todas as mboxes em seu locatário do [!DNL Target].
 
 +++
 
-+++get_target_mbox
++++Obter uma mbox
+
+**Ferramenta:** `get_target_mbox`
 
 Obtenha informações detalhadas sobre uma mbox específica.
 
@@ -520,7 +572,9 @@ Obtenha informações detalhadas sobre uma mbox específica.
 
 +++
 
-+++list_target_mbox_profile_attributes
++++Listar atributos de perfil da mbox
+
+**Ferramenta:** `list_target_mbox_profile_attributes`
 
 Liste todos os atributos de perfil de mbox disponíveis para direcionamento.
 
@@ -534,7 +588,9 @@ Nenhum parâmetro é necessário.
 
 ## Ferramentas de propriedade {#tools-properties}
 
-+++list_target_properties
++++Propriedades da lista
+
+**Ferramenta:** `list_target_properties`
 
 Liste todas as propriedades em seu locatário do [!DNL Target].
 
@@ -550,7 +606,9 @@ Nenhum parâmetro é necessário.
 
 ## Ferramentas de relatórios {#tools-reporting}
 
-+++get_ab_performance_report
++++Obter um relatório de desempenho A/B
+
+**Ferramenta:** `get_ab_performance_report`
 
 Obtenha um relatório de desempenho para uma atividade A/B.
 
@@ -567,7 +625,9 @@ Recupera taxas de conversão, aumentos e níveis de confiança.
 
 +++
 
-+++get_ab_orders_report
++++Obter um relatório de pedidos A/B
+
+**Ferramenta:** `get_ab_orders_report`
 
 Obtenha um relatório de pedidos/receita para uma atividade A/B.
 
@@ -582,7 +642,9 @@ Obtenha um relatório de pedidos/receita para uma atividade A/B.
 
 +++
 
-+++get_xt_performance_report
++++Obter um relatório de desempenho de Direcionamento de experiência
+
+**Ferramenta:** `get_xt_performance_report`
 
 Obtenha um relatório de desempenho para uma atividade de Direcionamento de experiência.
 
@@ -597,7 +659,9 @@ Obtenha um relatório de desempenho para uma atividade de Direcionamento de expe
 
 +++
 
-+++get_xt_orders_report
++++Obter um relatório de pedidos de direcionamento de experiência
+
+**Ferramenta:** `get_xt_orders_report`
 
 Obtenha um relatório de pedidos/receita para uma atividade de Direcionamento de experiência.
 
@@ -612,7 +676,9 @@ Obtenha um relatório de pedidos/receita para uma atividade de Direcionamento de
 
 +++
 
-+++get_activity_report_by_name
++++Obtenha um relatório de desempenho por nome de atividade
+
+**Ferramenta:** `get_activity_report_by_name`
 
 Procure uma atividade por nome e obtenha o relatório de desempenho.
 
@@ -631,7 +697,9 @@ Procure uma atividade por nome e obtenha o relatório de desempenho.
 
 ## Ferramentas de visualização {#tools-preview}
 
-+++preview_activity
++++Visualizar uma atividade
+
+**Ferramenta:** `preview_activity`
 
 Gerar URLs de visualização de QA do navegador para uma atividade [!DNL Target].
 
@@ -651,7 +719,9 @@ Cria links de visualização clicáveis que forçam a exibição de experiência
 
 ## Ferramentas de token de resposta {#tools-response-tokens}
 
-+++list_target_response_tokens
++++Listar tokens de resposta
+
+**Ferramenta:** `list_target_response_tokens`
 
 Liste todos os tokens de resposta em seu locatário do [!DNL Target].
 
@@ -665,7 +735,9 @@ Nenhum parâmetro é necessário.
 
 +++
 
-+++create_target_response_token
++++Criar um token de resposta
+
+**Ferramenta:** `create_target_response_token`
 
 Crie um novo token de resposta personalizado para coletar dados adicionais em [!DNL Target] respostas.
 
@@ -682,7 +754,9 @@ Crie um novo token de resposta personalizado para coletar dados adicionais em [!
 
 ## Ferramentas de revisão {#tools-revisions}
 
-+++get_target_revisions
++++Obter o log de auditoria
+
+**Ferramenta:** `get_target_revisions`
 
 Obter o log de auditoria para um tipo de recurso.
 
@@ -701,7 +775,9 @@ Recupera alterações feitas em [!DNL Target] recursos com filtragem opcional po
 
 +++
 
-+++get_target_entity_revisions
++++Obter revisões para uma entidade específica
+
+**Ferramenta:** `get_target_entity_revisions`
 
 Obtenha todas as revisões de uma entidade específica por ID.
 
@@ -718,7 +794,9 @@ Obtenha todas as revisões de uma entidade específica por ID.
 
 ## Ferramentas de modelo {#tools-templates}
 
-+++list_target_templates
++++Listar modelos disponíveis
+
+**Ferramenta:** `list_target_templates`
 
 Liste os recursos e modelos do MCP disponíveis para criar atividades e ofertas.
 
