@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 79cce28b604c667b1339675a6846027477e5e3e2
+source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
 workflow-type: tm+mt
-source-wordcount: '2941'
+source-wordcount: '2972'
 ht-degree: 14%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 14%
 
 Índice:
 
-* [Trabalhar com clientes MCP](target-mcp.md)
+* [Visão geral](target-mcp.md)
+* [Introdução](target-mcp-get-started.md)
+* [Casos de uso e apresentações](target-mcp-use-cases.md)
 * **[Referência de ferramentas do servidor MCP](target-mcp-tools-reference.md)**
 
 >[!ENDSHADEBOX]
 
-Esta página é uma referência completa para todas as ferramentas públicas expostas pelo servidor MCP [!DNL Adobe Target]. Para cada ferramenta, você encontrará uma descrição, detalhes do parâmetro, valor de retorno e um exemplo de prompt em linguagem natural. Para obter instruções de configuração e casos de uso, consulte [Trabalhar com clientes MCP](target-mcp.md).
-
->[!NOTE]
->
->As ferramentas de leitura estão disponíveis para todos os usuários conectados com a função de **Observador** ou superior; as ferramentas de gravação exigem a função de **Editor** ou **Aprovador**.
+Esta página é uma referência completa para todas as ferramentas públicas expostas pelo servidor MCP [!DNL Adobe Target]. Para cada ferramenta, você encontrará uma descrição, detalhes do parâmetro, valor de retorno e um exemplo de prompt em linguagem natural. Para obter instruções de configuração e casos de uso, consulte [Introdução](target-mcp-get-started.md) e [Casos de uso e apresentações](target-mcp-use-cases.md).
 
 >[!IMPORTANT]
 >
@@ -40,6 +38,16 @@ Esta página é uma referência completa para todas as ferramentas públicas exp
 >Conectar clientes ou servidores MCP a produtos Adobe é uma configuração escolhida pelo cliente, e os clientes são responsáveis por avaliar a segurança e a adequação de qualquer integração MCP. O Adobe não é responsável por problemas resultantes de configuração incorreta, uso incorreto do MCP, vulnerabilidades em implementações de terceiros ou ações não intencionais executadas por meio de fluxos de trabalho habilitados para MCP.
 >
 >Para reduzir os riscos, a Adobe incentiva o teste de integrações em um ambiente de sandbox antes do uso produtivo e a análise e validação cuidadosas de todas as ações e respostas iniciadas pelo MCP antes de confirmar ou confiar nelas.
+
+## Pré-requisitos {#tools-prerequisites}
+
+Sua função [!DNL Adobe Target] determina quais ferramentas estão disponíveis para você:
+
+* Função de **Observador** ou superior: acesso a todas as ferramentas de leitura
+* Função de **Editor**: acesso a ferramentas de leitura e gravação (criar)
+* Função do **Aprovador**: acesso a ferramentas de leitura, gravação e ativação/desativação
+
+Para obter instruções completas sobre a configuração, consulte [Introdução](target-mcp-get-started.md).
 
 ## Ferramentas de atividade {#tools-activities}
 
