@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e2230782005110914dbf108a865463d1faaa62cc
+source-git-commit: 7976d43e43baeabdb68509373f1b0b72bbe723b3
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 56%
+source-wordcount: '548'
+ht-degree: 49%
 
 ---
 
@@ -29,19 +29,52 @@ Para atualizações com limite de tempo relacionadas ao [!DNL Adobe Target] e à
 
 Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobre atualização da interface](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.4.3 (sexta-feira, 9 de abril de 2026)
+## [!DNL Target Standard/Premium] 26.4.4 (28 de abril de 2026)
 
 **Atividades**
 
 +++Ver detalhes
 
-* **Local ausente em algumas atividades.** Correção de um problema em que **[!UICONTROL Location]** estava ausente em algumas atividades. (TGT-54951)
+* **Erro com o filtro de Público-alvo nos Relatórios.** Correção de um problema em que a alteração do filtro de público-alvo em **[!UICONTROL Goals & Settings]** causava um erro na seção Relatório da interface do usuário [!DNL Target]. (TGT-55006)
 
-* **Ordem da coluna de métricas de relatório.** A interface [!DNL Target] atualizada permite que as métricas de relatório sejam reordenadas sem limpar a seleção completa e adicionar novamente as métricas em sequência. Anteriormente, os usuários precisavam desmarcar todas as métricas e selecioná-las novamente na ordem desejada, o que era demorado quando muitas métricas eram ativadas e ao ajustar a posição da coluna para limitar a rolagem horizontal. (TGT-53044)
+* **Classificar atividades por prioridade.** Foi adicionada a classificação por prioridade na lista de atividades usando o cabeçalho da coluna **[!UICONTROL Priority]**, com ordem crescente e decrescente consistente com outras colunas classificáveis. (TGT-54948)
+
+* **Propriedades de atividade adicionais não retidas após salvar.** Correção de um problema em que determinadas **[!UICONTROL Properties]** seleções não persistiam após salvar e reabrir uma atividade. (TGT-53889)
+
++++
+
+**Localização**
+
++++Ver detalhes
+
+* **Rótulos japoneses para [!UICONTROL Page Delivery] operadores de regra.** Correção de cadeias de caracteres ilegíveis ou corrompidas para rótulos de operador de regra de entrega de página na interface do usuário japonesa. (TGT-53097)
+
++++
+
+**APIs**
+
++++Ver detalhes
+
+* **Suporte à API [!DNL GraphQL] de relatórios para `segmentId`.** Adição de `segmentId` à API [!DNL GraphQL] de relatórios. (TGT-55021)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalhes
+
+* **Modificações mostradas na experiência errada no editor.** Correção de um problema em que uma exclusão ou outra modificação poderia aparecer na experiência errada após alternar entre experiências no [!UICONTROL Visual Experience Composer]. (TGT-54955)
+
+* **Modificações removidas ao excluir HTML de inserção.** Correção de um problema em que a exclusão do bloco **[!UICONTROL HTML]** extra adicionado com **[!UICONTROL Insert before]** ou **[!UICONTROL Insert after]** também removia uma modificação vinculada que não tinha seletor CSS. (TGT-54530)
 
 +++
 
 <!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+
+
+
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++See details
@@ -50,15 +83,6 @@ Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobr
 
 +++
 -->
-
-## [!DNL Target Standard/Premium] 26.4.2 (quarta-feira, 7 de abril de 2026)
-
-**Atividades**
-
-+++Ver detalhes
-
-* **O código personalizado é preservado quando aplicado a modos de exibição adicionais.** Correção de um problema em que o código personalizado aplicado a um **[!UICONTROL View]** poderia ser removido ao adicionar ou salvar um código personalizado para outro **[!UICONTROL View]** no mesmo **[!UICONTROL Activity]**. (TGT-53933)
-+++
 
 ## Notas de versão adicionais e detalhes da versão
 
