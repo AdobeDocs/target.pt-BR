@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7976d43e43baeabdb68509373f1b0b72bbe723b3
+source-git-commit: e3a22ef34bc78b03b71c75968d2271b9a634a0cd
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 49%
+source-wordcount: '582'
+ht-degree: 46%
 
 ---
 
@@ -28,6 +28,16 @@ Para atualizações com limite de tempo relacionadas ao [!DNL Adobe Target] e à
 ### Desativação da alternância de versão da interface do usuário [!DNL Target]
 
 Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobre atualização da interface](/help/main/c-intro/updated-ui-faq.md).
+
+## [!DNL Target Standard/Premium] 26.5.1 (7 de maio de 2026)
+
+**Integrações**
+
++++Ver detalhes
+
+* Gerenciamento de **[!DNL Adobe Target]no Experimentation Accelerator.** Adição de suporte para atribuição de espaços de trabalho [!DNL Target] a sandboxes do Experimentation Accelerator para que as equipes possam exibir experimentos de [!DNL Adobe Target] no Experimentation Accelerator em um único local. [Saiba mais](../c-integrating-target-with-mac/experimentation-accelerator.md)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.4.4 (28 de abril de 2026)
 
