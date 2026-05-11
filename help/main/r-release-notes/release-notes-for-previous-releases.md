@@ -4,9 +4,9 @@ description: Veja uma lista de recursos, aprimoramentos e correções incluídos
 title: Quais recursos estão incluídos nas versões anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: a3bad17cc5df759c8aa84a0d9ac0b623f2165a4c
+source-git-commit: 21514e371a7327e6f0954127dffc3aed0d1e6961
 workflow-type: tm+mt
-source-wordcount: '67997'
+source-wordcount: '68187'
 ht-degree: 50%
 
 ---
@@ -22,6 +22,46 @@ As notas de versão estão listadas em ordem decrescente por mês e ano da vers�
 >Consulte [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2026
+
+## [!DNL Target Standard/Premium] 26.4.4 (28 de abril de 2026)
+
+**Atividades**
+
++++Ver detalhes
+
+* **Erro com o filtro de Público-alvo nos Relatórios.** Correção de um problema em que a alteração do filtro de público-alvo em **[!UICONTROL Goals & Settings]** causava um erro na seção Relatório da interface do usuário [!DNL Target]. (TGT-55006)
+
+* **Classificar atividades por prioridade.** Foi adicionada a classificação por prioridade na lista de atividades usando o cabeçalho da coluna **[!UICONTROL Priority]**, com ordem crescente e decrescente consistente com outras colunas classificáveis. (TGT-54948)
+
+* **Propriedades de atividade adicionais não retidas após salvar.** Correção de um problema em que determinadas **[!UICONTROL Properties]** seleções não persistiam após salvar e reabrir uma atividade. (TGT-53889)
+
++++
+
+**Localização**
+
++++Ver detalhes
+
+* **Rótulos japoneses para [!UICONTROL Page Delivery] operadores de regra.** Correção de cadeias de caracteres ilegíveis ou corrompidas para rótulos de operador de regra de entrega de página na interface do usuário japonesa. (TGT-53097)
+
++++
+
+**APIs**
+
++++Ver detalhes
+
+* **Suporte à API [!DNL GraphQL] de relatórios para `segmentId`.** Adição de `segmentId` à API [!DNL GraphQL] de relatórios. (TGT-55021)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalhes
+
+* **Modificações mostradas na experiência errada no editor.** Correção de um problema em que uma exclusão ou outra modificação poderia aparecer na experiência errada após alternar entre experiências no [!UICONTROL Visual Experience Composer]. (TGT-54955)
+
+* **Modificações removidas ao excluir HTML de inserção.** Correção de um problema em que a exclusão do bloco **[!UICONTROL HTML]** extra adicionado com **[!UICONTROL Insert before]** ou **[!UICONTROL Insert after]** também removia uma modificação vinculada que não tinha seletor CSS. (TGT-54530)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.4.3 (9 de abril de 2026)
 
