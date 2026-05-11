@@ -6,10 +6,10 @@ short-description: Saiba mais sobre os novos recursos, aprimoramentos e correç�
 title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e3a22ef34bc78b03b71c75968d2271b9a634a0cd
+source-git-commit: 860dd22fc4ec261a62869cb656d72bd49f2bd91c
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 46%
+source-wordcount: '531'
+ht-degree: 51%
 
 ---
 
@@ -39,45 +39,38 @@ Para obter mais informações, consulte [[!DNL Target] Perguntas frequentes sobr
 
 +++
 
-## [!DNL Target Standard/Premium] 26.4.4 (28 de abril de 2026)
-
 **Atividades**
 
 +++Ver detalhes
 
-* **Erro com o filtro de Público-alvo nos Relatórios.** Correção de um problema em que a alteração do filtro de público-alvo em **[!UICONTROL Goals & Settings]** causava um erro na seção Relatório da interface do usuário [!DNL Target]. (TGT-55006)
-
-* **Classificar atividades por prioridade.** Foi adicionada a classificação por prioridade na lista de atividades usando o cabeçalho da coluna **[!UICONTROL Priority]**, com ordem crescente e decrescente consistente com outras colunas classificáveis. (TGT-54948)
-
-* **Propriedades de atividade adicionais não retidas após salvar.** Correção de um problema em que determinadas **[!UICONTROL Properties]** seleções não persistiam após salvar e reabrir uma atividade. (TGT-53889)
+* **[!UICONTROL Graph View]fora de sincronia com a tabela e o download.** Correção de um problema em que os relatórios de atividade podiam mostrar métricas ausentes ou nulas em **[!UICONTROL Graph View]** para alguns intervalos de datas, mesmo que **[!UICONTROL Table View]** e o relatório baixado ainda mostrassem os valores corretos. (TGT-54998)
 
 +++
 
-**Localização**
+**[!UICONTROL Audiences]**
 
 +++Ver detalhes
 
-* **Rótulos japoneses para [!UICONTROL Page Delivery] operadores de regra.** Correção de cadeias de caracteres ilegíveis ou corrompidas para rótulos de operador de regra de entrega de página na interface do usuário japonesa. (TGT-53097)
+* **A lista de uso do público-alvo não foi totalmente renderizada.** Correção de um problema em que a seção **[!UICONTROL Usage]** nos detalhes do público-alvo podia exibir apenas um subconjunto de atividades mapeadas, mesmo quando atividades adicionais estavam associadas a esse público-alvo. (TGT-55094)
 
 +++
 
-**APIs**
+**[!UICONTROL Administration]**
 
 +++Ver detalhes
 
-* **Suporte à API [!DNL GraphQL] de relatórios para `segmentId`.** Adição de `segmentId` à API [!DNL GraphQL] de relatórios. (TGT-55021)
+* **Confirmação mais clara para ofuscação de IP de último octeto.** Ao alterar **[!UICONTROL Obfuscate Visitor IP addresses]** para **[!UICONTROL Last octet]** em **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**, a caixa de diálogo de confirmação agora explica que [!DNL Target] oculta o último octeto do endereço IP do visitante. (TGT-44821)
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Ver detalhes
 
-* **Modificações mostradas na experiência errada no editor.** Correção de um problema em que uma exclusão ou outra modificação poderia aparecer na experiência errada após alternar entre experiências no [!UICONTROL Visual Experience Composer]. (TGT-54955)
-
-* **Modificações removidas ao excluir HTML de inserção.** Correção de um problema em que a exclusão do bloco **[!UICONTROL HTML]** extra adicionado com **[!UICONTROL Insert before]** ou **[!UICONTROL Insert after]** também removia uma modificação vinculada que não tinha seletor CSS. (TGT-54530)
+* **Página em branco ou incompleta com o Enhanced Experience Composer (EEC).** Correção de um problema em que o [!UICONTROL Visual Experience Composer] não carregava o site no editor quando **[!UICONTROL Enhanced Experience Composer]** era habilitado. (TGT-54576)
 
 +++
+
 
 <!--
 * **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
