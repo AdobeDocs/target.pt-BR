@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 42%
+source-wordcount: 630
+ht-degree: 43%
 
 ---
 
@@ -36,7 +36,7 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 **[!DNL Adobe Target]servidor MCP (Beta Público)**
 
-[!DNL Adobe Target] agora fornece um servidor MCP (Model Context Protocol) que supera operações de experimentação, personalização e relatórios diretamente dentro de qualquer aplicativo compatível com MCP. Com essa integração, os profissionais de marketing e técnicos podem inspecionar testes A/B, analisar relatórios de desempenho, gerenciar públicos e ofertas e realizar ações controladas, tudo isso usando prompts em linguagem natural, em vez de navegar em várias telas de interface do usuário ou gravar consultas na API REST [!DNL Adobe Target]. Este recurso está disponível atualmente no **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** e **ChatGPT**.
+[!DNL Adobe Target] agora fornece um servidor MCP (Model Context Protocol) que supera operações de experimentação, personalização e relatórios diretamente dentro de qualquer aplicativo compatível com MCP. Com essa integração, os profissionais de marketing e técnicos podem inspecionar testes A/B, analisar relatórios de desempenho e explorar públicos e ofertas, tudo usando prompts em linguagem natural, em vez de navegar em várias telas de interface do usuário ou gravar consultas na API REST do [!DNL Adobe Target]. Este recurso está disponível atualmente no **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** e **ChatGPT**.
 
 Esse recurso está disponível para todos os clientes no Public Beta.
 
