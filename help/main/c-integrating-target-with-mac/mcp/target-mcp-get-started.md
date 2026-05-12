@@ -8,9 +8,9 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -37,10 +37,11 @@ Antes de conectar o servidor MCP [!DNL Adobe Target] ao seu cliente MCP, verifiq
 
 * Você tem uma licença [!DNL Adobe Target] ativa (assinatura do Adobe Experience Cloud) com uma organização da Adobe Experience Platform.
 * Você tem um aplicativo compatível com MCP (atualmente Claude Web, Claude Desktop, Claude Code, Cursor ou ChatGPT).
-* Você tem [!DNL Adobe Target] permissões configuradas no Adobe Admin Console:
-   * Função de **Observador**: ferramentas somente leitura
-   * Função do **Editor**: ler + criar ferramentas
-   * Função do **Aprovador**: ler + criar + ativar/desativar ferramentas
+* Você tem [!DNL Adobe Target] permissões configuradas no Adobe Admin Console. No Beta público, todas as 23 ferramentas disponíveis são somente leitura. A função de **Observador** ou superior é suficiente para usar o servidor MCP.
+
+>[!NOTE]
+>
+>As ferramentas de gravação (criar, atualizar, ativar, desativar) não são expostas por meio do catálogo MCP público no Public Beta. Os privilégios de função de Editor e Aprovador não desbloqueiam ferramentas adicionais no momento. O acesso de gravação estará disponível em uma versão futura.
 
 ## Conectar o servidor MCP [!DNL Adobe Target] {#mcp-connect}
 
@@ -112,7 +113,7 @@ Complete o fluxo do navegador OAuth quando solicitado na primeira utilização.
 
 +++Uma ferramenta retorna uma mensagem de erro
 
-1. Verifique se você tem as permissões necessárias em [!DNL Adobe Target] para a operação (consulte [Pré-requisitos](#mcp-prerequisites)).
+1. Verifique se você tem a função **Observador** ou superior em [!DNL Adobe Target] (consulte [Pré-requisitos](#mcp-prerequisites)).
 1. Verifique se os recursos referenciados — atividades, ofertas, públicos-alvo — existem em sua organização.
 1. Confirme se as IDs de atividade e outros identificadores estão corretos.
 +++
