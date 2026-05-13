@@ -6,8 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1006
@@ -51,7 +53,7 @@ Você pode criar um design com base em um design padrão ou criar um design pers
 
    A caixa de diálogo [!UICONTROL Create Design] é exibida.
 
-1. Digite um **[!UICONTROL  Name]** e uma imagem de visualização opcional para exibir no cartão de design.
+1. Digite um **[!UICONTROL &#x200B; Name]** e uma imagem de visualização opcional para exibir no cartão de design.
 
    Quando você usa um design padrão, o nome do design e &quot;Cópia&quot; aparecem no campo **[!UICONTROL Content Name]**. Você pode editar o nome. Você também pode selecionar uma imagem para exibir no cartão de design.
 

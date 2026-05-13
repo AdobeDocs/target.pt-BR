@@ -5,9 +5,16 @@ title: O que é uma Atividade [!UICONTROL Auto-Allocate]?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
 TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 3572
@@ -87,7 +94,7 @@ A ilustração mostra como o tráfego alocado para cada experiência progride ao
 >
 >Se uma atividade tiver apenas duas experiências, ambas as experiências obterão tráfego igual até que [!DNL Target] encontre uma experiência vencedora com 75% de confiança. Nesse ponto, dois terços do tráfego é alocado para o vencedor e um terço para o perdedor. Depois disso, quando uma experiência atingir a confiança de 95%, 90% do tráfego será alocado ao vencedor e 10% será alocado ao perdedor. [!DNL Target] sempre envia algum tráfego para a experiência &quot;perdida&quot; para evitar falsos positivos no final (ou seja, manter alguma exploração).
 
-Após a ativação de uma atividade [!UICONTROL Auto-Allocate], as seguintes operações da interface Tar[!DNL]get não são permitidas:
+Após a ativação de uma atividade [!UICONTROL Auto-Allocate], as seguintes operações da interface Target não são permitidas:
 
 * Alternar o modo &quot;Alocação de tráfego&quot; para &quot;Manual&quot;
 * Alterar o tipo de métrica de meta

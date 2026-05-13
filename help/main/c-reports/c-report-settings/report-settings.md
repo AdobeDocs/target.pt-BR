@@ -5,9 +5,15 @@ title: Como Definir Configurações De Relatório?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 TQID: https://experienceleague.adobe.com/Nz7EFST7BeVE2FqfFkbWnp-hRJug7HPlOodak73H-Uo
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1795
@@ -234,9 +240,9 @@ Há quatro modos para [!UICONTROL Auto-Target] atividades: [!UICONTROL Daily Con
 
 A seguir, a ordem padrão na qual o gráfico é criado:
 
-* **[!UICONTROL A/B Test](incluindo [!UICONTROL Auto-Allocate] e [!UICONTROL Automated Personalization])**: Ordem de criação da experiência, em ordem decrescente.
-* **[!UICONTROL Experience Targeting](XT)**: ordem das experiências na atividade.
-* **[!UICONTROL Multivariate Test](MVT)**: ordem alfabética por nome de experiência.
+* **[!UICONTROL A/B Test] (incluindo [!UICONTROL Auto-Allocate] e [!UICONTROL Automated Personalization])**: Ordem de criação da experiência, em ordem decrescente.
+* **[!UICONTROL Experience Targeting] (XT)**: ordem das experiências na atividade.
+* **[!UICONTROL Multivariate Test] (MVT)**: ordem alfabética por nome de experiência.
 * **[!UICONTROL Recommendations]**: Ordem de criação da experiência, em ordem decrescente.
 
 Ao trabalhar com as opções [!UICONTROL Counting Methodology], considere as seguintes limitações:
