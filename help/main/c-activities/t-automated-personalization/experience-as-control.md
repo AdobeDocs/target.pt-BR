@@ -2,7 +2,7 @@
 keywords: experiência; controle; personalização automatizada; direcionamento automático
 description: Saiba como selecionar uma experiência para ser usada como controle ao criar uma atividade [!UICONTROL Automated Personalization] (AP) ou [!UICONTROL Auto-Target] no  [!DNL Adobe Target].
 title: Como posso usar uma experiência específica como controle em uma atividade [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453

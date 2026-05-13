@@ -2,7 +2,7 @@
 keywords: solução de problemas, perguntas frequentes, FAQ, FAQs, recommendations, caracteres especiais, ponderação de atributos, similaridade de conteúdo
 description: Veja uma lista de perguntas frequentes e respostas sobre [!DNL Target Recommendations] atividades.
 title: Onde posso encontrar perguntas e respostas sobre o  [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
@@ -109,7 +109,7 @@ Se a localização na qual você estiver aplicando esse critério não contiver 
 
 Se você usar um local em que a ID de categoria está presente na mbox, o seletor de critérios conterá todos os critérios aplicáveis.
 
-O [!DNL Target] tem uma configuração de [Critérios de filtro incompatíveis](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para controlar a filtragem inteligente do seletor de algoritmo.
+O [!DNL Target] tem uma configuração de [Critérios de filtro incompatíveis](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} para controlar a filtragem inteligente do seletor de algoritmo.
 
 >[!NOTE]
 >
