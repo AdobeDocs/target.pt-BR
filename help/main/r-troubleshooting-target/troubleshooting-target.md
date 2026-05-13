@@ -4,10 +4,28 @@ description: Veja uma lista de tópicos para ajudar você a resolver problemas n
 title: Como solucionar problemas do Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/dW3TS0g9VKJRluwA2PXDr4upXiY1yKzfh5v9WRaOB50
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 96%
+source-wordcount: 556
+ht-degree: 77%
 
 ---
 
@@ -52,9 +70,9 @@ As seguintes seções contêm informações de solução de problemas em ativida
 * [Solução de problemas de testes multivariados](/help/main/c-activities/c-multivariate-testing/best-practices.md)
 * [Estimar o tráfego necessário para um teste bem-sucedido](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
-### Recommendations
+### Recomendações
 
-* [Perguntas frequentes do Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
+* [Perguntas frequentes do Recomendações](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Perguntas e respostas sobre design](/help/main/c-recommendations/c-design-overview/template-faq.md)
 
 ## Integração do Analytics e do [!DNL Target] (A4T)
@@ -72,10 +90,10 @@ As seguintes seções contêm informações de solução de problemas em ativida
    * [Classificações - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
    * [Integração herdada do SiteCatalyst ao Test&amp;Target - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
-## Públicos e metas
+## Públicos-alvos e metas
 
 * [Perguntas frequentes sobre otimização e personalização do Target](/help/main/c-intro/cmp-target-standard-cheatsheet.md)
-* [Perguntas frequentes sobre direcionamentos e públicos](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
+* [Perguntas frequentes sobre direcionamentos e públicos-alvos](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [Atributos de script de perfil](/help/main/c-target/c-visitor-profile/profile-parameters.md)
 * [Páginas do site](/help/main/c-target/c-audiences/c-target-rules/site-pages.md)
 
@@ -109,7 +127,7 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 ### Implementação geral
 
 * [Navegadores compatíveis](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=pt-BR)
-* [Usar instâncias baseadas em nuvem com o Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html?lang=pt-BR)
+* [Usar instâncias baseadas em nuvem com o Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### Mboxes globais
 
@@ -118,7 +136,7 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 ### at.js
 
 * [Perguntas frequentes sobre a at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=pt-BR)
-* [Depuração da at.js usando o Adobe Experience Cloud Debugger &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=pt-BR)
+* [Depuração da at.js usando o Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
 * [Detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR)
 * &quot;Office Hours&quot; é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe.
 

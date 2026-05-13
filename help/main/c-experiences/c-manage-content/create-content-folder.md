@@ -4,10 +4,15 @@ description: Como criar pastas na biblioteca [!UICONTROL Offers]?
 title: Saiba como criar pastas na biblioteca [!UICONTROL Offers] para armazenar ofertas de código e imagem, bem como outras pastas.
 feature: Experiences and Offers
 exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+TQID: https://experienceleague.adobe.com/Z-iggfiOB-GEAhHr-J-IpK6qD9T-TGoASkVwcVMP3oY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 6%
+source-wordcount: 262
+ht-degree: 8%
 
 ---
 
@@ -15,7 +20,7 @@ ht-degree: 6%
 
 Crie pastas na biblioteca [!DNL Adobe Target] [!UICONTROL Offer] para conter ofertas de código e de imagem. Também é possível criar pastas para criar uma estrutura de subpastas.
 
-O processo para criar pastas para ofertas de código e ofertas de imagem é um pouco diferente. As seções a seguir contêm mais informações.
+O processo para criar pastas para ofertas de código e ofertas de imagem é um pouco diferente. As seguintes seções contêm mais informações.
 
 ## [!UICONTROL Code Offer] pastas
 

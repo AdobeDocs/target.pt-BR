@@ -4,9 +4,17 @@ description: Saiba como criar públicos-alvo somente de atividades no Adobe [!DN
 title: Posso criar um público-alvo para usar somente uma vez?
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+TQID: https://experienceleague.adobe.com/IWQT8Lw7uXxY8znUlzOIB-92M2sdjvMj91Ut-gAvZVU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: 449
 ht-degree: 30%
 
 ---
@@ -46,7 +54,7 @@ Tenha em mente as informações a seguir enquanto você trabalha com públicos s
 * Os refinamentos das atividades existentes são migrados para públicos-alvo somente atividade.
 * Públicos somente atividade têm status de [!UICONTROL Used] ou [!UICONTROL Unused]. Públicos-alvo somente atividade não utilizados são exibidos até que a atividade seja salva. Se deixados não utilizados e você tentar salvar a atividade, uma mensagem de alerta é exibida informando que públicos-alvo somente atividade não utilizados serão excluídos.
 * É possível ver os detalhes da definição de público-alvo em um cartão pop-up acessado do seletor de público-alvo sem abrir o público-alvo.
-* Você pode [combinar vários públicos](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para criar públicos somente atividade.
+* Você pode [combinar vários públicos-alvos](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para criar públicos-alvos somente atividade.
 * Públicos somente atividade não são compatíveis com regras de exclusão.
 
   Você pode usar as seguintes alternativas para usar as regras de exclusão:

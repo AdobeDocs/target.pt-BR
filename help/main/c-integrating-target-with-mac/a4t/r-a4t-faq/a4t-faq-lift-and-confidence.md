@@ -4,9 +4,16 @@ description: Encontre respostas para perguntas sobre aumento e confiança ao usa
 title: Onde posso encontrar informações sobre aumento e confiança com o A4T?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+TQID: https://experienceleague.adobe.com/QirHdzsM8SfNeGdQPEPM51KUqD5TDFUQmaB4th4-htY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: 548
 ht-degree: 25%
 
 ---
@@ -29,14 +36,14 @@ Aumento é a diferença percentual entre os resultados da página de controle e 
 
 +++
 
-## Como a confiança é calculada?  {#section_97DB24D833E742988318CA65DA65DAD9}
+## Como a confiança é calculada? {#section_97DB24D833E742988318CA65DA65DAD9}
 
 +++Resposta
 O nível de confiança é uma probabilidade, expressa como uma porcentagem, que é igual a `1 - p-value`, onde `p-value` é computado a partir de um teste t. Consulte [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 +++
 
-## Por que não posso ver o aumento e a confiança nas métricas calculadas?  {#lift-confidence}
+## Por que não posso ver o aumento e a confiança nas métricas calculadas? {#lift-confidence}
 
 +++Resposta
 No momento, as métricas calculadas não são compatíveis com as funções de aumento e confiança. O Analytics calcula métricas em nível agregado, em vez de em nível de visitante. A confiança, em particular, é um cálculo em nível de visitante.
@@ -50,7 +57,7 @@ Exemplos de métricas ou casos de uso não compatíveis incluem:
 
 +++
 
-## Como o A4T gerencia os cálculos de confiança?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
+## Como o A4T gerencia os cálculos de confiança? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
 +++Resposta
 [!DNL Adobe Analytics] trata todas as métricas como não binárias e, portanto, calcula os valores de confiança/p de uma maneira diferente do uso de métricas binárias em um teste t regular. Especificamente, os cálculos usados pelo A4T permitem que cada usuário tenha um resultado de métrica contínua (não apenas 1 ou 0 para cada usuário), de modo que a variação (ou, de forma relativa, o desvio padrão) para cada experiência deve ser calculada adequadamente. Pedidos extremos não são considerados. Além disso, o cálculo de confiança não aplica uma correção Bonferroni para várias ofertas.

@@ -4,10 +4,18 @@ description: Saiba como usar um [!UICONTROL Multivariate Test] (MVT) no [!DNL Ad
 title: O que é um [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
+TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 46%
+source-wordcount: 1453
+ht-degree: 47%
 
 ---
 
@@ -67,7 +75,7 @@ Os testes multivariados podem ser usados junto com testes A/B para otimizar sua 
 
   Por exemplo, não teste o layout e o conteúdo no mesmo teste.
 
-* Planeje mais tempo para o controle de qualidade devido ao aumento no número de experiências. Você também pode usar testes fatoriais parciais para diminuir a quantidade de tráfego necessária para um teste multivariado. Para obter mais informações, consulte Teste fatorial parcial abaixo:
+* Inclua mais tempo para QA devido ao amento do número de experiências. Você também pode usar testes fatoriais parciais para diminuir a quantidade de tráfego necessária para um teste multivariado. Para obter mais informações, consulte Teste fatorial parcial abaixo:
 
 ## Teste fatorial parcial
 

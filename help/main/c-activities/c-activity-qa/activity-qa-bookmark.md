@@ -4,10 +4,15 @@ description: Saiba como usar o bookmarklet de controle de qualidade do Adobe [!D
 title: Como usar o bookmarklet de controle de qualidade da atividade?
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
-source-git-commit: 4b5111c00384fdc73eaadbf0eec22ac6c2784a22
+TQID: https://experienceleague.adobe.com/kOQcdF2WgiAGkOS3rrLWfDSFTvRJX8jb-IeaahWnM0c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 13%
+source-wordcount: 272
+ht-degree: 12%
 
 ---
 
@@ -19,7 +24,7 @@ Informações para ajudá-lo a usar o bookmarklet de controle de qualidade do [!
 >
 >O processo para criar um bookmarklet varia dependendo do tipo e da versão do navegador. Consulte a ajuda do seu navegador ou pesquise instruções específicas na internet.
 
-## Bookmarklet de Controle de qualidade da atividade para at.js 1.*x*  
+## Bookmarklet de Controle de qualidade da atividade para at.js 1.*x*
 
 Como o [modo de QA](/help/main/c-activities/c-activity-qa/activity-qa.md) é persistente, depois de navegar em um site no modo de QA, sua sessão [!DNL Target] deve expirar ou você precisa que o [!DNL Target] o libere do modo de QA para exibir o site como um visitante típico. Use o bookmarklet de controle de qualidade [!DNL Target] para forçar você a sair do modo de controle de qualidade.
 
@@ -48,9 +53,9 @@ Por exemplo:
 
 `https://www.mysite.com/?at_preview_token=`
 
-## Bookmarklet de Controle de qualidade da atividade para at.js 2.*x*  
+## Bookmarklet de Controle de qualidade da atividade para at.js 2.*x*
 
-Em contraste com a at.js 1.*x*, at.js 2.*x* não oferece suporte a cookies de terceiros e o modo de controle de qualidade é aderente apenas ao domínio próprio (por meio de um cookie próprio definido pela at.js). Assim, no at.js 2.*x*, a sessão do modo de QA é gerenciada somente no lado do cliente e nenhum cookie do modo de QA é enviado para o Target.
+Ao contrário da at.js 1.*x*, a at.js 2.*x* não é compatível com cookies de terceiros e o modo de QA é aderente apenas ao domínio próprio (por meio de um cookie próprio definido pela at.js). Assim, no at.js 2.*x*, a sessão do modo de QA é gerenciada somente no lado do cliente e nenhum cookie do modo de QA é enviado para o Target.
 
 Para usar o bookmarklet de controle de qualidade do [!DNL Target], crie um bookmarklet que contenha o seguinte código JavaScript e o adicione à Barra de Favoritos do seu navegador:
 

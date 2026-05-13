@@ -4,10 +4,23 @@ description: Veja uma lista de vários perfis, variáveis e parâmetros úteis e
 title: Quais Perfis, Variáveis e Parâmetros São Usados no  [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/YMF4eXnu758kloK--c2mBzP-rwLBNRO2jLoV6s-P5JM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 67%
+source-wordcount: 699
+ht-degree: 59%
 
 ---
 
@@ -45,7 +58,7 @@ Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de per
 | user.parameter | Atributos de perfil persistentes criados a partir de scripts de perfil. Também faz referência a perfis de &quot;sistema&quot; como geolocalização, contagem de visitas etc. |
 | profile.get(&#39;param_name&#39;) | A maneira correta de obter um parâmetro de perfil a ser usado em um script de perfil é o método profile.get(&#39;param_name&#39;). |
 | profile.param(&#39;param_name&#39;); |  |
-| profile.parameter(&#39;parameter_name&#39;); | Os parâmetros da mbox que são tornados persistentes devido ao seu prefixo profile. prefixo. |
+| profile.parameter(&#39;parameter_name&#39;); | Os parâmetros da mbox que são tornados persistentes devido ao seu prefixo profile.  prefixo. |
 | profile.browserTime | A hora do navegador local do visitante. Para a hora do sistema, crie um novo objeto de data no script de perfil |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
@@ -88,7 +101,7 @@ Essa página relaciona perfis, variáveis e parâmetros úteis em scripts de per
 | mbox3rdPartyId | Um parâmetro de mbox para sincronizar uma ID de cliente com a mboxPCID do Target. Uma ID de cliente é uma ID que sua empresa usa para rastrear visitantes, como uma ID de CRM, uma ID de associação ou algo semelhante. Essa ID pode ser usada para adicionar informações por meio das APIs de perfil e dos [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=pt-BR){target=_blank}. |
 | mboxPageValue | Em cada chamada de mbox, a página recebe um valor. |
 | mboxDebug | Usado somente para depurar informações. Adicionado ao url da página em que o at.js procura isso. |
-| mboxOverride.browserIp | Define uma geografia diferente do local real para que seja possível testar como algo seria em outro local.<br>**Observação:** os parâmetros mboxOverride devem ser usados somente durante o teste da atividade e não em produção. O uso de qualquer parâmetro mboxOverride pode causar discrepâncias no relatório ao usar o [Analytics para Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Você deve usar o [modo de QA da atividade](/help/main/c-activities/c-activity-qa/activity-qa.md) durante o teste para garantir que sua atividade funciona como o esperado antes de enviar a atividade para o ambiente ativo. |
+| mboxOverride.browserIp | Define uma geografia diferente do local real para que você possa testar como algo seria em outro local.<br>**Observação:** os parâmetros mboxOverride devem ser usados somente durante o teste da atividade e não em produção. O uso de qualquer parâmetro mboxOverride pode causar discrepâncias no relatório ao usar o [Analytics para Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Você deve usar o [modo de QA da atividade](/help/main/c-activities/c-activity-qa/activity-qa.md) durante o teste para garantir que sua atividade funciona como o esperado antes de enviar a atividade para o ambiente ativo. |
 
 ## Atributos do cliente {#section_62B4821EB6564FF4A14159A837AD4EDB}
 

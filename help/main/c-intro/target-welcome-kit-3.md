@@ -1,12 +1,24 @@
 ---
-keywords: kit de boas-vindas; kit de boas-vindas do target; introdução; introdução do
+keywords: kit de boas-vindas;kit de boas-vindas do target;introdução;introdução do
 description: Aprenda seis etapas que descrevem um processo comprovado para melhorar suas ideias de teste e personalização antes de criar atividades no Adobe Target.
 title: Como posso desenvolver minhas ideias de teste e personalização?
 feature: Overview
 exl-id: 1f1af086-70bf-43ab-80aa-36d98d8d8d8f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/jjs7B9nDwYBr7b6TYl2mG3f7wfO1pmgJSfV8NY5-UfU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: 723
 ht-degree: 100%
 
 ---
@@ -58,7 +70,7 @@ Crie e execute a atividade no [!DNL Target], desenvolva qualquer código, se nec
 
 Faça isso das seguintes maneiras:
 
-* Criação de uma atividade, aplicação de qualquer público, desenvolvimento de qualquer código, se necessário, e aplicação de métricas à atividade.
+* Criação de uma atividade, aplicação de qualquer público-alvo, desenvolvimento de qualquer código, se necessário, e aplicação de métricas à atividade.
 * Garantia da aprovação de todos os participantes necessários.
 * Início da atividade e revisão de métricas em uma hora, 24 horas e periodicamente pela duração da atividade.
 
@@ -71,7 +83,7 @@ Analise o desempenho da atividade e resuma os resultados, os insights e as recom
 Faça isso das seguintes maneiras:
 
 * Aproveitar a análise de dados e as práticas recomendadas para entender os resultados da atividade.
-* Analisar o desempenho do público para encontrar segmentos de visitantes valiosos.
+* Analisar o desempenho do público-alvo para encontrar segmentos de visitantes valiosos.
 * Documentação de insights, resultados e recomendações.
 
 Por exemplo, você pode descobrir que seus visitantes recorrentes preferem uma experiência diferente de seus novos visitantes.

@@ -4,9 +4,20 @@ description: Familiarize-se com a interface do usuário e encontre links para in
 title: Como faço para usar a interface do [!DNL Target] ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 3f7c81654d4f7982acf166b314cc332822cc87a6
+TQID: https://experienceleague.adobe.com/oO4N94r8-ZP3Et-P0b-31zl3apkEhqlJLJUUOQmFGAg
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: 1373
 ht-degree: 23%
 
 ---
@@ -113,7 +124,7 @@ Você também pode definir um lembrete para ser notificado novamente, passando o
 
 As notificações proativas alertam você sobre eventos de interrupção e manutenção.
 
-Informações mais detalhadas podem ser encontradas na página [Status do Adobe](https://status.adobe.com/pt).
+Informações mais detalhadas podem ser encontradas na página [Adobe Status](https://status.adobe.com/pt).
 
 ### Configurar notificações e anúncios
 
@@ -181,7 +192,7 @@ Uma experiência pode ser uma oferta, imagem, texto, botão, vídeo, combinaçã
 
 Consulte [Ofertas](/help/main/c-experiences/c-manage-content/manage-content.md) para obter informações detalhadas sobre os tipos de ofertas em [!DNL Target] e para saber mais sobre a interface do usuário da lista [!UICONTROL Offer].
 
-## Recommendations
+## Recomendações
 
 Clique na guia **[!UICONTROL Recommendations]** para acessar [!DNL Target Recommendations].
 
@@ -189,7 +200,7 @@ Clique na guia **[!UICONTROL Recommendations]** para acessar [!DNL Target Recomm
 >
 >As atividades do [!UICONTROL Recommendations] estão disponíveis como parte da solução do [!DNL Target Premium]. [!UICONTROL Recommendations] atividades não estão disponíveis em [!DNL Target Standard] sem uma licença do [!DNL Target Premium]. Para obter mais informações, consulte o [Target Premium](/help/main/c-intro/intro.md#premium) em *Introdução ao Target*.
 
-As atividades do [!UICONTROL Recommendations] exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores. O Recommendations ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
+As atividades do [!UICONTROL Recommendations] exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores. O Recomendações ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
 
 Consulte [Recommendations](/help/main/c-recommendations/recommendations.md) para obter informações detalhadas sobre [!UICONTROL Recommendations] em [!DNL Target] e saber mais sobre a interface do usuário [!UICONTROL Recommendations].
 

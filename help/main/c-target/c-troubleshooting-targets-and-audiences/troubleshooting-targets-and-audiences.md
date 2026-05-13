@@ -4,14 +4,23 @@ description: Exiba as perguntas frequentes sobre o direcionamento de experiênci
 title: Onde posso encontrar perguntas e respostas sobre direcionamentos e públicos-alvo?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: cf7f18b5fd9647bbecda2e6b6419c3a927708bd6
+TQID: https://experienceleague.adobe.com/WI8A9wqYpjiCCUABg5cBxJ92WwFLYN7qM-0DeYkrxOk
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 53%
+source-wordcount: 982
+ht-degree: 52%
 
 ---
 
-# Perguntas frequentes sobre direcionamentos e públicos
+# Perguntas frequentes sobre direcionamentos e públicos-alvos
 
 Lista de perguntas frequentes sobre o direcionamento de experiência e públicos-alvo.
 
@@ -72,11 +81,11 @@ Os públicos pré-construídos na categoria Biblioteca do Target são herdados e
 
 A prática recomendada é usar os públicos-alvo mais recentes, pois houve melhora no desempenho. Alguns clientes podem estar usando públicos-alvo herdados e pré-contruídos, por isso, eles não foram removidos da interface do Target.
 
-## Como sei a forma que o tráfego será dividido entre os públicos-alvo?  {#section_067EEFB956E7465CBF77EC86834470AB}
+## Como sei a forma que o tráfego será dividido entre os públicos-alvo? {#section_067EEFB956E7465CBF77EC86834470AB}
 
 Por padrão, o tráfego é dividido igualmente entre as experiências. No entanto, é possível especificar alvos de porcentagem para cada experiência. Nesse caso, um número aleatório será gerado e usado para escolher a experiência que será exibida. As porcentagens resultantes talvez não correspondam exatamente às metas especificadas, mas um maior tráfego significa que as experiências deverão ser divididas em maior harmonia com as metas-alvo.
 
-## Qual experiência é exibida se um usuário se qualificar para uma atividade que contém várias experiências com vários públicos-alvo qualificados?  {#section_94A60B11212D48FD8AB0803C6C7E7253}
+## Qual experiência é exibida se um usuário se qualificar para uma atividade que contém várias experiências com vários públicos-alvo qualificados? {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
 O usuário se qualifica para a primeira experiência/público-alvo exibido na página [!UICONTROL Target] da atividade.
 
@@ -102,7 +111,7 @@ As atividades de Personalização automatizada são avaliadas uma vez por sessã
 
 ## Por que as alterações feitas aos públicos-alvo criadas por meio da API não são refletidas na interface do usuário do [!DNL Target]? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
-Diferente de ofertas e scripts de perfil, as alterações feitas pela API para públicos criadas pelo Target Standard atualmente não são sincronizadas para a interface do usuário do Target.
+Diferente de ofertas e scripts de perfil, as alterações feitas pela API para públicos-alvos criadas pelo Target Standard atualmente não são sincronizadas para a interface do usuário do Target.
 
 ## Cadeias de caracteres que representam números (números de ponto flutuante também são compatíveis) são comparadas como números.{#strings-that-represent-numbers}
 

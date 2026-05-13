@@ -4,10 +4,19 @@ description: Saiba por quanto tempo executar um teste A/B. Um teste A/B bem-suce
 title: Por quanto tempo devo executar um teste A/B?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: b5da2f5d41739af39d97e0ce9761006794c04d2b
+TQID: https://experienceleague.adobe.com/KZ0Egi-KsoAgR7NBXsTXFXhanum8OgFEZz94lGaIQjs
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3123'
-ht-degree: 46%
+source-wordcount: 3150
+ht-degree: 47%
 
 ---
 
@@ -127,7 +136,7 @@ A taxa de conversão da linha de base é a taxa de conversão da oferta de contr
 
 ### Número de visitantes {#section_19009F165505429E95291E6976E498DD}
 
-Talvez seja difícil equilibrar os custos da oportunidade de executar um teste por um período longo com o risco de falsos positivos e falsos negativos. Obviamente, você não quer tomar as decisões erradas, mas ser paralisado por padrões de teste muito rigorosos ou rígidos também não é desejável.
+Talvez seja difícil equilibrar os custos da oportunidade de executar um teste por um período longo com o risco de falsos positivos e falsos negativos. Obviamente, você não quer tomar as decisões erradas, mas ficar paralisado por padrões de teste muito restritos ou rígidos também não é desejável.
 
 Como diretriz geral, um nível de confiança de 95% e uma potência estatística de 80% são recomendáveis.
 
@@ -141,7 +150,7 @@ Neste exemplo, você pode decidir ser capaz de detectar um aumento de 5% (corres
 
 Novamente, é recomendável que o tempo necessário sempre seja arredondado para o número inteiro de semana mais próximo possível, para evitar efeitos de dia da semana. Assim, neste exemplo, o teste deverá ser executado por duas semanas antes da avaliação do resultado.
 
-### Receita por métrica de visita  {#section_C704C0861C9B4641AB02E911648D2DC2}
+### Receita por métrica de visita {#section_C704C0861C9B4641AB02E911648D2DC2}
 
 Ao usar a Receita por visita (RPV) como uma métrica, uma fonte adicional de variação é adicionada, pois o RPV é o produto da receita por pedido e taxa de conversão (RPV = Receita / #visitors = (Receita por pedido &#42; #orders) / Nº de visitantes = Receita por pedido &#42; (#visitors &#42; CTR) / #visitors = Receita por pedido &#42; CTR), cada um com sua própria variação. A variação da taxa de conversão pode ser estimada diretamente usando um modelo matemático, mas a variação da receita por pedido é específica da atividade. Portanto, use o conhecimento dessa variação em atividades anteriores ou execute o teste A/B por alguns dias para estimar a variação na receita. A variação é calculada a partir dos valores de Soma das vendas, Soma das vendas elevada ao quadrado e Número de visitantes encontrados no arquivo de download do CSV. Depois que isso for estabelecido, use a planilha para calcular o tempo necessário para concluir o teste.
 
@@ -162,7 +171,7 @@ Em geral, usar o RPV como uma métrica requer 20 a 30% a mais para atingir o mes
 
 Cada vez que você compara duas ofertas, a possibilidade de receber um falso positivo (observando uma diferença significativamente estatística, até mesmo quando não há diferença na taxa de conversão) é igual ao nível de significância. Por exemplo, se houver cinco ofertas, A/B/C/D/E, e A for a oferta de controle, quatro comparações serão feitas (controle para B, controle para C, controle para D e controle para E) e a probabilidade de um falso positivo será de 18,5%, até mesmo quando o nível de confiança for 95%, pois Pr(pelo menos um falso positivo) = 1 - Pr(sem falsos positivos) = 1 - 0,95 = 18,5%. Um falso positivo está nesse contexto definido como o controle sendo relatado como melhor do que a alternativa ou a alternativa sendo relatada como melhor do que o controle quando, de fato, não há diferença entre elas.
 
-## Conclusão  {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
+## Conclusão {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
 Ao usar uma atividade [!UICONTROL Auto-Allocate], [!DNL Target] identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido. O [!UICONTROL Auto-Allocate] facilita o cumprimento de suas metas de conversão, ao mesmo tempo em que remove a adivinhação.
 

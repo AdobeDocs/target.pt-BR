@@ -4,10 +4,20 @@ description: Vamos começar com sua primeira atividade no Adobe  [!DNL Target]  
 title: Preciso criar minha primeira atividade no Target. Por onde começar?
 feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+TQID: https://experienceleague.adobe.com/q9wWzcT6SV-CjcPBnxGmf4Nqwh8hIFBclxBo5O8nQ-M
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 76%
+source-wordcount: 1737
+ht-degree: 71%
 
 ---
 
@@ -23,9 +33,9 @@ Você pode configurar uma atividade básica de [Teste A/B](/help/main/c-activiti
 
 Exemplo: uma empresa de mídia testa sua cópia atual para uma oferta de assinatura de presente em sua página inicial da web ou site móvel para ver qual variação faz com que mais visitantes comprem uma assinatura de presente. Se eles selecionarem Alocação automática, a atividade mandará mais tráfego para a variante vencedora conforme o teste for executado. Caso contrário, ele aguardará que você coloque manualmente a experiência vencedora em funcionamento após a conclusão do teste.
 
-## Rota 2: Personalizar para um público específico
+## Rota 2: Personalizar para um público-alvo específico
 
-Você pode configurar uma atividade de [Direcionamento de experiência](/help/main/c-activities/t-experience-target/experience-target.md) (XT) que segmente um público específico que você sabe que é valioso com uma oferta ou experiência que você sabe que teria uma boa repercussão com eles.
+Você pode configurar uma atividade de [Direcionamento de experiência](/help/main/c-activities/t-experience-target/experience-target.md) (XT) que segmente um público-alvo específico que você sabe que é valioso com uma oferta ou experiência que você sabe que teria uma boa repercussão com eles.
 
 Exemplo: uma companhia aérea é direcionada a seus membros de nível platinum com uma oferta especial que dobra seus pontos em sua próxima compra de voo para recompensá-los e aumentar ainda mais a fidelização do cliente.
 
@@ -42,7 +52,7 @@ Você poderia fazer aquele teste básico de cor de botão ou mudança de cópia,
 Aqui estão apenas algumas maneiras de criar essas ideias de atividade que são fáceis de implementar, mas que podem causar um grande impacto nos negócios:
 
 * **Use o que você conhece.** Talvez você já conheça bem seus clientes e tenha uma boa noção do que vai repercutir bem com eles. Use-o para desenvolver experiências personalizadas.
-* **Use sua solução analítica.** Procure locais em seu site onde os clientes abandonaram um fluxo de compra ou rejeitaram uma página. Revise as páginas e faça uma hipótese sobre o que pode estar fazendo com que elas saiam antes de executar a ação desejada.
+* **Use sua solução de análise.** Procure locais em seu site onde os clientes abandonaram um fluxo de compra ou rejeitaram uma página. Revise as páginas e faça uma hipótese sobre o que pode estar fazendo com que elas saiam antes de executar a ação desejada.
 * **Use seus poderes de observação.** Analise algumas páginas principais em seu site e use seu instinto para identificar coisas que precisam ser melhoradas. Talvez a página de detalhes do produto esteja cheia de texto e poluída, então simplifique-a. Talvez seja difícil encontrar um botão de compra, portanto, mova-o para um local mais visível.
 * **Analise seus concorrentes.** Uma olhada rápida nos sites dos concorrentes pode revelar designs, ofertas, cópias e outros elementos que você acredita serem altamente eficazes na obtenção de resultados comerciais. Considere maneiras de experimentar essas abordagens no seu site.
 * **Aproveite o feedback do cliente.** Seus clientes podem ter dado ideias a você de como melhorar a experiência por meio de uma pesquisa online ou chamada ao atendimento ao cliente. Identifique um ponto problemático que vários mencionaram e crie uma experiência que possa eliminá-lo.
@@ -73,7 +83,7 @@ Marque a caixa do tipo de atividade que deseja executar. Você pode revisar o t�
 
 ### Quem é o público-alvo?
 
-Em um teste A/B com uma experiência de controle e uma variante, por exemplo, você pode incluir toda a população de visitantes. Por padrão, o [!DNL Target] fornece 50% para o controle e 50% para a variante. Mas, se estiver personalizando, você pode descrever o público ou públicos para os quais está personalizando. Ao usar IA, observe que você a está usando para personalizar para a pessoa. Observe que sua hipótese deve indicar por que você está escolhendo um público específico para uma atividade se estiver escolhendo um.
+Em um teste A/B com uma experiência de controle e uma variante, por exemplo, você pode incluir toda a população de visitantes. Por padrão, o [!DNL Target] fornece 50% para o controle e 50% para a variante. Mas, se estiver personalizando, você pode descrever o público-alvo ou públicos-alvos para os quais está personalizando. Ao usar IA, observe que você a está usando para personalizar para a pessoa. Observe que sua hipótese deve indicar por que você está escolhendo um público-alvo específico para uma atividade se estiver escolhendo um.
 
 ### Quais são as métricas principais para medir o impacto da atividade?
 
@@ -99,7 +109,7 @@ Nenhuma organização tem recursos ilimitados para executar todas as atividades 
 
 ### Quais são os resultados?
 
-Após a conclusão da atividade, documente os resultados, certificando-se de vincular esses resultados à hipótese original, aos públicos importantes usados na atividade e às métricas de sucesso primárias e secundárias anotadas acima pelas quais você pretende avaliar os resultados da atividade. O próximo capítulo fala sobre como comunicar esses resultados da atividade.
+Após a conclusão da atividade, documente os resultados, certificando-se de vincular esses resultados à hipótese original, aos públicos-alvos importantes usados na atividade e às métricas de sucesso primárias e secundárias anotadas acima pelas quais você pretende avaliar os resultados da atividade. O próximo capítulo fala sobre como comunicar esses resultados da atividade.
 
 ### O que precisa ser refinado na atividade/Quais são os próximos passos?
 

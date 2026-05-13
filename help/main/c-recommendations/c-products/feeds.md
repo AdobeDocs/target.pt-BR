@@ -5,10 +5,18 @@ title: Como usar [!UICONTROL Feeds] no  [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
+TQID: https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2613'
-ht-degree: 34%
+source-wordcount: 2643
+ht-degree: 36%
 
 ---
 
@@ -77,7 +85,7 @@ Qualquer dado carregado por meio do arquivo .csv, feed de produto do Google ou f
 
 >[!IMPORTANT]
 >
->Não coloque os valores entre aspas duplas ( &quot; ) no arquivo .csv, a menos que seja intencional. Se colocar os valores entre aspas duplas, você poderá removê-los ao incluí-los em outro conjunto de aspas duplas. As aspas duplas que não forem removidas evitarão que o feed do Recommendations carregue corretamente.
+>Não coloque os valores entre aspas duplas ( &quot; ) no arquivo .csv, a menos que seja intencional. Se colocar os valores entre aspas duplas, você poderá removê-los ao incluí-los em outro conjunto de aspas duplas. As aspas duplas que não forem removidas evitarão que o feed do Recomendações carregue corretamente.
 
 Por exemplo, a sintaxe a seguir está incorreta:
 
@@ -280,7 +288,7 @@ Enquanto a indexação estiver em andamento, os produtos e cabeçalhos de feed s
 
 Quando o Status apresentar a mensagem de &quot;Sucesso&quot;, isso significa que o arquivo foi encontrado e analisado corretamente. A informação não está disponível para o uso no [!DNL Recommendations] até que o arquivo seja indexado, o que pode levar algum tempo, dependendo do tamanho do seu arquivo. Se o processo falhar, significa que o arquivo não foi encontrado. Por exemplo, você usou um URL incorreto, suas informações de FTP estavam incorretas ou havia um erro de análise.
 
-## Status do feed e indicadores  {#concept_E475986720D1400999868B3DFD14A7A0}
+## Status do feed e indicadores {#concept_E475986720D1400999868B3DFD14A7A0}
 
 Informações sobre os status possíveis do feed e seus indicadores.
 
@@ -297,7 +305,7 @@ A seguir, estão os possíveis status de um feed:
 | [!UICONTROL Waiting for Download] | [!DNL Target] está se preparando para baixar o arquivo de feed. |
 | [!UICONTROL Downloading Feed File] | [!DNL Target] está baixando o arquivo de feed. |
 | [!UICONTROL Importing Items] | [!DNL Target] está importando itens do arquivo de feed. |
-| Feed importado com êxito no *momento* | [!DNL Target] importou o arquivo de feed para o sistema de entrega de conteúdo. Os atributos do item foram alterados no sistema de entrega de conteúdo e serão refletidos em breve nas recomendações entregues. Se você não vir as alterações esperadas, tente novamente e atualize a página que contém as recomendações.<br>Notas:<ul><li>Se as alterações nos atributos de um item resultarem na exclusão de um item das recomendações, a exclusão será refletida imediatamente. Se um item for recém-adicionado ou se as alterações nos atributos resultarem na exclusão de um item *não mais* das recomendações, isso não será refletido até a atualização do próximo algoritmo, que ocorre em 24 horas.</li><li>Quando esse status é exibido, as atualizações podem ainda não ser refletidas na interface do usuário do [!UICONTROL Catalog Search]. Um status separado está listado em [!UICONTROL Catalog Search], indicando a última vez que o catálogo pesquisável foi atualizado.</li></ul> |
+| Feed importado com êxito no *momento* | [!DNL Target] importou o arquivo de feed para o sistema de entrega de conteúdo. Os atributos do item foram alterados no sistema de entrega de conteúdo e serão refletidos em breve nas recomendações entregues. Se você não vir as alterações esperadas, tente novamente e atualize a página que contém as recomendações.<br>Observações:<ul><li>Se as alterações nos atributos de um item resultarem na exclusão de um item das recomendações, a exclusão será refletida imediatamente. Se um item for recém-adicionado ou se as alterações nos atributos resultarem na exclusão de um item *não mais* das recomendações, isso não será refletido até a atualização do próximo algoritmo, que ocorre em 24 horas.</li><li>Quando esse status é exibido, as atualizações podem ainda não ser refletidas na interface do usuário do [!UICONTROL Catalog Search]. Um status separado está listado em [!UICONTROL Catalog Search], indicando a última vez que o catálogo pesquisável foi atualizado.</li></ul> |
 | Falha na importação parcial | Anteriormente, quando todas as linhas não eram carregadas, o feed ainda era marcado como bem-sucedido. Assim, criar uma falsa impressão de que todas as linhas foram carregadas, pois o feed foi mostrado como bem-sucedido.<P>Este é um cenário do por que você pode encontrar uma importação parcial de feed:<ul><li>Você carregou um arquivo de feed para o ambiente de produção, por exemplo, 100 linhas.</li><li>O feed executou e carregou 80 dessas linhas e descartou 20 linhas devido à formatação incorreta, o campo excedeu os caracteres e assim por diante.</li><li>O feed foi marcado como sucesso na interface do usuário, dando a impressão de que todas as 100 linhas foram carregadas.</li><li>Você está esperando alguns desses 20 produtos no delivery de uma atividade, mas isso não está acontecendo.</li><li> Você está intrigado neste momento porque carregou o feed que tem os detalhes do produto para os produtos em questão. Você não o vê no back-end ao consultar por meio da API da entidade, que informa que não está no back-end.</li></ul>Para remover essa confusão, a mensagem é aprimorada para informar exatamente o que aconteceu com o feed. Em vez de marcá-la como um sucesso, ela agora é marcada como falha de importação parcial. |
 | [!UICONTROL Failed to Index] | Ocorreu uma falha na operação de índice. Tente novamente. |
 | [!UICONTROL Server Not Found] | Locais de FTP ou URL inválidos ou não acessíveis. |
@@ -315,7 +323,7 @@ Os seguintes indicadores de status do feed são exibidos na coluna [!UICONTROL S
 | Indicador de status | Descrição |
 |--- |--- |
 | Indicador de status verde | Quando um feed acaba de indexar de modo bem-sucedido, um ponto de status verde indica que o feed está em um estado bem-sucedido. |
-| Indicador de status amarelo | Quando um feed ou índice de feed é atrasado em 25% da frequência de feed, um ponto de status amarelo é exibido. Por exemplo, um ponto amarelo é exibido para um feed definido para execução diária, se o índice ainda não concluiu seis horas após o tempo agendado. Observação: assim que o status do feed for &quot;Aguardando para fila de índice&quot;, os novos valores atualizados estarão disponíveis no processamento de entrega e critérios. |
+| Indicador de status amarelo | Quando um feed ou índice de feed é atrasado em 25% da frequência de feed, um ponto de status amarelo é exibido. Por exemplo, um ponto de status amarelo é exibido para um feed definido para execução diária, se o índice ainda não concluiu seis horas após o tempo agendado. Observação: assim que o status do feed for &quot;Aguardando para fila de índice&quot;, os novos valores atualizados estarão disponíveis no processamento de entrega e critérios. |
 | Indicador de status branco | Quando um feed não está agendado, um ponto de status branco indica que o feed ainda não foi executado. |
 | Indicador de status vermelho | Se o feed não carregar dados no servidor, um indicador de status vermelho será mostrado. |
 

@@ -4,9 +4,15 @@ description: Saiba mais sobre os cálculos estatísticos usados nas atividades m
 title: Como posso obter mais informações sobre os cálculos estatísticos usados nas atividades de [!UICONTROL A/B Test]?
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: 18f8ccd3edfda635c3f47bd67ff0b7a516748fa8
+TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: 1137
 ht-degree: 2%
 
 ---
@@ -113,11 +119,11 @@ A estatística *t* é definida como a diferença entre as médias de quaisquer d
 
 <p style="text-align:center;"><img width="100px" src="img/t_value.png"></p>
 
-Onde *μ<sub>v</sub>* e *μ<sub>v0</sub>* são os meios de *ν* e *ν<sub>0{10 μ{12 μ</sub>*, respectivamente, e o erro padrão da diferença entre *µ}v<sub> e</sub>*&#x200B;µ}v0 *é dado por:<sub></sub>*
+Onde *μ<sub>v</sub>* e *μ<sub>v0</sub>* são os meios de *ν* e *ν<sub>0{10 μ{12 μ<sub>, respectivamente, e o erro padrão da diferença entre*&#x200B;µ}v </sub>*e*&#x200B;µ}v0 </sub>*é dado por:</sub>*<sub>
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Onde *σ<sup>2</sup><sub>v</sub>* e *σ<sup>2</sup><sub>v<sub>0</sub></sub>* são as variações de duas experiências *ν* e *ν<sub>0{13 ν{22 ν</sub>* 0 *, respectivamente, e <sub>N</sub>* v *e <sub>N<sub>v</sub></sub>* 0 *são tamanhos de amostra para*&#x200B;µ} e *µ}, respectivamente.<sub></sub>*
+Onde *σ<sup>2</sup><sub>v</sub>* e *σ<sup>2</sup><sub>v<sub>0</sub></sub>* são as variações de duas experiências *ν* e *ν<sub>0{13 ν{22 ν<sub>0</sub>*, respectivamente, e *N<sub>v</sub>* e *N<sub>v<sub>0</sub></sub>* são tamanhos de amostra para *µ} e*&#x200B;µ}, respectivamente.</sub>**
 
 Para o teste t de Welch, o grau de liberdade é calculado do seguinte modo:
 

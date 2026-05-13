@@ -4,9 +4,22 @@ description: Siga as etapas necessárias para implementar o Analytics for [!DNL 
 title: Como implementar o Analytics for [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: ddfb06a17a24200b2aa4f01d370cc0e92ff5f180
+TQID: https://experienceleague.adobe.com/1e51ngQ1R8qogTPpEQ-mNo601s7zq2DGgKi62VhnfYA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: 1168
 ht-degree: 17%
 
 ---
@@ -118,7 +131,7 @@ Essa configuração tem um efeito global, o que significa que cada chamada feita
 
 A carga pode ser encaminhada para o Analytics por meio da [API de inserção de dados](https://helpx.adobe.com/br/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Para atividades de Alocação automática e Direcionamento automático, você também deve encaminhar a sessionId. Para obter mais informações, consulte [Relatórios do Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=pt-BR){target=_blank} no *guia dos SDKs do Adobe Target*.
 
-Se uma configuração global não for desejada e uma abordagem mais sob demanda for preferível, use a função da at.js [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html?lang=pt-BR){target=_blank} passando em **analyticsLogging: &quot;client_side&quot;**. A carga de análise é retornada somente para esta chamada e o back-end do [!DNL Target] não encaminha a carga para [!DNL Analytics]. Ao seguir essa abordagem, cada solicitação de at.js [!DNL Target] retorna a carga por padrão, mas somente quando desejado e especificado.
+Se uma configuração global não for desejada e uma abordagem mais sob demanda for preferível, use a função da at.js [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank} passando em **analyticsLogging: &quot;client_side&quot;**. A carga de análise é retornada somente para esta chamada e o back-end do [!DNL Target] não encaminha a carga para [!DNL Analytics]. Ao seguir essa abordagem, cada solicitação de at.js [!DNL Target] retorna a carga por padrão, mas somente quando desejado e especificado.
 
 Por exemplo:
 
@@ -190,7 +203,7 @@ Carregue suas páginas depois de atualizar as bibliotecas JavaScript para confir
 
 A Adobe recomenda remover a integração anterior para simplificar sua implementação e eliminar a necessidade de classificar as discrepâncias entre os sistemas. Você pode remover qualquer código implantado por um SC anterior à integração T&amp;T, incluindo `mboxLoadSCPlugin`.
 
-### Etapa 10: Ativar as opções de uso do Analytics como a fonte de relatórios do Target
+### Etapa 10: Habilitar as opções de uso do Analytics como a fonte de relatórios do Target
 
 Em [!DNL Target], clique em **[!UICONTROL Administration > Reporting]** e escolha **[!UICONTROL Select per activity]** ou **[!UICONTROL Adobe Analytics]** para habilitar as opções.
 

@@ -5,9 +5,17 @@ title: Como criar uma atividade  [!DNL Recommendations] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 32b3a93b30c6ca6f7576be5dbb25b476167b33b7
+TQID: https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: 1218
 ht-degree: 51%
 
 ---
@@ -48,7 +56,7 @@ Use o [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma
 
    Os visitantes do seu site verão o conteúdo recomendado somente se se qualificarem para a recomendação. Os visitantes que não se qualificarem para a recomendação verão o conteúdo padrão.
 
-   ![Opções do Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
+   ![Opções do Recomendações](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
    * **[!UICONTROL Replace w/ Recommendations]**: Substituir um elemento com recomendações exclui o conteúdo atual e o substitui por suas recomendações. Quando os visitantes visitarem seu site e se qualificarem para a recomendação, eles verão os itens recomendados na área especificada, em vez do conteúdo existente.
    * **[!UICONTROL Insert Recommendations Before]**: Inserir recomendações antes que o elemento selecionado coloque o conteúdo recomendado antes desse elemento. Dependendo da construção da página, a recomendação é exibida acima ou à esquerda do elemento selecionado.
@@ -63,7 +71,7 @@ Use o [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma
    * Página de carrinho
    * Página de categoria
    * Página inicial
-   * Página de aterrissagem
+   * Página de destino
    * Página do produto
    * Página de resultados da pesquisa
    * Página de agradecimento
@@ -123,7 +131,7 @@ Use o [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma
 
 1. Analise sua atividade do [!DNL Recommendations] no diagrama de fluxo e faça as alterações necessárias.
 
-   ![Diagrama de fluxo do Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
+   ![Diagrama de fluxo do Recomendações](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
 
    O diagrama do fluxo guia você pelas etapas da escolha do público-alvo para a atividade, configurando as experiências e especificando as métricas de sucesso.
 
@@ -148,7 +156,7 @@ Use o [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma
 1. Clique em **[!UICONTROL Next]** quando terminar.
 1. Especifique suas configurações de atividade.
 
-   Por exemplo, digite um nome (obrigatório) e objetivo (opcional) para a atividade. Para obter informações sobre as configurações, consulte [Configurações da atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
+   Por exemplo, digite um nome (obrigatório) e objetivo (opcional) para a atividade. Para obter informações sobre as configurações, consulte [Configurações da atividade do Recomendações](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
 
    >[!NOTE]
    >

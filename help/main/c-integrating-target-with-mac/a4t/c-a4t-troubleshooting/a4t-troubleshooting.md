@@ -4,10 +4,22 @@ description: Confira problemas comuns que os clientes encontraram ao usar o Anal
 title: Como solucionar problemas da integração do Analytics e do [!DNL Target]  (A4T)
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+TQID: https://experienceleague.adobe.com/R-gDENE45OcDN1OmptsqpH3iMF9f2pllHJbJl2Vmk2o
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 88%
+source-wordcount: 948
+ht-degree: 89%
 
 ---
 
@@ -53,7 +65,7 @@ Se você escolher uma métrica específica para [!DNL Target] no relatório, ess
 
 Os detalhes de incentivo e confiança não estão disponíveis no Analytics. No entanto, eles estão disponíveis nos relatórios do Target.
 
-## As atividades não aparecem nos relatórios do Analytics.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## As atividades não aparecem nos relatórios do Analytics. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 As atividades do A4T exigem que um servidor de rastreamento de análise seja especificado. Consulte [Usar um servidor de rastreamento de análise](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para verificar se seu servidor de rastreamento de análise está configurado corretamente.
 
@@ -61,7 +73,7 @@ As atividades do A4T exigem que um servidor de rastreamento de análise seja esp
 >
 >Você não precisa especificar um servidor de rastreamento durante a criação da atividade se estiver usando a at.js versão 0.9.1 (ou posterior). A biblioteca at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Tracking Server] vazio na página [!UICONTROL Goals & Settings].
 
-## Meus segmentos do Analytics não aparecem no Target.  {#section_DEE87F1557834F448E99381D3D02EEEF}
+## Meus segmentos do Analytics não aparecem no Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Verifique se você tem as permissões certas antes de começar a criar atividades do A4T:
 
@@ -69,7 +81,7 @@ Verifique se você tem as permissões certas antes de começar a criar atividade
 * Você deve ser um membro de um ou mais grupos da Experience Cloud com acesso ao Analytics e Target.
 * Verifique se o Analytics e Target são exibidos na seção Marketing Apps da navegação à esquerda.
 
-## Taxas de rejeição, rejeições e métricas de saída aparecem como positivas nos relatórios.  {#section_B5C3D56EF0344407AE67ABEB93037F5A}
+## Taxas de rejeição, rejeições e métricas de saída aparecem como positivas nos relatórios. {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
 Essas métricas que aparecem como positivas nos relatórios são um problema conhecido.
 
@@ -81,11 +93,11 @@ A lista de conjuntos de relatórios que aparece no [!DNL Target Standard/Premium
 
 Se você estiver usando várias fontes de relatórios, os conjuntos de relatórios deverão estar presentes na fonte de relatórios padrão definida no [!DNL Target] também. Se os conjuntos de relatórios não estiverem na fonte de relatórios padrão, eles não serão exibidos.
 
-Caso não veja o conjunto de relatórios que você está procurando, entre em contato com o [Atendimento ao cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para ativá-lo.
+Caso não veja o conjunto de relatórios que você está procurando, entre em contato com o [Atendimento ao cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para habilitá-lo.
 
-## Não vejo tantos dados nos relatórios quanto esperado.  {#section_75002584FA63456D8D9086172925DD8D}
+## Não vejo tantos dados nos relatórios quanto esperado. {#section_75002584FA63456D8D9086172925DD8D}
 
-Revise sua implementação, especialmente em páginas nas quais seus visitantes se qualificam para experiências e garanta que as IDs de dados complementares correspondam às chamadas do [!DNL Target] e do [!DNL Analytics]. 
+Revise sua implementação, especialmente em páginas nas quais seus visitantes se qualificam para experiências e garanta que as IDs de dados complementares correspondam às chamadas do [!DNL Target] e do [!DNL Analytics].
 
 * **at.js 1.x**: na chamada do [!DNL Target], a ID complementar está contida no parâmetro `mboxMCSDID`. Na chamada do [!DNL Analytics], a ID complementar está contida no parâmetro `sdid`.
 * **at.js 2.x**: na chamada do [!DNL Target], a ID complementar é retornada no cabeçalho HTTP como o valor de `experienceCloud.analytics.supplementalDataId`. Na chamada do [!DNL Analytics], a ID complementar está contida no parâmetro `sdid`.

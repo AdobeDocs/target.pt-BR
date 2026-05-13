@@ -4,14 +4,21 @@ description: Saiba como usar categorias (como Navegador, Geografia, Rede, Sistem
 title: Quais são as categorias para públicos-alvo?
 feature: Audiences
 exl-id: 37d6435d-4139-47c5-a871-6595e089d052
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/gdwPSImsbXfvaX2Z4bL9-hGyLwo0b0q-At0fokUfYN8
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: 374
 ht-degree: 47%
 
 ---
 
-# Categorias para públicos
+# Categorias para públicos-alvos
 
 Você pode direcionar qualquer um dos vários atributos de categoria usando [!DNL Adobe Target]. Para criar regras de direcionamento (ou grupos) para cada atributo, arraste e solte os atributos desejados no painel do Audience Builder.
 

@@ -1,13 +1,21 @@
 ---
-keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; sitecatalyst; campanha>receita; test&target; integração
+keywords: perguntas frequentes;perguntas frequentes;analytics para target;a4T;sitecatalyst;campanha>receita;test&target;integração
 description: Encontre respostas para perguntas frequentes sobre o SiteCatalyst herdado para integração de Test&Target e uso do Analytics for [!DNL Target] (A4T).
 title: Onde posso encontrar perguntas frequentes sobre a integração do SiteCatalyst com o Test&Target?
 feature: Analytics for Target (A4T)
 exl-id: cd16b08b-e58e-4208-95b5-97c5eb441fb7
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+TQID: https://experienceleague.adobe.com/mOxSRfT-QHQctFWFfIECidu639ybfGfGWPmFTf6jGLc
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 48%
+source-wordcount: 169
+ht-degree: 39%
 
 ---
 

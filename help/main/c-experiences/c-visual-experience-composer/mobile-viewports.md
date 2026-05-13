@@ -4,16 +4,22 @@ description: Os visores móveis ajudam a ver como as atividades do Adobe  [!DNL 
 title: Como usar visores móveis para experiências responsivas?
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1350'
+source-wordcount: 1361
 ht-degree: 94%
 
 ---
 
 # Visores móveis para experiências responsivas
 
-Os visores móveis permitem visualizar como as atividades do [!DNL Adobe Target] aparecem em telas de vários tamanhos. 
+Os visores móveis permitem visualizar como as atividades do [!DNL Adobe Target] aparecem em telas de vários tamanhos.
 
 O recurso de visualização de visor móvel é projetado para sites responsivos que são renderizados em vários dispositivos, janelas e tamanhos de tela. Sites responsivos ajustam-se e se adaptam automaticamente a qualquer tamanho de tela, incluindo desktops, laptops, tablets ou telefones celulares.
 
@@ -81,7 +87,7 @@ Abaixo, estão visores e resoluções para dispositivos populares. Lembre-se de 
 | Samsung Galaxy Tab 10 | 800 x 1280 | 800 x 1280 |
 | Chromebook Pixel | 1280 x 850 | 2560 x 1700 |
 
-Para entregar uma atividade aos visitantes em um dispositivo específico, escolha o público apropriado para esse dispositivo no diagrama de atividades. Use o Mobile Web Composer para editar a página na atividade daquele dispositivo. Para executar uma atividade em toda a sua experiência digital para garantir que ela fique boa em todos os dispositivos, não aplique o direcionamento. Em vez disso, use visores móveis para visualizar a atividade em cada tamanho de tela.
+Para entregar uma atividade aos visitantes em um dispositivo específico, escolha o público-alvo apropriado para esse dispositivo no diagrama de atividades. Use o Mobile Web Composer para editar a página na atividade daquele dispositivo. Para executar uma atividade em toda a sua experiência digital para garantir que ela fique boa em todos os dispositivos, não aplique o direcionamento. Em vez disso, use visores móveis para visualizar a atividade em cada tamanho de tela.
 
 Para sites responsivos, normalmente seu site é projetado para abrir em uma visualização diferente quando acessado por um dispositivo com um tamanho de tela específico. Esses tamanhos de tela que acionam as novas exibições são conhecidas como pontos de interrupção de CSS. Os pontos de interrupção de CSS são pontos em que o conteúdo do site responde, dependendo da largura do dispositivo, para exibir o layout ideal para os visitantes.. Os pontos de interrupção de CSS também são chamados de [consultas de mídia](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries).
 
@@ -143,7 +149,7 @@ Adicione visores móveis a atividades do [!DNL Target] para criar atividades res
 
 1. Clique no ícone **[!UICONTROL Devices]** e habilite cada dispositivo com um visor móvel.
 
-   ![Ativar visores móveis](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
+   ![Habilitar visores móveis](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 
    As janelas de visualização móvel estão listadas da menor para a maior de acordo com a largura.
 

@@ -4,10 +4,17 @@ description: Saiba como criar públicos-alvo no [!DNL Adobe Target]  para direci
 title: Posso definir visitantes como alvo com base no tipo de navegador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+TQID: https://experienceleague.adobe.com/D7cLw1OVT61u8SgkjpzEvWylcX1uz14Ia4rf8jAJyXs
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 33%
+source-wordcount: 1024
+ht-degree: 34%
 
 ---
 
@@ -80,7 +87,7 @@ Selecione **[!UICONTROL Type]** e escolha &quot;é igual&quot; ou &quot;não é 
 
 Selecione um ou mais navegadores. Várias opções estão conectadas a um OR.
 
-### Idioma  {#section_7520D1AA464A45A6843EABE2D2B431A1}
+### Idioma {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
 Direcione ou exclua determinados navegadores configurados para usar idiomas específicos.
 
@@ -107,7 +114,7 @@ Os seguintes idiomas de navegador podem ser direcionados ou excluídos:
 * Espanhol
 * Chinês tradicional
 
-### Versão  {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### Versão {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 Direcione ou exclua determinadas versões de um navegador.
 

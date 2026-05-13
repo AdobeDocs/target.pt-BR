@@ -4,9 +4,16 @@ description: Saiba como criar públicos-alvo personalizados e salvá-los na bibl
 title: Como Construir Públicos?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 19d2b14f137fe4dbf95e9f9f9b84f80b93d1e281
+TQID: https://experienceleague.adobe.com/-t5UqbGCl2EwCyScCq1B8X9bWxQQYWSd0e7RBoUoYQg
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: 525
 ht-degree: 48%
 
 ---
@@ -15,7 +22,7 @@ ht-degree: 48%
 
 Crie públicos-alvo personalizados e salve-os na biblioteca [!DNL Adobe Target] [!UICONTROL Audiences] para usar em suas atividades. Você também pode copiar um público-alvo existente que poderá editar para criar um público-alvo semelhante e combinar vários públicos-alvo.
 
-## Visão geral do público
+## Visão geral do público-alvo
 
 Os públicos-alvo são definidos por regras que determinam quem está incluso ou foi excluído de uma atividade no [!DNL Target]. A definição de um público-alvo pode incluir várias regras e cada regra pode incluir vários parâmetros. Definições complexas de público-alvo usam os operadores booleanos E e OU para combinar regras e parâmetros para que você tenha controle detalhado sobre quais visitantes do site sejam contados como participantes da atividade.
 

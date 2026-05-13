@@ -4,14 +4,21 @@ description: Saiba como habilitar conteúdo misto no  [!DNL Chrome], no  [!DNL F
 title: Como habilitar conteúdo misto no meu navegador
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: c5b43faa2fc55c2c8737e586cfdfaa1444a05880
+TQID: https://experienceleague.adobe.com/6Q1UvNmU-vSr9sp3pe2JN-wkjFUMWFxtPkgQegArrVw
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: 551
 ht-degree: 87%
 
 ---
 
-# Ativar conteúdo misto no navegador
+# Habilitar conteúdo misto no navegador
 
 O conteúdo misto ocorre se a solicitação inicial estiver segura por HTTPS, mas o conteúdo HTTPS *e* HTTP é carregado para exibir a página da Web. O conteúdo HTTPS é seguro. O conteúdo HTTP não é seguro.
 
@@ -21,7 +28,7 @@ Uma mensagem de aviso será exibida se o [!UICONTROL Visual Experience Composer]
 
 ![Aviso de conteúdo misto](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
-Antes, quando um conteúdo misto não era permitido, você ainda poderia realizar algumas ações na Etapa 1 do fluxo de trabalho guiado de três etapas, ao criar atividades. O [!DNL Target] agora bloqueia as ações na Etapa 1. Quando essa mensagem é exibida, você deve ativar o conteúdo misto antes de criar a atividade.
+Antes, quando um conteúdo misto não era permitido, você ainda poderia realizar algumas ações na Etapa 1 do fluxo de trabalho guiado de três etapas, ao criar atividades. O [!DNL Target] agora bloqueia as ações na Etapa 1. Quando essa mensagem é exibida, você deve habilitar o conteúdo misto antes de criar a atividade.
 
 As configurações de segurança do seu navegador pode bloquear o conteúdo misto ou não seguro (HTTP) carregado em uma página segura (HTTPS) ou quadro (como VEC). Se você não quiser desativar as configurações de segurança do seu navegador, é necessário ter um site HTTPS.
 
@@ -66,7 +73,7 @@ Por padrão, o [!DNL Firebox] bloqueia páginas que misturam conteúdo seguro e 
 
 1. Clique duas vezes em ` **[!UICONTROL security.mixed_content.block_active_content]**`.
 
-   O valor altera de &quot;Verdadeiro&quot; para &quot;Falso&quot;. Quando o valor mostrar &quot;Falso&quot;, você terá concluído. 
+   O valor altera de &quot;Verdadeiro&quot; para &quot;Falso&quot;. Quando o valor mostrar &quot;Falso&quot;, você terá concluído.
 
    ![Segurança do Firefox](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
 

@@ -4,10 +4,27 @@ description: Leia dicas do nosso painel de especialistas sobre como usar o  [!DN
 title: Onde posso encontrar dicas e truques para usar o Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+TQID: https://experienceleague.adobe.com/c7wWYsy-0l8BCAlmPxtqthYjD1R6CiCsHEBrTYCjOR0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2883'
-ht-degree: 72%
+source-wordcount: 2960
+ht-degree: 73%
 
 ---
 
@@ -31,9 +48,9 @@ Consulte [Métodos para obter dados no Target](https://experienceleague.adobe.co
 
 A combinação de públicos-alvo que vivem em diferentes soluções [!DNL Adobe Experience Cloud] pode fornecer uma compreensão mais ampla dos clientes, bem como a capacidade de personalizar mais profundamente. Por exemplo, embora [!DNL Target] forneça dados de público-alvo em tempo real, o [!DNL Adobe Analytics] fornece dados históricos de público-alvo. A combinação dos dois pode ajudar você a identificar quando o comportamento de um cliente é consistente e quando pode haver uma oportunidade de agir diante de um novo comportamento. Basta clicar no menu suspenso ao lado de &quot;Todos os visitantes&quot; ao criar uma atividade. Em seguida, marque as caixas de até vinte públicos, clique em &quot;Combinar vários públicos&quot; e em &quot;Salvar&quot;.
 
-Consulte [Combinar vários públicos](/help/main/c-target/combining-multiple-audiences.md) para obter instruções passo a passo.
+Consulte [Combinar vários públicos-alvos](/help/main/c-target/combining-multiple-audiences.md) para obter instruções passo a passo.
 
-**Informações importantes**: os públicos-alvo do [!DNL Adobe Audience Manager] estão disponíveis no [!DNL Target] automaticamente. Mas o compartilhamento de público do [!DNL Adobe Analytics] requer uma configuração manual. Marque a caixa denominada &quot;Transformar em público da Experience Cloud&quot; durante o processo de criação do público no [!DNL Analytics]. Em seguida, no [!DNL Target], clique em &quot;Importar públicos-alvo da Experience Cloud&quot;.
+**Informações importantes**: os públicos-alvo do [!DNL Adobe Audience Manager] estão disponíveis no [!DNL Target] automaticamente. Mas o compartilhamento de público-alvo do [!DNL Adobe Analytics] requer uma configuração manual. Marque a caixa denominada &quot;Transformar em público da Experience Cloud&quot; durante o processo de criação do público no [!DNL Analytics]. Em seguida, no [!DNL Target], clique em &quot;Importar públicos-alvo da Experience Cloud&quot;.
 
 ## Dica 3: exporte dados do [!DNL Target] para usar com ferramentas de terceiros.
 
@@ -77,7 +94,7 @@ Consulte [Atividade multipáginas](/help/main/c-experiences/c-visual-experience-
 
 ## Dica 7: teste uma oferta com públicos-alvo diferentes para descobrir se os públicos-alvo têm preferências diferentes.
 
-Com as versões da experiência, você pode executar um teste com variações para quantos públicos desejar. Por exemplo, você pode criar um anúncio de banner oferecendo envio grátis, com variações de imagem e moeda para clientes nos EUA, Reino Unido e EUA, sem precisar executar testes para três públicos diferentes.
+Com as versões da experiência, você pode executar um teste com variações para quantos públicos-alvos desejar. Por exemplo, você pode criar um anúncio de banner oferecendo envio grátis, com variações de imagem e moeda para clientes nos EUA, Reino Unido e EUA, sem precisar executar testes para três públicos-alvos diferentes.
 
 Consulte para [Vários públicos-alvo de experiência em um Teste A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) para obter instruções passo a passo.
 
@@ -93,7 +110,7 @@ Se estiver direcionando um segmento que você sabe que não será direcionado no
 
 Consulte [Criar um público-alvo somente de atividade](/help/main/c-target/creating-activity-only-audience.md) para obter instruções passo a passo.
 
-**Recurso altamente solicitado**: nossos clientes nos pediram para tornar possível impedir que públicos-alvo de uso único sejam salvos automaticamente na Biblioteca de público-alvo. Agora, eles não precisam mais excluir públicos manualmente para manter as bibliotecas organizadas.
+**Recurso altamente solicitado**: nossos clientes nos pediram para tornar possível impedir que públicos-alvo de uso único sejam salvos automaticamente na Biblioteca de público-alvo. Agora, eles não precisam mais excluir públicos-alvos manualmente para manter as bibliotecas organizadas.
 
 ## Dica 10: execute testes simples mais rapidamente, sem colocá-los no processo padrão de controle de qualidade.
 
@@ -135,7 +152,7 @@ Se a hipótese não for verdadeira, pense em maneiras de melhorar o teste. Lembr
 
 Comparar o desempenho de conversão de diferentes públicos-alvo em diferentes testes em locais diferentes pode ajudar a focalizar e refinar a estratégia de otimização de uma empresa. Use comparações de teste para identificar quais públicos-alvo são mais valiosos para testar, quais devem receber experiências direcionadas e quais tipos de experiências têm maior probabilidade de obter uma resposta.
 
-Por exemplo, um cliente de serviços financeiros realizou uma campanha promocional para um cartão de crédito que envolveu incentivos para eventos esportivos profissionais. Por meio de multivariate testing fatorial parcial de suas páginas de aterrissagem, o cliente foi capaz de equilibrar de maneira ideal as mensagens sobre benefícios de cartões de crédito com incentivos esportivos para direcionar públicos distintos de sua base de clientes. Essa abordagem permitia que a empresa aproveitasse e maximizasse a conversão durante uma janela com detecção de hora relacionada a um evento esportivo importante.
+Por exemplo, um cliente de serviços financeiros realizou uma campanha promocional para um cartão de crédito que envolveu incentivos para eventos esportivos profissionais. Por meio de multivariate testing fatorial parcial de suas páginas de destino, o cliente foi capaz de equilibrar de maneira ideal as mensagens sobre benefícios de cartões de crédito com incentivos esportivos para direcionar públicos-alvos distintos de sua base de clientes. Essa abordagem permitia que a empresa aproveitasse e maximizasse a conversão durante uma janela com detecção de hora relacionada a um evento esportivo importante.
 
 ## Dica 17: torne os testes úteis iniciando-os apenas se você souber que pode aproveitar os dados.
 
@@ -162,7 +179,7 @@ As experiências do usuário do tablet e do smartphone precisam se concentrar em
 
 Usuários móveis têm alta intenção. A maioria deles usa a pesquisa antes de qualquer ação em sites de comércio eletrônico, tornando a otimização de pesquisa de site móvel essencial. Para melhorar a SEO (otimização de mecanismo de pesquisa) para dispositivos móveis, use dicas de navegação explícitas para facilitar a navegação. Além disso, implemente a sugestão automática e a correção automática nas caixas de entrada de pesquisa para solucionar a dificuldade de digitação móvel. Forneça resultados de pesquisa relevantes e atraentes, otimizados para o tamanho e o local da tela.
 
-## Dica 22: alcance melhor os públicos-alvo móveis usando a definição de metas de hora do dia para campanhas SEM para dispositivos móveis.
+## Dica 22: alcance melhor os públicos-alvo móveis usando o direcionamento de hora do dia para campanhas SEM para dispositivos móveis.
 
 Entenda como e quando alcançar seu público-alvo e como gerenciar melhor seu investimento diário em publicidade, dividindo suas campanhas móveis em diferentes segmentos ao longo do dia.
 

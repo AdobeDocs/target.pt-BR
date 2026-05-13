@@ -1,13 +1,18 @@
 ---
-keywords: Definição de metas; experiência; adicionar experiência; adicionar experiência
+keywords: Direcionamento; experiência; adicionar experiência; adicionar experiência
 description: Use o [!UICONTROL Visual Experience Composer] (VEC) para adicionar experiências às atividades.
 title: Como adicionar experiências em uma atividade A/B?
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+TQID: https://experienceleague.adobe.com/7qEiUXkfMbPmtB2eMio0LztOYM3naHxG-WRQZOyMmlU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 28%
+source-wordcount: 387
+ht-degree: 33%
 
 ---
 

@@ -1,18 +1,23 @@
 ---
-keywords: Recommendations, oferta
-description: Saiba como utilizar o Adobe Recommendations como uma oferta em atividades de Testes A/B (incluindo Alocação automática e Direcionamento automático) e Direcionamento de experiência (XT)
-title: Como uso o Recommendations como uma oferta em outros tipos de atividade?
+keywords: Recomendações, oferta
+description: Saiba como utilizar o Recomendações da Adobe como uma oferta em atividades de Testes A/B (incluindo Alocação automática e Direcionamento automático) e Direcionamento de experiência (XT)
+title: Como uso o Recomendações como oferta em outros tipos de atividade?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
-source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12
+TQID: https://experienceleague.adobe.com/ZMOb5RdY6bES331INSM7VF-w4be-5Xmjqon0YvfuNG4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: 525
 ht-degree: 60%
 
 ---
 
-# Recommendations como uma oferta
+# Recomendações como oferta
 
 Agora você pode incluir recomendações nas atividades de [!UICONTROL A/B Test] (incluindo [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target]) e [!UICONTROL Experience Targeting] (XT).
 
@@ -37,12 +42,12 @@ Para começar, crie uma atividade [!UICONTROL A/B Test] ou [!UICONTROL Experienc
 
    ![Inserir recomendação como uma oferta](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
-1. Selecione entre as seguintes opções para ver os critérios populares do recommendations por tipo de página:
+1. Selecione entre as seguintes opções para ver os critérios populares de recomendações por tipo de página:
 
    * Página de carrinho
    * Página de categoria
    * Página inicial
-   * Página de aterrissagem
+   * Página de destino
    * Página do produto
    * Página de resultados da pesquisa
    * Página de agradecimento
@@ -58,14 +63,14 @@ Para começar, crie uma atividade [!UICONTROL A/B Test] ou [!UICONTROL Experienc
 1. Clique em [!UICONTROL Save].
 1. Termine de configurar a atividade de Teste A/B ou XT usado o fluxo de trabalho orientado de três partes.
 
-## Editar a configuração de uma oferta do recommendations
+## Editar a configuração de uma oferta do Recomendações
 
 Há duas maneiras de editar a configuração de uma oferta:
 
 * Usando o menu [!UICONTROL Edit]
 * Usando o painel [!UICONTROL Modifications]
 
-### Editar uma oferta do recommendations utilizando o menu Editar
+### Editar uma oferta do Recomendações utilizando o menu Editar
 
 1. Clique na oferta que você deseja editar e em **[!UICONTROL Edit]**.
 
@@ -80,7 +85,7 @@ Há duas maneiras de editar a configuração de uma oferta:
 
 1. Faça suas edições.
 
-### Editar uma oferta do recommendations utilizando o painel Modificações
+### Editar uma oferta do Recomendações utilizando o painel Modificações
 
 1. Clique no ícone [!UICONTROL Modifications] **( `</>` )** para exibir o painel [Modificações](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 1. Passe o cursor do mouse sobre a ação desejada e clique no ícone **[!UICONTROL Edit]**.
@@ -89,20 +94,20 @@ Há duas maneiras de editar a configuração de uma oferta:
 
 1. Faça suas edições.
 
-## Excluir uma oferta do recommendations
+## Excluir uma oferta do Recomendações
 
-Há duas maneiras de excluir uma oferta do recommendations:
+Há duas maneiras de excluir uma oferta do Recomendações:
 
 * Usando o menu [!UICONTROL Edit]
 * Usando o painel [!UICONTROL Modifications]
 
-### Excluir uma oferta do recommendations utilizando o menu Editar
+### Excluir uma oferta do Recomendações utilizando o menu Editar
 
 1. Clique na oferta que você deseja remover e em **[!UICONTROL Layout > Remove]**.
 
    ![Remover](/help/main/c-recommendations/assets/recs-offer-remove.png)
 
-### Excluir uma oferta do recommendations utilizando o painel Modificações
+### Excluir uma oferta do Recomendações utilizando o painel Modificações
 
 1. Clique no ícone [!UICONTROL Modifications] **( &lt;/> )** para exibir o painel [Modificações](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 1. Passe o cursor do mouse sobre a ação desejada e clique no ícone [!UICONTROL Delete].
@@ -119,6 +124,6 @@ O status da oferta de recomendações (algoritmo) é exibido na parte inferior d
 
 ![Status da oferta de recomendações](/help/main/c-recommendations/assets/recs-offer-status.png)
 
-## Vídeo de treinamento: Recommendations como uma oferta ![Selo de visão geral](/help/main/assets/overview.png)
+## Vídeo de treinamento: Recomendações como oferta ![Selo de visão geral](/help/main/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)

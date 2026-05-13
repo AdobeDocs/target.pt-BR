@@ -4,10 +4,19 @@ description: Saiba como usar o Analytics for [!DNL Target] (A4T). O A4T fornece 
 title: Como usar relatórios no A4T?
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+TQID: https://experienceleague.adobe.com/oYF9-9IHLmdxfWV-k3FLYd26rkXgOE9CddNTldF9TSY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 39%
+source-wordcount: 1269
+ht-degree: 38%
 
 ---
 
@@ -31,7 +40,7 @@ Quando a operação [!UICONTROL Select] é usada e você classifica em *Particip
 >
 >Os relatórios fornecidos por [!DNL Target] têm uma latência de quatro minutos. Para atividades viabilizadas pelo A4T, nos relatórios do [!DNL Target] e do [!DNL Analytics], pode levar até 24 horas após a atividade ser salva inicialmente para que os dados do relatório possam ser analisados por experiências. Os dados coletados nas primeiras 24 horas ainda são precisos e são atribuídos à experiência correta.
 
-## Relatórios no Analytics  {#analytics}
+## Relatórios no Analytics {#analytics}
 
 No [!DNL Analytics], há várias dimensões e métricas disponibilizadas após a integração A4T ser habilitada.
 
@@ -99,7 +108,7 @@ Por exemplo, se estiver otimizando para exibições de página por visitante, vo
    | Detalhamentos | Selecione as dimensões desejadas: Padrão é pronto (OOTB), enquanto Personalizado inclui eVars e props. É recomendável usar &quot;ID de visitante&quot; se as informações no nível de ID de visitante forem necessárias, em vez de &quot;ID de visitante da Experience Cloud&quot;.<ul><li>ID do visitante é a ID final usada pelo Analytics. Ela será AID (se o cliente for legado) ou MID (se o cliente for novo ou tiver eliminado os cookies desde que o serviço de identificação de visitante do MC foi iniciado).</li><li>A ID de visitante da Experience Cloud só será definida para clientes novos ou com cookies eliminados desde que o serviço de ID de visitante do MC foi iniciado.</li></ul> |
    | Métricas | Selecione sua métrica desejada. O padrão é OOTB, enquanto o Personalizado inclui eventos personalizados. |
    | Visualização de Relatório | Revise suas configurações antes de agendar o relatório.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
-   | Agendar entrega | Digite um endereço de email para entregar o arquivo, nomeie o arquivo e selecione [!UICONTROL Send Immediately].<br>Observação: o arquivo pode ser entregue via FTP em [!UICONTROL Advanced Delivery Options]<br>![Agendar Entrega](/help/main/c-reports/assets/datawarehouse3.png). |
+   | Agendar entrega | Digite um endereço de email para entrega do arquivo, nomeie o arquivo e selecione [!UICONTROL Send Immediately].<br>Observação: o arquivo pode ser entregue via FTP em [!UICONTROL Advanced Delivery Options]<br>![Agendar Entrega](/help/main/c-reports/assets/datawarehouse3.png). |
 
 1. Clique em **[!UICONTROL Request this Report]**.
 
@@ -110,4 +119,4 @@ Por exemplo, se estiver otimizando para exibições de página por visitante, vo
 Para obter mais informações sobre [!DNL Data Warehouse], consulte os seguintes links na documentação de ajuda do [!DNL Analytics]:
 
 * [Criar uma solicitação Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=pt-BR)
-* [práticas recomendadas da Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=pt-BR)
+* [Práticas recomendadas do Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=pt-BR)

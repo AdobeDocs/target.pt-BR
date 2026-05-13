@@ -5,10 +5,15 @@ title: Onde posso obter respostas para perguntas sobre design do  [!DNL Target R
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
+TQID: https://experienceleague.adobe.com/xRu0XEnc8wX8PZngba7CO67mFdja7HALL-1OSnhAmuY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 81%
+source-wordcount: 472
+ht-degree: 80%
 
 ---
 
@@ -34,11 +39,11 @@ Duas opções estão disponíveis para resolver esse problema:
 
 A ID da categoria não pode ser exibida no design. Como várias categorias podem ser armazenadas, o sistema não sabe qual categoria exibir.
 
-## Como devo mudar um design para obter uma atualização instantânea?  {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
+## Como devo mudar um design para obter uma atualização instantânea? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
 A alteração do design que está atualmente em uso leva um tempo para atualizar. Para alterar o design instantaneamente, crie um novo design, selecione-o na atividade e salve a recomendação.
 
-## Como posso capturar as principais informações para exibir no design? Exemplo: se desejarmos exibir a principal categoria do produto, como codificamos esse valor no design da velocidade?  {#section_F08043B14BA24BC8815FEF25F4F84C39}
+## Como posso capturar as principais informações para exibir no design? Exemplo: se desejarmos exibir a principal categoria do produto, como codificamos esse valor no design da velocidade? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
 O parâmetro `$key. *`value`*` captura a maioria das informações do produto para exibir dentro do design. Por exemplo, se você deseja exibir a miniatura dos principais produtos, use `$key.thumbnailURL`.
 

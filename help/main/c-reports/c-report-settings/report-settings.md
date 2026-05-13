@@ -4,9 +4,19 @@ description: Saiba como definir configurações de relatório no Adobe Target, i
 title: Como Definir Configurações De Relatório?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/Nz7EFST7BeVE2FqfFkbWnp-hRJug7HPlOodak73H-Uo
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: 1795
 ht-degree: 48%
 
 ---
@@ -183,7 +193,7 @@ Considere o seguinte:
 * Disponível somente ao exibir relatórios em [!UICONTROL Table View].
 * Este recurso não está disponível para atividades que usam o [Analytics como fonte de relatórios (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
-## Contribuição de localização  {#section_5832F126AC114AE1ABFFF4D9B904393B}
+## Contribuição de localização {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
 Clique no ícone de [[!UICONTROL Location Contribution]](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) ( ![Contribuição de localização](/help/main/assets/icons/LocationContribution.svg) ) para que o relatório mostre a contribuição por localização para as atividades de Teste multivariado (MVT).
 
@@ -193,7 +203,7 @@ Disponível somente ao exibir o relatório em [!UICONTROL Graph View].
 
 Marque ou desmarque as experiências à esquerda do gráfico para exibir ou ocultar as experiências correspondentes no gráfico.
 
-## Média móvel  {#section_59066693158C4433B87D07402C2BC6CD}
+## Média móvel {#section_59066693158C4433B87D07402C2BC6CD}
 
 Disponível somente ao exibir o relatório em [!UICONTROL Graph View].
 
