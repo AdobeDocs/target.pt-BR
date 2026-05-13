@@ -55,4 +55,4 @@ Para usar o recurso [!UICONTROL AI Assistant] em [!UICONTROL Target], as permiss
 
 Saiba como configurar o acesso e as permissões para [!DNL AI Assistant] no [!DNL Adobe Experience Platform].
 
->[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3475924/?captions=por_br&learn=on&#x26;enablevpops)
