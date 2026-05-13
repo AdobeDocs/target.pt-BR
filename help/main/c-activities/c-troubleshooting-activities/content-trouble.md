@@ -4,10 +4,15 @@ description: Encontre sugestões para ajudar a solucionar problemas se a página
 title: Como posso solucionar problemas da entrega de conteúdo?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+TQID: https://experienceleague.adobe.com/nkaoqcuoqMm67AnEjSg6dCnFDy-jvlwvD1a6YeXTkwk
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 89%
+source-wordcount: 1663
+ht-degree: 86%
 
 ---
 
@@ -44,7 +49,7 @@ Para recuperar o token de autorização:
 
    ![Gerar novo token de autenticação](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
-1. Adicione o token gerado como um parâmetro ao seu URL para ativar uma das ferramentas de depuração avançadas.
+1. Adicione o token gerado como um parâmetro ao seu URL para habilitar uma das ferramentas de depuração avançadas.
 
    ![Token de autorização](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/auth-token.png)
 
@@ -65,7 +70,7 @@ Os seguintes parâmetros estão disponíveis:
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-A saída exibe informações detalhadas sobre o conteúdo. O mboxTrace mostra detalhes sobre sua campanha ou atividade e perfil. Também fornece um instantâneo do perfil antes da execução, e um instantâneo do que foi alterado após a execução. Ela também mostra quais campanhas ou atividades foram avaliadas para cada local.
+A saída exibe informações detalhadas sobre o conteúdo. A mboxTrace mostra detalhes sobre sua campanha ou atividade e perfil. Ele também fornece um instantâneo do perfil antes da execução e um instantâneo do que foi alterado após a execução. Ela também mostra quais campanhas ou atividades foram avaliadas para cada local.
 
 Algumas das informações incluem segmentos correspondentes ou não e IDs de direcionamento:
 
@@ -85,7 +90,7 @@ Algumas das informações incluem segmentos correspondentes ou não e IDs de dir
 
 Não é necessário incluir `=console`, `=json` ou `=window` no parâmetro de consulta. Quando terminar com os detalhes do mboxTrace, adicione `=disable` e pressione **[!UICONTROL Enter]** para retornar ao modo normal de exibição.
 
-mboxTrace não altera o funcionamento e a aparência normais do site. Os visitantes verão o design normal do Recommendations.
+mboxTrace não altera o funcionamento e a aparência normais do site. Os visitantes verão o design normal do Recomendações.
 
 ## mboxDebug {#mboxdebug}
 
@@ -105,15 +110,15 @@ Para usar mboxDebug, inclua um parâmetro mboxDebug no fim do seu URL. A tabela 
 >
 >Verifique se o fragmento do URL está após os parâmetros da sequência de consulta. Qualquer item depois do primeiro `#` é um identificador de fragmento e faz com que os parâmetros de depuração não funcionem corretamente.
 
-## Adobe Experience Cloud Debugger  {#section_A2798ED3A431409690A4BE08A1BFCF17}
+## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
 Com o depurador da Adobe Experience Cloud é mais rápido e fácil entender a implementação do Target. Você pode visualizar rapidamente a configuração da biblioteca, examinar as solicitações para garantir que os parâmetros personalizados estão sendo passados corretamente, ativar o logon no console e desativar todas as solicitações do Target. Faça a autenticação na Experience Cloud e use a ferramenta MboxTrace avançada para inspecionar as qualificações de atividade e público-alvo, bem como o perfil do visitante.
 
 Para obter mais informações, consulte os vídeos de treinamento abaixo:
 
-Para obter informações mais detalhadas, consulte [Depurar at.js usando o Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=pt-BR){target=_blank}.
+Para obter informações mais detalhadas, consulte [Depurar at.js usando o Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
-## Os melhores vendedores não aparecem no Recommendations  {#section_3920C857270A406C80BE6CBAC8221ECD}
+## Os melhores vendedores não aparecem no Recomendações {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 A chamada *`SiteCatalyst: purchase`* não pode ser usada para dados de tráfego de algoritmo de compra. Em vez disso, use a chamada *`orderConfirmPage`*.
 
@@ -131,11 +136,11 @@ Se o seu site tiver um subdomínio, como [!DNL us.domain.com], mas você precisa
 
 ## O conteúdo do Target cintila ou não é exibido caso um elemento também faça parte da personalização do Adobe Experience Manager. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
-Se um elemento DOM fizer parte da segmentação de personalização do Adobe Experience Manager (AEM) e de uma atividade do Target, o conteúdo do Target poderá cintilar ou não ser exibido.
+Se um elemento DOM fizer parte do direcionamento de personalização do Adobe Experience Manager (AEM) e de uma atividade do Target, o conteúdo do Target poderá cintilar ou não ser exibido.
 
 Para resolver isso, você pode desativar a personalização do AEM nas páginas onde o Target estiver sendo executado.
 
-## Falha no fornecimento de ofertas remotas e de redirecionamento devido a um URL inválido.  {#section_7D09043B687F43B39DAEDF17D00375AC}
+## Falha no fornecimento de ofertas remotas e de redirecionamento devido a um URL inválido. {#section_7D09043B687F43B39DAEDF17D00375AC}
 
 Se a oferta remota ou de redirecionamento usar um URL inválido, poderá ocorrer uma falha no fornecimento.
 
@@ -206,12 +211,12 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 
 ### Adicione a Extensão ![Selo do tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33296?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### Depuração básica do Adobe Target ![Selo do tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33298?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox Trace ![Selo do tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33345?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

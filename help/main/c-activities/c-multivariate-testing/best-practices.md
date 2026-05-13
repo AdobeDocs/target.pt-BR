@@ -4,9 +4,12 @@ description: Saiba como melhorar o desempenho, evitar problemas e corrigir probl
 title: Quais são as práticas recomendadas para uma atividade [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
-source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
+TQID: https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: 611
 ht-degree: 57%
 
 ---
@@ -15,7 +18,7 @@ ht-degree: 57%
 
 Dicas para ajudá-lo a melhorar o desempenho, evitar problemas e corrigir problemas conhecidos que podem ocorrer ao criar e executar atividades do [!UICONTROL Multivariate Test] (MVT) no [!DNL Adobe Target].
 
-## Planejar  {#section_4D4A1F6226F042379BF48DB753608579}
+## Planejar {#section_4D4A1F6226F042379BF48DB753608579}
 
 * Conheça os locais na sua página que provavelmente produzirão resultados significativos.
 
@@ -44,14 +47,14 @@ Dicas para ajudá-lo a melhorar o desempenho, evitar problemas e corrigir proble
 
 * As alternativas de cada elemento devem ser significativamente diferentes entre si.
 
-## Analisar  {#section_9A2118CF1039451681C13D9AE79A58AB}
+## Analisar {#section_9A2118CF1039451681C13D9AE79A58AB}
 
 * Use o [relatório de Contribuição da Localização](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) para monitorar o desempenho de cada localização e oferta.
 * No [relatório de Desempenho da experiência](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md), baseie suas decisões nos dados mostrados com o uso dos filtros [!UICONTROL Best 5] e [!UICONTROL Worst 5].
 
   O filtro [!UICONTROL All] dificulta a extração das informações desejadas e nem todas as experiências podem ser exibidas no gráfico. Use o filtro [!UICONTROL All] se quiser ver uma experiência específica que não seja uma das cinco melhores ou piores.
 
-## Acompanhar  {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
+## Acompanhar {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
 * Embora [!DNL Target] permita a edição de uma atividade ao vivo, a edição de uma atividade que esteja em andamento pode redefinir o teste. Os relatórios podem não reconhecer algumas das alterações. É seguro fazer alterações em ofertas HTML somente na biblioteca de ofertas.
 

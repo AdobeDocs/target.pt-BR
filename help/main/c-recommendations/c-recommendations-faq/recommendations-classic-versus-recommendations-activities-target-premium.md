@@ -1,26 +1,30 @@
 ---
-keywords: Recommendations, algoritmos do recommendations, atividade do recommendations, recommendations classic
-description: Examine as informações para ajudar você a entender as diferenças entre as atividades herdadas do Recommendations Classic e do Recommendations no  [!DNL Target] Premium.
-title: Qual é a diferença entre o Recommendations Classic e o Recommendations no  [!DNL Target] Premium?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+keywords: Recomendações, algoritmos do recommendations, atividade do recommendations, recommendations classic
+description: Examine as informações para ajudar você a entender as diferenças entre as atividades herdadas do Recommendations Classic e do Recomendações no  [!DNL Target] Premium.
+title: Qual é a diferença entre o Recommendations Classic e o Recomendações no  [!DNL Target] Premium?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+TQID: https://experienceleague.adobe.com/EoTkyY0kOwRKT52WIwOuTCoUziIJOnNtTo6llsTNpsM
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 88%
+source-wordcount: 665
+ht-degree: 86%
 
 ---
 
 # Atividades do Recommendations Classic versus Recommendations no [!DNL Target] Premium
 
-Informações para ajudá-lo a escolher entre as atividades Recommendations Classic e Recommendations no Target Premium.
+Informações para escolher entre as atividades Recommendations Classic e Recomendações no Target Premium.
 
 >[!NOTE]
 >
->As atividades do Recommendations estão disponíveis como parte da solução do [!DNL Target Premium]. Elas não estão disponíveis no [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
+>As atividades do Recomendações estão disponíveis como parte da solução do [!DNL Target Premium]. Elas não estão disponíveis no [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
 
-No produto do [!DNL Recommendations] clássico, as recomendações foram exibidas com a criação de uma mbox de coleta de dados em uma página seguida da adição de uma mbox de exibição em um local específico da página. A atividade do [!DNL Recommendations] no [!DNL Target Premium] permite a criação de recomendações em qualquer lugar da página, sem a necessidade de criar uma mbox para cada local onde deseja recomendar os produtos ou conteúdo. Uma simples referência de JavaScript no cabeçalho da página ativa recomendações em qualquer lugar da página. Use essa referência do JavaScript para enviar as chaves à mbox do [!DNL Target], como as chaves do `entity.id` e `entity.categoryId`.
+No produto do [!DNL Recommendations] clássico, as recomendações foram exibidas com a criação de uma mbox de coleta de dados em uma página seguida da adição de uma mbox de exibição em um local específico da página. A atividade do [!DNL Recommendations] no [!DNL Target Premium] permite a criação de recomendações em qualquer lugar da página, sem a necessidade de criar uma mbox para cada local onde deseja recomendar os produtos ou conteúdo. Uma simples referência de JavaScript no cabeçalho da página habilita recomendações em qualquer lugar da página. Use essa referência do JavaScript para enviar as chaves à mbox do [!DNL Target], como as chaves do `entity.id` e `entity.categoryId`.
 
 O [!DNL Recommendations Classic] é exibido como o seu próprio cartão na interface do usuário da [!DNL Experience Cloud]. Uma atividade do [!DNL Recommendations] está disponível com o fluxo de trabalho do [!DNL Target Premium].
 
@@ -28,7 +32,7 @@ Os usuários do [!DNL Recommendations Classic] podem continuar a usar as mboxes 
 
 A atividade do [!DNL Recommendations] no [!DNL Target] aprimora o [!DNL Recommendations Classic] nas principais áreas a seguir:
 
-## Recommendations como uma oferta
+## Recomendações como oferta
 
 Você pode incluir recomendações nas atividades de [!UICONTROL A/B Test] (inclusive [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target]) e [!UICONTROL Experience Targeting] (XT).
 
@@ -49,7 +53,7 @@ Para obter mais informações, consulte [Recomendações como uma oferta](/help/
 
 ![imagem de overview_criteria](assets/overview_criteria.png)
 
-Os critérios são predefinidos e classificados por setores da indústria, tipos de página e implementação. Por exemplo, você pode procurar pelos critérios que se aplicam ao setor varejista, para o uso em uma página de produto, mostrando produtos dentro de uma categoria específica (como definido pelo parâmetro `entity.categoryID`).
+Os critérios são predefinidos e classificados por setores da indústria, tipos de página e implementação. Por exemplo, você pode procurar pelos critérios que se aplicam ao setor varejista, para o uso em uma página do produto, mostrando produtos dentro de uma categoria específica (como definido pelo parâmetro `entity.categoryID`).
 
 Para obter mais informações sobre o uso e a criação de critérios, consulte [Critérios](/help/main/c-recommendations/c-algorithms/algorithms.md).
 
@@ -61,15 +65,15 @@ O fluxo de trabalho do [!DNL Recommendations] foi simplificado. Em vez de preenc
 1. Selecione um [design](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) pré-configurado.
 1. Visualize as recomendações resultantes.
 
-## Visualização do visual  {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
+## Visualização do visual {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
 Você pode visualizar suas recomendações depois de configurá-las e fazer as alterações necessárias, sem ter que criá-las na página e testá-las. As visualizações estão disponíveis no [!DNL Target].
 
 ## Direcionamento {#section_93295EA0DBA14210B8518AF4802A459F}
 
-No [!DNL Recommendations Classic], existem seis opções de direcionamento. As atividades do Recommendations usam a linha completa de opções de direcionamento do Target. Defina um público-alvo usando o [!DNL Target] ou outros públicos da [!DNL Adobe Experience Cloud] (como o [!DNL Audience Manager] e [!DNL Analytics]), em seguida, selecione o percentual de participantes da atividade que visualizam cada design e que visualizam o controle.
+No [!DNL Recommendations Classic], existem seis opções de direcionamento. As atividades do Recomendações usam a linha completa de opções de direcionamento do Target. Defina um público-alvo usando o [!DNL Target] ou outros públicos da [!DNL Adobe Experience Cloud] (como o [!DNL Audience Manager] e [!DNL Analytics]), em seguida, selecione o percentual de participantes da atividade que visualizam cada design e que visualizam o controle.
 
-![imagem de &lbrace;overview_targeting](assets/overview_targeting.png)
+![imagem de {overview_targeting](assets/overview_targeting.png)
 
 ## Relatório {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 

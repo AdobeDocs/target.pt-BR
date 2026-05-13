@@ -2,17 +2,20 @@
 keywords: solução de problemas, perguntas frequentes, FAQ, FAQs, recommendations, caracteres especiais, ponderação de atributos, similaridade de conteúdo
 description: Veja uma lista de perguntas frequentes e respostas sobre [!DNL Target Recommendations] atividades.
 title: Onde posso encontrar perguntas e respostas sobre o  [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
+TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3444'
-ht-degree: 84%
+source-wordcount: 3467
+ht-degree: 82%
 
 ---
 
-# Perguntas frequentes do Recommendations
+# Perguntas frequentes do Recomendações
 
 Lista de perguntas frequentes sobre as atividades do [!DNL Adobe Target] [!DNL Recommendations].
 
@@ -48,7 +51,7 @@ Após importar um arquivo de feed ou depois de receber atualizações de entidad
 
   Essa situação ocorre porque o [!DNL Target] aplica exclusões online e offline. Quando um item é recém-excluído, a exclusão online se aplica rapidamente. Quando um item é recém-incluído, a exclusão online desaparece rapidamente, mas a exclusão offline não desaparece até que o próximo algoritmo seja executado.
 
-* Se um item foi incluído anteriormente, mas agora deve ser excluído, o item é excluído de acordo com a linha do tempo &quot;Atributos do item atualizados...&quot; discutida acima, dependendo da origem do feed (15 minutos via mbox/API ou 12 a 24 horas via feed).
+* Se um item foi incluído anteriormente, mas agora deve ser excluído, o item é excluído de acordo com os &quot;Atributos do item atualizados...&quot; linha do tempo discutida acima, dependendo da fonte do feed (15 minutos via mbox/API ou 12 a 24 horas via feed).
 
 As seguintes alterações não são refletidas até que ocorra a execução do próximo algoritmo (dentro de 12 a 24 horas):
 
@@ -95,7 +98,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## Por que todos os critérios, incluindo os critérios personalizados, não estão disponíveis para seleção ao criar uma atividade do Recommendations? {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## Por que todos os critérios, incluindo os critérios personalizados, não estão disponíveis para seleção ao criar uma atividade do Recomendações? {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 Os critérios disponíveis são baseados na categoria atual. Quando você está criando ofertas de recomendações, o seletor de algoritmo exibe os critérios com base na ID da categoria.
 
@@ -103,7 +106,7 @@ Se a localização na qual você estiver aplicando esse critério não contiver 
 
 Se você usar um local em que a ID de categoria está presente na mbox, o seletor de critérios conterá todos os critérios aplicáveis.
 
-O [!DNL Target] tem uma configuração de [Critérios de filtro incompatíveis](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} para controlar a filtragem inteligente do seletor de algoritmo.
+O [!DNL Target] tem uma configuração de [Critérios de filtro incompatíveis](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para controlar a filtragem inteligente do seletor de algoritmo.
 
 >[!NOTE]
 >
@@ -128,7 +131,7 @@ A lista a seguir contém casos especiais em que [!DNL Target] não exibe a caixa
 * Nenhuma chamada de mbox está sendo filtrada na página (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * Os parâmetros do [!DNL Target] não estão definidos.
 
-## O que devo fazer se uma coleção no Recommendations chega a zero (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## O que devo fazer se uma coleção no Recomendações chega a zero (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 Considere as informações a seguir se você vir uma coleção em zero que anteriormente não estava em zero:
 
@@ -146,7 +149,7 @@ Considere as informações a seguir se você vir uma coleção em zero que anter
 
 A ponderação de atributos ocorre de duas formas: &quot;ponderação de atributos padrão&quot; e &quot;ponderação de atributos de similaridade de conteúdo&quot;.
 
-&quot;A ponderação de atributo padrão&quot; aplica-se à maioria, ou todos, os tipos de critérios (não somente à Similaridade de conteúdo). Esse tipo de ponderação fornece mais peso a determinados valores de atributo. No exemplo a seguir, os produtos da Nike terão um aumento nas recomendações de saída.
+A &quot;ponderação de atributo padrão&quot; se aplica à maioria, ou todos, os tipos de critérios (não apenas à Similaridade de conteúdo). Esse tipo de ponderação dá mais peso a determinados valores de atributo. No exemplo a seguir, os produtos da Nike terão um aumento nas recomendações de saída.
 
 ![imagem de exemplo_de_ponderação_de_atributo](assets/attribute_weighting_example.png)
 
@@ -177,11 +180,11 @@ O número de valores gerados por critério é o triplo do número de entidades e
 
 [!DNL Target]O impõe um limite de postagem de 50 MB no nível do aplicativo; no entanto, isso apenas acontece quando o cabeçalho de tipo de conteúdo `application/x-www-form-urlencoded` é passado.
 
-Certamente é possível tentar enviar 50.000 produtos em uma mesma chamada. Em caso de falha, você deve quebrá-la em lotes. Normalmente, a Adobe recomenda que os clientes quebrem suas chamadas em lotes de 5.000 ou 10.000 produtos para diminuir a possibilidade de se alcançar o tempo limite devido à carga do sistema.
+Certamente é possível tentar enviar 50.000 produtos em uma mesma chamada. Em caso de falha, você deve quebrá-la em lotes. Normalmente, a Adobe recomenda que os clientes quebrem suas chamadas em lotes de 5.000 ou 10.000 produtos para diminuir a possibilidade de se alcançar o tempo-limite devido à carga do sistema.
 
-## Preciso especificar o nome da mbox ao criar critérios, promoções ou regras de teste do modelo do Recommendations? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## Preciso especificar o nome da mbox ao criar critérios, promoções ou regras de teste do modelo do Recomendações? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
-Ao criar critérios, promoções ou regras de testes do modelo do Recommendations com base em um parâmetro mbox, o `mboxParameter` não solicitará o `mboxName`. O nome da mbox agora é opcional. Essa alteração permite usar parâmetros de várias mboxes ou referenciar um parâmetro que ainda não foi gravado na borda.
+Ao criar critérios, promoções ou regras de testes do modelo do Recomendações com base em um parâmetro mbox, o `mboxParameter` não solicitará o `mboxName`. O nome da mbox agora é opcional. Essa alteração permite usar parâmetros de várias mboxes ou referenciar um parâmetro que ainda não foi gravado na borda.
 
 Para selecionar o parâmetro desejado:
 
@@ -192,9 +195,9 @@ Com ambos os métodos, não há link entre a mbox e o parâmetro. Os critérios,
 
 Se você editar um critério, uma promoção ou uma regra de testes do modelo existente, os critérios de filtragem serão exibidos com o nome da mbox fornecido durante a criação.
 
-## Por que não posso salvar minha atividade herdada do Recommendations, depois de definir um novo público-alvo? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## Por que não posso salvar minha atividade herdada do Recomendações, depois de definir um novo público-alvo? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
-Certifique-se de que o público-alvo tenha um nome exclusivo. Se você deu ao público o mesmo nome de um público-alvo existente, não poderá salvar sua atividade herdada do Recommendations (uma atividade de Recommendations criada antes de outubro de 2016).
+Certifique-se de que o público-alvo tenha um nome exclusivo. Se você deu ao público o mesmo nome de um público-alvo existente, não poderá salvar sua atividade herdada do Recomendações (uma atividade de Recomendações criada antes de outubro de 2016).
 
 ## Qual é o tamanho máximo de um arquivo CSV para um upload de feed? {#section_20F1AF4839A447B9889B246D6E873538}
 
@@ -204,7 +207,7 @@ Não há limite rígido de número de linhas ou tamanho do arquivo para o upload
 
 Na sequência de consulta, você pode passar IDs de entidades para as entidades que deseja excluir de suas recomendações. Por exemplo, você pode desejar excluir itens que já estão no carrinho de compras.
 
-Para ativar a função de exclusão, use o parâmetro de mbox `excludedIds`. Esse parâmetro indica uma lista de IDs de entidade separadas por vírgulas. Por exemplo, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. O valor é enviado quando novas recomendações são solicitadas.
+Para habilitar a função de exclusão, use o parâmetro de mbox `excludedIds`. Esse parâmetro indica uma lista de IDs de entidade separadas por vírgulas. Por exemplo, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. O valor é enviado quando novas recomendações são solicitadas.
 
 A exclusão é realizada apenas para a chamada atual do [!DNL Target]; os itens não são excluídos em chamadas subsequentes do [!DNL Target], a não ser que o valor `excludedIds` seja transmitido novamente. Para excluir itens no carrinho das recomendações em cada página, continue transmitindo o valor `excludedIds` em cada página.
 
@@ -214,9 +217,9 @@ A exclusão é realizada apenas para a chamada atual do [!DNL Target]; os itens 
 
 Para excluir `entityIds`, anexe o token `&excludes=${mbox.excludedIds}` ao url de conteúdo da oferta. Quando o url de conteúdo for extraído, os parâmetros solicitados serão substituídos pelos parâmetros de solicitação atuais do mbox.
 
-Por padrão, esse recurso é ativado para recomendações criadas recentemente. As recomendações existentes precisam ser salvas para suportar entidades excluídas dinamicamente.
+Por padrão, esse recurso é habilitado para recomendações criadas recentemente. As recomendações existentes precisam ser salvas para suportar entidades excluídas dinamicamente.
 
-## O que significa a resposta NO_CONTENT retornada às vezes no rastreamento de conteúdo do Recommendations?
+## O que significa a resposta NO_CONTENT retornada às vezes no rastreamento de conteúdo do Recomendações?
 
 NO_CONTENT é retornado quando as recomendações não estão disponíveis para o algoritmo solicitado e a combinação de chaves. De modo geral, essa situação ocorre quando os backups são desativados para o algoritmo e uma ou mais das opções a seguir também são verdadeiras:
 
@@ -234,7 +237,7 @@ NO_CONTENT é retornado quando as recomendações não estão disponíveis para 
 
 * A renderização parcial do modelo está desativada e não há resultados suficientes disponíveis para preencher o modelo.
 
-  Essa situação normalmente ocorre quando você tem uma regra de inclusão dinâmica, que filtra agressivamente muitos itens dos resultados possíveis. Para evitar situações, ative os backups e não aplique a regra de inclusão aos backups ou use os critérios em sequência com critérios filtrados menos agressivos.
+  Essa situação normalmente ocorre quando você tem uma regra de inclusão dinâmica, que filtra agressivamente muitos itens dos resultados possíveis. Para evitar situações, habilite os backups e não aplique a regra de inclusão aos backups ou use os critérios em sequência com critérios filtrados menos agressivos.
 
 ## As recomendações baseadas em itens visualizados recentemente persistem em vários dispositivos para um único visitante? {#persist-across-devices}
 
@@ -288,8 +291,8 @@ Alguns clientes de mídia e publicação querem garantir que os itens recomendad
 
 A seguir, os problemas conhecidos com [!UICONTROL Recommendations] atividades:
 
-* Quando o [!DNL Target] retorna uma oferta JSON com getOffer(), ela retorna com o tipo de JSON. No entanto, se você retornar um design de JSON do Recommendations, ele retornará com um tipo de HTML.
+* Quando o [!DNL Target] retorna uma oferta JSON com getOffer(), ela retorna com o tipo de JSON. No entanto, se você retornar um design de JSON do Recomendações, ele retornará com um tipo de HTML.
 * As entidades expiram corretamente após 60 dias sem receber nenhuma atualização via feed ou API; no entanto, as entidades expiradas não são removidas do índice da Pesquisa de catálogo após a expiração. No momento, entidades excluídas por meio do feed ou da API também não são removidas do índice de Pesquisa de catálogo. (IRI-857)
-* As ofertas do Recommendations nas atividades A/B e direcionamento de experiência não mostram uma exibição visual da bandeja do Recommendations. (TGT-33426)
-* As atividades do Recommendations criadas por meio da API podem ser visualizadas na interface do usuário, mas só podem ser editadas por meio da API.
+* As ofertas do Recomendações nas atividades A/B e direcionamento de experiência não mostram uma exibição visual da bandeja do Recomendações. (TGT-33426)
+* As atividades do Recomendações criadas por meio da API podem ser visualizadas na interface do usuário, mas só podem ser editadas por meio da API.
 * O status do feed de Critérios personalizados exibido na visualização da lista de critérios (cartão) é atualizado a cada dez minutos e pode estar desatualizado em mais de dez minutos em raras circunstâncias. O status exibido na visualização de edição de Critérios personalizados é buscado em tempo real e está sempre atualizado. (TGT-35896, TGT-36173)

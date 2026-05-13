@@ -4,9 +4,13 @@ description: Encontre respostas para perguntas frequentes sobre o provisionament
 title: Onde posso encontrar informações sobre o provisionamento inicial do A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+TQID: https://experienceleague.adobe.com/O2NhhiytLUaXarno3zH4DHi4EechHxUCMr8QifbEltw
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: 474
 ht-degree: 61%
 
 ---
@@ -37,7 +41,7 @@ Se ocorrerem problemas de provisionamento, verifique se o A4T está provisionado
 
 +++
 
-## Por que meus conjuntos de relatórios não estão carregando?  {#section_6CC8B2B3568A46C499895EB9811FDC2E}
+## Por que meus conjuntos de relatórios não estão carregando? {#section_6CC8B2B3568A46C499895EB9811FDC2E}
 
 +++Resposta
 Verifique o seguinte se algum destes problemas ocorrer:
@@ -48,14 +52,14 @@ Verifique o seguinte se algum destes problemas ocorrer:
 
 +++
 
-## Por que não vejo as opções do Analytics no Target?  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## Por que não vejo as opções do Analytics no Target? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 +++Resposta
 Consulte &quot;Por que meus conjuntos de relatórios não estão carregando?&quot; Acima. A causa raiz deste problema é a mesma.
 
 +++
 
-## Por que não vejo os relatórios do A4T no Analytics?  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## Por que não vejo os relatórios do A4T no Analytics? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 +++Resposta
 Consulte &quot;Por que meus conjuntos de relatórios não estão carregando?&quot; acima. A causa raiz deste problema é a mesma.

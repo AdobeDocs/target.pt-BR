@@ -4,10 +4,15 @@ description: Saiba mais sobre as noções básicas do Adobe Target. Este artigo 
 title: Como usar o Target?
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
+TQID: https://experienceleague.adobe.com/l4bZ9esCTiZNakTrNp89n5mAeFci5dp0HCLZYV-GleA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2: id: b077c1f1-7e5f-4dbf-a193-70e9fe784bb2id: b6f5758b-84f7-4943-8b05-1297a046943cid: c2923fce-066f-4e68-bc28-ac56b57ccb5cid: ca2e0bf6-f9f8-4b6b-a630-a3c4b1455817id: db15a02f-03cd-46fe-a53e-02064cdeadfaid: e73b329c-f712-4a22-abe7-bfbf3be6d0f9id: ed58f4a1-16eb-4c8c-b505-be9da766a9ecid: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 97%
+source-wordcount: 1538
+ht-degree: 84%
 
 ---
 
@@ -23,18 +28,18 @@ Por exemplo, você pode criar uma atividade que teste duas páginas de aterrissa
 
 Planeje cuidadosamente ao projetar uma atividade. Determine quando a atividade começa e quanto tempo ela dura. Depois, relacione as ofertas e atribua um público-alvo a cada uma.
 
-O Target inclui vários tipos de atividades. A tabela a seguir fornece uma visão geral de cada tipo de atividade com links para ajudá-lo a saber mais. Para ajudá-lo a escolher de maneira mais eficaz o melhor tipo de atividade para suas finalidades, também criamos o [&#x200B; Manual de atividades do Adobe Target](/help/main/c-activities/target-activities-guide.md).
+O Target inclui vários tipos de atividades. A tabela a seguir fornece uma visão geral de cada tipo de atividade com links para ajudá-lo a saber mais. Para ajudá-lo a escolher de maneira mais eficaz o melhor tipo de atividade para suas finalidades, também criamos o [ Manual de atividades do Adobe Target](/help/main/c-activities/target-activities-guide.md).
 
 | Tipo de atividade | Descrição |
 |--- |--- |
-| [Teste A/B](/help/main/c-activities/t-test-ab/test-ab.md) | O teste A/B compara duas ou mais versões do conteúdo do seu site para ver qual versão melhora suas conversões durante um período de teste pré-especificado.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Teste A/B](/help/main/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/main/c-intro/intro.md#premium). |
-| [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | A Alocação automática identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Alocação automática](/help/main/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/main/c-intro/intro.md#premium). |
-| [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | O Direcionamento automático usa aprendizado de máquina avançado para identificar várias experiências definidas pelo profissional de marketing com desempenho elevado. As atividades de Direcionamento automático oferecem a experiência mais personalizada para cada visitante com base em seu perfil de cliente individual e no comportamento de visitantes anteriores com perfis semelhantes, a fim de personalizar o conteúdo e gerar conversões.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Direcionamento automático](/help/main/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/main/c-intro/intro.md#premium). |
+| [Teste A/B](/help/main/c-activities/t-test-ab/test-ab.md) | O Teste A/B compara duas ou mais versões do conteúdo do seu site para ver qual versão melhora suas conversões durante um período de teste pré-especificado.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Teste A/B](/help/main/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/main/c-intro/intro.md#premium). |
+| [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | A Alocação automática identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor, a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Alocação automática](/help/main/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/main/c-intro/intro.md#premium). |
+| [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | O Direcionamento automático usa aprendizado de máquina avançado para identificar várias experiências definidas pelo profissional de marketing com desempenho elevado. As atividades de Direcionamento automático oferecem a experiência mais personalizada para cada visitante com base em seu perfil de cliente individual e no comportamento de visitantes anteriores com perfis similares, a fim de personalizar o conteúdo e gerar conversões.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Direcionamento automático](/help/main/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/main/c-intro/intro.md#premium). |
 | [Uso de dados do Analytics](/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Você pode configurar uma atividade para usar o [!DNL Adobe Analytics] como fonte de geração de relatórios. Este tipo de atividade requer a vinculação da sua conta da [!DNL Adobe Experience Cloud] ao [!DNL Analytics] e ao [!DNL Target]. |
 | [Teste multivariado](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | O Multivariate Testing (MVT) compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico e identifica qual elemento afeta mais o sucesso da atividade. |
-| [Direcionamento de experiência](/help/main/c-activities/t-experience-target/experience-target.md) | O Direcionamento de experiência (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Direcionamento de experiência](/help/main/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/main/c-intro/intro.md#premium). |
+| [Direcionamento de experiência](/help/main/c-activities/t-experience-target/experience-target.md) | O Direcionamento de experiência (XT) fornece conteúdo a um público específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.<br>**Observação:** agora você pode incluir [recomendações nas atividades de Direcionamento de experiência](/help/main/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/main/c-intro/intro.md#premium). |
 | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/main/assets/premium.png) | A Automated Personalization (AP) combina ofertas ou mensagens e usa aprendizagem de máquina avançada para corresponder diferentes variações a cada visitante com base em seu perfil de cliente individual, a fim de personalizar o conteúdo e impulsionar conversões. |
-| [Recomendações](/help/main/c-recommendations/recommendations.md)<br>![Target Premium](/help/main/assets/premium.png) | Uma recomendação determina como um produto é sugerido para um usuário do site, dependendo das atividades desse usuário no site.<br>Por exemplo, talvez você queira incentivar as pessoas que compraram uma mochila a pensar em comprar um tênis para caminhada e bastões de marcha. Você pode criar uma recomendação que mostre itens que são frequentemente comprados juntos, usando o algoritmo &quot;Pessoas que compraram isso também compraram aquilo&quot;. Ou talvez você queira incentivar os visitantes a passarem mais tempo no seu site de mídia recomendando vídeos semelhantes aos que eles assistiram, usando o algoritmo &quot;Pessoas que visualizaram isso também visualizaram aquilo&quot;.<br>**Observação:** agora, você pode incluir recomendações nas atividades de Teste A/B (incluindo Alocação automática e Direcionamento automático) e Direcionamento de experiência (XT). Consulte [Recomendações como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). |
+| [Recomendações](/help/main/c-recommendations/recommendations.md)<br>![Target Premium](/help/main/assets/premium.png) | Uma recomendação determina como um produto é sugerido para um usuário do site, dependendo das atividades desse usuário no site.<br>Por exemplo, talvez você queira incentivar as pessoas que compraram uma mochila a pensar em comprar um tênis para caminhada e bastões de marcha. Você pode criar uma recomendação que mostre itens que são frequentemente comprados juntos, usando o algoritmo &quot;Pessoas que compraram isso também compraram aquilo&quot;. Ou talvez você queira incentivar os visitantes a passar mais tempo no seu site de mídia recomendando um vídeo semelhante ao que eles estão assistindo, usando o algoritmo &quot;Pessoas que viram isto viram aquilo&quot;.<br>**Observação:** agora você pode incluir recomendações nas atividades de Teste A/B (incluindo Alocação automática e Direcionamento automático) e Direcionamento de experiência (XT). Consulte [Recomendações como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Localizações {#section_F18FBF1ED23340ED9F39C51971A4E874}
 
@@ -115,7 +120,7 @@ Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/31290?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Usando o Audiences na Adobe Target (6:21) ![Selo de visão geral](/help/main/assets/overview.png)
 
@@ -127,4 +132,4 @@ Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium
 * Segmente uma atividade para um público-alvo
 * Use públicos-alvo para relatórios passivos em uma atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/30984?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

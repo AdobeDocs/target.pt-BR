@@ -5,10 +5,16 @@ title: Como adicionar usuários e gerenciar permissões em uma conta do  [!DNL T
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+TQID: https://experienceleague.adobe.com/DdNQ81TpmyIRuPkmy4OIOq43CXwaMtm-uH2HtPjdx10
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: cd7b6938-5837-4ee0-9790-5840997133d9id: cf6b8469-14d0-4c0e-90ee-fb54066a035eid: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4bea
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 63%
+source-wordcount: 873
+ht-degree: 61%
 
 ---
 
@@ -22,9 +28,9 @@ Para contas do [!DNL Target Standard], é possível adicionar usuários e gerenc
 >
 >É possível saber se sua organização tem uma licença do [!UICONTROL Standard] ou do [!UICONTROL Premium] clicando no link [!UICONTROL Administration] na parte superior da interface do usuário do [!DNL Target].
 >
->* **[!DNL Target]&#x200B;[!UICONTROL Standard] Clientes**: se você vir a guia [!UICONTROL Users] ([!UICONTROL Administration > Users]) (e não a guia **[!UICONTROL Properties]**), sua organização tem uma licença [!DNL Target] [!UICONTROL Standard]. [!DNL Target] clientes do [!UICONTROL Standard] devem seguir as instruções neste artigo para adicionar usuários e atribuir permissões no [!DNL Adobe Admin Console].
+>* **[!DNL Target][!UICONTROL Standard] Clientes**: se você vir a guia [!UICONTROL Users] ([!UICONTROL Administration > Users]) (e não a guia **[!UICONTROL Properties]**), sua organização tem uma licença [!DNL Target] [!UICONTROL Standard]. [!DNL Target] clientes do [!UICONTROL Standard] devem seguir as instruções neste artigo para adicionar usuários e atribuir permissões no [!DNL Adobe Admin Console].
 >
->* Clientes do **[!DNL Target]Premium**: se você vir a guia [!UICONTROL Users] e a guia [!UICONTROL Properties] ([!UICONTROL Administration > Properties]), sua organização tem uma licença [!DNL Target] Premium. Os clientes do [!DNL Target] Premium devem seguir as instruções em [Permissões de usuário do Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) e [Configurar permissões do Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) para adicionar usuários e atribuir permissões no [!DNL Adobe Admin Console].
+>* Clientes do **[!DNL Target]Premium**: se você vir a guia [!UICONTROL Users] e a guia [!UICONTROL Properties] ([!UICONTROL Administration > Properties]), sua organização tem uma licença [!DNL Target] Premium. [!DNL Target] Os clientes Premium devem seguir as instruções em [Permissões de usuário empresarial](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) e [Configurar permissões empresariais](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) para adicionar usuários e atribuir permissões no [!DNL Adobe Admin Console].
 >
 >Para obter informações detalhadas sobre como gerenciar usuários e permissões, consulte [Gerenciar produtos e perfis](https://helpx.adobe.com/pt/enterprise/using/manage-products-and-profiles.html) no *Guia do usuário para empresas e equipes*.
 
@@ -93,8 +99,8 @@ Os usuários administradores de sistema devem adicionar usuários ao sistema. Os
    | Função | Descrição |
    |--- |--- |
    | [!UICONTROL Approver] | Pode criar, editar, ativar ou parar atividades. |
-   | [!UICONTROL Editor] | Pode criar e editar atividades antes de serem ativadas, mas não pode aprovar a inicialização de uma atividade. |
-   | [!UICONTROL Observer] | Pode visualizar atividades, mas não pode criá-las ou editá-las. |
+   | [!UICONTROL Editor] | Pode criar e editar atividades antes que elas entrem ao vivo, mas não pode aprovar a inicialização de uma atividade. |
+   | [!UICONTROL Observer] | Pode exibir atividades, mas não pode criá-las ou editá-las. |
    | [!UICONTROL Publisher] | Semelhante à função [!UICONTROL Observer] (pode exibir atividades, mas não pode criá-las ou editá-las). No entanto, a função [!UICONTROL Publisher] tem a permissão adicional para ativar atividades. |
 
 Para obter mais informações, consulte [Gerenciar permissões e funções do produto no Admin Console](https://helpx.adobe.com/pt/enterprise/help/manage-permissions-and-roles.html) no *Guia do usuário da empresa*.

@@ -1,12 +1,15 @@
 ---
-keywords: Recommendations
+keywords: Recomendações
 description: Explore cenários comuns que mostram como as alterações feitas em sua página no Visual Experience Composer (VEC) afetam a capacidade da Adobe Target de exibir uma experiência.
 title: Quais São Alguns Cenários Comuns De Modificação De Página?
 feature: Visual Experience Composer (VEC)
 exl-id: 7a05fbf9-3427-436e-a54f-4f1dd16d885a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/BI2SnUU5ilCf0auld15q1rpCrnLoPEwbe1fZO6G1quc
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: 532
 ht-degree: 90%
 
 ---
@@ -287,7 +290,7 @@ Depois
 </div>
 ```
 
-## Cenário: renomeie a classe do elemento selecionado  {#section_79D244C588BA452DB8E433D82B7F63EA}
+## Cenário: renomeie a classe do elemento selecionado {#section_79D244C588BA452DB8E433D82B7F63EA}
 
 Neste cenário, a classe do item de lista selecionado foi alterada.
 

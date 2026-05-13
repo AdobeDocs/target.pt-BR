@@ -4,9 +4,13 @@ description: Saiba como usar o  [!DNL Adobe Target] [!UICONTROL Visual Experienc
 title: Como criar experiências em uma atividade [!UICONTROL Experience Targeting]?
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/neRp-1hK4qnksT5dJA-A3HD-ShbbpuL2bjkB4He8qPQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: 902
 ht-degree: 23%
 
 ---
@@ -98,7 +102,7 @@ Este vídeo descreve como elevar o teste A/B para o próximo nível com o [!UICO
 * Descreva como fornecer conteúdo específico de localização para públicos em diferentes áreas geográficas
 * Descreve como reorganizar experiências para garantir que o conteúdo correto seja entregue ao público-alvo certo
 
->[!VIDEO](https://video.tv.adobe.com/v/39861?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### Tipos de Atividades (9:03)
 
@@ -108,7 +112,7 @@ Este vídeo explica os tipos de atividade disponíveis no [!DNL Target]. [!UICON
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/31290?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Usando o [!UICONTROL Visual Experience Composer]
 
@@ -117,4 +121,4 @@ Este vídeo fornece informações sobre o uso das opções do [!UICONTROL Experi
 * Alterar o conteúdo de uma página
 * Alterar o layout de uma página
 
->[!VIDEO](https://video.tv.adobe.com/v/31293?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

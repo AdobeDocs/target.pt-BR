@@ -4,10 +4,14 @@ description: Saiba mais sobre os atributos específicos do visitante armazenados
 title: O que são atributos de perfil?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/jW4BCxf12N2GRN4ZsxNR1xBd0upkEc-FjuTEQ4KvKis
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2426'
-ht-degree: 91%
+source-wordcount: 2481
+ht-degree: 90%
 
 ---
 
@@ -180,7 +184,8 @@ Os scripts de perfil não podem ler a página diretamente porque são executados
 
 ## Referência de JavaScript para os parâmetros do perfil de script
 
-O conhecimento simples de Javascript é necessário para usar efetivamente os parâmetros de perfil de script. Esta seção serve como uma referência rápida para torná-lo produtivo com essa funcionalidade em apenas alguns minutos.
+O conhecimento simples de Javascript é necessário para usar efetivamente o perfil de script
+parâmetros. Esta seção serve como uma referência rápida para torná-lo produtivo com essa funcionalidade em apenas alguns minutos.
 
 Os parâmetros do perfil de script são encontrados na guia mboxes/perfis. É possível gravar programas de JavaScript que retornam qualquer tipo de JavaScript (sequência de caracteres, inteiro, matriz, etc.).
 
@@ -248,7 +253,7 @@ Os seguintes objetos e métodos podem ser referenciados por parâmetros de perfi
 | `page.query` | A sequência de consulta da página atual. Tudo depois de “?”. Por exemplo, `blue&size=small` em `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
 | `page.param('<par_name>')` | O valor do parâmetro indicado por `<par_name>`. Se seu URL atual for a página de pesquisa do Google e você digitou `page.param('hl')`, “en” será obtido para o URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | O mesmo conjunto de operações acima se aplica ao referenciador e à landing page (ou seja, referrer.url é o endereço url do referenciador). |
-| `landing.url`, `landing.protocol`, `landing.query`, e `landing.param` | Semelhante ao da página, mas para a landing page.<P>Para que o URL da página de destino funcione conforme o esperado, defina `context` > `browser` > `host`. |
+| `landing.url`, `landing.protocol`, `landing.query`, e `landing.param` | Semelhante ao da página, mas para a página de destino.<P>Para que o URL da página de destino funcione conforme o esperado, defina `context` > `browser` > `host`. |
 | `mbox.name` | O nome da mbox ativa. |
 | `mbox.param('<par_name>')` | Um parâmetro de mbox pelo nome fornecido na mbox ativa. |
 | `profile.get('<par_name>')` | O parâmetro do perfil de usuário criado pelo cliente pelo nome `<par_name>`. Por exemplo, se o usuário definir um parâmetro de perfil chamado de “gênero”, o valor poderá ser extraído usando “profile.gender”. Retorna o valor do “`profile.<par_name>`” definido para o visitante atual; retorna nulo se nenhum valor for definido. Observe que `profile.get(<par_name>)` é qualificada como uma chamada de função. |
@@ -272,7 +277,7 @@ Todos os operadores JavaScript padrão estão presentes e utilizáveis. Os opera
 | `>=` | Igual a `>`, exceto se as variáveis forem iguais, então, será avaliado como verdadeiro. |
 | `&&` | Na lógica, o operador “AND” só é verdadeiro quando ambas as expressões adjacentes, à esquerda e à direita, são verdadeiras (caso contrário, ele é falso). |
 | `\|\|` | Na lógica, o operador “OR” só é verdadeiro quando uma das expressões adjacentes, à esquerda ou à direita, é verdadeira (caso contrário, ele é falso). |
-| `//` | Verifica se a origem contém todos os elementos que os booleanos de destino contém (origem da matriz, destino da matriz).<br>`//` extrai a subsequência do destino (correspondente ao regexp) e decodifica-a `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>O recurso também oferece suporte ao uso de valores de sequência constantes, agrupamentos (`condition1 \|\| condition2) && condition3`) e expressões regulares (`/[^a-z]$/.test(landing.referring.url)`). |
+| `//` | Verifica se a origem contém todos os elementos do booleano de destino contém (origem da matriz, destino da matriz).<br>`//` extrai a subsequência do destino (correspondente ao regexp) e decodifica-a `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>O recurso também oferece suporte ao uso de valores de sequência constantes, agrupamento (`condition1 \|\| condition2) && condition3`) e expressões regulares (`/[^a-z]$/.test(landing.referring.url)`). |
 
 ## Vídeo de treinamento: Scripts de perfil ![Selo do tutorial](/help/main/assets/tutorial.png)
 

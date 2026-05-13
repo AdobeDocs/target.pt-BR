@@ -2,12 +2,17 @@
 keywords: direcionamento automático;direcionamento;alocação de tráfego;perguntas frequentes;faq;solução de problemas;solucionar problemas
 description: Saiba como uma atividade do [!UICONTROL Auto-Target] fornece a experiência mais personalizada para cada visitante com base nos perfis dos clientes e no comportamento de visitantes semelhantes.
 title: O Que É Uma Atividade [!UICONTROL Auto-Target]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 5cd8cd0d25dea28f1dd46a59fdcaa4cfc48d9969
+TQID: https://experienceleague.adobe.com/uKmfIlOcT-tZgOjuvERXuif-Y5-2Jw3prtPbuBjv1is
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+subfeature_v2: id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: 1882
 ht-degree: 18%
 
 ---
@@ -64,7 +69,7 @@ Os termos a seguir são úteis quando falamos de [!UICONTROL Auto-Target]:
 |---|---|
 | [Bandit multi-armado](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | Uma abordagem multi-armed bandit à otimização equilibra o aprendizado exploratório e o aproveitamento desse aprendizado. |
 | [Floresta Aleatória](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Random Forest é uma abordagem de aprendizado de máquina líder. Em linguagem da ciência de dados, é um método de classificação de conjunto, ou regressão, que funciona construindo muitas árvores de decisão com base nos atributos do visitante e da visita. Dentro de [!DNL Target], o Random Forest é usado para determinar qual experiência deve ter a maior probabilidade de conversão (ou a maior receita por visita) para cada visitante específico. |
-| [Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | O objetivo do Thompson Sampling é determinar qual experiência é a melhor em geral (não personalizada), minimizando o &quot;custo&quot; de encontrar essa experiência. A Amostragem de Thompson sempre escolhe um vencedor, mesmo se não houver diferença estatística entre duas experiências. |
+| [Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | O objetivo do Thompson Sampling é determinar qual experiência é a melhor em geral (não personalizada), minimizando o &quot;custo&quot; de encontrar essa experiência. A amostragem de Thompson sempre escolhe um vencedor, mesmo que não haja diferença estatística entre duas experiências. |
 
 ## Como o [!UICONTROL Auto-Target] funciona {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
@@ -76,7 +81,7 @@ Saiba mais sobre os dados e algoritmos subjacentes ao [!UICONTROL Auto-Target] e
 | [Carregando Dados para os Algoritmos Personalization de  [!DNL Target]](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Há várias maneiras de inserir dados para modelos [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization]. |
 | [Coleta de dados para os algoritmos Personalization de  [!DNL Target]](/help/main/c-activities/t-automated-personalization/ap-data.md) | Os algoritmos de personalização do [!DNL Target] coletam automaticamente vários dados. |
 
-## Determinação da alocação de tráfego  {#section_AB3656F71D2D4C67A55A24B38092958F}
+## Determinação da alocação de tráfego {#section_AB3656F71D2D4C67A55A24B38092958F}
 
 Dependendo do objetivo da sua atividade, você pode escolher uma alocação de tráfego diferente entre controle e experiências personalizadas. A prática recomendada é determinar esse objetivo antes de tornar sua atividade ativa.
 

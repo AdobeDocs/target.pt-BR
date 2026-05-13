@@ -5,9 +5,13 @@ title: Como Basear o [!UICONTROL Recommendation] em um [!UICONTROL Recommendatio
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3463'
+source-wordcount: 3510
 ht-degree: 27%
 
 ---
@@ -34,7 +38,7 @@ Diferentes algoritmos de recomendações se prestam ao posicionamento em diferen
 
 ## Baseado em carrinho {#cart-based}
 
-O tipo de algoritmo [!UICONTROL Cart-Based] permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio do [parâmetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} em valores separados por vírgulas. Somente os primeiros dez valores são considerados.
+O tipo de algoritmo [!UICONTROL Cart-Based] permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio do [parâmetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} em valores separados por vírgulas. Somente os primeiros dez valores são considerados.
 
 A lógica de recomendação baseada em carrinho é semelhante ao algoritmo baseado em usuário &quot;[!UICONTROL Recommended For You]&quot; e aos algoritmos baseados em item &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; e &quot;[!UICONTROL People Who Bought These, Bought Those]&quot;.
 
@@ -71,7 +75,7 @@ Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves do Re
 
 ### [!UICONTROL People Who Viewed This, Also Bought]
 
-Recomenda itens que são comprados com mais frequência na mesma sessão em que o item especificado é visualizado.
+Recomenda itens visualizados que são comprados com mais frequência na mesma sessão em que o item especificado é visualizado.
 
 Essa lógica retorna outros produtos que as pessoas compraram após visualizar este. O produto especificado não está incluído no conjunto de resultados.
 
@@ -295,7 +299,7 @@ Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves de fi
 
 O tipo de algoritmo [!UICONTROL Custom Criteria] permite fazer recomendações com base em um arquivo personalizado que você carrega.
 
-Recomendação determinada por um item que é armazenado no perfil do visitante, utilizando os atributos usuário.*x* ou perfil.*x* atributos.
+A recomendação é determinada por um item armazenado no perfil do visitante, usando os atributos user.*x* ou profile.*x*.
 
 Quando esta opção é selecionada, o valor `entity.id` deve estar presente no atributo do perfil.
 

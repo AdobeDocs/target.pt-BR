@@ -4,9 +4,14 @@ description: Veja uma lista de perguntas frequentes sobre o uso dos recursos do 
 title: Onde posso encontrar respostas a minhas perguntas sobre otimização e personalização?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: f5fa1d5c1747ed4c1e5e3d35f3c01f49f3f255c3
+TQID: https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: 2806
 ht-degree: 50%
 
 ---
@@ -55,7 +60,7 @@ Conecte-se com outros profissionais do [!DNL Target] no [Fórum da comunidade do
 **A quais navegadores [!DNL Target] oferece suporte?**
 
 +++Ver detalhes
-Leia a matriz de [Navegadores suportados](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=pt-BR){target=_blank} para obter mais detalhes. Observe que há dois aspectos: o suporte à interface do [!DNL Target Standard/Premium] e o suporte a navegadores para usuários finais em desktops/dispositivos.
+Leia a matriz de [Navegadores suportados](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} para obter mais detalhes. Observe que há dois aspectos: o suporte à interface do [!DNL Target Standard/Premium] e o suporte a navegadores para usuários finais em desktops/dispositivos.
 
 +++
 
@@ -94,7 +99,7 @@ Confira o tipo de atividade [Direcionamento automático](/help/main/c-activities
 +++Ver detalhes
 Leia o [Guia de Atividades do Target](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) para entender os cenários em que cada uma das opções fornecidas por [!DNL Target] faz sentido.
 
-Considere também as [atividades do Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+Considere também as [atividades do Recomendações](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
 +++
 
@@ -107,7 +112,7 @@ Observe que o requisito de tráfego aumenta com atividades MVT.
 
 +++
 
-**Posso executar uma atividade abrangendo múltiplas páginas com estruturas diferentes? Posso aplicar ofertas a locais diferentes (por exemplo, o funil de check-out)?**
+**Posso executar uma atividade abrangendo múltiplas páginas com estruturas diferentes? Posso aplicar ofertas a locais diferentes (por exemplo, o funnel de check-out)?**
 
 +++Ver detalhes
 Experimente o [recurso de atividade com várias páginas](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) que permite usar várias páginas nas experiências.
@@ -123,7 +128,7 @@ Então, neste caso, você pode escolher &quot;Incrementar contagem, liberar usu�
 
 +++
 
-**Eu criei várias metas na minha atividade. Posso criar uma cadeia de metas como um funil para fins de análise e criação de relatórios? Por exemplo, eu desejo considerar a Meta B quando o usuário tiver atingido a Meta A, para que eu possa monitorar os números para um funil específico.**
+**Eu criei várias metas na minha atividade. Posso criar uma cadeia de metas como um funil para fins de análise e criação de relatórios? Por exemplo, eu desejo considerar a Meta B quando o usuário tiver atingido a Meta A, para que eu possa monitorar os números para uma funnel específica.**
 
 +++Ver detalhes
 O [!DNL Target] tem uma maneira robusta de fazer isso com nosso recurso [!UICONTROL Metrics Dependency]. Simplesmente [adicione dependências em outra métrica de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Você tem opções como &quot;Atingido&quot; e &quot;Não atingido,&quot; juntamente com a capacidade de combinar métricas de várias formas para criar qualquer combinação que você desejar.
@@ -195,7 +200,7 @@ Existem duas opções:
 **Posso criar um segmento de públicos-alvo em uma atividade que seja específico a ela? Eu não acredito que um público-alvo como esse deva ser criado no [!UICONTROL Audience Library], pois não há fator de reutilização.**
 
 +++Ver detalhes
-Comece usando o [recurso Audience somente para atividades](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) a fim de definir audiences locais para a atividade.
+Comece usando o [recurso de público-alvo somente de atividades](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) a fim de definir públicos-alvos locais para a atividade.
 
 +++
 
@@ -209,7 +214,7 @@ Experimente [Geo audiences](/help/main/c-target/c-audiences/c-target-rules/geo.m
 **Posso definir usuários como alvo com base em alguns dos atributos na página na sessão?**
 
 +++Ver detalhes
-A melhor maneira seria usar mboxes e [audiences personalizados](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B) para proporcionar a experiência correta.
+A melhor maneira seria usar mboxes e [públicos-alvos personalizados](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B) para proporcionar a experiência correta.
 
 +++
 
@@ -232,8 +237,8 @@ Use os controles de alocação de porcentagem disponíveis na [Etapa 2 do fluxo 
 +++ Ver detalhes
 Veja os seguintes aspectos do produto:
 
-* [Analytics for Target (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=pt-BR)
+* [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Públicos-alvo](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -270,7 +275,7 @@ Experimente as [informações de solução de problemas](/help/main/c-experience
 
 Também temos a [abordagem baseada em formulários](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) que pode desbloquear você.
 
-Leia também quando e por que o [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pode ser útil. Talvez seja necessário entrar em contato com o departamento de TI para [Adobe os servidores proxy da incluir na lista de permissões](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) também.
+Leia também quando e por que o [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pode ser útil. Talvez seja necessário entrar em contato com o departamento de TI para [incluir na lista de permissões também os servidores proxy da Adobe](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 +++
 
@@ -343,7 +348,7 @@ Use nosso [depurador](/help/main/c-activities/c-troubleshooting-activities/conte
 
 ## Ofertas {#section_A547B1EAD0B34FD38D3B87AAF62E3963}
 
-**Não quero experimentar mudanças menores. Ao invés disso, quero testar uma página nova e completamente diferente. Eu desejo direcionar usuários para uma página de aterrissagem, por exemplo, um novo lançamento. Como posso fazer isso?**
+**Não quero experimentar mudanças menores. Ao invés disso, quero testar uma página nova e completamente diferente. Eu desejo direcionar usuários para uma página de chegada, por exemplo, um novo lançamento. Como posso fazer isso?**
 
 
 +++Ver detalhes
@@ -380,7 +385,7 @@ Use o poder das [atividades baseadas em formulário](/help/main/c-experiences/fo
 Veja os seguintes aspectos do produto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=pt-BR)
+* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Públicos-alvo](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -396,7 +401,7 @@ Observe que o [!DNL Target] coleta os dados relacionados a isso a partir do mome
 
 +++
 
-**Eu não consigo definir audiências antes de executar a atividade. Eu acho que este aspecto de públicos-alvo em [!DNL Target] atividades restringe. O que posso fazer para facilitar esse processo?**
+**Eu não consigo definir públicos-alvos antes de executar a atividade. Eu acho que este aspecto de públicos-alvo em [!DNL Target] atividades restringe. O que posso fazer para facilitar esse processo?**
 
 +++Ver detalhes
 É aqui que o [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) é útil. Se você tiver [!DNL Adobe Analytics], basta escolher a origem como [!DNL Analytics], o que elimina essa restrição. Agora você pode realizar análise em qualquer público-alvo e você não precisa definir os públicos-alvo de criação de relatórios antecipadamente.
@@ -454,6 +459,6 @@ Lamentamos saber que você está tendo problemas. Confira o [Destino da Soluçã
 **Onde posso obter mais informações sobre as APIs do [!DNL Target]?**
 
 +++Ver detalhes
-Temos uma documentação completa sobre APIs. Consulte a documentação de [Delivery APIs, NodeJS SDK e APIs do Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=pt-BR){target=_blank}.
+Temos uma documentação completa sobre APIs. Consulte a documentação de [Delivery APIs, NodeJS SDK e APIs do Recomendações](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=pt-BR){target=_blank}.
 
 +++

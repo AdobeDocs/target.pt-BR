@@ -2,13 +2,17 @@
 keywords: dados ambientais;dados de sessão;dados geográficos;dados geográficos;dados do dispositivo;dados móveis;atributos;atributos de perfil;algoritmos de personalização;algoritmos de aprendizado de máquina;algoritmos de aprendizado de máquina
 description: Saiba quais dados  [!DNL Adobe Target]  coletam e usam para criar seus algoritmos de aprendizado de máquina.
 title: Quais dados são coletados para criar algoritmos de aprendizado de máquina do?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
+TQID: https://experienceleague.adobe.com/eXEeFKovZmtYqcIe0dNda7f0J-nWgfW5mB1Mxv9Zp6U
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1958'
-ht-degree: 51%
+source-wordcount: 1986
+ht-degree: 50%
 
 ---
 
@@ -38,10 +42,10 @@ A tabela a seguir mostra os dados fornecidos pelo cliente coletados por [!UICONT
 | --- | --- | --- | --- |
 | Parâmetros da página | CAIXA | Parâmetros de página personalizados (&quot;parâmetros mbox&quot;) passados na chamada para [!DNL Target]. | Personalizado - Parâmetro da Mbox - [nome do parâmetro] |
 | [!DNL Target] perfil | PRO | Os atributos de perfil personalizados são carregados diretamente no perfil do [!DNL Target] por meio da API ou do parâmetro de página e dos scripts de perfil do [!DNL Target]. | Personalizado - Perfil do visitante - [nome do atributo] |
-| Atributos do cliente | CRS | Atributos do Cliente carregados para o perfil [!DNL Target] por meio de [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=pt-BR){target=_blank}. | Personalizado - Perfil do visitante - [nome do atributo] |
+| Atributos do cliente | CRS | Atributos do Cliente carregados para o perfil [!DNL Target] por meio de [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}. | Personalizado - Perfil do visitante - [nome do atributo] |
 | Parâmetros de URL | URL | URL e parâmetros de URL da página exibida no momento. | Personalizado - Parâmetro de URL - [Parâmetro de URL] |
 | URL de referência | REF | URL de referência e quaisquer parâmetros de URL para o URL de referência. | Personalizado - [Parâmetro de URL de Referência] - [Valor de parâmetro] |
-| [!DNL Adobe Experience Cloud] públicos-alvo compartilhados | AAM | Todos os públicos-alvo compartilhados com [!DNL Target] de outras soluções [!DNL Adobe Experience Cloud] (por exemplo, [!DNL Adobe Audience Manager] e [!DNL Adobe Analytics], através de [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=pt-BR){target=_blank}). | Personalizado - Público-Alvo Do Experience Cloud - [Nome Do Público-Alvo] |
+| [!DNL Adobe Experience Cloud] públicos-alvo compartilhados | AAM | Todos os públicos-alvo compartilhados com [!DNL Target] de outras soluções [!DNL Adobe Experience Cloud] (por exemplo, [!DNL Adobe Audience Manager] e [!DNL Adobe Analytics], através de [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Personalizado - Público-Alvo Do Experience Cloud - [Nome Do Público-Alvo] |
 | [!DNL Adobe Experience Platform Real-time CDP] públicos-alvo | UPS | Públicos da CDP em tempo real da Platform compartilhados com [!DNL Target] via [!UICONTROL Destinations]. |  |
 
 
@@ -49,7 +53,7 @@ A tabela a seguir mostra os dados fornecidos pelo cliente coletados por [!UICONT
 
 Os recursos podem ser bloqueados de [!DNL Target] algoritmos de aprendizado de máquina, impedindo que sejam usados em qualquer modelo ou atividade do [!UICONTROL Automated Personalization] ou [!UICONTROL Auto-Target].
 
-Incluir na lista de bloqueios Para obter mais informações, consulte [Visão geral da API de modelos ()](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=pt-BR){target=_blank} no *[!DNL Adobe Target]Guia do Desenvolvedor*.
+Para obter mais informações, consulte [Visão geral da API de modelos ()](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} no *[!DNL Adobe Target]Guia do Desenvolvedor*.
 
 ## Dispositivo e dados móveis {#device-mobile}
 
@@ -108,7 +112,7 @@ Incluir na lista de bloqueios Para obter mais informações, consulte [Visão ge
 
 | Nome do atributo | Descrição de Atributos | Valores de amostra | Nome do sistema |
 | --- | --- | --- | --- |
-| Visitor Profile - Activity Lifetime Order Value | Especifica a soma de todos os valores de pedidos em todas as visitas/sessões para uma atividade específica. | Dupla | SES_CUMULATIVE_ORDER_VALUE |
+| Perfil de visitante – Valor da atividade total de pedidos | Especifica a soma de todos os valores de pedidos em todas as visitas/sessões para uma atividade específica. | Dupla | SES_CUMULATIVE_ORDER_VALUE |
 | Visitor Profile - Activity Lifetime Time on Site | Especifica o tempo total do visitante no site, excluindo a sessão atual e é atualizado quando a sessão expira. | Duplo, milissegundos | SES_TOTAL_TIME |
 | Visitor Profile -Average Page Views per Visit during Activity | Especifica o número médio de exibições de páginas por sessão, excluindo a sessão atual. | Dupla | SES_REQUESTS_PER_SESSION |
 | Visitor Profile - Average Time per Visit | Especifica o tempo médio gasto por visita/sessão. Isso não inclui a sessão atual. | Duplo, milissegundos | SES_TIME_PER_SESSION |

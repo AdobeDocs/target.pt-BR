@@ -4,9 +4,14 @@ description: Conheça as práticas recomendadas para que suas experiências func
 title: Quais são as práticas recomendadas e as limitações do [!UICONTROL Visual Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 8c62a0e976ce075d07e1f80018c7ad7fac240eea
+TQID: https://experienceleague.adobe.com/upZDSyuS9VqUmYskNXrlYazhwRHmZGBpSR-cR-qliRs
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2435'
+source-wordcount: 2462
 ht-degree: 50%
 
 ---
@@ -35,10 +40,10 @@ Para habilitar [!UICONTROL Enhanced Experience Composer] no nível de atividade 
 
 +++
 
-### Incluir na lista de permissões Você pode modificar determinados endereços IP se o [!UICONTROL Enhanced Experience Composer] não carregar em páginas seguras no seu site.
+### Você pode incluir na lista de permissões determinados endereços IP se o [!UICONTROL Enhanced Experience Composer] não carregar em páginas seguras no seu site.
 
 +++Ver detalhes
-Problemas ao carregar o [!UICONTROL Enhanced Experience Composer] podem ser resolvidos através do incluir na lista de permissões dos seguintes endereços IP. Esses endereços IP são para [!DNL Adobe] servidores usados para o proxy [!UICONTROL Enhanced Experience Composer]. Eles são necessários somente para a atividade de edição. Incluir na lista de permissões Os visitantes do seu site não precisam desses endereços IP resolvidos.
+Problemas ao carregar o [!UICONTROL Enhanced Experience Composer] podem ser resolvidos através do incluir na lista de permissões dos seguintes endereços IP. Esses endereços IP são para [!DNL Adobe] servidores usados para o proxy [!UICONTROL Enhanced Experience Composer]. Eles são necessários somente para a atividade de edição. Os visitantes do seu site não precisam desses endereços IP resolvidos.
 
 Para obter mais informações, consulte [O EEC não carregará uma URL de controle de qualidade interna que não esteja acessível no IP público](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) em *Solução de problemas relacionados ao Enhanced Experience Composer*.
 

@@ -4,9 +4,12 @@ description: Encontre respostas para perguntas sobre definições de métrica e 
 title: Onde posso encontrar informações sobre definições de métricas com o A4T?
 feature: Analytics for Target (A4T)
 exl-id: 97442622-ba6d-46f8-bfac-72638875d889
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+TQID: https://experienceleague.adobe.com/CLUm25T-5PCOzdXVL94kCgvqM-OL3dZzWXkG1qmN8IE
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: 352
 ht-degree: 36%
 
 ---
@@ -42,7 +45,7 @@ As métricas calculadas permitem criar métricas personalizadas que são derivad
 
 +++
 
-## O A4T atribui conversões a várias campanhas?  {#section_7F15C727206440CD86B3A8CE77087DF9}
+## O A4T atribui conversões a várias campanhas? {#section_7F15C727206440CD86B3A8CE77087DF9}
 
 +++Resposta
 Sim, usando a configuração &quot;Alocação completa&quot;.

@@ -5,9 +5,13 @@ title: Onde Começar A Administrar O  [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: 614fd89c9746ce55f502debd5b689c34de400ae5
+TQID: https://experienceleague.adobe.com/GfadY-knTwzXCB-n1AZ9u3PtoAyJokn1OXu3elRhgXk
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: 446
 ht-degree: 32%
 
 ---
@@ -20,7 +24,7 @@ Este artigo contém as primeiras etapas que os administradores do [!DNL Adobe Ta
 
 Um administrador do sistema no [!DNL Adobe Admin Console] deve adicioná-lo como usuário no [!DNL Target], convidando-o para entrar. O administrador do sistema deve então adicioná-lo a um ou mais perfis de produto com função específica (grupos de usuários). Ambas as tarefas são executadas no [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Para obter mais informações, consulte [Gerenciar grupos de usuários](https://helpx.adobe.com/br/enterprise/using/users.html).
+Para obter mais informações, consulte [Gerenciar grupos de usuários](https://helpx.adobe.com/enterprise/using/users.html).
 
 Você receberá um email de convite depois que o administrador do sistema executar essas etapas.
 

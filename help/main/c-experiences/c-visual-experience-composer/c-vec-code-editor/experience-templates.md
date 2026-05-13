@@ -4,16 +4,19 @@ description: Saiba como usar Modelos de experiência, que são amostras pré-cod
 title: Quais modelos de experiência estão disponíveis no Target?
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+TQID: https://experienceleague.adobe.com/0FXZ1swtrMyiz9mT8tvb9VIQxIIXsBrW0HelZ3sygm8
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 75%
+source-wordcount: 573
+ht-degree: 60%
 
 ---
 
 # Modelos de experiência
 
-Informações sobre Modelos de Experiência do [!DNL Adobe Target] para uso no código personalizado. [!DNL Target] Modelos de experiência são amostras pré-codificadas com entradas configuráveis a serem usadas para executar casos de uso comuns de profissionais de marketing.
+Informações sobre Modelos de Experiência do [!DNL Adobe Target] para uso no código personalizado. [!DNL Target] Os Modelos de experiência são amostras pré-codificadas com entradas configuráveis a serem usadas para executar casos de uso comuns de profissionais de marketing.
 
 Estes Modelos de experiência são fornecidos gratuitamente para desenvolvedores e profissionais de marketing como ponto de partida para executar casos de uso comuns, seja via VEC ou Experience Composer baseado em formulário.
 
@@ -25,13 +28,13 @@ O modelo de experiência da [Galeria do banner com miniaturas é um carrossel gi
 
 ![imagem exp-template-banner-carousel-thumbnails](assets/exp-template-banner-carousel-thumbnails.png)
 
-## Galeria do banner  {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
+## Galeria do banner {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
 
 O modelo de experiência da [Galeria do banner é um carrossel giratório](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel), comumente usado em páginas iniciais e páginas de aterrissagem ou outras páginas de entrada de alto volume. Esta galeria não irá girar automaticamente pelas imagens e pode ter interação direta clicando nas setas esquerda e direita.
 
 ![imagem exp-template-banner-carousel](assets/exp-template-banner-carousel.png)
 
-## Contagem regressiva do banner  {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
+## Contagem regressiva do banner {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
 O [modelo de experiência da Contagem regressiva do banner](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown) é um banner grande com uma contagem regressiva central, comumente usado em páginas iniciais e páginas de aterrissagem ou outras páginas de entrada de alto volume.
 
@@ -43,7 +46,7 @@ O [modelo de experiência do Criador de botão](https://github.com/Adobe-Marketi
 
 ![imagem exp-template-button-builder](assets/exp-template-button-builder.png)
 
-## Lightbox com contagem regressiva  {#section_E1177C52F1294EA5AC48312727CD3DF4}
+## Lightbox com contagem regressiva {#section_E1177C52F1294EA5AC48312727CD3DF4}
 
 O [modelo de experiência do Lightbox com contagem regressiva](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown) é um pop-up de sobreposição de lightbox com uma contagem regressiva central, comumente usado em páginas iniciais e páginas de aterrissagem ou outras páginas de entrada de alto volume.
 

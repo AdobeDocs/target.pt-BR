@@ -4,16 +4,19 @@ description: Saiba como acessar o  [!DNL Target] pela Adobe Experience Cloud, de
 title: Como acessar o  [!DNL Target]  pela Adobe Experience Cloud?
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
-source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
+TQID: https://experienceleague.adobe.com/VieoyNb4CtBWO7peyZlJOxfFzTUbbHJvvrcg4yyfWis
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: 355
 ht-degree: 50%
 
 ---
 
 # Acessar o [!DNL Target] pela Adobe Experience Cloud
 
-Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Cloud], definição da landing page padrão e alteração do idioma da interface do usuário do [!DNL Target].
+Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Cloud], definição da página de destino padrão e alteração do idioma da interface do usuário do [!DNL Target].
 
 ## Entre no Adobe [!DNL Target] e defina sua organização padrão.
 
@@ -27,7 +30,7 @@ Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Clou
 
 1. (Opcional) Para definir a organização padrão ao fazer logon no [!DNL Experience Cloud], clique em **[!UICONTROL Preferences]** no avatar do seu perfil, depois defina sua organização padrão.
 
-   ![Página de aterrissagem](/help/main/c-intro/assets/pagepref-new.png)
+   ![Página de destino](/help/main/c-intro/assets/pagepref-new.png)
 
 ## Alterar o idioma padrão da interface do usuário [!DNL Target] {#language}
 
@@ -39,7 +42,7 @@ Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Clou
 
 1. Na seção **[!UICONTROL Preferred languages]** da página [!UICONTROL Account], **[!UICONTROL Add]**.
 
-   Adobe O texto indica que este é o idioma escolhido para que o [!DNL Adobe] entre em contato com você. Esse também é o idioma usado na interface do usuário para [!DNL Target] e outras soluções do [!DNL Adobe Experience Cloud]. Você pode escolher mais de um idioma.
+   O texto indica que este é o idioma escolhido para que o [!DNL Adobe] entre em contato com você. Esse também é o idioma usado na interface do usuário para [!DNL Target] e outras soluções do [!DNL Adobe Experience Cloud]. Você pode escolher mais de um idioma.
 
 1. Selecione o primeiro idioma (primário) e, em seguida, um segundo idioma, se desejado.
 

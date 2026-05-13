@@ -4,10 +4,13 @@ description: Saiba como usar o [!UICONTROL Visual Experience Composer] (VEC) no 
 title: Como criar combinações em um [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+TQID: https://experienceleague.adobe.com/3vxuP07ZViE1etmmvBdYVHIOrtZqRZfL3nE5RMHo9rU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 54%
+source-wordcount: 469
+ht-degree: 58%
 
 ---
 
@@ -23,7 +26,7 @@ Para obter mais informações sobre como usar o VEC para criar e editar ofertas,
 >
 >Você também pode usar o [caminho DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) para navegar pelos elementos.
 
-## Ofertas de imagem  {#section_A48333211DB149ED926AE467D0032914}
+## Ofertas de imagem {#section_A48333211DB149ED926AE467D0032914}
 
 Teste várias ofertas de imagens dentro de um local para determinar qual imagem é mais bem sucedida.
 
@@ -33,7 +36,7 @@ Teste várias ofertas de imagens dentro de um local para determinar qual imagem 
 
 Cada imagem se torna uma experiência separada nesse local.
 
-## Ofertas HTML  {#section_DF016101AFA9412C9B99862C23DE77B1}
+## Ofertas HTML {#section_DF016101AFA9412C9B99862C23DE77B1}
 
 Teste várias ofertas HTML de um local para determinar qual é mais bem sucedida.
 

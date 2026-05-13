@@ -4,14 +4,17 @@ description: Saiba como visualizar sua atividade do Adobe [!DNL Target] Recommen
 title: Como visualizar e iniciar uma atividade do Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 26b0c5455e82014dab92c925ecc88bddb3947d2f
+TQID: https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: 1424
 ht-degree: 15%
 
 ---
 
-# Pré-visualizar e iniciar atividade do Recommendations
+# Pré-visualizar e iniciar atividade do Recomendações
 
 Depois de criar sua atividade do [!UICONTROL Recommendations], [!UICONTROL A/B Test] ou [!UICONTROL Experience Targeting] (XT) contendo [ofertas do Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md), você pré-visualizará suas recomendações para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O [!DNL Target Recommendations] oferece várias maneiras de visualizar suas recomendações.
 
@@ -19,7 +22,7 @@ Depois de criar sua atividade do [!UICONTROL Recommendations], [!UICONTROL A/B T
 
 Depois de criar uma atividade, [!DNL Recommendations] executa um algoritmo para gerar recomendações. Esse algoritmo pode levar algumas horas para ser executado.
 
-Você pode verificar se a execução do algoritmo foi concluída no diagrama de visão geral [!UICONTROL Activity], onde o status dos critérios está listado. A ilustração a seguir mostra o status no diagrama de atividades na página [!DNL Recommendations] de uma atividade [!UICONTROL Overview]:
+Você pode verificar se a execução do algoritmo foi concluída no diagrama de visão geral [!UICONTROL Activity], onde o status dos critérios está listado. A ilustração a seguir mostra o status no diagrama de atividades na página [!UICONTROL Overview] de uma atividade [!DNL Recommendations]:
 
 ![Página de visão geral da atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 

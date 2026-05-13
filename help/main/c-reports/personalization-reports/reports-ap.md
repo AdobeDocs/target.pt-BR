@@ -2,13 +2,16 @@
 keywords: Direcionamento;relatórios de AP;relatórios de personalização automatizada;relatório de nível de atividade;relatório de nível de oferta;relatório de detalhes da oferta;perguntas frequentes
 description: Saiba como interpretar o relatório de resumo do Automated Personalization no Adobe Target. Você pode alternar para os relatórios de Segmentos automatizados e Atributos importantes a partir desse relatório.
 title: Como usar os relatórios de resumo do Automated Personalization?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/Gj9Jo0NHnSxGE4BpvFbd0SudYjbkP4yrV3GFHWHNPjw
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 11%
+source-wordcount: 653
+ht-degree: 13%
 
 ---
 
@@ -41,7 +44,7 @@ As regras padrão da interpretação de resultados do teste A/B ainda são aplic
 
 ## Relatório de nível de oferta {#section_CAA6409879E349C6906E2BE8156D87A1}
 
-O relatório [!UICONTROL Offer Level] da experiência do Random Forest compara o desempenho de cada oferta aplicada por algoritmo à mesma oferta disponibilizada aleatoriamente (Controle). Portanto, as ofertas não devem ser comparadas nesta visualização.
+O relatório [!UICONTROL Offer Level] da experiência do Random Forest compara o desempenho de cada oferta aplicada por algoritmo à mesma oferta disponibilizada aleatoriamente (Controle). Portanto, as ofertas não devem ser comparadas entre si nessa exibição.
 
 Clique no algoritmo da experiência (Floresta Aleatória ou controle) para exibir o relatório [!UICONTROL Offer Level].
 

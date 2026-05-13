@@ -4,10 +4,14 @@ description: Defina quais visitantes do site ingressarão na sua atividade do Ad
 title: Como selecionar um público-alvo em uma atividade A/B  [!DNL Target] ?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: f6845756f9d4220214b0d9131cd5f27db2ae94a9
+TQID: https://experienceleague.adobe.com/7W8BrRxk4mKlYlgGb-GSOuc0kRMRWBvSochz9STYrTs
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 8%
+source-wordcount: 531
+ht-degree: 11%
 
 ---
 
@@ -64,4 +68,4 @@ Para obter mais informações sobre todas as opções no diagrama de fluxo, cons
 
 Você pode editar ou copiar um público-alvo clicando no ícone [!UICONTROL More Actions] ( ![ícone Mais Ações](/help/main/assets/icons/More.svg) ) ao lado do público-alvo desejado na caixa de diálogo [!UICONTROL Add Audience] e clicando em [!UICONTROL Edit] ou [!UICONTROL Copy].
 
-Copiar um público-alvo é útil se você deseja criar outro semelhante para um público-alvo existente. Você pode fazer uma cópia do público-alvo, fazer suas edições e depois salvá-lo como um novo público-alvo.
+Copiar um público-alvo é útil se você deseja criar outro semelhante para um público-alvo existente. Você pode fazer uma cópia do público-alvo, fazer suas edições e salvá-lo como um público-alvo novo.

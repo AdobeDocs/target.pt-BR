@@ -2,14 +2,19 @@
 keywords: integração; funções; permissões do usuário; admin console
 description: Saiba como conceder acesso às integrações existentes do Adobe I/O para todos os espaços de trabalho com a função desejada no Adobe Target.
 title: Como conceder acesso ao Adobe I/O a espaços de trabalho e atribuir funções?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
-source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
+TQID: https://experienceleague.adobe.com/8WUCeb4ztjDdWUEtawLYeC-4FDgn1SiGarmS1hqGNgI
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 59%
+source-wordcount: 623
+ht-degree: 58%
 
 ---
 
@@ -35,7 +40,7 @@ Esta atualização oferece suporte para os seguintes casos de uso:
 * Permita que cada equipe que possui seu espaço de trabalho tenha sua própria integração sempre que estiver pronta para explorar APIs e escolher a função de acordo.
 * Misture e associe qualquer cenário acima.
 
-**Ação necessária**: os clientes que atualmente usam APIs para operações CRUD em recursos (atividades, públicos, ofertas e relatórios) em todos os espaços de trabalho precisam conceder acesso à integração do Adobe I/O existente à para todos os espaços de trabalho com a função desejada de acordo com o caso de uso. Você pode fazer isso selecionando cada [!DNL Target] [!UICONTROL Product Profile] em [!DNL Adobe Admin Console] e adicionando as integrações na guia [!UICONTROL Integration]. Antes da versão de setembro, todas as integrações operavam usando o acesso [!UICONTROL Approver], independentemente da escolha efetuada na lista suspensa [!UICONTROL Product Role]. Agora você pode escolher a função desejada.
+**Ação necessária**: os clientes que atualmente usam APIs para operações CRUD em recursos (atividades, públicos-alvos, ofertas e relatórios) em todos os espaços de trabalho precisam conceder acesso à integração do Adobe I/O existente à para todos os espaços de trabalho com a função desejada de acordo com o caso de uso. Você pode fazer isso selecionando cada [!DNL Target] [!UICONTROL Product Profile] em [!DNL Adobe Admin Console] e adicionando as integrações na guia [!UICONTROL Integration]. Antes da versão de setembro, todas as integrações operavam usando o acesso [!UICONTROL Approver], independentemente da escolha efetuada na lista suspensa [!UICONTROL Product Role]. Agora você pode escolher a função desejada.
 
 >[!NOTE]
 >

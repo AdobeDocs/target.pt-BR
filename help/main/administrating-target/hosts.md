@@ -1,14 +1,20 @@
 ---
-keywords: host;hosts;grupo de hosts;solução de problemas;práticas recomendadas;ubox;redireciona;redirecionar;lista de permissões;incluir na lista de permissões;lista negra;incluir na lista de bloqueios
+keywords: host;hosts;grupo de hosts;solução de problemas;práticas recomendadas;ubox;redireciona;redirecionar;lista de permissões;incluo na lista de permissões;lista de bloqueios;incluir na lista de bloqueios
 description: Saiba como organizar seus sites e ambientes de pré-produção para facilitar o gerenciamento e os relatórios separados no Adobe Target.
 title: O que são hosts e como usá-los?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
+TQID: https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ceid: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 17%
+source-wordcount: 1043
+ht-degree: 16%
 
 ---
 
@@ -20,7 +26,7 @@ O objetivo principal do gerenciamento de hosts é assegurar que nenhum conteúdo
 
 Um host é qualquer domínio a partir do qual uma solicitação [!DNL Target] é feita. Em um site, geralmente é a propriedade `location.hostname` da URL que está fazendo a solicitação [!DNL Target].
 
-Por padrão, o [!DNL Target] não limita um host que possa fazer [!DNL Target] solicitações e receber [!DNL Target] respostas. Quando novos hosts fazem solicitações, eles funcionam automaticamente. Esse processo também permite testar em domínios diferentes que você não conhece ou não pode antecipar. Se quiser substituir esse comportamento padrão, você pode configurar um incluir na lista de permissões incluo na lista de bloqueios de navegação ou para limitar quais hosts funcionam com o [!DNL Target].
+Por padrão, o [!DNL Target] não limita um host que possa fazer [!DNL Target] solicitações e receber [!DNL Target] respostas. Quando novos hosts fazem solicitações, eles funcionam automaticamente. Esse processo também permite testar em domínios diferentes que você não conhece ou não pode antecipar. Se quiser substituir esse comportamento padrão, você pode configurar um incluo na lista de permissões ou para limitar com quais hosts trabalha o [!DNL Target].
 
 {{permissions-update}}
 
@@ -63,11 +69,11 @@ Para classificar a lista [!UICONTROL Hosts], clique em qualquer cabeçalho de co
 
 Para pesquisar a lista [!UICONTROL Hosts], digite um termo de pesquisa na caixa [!UICONTROL Search Hosts].
 
-## Incluir na lista de permissões Crie notificações que especificam hosts autorizados a enviar [!DNL Target] solicitações a [!DNL Target]. {#allowlist}
+## Crie incluis na lista de permissões que especificam hosts autorizados a enviar [!DNL Target] solicitações para [!DNL Target]. {#allowlist}
 
-Você pode criar um incluo na lista de permissões que especifica hosts (domínios) autorizados a enviar [!DNL Target] solicitações para [!DNL Target]. Todos os outros hosts que geram solicitações recebem uma resposta comentada de erro de autorização. Por padrão, qualquer host que contenha uma solicitação [!DNL Target] é registrado com [!DNL Target] no ambiente [!UICONTROL Production] e tem acesso a todas as atividades ativas e aprovadas. Se essa abordagem não for a desejada, você poderá usar a inclui na lista de permissões para gravar hosts específicos que sejam elegíveis para fazer [!DNL Target] solicitações e receber conteúdo de [!DNL Target]. Todos os hosts continuam a ser exibidos na lista [!UICONTROL Hosts], e os ambientes ainda podem ser usados para agrupar esses hosts e atribuir diferentes níveis a cada um, como se o host pode ver atividades ativas e/ou inativas.
+Você pode criar um incluo na lista de permissões que especifica hosts (domínios) autorizados a enviar [!DNL Target] solicitações para [!DNL Target]. Todos os outros hosts que geram solicitações recebem uma resposta comentada de erro de autorização. Por padrão, qualquer host que contenha uma solicitação [!DNL Target] é registrado com [!DNL Target] no ambiente [!UICONTROL Production] e tem acesso a todas as atividades ativas e aprovadas. Se essa abordagem não for a desejada, você pode usar o incluo na lista de permissões para gravar hosts específicos que sejam elegíveis para fazer [!DNL Target] solicitações e receber conteúdo de [!DNL Target]. Todos os hosts continuam a ser exibidos na lista [!UICONTROL Hosts], e os ambientes ainda podem ser usados para agrupar esses hosts e atribuir diferentes níveis a cada um, como se o host pode ver atividades ativas e/ou inativas.
 
-Para criar uma inclui na lista de permissões:
+Para criar um incluo na lista de permissões:
 
 1. Na lista [!UICONTROL Hosts], clique em **[!UICONTROL Authorize Hosts]**.
 1. Habilite a alternância **[!UICONTROL Enable Authorized Hosts for content delivery]**.
@@ -85,9 +91,9 @@ Se uma solicitação [!DNL Target] for feita em um host não autorizado, a chama
 
 >[!IMPORTANT]
 >
->**Práticas recomendadas de segurança**: se você usar a funcionalidade de ubox do [!DNL Target], essa incluída na lista de permissões de domínio também controlará a lista de domínios para os quais seus [redirecionadores](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=pt-BR){target=_blank} poderão navegar. Adicione todos os domínios aos quais deseja redirecionar ao usar o ubox como parte da implementação. Se a inclui na lista de permissões for deixada não especificada, [!DNL Adobe] não poderá verificar as URLs de redirecionamento e proteger contra possíveis redirecionamentos mal-intencionados.
+>**Práticas recomendadas de segurança**: se você usar a funcionalidade de ubox do [!DNL Target], este incluo na lista de permissões também controlará a lista de domínios para os quais seus [redirecionadores](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} podem navegar. Adicione todos os domínios aos quais deseja redirecionar ao usar o ubox como parte da implementação. Se o incluo na lista de permissões não for especificado, [!DNL Adobe] não poderá verificar as URLs de redirecionamento e proteger contra possíveis redirecionamentos mal-intencionados.
 >
->A inclui na lista de permissões tem precedência sobre os ambientes. Limpe todos os hosts antes de usar o recurso de incluir na lista de permissões inclui na lista de permissões e, em seguida, somente os hosts permitidos pelo arquivo serão exibidos na lista de hosts. Em seguida, você poderá mover os hosts para o ambiente desejado.
+>O incluo na lista de permissões tem prioridade sobre os ambientes. Limpe todos os hosts antes de usar o recurso incluir na lista de permissões e, em seguida, somente os hosts permitidos pelo incluo na lista de permissões aparecerão na lista de hosts. Em seguida, você poderá mover os hosts para o ambiente desejado.
 
 Em algumas ocasiões, domínios de outros sites podem ser exibidos em seus ambientes. Um domínio é exibido na lista se chamar at.js. Por exemplo, se alguém copiar uma de suas página da Web para outro servidor, o domínio será exibido em seu ambiente. Você também poderá ver domínios de mecanismos spiders, sites de tradução ou unidades de disco locais.
 
@@ -97,7 +103,7 @@ Você também pode criar um incluo na lista de bloqueios que especifica os hosts
 
 >[!NOTE]
 >
->A lista [!UICONTROL Authorized Hosts] é usada para hosts [!DNL Target] e hosts de redirecionamento padrão. Adicione todos os domínios existentes aprovados para usar o [!DNL Adobe Target] JavaScript SDK (at.js) *E* todos os domínios usados nas URLs de redirecionamento padrão da ubox. Adicione quaisquer domínios semelhantes ao incluo na lista de permissões no futuro.
+>A lista [!UICONTROL Authorized Hosts] é usada para hosts [!DNL Target] e hosts de redirecionamento padrão. Adicione todos os domínios existentes aprovados para usar o [!DNL Adobe Target] JavaScript SDK (at.js) *E* todos os domínios usados nas URLs de redirecionamento padrão da ubox. Adicione quaisquer novos domínios semelhantes ao incluo na lista de permissões no futuro.
 
 ## Excluir um host {#section_F56355BA4BC54B078A1A8179BC954632}
 

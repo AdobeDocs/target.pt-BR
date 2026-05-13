@@ -4,10 +4,14 @@ description: Saiba como usar uma atividade [!UICONTROL Auto-Allocate] no  [!DNL 
 title: O que é uma Atividade [!UICONTROL Auto-Allocate]?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 1b1b2271738d12f8da4e695900b70e280f50d8cf
+TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3502'
-ht-degree: 35%
+source-wordcount: 3572
+ht-degree: 36%
 
 ---
 
@@ -83,7 +87,7 @@ A ilustração mostra como o tráfego alocado para cada experiência progride ao
 >
 >Se uma atividade tiver apenas duas experiências, ambas as experiências obterão tráfego igual até que [!DNL Target] encontre uma experiência vencedora com 75% de confiança. Nesse ponto, dois terços do tráfego é alocado para o vencedor e um terço para o perdedor. Depois disso, quando uma experiência atingir a confiança de 95%, 90% do tráfego será alocado ao vencedor e 10% será alocado ao perdedor. [!DNL Target] sempre envia algum tráfego para a experiência &quot;perdida&quot; para evitar falsos positivos no final (ou seja, manter alguma exploração).
 
-Após a ativação de uma atividade [!UICONTROL Auto-Allocate], as seguintes operações da interface Target não são permitidas:
+Após a ativação de uma atividade [!UICONTROL Auto-Allocate], as seguintes operações da interface Tar[!DNL]get não são permitidas:
 
 * Alternar o modo &quot;Alocação de tráfego&quot; para &quot;Manual&quot;
 * Alterar o tipo de métrica de meta
@@ -115,7 +119,7 @@ Se você quiser produzir uma diferenciação estatisticamente significativa entr
 
 ### As taxas de conversão relacionadas ao tempo (ou que variam de acordo com o contexto) podem distorcer as quantidades de alocação.
 
-Alguns fatores que podem ser ignorados durante um teste A/B padrão porque afetam todas as experiências igualmente não podem ser ignorados em uma atividade [!UICONTROL Auto-Allocate]. O algoritmo é sensível às taxas de conversão observadas.
+Alguns fatores que podem ser ignorados durante um teste A/B padrão porque afetam todas as experiências igualmente não podem ser ignorados em uma atividade [!UICONTROL Auto-Allocate]. O algoritmo está sujeito às taxas de conversão observadas.
 
 Estes são exemplos de fatores que podem afetar o desempenho das experiências de maneira uniforme:
 
@@ -163,7 +167,7 @@ Sim. A abordagem multi-armed bandit garante que pelo menos 20% do tráfego seja 
 
 ### O que acontece com atividades com longos atrasos de conversão?
 
-Desde que todas as experiências que estão sendo otimizadas enfrentem atrasos semelhantes, o comportamento é o mesmo de uma atividade com um ciclo de conversão mais rápido. No entanto, demora mais para atingir o limite de 50 conversões antes do início do processo de alocação de tráfego.
+Desde que todas as experiências que estão sendo otimizadas passem por atrasos semelhantes, o comportamento é o mesmo de uma atividade com um ciclo de conversão mais rápido. No entanto, demora mais para atingir o limite de 50 conversões antes do início do processo de alocação de tráfego.
 
 ### Qual a diferença entre o [!UICONTROL Auto-Allocate] e o [!UICONTROL Automated Personalization]?
 
@@ -246,4 +250,4 @@ Este vídeo monstra como criar um teste A/B usando o fluxo de trabalho orientado
 * Criar uma atividade A/B em [!DNL Adobe Target]
 * Aloque o tráfego usando uma divisão manual ou automática
 
->[!VIDEO](https://video.tv.adobe.com/v/31295?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

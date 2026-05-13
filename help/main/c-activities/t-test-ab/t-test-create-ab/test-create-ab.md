@@ -4,9 +4,13 @@ description: Use o [!UICONTROL Visual Experience Composer] (VEC) para criar ativ
 title: Como criar um teste A/B?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
-source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
+TQID: https://experienceleague.adobe.com/3oJeJ1q8KeFLZhUJseG6hOe6xJqH4CKILIUglcL7E3M
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: 899
 ht-degree: 17%
 
 ---
@@ -68,7 +72,7 @@ Para criar uma atividade manual [!UICONTROL A/B Test]:
    | ;@ | Ponto e vírgula, no sinal |
    | ,= | Vírgula, Igual a |
    | ,+ | Vírgula, Mais |
-   | - | Vírgula, menos |
+   | ,- | Vírgula, menos |
    | ,@ | Vírgula, No sinal |
    | `[`&quot; | Colchete de abertura, aspas duplas |
    | &quot;`]` | Aspas duplas, colchete de fechamento |

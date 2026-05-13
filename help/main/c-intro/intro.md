@@ -1,14 +1,18 @@
 ---
-keywords: Target Standard; Recommendations; Target Premium; Automated Personalization; direcionamento automático; direcionamento automático; permissões; o que é o adobe target;
-description: Saiba mais sobre as noções básicas do Adobe [!DNL Target] Standard e do Adobe [!DNL Target] Premium.O  [!DNL Target] Premium inclui recursos avançados não disponíveis no produto padrão.
+keywords: Target Standard; Recomendações; Target Premium; Automated Personalization; direcionamento automático; direcionamento automático; permissões; o que é o adobe target;
+description: Conheça as noções básicas do Adobe [!DNL Target] Standard e do Adobe [!DNL Target] Premium. [!DNL Target] O Premium inclui recursos avançados não disponíveis no produto padrão.
 landing-page-description: Personalize a experiência de seus clientes para maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 short-description: Personalize a experiência de seus clientes para maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 title: O que é o Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 218036d23803643f25e6cf9dd91ea71dd55342ea
+TQID: https://experienceleague.adobe.com/Mr8fwY1FNfJShSezC50YX1QeBagmuovUySsQUO8jPqo
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: 963
 ht-degree: 51%
 
 ---
@@ -45,9 +49,9 @@ A AP é totalmente automatizada, aprendendo continuamente com o mínimo de anál
 
 O [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) usa aprendizagem de máquina avançada para identificar experiências definidas pelo profissional de marketing com desempenho elevado. Em seguida, ele oferece a experiência mais personalizada para cada visitante com base em perfis de clientes individuais e no comportamento de visitantes anteriores com perfis semelhantes. O [!UICONTROL Auto-Target] ajuda a personalizar o conteúdo e a gerar conversões.
 
-### Recommendations
+### Recomendações
 
-As atividades do [Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores. [!UICONTROL Recommendations] ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
+As atividades do [Recomendações](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores. [!UICONTROL Recommendations] ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
 
 Uma recomendação determina como um produto é sugerido a um cliente, dependendo das atividades desse cliente no site. Por exemplo:
 
@@ -63,7 +67,7 @@ Uma recomendação determina como um produto é sugerido a um cliente, dependend
 
   Mostre outros produtos que as pessoas adquiriram após visualizar um produto sem mostrar o primeiro produto nas recomendações, usando o critério &quot;pessoas que viram isso também compraram&quot;.
 
-### Recommendations como uma oferta
+### Recomendações como oferta
 
 O [Recommendations como uma oferta](/help/main/c-recommendations/recommendations-as-an-offer.md) permite que você inclua recomendações em atividades do [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] e [!UICONTROL Experience Targeting] (XT).
 
@@ -92,7 +96,7 @@ Os artigos nos guias do [!DNL Target] que descrevem os recursos do Beta incluem 
 >
 >O [!DNL Recommendations Classic] é um produto herdado e não é mais licenciado para novos clientes. Para obter a melhor experiência do [!DNL Recommendations], atualize para atividades do [!DNL Recommendations] disponível no [!DNL Adobe Target Premium], conforme descrito acima.
 
-O [!DNL Recommendations Classic] exibe automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base na atividade do usuário anterior no seu site da Web. O Recommendations ajuda a direcionar clientes para itens que, de outra forma, eles talvez eles não conhecessem, melhorando as vendas geradas no seu site.
+O [!DNL Recommendations Classic] exibe automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base na atividade do usuário anterior no seu site da Web. O Recomendações ajuda a direcionar clientes para itens que, de outra forma, eles talvez eles não conhecessem, melhorando as vendas geradas no seu site.
 
 Para obter mais informações, consulte a [documentação do Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf).
 
@@ -110,4 +114,4 @@ O vídeo a seguir explica os tipos de atividade disponíveis no [!DNL Target Sta
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/31290?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

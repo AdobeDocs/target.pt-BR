@@ -4,9 +4,13 @@ description: Saiba como usar o Adobe [!DNL Target] Experience Composer baseado e
 title: Como usar o Experience Composer baseado em formulário?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
+TQID: https://experienceleague.adobe.com/X67IwQIWaOUNZECFjyXCAFsxEr3-FunVIhlRugKsWm8
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: 886
 ht-degree: 33%
 
 ---
@@ -35,7 +39,7 @@ Se você estiver criando uma atividade [!UICONTROL Recommendations], não há ex
 
    Esta tela é diferente se você estiver criando uma atividade [!UICONTROL Recommendations]. [!UICONTROL Recommendations] atividades não incluem experiências.
 
-1. &#x200B;
+1. 
    1. Clique no ícone **[!UICONTROL Rename]** ( ![Ícone Renomear](/help/main/assets/icons/MoreSmallListVert.svg) ), clique em **[!UICONTROL Rename]**, especifique um nome para a atividade e clique em **[!UICONTROL Save]**.
 
    O nome da atividade não pode começar com nenhum dos seguintes caracteres:
@@ -57,7 +61,7 @@ Se você estiver criando uma atividade [!UICONTROL Recommendations], não há ex
    | ;@ | Ponto e vírgula, no sinal |
    | ,= | Vírgula, Igual a |
    | ,+ | Vírgula, Mais |
-   | - | Vírgula, menos |
+   | ,- | Vírgula, menos |
    | ,@ | Vírgula, No sinal |
    | `[`&quot; | Colchete de abertura, aspas duplas |
    | &quot;`]` | Aspas duplas, colchete de fechamento |
@@ -70,7 +74,7 @@ Se você estiver criando uma atividade [!UICONTROL Recommendations], não há ex
 
    >[!NOTE]
    >
-   >A criação de um local inserido manualmente durante a criação da atividade não cria automaticamente um novo local. O nome do local é salvo somente no contexto da atividade. O local é criado quando há uma chamada de delivery de conteúdo. Após a criação do local, ele estará disponível para uso em outras atividades, para criar públicos-alvo etc. na lista suspensa de locais disponíveis.
+   >A criação de um local inserido manualmente durante a criação da atividade não cria automaticamente um novo local. O nome do local é salvo somente no contexto da atividade. O local é criado quando há uma chamada de delivery de conteúdo. Após a criação do local, ele estará disponível para uso em outras atividades, para criação de públicos-alvo etc., na lista suspensa de locais disponíveis.
 
 1. Clique em **[!UICONTROL Add Audience Refinements]**, escolha um ou mais [público-alvo](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) para esta atividade e clique em **[!UICONTROL Done]**.
 

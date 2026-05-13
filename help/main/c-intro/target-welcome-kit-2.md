@@ -4,10 +4,15 @@ description: Obtenha uma visão geral do Adobe Target. Saiba mais sobre atividad
 title: Onde posso encontrar uma introdução de alto nível ao Target?
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
+TQID: https://experienceleague.adobe.com/nPXW07lMjkfeUeuElqoTVYd7-JG7N7uVVZ-m9cOKE8w
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f599e456-545c-47e5-8e50-b7dfe3579517id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: a94ced60-8199-4549-b453-ede2acb4101eid: b06652e6-189f-46a9-90c5-677f6d9cc699id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 74%
+source-wordcount: 2558
+ht-degree: 73%
 
 ---
 
@@ -29,11 +34,11 @@ Para obter uma compreensão mais detalhada de quando e como usar cada recurso, c
 | --- | --- |
 | Teste A/B | Compare duas ou mais variações de suas experiências ou ofertas no seu site ou outro ponto de contato de cliente digital para ver qual variação melhora as principais medidas de negócios durante um período de teste pré-especificado. Os testes A/B são adequados para grandes alterações, como novos layouts de página da Web, diferentes abordagens da navegação do site ou tratamentos drasticamente diferentes de elementos individuais de uma experiência digital, como cópia, imagens e botões de chamada para ação. [Saiba mais](/help/main/c-activities/t-test-ab/test-ab.md). |
 | Alocação automática | Identifique a experiência de melhor desempenho entre duas ou mais experiências e realoque automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e a aprender. Usa a inteligência artificial do [!DNL Adobe Adobe AI]. [Saiba mais](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
-| Direcionamento automático<br>(Premium) | Aproveite a IA do Adobe no [!DNL Target] para determinar e fornecer a melhor experiência de vários visitantes com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares. O Direcionamento automático permite a personalização em escala. [Saiba mais](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
+| Direcionamento automático<br>(Premium) | Aproveite o Adobe AI no [!DNL Target] para determinar e fornecer a melhor experiência de vários visitantes com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares. O Direcionamento automático permite a personalização em escala. [Saiba mais](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
 | Automated Personalization<br>(Premium) | Use algoritmos avançados de aprendizado de máquina e automação fornecidos pelo [!DNL Adobe Adobe AI] para examinar diferentes combinações de imagens, cópias e outros elementos em uma oferta e fornecer a melhor combinação a cada visitante, com base na que melhor atinge objetivos de negócios, como maior conversão ou receita por visitante. [Saiba mais](/help/main/c-activities/t-automated-personalization/automated-personalization.md). |
 | Direcionamento de experiência (XT) | Forneça conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo usuário. **[!UICONTROL Experience Targeting]** é importante para direcionar uma experiência ou conteúdo específico a um público específico quando você entende que um público é valioso e tem uma boa noção do que a experiência significa. [Saiba mais](/help/main/c-activities/t-experience-target/experience-target.md). |
 | Multivariate Testing (MVT) | Compare todas as combinações possíveis de variações de elementos na sua página ou experiência digital: por exemplo, três imagens de fundo diferentes, duas variações de cópia e duas cores de botão diferentes. O MVT determina qual combinação tem o melhor desempenho para um público-alvo específico e quais elementos afetam mais os resultados. [Saiba mais](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md). |
-| Recomendações<br>(Premium) | Use a IA do Adobe para sugerir automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base na atividade anterior e de outros clientes. [Saiba mais](/help/main/c-recommendations/recommendations.md). |
+| Recomendações<br>(Premium) | Use o Adobe AI para sugerir automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base na atividade anterior e de outros clientes. [Saiba mais](/help/main/c-recommendations/recommendations.md). |
 
 ## Canais
 
@@ -52,7 +57,7 @@ Muitos de vocês podem querer usar o [!DNL Target] para testar e personalizar se
 
 | Tipo de implementação | Detalhes |
 | --- | --- |
-| Lado do cliente | Em uma implementação no lado do cliente do [!DNL Target], o [!DNL Target] fornece as experiências associadas a uma atividade diretamente para o navegador do cliente. O navegador decide qual experiência será exibida e realiza a ação. Com uma implementação no lado do cliente, você pode usar um editor do WYSIWYG, o **[!UICONTROL Visual Experience Composer]** (VEC), ou uma interface não visual, o **[!UICONTROL Form-based Experience Composer]**, para criar experiências de teste e personalização. [Saiba mais](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=pt-BR){target=_blank}. |
+| Lado do cliente | Em uma implementação no lado do cliente do [!DNL Target], o [!DNL Target] fornece as experiências associadas a uma atividade diretamente para o navegador do cliente. O navegador decide qual experiência será exibida e realiza a ação. Com uma implementação no lado do cliente, você pode usar um editor do WYSIWYG, o **[!UICONTROL Visual Experience Composer]** (VEC), ou uma interface não visual, o **[!UICONTROL Form-based Experience Composer]**, para criar experiências de teste e personalização. [Saiba mais](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
 | Lado do servidor | Nesse tipo de implementação do [!DNL Target], um dispositivo cliente faz uma solicitação para uma experiência por meio do seu servidor, que envia essa solicitação para o [!DNL Target]. Em seguida, o [!DNL Target] envia a resposta para seu servidor, que decide qual experiência deve ser entregue ao dispositivo do cliente para que seja renderizada. A experiência não precisa ser exibida em um navegador; ela pode ser exibida em um email ou quiosque, por um assistente de voz ou por alguma outra experiência não visual ou dispositivo não baseado em navegador. Como o servidor fica entre o cliente e o [!DNL Target], esse tipo de implementação também será ideal se você precisar de mais controle e segurança ou de processos de back-end complexos que deseja executar no servidor. [Saiba mais](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=pt-BR){target=_blank}. |
 | Implementação híbrida | Nesta implementação, você escolhe a abordagem de implementação que funciona melhor para determinado caso de uso. Por exemplo, você pode usar uma implementação do lado do cliente para fazer um teste A/B de uma oferta em um banner hero na página inicial, mas também usar uma implementação do lado do servidor para determinar os resultados da pesquisa interna a serem exibidos em um navegador do cliente, a experiência a ser exibida em um painel de carro inteligente ou a resposta de voz a ser fornecida por um assistente de voz. |
 
@@ -90,8 +95,8 @@ com [!UICONTROL Enterprise Permissions].
 
 ## Integrações
 
-O [!DNL Target] pode se integrar a muitos sistemas originais, secundários e de terceiros. Essas
-integrações podem ser valiosas para fornecer acesso aos dados de visitantes e clientes disponíveis nesses sistemas para uso na criação de públicos-alvo para testes e personalização. Como parte da [!DNL Adobe Experience Cloud], o [!DNL Target] integra-se perfeitamente com as soluções da [!DNL Experience Cloud] e seus serviços principais.
+O [!DNL Target] pode se integrar a muitos sistemas originais, secundários e de terceiros. Esses
+as integrações podem ser valiosas para fornecer acesso aos dados de visitantes e clientes disponíveis nesses sistemas para uso na criação de públicos-alvo para testes e personalização. Como parte da [!DNL Adobe Experience Cloud], o [!DNL Target] integra-se perfeitamente com as soluções da [!DNL Experience Cloud] e seus serviços principais.
 
 | Integração | Detalhes |
 | --- | --- |

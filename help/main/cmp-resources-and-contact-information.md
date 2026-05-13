@@ -4,14 +4,19 @@ description: Conheça os recursos adicionais do Adobe [!DNL Target] e como entra
 title: Onde posso encontrar recursos e informações de contato do Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: ad45af0d0cb1a1ea26571cc985d6574ddd2c4963
+TQID: https://experienceleague.adobe.com/wwItoNoGUkLkNZED9frN7e5FE7O-iozDzMd2ekDdgfM
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 79%
+source-wordcount: 1313
+ht-degree: 78%
 
 ---
 
-# Recursos e informações de contato 
+# Recursos e informações de contato
 
 Informações sobre recursos adicionais para ajudá-lo a aprender sobre os recursos do Target e como entrar em contato com a Adobe caso precise de ajuda com o Target.
 
@@ -46,7 +51,7 @@ As sessões atuais gravadas do Target incluem:
 
 | Tópico / Tempo de execução / Data da gravação | O que você vai aprender |
 |--- |--- |
-| [Dicas e visão geral da at.js](https://helpx.adobe.com/br/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26 de junho de 2019 | Você aprenderá:<ul><li>Os benefícios da utilização da at.js</li><li>As configurações da at.js</li><li>O tratamento de cintilação</li><li>Depuração do at.js</li><li>Problemas conhecidos</li><li>Perguntas frequentes</li></ul>Para obter mais informações, consulte [Como a at.js funciona](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=pt-BR){target=_blank}. |
+| [Dicas e visão geral da at.js](https://helpx.adobe.com/br/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26 de junho de 2019 | Você aprenderá:<ul><li>Os benefícios da utilização da at.js</li><li>As configurações da at.js</li><li>O tratamento de cintilação</li><li>Depuração do at.js</li><li>Problemas conhecidos</li><li>Perguntas frequentes</li></ul>Para obter mais informações, consulte [Como a at.js funciona](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
 | [Target Premium Workspaces](https://helpx.adobe.com/br/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>4 de setembro de 2018 | Você aprenderá:<ul><li>Criação de um espaço de trabalho (perfil do produto)</li><li>Criação de propriedades</li><li>Adição de usuários</li><li>Atualização da implementação</li></ul>Para obter mais informações, consulte [Permissões de usuário do Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md). |
 | [Visual Experience Composer (VEC)](https://helpx.adobe.com/br/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>dezembro de 2017 | Você aprenderá:<ul><li>Como funciona o VEC</li><li>Como evitar problemas comuns com o VEC</li><li>Práticas de correção que podem ser usadas com o VEC</li></ul>Para obter mais informações neste guia, consulte [Experiências](/help/main/c-experiences/experiences.md). |
 | [Adobe Target: Integração do Analytics/Target (A4T)](https://helpx.adobe.com/br/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Janeiro de 2018 | Você aprenderá:<ul><li>Como configurar e validar o funcionamento da integração </li><li>Como funciona a integração</li><li>Saiba mais sobre os relatórios adequados para usar no Analytics</li><li>Respostas às perguntas comuns sobre o A4T</li></ul>Para obter mais informações neste guia, consulte [Adobe Analytics como o Source de relatórios para o Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). |
@@ -62,7 +67,7 @@ Além das sessões sobre o Target, há mais sessões para outras soluções da A
 
 O Atendimento ao Cliente está preparado para ajudar você a resolver qualquer problema que possa surgir. Essa página contém as informações de que você precisa ao entrar em contato com o Atendimento ao Cliente para agilizar uma resolução.
 
-### Informações básicas  {#section_CC8B206F58D6495C9372D5C0D4055CF6}
+### Informações básicas {#section_CC8B206F58D6495C9372D5C0D4055CF6}
 
 Se encontrar problemas ou tiver dúvidas ao usar o Target, há várias opções
 
@@ -70,7 +75,7 @@ Faça suas perguntas aos especialistas da Adobe Target na [Comunidade Adobe Targ
 
 No caso de problemas técnicos ou registro de um erro, entre em contato com o Atendimento ao cliente. Para entrar em contato com o Atendimento ao cliente por telefone, ligue para 1-800-497-0335. Encontre números para chamadas gratuitas nos Estados Unidos na página [Números de telefone regionais do Atendimento ao cliente de Marketing digital da Adobe](https://helpx.adobe.com/br/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Quando for solicitado que você selecione uma opção para seu produto, pressione 3 para entrar em contato com a equipe do Target.
 
-[Contate o Atendimento ao Cliente da Adobe](https://helpx.adobe.com/br/contact.html){target=_blank}.
+[Contate o Atendimento ao Cliente da Adobe](https://helpx.adobe.com/contact.html){target=_blank}.
 
 Para fazer uma triagem rápida do problema, tenha em mãos as seguintes informações básicas quando entrar em contato conosco:
 
@@ -85,9 +90,9 @@ Para fazer uma triagem rápida do problema, tenha em mãos as seguintes informa�
 
 Para problemas de entrega de conteúdo, consulte [Solucionar problemas de entrega de conteúdo](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) para obter possíveis soluções e informações de solução de problemas.
 
-### Em caso de interrupção  {#section_2CB3BC53E4C641F38D50949E2E7A2886}
+### Em caso de interrupção {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
-Se você suspeitar que haja uma interrupção, verifique primeiro a [página Status do Sistema da Experience Cloud](https://status.adobe.com/pt) ([!DNL https://status.adobe.com/pt-br]) Ela possui um registro de todas as interrupções, incidentes e manutenção das Soluções da Adobe Experience Cloud, incluindo o Target, e inclui as últimas atualizações da nossa equipe de Operações Técnicas. Se precisar de mais ajuda, verifique seu conhecimento sobre os seguintes itens além das informações listadas abaixo ao entrar em contato com o Atendimento ao cliente:
+Se você suspeitar que haja uma interrupção, verifique primeiro a [página Status do Sistema da Experience Cloud](https://status.adobe.com/pt) ([!DNL https://status.adobe.com]) Ela possui um registro de todas as interrupções, incidentes e manutenção das Soluções da Adobe Experience Cloud, incluindo o Target, e inclui as últimas atualizações da nossa equipe de Operações Técnicas. Se precisar de mais ajuda, verifique seu conhecimento sobre os seguintes itens além das informações listadas abaixo ao entrar em contato com o Atendimento ao cliente:
 
 * O horário do início da interrupção
 * Explicação sobre o que está acontecendo
@@ -98,14 +103,14 @@ Se você suspeitar que haja uma interrupção, verifique primeiro a [página Sta
 
 Informações para ajudá-lo a entrar em contato com a Adobe e compreender as questões jurídicas relativas à utilização deste produto e documentação.
 
-### Ajuda e suporte técnico  {#section_354AC2658BA84A2A96E64C5B2C43B73B}
+### Ajuda e suporte técnico {#section_354AC2658BA84A2A96E64C5B2C43B73B}
 
 A equipe de Atendimento ao cliente da Adobe Experience Cloud está aqui para ajudar você e fornecer uma série de mecanismos pelos quais é possível realizar o engajamento:
 
 * [Consulte a página de ajuda da Experience Cloud em busca de conselhos, dicas e perguntas frequentes](https://helpx.adobe.com/br/marketing-cloud.html)
-* [Abrir um tíquete para obter ajuda do suporte](https://experienceleague.adobe.com/pt-br?support-solution=Target&lang=pt-BR#support)
+* [Abrir um tíquete para obter ajuda do suporte](https://experienceleague.adobe.com/?support-solution=Target&lang=pt-BR#support)
 * [Entre em contato diretamente com a equipe de Atendimento ao cliente](https://helpx.adobe.com/br/marketing-cloud/contact-support.html)
-* [Verifique a disponibilidade e o status das Soluções da Experience Cloud](https://status.adobe.com/pt)
+* [Verifique a disponibilidade e o status das soluções da Experience Cloud](https://status.adobe.com/pt)
 
 Para receber notificações avançadas sobre as melhorias futuras do produto, cadastre-se no Priority Product Update da Adobe:
 
@@ -115,7 +120,7 @@ Para receber notificações avançadas sobre as melhorias futuras do produto, ca
 
 Dependendo da configuração de sua solução, talvez algumas opções descritas neste documento não estejam disponíveis. Como cada conta é única, consulte os valores, datas de vencimento, termos e condições em seu contrato. Se você quiser adicionar ou alterar seu nível de serviço, ou se tiver dúvidas sobre o serviço atual, entre em contato com seu Gerente de contas.
 
-### Feedback  {#section_8154D6D712054220A90D85FA8E92933E}
+### Feedback {#section_8154D6D712054220A90D85FA8E92933E}
 
 Agradecemos suas sugestões ou comentários sobre esta solução. Ideias e sugestões de aprimoramento podem ser adicionadas à [Comunidade da Experience League do Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=pt). Clique na guia [!UICONTROL Ideas].
 
@@ -124,9 +129,9 @@ Agradecemos suas sugestões ou comentários sobre esta solução. Ideias e suges
 * © 2023 Adobe Systems Incorporated. All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
-[Termos de Uso](https://www.adobe.com/legal/terms.html)
+[Termos de uso](https://www.adobe.com/legal/terms.html)
 
-Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
+Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. Um símbolo de marca comercial (®, ™ etc.) indica uma marca comercial Adobe.
 
 All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/br/products/eula/third_party.html](https://www.adobe.com/br/products/eula/third_party.html).
 

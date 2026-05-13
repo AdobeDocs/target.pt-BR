@@ -7,10 +7,13 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+TQID: https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 1%
+source-wordcount: 777
+ht-degree: 2%
 
 ---
 
@@ -59,7 +62,7 @@ Para gerar texto envolvente usando [!DNL AI Assistant]:
 
    * **Tom**: o tom do seu texto deve repercutir na sua audiência. Se você quiser soar informativo, excitante, divertido ou persuasivo, [!DNL AI Assistant] poderá adaptar a mensagem de acordo.
 
-     As opções incluem: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] e [!UICONTROL Conversational].
+     As opções incluem: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] e [!UICONTROL Conversational].
 
 1. Use o controle deslizante para determinar quanto tempo você deseja que o texto fique, do mais curto ao mais longo.
 
@@ -100,4 +103,4 @@ O prompt e as variações a seguir mostram a potência de [!DNL AI Assistant].
 
 ### Criar conteúdo usando o Assistente de IA para geração de conteúdo
 
->[!VIDEO](https://video.tv.adobe.com/v/3434640/?captions=por_br&learn=on">https://video.tv.adobe.com/v/3434640/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)

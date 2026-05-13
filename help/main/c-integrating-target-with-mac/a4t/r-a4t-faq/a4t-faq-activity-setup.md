@@ -4,9 +4,12 @@ description: Encontre respostas para perguntas sobre a configuração de ativida
 title: Onde posso encontrar perguntas frequentes sobre configurações de atividade com o A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
+TQID: https://experienceleague.adobe.com/y4pSMxqYoXPMyrkG7ZW9XuJP-R2iVaH2OqhcXn02Vs8
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: 606
 ht-degree: 10%
 
 ---
@@ -41,7 +44,7 @@ Para obter mais informações, consulte &quot;Ao configurar minhas métricas de 
 
 +++
 
-## Acabei de criar um atividade. Por que não vejo nenhum dado chegando?  {#section_9F8092BE4225442896F926540292F221}
+## Acabei de criar um atividade. Por que não vejo nenhum dado chegando? {#section_9F8092BE4225442896F926540292F221}
 
 
 +++Resposta

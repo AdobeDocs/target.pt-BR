@@ -4,10 +4,15 @@ description: Saiba como obter [!DNL Target] conhecimento sobre produtos com [!DN
 title: Como usar o [!DNL AI Assistant] in [!DNL Target] para obter conhecimento sobre o produto?
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 1615dcf80643a1391a3b1fbad8e8378ff2785fd3
+TQID: https://experienceleague.adobe.com/C4O-4iorggYJHyg0MMtEb-n-v0-DtetiMtcDp-GWDWQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 6%
+source-wordcount: 315
+ht-degree: 1%
 
 ---
 
@@ -20,7 +25,7 @@ O [!DNL AI Assistant] é uma ferramenta útil para aprender novos recursos ou ob
 As perguntas de conhecimento do produto incluem [!DNL Adobe] conceitos relacionados aos aspectos de [!DNL Target]. Alguns exemplos de perguntas de conhecimento sobre produtos incluem:
 
 * Como configurar um script de perfil?
-* Ocorre um erro ao salvar minha atividade. O que isso significa? 
+* Ocorre um erro ao salvar minha atividade. O que isso significa?
 * Devo atualizar minha implementação do at.js para o AEP Web SDK?
 
 ## Acessar [!DNL AI Assistant]
@@ -52,7 +57,7 @@ Para acessar o [!DNL AI Assistant] para obter conhecimento sobre o produto:
 
    >[!IMPORTANT]
    >
-   >As respostas da IA podem ser imprecisas ou errôneas. Certifique-se de confirmar as respostas e fontes.
+   >As respostas geradas por IA podem ser imprecisas ou enganosas. Verifique as respostas e fontes.
 
 1. (Opcional) Forneça feedback a [!DNL AI Assistant].
 
@@ -66,10 +71,10 @@ Para acessar o [!DNL AI Assistant] para obter conhecimento sobre o produto:
 
 Conheça os aplicativos do [!DNL Adobe Experience Platform] no [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441029/?learn=on&#x26;enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Validar respostas do Assistente de IA
 
 Saiba como verificar e validar as respostas que o [!DNL AI Assistant] em [!DNL Adobe Experience Platform] fornece.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441744/?learn=on&#x26;enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)

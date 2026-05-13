@@ -4,9 +4,13 @@ description: Baixe um PDF interativo que descreve os diferentes tipos de ativida
 title: Quais Tipos de Atividade Estão Disponíveis no  [!DNL Target]?
 feature: Activities
 exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
-source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
+TQID: https://experienceleague.adobe.com/-q-l6teGnZIZWbS7MR9-yCoBKnEbc156-YybqoYZ0a0
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: 1424
 ht-degree: 68%
 
 ---
@@ -19,17 +23,17 @@ Baixe um PDF interativo que descreve os diferentes tipos de atividades no [!DNL 
 >
 >Para ter a melhor experiência e compartilhar com outras pessoas, baixe o [PDF interativo Guia de atividades do Adobe Target](/help/main/assets/activities_guide_82817.pdf).
 >
->Este artigo não contém informações sobre [[!UICONTROL Recommendations] atividades](/help/main/c-recommendations/recommendations.md). No entanto, você pode incluir recomendações nas atividades de [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] e [!UICONTROL Experience Targeting] (XT). Para obter mais informações, consulte [Recommendations como uma oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/main/c-intro/intro.md#premium).
+>Este artigo não contém informações sobre [[!UICONTROL Recommendations] atividades](/help/main/c-recommendations/recommendations.md). No entanto, você pode incluir recomendações nas atividades de [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] e [!UICONTROL Experience Targeting] (XT). Para obter mais informações, consulte [Recomendações como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/main/c-intro/intro.md#premium).
 
 ## O que ele faz? {#section_4ECAACC68723402EB3649033190E1BBC}
 
 | Tipo de atividade | Detalhes |
 |--- |--- |
-| Manual [!UICONTROL A/B Test]<P>![Ícone](/help/main/c-activities/assets/icon_ab.png) | Compara duas ou mais experiências para ver qual melhora mais as conversões durante um período de teste pré-especificado. <P>Para obter mais informações, consulte [Teste A/B](/help/main/c-activities/t-test-ab/test-ab.md). |
+| Manual [!UICONTROL A/B Test]<P>![Ícone](/help/main/c-activities/assets/icon_ab.png) | Compara duas ou mais experiências para ver qual melhora mais as conversões durante um período de teste pré-especificado.<P>Para obter mais informações, consulte [Teste A/B](/help/main/c-activities/t-test-ab/test-ab.md). |
 | [!UICONTROL Auto-Allocate]<P>![Ícone de Alocação automática](/help/main/c-activities/assets/icon_auto_allocate.png) | Identifica um vencedor entre duas ou mais experiências e redireciona tráfego para a experiência vencedora, aumentando a conversão à medida que o teste aprende enquanto é executado.<P>Para obter mais informações, consulte [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
-| [!UICONTROL Auto-Target]<P>![Ícone de AT](/help/main/c-activities/assets/icon_auto_target.png) | Usa aprendizagem de máquina avançada para personalizar conteúdo e impulsionar as conversões, identificando várias experiências de alta performance definidas por profissionais de marketing e depois apresentando a experiência mais adequada para visitantes com base no perfil individual do cliente e no comportamento anterior de visitantes com perfis similares. <P>Para obter mais informações, consulte [Direcionamento automático para experiências personalizadas](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
-| [!UICONTROL Automated Personalization] (AP)<P>![Ícone de AP](/help/main/c-activities/assets/icon_ap.png) | Usa aprendizagem de máquina avançada para personalizar conteúdo e impulsionar as conversões, combinando ofertas e mensagens específicas e então correspondendo diferentes variações de ofertas com visitantes, com base nos perfis individuais de clientes. <P>Para obter mais informações, consulte [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md). |
-| [!UICONTROL Multivariate Test] (MVT)<P>![Ícone de MVT](/help/main/c-activities/assets/icon_mvt.png) | Compara combinações de ofertas entre elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico. Também identifica qual elemento da página melhora mais conversões durante um período de teste pré-especificado. <P>Para obter mais informações, consulte [Teste multivariado](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md). |
+| [!UICONTROL Auto-Target]<P>![Ícone de AT](/help/main/c-activities/assets/icon_auto_target.png) | Usa aprendizagem de máquina avançada para personalizar conteúdo e impulsionar as conversões, identificando várias experiências de alta performance definidas por profissionais de marketing e depois apresentando a experiência mais adequada para visitantes com base no perfil individual do cliente e no comportamento anterior de visitantes com perfis similares.<P>Para obter mais informações, consulte [Direcionamento automático para experiências personalizadas](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
+| [!UICONTROL Automated Personalization] (AP)<P>![Ícone de AP](/help/main/c-activities/assets/icon_ap.png) | Usa aprendizagem de máquina avançada para personalizar conteúdo e impulsionar as conversões, combinando ofertas e mensagens específicas e então correspondendo diferentes variações de ofertas com visitantes, com base nos perfis individuais de clientes.<P>Para obter mais informações, consulte [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md). |
+| [!UICONTROL Multivariate Test] (MVT)<P>![Ícone de MVT](/help/main/c-activities/assets/icon_mvt.png) | Compara combinações de ofertas entre elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico. Também identifica qual elemento da página melhora mais conversões durante um período de teste pré-especificado.<P>Para obter mais informações, consulte [Teste multivariado](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md). |
 | Direcionamento de experiência (XT)<P>![Ícone de XT](/help/main/c-activities/assets/icon_xt.png) | Fornece conteúdo para um público-alvo específico baseado em um conjunto de regras e critérios definidos por um profissional de marketing.<P>Para obter mais informações, consulte [Direcionamento de experiência](/help/main/c-activities/t-experience-target/experience-target.md). |
 
 ## Por que você está usando esse tipo de atividade? {#section_46A70DD7CE3448749E635DDF5EAFC131}

@@ -5,18 +5,22 @@ title: Posso definir visitantes como alvo com base na localização?
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
-source-git-commit: 195028613dec0294c816703b9145e720e3209d74
+TQID: https://experienceleague.adobe.com/1ksd0-jtTMia-wqAfr6SxPqGVgd9t17dKSEyYrfYp1U
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 42%
+source-wordcount: 1059
+ht-degree: 40%
 
 ---
 
-# Geografia  
+# Geografia
 
 Use os públicos no [!DNL Adobe Target] para direcionar os usuários com base em sua localização geográfica.
 
-Os parâmetros de localização geográfica permitem direcionar atividades e experiências com base na localização geográfica de seus visitantes. Você pode incluir ou excluir visitantes com base no país, estado/província, cidade, código postal/CEP, latitude, longitude, DMA ou operadora de celular. Esses dados são enviados com cada solicitação [!DNL Target] e baseiam-se no endereço IP do visitante. Selecione esses parâmetros exatamente como quaisquer outros valores de definições de metas.
+Os parâmetros de localização geográfica permitem direcionar atividades e experiências com base na localização geográfica de seus visitantes. Você pode incluir ou excluir visitantes com base no país, estado/província, cidade, código postal/CEP, latitude, longitude, DMA ou operadora de celular. Esses dados são enviados com cada solicitação [!DNL Target] e baseiam-se no endereço IP do visitante. Selecione esses parâmetros exatamente como quaisquer outros valores de direcionamento.
 
 ## Criar um público-alvo com geolocalização {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
@@ -155,9 +159,9 @@ Devido à forma como o AOL faz proxy de seu tráfego, [!DNL Target] só pode dir
 
   >[!NOTE]
   >
-  >A at.js 1 oferece suporte a `mboxOverride.browserIp`.somente *x*. Essa funcionalidade não é compatível com o at.js 2.*x*.
+  >Somente a at.js 1.*x* oferece suporte a `mboxOverride.browserIp`. Esta funcionalidade não é suportada no at.js 2.*x*.
 
-* **at.js 2.*x***: para substituir seu endereço IP por at.js 2.*x*, instale uma extensão/plug-in de navegador (como X-Forwarded-For Header para Chrome ou Firefox). Essa extensão permite passar o cabeçalho x-forwarded-for nas solicitações de página.
+* **at.js 2.*x***: para substituir seu endereço IP por at.js 2.*x*, instale uma extensão/plug-in de navegador (como o Cabeçalho X-Forwarded-For para Chrome ou Firefox). Essa extensão permite passar o cabeçalho x-forwarded-for nas solicitações de página.
 
 +++
 

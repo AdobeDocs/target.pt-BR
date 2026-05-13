@@ -2,12 +2,16 @@
 keywords: personalização automatizada;oferta;relatórios;grupo;grupo de relatórios;automated personalization;offer;reporting;group;reporting group;ap
 description: Saiba como usar grupos de relatórios de ofertas em atividades do  [!DNL Adobe Target] [!UICONTROL Automated Personalization].
 title: Posso Usar Grupos de Relatórios de Oferta em [!UICONTROL Automated Personalization] Atividades?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/VW3zVGXb3IuQMDaRyidbkjsbUrojvwFsvwP3yRVeHp4
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: 827
 ht-degree: 15%
 
 ---
@@ -65,7 +69,7 @@ Para obter informações sobre como direcionar uma oferta para públicos-alvo es
 
 1. Clique em **[!UICONTROL Activities]**, clique na atividade [!UICONTROL Automated Personalization] desejada da lista, em seguida, clique na guia **[!UICONTROL Reports]** para exibir o relatório [Nível da oferta](/help/main/c-reports/personalization-reports/reports-ap.md).
 
-   Se você tiver muitas atividades, clique no ícone [!UICONTROL Show Filters] (funil) e marque a caixa de seleção [!UICONTROL Automated Personalization] para filtrar a lista e exibir apenas [!UICONTROL Automated Personalization] atividades.
+   Se você tiver muitas atividades, clique no ícone [!UICONTROL Show Filters] (funnel) e marque a caixa de seleção [!UICONTROL Automated Personalization] para filtrar a lista e exibir apenas [!UICONTROL Automated Personalization] atividades.
 
 1. Clique em **[!UICONTROL Control]** ou **[!UICONTROL Targeted]** na tabela para exibir as ofertas desagrupadas dentro dos grupos de relatórios.
 

@@ -1,22 +1,26 @@
 ---
-keywords: Recommendations; intro; introdução, webinar, demonstração
-description: Saiba mais sobre as atividades do Recommendations no Adobe  [!DNL Target]  que exibem automaticamente conteúdo que pode interessar a seus clientes, com base na atividade anterior do usuário ou outros algoritmos.
-title: O que são as atividades do Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+keywords: Recomendações; intro; introdução, webinar, demonstração
+description: Saiba mais sobre as atividades do Recomendações no Adobe  [!DNL Target]  que exibem automaticamente conteúdo que pode interessar a seus clientes, com base na atividade anterior do usuário ou outros algoritmos.
+title: O que são as atividades do Recomendações?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: fd0ae95b63b924471247ab7155363bf0ba1e617c
+TQID: https://experienceleague.adobe.com/6jmXI9CsdCnyyQrQXKzq5WF8OQPQSCbE2Zb8AnpUvks
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2049'
-ht-degree: 86%
+source-wordcount: 2109
+ht-degree: 83%
 
 ---
 
-# Introdução ao Recommendations
+# Introdução ao Recomendações
 
-O texto deste artigo vem do webinário *Introdução ao Recommendations*, que pode ser exibido na íntegra abaixo.
+O texto deste artigo vem do webinário *Introdução ao Recomendações*, que pode ser exibido na íntegra abaixo.
 
-O webinar de *Introdução ao Recommendations* inclui uma análise detalhada de como utilizar o valor de [!DNL Adobe Target Recommendations]. Descubra como essa atividade do [!DNL Target] exibe automaticamente os produtos ou conteúdos que talvez interessem aos seus clientes, otimizando sugestões em tempo real com base nas visitas anteriores. Além disso, acesse a interface do usuário do [!DNL Target] para obter uma visão geral passo a passo sobre como criar uma atividade do [!DNL Recommendations].
+O webinar de *Introdução ao Recomendações* inclui uma análise detalhada de como utilizar o valor de [!DNL Adobe Target Recommendations]. Descubra como essa atividade do [!DNL Target] exibe automaticamente os produtos ou conteúdos que talvez interessem aos seus clientes, otimizando sugestões em tempo real com base nas visitas anteriores. Além disso, acesse a interface do usuário do [!DNL Target] para obter uma visão geral passo a passo sobre como criar uma atividade do [!DNL Recommendations].
 
 ## Introdução
 
@@ -57,7 +61,7 @@ Excelentes recomendações devem ser relevantes e personalizadas. Isso significa
 * **Modelos sofisticados** para dar sentido a milhões de itens nos eventos de catálogo e interação. O [!DNL Target] possui recursos sofisticados de aprendizado de máquina criados em uma década de experiência e nós lidamos com bilhões de recomendações por ano.
 * **Contexto do usuário** para garantir que as recomendações sejam oportunas e relevantes para os usuários. Você não quer recomendar o vídeo que alguém acabou de assistir ou a camisa que alguém acabou de adicionar ao carrinho. O perfil de usuário avançado do Target pode ser usado nas recomendações para garantir a personalização.
 
-## Implementar o [!DNL Target] Recommendations
+## Implementar o [!DNL Target] Recomendações
 
 Comece com uma estratégia.
 
@@ -115,7 +119,7 @@ Transmita informações sobre o usuário e contexto no ponto de interação para
 
 Além do comportamento do usuário na agregação, você precisa transmitir ao [!DNL Target] o contexto específico em que as recomendações são exibidas. Isso inclui informações sobre a página e informações do perfil do usuário. O [!DNL Target] usa essas informações para fazer recomendações personalizadas. Por exemplo, em um site de varejo, você deseja saber o produto e a categoria do produto que o visitante está visualizando no momento. Talvez você queira saber também as informações sobre esse usuário (marca favorita, categoria de produto favorita, nível de fidelidade e assim por diante). Essas informações são importantes para que o [!DNL Target] possa filtrar os itens e aprimorar a personalização das recomendações.
 
-## Criar sua primeira atividade do Recommendations
+## Criar sua primeira atividade do Recomendações
 
 O que é uma atividade do [!DNL Recommendations]?
 

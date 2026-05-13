@@ -4,10 +4,15 @@ description: Saiba como usar a integração  [!DNL Target]/[!DNL Real-Time Custo
 title: Como integrar o  [!DNL Target]  com a  [!DNL Real-Time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 7e6947a37586c1840216d4137969f399f38a429d
+TQID: https://experienceleague.adobe.com/0Zw98ulFxHFH-PdV8tmocpOXYCKR2ciKtqFKwD44iiM
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 71%
+source-wordcount: 1125
+ht-degree: 74%
 
 ---
 
@@ -40,7 +45,7 @@ As seções a seguir mostram que tipo de caso de uso de personalização (próxi
 | Soluções | Caso de uso habilitado |
 | --- | --- |
 | <ul><li>[!DNL RTCDP] (qualquer SKU) e [!DNL Target]</li></ul> | <ul><li>Personalização da próxima sessão</li><li>Personalização da mesma página pela borda</li><li>Governança aplicada ao compartilhar segmentos</li></ul> |
-| <ul><li>[!DNL RTCDP] (qualquer SKU), [!DNL AAM] e [!DNL Target]</li></ul> | <ul><li>Personalização da próxima sessão</li><ul><li>Segmentos do [!DNL AAM]</li><li>Segmentos de terceiros por meio do [!DNL AAM]</li></ul><li>Personalização da mesma página pela borda</li><ul><li>Segmentos da [!DNL RTCDP]</li><li>Governança aplicada ao compartilhar segmentos</li></ul> |
+| <ul><li>[!DNL RTCDP] (qualquer SKU), [!DNL AAM] e [!DNL Target]</li></ul> | <ul><li>Personalização da próxima sessão</li><ul><li>Segmentos do [!DNL AAM]</li><li>Segmentos de terceiros por meio do [!DNL AAM]</li></ul><li>Personalização da mesma página pela borda</li><ul><li>Segmentos do [!DNL RTCDP]</li><li>Governança aplicada ao compartilhar segmentos</li></ul> |
 
 ### Combinação de implementação de [!UICONTROL at.js] e [!DNL Platform Web SDK]
 
@@ -128,26 +133,26 @@ Para obter mais informações, consulte [Personalização de próxima ocorrênci
 
 Saiba como configurar o destino do [!DNL Adobe Target] na [!DNL Real-Time Customer Data Platform] para começar a enviar segmentos e atributos de perfil da [!DNL Real-Time CDP] para o [!DNL Target].
 
->[!VIDEO](https://video.tv.adobe.com/v/3449798/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
 
 ### Vídeo: ativar segmentos e atributos de perfil
 
 Saiba como ativar segmentos e atributos de perfil da [!DNL Adobe Real-Time Customer Data Platform] no [!DNL Adobe Target] para exibir conteúdo personalizado em tempo real em seus sites, aplicativos móveis e outras propriedades digitais.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447360/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
 
 ### Vídeo: usar segmentos da [!DNL Real-Time CDP] no [!DNL Target]
 
 Saiba como usar os segmentos da [!DNL Real-Time Customer Data Platform] no [!DNL Adobe Target] para oferecer experiências personalizadas em seu site e aplicativos móveis.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446832/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
 
 ### Vídeo: usar atributos de perfil da [!DNL Real-Time CDP] no [!DNL Adobe Target]
 
 Saiba como usar atributos de perfil da [!DNL Adobe Real-Time Customer Data Platform] no [!DNL Adobe Target] para oferecer experiências personalizadas em seu site e aplicativos móveis.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451898/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 ### Blog e vídeo do [!DNL Adobe Target]: personalização aprimorada de mesma página
 
-[[!DNL Adobe] anuncia o Personalization Aprimorado de Mesma Página com [!DNL Adobe Target] e [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
+[[!DNL Adobe] anuncia o Personalization Aprimorado de Mesma Página com  [!DNL Adobe Target] e [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}

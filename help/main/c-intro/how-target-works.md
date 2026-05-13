@@ -4,10 +4,15 @@ description: Saiba como o [!DNL Adobe Target] funciona, incluindo informações 
 title: Como o  [!DNL Target]  funciona?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 85edad5c3adb3a7b01ee6d1eaf2c30c7596d5f92
+TQID: https://experienceleague.adobe.com/KZR3HivCPj0FVhB7fmt-WEjsniUsupTK1-52UqwtbKE
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 24%
+source-wordcount: 2363
+ht-degree: 25%
 
 ---
 
@@ -28,19 +33,19 @@ Os principais pontos incluem:
 
 O Target integra-se a sites usando o [!DNL Experience Platform Web SDK] ou a at.js:
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: esta biblioteca JavaScript do lado do cliente permite que os clientes do [!DNL Adobe Experience Cloud] interajam com vários serviços através do [!DNL Experience Platform Edge Network]. A [!DNL Adobe] recomenda que os novos clientes do [!DNL Target] implementem o [!DNL Experience Platform Web SDK].
-* **[at.js](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: esta biblioteca de implementação do [!DNL Target] melhora os tempos de carregamento de página de implementações da Web e oferece opções melhores para aplicativos de página única. Atualizado com frequência com novos recursos, o [!DNL Adobe] recomenda que todos os [usuários do at.js atualizem para a versão mais recente](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: esta biblioteca JavaScript do lado do cliente permite que os clientes do [!DNL Adobe Experience Cloud] interajam com vários serviços através do [!DNL Experience Platform Edge Network]. A [!DNL Adobe] recomenda que os novos clientes do [!DNL Target] implementem o [!DNL Experience Platform Web SDK].
+* **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: esta biblioteca de implementação do [!DNL Target] melhora os tempos de carregamento de página de implementações da Web e oferece opções melhores para aplicativos de página única. Atualizado com frequência com novos recursos, o [!DNL Adobe] recomenda que todos os [usuários do at.js atualizem para a versão mais recente](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >A biblioteca mbox.js é uma implementação herdada do [!DNL Target] e não é mais suportada após 31 de março de 2021. Atualize para o [!UICONTROL Experience Platform Web SDK] (preferencial) ou para a versão mais recente do at.js.
 
-Consulte o [!UICONTROL Experience Platform Web SDK] ou a at.js em todas as páginas do site. Por exemplo, adicione uma dessas bibliotecas ao seu cabeçalho global. Como alternativa, use [tags na Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/home){target=_blank} para implementar o [!DNL Target].
+Consulte o [!UICONTROL Experience Platform Web SDK] ou a at.js em todas as páginas do site. Por exemplo, adicione uma dessas bibliotecas ao seu cabeçalho global. Como alternativa, use [tags na Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} para implementar o [!DNL Target].
 
 Os seguintes recursos contêm informações detalhadas para ajudar você a implementar o [!DNL Experience Platform Web SDK] ou a at.js:
 
-* [[!DNL Adobe Experience Platform Web SDK] extensão](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=pt-BR){target=_blank}
-* [Implementar o  [!DNL Target]  usando a  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [Extensão [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=pt-BR){target=_blank}
+* [Implementar [!DNL Target] usando [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Cada vez que um visitante solicita uma página otimizada para [!DNL Target], uma solicitação em tempo real é enviada para o sistema de direcionamento para determinar o conteúdo a ser veiculado. Essa solicitação é feita e preenchida sempre que uma página é carregada, regida por atividades e experiências controladas pelo profissional de marketing. O conteúdo é direcionado para visitantes individuais do site, maximizando as taxas de resposta, as taxas de aquisição e a receita. O conteúdo personalizado ajuda a garantir que os visitantes respondam, interajam ou façam compras.
 
@@ -95,7 +100,7 @@ Consulte [Teste multivariado](/help/main/c-activities/c-multivariate-testing/mul
 
 As atividades do [!UICONTROL Recommendations] exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em suas atividades anteriores ou em outros algoritmos. O Recommendations ajuda a direcionar os clientes para itens relevantes que podem não ser detectados de outra forma.
 
-Consulte [Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) para obter mais informações.
+Consulte [Recomendações](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) para obter mais informações.
 
 <!--
 ## How [!DNL Target] counts server-call usage {#usage}
@@ -140,7 +145,7 @@ Cada cluster do Edge contém todas as informações necessárias para responder 
 
 Para obter mais informações, consulte o white paper [Visão geral da segurança no Adobe Target](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
 
-O [!DNL Target] está hospedado em data centers próprios e alugados pela Adobe Adobe no mundo inteiro.
+O [!DNL Target] está hospedado em data centers próprios e alugados pela Adobe no mundo inteiro.
 
 Os locais do cluster central abrigam centros de coleta e processamento de dados. Os locais do Edge Cluster contêm apenas centros de coleta de dados. Cada conjunto de relatórios é atribuído a um centro de processamento de dados específico.
 
@@ -172,7 +177,7 @@ O serviço [!DNL Target Recommendations] é hospedado em um data center [!DNL Ad
 >
 >Atualmente, o [!DNL Target] não tem um cluster do Edge na China, o que limita o desempenho do visitante para [!DNL Target] clientes na região. O firewall e a ausência de clusters do Edge podem afetar as experiências do site, causando renderização lenta e tempos de carregamento de página. Além disso, os profissionais de marketing podem experimentar latência ao usar a interface de criação do [!DNL Target].
 
-Você pode adicionar clusters de borda do [!DNL Target] à lista de permissões, se desejar. Para obter mais informações, consulte [lista de permissões de nós de borda do Target](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
+Você pode adicionar clusters de borda do [!DNL Target] à lista de permissões, se desejar. Para obter mais informações, consulte [lista de permissões de nós de borda do Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Experiência do usuário protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -180,7 +185,7 @@ A [!DNL Adobe] garante que a disponibilidade e o desempenho de sua infraestrutur
 
 Como proteção contra interrupções do serviço e problemas de conectividade, todos os locais são configurados para incluir o conteúdo padrão (definido pelo cliente). Este conteúdo padrão é exibido se o navegador do visitante não puder se conectar a [!DNL Target].
 
-Nenhuma alteração será feita na página se o navegador do visitante não puder se conectar em um período de tempo limite definido (padrão: 15 segundos). Se esse tempo limite for atingido, o conteúdo padrão do local será exibido.
+Nenhuma alteração será feita na página se o navegador do visitante não puder se conectar em um período de tempo limite definido (padrão: 15 segundos). Se esse tempo-limite for atingido, o conteúdo padrão do local será exibido.
 
 A [!DNL Adobe] protege a experiência do usuário por otimizar e salvaguardar o desempenho.
 
@@ -191,14 +196,14 @@ A [!DNL Adobe] protege a experiência do usuário por otimizar e salvaguardar o 
 
 ## Teste compatível com a Otimização do mecanismo de pesquisa (SEO) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
-[!DNL Adobe Target] está alinhado com as diretrizes de mecanismo de busca para teste. O [!DNL Google] incentiva os usuários a testarem e declara que o A/B e o [!UICONTROL Multivariate Testing] não prejudicam as classificações dos mecanismos de pesquisa orgânica se determinadas diretrizes forem seguidas.
+O [!DNL Adobe Target] está alinhado às diretrizes de mecanismo de busca para teste. O [!DNL Google] incentiva os usuários a testarem e declara que o A/B e o [!UICONTROL Multivariate Testing] não prejudicam as classificações dos mecanismos de pesquisa orgânica se determinadas diretrizes forem seguidas.
 
 O [!DNL Adobe Target] está alinhado às diretrizes de mecanismo de busca para teste.
 
 Para obter mais informações, consulte os seguintes recursos da Google:
 
 * [Testes de site e pesquisa Google](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [Experimentos e cloaking](https://support.google.com/analytics/answer/12979939?hl)
+* [Experimentos e Cloaking](https://support.google.com/analytics/answer/12979939?hl)
 
 
 As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webmaster da Google](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html). Embora a publicação seja datada de 2012, ela continua sendo a declaração mais recente de [!DNL Google] sobre o assunto, e as diretrizes ainda são relevantes.
@@ -223,7 +228,7 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
   Considere o que seu teste alterou. Pequenas atualizações, como cores de botões, não afetam as classificações orgânicas. No entanto, as alterações de texto devem ser codificadas.
 
-  Além disso, considere a acessibilidade da página que você está testando. Se a página não estiver acessível para mecanismos de pesquisa e nunca tiver sido projetada para classificar na pesquisa orgânica, essas considerações não se aplicam. Um exemplo é uma página de aterrissagem dedicada a uma campanha de email.
+  Além disso, considere a acessibilidade da página que você está testando. Se a página não estiver acessível para mecanismos de pesquisa e nunca tiver sido projetada para classificar na pesquisa orgânica, essas considerações não se aplicam. Um exemplo é uma página de destino dedicada a uma campanha de email.
 
 O Google declara que seguir essas diretrizes “deve resultar em pequeno ou nenhum impacto dos seus testes sobre o seu site nos resultados de pesquisa”.
 

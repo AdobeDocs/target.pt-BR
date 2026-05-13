@@ -4,14 +4,18 @@ description: Encontre perguntas frequentes sobre compartilhamento de métricas, 
 title: Onde você pode encontrar perguntas frequentes sobre compartilhamento de métricas, públicos-alvo e relatórios no A4T?
 feature: Analytics for Target (A4T)
 exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a
-source-git-commit: b4ee87b5b1d521b01551d3391089d83e7f7c4084
+TQID: https://experienceleague.adobe.com/eCcPdeeOZ2h9wDrkT-wZxN2meh5dD0QW9rNsQU1ytLA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 74%
+source-wordcount: 249
+ht-degree: 65%
 
 ---
 
-# Compartilhamento de métricas, segmentos e relatórios - Perguntas frequentes sobre o A4T
+# Compartilhamento de métricas, públicos-alvos e relatórios - Perguntas frequentes sobre o A4T
 
 Este tópico contém respostas para as perguntas mais frequentes sobre compartilhamento de métricas, público-alvo e relatórios ao usar o Analytics como fonte de geração de relatórios do Target (A4T).
 
@@ -20,7 +24,7 @@ Este tópico contém respostas para as perguntas mais frequentes sobre compartil
 +++Resposta
 Geralmente, você deseja criar uma visualização de um teste para diferentes grupos de usuários para facilitar a análise dos resultados do teste. No Analytics, é possível criar um marcador que salve a exibição atual de um relatório, incluindo métricas, intervalos de datas, segmentos e outros dados.
 
-Para obter mais informações, consulte [Gerenciador de marcadores](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html?lang=pt-BR).
+Para obter mais informações, consulte [Gerenciador de marcadores](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html).
 
 +++
 
@@ -29,6 +33,6 @@ Para obter mais informações, consulte [Gerenciador de marcadores](https://expe
 +++Resposta
 Se você estiver usando métricas e segmentos especiais com um teste, considere a possibilidade de criar um grupo de usuários para sua equipe de otimização. Compartilhe essas métricas e segmentos com o grupo em vez de membros individuais para garantir que todos tenham acesso aos segmentos e métricas. Apenas administradores podem compartilhar com grupos.
 
-Consulte [Compartilhando segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html?lang=pt-BR) e [Compartilhando métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html?lang=pt-BR).
+Consulte [Compartilhando segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) e [Compartilhando métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
 
 +++

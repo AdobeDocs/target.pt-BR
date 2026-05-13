@@ -4,9 +4,13 @@ description: Saiba mais sobre as variações de dados esperadas entre o Adobe [!
 title: Qual é a variação de dados esperada entre o Analytics e o A4T?
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+TQID: https://experienceleague.adobe.com/ElzOVANCbFvKaQX5D9-gyhWTjAA1rRU1BZZj-tkpdQg
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: 731
 ht-degree: 45%
 
 ---
@@ -39,7 +43,7 @@ Os relatórios em [!DNL Target] mostram o desempenho com base na mbox de convers
 
 As variações de dados esperadas podem ser causadas por variações técnicas e comerciais.
 
-### Exemplos de variações técnicas  {#section_C3B50ED2E2F9416FAC91437CF1A87369}
+### Exemplos de variações técnicas {#section_C3B50ED2E2F9416FAC91437CF1A87369}
 
 Os itens a seguir podem causar variações técnicas com base em diferenças técnicas:
 
@@ -49,7 +53,7 @@ Os itens a seguir podem causar variações técnicas com base em diferenças té
 * Considerações de fuso-horário
 * Diferenças em que os dispositivos podem ser contados
 
-### Exemplos de variações comerciais  {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
+### Exemplos de variações comerciais {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
 
 Os itens a seguir podem causar variações de dados com base em diferenças comerciais:
 
