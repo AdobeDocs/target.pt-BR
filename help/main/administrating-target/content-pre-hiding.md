@@ -6,9 +6,9 @@ feature: Administration & Configuration
 role: Admin
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#beta newtab=true" tooltip="O que são recursos beta no  [!DNL Adobe Target]."
 hide: true
-source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
+source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '576'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ A pré-ocultação de conteúdo fica desativada para sua instância até que voc
 
 1. Clique em **[!UICONTROL Save]**. Isso aplicará as configurações de gerenciamento de cintilação à sua instância.
 
-1. Depois de habilitado, clique em **[!UICONTROL Download]** e adicione o arquivo à página `<head>` para que ele seja carregado antes de [!DNL at.js] ou [!DNL Web SDK].
+1. Depois de habilitado, clique em **[!UICONTROL Download]** e adicione o arquivo à página `<head>` para que ele seja carregado antes de [!DNL at.js] ou [!DNL Web SDK]. Para obter instruções completas de implementação, consulte [Pré-ocultação de conteúdo do SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
 
    ![](assets/content-pre-hiding-2.png)
 
