@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
 workflow-type: tm+mt
-source-wordcount: 630
-ht-degree: 43%
+source-wordcount: 504
+ht-degree: 53%
 
 ---
 
@@ -31,57 +31,33 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
+## [!DNL Target Standard/Premium] 26.5.2 (14 de maio de 2026)
 
-## Atualizações mais recentes - 12 de maio de 2026
+**Administração**
+
++++Ver detalhes
+
+* **Validação de Regex para URLs permitidas.** Correção de um problema em que expressões regulares inválidas podiam ser inseridas no campo **[!UICONTROL Allowed URLs]** sem a validação adequada. (TGT-55095)
+
++++
+
+**Públicos-alvo**
+
++++Ver detalhes
+
+* **Botões na caixa de diálogo [!UICONTROL Edit Audience].** Correção de um problema em que os botões na caixa de diálogo **[!UICONTROL Edit Audience]** não eram mais renderizados corretamente. (TGT-54638)
+
++++
 
 **[!DNL Adobe Target]servidor MCP (Beta Público)**
+
++++Ver detalhes
 
 [!DNL Adobe Target] agora fornece um servidor MCP (Model Context Protocol) que supera operações de experimentação, personalização e relatórios diretamente dentro de qualquer aplicativo compatível com MCP. Com essa integração, os profissionais de marketing e técnicos podem inspecionar testes A/B, analisar relatórios de desempenho e explorar públicos e ofertas, tudo usando prompts em linguagem natural, em vez de navegar em várias telas de interface do usuário ou gravar consultas na API REST do [!DNL Adobe Target]. Este recurso está disponível atualmente no **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** e **ChatGPT**.
 
 Esse recurso está disponível para todos os clientes no Public Beta.
 
 Para obter mais informações, consulte [[!DNL Adobe Target] servidor MCP](../c-integrating-target-with-mac/mcp/target-mcp.md).
-
-
-## [!DNL Target Standard/Premium] 26.5.1 (7 de maio de 2026)
-
-**Integrações**
-
-+++Ver detalhes
-
-* Gerenciamento de **[!DNL Adobe Target]no Experimentation Accelerator.** Adição de suporte para atribuição de espaços de trabalho [!DNL Target] a sandboxes do Experimentation Accelerator para que as equipes possam exibir experimentos de [!DNL Adobe Target] no Experimentation Accelerator em um único local. [Saiba mais](../c-integrating-target-with-mac/experimentation-accelerator.md)
-
-+++
-
-**Atividades**
-
-+++Ver detalhes
-
-* **[!UICONTROL Graph View]fora de sincronia com a tabela e o download.** Correção de um problema em que os relatórios de atividade podiam mostrar métricas ausentes ou nulas em **[!UICONTROL Graph View]** para alguns intervalos de datas, mesmo que **[!UICONTROL Table View]** e o relatório baixado ainda mostrassem os valores corretos. (TGT-54998)
-
-+++
-
-**[!UICONTROL Audiences]**
-
-+++Ver detalhes
-
-* **A lista de uso do público-alvo não foi totalmente renderizada.** Correção de um problema em que a seção **[!UICONTROL Usage]** nos detalhes do público-alvo podia exibir apenas um subconjunto de atividades mapeadas, mesmo quando atividades adicionais estavam associadas a esse público-alvo. (TGT-55094)
-
-+++
-
-**[!UICONTROL Administration]**
-
-+++Ver detalhes
-
-* **Confirmação mais clara para ofuscação de IP de último octeto.** Ao alterar **[!UICONTROL Obfuscate Visitor IP addresses]** para **[!UICONTROL Last octet]** em **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**, a caixa de diálogo de confirmação agora explica que [!DNL Target] oculta o último octeto do endereço IP do visitante. (TGT-44821)
-
-+++
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++Ver detalhes
-
-* **Página em branco ou incompleta com o Enhanced Experience Composer (EEC).** Correção de um problema em que o [!UICONTROL Visual Experience Composer] não carregava o site no editor quando **[!UICONTROL Enhanced Experience Composer]** era habilitado. (TGT-54576)
 
 +++
 
