@@ -8,16 +8,16 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 53dc7056ca62339a682756fe1b39e6af349f3ae6
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Target] servidor MCP {#target-mcp}
 
-A integração do MCP [!DNL Adobe Target] permite inspecionar e analisar testes A/B, atividades de personalização e critérios do Recommendations diretamente do seu assistente de IA. Transforme os dados de experimentação e personalização do [!DNL Target] em fluxos de trabalho em linguagem simples: audite seu portfólio de experimentos, revise relatórios de desempenho e explore públicos e ofertas sem navegar na interface do usuário ou gravar chamadas de API.
+A integração do MCP [!DNL Adobe Target] permite inspecionar e analisar testes A/B e atividades de personalização diretamente do seu assistente de IA. Transforme os dados de experimentação e personalização do [!DNL Target] em fluxos de trabalho em linguagem simples: audite seu portfólio de experimentos, revise relatórios de desempenho e explore públicos e ofertas sem navegar na interface do usuário ou gravar chamadas de API.
 
 >[!AVAILABILITY]
 >
@@ -28,7 +28,7 @@ A integração do MCP [!DNL Adobe Target] permite inspecionar e analisar testes 
 
 As equipes de marketing e otimização dependem cada vez mais de aplicativos baseados em bate-papo e ferramentas de desenvolvedor — como Anthropic Claude, OpenAI ChatGPT, Cursor e Microsoft Copilot Studio — para simplificar seu trabalho diário. Esses aplicativos oferecem suporte ao **Protocolo de Contexto de Modelo (MCP)**, um padrão aberto que permite que os aplicativos exponham ferramentas de back-end a grandes modelos de idioma (LLMs) de maneira uniforme.
 
-[!DNL Adobe Target] agora fornece um servidor MCP que supera operações de experimentação, personalização e recomendações diretamente dentro de qualquer aplicativo compatível com MCP. O [!DNL Adobe Target] atua como a camada de decisão e execução enquanto o assistente de IA lida com raciocínio e explicação, oferecendo às equipes acesso mais rápido a insights de otimização sem navegar por várias telas de produtos ou gravar consultas na API REST do [!DNL Adobe Target].
+[!DNL Adobe Target] agora fornece um servidor MCP que supera operações de experimentação e personalização diretamente dentro de qualquer aplicativo compatível com MCP. O [!DNL Adobe Target] atua como a camada de decisão e execução enquanto o assistente de IA lida com raciocínio e explicação, oferecendo às equipes acesso mais rápido a insights de otimização sem navegar por várias telas de produtos ou gravar consultas na API REST do [!DNL Adobe Target].
 
 
 >[!IMPORTANT]
@@ -41,13 +41,13 @@ As equipes de marketing e otimização dependem cada vez mais de aplicativos bas
 
 ## Principais recursos {#mcp-capabilities}
 
-O servidor MCP [!DNL Adobe Target] fornece acesso de leitura a atividades, públicos, ofertas, recomendações e configuração de implementação. Com a integração do, você pode:
+O servidor MCP [!DNL Adobe Target] fornece acesso de leitura a atividades, públicos, ofertas e configuração de implementação. Com a integração do, você pode:
 
 * **Inspecionar e auditar experimentos** - Obtenha status, desempenho, histórico de alterações e links de visualização de QA para qualquer atividade sem navegar na interface do usuário.
 * **Analisar resultados** - Recupere relatórios de desempenho, receita e A4T para atividades A/B, XT, AP e de Direcionamento automático.
 * **Explorar atividades** - Listar, inspecionar e analisar atividades A/B e XT.
 * **Explorar públicos-alvo e ofertas** - Liste e inspecione públicos-alvo, ofertas da HTML e ofertas JSON.
-* **Explorar critérios do Recommendations** - Lista e inspeciona critérios e algoritmos baseados no carrinho.
+<!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
 * **Implementação de auditoria** - Revise as configurações da at.js, os tokens de resposta e o histórico de revisão por entidade.
 
 >[!NOTE]
@@ -69,7 +69,7 @@ O servidor MCP [!DNL Adobe Target] está disponível atualmente para **Claude We
 
 +++Quais objetos do [!DNL Adobe Target] posso acessar via MCP?
 
-Você pode acessar atividades (A/B, XT, AP), públicos-alvo, ofertas, propriedades, mboxes, critérios do Recommendations, tokens de resposta, configuração do at.js, relatórios do A4T e histórico de revisão de entidade. Todas as 23 ferramentas disponíveis no momento são somente leitura.
+Você pode acessar atividades (A/B, XT, AP), públicos-alvo, ofertas, propriedades, mboxes, tokens de resposta, configuração do at.js, relatórios do A4T e histórico de revisão de entidade. Todas as 23 ferramentas disponíveis no momento são somente leitura.
 +++
 
 +++O servidor MCP pode criar ou modificar atividades?

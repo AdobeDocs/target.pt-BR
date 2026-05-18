@@ -8,9 +8,9 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 53dc7056ca62339a682756fe1b39e6af349f3ae6
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '517'
 ht-degree: 1%
 
 ---
@@ -44,9 +44,9 @@ Os seguintes exemplos mostram como interagir com o servidor MCP [!DNL Adobe Targ
 | **Insights de atividade** | &quot;Obtenha insights sobre meu teste &#39;Banner de vendas de verão&#39; — como o desempenho se parece e há anomalias?&quot; |
 | **Gerenciamento de público-alvo** | &quot;Lista todos os públicos-alvo direcionados a usuários móveis e mostra a quais atividades eles estão associados.&quot; |
 | **Controle de qualidade e visualização** | &quot;Gere URLs de visualização de controle de qualidade para a atividade 12345 para que eu possa revisar todas as variantes antes de ativar.&quot; |
-| **Revisão das recomendações** | &quot;Lista todos os critérios do Recommendations configurados nesta conta e resume os tipos de algoritmo em uso.&quot; |
-| **Auditoria de implementação** | &quot;Qual versão da at.js está configurada e quais tokens de resposta estão ativos no momento?&quot; |
-| **Alterar auditoria** | &quot;Mostre-me todas as alterações feitas na atividade 98765 nos últimos 30 dias e quem as fez.&quot; |
+<!-- | **Recommendations review** | "List all Recommendations criteria configured in this account and summarize the algorithm types in use." | -->
+| **Auditoria de implementação** | &quot;Que versão da at.js está configurada e que tokens de resposta estão ativos no momento?&quot; |
+| **Alterar auditoria** | &quot;Mostre-me todas as alterações feitas à atividade 98765 nos últimos 30 dias e quem as fez.&quot; |
 
 ## Apresentação do caso de uso {#mcp-use-case-walkthroughs}
 
