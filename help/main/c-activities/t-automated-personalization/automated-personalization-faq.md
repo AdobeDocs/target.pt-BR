@@ -17,10 +17,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 2032
-ht-degree: 20%
+source-wordcount: 2166
+ht-degree: 19%
 
 ---
 
@@ -52,7 +52,8 @@ Não há opção de chave na mão para comparar [!UICONTROL Automated Personaliz
 
 +++Ver detalhes
 
-* Limite as atividades de [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] a 4-6 locais com 4-6 ofertas por local. Configurações maiores podem resultar em carregamento ou edição lento no [!UICONTROL Visual Experience Composer].
+* Preste muita atenção à *forma de atividade* (número de locais × número de ofertas), não apenas à contagem total de experiência. As combinações cartesianas de locais e ofertas impulsionam mais o desempenho no tempo de criação do que o número bruto de experiências.
+* Para obter o desempenho e a capacidade de gerenciamento ideais, limite [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] atividades para 4 a 6 locais com 4 a 6 ofertas por local. Configurações maiores não são recomendadas. Elas podem levar a carregamento ou edição lenta no [!UICONTROL Visual Experience Composer] e podem ser restritas na interface do usuário do [!DNL Target]. Na interface atual, o [!DNL Target] exibe avisos incorporados ou impede que a atividade seja salva quando a configuração exceder os limites com suporte.
 * Se você deseja personalizar uma página de tráfego mais baixo ou fazer alterações estruturais na experiência que está personalizando, considere usar uma atividade [!UICONTROL Auto-Target] no lugar de [!UICONTROL Automated Personalization]. Consulte [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 * Considere a conclusão de uma atividade [!UICONTROL A/B Test] entre as ofertas e os locais que você planeja usar em sua atividade [!UICONTROL Automated Personalization] para garantir que a localização e as ofertas tenham impacto na meta de otimização. Se uma atividade [!UICONTROL A/B Test] não demonstrar uma diferença significativa, [!UICONTROL Automated Personalization] provavelmente também não gerará aumento.
 
@@ -91,9 +92,13 @@ Não há opção de chave na mão para comparar [!UICONTROL Automated Personaliz
 
 O [!DNL Target] tem um limite rígido de 30.000 experiências, mas funciona no seu melhor quando menos de 10.000 experiências são criadas.
 
-Esse mesmo limite é aplicado mesmo quando a atividade tiver habilitado a opção [!UICONTROL Disalow Duplicates].
+Esse mesmo limite é aplicado mesmo quando a atividade tiver habilitado a opção [!UICONTROL Disallow Duplicates].
 
-Para um desempenho ideal, limite as atividades de [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] a 4-6 locais com 4-6 ofertas por local. Como o número total de experiências aumenta com a combinação de locais e ofertas, configurações maiores podem resultar em carregamento ou edição lento no [!UICONTROL Visual Experience Composer].
+Embora as atividades de [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] possam oferecer suporte a um grande número de experiências, o desempenho da criação depende muito da *forma da atividade* (número de locais × número de ofertas). Certas configurações criam grandes combinações cartesianas que podem afetar significativamente o desempenho de carga e edição, mesmo abaixo dos limites de experiência documentados.
+
+Para obter o desempenho e a capacidade de gerenciamento ideais, limite [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] atividades para 4 a 6 locais com 4 a 6 ofertas por local. Configurações maiores não são recomendadas e podem ser restritas na interface do usuário do [!DNL Target].
+
+Na interface atual do [!DNL Target], as atividades [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] são configuradas diretamente na etapa [!UICONTROL Experiences]. [!DNL Target] pode exibir avisos incorporados ou impedir o salvamento de atividades quando as configurações excederem os limites com suporte e revalidar a forma de atividade em [!UICONTROL Next], [!UICONTROL Save] e [!UICONTROL Publish].
 
 Para obter mais informações sobre limites de caracteres e outros limites (tamanho da oferta, públicos, valores, parâmetros e assim por diante) que afetam as atividades e outros elementos em [!DNL Target], consulte [Limites](/help/main/r-troubleshooting-target/target-limits.md).
 
