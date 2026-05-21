@@ -11,10 +11,10 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 3467
-ht-degree: 82%
+source-wordcount: 3543
+ht-degree: 80%
 
 ---
 
@@ -205,6 +205,12 @@ Certifique-se de que o público-alvo tenha um nome exclusivo. Se você deu ao p�
 ## Qual é o tamanho máximo de um arquivo CSV para um upload de feed? {#section_20F1AF4839A447B9889B246D6E873538}
 
 Não há limite rígido de número de linhas ou tamanho do arquivo para o upload de um arquivo CSV do feed. No entanto, como prática recomendada, a Adobe limita o tamanho do arquivo CSV a 1 GB para evitar falhas durante o processo de upload dos arquivos. Se o tamanho do arquivo exceder 1 GB, idealmente ele deverá ser dividido em vários arquivos de feed. O número máximo de colunas de atributos personalizados é 100 e os atributos personalizados são limitados a 4.096 caracteres. Outros limites sobre o comprimento das colunas necessárias estão disponíveis na [[!DNL Target] página de limitações do](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+
+## Por que minha ação [!UICONTROL Download data] falha em uma atividade [!DNL Recommendations]? {#download-data-error}
+
+Ao clicar em **[!UICONTROL Download data]** na página [!UICONTROL Activity Overview] de uma atividade [!DNL Recommendations], a interface do usuário [!DNL Target] pode exibir o erro `Error while fetching recommendation data file.`
+
+Isso normalmente acontece quando a atividade tem um conjunto de resultados muito grande: o CSV gerado excede o tamanho da resposta que pode ser retornado pela interface do usuário em um único download. Os dados de recomendação em si estão intactos, somente o caminho de download do navegador não pode fornecer um arquivo desse tamanho.
 
 ## Posso excluir dinamicamente uma entidade? {#exclude}
 

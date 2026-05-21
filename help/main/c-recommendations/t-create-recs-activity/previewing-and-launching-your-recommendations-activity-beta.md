@@ -5,9 +5,9 @@ title: Como visualizar e iniciar uma atividade do Recommendations?
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1371'
 ht-degree: 15%
 
 ---
@@ -20,7 +20,7 @@ Depois de criar sua atividade do [!UICONTROL Recommendations], [!UICONTROL A/B T
 
 Depois de criar uma atividade, [!DNL Recommendations] executa um algoritmo para gerar recomendações. Esse algoritmo pode levar algumas horas para ser executado.
 
-Você pode verificar se a execução do algoritmo foi concluída no diagrama de visão geral [!UICONTROL Activity], onde o status dos critérios está listado. A ilustração a seguir mostra o status no diagrama de atividades na página [!DNL Recommendations] de uma atividade [!UICONTROL Overview]:
+Você pode verificar se a execução do algoritmo foi concluída no diagrama de visão geral [!UICONTROL Activity], onde o status dos critérios está listado. A ilustração a seguir mostra o status no diagrama de atividades na página [!UICONTROL Overview] de uma atividade [!DNL Recommendations]:
 
 ![Página de visão geral da atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
@@ -91,6 +91,8 @@ Da esquerda para a direita é uma lista de itens recomendados, neste caso, os ma
 Se um asterisco (*) for o primeiro valor de uma linha, ele indicará [itens de backup](/help/main/c-recommendations/c-algorithms/backup-recs.md). Os itens de backup são exibidos se nem todos os slots de um design puderem ser preenchidos pelos itens recomendados do algoritmo (critérios).
 
 Para outros tipos de algoritmo baseados em um valor de chave, como [!UICONTROL People Who Viewed This, Viewed That], os valores de chave (ou seja, os itens &quot;Este&quot;) são listados na coluna mais à esquerda e os itens recomendados (ou seja, os itens &quot;Aquele&quot;) são listados da esquerda para a direita nas colunas Recommendation_X.
+
+Observe que para atividades com conjuntos de resultados muito grandes, a opção **[!UICONTROL Download data]** pode falhar com o erro `Error while fetching recommendation data file.`. Isso acontece quando o CSV gerado excede o tamanho de resposta que pode ser retornado pela interface do usuário em um único download.
 
 >[!NOTE]
 >
