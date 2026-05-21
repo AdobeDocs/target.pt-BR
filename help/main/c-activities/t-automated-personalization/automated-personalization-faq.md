@@ -17,10 +17,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
-source-wordcount: 1967
-ht-degree: 21%
+source-wordcount: 2032
+ht-degree: 20%
 
 ---
 
@@ -52,6 +52,7 @@ Não há opção de chave na mão para comparar [!UICONTROL Automated Personaliz
 
 +++Ver detalhes
 
+* Limite as atividades de [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] a 4-6 locais com 4-6 ofertas por local. Configurações maiores podem resultar em carregamento ou edição lento no [!UICONTROL Visual Experience Composer].
 * Se você deseja personalizar uma página de tráfego mais baixo ou fazer alterações estruturais na experiência que está personalizando, considere usar uma atividade [!UICONTROL Auto-Target] no lugar de [!UICONTROL Automated Personalization]. Consulte [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 * Considere a conclusão de uma atividade [!UICONTROL A/B Test] entre as ofertas e os locais que você planeja usar em sua atividade [!UICONTROL Automated Personalization] para garantir que a localização e as ofertas tenham impacto na meta de otimização. Se uma atividade [!UICONTROL A/B Test] não demonstrar uma diferença significativa, [!UICONTROL Automated Personalization] provavelmente também não gerará aumento.
 
@@ -91,6 +92,8 @@ Não há opção de chave na mão para comparar [!UICONTROL Automated Personaliz
 O [!DNL Target] tem um limite rígido de 30.000 experiências, mas funciona no seu melhor quando menos de 10.000 experiências são criadas.
 
 Esse mesmo limite é aplicado mesmo quando a atividade tiver habilitado a opção [!UICONTROL Disalow Duplicates].
+
+Para um desempenho ideal, limite as atividades de [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] a 4-6 locais com 4-6 ofertas por local. Como o número total de experiências aumenta com a combinação de locais e ofertas, configurações maiores podem resultar em carregamento ou edição lento no [!UICONTROL Visual Experience Composer].
 
 Para obter mais informações sobre limites de caracteres e outros limites (tamanho da oferta, públicos, valores, parâmetros e assim por diante) que afetam as atividades e outros elementos em [!DNL Target], consulte [Limites](/help/main/r-troubleshooting-target/target-limits.md).
 
