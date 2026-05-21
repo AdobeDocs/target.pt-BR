@@ -2,28 +2,17 @@
 keywords: direcionamento automático;direcionamento;alocação de tráfego;perguntas frequentes;faq;solução de problemas;solucionar problemas
 description: Saiba como uma atividade do [!UICONTROL Auto-Target] fornece a experiência mais personalizada para cada visitante com base nos perfis dos clientes e no comportamento de visitantes semelhantes.
 title: O Que É Uma Atividade [!UICONTROL Auto-Target]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 TQID: https://experienceleague.adobe.com/uKmfIlOcT-tZgOjuvERXuif-Y5-2Jw3prtPbuBjv1is
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-subfeature_v2:
-  - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+subfeature_v2: id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 1920
+source-wordcount: 1962
 ht-degree: 18%
 
 ---
@@ -62,7 +51,10 @@ Ao contrário de uma atividade A/B na qual a alocação de experiência para um 
 
 Algumas considerações importantes devem ser levadas em conta ao usar o [!UICONTROL Auto-Target]:
 
-* Limite as atividades de [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization] a 4-6 locais com 4-6 ofertas por local. Como o número total de experiências aumenta com a combinação de locais e ofertas, configurações maiores podem resultar em carregamento ou edição lento no [!UICONTROL Visual Experience Composer].
+* Considere a forma da atividade. O desempenho depende mais do número de locais × ofertas do que da contagem bruta de experiência. Combinações cartesianas grandes podem retardar o carregamento e a edição no [!UICONTROL Visual Experience Composer], mesmo abaixo dos limites de experiência documentados.
+
+  Como prática recomendada, mantenha as atividades de [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization] em 4 a 6 locais com 4 a 6 ofertas por local. Configurações maiores não são recomendadas. Como essas atividades são criadas diretamente na etapa [!UICONTROL Experiences], a interface do usuário [!DNL Target] poderá mostrar avisos incorporados ou bloquear o salvamento quando a configuração exceder os limites com suporte.
+
 * Você não pode alternar uma atividade específica de [!UICONTROL Auto-Target] para [!UICONTROL Automated Personalization], e o oposto.
 * Você não pode alternar de [!UICONTROL Manual] alocação de tráfego (tradicional [!UICONTROL A/B Test]) para [!UICONTROL Auto-Target], e o oposto, depois que uma atividade é salva como rascunho.
 * Um modelo é criado para identificar o desempenho da estratégia personalizada em relação ao tráfego disponibilizado aleatoriamente em relação ao envio de todo o tráfego para a experiência vencedora geral. Esse modelo considera somente ocorrências e conversões no ambiente padrão.
