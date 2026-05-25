@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
+source-git-commit: 3dc08e77ad2b737e19c2a099028fc0a69dc5a266
 workflow-type: tm+mt
-source-wordcount: 68360
+source-wordcount: 68506
 ht-degree: 50%
 
 ---
@@ -57,6 +57,36 @@ As notas de versão estão listadas em ordem decrescente por mês e ano da vers�
 >Consulte [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2026
+
+## [!DNL Target Standard/Premium] 26.5.2 (14 de maio de 2026)
+
+**Administração**
+
++++Ver detalhes
+
+* **Validação de Regex para URLs permitidas.** Correção de um problema em que expressões regulares inválidas podiam ser inseridas no campo **[!UICONTROL Allowed URLs]** sem a validação adequada. (TGT-55095)
+
++++
+
+**Públicos-alvo**
+
++++Ver detalhes
+
+* **Botões na caixa de diálogo [!UICONTROL Edit Audience].** Correção de um problema em que os botões na caixa de diálogo **[!UICONTROL Edit Audience]** não eram mais renderizados corretamente. (TGT-54638)
+
++++
+
+**[!DNL Adobe Target]servidor MCP (Beta Público)**
+
++++Ver detalhes
+
+[!DNL Adobe Target] agora fornece um servidor MCP (Model Context Protocol) que supera operações de experimentação, personalização e relatórios diretamente dentro de qualquer aplicativo compatível com MCP. Com essa integração, os profissionais de marketing e técnicos podem inspecionar testes A/B, analisar relatórios de desempenho e explorar públicos e ofertas, tudo usando prompts em linguagem natural, em vez de navegar em várias telas de interface do usuário ou gravar consultas na API REST do [!DNL Adobe Target]. Este recurso está disponível atualmente no **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** e **ChatGPT**.
+
+Esse recurso está disponível para todos os clientes no Public Beta.
+
+Para obter mais informações, consulte [[!DNL Adobe Target] servidor MCP](../c-integrating-target-with-mac/mcp/target-mcp.md).
+
++++
 
 ## [!DNL Target Standard/Premium] 26.5.1 (7 de maio de 2026)
 
@@ -1686,7 +1716,7 @@ Esta versão do inclui as seguintes correções e atualizações:
 * Correção de um problema que impedia que os grupos de relatórios persistissem nas atividades de [!UICONTROL Automated Personalization] (AP). (TGT-52368)
 * Correção de um problema que impedia o salvamento de atividades que incluíam o Offer Decisioning. (TGT-52390)
 * Correção de um problema em que a oferta padrão era selecionada, mas o outro conteúdo de oferta era exibido nas atividades [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Multivariate Test] (MVT). (TGT-52372)
-* Correção da lógica de permissões do GET para verificar com OU entre o acesso completo à organização e o acesso específico à organização + usuário. (TGT-52374)
+* Correção da lógica de permissões GET para verificar com OU entre o acesso completo à organização e o acesso específico à organização + usuário. (TGT-52374)
 * Correção de um problema em que os nomes de público-alvo não eram exibidos após a seleção de um público-alvo para [!UICONTROL Managed Content] e [!UICONTROL Reporting Audiences], mesmo que [!UICONTROL Show Only Selected] estivesse habilitado. (TGT-52393)
 
 ### [!DNL Target Standard/Premium] 25.5.1 (5 de maio de 2025)
