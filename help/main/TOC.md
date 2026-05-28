@@ -3,9 +3,9 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Descubra como personalizar as experiências dos clientes em sites, aplicativos e redes sociais para aumentar a receita.
 feature-set: Target
-source-git-commit: 8aac18f48275c8611b69d1e8af3cf599b7e8cea1
+source-git-commit: 74f3658c059fce7534f974d25fa5536ff3d52129
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1317'
 ht-degree: 83%
 
 ---
@@ -112,7 +112,6 @@ ht-degree: 83%
          + {hide-from-toc}[Principais casos de uso de otimização na Adobe Journey Optimizer - canais da Web e baseados em código](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + {hide-from-toc}[Alterações de conteúdo por meio do teste A/B no Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc}[Adicionar ou ocultar componentes da sua página da Web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
-   + [Integração do Target ao Experimentation Accelerator](/help/main/c-integrating-target-with-mac/experimentation-accelerator.md)
    + [Públicos-alvo da Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integração do Target ao Adobe Experience Manager (AEM) {#aem}
       + [Visão geral da integração do Target com o AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
@@ -348,4 +347,4 @@ ht-degree: 83%
    + [Limites](r-troubleshooting-target/target-limits.md)
 + APIs do Target {#apis}
    + [Visão geral da API do Adobe Target](/help/main/api/api-overview.md)
-+ [Recursos e informações de contato &#x200B;](cmp-resources-and-contact-information.md)
++ [Recursos e informações de contato ](cmp-resources-and-contact-information.md)
