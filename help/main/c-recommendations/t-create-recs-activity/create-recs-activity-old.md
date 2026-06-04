@@ -178,4 +178,4 @@ Use o Visual Experience Composer (VEC) do Target para criar uma atividade do Rec
 
 ## Vídeo de Treinamento: Crie uma atividade do Recommendations (7:15) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27688)
+>[!VIDEO](https://video.tv.adobe.com/v/33964?captions=por_br)

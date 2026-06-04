@@ -68,7 +68,7 @@ Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium
 * Segmente uma atividade para um público-alvo
 * Use públicos-alvo para relatórios passivos em uma atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/30984?captions=por_br)
 
 ### Fluxo de trabalho da atividade - Direcionamento (2:14) ![Selo do tutorial](/help/main/assets/tutorial.png)
 

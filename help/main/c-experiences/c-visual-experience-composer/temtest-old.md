@@ -107,4 +107,4 @@ Você pode considerar o uso de regras de modelo para renderizar a mesma atividad
 * Visualizar e criar a experiência para sites responsivos
 * Use sobreposições para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/30981?captions=por_br)
