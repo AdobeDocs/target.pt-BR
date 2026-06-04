@@ -17,8 +17,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 692
-ht-degree: 38%
+source-wordcount: 707
+ht-degree: 39%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 38%
 
 Crie públicos no [!DNL Adobe Target] para direcionar dispositivos móveis com base em parâmetros como dispositivo móvel, tipo de dispositivo, fornecedor de dispositivo, dimensões de tela e muito mais.
 
-Por exemplo, talvez você queira mostrar conteúdos diferentes para usuários que visitam sua página usando um telefone e que visitam usando um computador. Nesse caso, você poderia selecionar o público-alvo [!UICONTROL Mobile] e depois selecionar a opção **[!UICONTROL Is Mobile Phone]**. Em seguida, você pode adicionar detalhes específicos que são importantes para você, como tipo de telefone, tamanho da tela (em pixels) etc.
+Por exemplo, talvez você queira mostrar conteúdos diferentes para usuários que visitam sua página usando um telefone e que visitam usando um computador. Nesse caso, você poderia selecionar o público-alvo [!UICONTROL Celular] e depois selecionar a opção **[!UICONTROL É Celular]**. Em seguida, você pode adicionar detalhes específicos que são importantes para você, como tipo de telefone, tamanho da tela (em pixels) etc.
 
 A definição de metas móvel é fornecida pelo [DeviceAtlas,](https://deviceatlas.com/device-data/user-agent-tester) um serviço de dotmobi. O DeviceAtlas é um amplo banco de dados de dispositivos móveis construídos em dados compilados a partir de diversas fontes, incluindo fabricantes e operadores de rede. Estes dados são então verificados, referenciados e validados para construir um banco de dados de dispositivos móveis grande e preciso.
 
@@ -50,10 +50,10 @@ Você pode escolher mais de uma propriedade de dispositivo móvel. Várias sele�
 
 Os clientes que usam uma integração personalizada (que não usa at.js ou o Mobile SDK) podem coletar esses parâmetros e passá-los como parâmetros da mbox.
 
-1. Na interface [!DNL Target], clique em **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Na interface [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público]**.
 1. Nomeie o público-alvo e adicione uma descrição opcional.
-1. Arraste e solte **[!UICONTROL Mobile]** no painel do audience builder.
-1. Clique em **[!UICONTROL Select]** e selecione uma das seguintes opções:
+1. Arraste e solte o **[!UICONTROL Mobile]** no painel do construtor de público-alvo.
+1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
 
    * Nome de marketing do dispositivo
    * Modelo do dispositivo
@@ -70,7 +70,7 @@ Os clientes que usam uma integração personalizada (que não usa at.js ou o Mob
    >Você pode direcionar por operadora de dispositivo móvel usando as [configurações geográficas](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
 1. (Opcional) Configure regras adicionais para o público-alvo.
-1. Clique em **[!UICONTROL Done]**.
+1. Clique em **[!UICONTROL Concluído]**.
 
 A ilustração a seguir mostra um público-alvo direcionando visitantes que usam dispositivos móveis fabricados pela Google.
 
@@ -82,7 +82,7 @@ Considere as seguintes informações ao direcionar dispositivos móveis:
 
 ### Dispositivos de direcionamento que executam o iOS 12.2 ou posterior
 
-Devido às novas alterações introduzidas no iOS 12.2, a criação de um público-alvo com regras definidas por [!UICONTROL Device Marketing Name] e [!UICONTROL Device Model] que especificam os Modelos do iPhone foi afetada. O [!DNL Target] não pode mais direcionar os usuários que têm iPhones com iOS 12.2 (ou posterior) instalado. No entanto, se esses usuários não tiverem o iOS 12.2 (ou posterior), o direcionamento por Modelo do iPhone continuará a funcionar corretamente.
+Devido às novas alterações introduzidas no iOS 12.2, a criação de um público-alvo com regras definidas pelo [!UICONTROL Nome de Marketing do Dispositivo] e pelo [!UICONTROL Modelo do Dispositivo] que especifica os Modelos do iPhone foi afetada. O [!DNL Target] não pode mais direcionar os usuários que têm iPhones com iOS 12.2 (ou posterior) instalado. No entanto, se esses usuários não tiverem o iOS 12.2 (ou posterior), o direcionamento por Modelo do iPhone continuará a funcionar corretamente.
 
 A atualização do iOS 12.2 (ou posterior) não afeta a identificação dos seguintes modelos, pois eles não oferecem suporte à atualização para o iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, exibição iPad / Retina, iPad Retina (4ª geração), iPod Touch 4 e iPod Touch 5.
 

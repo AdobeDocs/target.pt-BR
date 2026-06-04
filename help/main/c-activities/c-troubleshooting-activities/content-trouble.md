@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1663
-ht-degree: 86%
+source-wordcount: 1689
+ht-degree: 85%
 
 ---
 
@@ -41,7 +41,7 @@ Como mboxTrace e mboxDebug podem expor dados de campanha e dados de perfil a ter
 
 Você deve ter uma das seguintes permissões de usuário para gerar um token de autenticação:
 
-* Pelo menos [!UICONTROL Editor] permissão (ou [!UICONTROL Approver])
+* Pelo menos a permissão [!UICONTROL Editor] (ou [!UICONTROL Aprovador])
 
   Para obter mais informações para clientes do [!DNL Target Standard], consulte [Especificar funções e permissões](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) em *Usuários*. Para obter mais informações para clientes do [!DNL Target Premium], consulte [Configurar permissões corporativas](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
@@ -53,8 +53,8 @@ Você deve ter uma das seguintes permissões de usuário para gerar um token de 
 
 Para recuperar o token de autorização:
 
-1. Clique em **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
-1. Na seção Ferramentas de Depuração, clique em **[!UICONTROL Generate New Authentication Token]**.
+1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Implementação]**.
+1. Na seção Ferramentas de depuração, clique em **[!UICONTROL Gerar novo token de autenticação]**.
 
    ![Gerar novo token de autenticação](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -167,11 +167,11 @@ A at.js não disparará solicitações do Target se você estiver usando um tipo
 
 ## Certifique-se de que as atividades do [!DNL Target] tratam corretamente os URLs com parâmetros de sequência de consulta. {#query-strings}
 
-O [!UICONTROL Activity URL] determina a página que qualifica os visitantes para a atividade e renderiza as experiências da atividade para os usuários. Quando solicitado durante a criação da atividade, digitar o URL completo nem sempre garante que o conteúdo será entregue na página do site, especialmente com URLs que contenham parâmetros de sequência de consulta.
+A [!UICONTROL URL da atividade] determina a página que qualifica os visitantes para a atividade e renderiza as experiências da atividade para os usuários. Quando solicitado durante a criação da atividade, digitar o URL completo nem sempre garante que o conteúdo será entregue na página do site, especialmente com URLs que contenham parâmetros de sequência de consulta.
 
 Por padrão, o [!UICONTROL Visual Experience Composer] (VEC) abre a página especificada nas suas [configurações do Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md). Você também pode especificar uma página diferente durante a criação da atividade.
 
-Para exibir uma página diferente após a abertura do VEC, clique em **[!UICONTROL Configure gear icon]** > selecione **[!UICONTROL Page Delivery]** > e especifique a URL desejada no campo [!UICONTROL Activity URL].
+Para exibir uma página diferente após a abertura do VEC, clique no **[!UICONTROL ícone de Configuração]** > selecione **[!UICONTROL Entrega de página]** > e especifique a URL desejada no campo [!UICONTROL URL da atividade].
 
 ![Definir a interface das configurações de Entrega de página](assets/configure-page-delivery.png)
 
@@ -197,7 +197,7 @@ Nesse cenário, o URL é `https://shopping.mycart.com?type=Summers%20Offers` e a
 
 ### Opção 3: Em vez de direcionar o URL completo, aproveite uma parte específica do URL.
 
-Nesse cenário, a URL é `https://shopping.mycart.com?type=Summers%20Offers` e regras de modelo adicionais especificam um [!UICONTROL Query] com [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers, separadas por um operador OU:
+Neste cenário, a URL é `https://shopping.mycart.com?type=Summers%20Offers` e regras de modelo adicionais especificam uma [!UICONTROL Consulta] com [!UICONTROL tipo] > [!UICONTROL é (diferencia maiúsculas de minúsculas)] > tipo=Verões%20Ofertas, separadas por um operador OU:
 
 ![Regra de modelo aproveitando uma parte específica do URL](assets/option3.png)
 

@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 477
+source-wordcount: 478
 ht-degree: 59%
 
 ---
@@ -41,7 +41,7 @@ Ao planejar o uso de filtros de público-alvo para uma atividade, considere as s
 * **Comece com dois a quatro públicos-alvo.** Concentre-se nas informações básicas como fonte de tráfego.
 * **Renomeie os públicos-alvo conforme necessário.** É possível renomear um público-alvo sem afetar os dados para fazer com que o nome do público-alvo seja mais significativo para os resultados coletados, mesmo que a atividade esteja ativa.
 * **Insira valores precisos.** Os valores de filtro de público-alvo diferenciam maiúsculas de minúsculas. Por exemplo, se você estiver utilizando um público-alvo que filtre por cidades, você deve utilizar uma condição &quot;OU&quot; para incluir possíveis variações de digitação e maiúsculas de minúsculas como &quot;Vienna,&quot; &quot;vienna,&quot; &quot;viena&quot; e &quot;Viena&quot;.
-* **Os públicos-alvo criados na lista [!UICONTROL Audiences] são reutilizáveis.** Os públicos-alvo criados como parte de uma atividade não podem ser reutilizados.
+* **Os públicos-alvo criados na lista [!UICONTROL Públicos-alvo] são reutilizáveis.** Os públicos-alvo criados como parte de uma atividade não podem ser reutilizados.
 
 As seções a seguir fornecem mais informações sobre a configuração e o relatório sobre públicos-alvo:
 

@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 497
-ht-degree: 40%
+source-wordcount: 507
+ht-degree: 39%
 
 ---
 
@@ -26,20 +26,20 @@ Para obter mais informações, consulte [Passar parâmetros para uma mbox global
 
 Ao criar um público-alvo personalizado com base em um parâmetro de mbox, `mboxParameter` não solicita mais `mboxName`. O nome da mbox agora é opcional. Essa alteração permite usar parâmetros de várias mboxes ou referenciar um parâmetro que ainda não foi gravado na borda.
 
-1. Na interface [!DNL Target], clique em **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Na interface [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público]**.
 1. Nomeie o público-alvo e adicione uma descrição opcional.
-1. Arraste e solte **[!UICONTROL Custom]** no Construtor de público-alvo.
+1. Arraste e solte o **[!UICONTROL Personalizado]** no Construtor de público-alvo.
 
    Para selecionar o parâmetro desejado:
 
    * Ao criar um público-alvo, selecione um nome de parâmetro na lista, comece digitando os primeiros caracteres do nome do parâmetro desejado ou digite o nome completo do nome do parâmetro desejado.
-   * Se você lembrar o nome da mbox, mas não o nome do parâmetro, use a lista suspensa [!UICONTROL Filter by] para filtrar por uma mbox conhecida que passa o parâmetro desejado.
+   * Se você lembrar o nome da mbox, mas não o nome do parâmetro, use a lista suspensa [!UICONTROL Filtrar por] para filtrar por uma mbox conhecida que passa o parâmetro desejado.
 
    Com ambos os métodos, não há link entre a mbox e o parâmetro. O público-alvo funciona com base no parâmetro em todas as mboxes que passam esse parâmetro.
 
    >[!NOTE]
    >
-   >A mbox selecionada na lista suspensa [!UICONTROL Filter By] não é salva ao criar a atividade. Essa opção permite filtrar os parâmetros com base na mbox selecionada.
+   >A mbox selecionada na lista suspensa [!UICONTROL Filtrar por] não é salva ao criar a atividade. Essa opção permite filtrar os parâmetros com base na mbox selecionada.
 
    Se você editar um público-alvo existente, os critérios de filtragem serão exibidos com o nome da mbox fornecido durante a criação.
 
@@ -65,9 +65,9 @@ Ao criar um público-alvo personalizado com base em um parâmetro de mbox, `mbox
 
 1. Inserir cada valor em uma nova linha.
 1. (Opcional) Configure regras adicionais para o público-alvo.
-1. Clique em **[!UICONTROL Done]**.
+1. Clique em **[!UICONTROL Concluído]**.
 
-O [cartão pop-up de detalhes de definição](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) do público-alvo mostra o nome do parâmetro na seção **[!UICONTROL Rules]**. Não há referência à mbox usada para filtragem.
+O cartão pop-up de [detalhes de definição](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) do público-alvo mostra o nome do parâmetro na seção **[!UICONTROL Regras]**. Não há referência à mbox usada para filtragem.
 
 >[!NOTE]
 >

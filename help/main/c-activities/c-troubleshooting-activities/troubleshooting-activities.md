@@ -13,8 +13,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 847
-ht-degree: 44%
+source-wordcount: 866
+ht-degree: 43%
 
 ---
 
@@ -40,7 +40,7 @@ Verifique se a atividade foi concluída e ativada.
 
 ## O teste não está ativado.
 
-**Validar:** Vá para a guia [!UICONTROL Overview] e veja se o teste está marcado como inativo ou rascunho.
+**Validar:** Vá para a guia [!UICONTROL Visão geral] e veja se o teste está marcado como inativo ou rascunho.
 
 **Opções:**
 
@@ -58,11 +58,11 @@ Verifique se a atividade foi concluída e ativada.
 
 ## A página não se qualifica para as condições de direcionamento de página.
 
-**Validar:** na página [!UICONTROL Overview], determine se a página está fora das condições de direcionamento.
+**Validar:** na página [!UICONTROL Visão geral], determine se a página está fora das condições de direcionamento.
 
 **Opções:**
 
-* Vá para a [!UICONTROL Visual Experience Composer], clique em URL > Avançado > página atual.
+* Vá para o [!UICONTROL Visual Experience Composer], clique em URL > Avançado > página atual.
 
 ## Uma experiência anterior é exibida, em vez da nova experiência.
 
@@ -76,20 +76,20 @@ Verifique se a atividade foi concluída e ativada.
 
 ## Você foi adicionado recentemente ao [!DNL Target], mas não pode criar atividades.
 
-**Validar:** Clique Em [!UICONTROL Create Activity]. Se a opção não estiver disponível, é possível que você não tenha recebido direitos suficientes para criar uma atividade.
+**Validar:** Clique Em [!UICONTROL Criar Atividade]. Se a opção não estiver disponível, é possível que você não tenha recebido direitos suficientes para criar uma atividade.
 
 **Opções:**
 
-Depois de ser adicionado como usuário em [!DNL Target], você precisa ter a função [!UICONTROL Approver] para criar atividades.
+Depois de ser adicionado como usuário em [!DNL Target], você precisa ter a função de [!UICONTROL Aprovador] para criar atividades.
 
 * Peça ao administrador da sua conta para torná-lo um aprovador.
-* Se você for o Administrador, atribua a si mesmo a função [!UICONTROL Approver] de **[!UICONTROL Administration]** > **[!UICONTROL Users]** em [!DNL Target].
+* Se você for o Administrador, atribua a si mesmo a função [!UICONTROL Aprovador] de **[!UICONTROL Administração]** > **[!UICONTROL Usuários]** em [!DNL Target].
 
   Consulte [Atribuir a função de aprovador a si próprio](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## A estrutura da página foi alterada desde a configuração da atividade.
 
-**Validar:** Vá para [!UICONTROL Visual Experience Composer] para a atividade existente. Procure a mensagem de aviso indicando que os seletores (ou a estrutura) foram alterados.
+**Validar:** Vá para o [!UICONTROL Visual Experience Composer] para a atividade existente. Procure a mensagem de aviso indicando que os seletores (ou a estrutura) foram alterados.
 
 **Opções:**
 
@@ -112,9 +112,9 @@ Para obter mais informações sobre como as modificações da página afetam a c
 
 ## Outras atividades estão em execução na mesma página.
 
-**Validar:** use a guia [!UICONTROL Collisions] para ver se há outras atividades em execução.
+**Validar:** Use a guia [!UICONTROL Conflitos] para ver se há outras atividades em execução.
 
-**Observação:** a guia [!UICONTROL Collisions] não funciona com o módulo de Teste de Modelo.
+**Observação:** a guia [!UICONTROL Conflitos] não funciona com o módulo de Teste de Modelo.
 
 **Opções:**
 
@@ -137,7 +137,7 @@ Faça uma das seguintes opções:
 
 **Observação:** várias chamadas de ajax [!DNL Target] com o mesmo nome mas diferentes parâmetros não funcionam na mesma página. Somente a primeira chamada é feita.
 
-## Você ativou uma atividade usando a API [!DNL Target], mas a atividade mostra um status de [!UICONTROL Inactive] na interface do usuário [!DNL Target].
+## Você ativou uma atividade usando a API [!DNL Target], mas a atividade mostra um status de [!UICONTROL Inativo] na interface do usuário [!DNL Target].
 
 Quando você executa determinadas ações, como ativar uma atividade fora da interface usando a API [!DNL Target], a atualização pode levar até dez minutos para se propagar para a interface.
 
@@ -145,4 +145,4 @@ Quando você executa determinadas ações, como ativar uma atividade fora da int
 
 Em casos raros, se a métrica de conversão da atividade para se qualificar para uma experiência for enviada na mesma solicitação que a qualificação de atividade, o visitante pode não estar em nenhuma experiência após o envio da solicitação. Nessa situação, o visitante vê o conteúdo padrão e a ID de experiência capturada por tokens seria -1. [!DNL Adobe] não recomenda enviar qualificação e conversão de atividade na mesma solicitação [!DNL Target].
 
-Se quiser enviar ambas as métricas na mesma solicitação, use [!UICONTROL Advanced Settings] para especificar que o visitante permaneça na mesma experiência após a conversão.
+Se quiser enviar ambas as métricas na mesma solicitação, use as [!UICONTROL Configurações avançadas] para especificar que o visitante permaneça na mesma experiência após a conversão.

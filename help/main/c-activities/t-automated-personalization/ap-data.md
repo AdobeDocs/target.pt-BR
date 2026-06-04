@@ -20,22 +20,22 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1986
+source-wordcount: 2009
 ht-degree: 50%
 
 ---
 
 # Dados usados por algoritmos de aprendizado de máquina do [!DNL Target]
 
-O [!DNL Adobe Target] coleta e usa automaticamente vários dados para criar algoritmos de personalização nas atividades do [!UICONTROL Automated Personalization] (AP) e do [!UICONTROL Auto-Target] (AT). Quando um visitante entra em uma atividade [!UICONTROL Automated Personalization] ou [!UICONTROL Auto-Target], um instantâneo das informações é passado para um conjunto de &quot;registros de treinamento&quot; (os dados do visitante sobre os quais os algoritmos de personalização aprendem).
+O [!DNL Adobe Target] coleta e usa automaticamente vários dados para criar algoritmos de personalização nas atividades do [!UICONTROL Automated Personalization] (AP) e do [!UICONTROL Direcionamento automático] (AT). Quando um visitante entra em uma atividade de [!UICONTROL Automated Personalization] ou [!UICONTROL Direcionamento automático], um instantâneo das informações é passado para um conjunto de &quot;registros de treinamento&quot; (os dados do visitante sobre os quais os algoritmos de personalização aprendem).
 
 Para saber mais sobre os algoritmos de personalização do [!DNL Target], consulte [Algoritmo Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
 ## [!DNL Target] categorias de atributo padrão
 
-A tabela a seguir mostra os dados coletados pelas atividades [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] por padrão, sem nenhuma configuração do [!DNL Target] ou de outras soluções [!DNL Adobe]. A tabela também inclui a convenção de nomenclatura usada para indicar esses atributos em [Relatórios do Personalization Insights](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). É possível aumentar o conjunto de dados de entrada a qualquer momento. Para saber mais sobre como carregar dados adicionais, consulte [Carregando dados para os [!DNL Target] algoritmos de personalização](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+A tabela a seguir mostra os dados coletados pelas atividades [!UICONTROL Automated Personalization] e [!UICONTROL Direcionamento automático] por padrão, sem nenhuma configuração do [!DNL Target] ou de outras soluções do [!DNL Adobe]. A tabela também inclui a convenção de nomenclatura usada para indicar esses atributos em [Relatórios do Personalization Insights](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). É possível aumentar o conjunto de dados de entrada a qualquer momento. Para saber mais sobre como carregar dados adicionais, consulte [Carregando dados para os [!DNL Target] algoritmos de personalização](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
-| Categoria de dados | Prefixo do sistema | Descrição | Nome para exibição em [!UICONTROL Insights] relatórios |
+| Categoria de dados | Prefixo do sistema | Descrição | Exibir nome em [!UICONTROL Insights] relatórios |
 | --- | --- | --- | --- |
 | Parâmetros de ambiente | ENV | Informações sobre o ambiente de um usuário, incluindo sistema operacional, navegador e hora do dia/dia da semana. | Navegador - [Nome do Atributo]<br>Sistema Operacional - [Valor] |
 | Geografia | GEO | Informações sobre a geografia de um usuário, obtidas por pesquisa de IP. | Geo - [atributo geográfico] |
@@ -45,22 +45,22 @@ A tabela a seguir mostra os dados coletados pelas atividades [!UICONTROL Automat
 
 ## [!DNL Target] categorias de atributo personalizadas
 
-A tabela a seguir mostra os dados fornecidos pelo cliente coletados por [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] atividades. Esses dados serão coletados somente se você fornecê-los. Nomes de atributos específicos e valores de amostra são específicos da configuração do sistema.
+A tabela a seguir mostra os dados fornecidos pelo cliente coletados pelas atividades de [!UICONTROL Automated Personalization] e [!UICONTROL Direcionamento automático]. Esses dados serão coletados somente se você fornecê-los. Nomes de atributos específicos e valores de amostra são específicos da configuração do sistema.
 
-| Categoria de dados | Prefixo do sistema | Descrição | Nome para exibição em [!UICONTROL Insights] relatórios |
+| Categoria de dados | Prefixo do sistema | Descrição | Exibir nome em [!UICONTROL Insights] relatórios |
 | --- | --- | --- | --- |
 | Parâmetros da página | CAIXA | Parâmetros de página personalizados (&quot;parâmetros mbox&quot;) passados na chamada para [!DNL Target]. | Personalizado - Parâmetro da Mbox - [nome do parâmetro] |
 | [!DNL Target] perfil | PRO | Os atributos de perfil personalizados são carregados diretamente no perfil do [!DNL Target] por meio da API ou do parâmetro de página e dos scripts de perfil do [!DNL Target]. | Personalizado - Perfil do visitante - [nome do atributo] |
 | Atributos do cliente | CRS | Atributos do Cliente carregados para o perfil [!DNL Target] por meio de [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=pt-BR){target=_blank}. | Personalizado - Perfil do visitante - [nome do atributo] |
 | Parâmetros de URL | URL | URL e parâmetros de URL da página exibida no momento. | Personalizado - Parâmetro de URL - [Parâmetro de URL] |
 | URL de referência | REF | URL de referência e quaisquer parâmetros de URL para o URL de referência. | Personalizado - [Parâmetro de URL de Referência] - [Valor de parâmetro] |
-| [!DNL Adobe Experience Cloud] públicos-alvo compartilhados | AAM | Todos os públicos-alvo compartilhados com [!DNL Target] de outras soluções [!DNL Adobe Experience Cloud] (por exemplo, [!DNL Adobe Audience Manager] e [!DNL Adobe Analytics], através de [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=pt-BR){target=_blank}). | Personalizado - Público-Alvo Do Experience Cloud - [Nome Do Público-Alvo] |
-| [!DNL Adobe Experience Platform Real-time CDP] públicos-alvo | UPS | Públicos da CDP em tempo real da Platform compartilhados com [!DNL Target] via [!UICONTROL Destinations]. |  |
+| [!DNL Adobe Experience Cloud] públicos-alvo compartilhados | AAM | Todos os públicos-alvo compartilhados com [!DNL Target] de outras soluções [!DNL Adobe Experience Cloud] (por exemplo, [!DNL Adobe Audience Manager] e [!DNL Adobe Analytics], através de [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=pt-BR){target=_blank}). | Personalizado - Público-alvo da Experience Cloud - [Nome do público-alvo] |
+| [!DNL Adobe Experience Platform Real-time CDP] públicos-alvo | UPS | Públicos da CDP em tempo real da Platform compartilhados com [!DNL Target] via [!UICONTROL Destinos]. |  |
 
 
 ## Bloqueando recursos de algoritmos de aprendizado de máquina do [!DNL Target]
 
-Os recursos podem ser bloqueados de [!DNL Target] algoritmos de aprendizado de máquina, impedindo que sejam usados em qualquer modelo ou atividade do [!UICONTROL Automated Personalization] ou [!UICONTROL Auto-Target].
+Os recursos podem ser bloqueados de [!DNL Target] algoritmos de aprendizado de máquina, impedindo que sejam usados em qualquer modelo ou atividade do [!UICONTROL Automated Personalization] ou do [!UICONTROL Direcionamento automático].
 
 Para obter mais informações, consulte [Visão geral da API de modelos ()](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=pt-BR){target=_blank} no *[!DNL Adobe Target]Guia do Desenvolvedor*.
 

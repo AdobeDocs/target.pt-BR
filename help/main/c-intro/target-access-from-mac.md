@@ -1,6 +1,6 @@
 ---
 keywords: Experience Cloud, fazer logon, idioma, idioma padrão da interface do usuário, idioma padrão
-description: Saiba como acessar o  [!DNL Target] pela Adobe Experience Cloud, definir sua organização padrão e alterar o idioma da interface do usuário do  [!DNL Target] e da documentação.
+description: Saiba como acessar o [!DNL Target] pela Adobe Experience Cloud, definir sua organização padrão e alterar o idioma da interface do usuário e da documentação do [!DNL Target] l.
 title: Como acessar o  [!DNL Target]  pela Adobe Experience Cloud?
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
@@ -11,8 +11,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 355
-ht-degree: 50%
+source-wordcount: 367
+ht-degree: 49%
 
 ---
 
@@ -24,25 +24,25 @@ Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Clou
 
 1. Faça logon na [Adobe Experience Cloud](https://experience.adobe.com/).
 
-1. Clique em **[!UICONTROL App icon]** na barra de navegação e em **[!UICONTROL Target]**.
+1. Clique no **[!UICONTROL ícone do aplicativo]** na barra de navegação e em **[!UICONTROL Destino]**.
 
    Você também pode clicar no painel [!DNL Target] na janela principal para acessar o [!DNL Target] (ou qualquer outra solução da [!DNL Adobe Experience Cloud] à qual você tenha acesso).
 
    ![Ícone do aplicativo](/help/main/c-intro/assets/appmenu-new.png)
 
-1. (Opcional) Para definir a organização padrão ao fazer logon no [!DNL Experience Cloud], clique em **[!UICONTROL Preferences]** no avatar do seu perfil, depois defina sua organização padrão.
+1. (Opcional) Para definir a organização padrão ao fazer logon no [!DNL Experience Cloud], clique em **[!UICONTROL Preferências]** no avatar do seu perfil, depois defina sua organização padrão.
 
    ![Página de destino](/help/main/c-intro/assets/pagepref-new.png)
 
 ## Alterar o idioma padrão da interface do usuário [!DNL Target] {#language}
 
-1. Depois de entrar no [!DNL Adobe Experience Cloud] ou [!DNL Target], clique no avatar do seu perfil e em **[!UICONTROL Preferences]**.
+1. Depois de entrar no [!DNL Adobe Experience Cloud] ou [!DNL Target], clique no avatar do seu perfil e em **[!UICONTROL Preferências]**.
 
-1. Clique em **[!UICONTROL Adobe Account]** para acessar seu perfil [!DNL Adobe].
+1. Clique em **[!UICONTROL Conta da Adobe]** para acessar o perfil [!DNL Adobe].
 
    ![Conta da Adobe](/help/main/c-intro/assets/adobe-account.png)
 
-1. Na seção **[!UICONTROL Preferred languages]** da página [!UICONTROL Account], **[!UICONTROL Add]**.
+1. Na seção **[!UICONTROL Idiomas preferenciais]** da página [!UICONTROL Conta], **[!UICONTROL Adicionar]**.
 
    O texto indica que este é o idioma escolhido para que o [!DNL Adobe] entre em contato com você. Esse também é o idioma usado na interface do usuário para [!DNL Target] e outras soluções do [!DNL Adobe Experience Cloud]. Você pode escolher mais de um idioma.
 
@@ -61,7 +61,7 @@ Informações sobre acesso ao [!DNL Adobe Target] do [!DNL Adobe Experience Clou
    * Chinês Tradicional
    * Coreano
 
-1. Clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Salvar]**.
 
 1. Faça logout do [!DNL Adobe Experience Cloud] ou [!DNL Target], em seguida, entre novamente para que suas alterações entrem em vigor.
 

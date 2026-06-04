@@ -1,7 +1,7 @@
 ---
 keywords: mvt, teste multivariado, relatório de contribuição da localização
-description: Saiba como usar o relatório de Contribuição de localização para atividades do Adobe [!DNL Target] [!UICONTROL Experience Targeting] que mostram o desempenho de cada elemento e cada oferta.
-title: Como usar o relatório [!UICONTROL Location Contribution] para atividades [!UICONTROL Multivariate Test]?
+description: Saiba como usar o relatório de Contribuição de localização para atividades de  [!DNL Target] [!UICONTROL Direcionamento de experiência] do Adobe que mostram o desempenho de cada elemento e cada oferta.
+title: Como faço para usar o relatório de [!UICONTROL Contribuição de localização] para atividades de [!UICONTROL Teste multivariado]?
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 TQID: https://experienceleague.adobe.com/oS9GtjO8wG2bcAWQWj3IWtwAgtfGHnHMYwPd-8u0zjc
@@ -12,28 +12,28 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 261
-ht-degree: 35%
+source-wordcount: 283
+ht-degree: 32%
 
 ---
 
-# Relatório [!UICONTROL Location Contribution] (MVT)
+# Relatório de [!UICONTROL Contribuição de localização] (MVT)
 
-O relatório [!UICONTROL Location Contribution] mostra o desempenho de cada elemento e cada oferta.
+O relatório de [!UICONTROL Contribuição de localização] mostra o desempenho de cada elemento e cada oferta.
 
 A parte superior do relatório mostra a métrica, as datas inicial e final e o público-alvo usado no relatório. Você pode alterar qualquer um desses fatores.
 
 >[!NOTE]
 >
->Lembre-se das seguintes informações ao trabalhar com o relatório [!UICONTROL Location Contribution]:
+>Lembre-se das seguintes informações ao trabalhar com o relatório de [!UICONTROL Contribuição de localização]:
 >
 >* O público-alvo e o seletor de métrica estarão disponíveis somente se [!DNL Analytics] for usado como fonte de relatórios (A4T).
 >
->* Os dados do relatório [!UICONTROL Location Contribution] são obtidos do back-end do [!DNL Target] mesmo se a atividade estiver configurada para usar [!UICONTROL Analytics as the reporting source] (A4T).
+>* Os dados do relatório de [!UICONTROL Contribuição de localização] são obtidos do back-end do [!DNL Target] mesmo se a atividade estiver configurada para usar o [!UICONTROL Analytics como a fonte de relatórios] (A4T).
 >
->* Os dados do relatório [!UICONTROL Location Contribution] são obtidos para o ambiente de &quot;Produção&quot; mesmo se um ambiente padrão diferente for definido no nível de conta [!DNL Target].
+>* Os dados do relatório [!UICONTROL Contribuição de localização] são obtidos para o ambiente &quot;Produção&quot; mesmo se um ambiente padrão diferente for definido no nível de conta [!DNL Target].
 
-O relatório [!UICONTROL Location Contribution] inclui duas tabelas.
+O relatório de [!UICONTROL Contribuição de localização] inclui duas tabelas.
 
 A primeira tabela mostra a influência relativa de cada elemento. Esta tabela mostra qual dos elementos em que você adicionou ofertas está resultando no maior número de conversões.
 

@@ -19,8 +19,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1455
-ht-degree: 51%
+source-wordcount: 1472
+ht-degree: 50%
 
 ---
 
@@ -49,10 +49,10 @@ Sim, o A4T via Platform Web SDK oferece suporte a [ofertas de redirecionamento](
 
 +++
 
-### O [!UICONTROL Visual Experience Composer] (VEC) e o [!UICONTROL Form-Based Experience Composer] são suportados?
+### O [!UICONTROL Visual Experience Composer] (VEC) e o [!UICONTROL Experience Composer baseado em formulário] são suportados?
 
 +++Resposta
-Sim, o [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) e o [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) terão suporte se você usar ofertas de redirecionamento integradas.
+Sim, o [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) e o [[!UICONTROL Experience Composer baseado em formulário]](/help/main/c-experiences/form-experience-composer.md) serão suportados se você usar ofertas de redirecionamento integradas.
 
 +++
 
@@ -123,7 +123,7 @@ Os seguintes parâmetros de cadeia de caracteres de consulta estão associados a
 
 | Parâmetro | Descrição |
 |--- |--- |
-| `adobe_mc_sdid` | O parâmetro `adobe_mc_sdid` passa a Id de Dados Suplementares (SDID) e a Id de Organização da Experience Cloud da página padrão para a nova página. Essas IDs permitem que o A4T &quot;junte&quot; a solicitação do Target na página padrão com a solicitação do Analytics na nova página.<br>O formato esperado para passar sdid na url (para aplicativos híbridos ou de um aplicativo para o site ou de um site para outro) é `ex. adobe_mc_sdid=SDID=123\|MCORGID=123456789@AdobeOrg\|TS=1498569322` |
+| `adobe_mc_sdid` | O parâmetro `adobe_mc_sdid` passa a Id de Dados Complementares (SDID) e a Id de Organização da Experience Cloud da página padrão para a nova página. Essas IDs permitem que o A4T &quot;junte&quot; a solicitação do Target na página padrão com a solicitação do Analytics na nova página.<br>O formato esperado para passar sdid na url (para aplicativos híbridos ou de um aplicativo para o site ou de um site para outro) é `ex. adobe_mc_sdid=SDID=123\|MCORGID=123456789@AdobeOrg\|TS=1498569322` |
 | `adobe_mc_ref` | O parâmetro `adobe_mc_ref` passa o URL de referência da página padrão para a página nova. Quando usado com a versão 2.1 (ou posterior) do AppMeasurement.js, o Analytics usa esse valor de parâmetro como o URL de referência na nova página. |
 
 Esses parâmetros são adicionados automaticamente aos URLs de redirecionamento ao usar as ofertas de redirecionamento integradas no VEC e no Experience Compose baseado em formulário quando o serviço de identificação do visitante está implementado na página. Se você estiver usando seu próprio código de redirecionamento personalizado no VEC ou no Compositor baseado em formulário, deve certificar-se de passar esses parâmetros com seu código personalizado.

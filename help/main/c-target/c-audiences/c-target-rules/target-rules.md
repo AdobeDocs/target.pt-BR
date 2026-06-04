@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 374
-ht-degree: 47%
+source-wordcount: 385
+ht-degree: 50%
 
 ---
 
@@ -26,17 +26,17 @@ Você pode direcionar qualquer um dos vários atributos de categoria usando [!DN
 
 Quando uma categoria específica é selecionada, você pode aplicar uma ou mais condições de definição de metas. Por exemplo, na categoria Geo, defina uma regra como Cidade=São Francisco. Uma condição OR é criada quando múltiplos valores são adicionados. O visitante somente deve corresponder a um dos valores para atender à condição de definição de metas. Para condições E no mesmo parâmetro, crie uma meta de expressão personalizada.
 
-Depois de criar uma regra, clique em **[!UICONTROL Done]**. Um resumo das regras é exibido ao lado do link de direcionamento do nível.
+Após criar uma regra, clique em **[!UICONTROL Concluído]**. Um resumo das regras é exibido ao lado do link de direcionamento do nível.
 
-Você pode refinar uma regra ao adicionar mais condições, ou criar regras adicionais em outras categorias. Por exemplo, você pode direcionar somente usuários do Firefox de São Francisco que acessam seu site pelo Google. Defina a categoria [!UICONTROL Geo] para usuários de destino de São Francisco, a categoria [!UICONTROL Browser] para usuários de destino usando Firefox e a categoria [!UICONTROL Traffic Sources] para usuários de destino provenientes de [!UICONTROL From Google]. As regras criadas entre categorias são combinadas com o operador AND.
+Você pode refinar uma regra ao adicionar mais condições, ou criar regras adicionais em outras categorias. Por exemplo, você pode direcionar somente usuários do Firefox de São Francisco que acessam seu site pelo Google. Defina a categoria [!UICONTROL Geo] para direcionar usuários de São Francisco, a categoria [!UICONTROL Navegador] para direcionar usuários usando o Firefox e a categoria [!UICONTROL Fontes de Tráfego] para direcionar usuários provenientes de [!UICONTROL Do Google]. As regras criadas entre categorias são combinadas com o operador AND.
 
 Para criar regras de direcionamento complexas que incluem operações OR entre categorias, crie um target de expressão.
 
-Você também pode direcionar parâmetros de perfis personalizados e parâmetros de `user.`. Ao adicionar um público-alvo, arraste e solte **[!UICONTROL Visitor Profile]** e escolha o parâmetro que você deseja usar para direcionar sua atividade. Se o parâmetro desejado não for exibido, o parâmetro não foi acionado por uma mbox.
+Você também pode direcionar parâmetros de perfis personalizados e parâmetros de `user.`. Ao adicionar um público-alvo, arraste e solte o **[!UICONTROL Perfil do visitante]** e escolha o parâmetro que você deseja usar para direcionar sua atividade. Se o parâmetro desejado não for exibido, o parâmetro não foi acionado por uma mbox.
 
-Use a caixa de pesquisa para pesquisar a lista [!UICONTROL Audiences]. Você pode procurar qualquer parte de um nome de público-alvo ou pode colocar uma determinada sequência de caracteres entre aspas.
+Use a caixa de pesquisa para pesquisar sua lista de [!UICONTROL Públicos-alvo]. Você pode procurar qualquer parte de um nome de público-alvo ou pode colocar uma determinada sequência de caracteres entre aspas.
 
-Você pode classificar a lista [!UICONTROL Audience] por nome de público-alvo ou pela data da última modificação. Para classificar por nome ou data, clique no cabeçalho da coluna e selecione para exibir os públicos-alvo em ordem crescente ou decrescente.
+Você pode classificar a lista [!UICONTROL Público-alvo] por nome de público-alvo ou pela data da última modificação. Para classificar por nome ou data, clique no cabeçalho da coluna e selecione para exibir os públicos-alvo em ordem crescente ou decrescente.
 
 ## Vídeo de treinamento: Criando públicos-alvo ![Selo do tutorial](/help/main/assets/tutorial.png)
 

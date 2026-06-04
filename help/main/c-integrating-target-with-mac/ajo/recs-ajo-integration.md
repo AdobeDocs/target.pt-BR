@@ -18,7 +18,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 633
+source-wordcount: 637
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ Estes casos de uso são apenas alguns possíveis para integrar o [!DNL Target Re
 
   Após um período especificado, uma ação personalizada no [!DNL Journey Optimizer] faz uma chamada para [!DNL Target Recommendations] determinar quais itens cada visitante visualizou, usando a [!DNL Adobe Experience Cloud Identifier] (EDID) de cada visitante, o perfil [!DNL Target] do visitante e um algoritmo [baseado no usuário](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). [!DNL Adobe Journey Optimizer] em seguida, envia a cada membro do público qualificado um email personalizado com imagens e links para os itens visualizados de cada visitante para que o visitante retorne e faça uma compra.
 
-  Neste cenário, o [!UICONTROL Experience Cloud Visitor ID] (ECID) e o conteúdo do perfil [!DNL Target] de cada visitante são usados para gerar a recomendação com base no algoritmo visualizado recentemente.
+  Neste cenário, a [!UICONTROL ID de visitante da Experience Cloud] (ECID) e o conteúdo do perfil [!DNL Target] de cada visitante são usados para gerar a recomendação com base no algoritmo visualizado recentemente.
 
   Suponha, por exemplo, que um visitante visite um site de varejo e visualize vários relógios. O perfil [!DNL Target] deste visitante foi atualizado com uma lista de inspeções visualizadas. Usando a ECID e o perfil [!DNL Target] do visitante, [!DNL Target] envia a recomendação para [!DNL Journey Optimizer]. [!DNL Journey Optimizer] em seguida, envia um email contendo imagens e links para os relógios que este visitante visualizou, usando o algoritmo visualizado recentemente. Outro visitante recebe um email personalizado contendo imagens e links para os itens que esse visitante visualizou. Cada mensagem de email é personalizada para cada visitante.
 

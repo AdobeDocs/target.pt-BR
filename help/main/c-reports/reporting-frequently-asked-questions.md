@@ -20,8 +20,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1384
-ht-degree: 21%
+source-wordcount: 1324
+ht-degree: 24%
 
 ---
 
@@ -75,9 +75,9 @@ Vários novos visitantes visitam seu site e são qualificados para uma atividade
 
 Alguns visitantes acessam a métrica de conversão, que foi configurada como &quot;Aumentar contagem e manter o usuário na atividade&quot;. Suponha que alguns desses usuários acessem a métrica de conversão várias vezes, a métrica de conversão não aumenta. Dada essa configuração, no entanto, alguns usuários podem atingir a métrica de conversão e navegar de volta para a página inicial, qualificando-se para a atividade novamente para registrar uma nova visita.
 
-## Por que meus relatórios do [!UICONTROL Experience Targeting] (XT) contêm métricas para controlar experiências?
+## Por que os relatórios de [!UICONTROL Direcionamento de experiência] (XT) contêm métricas para controlar experiências?
 
-As atividades de XT devem sempre ter uma experiência de controle. Se você estiver usando uma atividade de XT de maneira semelhante a uma atividade [!UICONTROL A/B Test], que é um cenário bastante comum, os dados da experiência de controle são úteis. Você pode ignorar os dados da experiência de controle se não forem úteis nos relatórios.
+As atividades de XT devem sempre ter uma experiência de controle. Se você estiver usando uma atividade de XT de maneira semelhante a uma atividade de [!UICONTROL Teste A/B], que é um cenário bastante comum, os dados da experiência de controle são úteis. Você pode ignorar os dados da experiência de controle se não forem úteis nos relatórios.
 
 ## Por que os números de visitas são menores em [!DNL Target] do que em outras soluções do [!DNL Adobe Experience Cloud]? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
@@ -101,16 +101,16 @@ Se um conteúdo de atividade foi entregue com sucesso aos usuários, mas o relat
 
 Para alterar o ambiente de um relatório de atividade:
 
-1. Clique em **[!UICONTROL Activities]**, clique na atividade desejada da lista, em seguida, clique na guia **[!UICONTROL Reports]**.
+1. Clique em **[!UICONTROL Atividades]**, clique na atividade desejada da lista, em seguida, clique na guia **[!UICONTROL Relatórios]**.
 1. Clique no ícone de engrenagem para configurar o relatório.
 
    ![Caixa de diálogo Configurações A/B](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
-1. Na lista suspensa **[!UICONTROL Environment]**, selecione **[!UICONTROL Production]**.
+1. Na lista suspensa **[!UICONTROL Ambiente]**, selecione **[!UICONTROL Produção]**.
 
    Os dados de relatório podem não estar disponíveis se você tem um ambiente de desenvolvimento selecionado.
 
-1. Clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Salvar]**.
 
 Para obter mais informações sobre os ambientes, consulte [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
@@ -118,12 +118,12 @@ Para obter mais informações sobre os ambientes, consulte [Hosts](/help/main/ad
 
 Se um conteúdo de atividade foi entregue com sucesso aos usuários, mas o relatório não contiver dados, certifique-se de usar uma experiência com tráfego como experiência de controle.
 
-1. Clique em **[!UICONTROL Activities]**, clique na atividade desejada da lista, em seguida, clique na guia **[!UICONTROL Reports]**.
+1. Clique em **[!UICONTROL Atividades]**, clique na atividade desejada da lista, em seguida, clique na guia **[!UICONTROL Relatórios]**.
 1. Clique no ícone de engrenagem para configurar o relatório.
 
-1. Na lista suspensa **[!UICONTROL Control]**, selecione uma experiência que receba tráfego.
+1. Na lista suspensa **[!UICONTROL Controle]**, selecione uma experiência que receba tráfego.
 
-1. Clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Salvar]**.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Se um conteúdo de atividade foi entregue com sucesso aos usuários, mas o relat
 Por exemplo, eu defini a divisão de tráfego para 50/50 ou 25/25/25/25, mas estou vendo uma distribuição muito diferente entre as experiências nos relatórios. Há vários motivos explicáveis para contagens desiguais de visitantes no relatório [!DNL Target]:
 
 * Quando uma atividade [!DNL Target] é iniciada pela primeira vez, a distribuição de tráfego pode ser desigual devido à arquitetura de nó de borda que o [!DNL Target] usa para otimizar a entrega de experiência. A prática recomendada é dar a uma atividade algum tempo para coletar mais dados e a distribuição normalizará. Para obter mais informações sobre os nós de arquitetura e Edge do [!DNL Adobe Target], consulte [Como o Adobe Target funciona](/help/main/c-intro/how-target-works.md).
-* Se você estiver em [!DNL Target] ou [!DNL Analytics] e estiver usando a métrica **[!UICONTROL Visits]**, lembre-se de que [!DNL Target] é um sistema baseado em visitantes e a distribuição de tráfego para um teste A/B ou MVT é atribuída no nível do visitante. Assim, se você examinar os resultados da atividade usando a métrica **[!UICONTROL Visits]**, a distribuição do tráfego poderá parecer desigual, pois alguns visitantes podem ter várias visitas. Visitantes é a métrica de normalização padrão ao avaliar o desempenho da atividade.
+* Se você estiver em [!DNL Target] ou [!DNL Analytics] e estiver usando a métrica **[!UICONTROL Visitas]**, lembre-se de que [!DNL Target] é um sistema com base em visitantes e a distribuição de tráfego para um teste A/B ou MVT é atribuída no nível do visitante. Assim, se você examinar os resultados da atividade usando a métrica **[!UICONTROL Visitas]**, a distribuição do tráfego poderá parecer desigual, pois alguns visitantes podem ter várias visitas. Visitantes é a métrica de normalização padrão ao avaliar o desempenho da atividade.
 * A prática recomendada para testes A/B e MVT é manter as divisões de tráfego uniformes. Alterar a distribuição de tráfego entre experiências (por exemplo, de 90/10 para 50/50) durante um teste pode levar a visitantes desiguais entre experiências. A experiência de tráfego mais baixo pode nunca &quot;alcançar o topo&quot;.
 * Se estiver seguindo as práticas recomendadas acima e a divisão de tráfego não normalizar ao longo do tempo, verifique o seguinte:
 

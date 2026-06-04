@@ -16,8 +16,8 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1737
-ht-degree: 71%
+source-wordcount: 1742
+ht-degree: 70%
 
 ---
 
@@ -101,7 +101,7 @@ Se sua atividade exigir um assistente de um designer, um desenvolvedor da Web ou
 
 Você precisa de um determinado número de visitantes para ser colocado na população de teste para tirar uma conclusão estatisticamente significativa do teste. Pense nisso, se apenas duas pessoas participarem do seu teste, você terá confiança nos resultados?
 
-O [!DNL Target] depende de princípios estatísticos para determinar se os resultados de um teste são estatisticamente válidos. A [!DNL Adobe Target] [Calculadora de Tamanho da Amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) ajuda a determinar o período para executar um teste com base na confiança necessária em seus resultados. Clique no link [!UICONTROL Learn More] nesta caixa para abrir e usar a calculadora.
+O [!DNL Target] depende de princípios estatísticos para determinar se os resultados de um teste são estatisticamente válidos. A [!DNL Adobe Target] [Calculadora de Tamanho da Amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) ajuda a determinar o período para executar um teste com base na confiança necessária em seus resultados. Clique no link [!UICONTROL Saiba mais] nesta caixa para abrir e usar a calculadora.
 
 ### Qual é a importância dessa atividade?
 
@@ -117,4 +117,4 @@ Os resultados da atividade geralmente fornecem insights das ações que você de
 
 ## Abrir o [!DNL Target], criar e iniciar a atividade
 
-Você preencheu o Planejador de atividades. Agora é hora de entrar na solução e criar sua atividade. O [!DNL Target] facilita a modificação da página da Web no [!UICONTROL Visual Experience Composer].
+Você preencheu o Planejador de atividades. Agora é hora de entrar na solução e criar sua atividade. O [!DNL Target] facilita a modificação da sua página da Web no [!UICONTROL Visual Experience Composer].

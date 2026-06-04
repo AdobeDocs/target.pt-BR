@@ -30,7 +30,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: 2199
 ht-degree: 95%
 
 ---
@@ -151,7 +151,7 @@ Estamos felizes em compartilhar grandes e inovadoras notícias sobre a personali
 
   Ao decorrer desta sessão, aprenda como você pode sobrecarregar o aumento de conversão aproveitando os novos recursos do [!DNL Adobe Target]:
 
-   * Controles de modelo aprimorados nas atividades [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target]
+   * Controles de modelo aprimorados nas atividades de [!UICONTROL Automated Personalization] e [!UICONTROL Direcionamento automático]
    * Desbloquear a capacidade de avaliar atributos de perfil e segmentos de alto valor da [!DNL Adobe] [!DNL Real-Time Customer Data Platform]
    * Como as marcas podem fornecer velocidades e decisões mais rápidas ajustando seus algoritmos alimentados por IA
    * Casos de uso únicos para fornecer personalização de 1 para 1
@@ -174,7 +174,7 @@ As experiências móveis estão promovendo a inovação da maneira como as equip
 
   Mapa do curso:
 
-   * [!UICONTROL A/B Test], [!UICONTROL Multivariate Testing] (MVT), (XT) e teste e personalização automatizados
+   * [!UICONTROL Teste A/B], [!UICONTROL Multivariate Testing] (MVT), (XT) e teste e personalização automatizados
    * Fluxos de trabalho passo a passo para a configuração da atividade
    * Pré-busca de experiência em lote, permitindo uma personalização contínua em dispositivos móveis
    * Métricas de ciclo de vida para testes e direcionamento em todas as experiências do cliente

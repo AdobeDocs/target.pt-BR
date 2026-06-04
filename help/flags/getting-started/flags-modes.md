@@ -5,7 +5,7 @@ hide: true
 exl-id: 0fdfa429-d9bd-4990-8f96-cd9deb273aa0
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '411'
 ht-degree: 3%
 
 ---
@@ -80,7 +80,7 @@ O direcionamento no nível da organização e do ambiente não foi projetado par
 
 ## Escolha do modo correto {#choosing}
 
-* Se a sua pergunta for *&quot;Quais usuários devem ver este recurso?&quot;* → Usar **direcionamento no nível do usuário**
+* Se a sua pergunta for *&quot;Quais usuários devem ver este recurso?&quot;* → Use **direcionamento no nível do usuário**
 * Se a sua pergunta for *&quot;Quais organizações ou ambientes devem ter esse recurso?&quot;* → Use **org e direcionamento no nível do ambiente**
 
 <!-- -->

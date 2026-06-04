@@ -15,8 +15,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 428
-ht-degree: 52%
+source-wordcount: 444
+ht-degree: 55%
 
 ---
 
@@ -26,11 +26,11 @@ Defina um público-alvo em [!DNL Adobe Target] para comparar dois atributos de p
 
 >[!NOTE]
 >
->Esta funcionalidade está disponível somente para a categoria [[!UICONTROL Visitor Profile]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
+>Esta funcionalidade está disponível somente para a categoria [[!UICONTROL Perfil do Visitante]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
 ## Visão geral {#section_303CBC78194D49A2A004945D425441E1}
 
-Os públicos-alvo são definidos por regras que determinam quem está incluso ou foi excluído de uma atividade no [!DNL Target]. Uma definição de público-alvo pode incluir diversas regras, e cada uma delas pode incluir vários parâmetros. Se uma das regras incluídas usar a categoria [!UICONTROL Visitor Profile], você poderá definir uma regra com base no valor específico de um atributo de perfil de visitante ou comparar o valor desse atributo com outro atributo de perfil de visitante.
+Os públicos-alvo são definidos por regras que determinam quem está incluso ou foi excluído de uma atividade no [!DNL Target]. Uma definição de público-alvo pode incluir diversas regras, e cada uma delas pode incluir vários parâmetros. Se uma das regras incluídas usar a categoria [!UICONTROL Perfil do visitante], você poderá definir uma regra com base no valor específico de um atributo de perfil de visitante ou comparar o valor desse atributo com outro atributo de perfil de visitante.
 
 Por exemplo, vamos supor que você trabalhe para uma empresa de mobília e tenha carregado duas pontuações de propensão do cliente em [!DNL Target]:
 
@@ -43,10 +43,10 @@ Para obter mais informações, consulte [Métodos para obter dados no Target](ht
 
 ## Criar um público-alvo de comparação do atributo de perfil {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. Clique em **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público-alvo]**.
 1. Nomeie o público-alvo e adicione uma descrição opcional.
-1. Arraste e solte **[!UICONTROL Visitor Profile]** no painel do audience builder.
-1. Na lista suspensa **[!UICONTROL Visitor Profile]**, escolha um atributo:
+1. Arraste e solte **[!UICONTROL Perfil do visitante]** no painel do construtor de público-alvo.
+1. Na lista suspensa **[!UICONTROL Perfil do visitante]**, escolha um atributo:
 
    ![Pontuação de propensão 1](assets/propensity_score_1.png)
 
@@ -54,7 +54,7 @@ Para obter mais informações, consulte [Métodos para obter dados no Target](ht
 
    ![Pontuação de propensão 2](assets/propensity_score_2.png)
 
-1. Na lista suspensa **[!UICONTROL Choose Comparison Type]**, escolha **[!UICONTROL Attribute]**.
+1. Na lista suspensa **[!UICONTROL Escolher o tipo de comparação]**, escolha **[!UICONTROL Atributo]**.
 
    O tipo de comparação de &quot;valor estático&quot; permite comparar o atributo de perfil do visitante com valores específicos.
 
@@ -68,7 +68,7 @@ Para obter mais informações, consulte [Métodos para obter dados no Target](ht
 
    ![imagem de pontuação de propensão_4](assets/propensity_score_4.png)
 
-1. Clique em **[!UICONTROL Done]**.
+1. Clique em **[!UICONTROL Concluído]**.
 
 ## Vídeo de treinamento ![Selo de visão geral](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 

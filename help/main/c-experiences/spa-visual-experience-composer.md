@@ -24,7 +24,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 3904
+source-wordcount: 3948
 ht-degree: 56%
 
 ---
@@ -83,7 +83,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    ![Caixa de diálogo Detalhes da implementação](/help/main/c-experiences/assets/imp-200.png)
 
-   Baixe a at.js 2.x pela interface do usuário do Adobe Target localizada em [!UICONTROL Administration > Implementation]. A at.js 2.x também pode ser implantada por meio de tags na [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=pt-BR){target=_blank}. No entanto, as extensões do Adobe Target não estão atualizadas e não são compatíveis no momento.
+   Baixe a at.js 2.x pela interface do usuário do Adobe Target localizada em [!UICONTROL Administração > Implementação]. A at.js 2.x também pode ser implantada por meio de tags na [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=pt-BR){target=_blank}. No entanto, as extensões do Adobe Target não estão atualizadas e não são compatíveis no momento.
 
 1. Implemente a função mais recente da at.js 2.x: [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} em seus sites.
 
@@ -93,7 +93,7 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
    | Parâmetro | Tipo | Obrigatório? | Validação | Descrição |
    | --- | --- | --- | --- | --- |
-   | viewName | String | Sim | &#x200B;1. Não há espaços à direita.<br>2. Não pode ficar em branco.<br>3. O nome da exibição deve ser exclusivo para todas as páginas.<br>4. **Aviso**: O nome da Exibição não deve iniciar ou terminar com &#39;`/`&#39;. Isso ocorre porque o cliente normalmente extrai o nome da Exibição do caminho do URL. Para nós, &quot;inicial&quot; e &quot;`/home`&quot; são diferentes.<br>5. **Aviso**: A mesma exibição não deve ser acionada consecutivamente várias vezes com a opção `{page: true}`. | Transmita qualquer nome como um tipo de sequência de caracteres que você deseja representar sua exibição. Esse nome de exibição é mostrado no painel [!UICONTROL Modifications] do VEC para que os profissionais de marketing criem ações e executem suas atividades A/B e XT. |
+   | viewName | String | Sim | &#x200B;1. Não há espaços à direita.<br>2. Não pode ficar em branco.<br>3. O nome da exibição deve ser exclusivo para todas as páginas.<br>4. **Aviso**: O nome da Exibição não deve iniciar ou terminar com &#39;`/`&#39;. Isso ocorre porque o cliente normalmente extrai o nome da Exibição do caminho do URL. Para nós, &quot;inicial&quot; e &quot;`/home`&quot; são diferentes.<br>5. **Aviso**: A mesma exibição não deve ser acionada consecutivamente várias vezes com a opção `{page: true}`. | Transmita qualquer nome como um tipo de sequência de caracteres que você deseja representar sua exibição. Esse nome Exibição é mostrado no painel [!UICONTROL Modificações] do VEC para que os profissionais de marketing criem ações e executem suas atividades A/B e XT. |
    | opções | Objeto | Não |  |  |
    | opções > página | Booleano | Não |  | **TRUE**: O valor padrão da página é true. Quando `page=true`, as notificações serão enviadas aos servidores Edge para aumentar a contagem de impressões.<br>**FALSE**: quando `page=false`, as notificações não serão enviadas para aumentar a contagem de impressões. Isso deve ser usado quando você deseja apenas renderizar novamente um componente em uma página com uma oferta. |
 
@@ -210,7 +210,7 @@ Há duas melhorias importantes no painel [Modificações](/help/main/c-experienc
 
 **Painel de modificações**
 
-Como mostrado abaixo, o painel [!UICONTROL Modifications] captura as ações criadas para uma exibição específica. Observe que todas as ações para uma Exibição são agrupadas nessa Exibição.
+Como mostrado abaixo, o painel [!UICONTROL Modificações] captura as ações criadas para uma exibição específica. Observe que todas as ações para uma Exibição são agrupadas nessa Exibição.
 
 **Ações**
 
@@ -224,8 +224,8 @@ A seguinte tabela descreve cada ação:
 | --- | --- |
 | Informações | Exibe os detalhes da ação. |
 | Editar | Permite editar as propriedades da ação diretamente. |
-| Clonar | Clona a ação a uma ou mais Exibições que existem no painel [!UICONTROL Modifications] ou a uma ou mais Exibições que você buscou e nas quais navegou no VEC. A ação não precisa existir necessariamente no painel [!UICONTROL Modifications].<br>**Observação**: após a realização de uma operação de clonagem, é necessário navegar para a Exibição no VEC via [!UICONTROL Browse] para ver se a ação clonada foi uma operação válida. Se a ação não puder ser aplicada à Exibição, você verá um erro. |
-| Mover | Move a ação para um Evento de Carregamento de Página ou qualquer outro Modo de Exibição que já existe no painel de modificações.<br>[!UICONTROL Page Load Event] - qualquer ação correspondente ao evento de carregamento de página é aplicada no carregamento inicial da página no aplicativo da web.<br>**Observação**: após a realização de uma operação de mover, é necessário navegar para a Exibição no VEC via Procurar para ver se a movimentação foi uma operação válida. Se a ação não puder ser aplicada à Exibição, você verá um erro |
+| Clonar | Clona a ação a uma ou mais Exibições que existem no painel [!UICONTROL Modificações] ou a uma ou mais Exibições que você buscou e nas quais navegou no VEC. A ação não precisa existir necessariamente no painel [!UICONTROL Modificações].<br>**Observação**: após a realização de uma operação de clonagem, é necessário navegar para o Modo de Exibição no VEC via [!UICONTROL Procurar] para ver se a ação clonada foi uma operação válida. Se a ação não puder ser aplicada à Exibição, você verá um erro. |
+| Mover | Move a ação para um Evento de carregamento de página ou qualquer outra Exibição que já existe no painel de modificações.<br>[!UICONTROL Evento de carregamento de página] - qualquer ação correspondente ao evento de carregamento de página é aplicada no carregamento inicial da página no aplicativo da Web.<br>**Observação**: após a realização de uma operação de mover, é necessário navegar para a Exibição no VEC via Procurar para ver se a movimentação foi uma operação válida. Se a ação não puder ser aplicada à Exibição, você verá um erro |
 | Excluir | Exclui a ação. |
 
 >[!NOTE]
@@ -239,7 +239,7 @@ Vamos consultar o exemplo acima em que criamos uma exibição de Página inicial
 1. Altere os botões Adicionar ao carrinho e Curtir para uma cor azul mais clara. Isso deve estar em um &quot;Carregamento de página&quot; porque estamos alterando componentes do cabeçalho.
 1. Altere o rótulo &quot;Produtos mais recentes de 2019&quot; para &quot;Produtos de teste simples para 2019&quot; com a cor do texto alterada para violeta.
 
-Para executar essas metas, no VEC, clique em [!UICONTROL Compose] e aplique essas alterações na exibição Início.
+Para executar essas metas, no VEC, clique em [!UICONTROL Compor] e aplique essas alterações na exibição inicial.
 
 ![Exemplo 1](/help/main/c-experiences/assets/example1.png)
 
@@ -247,9 +247,9 @@ Para executar essas metas, no VEC, clique em [!UICONTROL Compose] e aplique essa
 
 Vamos consultar o exemplo acima em que criamos uma visualização PRODUCTS-PAGE-2. Nosso objetivo é alterar o rótulo &quot;Preço&quot; para &quot;Preço de venda&quot; com a cor do rótulo em vermelho.
 
-1. Clique em [!UICONTROL Browse] e, em seguida, clique no link [!UICONTROL Products] no cabeçalho.
-1. Clique em [!UICONTROL Load More] uma vez para ir até a segunda linha de produtos.
-1. Clique em [!UICONTROL Compose].
+1. Clique em [!UICONTROL Procurar] e no link [!UICONTROL Produtos] no cabeçalho.
+1. Clique em [!UICONTROL Carregar mais] uma vez para ir até a segunda linha de produtos.
+1. Clique em [!UICONTROL Compor].
 1. Aplique ações a fim de alterar o rótulo do texto para &quot;Preço de venda&quot; e a cor como vermelho.
 
 ![Exemplo 2](/help/main/c-experiences/assets/example2.png)
@@ -258,12 +258,12 @@ Vamos consultar o exemplo acima em que criamos uma visualização PRODUCTS-PAGE-
 
 Por fim, como mencionado anteriormente, as Exibições podem ser definidas em nível granular. As exibições podem ser um estado ou até mesmo uma opção de um botão de opção. Anteriormente criamos Exibições como CHECKOUT-EXPRESS e CHECKOUT-NORMAL. Nosso objetivo é alterar a cor do botão para a exibição CHECKOUT-EXPRESS.
 
-1. Clique em [!UICONTROL Browse].
+1. Clique em [!UICONTROL Procurar].
 1. Adicione alguns produtos ao carrinho.
 1. Clique no ícone do carrinho no canto superior direito.
 1. Clique em Check-out do pedido.
 1. Clique no botão de opção Entrega expressa.
-1. Clique em [!UICONTROL Compose].
+1. Clique em [!UICONTROL Compor].
 1. Altere o botão &quot;Pagar&quot; para ler o botão &quot;Concluir o pedido&quot; e altere a cor para vermelho.
 
 ![Exemplo 3](/help/main/c-experiences/assets/example3.png)
@@ -364,7 +364,7 @@ Sim, a at.js 2.x suporta o A4T para SPA por meio da função `triggerView()`, po
 
 **Se a at.js 2.x for instalada e implementada `triggerView()` em nossos sites, como é possível executar atividades A/B de Direcionamento automático, já que a SPA do VEC não é compatível com o Direcionamento automático?**
 
-Se você quiser usar atividades A/B de Direcionamento automático, mova todas as suas ações para serem executadas no Evento de carregamento de página no VEC. Passe o mouse sobre cada ação e clique no botão [!UICONTROL Move to Page Load Event]. Depois de fazer isso, na próxima etapa você pode selecionar o Direcionamento automático para o método de alocação de tráfego.
+Se você quiser usar atividades A/B de Direcionamento automático, mova todas as suas ações para serem executadas no Evento de carregamento de página no VEC. Passe o mouse sobre cada ação e clique no botão [!UICONTROL Mover para o evento de carregamento de página]. Depois de fazer isso, na próxima etapa você pode selecionar o Direcionamento automático para o método de alocação de tráfego.
 
 ## Integrações compatíveis
 
@@ -389,15 +389,15 @@ Se você quiser usar atividades A/B de Direcionamento automático, mova todas as
 
 ## Configurações de entrega de página para o SPA VEC {#page-delivery-settings}
 
-As configurações do [!UICONTROL Page Delivery] permitem definir regras para determinar quando uma atividade do Target deve ser qualificada e executada para um público-alvo.
+As configurações de [!UICONTROL Entrega de página] permitem definir regras para determinar quando uma atividade do Target deve ser qualificada e executada para um público-alvo.
 
-Para acessar as opções [!UICONTROL Page Delivery] no fluxo de trabalho de criação de atividade guiado de três partes do VEC, na etapa **[!UICONTROL Experiences]**, clique em **[!UICONTROL Configure]** (ícone de engrenagem) > **[!UICONTROL Page Delivery]**.
+Para acessar as opções de [!UICONTROL Entrega de página] no fluxo de trabalho de criação de atividade guiado de três partes do VEC, na etapa **[!UICONTROL Experiências]**, clique em **[!UICONTROL Configurar]** (ícone de engrenagem) > **[!UICONTROL Entrega de página]**.
 
 ![Caixa de diálogo de opções de Entrega de página](/help/main/c-experiences/assets/page-delivery.png)
 
-Por exemplo, conforme definido pelas configurações de [!UICONTROL Page Delivery] mostradas acima, uma atividade do Target é qualificada e executada quando um visitante acessa diretamente `https://www.adobe.com` *ou* quando um visitante acessa qualquer URL que contém `https://www.adobe.com/br/products`. Isso funciona perfeitamente para aplicativos de várias páginas em que cada interação com a página chama um recarregamento de página, para o qual a at.js recupera as atividades qualificadas para o URL ao qual o usuário navega.
+Por exemplo, conforme definido pelas configurações de [!UICONTROL Entrega de página] mostradas acima, uma atividade do Target é qualificada e executada quando um visitante acessa diretamente o `https://www.adobe.com` *ou* quando um visitante acessa qualquer URL que contém `https://www.adobe.com/br/products`. Isso funciona perfeitamente para aplicativos de várias páginas em que cada interação com a página chama um recarregamento de página, para o qual a at.js recupera as atividades qualificadas para o URL ao qual o usuário navega.
 
-No entanto, como os SPAs funcionam de forma diferente, as configurações [!UICONTROL Page Delivery] devem ser definidas de modo a permitir que todas as ações sejam aplicadas às Exibições, conforme definido na atividade de SPA VEC.
+No entanto, como os SPAs funcionam de forma diferente, as configurações de [!UICONTROL Entrega de página] devem ser definidas de modo a permitir que todas as ações sejam aplicadas às Exibições, conforme definido na atividade de SPA VEC.
 
 ### Exemplo de caso de uso
 
@@ -410,7 +410,7 @@ As seguintes alterações foram feitas:
 * Alteração da cor de fundo no modo de exibição Início, localizado na URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/).
 * Alteração da cor do botão na exibição Produtos, localizada na URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/products).
 
-Com o exemplo acima em mente, o que acontece quando definimos as configurações de [!UICONTROL Page Delivery] para incluir apenas: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/) em um SPA com at.js 2.*x*?
+Com o exemplo acima em mente, o que acontece quando definimos as configurações de [!UICONTROL Entrega de página] para incluir apenas: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=pt-BR#/) em um SPA com at.js 2.*x*?
 
 ![Caixa de diálogo Entrega de página](/help/main/c-experiences/assets/spa-page-delivery.png)
 
@@ -447,11 +447,11 @@ Por exemplo, para resolver o problema acima, é possível especificar o URL base
 
 Isso garante que, sempre que um visitante acessar o SPA e navegar até a exibição Início ou Página, ele veja as ações aplicadas.
 
-Agora, sempre que você adicionar uma ação a uma Exibição no SPA VEC, mostraremos a seguinte mensagem pop-up para lembrá-lo de pensar nas regras de [!UICONTROL Page Delivery].
+Agora, sempre que você adicionar uma ação a uma Exibição no SPA VEC, mostraremos a seguinte mensagem pop-up para lembrá-lo de pensar nas regras de [!UICONTROL Entrega de página].
 
 ![Mensagem das configurações de Entrega de página](/help/main/c-experiences/assets/pop-up-message.png)
 
-Esta mensagem é exibida quando você adiciona a primeira ação a uma Exibição para cada atividade nova criada. Esta mensagem ajuda a garantir que todos na organização saibam aplicar essas [!UICONTROL Page Delivery] regras corretamente.
+Esta mensagem é exibida quando você adiciona a primeira ação a uma Exibição para cada atividade nova criada. Esta mensagem ajuda a garantir que todos na organização saibam aplicar essas regras de [!UICONTROL Entrega de página] corretamente.
 
 ## Vídeo de treinamento: uso do VEC para SPAs no Adobe Target
 

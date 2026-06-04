@@ -1,7 +1,7 @@
 ---
 keywords: prioridade; criação de experiência; prioridade; experiência; público-alvo; experiência; troca de experiências; visual experience composer
-description: Saiba como os visitantes podem alternar entre experiências em uma atividade  [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) conforme seus perfis evoluem.
-title: Os visitantes podem trocar experiências em uma atividade [!UICONTROL Experience Targeting]?
+description: Saiba como os visitantes podem alternar entre experiências em uma atividade de [!DNL Adobe Target] [!UICONTROL Direcionamento de experiência] (XT) conforme seus perfis evoluem.
+title: Os visitantes podem trocar experiências em uma atividade de [!UICONTROL Direcionamento de experiência]?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 TQID: https://experienceleague.adobe.com/4bBukCristluFUClhewMcSsNMTPjLjXEqM1QyyropKU
@@ -13,14 +13,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 723
-ht-degree: 41%
+source-wordcount: 741
+ht-degree: 40%
 
 ---
 
-# Alternando experiências no [!UICONTROL Experience Targeting]
+# Alternando experiências no [!UICONTROL Direcionamento de experiência]
 
-Com o [!UICONTROL Experience Targeting], você pode controlar quais experiências os visitantes verão à medida que seus perfis evoluírem.
+Com o [!UICONTROL Direcionamento de experiência], você pode controlar quais visitantes de experiência verão à medida que seus perfis evoluírem.
 
 A lista a seguir apresenta apenas alguns cenários nos quais os perfis dos visitantes podem evoluir e você pode apresentar conteúdo diferente com base nessas alterações:
 
@@ -31,10 +31,10 @@ A lista a seguir apresenta apenas alguns cenários nos quais os perfis dos visit
 | Afinidade de categorias | O recurso [afinidade de categorias](/help/main/c-target/c-visitor-profile/category-affinity.md) em [!DNL Target] captura automaticamente a exibição de categorias de visitantes e calcula a afinidade de visitantes com a categoria para fins de direcionamento. Por exemplo, os visitantes que visualizaram vários artigos em seu site sobre um assunto específico são apresentados com conteúdo relacionado a esse assunto. |
 | Dias da semana | À medida que o fim de semana se aproxima, você pode querer mostrar aos visitantes um conteúdo sobre filmes, refeições ou outras formas de entretenimento. |
 
-Para usar esses recursos no [!DNL Target], é importante compreender as seguintes informações ao trabalhar com as atividades do [!UICONTROL Experience Targeting]:
+Para usar esses recursos no [!DNL Target], é importante entender as seguintes informações ao trabalhar com as atividades de [!UICONTROL Direcionamento de experiência]:
 
 * **A prioridade é controlada pela ordem das experiências, de cima para baixo.** Se um visitante se qualificar para mais de dois públicos-alvo, ele receberá conteúdo da experiência de prioridade mais alta.
-* **Os visitantes alternarão entre experiências em uma atividade [!UICONTROL Experience Targeting] se começarem a se qualificar para o público-alvo de uma experiência de prioridade mais alta.**
+* **Os visitantes alternam entre experiências em uma atividade de [!UICONTROL Direcionamento de experiência] se começarem a se qualificar para o público-alvo de uma experiência de prioridade mais alta.**
 
   Por exemplo, na configuração de atividade a seguir, um visitante acessou o seu site dos Estados Unidos e depois viajou para a Alemanha e visitou o seu site uma segunda vez. Durante a primeira visita, este visitante se qualificou para a Experiência A (visitante dos EUA). Após visualizar o seu site na Alemanha, esse visitante mudou para a Experiência B (visitante da Alemanha).
 
@@ -47,7 +47,7 @@ Para usar esses recursos no [!DNL Target], é importante compreender as seguinte
 
   ![Prioridade dos EUA > Alemanha](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-refresh.png)
 
-* **Uma experiência direcionada para &quot;Todos os visitantes&quot; pode ser usada como a última experiência na atividade [!UICONTROL Experience Targeting] para &quot;capturar&quot; todos os visitantes que não se qualificaram para nenhuma outra experiência. Se uma experiência direcionada para &quot;Todos os visitantes&quot; não for a última na ordem, outras experiências direcionadas listadas abaixo dessa experiência ainda serão avaliadas.**
+* **Uma experiência direcionada para &quot;Todos os visitantes&quot; pode ser usada como a última experiência na atividade [!UICONTROL Direcionamento de experiência] para &quot;capturar&quot; todos os visitantes que não se qualificaram para nenhuma outra experiência. Se uma experiência direcionada para &quot;Todos os visitantes&quot; não for a última na ordem, outras experiências direcionadas listadas abaixo dessa experiência ainda serão avaliadas.**
 
   Por exemplo, na configuração de atividade a seguir, um visitante acessou o seu site dos Estados Unidos e depois viajou para a Alemanha e visitou o seu site uma segunda vez. Durante a primeira visita, este visitante se qualificou para a Experiência A (visitante dos EUA). Após visualizar o seu site na Alemanha, esse visitante permanece na Experiência A (visitante dos EUA).
 
@@ -57,11 +57,11 @@ Para usar esses recursos no [!DNL Target], é importante compreender as seguinte
 
   ![Prioridade dos EUA > Não EUA](/help/main/c-activities/t-experience-target/t-xt-create/assets/not-us.png)
 
-* **Com uma atividade [!UICONTROL Experience Targeting] de experiência única, os visitantes permanecem em uma experiência mesmo que deixem de se qualificar para o público-alvo que os colocou nessa experiência.**
+* **Com uma atividade de [!UICONTROL Direcionamento de experiência] de experiência única, os visitantes permanecem em uma experiência mesmo que deixem de se qualificar para o público-alvo que os colocou nessa experiência.**
 
   Se isso não for desejado, você poderá criar outra experiência direcionada para o público-alvo inverso (por exemplo, &quot;Não dos Estados Unidos&quot;, em vez de &quot;Estados Unidos&quot;).
 
-  Como outra opção, você pode criar uma atividade do [!UICONTROL A/B Test] direcionada para o seu público-alvo desejado com 100% de alocação de tráfego, conforme mostrado abaixo:
+  Como outra opção, você pode criar uma atividade de [!UICONTROL Teste A/B] direcionada para o público-alvo desejado com 100% de alocação de tráfego, conforme mostrado abaixo:
 
   ![Prioridade de uma experiência](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_one_experience-refresh.png)
 

@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1083
+source-wordcount: 1089
 ht-degree: 60%
 
 ---
@@ -215,7 +215,7 @@ O resultado é um design como o seguinte, em que uma coluna mostra o item chave.
 
 ![imagem da rec_key](assets/rec_key.png)
 
-Ao criar sua atividade do [!DNL Recommendations], se o item chave for obtido do perfil do visitante, como &quot;último item comprado&quot;, o [!DNL Target] exibe um produto aleatório no [!UICONTROL Visual Experience Composer] (VEC). Isso ocorre porque um perfil não está disponível enquanto você projeta a atividade. Quando os visitantes visualizam a página, eles verão o item chave esperado.
+Quando você está criando sua atividade do [!DNL Recommendations], se o item chave é obtido do perfil do visitante, como &quot;último item comprado&quot;, o [!DNL Target] exibe um produto aleatório no [!UICONTROL Visual Experience Composer] (VEC). Isso ocorre porque um perfil não está disponível enquanto você projeta a atividade. Quando os visitantes visualizam a página, eles verão o item chave esperado.
 
 ## Executar substituições em um valor de sequência. {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -245,7 +245,7 @@ O código a seguir é um exemplo condicional completo de um preço de venda:
 
 ## Personalizar o tamanho do modelo e procurar valores em branco {#default}
 
-Usando um script [!DNL Velocity] para controlar o dimensionamento dinâmico da exibição da entidade, o modelo a seguir acomoda um resultado de 1 para muitos para evitar a criação de elementos HTML vazios quando não forem retornadas entidades correspondentes suficientes de [!DNL Recommendations]. Este script é mais adequado para cenários nos quais as recomendações reserva não fazem sentido e em que o [!UICONTROL Partial Template Rendering] está habilitado.
+Usando um script [!DNL Velocity] para controlar o dimensionamento dinâmico da exibição da entidade, o modelo a seguir acomoda um resultado de 1 para muitos para evitar a criação de elementos HTML vazios quando não forem retornadas entidades correspondentes suficientes de [!DNL Recommendations]. Este script é mais adequado para cenários nos quais as recomendações reserva não fazem sentido e nos quais a [!UICONTROL Renderização parcial do modelo] está habilitada.
 
 O trecho HTML a seguir substitui a porção HTML existente no design 4 x 2 padrão (o CSS não está incluído aqui por motivos de brevidade):
 

@@ -17,7 +17,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2624
+source-wordcount: 2699
 ht-degree: 27%
 
 ---
@@ -31,7 +31,7 @@ Este tópico contém respostas para as perguntas mais frequentes sobre exibiçã
 +++Resposta
 Você pode usar o [!DNL Analysis Workspace] para analisar suas atividades e experiências no [!DNL Target]. O [painel Analytics for Target](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=pt-BR) permite que você veja o incentivo e a confiança para até três métricas de sucesso. Também é possível pesquisar mais usando tabelas e visualizações.
 
-Para obter informações e exemplos detalhados, abra o [tutorial do Analytics &amp; Target: práticas recomendadas para análise](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornecido por [!UICONTROL Adobe Experience League].
+Para obter informações e exemplos detalhados, abra o [tutorial do Analytics &amp; Target: práticas recomendadas para análise](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornecido pelo [!UICONTROL Adobe Experience League].
 
 +++
 
@@ -60,10 +60,10 @@ Ao segmentar para que uma atividade esteja presente em uma ocorrência, você ob
 
 +++
 
-## Ao configurar meu [!UICONTROL Goal Metrics], por que não posso acessar o [!UICONTROL Advanced Settings]?
+## Ao configurar minhas [!UICONTROL Métricas de meta], por que não posso acessar as [!UICONTROL Configurações Avançadas]?
 
 +++Resposta
-Para atividades que usam [!DNL Analytics] como fonte de relatórios (A4T), a métrica de meta usa as configurações &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; e &quot;[!UICONTROL On Every Impression]&quot;. Estas configurações são *não* configuráveis.
+Para atividades que usam [!DNL Analytics] como fonte de relatórios (A4T), a métrica de meta usa as configurações &quot;[!UICONTROL Incrementar contagem e manter usuário na atividade]&quot; e &quot;[!UICONTROL Em todas as impressões]&quot;. Estas configurações são *não* configuráveis.
 
 Para obter mais informações, consulte &quot;Ao configurar minhas métricas de meta, por que não posso acessar as opções de Configurações avançadas?&quot; em [Definições de métrica - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
@@ -83,18 +83,18 @@ Quando um visitante exibe uma página que contém uma atividade, uma variável �
 Considere o seguinte:
 
 * As métricas acima são acionadas quando um usuário se qualifica para uma atividade e o conteúdo é retornado de [!DNL Target]. Isso não significa necessariamente que o usuário viu a oferta. Se uma experiência de atividade estiver abaixo da dobra e o usuário não rolar a página para baixo, a oferta foi distribuída pelo [!DNL Target], mas não foi vista pelo usuário.
-* [!UICONTROL Activity Impressions] (medido por [!DNL Target]) e [!UICONTROL Instances] (medido por [!DNL Analytics]) são iguais, a menos que haja várias chamadas de mbox na mesma página e na mesma atividade. Isso faz com que vários [!UICONTROL Activity Impressions] sejam contados, mas somente um único [!UICONTROL Instance].
+* [!UICONTROL Impressões de Atividade] (medidas por [!DNL Target]) e [!UICONTROL Instâncias] (medidas por [!DNL Analytics]) são iguais, a menos que haja várias chamadas de mbox na mesma página e na mesma atividade. Isso faz com que várias [!UICONTROL Impressões de atividade] sejam contadas, mas somente uma única [!UICONTROL Instância].
 
 Para obter mais informações, consulte [Como configurar relatórios do A4T no Analysis Workspace para atividades de Direcionamento automático](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=pt-BR) em *Tutoriais do Adobe Target*.
 
 +++
 
-## Por que &quot;impressões de atividades&quot; e &quot;conversões de atividades&quot; são maiores em [!DNL Analysis Workspace] do que em [!UICONTROL Reports & Analytics]? {#sametouch}
+## Por que as &quot;impressões de atividades&quot; e as &quot;conversões de atividades&quot; são maiores em [!DNL Analysis Workspace] do que em [!UICONTROL Reports &amp; Analytics]? {#sametouch}
 
 +++Resposta
 [!DNL Reports & Analytics] aplica um modelo de atribuição do mesmo toque a &quot;impressões de atividade&quot; e &quot;conversões de atividade&quot;, enquanto [!DNL Analysis Workspace] exibe as métricas brutas, que podem parecer infladas devido à persistência da dimensão [!DNL Target].
 
-Para avaliar métricas [!UICONTROL Activity Impressions] e [!UICONTROL Activity Conversions] precisas em [!DNL Analysis Workspace], verifique se ambas as métricas aplicaram modelos de atribuição [!UICONTROL Same Touch]. Os modelos podem ser aplicados clicando na engrenagem das configurações de coluna, habilitando [!UICONTROL Non-default attribution models] e selecionando [!UICONTROL Same Touch]. Saiba mais sobre atribuição em [Visão geral de IQ dos atributos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=pt-BR) no *Guia de ferramentas do Analytics*.
+Para avaliar métricas [!UICONTROL Impressões de atividade] e [!UICONTROL Conversões de atividade] precisas em [!DNL Analysis Workspace], verifique se ambas as métricas aplicaram modelos de atribuição [!UICONTROL Mesmo contato]. Os modelos podem ser aplicados clicando na engrenagem das configurações de coluna, habilitando [!UICONTROL Modelos de atribuição não padrão] e selecionando [!UICONTROL Mesmo toque]. Saiba mais sobre atribuição em [Visão geral de IQ dos atributos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=pt-BR) no *Guia de ferramentas do Analytics*.
 
 +++
 
@@ -123,7 +123,7 @@ A variável do [!DNL Target] enviada para o [!DNL Analytics] tem um período de 
 
 Você pode ver [!DNL Target] variáveis enviadas para [!DNL Analytics] após o período de expiração, pois a expiração é de 90 dias, mas somente se esse usuário nunca vir outra atividade [!DNL Target] habilitada para A4T. Se um usuário voltar ao site no dia 45 e vir outra atividade, todo o valor eVar do A4T terá seu contador redefinido para 90 dias. Isso significa que a primeira campanha do dia 1 agora pode persistir por até 45 + 90 = 135 dias. Se o usuário continuar voltando, você pode chegar ao ponto em que vê as métricas enviadas para [!DNL Analytics] em seus relatórios de atividades muito mais antigas. À medida que os usuários excluem cookies e não retornam ao site, os números nessa atividade caem, mas você ainda pode vê-los.
 
-Isso significa que as atividades continuam a obter exibições de página, visitas e assim por diante, por até 90 dias após o término da atividade para visitantes que se tornaram parte da atividade enquanto ela estava ativa. No entanto, se você observar a métrica [!UICONTROL Activity Impressions], não verá nenhuma impressão após o término da atividade.
+Isso significa que as atividades continuam a obter exibições de página, visitas e assim por diante, por até 90 dias após o término da atividade para visitantes que se tornaram parte da atividade enquanto ela estava ativa. No entanto, se você observar a métrica [!UICONTROL Impressões de atividades], não verá impressões depois que a atividade terminar.
 
 Esse é um comportamento normal e esperado. A variável A4T funciona como qualquer outro eVar. O valor é associado ao usuário até atingir o período de expiração (90 dias). Como resultado, se uma atividade estiver ativa por apenas duas semanas, o valor ainda será associado ao usuário pelos próximos 90 dias.
 
@@ -171,14 +171,14 @@ Uma fonte de impressões para um relatório de atividade do A4T após a desativa
 
 +++
 
-## Por que o [!DNL Analytics] e o [!UICONTROL Analytics for Adobe Target] (A4T) calculam números para a métrica [!UICONTROL Unique Visitors] de forma diferente? {#section_0C3B648AB54041F9A2AA839D51791883}
+## Por que o [!DNL Analytics] e o [!UICONTROL Analytics for Adobe Target] (A4T) calculam números para a métrica [!UICONTROL Visitantes únicos] de forma diferente? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 +++Resposta
 Quando você executa um teste A/B, que usa o [teste t de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (a métrica de confiança) para escolher um vencedor de um teste, uma das premissas é que há um horizonte de tempo fixo. O teste não é estatisticamente válido a menos que você esteja olhando para esse tamanho fixo de amostra.
 
-A métrica [!UICONTROL Unique Visitors] é diferente em [!DNL Analytics] e [!DNL Target] somente quando você está observando um período mais curto que o teste real. Se você não tiver atingido o tamanho da amostra, o teste não será tão confiável. Consulte [Como não executar um teste A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) no [site de Evan Miller](https://www.evanmiller.org/index.html) para obter mais informações.
+A métrica [!UICONTROL Visitantes únicos] é diferente em [!DNL Analytics] e [!DNL Target] somente quando você está observando um período mais curto que o teste real. Se você não tiver atingido o tamanho da amostra, o teste não será tão confiável. Consulte [Como não executar um teste A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) no [site de Evan Miller](https://www.evanmiller.org/index.html) para obter mais informações.
 
-A métrica [!UICONTROL Unique Visitors] exibe o número de pessoas que foram expostas ao teste que visitaram o site durante o período especificado. Essas pessoas fazem parte do teste e devem ser contadas. Se quiser ver apenas o número de pessoas que foram expostas durante uma única semana, você pode criar um segmento de visitantes que tiveram uma impressão de atividade e aplicá-lo ao relatório.
+A métrica [!UICONTROL Visitantes únicos] exibe o número de pessoas que foram expostas ao teste que visitaram o site durante o período especificado. Essas pessoas fazem parte do teste e devem ser contadas. Se quiser ver apenas o número de pessoas que foram expostas durante uma única semana, você pode criar um segmento de visitantes que tiveram uma impressão de atividade e aplicá-lo ao relatório.
 
 Você pode encurtar a quantidade de tempo que a variável [!DNL Target] persiste para uma sessão; no entanto, isso é problemático para testes em que o evento de conversão não tem a mesma probabilidade de ocorrer na mesma sessão.
 
@@ -198,7 +198,7 @@ A lista a seguir explica os motivos pelos quais o mesmo visitante pode ser conta
 ## O A4T suporta conjuntos de relatórios virtuais? {#virtual}
 
 +++Resposta
-Embora os conjuntos de relatórios virtuais não estejam incluídos na lista [!UICONTROL Report Suite], quaisquer dados A4T compartilhados com um conjunto de relatórios que esteja vinculado a um conjunto de relatórios virtual no [!DNL Analytics] terão acesso a esses dados. Observe que qualquer público criado a partir de um conjunto de relatórios virtual não pode ser compartilhado novamente com [!DNL Target].
+Embora os conjuntos de relatórios virtuais não estejam incluídos na lista [!UICONTROL Conjunto de relatórios], todos os dados A4T compartilhados com um conjunto de relatórios vinculado a um conjunto de relatórios virtual no [!DNL Analytics] terão acesso a esses dados. Observe que qualquer público criado a partir de um conjunto de relatórios virtual não pode ser compartilhado novamente com [!DNL Target].
 
 +++
 
@@ -211,7 +211,7 @@ Como prática recomendada, você deve interromper a atividade existente e criar 
 
 +++
 
-## Como as visitas são contadas em [!DNL Analytics] e o crédito de conversão é alocado em uma atividade [!UICONTROL Auto-Target] que usa o A4T?
+## Como as visitas são contadas em [!DNL Analytics] e o crédito de conversão é alocado em uma atividade de [!UICONTROL Direcionamento automático] que usa o A4T?
 
 +++Resposta
 Quando um visitante é qualificado para, visualiza conteúdo ou converte em uma atividade A4T, [!DNL Target] envia dados do evento para [!DNL Analytics]. Estes dados de evento permitem que o [!DNL Analytics] atribua eventos de conversão e outros eventos de sequência de cliques que ocorrem na página às atividades e experiências relevantes do [!DNL Target].
@@ -220,8 +220,8 @@ Lembre-se de alguns pontos ao visualizar os relatórios de [!DNL Analytics]:
 
 * Em geral, como prática recomendada, a janela de relatórios deve começar a partir da data de início da atividade.
 * Se ocorrer uma conversão fora da janela do relatório, ela não estará visível em [!DNL Analytics].
-* Quando estiver na parte &quot;direcionada&quot; do tráfego para [!UICONTROL Auto-Target] atividades, os visitantes poderão ver experiências diferentes de uma sessão para outra. Por exemplo, se o perfil ou contexto mudou e os algoritmos de aprendizado de máquina do [!DNL Target] decidem que têm mais probabilidade de ser convertidos em uma nova experiência. À medida que os visitantes mudam de experiência para experiência, a contagem de visitas é incrementada para cada experiência vista. Isso é diferente das atividades normais de Teste A/B, onde as experiências são fixas a um visitante nas visitas.
-* Se um visitante visualizar várias experiências nas visitas, qualquer conversão será sempre atribuída à última experiência que o visitante viu. Como mencionado, a contagem de visitas aumenta para cada experiência que o visitante viu. Isso pode reduzir artificialmente as taxas de conversão por experiência ao exibir experiências na dimensão &quot;[!UICONTROL Targeted]&quot; nos relatórios [!DNL Adobe Analytics].
+* Quando estiver na parte &quot;direcionada&quot; do tráfego para atividades de [!UICONTROL Direcionamento automático], os visitantes poderão ver experiências diferentes de uma sessão para outra. Por exemplo, se o perfil ou contexto mudou e os algoritmos de aprendizado de máquina do [!DNL Target] decidem que têm mais probabilidade de ser convertidos em uma nova experiência. À medida que os visitantes mudam de experiência para experiência, a contagem de visitas é incrementada para cada experiência vista. Isso é diferente das atividades normais de Teste A/B, onde as experiências são fixas a um visitante nas visitas.
+* Se um visitante visualizar várias experiências nas visitas, qualquer conversão será sempre atribuída à última experiência que o visitante viu. Como mencionado, a contagem de visitas aumenta para cada experiência que o visitante viu. Isso pode reduzir artificialmente as taxas de conversão por experiência ao exibir experiências na dimensão &quot;[!UICONTROL Direcionado]&quot; nos relatórios [!DNL Adobe Analytics].
 
 +++
 
@@ -231,10 +231,10 @@ Lembre-se de alguns pontos ao visualizar os relatórios de [!DNL Analytics]:
 
 Para exibir as impressões da atividade em [!DNL Analysis Workspace]:
 
-1. Na interface do usuário do [!DNL Target], clique em **[!UICONTROL View in Analytics]**.
-1. Adicionar a coluna **[!UICONTROL Activity Impressions]** ao relatório [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR){target=_blank}.
-1. Na coluna **[!UICONTROL Activity Impressions]**, clique no ícone [!UICONTROL Gear].
-1. Clique em **[!UICONTROL Use non-default attribution model]**.
-1. Selecione **[!UICONTROL Same Touch Model]** > **[!UICONTROL Apply]**.
+1. Na interface do usuário do [!DNL Target], clique em **[!UICONTROL Exibir no Analytics]**.
+1. Adicione a coluna **[!UICONTROL Impressões da atividade]** ao relatório [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR){target=_blank}.
+1. Na coluna **[!UICONTROL Impressões de atividade]**, clique no ícone [!UICONTROL Engrenagem].
+1. Clique em **[!UICONTROL Usar modelo de atribuição não padrão]**.
+1. Selecione **[!UICONTROL Mesmo modelo de toque]** > **[!UICONTROL Aplicar]**.
 
 +++

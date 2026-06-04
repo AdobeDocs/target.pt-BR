@@ -1,7 +1,7 @@
 ---
 keywords: Direcionamento; eec; visual experience composer; solucionar problemas do enhanced experience composer; solução de problemas
-description: Saiba como solucionar problemas que às vezes ocorrem no  [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) sob determinadas condições.
-title: Como solucionar problemas relacionados ao [!UICONTROL Enhanced Experience Composer]?
+description: Saiba como solucionar problemas que às vezes ocorrem no [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) sob determinadas condições.
+title: Como soluciono problemas relacionados ao [!UICONTROL Enhanced Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 TQID: https://experienceleague.adobe.com/Yan2cKWjs-u9JHQzT-PiRAFdxUJa1JSHS-fT68yxIjg
@@ -16,8 +16,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 479
-ht-degree: 28%
+source-wordcount: 509
+ht-degree: 29%
 
 ---
 
@@ -143,29 +143,29 @@ Você poderá ver a seguinte mensagem de erro em [!DNL Target]:
 
 Os motivos pelos quais você pode ver essa mensagem de erro e correções para corrigir a situação são:
 
-* **Problema:** o domínio do site (ISP) está bloqueando o [!UICONTROL Enhanced Experience Composer].
+* **Problema:** o domínio do seu site (ISP) está bloqueando o [!UICONTROL Enhanced Experience Composer].
 
   **Solução:** Inclua na lista de permissões os endereços IP listados acima.
 
 * **Problema:** os endereços IP são resolvidos, mas o seu site não é compatível com a versão 1.2 do TLS. Atualmente, o [!DNL Target] usa a configuração padrão 1.2. Antes do [!DNL Target] 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com TLS 1.0. Para obter mais informações, consulte [Alterações na criptografia do TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=pt-BR){target=_blank}.
 
-  **Solução:** veja a seguinte pergunta (O [!UICONTROL Enhanced Visual Experience Composer] não será carregado nas páginas seguras do meu site que usam TLS 1.2).
+  **Solução:** Veja a seguinte pergunta (O [!UICONTROL Enhanced Visual Experience Composer] não será carregado nas páginas seguras do meu site que usam TLS 1.2).
 
 +++
 
 ## O EEC não será carregado nas páginas seguras do meu site que usam TLS 1.0. (Somente EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++Detalhes
-Você poderá ver a mensagem de erro descrita acima em &quot;O [!UICONTROL Enhanced Visual Experience Composer] não será carregado nas páginas seguras do meu site&quot;. se os endereços IP acima forem resolvidos, mas o seu site não for compatível com a versão 1.2 do TLS. Atualmente, o [!DNL Target] usa a configuração padrão 1.2. Antes do [!DNL Target] 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com TLS 1.0. Para obter mais informações, consulte [Alterações na criptografia do TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=pt-BR){target=_blank}.
+Você poderá ver a mensagem de erro descrita acima em &quot;O [!UICONTROL Enhanced Visual Experience Composer] não será carregado nas páginas seguras do meu site.&quot; se os endereços IP acima forem resolvidos, mas o seu site não for compatível com a versão 1.2 do TLS. Atualmente, o [!DNL Target] usa a configuração padrão 1.2. Antes do [!DNL Target] 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com TLS 1.0. Para obter mais informações, consulte [Alterações na criptografia do TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=pt-BR){target=_blank}.
 
 Para verificar a versão do TLS no seu site usando o Firefox (outros navegadores têm etapas semelhantes):
 
 1. Abra o site afetado no Firefox.
-1. Clique no ícone **[!UICONTROL Show Site Information]** na barra de endereços do navegador.
+1. Clique no ícone **[!UICONTROL Mostrar informações do site]** na barra de endereços do navegador.
 
    ![imagem do firefox_more_info](assets/firefox_more_info.png)
 
-1. Clique em **[!UICONTROL Show Connection Details]** > **[!UICONTROL More Information]**.
+1. Clique em **[!UICONTROL Mostrar detalhes da conexão]** > **[!UICONTROL Mais informações]**.
 
    ![imagem do firefox_more_info_2](assets/firefox_more_info_2.png)
 

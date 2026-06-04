@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 944
+source-wordcount: 949
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Para evitar isso, e assim como em um teste A/B regular, você deve decidir antec
 
 Em um teste A/A, o objetivo seria *não* ver um resultado estatisticamente significativo depois que seu teste atingisse o tamanho de amostra desejado.
 
-O [!UICONTROL Adobe Target Sample Size Calculator] é uma ferramenta importante para ajudá-lo a determinar o tamanho da amostra que você deve apontar e por quanto tempo você deve executar o teste.
+A [!UICONTROL Calculadora de Tamanho da Amostra do Adobe Target] é uma ferramenta importante para ajudá-lo a determinar o tamanho da amostra que você deve apontar e por quanto tempo você deve executar o teste.
 
 * [Calculadora de tamanho do Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)
 

@@ -1,6 +1,6 @@
 ---
 keywords: Direcionamento;visual experience composer;whitelist;lista branca;incluir na lista de permissões;lista de permissões;enhanced visual experience composer;vec;solucionar problemas do visual experience composer;solução de problemas;eec;enhanced experience composer;tls;tls 1.2
-description: Saiba como solucionar problemas que às vezes ocorrem no  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) e no [!UICONTROL Enhanced Experience Composer] (EEC) sob determinadas condições.
+description: Saiba como solucionar problemas que ocorrem ocasionalmente no  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) e no [!UICONTROL Enhanced Experience Composer] (EEC) sob determinadas condições.
 title: Como soluciono problemas relacionados ao [!UICONTROL Visual Experience Composer] e ao [!UICONTROL Enhanced Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
@@ -19,8 +19,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1202
-ht-degree: 32%
+source-wordcount: 1271
+ht-degree: 31%
 
 ---
 
@@ -37,7 +37,7 @@ Esteja ciente das alterações que afetam o VEC e o EEC ao usar as seguintes ver
 >
 >A alteração a seguir afeta todas as três atualizações descritas abaixo:
 >
-> * *não* poderá usar o VEC sem a [extensão auxiliar do VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) instalada e habilitada para páginas protegidas por senha de seus sites. Os cookies de logon do site são considerados cookies de terceiros e não são enviados com solicitações de logon no editor do VEC no modo [!UICONTROL Browse]. A única exceção ocorre quando os cookies de logon do site já têm os atributos `SameSite=None` e `Secure` definidos.
+> * *não* poderá usar o VEC sem a [extensão auxiliar do VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) instalada e habilitada para páginas protegidas por senha de seus sites. Os cookies de logon do site são considerados cookies de terceiros e não são enviados com solicitações de logon no editor do VEC no modo [!UICONTROL Procurar]. A única exceção ocorre quando os cookies de logon do site já têm os atributos `SameSite=None` e `Secure` definidos.
 
 **Chrome 94 (21 de setembro de 2021)**: com as alterações iminentes planejadas para a versão do Chrome 94 (21 de setembro de 2021), a seguinte alteração afetará todos os usuários com versões do navegador Chrome 94+:
 
@@ -60,12 +60,12 @@ Esteja ciente das alterações que afetam o VEC e o EEC ao usar as seguintes ver
 +++Detalhes
 Para determinar quais cookies estão bloqueados devido às políticas de imposição de cookies SameSite, use o [!DNL Developer Tools] em [!DNL Chrome].
 
-1. Para acessar o [!DNL Developer Tools], ao exibir o VEC em [!DNL Chrome], clique no ícone **[!UICONTROL ellipsis]** no canto superior direito do Chrome > **[!UICONTROL More Tools]** > **[!UICONTROL Developer Tools]**.
-1. Clique na guia **[!UICONTROL Network]** > e procure por cookies bloqueados.
+1. Para acessar o [!DNL Developer Tools], ao exibir o VEC em [!DNL Chrome], clique no ícone de **[!UICONTROL reticências]** no canto superior direito do Chrome > **[!UICONTROL Mais Ferramentas]** > **[!UICONTROL Ferramentas do Desenvolvedor]**.
+1. Clique na guia **[!UICONTROL Rede]** > e procure cookies bloqueados.
 
    >[!NOTE]
    >
-   >Use a caixa de seleção **[!UICONTROL Has blocked cookies]** para facilitar a localização de cookies bloqueados.
+   >Use a caixa de seleção **[!UICONTROL Tem cookies bloqueados]** para facilitar a localização de cookies bloqueados.
 
 +++
 
@@ -81,7 +81,7 @@ Como solução, você pode adicionar uma página na experiência com o URL do if
 ## Quando eu tento editar uma página, só vejo um ponteiro, em vez da minha página. (VEC e EEC) {#section_313001039F79446DB28C70D932AF5F58}
 
 +++Detalhes
-Essa situação pode acontecer se o URL contiver um caractere #. Para corrigir o problema, alterne para o modo [!UICONTROL Browse] no VEC ou no EEC e alterne de volta para o modo [!UICONTROL Compose]. O ponteiro deverá sumir e a página deverá ser carregada.
+Essa situação pode acontecer se o URL contiver um caractere #. Para corrigir o problema, alterne para o modo [!UICONTROL Procurar] no VEC ou no EEC e alterne para o modo [!UICONTROL Compor]. O ponteiro deverá sumir e a página deverá ser carregada.
 
 +++
 
@@ -134,7 +134,7 @@ Se a mesma ID de elemento DOM for usada em vários elementos na página, a alter
 ## Não consigo editar experiências para um site do iFrame. (VEC e EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++Detalhes
-Esse problema pode ser resolvido habilitando o [!UICONTROL Enhanced Experience Composer] (EEC). Clique em **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]** e marque a caixa de seleção que habilita a [!UICONTROL Enhanced Experience Composer]. O EEC usa um proxy gerenciado por [!DNL Adobe] para carregar sua página para edição. Esse proxy permite a edição em sites com interrupção de iFrame e permite a edição em sites e páginas nos quais você ainda não adicionou o código [!DNL Adobe Target]. As atividades não são entregues ao site antes de o código ser adicionado. Alguns sites podem não ser carregados pelo EEC, nesse caso, você poderá desmarcar essa opção para carregar o EEC por meio de um iFrame.
+Esse problema pode ser resolvido habilitando o [!UICONTROL Enhanced Experience Composer] (EEC). Clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]** e marque a caixa de seleção que habilita o [!UICONTROL Enhanced Experience Composer]. O EEC usa um proxy gerenciado por [!DNL Adobe] para carregar sua página para edição. Esse proxy permite a edição em sites com interrupção de iFrame e permite a edição em sites e páginas nos quais você ainda não adicionou o código [!DNL Adobe Target]. As atividades não são entregues ao site antes de o código ser adicionado. Alguns sites podem não ser carregados pelo EEC, nesse caso, você poderá desmarcar essa opção para carregar o EEC por meio de um iFrame.
 
 >[!NOTE]
 >
@@ -149,14 +149,14 @@ Consulte &quot;Não consigo editar experiências para um site do iFrame&quot;.
 
 +++
 
-## Os estilos de texto em negrito e itálico com [!UICONTROL Edit Text]/[!UICONTROL Edit HTML] ou [!UICONTROL Change Text]/[!DNL Change HTML] não aparecem na minha página. Às vezes, o texto desaparece após aplicar essas alterações de estilo. (VEC e EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
+## Os estilos de texto em negrito e itálico com [!UICONTROL Editar Texto]/[!UICONTROL Editar HTML] ou [!UICONTROL Alterar Texto]/[!DNL Change HTML] não aparecem na minha página. Às vezes, o texto desaparece após aplicar essas alterações de estilo. (VEC e EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++Detalhes
-Se você usar o **[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]** no VEC para atividades [!UICONTROL A/B Test] ou [!UICONTROL Experience Targeting] ou **[!UICONTROL Change Text]/[!UICONTROL Change HTML]** para atividades [!UICONTROL Automated Personalization] ou [!UICONTROL Multivariate Test] para formatar o texto em negrito ou itálico, esses estilos poderão não ser aplicados na página ou o texto poderá desaparecer da página no VEC. Isso acontece por causa da forma como o editor de rich text aplica esses estilos pode interferir na marcação do site.
+Se você usar as atividades **[!UICONTROL Editar Texto]/[!UICONTROL Editar HTML]** no VEC para [!UICONTROL Teste A/B] ou [!UICONTROL Direcionamento de Experiência] ou **[!UICONTROL Alterar Texto]/[!UICONTROL Alterar HTML]** para [!UICONTROL Automated Personalization] ou [!UICONTROL Teste Multivariado] para formatar o texto em negrito ou itálico, esses estilos poderão não ser aplicados na página ou o texto poderá desaparecer da página no VEC. Isso acontece por causa da forma como o editor de rich text aplica esses estilos pode interferir na marcação do site.
 
 Caso veja esse problema:
 
-1. Clique no botão **[!UICONTROL HTML]** no editor de rich text para entrar no modo de edição de origem.
+1. Clique no botão **[!UICONTROL HTML]** no editor de rich text para entrar no modo de edição de fonte.
 1. Encontre os elementos de texto de estilos.
 
    * Para texto em negrito, altere os elementos `<strong>` para `<b>`.

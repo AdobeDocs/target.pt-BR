@@ -11,8 +11,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 9%
+source-wordcount: 470
+ht-degree: 8%
 
 ---
 
@@ -68,8 +68,8 @@ Quando um atributo de entidade, atributo de perfil ou parâmetro de mbox é forn
 
 Os seguintes operadores estão disponíveis para uso com atributos de entidade, perfil e mbox de vários valores:
 
-* [!UICONTROL is contained in list]
-* [!UICONTROL is not contained in list]
+* [!UICONTROL está contido na lista]
+* [!UICONTROL não consta na lista]
 
 ## Trabalhar com atributos de vários valores em regras de inclusão
 

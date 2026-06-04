@@ -1,7 +1,7 @@
 ---
 keywords: vec;visual experience composer; vec;iframe;extensão;navegador
 description: Descubra por que alguns sites podem não abrir de forma confiável no [!UICONTROL Visual Experience Composer] (VEC). A extensão de navegador VEC Helper permite carregar sites de maneira confiável no VEC.
-title: Como usar a extensão auxiliar do [!UICONTROL Visual Experience Composer] (VEC)?
+title: Como usar a extensão de ajuda do [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
 TQID: https://experienceleague.adobe.com/lqZGGWG1NVtKDzNGPq5k2bDPzxDfNWqPtJ-bYfLCr3Q
@@ -20,14 +20,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1079
-ht-degree: 50%
+source-wordcount: 1111
+ht-degree: 48%
 
 ---
 
 # Extensão auxiliar do [!UICONTROL Visual Experience Composer]
 
-A extensão de navegador do [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper para [!DNL Google Chrome] permite carregar sites de maneira confiável no VEC para criar e controlar a qualidade das experiências da web com rapidez.
+A extensão de navegador do [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper para [!DNL Google Chrome] permite carregar sites de maneira confiável no VEC para criar e controlar a qualidade das experiências da web com mais rapidez.
 
 O navegador VEC Helper é uma extensão [!DNL Chrome]. Esta extensão não é necessária ao usar [!DNL Mozilla Firefox].
 
@@ -71,12 +71,12 @@ A extensão de navegador VEC Helper para o Chrome resolve problemas de carregame
 ## Obter e instalar a extensão do navegador VEC Helper
 
 1. Navegue até a [extensão de navegador do Adobe Target VEC Helper na Chrome Web Store](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca).
-1. Clique em **[!UICONTROL Add to Chrome > Add Extension]**.
+1. Clique em **[!UICONTROL Adicionar ao Chrome > Adicionar extensão]**.
 1. Abra o VEC no [!DNL Target].
 1. Para usar a extensão, clique no ícone de extensão do navegador do VEC Helper (![ícone do VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)) na barra de ferramentas do navegador Chrome no VEC ou no [Modo de QA](/help/main/c-activities/c-activity-qa/activity-qa.md).
-1. (Condicional) Deslize o botão **[!UICONTROL Inject Target Libraries]** para a posição &quot;ligado&quot; se a página da Web ainda não contiver a biblioteca at.js de JavaScript [!DNL Target].
+1. (Condicional) Deslize a opção **[!UICONTROL Inserir bibliotecas do Target]** para a posição &quot;ativado&quot; se a página da Web ainda não contiver a biblioteca de JavaScript at.js [!DNL Target].
 
-   A ilustração a seguir mostra o VEC Helper com a configuração [!UICONTROL Inject Target Libraries] ativada:
+   A ilustração a seguir mostra o VEC Helper com a configuração [!UICONTROL Inserir bibliotecas do Target] ativada:
 
    ![VEC Helper 1](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
@@ -84,7 +84,7 @@ A extensão de navegador VEC Helper para o Chrome resolve problemas de carregame
 
    ![VEC Helper 2](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
-1. (Condicional) Deslize o botão **[!UICONTROL Cookies]** para a posição &quot;ligado&quot; para adicionar automaticamente a correção de navegador do atributo `SameSite=None`.
+1. (Condicional) Deslize o botão **[!UICONTROL Cookies]** para a posição &quot;ativado&quot; para adicionar automaticamente a correção de navegador de atributo `SameSite=None`.
 
    ![Alternância de cookies na extensão auxiliar do VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -92,11 +92,11 @@ A extensão de navegador VEC Helper para o Chrome resolve problemas de carregame
 
 ## Notas
 
-* O sinalizador [!UICONTROL Inject Target libraries] na extensão está desativado por padrão. Você pode habilitar esse sinalizador se desejar usar o VEC em um site que ainda não foi implementado para [!DNL Target].
+* O sinalizador [!UICONTROL Inserir bibliotecas do Target] na extensão está desativado por padrão. Você pode habilitar esse sinalizador se desejar usar o VEC em um site que ainda não foi implementado para [!DNL Target].
 
   Esse sinalizador é uma configuração global. O sinalizador é habilitado ou desabilitado para todos os sites abertos no VEC. Assim, por exemplo, se você definir esse sinalizador como &quot;ativado&quot; e abrir um site que já esteja implementado com a at.js, você receberá uma mensagem informando que a at.js já está carregada. O Adobe prevê que a maioria dos clientes já tenha a at.js implementada em suas páginas e use a configuração padrão &quot;desativada&quot;.
 
-* A extensão carrega a versão mais recente da at.js disponível do [!DNL Target UI] em [!UICONTROL Administration > Implementation].
+* A extensão carrega a versão mais recente do at.js disponível em [!DNL Target UI] em [!UICONTROL Administração > Implementação].
 * Ao usar a extensão para inserir o at.js enquanto estiver no [Modo de QA](/help/main/c-activities/c-activity-qa/activity-qa.md), é necessário abrir outra guia do Chrome. Essa guia do Chrome deve ser autenticada na mesma organização de [!DNL Adobe Experience Cloud] na qual você criou a atividade.
 * As mensagens a seguir ajudam a manter você informado:
 

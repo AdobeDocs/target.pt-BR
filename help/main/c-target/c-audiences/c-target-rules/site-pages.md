@@ -14,8 +14,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 822
-ht-degree: 20%
+source-wordcount: 929
+ht-degree: 19%
 
 ---
 
@@ -23,94 +23,94 @@ ht-degree: 20%
 
 Você pode direcionar os visitantes usando o [!DNL Adobe Target] que acessam uma página específica no seu site.
 
-1. Na interface [!DNL Target], clique em **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Na interface [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público]**.
 1. Nomeie o público-alvo e adicione uma descrição opcional.
-1. Arraste e solte **[!UICONTROL Site Pages]** no painel do audience builder.
+1. Arraste e solte **[!UICONTROL Páginas do Site]** no painel do construtor de público-alvo.
 
    ![Público-alvo de Páginas do site](assets/target_site_pages.png)
 
-1. Clique na lista suspensa **[!UICONTROL Select]**, selecione uma das opções a seguir e configure a regra conforme desejado.
+1. Clique na lista suspensa **[!UICONTROL Selecionar]**, selecione uma das opções a seguir e configure a regra conforme desejado.
 
-   As opções e os avaliadores disponíveis nas listas suspensas subsequentes na regra variam de acordo com a opção escolhida. A ilustração a seguir mostra as opções disponíveis se você escolher [!UICONTROL Current Page]:
+   As opções e os avaliadores disponíveis nas listas suspensas subsequentes na regra variam de acordo com a opção escolhida. A ilustração a seguir mostra as opções disponíveis se você escolher [!UICONTROL Página atual]:
 
    ![Página Atual](assets/current-page.png)
 
-   As opções a seguir estão disponíveis na lista suspensa inicial quando você escolhe [!UICONTROL Select].
+   As opções a seguir estão disponíveis na lista suspensa inicial quando você escolhe [!UICONTROL Selecionar].
 
-   * **[!UICONTROL Current Page]:** A página que o usuário está visualizando.
+   * **[!UICONTROL Página Atual]:** A página que o usuário está visualizando.
 
      As seguintes opções estarão disponíveis na segunda lista suspensa se você escolher essa opção:
 
       * [!UICONTROL URL] (Para obter mais informações sobre como [!DNL Target] avalia URLs, consulte [Perguntas frequentes sobre direcionamentos e público-alvo](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-      * [!UICONTROL Domain]
-      * [!UICONTROL Query]
-      * [!UICONTROL Subdomain]
-      * [!UICONTROL Top-Level Domain]
-      * [!UICONTROL Path]
-      * [!UICONTROL Hash (#) fragment]
+      * [!UICONTROL Domínio]
+      * [!UICONTROL Consulta]
+      * [!UICONTROL Subdomínio]
+      * [!UICONTROL Domínio de nível superior]
+      * [!UICONTROL Caminho]
+      * [!UICONTROL Fragmento de hash (#)]
 
-   * **[!UICONTROL Previous Page]:** A página que o usuário visualizou antes de clicar na página atual. O usuário deve clicar em da página anterior para a página atual para que a página seja rastreada. A página anterior não é rastreada se o usuário digitar um novo URL no navegador. O conteúdo atual dessa página depende do design do seu site. Por exemplo, se a página atual exibir informações sobre um produto específico, a página anterior pode ser uma página de categoria em que o visitante seleciona o item específico. Por exemplo, uma página que exibe várias câmeras de um determinado tipo ou pode ser a página inicial que leva à página final.
-
-     As seguintes opções estarão disponíveis na segunda lista suspensa se você escolher essa opção:
-
-      * [!UICONTROL URL] (Para obter mais informações sobre como o Target avalia as URLs, consulte [Perguntas frequentes sobre direcionamentos e público-alvo](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-      * [!UICONTROL Domain]
-      * [!UICONTROL Query]
-      * [!UICONTROL Subdomain]
-      * [!UICONTROL Top-Level Domain]
-      * [!UICONTROL Path]
-
-   * **[!UICONTROL Landing Page]:** A página de aterrissagem é a primeira página que o visitante vê ao acessar seu site. Por exemplo, se o visitante clica em um link no Google, que leva a uma página da categoria, a página da categoria é a página de aterrissagem. Se o link leva para sua home page, a home page é a página de aterrissagem. A página de aterrissagem é lembrada para a sessão do visitante. É possível direcionar mais profundo no site baseado em que a página de aterrissagem do visitante estava nessa sessão.
+   * **[!UICONTROL Página anterior]:** a página que o usuário visualizou antes de clicar na página atual. O usuário deve clicar em da página anterior para a página atual para que a página seja rastreada. A página anterior não é rastreada se o usuário digitar um novo URL no navegador. O conteúdo atual dessa página depende do design do seu site. Por exemplo, se a página atual exibir informações sobre um produto específico, a página anterior pode ser uma página de categoria em que o visitante seleciona o item específico. Por exemplo, uma página que exibe várias câmeras de um determinado tipo ou pode ser a página inicial que leva à página final.
 
      As seguintes opções estarão disponíveis na segunda lista suspensa se você escolher essa opção:
 
-      * [!UICONTROL URL] (Para obter mais informações sobre como o Target avalia as URLs, consulte [Perguntas frequentes sobre direcionamentos e público-alvo](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-      * [!UICONTROL Domain]
-      * [!UICONTROL Query]
-      * [!UICONTROL Subdomain]
-      * [!UICONTROL Top-Level Domain]
-      * [!UICONTROL Path]
-      * [!UICONTROL Hash (#) fragment]
+      * [!UICONTROL URL] (Para obter mais informações sobre como o Target avalia URLs, consulte [Perguntas frequentes sobre direcionamentos e público-alvo](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL Domínio]
+      * [!UICONTROL Consulta]
+      * [!UICONTROL Subdomínio]
+      * [!UICONTROL Domínio de nível superior]
+      * [!UICONTROL Caminho]
+
+   * **[!UICONTROL Página de aterrissagem]:** A página de aterrissagem é a primeira página que o visitante vê ao acessar seu site. Por exemplo, se o visitante clica em um link no Google, que leva a uma página da categoria, a página da categoria é a página de aterrissagem. Se o link leva para sua home page, a home page é a página de aterrissagem. A página de aterrissagem é lembrada para a sessão do visitante. É possível direcionar mais profundo no site baseado em que a página de aterrissagem do visitante estava nessa sessão.
+
+     As seguintes opções estarão disponíveis na segunda lista suspensa se você escolher essa opção:
+
+      * [!UICONTROL URL] (Para obter mais informações sobre como o Target avalia URLs, consulte [Perguntas frequentes sobre direcionamentos e público-alvo](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL Domínio]
+      * [!UICONTROL Consulta]
+      * [!UICONTROL Subdomínio]
+      * [!UICONTROL Domínio de nível superior]
+      * [!UICONTROL Caminho]
+      * [!UICONTROL Fragmento de hash (#)]
 
      >[!NOTE]
      >
      >O objeto `landing.url` é redefinido em uma alteração de subdomínio ou em uma substituição do URL direto.
 
-   * **[!UICONTROL HTTP Header]:** Essa opção avalia as informações no cabeçalho HTTP da solicitação [!DNL Target]. Por exemplo, se o cabeçalho HTTP contiver informações de idioma, você poderá criar uma regra que contenha a condição `Accept-Language: es` para direcionar visitantes que acessam a página em espanhol.
+   * **[!UICONTROL Cabeçalho HTTP]:** Esta opção avalia as informações no cabeçalho HTTP da solicitação [!DNL Target]. Por exemplo, se o cabeçalho HTTP contiver informações de idioma, você poderá criar uma regra que contenha a condição `Accept-Language: es` para direcionar visitantes que acessam a página em espanhol.
 
      As seguintes opções estarão disponíveis na segunda lista suspensa se você escolher essa opção:
 
-      * [!UICONTROL Accept]
-      * [!UICONTROL Accept-Charset]
-      * [!UICONTROL Accept-Encoding]
+      * [!UICONTROL Aceitar]
+      * [!UICONTROL Aceitar-Charset]
+      * [!UICONTROL Aceitar-Codificação]
       * [!UICONTROL Accept-Language]
-      * [!UICONTROL Authorization]
-      * [!UICONTROL Cache-Control]
-      * [!UICONTROL Connection]
-      * [!UICONTROL Content-Length]
+      * [!UICONTROL Autorização]
+      * [!UICONTROL Controle de Cache]
+      * [!UICONTROL Conexão]
+      * [!UICONTROL Comprimento-do-Conteúdo]
       * [!UICONTROL Content-MDS]
-      * [!UICONTROL Content-Type]
-      * [!UICONTROL Date]
-      * [!UICONTROL Expect]
-      * [!UICONTROL From]
+      * [!UICONTROL Tipo de conteúdo]
+      * [!UICONTROL Data]
+      * [!UICONTROL Esperar]
+      * [!UICONTROL De]
       * [!UICONTROL Host]
-      * [!UICONTROL If-Match]
-      * [!UICONTROL If-Modified-Since]
-      * [!UICONTROL If-None-Match]
-      * [!UICONTROL If-Range]
-      * [!UICONTROL If-Unmodified-Since]
-      * [!UICONTROL Max-Forwards]
+      * [!UICONTROL Se-Corresponder]
+      * [!UICONTROL Se-Modificado-Desde]
+      * [!UICONTROL Se-Nenhum-Corresponder]
+      * [!UICONTROL Se-Intervalo]
+      * [!UICONTROL Se-Não-Modificado-Desde]
+      * [!UICONTROL Máx-Encaminhamentos]
       * [!UICONTROL Pragma]
-      * [!UICONTROL Proxy-Authorization]
-      * [!UICONTROL Range]
-      * [!UICONTROL Referrer]
+      * [!UICONTROL Autorização-Proxy]
+      * [!UICONTROL Intervalo]
+      * [!UICONTROL Referenciador]
       * [!UICONTROL TE]
-      * [!UICONTROL Upgrade]
+      * [!UICONTROL Atualizar]
       * [!UICONTROL User-Agent]
       * [!UICONTROL Via]
-      * [!UICONTROL Warning]
+      * [!UICONTROL Aviso]
 
-   Se você escolheu [!UICONTROL Current Page], [!UICONTROL Previous Page] ou [!UICONTROL Landing Page], as opções [!UICONTROL Domain] e [!UICONTROL Query] estão disponíveis. Considere o seguinte ao escolher essas opções:
+   Se você escolheu [!UICONTROL Página Atual], [!UICONTROL Página Anterior] ou [!UICONTROL Página de Aterrissagem], as opções [!UICONTROL Domínio] e [!UICONTROL Consulta] estão disponíveis. Considere o seguinte ao escolher essas opções:
 
    * **Domínio:** o domínio completo da página. Ao especificar um domínio, a prática recomendada é usar &quot;contém&quot;. Por exemplo, &quot;Domínio igual a facebook.com&quot; não aceita `m.facebook.com` ou `www.facebook.com`. &quot;Domínio contém facebook.com&quot; aceita qualquer variante de facebook.com.
    * **Consulta:** o conteúdo da URL após o primeiro ponto de interrogação (?).
@@ -118,13 +118,13 @@ Você pode direcionar os visitantes usando o [!DNL Adobe Target] que acessam uma
      `foo.html?e0a72cb2a2c7`
 
 1. (Opcional) Configure regras adicionais para o público-alvo.
-1. Clique em **[!UICONTROL Done]**.
+1. Clique em **[!UICONTROL Concluído]**.
 
 É possível criar públicos-alvo de páginas do site usando seu próprio &quot;parâmetro de consulta definido pelo usuário&quot; ou &quot;cabeçalho definido pelo usuário&quot;.
 
 Use um:
 
-* Consultar parâmetro se a regra selecionada pelo usuário for [!UICONTROL Current Page], [!UICONTROL Landing Page] ou [!UICONTROL Previous Page]
+* Consultar parâmetro se a regra selecionada pelo usuário for [!UICONTROL Página Atual], [!UICONTROL Página de Aterrissagem] ou [!UICONTROL Página Anterior]
 * Cabeçalho se a regra selecionada pelo usuário for um cabeçalho HTTP
 
 ## Solução de problemas {#ts}

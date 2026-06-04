@@ -22,8 +22,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1761
-ht-degree: 74%
+source-wordcount: 1772
+ht-degree: 73%
 
 ---
 
@@ -131,7 +131,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 * A quantidade máxima de entidades que podem ser referenciadas em um design, seja em código fixo ou via loops, é de 99.
 * O limite recomendado para obter o melhor desempenho é manter o catálogo com menos de um milhão de itens por ambiente e menos de dez milhões de itens em todos os ambientes.
-* O limite máximo é de dez milhões de itens por ambiente e 100 milhões de itens em todos os ambientes. Se você tiver entre um milhão e dez milhões de itens por ambiente, o desempenho da interface do usuário do [!UICONTROL Catalog Search] será afetado. No entanto, o [!DNL Target Recommendations] continua a produzir e fornecer recomendações.
+* O limite máximo é de dez milhões de itens por ambiente e 100 milhões de itens em todos os ambientes. Se você tiver entre um milhão e dez milhões de itens por ambiente, o desempenho da interface do [!UICONTROL Pesquisa no catálogo] será afetado. No entanto, o [!DNL Target Recommendations] continua a produzir e fornecer recomendações.
 
 ### Atributos personalizados da entidade
 
@@ -170,7 +170,7 @@ Limites de caracteres e outros limites (tamanho da oferta, públicos, valores, p
 
 ### Experiências por atividade
 
-* **Limite**: 2.000 experiências por [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT) e [!UICONTROL Auto-Target] atividade.
+* **Limite**: 2.000 experiências por [!UICONTROL Direcionamento de experiência] (XT), [!UICONTROL Teste A/B], [!UICONTROL Teste multivariado] (MVT) e [!UICONTROL Atividade de Direcionamento automático].
 
   30.000 experiências por atividade de Automated Personalization (AP).
 

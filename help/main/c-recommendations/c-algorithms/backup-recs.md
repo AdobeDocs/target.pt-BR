@@ -15,8 +15,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 527
-ht-degree: 69%
+source-wordcount: 533
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,7 @@ Se você não usar a recomendação de backup, se uma recomendação não tiver 
 
 >[!NOTE]
 >
->Informações adicionais estão incluídas na seção [Conteúdo do tópico Criar critérios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), incluindo uma matriz que explica os resultados que você observará ao usar as opções [!UICONTROL Partial Design Rendering] e [!UICONTROL Show Backup Recommendations] juntas ou separadamente.
+>Informações adicionais estão incluídas na seção [Conteúdo do tópico Criar critérios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), incluindo uma matriz que explica os resultados que você observará ao usar as opções [!UICONTROL Renderização de Design Parcial] e [!UICONTROL Mostrar Recomendações de Backup] juntas ou separadamente.
 
 O recurso de recomendação de backup sempre usa os itens mais visualizados no site para preencher os slots restantes depois que os dados do algoritmo são usados. Por exemplo, seu modelo está configurado para mostrar cinco itens recomendados e você está usando o algoritmo de *Afinidades de compra*. No entanto, você só tem dados suficientes para preencher duas das cinco vagas, de modo que o recurso de recomendação de backup preenche as outras três vagas com os itens mais visualizados.
 

@@ -1,7 +1,7 @@
 ---
 keywords: Direcionamento;visual experience composer;vec;solucionar problemas do visual experience composer;solução de problemas;tls;tls 1.2
 description: Saiba como solucionar problemas no [!UICONTROL Visual Experience Composer] (VEC).
-title: Como solucionar problemas relacionados ao [!UICONTROL Visual Experience Composer]?
+title: Como soluciono problemas relacionados ao [!UICONTROL Visual Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
 TQID: https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs
@@ -19,8 +19,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1042
-ht-degree: 25%
+source-wordcount: 1154
+ht-degree: 29%
 
 ---
 
@@ -42,7 +42,7 @@ Para evitar esse problema, assegure-se de não cortar ou remover esses dois par�
 ## Minha página não abre no EEC ou carrega lentamente. As atividades ou experiências são carregadas de forma lenta no VEC. (Somente VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 +++Detalhes
-Vários problemas podem afetar o desempenho da página nos Experience Composers [!UICONTROL Target]. Alguns erros comuns incluem:
+Vários problemas podem afetar o desempenho da página nos Experience Composers do [!UICONTROL Target]. Alguns erros comuns incluem:
 
 * Você não tem uma mbox na página.
 * Seu site usa o bloqueio de proxy, que não permite que a página seja aberta em nenhum compositor de experiência.
@@ -50,17 +50,17 @@ Vários problemas podem afetar o desempenho da página nos Experience Composers 
 
 Se ocorrerem problemas no [!UICONTROL Enhanced Experience Composer], tente desativar o [!UICONTROL Enhanced Experience Composer] e use o [!UICONTROL Visual Experience Composer].
 
-Para desabilitar o [!UICONTROL Enhanced Experience Composer], vá para **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** e desative a opção **[!UICONTROL Enable Enhanced Experience Composer]**.
+Para desabilitar o [!UICONTROL Enhanced Experience Composer], vá para **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]** e desative a opção **[!UICONTROL Habilitar Enhanced Experience Composer]**.
 
 Alguns usuários veem a seguinte mensagem de erro no console:
 
 ![Mensagem de erro do console](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
 
-Se nem o [!UICONTROL Visual Experience Composer] nem o [!UICONTROL Enhanced Experience Composer] funcionarem, use uma extensão de navegador como o [!DNL Requestly] ([!DNL Chrome] ou [!DNL Firefox]) ou o Modify Response Headers (Firefox) que possa substituir as opções do cabeçalho X-Frames para o site e permitir que elas sejam carregadas em iFrames, habilitando o VEC. Se você não conseguir usar extensões de navegador, use o [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md).
+Se nem o [!UICONTROL Visual Experience Composer] nem o [!UICONTROL Enhanced Experience Composer] funcionarem, use uma extensão de navegador como o [!DNL Requestly] ([!DNL Chrome] ou [!DNL Firefox]) ou o Modify Response Headers (Firefox) que possa substituir as opções do cabeçalho X-Frames para o seu site e permitir que elas sejam carregadas no iFrames, habilitando o VEC. Se você não conseguir usar extensões de navegador, use o [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md).
 
 >[!NOTE]
 >
->Além das seguintes informações, você pode usar a [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] extensão](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) para [!DNL Google Chrome].
+>Além das seguintes informações, você pode usar a [[!DNL Adobe Target] [!UICONTROL extensão Auxiliar de Edição Visual]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) para [!DNL Google Chrome].
 
 >[!NOTE]
 >
@@ -72,23 +72,23 @@ Se nem o [!UICONTROL Visual Experience Composer] nem o [!UICONTROL Enhanced Expe
 >
 >* Habilite a regra quando estiver editando no VEC e desabilite a regra quando não estiver usando o VEC.
 >
->Para a extensão [!UICONTROL Modify Response Header] ([!DNL Firefox]), como não é possível adicionar uma regra de URL, você deve fazer o seguinte:
+>Para a extensão ([!DNL Firefox]) [!UICONTROL Modificar Cabeçalho de Resposta], como você não pode adicionar uma regra de URL, é necessário fazer o seguinte:
 >
 >* Habilite a regra quando estiver editando no VEC e desabilite a regra quando não estiver usando o VEC.
 
 **Para usar a extensão [!DNL Requestly] em [!DNL Chrome] ou [!DNL Firefox]:**
 
-1. Desligue o [!UICONTROL Enhanced Experienced Composer].
+1. Desative o [!UICONTROL Enhanced Experienced Composer].
 1. Instale a extensão de navegador [!DNL Requestly] em [!DNL Chrome] ou [!DNL Firefox].
 1. Abra a extensão e configure-a usando o seguinte:
-1. Selecione **[!UICONTROL Modify headers]**.
+1. Selecione **[!UICONTROL Modificar cabeçalhos]**.
 1. Digite o seguinte:
 
    * Nome da regra
    * Regras de modificação
 
-      * Alternar **[!UICONTROL Add]** para **[!UICONTROL Remove]**.
-      * Alternar **[!UICONTROL Request]** para **[!UICONTROL Response]**.
+      * Alterne **[!UICONTROL Adicionar]** para **[!UICONTROL Remover]**.
+      * Alterne **[!UICONTROL Solicitação]** para **[!UICONTROL Resposta]**.
       * Digite &quot;X-Frame-Options&quot; como o nome do cabeçalho.
       * Repita as etapas anteriores e digite &quot;x-frame-options&quot; como nome do cabeçalho.
 
@@ -96,26 +96,26 @@ Se nem o [!UICONTROL Visual Experience Composer] nem o [!UICONTROL Enhanced Expe
         >
         >Os cabeçalhos manipulados via [!DNL Requestly] diferenciam maiúsculas de minúsculas.
 
-      * Altere **[!UICONTROL Equals]** para **[!UICONTROL Contains]** como a condição para a URL de origem e insira a URL da atividade que você está tentando carregar no VEC.
+      * Altere **[!UICONTROL Igual a]** para **[!UICONTROL Contém]** como a condição para o URL de origem e insira o URL da atividade que você está tentando carregar no VEC.
 
      ![imagem de chrome_extension](assets/chrome_extension.png)
 
-1. Clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Salvar]**.
 
    ![imagem da solicitação](assets/requestly.png)
 
-   Agora é possível carregar a página rapidamente com o [!UICONTROL Visual Experience Composer].
+   Agora você pode carregar a página rapidamente com o [!UICONTROL Visual Experience Composer].
 
-**Para usar a extensão [!DNL Modify Response Headers] em [!UICONTROL Firefox]:**
+**Para usar a extensão [!DNL Modify Response Headers] no [!UICONTROL Firefox]:**
 
-1. Instale o [!UICONTROL Modify Response Headers] em [!DNL Firefox] e reinicie o navegador.
+1. Instale os [!UICONTROL Modificar Cabeçalhos de Resposta] em [!DNL Firefox] e reinicie o navegador.
 1. Em suas extensões do [!DNL Firefox], selecione a extensão Modificar Cabeçalhos de Resposta.
-1. Clique em **[!UICONTROL Preferences]**.
-1. Selecione **[!UICONTROL Filter]** no menu suspenso [!UICONTROL Action].
-1. No campo [!UICONTROL Header Name], digite: **[!UICONTROL X-Frame-Options]**.
+1. Clique em **[!UICONTROL Preferências]**.
+1. Selecione **[!UICONTROL Filtro]** no menu suspenso [!UICONTROL Ação].
+1. No campo [!UICONTROL Nome do cabeçalho], digite: **[!UICONTROL X-Frame-Options]**.
 1. Repita as etapas 4 e 5 para adicionar um filtro com **[!UICONTROL x-frame-options]**.
-1. Clique em **[!UICONTROL Add]**.
-1. Clique em **[!UICONTROL Start]**.
+1. Clique em **[!UICONTROL Adicionar]**.
+1. Clique em **[!UICONTROL Iniciar]**.
 
 ![Extensão do Firefox](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
 
@@ -126,15 +126,15 @@ Após configurar uma extensão, abra o [!DNL Target]. Suas páginas agora devem 
 ## Minha página não é exibida no VEC (somente VEC) {#does-not-load}
 
 +++Detalhes
-* A melhor compatibilidade com o VEC é garantida pela versão mais recente da extensão: [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper extension]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+* A melhor compatibilidade com o VEC é garantida pela versão mais recente da extensão: [[!DNL Adobe Experience Cloud] [!UICONTROL Extensão Auxiliar de Edição Visual]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
-  Para verificar se você está usando a versão mais recente, vá para [!UICONTROL Extensions] > [!UICONTROL Manage Extensions] e clique em [!UICONTROL Details].
+  Para verificar se você está usando a versão mais recente, vá para [!UICONTROL Extensões] > [!UICONTROL Gerenciar Extensões] e clique em [!UICONTROL Detalhes].
 
 * O [!UICONTROL Visual Experience Composer] requer a criação de bibliotecas para realizar modificações na página da Web. Essas bibliotecas são incorporadas à biblioteca at.js e são baixadas pela extensão dos servidores do [!DNL Adobe] sempre que o VEC é usado.
 
   A extensão baixa a biblioteca da at.js, independentemente de a at.js ou o [!DNL Adobe Experience Platform Web SDK] já estarem incluídos na página.
 
-  Verifique se não há alterações inválidas adicionadas aos cabeçalhos do at.js configurados na seção [!UICONTROL Administration] > [!UICONTROL Implementation].
+  Verifique se não há alterações inválidas adicionadas aos cabeçalhos do at.js configurados na seção [!UICONTROL Administração] > [!UICONTROL Implementação].
 
 * Certifique-se de que a página da Web não esteja bloqueando solicitações obrigatórias para carregamento quando incorporada a um iFrame. Isso inclui o uso de diretivas CSP frame-ancestors ou o código JS personalizado incorporado no site do cliente, tags meta HTML ou o cabeçalho x-frame-options.
 
@@ -151,17 +151,17 @@ Após configurar uma extensão, abra o [!DNL Target]. Suas páginas agora devem 
 
 * O navegador está bloqueando uma página não segura em um site seguro.
 
-  Clique no ícone à esquerda da URL na barra de endereços do navegador e clique em **[!UICONTROL Disable protection on this page]**
+  Clique no ícone à esquerda do URL na barra de endereço do navegador e clique em **[!UICONTROL Desativar proteção nesta página]**
 
 * Você inseriu um URL inválido.
 * Se o site não carregar no VEC ou se comportar inesperadamente, uma possível correção é aceitar cookies no site no navegador antes de tentar carregá-lo no [!DNL Target].
 
 +++
 
-## O VEC parece interrompido quando uso o modo [!UICONTROL Browse]. (Somente VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## O VEC parece interrompido quando uso o modo [!UICONTROL Procurar]. (Somente VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 +++Detalhes
-Ao usar o modo [!UICONTROL Browse], se você acessar uma URL que não tem bibliotecas do [!DNL Target] implementadas ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=pt-BR){target=_blank} ou [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank}) ou que contém um cabeçalho frame-buster, o VEC parece corrompido. Devido a preocupações de segurança do navegador, o [!DNL Target] não pode acessar corretamente a URL para a qual você navegou ou a URL do VEC não é atualizada de forma consistente se a página for carregada.
+Ao usar o modo [!UICONTROL Procurar], se você acessar uma URL que não tenha bibliotecas [!DNL Target] implementadas ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=pt-BR){target=_blank} ou [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank}) ou que contenha um cabeçalho frame-buster, o VEC parecerá interrompido. Devido a preocupações de segurança do navegador, o [!DNL Target] não pode acessar corretamente a URL para a qual você navegou ou a URL do VEC não é atualizada de forma consistente se a página for carregada.
 
 Esse problema ocorre porque o VEC carrega a página da Web em um `<iframe>`. Os mecanismos de segurança atuais dos navegadores impedem que a interface do usuário [!DNL Target] acesse os elementos do quadro fornecido devido à política de mesma origem. Os navegadores bloqueiam scripts que tentam acessar um quadro com uma origem diferente e que inclui informações como `location.href`.
 
@@ -169,7 +169,7 @@ Você deve usar a nova [extensão Auxiliar de Edição Visual](/help/main/c-expe
 
 +++
 
-## Problemas causados por conflitos CSS no [!UICONTROL Visual Experience Composer]
+## Problemas causados por conflitos de CSS no [!UICONTROL Visual Experience Composer]
 
 +++Detalhes
 Verifique se há algum arquivo CSS que possa afetar a visibilidade ao carregar a página da Web no editor. Por exemplo, usar a propriedade `overflow: hidden` no corpo da página pode levar a problemas de rolagem ou acionar eventos de clique que podem interferir no menu de criação.

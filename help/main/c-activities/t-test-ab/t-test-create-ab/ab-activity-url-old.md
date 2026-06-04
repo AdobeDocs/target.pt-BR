@@ -6,8 +6,8 @@ feature: A/B Tests
 exl-id: 7482ae10-fb7e-42ba-9ea0-97b82ed85bff
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 44%
+source-wordcount: '316'
+ht-degree: 55%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 44%
 
 O URL da atividade determina a página que é usada no teste e que é aberta quando o teste é criado usando o Adobe Target.
 
-Quando solicitado durante a criação da atividade, especifique o URL da atividade. Digite a URL completa (incluindo `https://`) e clique em **[!UICONTROL Create]**.
+Quando solicitado durante a criação da atividade, especifique o URL da atividade. Digite a URL completa (incluindo `https://`) e clique em **[!UICONTROL Criar]**.
 
 >[!NOTE]
 >
@@ -25,13 +25,13 @@ Quando solicitado durante a criação da atividade, especifique o URL da ativida
 
 Por padrão, o [!UICONTROL Visual Experience Composer] abre a página especificada nas suas [configurações do Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md). Você pode especificar uma página diferente durante a criação da atividade.
 
-1. Para exibir uma página diferente depois da abertura de [!UICONTROL Visual Experience Composer], na página **[!UICONTROL Experiences]**, clique no ícone de engrenagem **[!UICONTROL Configure]** e selecione **[!UICONTROL Page Delivery]**.
+1. Para exibir uma página diferente depois da abertura do [!UICONTROL Visual Experience Composer], na página **[!UICONTROL Experiências]**, clique no ícone de engrenagem **[!UICONTROL Configurar]** e selecione **[!UICONTROL Entrega de página]**.
 
 1. Especifique a URL no campo **[!UICONTROL URL]**.
 
    ![Caixa de diálogo Entrega de página](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
 
-1. (Condicional) Clique em **[!UICONTROL Add Template Rule]** para adicionar mais páginas ou seções à atividade.
+1. (Condicional) Clique em **[!UICONTROL Adicionar regra ao modelo]** para adicionar mais páginas ou seções à atividade.
 
    Regras adicionais podem ser baseadas em qualquer um dos seguintes:
 
@@ -44,11 +44,11 @@ Por padrão, o [!UICONTROL Visual Experience Composer] abre a página especifica
 
    Regras adicionais podem ser unidas no URL da atividade com AND ou OR. Todas regras que você adicionar são avaliadas contra si próprias com AND.
 
-1. Clique em **[!UICONTROL Save]** quando terminar.
+1. Clique em **[!UICONTROL Salvar]** quando tiver concluído.
 
 Se você tiver inserido um URL para um site que não inclui o código JavaScript do [!DNL Target] Standard, não será possível selecionar elementos de página.
 
-Por padrão, o [!UICONTROL Visual Experience Composer] não permite alterações a elementos que contenham JavaScript, como banners giratórios. Você pode desativar **[!UICONTROL Render using JavaScript]** se quiser alterar esses elementos usando o [!UICONTROL Visual Experience Composer].
+Por padrão, o [!UICONTROL Visual Experience Composer] não permite alterações a elementos que contenham JavaScript, como banners giratórios. Você pode desativar a opção **[!UICONTROL Renderizar usando JavaScript]** se quiser alterar esses elementos usando o [!UICONTROL Visual Experience Composer].
 
 >[!NOTE]
 >

@@ -1,7 +1,7 @@
 ---
 keywords: conteúdo;atualizar conteúdo;ativos;carregar conteúdo;carregar ativo;excluir conteúdo
 description: Saiba como fazer upload ou excluir imagens usadas como ofertas de imagem.
-title: Como faço para carregar ou excluir conteúdo da biblioteca [!UICONTROL Offers]?
+title: Como fazer upload ou excluir conteúdo da biblioteca de [!UICONTROL Ofertas]?
 feature: Experiences and Offers
 exl-id: c0fb26ca-4b98-4558-81c6-d84cf6841903
 TQID: https://experienceleague.adobe.com/3bsdqJBJekyAbxUUe1bbWEcxRFzYWMcVKLlQ4Lqe4Ns
@@ -11,26 +11,26 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 174
+source-wordcount: 199
 ht-degree: 0%
 
 ---
 
 # Fazer upload ou excluir ofertas de imagem
 
-Você pode carregar imagens para a biblioteca [!UICONTROL Image Offers] no [!DNL Adobe Target] para usar como ofertas de imagem em atividades. Também é possível excluir ofertas de imagens quando elas não são mais necessárias nas atividades.
+Você pode carregar imagens para a biblioteca [!UICONTROL Ofertas de imagem] no [!DNL Adobe Target] para usar como ofertas de imagem em atividades. Também é possível excluir ofertas de imagens quando elas não são mais necessárias nas atividades.
 
 ## Adicionar ofertas de imagem à lista
 
-1. Clique em **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
-1. Clique em **[!UICONTROL Create]** > **[!UICONTROL Files]**.
-1. Procure e selecione o item que deseja adicionar e clique em **[!UICONTROL Open]**.
-1. Edite o nome do arquivo do item, se necessário, e clique em **[!UICONTROL Upload]**.
+1. Clique em **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de imagem]**.
+1. Clique em **[!UICONTROL Criar]** > **[!UICONTROL Arquivos]**.
+1. Procure e selecione o item que deseja adicionar e clique em **[!UICONTROL Abrir]**.
+1. Edite o nome do arquivo do item, se necessário, e clique em **[!UICONTROL Carregar]**.
 
 ## Excluir ofertas ou pastas de imagem
 
-1. (Condicional) Para alternar entre [!UICONTROL Card View] e [!UICONTROL List View], clique no ícone [!UICONTROL Card View] ( ![Exibição de cartão](/help/main/assets/icons/ViewCard.svg) ) ou no ícone [!UICONTROL List View] ( ![Exibição de lista](/help/main/assets/icons/ViewList.svg) ) no canto superior direito da biblioteca de conteúdo.
+1. (Condicional) Para alternar entre a [!UICONTROL Exibição de Cartão] e a [!UICONTROL Exibição de Lista], clique no ícone [!UICONTROL Exibição de Cartão] ( ![ícone de exibição de Cartão](/help/main/assets/icons/ViewCard.svg) ) ou [!UICONTROL Exibição de Lista] ( ![ícone de Exibição de Lista](/help/main/assets/icons/ViewList.svg) ) no canto superior direito da biblioteca de conteúdo.
 
-1. A partir de [!UICONTROL Card View], passe o mouse sobre a oferta de imagem ou pasta desejada, clique no ícone **[!UICONTROL Select]** ( ![Selecionar ícone](/help/main/assets/icons/CheckmarkCircleOutline.svg) ) e clique no ícone **[!UICONTROL Delete]** ( ![Excluir ícone](/help/main/assets/icons/DeleteOutline.svg) ).
+1. Na [!UICONTROL Exibição de Cartão], passe o mouse sobre a oferta ou a pasta de imagem desejada, clique no ícone **[!UICONTROL Selecionar]** ( ![Ícone Selecionar](/help/main/assets/icons/CheckmarkCircleOutline.svg) ) e no ícone **[!UICONTROL Excluir]** ( ![Ícone Excluir](/help/main/assets/icons/DeleteOutline.svg) ).
 
-1. No [!UICONTROL List View], clique na imagem em miniatura no lado esquerdo da lista para selecionar a oferta de imagem ou pasta desejada, em seguida, clique no ícone **[!UICONTROL Delete]** ( ![Ícone Excluir](/help/main/assets/icons/DeleteOutline.svg) ).
+1. Na [!UICONTROL Exibição de Lista], clique na imagem em miniatura no lado esquerdo da lista para selecionar a oferta de imagem ou pasta desejada, em seguida, clique no ícone **[!UICONTROL Excluir]** ( ![Ícone Excluir](/help/main/assets/icons/DeleteOutline.svg) ).

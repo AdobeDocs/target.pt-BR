@@ -16,8 +16,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 534
-ht-degree: 85%
+source-wordcount: 536
+ht-degree: 84%
 
 ---
 
@@ -27,7 +27,7 @@ Use [!DNL Adobe Target] para fazer uma estimativa do aumento de receita que voc�
 
 >[!NOTE]
 >
->O aumento estimado não está disponível para atividades de [!UICONTROL Experience Targeting] (XT) no momento.
+>O aumento estimado não está disponível para atividades de [!UICONTROL Direcionamento de experiência] (XT) no momento.
 
 Por padrão, o recurso de estimativa de aumento fica desativado. Isso pode ser ativado nas suas preferências de conta. Apenas usuários de Administração da Experience Cloud podem habilitar ou desabilitar esse recurso. Se uma estimativa de aumento for desabilitada, os campos correspondentes não aparecerão na interface. Desabilitar o recurso não resulta em perda de dados, inclusive os dados usados para as estimativas. As estimativas são baseadas em dados coletados independentemente de o recurso estar habilitado ou não.
 

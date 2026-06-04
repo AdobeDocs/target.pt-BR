@@ -5,8 +5,8 @@ hide: true
 exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 6%
+source-wordcount: '934'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ Antes de implementar a extensão de Implantação de experiência, verifique se 
 
 * Uma propriedade móvel configurada em [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)
 * A extensão de Implantação da experiência instalada e configurada em sua propriedade móvel
-* Uma Adobe Experience Cloud Organization ID
+* Uma ID de organização da Adobe Experience Cloud
 * SDK mínimo: API 21 (Android 5.0 Lollipop)
 
 ## Dependências de extensão {#extension-dependencies}
@@ -463,7 +463,7 @@ String version = Rollout.extensionVersion();
 
 ## Resumo da API {#api-summary}
 
-| API | Devoluções |
+| administração | Devoluções |
 |---|---|
 | `isFeatureEnabled(featureKey, evaluationContext, callback)`. `FeatureEvaluationContext` possui atributos de direcionamento para regras e identidade opcional para análise. Consulte [Avaliação de recursos](#is-feature-enabled). | Booleano via retorno de chamada |
 | `getFeature(featureKey, evaluationContext, callback)`. Retorna a carga do recurso avaliado para o contexto especificado. Consulte [getFeature](#get-feature). | FeatureEvaluationResult via retorno de chamada |

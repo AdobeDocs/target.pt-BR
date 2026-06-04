@@ -1,6 +1,6 @@
 ---
 keywords: Experience Cloud Audiences;audiences
-description: Saiba como o Adobe Experience Cloud Audiences permite que os aplicativos da Experience Cloud se comuniquem e compartilhem informações sobre visitantes do site com outros aplicativos da Adobe.
+description: Saiba como os públicos-alvo da Adobe Experience Cloud permitem que os aplicativos da Experience Cloud se comuniquem e compartilhem informações sobre visitantes do site com outros aplicativos da Adobe.
 title: Como usar os públicos-alvo da Adobe Experience Cloud no Target?
 feature: Integrations
 exl-id: 4502e77d-1310-41f3-8d14-ba69692df1af
@@ -24,7 +24,7 @@ ht-degree: 13%
 
 O [!DNL Adobe Experience Cloud audiences] habilita os aplicativos do [!DNL Experience Cloud] a se comunicarem e compartilharem informações sobre os visitantes do site, para que os mesmos dados possam ser usados por cada aplicativo.
 
-Saiba mais sobre [públicos-alvo da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR) (Biblioteca de público-alvo) no *Guia de Administração e Interface da Experience Cloud*.
+Saiba mais sobre [Públicos-alvo da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR) (Biblioteca de público-alvo) no *Guia de administração e interface da Experience Cloud*.
 
 ## Vídeo: integrar [!DNL Target] a [!DNL Experience Cloud Audiences] (10:48)
 

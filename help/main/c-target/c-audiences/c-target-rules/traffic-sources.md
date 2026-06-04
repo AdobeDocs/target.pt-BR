@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 240
-ht-degree: 53%
+source-wordcount: 267
+ht-degree: 51%
 
 ---
 
@@ -26,27 +26,27 @@ Por exemplo, você pode definir metas com base no navegador do visitante, mecani
 
 É possível combinar múltiplas fontes de tráfego para criar uma regra complexa de direcionamento.
 
-1. Na interface [!DNL Target], clique em **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Na interface [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público]**.
 1. &#x200B;
    1. Nomeie o público-alvo e adicione uma descrição opcional.
-1. Arraste e solte **[!UICONTROL Traffic Sources]** no painel do audience builder.
+1. Arraste e solte **[!UICONTROL Fontes de Tráfego]** no painel do construtor de público-alvo.
 
    ![imagem target_traffic_source](assets/target_traffic_source.png)
 
-1. Clique em **[!UICONTROL Select]** e selecione uma das seguintes opções:
+1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
 
-   * **[!UICONTROL From Baidu]**
-   * **[!UICONTROL From Bing]**
-   * **[!UICONTROL From Google]**
-   * **[!UICONTROL From Yahoo]**
-   * **[!UICONTROL Referring Landing Page: URL]**
-   * **[!UICONTROL Referring Landing Page: Domain]**
-   * **[!UICONTROL Referring Landing Page: Query]**
+   * **[!UICONTROL Do Baidu]**
+   * **[!UICONTROL Do Bing]**
+   * **[!UICONTROL Do Google]**
+   * **[!UICONTROL Do Yahoo]**
+   * **[!UICONTROL Página de Aterrissagem de Referência: URL]**
+   * **[!UICONTROL Página de Aterrissagem de Referência: Domínio]**
+   * **[!UICONTROL Página de Aterrissagem de Referência: Consulta]**
 
    Dependendo da sua seleção, talvez você precise fornecer informações adicionais (avaliador e/ou valores).
 
 1. (Opcional) Configure regras adicionais para o público-alvo.
-1. Clique em **[!UICONTROL Done]**.
+1. Clique em **[!UICONTROL Concluído]**.
 
 Você pode direcionar usuários que são referenciados para o seu site por meio de um mecanismo de pesquisa ou uma página de destino específica.
 

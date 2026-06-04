@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 867
-ht-degree: 56%
+source-wordcount: 880
+ht-degree: 57%
 
 ---
 
@@ -111,15 +111,15 @@ As seções a seguir contêm informações para ajudar você a usar um público-
 
 ### Criar um público-alvo para usar a afinidade de categorias {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. Na lista **[!UICONTROL Audiences]**, clique em **[!UICONTROL Create Audience]**.
+1. Na lista **[!UICONTROL Públicos-alvo]**, clique em **[!UICONTROL Criar público-alvo]**.
 
    Ou
 
    Para copiar um público-alvo existente, na lista de Públicos-alvo, passe o mouse sobre o público-alvo desejado e clique no ícone Copiar. Você pode editar o público-alvo para criar um público-alvo semelhante.
 
 1. Digite um nome de público-alvo descritivo.
-1. Clique em **[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]**.
-1. Na lista suspensa **[!UICONTROL Visitor Profile]**, selecione **[!UICONTROL Category Affinity]**.
+1. Clique em **[!UICONTROL + Adicionar regra]** > **[!UICONTROL Perfil do visitante]**.
+1. Na lista suspensa **[!UICONTROL Perfil do visitante]**, selecione **[!UICONTROL Afinidade de categorias]**.
 
    ![Perfil do visitante > Afinidade de categorias](assets/affinity.png)
 
@@ -145,7 +145,7 @@ As seções a seguir contêm informações para ajudar você a usar um público-
    * Igual
 
 1. Especifique cada novo valor em uma linha separada (por exemplo, &quot;sapatos&quot;).
-1. Clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Salvar]**.
 
 ### Usar o público-alvo da afinidade de categorias em uma atividade {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 

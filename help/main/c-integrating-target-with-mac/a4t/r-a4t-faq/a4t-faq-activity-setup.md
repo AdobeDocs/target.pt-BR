@@ -13,8 +13,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 606
-ht-degree: 10%
+source-wordcount: 642
+ht-degree: 14%
 
 ---
 
@@ -42,7 +42,7 @@ Embora isso seja suportado ao usar [!DNL Target] como fonte de relatórios, o us
 ## Ao configurar minhas Métricas de meta, por que não posso acessar as Configurações avançadas?
 
 +++Resposta
-Para atividades que usam [!DNL Analytics] como fonte de relatórios (A4T), a métrica de meta usa as configurações &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; e &quot;[!UICONTROL On Every Impression]&quot;. Estas configurações são *não* configuráveis.
+Para atividades que usam [!DNL Analytics] como fonte de relatórios (A4T), a métrica de meta usa as configurações &quot;[!UICONTROL Incrementar contagem e manter usuário na atividade]&quot; e &quot;[!UICONTROL Em todas as impressões]&quot;. Estas configurações são *não* configuráveis.
 
 Para obter mais informações, consulte &quot;Ao configurar minhas métricas de meta, por que não posso acessar as opções de Configurações avançadas?&quot; em [Definições de métrica - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
@@ -59,16 +59,16 @@ Quando uma atividade é criada, [!DNL Target] envia um arquivo de classificaçã
 ## Por que não consigo selecionar o Analytics como minha fonte de geração de relatórios quando crio uma atividade? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 +++Resposta
-Você pode alterar suas opções de [!UICONTROL Reporting Settings] em [!UICONTROL Administration].
+Você pode alterar as opções de [!UICONTROL Configurações de Relatórios] em [!UICONTROL Administração].
 
-1. Em [!DNL Target], clique em **[!UICONTROL Administration]**.
-1. Na lista suspensa **[!UICONTROL Experience Cloud solution used for reporting]**, clique em **[!UICONTROL Select per Activity]**.
+1. Em [!DNL Target], clique em **[!UICONTROL Administração]**.
+1. Na solução **[!UICONTROL Experience Cloud usada para a lista suspensa de]** relatórios, clique em **[!UICONTROL Selecionar por atividade]**.
 
 ![imagem select-per-activity](assets/select-per-activity.png)
 
-A lista suspensa **[!UICONTROL Reporting Source]** está habilitada na tela **[!UICONTROL Goal & Settings]** para criar e editar atividades.
+A lista suspensa de **[!UICONTROL Fonte de geração de relatório]** está habilitada na tela **[!UICONTROL Meta e configurações]** para criar e editar atividades.
 
-Para sempre usar [!DNL Analytics] como fonte de relatórios, selecione **[!UICONTROL Adobe Analytics]** na lista suspensa em [!UICONTROL Administration].
+Para sempre usar [!DNL Analytics] como fonte de relatórios, selecione **[!UICONTROL Adobe Analytics]** na lista suspensa em [!UICONTROL Administração].
 
 +++
 
@@ -86,9 +86,9 @@ Se as porcentagens não forem ajustadas no meio da atividade, um visitante que v
 
 +++
 
-## Posso usar uma métrica binomial [!DNL Analytics] com um segmento aplicado como meta de otimização em uma atividade [!UICONTROL Auto-Allocate]? {#binomial}
+## Posso usar uma métrica binomial [!DNL Analytics] com um segmento aplicado como meta de otimização em uma atividade de [!UICONTROL Alocação automática]? {#binomial}
 
 +++Resposta
-Você não pode usar uma métrica [!DNL Analytics] com um segmento aplicado como meta de otimização em uma atividade [!UICONTROL Auto-Allocate]. Como solução alternativa, você pode definir um Evento personalizado que atinja o mesmo objetivo e usá-lo como a métrica de meta de otimização.
+Você não pode usar uma métrica [!DNL Analytics] com um segmento aplicado como meta de otimização em uma atividade de [!UICONTROL Alocação automática]. Como solução alternativa, você pode definir um Evento personalizado que atinja o mesmo objetivo e usá-lo como a métrica de meta de otimização.
 
 +++

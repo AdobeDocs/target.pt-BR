@@ -5,7 +5,7 @@ hide: true
 exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 3%
 
 ---
@@ -36,7 +36,7 @@ Uma coleção de sinalizadores de recursos pertencentes à mesma equipe. Permite
 
 ## Quando usar cada {#when-to-use}
 
-| Cenário | Use  |
+| Cenário | Usar |
 |---|---|
 | Teste ou implantação de um único recurso para um aplicativo | **Sinalizador de recurso** |
 | Coordenação de vários recursos na mesma equipe, entrando em funcionamento ao mesmo tempo | **Grupo de recursos** |

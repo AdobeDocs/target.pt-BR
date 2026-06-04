@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1168
+source-wordcount: 1194
 ht-degree: 17%
 
 ---
@@ -50,10 +50,10 @@ Para começar a fornecer experiências [!DNL Target] e aplicar o [!DNL Analytics
 
 ### Etapa 5: Ativar as opções de uso do A4T
 
-Na interface do usuário do [!DNL Target], clique em **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** e escolha **[!UICONTROL Select per activity]** ou **[!UICONTROL Adobe Analytics]**.
+Na interface do usuário do [!DNL Target], clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]** e escolha **[!UICONTROL Selecionar por atividade]** ou **[!UICONTROL Adobe Analytics]**.
 
-* **[!UICONTROL Select per activity]** permite que você escolha entre [!DNL Target] e [!DNL Analytics] ao criar cada atividade.
-* **[!UICONTROL Adobe Analytics]** define [!DNL Analytics] como a fonte de relatórios para todas as atividades que você criar.
+* **[!UICONTROL Selecionar por atividade]** permite que você escolha entre [!DNL Target] e [!DNL Analytics] ao criar cada atividade.
+* O **[!UICONTROL Adobe Analytics]** define [!DNL Analytics] como a fonte de relatórios para todas as atividades que você criar.
 
 ## ![selo da at.js](/help/main/assets/atjs.png) Etapas de implementação para uma implementação da at.js{#section_73961BAD5BB4430A95E073DE5C026277}
 
@@ -205,9 +205,9 @@ A Adobe recomenda remover a integração anterior para simplificar sua implement
 
 ### Etapa 10: Habilitar as opções de uso do Analytics como a fonte de relatórios do Target
 
-Em [!DNL Target], clique em **[!UICONTROL Administration > Reporting]** e escolha **[!UICONTROL Select per activity]** ou **[!UICONTROL Adobe Analytics]** para habilitar as opções.
+Em [!DNL Target], clique em **[!UICONTROL Administração > Relatórios]** e escolha **[!UICONTROL Selecionar por atividade]** ou **[!UICONTROL Adobe Analytics]** para habilitar as opções.
 
-* **[!UICONTROL Select per activity]** permite que você escolha entre [!DNL Target] e [!DNL Analytics] ao criar cada atividade.
-* **[!UICONTROL Adobe Analytics]** define [!DNL Analytics] como a fonte de relatórios para todas as atividades que você criar.
+* **[!UICONTROL Selecionar por atividade]** permite que você escolha entre [!DNL Target] e [!DNL Analytics] ao criar cada atividade.
+* O **[!UICONTROL Adobe Analytics]** define [!DNL Analytics] como a fonte de relatórios para todas as atividades que você criar.
 
 

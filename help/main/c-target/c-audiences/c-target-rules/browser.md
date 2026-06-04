@@ -13,12 +13,12 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1024
-ht-degree: 34%
+source-wordcount: 1116
+ht-degree: 35%
 
 ---
 
-# [!UICONTROL Browser]
+# [!UICONTROL Navegador]
 
 Você pode direcionar os usuários que utilizam um determinado navegador ou determinadas opções de navegador quando visitam sua página.
 
@@ -39,7 +39,7 @@ Estes navegadores podem ser direcionados:
 >
 >Esta atualização não requer nenhuma ação por parte dos clientes. Os rótulos na interface do usuário do [!DNL Target] serão alterados no futuro e serão anunciados nas [[!DNL Target] notas de versão (atuais)](/help/main/r-release-notes/release-notes.md) quando essas alterações forem feitas.
 >
->Para configurações alternativas, consulte [Atualizações para [!DNL iPad] e [!DNL iPhone] em [!UICONTROL Browser] atributos de público-alvo (30 de abril de 2024)](#updates) abaixo.
+>Para configurações de solução, consulte [Atualizações para [!DNL iPad] e [!DNL iPhone] no [!UICONTROL Navegador] atributos de público-alvo (30 de abril de 2024)](#updates) abaixo.
 
 Há duas formas de direcionar navegadores:
 
@@ -53,20 +53,20 @@ Há duas formas de direcionar navegadores:
 
 * **Regra de Público-Alvo de Navegador Personalizado:** Um público-alvo personalizado permite que você direcione vários navegadores ou configure regras ou exclusões para navegadores, versões de navegadores ou idiomas específicos. Essa funcionalidade oferece flexibilidade significativa no direcionamento de uma atividade com base em atributos de navegador.
 
-   1. Na interface [!DNL Target], clique em **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+   1. Na interface [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público]**.
    1. Nomeie o público-alvo e adicione uma descrição opcional.
-   1. Arraste e solte **[!UICONTROL Browser]** no Construtor de público-alvo.
+   1. Arraste e solte o **[!UICONTROL Navegador]** no Construtor de público-alvo.
 
       ![Regras > Navegador](assets/target_browser.png)
 
-   1. Clique em **[!UICONTROL Select]** e selecione uma das seguintes opções:
+   1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
 
       * **Tipo:** direcione ou exclua um determinado navegador. Consulte [Tipo](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
       * **Idioma:** Direcione ou exclua determinados navegadores configurados para usar idiomas específicos. Consulte [Idioma](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
       * **Versão:** direcione ou exclua determinadas versões de um navegador. Consulte [Versão](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
 
    1. (Opcional) Configure regras adicionais para o público-alvo.
-   1. Clique em **[!UICONTROL Done]**.
+   1. Clique em **[!UICONTROL Concluído]**.
 
   O exemplo a seguir mostra um público-alvo que inclui [!DNL Microsoft Edge] usuários nas versões 91 ou 92:
 
@@ -80,10 +80,10 @@ Direcione ou exclua participantes das atividades com base em tipo de navegador, 
 
 Direcione ou exclua um determinado navegador.
 
-Selecione **[!UICONTROL Type]** e escolha &quot;é igual&quot; ou &quot;não é igual&quot;.
+Selecione **[!UICONTROL Tipo]** e escolha &quot;é igual&quot; ou &quot;não é igual&quot;.
 
-* [!UICONTROL Equals]: Direcionar os navegadores selecionados.
-* [!UICONTROL Does not equal]: Excluir os navegadores selecionados.
+* [!UICONTROL Igual]: direcionar os navegadores selecionados.
+* [!UICONTROL Não é igual a]: excluir os navegadores selecionados.
 
 Selecione um ou mais navegadores. Várias opções estão conectadas a um OR.
 
@@ -95,10 +95,10 @@ Por exemplo, se uma oferta está disponível em inglês, você pode direcionar n
 
 A inclusão ou exclusão de idiomas de navegador pode proporcionar um direcionamento de visitante mais preciso do que o direcionamento baseado em localização geográfica nos casos em que o idioma é mais importante que o local. Por exemplo, se está oferecendo um artigo escrito em inglês, você pode direcionar países de língua inglesa ou navegadores configurados para língua inglesa. O direcionamento ao navegador disponibiliza o artigo para falantes de inglês em países nos quais o inglês não é o idioma principal.
 
-Selecione **[!UICONTROL Language]** e escolha &quot;é igual&quot; ou &quot;não é igual&quot;.
+Selecione **[!UICONTROL Idioma]** e escolha &quot;é igual&quot; ou &quot;não é igual&quot;.
 
-* [!UICONTROL Equals]: Direcionar os idiomas de navegador selecionados.
-* [!UICONTROL Does not equal]: Excluir os idiomas de navegador selecionados.
+* [!UICONTROL Igual]: segmentar os idiomas do navegador selecionados.
+* [!UICONTROL Não é igual a]: excluir os idiomas de navegador selecionados.
 
 Selecione um ou mais idiomas. Várias opções estão conectadas a um OR.
 
@@ -120,14 +120,14 @@ Direcione ou exclua determinadas versões de um navegador.
 
 Por exemplo, se a página não for exibida corretamente no [!DNL Internet Explorer] versão 11 ou anterior, você poderá criar um público-alvo que exclua essas versões. Nesse caso, você configuraria uma regra em que o tipo de navegador é igual a [!DNL Internet Explorer] e adicionaria uma segunda regra em que a versão é menor ou igual a 11.
 
-Selecione **[!UICONTROL Version]** e escolha um operador:
+Selecione **[!UICONTROL Versão]** e escolha um operador:
 
-* [!UICONTROL Equals]
-* [!UICONTROL Does not equal]
-* [!UICONTROL Is greater than]
+* [!UICONTROL Igual]
+* [!UICONTROL Não é igual]
+* [!UICONTROL É maior que]
 * É maior que ou igual a
-* [!UICONTROL Is less than]
-* [!UICONTROL Is less than or equal to]
+* [!UICONTROL É menor que]
+* [!UICONTROL É menor que ou igual a]
 
 Digite o número da versão. Somente versões principais podem ser inseridas no campo de texto. A versão especificada inclui todas as versões intermediárias. Por exemplo, se você especificar a versão 10, os visitantes da versão 10.1 também serão incluídos.
 
@@ -142,7 +142,7 @@ Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
 
-## Atualizações para [!DNL iPad] e [!DNL iPhone] em [!UICONTROL Browser] atributos de público (30 de abril de 2024) {#updates}
+## Atualizações para [!DNL iPad] e [!DNL iPhone] nos atributos de público-alvo [!UICONTROL Navegador] (30 de abril de 2024) {#updates}
 
 O [!DNL Adobe Target] permite [segmentar qualquer um dos vários atributos de categoria](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), incluindo usuários que utilizam um determinado navegador ou opções de navegador quando visitam sua página.
 
@@ -158,29 +158,29 @@ Os públicos-alvo da JavaScript são públicos-alvo herdados que usam expressõe
 
 As seguintes configurações podem ser usadas a partir de agora:
 
-* **Para correspondências de navegador[!DNL Apple]**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
+* **Para correspondências de navegador[!DNL Apple]**: [!UICONTROL Celular] > [!UICONTROL Fornecedor de Dispositivo] [!UICONTROL correspondências] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* **Para navegador corresponde ao tablet**: [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
+* **Para navegador corresponde ao tablet**: [!UICONTROL Celular] > [!UICONTROL é Tablet] > [!UICONTROL true]
 
   ![dispositivo móvel é tablet](/help/main/r-release-notes/assets/is-tablet.png)
 
-* **Para correspondência de navegador iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad] com um contêiner E com [!UICONTROL Mobile] > [!UICONTROL Is Tablet] é [!DNL true]
+* **Para correspondência de navegador iPad**: [!UICONTROL Mobile] > [!UICONTROL Nome de Marketing do Dispositivo] [!UICONTROL corresponde] [!DNL iPad] com um contêiner E com [!UICONTROL Mobile] > [!UICONTROL Is Tablet] é [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* **Para correspondência de navegador iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone] com um contêiner E com [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] é [!DNL true]
+* **Para correspondência de navegador iPhone**: [!UICONTROL Celular] > [!UICONTROL Nome de Marketing do Dispositivo] [!UICONTROL corresponde] [!DNL iPhone] com um contêiner E com [!UICONTROL Celular] > [!UICONTROL É Celular] é [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 Há muitas outras configurações possíveis que podem ser usadas, por exemplo, quando as condições são negadas. Exemplos de condições negadas podem ser semelhantes ao seguinte:
 
-* **Para navegador não corresponde ao iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] com um contêiner Ou com [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] é [!UICONTROL false]
+* **Para navegador não corresponde ao iPhone**: [!UICONTROL Celular] > [!UICONTROL Fornecedor de Dispositivo] [!UICONTROL não corresponde] [!UICONTROL Apple] com um contêiner Ou com [!UICONTROL Celular] > [!UICONTROL Is Celular] é [!UICONTROL falso]
 
   ![Não é celular](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* **Para navegador não corresponde ao iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] com um contêiner Ou com [!UICONTROL Mobile] > [!UICONTROL Is Tablet] é [!UICONTROL false].
+* **Para navegador não corresponde ao iPad**: [!UICONTROL Mobile] > [!UICONTROL Fornecedor do Dispositivo] [!UICONTROL não corresponde] [!UICONTROL Apple] com um contêiner Ou com [!UICONTROL Mobile] > [!UICONTROL Is Tablet] é [!UICONTROL false].
 
   ![Não é tablet](/help/main/r-release-notes/assets/tablet-false.png)
 

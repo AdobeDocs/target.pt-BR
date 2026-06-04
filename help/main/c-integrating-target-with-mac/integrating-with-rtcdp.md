@@ -22,8 +22,8 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 1125
-ht-degree: 74%
+source-wordcount: 1173
+ht-degree: 71%
 
 ---
 
@@ -38,7 +38,7 @@ Para obter mais informações sobre o RTCDP, consulte [visão geral do Real-Time
 Os principais recursos incluem:
 
 * Integração direta do [!DNL Target] com a Real-Time CDP/[!DNL Adobe Experience Platform] na borda (removendo a dependência do [!DNL Audience Core services] - AAM)
-* [!UICONTROL Target Edge Destinations Card] com governança e imposição de política
+* [!UICONTROL Cartão de Destinos do Target Edge] com imposição de política e governança
 * Segmentos da Real-time CDP e atributos de perfil compartilhados
 
 ## Cenários de implementação
@@ -56,14 +56,14 @@ As seções a seguir mostram que tipo de caso de uso de personalização (próxi
 | Soluções | Caso de uso habilitado |
 | --- | --- |
 | <ul><li>[!DNL RTCDP] (qualquer SKU) e [!DNL Target]</li></ul> | <ul><li>Personalização da próxima sessão</li><li>Personalização da mesma página pela borda</li><li>Governança aplicada ao compartilhar segmentos</li></ul> |
-| <ul><li>[!DNL RTCDP] (qualquer SKU), [!DNL AAM] e [!DNL Target]</li></ul> | <ul><li>Personalização da próxima sessão</li><ul><li>Segmentos do [!DNL AAM]</li><li>Segmentos de terceiros por meio do [!DNL AAM]</li></ul><li>Personalização da mesma página pela borda</li><ul><li>Segmentos do [!DNL RTCDP]</li><li>Governança aplicada ao compartilhar segmentos</li></ul> |
+| <ul><li>[!DNL RTCDP] (qualquer SKU), [!DNL AAM] e [!DNL Target]</li></ul> | <ul><li>Personalização da próxima sessão</li><ul><li>Segmentos do [!DNL AAM]</li><li>Segmentos de terceiros por meio do [!DNL AAM]</li></ul><li>Personalização da mesma página pela borda</li><ul><li>Segmentos da [!DNL RTCDP]</li><li>Governança aplicada ao compartilhar segmentos</li></ul> |
 
-### Combinação de implementação de [!UICONTROL at.js] e [!DNL Platform Web SDK]
+### Combinação de [!UICONTROL at.js] e implementação de [!DNL Platform Web SDK]
 
 | Soluções | Caso de uso habilitado |
 | --- | --- |
-| <ul><li>[!DNL RTCDP] (qualquer SKU) e [!DNL Target]</li></ul> | <ul><li>Personalização da próxima sessão<ul><li>Para todas as páginas com o [!UICONTROL at.js]</li></ul></li><li>Personalização da mesma página<ul><li>Para todas as páginas com o [!DNL Platform Web SDK]</li></ul></li></ul> |
-| <ul><li>[!DNL RTCDP] (qualquer SKU), [!DNL AAM] e [!DNL Target]</li></ul> | <ul><li>Personalização da próxima sessão</li><ul><li>Para todas as páginas com o [!UICONTROL at.js]</li><li>Segmentos do [!DNL AAM]</li><li>Segmentos de terceiros por meio do [!DNL AAM]</li></ul> |
+| <ul><li>[!DNL RTCDP] (qualquer SKU) e [!DNL Target]</li></ul> | <ul><li>Personalização da próxima sessão<ul><li>Para todas as páginas com [!UICONTROL at.js]</li></ul></li><li>Personalização da mesma página<ul><li>Para todas as páginas com o [!DNL Platform Web SDK]</li></ul></li></ul> |
+| <ul><li>[!DNL RTCDP] (qualquer SKU), [!DNL AAM] e [!DNL Target]</li></ul> | <ul><li>Personalização da próxima sessão</li><ul><li>Para todas as páginas com [!UICONTROL at.js]</li><li>Segmentos do [!DNL AAM]</li><li>Segmentos de terceiros por meio do [!DNL AAM]</li></ul> |
 
 ## Tempo de avaliação do segmento
 
@@ -72,7 +72,7 @@ A tabela a seguir mostra o tempo de avaliação do segmento para eventos proveni
 | Cenário | Segmento de borda (avaliação por milissegundos) | Segmento de transmissão (avaliação por minuto) | Avaliação de segmento em lote |
 | --- | --- | --- | --- |
 | Eventos/dados de SDKs da [!DNL Adobe Experience Platform] | Sim | Sim | N/A |
-| Eventos de [!UICONTROL at.js] | Não | Sim | N/A |
+| Eventos da [!UICONTROL at.js] | Não | Sim | N/A |
 | Eventos de SDKs do [!DNL Target Mobile] | Não | Sim | N/A |
 | Eventos de upload em lote | Não | Não | Sim |
 | Eventos de dados offline (fluxo) | Não | Sim | Sim |
@@ -98,20 +98,20 @@ Considere o seguinte:
 
 * Os atributos em uma determinada oferta devem ser da mesma sandbox [!UICONTROL Experience Platform]. (Em outras palavras, uma oferta não pode conter atributos de sandboxes [!UICONTROL Experience Platform] diferentes.)
 * Os atributos em uma determinada oferta podem vir de diferentes fontes; a saber, o perfil [!DNL Target] e o perfil [!UICONTROL Experience Platform]. (Em outras palavras, você pode combinar atributos, sejam eles provenientes de [!DNL Target] ou do perfil [!UICONTROL Experience Platform].)
-* Ao definir uma oferta, você pode atribuir valores padrão para [!UICONTROL Real-Time CDP Profile Attributes], caso o atributo não tenha um valor explícito. Por exemplo, se uma política de consentimento ou de governança bloquear o atributo que está sendo usado no serviço de personalização, o valor padrão poderá ser usado.
+* Ao definir uma oferta, você pode atribuir valores padrão para [!UICONTROL Atributos de perfil do Real-Time CDP], caso o atributo não tenha um valor explícito. Por exemplo, se uma política de consentimento ou de governança bloquear o atributo que está sendo usado no serviço de personalização, o valor padrão poderá ser usado.
 * [!DNL Target] dá suporte somente ao tipo de dados &quot;cadeia de caracteres&quot; para atributos de perfil [!DNL Adobe Experience Platform] a serem usados em ofertas. Os atributos de tipo &quot;Map&quot; e &quot;Array&quot; ainda não são compatíveis.
 
 ### Exemplo de caso de uso em JSON
 
-Como profissional de marketing online, você deseja que o perfil unificado/AEP compartilhe valores de atributo com o [!DNL Target] para fornecer personalização em tempo real. Ao usar [!UICONTROL Real-Time CDP Profile Attributes], você pode exibir o valor do atributo [!UICONTROL Experience Platform] em uma oferta [!DNL Target] usando substituição de token. Por exemplo, você pode personalizar de acordo com a cor favorita de um cliente usando `${aep.profile.favoriteColor}` ou de acordo com seu nível de fidelidade e valor do ponto de fidelidade usando os tokens `${aep.loyalty.tier}` e `${aep.loyalty.points}`.
+Como profissional de marketing online, você deseja que o perfil unificado/AEP compartilhe valores de atributo com o [!DNL Target] para fornecer personalização em tempo real. Usando os [!UICONTROL Atributos de Perfil do Real-Time CDP], você poderá exibir o valor do atributo [!UICONTROL Experience Platform] em uma oferta [!DNL Target] usando a substituição de token. Por exemplo, você pode personalizar de acordo com a cor favorita de um cliente usando `${aep.profile.favoriteColor}` ou de acordo com seu nível de fidelidade e valor do ponto de fidelidade usando os tokens `${aep.loyalty.tier}` e `${aep.loyalty.points}`.
 
 Para criar uma oferta JSON para compartilhar atributos do perfil unificado/AEP com o [!DNL Target]:
 
-1. Ao [criar uma oferta JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md), na lista **[!UICONTROL Select a source]**, selecione **[!UICONTROL Adobe Experience Platform]**.
-1. Na lista **[!UICONTROL Select a profile sandbox name]**, selecione a sandbox desejada.
-1. Na lista **[!UICONTROL Select a profile attribute]**, selecione os atributos desejados.
-1. (Opcional) Na lista **[!UICONTROL Insert a default value]**, selecione os valores desejados.
-1. Clique em **[!UICONTROL Add]**.
+1. Ao [criar uma oferta JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md), na lista **[!UICONTROL Selecionar uma origem]**, selecione **[!UICONTROL Adobe Experience Platform]**.
+1. Na lista **[!UICONTROL Selecionar um nome de sandbox de perfil]**, selecione a sandbox desejada.
+1. Na lista **[!UICONTROL Selecionar um atributo de perfil]**, selecione os atributos desejados.
+1. (Opcional) Na lista **[!UICONTROL Inserir um valor padrão]**, selecione os valores desejados.
+1. Clique em **[!UICONTROL Adicionar]**.
 
 A ilustração a seguir mostra que dois atributos de perfil, `loyalty.tier` e `loyalty.points`, foram adicionados à oferta JSON.
 

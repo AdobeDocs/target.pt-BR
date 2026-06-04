@@ -30,7 +30,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2514
+source-wordcount: 2526
 ht-degree: 97%
 
 ---
@@ -171,7 +171,7 @@ A medida de interesse de um visitante em um site que avalia o tempo no site, os 
 
 **enhanced experience composer**
 
-O [!UICONTROL Enhanced Experience Composer] é uma extensão da [!UICONTROL Visual Experience Composer] que ajuda a editar uma experiência para um site de edição de iframe ou páginas que ainda não incluem a implementação de [!DNL Target]. Se você tiver dificuldade em abrir a sua página no [!UICONTROL Visual Experience Composer], tente o [!UICONTROL Enhanced Experience Composer].
+O [!UICONTROL Enhanced Experience Composer] é uma extensão do [!UICONTROL Visual Experience Composer] que ajuda você a editar uma experiência para um site de edição de iframe ou páginas que ainda não contêm a implementação do [!DNL Target]. Se você tiver dificuldade em abrir a sua página no [!UICONTROL Visual Experience Composer], tente o [!UICONTROL Enhanced Experience Composer].
 
 **Permissões de usuário empresarial**
 

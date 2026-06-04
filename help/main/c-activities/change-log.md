@@ -13,23 +13,23 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 180
+source-wordcount: 190
 ht-degree: 12%
 
 ---
 
 # Log de alterações da atividade
 
-O [!DNL Adobe Target] [!UICONTROL Change Log] registra ações de atividade, incluindo o que foi alterado, quem fez as alterações e quando elas ocorreram. A página [!UICONTROL Change Log] é preenchida para insights em tempo real.
+O [!DNL Adobe Target] [!UICONTROL Log de alterações] registra ações de atividade, incluindo o que foi alterado, quem fez as alterações e quando elas ocorreram. A página [!UICONTROL Log de Alterações] foi preenchida para insights em tempo real.
 
-Para acessar a página [!UICONTROL Change Log]:
+Para acessar a página [!UICONTROL Log de Alterações]:
 
-1. Clique em **[!UICONTROL Activities]** > clique na atividade desejada na lista.
-1. Clique em **[!UICONTROL Change Log]** no painel esquerdo.
+1. Clique em **[!UICONTROL Atividades]** > clique na atividade desejada da lista.
+1. Clique em **[!UICONTROL Log de alterações]** no painel esquerdo.
 
 A ação executada, a data em que a ação foi executada e o usuário que executou a ação são listados sempre que uma atividade é criada, atualizada, ativada ou desativada. As alterações nas metas e ofertas personalizadas utilizadas na atividade também são indicadas.
 
-Atualize a página para ver as alterações de status. Você também pode listar as ações executadas em ordem crescente ou decrescente clicando no cabeçalho da coluna [!UICONTROL Date].
+Atualize a página para ver as alterações de status. Você também pode listar as ações executadas em ordem crescente ou decrescente clicando no cabeçalho da coluna [!UICONTROL Data].
 
 ## APIs de log de auditoria do Target
 

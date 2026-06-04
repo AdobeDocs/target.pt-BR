@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50db5431370825e46cb1bcb68c9a3ad27ce25079
 workflow-type: tm+mt
-source-wordcount: 446
-ht-degree: 60%
+source-wordcount: 459
+ht-degree: 58%
 
 ---
 
@@ -33,11 +33,11 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 ## [!DNL Target Standard/Premium] 26.5.3 (21 de maio de 2026)
 
-**[!UICONTROL What's new]página**
+**[!UICONTROL Novidades] página**
 
 +++Ver detalhes
 
-* **Nova página [!UICONTROL What's new].** Adição de uma nova página do **[!UICONTROL What's new]** na interface do usuário do [!DNL Adobe Target] para ajudá-lo a descobrir os recursos, aprimoramentos e atualizações mais recentes sem sair do produto. (TGT-55137)
+* **Nova [!UICONTROL Página de novidades].** Adição de uma nova página **[!UICONTROL Novidades]** na interface do usuário do [!DNL Adobe Target] para ajudá-lo a descobrir os recursos, aprimoramentos e atualizações mais recentes sem sair do produto. (TGT-55137)
 
 +++
 
@@ -45,7 +45,7 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 +++Ver detalhes
 
-* **Experiência errada selecionada ao editar o Direcionamento em [!UICONTROL Automated Personalization] atividades.** Correção de um problema em que a experiência errada podia ser selecionada durante a edição da etapa **[!UICONTROL Targeting]** em uma atividade [!UICONTROL Automated Personalization] (AP). (TGT-55176)
+* **Experiência errada selecionada ao editar o Direcionamento nas atividades de [!UICONTROL Automated Personalization].** Correção de um problema em que a experiência incorreta podia ser selecionada durante a edição da etapa **[!UICONTROL Direcionamento]** em uma atividade [!UICONTROL Automated Personalization] (AP). (TGT-55176)
 
 * **Data anterior ao fechar uma atividade agendada.** Correção de um problema que impedia a seleção de uma data anterior para fechar uma atividade agendada. (TGT-55163)
 
@@ -67,7 +67,7 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 [!BADGE Importante]{type=Informative}
 
-Para atualizações com limite de tempo relacionadas ao [!DNL Adobe Target] e à sua implementação, o [!DNL Adobe] fornece notas de versão detalhadas e documentação até [!UICONTROL Experience League]. Estes são alguns destaques importantes para sua implementação:
+Para atualizações com limite de tempo relacionadas ao [!DNL Adobe Target] e à sua implementação, o [!DNL Adobe] fornece notas de versão e documentação detalhadas por meio do [!UICONTROL Experience League]. Estes são alguns destaques importantes para sua implementação:
 
 ### Desativação da alternância de versão da interface do usuário [!DNL Target]
 
@@ -88,7 +88,7 @@ Além das notas para cada versão, os recursos a seguir oferecem informações a
 |--- |--- |
 | [Alterações de documentação](/help/main/r-release-notes/doc-change.md) | Veja informações detalhadas sobre atualizações neste manual que podem não estar incluídas nas notas de versão. |
 | [Notas de versões anteriores](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Veja informações sobre os novos recursos e aprimoramentos das versões anteriores do Target Standard e do Target Premium. |
-| [Notas de versão do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR){target=_blank} | Veja as notas de versão mais recentes das soluções da Adobe Experience Cloud. |
+| [Notas de versão da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR){target=_blank} | Veja as notas de versão mais recentes das soluções da Adobe Experience Cloud. |
 
 ## Informações de pré-lançamento {#section_5D588F0415A2435B851A4D0113ACA3A0}
 

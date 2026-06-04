@@ -8,8 +8,8 @@ mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '2013'
-ht-degree: 16%
+source-wordcount: '2111'
+ht-degree: 14%
 
 ---
 
@@ -21,21 +21,21 @@ O processo para criar e usar regras de inclusão para critérios e promoções �
 
 ## Adicionar regras de filtragem aos critérios {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
-Enquanto você estiver [criando o critério](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE), clique em **[!UICONTROL Add Filtering Rule]** em **[!UICONTROL Inclusion Rules]**.
+Ao [criar critérios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE), clique em **[!UICONTROL Adicionar regra de filtragem]** em **[!UICONTROL Regras de inclusão]**.
 
 ![opções_de_inclusão_nova imagem](assets/inclusion_options_new.png)
 
 As opções disponíveis variam, dependendo do vertical do setor selecionado e da chave de recomendação.
 
-## Adicionar regras de filtragem às promoções  {#section_D59AFB62E2EE423086281CF5D18B1076}
+## Adicionar regras de filtragem às promoções {#section_D59AFB62E2EE423086281CF5D18B1076}
 
-Ao [criar uma promoção](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), selecione **[!UICONTROL Promote by Attribute]** e clique em **[!UICONTROL Add Filtering Rule]**.
+Ao [criar uma promoção](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), selecione **[!UICONTROL Promover por atributo]** e clique em **[!UICONTROL Adicionar regra de filtragem]**.
 
 ![imagem de inclusion_options](assets/inclusion_options.png)
 
 ## Tipos de filtro {#section_0125F1ED10A84C0EB45325122460EBCD}
 
-As seções a seguir listam os tipos de opções de filtragem para [!UICONTROL Dynamic Filtering] e [!UICONTROL Filter by Value] para critérios e promoções:
+As seções a seguir listam os tipos de opções de filtragem para [!UICONTROL Filtragem Dinâmica] e [!UICONTROL Filtrar por Valor] para critérios e promoções:
 
 ### Filtragem dinâmica
 
@@ -53,9 +53,9 @@ As seguintes opções estão disponíveis para a filtragem dinâmica:
 
 | Opção de filtragem dinâmica | Detalhes |
 | --- | --- |
-| [Correspondência de atributos de entidade](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md) | Filtre dinamicamente comparando um pool de itens de recomendações em potencial a um item específico com o qual os usuários interagiram.<br>Use [!UICONTROL Entity Attribute Matching] quando quiser mostrar recomendações com maior probabilidade de atrair o visitante, como a marca favorita do visitante. |
-| [Correspondência de atributos de perfil](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md) | Filtre dinamicamente comparando itens (entidades) com um valor no perfil do usuário.<br>Use [!UICONTROL Profile Attribute Matching] quando quiser mostrar recomendações que correspondem a um valor armazenado no perfil do visitante, como tamanho ou marca favorita. |
-| [Correspondência de parâmetros](/help/main/c-recommendations/c-algorithms/parameter-matching.md) | Filtre dinamicamente comparando itens (entidades) com um valor na solicitação (API ou mbox).<br>Use [!UICONTROL Parameter Matching] para recomendar o conteúdo que corresponda aos parâmetros da página ou aos parâmetros do visitante, como dimensões do dispositivo ou localização geográfica. |
+| [Correspondência de atributos de entidade](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md) | Filtre dinamicamente comparando um pool de itens de recomendações em potencial a um item específico com o qual os usuários interagiram.<br>Use a [!UICONTROL Correspondência de atributos de entidade] quando quiser mostrar as recomendações com maior probabilidade de atrair o visitante, como a marca favorita do visitante. |
+| [Correspondência de atributos de perfil](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md) | Filtre dinamicamente comparando itens (entidades) com um valor no perfil do usuário.<br>Use a [!UICONTROL Correspondência de atributos de perfil] quando quiser mostrar recomendações que correspondem a um valor armazenado no perfil do visitante, como tamanho ou marca favorita. |
+| [Correspondência de parâmetros](/help/main/c-recommendations/c-algorithms/parameter-matching.md) | Filtre dinamicamente comparando itens (entidades) com um valor na solicitação (API ou mbox).<br>Use [!UICONTROL Correspondência de Parâmetros] para recomendar o conteúdo que corresponda aos parâmetros da página ou aos parâmetros do visitante, como dimensões do dispositivo ou localização geográfica. |
 
 ### Filtrar por valor
 
@@ -90,7 +90,7 @@ Os exemplos a seguir fornecem ideias gerais sobre como usar promoções e exclus
 
 ## Lidar com valores em branco ao filtrar por Correspondência de atributos de entidade, Correspondência de atributos de perfil e Correspondência de parâmetros {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
-Você pode escolher várias opções para lidar com valores vazios ao filtrar por [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] e [!UICONTROL Parameter Matching] para critérios e promoções de saída.
+Você pode escolher várias opções para tratar valores vazios ao filtrar por [!UICONTROL Correspondência de atributos de entidade], [!UICONTROL Correspondência de atributos de perfil] e [!UICONTROL Correspondência de parâmetros] para critérios e promoções de saída.
 
 Anteriormente, nenhum resultado era retornado se um valor estivesse em branco. A lista suspensa &quot;se *x* estiver em branco&quot; permite escolher a ação apropriada a ser executada se o critério tiver valores em branco, conforme mostrado na ilustração a seguir:
 
@@ -100,16 +100,16 @@ Para selecionar a ação desejada, passe o mouse sobre o ícone de engrenagem (!
 
 | Ação | Disponível para | Detalhes |
 |--- |--- |--- |
-| [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] e [!UICONTROL Parameter Matching] | Esta ação é o padrão para [!UICONTROL Profile Attribute Matching] e [!UICONTROL Parameter Matching].<br>Esta opção especifica que a regra será ignorada. Por exemplo, se houver três regras de filtragem e a terceira regra não passar nenhum valor, em vez de não retornar nenhum resultado, você poderá simplesmente ignorar a terceira regra com os valores em branco. |
-| [!UICONTROL Do not show any results for this criteria]<br>(Somente critérios) | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] e [!UICONTROL Parameter Matching] | Esta ação é o padrão para [!UICONTROL Entity Attribute Matching].<br>Esta ação é a forma como [!DNL Target] lidava com os valores em branco antes da adição desta opção: nenhum resultado será mostrado para este critério. |
-| [!UICONTROL Do not promote any items<br>(Somente promoções)] | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] e [!UICONTROL Parameter Matching] | Esta ação é o padrão para [!UICONTROL Entity Attribute Matching].<br>Esta ação é a forma como [!DNL Target] lidava com os valores em branco antes da adição desta opção: nenhum resultado será mostrado para este critério. |
-| [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] e [!UICONTROL Parameter Matching] | Se um valor estiver em branco, você poderá optar por usar um valor estático. |
+| [!UICONTROL Ignorar esta regra de filtragem] | [!UICONTROL Correspondência de atributos de perfil] e [!UICONTROL Correspondência de parâmetros] | Esta ação é o padrão para [!UICONTROL Correspondência de atributos de perfil] e [!UICONTROL Correspondência de parâmetros].<br>Esta opção especifica que a regra será ignorada. Por exemplo, se houver três regras de filtragem e a terceira regra não passar nenhum valor, em vez de não retornar nenhum resultado, você poderá simplesmente ignorar a terceira regra com os valores em branco. |
+| [!UICONTROL Não mostrar nenhum resultado para este critério]<br>(Somente critérios) | [!UICONTROL Correspondência de atributos de entidade], [!UICONTROL Correspondência de atributos de perfil] e [!UICONTROL Correspondência de parâmetros] | Esta ação é o padrão para [!UICONTROL Correspondência de Atributo de Entidade].<br>Esta ação é a forma como [!DNL Target] lidava com os valores em branco antes da adição desta opção: nenhum resultado é mostrado para este critério. |
+| [!UICONTROL Não promover itens<br>(Somente promoções)] | [!UICONTROL Correspondência de atributos de entidade], [!UICONTROL Correspondência de atributos de perfil] e [!UICONTROL Correspondência de parâmetros] | Esta ação é o padrão para [!UICONTROL Correspondência de Atributo de Entidade].<br>Esta ação é a forma como [!DNL Target] lidava com os valores em branco antes da adição desta opção: nenhum resultado é mostrado para este critério. |
+| [!UICONTROL Usar um valor estático] | [!UICONTROL Correspondência de atributos de entidade], [!UICONTROL Correspondência de atributos de perfil] e [!UICONTROL Correspondência de parâmetros] | Se um valor estiver em branco, você poderá optar por usar um valor estático. |
 
 ## Avisos {#caveats}
 
 >[!IMPORTANT]
 >
->Atributos de tipo de dados diferentes podem não ser compatíveis em critérios ou promoções dinâmicas durante o tempo de execução com os operadores “é igual a” e “não é igual a”. Use sabiamente os valores [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory] e [!UICONTROL Environment] no lado direito se o lado esquerdo tiver atributos predefinidos ou personalizados.
+>Atributos de tipo de dados diferentes podem não ser compatíveis em critérios ou promoções dinâmicas durante o tempo de execução com os operadores “é igual a” e “não é igual a”. Use os valores de [!UICONTROL Valor], [!UICONTROL Margem], [!UICONTROL Inventário] e [!UICONTROL Ambiente] sabiamente no lado direito se o lado esquerdo tiver atributos predefinidos ou personalizados.
 
 ![imagem da esquerda_direita](assets/left_right.png)
 

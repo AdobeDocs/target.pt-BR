@@ -16,8 +16,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 83
-ht-degree: 65%
+source-wordcount: 84
+ht-degree: 64%
 
 ---
 
@@ -27,4 +27,4 @@ Solução de problemas de informações sobre o gerenciamento de usuários no Ad
 
 ## Convidei um usuário para o Target, mas o nome dele não é exibido na lista Usuários (Administração > Usuários). {#section_13A1A9697BA44537BA569C81CF136160}
 
-Você não verá o novo usuário listado na página [!UICONTROL Users] até que o usuário faça logon usando sua conta da Adobe Experience Cloud e, em seguida, faça logon no [!DNL Target Standard/Premium].
+Você não verá o novo usuário listado na página [!UICONTROL Usuários] até que o usuário faça logon usando sua conta da Adobe Experience Cloud e, em seguida, faça logon no [!DNL Target Standard/Premium].

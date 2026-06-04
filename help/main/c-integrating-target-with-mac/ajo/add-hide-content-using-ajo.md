@@ -19,7 +19,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 659
+source-wordcount: 687
 ht-degree: 2%
 
 ---
@@ -54,35 +54,35 @@ Este caso de uso foi projetado para demonstrar como executar tarefas familiares 
 
 Execute as seguintes etapas para adicionar componentes ou ocultar componentes em sua página da Web:
 
-1. Em [!DNL Adobe Journey Optimizer], clique em **Campanhas** no painel esquerdo para exibir a página [!UICONTROL Campaigns].
+1. Em [!DNL Adobe Journey Optimizer], clique em **Campanhas** no painel esquerdo para exibir a página [!UICONTROL Campanhas].
 
    ![Página de aterrissagem do Adobe Journey Optimizer com guia Campanhas realçada.](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
 
-1. Clique em **[!UICONTROL Create Campaign]** no canto superior direito da página [!UICONTROL Campaigns].
+1. Clique em **[!UICONTROL Criar campanha]** no canto superior direito da página [!UICONTROL Campanhas].
 
-1. Selecione **[!UICONTROL Scheduled - Marketing]** (o padrão) e clique em **Criar** para exibir a página de detalhes [!UICONTROL Campaign].
+1. Selecione **[!UICONTROL Agendado - Marketing]** (padrão) e clique em **Criar** para exibir a página de detalhes da [!UICONTROL Campanha].
 
    ![Página de detalhes da campanha no Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
 1. Na seção **[!UICONTROL Properties]**, forneça um nome descritivo e uma descrição opcional para a campanha.
 
-1. (Condicional) Na seção **[!UICONTROL Audience]**, clique em **[!UICONTROL Select Audience]** e escolha o público-alvo desejado.
+1. (Condicional) Na seção **[!UICONTROL Público-alvo]**, clique em **[!UICONTROL Selecionar público-alvo]** e escolha o público-alvo desejado.
 
-   Para este caso de uso, você pode ativar a campanha para [!UICONTROL All Visitors] (o padrão).
+   Neste caso de uso, você pode ativar a campanha para [!UICONTROL Todos os visitantes] (o padrão).
 
-1. Na seção **[!UICONTROL Action]**, escolha **[!UICONTROL Web]** na lista suspensa **[!UICONTROL Action]** e selecione ou crie uma nova configuração da Web.
+1. Na seção **[!UICONTROL Ação]**, escolha **[!UICONTROL Web]** na lista suspensa **[!UICONTROL Ação]** e selecione ou crie uma nova configuração da Web.
 
    Uma configuração da Web, ou superfície de canal, é uma configuração definida por um administrador do sistema. A configuração da Web contém todos os parâmetros técnicos para enviar a mensagem, como parâmetro de cabeçalho, subdomínio, aplicativos móveis e assim por diante.
 
    Para obter mais informações, consulte [Configurar superfícies de canal](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} na *documentação do Journey Optimizer*.
 
-1. Na seção **[!UICONTROL Action]**, clique em **[!UICONTROL Edit Content]** para abrir seu site no web designer [!DNL Journey Optimizer].
+1. Na seção **[!UICONTROL Ação]**, clique em **[!UICONTROL Editar Conteúdo]** para abrir seu site no web designer [!DNL Journey Optimizer].
 
    ![Página de aterrissagem de Yoga no site da LUMA](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. Para adicionar ou ocultar um elemento, clique em **[!UICONTROL Edit Web Page]** no painel direito.
+1. Para adicionar ou ocultar um elemento, clique em **[!UICONTROL Editar Página da Web]** no painel direito.
 
-1. Clique no elemento que você deseja ocultar e no botão [!UICONTROL Hide] no painel direito.
+1. Clique no elemento que você deseja ocultar e no botão [!UICONTROL Ocultar] no painel direito.
 
    O painel direito exibe uma opção que pode ser executada no elemento selecionado. Essas opções variam, dependendo do elemento selecionado.
 
@@ -92,18 +92,18 @@ Execute as seguintes etapas para adicionar componentes ou ocultar componentes em
 
    ![Seta para trás](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
 
-1. Clique em **[!UICONTROL Review to Activate]**, certifique-se de que tudo está conforme o esperado e clique em **Ativar**.
+1. Clique em **[!UICONTROL Revisar para Ativar]**, certifique-se de que tudo esteja conforme o esperado e clique em **Ativar**.
 
 ## Exibir relatórios
 
-Clique no botão [!UICONTROL Reports] e depois clique no período de geração de relatório desejado:
+Clique no botão [!UICONTROL Relatórios] e clique no período de geração de relatório desejado:
 
-* [!UICONTROL View all time report]
-* [!UICONTROL View last 24hrs report]
+* [!UICONTROL Exibir relatório de todos os tempos]
+* [!UICONTROL Exibir relatório das últimas 24 horas]
 
 Para obter mais informações, consulte [Introdução à nova interface de relatórios](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} na *documentação do Journey Optimizer*.
 
 >[!MORELIKETHIS]
 >
->[Trabalhar com o web designer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} na documentação do *Journey Optimizer*
+>[Trabalhar com o web designer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} na *documentação do Journey Optimizer*
 >[Criar uma campanha](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} em *Tutoriais do Journey Optimizer*

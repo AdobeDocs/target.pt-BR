@@ -12,8 +12,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 648
-ht-degree: 40%
+source-wordcount: 709
+ht-degree: 41%
 
 ---
 
@@ -31,15 +31,15 @@ As promoções são deduplicadas em relação aos itens recomendados pelos crit�
 
 É possível promover itens específicos, promover itens dinamicamente, promover itens com base em atributos ou promover coleções.
 
-Opções de ![[!UICONTROL Front Promotion] e [!UICONTROL Back Promotion] na interface do usuário [!DNL Target]](assets/add_promotion_toggles.png)
+Opções de ![[!UICONTROL Promoção principal] e [!UICONTROL Promoção secundária] na interface [!DNL Target]](assets/add_promotion_toggles.png)
 
 >[!NOTE]
 >
 >O uso de promoções altera a estrutura e a saída do CSV. Essas alterações podem afetar qualquer processo externo que envolva CSV, como email.
 
-1. Na página **[!UICONTROL Options]**, clique no botão de alternância **[!UICONTROL Front Promotion]** ou **[!UICONTROL Back Promotion]**.
+1. Na página **[!UICONTROL Opções]**, clique no botão de alternância **[!UICONTROL Promoção principal]** ou **[!UICONTROL Promoção secundária]**.
 
-   A ilustração a seguir mostra o botão [!UICONTROL Front Promotion] na posição &quot;Ligado&quot;.
+   A ilustração a seguir mostra o botão [!UICONTROL Promoção principal] na posição &quot;Ativado&quot;.
 
    ![Adicionar opções de Promoção principal](/help/main/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
@@ -53,36 +53,36 @@ Opções de ![[!UICONTROL Front Promotion] e [!UICONTROL Back Promotion] na inte
 
    Se você não definir uma data inicial, a promoção começará imediatamente. Se você não definir uma data final, a promoção será executada indefinidamente.
 
-1. Selecione um **[!UICONTROL Promotion Type]**.
+1. Selecione um **[!UICONTROL Tipo de promoção]**.
 
-   * Selecione **[!UICONTROL List of items]** e insira os valores de `entity.id`, separados por vírgulas, dos itens específicos que você deseja promover.
+   * Selecione **[!UICONTROL Lista de itens]** e insira os valores de `entity.id`, separados por vírgulas, dos itens específicos que você deseja promover.
 
-   * Selecione **[!UICONTROL Promote by attribute]** e adicione regras para definir os atributos dos itens que deseja promover.
+   * Selecione **[!UICONTROL Promover por atributo]** e adicione as regras para definir os atributos dos itens que deseja remover.
 
-     Se você selecionar [!UICONTROL Promote by Attribute], poderá criar correspondências dinâmicas. Para obter mais informações, consulte [Usar regras de inclusão estática e dinâmica](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+     Se você selecionar [!UICONTROL Promover por atributo], será possível criar correspondências dinâmicas. Para obter mais informações, consulte [Usar regras de inclusão estática e dinâmica](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
-   * Selecione **[!UICONTROL Promote a collection]** e escolha a coleção de itens que deseja promover.
+   * Selecione **[!UICONTROL Promover uma coleção]** e escolha a coleção de itens que deseja promover.
 
      É possível criar novas coleções para usar em promoções. Consulte [Criar uma coleção](/help/main/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) para obter mais informações.
 
-   Se você escolher **[!UICONTROL List of Items]** como **[!UICONTROL Promotion Type]**, poderá marcar a caixa de seleção **[!UICONTROL Randomize Item Order]**, se desejar.
+   Se você escolher **[!UICONTROL Lista de Itens]** como o **[!UICONTROL Tipo de Promoção]**, poderá marcar a caixa de seleção **[!UICONTROL Randomizar a Ordem dos Itens]**, se desejar.
 
-   A ordem de classificação padrão para [!UICONTROL List of Items] é baseada na ordem inserida na interface ou API [!DNL Target]. Se sua lista incluir mais itens do que o número de espaços definido para as promoções, a opção [!UICONTROL Randomize Item Order] aleatoriamente tornará os itens promovidos exibidos em seu design. Escolher esta opção resulta em [!DNL Target] selecionando aleatoriamente os itens habilitados para promoções no modelo de todo o conjunto de promoções em cada ocorrência.
+   A ordem de classificação padrão para [!UICONTROL Lista de Itens] baseia-se na ordem inserida na interface ou API [!DNL Target]. Se sua lista incluir mais itens do que o número de espaços definido para as promoções, a opção [!UICONTROL Randomizar a ordem dos itens] tornará aleatórios os itens promovidos exibidos em seu design. Escolher esta opção resulta em [!DNL Target] selecionando aleatoriamente os itens habilitados para promoções no modelo de todo o conjunto de promoções em cada ocorrência.
 
    Se suas entidades não tiverem um atributo `entity.value` (por exemplo, você não vende produtos), você poderá passar um valor numérico para o atributo `entity.value`, como a data de publicação. Nesse caso, os itens promovidos podem ser promovidos com base na data de publicação mais recente, em ordem decrescente. O atributo `entity.value` é do tipo double; ele não aceita cadeias de caracteres.
 
-   Se você selecionou a opção **[!UICONTROL Promote by Attribute]** ou **[!UICONTROL Promote a Collection]**, a opção para tornar a ordem aleatória não é aplicável.
+   Se você selecionou a opção **[!UICONTROL Promover por atributo]** ou **[!UICONTROL Promover uma coleção]**, a opção para tornar aleatória a ordem não será aplicável.
 
-   Ao promover itens específicos usando as opções [!UICONTROL Promote by Attribute] ou [!UICONTROL Promote a Collection], a ordem padrão na qual os itens são apresentados é baseada no atributo `entity.value`, em ordem numérica decrescente.
+   Ao promover itens específicos usando as opções [!UICONTROL Promover por Atributo] ou [!UICONTROL Promover uma Coleção], a ordem padrão na qual os itens são apresentados é baseada no atributo `entity.value`, em ordem numérica decrescente.
 
    A tabela a seguir ilustra as diferenças entre essas opções:
 
    | Tipo de promoção | Classificação padrão | Classificação de backup | Opção de filtragem dinâmica |
    | --- | --- | --- | --- |
-   | [!UICONTROL List of Items] | Pedido inserido na interface do usuário/API do Target | Aleatório (quando selecionado por meio da interface do usuário/API) | Não |
-   | [!UICONTROL Promote by Attribute] | `entity.value` (ordem decrescente) | Sem aleatoriedade | Sim |
-   | [!UICONTROL Promote a Collection] | `entity.value` (ordem decrescente) | Sem aleatoriedade | Não |
+   | [!UICONTROL Lista de itens] | Pedido inserido na interface do usuário/API do Target | Aleatório (quando selecionado por meio da interface do usuário/API) | Não |
+   | [!UICONTROL Promover por atributo] | `entity.value` (ordem decrescente) | Sem aleatoriedade | Sim |
+   | [!UICONTROL Promover uma coleção] | `entity.value` (ordem decrescente) | Sem aleatoriedade | Não |
 
-1. Clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Salvar]**.
 
 As promoções são aplicadas a todas as experiências na atividade.

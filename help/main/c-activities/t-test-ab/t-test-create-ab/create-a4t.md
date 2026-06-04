@@ -14,8 +14,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 482
-ht-degree: 16%
+source-wordcount: 492
+ht-degree: 19%
 
 ---
 
@@ -33,13 +33,13 @@ Antes de configurar uma atividade que use o [!DNL Analytics] como fonte de relat
 
 Ao selecionar [!DNL Analytics] como fonte de relatórios para [!DNL Target], você seleciona um conjunto de relatórios [!DNL Analytics] para receber os dados de atividade [!DNL Target]. Para especificar uma fonte de relatórios, primeiro escolha uma das empresas [!DNL Analytics] vinculadas à sua conta e, em seguida, selecione o conjunto de relatórios apropriado para a atividade. Somente conjuntos de relatórios provisionados para conexão com [!DNL Adobe Target] estão disponíveis para seleção. Se você não vir o conjunto de relatórios esperado, primeiro tente fazer logoff e depois fazer logon novamente no [!DNL Adobe Experience Cloud] para tentar novamente. Se o conjunto de relatórios ainda estiver ausente na lista, entre em contato com o Atendimento ao cliente.
 
-O [!UICONTROL Analytics for Target] (A4T) requer um servidor de rastreamento para relatar os resultados corretamente. Um servidor de rastreamento padrão é exibido no campo [!UICONTROL Tracking Server]. Se você usar mais de um servidor de rastreamento, certifique-se de incluir o servidor de rastreamento correto neste campo. Consulte [Usando um servidor de rastreamento do Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para obter mais informações.
+O [!UICONTROL Analytics for Target] (A4T) requer um servidor de rastreamento para relatar os resultados corretamente. Um servidor de rastreamento padrão é exibido no campo [!UICONTROL Servidor de rastreamento]. Se você usar mais de um servidor de rastreamento, certifique-se de incluir o servidor de rastreamento correto neste campo. Consulte [Usando um servidor de rastreamento do Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para obter mais informações.
 
 >[!NOTE]
 >
->Se você usar [!DNL Adobe Analytics] como a fonte de relatórios da sua atividade, não será necessário especificar um servidor de rastreamento durante a criação da atividade se você estiver usando a at.js versão 0.9.1 (ou posterior). A biblioteca at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Tracking Server] vazio na página [!UICONTROL Goals & Settings].
+>Se você usar [!DNL Adobe Analytics] como a fonte de relatórios da sua atividade, não será necessário especificar um servidor de rastreamento durante a criação da atividade se você estiver usando a at.js versão 0.9.1 (ou posterior). A biblioteca at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
 
-Ao configurar a atividade após configurar o [!DNL Analytics] como fonte de relatórios, não há opção para configurar os públicos-alvo para relatórios. [!DNL Analytics] segmentos estão disponíveis no relatório [!DNL Target] [!UICONTROL Activities].
+Ao configurar a atividade após configurar o [!DNL Analytics] como fonte de relatórios, não há opção para configurar os públicos-alvo para relatórios. [!DNL Analytics] segmentos estão disponíveis no relatório [!DNL Target] [!UICONTROL Atividades].
 
 Você deve selecionar uma métrica de sucesso para usar como meta para cada atividade. Sua meta da atividade é a atividade de conversão que sinaliza uma atividade bem sucedida. Faz parte das práticas recomendadas nunca executar um teste sem ter uma meta para aprimorá-la de alguma maneira específica. Você pode escolher qualquer métrica [!DNL Analytics] disponível no seletor de métricas [!DNL Analytics].
 

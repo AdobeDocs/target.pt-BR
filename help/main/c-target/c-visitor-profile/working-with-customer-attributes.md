@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1605
+source-wordcount: 1617
 ht-degree: 29%
 
 ---
@@ -40,8 +40,8 @@ Os dados incorporados à [!DNL Experience Cloud] estão disponíveis para todos 
 
 Considere as informações a seguir ao trabalhar com os atributos do cliente e o [!DNL Target]:
 
-* Você precisa atender alguns pré-requisitos para usar o recurso [!UICONTROL Customer Attributes] no serviço [!DNL People]. Para obter mais informações, consulte &quot;Pré-requisitos para o upload de atributos do cliente&quot; em [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=pt-BR#section_BD38693AFBF34926BA28E964963B4EA0) na *interface e administração da Experience Cloud*.
-* Esteja ciente das limitações relacionadas aos uploads de arquivo, conforme documentado em [arquivos de dados e fontes de atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=pt-BR) na *interface e administração do Experience Cloud* guia. Como prática recomendada:
+* Você precisa atender alguns pré-requisitos para usar o recurso [!UICONTROL Atributos do Cliente] no serviço [!DNL People]. Para obter mais informações, consulte &quot;Pré-requisitos para o upload de atributos do cliente&quot; em [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=pt-BR#section_BD38693AFBF34926BA28E964963B4EA0) na *guia de interface e administração da Experience Cloud*.
+* Esteja ciente das limitações relacionadas aos uploads de arquivo, conforme documentado em [arquivos de dados e fontes de atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=pt-BR) na *interface e administração da Experience Cloud* guia. Como prática recomendada:
 
    * Carregar arquivos grandes únicos (dentro dos [limites especificados](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=pt-BR)). Arquivos grandes únicos são preferidos sobre vários arquivos menores.
    * Se você precisar dividir o upload em vários arquivos, verifique se os arquivos estão totalmente processados antes de enviar novos arquivos. Certifique-se de que cada arquivo em um lote seja totalmente processado antes de submeter o próximo arquivo no lote.
@@ -56,11 +56,11 @@ Considere as informações a seguir ao trabalhar com os atributos do cliente e o
 
 ## Acessar Atributos do cliente no serviço People
 
-1. Em [!DNL Experience Cloud], clique no ícone de menu ( ![ícone de menu](/help/main/c-target/c-visitor-profile/assets/menu-icon.png) ) e clique em **[!UICONTROL People]**.
+1. Em [!DNL Experience Cloud], clique no ícone de menu ( ![ícone de menu](/help/main/c-target/c-visitor-profile/assets/menu-icon.png) ) e em **[!UICONTROL Pessoas]**.
 
    ![Pessoas](/help/main/c-target/c-visitor-profile/assets/people.png)
 
-1. Clique em **[!UICONTROL Customer Attributes]**.
+1. Clique em **[!UICONTROL Atributos do cliente]**.
 
    ![guia Atributos do cliente](/help/main/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
@@ -70,7 +70,7 @@ Conclua as etapas a seguir para usar os dados do CRM no [!DNL Target], conforme 
 
 ![fluxo de trabalho do crm](/help/main/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-As instruções detalhadas para concluir cada uma das seguintes tarefas podem ser encontradas em [Criar uma fonte de atributo do cliente e carregar o arquivo de dados](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=pt-BR) na *interface e administração do Experience Cloud* guia.
+As instruções detalhadas para concluir cada uma das seguintes tarefas podem ser encontradas em [Criar uma fonte de atributo do cliente e carregar o arquivo de dados](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=pt-BR) na *guia de interface e administração da Experience Cloud*.
 
 1. Criar um arquivo de dados.
 
@@ -94,8 +94,8 @@ As instruções detalhadas para concluir cada uma das seguintes tarefas podem se
 
    Seu arquivo de dados deve estar em conformidade com os requisitos de upload de arquivo e não deve exceder 100 MB. Se o arquivo for muito grande ou se você tiver dados que precisam ser carregados de forma recorrente, é possível transferir os arquivos para o FTP.
 
-   * **HTTPS:** Você pode arrastar e soltar o arquivo de dados .csv ou clicar em **[!UICONTROL Browse]** para carregar do seu sistema de arquivos.
-   * **FTP:** clique no link do FTP para [carregar o arquivo por meio do FTP](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=pt-BR). O primeiro passo é fornecer uma senha para o servidor de FTP fornecido pela Adobe. Especifique a senha e clique em **[!UICONTROL Done]**.
+   * **HTTPS:** Você pode arrastar e soltar o arquivo de dados .csv ou clicar em **[!UICONTROL Procurar]** para carregar do seu sistema de arquivos.
+   * **FTP:** clique no link do FTP para [carregar o arquivo por meio do FTP](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=pt-BR). O primeiro passo é fornecer uma senha para o servidor de FTP fornecido pela Adobe. Especifique a senha e clique em **[!UICONTROL Concluído]**.
 
    Agora transfira o arquivo CSV/ZIP/GZIP para o servidor FTP. Após a transferência ser bem-sucedida, crie um arquivo com o mesmo nome e a extensão `.fin`. Transfira este arquivo vazio para o servidor. Isso indica um Fim de Transferência e o [!DNL Experience Cloud] começa a processar o arquivo de dados.
 
@@ -103,7 +103,7 @@ As instruções detalhadas para concluir cada uma das seguintes tarefas podem se
 
    O processo de validação permite mapear os nomes de exibição e as descrições aos atributos carregados (sequências, números inteiros, números e assim por diante). Mapeie cada atributo para seu tipo de dados, nome de exibição e descrição corretos.
 
-   Clique em **[!UICONTROL Save]** após a conclusão da validação do esquema. O tempo de upload do arquivo varia dependendo do tamanho.
+   Clique em **[!UICONTROL Salvar]** após a conclusão da validação do esquema. O tempo de upload do arquivo varia dependendo do tamanho.
 
    ![Validar esquema](/help/main/c-target/c-visitor-profile/assets/SchemaValidate.png)
 
@@ -111,7 +111,7 @@ As instruções detalhadas para concluir cada uma das seguintes tarefas podem se
 
 1. Configurar assinaturas e ativar a fonte de atributo.
 
-   Clique em **[!UICONTROL Add Subscription]** e selecione a solução para inscrever esses atributos. [Configurar assinaturas](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=pt-BR) define o fluxo de dados entre o [!DNL Experience Cloud] e as soluções. Ativar a fonte de atributo permite que os dados fluam para as soluções assinadas. Os registros do cliente carregados são combinados com sinais de ID vindos do seu site ou aplicativo.
+   Clique em **[!UICONTROL Adicionar inscrição]**, em seguida, selecione a solução para inscrever esses atributos. [Configurar assinaturas](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=pt-BR) define o fluxo de dados entre o [!DNL Experience Cloud] e as soluções. Ativar a fonte de atributo permite que os dados fluam para as soluções assinadas. Os registros do cliente carregados são combinados com sinais de ID vindos do seu site ou aplicativo.
 
    ![Configurar solução](/help/main/c-target/c-visitor-profile/assets/solution.png)
 
@@ -129,7 +129,7 @@ Você pode usar os atributos do cliente no [!DNL Target] das seguintes maneiras:
 
 ### Criar públicos-alvo de direcionamento
 
-No [!DNL Target], você pode selecionar um atributo do cliente na seção [!UICONTROL Visitor Profile] ao criar um público-alvo. Todos os atributos do cliente têm o prefixo &lt; data_source_name > na lista. Combine esses atributos como necessário a outros atributos de dados para construir públicos-alvo.
+No [!DNL Target], você pode selecionar um atributo do cliente na seção [!UICONTROL Perfil do Visitante] ao criar um público-alvo. Todos os atributos do cliente têm o prefixo &lt; data_source_name > na lista. Combine esses atributos como necessário a outros atributos de dados para construir públicos-alvo.
 
 ![Público-alvo](/help/main/c-target/c-visitor-profile/assets/TargetAudience.png)
 
@@ -157,7 +157,7 @@ Se você estiver usando o serviço da Experience Cloud ID, é necessário defini
 
 Para obter mais informações sobre o uso de Atributos do cliente no [!DNL Target], consulte os seguintes recursos:
 
-* [Criar e carregar dados de atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html?lang=pt-BR) na *interface e administração do Experience Cloud*
+* [Criar e carregar dados de atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html?lang=pt-BR) na *guia de interface e administração da Experience Cloud*
 
 ## Problemas encontrados com frequência pelos clientes {#section_BE0F70E563F64294B17087DE2BC1E74C}
 

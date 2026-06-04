@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 543
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Observe que você deve fornecer o `entity.brand` na mbox nessas páginas de ater
 
 ## Exemplos de Correspondência de atributos de entidade
 
-[!UICONTROL Entity Attribute Matching] permite que você recomende somente os itens correspondentes, por exemplo:
+[!UICONTROL A Correspondência de Atributos de Entidade] permite que você recomende apenas os itens correspondentes, por exemplo:
 
 * Um atributo do item que o usuário está visualizando no momento
 * O item exibido mais recentemente pelo usuário

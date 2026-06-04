@@ -6,7 +6,7 @@ hide: true
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 7%
    + [Criar um grupo de recursos](guides/feature-flags/create-a-feature-group.md)
    + [Definir um grupo de recursos para implantação gradual](guides/feature-flags/set-feature-group-gradual-rollout.md)
    + [Teste A/B com sinalizadores de recursos](guides/feature-flags/a-b-testing.md)
-   + [Analytics](guides/feature-flags/analytics.md)
+   + [Noções básicas do](guides/feature-flags/analytics.md)
 + Critérios de público {#audience}
    + [Público-alvo em sinalizadores e grupos de recursos](guides/audience/audience-in-feature-flags-and-feature-groups.md)
    + [Usar contexto nas regras de público](guides/audience/using-context-in-audience-rules.md)

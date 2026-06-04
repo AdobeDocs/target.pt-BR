@@ -13,7 +13,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 3543
+source-wordcount: 3578
 ht-degree: 80%
 
 ---
@@ -24,13 +24,13 @@ Lista de perguntas frequentes sobre as atividades do [!DNL Adobe Target] [!DNL R
 
 ## Os objetos [!DNL Recommendations] criados por meio da API são exibidos na interface do usuário [!DNL Target]?
 
-Sim, [!UICONTROL Recommendations] objetos ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] e [!UICONTROL Exclusions]) criados através da API estão disponíveis na interface do usuário e podem ser editados via API ou interface do usuário [!DNL Target].
+Sim, os objetos [!UICONTROL Recommendations] ([!UICONTROL Critérios], [!UICONTROL Designs], [!UICONTROL Coleções] e [!UICONTROL Exclusões]) criados sobre a API estão disponíveis na interface do usuário e podem ser editados via API ou interface do usuário [!DNL Target].
 
 ## Posso gerenciar ofertas visuais criadas pela interface do usuário do [!DNL Target] usando as APIs do [!DNL Target]?
 
-Não. [!DNL Recommendations] atividades com ofertas visuais criadas na interface do usuário [!DNL Target] não são gerenciáveis usando as APIs [!DNL Target]. Embora essas atividades sejam exibidas na lista [!UICONTROL Activities], não é possível lê-las ou atualizá-las (usando GET/PUT).
+Não. [!DNL Recommendations] atividades com ofertas visuais criadas na interface do usuário [!DNL Target] não são gerenciáveis usando as APIs [!DNL Target]. Embora essas atividades sejam exibidas na lista [!UICONTROL Atividades], não é possível lê-las ou atualizá-las (usando GET/PUT).
 
-## Por que o [!UICONTROL Catalog Search] não mostra os resultados corretos quando procuro um atributo personalizado com um valor numérico?
+## Por que a [!UICONTROL Pesquisa no Catálogo] não mostra os resultados corretos quando procuro um atributo personalizado com um valor numérico?
 
 Quando você faz uma pesquisa no catálogo em um atributo personalizado com um valor numérico, os resultados tratam o atributo personalizado como um tipo de sequência em vez de um valor numérico.
 
@@ -115,19 +115,19 @@ O [!DNL Target] tem uma configuração de [Critérios de filtro incompatíveis](
 >
 >Essa configuração se aplica às atividades criadas somente no [!UICONTROL Visual Experience Composer] (VEC). Essa configuração não se aplica a atividades criadas no Experience Composer com base em formulário (o [!DNL Target] não tem contexto de localização).
 
-Para acessar a configuração [!UICONTROL Filter Incompatible Criteria], clique em [!UICONTROL Recommendations] > [!UICONTROL Settings]:
+Para acessar a configuração [!UICONTROL Critérios incompatíveis de filtro], clique em [!UICONTROL Recomendações] > [!UICONTROL Configurações]:
 
 Imagem ![recs_settings_filter](assets/recs_settings_filter.png)
 
-Se a configuração [!UICONTROL Filter Incompatible Criteria] NÃO estiver habilitada, [!DNL Target] não filtrará algoritmos no Seletor de Algoritmo e todos os algoritmos serão exibidos.
+Se a configuração [!UICONTROL Critérios incompatíveis de filtro] NÃO estiver habilitada, [!DNL Target] não filtrará algoritmos no Seletor de algoritmo e todos os algoritmos serão exibidos.
 
-Se a configuração [!UICONTROL Filter Incompatible Criteria] estiver habilitada, em atividades do VEC, [!DNL Target] lerá entityId e category Id no local selecionado e exibirá algoritmos com base em `currentItem|currentCategory` (se os respectivos valores estiverem presentes nesse local). Como resultado, somente os algoritmos compatíveis para o local selecionado são mostrados no seletor do algoritmo, como padrão.
+Se a configuração [!UICONTROL Critérios incompatíveis de filtro] estiver habilitada, em atividades do VEC, [!DNL Target] lerá entityId e category Id no local selecionado e exibirá algoritmos com base em `currentItem|currentCategory` (se os respectivos valores estiverem presentes nesse local). Como resultado, somente os algoritmos compatíveis para o local selecionado são mostrados no seletor do algoritmo, como padrão.
 
-Se a configuração [!UICONTROL Filter Incompatible Criteria] estiver habilitada, você ainda poderá exibir algoritmos não compatíveis ao desmarcar a caixa de seleção [!UICONTROL Compatible] ao selecionar os critérios.
+Na configuração [!UICONTROL Critérios incompatíveis de filtro] estiver ativada, você ainda pode visualizar os algoritmos não compatíveis desmarcando a caixa de seleção [!UICONTROL Compatível] ao selecionar os critérios.
 
 ![imagem de caixa de seleção_compatível](assets/compatible_checkbox.png)
 
-A lista a seguir contém casos especiais em que [!DNL Target] não exibe a caixa de seleção [!UICONTROL Compatible]:
+A lista a seguir contém casos especiais em que [!DNL Target] não exibe a caixa de seleção [!UICONTROL Compatível]:
 
 * EntityId e category Id estão presentes no local, então nada está sendo filtrado.
 * Você está usando a [!DNL mbox.js] versão 55 ou anterior.
@@ -206,9 +206,9 @@ Certifique-se de que o público-alvo tenha um nome exclusivo. Se você deu ao p�
 
 Não há limite rígido de número de linhas ou tamanho do arquivo para o upload de um arquivo CSV do feed. No entanto, como prática recomendada, a Adobe limita o tamanho do arquivo CSV a 1 GB para evitar falhas durante o processo de upload dos arquivos. Se o tamanho do arquivo exceder 1 GB, idealmente ele deverá ser dividido em vários arquivos de feed. O número máximo de colunas de atributos personalizados é 100 e os atributos personalizados são limitados a 4.096 caracteres. Outros limites sobre o comprimento das colunas necessárias estão disponíveis na [[!DNL Target] página de limitações do](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
-## Por que minha ação [!UICONTROL Download data] falha em uma atividade [!DNL Recommendations]? {#download-data-error}
+## Por que minha ação [!UICONTROL Baixar dados] falha em uma atividade [!DNL Recommendations]? {#download-data-error}
 
-Ao clicar em **[!UICONTROL Download data]** na página [!UICONTROL Activity Overview] de uma atividade [!DNL Recommendations], a interface do usuário [!DNL Target] pode exibir o erro `Error while fetching recommendation data file.`
+Ao clicar em **[!UICONTROL Baixar dados]** na página [!UICONTROL Visão geral da atividade] de uma atividade [!DNL Recommendations], a interface do usuário [!DNL Target] poderá exibir o erro `Error while fetching recommendation data file.`
 
 Isso normalmente acontece quando a atividade tem um conjunto de resultados muito grande: o CSV gerado excede o tamanho da resposta que pode ser retornado pela interface do usuário em um único download. Os dados de recomendação em si estão intactos, somente o caminho de download do navegador não pode fornecer um arquivo desse tamanho.
 
@@ -298,7 +298,7 @@ Alguns clientes de mídia e publicação querem garantir que os itens recomendad
 
 ### Quais são alguns problemas conhecidos ao usar atividades do [!DNL Recommendations]?
 
-A seguir, os problemas conhecidos com [!UICONTROL Recommendations] atividades:
+A seguir, os problemas conhecidos com [!UICONTROL atividades do Recommendations]:
 
 * Quando o [!DNL Target] retorna uma oferta JSON com getOffer(), ela retorna com o tipo de JSON. No entanto, se você retornar um design de JSON do Recomendações, ele retornará com um tipo de HTML.
 * As entidades expiram corretamente após 60 dias sem receber nenhuma atualização via feed ou API; no entanto, as entidades expiradas não são removidas do índice da Pesquisa de catálogo após a expiração. No momento, entidades excluídas por meio do feed ou da API também não são removidas do índice de Pesquisa de catálogo. (IRI-857)

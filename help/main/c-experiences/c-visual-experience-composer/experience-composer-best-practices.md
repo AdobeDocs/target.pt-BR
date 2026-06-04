@@ -19,8 +19,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2462
-ht-degree: 50%
+source-wordcount: 2552
+ht-degree: 49%
 
 ---
 
@@ -35,23 +35,23 @@ Estas são as práticas recomendadas ao usar o VEC:
 ### Coloque a referência à at.js na parte superior da seção `<head>` da página.
 
 +++Ver detalhes
-Se você também usa o [!UICONTROL Visitor API Service], coloque o script de API do visitante acima da at.js.
+Se você também usa o [!UICONTROL Serviço de API do visitante], coloque o script de API do visitante acima da at.js.
 
 +++
 
-### Você pode habilitar o [!UICONTROL Enhanced Experience Composer] no nível da conta (habilitado para todas as atividades criadas na conta) ou no nível da atividade individual.
+### Você pode ativar/desativar o [!UICONTROL Enhanced Experience Composer] no nível da conta (ativada para todas as atividades criadas na conta) ou no nível da atividade individual.
 
 +++Ver detalhes
-Para habilitar o [!UICONTROL Enhanced Experience Composer] no nível da conta, clique em [!UICONTROL [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]] e alterne a opção [!UICONTROL Enable Enhanced Experience Composer] para a posição Ligado.
+Para habilitar o [!UICONTROL Enhanced Experience Composer] no nível da conta, clique em [!UICONTROL [!UICONTROL Administração] > [!UICONTROL Visual Experience Composer]] e alterne o comutador [!UICONTROL Habilitar Enhanced Experience Composer] para a posição Ligado.
 
-Para habilitar [!UICONTROL Enhanced Experience Composer] no nível de atividade ao criar uma atividade no [!UICONTROL Visual Experience Composer], clique em [!UICONTROL Configure > [!UICONTROL Page Delivery]] e alterne o switch [!UICONTROL Enable Enhanced Experience Composer] para a posição Ligado.
+Para habilitar o [!UICONTROL Enhanced Experience Composer] no nível da atividade enquanto cria uma atividade no [!UICONTROL Visual Experience Composer], clique em [!UICONTROL Configurar > [!UICONTROL Entrega de página]] e alterne o comutador [!UICONTROL Habilitar Enhanced Experience Composer] para a posição Ligado.
 
 +++
 
 ### Você pode incluir na lista de permissões determinados endereços IP se o [!UICONTROL Enhanced Experience Composer] não carregar em páginas seguras no seu site.
 
 +++Ver detalhes
-Problemas ao carregar o [!UICONTROL Enhanced Experience Composer] podem ser resolvidos através do incluir na lista de permissões dos seguintes endereços IP. Esses endereços IP são para [!DNL Adobe] servidores usados para o proxy [!UICONTROL Enhanced Experience Composer]. Eles são necessários somente para a atividade de edição. Os visitantes do seu site não precisam desses endereços IP resolvidos.
+Problemas ao carregar o [!UICONTROL Enhanced Experience Composer] podem ser resolvidos através do incluir na lista de permissões dos seguintes endereços IP. Estes endereços IP são para [!DNL Adobe] servidores usados para o proxy do [!UICONTROL Enhanced Experience Composer]. Eles são necessários somente para a atividade de edição. Os visitantes do seu site não precisam desses endereços IP resolvidos.
 
 Para obter mais informações, consulte [O EEC não carregará uma URL de controle de qualidade interna que não esteja acessível no IP público](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) em *Solução de problemas relacionados ao Enhanced Experience Composer*.
 
@@ -62,7 +62,7 @@ Para obter mais informações, consulte [O EEC não carregará uma URL de contro
 +++Detalhes
 Qualquer item imediatamente dentro do elemento body deve ter uma ID única. Se novos elementos forem inseridos no corpo de texto e o código for movido, pelo menos os elementos pai serão mais fáceis de reconhecer.
 
-[!DNL Target] não requer IDs, mas usar IDs aumenta a confiabilidade das experiências criadas com o compositor de experiências. [!DNL Target] usa seletores de CSS para modificar seu conteúdo quando a experiência é entregue. Quando você edita uma experiência, o [!UICONTROL Visual Experience Composer] ancora o seletor ao ancestral mais próximo com um atributo de ID não nulo ao elemento HTML que está sendo modificado. Portanto, não é aconselhável usar nenhum mecanismo, incluindo bibliotecas de JavaScript, que defina ou modifique atributos de ID HTML. Embora essas IDs possam estar disponíveis para o compositor de experiência do [!DNL Target] para criação de atividades, se o JavaScript modificar IDs, a ID usada quando a experiência foi criada pode não estar disponível quando a experiência foi executada. Se não houver uma ID disponível, o seletor ancorado para a ID falhará.
+[!DNL Target] não requer IDs, mas usar IDs aumenta a confiabilidade das experiências criadas com o compositor de experiências. [!DNL Target] usa seletores de CSS para modificar seu conteúdo quando a experiência é entregue. Ao editar uma experiência, o [!UICONTROL Visual Experience Composer] ancora o seletor ao ancestral mais próximo com um atributo de ID não nulo ao elemento HTML que está sendo modificado. Portanto, não é aconselhável usar nenhum mecanismo, incluindo bibliotecas de JavaScript, que defina ou modifique atributos de ID HTML. Embora essas IDs possam estar disponíveis para o compositor de experiência do [!DNL Target] para criação de atividades, se o JavaScript modificar IDs, a ID usada quando a experiência foi criada pode não estar disponível quando a experiência foi executada. Se não houver uma ID disponível, o seletor ancorado para a ID falhará.
 
 +++
 
@@ -135,7 +135,7 @@ Cada alteração cria um novo elemento no VEC. Como a segunda ação modifica o 
 
 Em outras palavras, se você adicionar um elemento com texto e, em seguida, editar esse elemento em uma ação separada com um texto diferente, o editor de códigos mostrará ambas as ações como elementos separados. Ao editar o elemento, você criou um novo elemento que modifica o elemento original que você criou, contendo o texto editado. Se você então excluir o elemento original, o texto editado não poderá encontrar o elemento que foi editado e não será exibido. O segundo elemento permanece na lista de elementos, mas não afeta a página porque o elemento que ele modifica não existe mais.
 
-Consulte [Seletores de elementos usados em [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
+Consulte [Seletores de elementos usados no [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
 
 +++
 
@@ -183,7 +183,7 @@ Teste a sua página várias vezes, para ter certeza de que a entrega funciona co
 ### Não use uma base da tag no seu site para resolver URLs e links.
 
 +++Detalhes
-Quando você usa o [!UICONTROL Enhanced Experience Composer], o site é manipulado em segundo plano por um servidor proxy que atualiza todas as URLs de links para que funcionem no proxy. Se você adicionar uma tag base, todos esses URLs serão resolvidos pelo navegador para que pareçam corrompidos.
+Quando você usa o [!UICONTROL Enhanced Experience Composer], o site é manipulado em segundo plano por um servidor proxy que atualiza todas as URLs de link para que funcionem no proxy. Se você adicionar uma tag base, todos esses URLs serão resolvidos pelo navegador para que pareçam corrompidos.
 
 +++
 
@@ -211,7 +211,7 @@ Neste exemplo, todo o elemento de ancoragem é selecionado no VEC, o que afeta n
 ### Não use `top` ou `self` variáveis no código JavaScript.
 
 +++Detalhes
-Quando a [!UICONTROL Enhanced Experience Composer] está habilitada, o valor das variáveis superior e própria é atualizado para desabilitar a edição do iframe. Use um cabeçalho de X-frame-options para adicionar a edição do iframe, em vez dos códigos JavaScript personalizados.
+Quando o [!UICONTROL Enhanced Experience Composer] está habilitado, o valor das variáveis superior e própria é atualizado para desabilitar a edição do iframe. Use um cabeçalho de X-frame-options para adicionar a edição do iframe, em vez dos códigos JavaScript personalizados.
 
 +++
 
@@ -252,9 +252,9 @@ Desative as técnicas de interrupção de iframe no seu site e verifique se o si
 
 ## Avisos {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
 
-Considere os avisos a seguir ao usar o [!UICONTROL Visual Experience Composer] para criar sua atividade.
+Considere os avisos a seguir ao usar o [!UICONTROL Visual Experience Composer] para projetar sua atividade.
 
-### O recurso [!UICONTROL Move] não dá suporte ao índice z.
+### O recurso [!UICONTROL Move] não oferece suporte ao índice z.
 
 +++Detalhes
 Como não há nenhuma funcionalidade de índice z, o elemento movido não pode ser movido para cima de outro elemento. Consulte [Limitações](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721) para obter mais detalhes.
@@ -304,7 +304,7 @@ A div externa não deve ser selecionada em uma experiência porque a mbox codifi
 ### Os IPs proxy podem ser bloqueados no ambiente dos clientes.
 
 +++Detalhes
-Se você estiver usando o [!UICONTROL Enhanced Experienced Composer] em um site sem transmissão ao vivo, como um ambiente de preparo, poderá ver erros de tempo limite e acesso negado se o site bloquear RIPs.
+Se você estiver usando o [!UICONTROL Enhanced Experienced Composer] em um site sem transmissão ao vivo, como um ambiente de preparo, poderá observar erros de tempo limite e acesso negado, se o seu site bloquear RIPs.
 
 +++
 
@@ -342,17 +342,17 @@ Um elemento não pode ser movido para fora de um contêiner seguido por uma prop
 
 +++
 
-### Você não pode selecionar o elemento [!UICONTROL Button] para reorganização.
+### Você não pode selecionar o elemento [!UICONTROL Botão] para reorganização.
 
 +++Detalhes
-[!UICONTROL Button] elementos não podem ser selecionados diretamente para reorganização. Para habilitar a reorganização, coloque botões dentro de um contêiner maior.
+Os elementos do [!UICONTROL Botão] não podem ser selecionados diretamente para reorganização. Para habilitar a reorganização, coloque botões dentro de um contêiner maior.
 
 +++
 
 ### Somente ofertas de troca estão disponíveis em mboxes.
 
 +++Detalhes
-Ações como [!UICONTROL Edit Class] e [!UICONTROL Rearrange] não são permitidas dentro de uma mbox.
+Ações como [!UICONTROL Editar classe] e [!UICONTROL Reorganizar] não são permitidas dentro de uma mbox.
 
 +++
 
@@ -363,12 +363,12 @@ Se um elemento tiver sido movido para outro local e você selecionar o contêine
 
 +++
 
-### A ação [!UICONTROL Change Image] não funciona em uma imagem no carrossel.
+### A ação [!UICONTROL Alterar imagem] não funciona em uma imagem no carrossel.
 
 +++Detalhes
-Se, por exemplo, sua página contiver um carrossel com seis imagens e você quiser trocar uma imagem pela segunda imagem do carrossel, a ação [!UICONTROL Change Image] não funcionará.
+Se, por exemplo, sua página contiver um carrossel com seis imagens e você quiser trocar uma imagem pela segunda imagem do carrossel, a ação [!UICONTROL Alterar imagem] não funcionará.
 
-A solução alternativa é selecionar o contêiner pai e usar a ação [!UICONTROL Edit HTML] para editar a HTML do carrossel e atualizar a fonte de imagem da imagem desejada.
+A solução alternativa é selecionar o contêiner pai e usar a ação [!UICONTROL Editar HTML] para editar a HTML do carrossel e atualizar a fonte de imagem da imagem desejada.
 
 +++
 
@@ -379,7 +379,7 @@ Se você trocar uma imagem em um elemento de mbox, tente redimensionar essa imag
 
 +++
 
-### Depois que trocar uma imagem, você não poderá selecionar a ação [!UICONTROL Edit].
+### Depois que trocar uma imagem, você não poderá selecionar a ação [!UICONTROL Editar].
 
 +++Detalhes
 Depois que trocar a imagem, você não poderá editar o URL do Scene7.
@@ -436,7 +436,7 @@ O script é executado no escopo de `target.js` depois que a página é carregada
 
 +++
 
-### Inserir uma imagem na biblioteca [!UICONTROL Content] (Scene7) e editar o HTML quebra a URL da imagem.
+### Inserir uma imagem na biblioteca de [!UICONTROL Conteúdo] (Scene7) e editar o HTML quebra a URL da imagem.
 
 +++Detalhes
 Adicione um elemento da âncora dentro do div &#39;customHeaderMessage&#39; com algum texto de teste:
@@ -447,7 +447,7 @@ Adicione um elemento da âncora dentro do div &#39;customHeaderMessage&#39; com 
 </a>
 ```
 
-Selecione esta div usando a ação [!UICONTROL Insert Element] para inserir uma imagem como irmã desta div de texto fictício.
+Selecione esta div usando a ação [!UICONTROL Inserir Elemento] para inserir uma imagem como irmã desta div de texto fictício.
 
 Após a inserção da imagem, ele tem a seguinte aparência:
 
@@ -472,6 +472,6 @@ Devido às limitações do IE8 ao manipular o conteúdo do script, o `target.js`
 ### O rastreamento de cliques é compatível somente na página em que as experiências são criadas ou na página redirecionada.
 
 +++Detalhes
-Embora o modo [!UICONTROL Browse] esteja disponível para o rastreamento de cliques no VEC, o modo [!UICONTROL Browse] não pode ser usado para adicionar o rastreamento de cliques em uma página.
+Embora o modo [!UICONTROL Procurar] esteja disponível para rastreamento de cliques no VEC, o modo [!UICONTROL Procurar] não pode ser usado para adicionar o rastreamento de cliques em uma página.
 
 +++

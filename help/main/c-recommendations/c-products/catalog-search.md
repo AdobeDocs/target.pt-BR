@@ -1,7 +1,7 @@
 ---
 keywords: pesquisa de catálogo;catálogo;pesquisa;exclusão;coleção;filtro;recomendações
-description: Saiba como usar o  [!DNL Recommendations] [!UICONTROL Catalog Search] para localizar produtos ou conteúdo, remover itens do catálogo e muito mais.
-title: Como usar o  [!DNL Recommendations] [!UICONTROL Catalog Search]?
+description: Saiba como usar a [!DNL Recommendations] [!UICONTROL Pesquisa no catálogo] para localizar produtos ou conteúdo, remover itens do catálogo e muito mais.
+title: Como usar a [!DNL Recommendations] [!UICONTROL Pesquisa no catálogo]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
@@ -13,28 +13,28 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 519
-ht-degree: 22%
+source-wordcount: 552
+ht-degree: 21%
 
 ---
 
-# [!UICONTROL Catalog Search]
+# [!UICONTROL Pesquisa no catálogo]
 
-A página [!UICONTROL Catalog Search] no [!DNL Adobe Recommendations] ajuda a localizar os produtos ou conteúdo no catálogo. A tarefa mais básica que você pode executar nessa página é procurar um item. Além disso, você pode alterar o ambiente, filtrar aspectos, modificar colunas na tabela, adicionar novos aspectos de pesquisa e muito mais.
+A página [!UICONTROL Pesquisa no Catálogo] do [!DNL Adobe Recommendations] ajuda a localizar os produtos ou o conteúdo no catálogo. A tarefa mais básica que você pode executar nessa página é procurar um item. Além disso, você pode alterar o ambiente, filtrar aspectos, modificar colunas na tabela, adicionar novos aspectos de pesquisa e muito mais.
 
 Catálogos se referem a todo o conjunto de produtos (entidades). Seu catálogo pode conter muitas coleções, uma maneira de organizar seus produtos em compartimentos lógicos.
 
-## Acessar [!UICONTROL Catalog Search]
+## Acessar a [!UICONTROL Pesquisa no catálogo]
 
-1. Para acessar a página [!UICONTROL Catalog Search], clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+1. Para acessar a página [!UICONTROL Pesquisa no Catálogo], clique em **[!UICONTROL Recomendações]** > **[!UICONTROL Pesquisa no Catálogo]**.
 
-1. (Opcional) Para aplicar filtros à sua pesquisa, clique no ícone **[!UICONTROL Show Filters]** ( ![ícone Mostrar filtros](/help/main/assets/icons/Filter.svg) ). Você pode filtrar por [!UICONTROL Environment], [!UICONTROL Collections], [!UICONTROL Category], [!UICONTROL Brand], [!UICONTROL Inventory] e [!UICONTROL Value].
+1. (Opcional) Para aplicar filtros à sua pesquisa, clique no ícone **[!UICONTROL Mostrar filtros]** ( ![ícone Mostrar filtros](/help/main/assets/icons/Filter.svg) ). Você pode filtrar por [!UICONTROL Ambiente], [!UICONTROL Coleções], [!UICONTROL Categoria], [!UICONTROL Marca], [!UICONTROL Inventário] e [!UICONTROL Valor].
 
 ## Executar uma pesquisa simples
 
-1. Digite um termo de pesquisa no campo **[!UICONTROL Search In]**.
+1. Digite um termo de pesquisa no campo **[!UICONTROL Pesquisar em]**.
 
-1. (Opcional) Você pode refinar sua pesquisa selecionando uma opção de pesquisa no menu de opções que é exibido ao clicar na seta para baixo no campo [!UICONTROL Search In].
+1. (Opcional) Você pode refinar sua pesquisa selecionando uma opção de pesquisa no menu de opções que é exibido ao clicar na seta para baixo no campo [!UICONTROL Pesquisar em].
 
    As opções de pesquisa incluem o seguinte:
 
@@ -84,7 +84,7 @@ Você pode exibir os detalhes de um item individual, incluindo ID, nome, mensage
 
 1. Clique em um item nos resultados da pesquisa para exibir seus detalhes.
 
-1. Clique em **[!UICONTROL Remove from Catalog]**.
+1. Clique em **[!UICONTROL Remover do catálogo]**.
 
 1. Confirme se deseja remover o item.
 
@@ -118,7 +118,7 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 1. Clique no ícone Mostrar filtros ( ![ícone Mostrar filtros](/help/main/assets/icons/Filter.svg) ).
 
-1. Selecione o ambiente desejado na lista suspensa **[!UICONTROL Environment]**.
+1. Selecione o ambiente desejado na lista suspensa **[!UICONTROL Ambiente]**.
 
 <!--
 ## Modify the Catalog Search page (filters and columns)
@@ -142,9 +142,9 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## Modificar colunas
 
-Você pode modificar as colunas ativas na página [!UICONTROL Catalog Search].
+Você pode modificar as colunas ativas na página [!UICONTROL Pesquisa no catálogo].
 
-1. Clique no ícone **[!UICONTROL Customize Table]** ( ![Ícone Personalizar tabela](/help/main/assets/icons/ColumnSetting.svg) ).
+1. Clique no ícone **[!UICONTROL Personalizar tabela]** ( ![ícone Personalizar tabela](/help/main/assets/icons/ColumnSetting.svg) ).
 
 1. Marque ou desmarque as colunas desejadas que deseja exibir ou ocultar.
 

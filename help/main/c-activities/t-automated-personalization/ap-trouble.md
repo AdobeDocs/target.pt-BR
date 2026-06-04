@@ -1,7 +1,7 @@
 ---
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
-description: Explore os possíveis desafios que você pode enfrentar ao usar as atividades de [!UICONTROL Automated Personalization] (AP) no Adobe Target, juntamente com as soluções sugeridas.
-title: Como solucionar problemas de atividades de [!UICONTROL Automated Personalization]?
+description: Explore os possíveis desafios que você pode enfrentar ao usar as atividades do [!UICONTROL Automated Personalization] (AP) no Adobe Target, juntamente com as soluções sugeridas.
+title: Como solucionar problemas de atividades do [!UICONTROL Automated Personalization]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
@@ -15,20 +15,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 742
+source-wordcount: 764
 ht-degree: 30%
 
 ---
 
-# Solução de problemas [!UICONTROL Automated Personalization]
+# Solução de problemas do [!UICONTROL Automated Personalization]
 
-Às vezes, as atividades não acontecem como o esperado. Aqui estão alguns possíveis desafios que você poderá enfrentar ao usar o [!UICONTROL Automated Personalization] (AP) e algumas soluções sugeridas.
+Às vezes, as atividades não acontecem como o esperado. Estes são alguns possíveis desafios que você poderá enfrentar ao usar o [!UICONTROL Automated Personalization] (AP) e algumas soluções sugeridas.
 
 ## Minha atividade [!UICONTROL Automated Personalization] está demorando muito para criar modelos. {#section_20028B204DBB4D77A324BA193434AEE2}
 
 +++Ver detalhes
 
-Há várias alterações de configuração de atividade que podem diminuir o tempo esperado para criar modelos, incluindo o número de experiências em sua atividade [!UICONTROL Automated Personalization], o tráfego para seu site e sua métrica de sucesso selecionada.
+Há várias alterações de configuração de atividade que podem diminuir o tempo esperado para criar modelos, incluindo o número de experiências em sua atividade do [!UICONTROL Automated Personalization], o tráfego para seu site e sua métrica de sucesso selecionada.
 
 **Solução:** revise sua configuração de atividade e veja se há alterações que você deseja fazer para melhorar a velocidade de criação dos modelos.
 
@@ -54,11 +54,11 @@ Há vários fatores necessários para uma atividade [!UICONTROL Automated Person
 
 +++
 
-## O URL da minha atividade [!UICONTROL Automated Personalization] está mostrando o conteúdo da oferta nas páginas incorretas. {#section_82A224406DBF4107B05204BEFBBE458C}
+## O URL da minha atividade de [!UICONTROL Automated Personalization] está mostrando o conteúdo da oferta em páginas incorretas. {#section_82A224406DBF4107B05204BEFBBE458C}
 
 +++Ver detalhes
 
-Em [!UICONTROL Automated Personalization], as regras de teste de modelo e URL são adicionadas à restrição de entrada de solicitação [!DNL Target] (por exemplo, target-global-mbox), onde são avaliadas apenas uma vez. Depois que um usuário é qualificado para uma atividade, as regras de direcionamento no nível da solicitação do Target não são reavaliadas. Entretanto, o público-alvo da segmentação é adicionado às regras de direcionamento por localização.
+No [!UICONTROL Automated Personalization], as regras de teste de modelo e URL são adicionadas à restrição de entrada de solicitação [!DNL Target] (por exemplo, target-global-mbox), onde são avaliadas apenas uma vez. Depois que um usuário é qualificado para uma atividade, as regras de direcionamento no nível da solicitação do Target não são reavaliadas. Entretanto, o público-alvo da segmentação é adicionado às regras de direcionamento por localização.
 
 **Solução:** adicione as regras de modelo necessárias como o público-alvo de entrada da atividade. A avaliação do público-alvo ocorre a cada solicitação/chamada.
 
@@ -70,7 +70,7 @@ Em [!UICONTROL Automated Personalization], as regras de teste de modelo e URL s�
 
 Isso é esperado.
 
-Em uma atividade [!UICONTROL Automated Personalization], depois que uma métrica de conversão (objetivo de otimização ou de postagem) é convertida, o visitante é liberado da experiência e a atividade é reiniciada.
+Em uma atividade do [!UICONTROL Automated Personalization], depois que uma métrica de conversão (objetivo de otimização ou de postagem) é convertida, o visitante é liberado da experiência e a atividade é reiniciada.
 
 Por exemplo, há uma atividade com uma métrica de conversão (C1) e uma métrica adicional (A1). A1 depende de C1. Quando um visitante entra na atividade pela primeira vez, e os critérios de conversão de A1 e C1 não são convertidos, a métrica A1 não é convertida por depender da métrica de sucesso. Se o visitante converter C1 e depois converter A1, A1 ainda não será convertido porque quando C1 é convertido, o visitante é liberado.
 

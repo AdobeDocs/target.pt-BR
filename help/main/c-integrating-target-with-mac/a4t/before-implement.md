@@ -24,7 +24,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1014
+source-wordcount: 1034
 ht-degree: 26%
 
 ---
@@ -101,7 +101,7 @@ O aumento da latência começa após a implementação do serviço de ID de visi
 
 Todas as chamadas [!DNL Target] usadas por uma atividade do A4T para fornecer conteúdo ou registrar a métrica de meta devem ter uma ocorrência [!DNL Analytics] correspondente que compartilhe a ID complementar do A4T para funcionar corretamente.
 
-Ocorrências que contêm dados de [!DNL Analytics] e [!DNL Target] contêm uma ID de dados complementar. Você pode ver esta ID no [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=pt-BR) como o parâmetro `sdid`. Por exemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Esta ID é gerada a qualquer momento em que os seguintes critérios estiverem em vigor:
+Ocorrências que contêm dados de [!DNL Analytics] e [!DNL Target] contêm uma ID de dados complementar. Você pode ver essa ID no [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=pt-BR) como o parâmetro `sdid`. Por exemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Esta ID é gerada a qualquer momento em que os seguintes critérios estiverem em vigor:
 
 * O serviço de ID de visitante for implementado
 
@@ -115,12 +115,12 @@ Há casos em que você precisa ter mais controle sobre quando e como enviar dado
 
 ## Públicos-alvo compartilhados
 
-Ao preencher o [Formulário de provisionamento de Integrações do Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, esteja ciente das seguintes informações importantes sobre a opção [!UICONTROL Shared Audiences] listada em &quot;[!UICONTROL For which capabilities are you requesting provisioning]?&quot;
+Ao preencher o [Formulário de provisionamento de Integrações do Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, esteja ciente das seguintes informações importantes sobre a opção [!UICONTROL Públicos-alvo compartilhados] listada em &quot;[!UICONTROL Para quais recursos você está solicitando o provisionamento]?&quot;
 
 ![Formulário de solicitação](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
-Ao solicitar o [!UICONTROL Shared Audiences], você habilita o [!UICONTROL Target] e o [!UICONTROL Adobe Audience Manager] (AAM) a compartilhar informações, neste caso, públicos-alvo.
+Ao solicitar [!UICONTROL Públicos-alvo compartilhados], você habilita o [!UICONTROL Target] e o [!UICONTROL Adobe Audience Manager] (AAM) a compartilhar informações, neste caso, públicos-alvo.
 
 >[!IMPORTANT]
 >
->Essa integração entre o [!UICONTROL Target] e o AAM traz custos extras. Você é cobrado por cada chamada [!UICONTROL Target] no AAM.
+>Esta integração entre o [!UICONTROL Target] e o AAM gera custos adicionais. Você é cobrado por cada chamada do [!UICONTROL Target] no AAM.

@@ -1,7 +1,7 @@
 ---
 keywords: teste multivariado, mvt, plano de mvt, plano de teste multivariado
-description: Saiba como planejar um [!UICONTROL Multivariate Test] no [!DNL Adobe Target] para criar um teste bem-sucedido.
-title: Como planejo um [!UICONTROL Multivariate Test]?
+description: Saiba como planejar um [!UICONTROL Teste multivariado] no [!DNL Adobe Target] para poder criar um teste bem-sucedido.
+title: Como planejo um [!UICONTROL teste multivariado]?
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
 TQID: https://experienceleague.adobe.com/Fg9jOrPlkLxpbJdG-AKoWHD3YvIGEJPu7Os-RdfXvQA
@@ -11,14 +11,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 287
-ht-degree: 64%
+source-wordcount: 295
+ht-degree: 63%
 
 ---
 
-# Planejar um [!UICONTROL Multivariate Test]
+# Planejar um [!UICONTROL Teste multivariado]
 
-[!UICONTROL Multivariate Tests] atividades (MVT) em [!DNL Adobe Target] exigem planejamento antes de você poder criar um teste bem-sucedido.
+[!UICONTROL As atividades de Testes multivariados] (MVT) em [!DNL Adobe Target] exigem planejamento antes de você poder criar um teste bem-sucedido.
 
 O MVT requer tráfego suficiente para gerar resultados úteis. Antes de configurar seu teste, verifique qual é quantidade de tráfego que geralmente recebe, incluindo o número de impressões e conversas. Ter essas informações ajuda a reduzir a probabilidade de projetar um teste com requisitos que excedem o tráfego do site.
 

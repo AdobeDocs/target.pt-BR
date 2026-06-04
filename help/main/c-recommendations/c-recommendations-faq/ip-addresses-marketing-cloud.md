@@ -12,8 +12,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 187
-ht-degree: 33%
+source-wordcount: 189
+ht-degree: 32%
 
 ---
 
@@ -25,7 +25,7 @@ Lista de endereços IP usados em servidores de processamento de feed do [!DNL Ad
 >
 >A equipe [!DNL Target] está atualizando os endereços de gateway NAT para baixar os feeds [!DNL Recommendations]. Se você implementar o incluir na lista de permissões de IP, certifique-se de incluir na lista de permissões os novos hosts da AWS a seguir. Os hosts existentes estão programados para serem desativados em 30 de junho de 2024. Para garantir uma transição suave, inclua na lista de permissões todos os nove endereços. Não há urgência para remover os endereços existentes.
 
-[!DNL Target] [!UICONTROL Recommendations] atividades usam os seguintes hosts AWS ao acessar os servidores FTP dos clientes:
+As atividades do [!DNL Target] [!UICONTROL Recommendations] usam os seguintes hosts da AWS ao acessar os servidores FTP dos clientes:
 
 **Novos hosts**:
 
@@ -46,4 +46,4 @@ Lista de endereços IP usados em servidores de processamento de feed do [!DNL Ad
 | Oregon | `44.232.167.82` |
 | Oregon | `52.41.252.205` |
 
-As APIs de [!DNL Target] [!UICONTROL Recommendations] também usam os mesmos hosts AWS.
+As APIs do [!DNL Target] [!UICONTROL Recommendations] também usam os mesmos hosts do AWS.

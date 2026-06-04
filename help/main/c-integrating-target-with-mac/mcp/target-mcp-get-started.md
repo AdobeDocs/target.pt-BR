@@ -35,7 +35,7 @@ Esta página aborda tudo o que você precisa para conectar o servidor MCP do [!D
 
 Antes de conectar o servidor MCP [!DNL Adobe Target] ao seu cliente MCP, verifique o seguinte:
 
-* Você tem uma licença [!DNL Adobe Target] ativa (assinatura do Adobe Experience Cloud) com uma organização da Adobe Experience Platform.
+* Você tem uma licença [!DNL Adobe Target] ativa (assinatura da Adobe Experience Cloud) com uma organização da Adobe Experience Platform.
 * Você tem um aplicativo compatível com MCP (atualmente Claude Web, Claude Desktop, Claude Code, Cursor ou ChatGPT).
 * Você tem [!DNL Adobe Target] permissões configuradas no Adobe Admin Console. No Beta público, todas as 23 ferramentas disponíveis são somente leitura. A função de **Observador** ou superior é suficiente para usar o servidor MCP.
 
@@ -47,13 +47,13 @@ Antes de conectar o servidor MCP [!DNL Adobe Target] ao seu cliente MCP, verifiq
 
 >[!NOTE]
 >
->O servidor MCP [!DNL Adobe Target] usa OAuth 2.0 para autenticação. Ao usar uma ferramenta MCP do Target pela primeira vez, você é redirecionado ao Adobe Experience Cloud para fazer logon, selecionar sua organização e conceder as permissões solicitadas. Nenhuma credencial estática é necessária.
+>O servidor MCP [!DNL Adobe Target] usa OAuth 2.0 para autenticação. Ao usar uma ferramenta MCP do Target pela primeira vez, você é redirecionado para a Adobe Experience Cloud para fazer logon, selecionar sua organização e conceder as permissões solicitadas. Nenhuma credencial estática é necessária.
 
 **Para se conectar a partir do Claude Desktop ou do Claude Web:**
 
 1. Abra as configurações do cliente MCP e adicione um novo servidor MCP.
 1. Digite a URL do servidor: `https://targetmcp.adobe.io/mcp`
-1. Quando solicitado, conclua o logon do Adobe IMS OAuth com suas credenciais do Adobe Experience Cloud.
+1. Quando solicitado, conclua o logon no Adobe IMS OAuth com suas credenciais da Adobe Experience Cloud.
 1. Depois de autenticadas, todas as ferramentas ficam disponíveis imediatamente. Tente &quot;Listar todas as atividades ativas do Target&quot; para verificar a conexão.
 
 **Para se conectar a partir do Código Claude:**
@@ -92,13 +92,13 @@ Complete o fluxo do navegador OAuth quando solicitado na primeira utilização.
 
 >[!TIP]
 >
->Se atividades ou dados da organização errada forem exibidos, faça logout completo do Adobe Experience Cloud, reconecte o servidor MCP e selecione cuidadosamente a organização correta durante a reautenticação.
+>Se atividades ou dados da organização errada forem exibidos, faça logout completo da Adobe Experience Cloud, reconecte o servidor MCP e selecione cuidadosamente a organização correta durante a reautenticação.
 
 ## Solução de problemas {#mcp-troubleshooting}
 
 +++O fluxo do OAuth falha ou redireciona incorretamente
 
-1. Faça logout do Adobe Experience Cloud completamente.
+1. Faça logout da Adobe Experience Cloud completamente.
 1. Limpe os cookies do navegador para domínios do adobe.com.
 1. Tente novamente o fluxo de autenticação.
 1. Quando solicitado, certifique-se de selecionar a organização correta.
@@ -106,7 +106,7 @@ Complete o fluxo do navegador OAuth quando solicitado na primeira utilização.
 
 +++Atividades ou dados da organização errada aparecem
 
-1. Faça logout do Adobe Experience Cloud completamente.
+1. Faça logout da Adobe Experience Cloud completamente.
 1. Desconecte e reconecte o servidor MCP nas configurações do cliente.
 1. Selecione a organização correta cuidadosamente durante a reautenticação.
 +++
