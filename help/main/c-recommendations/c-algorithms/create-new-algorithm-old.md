@@ -124,13 +124,13 @@ Para obter mais informações sobre como escolher uma [!UICONTROL Chave de recom
 
    | Opção Janela de pesquisa | Frequência atualizada (exibida ao passar o mouse) | Algoritmos compatíveis |
    | --- | --- | --- |
-   | Seis horas | O algoritmo é executado a cada 3-6 horas | [!UICONTROL Algoritmos ] baseados em popularidade quando o [!UICONTROL Source de Dados Comportamentais] selecionado é [!DNL Adobe Target] |
-   | Um dia | O algoritmo é executado a cada 12-24 horas | [!UICONTROL Algoritmos ] com base em popularidade |
-   | Dois dias | O algoritmo é executado a cada 12-24 horas | <ul><li>[!UICONTROL Algoritmos ] com base em popularidade</li><li>[!UICONTROL Algoritmos ] baseados em itens</li><li>[!UICONTROL Algoritmos ] com base no usuário</li><li>[!UICONTROL Algoritmos ] baseados em carrinho</li></ul> |
-   | Uma semana | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] com base em popularidade</li><li>[!UICONTROL Algoritmos ] baseados em itens</li><li>[!UICONTROL Algoritmos ] com base no usuário</li><li>[!UICONTROL Algoritmos ] baseados em carrinho</li></ul> |
-   | Duas semanas | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] com base em popularidade</li><li>[!UICONTROL Algoritmos ] baseados em itens</li><li>Todos os algoritmos [!UICONTROL baseados em usuário]</li><li>[!UICONTROL Algoritmos ] baseados em carrinho</li></ul> |
-   | Um mês (30 dias) | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] com base em popularidade</li><li>[!UICONTROL Algoritmos ] baseados em itens</li><li>[!UICONTROL Algoritmos ] com base no usuário</li><li>[!UICONTROL Algoritmos ] baseados em carrinho</li></ul> |
-   | Dois meses (61 dias) | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] com base em popularidade</li><li>[!UICONTROL Algoritmos ] baseados em itens</li><li>[!UICONTROL Algoritmos ] com base no usuário</li><li>[!UICONTROL Algoritmos ] baseados em carrinho</li></ul> |
+   | Seis horas | O algoritmo é executado a cada 3-6 horas | [!UICONTROL Algoritmos &#x200B;] baseados em popularidade quando o [!UICONTROL Source de Dados Comportamentais] selecionado é [!DNL Adobe Target] |
+   | Um dia | O algoritmo é executado a cada 12-24 horas | [!UICONTROL Algoritmos &#x200B;] com base em popularidade |
+   | Dois dias | O algoritmo é executado a cada 12-24 horas | <ul><li>[!UICONTROL Algoritmos &#x200B;] com base em popularidade</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em itens</li><li>[!UICONTROL Algoritmos &#x200B;] com base no usuário</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em carrinho</li></ul> |
+   | Uma semana | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos &#x200B;] com base em popularidade</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em itens</li><li>[!UICONTROL Algoritmos &#x200B;] com base no usuário</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em carrinho</li></ul> |
+   | Duas semanas | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos &#x200B;] com base em popularidade</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em itens</li><li>Todos os algoritmos [!UICONTROL baseados em usuário]</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em carrinho</li></ul> |
+   | Um mês (30 dias) | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos &#x200B;] com base em popularidade</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em itens</li><li>[!UICONTROL Algoritmos &#x200B;] com base no usuário</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em carrinho</li></ul> |
+   | Dois meses (61 dias) | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos &#x200B;] com base em popularidade</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em itens</li><li>[!UICONTROL Algoritmos &#x200B;] com base no usuário</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em carrinho</li></ul> |
 
 ## [!UICONTROL Conteúdo de Backup] {#content}
 
@@ -177,7 +177,7 @@ Use as regras de [!UICONTROL Similaridade de conteúdo] para fazer recomendaçõ
 
 >[!NOTE]
 >
->Se você selecionou **[!UICONTROL Mídia]**/ **[!UICONTROL Baseada em itens]** com Atributos Semelhantes{como o Tipo de Algoritmo e o Algoritmo, você terá a opção de definir regras de similaridade de conteúdo.
+>Se você selecionou **[!UICONTROL Mídia]**/ **[!UICONTROL Baseada em itens]** com Atributos Semelhantes&lbrace;como o Tipo de Algoritmo e o Algoritmo, você terá a opção de definir regras de similaridade de conteúdo.
 
 Similaridade de conteúdo compara palavras-chave de atributo do item e faz recomendações baseadas em quantas palavras-chave itens diferentes têm em comum. Recomendações baseadas em similaridade de conteúdo não requerem dados antigos para providenciar melhores resultados.
 

@@ -5,9 +5,15 @@ title: Como Especificar Metas e Configurações em uma Atividade A/B [!DNL Targe
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
 TQID: https://experienceleague.adobe.com/X3JDvfXDHM2rAOodEY5N9TVO-tBpz4vNDUvhOpC0XZ4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1292
@@ -56,7 +62,7 @@ As opções disponíveis são as seguintes:
 
 | Configuração | Descrição |
 |--- |--- |
-| [!UICONTROL Qual métrica de sucesso deve ser alcançada antes do incremento dessa métrica?] | Use essa opção para contar apenas alguém que atingiu a métrica de sucesso se já tiver atingido uma métrica de sucesso diferente. Por exemplo, uma conversão de atividade só pode ser válida se o visitante clicar na oferta ou acessar uma página específica antes da conversão. É possível fornecer dependência em várias métricas, juntamente com a flexibilidade para escolher se a métrica deve ser alcançada ou não para que a contagem seja incrementada. Defina ambas as métricas de sucesso (ou várias) para poder tornar uma dependente da outra. A opção [!UICONTROL Adicionar dependência] permite que a métrica de sucesso seja incrementada se outra métrica de sucesso for ou não alcançada. Para adicionar uma dependência:<ul><li>Depois de adicionar outras métricas, clique em [!UICONTROL Configurações avançadas].</li><li>Clique na opção [!UICONTROL Adicionar dependência]:</li><li>Arraste e solte as métricas desejadas do painel esquerdo para o painel direito e clique em [!UICONTROL Alcançado] para alternar a configuração entre [!UICONTROL Alcançado] e[!UICONTROL  Não alcançado].</li><li>É possível editar ou remover dependências depois de adicioná-las.</li></ul> |
+| [!UICONTROL Qual métrica de sucesso deve ser alcançada antes do incremento dessa métrica?] | Use essa opção para contar apenas alguém que atingiu a métrica de sucesso se já tiver atingido uma métrica de sucesso diferente. Por exemplo, uma conversão de atividade só pode ser válida se o visitante clicar na oferta ou acessar uma página específica antes da conversão. É possível fornecer dependência em várias métricas, juntamente com a flexibilidade para escolher se a métrica deve ser alcançada ou não para que a contagem seja incrementada. Defina ambas as métricas de sucesso (ou várias) para poder tornar uma dependente da outra. A opção [!UICONTROL Adicionar dependência] permite que a métrica de sucesso seja incrementada se outra métrica de sucesso for ou não alcançada. Para adicionar uma dependência:<ul><li>Depois de adicionar outras métricas, clique em [!UICONTROL Configurações avançadas].</li><li>Clique na opção [!UICONTROL Adicionar dependência]:</li><li>Arraste e solte as métricas desejadas do painel esquerdo para o painel direito e clique em [!UICONTROL Alcançado] para alternar a configuração entre [!UICONTROL Alcançado] e[!UICONTROL &#x200B; Não alcançado].</li><li>É possível editar ou remover dependências depois de adicioná-las.</li></ul> |
 | [!UICONTROL O que acontecerá após o usuário encontrar esta métrica de meta?] | Há três opções para o que acontece depois que um visitante atinge a métrica de meta:<ul><li>Selecione **[!UICONTROL Aumentar a contagem e manter o usuário na atividade]** para especificar como é feito o aumento da contagem.</li><li>Selecione **[!UICONTROL Aumentar a contagem, liberar o usuário e permitir a reentrada]** para especificar a experiência que o usuário vê ao entrar na atividade novamente.</li><li>Selecione **[!UICONTROL Incrementar contagem, liberar usuário e barra de reentrada]** para especificar o que o usuário vê em vez do conteúdo da atividade.</li></ul> |
 | [!UICONTROL Como a contagem será incrementada?] | Existem três opções de como a contagem é incrementada:<ul><li>[!UICONTROL Uma vez por participante]</li><li>[!UICONTROL Em Todas as Impressões (Excluindo atualizações de página)]</li><li>[!UICONTROL Em Todas As Impressões]</li></ul> |
 

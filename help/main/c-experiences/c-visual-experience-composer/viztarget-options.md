@@ -5,9 +5,14 @@ title: Como usar as opções do [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 TQID: https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 2249
@@ -141,7 +146,7 @@ A tela [!UICONTROL Design] permite selecionar janelas de visualização, inclusi
 
 Também é possível aumentar ou diminuir o zoom clicando no ícone apropriado ( ![ícone de Aumentar Zoom](/help/main/assets/icons/ZoomIn.svg) ou ![ícone de Diminuir Zoom](/help/main/assets/icons/ZoomOut.svg) ).
 
-Ao clicar em um elemento de página na tela de desenho [!UICONTROL 1}, um menu mostrará as opções disponíveis para esse tipo de elemento. ]Além disso, um caminho DOM é exibido na parte inferior da página, possibilitando uma navegação fácil pela estrutura da página.
+Ao clicar em um elemento de página na tela de desenho [!UICONTROL 1&rbrace;, um menu mostrará as opções disponíveis para esse tipo de elemento. &#x200B;]Além disso, um caminho DOM é exibido na parte inferior da página, possibilitando uma navegação fácil pela estrutura da página.
 
 As várias ações do [!UICONTROL Visual Experience Composer] (VEC) são agrupadas nas opções de menu apropriadas para tornar seu trabalho mais rápido e eficiente:
 

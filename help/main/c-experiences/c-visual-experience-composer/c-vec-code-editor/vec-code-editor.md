@@ -5,8 +5,11 @@ title: Que modificações posso fazer em minha página?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
 TQID: https://experienceleague.adobe.com/sOgNlejLNcnSwKf46-AHRXTLkM5Y6laB7QMLu5oYBUU
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2263
@@ -40,7 +43,7 @@ Use a página de Modificações para:
 
   Faça as alterações.
 
-  ![imagem de {codeeditor_changechange1](assets/codeeditor_changechange1.png)
+  ![imagem de &lbrace;codeeditor_changechange1](assets/codeeditor_changechange1.png)
 
 * Excluir uma ação existente. Passe o mouse sobre a modificação desejada, em seguida, clique no ícone **[!UICONTROL Excluir]**.
 
@@ -64,7 +67,7 @@ Use a página de Modificações para:
 
 1. Para exibir a página de [!UICONTROL Modificações] de uma experiência selecionada, no VEC, clique no ícone **[!UICONTROL Modificações]** &lt;/>.
 
-   ![imagem grande do {codeeditor_icon](assets/codeeditor_icon_big.png)
+   ![imagem grande do &lbrace;codeeditor_icon](assets/codeeditor_icon_big.png)
 
    >[!NOTE]
    >
