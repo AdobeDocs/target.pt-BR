@@ -2,13 +2,13 @@
 keywords: design de recomendações, criar design, copiar design
 description: Saiba como criar um design do Adobe [!DNL Target] Recommendations usando um design padrão ou criando um design personalizado para melhor se ajustar ao layout da sua página.
 title: Como criar um design no Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 21%
+source-wordcount: '1061'
+ht-degree: 27%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 21%
 
 Um design define como as recomendações são exibidas em uma página.
 
-Você pode criar um design do [!UICONTROL Recommendations] usando um design padrão ou um design personalizado. A tela **[!UICONTROL Recommendations > Designs]** exibe cartões de design padrão e qualquer design que tenha sido criado em sua conta.
+Você pode criar um design de [!UICONTROL recomendações] usando um design padrão ou criando um design personalizado. A tela **[!UICONTROL Recomendações > Designs]** exibe cartões de design padrão e qualquer design que tenha sido criado em sua conta.
 
 Lembre-se das seguintes informações ao trabalhar com designs:
 
@@ -41,55 +41,55 @@ Você pode criar um design com base em um design padrão ou criar um design pers
 
 ### Criar um design com base em um design padrão
 
-1. Clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** para exibir a biblioteca [!UICONTROL Designs].
+1. Clique em **[!UICONTROL Recomendações]** > **[!UICONTROL Designs]** para exibir a biblioteca [!UICONTROL Designs].
 
    ![Biblioteca de designs](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
-1. Passe o mouse sobre o cartão do design que deseja criar e clique no ícone **[!UICONTROL Copy]**.
+1. Passe o mouse sobre o cartão do design que você deseja criar e clique no ícone **[!UICONTROL Copiar]**.
 
    ![Imagem Card_CopyDesign](assets/Card_CopyDesign.png)
 
-   A caixa de diálogo [!UICONTROL Create Design] é exibida.
+   A caixa de diálogo [!UICONTROL Criar Design] é exibida.
 
    ![criar imagem de design](assets/createDesign.png)
 
-1. No painel **[!UICONTROL Information]**, adicione uma **[!UICONTROL Content Name]** e uma imagem de visualização opcional para exibir no cartão de design.
+1. No painel **[!UICONTROL Informações]**, adicione um **[!UICONTROL Nome do Conteúdo]** e uma imagem de visualização opcional para exibir no cartão de design.
 
-   Quando você usa um design padrão, o nome do design e &quot;Cópia&quot; aparecem no campo **[!UICONTROL Content Name]**. Você pode editar o nome. Você também pode selecionar uma imagem para exibir no cartão de design.
+   Quando você usa um design padrão, o nome do design e &quot;Cópia&quot; aparecem no campo **[!UICONTROL Nome do Conteúdo]**. Você pode editar o nome. Você também pode selecionar uma imagem para exibir no cartão de design.
 
-1. (Condicional) Edite o design **[!UICONTROL Code]** conforme desejado.
+1. (Condicional) Edite o design **[!UICONTROL Code]**, conforme desejado.
 
    Os designs de recomendação usam o idioma de design [!DNL Velocity] de fonte aberta. Informações sobre [!DNL Velocity] podem ser encontradas em [https://velocity.apache.org](https://velocity.apache.org) e em [Personalizar um design usando [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Um design pode ser HTML ou não-HTML. Por padrão, os designs do HTML são envolvidos com uma tag `<div>` para permitir o rastreamento de cliques em um ambiente da Web. Designs que não sejam do HTML são para ambientes que não sejam da Web onde click-tracking não é possível. Deslize o botão [!UICONTROL HTML Design] para a posição &quot;desligado&quot; para usar um código que não seja HTML.
+   Um design pode ser HTML ou não-HTML. Por padrão, os designs do HTML são envolvidos com uma tag `<div>` para permitir o rastreamento de cliques em um ambiente da Web. Designs não-HTML são para ambientes que não sejam da Web onde click-tracking não é possível. Deslize o botão [!UICONTROL HTML Design] para a posição &quot;desligado&quot; para usar código que não seja HTML.
 
    >[!NOTE]
    >
    >A quantidade máxima de entidades que podem ser referenciadas em um design, seja em código rígido ou em loops, é de 99.
 
-1. Clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Salvar]**.
 
 ### Criar um design personalizado
 
-1. Clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** para exibir a biblioteca [!UICONTROL Designs].
+1. Clique em **[!UICONTROL Recomendações]** > **[!UICONTROL Designs]** para exibir a biblioteca [!UICONTROL Designs].
 
-1. Clique em **[!UICONTROL Create Design]**.
+1. Clique em **[!UICONTROL Criar design]**.
 
-   Para basear seu novo design personalizado em um design existente, passe com o mouse sobre o design desejado e clique no ícone [!UICONTROL Copy]. Em seguida, você pode editar a cópia para criar um novo design personalizado.
+   Para basear seu novo design personalizado em um design existente, passe com o mouse sobre o design desejado e clique no ícone [!UICONTROL Copiar]. Em seguida, você pode editar a cópia para criar um novo design personalizado.
 
-1. Adicione um **[!UICONTROL Content Name]** e uma imagem de visualização opcional.
+1. Adicione um **[!UICONTROL Nome do Conteúdo]** e uma imagem de visualização opcional.
 
-1. (Condicional) Edite o design **[!UICONTROL Code]** conforme desejado.
+1. (Condicional) Edite o design **[!UICONTROL Code]**, conforme desejado.
 
    Consulte as informações na Etapa 4 acima para obter mais informações.
 
-1. Clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Salvar]**.
 
 ## Editar, copiar ou excluir um design
 
 Lembre-se de que não é possível editar ou copiar um design padrão; você só pode copiar designs padrão.
 
-Passe o mouse sobre o design desejado na biblioteca [!UICONTROL Design] e clique no ícone apropriado: editar, copiar ou excluir.
+Passe o mouse sobre o design desejado na biblioteca [!UICONTROL Design], em seguida, clique no ícone apropriado: editar, copiar ou excluir.
 
 ![Focalizar ícones para um design](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
 
@@ -101,7 +101,7 @@ Esteja ciente de que os designs estão disponíveis em toda a conta. Considere o
 
 O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configurar uma atividade por meio do editor baseado em formulário.
 
-1. Crie um design na Biblioteca de design ou no fluxo de trabalho baseado em formulário. Se você tentar criar um design dentro do fluxo de trabalho do [!UICONTROL Visual Experience Composer] (VEC), não poderá criar nada além de um design do HTML, que está envolvido em um `<div>` para fins de rastreamento de cliques.
+1. Crie um design na Biblioteca de design ou no fluxo de trabalho baseado em formulário. Se você tentar criar um design dentro do fluxo de trabalho do [!UICONTROL Visual Experience Composer] (VEC), não será possível criar nada além de um design de HTML, que está envolvido com um `<div>` para fins de rastreamento de cliques.
 
 1. Verifique se a opção &quot;HTML Design&quot; está desativada:
 
@@ -138,16 +138,16 @@ O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configu
 
 1. Configure uma atividade [!DNL Recommendations] baseada em formulário que use este design.
 
-   1. Navegue até a página **[!UICONTROL Activities]**.
-   1. Clique em **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
-   1. Em **[!UICONTROL Choose Experience Composer]**, selecione **[!UICONTROL Form]** e clique em **[!UICONTROL Next]**.
+   1. Navegue até a página **[!UICONTROL Atividades]**.
+   1. Clique em **[!UICONTROL Criar atividade]** > **[!UICONTROL Recomendações]**.
+   1. Em **[!UICONTROL Escolher Experience Composer]**, selecione **[!UICONTROL Formulário]** e clique em **[!UICONTROL Avançar]**.
    1. Em localização, digite o texto: &quot;Sample_Recs_Response&quot;
-   1. Em **[!UICONTROL Default Content]**, clique na seta para baixo e em **[!UICONTROL Add Recommendation]**.
+   1. Em **[!UICONTROL Conteúdo padrão]**, clique na seta para baixo e depois clique em **[!UICONTROL Adicionara recomendação]**.
    1. Selecione um tipo de página. Isso determina a filtragem inicial da próxima tela.
-   1. Selecione um cartão de Critérios e clique em **[!UICONTROL Next]**.
-   1. Selecione o design que você criou na etapa anterior e clique em **[!UICONTROL Next]**.
+   1. Selecione um cartão de Critérios e depois clique em **[!UICONTROL Próximo]**.
+   1. Selecione o design criado na etapa anterior e clique em **[!UICONTROL Avançar]**.
    1. Complete o processo de configuração.
-   1. Clique na seta direita ao lado de **[!UICONTROL Inactive]** e selecione **[!UICONTROL Activate]**.
+   1. Clique na seta à direita próximo a **[!UICONTROL Inativo]** e depois selecione **[!UICONTROL Ativar]**.
 
 1. Depois que sua atividade estiver configurada e ativada, você pode configurar uma solicitação de amostra para recuperar a resposta limpa do JSON.
 
@@ -327,4 +327,4 @@ Este vídeo contém as seguintes informações:
 * Criar um design personalizado
 * Saiba como fazer referência às variáveis de exibição em seus designs
 
->[!VIDEO](https://video.tv.adobe.com/v/35373?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

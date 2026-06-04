@@ -5,17 +5,13 @@ title: Posso aplicar um relatório de público-alvo a uma métrica de sucesso?
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
 TQID: https://experienceleague.adobe.com/n3iyCzlY5oDOrCEqvo6nO51PvknlySPCMasQZ0JfIEM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 396
-ht-degree: 36%
+source-wordcount: 406
+ht-degree: 43%
 
 ---
 
@@ -23,13 +19,13 @@ ht-degree: 36%
 
 Escolha uma métrica de sucesso que qualifique o usuário para o público-alvo de relatórios em [!DNL Adobe Target].
 
-Para todas as atividades, a lista suspensa [!UICONTROL Applied At] permite aplicar um público-alvo a uma métrica de sucesso para que você possa exibir os números dos relatórios depois que a métrica for atingida e para ações subsequentes.
+Para todas as atividades, a lista suspensa [!UICONTROL Aplicado em] permite que você aplique um público-alvo a uma métrica de sucesso para exibir números de relatórios depois que a métrica tiver sido alcançada e para ações subsequentes.
 
 ![imagem de métrica_de_sucesso](assets/success_metric.png)
 
 Por exemplo, suponha que você tenha criado uma atividade para todos os visitantes que entram na sua página inicial e acessem a página de conversão, mas também queira obter mais detalhes dos visitantes que adicionaram mais de US$ 50 ao carrinho antes de converter.
 
-A lista suspensa [!UICONTROL Applied At] possivelmente fornece três categorias:
+A lista suspensa [!UICONTROL Aplicado em] possivelmente fornece três categorias:
 
 * Quaisquer visitantes da atividade
 * Somente visitantes que atingem uma determinada etapa na atividade
@@ -39,7 +35,7 @@ Ou, para expressar isso de outra maneira, você pode especificar que um visitant
 
 >[!NOTE]
 >
->[Métricas de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) estão disponíveis apenas se você as configurar para sua atividade. Se você não tiver definido as métricas de sucesso, verá apenas duas opções da lista suspensa: [!UICONTROL Campaign Entry] e [!UICONTROL Conversion].
+>[Métricas de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) estão disponíveis apenas se você as configurar para sua atividade. Se você não tiver definido as métricas de sucesso, verá apenas duas opções da lista suspensa: [!UICONTROL Entrada da campanha] e [!UICONTROL Conversão].
 
 
 ## Considerações
@@ -48,11 +44,11 @@ Considere as seguintes informações ao aplicar um público-alvo de relatórios 
 
 * Somente as métricas de sucesso, começando pela aplicada ao público-alvo, mostrarão dados de relatórios segmentados pelo público-alvo
 * As métricas de sucesso que precedem aquelas às quais o público-alvo é aplicado não serão segmentadas pelo público-alvo e mostrarão todos os dados do visitante
-* As métricas são consideradas com base em sua ordem na definição da atividade, com [!UICONTROL Primary Goal] sendo a última.
+* As métricas são consideradas com base em sua ordem na definição da atividade, com a [!UICONTROL Meta principal] sendo a última.
 
 ## Exibir segmentação em relatórios
 
-Para exibir a segmentação nos relatórios, selecione o público-alvo desejado na lista suspensa [!UICONTROL Audience] no relatório de atividade.
+Para exibir a segmentação nos relatórios, selecione o público-alvo desejado na lista suspensa [!UICONTROL Público-alvo] no relatório da atividade.
 
 ![imagem de report_audience_dropdown](assets/reporting_audience_dropdown.png)
 

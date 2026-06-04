@@ -41,7 +41,7 @@ Antes de começar, verifique se você tem o seguinte:
   curl -LsSf https://astral.sh/uv/install.sh | sh
   ```
 
-* Uma licença [!DNL Adobe Target] ativa com acesso ao Adobe Experience Cloud
+* Uma licença ativa do [!DNL Adobe Target] com acesso à Adobe Experience Cloud
 * **Credenciais artificiais** (somente usuários internos do Adobe) — necessárias para instalar dependências internas
 
 ## Instalação {#self-hosted-install}

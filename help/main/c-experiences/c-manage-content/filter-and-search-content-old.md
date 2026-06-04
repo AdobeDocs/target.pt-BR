@@ -6,39 +6,39 @@ feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 7%
+source-wordcount: '264'
+ht-degree: 12%
 
 ---
 
 # Pesquisar e filtrar conteúdo
 
-Pesquisar ativos por palavras-chave na biblioteca [!UICONTROL Offers] em [!DNL Adobe Target].
+Pesquisar ativos por palavras-chave na biblioteca [!UICONTROL Ofertas] em [!DNL Adobe Target].
 
 ## Pesquisar ofertas de código por palavra-chave
 
-1. Clique em **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
-1. Digite as palavras-chave desejadas na caixa [!UICONTROL Search].
+1. Clique em **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de código]**.
+1. Digite as palavras-chave desejadas na caixa [!UICONTROL Pesquisar].
 
-   Observe que você também pode filtrar usando as listas suspensas [!UICONTROL Type] e [!UICONTROL Source] para refinar ainda mais sua pesquisa.
+   Observe que você também pode filtrar usando as listas suspensas [!UICONTROL Tipo] e [!UICONTROL Source] para refinar ainda mais sua pesquisa.
 
 ## Pesquisar ofertas de imagem por palavra-chave {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-1. Clique em **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
+1. Clique em **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de imagem]**.
 
-1. (Opcional) Alterne entre [!UICONTROL Card View] e [!UICONTROL List View], clique no ícone [!UICONTROL Card View] ou no ícone [!UICONTROL List View] no canto superior direito da biblioteca de conteúdo. Você também pode usar o [!UICONTROL View Settings] para configurar ainda mais as colunas ao visualizar o [!UICONTROL List View].
+1. (Opcional) Alterne entre a [!UICONTROL Exibição de Cartão] e a [!UICONTROL Exibição de Lista], clique no ícone [!UICONTROL Exibição de Cartão] ou no ícone [!UICONTROL Exibição de Lista] no canto superior direito da biblioteca de conteúdo. Você também pode usar as [!UICONTROL Configurações de Exibição] para configurar mais as colunas ao exibir a [!UICONTROL Exibição de Lista].
 
-   A ilustração a seguir mostra as opções disponíveis ao visualizar o [!UICONTROL List View]:
+   A ilustração a seguir mostra as opções disponíveis ao exibir a [!UICONTROL Exibição de Lista]:
 
    ![Opções de Exibição de Lista](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
 
-1. Clique no ícone **[!UICONTROL Content Only]** no canto superior esquerdo para exibir a caixa de pesquisa.
+1. Clique no ícone de **[!UICONTROL Conteúdo somente]** no canto superior esquerdo para exibir a caixa de pesquisa.
 
    ![Opção Somente conteúdo](/help/main/c-experiences/c-manage-content/assets/content-only.png)
 
 1. Na caixa de pesquisa, digite uma palavra-chave para o ativo que deseja localizar, em seguida, pressione Enter.
 
-1. (Opcional) use o painel **[!UICONTROL Filters and Options]** para refinar ainda mais sua pesquisa.
+1. (Opcional) use o painel **[!UICONTROL Filtros e Opções]** para refinar ainda mais sua pesquisa.
 
    ![Painel Filtro e Opções](/help/main/c-experiences/c-manage-content/assets/filter-and-options.png)
 

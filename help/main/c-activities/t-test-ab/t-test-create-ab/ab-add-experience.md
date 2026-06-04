@@ -5,24 +5,22 @@ title: Como adicionar experiências em uma atividade A/B?
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 TQID: https://experienceleague.adobe.com/7qEiUXkfMbPmtB2eMio0LztOYM3naHxG-WRQZOyMmlU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 387
-ht-degree: 33%
+source-wordcount: 420
+ht-degree: 30%
 
 ---
 
 # Adicionar experiência
 
-O [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) do fornece uma interface visual para adicionar e editar as experiências na sua página.
+O [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) fornece uma interface visual para adicionar e editar as experiências na sua página.
 
 Para obter mais detalhes sobre experiências, consulte [Experiências](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
-1. Na página **[!UICONTROL Experiences]** do VEC, clique no ícone [!UICONTROL Add] ( ![Ícone Adicionar](/help/main/assets/icons/Add.svg) ) na parte superior do painel [!UICONTROL Experiences].
+1. Na página **[!UICONTROL Experiências]** do VEC, clique no ícone [!UICONTROL Adicionar] ( ![Ícone Adicionar](/help/main/assets/icons/Add.svg) ) na parte superior do painel [!UICONTROL Experiências].
 
    O VEC exibe duas guias no lado esquerdo depois que você cria uma nova atividade: Experiência A e Experiência B. A Experiência A é a experiência de controle. Você pode adicionar várias experiências ao teste.
 
@@ -38,13 +36,13 @@ Para obter mais detalhes sobre experiências, consulte [Experiências](/help/mai
    >
    >Se você apresentar uma imagem de uma fonte diferente da sua página principal (como uma imagem hospedada em `akamai.net` e disponibilizada em `example.com`), ela não será exibida na miniatura da página mostrada no diagrama de fluxo.
 
-1. Clique em **[!UICONTROL Next]** quando terminar de criar a experiência.
+1. Clique em **[!UICONTROL Avançar]** quando terminar de criar a experiência.
 
 ## Renomear experiência
 
-1. Clique no ícone **[!UICONTROL Rename Experience]** ( ![Ícone Renomear](/help/main/assets/icons/Rename.svg) ) ao lado de uma experiência para dar um novo nome a ela.
+1. Clique no ícone **[!UICONTROL Renomear experiência]** ( ![Ícone Renomear](/help/main/assets/icons/Rename.svg) ) ao lado de uma experiência para dar um novo nome a ela.
 
-2. Especifique um novo nome e clique em **[!UICONTROL Save]**.
+2. Especifique um novo nome e clique em **[!UICONTROL Salvar]**.
 
    Ao nomear ou renomear uma experiência, os seguintes caracteres não são permitidos:
 
@@ -61,22 +59,22 @@ Para obter mais detalhes sobre experiências, consulte [Experiências](/help/mai
 
 ## Redirecionar para URL
 
-1. No painel **[!UICONTROL Experiences]**, clique no ícone **[!UICONTROL More]** ( ![ícone Mais](/help/main/assets/icons/MoreSmall.svg) ) ao lado de uma experiência e clique em **[!UICONTROL Redirect to URL]**.
+1. No painel **[!UICONTROL Experiências]**, clique no ícone **[!UICONTROL Mais]** ( ![ícone Mais](/help/main/assets/icons/MoreSmall.svg) ) ao lado de uma experiência e clique em **[!UICONTROL Redirecionar para a URL]**.
 
    Para obter mais informações, consulte [Redirecionar para URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
 1. Especifique o URL para o qual deseja redirecionar a experiência.
 
-1. (Condicional) Marque a caixa de seleção **[!UICONTROL Include Current Query Parameters]**.
+1. (Condicional) Marque a caixa de seleção **[!UICONTROL Incluir parâmetros de consulta atuais]**.
 
-1. Clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Salvar]**.
 
 ## Duplicar uma experiência
 
-Você pode copiar uma experiência em um [!UICONTROL A/B Test] para fazer pequenas alterações nele sem ter que recriar a experiência.
+Você pode copiar uma experiência em um [!UICONTROL Teste A/B] para fazer pequenas alterações nele sem precisar recriar a experiência.
 
-1. No painel **[!UICONTROL Experiences]**, clique no ícone **[!UICONTROL More]** ( ![ícone Mais](/help/main/assets/icons/MoreSmall.svg) ) ao lado de uma experiência e clique em **[!UICONTROL Duplicate]**.
+1. No painel **[!UICONTROL Experiências]**, clique no ícone **[!UICONTROL Mais]** ( ![ícone Mais](/help/main/assets/icons/MoreSmall.svg) ) ao lado de uma experiência e clique em **[!UICONTROL Duplicar]**.
 
 ## Excluir uma experiência
 
-1. No painel **[!UICONTROL Experiences]**, clique no ícone **[!UICONTROL More]** ( ![Ícone de mais](/help/main/assets/icons/MoreSmall.svg) ) ao lado de uma experiência, clique em **[!UICONTROL Delete]** e em **[!UICONTROL Delete]** para confirmar a ação.
+1. No painel **[!UICONTROL Experiências]**, clique no ícone **[!UICONTROL Mais]** ( ![ícone Mais](/help/main/assets/icons/MoreSmall.svg) ) ao lado de uma experiência, clique em **[!UICONTROL Excluir]** e em **[!UICONTROL Excluir]** para confirmar a ação.

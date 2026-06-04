@@ -2,25 +2,17 @@
 keywords: recomendações algoritmos;treinamento de modelo;serviço de modelo;entrega de conteúdo;baseado em item;baseado em usuário;baseado em popularidade;baseado em carrinho;critérios personalizados
 description: Saiba mais sobre os algoritmos usados no [!DNL Target Recommendations], incluindo treinamento e fornecimento de modelos.
 title: Onde posso aprender sobre a ciência por trás dos algoritmos de recomendações do Target?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
 TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2850
+source-wordcount: 2952
 ht-degree: 0%
 
 ---
@@ -33,9 +25,9 @@ O treinamento de modelo é o processo de como as recomendações são geradas pe
 
 [!DNL Target] inclui os seguintes tipos amplos de algoritmos em [!DNL Recommendations]:
 
-* **Algoritmos baseados em itens**: inclua algoritmos que sigam a lógica &quot;As pessoas que visualizaram/compraram este item também visualizaram/compraram esses itens.&quot; Esses algoritmos são agrupados no termo geral filtragem colaborativa item-item, bem como em algoritmos [!UICONTROL Items with Similar Attributes].
+* **Algoritmos baseados em itens**: inclua algoritmos que sigam a lógica &quot;As pessoas que visualizaram/compraram este item também visualizaram/compraram esses itens.&quot; Esses algoritmos são agrupados no termo geral filtragem colaborativa item-item, bem como nos algoritmos [!UICONTROL Itens com Atributos Semelhantes].
 
-* **Algoritmos baseados em usuário**: inclua os algoritmos [!UICONTROL Recently Viewed] e [!UICONTROL Recommended for You].
+* **Algoritmos baseados no usuário**: inclua os [!UICONTROL algoritmos recentemente visualizados] e [!UICONTROL recomendados para você].
 
 * **Algoritmos baseados em popularidade**: inclua algoritmos que retornam os itens mais vistos ou mais comprados no site, ou os mais vistos ou mais comprados por categoria ou atributo de item.
 
@@ -55,15 +47,15 @@ As seções a seguir agrupam algoritmos de uma maneira um pouco diferente dos ti
 
 Os algoritmos incluem:
 
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL Pessoas Que Visualizaram Isto, Visualizaram Aquilo]
+* [!UICONTROL Pessoas que Visualizaram Isto, Compraram Aquilo]
+* [!UICONTROL Pessoas que Compraram Isto, Compraram Aquilo]
 
 Os algoritmos de recomendação do filtro colaborativo Item-Item são baseados na ideia de que você deve usar os padrões de comportamento de muitos usuários (portanto, colaborativos) para fornecer recomendações úteis para um determinado item (por exemplo, filtrar o catálogo de itens possíveis a serem recomendados). Embora existam vários algoritmos diferentes que se enquadram no âmbito geral da [filtragem colaborativa](https://en.wikipedia.org/wiki/Collaborative_filtering), esses algoritmos universalmente usam fontes de dados comportamentais como entradas. No [!DNL Target Recommendations], essas entradas são exibições e compras de itens por usuários.
 
 Para o algoritmo &quot;pessoas que visualizaram/compraram esse item também visualizaram/compraram esses itens&quot;, o objetivo é calcular uma similaridade s(A,B) entre todos os pares de itens. Para um determinado item A, as principais recomendações são ordenadas por sua similaridade s(A,B).
 
-Um exemplo de similaridade é a coocorrência entre itens: uma contagem simples do número de usuários que compraram ambos os itens. Embora intuitiva, essa métrica é ingênua, pois é tendenciosa para recomendar itens populares. Por exemplo, se em um supermercado retailer a maioria das pessoas comprar pão, o pão terá uma alta coocorrência com todos os itens, mas não é necessariamente uma boa recomendação. [!DNL Target] em vez disso, usa uma métrica de similaridade mais sofisticada conhecida como LLR (log probability ratio, taxa de probabilidade de log). Essa quantidade é grande quando a probabilidade de dois itens, A e B, coocorrendo é muito diferente da probabilidade deles não coocorrendo. Para concretude, considere um caso do algoritmo [!UICONTROL People Who Viewed This, Bought That]. A similaridade LLR é grande quando a probabilidade de B ter sido comprado é *não*, independentemente de alguém ter visto A.
+Um exemplo de similaridade é a coocorrência entre itens: uma contagem simples do número de usuários que compraram ambos os itens. Embora intuitiva, essa métrica é ingênua, pois é tendenciosa para recomendar itens populares. Por exemplo, se em um supermercado retailer a maioria das pessoas comprar pão, o pão terá uma alta coocorrência com todos os itens, mas não é necessariamente uma boa recomendação. [!DNL Target] em vez disso, usa uma métrica de similaridade mais sofisticada conhecida como LLR (log probability ratio, taxa de probabilidade de log). Essa quantidade é grande quando a probabilidade de dois itens, A e B, coocorrendo é muito diferente da probabilidade deles não coocorrendo. Para maior precisão, considere um caso do algoritmo [!UICONTROL Pessoas que assistiram isto, compraram aquilo]. A similaridade LLR é grande quando a probabilidade de B ter sido comprado é *não*, independentemente de alguém ter visto A.
 
 Por exemplo, se
 
@@ -77,7 +69,7 @@ O fluxo lógico da implementação real do algoritmo é mostrado no diagrama esq
 
 Veja a seguir os detalhes dessas etapas:
 
-* **Dados de entrada**: dados comportamentais, na forma de exibições e compras de visitantes coletados quando você [implementa o Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} ou o [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dados de entrada**: dados comportamentais, na forma de exibições e compras de visitantes coletados quando você [implementa o Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} ou o [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Treinamento de modelo**:
 
@@ -91,7 +83,7 @@ Veja a seguir os detalhes dessas etapas:
 
 Algoritmo incluído:
 
-* [!UICONTROL Items with Similar Attributes]
+* [!UICONTROL Itens com Atributos Semelhantes]
 
 Neste tipo de algoritmo, dois itens são considerados relacionados se seus nomes e descrições textuais são semanticamente semelhantes. Diferentemente da maioria dos algoritmos de recomendações, nos quais as fontes de dados comportamentais devem ser usadas, os algoritmos de similaridade de conteúdo usam metadados de catálogos de produtos para derivar a similaridade entre itens. [!DNL Target] é, portanto, capaz de orientar recomendações nos chamados cenários de &quot;início frio&quot;, onde nenhum dado comportamental foi coletado (por exemplo, no início de uma atividade [!DNL Target]).
 
@@ -101,7 +93,7 @@ Embora os aspectos de veiculação e entrega de conteúdo dos algoritmos de simi
 
 Veja a seguir os detalhes dessas etapas:
 
-* **Dados de entrada**: conforme descrito anteriormente, este algoritmo se baseia exclusivamente nos dados de catálogo (assimilados para [!DNL Target] por meio de um [Feed de Catálogo, da API de Entidades ou de atualizações na página](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank}.
+* **Dados de entrada**: conforme descrito anteriormente, este algoritmo se baseia exclusivamente nos dados de catálogo (assimilados para [!DNL Target] por meio de um [Feed de Catálogo, da API de Entidades ou de atualizações na página](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Treinamento de modelo**:
 
@@ -127,9 +119,9 @@ Veja a seguir os detalhes dessas etapas:
 Os algoritmos incluem:
 
 * Recomendações baseadas em carrinho
-* [!UICONTROL Recommended For You]
+* [!UICONTROL Recomendado Para Você]
 
-As adições mais recentes ao conjunto [!DNL Target] de algoritmos de recomendações são [!UICONTROL Recommended For You] e uma série de algoritmos de recomendações baseadas em carrinho. Ambos os tipos de algoritmos usam técnicas de filtragem colaborativa para formar recomendações individuais baseadas em itens. Em seguida, no momento do servidor, vários itens no histórico de navegação do usuário (para [!UICONTROL Recommended For You]) ou no carrinho atual do usuário (para recomendações baseadas em carrinho) são usados para recuperar essas recomendações baseadas em itens, que são mescladas para formar a lista final de recomendações. Observe que existem muitas opções de algoritmos de recomendação personalizados. A escolha de um algoritmo de várias chaves significa que as recomendações são disponibilizadas imediatamente depois que um visitante tem um histórico de navegação e as recomendações podem ser atualizadas para responder ao comportamento mais recente do visitante.
+As adições mais recentes ao conjunto [!DNL Target] de algoritmos de recomendações são [!UICONTROL Recomendado para você] e uma série de algoritmos de recomendações baseadas em carrinho. Ambos os tipos de algoritmos usam técnicas de filtragem colaborativa para formar recomendações individuais baseadas em itens. Em seguida, no momento do servidor, vários itens no histórico de navegação do usuário (para [!UICONTROL Recomendado para você]) ou no carrinho atual do usuário (para recomendações baseadas em carrinho) são usados para recuperar essas recomendações baseadas em itens, que são mescladas para formar a lista final de recomendações. Observe que existem muitas opções de algoritmos de recomendação personalizados. A escolha de um algoritmo de várias chaves significa que as recomendações são disponibilizadas imediatamente depois que um visitante tem um histórico de navegação e as recomendações podem ser atualizadas para responder ao comportamento mais recente do visitante.
 
 Esses algoritmos se baseiam nas técnicas fundamentais de filtragem colaborativa descritas na seção recomendações baseadas em itens, mas também incorporam o ajuste de hiperparâmetros para determinar a métrica de similaridade ideal entre itens. O algoritmo executa uma divisão cronológica de dados comportamentais para cada usuário e treina modelos de recomendação nos dados anteriores enquanto tenta prever os itens que um usuário visualiza ou compra posteriormente. A métrica de similaridade que produz a [Precisão média ideal]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval) é escolhida.
 
@@ -139,13 +131,13 @@ A lógica das etapas de treinamento e pontuação do modelo é mostrada no diagr
 
 Veja a seguir os detalhes dessas etapas:
 
-* **Dados de entrada**: é idêntico aos métodos de filtragem colaborativa (CF) item-item. Os algoritmos baseados em carrinho e [!UICONTROL Both Recommended For You] usam dados comportamentais, na forma de exibições e compras de usuários coletados ao [implementar o Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} ou no [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dados de entrada**: é idêntico aos métodos de filtragem colaborativa (CF) item-item. [!UICONTROL Os algoritmos Recomendados para Você] e Baseados em Carrinho usam dados comportamentais, na forma de exibições e compras de usuários coletados ao [implementar o Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} ou da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Treinamento de modelo**:
 
    * **Limpeza de dados e amostragem**: é o mesmo para métodos de filtragem colaborativa, em que a janela de pesquisa é aplicada para filtrar dados comportamentais para um intervalo de datas apropriado, seguido pela aplicação de regras de catálogo e exclusões globais. Os visitantes que interagiram com mais de 1.000 itens têm apenas seus 1.000 usos mais recentes considerados.
    * **Divisão do teste de treinamento**: execute uma divisão cronológica dos usos para cada usuário, alocando os primeiros 80% de seus usos para dados de treinamento, com os 20% restantes alocados para os dados de teste.
-   * **Treinamento do modelo de similaridade de item**: o cálculo de similaridade de item principal difere para [!UICONTROL Recommended For You] e algoritmos baseados em carrinho na maneira como os vetores de item candidatos são construídos. Para [!UICONTROL Recommended For You], os vetores de item têm NUsers de dimensão, em que cada entrada representa a soma das classificações implícitas para esse usuário do item. As compras de um item recebem um peso 2x maior do que as visualizações do item. Para recomendações Baseadas em Carrinho, os vetores de item têm entradas binárias; se o comportamento dentro da sessão for considerado apenas, haverá uma nova entrada para cada sessão. Caso contrário, haverá uma entrada nesse vetor de item para cada visitante.
+   * **Treinamento do modelo de similaridade de item**: a computação de similaridade do item principal difere para [!UICONTROL Recomendado para você] e algoritmos baseados em carrinho na maneira como os vetores de item candidatos são construídos. Para [!UICONTROL Recomendado para Você], os vetores de item têm NUsers de dimensão, em que cada entrada representa a soma das classificações implícitas para esse usuário do item. As compras de um item recebem um peso 2x maior do que as visualizações do item. Para recomendações Baseadas em Carrinho, os vetores de item têm entradas binárias; se o comportamento dentro da sessão for considerado apenas, haverá uma nova entrada para cada sessão. Caso contrário, haverá uma entrada nesse vetor de item para cada visitante.
 
   A etapa de treinamento calcula vários tipos de similaridades de vetor: similaridade de LLR ([discutido aqui](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), similaridade de cosseno (definida anteriormente) e similaridade de L2 normalizada, definida como:
 
@@ -155,9 +147,9 @@ Veja a seguir os detalhes dessas etapas:
    * **Seleção de modelo**: após a avaliação offline, o modelo que tem a Precisão Média mais alta é selecionado e todas as recomendações individuais de item são computadas para ele.
    * **Filtragem offline**: a etapa final do treinamento de modelo é a aplicação de filtros dinâmicos aplicáveis. Após essa etapa, as recomendações pré-calculadas são armazenadas em cache globalmente para estarem disponíveis para veiculação.
 
-* **Atendimento de modelo**: diferentemente dos algoritmos anteriores, nos quais as recomendações de atendimento envolvem a especificação de uma única chave para recuperação, seguida pela aplicação de regras de negócios, os algoritmos [!UICONTROL Recommended for You] e Baseados em carrinho empregam um processo de tempo de execução mais complexo.
+* **Atendimento de modelo**: diferentemente dos algoritmos anteriores, nos quais as recomendações de atendimento envolvem a especificação de uma única chave para recuperação, seguida da aplicação de regras de negócios, os [!UICONTROL Recomendado para você] e os algoritmos baseados em carrinho empregam um processo de tempo de execução mais complexo.
 
-   * **Recuperação e mesclagem de várias chaves**: para recomendações baseadas em carrinho, até dez itens passados no carrinho são considerados chaves para recuperação, e as recomendações de cada um são igualmente ponderadas. Para [!UICONTROL Recommended for You], até os últimos cinco itens visualizados únicos e os últimos cinco itens comprados exclusivos são considerados como chaves para recuperação, com recomendações provenientes de itens comprados ponderadas duas vezes mais do que recomendações provenientes de itens visualizados. Ao mesclar recomendações, se um item aparecer em várias listas individuais de recomendações, suas pontuações de similaridade ponderadas serão adicionadas. A lista final de recomendações desse estágio é, então, a lista mesclada de recomendações reponderadas, classificadas em ordem decrescente.
+   * **Recuperação e mesclagem de várias chaves**: para recomendações baseadas em carrinho, até dez itens passados no carrinho são considerados chaves para recuperação, e as recomendações de cada um são igualmente ponderadas. Para [!UICONTROL Recomendado para você], até os últimos cinco itens visualizados exclusivos e os últimos cinco itens comprados exclusivos são considerados chaves para recuperação, com as recomendações provenientes de itens comprados ponderadas duas vezes mais do que as recomendações provenientes de itens visualizados. Ao mesclar recomendações, se um item aparecer em várias listas individuais de recomendações, suas pontuações de similaridade ponderadas serão adicionadas. A lista final de recomendações desse estágio é, então, a lista mesclada de recomendações reponderadas, classificadas em ordem decrescente.
    * **Filtragem**: em seguida, regras de filtragem, como remoção de itens visualizados e/ou comprados anteriormente, bem como outras regras comerciais dinâmicas, serão aplicadas.
 
 Esses processos são ilustrados na imagem a seguir, em que um visitante visualizou o item A e comprou o item B. As recomendações individuais são recuperadas com as pontuações de similaridade offline exibidas abaixo de cada rótulo de item. Após a recuperação, as recomendações são mescladas com pontuações de similaridade ponderadas somadas. Por fim, em um cenário em que o cliente especificou que os itens visualizados e comprados anteriormente devem ser filtrados, a etapa de filtragem remove os itens A e B da lista de recomendações.
@@ -168,12 +160,12 @@ Esses processos são ilustrados na imagem a seguir, em que um visitante visualiz
 
 Os algoritmos incluem:
 
-* [!UICONTROL Most Viewed Across the Site]
-* [!UICONTROL Most Viewed by Category]
-* [!UICONTROL Most Viewed by Item Attribute]
-* [!UICONTROL Top Sellers Across the Site]
-* [!UICONTROL Top Sellers by Category]
-* [!UICONTROL Top Sellers by Item Attribute]
+* [!UICONTROL Mais visualizados em todo o site]
+* [!UICONTROL Mais Visualizados por Categoria]
+* [!UICONTROL Mais Visualizados pelo Atributo de Item]
+* [!UICONTROL Mais vendidos em todo o site]
+* [!UICONTROL Mais vendidos por categoria]
+* [!UICONTROL Mais vendidos por atributo de item]
 
 O [!DNL Target] fornece algoritmos baseados em popularidade para os itens mais visualizados, bem como para os itens mais vendidos em um site ou detalhados por um atributo ou categoria de item. Os algoritmos baseados em popularidade classificam os itens com base no número de sessões em que esse item foi exibido ou comprado em um determinado período.
 
@@ -181,7 +173,7 @@ Todos esses algoritmos combinam dados comportamentais agregados em que o número
 
 As nuances individuais do algoritmo são as seguintes:
 
-* [!UICONTROL Most Viewed Across the Site] e [!UICONTROL Top Sellers Across the Site] classificam os itens pela contagem agregada de sessões em que esses itens foram visualizados ou comprados, respectivamente. A saída é uma lista única (sem chave) de itens recomendados.
+* [!UICONTROL Mais Exibidos no Site] e [!UICONTROL Mais Vendidos no Site] classificam os itens pela contagem agregada de sessões em que esses itens foram exibidos ou comprados, respectivamente. A saída é uma lista única (sem chave) de itens recomendados.
 * Mais Vendidos/Mais Vendidos por Categoria/Atributo do Item são recomendações em que os itens são ordenados pela contagem agregada de sessões em que esses itens foram exibidos ou comprados, mas agrupados pela categoria do item ou pelo atributo do item específico. As saídas são listas de itens recomendados, digitadas por valores de categorias ou valores de atributos de item.
 
 ## Visualizado recentemente
@@ -190,4 +182,4 @@ O algoritmo de recomendações &quot;visualizado recentemente&quot; permite a pe
 
 ## Critérios personalizados
 
-Os critérios personalizados permitem que os clientes [carreguem suas próprias recomendações para [!DNL Target]](/help/main/c-recommendations/c-algorithms/recommendations-csv.md), proporcionando flexibilidade importante e permitindo recursos de &quot;trazer seu próprio modelo&quot;. Os critérios personalizados substituem a parte de &quot;treinamento offline&quot; das recomendações do [!UICONTROL Item-Based], mas se comportam de forma semelhante aos algoritmos de recomendação baseados em itens durante a fase de entrega de conteúdo online, na medida em que uma única chave é usada para recuperação de recomendações e regras/filtros de negócios são aplicados.
+Os critérios personalizados permitem que os clientes [carreguem suas próprias recomendações para [!DNL Target]](/help/main/c-recommendations/c-algorithms/recommendations-csv.md), proporcionando flexibilidade importante e permitindo recursos de &quot;trazer seu próprio modelo&quot;. Os critérios personalizados substituem a parte de &quot;treinamento offline&quot; das recomendações [!UICONTROL baseadas em itens], mas se comportam de forma semelhante aos algoritmos de recomendação baseados em itens durante a fase de entrega de conteúdo online, na medida em que uma única chave é usada para a recuperação de recomendações e regras/filtros de negócios são aplicados.

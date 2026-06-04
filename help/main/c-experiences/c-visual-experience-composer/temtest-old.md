@@ -6,8 +6,8 @@ feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 33%
+source-wordcount: '623'
+ht-degree: 32%
 
 ---
 
@@ -32,11 +32,11 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
 
 1. Crie ou edite uma atividade conforme descrito em [Atividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Para especificar as páginas em que a experiência será exibida, no [!UICONTROL Visual Experience Composer] (VEC), clique no ícone de engrenagem e selecione **[!UICONTROL Page Delivery]**.
+1. Para especificar as páginas em que a experiência será exibida, no [!UICONTROL Visual Experience Composer] (VEC), clique no ícone de engrenagem e selecione **[!UICONTROL Entrega da página]**.
 
    ![Ícone de engrenagem > Entrega da página](/help/main/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
-1. Clique em **[!UICONTROL Add Template Rule]** e especifique os critérios para as páginas nas quais deseja adicionar a experiência.
+1. Clique em **[!UICONTROL Adicionar regra de modelo]** e especifique os critérios para as páginas nas quais deseja adicionar a experiência.
 
 1. Especifique o intervalo de páginas. O intervalo de páginas pode ser um dos seguintes:
 
@@ -60,7 +60,7 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
 
 1. Digite as sequências de caracteres que definem onde é adicionada a experiência, como o domínio ou as sequências de caracteres contidas no nome da página.
 
-   Por exemplo, se você selecionar **[!UICONTROL Domain]** e **[!UICONTROL Is (case sensitive)]**, digite o domínio em que deseja adicionar a experiência para todas as páginas.
+   Por exemplo, se você selecionar **[!UICONTROL Domínio]** e **[!UICONTROL É (diferencia maiúsculas de minúsculas)]**, digite o domínio em que deseja adicionar a experiência para todas as páginas.
 
    É possível incluir vários itens.
 
@@ -68,7 +68,7 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
    >
    >Vários itens usam a lógica OR, ou seja, qualquer item único na lista torna a condição verdadeira.
 
-1. Se desejar, insira critérios adicionais, clicando em **[!UICONTROL Add Template Rule]** e repita o procedimento das etapas anteriores.
+1. Se desejar, insira critérios adicionais, clicando em **[!UICONTROL Adicionar regra de modelo]** e repita o procedimento das etapas anteriores.
 
    Múltiplos critérios são agrupados com uma lógica E. [!DNL Target] adiciona a experiência a todas as páginas que correspondem aos critérios especificados.
 
@@ -90,11 +90,11 @@ Você pode considerar o uso de regras de modelo para renderizar a mesma atividad
 
 1. Crie ou edite uma atividade conforme descrito em [Atividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Para especificar o domínio onde a experiência será exibida, no Visual Experience Composer, clique no ícone de engrenagem e selecione **[!UICONTROL Page Delivery]**.
+1. Para especificar o domínio onde a experiência será exibida, no Visual Experience Composer, clique no ícone de engrenagem e selecione **[!UICONTROL Entrega da página]**.
 
-1. Clique em **[!UICONTROL Add Template Rule]** > **[!UICONTROL Domain]**.
+1. Clique em **[!UICONTROL Adicionar regra de modelo]** > **[!UICONTROL Domínio]**.
 
-1. No menu suspenso **[!UICONTROL Choose evaluator]**, selecione **[!UICONTROL Contains]** e especifique o domínio.
+1. No menu suspenso **[!UICONTROL Escolher avaliador]**, selecione **[!UICONTROL Contém]** e especifique o domínio.
 
    ![Domínio contém](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
@@ -107,4 +107,4 @@ Você pode considerar o uso de regras de modelo para renderizar a mesma atividad
 * Visualizar e criar a experiência para sites responsivos
 * Use sobreposições para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/30981?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)

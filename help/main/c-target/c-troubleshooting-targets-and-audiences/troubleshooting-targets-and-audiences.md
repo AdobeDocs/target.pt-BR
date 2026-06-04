@@ -5,18 +5,13 @@ title: Onde posso encontrar perguntas e respostas sobre direcionamentos e públi
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 TQID: https://experienceleague.adobe.com/WI8A9wqYpjiCCUABg5cBxJ92WwFLYN7qM-0DeYkrxOk
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 982
-ht-degree: 52%
+source-wordcount: 1004
+ht-degree: 53%
 
 ---
 
@@ -34,7 +29,7 @@ Considere o seguinte URL:
 
 ### Direcionamento de URL de público
 
-Para aplicar o direcionamento de URL de público-alvo, ao criar uma atividade, na página **[!UICONTROL Experiences]** (etapa um do fluxo de trabalho guiado de três etapas), clique no ícone **[!UICONTROL Configure]** ( ![ícone Configurar](/help/main/assets/icons/Setting.svg) ), clique em **[!UICONTROL Page Delivery]** e especifique a URL desejada.
+Para aplicar o direcionamento de URL de público-alvo, ao criar uma atividade, na página **[!UICONTROL Experiências]** (etapa um do fluxo de trabalho guiado de três etapas), clique no ícone **[!UICONTROL Configurar]** ( ![Ícone Configurar](/help/main/assets/icons/Setting.svg) ), clique em **[!UICONTROL Entrega de página]** e especifique a URL desejada.
 
 ![URL de Entrega de Página](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -46,11 +41,11 @@ O direcionamento de URL de público-alvo procura uma correspondência exata de U
 
 Além do direcionamento de público-alvo no URL, você também pode especificar valores específicos que podem estar na query.
 
-Direcionamento de URL de público-alvo e direcionamento de URL adicionado via [!UICONTROL Template Rules] avaliado como direcionamento de URL (consulte Direcionamento de URL abaixo).
+O direcionamento de URL de público-alvo e o direcionamento de URL adicionados por meio de [!UICONTROL Regras de modelo] são avaliados como direcionamento de URL (consulte o direcionamento de URL abaixo).
 
 ### Direcionamento de URL {#url-targeting}
 
-Para aplicar o direcionamento de URL, ao criar um público-alvo, clique em arrastar **[!UICONTROL Site Pages]** e solte-o no painel [!UICONTROL Create Audiences], clique em **[!UICONTROL Site Pages]**, selecione uma opção na primeira lista suspensa ([!UICONTROL Current Page], [!UICONTROL Previous Page] ou [!UICONTROL Landing Page]), selecione [!UICONTROL URL] na segunda lista suspensa, especifique um avaliador e especifique a URL desejada.
+Para aplicar o direcionamento de URL, ao criar um público-alvo, clique em arrastar **[!UICONTROL Páginas do Site]** e solte-o no painel [!UICONTROL Criar Públicos-alvo], clique em **[!UICONTROL Páginas do Site]**, selecione uma opção na primeira lista suspensa ([!UICONTROL Página Atual], [!UICONTROL Página Anterior] ou [!UICONTROL Página Inicial]), selecione [!UICONTROL URL] na segunda lista suspensa, especifique um avaliador e especifique a URL desejada.
 
 ![Páginas do Site > Página Atual > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
@@ -87,7 +82,7 @@ Por padrão, o tráfego é dividido igualmente entre as experiências. No entant
 
 ## Qual experiência é exibida se um usuário se qualificar para uma atividade que contém várias experiências com vários públicos-alvo qualificados? {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
-O usuário se qualifica para a primeira experiência/público-alvo exibido na página [!UICONTROL Target] da atividade.
+O usuário se qualifica para a primeira experiência/público-alvo exibida na página de atividades do [!UICONTROL Target].
 
 Por exemplo, suponha que a experiência/público-alvo liste o Windows como Experiência A, o iOS como Experiência B e a Califórnia como Experiência C. Um usuário da Califórnia que usa um dispositivo Windows se qualifica para a Experiência A (público-alvo do Windows) e a Experiência C (público-alvo da Califórnia). Para esse usuário seria mostrada a Experiência A, pois ela é exibida na lista Experiência C acima, na página de Direcionamentos.
 
@@ -103,7 +98,7 @@ Alguns públicos-alvo do Target são predefinidos, como &quot;Novos visitantes&q
 
 ## Por que todos os parâmetros de perfil não são exibidos na interface do usuário [!DNL Target]? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
-O [!DNL Target] tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para [!DNL Target], é possível fazer isso usando o método de API [!UICONTROL Profile Update]. Para obter mais informações, consulte [Atualização do perfil](https://developers.adobetarget.com/api/#authentication-tokens) na documentação da API do Adobe Target.
+O [!DNL Target] tem um limite de 50 atributos de perfil exclusivos por chamada de mbox. Se você precisar passar mais de 50 atributos de perfil para [!DNL Target], é possível fazer isso usando o método de API [!UICONTROL Atualização de perfil]. Para obter mais informações, consulte [Atualização do perfil](https://developers.adobetarget.com/api/#authentication-tokens) na documentação da API do Adobe Target.
 
 ## Por que os visitantes veem experiências para uma atividade de AP que não deveriam ver? {#section_41CECEAE0881446A8D9F3B016857914B}
 

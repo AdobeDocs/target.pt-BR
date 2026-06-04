@@ -5,23 +5,13 @@ title: Posso usar filtros de público-alvo para relatórios?
 feature: Audiences
 exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
 TQID: https://experienceleague.adobe.com/7h16ay64Y1IVu2CbkEJny-rnGms80q8X7G6gOM1P900
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
-subfeature_v2:
-  - id: b6f5758b-84f7-4943-8b05-1297a046943c
-  - id: e73b329c-f712-4a22-abe7-bfbf3be6d0f9
-  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
-  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2: id: b6f5758b-84f7-4943-8b05-1297a046943cid: e73b329c-f712-4a22-abe7-bfbf3be6d0f9id: ed58f4a1-16eb-4c8c-b505-be9da766a9ecid: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 477
+source-wordcount: 478
 ht-degree: 59%
 
 ---
@@ -41,7 +31,7 @@ Ao planejar o uso de filtros de público-alvo para uma atividade, considere as s
 * **Comece com dois a quatro públicos-alvo.** Concentre-se nas informações básicas como fonte de tráfego.
 * **Renomeie os públicos-alvo conforme necessário.** É possível renomear um público-alvo sem afetar os dados para fazer com que o nome do público-alvo seja mais significativo para os resultados coletados, mesmo que a atividade esteja ativa.
 * **Insira valores precisos.** Os valores de filtro de público-alvo diferenciam maiúsculas de minúsculas. Por exemplo, se você estiver utilizando um público-alvo que filtre por cidades, você deve utilizar uma condição &quot;OU&quot; para incluir possíveis variações de digitação e maiúsculas de minúsculas como &quot;Vienna,&quot; &quot;vienna,&quot; &quot;viena&quot; e &quot;Viena&quot;.
-* **Os públicos-alvo criados na lista [!UICONTROL Audiences] são reutilizáveis.** Os públicos-alvo criados como parte de uma atividade não podem ser reutilizados.
+* **Os públicos-alvo criados na lista [!UICONTROL Públicos-alvo] são reutilizáveis.** Os públicos-alvo criados como parte de uma atividade não podem ser reutilizados.
 
 As seções a seguir fornecem mais informações sobre a configuração e o relatório sobre públicos-alvo:
 

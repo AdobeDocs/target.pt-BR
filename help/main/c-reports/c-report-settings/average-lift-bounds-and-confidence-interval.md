@@ -6,8 +6,8 @@ feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 60%
+source-wordcount: '913'
+ht-degree: 59%
 
 ---
 
@@ -17,11 +17,11 @@ Os relatórios incluem vários pontos de dados e representações de visualizaç
 
 >[!NOTE]
 >
->Este recurso está disponível somente durante a exibição de relatórios na Exibição [!UICONTROL Table]. Este recurso não está disponível para atividades que usam o [Analytics como fonte de relatórios (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+>Este recurso está disponível somente durante a exibição de relatórios na Exibição de [!UICONTROL Tabela]. Este recurso não está disponível para atividades que usam o [Analytics como fonte de relatórios (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
 ## Interpretar os dados {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
-A ilustração a seguir mostra informações de [!UICONTROL Lift Bounds and Confidence Level]:
+A ilustração a seguir mostra informações de [!UICONTROL Limites de aumento e Nível de confiança]:
 
 ![Relatório de Incentivo médio e Nível de confiança](/help/main/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
@@ -61,7 +61,7 @@ Os limites de aumento são calculados usando a seguinte fórmula:
 
 Existe um cálculo adicional para chegar à entrada dos nossos limites de aumento:
 
-* **t-value:** a estatística crítica para o nosso nível de confiança de 95% é de 1,96. Saiba mais sobre [t-values aqui](https://en.wikipedia.org/wiki/T-statistic).
+* **t-value:** a estatística crítica para o nosso nível de confiança de 95% é de 1,96. Você pode saber mais sobre [t-values aqui](https://en.wikipedia.org/wiki/T-statistic).
 * **Variação do aumento:** A métrica de sucesso do Erro Padrão de Experiência N e a métrica de sucesso Erro Padrão da Experiência de Controle são necessárias para determinar a variação de aumento, que é calculada usando a seguinte fórmula (ilustrada caso a métrica de sucesso seja conversão).
 
   ![imagem de lift_variance](assets/lift_variance.png)
@@ -116,4 +116,4 @@ Portanto, os limites de aumento para a Experiência B podem ser:
 Em certos casos, [!DNL Target] não exibe limites de aumento:
 
 * Para qualquer atividade, quando o número total de visitas ou visitantes for menor que 30.
-* Para atividades de [!UICONTROL Auto-Allocate], nenhum limite de aumento é exibido até que uma experiência tenha atingido 60% de confiança.
+* Para atividades de [!UICONTROL Alocação automática], nenhum limite de aumento é exibido até que uma experiência tenha atingido 60% de confiança.

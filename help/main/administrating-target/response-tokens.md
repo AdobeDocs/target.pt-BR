@@ -6,30 +6,14 @@ feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 TQID: https://experienceleague.adobe.com/Fm2VW0HmAPjf0ZCDawI-s1nPl3c-wjU-evhq-tSAKqA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
-  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
-  - id: faed1c89-faf7-4df1-910d-a88263e03b15
-  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: dfc8a233-f2b5-4811-bf63-b4262aebc5a5id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: c5abb976-5170-45d6-bcac-66d15d10a4d4id: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4beaid: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1749
+source-wordcount: 1767
 ht-degree: 22%
 
 ---
@@ -38,7 +22,7 @@ ht-degree: 22%
 
 Os tokens de resposta permitem enviar automaticamente informações específicas do [!DNL Adobe Target] para a página da Web da sua marca. Essas informações podem incluir detalhes sobre atividade, oferta, experiência, perfil do usuário, informações geográficas e muito mais. Esses detalhes fornecem dados de resposta adicionais para compartilhar com ferramentas internas ou de terceiros ou usar para depuração.
 
-Os tokens de resposta permitem escolher quais variáveis (em pares de valores chave) usar e depois habilitar eles para serem enviados como parte de uma resposta [!DNL Target]. Você habilita uma variável usando o switch e a variável é enviada com [!DNL Target] respostas, que podem ser validadas em chamadas de rede. Os tokens de resposta também funcionam no modo [!UICONTROL Preview].
+Os tokens de resposta permitem escolher quais variáveis (em pares de valores chave) usar e depois habilitar eles para serem enviados como parte de uma resposta [!DNL Target]. Você habilita uma variável usando o switch e a variável é enviada com [!DNL Target] respostas, que podem ser validadas em chamadas de rede. Os tokens de resposta também funcionam no modo [!UICONTROL Visualização].
 
 Uma diferença importante entre plug-ins e tokens de resposta é que os plug-ins fornecem o JavaScript à página que é executada na entrega. Os tokens de resposta, no entanto, fornecem um objeto que pode ser lido e utilizado com o uso de ouvintes de eventos. A abordagem do token de resposta é mais segura e permite um desenvolvimento e manutenção mais fáceis de integrações de terceiros.
 
@@ -50,8 +34,8 @@ Uma diferença importante entre plug-ins e tokens de resposta é que os plug-ins
 
 | SDK do Target | Ações sugeridas |
 |--- |--- |
-| [SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank} | Verifique se você está usando o Platform Web SDK versão 2.6.0 ou posterior. Para obter informações sobre como baixar a versão mais recente do Platform Web SDK, consulte [Instalar o SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=pt-BR){target=_blank} na *visão geral do Platform Web SDK* guia. Para obter informações sobre a nova funcionalidade em cada versão do Platform Web SDK, consulte as [notas de versão](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=pt-BR) na *visão geral do Platform Web SDK*. |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=pt-BR){target=_blank} | Certifique-se de que você esteja usando a at.js versão 1.1 ou posterior. Para obter informações sobre como baixar a versão mais recente do at.js, consulte [Baixar o at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. Para obter informações sobre a nova funcionalidade em cada versão do at.js, consulte [Detalhes da versão do at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank}.<br>Os clientes que usam o at.js são incentivados a usar tokens de resposta e a se afastar dos plug-ins. Alguns plug-ins do que dependem de métodos internos existentes na mbox.js (descontinuada), mas não na at.js, são entregues, mas apresentam falha. |
+| [SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank} | Verifique se você está usando o Platform Web SDK versão 2.6.0 ou posterior. Para obter informações sobre como baixar a versão mais recente do Platform Web SDK, consulte [Instalar o SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} na *visão geral do Platform Web SDK* guia. Para obter informações sobre a nova funcionalidade em cada versão do Platform Web SDK, consulte as [notas de versão](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=pt-BR) na *visão geral do Platform Web SDK*. |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | Certifique-se de que você esteja usando a at.js versão 1.1 ou posterior. Para obter informações sobre como baixar a versão mais recente do at.js, consulte [Baixar o at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. Para obter informações sobre a nova funcionalidade em cada versão do at.js, consulte [Detalhes da versão do at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank}.<br>Os clientes que usam o at.js são incentivados a usar tokens de resposta e a se afastar dos plug-ins. Alguns plug-ins do que dependem de métodos internos existentes na mbox.js (descontinuada), mas não na at.js, são entregues, mas apresentam falha. |
 
 ## Uso de tokens de resposta {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -59,10 +43,10 @@ Uma diferença importante entre plug-ins e tokens de resposta é que os plug-ins
 
    Para obter mais informações:
 
-   * **Platform Web SDK**: consulte [Instalar o SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=pt-BR) no guia de *visão geral do Platform Web SDK*.
+   * **Platform Web SDK**: consulte [Instalar o SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) no guia de *visão geral do Platform Web SDK*.
    * **at.js**: consulte [Baixar at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
 
-1. Em [!DNL Target], clique em **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
+1. Em [!DNL Target], clique em **[!UICONTROL Administração]** > **[!UICONTROL Tokens de Resposta]**.
 
 1. Ative os tokens de resposta desejados, como `activity.id` e `offer.id`.
 
@@ -81,7 +65,7 @@ Uma diferença importante entre plug-ins e tokens de resposta é que os plug-ins
    |  | `profile.categoryAffinities` | Retorna uma matriz das 5 categorias principais do visitante como sequências de caracteres. |
    | Atividade | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Detalhes da atividade atual.<br> Observe que os valores dos parâmetros de oferta são avaliados no nível de experiência. |
    | Geografia | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Consulte [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md) para obter mais informações sobre como usar o direcionamento geográfico nas atividades. |
-   | Método de Alocação de Tráfego <br>(Aplica-se somente a atividades [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization].) | `experience.trafficAllocationId` | Retorna 0 se um visitante recebeu uma experiência por estar no tráfego de &quot;controle&quot; e 1 se um visitante recebeu uma experiência pela distribuição de tráfego &quot;direcionada&quot;. |
+   | Método de Alocação de Tráfego<br>(Aplica-se somente às atividades [!UICONTROL Direcionamento Automático] e [!UICONTROL Automated Personalization].) | `experience.trafficAllocationId` | Retorna 0 se um visitante recebeu uma experiência por estar no tráfego de &quot;controle&quot; e 1 se um visitante recebeu uma experiência pela distribuição de tráfego &quot;direcionada&quot;. |
    |  | `experience.trafficAllocationType` | Retornar &quot;controle&quot; ou &quot;direcionado&quot;. |
 
    Os atributos do perfil do usuário e dos Atributos do cliente também são exibidos na lista.
@@ -90,9 +74,9 @@ Uma diferença importante entre plug-ins e tokens de resposta é que os plug-ins
    >
    >Os parâmetros com caracteres especiais não são exibidos na lista. Somente caracteres alfanuméricos e sublinhados são suportados.
 
-1. (Condicional) Para usar um parâmetro de perfil como token de resposta, mas o parâmetro não foi transmitido por uma solicitação [!DNL Target] e, portanto, não foi carregado na interface do usuário [!DNL Target], você pode usar o botão [!UICONTROL Add Response Token] para adicionar o perfil à interface do usuário.
+1. (Condicional) Para usar um parâmetro de perfil como token de resposta, mas o parâmetro não foi transmitido por uma solicitação [!DNL Target] e, portanto, não foi carregado na interface do usuário [!DNL Target], você pode usar o botão [!UICONTROL Adicionar Token de Resposta] para adicionar o perfil à interface do usuário.
 
-   Clique em **[!UICONTROL Add Response Token]**, forneça o nome do token e clique em **[!UICONTROL Activate]**.
+   Clique em **[!UICONTROL Adicionar token de resposta]**, forneça o nome do token e clique em **[!UICONTROL Ativar]**.
 
 1. Crie uma atividade.
 
@@ -194,7 +178,7 @@ O código de amostra a seguir adiciona um manipulador de evento personalizado da
 
 **Qual função é necessária para ativar ou desativar os tokens de resposta?**
 
-Os tokens de resposta só podem ser ativados ou desativados por usuários com a função [!DNL Target] [!UICONTROL Administrator].
+Os tokens de resposta só podem ser ativados ou desativados por usuários com a função de [!DNL Target] [!UICONTROL Administrador].
 
 **O que acontece se eu estiver executando o [!DNL Platform Web SDK] 2.6.0 (ou anterior)?**
 
@@ -444,8 +428,8 @@ O vídeo a seguir explica como usar tokens de resposta e eventos personalizados 
 
 >[!NOTE]
 >
->A interface do usuário de menu do [!DNL Target] [!UICONTROL Administration] (antigo [!UICONTROL Setup]) foi reprojetada para fornecer melhor desempenho, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário no produto. As informações do vídeo a seguir estão corretas; no entanto, as opções estão em locais um pouco diferentes.
+>A interface do usuário do menu [!DNL Target] [!UICONTROL Administração] (antiga [!UICONTROL Configuração]) foi reprojetada para fornecer desempenho aprimorado, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário em todo o produto. As informações do vídeo a seguir estão corretas; no entanto, as opções estão em locais um pouco diferentes.
 >
 >O vídeo menciona `option.name` e `option.id`, que foram substituídos por `offer.name` e `offer.id`, respectivamente.
 
->[!VIDEO](https://video.tv.adobe.com/v/33346?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)

@@ -2,24 +2,17 @@
 keywords: Recomendações, algoritmos do recommendations, atividade do recommendations, recommendations classic
 description: Examine as informações para ajudar você a entender as diferenças entre as atividades herdadas do Recommendations Classic e do Recomendações no  [!DNL Target] Premium.
 title: Qual é a diferença entre o Recommendations Classic e o Recomendações no  [!DNL Target] Premium?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 TQID: https://experienceleague.adobe.com/EoTkyY0kOwRKT52WIwOuTCoUziIJOnNtTo6llsTNpsM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 665
-ht-degree: 86%
+source-wordcount: 692
+ht-degree: 83%
 
 ---
 
@@ -41,16 +34,16 @@ A atividade do [!DNL Recommendations] no [!DNL Target] aprimora o [!DNL Recommen
 
 ## Recomendações como oferta
 
-Você pode incluir recomendações nas atividades de [!UICONTROL A/B Test] (inclusive [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target]) e [!UICONTROL Experience Targeting] (XT).
+Você pode incluir recomendações nas atividades de [!UICONTROL Teste A/B] (incluindo [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]) e [!UICONTROL Direcionamento de experiência] (XT).
 
 Essa funcionalidade permite capacidades nunca antes vistas, como:
 
 * Teste e direcione conteúdo de recomendações e não recomendações em uma mesma atividade.
 * Experimente com facilidade a colocação de recomendações na página, incluindo a ordem de várias recomendações.
-* Impulsione automaticamente o tráfego para a experiência do recommendations com melhor desempenho usando o [!UICONTROL Auto-Allocate].
-* Atribua de maneira dinâmica os visitantes a experiências de recomendação personalizadas com base em seus perfis usando o [!UICONTROL Auto-Target].
+* Impulsione automaticamente o tráfego para a experiência do recommendations com melhor desempenho usando [!UICONTROL Alocação automática].
+* Atribua de maneira dinâmica os visitantes a experiências de recomendação personalizadas com base em seus perfis usando o [!UICONTROL Direcionamento automático].
 
-Para começar, crie uma atividade [!UICONTROL A/B Test] ou [!UICONTROL Experience Targeting] usando o [!UICONTROL Visual Experience Composer] e use a ação [!UICONTROL Insert Before], [!UICONTROL Insert After] ou [!UICONTROL Replace With] para adicionar recomendações a uma experiência.
+Para começar, crie uma atividade de [!UICONTROL Teste A/B] ou [!UICONTROL Direcionamento de Experiência] usando o [!UICONTROL Visual Experience Composer] e use a ação [!UICONTROL Inserir Antes], [!UICONTROL Inserir Depois] ou [!UICONTROL Substituir Por] para adicionar recomendações a uma experiência.
 
 Para obter mais informações, consulte [Recomendações como uma oferta](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
@@ -80,7 +73,7 @@ Você pode visualizar suas recomendações depois de configurá-las e fazer as a
 
 No [!DNL Recommendations Classic], existem seis opções de direcionamento. As atividades do Recomendações usam a linha completa de opções de direcionamento do Target. Defina um público-alvo usando o [!DNL Target] ou outros públicos da [!DNL Adobe Experience Cloud] (como o [!DNL Audience Manager] e [!DNL Analytics]), em seguida, selecione o percentual de participantes da atividade que visualizam cada design e que visualizam o controle.
 
-![imagem de &lbrace;overview_targeting](assets/overview_targeting.png)
+![imagem de {overview_targeting](assets/overview_targeting.png)
 
 ## Relatório {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 

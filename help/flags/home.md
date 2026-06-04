@@ -23,13 +23,13 @@ Os sinalizadores no Adobe Target permitem que as equipes de produtos enviem novo
 
 **Controle quem vê os novos recursos.** Versões do Target para usuários, organizações, regiões ou atributos personalizados específicos. Comece com um pequeno grupo, valide a experiência e expanda — tudo a partir do console, sem alterações de código.
 
-**Execute experimentos A/B.** Atenda a variantes diferentes de segmentos diferentes de seu público-alvo e avalie qual tem melhor desempenho. Use os resultados para tomar decisões informadas sobre o produto antes de um lançamento completo.
+**Executar experimentos A/B.** Atenda a diferentes variantes para diferentes segmentos do seu público-alvo e avalie qual tem melhor desempenho. Use os resultados para tomar decisões informadas sobre o produto antes de um lançamento completo.
 
-**Reduza o risco de lançamento.** Divida grandes alterações em implantações menores e controladas. Se um erro ou problema de desempenho aparecer, desative somente o recurso afetado — o restante do aplicativo permanece estável.
+**Reduzir o risco de lançamento.** Divida grandes alterações em implantações menores e controladas. Se um erro ou problema de desempenho aparecer, desative somente o recurso afetado — o restante do aplicativo permanece estável.
 
-**Coordenar entre aplicativos.Os grupos de recursos do** permitem gerenciar vários sinalizadores de recursos juntos, compartilhando um público-alvo de implantação comum entre aplicativos.
+**Coordenar entre aplicativos.** Os grupos de recursos permitem gerenciar vários sinalizadores de recursos juntos, compartilhando um público-alvo de implantação comum entre aplicativos.
 
-**Exportar seus dados.** Exporte dados de Sinalizadores para o ambiente de relatórios de sua preferência para análise e medição juntamente com seus outros dados do Adobe.
+**Exportar seus dados.** Exporte dados de Sinalizadores para o ambiente de relatórios de sua preferência para análise e medição junto com outros dados do Adobe.
 
 ## Integrar seu primeiro sinalizador
 

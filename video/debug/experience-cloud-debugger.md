@@ -5,8 +5,8 @@ title: Depurar o  [!DNL Target]  com o Experience Cloud Debugger
 feature: Troubleshooting
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 100%
+source-wordcount: '80'
+ht-degree: 80%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 100%
 
 Depurar o [!DNL Adobe Target] usando o [!DNL Adobe Experience Cloud Debugger].
 
-## Adicionar a extensão 
+## Adicionar a extensão
 
->[!VIDEO](https://video.tv.adobe.com/v/33296/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
 
 ## Depuração básica do [!DNL Target]
 
->[!VIDEO](https://video.tv.adobe.com/v/33298/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
 
 ## Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/33345/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
 
 ## Recursos adicionais
 

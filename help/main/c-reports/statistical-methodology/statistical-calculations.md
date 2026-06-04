@@ -1,31 +1,28 @@
 ---
 keywords: relatórios;metodologia estatística;cálculos estatísticos;estatísticas;média;taxa de conversão;receita por visitante;rpv;intervalo de confiança;aumento;teste t de correção;cálculos offline
-description: Saiba mais sobre os cálculos estatísticos usados nas atividades manuais [!UICONTROL A/B Test] do  [!DNL Adobe Target].
-title: Como posso obter mais informações sobre os cálculos estatísticos usados nas atividades de [!UICONTROL A/B Test]?
+description: Saiba mais sobre os cálculos estatísticos usados nas atividades manuais [!UICONTROL Teste A/B] em [!DNL Adobe Target].
+title: Como posso saber mais sobre os cálculos estatísticos usados nas atividades de [!UICONTROL Teste A/B]?
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
 TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1137
+source-wordcount: 1202
 ht-degree: 2%
 
 ---
 
 # Cálculos estatísticos em testes A/Bn
 
-Este artigo documenta os cálculos estatísticos detalhados usados em testes A/Bn manuais no [!DNL Adobe Target]. As definições são fornecidas para [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate], [!UICONTROL Lift], [!UICONTROL Confidence Interval for Lift] e [!UICONTROL Confidence].
+Este artigo documenta os cálculos estatísticos detalhados usados em testes A/Bn manuais no [!DNL Adobe Target]. As definições são fornecidas para [!UICONTROL Taxa de Conversão], [!UICONTROL Intervalo de Confiança da Taxa de Conversão], [!UICONTROL Aumento], [!UICONTROL Intervalo de Confiança do Aumento] e [!UICONTROL Confiança].
 
 >[!NOTE]
 >
 >As informações deste artigo substituem o arquivo PDF *Cálculos do Adobe Target para Teste A/B*, que estava disponível anteriormente para download neste site.
 
-![Relatório de direcionamento mostrando o [!UICONTROL Conversion Rate], [!UICONTROL Average Lift and Confidence Interval], e [!UICONTROL Confidence] de uma atividade de Teste A/B.](/help/main/c-reports/statistical-methodology/img/target_report.png)
+![Relatório de destino mostrando a [!UICONTROL Taxa de conversão], [!UICONTROL Intervalo médio de elevação e confiança] e [!UICONTROL Confiança] de uma atividade de Teste A/B.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
 ## Desempenho médio
 
@@ -33,7 +30,7 @@ A seção a seguir explica os cálculos usados na ilustração anterior.
 
 ### Taxa de conversão e Campanhas de receita por visitante (RPV)
 
-A ilustração a seguir mostra [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate] e o número de [!UICONTROL Conversions] em um relatório [!DNL Target]. Por exemplo, a primeira linha mostra que para a Experiência A: o [!UICONTROL Conversion Rate] é 25,81% com um [!UICONTROL Confidence Interval] de ±7,7% e 32 conversões foram registradas. Considerando que 124 visitantes visualizaram a experiência, isso equivale a 32/124 = 25,81%.
+A ilustração a seguir mostra [!UICONTROL Taxa de Conversão], [!UICONTROL Intervalo de Confiança da Taxa de Conversão] e o número de [!UICONTROL Conversões] em um relatório [!DNL Target]. Por exemplo, a primeira linha mostra que para a Experiência A: a [!UICONTROL Taxa de Conversão] é 25,81% com um [!UICONTROL Intervalo de Confiança] de ±7,7% e 32 conversões foram registradas. Considerando que 124 visitantes visualizaram a experiência, isso equivale a 32/124 = 25,81%.
 
 <p style="text-align:center;"><img width="25%" src="img/conv_rate.png"></p>
 
@@ -47,17 +44,17 @@ Aqui,
 
 * A soma sobre as unidades *i* depende da escolha da metodologia de contagem.
 
-   * Se *[!UICONTROL Visitors]* for usada como a metodologia de contagem, cada unidade será um visitante único definido como um participante único na atividade durante toda a vida útil da atividade.
-   * Se *[!UICONTROL Visits]* for usada como metodologia de contagem, cada unidade será uma visita única definida como um participante único em uma experiência durante uma sessão [!DNL Target] (com um único `sessionId`). Quando o `sessionId` é alterado ou o visitante atinge a etapa de conversão, uma nova visita é contada.
-   * Se *[!UICONTROL Activity Impressions]* for usada como a metodologia de contagem, cada unidade será uma impressão exclusiva definida sempre que um visitante carregar qualquer página da atividade.
+   * Se *[!UICONTROL Visitors]* for usado como a metodologia de contagem, cada unidade será um visitante único definido como um participante único na atividade durante toda a vida útil da atividade.
+   * Se *[!UICONTROL Visitas]* for usada como a metodologia de contagem, cada unidade será uma visita única definida como um participante único em uma experiência durante uma sessão [!DNL Target] (com uma única `sessionId`). Quando o `sessionId` é alterado ou o visitante atinge a etapa de conversão, uma nova visita é contada.
+   * Se *[!UICONTROL Impressões de atividade]* for usada como a metodologia de contagem, cada unidade será uma impressão exclusiva definida sempre que um visitante carregar qualquer página da atividade.
 
-## [!UICONTROL Confidence Interval of Mean]/[!UICONTROL Conversion Rate]
+## [!UICONTROL Intervalo de confiança de Média]/[!UICONTROL Taxa de conversão]
 
 O intervalo de confiança da taxa de conversão é intuitivamente definido como um intervalo de taxas de conversão possíveis consistente com os dados subjacentes.
 
 Ao executar experimentos, o índice de conversão para uma determinada experiência é uma *estimativa* do índice de conversão &quot;verdadeiro&quot;. Para quantificar a incerteza nesta estimativa, [!DNL Target] usa um intervalo de confiança. [!DNL Target] sempre relata um intervalo de confiança de 95%, o que significa que, no final, 95% dos intervalos de confiança calculados incluem o verdadeiro índice de conversão da experiência.
 
-Um número de &quot;Confiança&quot; também é relatado ao lado da experiência principal ou vencedora no momento. Este número é relatado somente até que a [!UICONTROL Confidence] da experiência principal atinja pelo menos 60%. Se duas experiências estiverem presentes na atividade, esse número representará o nível de confiança de que a experiência está tendo um desempenho melhor do que a outra experiência. Se mais de duas experiências estiverem presentes na atividade, esse número representará o nível de confiança de que a experiência está tendo um desempenho melhor do que a experiência de &quot;Controle&quot; definida. Se a experiência de &quot;Controle&quot; estiver ganhando, nenhum valor de &quot;Confiança&quot; será relatado.
+Um número de &quot;Confiança&quot; também é relatado ao lado da experiência principal ou vencedora no momento. Este número é relatado somente até que a [!UICONTROL Confiança] da experiência principal atinja pelo menos 60%. Se duas experiências estiverem presentes na atividade, esse número representará o nível de confiança de que a experiência está tendo um desempenho melhor do que a outra experiência. Se mais de duas experiências estiverem presentes na atividade, esse número representará o nível de confiança de que a experiência está tendo um desempenho melhor do que a experiência de &quot;Controle&quot; definida. Se a experiência de &quot;Controle&quot; estiver ganhando, nenhum valor de &quot;Confiança&quot; será relatado.
 
 Um intervalo de confiança de 95% da taxa de conversão *μ<sub>ν</sub>* é definido como o intervalo de valores:
 
@@ -77,7 +74,7 @@ Quando a campanha é uma campanha de taxa de conversão (ou seja, a métrica de 
 
 ## Aumento
 
-A ilustração a seguir mostra [!UICONTROL Lift] e [!UICONTROL Confidence Interval of Lift] em um Relatório [!DNL Target]. O número representa a média do intervalo dos limites de aumento, e a seta reflete se o aumento é positivo ou negativo. A seta é exibida em cinza até que a confiança passe de 95%. Depois que a confiança ultrapassa o limite, a seta é verde ou vermelha com base em um aumento positivo ou negativo.
+A ilustração a seguir mostra [!UICONTROL Aumento] e [!UICONTROL Intervalo de Confiança do Aumento] em um Relatório [!DNL Target]. O número representa a média do intervalo dos limites de aumento, e a seta reflete se o aumento é positivo ou negativo. A seta é exibida em cinza até que a confiança passe de 95%. Depois que a confiança ultrapassa o limite, a seta é verde ou vermelha com base em um aumento positivo ou negativo.
 
 <p style="text-align:center;"><img width="35%" src="img/lift.png"></p>
 
@@ -95,7 +92,7 @@ Se o índice de conversão da experiência de controle *ν<sub>0</sub>* for 0, n
 
 ## [!DNL Confidence Interval of Lift]
 
-O gráfico boxplot na coluna [!UICONTROL Average Lift and Confidence Interval] representa o valor médio e 95% [!UICONTROL Confidence Interval of Lift]. O boxplot é cinza quando há qualquer sobreposição no intervalo de confiança de uma determinada experiência de não controle com o intervalo de confiança da experiência de controle. O boxplot é verde ou vermelho quando o intervalo de confiança da experiência é acima ou abaixo do intervalo de confiança da experiência de controle.
+O gráfico boxplot na coluna [!UICONTROL Intervalo de aumento médio e de confiança] representa o valor médio e 95% [!UICONTROL Intervalo de confiança de aumento]. O boxplot é cinza quando há qualquer sobreposição no intervalo de confiança de uma determinada experiência de não controle com o intervalo de confiança da experiência de controle. O boxplot é verde ou vermelho quando o intervalo de confiança da experiência é acima ou abaixo do intervalo de confiança da experiência de controle.
 
 O erro padrão do aumento entre uma experiência *ν* e a experiência de controle *ν<sub>0</sub>* é definido como:
 
@@ -107,7 +104,7 @@ Em seguida, o Intervalo de confiança de 95% do aumento é:
 
 Este cálculo usa o método &quot;Delta&quot; e é descrito [com mais detalhes neste documento](/help/main/assets/confidence_interval_lift.pdf)
 
-## [!UICONTROL Confidence]
+## [!UICONTROL Confiança]
 
 A última coluna mostra a confiança em um relatório [!DNL Target]. A confiança de uma experiência é uma probabilidade (denotada como uma porcentagem) de obter um resultado tão extremo quanto o observado, dada a hipótese nula ser verdadeira. Em termos de valores p, a confiança exibida é de *1 - valor p*. Intuitivamente, maior confiança significa que é menos provável que a experiência de controle e não controle tenha taxas de conversão iguais.
 

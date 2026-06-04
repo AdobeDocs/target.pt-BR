@@ -5,15 +5,12 @@ title: Como usar visores móveis para experiências responsivas?
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 TQID: https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1361
-ht-degree: 94%
+source-wordcount: 1379
+ht-degree: 93%
 
 ---
 
@@ -103,14 +100,14 @@ Se o seu site não for responsivo, use o Mobile Web Composer para exibir um site
 
 Configure os visores móveis que você deseja disponibilizar ao criar suas experiências.
 
-1. Clique em **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
-1. Na seção **[!UICONTROL Mobile viewports configuration]**, clique em **[!UICONTROL Add]**.
+1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]**.
+1. Na seção **[!UICONTROL Configuração de visores móveis]**, clique em **[!UICONTROL Adicionar]**.
 
    ![Adicionar visor](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
    Ou
 
-   Para alterar a configuração de um visor móvel existente, selecione o visor e clique no ícone [!UICONTROL Edit] (lápis).
+   Para alterar a configuração de um visor móvel existente, selecione o visor e clique no ícone [!UICONTROL Editar] (lápis).
 
 1. Digite um nome para a janela de visualização móvel.
 
@@ -132,7 +129,7 @@ Configure os visores móveis que você deseja disponibilizar ao criar suas exper
 
    Se você usa o [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) e selecionar um sistema operacional, o emula aquele dispositivo quando você visualiza a página. [!DNL Target] Por exemplo, se houver uma aparência diferente para Android e iOS em seu site responsivo, o [!DNL Target] imita esse comportamento.
 
-1. Clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Salvar]**.
 
 >[!NOTE]
 >
@@ -143,11 +140,11 @@ Configure os visores móveis que você deseja disponibilizar ao criar suas exper
 Adicione visores móveis a atividades do [!DNL Target] para criar atividades responsivas para telas móveis.
 
 1. Crie a [atividade desejada](/help/main/c-activities/activities.md).
-1. No [!UICONTROL Visual Experience Composer] (VEC), clique no ícone de engrenagem **[!UICONTROL Settings]** e selecione **[!UICONTROL Add Mobile Viewports]**.
+1. No [!UICONTROL Visual Experience Composer] (VEC), clique no ícone de engrenagem **[!UICONTROL Configurações]** e selecione **[!UICONTROL Adicionar janelas de visualização móvel]**.
 
    ![Opção adicionar visores móveisl](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. Clique no ícone **[!UICONTROL Devices]** e habilite cada dispositivo com um visor móvel.
+1. Clique no ícone **[!UICONTROL Dispositivos]** e habilite cada dispositivo com um visor móvel.
 
    ![Habilitar visores móveis](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 
@@ -180,7 +177,7 @@ O vídeo de demonstração a seguir inclui informações sobre o uso do Visual E
 * Visualizar e criar a experiência para sites responsivos
 * Use sobreposições para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/30981?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Preferências da conta no Adobe Target ![Selo de visão geral](/help/main/assets/overview.png)
 

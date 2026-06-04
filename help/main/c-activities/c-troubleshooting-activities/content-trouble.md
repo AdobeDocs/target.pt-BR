@@ -5,23 +5,14 @@ title: Como posso solucionar problemas da entrega de conteúdo?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 TQID: https://experienceleague.adobe.com/nkaoqcuoqMm67AnEjSg6dCnFDy-jvlwvD1a6YeXTkwk
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1663
-ht-degree: 86%
+source-wordcount: 1689
+ht-degree: 85%
 
 ---
 
@@ -41,7 +32,7 @@ Como mboxTrace e mboxDebug podem expor dados de campanha e dados de perfil a ter
 
 Você deve ter uma das seguintes permissões de usuário para gerar um token de autenticação:
 
-* Pelo menos [!UICONTROL Editor] permissão (ou [!UICONTROL Approver])
+* Pelo menos a permissão [!UICONTROL Editor] (ou [!UICONTROL Aprovador])
 
   Para obter mais informações para clientes do [!DNL Target Standard], consulte [Especificar funções e permissões](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) em *Usuários*. Para obter mais informações para clientes do [!DNL Target Premium], consulte [Configurar permissões corporativas](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
@@ -53,8 +44,8 @@ Você deve ter uma das seguintes permissões de usuário para gerar um token de 
 
 Para recuperar o token de autorização:
 
-1. Clique em **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
-1. Na seção Ferramentas de Depuração, clique em **[!UICONTROL Generate New Authentication Token]**.
+1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Implementação]**.
+1. Na seção Ferramentas de depuração, clique em **[!UICONTROL Gerar novo token de autenticação]**.
 
    ![Gerar novo token de autenticação](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -167,11 +158,11 @@ A at.js não disparará solicitações do Target se você estiver usando um tipo
 
 ## Certifique-se de que as atividades do [!DNL Target] tratam corretamente os URLs com parâmetros de sequência de consulta. {#query-strings}
 
-O [!UICONTROL Activity URL] determina a página que qualifica os visitantes para a atividade e renderiza as experiências da atividade para os usuários. Quando solicitado durante a criação da atividade, digitar o URL completo nem sempre garante que o conteúdo será entregue na página do site, especialmente com URLs que contenham parâmetros de sequência de consulta.
+A [!UICONTROL URL da atividade] determina a página que qualifica os visitantes para a atividade e renderiza as experiências da atividade para os usuários. Quando solicitado durante a criação da atividade, digitar o URL completo nem sempre garante que o conteúdo será entregue na página do site, especialmente com URLs que contenham parâmetros de sequência de consulta.
 
 Por padrão, o [!UICONTROL Visual Experience Composer] (VEC) abre a página especificada nas suas [configurações do Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md). Você também pode especificar uma página diferente durante a criação da atividade.
 
-Para exibir uma página diferente após a abertura do VEC, clique em **[!UICONTROL Configure gear icon]** > selecione **[!UICONTROL Page Delivery]** > e especifique a URL desejada no campo [!UICONTROL Activity URL].
+Para exibir uma página diferente após a abertura do VEC, clique no **[!UICONTROL ícone de Configuração]** > selecione **[!UICONTROL Entrega de página]** > e especifique a URL desejada no campo [!UICONTROL URL da atividade].
 
 ![Definir a interface das configurações de Entrega de página](assets/configure-page-delivery.png)
 
@@ -197,7 +188,7 @@ Nesse cenário, o URL é `https://shopping.mycart.com?type=Summers%20Offers` e a
 
 ### Opção 3: Em vez de direcionar o URL completo, aproveite uma parte específica do URL.
 
-Nesse cenário, a URL é `https://shopping.mycart.com?type=Summers%20Offers` e regras de modelo adicionais especificam um [!UICONTROL Query] com [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers, separadas por um operador OU:
+Neste cenário, a URL é `https://shopping.mycart.com?type=Summers%20Offers` e regras de modelo adicionais especificam uma [!UICONTROL Consulta] com [!UICONTROL tipo] > [!UICONTROL é (diferencia maiúsculas de minúsculas)] > tipo=Verões%20Ofertas, separadas por um operador OU:
 
 ![Regra de modelo aproveitando uma parte específica do URL](assets/option3.png)
 
@@ -220,12 +211,12 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 
 ### Adicione a Extensão ![Selo do tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33296?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### Depuração básica do Adobe Target ![Selo do tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33298?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox Trace ![Selo do tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33345?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

@@ -1,18 +1,18 @@
 ---
 keywords: personalização automatizada;oferta;relatórios;grupo;grupo de relatórios;automated personalization;offer;reporting;group;reporting group;ap
 description: Saiba como usar grupos de relatórios de ofertas em atividades do  [!DNL Adobe Target] [!UICONTROL Automated Personalization].
-title: Posso Usar Grupos de Relatórios de Oferta em [!UICONTROL Automated Personalization] Atividades?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+title: Posso Usar Grupos de Relatórios de Oferta em Atividades do [!UICONTROL Automated Personalization]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 15%
+source-wordcount: '890'
+ht-degree: 25%
 
 ---
 
-# Oferecer grupos de relatório em [!UICONTROL Automated Personalization]
+# Oferecer grupos de relatório no [!UICONTROL Automated Personalization]
 
 Informações sobre o uso de grupos de relatórios em atividades de [!DNL Adobe Target] [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP).
 
@@ -33,30 +33,30 @@ Essa abordagem funciona bem se os visitantes responderem da mesma maneira a toda
 
 ## Configurar grupos de relatórios
 
-1. Na página **[!UICONTROL Experiences]** de uma atividade de AP, clique no ícone **[!UICONTROL Manage Content]**.
+1. Na página **[!UICONTROL Experiências]** de uma atividade de AP, clique no ícone **[!UICONTROL Gerenciar conteúdo]**.
 
    ![Ícone Gerenciar Conteúdo](/help/main/c-reports/assets/ap_manage_content.png)
 
-1. Clique na guia **[!UICONTROL Offers]** na parte superior da caixa de diálogo [!UICONTROL Manage Content].
-1. (Condicional) Adicione experiências específicas a um grupo de relatórios, passando o mouse sobre a oferta desejada e clicando no ícone de pasta **[!UICONTROL Reporting Group]**.
+1. Clique na guia **[!UICONTROL Ofertas]** na parte superior da caixa de diálogo [!UICONTROL Gerenciar conteúdo].
+1. (Condicional) Adicione experiências específicas a um grupo de relatórios, passando o mouse sobre a oferta desejada e clicando no ícone da pasta **[!UICONTROL Grupo de relatórios]**.
 
    ![Ícone do Grupo de Relatórios](/help/main/c-reports/assets/ap_manage_content_2.png)
 
-1. (Condicional) Adicione experiências em lote a um grupo de relatórios, marcando as caixas de seleção das experiências relevantes e clicando no ícone de pasta **[!UICONTROL Reporting Group]** no canto superior direito da caixa de diálogo.
+1. (Condicional) Adicione experiências em lote a um grupo de relatórios, marcando as caixas de seleção das experiências relevantes e clicando no ícone de pasta **[!UICONTROL Grupo de relatórios]** no canto superior direito da caixa de diálogo.
 
    ![Ícone do Grupo de Relatórios](/help/main/c-reports/assets/ap_manage_content_3.png)
 
-1. Para atribuir a oferta selecionada a um grupo de relatórios existente, selecione **[!UICONTROL Existing]**, o grupo de relatórios desejado na lista suspensa e clique em **[!UICONTROL Apply]**.
+1. Para atribuir a oferta selecionada a um grupo de relatórios existente, selecione **[!UICONTROL Existente]**, em seguida, o grupo de relatórios desejado na lista suspensa e clique em **[!UICONTROL Aplicar]**.
 
    Ou
 
-   Para criar um grupo de relatórios para atribuir a oferta selecionada, selecione **[!UICONTROL New]**, nomeie o novo grupo de relatórios e clique em **[!UICONTROL Apply]**.
+   Para criar um grupo de relatórios para atribuir a oferta selecionada, selecione **[!UICONTROL Novo]**, nomeie o novo grupo de relatórios e clique em **[!UICONTROL Aplicar]**.
 
    ![Novo ícone para criar um novo grupo de relatórios](/help/main/c-reports/assets/ap_reporting_groups.png)
 
-Você pode usar a lista [!UICONTROL Location] para filtrar ofertas por localização. Use a lista [!UICONTROL Report Group] para filtrar ofertas por grupos de relatórios. Você também pode usar a lista [!UICONTROL Report Group] para filtrar por [!UICONTROL Unassigned Offers] de modo que possa atribuir um grupo de relatórios a uma oferta que não está atualmente atribuída a nenhum grupo de relatórios.
+Você pode usar a lista [!UICONTROL Local] para filtrar ofertas por local. Use a lista [!UICONTROL Grupos de relatórios] para filtrar ofertas a grupos de relatórios. Você também pode usar a lista [!UICONTROL Grupo de relatórios] para filtrar [!UICONTROL Ofertas não atribuídas], de modo que possa atribuir um grupo de relatórios a uma oferta que não está atualmente atribuída a qualquer grupo de relatórios.
 
-Para obter informações sobre como direcionar uma oferta para públicos-alvo específicos, consulte [Ofertas do Target [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+Para obter informações sobre como direcionar uma oferta para públicos específicos, consulte [Ofertas do [!UICONTROL Automated Personalization] do Target](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
 
 ## Avisos
 
@@ -72,14 +72,14 @@ Para obter informações sobre como direcionar uma oferta para públicos-alvo es
 
 ## Exibir ofertas em um grupo de relatórios
 
-1. Clique em **[!UICONTROL Activities]**, clique na atividade [!UICONTROL Automated Personalization] desejada da lista, em seguida, clique na guia **[!UICONTROL Reports]** para exibir o relatório [Nível da oferta](/help/main/c-reports/personalization-reports/reports-ap.md).
+1. Clique em **[!UICONTROL Atividades]**, clique na atividade [!UICONTROL Automated Personalization] desejada da lista e na guia **[!UICONTROL Relatórios]** para exibir o relatório [Nível da oferta](/help/main/c-reports/personalization-reports/reports-ap.md).
 
-   Se você tiver muitas atividades, clique no ícone [!UICONTROL Show Filters] (funil) e marque a caixa de seleção [!UICONTROL Automated Personalization] para filtrar a lista e exibir apenas [!UICONTROL Automated Personalization] atividades.
+   Se você tem muitas atividades, clique no ícone [!UICONTROL Mostrar filtros] (funnel) e marque a caixa de seleção [!UICONTROL Automated Personalization] para filtrar a lista e exibir apenas [!UICONTROL atividades do Automated Personalization].
 
-1. Clique em **[!UICONTROL Control]** ou **[!UICONTROL Targeted]** na tabela para exibir as ofertas desagrupadas dentro dos grupos de relatórios.
+1. Clique em **[!UICONTROL Controle]** ou **[!UICONTROL Direcionado]** na tabela para exibir as ofertas desagrupadas dentro dos grupos de relatórios.
 
    ![Grupos de ofertas: controle e direcionado](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
 
-Para obter informações sobre como usar os relatórios [!UICONTROL Automated Personalization] (incluindo o relatório [!UICONTROL Offer Level]), consulte [Relatórios de resumo do Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).
+Para obter informações sobre como usar os relatórios do [!UICONTROL Automated Personalization] (incluindo o relatório do [!UICONTROL Nível de Oferta]), consulte os [relatórios de Resumo do Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).
 
 

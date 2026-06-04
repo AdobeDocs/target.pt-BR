@@ -5,18 +5,13 @@ title: O que é o rastreamento de cliques?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 TQID: https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 866
-ht-degree: 76%
+source-wordcount: 903
+ht-degree: 77%
 
 ---
 
@@ -30,36 +25,36 @@ ht-degree: 76%
 
 ## Configurar o rastreamento de cliques {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. Ao definir suas metas na página [!UICONTROL Goals & Settings] para a atividade, selecione a métrica de sucesso **[!UICONTROL Conversion]**.
-1. Para a ação, selecione **[!UICONTROL Clicked an element]** e clique em **[!UICONTROL Select elements]**.
+1. Ao definir suas metas na página [!UICONTROL Metas e configurações] para a atividade, selecione a métrica de sucesso de **[!UICONTROL Conversão]**.
+1. Para ação, selecione **[!UICONTROL Clicou em um elemento]** e clique em **[!UICONTROL Selecionar elementos]**.
 
-   Sua página abre no [!UICONTROL Visual Experience Composer] (VEC).
+   A página é aberta no [!UICONTROL Visual Experience Composer] (VEC).
 
 1. Selecione os elementos que deseja rastrear.
 
    Consulte a seção *Considerações* abaixo para obter dicas sobre como selecionar elementos.
 
-1. Clique em **[!UICONTROL Done]** na parte superior da tela para salvar suas seleções.
+1. Clique em **[!UICONTROL Concluído]** na parte superior da tela para salvar suas seleções.
 
 Quando um participante da atividade clica em um elemento selecionado, esse clique é contado como uma conversão.
 
 ## Painel Elementos selecionados {#selected-elements}
 
-Para atividades do [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Multivariate Test] (MVT), um painel [!UICONTROL Selected Elements] lista os elementos selecionados para o rastreamento de cliques no lado esquerdo.
+Para atividades de [!UICONTROL Teste A/B], [!UICONTROL Direcionamento de Experiência] (XT), [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Teste Multivariado] (MVT), um painel [!UICONTROL Elementos Selecionados] lista os elementos selecionados para o rastreamento de cliques no lado esquerdo.
 
 Painel ![Elementos selecionados](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-Há várias ações que podem ser aplicadas quando você clica em um elemento no painel [!UICONTROL Tracked Components]. A tabela a seguir descreve cada ação que pode ser executada em um elemento:
+Há várias ações que podem ser aplicadas quando você clica em um elemento no painel [!UICONTROL Componentes rastreados]. A tabela a seguir descreve cada ação que pode ser executada em um elemento:
 
 | Ação | Descrição |
 | --- | --- |
-| [!UICONTROL Tracked actions] | Exibe a ação do elemento. |
-| [!UICONTROL CSS selector] | Permite editar o seletor de CSS. |
+| [!UICONTROL Ações rastreadas] | Exibe a ação do elemento. |
+| [!UICONTROL Seletor de CSS] | Permite editar o seletor de CSS. |
 | [!DNL Delete] | Exclui o elemento. |
 
 ### Adicionar elemento
 
-Se já conhece o caminho DOM para o seletor, você pode adicioná-lo manualmente clicando no ícone [!UICONTROL Add Component] na parte superior do painel.
+Se você já conhece o caminho DOM para o seletor, poderá adicioná-lo manualmente clicando no ícone [!UICONTROL Adicionar componente] na parte superior do painel.
 
 ## Considerações {#considerations}
 
@@ -116,7 +111,7 @@ Há várias coisas a considerar ao selecionar elementos:
 Este vídeo inclui informações sobre a criação de métricas de sucesso de rastreamento de cliques.
 
 * Compreender métricas de &quot;meta&quot;
-* Entender e compilar métricas [!UICONTROL Conversion], [!UICONTROL Revenue] e [!UICONTROL Engagement]
+* Compreender e compilar métricas de [!UICONTROL Conversão], [!UICONTROL Receita] e [!UICONTROL Envolvimento]
 * Criar uma métrica de rastreamento de cliques
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

@@ -1,21 +1,17 @@
 ---
 keywords: feed de recomendações;feed;SAINT;ftp;csv;classificações;classificações do analytics
 description: Saiba como os feeds importam entidades para o  [!DNL Adobe Target] [!DNL Recommendations] usando arquivos CSV, o formato de feed  [!DNL Google Product Search] e as [!DNL Analytics] classificações de produto.
-title: Como usar [!UICONTROL Feeds] no  [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+title: Como faço para usar os [!UICONTROL Feeds] do [!DNL Target Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 TQID: https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2643
+source-wordcount: 2725
 ht-degree: 36%
 
 ---
@@ -41,7 +37,7 @@ Esses dados sobre cada item podem ser usados para:
 
 As descrições de item podem ser passadas para [!DNL Target] usando feeds ou mboxes. Se [!DNL Target] coletar dados usando um feed de entidade e uma mbox, os dados mais recentes prevalecerão. Normalmente, os dados mais recentes vêm de uma mbox, porque ela é vista com mais frequência. Se, por coincidência, dados do feed de entidade e da mbox cheguem ao mesmo tempo, os dados da mbox serão usados.
 
-A lista [!UICONTROL Feeds] ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) fornece informações sobre os feeds criados.
+A lista [!UICONTROL Feeds] ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) fornece informações sobre quaisquer feeds criados.
 
 A página [!UICONTROL Feeds] contém as seguintes colunas:
 
@@ -49,14 +45,14 @@ A página [!UICONTROL Feeds] contém as seguintes colunas:
 * **Status**: o [status](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) atual do feed.
 * **Tipo**: os tipos incluem [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) e [Classificações do Analytics](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
 * **Itens**: exibe o número de itens no feed.
-* **Agenda**: exibe a agenda de atualização do feed: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks] ou [!UICONTROL Never].
+* **Agenda**: exibe a agenda de atualização do feed: [!UICONTROL Diariamente], [!UICONTROL Semanalmente], [!DNL Every 2 Weeks] ou [!UICONTROL Nunca].
 * **Última atualização**: exibe a data e a hora em que o feed foi atualizado pela última vez e o nome da pessoa que atualizou o feed.
 
-Clique no ícone [!UICONTROL Customize Table] ( ![Ícone Personalizar tabela](/help/main/assets/icons/ColumnSetting.svg) ) para selecionar ou desmarcar as colunas que deseja exibir.
+Clique no ícone [!UICONTROL Personalizar Tabela] ( ![Ícone Personalizar Tabela](/help/main/assets/icons/ColumnSetting.svg) ) para selecionar ou desmarcar as colunas que deseja exibir.
 
-Clique no ícone [!UICONTROL Information] ( ![Ícone de informações](/help/main/assets/icons/InfoOutline.svg) ) para exibir um cartão com a data do último carregamento e a URL do feed.
+Clique no ícone [!UICONTROL Informações] ( ![ícone Informações](/help/main/assets/icons/InfoOutline.svg) ) para exibir um cartão que exibe a data do último carregamento e a URL do feed.
 
-Clique no ícone [!UICONTROL More Actions] ( ![Ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) para acessar as seguintes ações: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] e [!UICONTROL Delete].
+Clique no ícone [!UICONTROL Mais Ações] ( ![Ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) para acessar as seguintes ações: [!UICONTROL Desativar], [!DNL Edit], [!UICONTROL Copiar] e [!UICONTROL Excluir].
 
 >[!IMPORTANT]
 >
@@ -220,7 +216,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Classificações de produto de [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-A classificação do Produto [!DNL Adobe Analytics] é a única classificação disponível para recomendações. Para obter mais informações sobre esse arquivo de classificação, consulte [Sobre classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=pt-BR) no guia *Componentes do Analytics*. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, portanto, siga este guia do usuário se desejar adicioná-las ao arquivo de classificações.
+A classificação do Produto [!DNL Adobe Analytics] é a única classificação disponível para recomendações. Para obter mais informações sobre esse arquivo de classificação, consulte [Sobre classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) no guia *Componentes do Analytics*. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, portanto, siga este guia do usuário se desejar adicioná-las ao arquivo de classificações.
 
 >[!IMPORTANT]
 >
@@ -229,24 +225,24 @@ A classificação do Produto [!DNL Adobe Analytics] é a única classificação 
 > Esteja ciente dos seguintes avisos:
 >
 >* As atualizações para os atributos da entidade têm um atraso adicional de até 24 horas.
->* [!DNL Target] dá suporte somente a [!UICONTROL Product Classifications]. O SKU do produto [!DNL Analytics] deve mapear no mesmo nível que o [!DNL Recommendations] `entity.id`. Classificações personalizadas [!DNL Analytics] podem ser criadas usando [!UICONTROL Adobe Consulting Services]. Entre em contato com o Gerente de contas se tiver dúvidas.
+>* [!DNL Target] dá suporte somente a [!UICONTROL Classificações de Produto]. O SKU do produto [!DNL Analytics] deve mapear no mesmo nível que o [!DNL Recommendations] `entity.id`. As Classificações personalizadas [!DNL Analytics] podem ser projetadas usando os [!UICONTROL Serviços da Adobe Consulting]. Entre em contato com o Gerente de contas se tiver dúvidas.
 
 ## Criar feed {#steps}
 
 Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL Recommendations].
 
-1. Na interface [!DNL Target], clique em **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
+1. Na interface do [!DNL Target], clique em **[!UICONTROL Recomendações]** > **[!UICONTROL Feeds]** > **[!UICONTROL Criar Feed]**.
 
 1. Especifique um nome descritivo para o feed.
-1. Selecione um **[!UICONTROL Source Type]**.
+1. Selecione um **[!UICONTROL Tipo de Source]**.
 
    * [!UICONTROL CSV]
-   * [!UICONTROL Google Product Feed]
-   * [!UICONTROL Analytics Classifications]
+   * [!UICONTROL Feed do produto Google]
+   * [!UICONTROL Classificações do Analytics]
 
-   Para obter informações sobre os tipos de feed [!UICONTROL CSV] e [!UICONTROL Google Product Feed], consulte [Visão Geral dos Feeds](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Você também pode [baixar um guia CSV de modelo](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) para ajudar a formatar o feed corretamente.
+   Para obter informações sobre os tipos de feed do [!UICONTROL CSV] e do [!UICONTROL Feed do produto Google], consulte a [Visão geral dos feeds](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Você também pode [baixar um guia CSV de modelo](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) para ajudar a formatar o feed corretamente.
 
-1. (Condicional) Se você selecionou **[!UICONTROL CSV]** ou **[!UICONTROL Google Product Feed]**, especifique o local em que o feed pode ser acessado.
+1. (Condicional) Se você selecionou **[!UICONTROL CSV]** ou **[!UICONTROL Feed do produto Google]**, especifique o local em que o feed pode ser acessado.
 
    * **FTP**: se você selecionar FTP, forneça as informações do servidor FTP, as credenciais de logon, o nome do arquivo e o diretório do FTP. Você pode usar o FTP com SSL (FTPS) para uploads mais seguros.
 
@@ -259,30 +255,30 @@ Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL 
 
    * **URL**: se você selecionar [!UICONTROL URL], especifique a URL.
 
-1. (Condicional) Se você selecionou **[!UICONTROL Analytics Classifications]**, escolha o conjunto de relatórios na lista suspensa.
+1. (Condicional) Se você selecionou **[!UICONTROL Classificações do Analytics]**, escolha o conjunto de relatórios na lista suspensa.
 
-1. Clique na seta **[!UICONTROL Next]** para exibir as opções de [!UICONTROL Schedule].
+1. Clique na seta **[!UICONTROL Avançar]** para exibir as opções de [!UICONTROL Agendar].
 
 1. Selecione uma opção de atualização:
 
-   * [!UICONTROL Daily]
-   * [!UICONTROL Weekly]
-   * [!UICONTROL Every 2 Weeks]
-   * [!UICONTROL Never]: Não agendar uma atualização. Escolha essa opção se você não quiser que esse feed seja executado.
+   * [!UICONTROL Diariamente]
+   * [!UICONTROL Semanalmente]
+   * [!UICONTROL A Cada 2 Semanas]
+   * [!UICONTROL Nunca]: não agendar uma atualização. Escolha essa opção se você não quiser que esse feed seja executado.
 
 1. Especifique o tempo em que deseja que o feed seja executado.
 
    Essa opção é baseada no fuso horário usado no seu navegador. Se desejar usar uma hora em um fuso horário diferente, deve calcular esse tempo de acordo com o seu fuso horário.
 
-1. Clique na seta **[!UICONTROL Next]** para exibir as opções de [!UICONTROL Mapping] e especifique como deseja mapear seus dados para as definições de [!DNL Target].
+1. Clique na seta **[!UICONTROL Avançar]** para exibir as opções de [!UICONTROL Mapeamento] e especifique como deseja mapear seus dados para as definições de [!DNL Target].
 
 1. (Opcional) se você deseja que o feed pertença a um ambiente (grupo de hosts), selecione o grupo de hosts.
 
    Por padrão, o feed pertence a todos os grupos de hosts. Isso garante que esses itens neste feed estejam disponíveis em qualquer ambiente. Para obter mais informações, consulte [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
-1. Clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Salvar]**.
 
-Depois de criar ou editar um feed, ele é executado imediatamente. O feed é atualizado de acordo com os parâmetros definidos. Leva algum tempo para as informações estarem disponíveis. Em primeiro lugar, o feed deve sincronizar, em seguida, ele deve ser processado e indexados antes que possa ser publicado e disponibilizado. O status atual aparece em [Status do Feed](/help/main/c-recommendations/c-products/feeds.md#status) na lista [!UICONTROL Feeds]. Você pode fechar o [!DNL Target] antes que o processo esteja completo e o mesmo continuará.
+Depois de criar ou editar um feed, ele é executado imediatamente. O feed é atualizado de acordo com os parâmetros definidos. Leva algum tempo para as informações estarem disponíveis. Em primeiro lugar, o feed deve sincronizar, em seguida, ele deve ser processado e indexados antes que possa ser publicado e disponibilizado. O status atual aparece em [Status do feed](/help/main/c-recommendations/c-products/feeds.md#status) na lista de [!UICONTROL Feeds]. Você pode fechar o [!DNL Target] antes que o processo esteja completo e o mesmo continuará.
 
 Enquanto a indexação estiver em andamento, os produtos e cabeçalhos de feed serão exibidos antes que os valores individuais sejam indexados. Isso permite pesquisar e visualizar produtos para que você possa criar coleções, exclusões, designs e atividades antes da conclusão da indexação.
 
@@ -298,19 +294,19 @@ A seguir, estão os possíveis status de um feed:
 
 | Status | Descrição |
 |--- |--- |
-| [!UICONTROL Syncing] | Os detalhes de configuração do feed estão sendo salvos em [!DNL Target]. |
-| [!UICONTROL Sync Failed] | Os detalhes de configuração do feed não puderam ser salvos em [!DNL Target]. Tente novamente. |
-| [!UICONTROL No Feed Run] | Você criou um feed, mas ele não foi agendado (a frequência está definida como Nunca). |
+| [!UICONTROL Sincronizando] | Os detalhes de configuração do feed estão sendo salvos em [!DNL Target]. |
+| [!UICONTROL Falha na sincronização] | Os detalhes de configuração do feed não puderam ser salvos em [!DNL Target]. Tente novamente. |
+| [!UICONTROL Nenhum feed executado] | Você criou um feed, mas ele não foi agendado (a frequência está definida como Nunca). |
 | Agendado na *data e hora* | O feed não foi executado, mas está agendado para execução na data e hora especificada. |
-| [!UICONTROL Waiting for Download] | [!DNL Target] está se preparando para baixar o arquivo de feed. |
-| [!UICONTROL Downloading Feed File] | [!DNL Target] está baixando o arquivo de feed. |
-| [!UICONTROL Importing Items] | [!DNL Target] está importando itens do arquivo de feed. |
-| Feed importado com êxito no *momento* | [!DNL Target] importou o arquivo de feed para o sistema de entrega de conteúdo. Os atributos do item foram alterados no sistema de entrega de conteúdo e serão refletidos em breve nas recomendações entregues. Se você não vir as alterações esperadas, tente novamente e atualize a página que contém as recomendações.<br>Observações:<ul><li>Se as alterações nos atributos de um item resultarem na exclusão de um item das recomendações, a exclusão será refletida imediatamente. Se um item for recém-adicionado ou se as alterações nos atributos resultarem na exclusão de um item *não mais* das recomendações, isso não será refletido até a atualização do próximo algoritmo, que ocorre em 24 horas.</li><li>Quando esse status é exibido, as atualizações podem ainda não ser refletidas na interface do usuário do [!UICONTROL Catalog Search]. Um status separado está listado em [!UICONTROL Catalog Search], indicando a última vez que o catálogo pesquisável foi atualizado.</li></ul> |
+| [!UICONTROL Aguardando o download] | [!DNL Target] está se preparando para baixar o arquivo de feed. |
+| [!UICONTROL Baixando Arquivo de Feed] | [!DNL Target] está baixando o arquivo de feed. |
+| [!UICONTROL Importando itens] | [!DNL Target] está importando itens do arquivo de feed. |
+| Feed importado com êxito no *momento* | [!DNL Target] importou o arquivo de feed para o sistema de entrega de conteúdo. Os atributos do item foram alterados no sistema de entrega de conteúdo e serão refletidos em breve nas recomendações entregues. Se você não vir as alterações esperadas, tente novamente e atualize a página que contém as recomendações.<br>Observações:<ul><li>Se as alterações nos atributos de um item resultarem na exclusão de um item das recomendações, a exclusão será refletida imediatamente. Se um item for recém-adicionado ou se as alterações nos atributos resultarem na exclusão de um item *não mais* das recomendações, isso não será refletido até a atualização do próximo algoritmo, que ocorre em 24 horas.</li><li>Quando este status é exibido, as atualizações podem ainda não ser refletidas na interface do usuário da [!UICONTROL Pesquisa no catálogo]. Um status separado está listado em [!UICONTROL Pesquisa no Catálogo], indicando a última vez que o catálogo pesquisável foi atualizado.</li></ul> |
 | Falha na importação parcial | Anteriormente, quando todas as linhas não eram carregadas, o feed ainda era marcado como bem-sucedido. Assim, criar uma falsa impressão de que todas as linhas foram carregadas, pois o feed foi mostrado como bem-sucedido.<P>Este é um cenário do por que você pode encontrar uma importação parcial de feed:<ul><li>Você carregou um arquivo de feed para o ambiente de produção, por exemplo, 100 linhas.</li><li>O feed executou e carregou 80 dessas linhas e descartou 20 linhas devido à formatação incorreta, o campo excedeu os caracteres e assim por diante.</li><li>O feed foi marcado como sucesso na interface do usuário, dando a impressão de que todas as 100 linhas foram carregadas.</li><li>Você está esperando alguns desses 20 produtos no delivery de uma atividade, mas isso não está acontecendo.</li><li> Você está intrigado neste momento porque carregou o feed que tem os detalhes do produto para os produtos em questão. Você não o vê no back-end ao consultar por meio da API da entidade, que informa que não está no back-end.</li></ul>Para remover essa confusão, a mensagem é aprimorada para informar exatamente o que aconteceu com o feed. Em vez de marcá-la como um sucesso, ela agora é marcada como falha de importação parcial. |
-| [!UICONTROL Failed to Index] | Ocorreu uma falha na operação de índice. Tente novamente. |
-| [!UICONTROL Server Not Found] | Locais de FTP ou URL inválidos ou não acessíveis. |
+| [!UICONTROL Falha ao indexar] | Ocorreu uma falha na operação de índice. Tente novamente. |
+| [!UICONTROL Servidor Não Encontrado] | Locais de FTP ou URL inválidos ou não acessíveis. |
 
-Para atualizar um feed (por exemplo, para fazer alterações na sua configuração de feed ou arquivo de feed), abra o feed, faça qualquer alteração desejada e clique em **[!UICONTROL Save]**.
+Para atualizar um feed (por exemplo, para fazer alterações na sua configuração de feed ou arquivo de feed), abra o feed, faça qualquer alteração desejada e clique em **[!UICONTROL Salvar]**.
 
 >[!IMPORTANT]
 >
@@ -318,7 +314,7 @@ Para atualizar um feed (por exemplo, para fazer alterações na sua configuraç�
 
 ### Indicadores de status do feed {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
-Os seguintes indicadores de status do feed são exibidos na coluna [!UICONTROL Status]:
+O indicadores de status do feed a seguir são exibidos na coluna [!UICONTROL Status]:
 
 | Indicador de status | Descrição |
 |--- |--- |
@@ -354,7 +350,7 @@ Este vídeo contém as seguintes informações:
 * Entender a finalidade dos feeds
 * Entender o valor dos feeds
 
->[!VIDEO](https://video.tv.adobe.com/v/33963?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Criar um feed (6:44) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
@@ -363,4 +359,4 @@ Este vídeo contém as seguintes informações:
 * Configurar um feed
 * Saber qual tipo de feed usar
 
->[!VIDEO](https://video.tv.adobe.com/v/33962?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

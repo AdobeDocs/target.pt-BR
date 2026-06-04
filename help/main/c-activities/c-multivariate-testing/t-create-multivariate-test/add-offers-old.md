@@ -1,57 +1,57 @@
 ---
 keywords: mvt;teste multivariado;ofertas;combinações
-description: Saiba como usar o [!UICONTROL Visual Experience Composer] (VEC) no Adobe [!DNL Target] para criar as ofertas que deseja incluir no seu [!UICONTROL Multivariate Test] (MVT).
-title: Como criar combinações em um [!UICONTROL Multivariate Test] (MVT)?
+description: Saiba como usar o [!UICONTROL Visual Experience Composer] (VEC) no Adobe [!DNL Target] para criar as ofertas que você deseja incluir em seu [!UICONTROL Teste multivariado] (MVT).
+title: Como criar combinações em um [!UICONTROL Teste multivariado] (MVT)?
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 56%
+source-wordcount: '509'
+ht-degree: 60%
 
 ---
 
 # Criar combinações
 
-Use o [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] para criar as ofertas que deseja incluir no [!UICONTROL Multivariate Test] (MVT).
+Use o [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] para criar as ofertas que você deseja incluir em seu [!UICONTROL Teste multivariado] (MVT).
 
 Para obter mais informações sobre como usar o VEC para criar e editar ofertas, consulte [Opções do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 >[!NOTE]
 >
->Você pode clicar em **[!UICONTROL Expand Selection]** ao selecionar objetos na página para selecionar o elemento pai, além do elemento selecionado originalmente. Ao selecionar qualquer elemento pai, todos os filhos desse elemento serão selecionados automaticamente. Você pode expandir a seleção várias vezes.
+>Você pode clicar em **[!UICONTROL Expandir seleção]** ao selecionar objetos na página para selecionar o elemento pai, além do elemento selecionado originalmente. Ao selecionar qualquer elemento pai, todos os filhos desse elemento serão selecionados automaticamente. Você pode expandir a seleção várias vezes.
 >
 >Você também pode usar o [caminho DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) para navegar pelos elementos.
 
-## Ofertas de imagem  {#section_A48333211DB149ED926AE467D0032914}
+## Ofertas de imagem {#section_A48333211DB149ED926AE467D0032914}
 
 Teste várias ofertas de imagens dentro de um local para determinar qual imagem é mais bem sucedida.
 
-1. Clique em uma imagem na sua página e selecione **[!UICONTROL Change Image]**.
+1. Clique em uma imagem na página e selecione **[!UICONTROL Alterar imagem]**.
 
    ![Opção Alterar imagem](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
-1. Selecione todas as imagens que deseja incluir no teste e clique em **[!UICONTROL Save]**.
+1. Selecione todas as imagens que deseja incluir no teste e clique em **[!UICONTROL Salvar]**.
 
    ![Caixa de diálogo Selecionar conteúdo usada para adicionar imagens](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 
 Cada imagem se torna uma experiência separada nesse local.
 
-## Ofertas HTML  {#section_DF016101AFA9412C9B99862C23DE77B1}
+## Ofertas HTML {#section_DF016101AFA9412C9B99862C23DE77B1}
 
 Teste várias ofertas em Texto/HTML de um local para determinar qual é mais bem-sucedida.
 
-1. Clique em uma oferta em Texto/HTML na sua página e em **[!UICONTROL Change Text/HTML]**.
+1. Clique na oferta em Texto/HTML na sua página e em **[!UICONTROL Alterar Texto/HTML]**.
 
    ![Alterar texto/HTML](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
 
-1. Clique em **[!UICONTROL Add Text/HTML Offer]**, nomeie a oferta e digite ou cole o código para a oferta em Texto/HTML.
+1. Clique em **[!UICONTROL Adicionar oferta do Text/HTML]**, nomeie a oferta e digite ou cole o código para a oferta do Text/HTML.
 
    ![Editar ofertas](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
    Repita o procedimento para qualquer oferta em Texto/HTML adicional que queira incluir.
 
-1. Clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Salvar]**.
 
 Cada oferta em Texto/HTML se torna uma experiência separada nesse local.
 

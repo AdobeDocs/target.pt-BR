@@ -5,25 +5,13 @@ title: Onde posso encontrar dicas e truques para usar o Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 TQID: https://experienceleague.adobe.com/c7wWYsy-0l8BCAlmPxtqthYjD1R6CiCsHEBrTYCjOR0
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2960
+source-wordcount: 2891
 ht-degree: 73%
 
 ---
@@ -50,7 +38,7 @@ A combinação de públicos-alvo que vivem em diferentes soluções [!DNL Adobe 
 
 Consulte [Combinar vários públicos-alvos](/help/main/c-target/combining-multiple-audiences.md) para obter instruções passo a passo.
 
-**Informações importantes**: os públicos-alvo do [!DNL Adobe Audience Manager] estão disponíveis no [!DNL Target] automaticamente. Mas o compartilhamento de público-alvo do [!DNL Adobe Analytics] requer uma configuração manual. Marque a caixa denominada &quot;Transformar em público da Experience Cloud&quot; durante o processo de criação do público no [!DNL Analytics]. Em seguida, no [!DNL Target], clique em &quot;Importar públicos-alvo da Experience Cloud&quot;.
+**Informações importantes**: os públicos-alvo do [!DNL Adobe Audience Manager] estão disponíveis no [!DNL Target] automaticamente. Mas o compartilhamento de público-alvo do [!DNL Adobe Analytics] requer uma configuração manual. Marque a caixa denominada &quot;Transformar em público-alvo da Experience Cloud&quot; durante o processo de criação do público no [!DNL Analytics]. Em seguida, no [!DNL Target], clique em &quot;Importar públicos-alvo da Experience Cloud&quot;.
 
 ## Dica 3: exporte dados do [!DNL Target] para usar com ferramentas de terceiros.
 
@@ -168,7 +156,7 @@ Por exemplo, um cliente de serviços da área de saúde da Adobe demonstrou rece
 
 Um dos benefícios de configurar suas atividades para usar parâmetros de controle de qualidade é que você pode compartilhar esses links com todos em sua equipe. Você torna mais pessoas cientes da atividade e garante que elas não considerem que o site não está funcionando corretamente ao encontrar uma variante de teste.
 
-Depois de concluir os testes, informar sobre inicializações de campanha, resultados de testes e especialmente as lições aprendidas ajuda a gerar conscientização e interesse pelos resultados do teste. Compartilhar os resultados com todos na organização também evita o novo teste de uma hipótese, instrui todos sobre o que funciona e os ajuda a desafiar fundamentalmente suas próprias ideias sobre o que funciona com base no que foi descoberto. É uma boa ideia preparar um modelo que você usa sempre para compartilhar suas descobertas e aprendizados-chave.
+Após concluir os testes, informar sobre inicializações de campanha, resultados de testes e especialmente as lições aprendidas ajuda a gerar conscientização e interesse pelos resultados do teste. Compartilhar os resultados com todos na organização também evita o novo teste de uma hipótese, instrui todos sobre o que funciona e os ajuda a desafiar fundamentalmente suas próprias ideias sobre o que funciona com base no que foi descoberto. É uma boa ideia preparar um modelo que você usa sempre para compartilhar suas descobertas e aprendizados-chave.
 Em seguida, considere criar um livro compartilhável ou uma apresentação do Microsoft PowerPoint que capture cumulativamente esses aprendizados.
 
 ## Dica 20: aproveite a funcionalidade móvel para criar atividades móveis mais inovadoras.

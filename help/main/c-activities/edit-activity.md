@@ -5,16 +5,13 @@ title: Como editar uma atividade?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
 TQID: https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 978
-ht-degree: 22%
+source-wordcount: 1049
+ht-degree: 21%
 
 ---
 
@@ -24,33 +21,33 @@ Saiba como editar atividades existentes no [!DNL Adobe Target]. Este artigo abor
 
 O [!DNL Target] fornece vários locais na interface do usuário onde você pode editar atividades existentes. O processo varia dependendo do método escolhido.
 
-## Edite uma atividade usando o ícone de passar o mouse [!UICONTROL More Actions] na página Atividades {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Edite uma atividade usando o ícone de focalizar [!UICONTROL Mais Ações] na página Atividades {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. Na página **[!UICONTROL Activities]**, clique no ícone **[!UICONTROL More Actions]** ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmall.svg) ) ao lado da atividade que você deseja editar e clique em [!UICONTROL **Editar**].
+1. Na página **[!UICONTROL Atividades]**, clique no ícone **[!UICONTROL Mais Ações]** ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmall.svg) ) ao lado da atividade que você deseja editar e clique em [!UICONTROL **Editar**].
 
-   [!DNL Target] abre a atividade no [!UICONTROL Visual Experience Composer] (VEC) e você visualiza a página [!UICONTROL Experiences] (a primeira etapa do fluxo de trabalho guiado três etapas).
+   [!DNL Target] abre a atividade no [!UICONTROL Visual Experience Composer] (VEC) e você vê a página [!UICONTROL Experiências] (a primeira etapa do fluxo de trabalho guiado três etapas).
 
 1. Edite a atividade conforme desejado usando as [opções de VEC](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-1. Clique em **[!UICONTROL Next]** para avançar para a próxima etapa e, em seguida, faça as edições necessárias.
+1. Clique em **[!UICONTROL Avançar]** para avançar para a próxima etapa e, em seguida, faça as edições necessárias.
 
 1. Ao acessar a página **Metas e Configurações**, você terá as seguintes opções:
 
-   * **[!UICONTROL Save & Close]:** Clique em **[!UICONTROL Save and Close]** para salvar suas alterações e exibir a página [!UICONTROL Overview] da atividade.
-   * **Salvar:** Clique no ícone **[!UICONTROL More Actions]** ( ![Ícone Mais Ações](/help/main/assets/icons/MoreSmallListVert.svg) ) e selecione **[!UICONTROL Save]** para salvar suas alterações e permanecer no VEC, onde você pode continuar a fazer alterações. Aguarde a conclusão do salvamento para fazer novas alterações. O VEC é recarregado com as alterações atualizadas depois da conclusão do salvamento.
+   * **[!UICONTROL Salvar e fechar]:** Clique em **[!UICONTROL Salvar e fechar]** para salvar suas alterações e exibir a página [!UICONTROL Visão geral] da atividade.
+   * **Salvar:** Clique no ícone **[!UICONTROL Mais Ações]** ( ![Ícone Mais Ações](/help/main/assets/icons/MoreSmallListVert.svg) ) e selecione **[!UICONTROL Salvar]** para salvar suas alterações e permanecer no VEC, onde você pode continuar a fazer alterações. Aguarde a conclusão do salvamento para fazer novas alterações. O VEC é recarregado com as alterações atualizadas depois da conclusão do salvamento.
 
-## Edite uma atividade clicando no seu nome na página [!UICONTROL Activities] {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Edite uma atividade clicando no seu nome na página [!UICONTROL Atividades] {#section_176180DAD17E40CEA441903F39E0AA1C}
 
-1. Para evitar a necessidade de percorrer todo o fluxo de trabalho, clique na atividade desejada na página [!UICONTROL Activities] para abri-la, selecione uma opção na lista suspensa **[!UICONTROL Edit Activity]** e selecione a opção desejada.
+1. Para evitar a necessidade de percorrer todo o fluxo de trabalho, clique na atividade desejada na página [!UICONTROL Atividades] para abri-la, selecione uma opção na lista suspensa **[!UICONTROL Editar atividade]** e selecione a opção desejada.
 
-   * **Editar Experiências:** Leva você diretamente à página [!UICONTROL Experiences] (a primeira etapa do fluxo de trabalho guiado de três etapas).
-   * **Editar Direcionamento**: Leva você diretamente à página [!UICONTROL Targeting] (a segunda etapa do fluxo de trabalho guiado de três etapas).
-   * **[!UICONTROL Goals & Settings]**: Leva você diretamente à página [!UICONTROL Goals & Settings] (a terceira etapa do fluxo de trabalho guiado de três etapas).
+   * **Editar Experiências:** Leva você diretamente à página [!UICONTROL Experiências] (a primeira etapa do fluxo de trabalho guiado de três etapas).
+   * **Editar Direcionamento**: Leva você diretamente à página [!UICONTROL Direcionamento] (a segunda etapa do fluxo de trabalho guiado de três etapas).
+   * **[!UICONTROL Metas e configurações]**: Leva você diretamente à página [!UICONTROL Metas e configurações] (a terceira etapa do fluxo de trabalho guiado de três etapas).
 
 1. Faça as alterações desejadas e salve a atividade.
 
-   * **[!UICONTROL Save & Close]:** Clique em **[!UICONTROL Save and Close]** para salvar suas alterações e exibir a página [!UICONTROL Overview] da atividade.
-   * **Salvar:** Clique no ícone **[!UICONTROL More Actions]** ( ![Ícone Mais Ações](/help/main/assets/icons/MoreSmallListVert.svg) ) e selecione **[!UICONTROL Save]** para salvar suas alterações e permanecer no VEC, onde você pode continuar a fazer alterações. Aguarde a conclusão do salvamento para fazer novas alterações. O VEC é recarregado com as alterações atualizadas depois da conclusão do salvamento.
+   * **[!UICONTROL Salvar e fechar]:** Clique em **[!UICONTROL Salvar e fechar]** para salvar suas alterações e exibir a página [!UICONTROL Visão geral] da atividade.
+   * **Salvar:** Clique no ícone **[!UICONTROL Mais Ações]** ( ![Ícone Mais Ações](/help/main/assets/icons/MoreSmallListVert.svg) ) e selecione **[!UICONTROL Salvar]** para salvar suas alterações e permanecer no VEC, onde você pode continuar a fazer alterações. Aguarde a conclusão do salvamento para fazer novas alterações. O VEC é recarregado com as alterações atualizadas depois da conclusão do salvamento.
 
 ## Copiar/editar uma atividade ao usar espaços de trabalho {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
@@ -58,35 +55,35 @@ Um espaço de trabalho permite que uma organização atribua um conjunto especí
 
 >[!NOTE]
 >
->Os espaços de trabalho são parte da funcionalidade [!UICONTROL Properties and Permissions] disponível como parte da solução [!DNL Target Premium]. Não estão disponíveis no [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
+>Os espaços de trabalho são parte da funcionalidade [!UICONTROL Propriedades e Permissões], disponível como parte da solução [!DNL Target Premium]. Não estão disponíveis no [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
 
 Se você fizer parte de uma organização multinacional, poderá ter um espaço de trabalho para suas páginas da Web, propriedades ou sites na Europa e outro espaço de trabalho para suas páginas, propriedades ou sites da Web nos EUA. Se fizer parte de uma organização multimarcas, poderá ter um espaço de trabalho separado para cada uma de suas marcas.
 
 Para obter mais informações sobre espaços de trabalho e a funcionalidade Permissões de Usuário de Empresa, consulte [Permissões de Usuário de Empresa](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
-Se você tiver o [!UICONTROL Enterprise User Permissions] habilitado em seu ambiente, poderá copiar atividades para o mesmo espaço de trabalho ou para outro espaço de trabalho. Atualmente, não é possível mover uma atividade de um espaço de trabalho para outro. Para copiar uma atividade para outro espaço de trabalho, na página [!UICONTROL Activities], clique no ícone **[!UICONTROL More Actions]** ( ![ícone de Mais Ações](/help/main/assets/icons/MoreSmall.svg) ) ao lado da atividade que você deseja copiar e clique em [!UICONTROL **Copiar**].
+Se você tiver [!UICONTROL Permissões de Usuário da Empresa] habilitadas em seu ambiente, poderá copiar atividades para o mesmo espaço de trabalho ou para outro espaço de trabalho. Atualmente, não é possível mover uma atividade de um espaço de trabalho para outro. Para copiar uma atividade para outro espaço de trabalho, na página [!UICONTROL Atividades], clique no ícone **[!UICONTROL Mais Ações]** ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmall.svg) ) ao lado da atividade que você deseja copiar e clique em [!UICONTROL **Copiar**].
 
 Leve em consideração as seguintes informações ao usar a funcionalidade de copiar/editar com espaços de trabalho:
 
 * Se você copiar uma atividade no mesmo espaço de trabalho ou do espaço de trabalho padrão para um espaço de trabalho não padrão, o Assistente de atividade será aberto automaticamente. Em cópias entre espaços de trabalho, talvez você só precise atualizar as propriedades da atividade.
 * Quando uma atividade é copiada de um espaço de trabalho não padrão para outro espaço de trabalho (seja padrão ou não padrão), o Assistente de atividade é aberto e alguma entrada manual é necessária para concluir a configuração:
-   * **[!UICONTROL Properties]**: as propriedades podem diferir entre os espaços de trabalho. Essa situação pode acionar um aviso:
+   * **[!UICONTROL Propriedades]**: as propriedades podem diferir entre espaços de trabalho. Essa situação pode acionar um aviso:
 
-      * No [!UICONTROL Form-Based Experience Composer], os avisos são exibidos diretamente na interface do usuário para visibilidade imediata.
+      * No [!UICONTROL Experience Composer baseado em formulário], avisos são exibidos diretamente na interface do usuário para visibilidade imediata.
 
         ![Aviso de espaço de trabalho baseado em formulário](/help/main/c-activities/assets/form-based-warning.png)
 
-      * No VEC, os avisos ficam visíveis ao clicar em [!UICONTROL Configure] > [!UICONTROL Properties].
+      * No VEC, os avisos ficam visíveis ao clicar em [!UICONTROL Configurar] > [!UICONTROL Propriedades].
 
         ![vec-warning](/help/main/c-activities/assets/vec-warning.png)
 
-        Para resolver esse problema, clique em [!UICONTROL Add/Remove] para que somente as propriedades disponíveis no espaço de trabalho de destino sejam exibidas para seleção.
+        Para resolver esse problema, clique em [!UICONTROL Adicionar/Remover] para que somente as propriedades disponíveis no espaço de trabalho de destino sejam exibidas para seleção.
 
    * **Públicos-alvo e ofertas**: ao copiar uma atividade para um novo espaço de trabalho, todos os [!DNL Target] públicos-alvo e ofertas ad hoc associados do espaço de trabalho original são duplicados usando o formato: `<Entity Name> Copy <Date>` para [!DNL Target] públicos-alvo e para ofertas ad hoc `<Entity Name>`.
 
      Detalhes de comportamento:
 
-      * Públicos-alvo e ofertas copiados não aparecem nas listas [!UICONTROL Audiences] e [!UICONTROL Offers] até que a atividade seja salva e reaberta.
+      * Públicos-alvo e ofertas copiados não aparecem nas listas [!UICONTROL Públicos-alvo] e [!UICONTROL Ofertas] até que a atividade seja salva e reaberta.
       * Essas entidades não podem ser editadas imediatamente após a cópia. Os clientes podem ver conteúdo vazio no VEC para esses itens durante a sessão de edição inicial.
       * Os clientes podem substituir públicos-alvo ou ofertas copiadas por outros do espaço de trabalho de destino, se necessário.
 
@@ -100,20 +97,20 @@ Leve em consideração as seguintes informações ao usar a funcionalidade de co
 
 >[!NOTE]
 >
->Se o ambiente não tiver a funcionalidade [!UICONTROL Enterprise User Permissions] habilitada, todas as atividades serão abertas no modo de edição antes da cópia.
+>Se o ambiente não tiver a funcionalidade [!UICONTROL Permissões de usuário empresarial] habilitada, todas as atividades serão abertas no modo de edição antes da cópia.
 
 ## Salvar uma atividade no formato de rascunho {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-O recurso [!UICONTROL Save as Draft] não está mais disponível. Para obter mais informações, consulte *[!UICONTROL Status]* em [Aplicar filtros à lista de Atividades](/help/main/c-activities/activities.md#filters).
+O recurso [!UICONTROL Salvar como Rascunho] não está mais disponível. Para obter mais informações, consulte *[!UICONTROL Status]* em [Aplicar filtros à lista de Atividades](/help/main/c-activities/activities.md#filters).
 
 ## Trabalhar com as atividades herdadas criadas em [!DNL Recommendations Classic] {#classic}
 
-As atividades de exibição da lista [!UICONTROL Activities] criadas em várias fontes, incluindo [!DNL Recommendations Classic]. As seguintes ações estão disponíveis ao trabalhar com as atividades herdadas criadas em [!DNL Recommendations Classic]:
+As atividades de exibição da lista [!UICONTROL Atividades] criadas em várias fontes, incluindo [!DNL Recommendations Classic]. As seguintes ações estão disponíveis ao trabalhar com as atividades herdadas criadas em [!DNL Recommendations Classic]:
 
-* [!UICONTROL Activate]
-* [!UICONTROL Deactivate]
-* [!UICONTROL Archive]
-* [!UICONTROL Copy]
-* [!UICONTROL Delete]
+* [!UICONTROL Ativar]
+* [!UICONTROL Desativar]
+* [!UICONTROL Arquivar]
+* [!UICONTROL Copiar]
+* [!UICONTROL Excluir]
 
 Não é possível editar uma [!DNL Recommendations] atividade diretamente. Se você quiser editar a atividade, crie uma cópia da atividade usando [!DNL Target Premium] e depois salve a atividade recém-criada. Essa atividade recém-criada pode ser editada conforme necessário.

@@ -6,16 +6,16 @@ feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 68%
+source-wordcount: '482'
+ht-degree: 82%
 
 ---
 
 # Redirecionar para um URL
 
-Use a opção [!UICONTROL Redirect to URL] em [!DNL Adobe Target] quando quiser enviar o visitante para uma página diferente, em vez de mostrar o conteúdo na mesma página.
+Use a opção [!UICONTROL Redirecionar para URL] em [!DNL Adobe Target] quando desejar enviar o visitante para uma página diferente em vez de mostrar o conteúdo na mesma página.
 
-Você pode ter duas páginas completamente diferentes para testar, em vez de mudar apenas partes do conteúdo dentro de uma página. Nesse caso, o teste A/B compara a página A versus a página B. Configure uma campanha de testes A/B com duas experiências: uma apontando para a página A padrão e a outra redirecionando para a página B. No menu Ação de experiência, localizado ao clicar no rótulo da letra da experiência, escolha **[!UICONTROL Redirect to URL]** e especifique a URL da página B. A oferta é configurada para redirecionar o visitante para uma página diferente.
+Você pode ter duas páginas completamente diferentes para testar, em vez de mudar apenas partes do conteúdo dentro de uma página. Neste caso, o teste A/B compara a página A versus a página B. Configure uma campanha de testes A/B, com duas experiências: uma apontando para a página A padrão e a outra redirecionando para a página B. No menu Ação da experiência, localizado ao clicar no rótulo da letra da experiência, escolha **[!UICONTROL Redirecionar para URL]** e especifique o URL da página B. A oferta é configurada para redirecionar o visitante para uma página diferente.
 
 A oferta de redirecionamento executa um código JavaScript para redirecionar o navegador. Ela usa o método `window.location.replace();`, de forma que a página a partir da qual o visitante é redirecionado não é armazenada no histórico do navegador. Isso permite que o visitante consiga utilizar o botão Voltar de seu navegador.
 
@@ -26,7 +26,7 @@ Ofertas de redirecionamento possuem algumas limitações:
 
 >[!NOTE]
 >
->Se desejar passar o valor referenciador da página de aterrissagem, é recomendado usar uma oferta HTML em vez de uma oferta de redirecionamento.
+>Se desejar passar o valor referenciador da página de destino, é recomendado usar uma oferta HTML em vez de uma oferta de redirecionamento.
 
 Para criar uma oferta de redirecionamento:
 

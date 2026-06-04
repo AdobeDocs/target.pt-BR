@@ -5,15 +5,12 @@ title: Posso usar várias versões de experiência em uma atividade A/B?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 TQID: https://experienceleague.adobe.com/FleyH-u5cWI5vku9E4-RMWeIc95WgPy-VQ-eytxka18
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 602
+source-wordcount: 612
 ht-degree: 51%
 
 ---
@@ -40,9 +37,9 @@ Nesse caso, o que você precisa são versões geográficas específicas da exper
 
    Ao configurar a experiência que terá múltiplas versões, selecione o público-alvo para cada versão, conforme os passos a seguir.
 
-1. Selecione a experiência e clique em **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**.
+1. Selecione a experiência e clique em **[!UICONTROL Configurar]** > **[!UICONTROL Vários públicos-alvo]**.
 
-1. Clique no ícone **[!UICONTROL Add Audience]** ( ![Ícone Adicionar](/help/main/assets/icons/Add.svg) ) no painel [!UICONTROL Experience Audiences] e selecione o primeiro público-alvo que deseja direcionar. Repita para cada público-alvo.
+1. Clique no ícone **[!UICONTROL Adicionar público-alvo]** ( ![Ícone Adicionar](/help/main/assets/icons/Add.svg) ) no painel [!UICONTROL Públicos-alvo de experiência] e selecione o primeiro público-alvo que deseja direcionar. Repita para cada público-alvo.
 
    Se o público-alvo ainda não existir, clique em [Criar público-alvo](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) e configure-o.
 

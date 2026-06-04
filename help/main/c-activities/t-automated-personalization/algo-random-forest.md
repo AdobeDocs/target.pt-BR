@@ -1,30 +1,27 @@
 ---
 keywords: floresta aleatória;árvore de decisão;ap;Automated Personalization
-description: Saiba como o  [!DNL Adobe Target] usa o algoritmo Random Forest nas atividades [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target].
+description: Saiba como o  [!DNL Adobe Target] usa o algoritmo Random Forest nas atividades do [!UICONTROL Automated Personalization] (AP) e do [!UICONTROL Direcionamento automático].
 title: Como o  [!DNL Target] Usa o Algoritmo Random Forest?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 TQID: https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: 1458
 ht-degree: 40%
 
 ---
 
 # Algoritmo Random Forest
 
-O principal algoritmo de personalização usado nas atividades do (AP) e do [!DNL Auto-Target] é o Random Forest. Métodos de conjunto, como Random Forest, usam vários algoritmos de aprendizagem para obter um melhor desempenho preditivo do que poderia ser obtido a partir de qualquer um dos algoritmos de aprendizagem constituintes. O algoritmo Random Forest em [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] é um método de classificação ou regressão que opera através da construção de uma variedade de árvores de decisão quando está sendo treinado.
+O principal algoritmo de personalização usado nas atividades do (AP) e do [!DNL Auto-Target] é o Random Forest. Métodos de conjunto, como Random Forest, usam vários algoritmos de aprendizagem para obter um melhor desempenho preditivo do que poderia ser obtido a partir de qualquer um dos algoritmos de aprendizagem constituintes. O algoritmo Random Forest no [!UICONTROL Automated Personalization] e no [!UICONTROL Direcionamento automático] é um método de classificação ou regressão que opera através da construção de várias árvores de decisão quando está sendo treinado.
 
 Quando você pensa em estatísticas, um único modelo de regressão usado para prever um resultado pode vir à mente. A pesquisa mais recente em ciência de dados sugere que &quot;métodos conjuntos&quot;, em que vários modelos são criados a partir do mesmo conjunto de dados e depois combinados de forma inteligente, produzem melhores resultados do que a previsão baseada em um único modelo.
 
-O algoritmo Random Forest é o principal algoritmo de personalização subjacente usado em [!UICONTROL Automated Personalization] e [!UICONTROL Auto-Target] atividades. A Random Forest combina centenas de árvores de decisão para chegar a uma previsão melhor do que uma única árvore poderia fazer sozinha.
+O algoritmo Random Forest é o principal algoritmo de personalização subjacente usado nas atividades [!UICONTROL Automated Personalization] e [!UICONTROL Direcionamento automático]. A Random Forest combina centenas de árvores de decisão para chegar a uma previsão melhor do que uma única árvore poderia fazer sozinha.
 
 ## O que é uma árvore de decisão? {#section_7F5865D8064447F4856FED426243FDAC}
 
@@ -57,7 +54,7 @@ O exemplo resultaria na árvore abaixo:
 
 ### Como os modelos são criados
 
-O diagrama a seguir resume como os modelos são criados para as atividades de [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization]:
+O diagrama a seguir resume como os modelos são criados para as atividades de [!UICONTROL Direcionamento automático] e [!UICONTROL Automated Personalization]:
 
 ![imagem random_forest_flow](assets/random_forest_flow.png){width="650" zoomable="yes"}
 
@@ -67,7 +64,7 @@ O diagrama a seguir resume como os modelos são criados para as atividades de [!
 1. [!DNL Target] verifica se o modelo atende a uma pontuação de qualidade limite
 1. [!DNL Target] envia o modelo para produção para personalizar o tráfego futuro
 
-O [!DNL Target] usa dados coletados automaticamente e dados personalizados fornecidos por você para criar seus algoritmos de personalização. Esses modelos preveem a melhor experiência ou oferta para mostrar aos visitantes. Geralmente, um modelo é criado por experiência (se uma atividade [!UICONTROL Auto-Target]) ou por oferta (se uma atividade [!UICONTROL Automated Personalization]). [!DNL Target] então exibe a experiência ou oferta que produz a maior métrica de sucesso prevista (por exemplo, taxa de conversão). Esses modelos devem ser treinados em visitas aleatoriamente atendidas antes que possam ser usados para previsão. Como resultado, quando uma atividade é iniciada pela primeira vez, até mesmo os visitantes que estão no grupo personalizado são apresentados aleatoriamente a diferentes experiências ou ofertas até que os algoritmos de personalização estejam prontos.
+O [!DNL Target] usa dados coletados automaticamente e dados personalizados fornecidos por você para criar seus algoritmos de personalização. Esses modelos preveem a melhor experiência ou oferta para mostrar aos visitantes. Geralmente, um modelo é criado por experiência (se uma atividade [!UICONTROL Direcionamento automático]) ou por oferta (se uma atividade [!UICONTROL Automated Personalization]). [!DNL Target] então exibe a experiência ou oferta que produz a maior métrica de sucesso prevista (por exemplo, taxa de conversão). Esses modelos devem ser treinados em visitas aleatoriamente atendidas antes que possam ser usados para previsão. Como resultado, quando uma atividade é iniciada pela primeira vez, até mesmo os visitantes que estão no grupo personalizado são apresentados aleatoriamente a diferentes experiências ou ofertas até que os algoritmos de personalização estejam prontos.
 
 Cada modelo deve ser validado para garantir que seja bom em prever o comportamento dos visitantes antes de ser usado na atividade. Os modelos são validados com base em sua Área sob a curva (AUC). Devido à necessidade de validação, o momento exato em que um modelo começa a fornecer experiências personalizadas depende dos detalhes dos dados. Na prática, e para fins de planejamento de tráfego, geralmente é necessário mais do que o número mínimo de conversões antes que cada modelo seja válido.
 

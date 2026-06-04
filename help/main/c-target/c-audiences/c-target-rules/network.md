@@ -5,16 +5,13 @@ title: Posso definir visitantes como alvo com base nas opções de rede?
 feature: Audiences
 exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
 TQID: https://experienceleague.adobe.com/x6w2aeBu4enUJGJOFRIMidl2RaXRf-ZEwUErbB95yrY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 500
-ht-degree: 68%
+source-wordcount: 507
+ht-degree: 69%
 
 ---
 
@@ -22,10 +19,10 @@ ht-degree: 68%
 
 Você pode criar públicos-alvo no [!DNL Adobe Target] com base nos detalhes da rede, como ISP, nome de domínio e velocidade de conexão.
 
-1. Na interface [!DNL Target], clique em **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Na interface [!DNL Target], clique em **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Criar público]**.
 1. Nomeie o público-alvo e adicione uma descrição opcional.
-1. Arraste e solte **[!UICONTROL Network]** no painel do audience builder.
-1. Clique em **[!UICONTROL Select]** e selecione uma das seguintes opções:
+1. Arraste e solte a **[!UICONTROL Rede]** no painel do construtor de público-alvo.
+1. Clique em **[!UICONTROL Selecionar]** e selecione uma destas opções:
 
    * **ISP:** ISP é uma empresa que fornece acesso a Internet para seus assinantes, normalmente com uma taxa mensal ou anual. Muitas ISPs fornecem serviços adicionais, como hospedagem na Web ou email. O campo ISP é de ISP comercial (como Comcast ou TimeWarner) ou outra entidade, como instituição comercial ou educacional.
 
@@ -59,9 +56,9 @@ Você pode criar públicos-alvo no [!DNL Adobe Target] com base nos detalhes da 
      Esse cambo baseia-se no tipo de conexão e não na velocidade real propriamente dita. O [!DNL Target] não pode determinar as velocidades de conexão exatas das conexões. O tipo de conexão de Banda larga é usado quando não há indicações de outros tipos de conexão, então um tipo específico não pode ser escolhido.
 
 1. (Opcional) Configure regras adicionais para o público-alvo.
-1. Clique em **[!UICONTROL Done]**.
+1. Clique em **[!UICONTROL Concluído]**.
 
-A ilustração a seguir mostra um público-alvo que direciona os visitantes que usam a AT&amp;T com velocidade de conexão de [!UICONTROL Mobile].
+A ilustração a seguir mostra um público-alvo que direciona os visitantes que usam a AT&amp;T com velocidade de conexão de [!UICONTROL Celular].
 
 ![Direcionamento de rede](assets/target_network.png)
 

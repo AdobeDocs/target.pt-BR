@@ -7,21 +7,13 @@ title: O que é o Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 TQID: https://experienceleague.adobe.com/Mr8fwY1FNfJShSezC50YX1QeBagmuovUySsQUO8jPqo
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 963
-ht-degree: 51%
+source-wordcount: 995
+ht-degree: 50%
 
 ---
 
@@ -41,11 +33,11 @@ As práticas recomendadas do setor estão integradas no [!DNL Target Standard], 
 
 [!BADGE Premium]{type=Positive}
 
-[!DNL Target Premium] é uma oferta avançada que requer uma licença para adicionar recursos premium ao [!DNL Target Standard]. Todos os artigos [!DNL Target Premium] nos guias [!DNL Target] incluem o símbolo [!UICONTROL Premium] na parte superior de cada página ou incorporados próximos ao texto afetado. O símbolo [!UICONTROL Premium] é clicável e vincula a esta seção.
+[!DNL Target Premium] é uma oferta avançada que requer uma licença para adicionar recursos premium ao [!DNL Target Standard]. Todos os artigos [!DNL Target Premium] nos guias [!DNL Target] incluem o selo [!UICONTROL Premium] na parte superior de cada página ou incorporados próximos ao texto afetado. A medalha [!UICONTROL Premium] é clicável e está vinculada a esta seção.
 
 **[!DNL Target Premium]inclui os seguintes recursos:**
 
-### [!UICONTROL Automated Personalization]
+### [!UICONTROL Personalização automatizada]
 
 A [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) usa algoritmos avançados de aprendizado automatizado para fornecer experiências personalizadas e melhorar as taxas de conversão para interações digitais.
 
@@ -53,13 +45,13 @@ A AP registra a atividade do visitante, criando perfis para direcionar conteúdo
 
 A AP é totalmente automatizada, aprendendo continuamente com o mínimo de análise humana. Ele cria modelos para determinar em quais produtos um visitante provavelmente está interessado, coletando e armazenando informações nos perfis do visitante. Vários algoritmos garantem o melhor modelo para o seu sistema.
 
-### [!UICONTROL Auto-Target]
+### [!UICONTROL Direcionamento automático]
 
-O [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) usa aprendizagem de máquina avançada para identificar experiências definidas pelo profissional de marketing com desempenho elevado. Em seguida, ele oferece a experiência mais personalizada para cada visitante com base em perfis de clientes individuais e no comportamento de visitantes anteriores com perfis semelhantes. O [!UICONTROL Auto-Target] ajuda a personalizar o conteúdo e a gerar conversões.
+O [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) usa aprendizagem de máquina avançada para identificar experiências definidas pelo profissional de marketing com desempenho elevado. Em seguida, ele oferece a experiência mais personalizada para cada visitante com base em perfis de clientes individuais e no comportamento de visitantes anteriores com perfis semelhantes. O [!UICONTROL Direcionamento automático] ajuda a personalizar o conteúdo e a gerar conversões.
 
 ### Recomendações
 
-As atividades do [Recomendações](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores. [!UICONTROL Recommendations] ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
+As atividades do [Recomendações](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores. O [!UICONTROL Recommendations] ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
 
 Uma recomendação determina como um produto é sugerido a um cliente, dependendo das atividades desse cliente no site. Por exemplo:
 
@@ -77,18 +69,18 @@ Uma recomendação determina como um produto é sugerido a um cliente, dependend
 
 ### Recomendações como oferta
 
-O [Recommendations como uma oferta](/help/main/c-recommendations/recommendations-as-an-offer.md) permite que você inclua recomendações em atividades do [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] e [!UICONTROL Experience Targeting] (XT).
+O [Recommendations como uma oferta](/help/main/c-recommendations/recommendations-as-an-offer.md) permite que você inclua recomendações nas atividades de [!UICONTROL Teste A/B], [!UICONTROL Alocação automática], [!UICONTROL Direcionamento automático] e [!UICONTROL Direcionamento de experiência] (XT).
 
 Essa funcionalidade permite capacidades nunca antes vistas, como:
 
 * Teste e direcione conteúdo de recomendações e não recomendações em uma mesma atividade.
 * Experimente com facilidade a colocação de recomendações na página, incluindo a ordem de várias recomendações.
-* Impulsione automaticamente o tráfego para a experiência do recommendations com melhor desempenho usando o [!UICONTROL Auto-Allocate].
-* Atribua de maneira dinâmica os visitantes a experiências de recomendação personalizadas com base em perfis individuais usando o [!UICONTROL Auto-Target].
+* Impulsione automaticamente o tráfego para a experiência do recommendations com melhor desempenho usando [!UICONTROL Alocação automática].
+* Atribua de maneira dinâmica os visitantes a experiências de recomendação personalizadas com base em perfis individuais usando o [!UICONTROL Direcionamento automático].
 
 ### Permissões de usuário empresarial
 
-A funcionalidade de [Permissões de usuário empresarial](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) permite que você crie projetos diferentes (chamados de &quot;Perfis de produto&quot; no [!DNL Adobe Admin Console for Enterprise]). O [!UICONTROL Enterprise User Permissions] permite que você atribua permissões diferentes para um único usuário que concede direitos de acesso para cada projeto. Esses projetos distintos podem ser comparados à maneira como os conjuntos de relatórios funcionam no [!DNL Adobe Analytics]. Cada projeto pode ter usuários específicos com funções específicas que se aplicam a um conjunto de propriedades. O resultado é que os clientes podem restringir o acesso de exibição, edição, aprovação e publicação aos usuários. Você pode restringir usuários com base na região, no ambiente (dev/estágio/prod), no canal ou em outros critérios personalizados.
+A funcionalidade de [Permissões de usuário empresarial](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) permite que você crie projetos diferentes (chamados de &quot;Perfis de produto&quot; no [!DNL Adobe Admin Console for Enterprise]). As [!UICONTROL Permissões de usuário empresarial] permitem que você atribua permissões diferentes para um único usuário que concede direitos de acesso para cada projeto. Esses projetos distintos podem ser comparados à maneira como os conjuntos de relatórios funcionam no [!DNL Adobe Analytics]. Cada projeto pode ter usuários específicos com funções específicas que se aplicam a um conjunto de propriedades. O resultado é que os clientes podem restringir o acesso de exibição, edição, aprovação e publicação aos usuários. Você pode restringir usuários com base na região, no ambiente (dev/estágio/prod), no canal ou em outros critérios personalizados.
 
 ## Recursos do Beta {#beta}
 
@@ -122,4 +114,4 @@ O vídeo a seguir explica os tipos de atividade disponíveis no [!DNL Target Sta
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/31290?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

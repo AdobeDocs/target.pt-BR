@@ -5,24 +5,20 @@ title: Como usar o relatório de desempenho da experiência para testes multivar
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 TQID: https://experienceleague.adobe.com/H9FsCRlv9l2tdooTn2KWjTRP84XR6lthSJZd59KtBbg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 326
-ht-degree: 72%
+source-wordcount: 331
+ht-degree: 71%
 
 ---
 
-# Relatório [!UICONTROL Experience Performance] (MVT)
+# Relatório de [!UICONTROL Desempenho da experiência] (MVT)
 
-O relatório [!UICONTROL Experience Performance] mostra como ocorre cada experiência da atividade. Esse relatório inclui informações sobre o número de participantes, a taxa de conversão, o aumento e a confiança.
+O relatório de [!UICONTROL Desempenho da experiência] mostra como ocorre cada experiência da atividade. Esse relatório inclui informações sobre o número de participantes, a taxa de conversão, o aumento e a confiança.
 
-Você pode selecionar uma ou mais experiências para compará-las. Clique em uma experiência e selecione **[!UICONTROL Preview]** para abrir a experiência em uma guia do navegador.
+Você pode selecionar uma ou mais experiências para compará-las. Clique em uma experiência e selecione **[!UICONTROL Visualizar]** para abrir a experiência em uma guia do navegador.
 
 A parte superior do relatório mostra a métrica, as datas inicial e final e o público-alvo usado no relatório. Você pode alterar qualquer um desses fatores.
 
@@ -44,4 +40,4 @@ Abaixo do gráfico, uma tabela mostra quantos participantes visualizaram cada ex
 
 Este vídeo mostra como criar um teste multivariado usando o fluxo de trabalho orientado de três etapas do Target. O relatório de Desempenho da Experiência é descrito a partir de 8:20.
 
->[!VIDEO](https://video.tv.adobe.com/v/30985?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

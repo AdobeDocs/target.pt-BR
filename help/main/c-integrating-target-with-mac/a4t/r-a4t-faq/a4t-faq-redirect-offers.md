@@ -5,22 +5,14 @@ title: Onde posso encontrar perguntas frequentes sobre ofertas de redirecionamen
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
 TQID: https://experienceleague.adobe.com/hB-Umhf7zuD0T13ArxfxId2JA1SAi7siLBdPQklWLmA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1455
-ht-degree: 51%
+source-wordcount: 1472
+ht-degree: 50%
 
 ---
 
@@ -49,10 +41,10 @@ Sim, o A4T via Platform Web SDK oferece suporte a [ofertas de redirecionamento](
 
 +++
 
-### O [!UICONTROL Visual Experience Composer] (VEC) e o [!UICONTROL Form-Based Experience Composer] são suportados?
+### O [!UICONTROL Visual Experience Composer] (VEC) e o [!UICONTROL Experience Composer baseado em formulário] são suportados?
 
 +++Resposta
-Sim, o [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) e o [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) terão suporte se você usar ofertas de redirecionamento integradas.
+Sim, o [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) e o [[!UICONTROL Experience Composer baseado em formulário]](/help/main/c-experiences/form-experience-composer.md) serão suportados se você usar ofertas de redirecionamento integradas.
 
 +++
 
@@ -123,7 +115,7 @@ Os seguintes parâmetros de cadeia de caracteres de consulta estão associados a
 
 | Parâmetro | Descrição |
 |--- |--- |
-| `adobe_mc_sdid` | O parâmetro `adobe_mc_sdid` passa a Id de Dados Suplementares (SDID) e a Id de Organização da Experience Cloud da página padrão para a nova página. Essas IDs permitem que o A4T &quot;junte&quot; a solicitação do Target na página padrão com a solicitação do Analytics na nova página.<br>O formato esperado para passar sdid na url (para aplicativos híbridos ou de um aplicativo para o site ou de um site para outro) é `ex. adobe_mc_sdid=SDID=123\|MCORGID=123456789@AdobeOrg\|TS=1498569322` |
+| `adobe_mc_sdid` | O parâmetro `adobe_mc_sdid` passa a Id de Dados Complementares (SDID) e a Id de Organização da Experience Cloud da página padrão para a nova página. Essas IDs permitem que o A4T &quot;junte&quot; a solicitação do Target na página padrão com a solicitação do Analytics na nova página.<br>O formato esperado para passar sdid na url (para aplicativos híbridos ou de um aplicativo para o site ou de um site para outro) é `ex. adobe_mc_sdid=SDID=123\|MCORGID=123456789@AdobeOrg\|TS=1498569322` |
 | `adobe_mc_ref` | O parâmetro `adobe_mc_ref` passa o URL de referência da página padrão para a página nova. Quando usado com a versão 2.1 (ou posterior) do AppMeasurement.js, o Analytics usa esse valor de parâmetro como o URL de referência na nova página. |
 
 Esses parâmetros são adicionados automaticamente aos URLs de redirecionamento ao usar as ofertas de redirecionamento integradas no VEC e no Experience Compose baseado em formulário quando o serviço de identificação do visitante está implementado na página. Se você estiver usando seu próprio código de redirecionamento personalizado no VEC ou no Compositor baseado em formulário, deve certificar-se de passar esses parâmetros com seu código personalizado.

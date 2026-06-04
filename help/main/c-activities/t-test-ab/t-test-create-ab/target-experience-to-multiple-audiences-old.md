@@ -6,8 +6,8 @@ feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 53%
+source-wordcount: '608'
+ht-degree: 51%
 
 ---
 
@@ -33,11 +33,11 @@ Nesse caso, o que você precisa são versões geográficas específicas da exper
 
    Ao configurar a experiência que terá múltiplas versões, selecione o público-alvo para cada versão, conforme os passos a seguir.
 
-1. Selecione a experiência e clique em **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. Selecione a experiência e clique em **[!UICONTROL Configurar]** > **[!UICONTROL Públicos-alvo]** > **[!UICONTROL Vários Públicos-alvo]**.
 
    ![Opção de Vários públicos-alvo](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. Clique em **[!UICONTROL Add Audience]** e selecione o primeiro público-alvo que deseja direcionar. Repita para cada público-alvo.
+1. Clique em **[!UICONTROL Adicionar público-alvo]** e selecione o primeiro público-alvo que deseja direcionar. Repita para cada público-alvo.
 
    ![imagem de versões de expressão](assets/exp-versions.png)
 

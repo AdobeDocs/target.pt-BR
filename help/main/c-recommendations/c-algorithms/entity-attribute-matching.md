@@ -2,17 +2,15 @@
 keywords: regras de inclusão;critérios de inclusão;recomendações;promoção;promoções;filtragem dinâmica;dinâmico;correspondência de atributos de entidade
 description: Saiba como filtrar dinamicamente no  [!DNL Target Recommendations]  comparando um pool de itens em potencial a um item específico com o qual o usuário interagiu.
 title: Como filtrar por Correspondência de atributos de entidade em atividades do Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 TQID: https://experienceleague.adobe.com/2cBSfWXS96u7iumehPd7enxPjQcebkQCdSBSHWOUcJg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 543
 ht-degree: 0%
 
 ---
@@ -33,7 +31,7 @@ Observe que você deve fornecer o `entity.brand` na mbox nessas páginas de ater
 
 ## Exemplos de Correspondência de atributos de entidade
 
-[!UICONTROL Entity Attribute Matching] permite que você recomende somente os itens correspondentes, por exemplo:
+[!UICONTROL A Correspondência de Atributos de Entidade] permite que você recomende apenas os itens correspondentes, por exemplo:
 
 * Um atributo do item que o usuário está visualizando no momento
 * O item exibido mais recentemente pelo usuário

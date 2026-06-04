@@ -5,7 +5,7 @@ hide: true
 exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Os Sinalizadores são a ferramenta certa sempre que você precisa controlar quem
 **Teste seletivo durante o desenvolvimento**
 Teste um recurso em relação à sua própria sessão, enquanto outros desenvolvedores continuam o trabalho sem serem afetados. Não é necessária uma ramificação de código complexa.
 
-**Implantação preparada com feedback do usuário**
+**Implantação em etapas com comentários do usuário**
 Libere um recurso primeiro para um pequeno grupo de usuários. Colete feedback, resolva problemas e expanda o público gradualmente antes de um lançamento completo.
 
 **Implantação gradual para produção**

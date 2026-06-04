@@ -1,25 +1,22 @@
 ---
 keywords: direcionamento de experiência; xt; métricas; definir métricas; métrica de objetivo; configurações de atividade; métrica de sucesso; conversão; receita; engajamento
-description: Saiba como especificar métricas em uma atividade  [!DNL Adobe Target] [!UICONTROL Experience Targeting] para determinar quando uma visita é bem-sucedida, como [!UICONTROL Conversion], [!UICONTROL Revenue] ou [!UICONTROL Engagement].
-title: Como definir métricas de meta em uma atividade [!UICONTROL Experience Targeting]?
+description: Saiba como especificar métricas em uma atividade de [!DNL Adobe Target] [!UICONTROL Direcionamento de experiência] para determinar quando uma visita é bem-sucedida, como [!UICONTROL Conversão], [!UICONTROL Receita] ou [!UICONTROL Envolvimento].
+title: Como definir métricas de meta em uma atividade de [!UICONTROL Direcionamento de experiência]?
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
 TQID: https://experienceleague.adobe.com/DRFhQ7plSdYqXdzodxFe8h22fSz9xZs9ATt5Ri2s6AA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 325
-ht-degree: 56%
+source-wordcount: 351
+ht-degree: 52%
 
 ---
 
-# Definir métricas em [!UICONTROL Experience Targeting] (XT) atividades
+# Definir métricas em [!UICONTROL Direcionamento de experiência] (XT)
 
-Use métricas em uma atividade [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) para determinar quando uma visita obtém sucesso.
+Use métricas em uma atividade de [!DNL Adobe Target] [!UICONTROL Direcionamento de experiência] (XT) para determinar quando uma visita obtém sucesso.
 
 Para obter informações detalhadas sobre métricas de sucesso, consulte [Métricas de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
@@ -28,25 +25,25 @@ Para obter informações detalhadas sobre métricas de sucesso, consulte [Métri
 
    ![Selecionar métrica de sucesso](/help/main/c-activities/t-experience-target/t-xt-create/assets/ab_metrics-new.png)
 
-   A página [!UICONTROL Select Metrics] lista as métricas de sucesso que você pode escolher para a sua atividade. As métricas de sucesso são divididas nas seguintes categorias:
+   A página [!UICONTROL Selecionar métricas] lista as métricas de sucesso que você pode escolher para a sua atividade. As métricas de sucesso são divididas nas seguintes categorias:
 
-   * [!UICONTROL Conversion]
-   * [!UICONTROL Revenue]
-   * [!UICONTROL Engagement]
+   * [!UICONTROL Conversão]
+   * [!UICONTROL Receita]
+   * [!UICONTROL Participação]
 
    Use qualquer uma das métricas de sucesso pré-criadas ou crie uma métrica de sucesso personalizada. Você também pode marcar uma métrica de sucesso como uma métrica principal. Cartões de relatórios e Experience Cloud mostram a primeira métrica por padrão, se alguma estiver definida.
 1. Especifique as configurações para suas métricas.
 
    As configurações disponíveis dependem da métrica de sucesso que você está usando.
 
-   Se estiver habilitado, o campo [!UICONTROL Estimated Value of the Conversion] (não disponível para métricas [!UICONTROL Page Score]) fornece um valor para a meta. Este valor permite que o [!DNL Target] calcule a estimativa de aumento da receita. Este campo é opcional, mas a receita incremental para qualquer métrica que não seja de receita não pode ser calculada sem ele. O tipo de dados é a moeda. Este campo é exibido progressivamente depois que o usuário indica a ação realizada para satisfazer o objetivo. Consulte [Aumento estimado na receita](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) para obter mais informações.
+   Se estiver habilitado, o campo [!UICONTROL Valor estimado de Conversão] (não disponível para métricas de [!UICONTROL Pontuação da página]) fornece um valor para a meta. Este valor permite que o [!DNL Target] calcule a estimativa de aumento da receita. Este campo é opcional, mas a receita incremental para qualquer métrica que não seja de receita não pode ser calculada sem ele. O tipo de dados é a moeda. Este campo é exibido progressivamente depois que o usuário indica a ação realizada para satisfazer o objetivo. Consulte [Aumento estimado na receita](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) para obter mais informações.
 
    A configuração correta das métricas de sucesso é essencial para garantir que você obtenha os dados que espera.
 
    Para obter mais informações, consulte [Métricas de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. (Opcional) Adicione condições adicionais.
-1. Clique em **[!UICONTROL Continue]** quando terminar de definir suas métricas.
+1. Clique em **[!UICONTROL Continuar]** quando terminar de definir suas métricas.
 
 Ao nomear ou renomear uma métrica, os seguintes caracteres não são permitidos:
 
@@ -66,7 +63,7 @@ Ao nomear ou renomear uma métrica, os seguintes caracteres não são permitidos
 Este vídeo inclui informações sobre trabalhar com métricas de sucesso.
 
 * Compreender métricas de &quot;meta&quot;
-* Entender e compilar métricas [!UICONTROL Conversion], [!UICONTROL Revenue] e [!UICONTROL Engagement]
+* Compreender e compilar métricas de [!UICONTROL Conversão], [!UICONTROL Receita] e [!UICONTROL Envolvimento]
 * Criar uma métrica de rastreamento de cliques
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

@@ -5,16 +5,12 @@ title: Onde posso encontrar a documentação e os recursos do  [!DNL Adobe Targe
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 TQID: https://experienceleague.adobe.com/68ZfYI2cTljrtoOwDja1bb3ZdZYMi-zOSPB7NgL3EbA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 510
+source-wordcount: 511
 ht-degree: 89%
 
 ---
@@ -40,5 +36,5 @@ Os seguintes guias e recursos estão disponíveis para o [!DNL Target]:
 | [Office Hours do atendimento ao cliente da Adobe](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Informações sobre o &quot;Office Hours&quot;, uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Essas sessões foram criadas para informar e ajudar os participantes a solucionar problemas e fornecer dicas e truques para obter sucesso com as soluções da [!DNL Adobe Experience Cloud], incluindo o [!DNL Target]. |
 | [Série de webinários de noções básicas do Target](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Informações de registro e links para sessões anteriores da Série de webinários de noções básicas do [!DNL Target], uma Série de webinários de sucesso do cliente disponibilizada para você pela Comunidade |
 
-Além dos recursos acima, visite a [Comunidade do Adobe Experience League Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=pt), em que é possível:
+Além dos recursos acima, visite a [Comunidade do Adobe Experience League Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), em que é possível:
 

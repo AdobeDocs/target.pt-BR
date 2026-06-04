@@ -1,42 +1,36 @@
 ---
 keywords: direcionamento automático; direcionamento; alocação de tráfego; perguntas frequentes; faq; solução de problemas; solucionar problemas; tráfego
-description: Explore tópicos de solução de problemas e perguntas frequentes sobre as atividades de [!UICONTROL Auto-Target].
-title: Como posso solucionar problemas de atividades do [!UICONTROL Auto-Target]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+description: Explore tópicos de solução de problemas e perguntas frequentes sobre as atividades de [!UICONTROL Direcionamento automático].
+title: Como Posso Solucionar Problemas De Atividades De [!UICONTROL Direcionamento Automático]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 TQID: https://experienceleague.adobe.com/LXOa1Ma0y8VbncCPN1Az33p-GDsd-bW-BDqJjSGbVQU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1874
-ht-degree: 32%
+source-wordcount: 1982
+ht-degree: 30%
 
 ---
 
-# [!UICONTROL Auto-Target] Perguntas frequentes e solução de problemas
+# Perguntas frequentes e solução de problemas do [!UICONTROL Direcionamento automático]
 
-Solução de problemas e perguntas frequentes sobre as atividades de [!UICONTROL Auto-Target] em [!DNL Adobe Target].
+Solução de problemas e perguntas frequentes sobre as atividades de [!UICONTROL Direcionamento automático] em [!DNL Adobe Target].
 
-## [!UICONTROL Auto-Target] Perguntas frequentes {#section_5C120A2B11D14D9BAF767BBAB50FED23}
+## Perguntas frequentes sobre [!UICONTROL Direcionamento automático] {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-Consulte as seguintes perguntas frequentes e respostas ao trabalhar com as atividades do [!UICONTROL Auto-Target]:
+Consulte as seguintes perguntas frequentes e respostas ao trabalhar com as atividades de [!UICONTROL Direcionamento automático]:
 
-### Quais são as práticas recomendadas para configurar uma atividade [!UICONTROL Auto-Target]?
+### Quais são as práticas recomendadas para configurar uma atividade de [!UICONTROL Direcionamento automático]?
 
 +++Resposta
-* Decida se o valor comercial de uma métrica de sucesso de [!UICONTROL Revenue per Visit] (RPV) vale pelos requisitos adicionais de tráfego. O RPV normalmente precisa de pelo menos 1.000 conversões por experiência para que uma atividade funcione em comparação com a conversão.
+* Decida se o valor comercial de uma métrica de sucesso de [!UICONTROL Receita por visita] (RPV) vale pelos requisitos adicionais de tráfego. O RPV normalmente precisa de pelo menos 1.000 conversões por experiência para que uma atividade funcione em comparação com a conversão.
 * Decida sobre a alocação entre controle e experiências personalizadas antes de iniciar a atividade com base em suas metas.
-* Determine se você tem tráfego suficiente para a página em que sua atividade do [!UICONTROL Auto-Target] é executada para modelos de personalização a serem criados em um período de tempo razoável.
+* Determine se você tem tráfego suficiente para a página em que sua atividade de [!UICONTROL Direcionamento automático] é executada para modelos de personalização a serem criados em um período de tempo razoável.
 * Se você estiver testando o algoritmo de personalização, não altere experiências nem adicione ou remova atributos de perfil enquanto a atividade estiver ativa.
-* Considere a conclusão de uma atividade A/B entre as ofertas e os locais que você planeja usar em sua atividade [!UICONTROL Auto-Target] para garantir que os locais e as ofertas tenham impacto na meta de otimização. Se uma atividade A/B não demonstrar uma diferença significativa, [!UICONTROL Auto-Target] provavelmente também não gerará aumento.
+* Considere a conclusão de uma atividade A/B entre as ofertas e os locais que você planeja usar em sua atividade de [!UICONTROL Direcionamento automático] para garantir que os locais e as ofertas tenham impacto na meta de otimização. Se uma atividade A/B não demonstrar uma diferença significativa, o [!UICONTROL Direcionamento automático] provavelmente também não gerará aumento.
 
   Se um teste A/B não mostra diferenças estatisticamente significativas entre as experiências, é provável que as ofertas que você está considerando não são suficientemente diferentes umas das outras, os locais selecionados não afetam a métrica de sucesso ou a meta de otimização está muito distante no funil de conversão a ser afetado pelas ofertas escolhidas.
 
@@ -44,7 +38,7 @@ Consulte as seguintes perguntas frequentes e respostas ao trabalhar com as ativi
 
 +++
 
-### [!UICONTROL Adobe] que você recomenda usar [!UICONTROL Auto Target] com uma divisão de 90(Controle)/10(Direcionado) até que os modelos sejam compilados?
+### O [!UICONTROL Adobe] que você recomenda usar o [!UICONTROL Direcionamento automático] com uma divisão de 90(Controle)/10(Direcionado) até que os modelos sejam criados?
 
 +++Resposta 
 A divisão de alocação de tráfego ideal depende do que você deseja realizar.
@@ -61,17 +55,17 @@ No, check marks for model generation show only the models built to date. There's
 
 +++
 
-### Se um visitante **não** vir a atividade [!UICONTROL Auto-Target] e converter, a conversão conta em minha atividade?
+### Se um visitante **não** vir a atividade [!UICONTROL Direcionamento automático] e converter, a conversão conta em minha atividade?
 
 +++Resposta
-Não, apenas os visitantes qualificados para exibir a atividade [!UICONTROL Auto-Target] são contados nos relatórios.
+Não, apenas os visitantes qualificados para exibir a atividade [!UICONTROL Direcionamento automático] são contados nos relatórios.
 
 +++
 
-### Por que minha atividade [!UICONTROL Auto-Target] não parece estar gerando nenhum aumento?
+### Por que minha atividade [!UICONTROL Direcionamento automático] não parece estar gerando nenhum aumento.
 
 +++Resposta
-Há quatro fatores necessários para uma atividade [!UICONTROL Auto-Target] gerar aumento:
+Há quatro fatores necessários para uma atividade de [!UICONTROL Direcionamento automático] gerar aumento:
 
 * As ofertas devem ser diferentes o suficiente para influenciar os visitantes.
 * As ofertas devem estar localizadas em algum lugar que faça diferença para a meta de otimização.
@@ -84,26 +78,26 @@ Se os resultados de um teste A/B mostram um aumento estatisticamente significati
 
 +++
 
-### Quando devo interromper minha atividade [!UICONTROL Auto-Target]?
+### Quando devo interromper minha atividade de [!UICONTROL Direcionamento automático]?
 
 +++Resposta
-[!UICONTROL Auto-Target] pode ser usado como personalização &quot;sempre ativa&quot; que otimiza constantemente. Especialmente para conteúdo permanente, não há necessidade de interromper sua atividade [!UICONTROL Auto-Target].
+O [!UICONTROL Direcionamento automático] pode ser usado como uma personalização &quot;sempre ativa&quot; que otimiza constantemente. Especialmente para conteúdo permanente, não há necessidade de interromper sua atividade de [!UICONTROL Direcionamento automático].
 
-Se você quiser fazer alterações substanciais no conteúdo em sua atividade [!UICONTROL Auto-Target], a prática recomendada é iniciar uma nova atividade para que outros usuários que revisem relatórios não confundam ou relacionem resultados anteriores com conteúdo diferente.
+Se você quiser fazer alterações substanciais no conteúdo em sua atividade de [!UICONTROL Direcionamento automático], a prática recomendada é iniciar uma nova atividade para que outros usuários que revisem relatórios não confundam ou relacionem resultados anteriores com conteúdo diferente.
 
 +++
 
 ### Por quanto tempo devo esperar que os modelos sejam construídos? {#how-long}
 
 +++Resposta
-O tempo que leva para os modelos serem construídos em sua atividade [!UICONTROL Auto-Target] normalmente depende do tráfego para as localizações de atividades selecionadas e as taxas de conversão associadas à métrica de sucesso da atividade.
+O tempo que leva para os modelos serem construídos em sua atividade de [!UICONTROL Direcionamento automático] normalmente depende do tráfego para as localizações de atividades selecionadas e as taxas de conversão associadas à métrica de sucesso da atividade.
 
-O [!UICONTROL Auto-Target] não tenta criar um modelo personalizado para uma determinada experiência até que haja pelo menos 50 conversões para ela. Além disso, se o modelo criado for de qualidade insuficiente (conforme determinado pela avaliação offline dos dados de &quot;teste&quot; em espera, usando [uma métrica conhecida como AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), o modelo não será usado para veicular o tráfego de maneira personalizada.
+O [!UICONTROL Direcionamento automático] não tenta criar um modelo personalizado para uma determinada experiência até que haja pelo menos 50 conversões para ela. Além disso, se o modelo criado for de qualidade insuficiente (conforme determinado pela avaliação offline dos dados de &quot;teste&quot; em espera, usando [uma métrica conhecida como AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), o modelo não será usado para veicular o tráfego de maneira personalizada.
 
-Alguns outros pontos para ter em mente sobre a construção de modelos de [!UICONTROL Auto-Target]:
+Alguns outros pontos para ter em mente sobre a construção de modelo do [!UICONTROL Direcionamento automático]:
 
-* Depois que uma atividade está ativa, o [!UICONTROL Auto-Target] considera até os últimos 45 dias de dados fornecidos aleatoriamente ao tentar criar modelos. Por exemplo, controlar o tráfego, além de alguns dados adicionais fornecidos aleatoriamente e retidos pelo algoritmo.
-* Quando [!UICONTROL Revenue per Visit] é sua métrica de sucesso, essas atividades normalmente exigem mais dados para criar modelos devido à maior variação de dados que normalmente existe na receita de visitas em comparação com a taxa de conversão.
+* Depois que uma atividade está ativa, o [!UICONTROL Direcionamento automático] considera até os últimos 45 dias de dados fornecidos aleatoriamente ao tentar criar modelos. Por exemplo, controlar o tráfego, além de alguns dados adicionais fornecidos aleatoriamente e retidos pelo algoritmo.
+* Quando [!UICONTROL Receita por visita] é sua métrica de sucesso, essas atividades normalmente exigem mais dados para criar modelos devido à maior variação de dados que normalmente existe na receita de visitas em comparação com a taxa de conversão.
 * Como os modelos são criados com base na experiência, a substituição de uma experiência por outra significa que o tráfego suficiente (pelo menos 50 conversões) deve ser coletado para a nova experiência antes que os modelos personalizados possam ser recriados.
 
 +++
@@ -115,10 +109,10 @@ Não, deve haver pelo menos dois modelos construídos em sua atividade para que 
 
 +++
 
-### Quando posso ver os resultados da minha atividade [!UICONTROL Auto-Target]?
+### Quando posso ver os resultados da minha atividade [!UICONTROL de Direcionamento automático]?
 
 +++Resposta
-Você pode começar a ver os resultados do teste do [!UICONTROL Auto-Target] depois de ter pelo menos duas experiências com modelos construídos (marca de seleção verde) para a experiência que os modelos construíram.
+Você pode começar a ver os resultados do seu teste de [!UICONTROL Direcionamento automático] depois de ter pelo menos duas experiências com modelos construídos (marca de seleção verde) para a experiência que os modelos construíram.
 
 +++
 
@@ -133,62 +127,62 @@ Para obter mais informações, consulte [Usar uma experiência específica como 
 
 +++
 
-### Posso alterar a métrica de meta durante uma atividade de [!UICONTROL Auto-Target]? {#change-metric}
+### Posso alterar a métrica de meta durante uma atividade de [!UICONTROL Direcionamento automático]? {#change-metric}
 
 +++Resposta
 A Adobe não recomenda alterar a métrica de meta durante uma atividade. Embora seja possível alterar a métrica de meta durante uma atividade utilizando a interface do usuário [!DNL Target], você sempre deve iniciar uma nova atividade. A Adobe não garante o que acontece se você alterar a métrica de meta em uma atividade após sua execução.
 
-Esta recomendação se aplica às atividades de [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization] que usam [!DNL Target] ou [!DNL Analytics] (A4T) como fonte de relatórios.
+Esta recomendação se aplica às atividades de [!UICONTROL Alocação Automática], [!UICONTROL Direcionamento Automático] e [!UICONTROL Automated Personalization] que usam [!DNL Target] ou [!DNL Analytics] (A4T) como fonte de relatórios.
 
 +++
 
-### Posso usar a opção [!UICONTROL Reset Report Data] ao executar uma atividade [!UICONTROL Auto-Target]?
+### Posso usar a opção [!UICONTROL Redefinir dados de relatório] ao executar uma atividade [!UICONTROL de Direcionamento automático]?
 
 +++Resposta
-Não é sugerido usar a opção [!UICONTROL Reset Report Data] para atividades de [!UICONTROL Auto-Target]. Embora ela remova os dados do relatório visíveis, essa opção não remove todos os registros de treinamento do modelo [!UICONTROL Auto-Target]. Em vez de usar a opção [!UICONTROL Reset Report Data] para atividades [!UICONTROL Auto-Target], crie uma nova atividade e desative a original.
+Não é sugerido usar a opção [!UICONTROL Redefinir Dados de Relatório] para atividades de [!UICONTROL Direcionamento Automático]. Embora ela remova os dados do relatório visíveis, essa opção não remove todos os registros de treinamento do modelo [!UICONTROL Direcionamento automático]. Em vez de usar a opção [!UICONTROL Redefinir Dados de Relatório] para atividades de [!UICONTROL Direcionamento Automático], crie uma nova atividade e desative a original.
 
-Esta orientação também se aplica às atividades [!UICONTROL Auto-Allocate] e [!UICONTROL Automated Personalization].
+Esta orientação também se aplica às atividades de [!UICONTROL Alocação automática] e [!UICONTROL Automated Personalization].
 
 +++
 
-### O que acontece se eu remover uma única experiência de uma atividade [!UICONTROL Auto-Target]?
+### O que acontece se eu remover uma única experiência de uma atividade de [!UICONTROL Direcionamento automático]?
 
 +++Resposta
 O [!DNL Target] cria um modelo por experiência, portanto, remover uma experiência significa que o [!DNL Target] cria um modelo a menos e não afeta os modelos para as outras experiências.
 
-Por exemplo, suponha que você tenha uma atividade [!UICONTROL Auto-Target] com oito experiências e não goste do desempenho de uma experiência. Você pode remover essa experiência e ela não afeta os modelos das sete restantes.
+Por exemplo, suponha que você tenha uma atividade [!UICONTROL de Direcionamento automático] com oito experiências e não goste do desempenho de uma experiência. Você pode remover essa experiência e ela não afeta os modelos das sete restantes.
 
 +++
 
-## Solução de problemas [!UICONTROL Auto-Target] {#section_23995AB813F24525AF294D20A20875C8}
+## Solução de problemas do [!UICONTROL Direcionamento automático] {#section_23995AB813F24525AF294D20A20875C8}
 
-Às vezes, as atividades não acontecem como o esperado. Estes são alguns possíveis desafios que você poderá enfrentar ao usar o [!UICONTROL Auto-Target] e algumas soluções sugeridas.
+Às vezes, as atividades não acontecem como o esperado. Estes são alguns possíveis desafios que você poderá enfrentar ao usar o [!UICONTROL Direcionamento automático] e algumas soluções sugeridas.
 
-### Minha atividade [!UICONTROL Auto-Target] está demorando muito para criar modelos.
+### Minha atividade de [!UICONTROL Direcionamento automático] está demorando muito para criar modelos.
 
 +++Sugestões de solução de problemas
-Há várias alterações de configuração de atividade que podem diminuir o tempo esperado para criar modelos, incluindo o número de experiências em sua atividade [!UICONTROL Auto-Target], o tráfego para seu site e sua métrica de sucesso selecionada.
+Há várias alterações de configuração de atividade que podem diminuir o tempo esperado para criar modelos, incluindo o número de experiências em sua atividade de [!UICONTROL Direcionamento automático], o tráfego para seu site e sua métrica de sucesso selecionada.
 
 **Solução:** revise sua configuração de atividade e veja se há alterações que você deseja fazer para melhorar a velocidade de criação dos modelos.
 
-* Se sua métrica de sucesso estiver definida como [!UICONTROL RPV], você poderá mudar para conversão? As atividades de conversão tendem a exigir menos tráfego para criar modelos. Você não perderá os dados da atividade se alterar a métrica de sucesso de RPV para conversão.
+* Se sua métrica de sucesso estiver definida como [!UICONTROL RPV], você poderá alterar para conversão? As atividades de conversão tendem a exigir menos tráfego para criar modelos. Você não perderá os dados da atividade se alterar a métrica de sucesso de RPV para conversão.
 * Sua métrica de sucesso está bem abaixo do funil de vendas de suas experiências de atividade? Uma taxa de conversão de atividade mais baixa aumenta os requisitos de tráfego necessários para a criação de modelos, pois é necessário um número mínimo de conversões.
 * Há algumas experiências que você pode abandonar em sua atividade? Diminuir o número de experiências em uma atividade diminui o tempo para criar modelos.
 * Existe uma página de tráfego mais alto onde essa atividade seria mais bem-sucedida? Quanto mais tráfego e conversões houver nos locais de atividade, mais rápido será a criação de modelos.
 
 +++
 
-### Minha atividade [!UICONTROL Auto-Target] não está gerando nenhum aumento.
+### Minha atividade [!UICONTROL de Direcionamento automático] não está gerando nenhum aumento.
 
 +++Sugestões de solução de problemas
-Há quatro fatores necessários para uma atividade [!UICONTROL Auto-Target] gerar aumento:
+Há quatro fatores necessários para uma atividade de [!UICONTROL Direcionamento automático] gerar aumento:
 
 * As ofertas devem ser diferentes o suficiente para influenciar os visitantes.
 * As ofertas devem estar localizadas em algum lugar que faça diferença para a meta de otimização.
 * Deve haver tráfego e &quot;potência&quot; estatística suficiente no teste para detectar o aumento.
 * O algoritmo de personalização deve funcionar corretamente.
 
-**Solução:** primeiro, verifique se sua atividade está personalizando o tráfego. Se os modelos não são criados para todas as experiências, sua atividade [!UICONTROL Auto-Target] ainda estará apresentando aleatoriamente uma parte significativa das visitas para tentar criar todos os modelos o mais rápido possível. Se os modelos não forem criados, [!UICONTROL Auto-Target] não está personalizando o tráfego.
+**Solução:** primeiro, verifique se sua atividade está personalizando o tráfego. Se os modelos não são criados para todas as experiências, sua atividade de [!UICONTROL Direcionamento automático] ainda estará apresentando aleatoriamente uma parte significativa das visitas para tentar criar todos os modelos o mais rápido possível. Se os modelos não forem criados, o [!UICONTROL Direcionamento automático] não está personalizando o tráfego.
 
 Em seguida, verifique se as ofertas e os locais de atividade realmente fazem diferença nas taxas de resposta geral usando um teste A/B simples e não personalizado. Certifique-se de calcular os tamanhos das amostras antecipadamente para garantir que haja energia suficiente para ver um aumento razoável e executar o teste A/B por um período fixo sem interrompê-lo ou fazer quaisquer alterações. Se os resultados de um teste A/B mostrarem um aumento estatisticamente significativo em uma ou mais experiências, será provável que uma atividade personalizada funcione. O Personalization pode funcionar mesmo se não houver diferenças nas taxas de resposta geral das experiências. Normalmente, o problema decorre das ofertas e dos locais que não têm um impacto grande o suficiente na meta de otimização para serem detectados com significância estatística.
 
@@ -199,7 +193,7 @@ Em seguida, verifique se as ofertas e os locais de atividade realmente fazem dif
 +++Sugestões de solução de problemas
 Isso é esperado.
 
-Em uma atividade [!UICONTROL Auto-Target], depois que uma métrica de conversão (objetivo de otimização ou de postagem) é convertida, o usuário é liberado da experiência e a atividade é reiniciada.
+Em uma atividade de [!UICONTROL Direcionamento automático], depois que uma métrica de conversão (objetivo de otimização ou de postagem) é convertida, o usuário é liberado da experiência e a atividade é reiniciada.
 
 Por exemplo, há uma atividade com uma métrica de conversão (C1) e uma métrica adicional (A1). A1 depende de C1. Quando um visitante entra na atividade pela primeira vez, e os critérios de conversão de A1 e C1 não são convertidos, a métrica A1 não é convertida por depender da métrica de sucesso. Se o visitante converter C1 e depois converter A1, A1 ainda não será convertido porque quando C1 é convertido, o visitante é liberado.
 

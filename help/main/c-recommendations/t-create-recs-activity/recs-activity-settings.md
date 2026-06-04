@@ -2,22 +2,17 @@
 keywords: Recomendações, Configurações, nome, objetivo, prioridade, duração, configurações de relatórios, outros metadados
 description: Saiba como definir as configurações usadas para descrever e controlar uma atividade do Recommendations no Adobe Target.
 title: Como Definir As Configurações De Atividade Do Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 TQID: https://experienceleague.adobe.com/pfMAvl6MmLCtH3PZfOR4Ve-WFIc3e2iN2Bh-cIzjeC0
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 598
-ht-degree: 42%
+source-wordcount: 608
+ht-degree: 44%
 
 ---
 
@@ -25,11 +20,11 @@ ht-degree: 42%
 
 Informações sobre as configurações que você pode usar para descrever e controlar uma atividade do [!UICONTROL Recommendations] no [!DNL Adobe Target].
 
-As seções a seguir descrevem as configurações disponíveis para uma atividade [!UICONTROL Recommendations].
+As seções a seguir descrevem as configurações disponíveis para uma atividade do [!UICONTROL Recommendations].
 
 ## Nome
 
-Clique no ícone Mais Ações ( ![Ícone Mais Ações](/help/main/assets/icons/MoreSmallListVert.svg) ) e em **[!UICONTROL Rename]** para fornecer um nome descritivo que ajudará você e sua equipe a identificarem a atividade.
+Clique no ícone Mais Ações ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmallListVert.svg) ) e em **[!UICONTROL Renomear]** para fornecer um nome descritivo que ajudará você e sua equipe a identificarem a atividade.
 
 Os seguintes caracteres não são permitidos em um nome de atividade:
 
@@ -42,7 +37,7 @@ Os seguintes caracteres não são permitidos em um nome de atividade:
 `-`
 `@`
 
-Se você especificar um nome de atividade [!UICONTROL Recommendations] que já existe para outra atividade em [!UICONTROL Recommendations Classic], a nova atividade será ressincronizada com um novo nome. O novo nome é o nome original anexado com um carimbo de data e hora que o torna exclusivo. O novo nome é exibido no [!DNL Target Standard/Premium] e no [!UICONTROL Recommendations Classic].
+Se especificar um nome de atividade do [!UICONTROL Recommendations] que já existe para outra atividade no [!UICONTROL Recommendations Classic], a nova atividade será ressincronizada com um novo nome. O novo nome é o nome original anexado com um carimbo de data e hora que o torna único. Este novo nome é exibido no [!DNL Target Standard/Premium] e no [!UICONTROL Recommendations Classic].
 
 ## Objetivo
 
@@ -76,7 +71,7 @@ A atividade pode começar quando aprovada ou você pode definir data e hora espe
 
   Ao selecionar [!DNL Analytics] como fonte de relatórios para [!DNL Target] (A4T), você seleciona um conjunto de relatórios [!DNL Analytics] para receber dados de atividade de [!DNL Target]. Para fazer isso, primeiro escolha uma das [!DNL Analytics] empresas vinculadas à sua conta e, em seguida, selecione o conjunto de relatórios apropriado para a atividade. Somente conjuntos de relatórios provisionados para conexão com [!DNL Target] estão disponíveis para seleção. Se você não vir o conjunto de relatórios esperado, primeiro tente fazer logoff e depois fazer logon novamente no [!DNL Adobe Experience Cloud] para tentar novamente. Se o conjunto de relatórios ainda estiver ausente na lista, contate o [Atendimento ao cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-  O [!DNL Analytics for Target] (A4T) requer um servidor de rastreamento para relatar os resultados corretamente. Um servidor de rastreamento padrão é exibido no campo [!UICONTROL Tracking Server]. Se você usar mais de um servidor de rastreamento, inclua o servidor de rastreamento correto neste campo. Consulte [Usando um servidor de rastreamento do Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para obter mais informações.
+  O [!DNL Analytics for Target] (A4T) requer um servidor de rastreamento para relatar os resultados corretamente. Um servidor de rastreamento padrão é exibido no campo [!UICONTROL Servidor de rastreamento]. Se você usar mais de um servidor de rastreamento, inclua o servidor de rastreamento correto neste campo. Consulte [Usando um servidor de rastreamento do Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para obter mais informações.
 
   **[!DNL Adobe Customer Journey Analytics]**: Consulte [[!DNL Target] relatórios em [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) para obter mais informações sobre a integração entre [!DNL Adobe Customer Journey Analytics] e [!DNL Target].
 

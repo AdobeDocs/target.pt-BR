@@ -6,24 +6,24 @@ feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 35%
+source-wordcount: '947'
+ht-degree: 36%
 
 ---
 
 # Criar um teste A/B
 
-Use o [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] para criar sua atividade do [!UICONTROL A/B Test] diretamente em uma página habilitada para [!DNL Target] e modificar partes da página no [!DNL Target].
+Use o [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] para criar sua atividade de [!UICONTROL Teste A/B] diretamente em uma página habilitada para [!DNL Target] e modificar partes da página no [!DNL Target].
 
 >[!NOTE]
 >
->Além da atividade [!UICONTROL A/B Test] Manual (Padrão) (discutida neste artigo), [!DNL Target] fornece dois tipos adicionais de atividades [!UICONTROL A/B Test]: [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target].
+>Além da atividade Manual (Padrão) [!UICONTROL Teste A/B] (discutida neste artigo), [!DNL Target] fornece dois tipos adicionais de atividades de [!UICONTROL Teste A/B]: [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático].
 >
 >Consulte [Tipos de atividades de teste A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) na *Visão geral do teste A/B*.
 
-Para criar uma atividade manual [!UICONTROL A/B Test]:
+Para criar uma atividade manual de [!UICONTROL Teste A/B]:
 
-1. Na lista **[!UICONTROL Activities]**, clique em **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]**.
+1. Na lista **[!UICONTROL Atividades]**, clique em **[!UICONTROL Criar atividade]** > **[!UICONTROL Teste A/B]**.
 
    ![Lista suspensa Criar atividade](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_select-new.png)
 
@@ -33,27 +33,27 @@ Para criar uma atividade manual [!UICONTROL A/B Test]:
    >
    >Para obter informações sobre os vários tipos de atividades, consulte [Atividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) e o [Guia de atividades do Target](/help/main/c-activities/target-activities-guide.md).
 
-1. Na caixa de diálogo Criar atividade de teste A/B, selecione **[!UICONTROL Visual (Default)]**, se necessário.
+1. Na caixa de diálogo Criar atividade de teste A/B, selecione **[!UICONTROL Visual (Padrão)]**, se necessário.
 
-   Se preferir usar o [!UICONTROL Form-Based Experience Composer], selecione [!UICONTROL Form]. Consulte [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md) para obter mais informações.
+   Se preferir usar o [!UICONTROL Experience Composer baseado em formulário], selecione [!UICONTROL Formulário]. Consulte [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md) para obter mais informações.
 
    >[!NOTE]
    >
-   >Além do VEC e do [!UICONTROL Form-Based Experience Composer], o [!DNL Target] oferece o VEC para Aplicativos de Página Única. Para obter mais informações sobre os vários composers, consulte [Experiências e ofertas](/help/main/c-experiences/experiences.md).
+   >Além do VEC e do [!UICONTROL Experience Composer baseado em formulário], o [!DNL Target] oferece o VEC para aplicativos de página única. Para obter mais informações sobre os vários composers, consulte [Experiências e ofertas](/help/main/c-experiences/experiences.md).
    >
    >Em caso de problemas, para obter informações sobre a solução de problemas do VEC, consulte [Solução de problemas do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-1. (Condicional) Se você for um [cliente do Target Premium](/help/main/c-intro/intro.md#premium), na lista suspensa **[!UICONTROL Choose Workspace]**, escolha um [espaço de trabalho](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Condicional) Se você for um [cliente do Target Premium](/help/main/c-intro/intro.md#premium), na lista suspensa **[!UICONTROL Escolher Workspace]**, escolha um [espaço de trabalho](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   A opção [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) na ilustração anterior é um recurso do [Target Premium](/help/main/c-intro/intro.md) e talvez não seja exibida se sua organização tiver uma licença do [!UICONTROL Target Standard].
+   A opção [[!UICONTROL Escolher Local de Trabalho]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) na ilustração anterior é um recurso do [Target Premium](/help/main/c-intro/intro.md) e talvez não seja exibida se sua organização tiver uma licença do [!UICONTROL Target Standard].
 
-1. Na caixa **[!UICONTROL Enter Activity URL]**, especifique sua [URL de atividade](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) e clique em **[!UICONTROL Create]**.
+1. Na caixa **[!UICONTROL Inserir URL da atividade]**, especifique sua [URL da atividade](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) e clique em **[!UICONTROL Criar]**.
 
    Se sua conta foi [configurada com um URL padrão](/help/main/administrating-target/visual-experience-composer-set-up.md), esse URL aparece por padrão. Você pode alterar o URL padrão para outro, se necessário.
 
-   A [!UICONTROL Visual Experience Composer] é aberta, mostrando a página especificada na URL.
+   O [!UICONTROL Visual Experience Composer] é aberto, mostrando a página especificada no URL.
 
-1. Clique em **[!UICONTROL Untitled Activity]** na parte superior do VEC e especifique um nome para a atividade no espaço fornecido.
+1. Clique em **[!UICONTROL Atividade sem título]** na parte superior do VEC e especifique um nome para a atividade no espaço fornecido.
 
    O nome da atividade não pode começar com nenhum dos seguintes caracteres:
 
@@ -74,18 +74,18 @@ Para criar uma atividade manual [!UICONTROL A/B Test]:
    | ;@ | Ponto e vírgula, no sinal |
    | ,= | Vírgula, Igual a |
    | ,+ | Vírgula, Mais |
-   | - | Vírgula, menos |
+   | ,- | Vírgula, menos |
    | ,@ | Vírgula, No sinal |
    | `[`&quot; | Colchete de abertura, aspas duplas |
    | &quot;`]` | Aspas duplas, colchete de fechamento |
 
 1. Crie quaisquer novas experiências alterando os elementos na página.
 
-   O [!UICONTROL Visual Experience Composer] exibe duas guias no lado esquerdo depois que você cria uma nova atividade: Experiência A e Experiência B. A Experiência A é a experiência de controle. Seu foco está na guia Experiência B, que pode ser modificada conforme desejado. A experiência B é a experiência alternativa que pode ser adicionada ao teste. Você pode adicionar várias experiências ao teste. Você também podem excluir a Experiência A da atividade se não quiser incluir uma experiência de site padrão como opção.
+   O [!UICONTROL Visual Experience Composer] exibe duas guias do lado esquerdo após você criar uma nova atividade: Experiência A e Experiência B. A Experiência A é a experiência de controle. Seu foco está na guia Experiência B, que pode ser modificada conforme desejado. A experiência B é a experiência alternativa que pode ser adicionada ao teste. Você pode adicionar várias experiências ao teste. Você também podem excluir a Experiência A da atividade se não quiser incluir uma experiência de site padrão como opção.
 
    Para obter mais informações sobre como adicionar ou modificar experiências no [!UICONTROL Visual Experience Composer], consulte [Adicionar experiência](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Para modificar a Experiência B, comece com a etapa 2.
 
-1. Clique em **[!UICONTROL Targeting]** na parte superior de [!UICONTROL Visual Experience Composer] para ir até a próxima etapa do fluxo de trabalho guiado em três etapas.
+1. Clique em **[!UICONTROL Direcionamento]** na parte superior do [!UICONTROL Visual Experience Composer] para ir até a próxima etapa do fluxo de trabalho guiado de três etapas.
 
    O diagrama do fluxo é aberto.
 
@@ -93,9 +93,9 @@ Para criar uma atividade manual [!UICONTROL A/B Test]:
 
    O diagrama do fluxo guia você pelas etapas da escolha do público-alvo para a atividade e da configuração das experiências.
 
-1. Na caixa **[!UICONTROL Audience]**, clique no ícone de edição (as reticências verticais), clique em **[!UICONTROL Replace Audience]** e [selecione o público-alvo](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) para a sua atividade.
+1. Na caixa **[!UICONTROL Público-alvo]**, clique no ícone de edição (as reticências verticais), clique em **[!UICONTROL Substituir público-alvo]** e [selecione o público-alvo](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) para sua atividade.
 
-   Por padrão, o público-alvo está definido como [!UICONTROL All Visitors].
+   Por padrão, o público-alvo está definido como [!UICONTROL Todos os visitantes].
 
 1. Escolha a porcentagem de visitantes qualificados que você deseja inserir na atividade.
 
@@ -109,27 +109,27 @@ Para criar uma atividade manual [!UICONTROL A/B Test]:
 
    Escolha o método de alocação de tráfego desejado:
 
-   * **[!UICONTROL Manual (Default)]**: especifique a porcentagem de participantes que deseja visualizar cada experiência. Você pode dividir os percentuais igualmente entre todas as experiências ou especificar percentuais maiores ou menores para cada experiência. O total de experiências deve ser igual a 100%.
+   * **[!UICONTROL Manual (Padrão)]**: especifique a porcentagem de participantes que deseja visualizar cada experiência. Você pode dividir os percentuais igualmente entre todas as experiências ou especificar percentuais maiores ou menores para cada experiência. O total de experiências deve ser igual a 100%.
 
-   * **[!UICONTROL Auto-allocate to best experience]**: a maioria dos participantes da atividade é direcionada automaticamente para experiências de maior desempenho. Alguns visitantes são alocados em todas experiências, para manter a exploração de experiências e reconhecer alterações em tendências de desempenho. Para obter mais informações, consulte [[!UICONTROL Auto-Allocate] visão geral](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+   * **[!UICONTROL Alocar automaticamente para a melhor experiência]**: a maioria dos participantes da atividade é direcionada automaticamente para as experiências de maior desempenho. Alguns visitantes são alocados em todas experiências, para manter a exploração de experiências e reconhecer alterações em tendências de desempenho. Para obter mais informações, consulte [[!UICONTROL Visão geral da Alocação automática]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-   * **[!UICONTROL Auto-target for personalized experiences]**: [!DNL Target] usa aprendizagem de máquina avançada para personalizar conteúdo e gerar conversões identificando várias experiências de alto desempenho definidas pelo profissional de marketing e depois apresentando a experiência mais personalizada para os visitantes com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfil similares. Para obter mais informações, consulte [visão geral do Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+   * **[!UICONTROL Direcionamento automático para experiências personalizadas]**: [!DNL Target] usa aprendizagem de máquina avançada para personalizar conteúdo e gerar conversões, identificando várias experiências definidas pelo profissional de marketing com desempenho elevado e apresentando a experiência mais personalizada para os visitantes com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfil similares. Para obter mais informações, consulte [visão geral do Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
-   Você também pode clicar em **[!UICONTROL Add]** para adicionar outra experiência à atividade.
+   Você também pode clicar em **[!UICONTROL Adicionar]** para adicionar outra experiência à atividade.
 
-1. Quando estiver satisfeito com suas opções de público-alvo, experiência e alocação de tráfego, clique em **[!UICONTROL Next]** para ir até a terceira etapa do fluxo de trabalho guiado em três etapas.
+1. Quando estiver satisfeito com suas opções de público-alvo, experiência e alocação de tráfego, clique em **[!UICONTROL Avançar]** para ir até a terceira etapa do fluxo de trabalho guiado em três etapas.
 
 1. Especifique as [metas e configurações](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) da atividade.
 
-1. Clique em **[!UICONTROL Save & Close]** ou **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Salvar e fechar]** ou **[!UICONTROL Salvar]**.
 
-Após criar a atividade, a guia [!UICONTROL Overview] mostra informações sobre a atividade, incluindo um diagrama da atividade.
+Após criar a atividade, a guia [!UICONTROL Visão geral] mostra informações sobre a atividade, incluindo um diagrama da atividade.
 
 ## Vídeo de treinamento: Criação de testes A/B (8:36) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
 Este vídeo mostra como criar um teste A/B usando fluxo de trabalho orientado de três etapas do [!DNL Target].
 
-* Criar uma atividade [!UICONTROL A/B Test] em [!DNL Adobe Target]
+* Criar uma atividade de [!UICONTROL Teste A/B] em [!DNL Adobe Target]
 * Aloque o tráfego usando uma divisão manual ou automática
 
->[!VIDEO](https://video.tv.adobe.com/v/31295?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

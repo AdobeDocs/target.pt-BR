@@ -5,36 +5,32 @@ title: Posso criar um público-alvo para usar somente uma vez?
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 TQID: https://experienceleague.adobe.com/IWQT8Lw7uXxY8znUlzOIB-92M2sdjvMj91Ut-gAvZVU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 30%
+source-wordcount: 477
+ht-degree: 29%
 
 ---
 
 # Criar um público-alvo com apenas uma atividade
 
-Crie públicos somente de atividades dentro do fluxo de trabalho guiado de três etapas do [!DNL Adobe Target] ao criar uma atividade. Esses públicos podem ser usados em outros locais na mesma atividade, mas não são armazenados no [!UICONTROL Audiences Library] para uso em outras atividades.
+Crie públicos somente de atividades dentro do fluxo de trabalho guiado de três etapas do [!DNL Adobe Target] ao criar uma atividade. Esses públicos podem ser usados em outros locais na mesma atividade, mas não são armazenados na [!UICONTROL Biblioteca de público] para uso em outras atividades.
 
 Públicos-alvo somente atividade proporcionam os seguintes benefícios:
 
-* Públicos somente atividade são úteis para criar um público-alvo que você deseje usar somente uma vez e não deseje armazenar no [!UICONTROL Audiences Library]. Públicos somente atividade ajudam a evitar que o [!UICONTROL Audiences Library] seja desordenado com públicos que você nunca desejará utilizar novamente.
-* Públicos somente atividade não estão visíveis no [!UICONTROL Audiences Library]. Como esses públicos-alvo não estão visíveis na biblioteca, eles são protegidos contra alterações indesejadas por outros em sua organização.
+* Públicos somente atividade são úteis para criar um público-alvo que você deseje usar somente uma vez e não deseje armazenar na [!UICONTROL Biblioteca de públicos-alvo]. Públicos somente atividade ajudam a evitar que a [!UICONTROL Biblioteca de públicos-alvo] seja desorganizada com públicos-alvo que você nunca desejará utilizar novamente.
+* Públicos somente atividade não estão visíveis na [!UICONTROL Biblioteca de Públicos]. Como esses públicos-alvo não estão visíveis na biblioteca, eles são protegidos contra alterações indesejadas por outros em sua organização.
 
-1. Ao criar uma [atividade](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Targeting]**, clique nos sinal de três pontos verticais e clique em **[!UICONTROL Replace Audience]**.
+1. Ao criar uma [atividade](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Direcionamento]**, clique nos sinal de três pontos verticais e clique em **[!UICONTROL Substituir público]**.
 
    ![Resultado da etapa](assets/edit_audience.png)
 
-1. Clique em **[!UICONTROL Create Audience]**.
+1. Clique em **[!UICONTROL Criar público-alvo]**.
 
-1. Clique em **[!UICONTROL This activity only]**.
+1. Clique em **[!UICONTROL Somente esta atividade]**.
 
    ![imagem activity-only-aud](assets/activity-only-aud.png)
 
@@ -43,16 +39,16 @@ Públicos-alvo somente atividade proporcionam os seguintes benefícios:
 
    As regras permitem limitar o público-alvo a um subconjunto de visitantes do site. Cada tipo de regra tem seus próprios parâmetros. Consulte [Categorias para públicos-alvo](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) para obter mais informações sobre a configuração de cada tipo de regra de público-alvo.
 
-1. Clique em **[!UICONTROL Done]**.
+1. Clique em **[!UICONTROL Concluído]**.
 
 ## Considerações
 
 Tenha em mente as informações a seguir enquanto você trabalha com públicos somente-atividades:
 
-* Você pode criar públicos somente atividade no [!UICONTROL Visual Experience Composer] (VEC) ou no [!UICONTROL Form-Based Experience Composer]. Esta funcionalidade substitui as regras de refinamento nas versões anteriores do [!DNL Target].
-* Você pode criar uma atividade para armazenar no [!UICONTROL Audience Library] para reutilização em outras atividades ou criar um público somente atividade. Depois de salvar o público-alvo, não é possível mudar o tipo de público-alvo.
+* Você pode criar públicos somente atividade no [!UICONTROL Visual Experience Composer] (VEC) ou no [!UICONTROL Experience Composer baseado em formulário]. Esta funcionalidade substitui as regras de refinamento nas versões anteriores do [!DNL Target].
+* Você pode criar uma atividade para armazenar na [!UICONTROL Biblioteca de público-alvo] para reutilização em outras atividades ou criar um público somente atividade. Depois de salvar o público-alvo, não é possível mudar o tipo de público-alvo.
 * Os refinamentos das atividades existentes são migrados para públicos-alvo somente atividade.
-* Públicos somente atividade têm status de [!UICONTROL Used] ou [!UICONTROL Unused]. Públicos-alvo somente atividade não utilizados são exibidos até que a atividade seja salva. Se deixados não utilizados e você tentar salvar a atividade, uma mensagem de alerta é exibida informando que públicos-alvo somente atividade não utilizados serão excluídos.
+* Públicos somente atividade têm status de [!UICONTROL Usados] ou [!UICONTROL Não Usados]. Públicos-alvo somente atividade não utilizados são exibidos até que a atividade seja salva. Se deixados não utilizados e você tentar salvar a atividade, uma mensagem de alerta é exibida informando que públicos-alvo somente atividade não utilizados serão excluídos.
 * É possível ver os detalhes da definição de público-alvo em um cartão pop-up acessado do seletor de público-alvo sem abrir o público-alvo.
 * Você pode [combinar vários públicos-alvos](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para criar públicos-alvos somente atividade.
 * Públicos somente atividade não são compatíveis com regras de exclusão.

@@ -5,17 +5,12 @@ title: Onde posso encontrar informações sobre o provisionamento inicial do A4T
 feature: Analytics for Target (A4T)
 exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
 TQID: https://experienceleague.adobe.com/O2NhhiytLUaXarno3zH4DHi4EechHxUCMr8QifbEltw
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: 476
 ht-degree: 61%
 
 ---
@@ -40,7 +35,7 @@ Para implementar um caso de uso básico de várias páginas do A4T:
 +++Resposta
 Para poder selecionar um conjunto de relatórios ao definir uma atividade do Analytics, você precisa de uma conta de usuário do Analytics e de uma conta de usuário do Target. Suas contas de usuário devem ser configuradas conforme descrito na documentação. Consulte [Requisitos de Permissão do Usuário](/help/main/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
 
-Depois de ser membro de um ou mais grupos do Experience Cloud que têm acesso ao Analytics e ao Target e ter acesso a todos os conjuntos de relatórios, você deverá ver a opção de criar um teste A/B usando o Analytics em **[!UICONTROL Create Activity]**.
+Depois de ser membro de um ou mais grupos da Experience Cloud que têm acesso ao Analytics e ao Target e ter acesso a todos os conjuntos de relatórios, você deverá ver a opção de criar um teste A/B usando o Analytics em **[!UICONTROL Criar atividade]**.
 
 Se ocorrerem problemas de provisionamento, verifique se o A4T está provisionado corretamente.
 
@@ -52,7 +47,7 @@ Se ocorrerem problemas de provisionamento, verifique se o A4T está provisionado
 Verifique o seguinte se algum destes problemas ocorrer:
 
 * Verifique se suas contas do Analytics e do Target estão vinculadas na Experience Cloud.
-* Alguns clientes usam vários logons de empresa do Analytics na mesma empresa do Experience Cloud. Se você usar vários logons, verifique se a última empresa do Analytics à qual você fez logon é a que está vinculada à conta do Target para a integração.
+* Alguns clientes usam vários logons de empresa do Analytics na mesma empresa da Experience Cloud. Se você usar vários logons, verifique se a última empresa do Analytics à qual você fez logon é a que está vinculada à conta do Target para a integração.
 * Se você fez login no Experience Cloud por várias horas, às vezes a sessão do Analytics pode expirar. Saia e faça login novamente para tentar de novo.
 
 +++

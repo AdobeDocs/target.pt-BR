@@ -5,17 +5,13 @@ title: Posso incluir a mesma experiência em páginas semelhantes?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 TQID: https://experienceleague.adobe.com/zk7U6g7gk7XkpWsEFQbwuCm7xbpIb1lCaZefxjn-39g
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 24%
+source-wordcount: 564
+ht-degree: 23%
 
 ---
 
@@ -40,33 +36,33 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
 
 1. Crie ou edite uma atividade conforme descrito em [Atividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Para especificar as páginas em que a experiência é exibida, no [!UICONTROL Visual Experience Composer] (VEC), clique no ícone [!UICONTROL Configure] ( ![Ícone Configurar](/help/main/assets/icons/Setting.svg) ) e selecione **[!UICONTROL Page Delivery]**.
+1. Para especificar as páginas em que a experiência é exibida, no [!UICONTROL Visual Experience Composer] (VEC), clique no ícone [!UICONTROL Configurar] ( ![ícone Configurar](/help/main/assets/icons/Setting.svg) ) e selecione **[!UICONTROL Entrega de página]**.
 
-1. Clique em **[!UICONTROL Add Rule]** e especifique os critérios para as páginas nas quais deseja adicionar a experiência.
+1. Clique em **[!UICONTROL Adicionar regra]** e especifique os critérios para as páginas nas quais deseja adicionar a experiência.
 
 1. Especifique o intervalo de páginas. O intervalo de páginas pode ser um dos seguintes:
 
    * [!UICONTROL URL] (Para obter mais informações sobre como [!DNL Target] avalia URLs, consulte [Perguntas frequentes sobre direcionamentos e público-alvo](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-   * [!UICONTROL Domain]
-   * [!UICONTROL Path]
-   * [!UICONTROL Hash (#) Fragment] (direcionar a parte de uma URL que segue o símbolo #.)
-   * [!UICONTROL Query]
-   * [!UICONTROL Custom]
+   * [!UICONTROL Domínio]
+   * [!UICONTROL Caminho]
+   * [!UICONTROL Fragmento de hash (#)] (direcione à parte de uma URL que segue o símbolo #.)
+   * [!UICONTROL Consulta]
+   * [!UICONTROL Personalizado]
 
 1. Escolha um operador.
 
    O operador especifica a forma como os itens se relacionam com o intervalo de páginas. Os operadores disponíveis incluem:
 
-   * [!UICONTROL Contains]
-   * [!UICONTROL Does not contain]
-   * [!UICONTROL Is (case sensitive)]
-   * [!UICONTROL Is not]
-   * [!UICONTROL Starts with]
-   * [!UICONTROL Ends with]
+   * [!UICONTROL Contém]
+   * [!UICONTROL Não contém]
+   * [!UICONTROL É (diferencia maiúsculas de minúsculas)]
+   * [!UICONTROL Não]
+   * [!UICONTROL Começa com]
+   * [!UICONTROL Termina com]
 
 1. Digite as sequências de caracteres que definem onde é adicionada a experiência, como o domínio ou as sequências de caracteres contidas no nome da página.
 
-   Por exemplo, se você selecionar **[!UICONTROL Domain]** e **[!UICONTROL Is (case sensitive)]**, digite o domínio em que deseja adicionar a experiência para todas as páginas.
+   Por exemplo, se você selecionar **[!UICONTROL Domínio]** e **[!UICONTROL É (diferencia maiúsculas de minúsculas)]**, digite o domínio em que deseja adicionar a experiência para todas as páginas.
 
    É possível incluir vários itens.
 
@@ -74,7 +70,7 @@ Você pode especificar páginas que incluem os elementos de alteração ou aplic
    >
    >Vários itens usam a lógica OR, ou seja, qualquer item único na lista torna a condição verdadeira.
 
-1. Se desejar, insira critérios adicionais, clicando em **[!UICONTROL Add Rule]** e repita o procedimento das etapas anteriores.
+1. Se desejar, insira critérios adicionais, clicando em **[!UICONTROL Adicionar regra]** e repita o procedimento das etapas anteriores.
 
    Múltiplos critérios são agrupados com uma lógica E. [!DNL Target] adiciona a experiência a todas as páginas que correspondem aos critérios especificados.
 
@@ -96,8 +92,8 @@ Você pode considerar o uso de regras de modelo para renderizar a mesma atividad
 
 1. Crie ou edite uma atividade conforme descrito em [Atividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Para especificar o domínio onde a experiência aparece, no [!UICONTROL Visual Experience Composer] clique no ícone [!UICONTROL Configure] ( ![Ícone Configurar](/help/main/assets/icons/Setting.svg) ) e selecione **[!UICONTROL Page Delivery]**.
+1. Para especificar o domínio onde a experiência aparece, no [!UICONTROL Visual Experience Composer], clique no ícone [!UICONTROL Configurar] ( ![ícone Configurar](/help/main/assets/icons/Setting.svg) ) e selecione **[!UICONTROL Entrega de página]**.
 
-1. Clique em **[!UICONTROL Add Rule]** > **[!UICONTROL Domain]**.
+1. Clique em **[!UICONTROL Adicionar regra]** > **[!UICONTROL domínio]**.
 
-1. Na lista suspensa **[!UICONTROL Choose evaluator]**, selecione **[!UICONTROL Contains]** e especifique o domínio.
+1. No menu suspenso **[!UICONTROL Escolher avaliador]**, selecione **[!UICONTROL Contém]** e especifique o domínio.

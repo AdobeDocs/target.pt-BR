@@ -2,15 +2,13 @@
 keywords: atributos de entidade com vários valores, atributos de entidade personalizados, JSON válido, valor do atributo de entidade, matriz JSON, vários valores
 description: Saiba como usar atributos de entidade personalizados de valor único e múltiplo para definir informações adicionais sobre itens no catálogo do Adobe [!DNL Target] Recommendations.
 title: Como Usar Atributos De Entidade Personalizados?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
 TQID: https://experienceleague.adobe.com/eFeg78-PswBCwtpzMR7j5c8FJ03MyQVcSdzo6ctZt3Q
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1504
@@ -132,7 +130,7 @@ Você pode passar atributos de vários valores usando a API de entrega em um par
   }
 ```
 
-Consulte a [documentação da API do Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} para obter informações sobre como usar as APIs de entidades de Entrega e Salvamento.
+Consulte a [documentação da API do Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para obter informações sobre como usar as APIs de entidades de Entrega e Salvamento.
 
 ## Uso de operadores com atributos de vários valores {#section_83C2288A805242D9A02EBC4F07DEE945}
 

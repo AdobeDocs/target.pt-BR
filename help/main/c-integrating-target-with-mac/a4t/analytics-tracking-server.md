@@ -1,24 +1,18 @@
 ---
-keywords: servidor de rastreamento de análises;depurador do Adobe Experience Cloud;depurador do Adobe Experience Platform;fonte de relatórios;ferramentas do desenvolvedor
+keywords: servidor de rastreamento de análises;A4T;Adobe Experience Cloud Debugger;Adobe Experience Platform debugger;fonte de relatórios;ferramentas do desenvolvedor
 description: Saiba como especificar um servidor de rastreamento do Analytics para atividades que usam o Analytics for [!DNL Target] (A4T) se estiver usando uma versão mais antiga da at.js.
 title: Como usar um servidor de rastreamento do Analytics?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 TQID: https://experienceleague.adobe.com/mJM5kZPQfnWodzwQ3qDKxu1e1Oq2Y53fA2LpSB4SVSc
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 15%
+source-wordcount: 708
+ht-degree: 17%
 
 ---
 
@@ -28,7 +22,7 @@ Se você estiver usando uma versão mais antiga da at.js, deverá especificar um
 
 >[!NOTE]
 >
->Você não precisa especificar um servidor de rastreamento durante a criação da atividade se estiver usando a at.js versão 0.9.1 (ou posterior). A biblioteca at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Tracking Server] vazio na página [!UICONTROL Goals & Settings].
+>Você não precisa especificar um servidor de rastreamento durante a criação da atividade se estiver usando a at.js versão 0.9.1 (ou posterior). A biblioteca at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
 >
 >A equipe do [!DNL Target] é compatível com at.js 1.*x* e at.js 2.*x*. Atualize para a atualização mais recente de qualquer versão principal do at.js para garantir que você esteja executando uma versão compatível. Para obter mais informações, consulte [detalhes da versão do at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank}.
 
@@ -40,13 +34,13 @@ O depurador deve ser exibido em uma página onde a atividade é entregue para ga
 
 1. Na página em que você está criando sua atividade, abra o [!DNL Adobe Experience Platform Debugger].
 
-   Se você não tiver instalado o depurador, consulte [visão geral do Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=pt-BR).
+   Se você não tiver instalado o depurador, consulte [visão geral do Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html).
 
 1. Clique em **[!UICONTROL Analytics]** no menu de navegação esquerdo.
 
    ![Imagem de Screen_DebuggerTrackServ](assets/Screen_DebuggerTrackServ.png)
 
-   O servidor de rastreamento [!DNL Analytics] foi encontrado na seção [!UICONTROL Hostname] do depurador.
+   O servidor de rastreamento [!DNL Analytics] foi encontrado na seção [!UICONTROL Nome do host] do depurador.
 
    * **Servidor de rastreamento próprio**: se o nome de host da solicitação corresponder ao domínio em que você está, ele será um servidor de rastreamento próprio. Por exemplo, se você estiver em `adobe.com`, `adobe.com` será o servidor de rastreamento próprio.
    * **Servidor de rastreamento de terceiros**: normalmente, um servidor de rastreamento de terceiros é `[company].sc.omtrdc.net`, em que a empresa é o nome da sua empresa, mas sempre termina em `sc.omtrdc.net`.
@@ -54,11 +48,11 @@ O depurador deve ser exibido em uma página onde a atividade é entregue para ga
 
 1. Copie todo o conteúdo do campo.
 
-1. Na seção **[!UICONTROL Reporting Settings]** da tela **[!UICONTROL Goal & Settings]** da sua atividade, cole as informações do servidor de rastreamento no campo **[!UICONTROL Tracking Server]**.
+1. Na seção **[!UICONTROL Configurações de Relatórios]** da tela **[!UICONTROL Metas e Configurações]** da sua atividade, cole as informações do servidor de rastreamento no campo **[!UICONTROL Servidor de Rastreamento]**.
 
    >[!NOTE]
    >
-   >Selecione [!UICONTROL Analytics as the Reporting Source] para sua atividade para que o campo [!UICONTROL Tracking Server] fique disponível.
+   >Selecione [!UICONTROL Analytics como Source de Relatórios] para sua atividade para que o campo [!UICONTROL Servidor de Rastreamento] fique disponível.
 
 ## Obtenha o servidor de rastreamento do [!DNL Analytics] usando as Ferramentas do Desenvolvedor do seu navegador
 
@@ -68,7 +62,7 @@ As Ferramentas do desenvolvedor devem ser visualizadas em uma página onde a ati
 
    ![ferramentas para desenvolvedores do Chrome](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
-1. Clique na guia **[!UICONTROL Network]**.
+1. Clique na guia **[!UICONTROL Rede]**.
 
 1. Filtro para `/ss,` para exibir as [!DNL Analytics] solicitações.
 
@@ -82,8 +76,8 @@ As Ferramentas do desenvolvedor devem ser visualizadas em uma página onde a ati
 
 1. Copie todo o conteúdo do campo.
 
-1. Na seção **[!UICONTROL Reporting Settings]** da tela **[!UICONTROL Goal & Settings]** da sua atividade, cole as informações do servidor de rastreamento no campo **[!UICONTROL Tracking Server]**.
+1. Na seção **[!UICONTROL Configurações de Relatórios]** da tela **[!UICONTROL Metas e Configurações]** da sua atividade, cole as informações do servidor de rastreamento no campo **[!UICONTROL Servidor de Rastreamento]**.
 
    >[!NOTE]
    >
-   >Selecione [!UICONTROL Analytics as the Reporting Source] para sua atividade para que o campo [!UICONTROL Tracking Server] fique disponível.
+   >Selecione [!UICONTROL Analytics como Source de Relatórios] para sua atividade para que o campo [!UICONTROL Servidor de Rastreamento] fique disponível.

@@ -5,21 +5,13 @@ title: Onde posso encontrar recursos adicionais para usar o Target de maneira ma
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
 TQID: https://experienceleague.adobe.com/gnPAfU7eUX1v-Ku2KYzbn4l1SNqdLLtwcnpbVbiyrQM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: 701
 ht-degree: 79%
 
 ---
@@ -34,7 +26,7 @@ Compilamos uma lista organizada de informações valiosas para ajudá-lo a obter
 
 ## Links de recursos
 
-* **Configuração do Adobe Target**: Informações para ajudá-lo a administrar o [!DNL Adobe Target], incluindo definições de configuração para o [!UICONTROL Visual Experience Composer] (VEC), relatórios, configuração do [!DNL Scene7], implementação, hosts, ambientes, tokens de resposta e usuários. Consulte [Visão geral da administração do Target](/help/main/administrating-target/administrating-target.md).
+* **Configurando o Adobe Target**: Informações para ajudá-lo a administrar o [!DNL Adobe Target], incluindo configurações para o [!UICONTROL Visual Experience Composer] (VEC), relatórios, configuração do [!DNL Scene7], implementação, hosts, ambientes, tokens de resposta e usuários. Consulte [Visão geral da administração do Target](/help/main/administrating-target/administrating-target.md).
 * **Documentação do produto Adobe Target**: Tudo o que você precisa saber sobre o Adobe Target. Consulte a [Documentação do produto Adobe Target](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=pt-BR).
 * **Documentação da API e do SDK do Adobe Target**: Saiba como implementar o [!DNL Target] em aplicativos do lado do cliente, aplicativos do lado do servidor, aplicativos móveis, IoT e muito mais. Além disso, saiba como trocar seus dados do [!DNL Target] com soluções de terceiros. Consulte [Visão geral da API do Adobe Target](/help/main/api/api-overview.md).
 * **Manual de atividades do Adobe Target**: Introdução às diferentes atividades que você pode usar no [!DNL Target]. Consulte [Tipos de atividade do Target](/help/main/c-activities/target-activities-guide.md).
@@ -55,6 +47,6 @@ Compilamos uma lista organizada de informações valiosas para ajudá-lo a obter
 
 * **Página inicial do Adobe Target**: A página inicial do [!DNL Adobe Target]; saiba mais sobre nossos recursos e veja nossas últimas histórias de sucesso aqui. Consulte [Adobe Target](https://www.adobe.com/br/marketing/target.html).
 * **O Blog**: Mantenha-se atualizado com as últimas notícias, dicas e histórias de sucesso seguindo o [blog do Target](https://blog.adobe.com/en/topics/target).
-* **Experience League**: Descubra os guias, os eventos e o treinamento necessários para iniciar seus negócios de experiência e se conectar com a comunidade do Target e encontrar as respostas que você está procurando. Consulte a [página inicial da Adobe Experience League](https://experienceleague.adobe.com/pt-br?lang=pt-BR#home).
+* **Experience League**: Descubra os guias, os eventos e o treinamento necessários para iniciar seus negócios de experiência e se conectar com a comunidade do Target e encontrar as respostas que você está procurando. Consulte a [página inicial da Adobe Experience League](https://experienceleague.adobe.com/?lang=pt-BR#home).
 * **Certificação do Adobe Target**: Obtenha o status de Adobe Certified Expert com os novos exames do Adobe Target. Agende um exame ou curso de treinamento aqui. Consulte [Treinamento e certificação](/help/main/c-intro/training-and-certification.md).
 * **Notas de versão do Adobe Target**: Informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Target Standard] e do [!DNL Target Premium]. Além disso, as notas de versão para APIs do Target, SDKs, a biblioteca de JavaScript (at.js) e outras alterações na plataforma também são incluídas, quando aplicável. Consulte [notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md).

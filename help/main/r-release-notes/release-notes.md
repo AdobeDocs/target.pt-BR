@@ -7,21 +7,14 @@ title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50db5431370825e46cb1bcb68c9a3ad27ce25079
 workflow-type: tm+mt
-source-wordcount: 446
-ht-degree: 60%
+source-wordcount: 459
+ht-degree: 58%
 
 ---
 
@@ -33,11 +26,11 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 ## [!DNL Target Standard/Premium] 26.5.3 (21 de maio de 2026)
 
-**[!UICONTROL What's new]página**
+**[!UICONTROL Novidades] página**
 
 +++Ver detalhes
 
-* **Nova página [!UICONTROL What's new].** Adição de uma nova página do **[!UICONTROL What's new]** na interface do usuário do [!DNL Adobe Target] para ajudá-lo a descobrir os recursos, aprimoramentos e atualizações mais recentes sem sair do produto. (TGT-55137)
+* **Nova [!UICONTROL Página de novidades].** Adição de uma nova página **[!UICONTROL Novidades]** na interface do usuário do [!DNL Adobe Target] para ajudá-lo a descobrir os recursos, aprimoramentos e atualizações mais recentes sem sair do produto. (TGT-55137)
 
 +++
 
@@ -45,7 +38,7 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 +++Ver detalhes
 
-* **Experiência errada selecionada ao editar o Direcionamento em [!UICONTROL Automated Personalization] atividades.** Correção de um problema em que a experiência errada podia ser selecionada durante a edição da etapa **[!UICONTROL Targeting]** em uma atividade [!UICONTROL Automated Personalization] (AP). (TGT-55176)
+* **Experiência errada selecionada ao editar o Direcionamento nas atividades de [!UICONTROL Automated Personalization].** Correção de um problema em que a experiência incorreta podia ser selecionada durante a edição da etapa **[!UICONTROL Direcionamento]** em uma atividade [!UICONTROL Automated Personalization] (AP). (TGT-55176)
 
 * **Data anterior ao fechar uma atividade agendada.** Correção de um problema que impedia a seleção de uma data anterior para fechar uma atividade agendada. (TGT-55163)
 
@@ -67,7 +60,7 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 [!BADGE Importante]{type=Informative}
 
-Para atualizações com limite de tempo relacionadas ao [!DNL Adobe Target] e à sua implementação, o [!DNL Adobe] fornece notas de versão detalhadas e documentação até [!UICONTROL Experience League]. Estes são alguns destaques importantes para sua implementação:
+Para atualizações com limite de tempo relacionadas ao [!DNL Adobe Target] e à sua implementação, o [!DNL Adobe] fornece notas de versão e documentação detalhadas por meio do [!UICONTROL Experience League]. Estes são alguns destaques importantes para sua implementação:
 
 ### Desativação da alternância de versão da interface do usuário [!DNL Target]
 
@@ -88,7 +81,7 @@ Além das notas para cada versão, os recursos a seguir oferecem informações a
 |--- |--- |
 | [Alterações de documentação](/help/main/r-release-notes/doc-change.md) | Veja informações detalhadas sobre atualizações neste manual que podem não estar incluídas nas notas de versão. |
 | [Notas de versões anteriores](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Veja informações sobre os novos recursos e aprimoramentos das versões anteriores do Target Standard e do Target Premium. |
-| [Notas de versão do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR){target=_blank} | Veja as notas de versão mais recentes das soluções da Adobe Experience Cloud. |
+| [Notas de versão da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR){target=_blank} | Veja as notas de versão mais recentes das soluções da Adobe Experience Cloud. |
 
 ## Informações de pré-lançamento {#section_5D588F0415A2435B851A4D0113ACA3A0}
 

@@ -6,35 +6,23 @@ feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 TQID: https://experienceleague.adobe.com/E1ck4-aG4txqaFLs3t3-8bN-BQIoY8stRASTRJfhZMY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
-subfeature_v2:
-  - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
-  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
-  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+subfeature_v2: id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129id: c011fe9c-b94b-4a88-93d8-f2acece55112id: fc9c2184-9102-403f-bd6c-0055021e4bea
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 49%
+source-wordcount: 721
+ht-degree: 47%
 
 ---
 
 # Configurar o [!UICONTROL Visual Experience Composer]
 
-Configure o [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) especificando suas configurações gerais, a configuração do visor móvel e os seletores de CSS.
+Configure o [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) especificando suas configurações gerais, a configuração de visor móvel e os seletores de CSS.
 
-Para acessar a página de configuração [!UICONTROL Visual Experience Composer], clique em **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
+Para acessar a página de configuração do [!UICONTROL Visual Experience Composer], clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer].**
 
 {{permissions-update}}
 
@@ -52,15 +40,15 @@ As seguintes configurações estão disponíveis:
 
 ### URL padrão
 
-Defina a URL padrão usada pelo [!UICONTROL Visual Experience Composer]. Essa é a página padrão, por exemplo sua página inicial, usada sempre que você configura uma experiência para cada atividade nova. Se você não definir um URL padrão, deverá inserir um URL para cada atividade ao criá-la.
+O URL padrão usado pelo [!UICONTROL Visual Experience Composer]. Essa é a página padrão, por exemplo sua página inicial, usada sempre que você configura uma experiência para cada atividade nova. Se você não definir um URL padrão, deverá inserir um URL para cada atividade ao criá-la.
 
 ### Ativar Enhanced Experience Composer {#eec}
 
-Permite a edição em sites no iFrame e sites com conteúdo misto. Alguns sites podem não ser compatíveis com a versão aprimorada. Desmarque esta opção para reverter ao [!UICONTROL Visual Experience Composer] original. A entrega de atividades nos sites não é afetada por essa escolha.
+Permite a edição em sites no iFrame e sites com conteúdo misto. Alguns sites podem não ser compatíveis com a versão aprimorada. Desmarque esta opção para reverter para o [!UICONTROL Visual Experience Composer] original. A entrega de atividades nos sites não é afetada por essa escolha.
 
 Para obter mais informações, consulte [Solução de problemas do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-Você também pode habilitar [!UICONTROL Enhanced Experience Composer] no nível da atividade.
+Você também pode ativar o [!UICONTROL Enhanced Experience Composer] no nível da atividade.
 
 ### Carregar conteúdo misto
 
@@ -79,14 +67,14 @@ Quando os instantâneos de experiência estão ativados, miniaturas são geradas
 
 >[!NOTE]
 >
->As configurações de [!UICONTROL Mobile Viewport Configuration] são um recurso do [Target Premium](/help/main/c-intro/intro.md#premium).
+>As configurações de [!UICONTROL Configuração de Visor Móvel] são um recurso do [Target Premium](/help/main/c-intro/intro.md#premium).
 
 
 É possível adicionar dispositivos para usar ao visualizar experiências. Cada dispositivo está associado a um público-alvo.
 
 ![Seção de configuração de janela de visualização móvel](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
-Clique em **[!UICONTROL Add]**, especifique um nome descritivo para o visor móvel, especifique a largura e a altura, selecione o sistema operacional desejado e clique em [!UICONTROL Save].
+Clique em **[!UICONTROL Adicionar]**, especifique um nome descritivo para o visor móvel, especifique a largura e a altura, selecione o sistema operacional desejado e clique em [!UICONTROL Salvar].
 
 Para obter mais informações sobre como adicionar um visor móvel, consulte [Configuração de visor móvel](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
@@ -106,17 +94,17 @@ Desmarque essa opção se uma mesma ID for usada para vários elementos ou se a 
 
 ### Usar classes de elementos
 
-Por padrão, o [!DNL Target] usa somente IDs de elemento. No entanto, se a página tiver sido projetada para usar classes para identificar elementos, como uma página criada com o [!DNL Adobe Experience Manager], você também deverá selecionar [!UICONTROL Use element classes].
+Por padrão, o [!DNL Target] usa somente IDs de elemento. No entanto, se a página tiver sido projetada para usar classes para identificar os elementos, como uma página criada com [!DNL Adobe Experience Manager], você também deverá selecionar [!UICONTROL Usar classes de elementos].
 
 >[!NOTE]
 >
 >Embora tudo tenha sido feito para garantir a precisão, esteja ciente de que o uso de classes pode resultar em erros. Se você não selecionar uma das opções, a precisão também será afetada. A ordem de precisão é IDs > classes > nenhuma opção. Sempre certifique-se de testar sua página para garantir que os seletores estão corretos.
 
-É possível substituir essa configuração por atividade (clique no ícone de engrenagem [!UICONTROL Settings] e selecione [!UICONTROL CSS Selectors]). Isso é especialmente útil se você tiver vários sites configurados de forma diferente.
+É possível substituir essa configuração por atividade (clique no ícone de engrenagem [!UICONTROL Configurações] e selecione [!UICONTROL Seletores de CSS]). Isso é especialmente útil se você tiver vários sites configurados de forma diferente.
 
 >[!NOTE]
 >
->A substituição da configuração por atividade não está disponível nas atividades [!UICONTROL Automated Personalization] e [!UICONTROL Multivariate Testing].  Consulte [Seletores de elementos usados no Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) para obter mais informações sobre os seletores.
+>A substituição da configuração por atividade não está disponível nas atividades de [!UICONTROL Automated Personalization] e [!UICONTROL Multivariate Testing].  Consulte [Seletores de elementos usados no Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) para obter mais informações sobre os seletores.
 
 ## Vídeo de treinamento: Preferências da conta (7:33) ![Selo de visão geral](/help/main/assets/overview.png)
 
@@ -126,6 +114,6 @@ Este vídeo inclui informações sobre as preferências da conta.
 
 >[!NOTE]
 >
->A interface do usuário de menu do [!DNL Target] [!UICONTROL Administration] (antigo [!UICONTROL Setup]) foi reprojetada para fornecer melhor desempenho, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário no produto. As informações do vídeo a seguir são corretas; no entanto, as opções podem estar em locais um pouco diferentes. Os vídeos atualizados serão publicados em breve.
+>A interface do usuário do menu [!DNL Target] [!UICONTROL Administração] (antiga [!UICONTROL Configuração]) foi reprojetada para fornecer desempenho aprimorado, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário em todo o produto. As informações do vídeo a seguir são corretas; no entanto, as opções podem estar em locais um pouco diferentes. Os vídeos atualizados serão publicados em breve.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

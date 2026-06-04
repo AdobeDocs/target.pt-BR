@@ -5,15 +5,12 @@ title: Como criar uma atividade multipáginas?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
 TQID: https://experienceleague.adobe.com/ZFqgbNp-sLF-ahG-uXKvWY0XPcxO0oZScGkpNX8hDHY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 57%
+source-wordcount: 353
+ht-degree: 56%
 
 ---
 
@@ -33,13 +30,13 @@ Você pode especificar as regras do modelo para cada página no teste de multip�
 
 Para adicionar páginas a um teste:
 
-1. Clique no ícone **[!UICONTROL Configure]** ( ![Ícone Configurar](/help/main/assets/icons/Setting.svg) ).
-1. Clique em **[!UICONTROL Add Additional Pages]**.
+1. Clique no ícone **[!UICONTROL Configurar]** ( ![Ícone Configurar](/help/main/assets/icons/Setting.svg) ).
+1. Clique em **[!UICONTROL Adicionar mais páginas]**.
 
-   Um painel [!UICONTROL Pages] é exibido no lado esquerdo da tela.
+   Um painel de [!UICONTROL Páginas] é exibido no lado esquerdo da tela.
 
 1. Especifique suas páginas e defina a página padrão.
 
-   Clique em **[!UICONTROL Add Page]** ( ![Ícone Adicionar](/help/main/assets/icons/Add.svg) ) para adicionar uma página adicional, especifique o nome e a URL da página e clique em **[!UICONTROL Save]**.
+   Clique em **[!UICONTROL Adicionar página]** ( ![Ícone Adicionar](/help/main/assets/icons/Add.svg) ) para adicionar uma página adicional, especifique o nome e a URL da página e clique em **[!UICONTROL Salvar]**.
 
 1. Use o [!UICONTROL Visual Experience Composer] para criar a aparência da oferta em cada página.

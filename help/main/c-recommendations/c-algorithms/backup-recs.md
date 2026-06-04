@@ -2,21 +2,17 @@
 keywords: recomendação, backup, fazer o back up
 description: Saiba como usar recomendações de backup no Adobe [!DNL Target Recommendations].
 title: Como usar uma recomendação de backup no  [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 TQID: https://experienceleague.adobe.com/TziWJoAuEdCqa7uMTpX0O0InnlnjtbPXP-0wzQ-FCM0
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 527
-ht-degree: 69%
+source-wordcount: 533
+ht-degree: 68%
 
 ---
 
@@ -28,7 +24,7 @@ Se você não usar a recomendação de backup, se uma recomendação não tiver 
 
 >[!NOTE]
 >
->Informações adicionais estão incluídas na seção [Conteúdo do tópico Criar critérios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), incluindo uma matriz que explica os resultados que você observará ao usar as opções [!UICONTROL Partial Design Rendering] e [!UICONTROL Show Backup Recommendations] juntas ou separadamente.
+>Informações adicionais estão incluídas na seção [Conteúdo do tópico Criar critérios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), incluindo uma matriz que explica os resultados que você observará ao usar as opções [!UICONTROL Renderização de Design Parcial] e [!UICONTROL Mostrar Recomendações de Backup] juntas ou separadamente.
 
 O recurso de recomendação de backup sempre usa os itens mais visualizados no site para preencher os slots restantes depois que os dados do algoritmo são usados. Por exemplo, seu modelo está configurado para mostrar cinco itens recomendados e você está usando o algoritmo de *Afinidades de compra*. No entanto, você só tem dados suficientes para preencher duas das cinco vagas, de modo que o recurso de recomendação de backup preenche as outras três vagas com os itens mais visualizados.
 

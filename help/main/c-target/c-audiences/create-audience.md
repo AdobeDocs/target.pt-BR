@@ -1,26 +1,23 @@
 ---
 keywords: público-alvo, regras de público-alvo, criar público-alvo, criação de público-alvo
-description: Saiba como criar públicos-alvo personalizados e salvá-los na biblioteca  [!DNL Adobe Target] [!UICONTROL Audiences] para uso em atividades.
+description: Saiba como criar públicos-alvo personalizados e salvá-los na biblioteca [!DNL Adobe Target] [!UICONTROL Públicos-alvo] para uso em atividades do.
 title: Como Construir Públicos?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 TQID: https://experienceleague.adobe.com/-t5UqbGCl2EwCyScCq1B8X9bWxQQYWSd0e7RBoUoYQg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 525
-ht-degree: 48%
+source-wordcount: 538
+ht-degree: 47%
 
 ---
 
 # Criar públicos em [!DNL Target]
 
-Crie públicos-alvo personalizados e salve-os na biblioteca [!DNL Adobe Target] [!UICONTROL Audiences] para usar em suas atividades. Você também pode copiar um público-alvo existente que poderá editar para criar um público-alvo semelhante e combinar vários públicos-alvo.
+Crie públicos-alvo personalizados e salve-os na biblioteca [!DNL Adobe Target] [!UICONTROL Públicos-alvo] para usar em suas atividades. Você também pode copiar um público-alvo existente que poderá editar para criar um público-alvo semelhante e combinar vários públicos-alvo.
 
 ## Visão geral do público-alvo
 
@@ -42,15 +39,15 @@ Por exemplo, a regra a seguir é direcionada a visitantes que usam [!DNL Chrome]
 
 ## Criar um público-alvo
 
-1. Clique em **[!UICONTROL Audiences]** na barra de menu superior.
+1. Clique em **[!UICONTROL Públicos-alvo]** na barra de menu superior.
 
    ![imagem de audiences_list](assets/audiences_list.png)
 
-1. Na lista [!UICONTROL Audiences], clique em **[!UICONTROL Create Audience]**.
+1. Na lista [!UICONTROL Públicos-alvo], clique em **[!UICONTROL Criar público-alvo]**.
 
    Ou
 
-   Para copiar um público-alvo existente, na lista [!UICONTROL Audiences], clique no ícone **[!UICONTROL More Actions]** ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmallListVert.svg) ) do público-alvo que você deseja copiar e clique em **[!UICONTROL Duplicate]**. Você pode editar o público-alvo para criar um público-alvo semelhante.
+   Para copiar um público-alvo existente, na lista de [!UICONTROL Públicos-alvo], clique no ícone **[!UICONTROL Mais Ações]** ( ![Ícone Mais Ações](/help/main/assets/icons/MoreSmallListVert.svg) ) do público-alvo que você deseja copiar e clique em **[!UICONTROL Duplicar]**. Você pode editar o público-alvo para criar um público-alvo semelhante.
 
 1. Digite um nome de público-alvo descritivo e exclusivo e uma descrição opcional.
 
@@ -62,7 +59,7 @@ Por exemplo, a regra a seguir é direcionada a visitantes que usam [!DNL Chrome]
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. Arraste e solte os atributos desejados da lista **[!UICONTROL Attributes]** à esquerda do painel do audience builder.
+1. Arraste e solte os atributos desejados da lista **[!UICONTROL Atributos]** à esquerda do painel do audience builder.
 
    ![Arrastar e soltar atributos](assets/drag-attribute.png)
 
@@ -76,9 +73,9 @@ Por exemplo, a regra a seguir é direcionada a visitantes que usam [!DNL Chrome]
 
 1. (Condicional) Continue a adicionar e definir os atributos desejados.
 
-   Para criar outro contêiner, clique em **[!UICONTROL Add container]** ou simplesmente arraste outro atributo para o painel do Audience Builder. Em seguida, você pode ajustar o operador (AND ou OR) usando a lista suspensa.
+   Para criar outro contêiner, clique em **[!UICONTROL Adicionar contêiner]** ou simplesmente arraste outro atributo para o painel do Audience Builder. Em seguida, você pode ajustar o operador (AND ou OR) usando a lista suspensa.
 
-1. Clique em **[!UICONTROL Done]**.
+1. Clique em **[!UICONTROL Concluído]**.
 
    Públicos-alvo criados recentemente aparecem na lista após alguns segundos de processamento. Se o público-alvo não aparecer imediatamente na lista, tente procurar pelo público-alvo ou atualizar a lista.
 
