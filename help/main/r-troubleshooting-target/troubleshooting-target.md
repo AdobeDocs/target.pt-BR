@@ -114,7 +114,7 @@ As seguintes seções contêm informações de solução de problemas em ativida
 
 ## Mbox global
 
-* [Mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [Mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=pt-BR)
 
 ## Hosts/ambientes
 
@@ -126,12 +126,12 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 ### Implementação geral
 
-* [Navegadores compatíveis](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
+* [Navegadores compatíveis](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=pt-BR)
 * [Usar instâncias baseadas em nuvem com o Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### Mboxes globais
 
-* [Perguntas frequentes sobre a mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [Perguntas frequentes sobre a mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=pt-BR)
 
 ### at.js
 
@@ -142,7 +142,7 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 ## Aplicativos para dispositivos móveis
 
-* [Perguntas frequentes sobre o Target para aplicativos móveis](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
+* [Perguntas frequentes sobre o Target para aplicativos móveis](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=pt-BR)
 
 ## Relatório
 
@@ -151,7 +151,7 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 ## Otimização do mecanismo de pesquisa (SEO)
 
-* [Teste compatível com a Otimização do mecanismo de pesquisa (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [Teste compatível com a Otimização do mecanismo de pesquisa (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=pt-BR)
 
 ## Segurança
 

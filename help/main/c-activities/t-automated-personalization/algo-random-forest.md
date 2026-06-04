@@ -2,7 +2,7 @@
 keywords: floresta aleatória;árvore de decisão;ap;Automated Personalization
 description: Saiba como o  [!DNL Adobe Target] usa o algoritmo Random Forest nas atividades do [!UICONTROL Automated Personalization] (AP) e do [!UICONTROL Direcionamento automático].
 title: Como o  [!DNL Target] Usa o Algoritmo Random Forest?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 TQID: https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M

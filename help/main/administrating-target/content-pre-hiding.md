@@ -55,7 +55,7 @@ A pré-ocultação de conteúdo fica desativada para sua instância até que voc
 
 1. Clique em **[!UICONTROL Salvar]**. Isso aplicará as configurações de gerenciamento de cintilação à sua instância.
 
-1. Depois de habilitado, clique em **[!UICONTROL Baixar]** e adicione o arquivo à página `<head>` para que ele seja carregado antes de [!DNL at.js] ou [!DNL Web SDK]. Para obter instruções completas de implementação, consulte [Pré-ocultação de conteúdo do SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
+1. Depois de habilitado, clique em **[!UICONTROL Baixar]** e adicione o arquivo à página `<head>` para que ele seja carregado antes de [!DNL at.js] ou [!DNL Web SDK]. Para obter instruções completas de implementação, consulte [Pré-ocultação de conteúdo do SDK](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/client-side/prehide-sdk).
 
    ![](assets/content-pre-hiding-2.png)
 
