@@ -8,16 +8,16 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 53dc7056ca62339a682756fe1b39e6af349f3ae6
+source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Target] servidor MCP {#target-mcp}
 
-A integração do MCP [!DNL Adobe Target] permite inspecionar e analisar testes A/B e atividades de personalização diretamente do seu assistente de IA. Transforme os dados de experimentação e personalização do [!DNL Target] em fluxos de trabalho em linguagem simples: audite seu portfólio de experimentos, revise relatórios de desempenho e explore públicos e ofertas sem navegar na interface do usuário ou gravar chamadas de API.
+A integração do MCP [!DNL Adobe Target] permite inspecionar, analisar e gerenciar testes A/B e atividades de personalização diretamente do seu assistente de IA. Transforme os dados de experimentação e personalização do [!DNL Target] em fluxos de trabalho em linguagem simples: audite seu portfólio de experimentos, revise relatórios de desempenho, explore públicos e ofertas, crie atividades e faça atualizações sem navegar na interface do usuário ou gravar chamadas de API.
 
 >[!AVAILABILITY]
 >
@@ -41,20 +41,17 @@ As equipes de marketing e otimização dependem cada vez mais de aplicativos bas
 
 ## Principais recursos {#mcp-capabilities}
 
-O servidor MCP [!DNL Adobe Target] fornece acesso de leitura a atividades, públicos, ofertas e configuração de implementação. Com a integração do, você pode:
+O servidor MCP [!DNL Adobe Target] fornece acesso de leitura e gravação a atividades, públicos-alvo, ofertas e configuração de implementação. Com a integração do, você pode:
 
 * **Inspecionar e auditar experimentos** - Obtenha status, desempenho, histórico de alterações e links de visualização de QA para qualquer atividade sem navegar na interface do usuário.
 * **Analisar resultados** - Recupere relatórios de desempenho, receita e A4T para atividades A/B, XT, AP e de Direcionamento automático.
 * **Explorar atividades** - Listar, inspecionar e analisar atividades A/B e XT.
-* **Explorar públicos-alvo e ofertas** - Liste e inspecione públicos-alvo, ofertas da HTML e ofertas JSON.
+* **Criar e atualizar atividades** - Crie novas atividades A/B e de Direcionamento de experiência, atualize configurações, gerencie divisões de tráfego, adicione ou remova variantes e controle o estado da atividade (ativar, pausar, desativar).
+* **Explorar e gerenciar públicos-alvo e ofertas** - Listar, inspecionar, criar e atualizar públicos-alvo, ofertas da HTML e ofertas JSON.
 <!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
 * **Implementação de auditoria** - Revise as configurações da at.js, os tokens de resposta e o histórico de revisão por entidade.
 
->[!NOTE]
->
->As ferramentas de gravação (criar, atualizar, ativar, desativar) não são expostas por meio do catálogo MCP público em **Beta Público**. Todas as ferramentas disponíveis no momento são somente leitura. O acesso de gravação estará disponível em uma versão futura.
-
-O servidor MCP [!DNL Adobe Target] expõe 23 ferramentas somente leitura em 10 categorias — da inspeção e geração de relatórios de atividades à exploração de público-alvo e visualizações de controle de qualidade. Para obter a referência completa do parâmetro, consulte [Referência de ferramentas do servidor MCP](target-mcp-tools-reference.md).
+O servidor MCP [!DNL Adobe Target] expõe 41 ferramentas em 10 categorias — da criação e geração de relatórios de atividades ao gerenciamento de público-alvo e visualizações de controle de qualidade. Para obter a referência completa do parâmetro, consulte [Referência de ferramentas do servidor MCP](target-mcp-tools-reference.md).
 
 Para explorar o que você pode fazer com o servidor MCP [!DNL Adobe Target] — incluindo apresentações passo a passo de prompt — consulte [Casos de uso e apresentações](target-mcp-use-cases.md).
 
@@ -69,12 +66,12 @@ O servidor MCP [!DNL Adobe Target] está disponível atualmente para **Claude We
 
 +++Quais objetos do [!DNL Adobe Target] posso acessar via MCP?
 
-Você pode acessar atividades (A/B, XT, AP), públicos-alvo, ofertas, propriedades, mboxes, tokens de resposta, configuração do at.js, relatórios do A4T e histórico de revisão de entidade. Todas as 23 ferramentas disponíveis no momento são somente leitura.
+Você pode acessar e gerenciar atividades (A/B, XT, AP), públicos-alvo, ofertas, propriedades, mboxes, tokens de resposta, configuração do at.js, relatórios do A4T e histórico de revisão de entidade. O servidor MCP expõe 41 ferramentas que abrangem operações de leitura e gravação.
 +++
 
 +++O servidor MCP pode criar ou modificar atividades?
 
-Não no Beta público. O catálogo MCP público atualmente expõe 23 ferramentas somente leitura. As operações de gravação (criar, atualizar, ativar, desativar) ainda não estão disponíveis por meio do servidor MCP público. O acesso de gravação estará disponível em uma versão futura.
+Sim. O servidor MCP é compatível com operações de gravação, incluindo a criação de atividades A/B e direcionamento de experiência, atualização de configurações de atividades, gerenciamento de divisões de tráfego, adição ou remoção de variantes, ativação, pausa e desativação de atividades. A função de editor ou superior é necessária para operações de gravação; a função de aprovador é necessária para ativação e desativação.
 +++
 
 +++Preciso de acesso de desenvolvedor para usar o servidor MCP?
@@ -89,12 +86,12 @@ Ao enviar um prompt, o cliente MCP pode enviar o contexto relevante (incluindo o
 
 +++As operações de gravação podem causar alterações não intencionais em atividades ativas?
 
-As ferramentas de gravação não estão disponíveis por meio do catálogo MCP público no Beta público — todas as 23 ferramentas atualmente expostas são somente leitura. Quando as ferramentas de gravação forem introduzidas em uma versão futura, elas incluirão anotações de segurança e portas de confirmação para que nenhuma ação de alteração de estado seja executada sem a confirmação explícita do usuário.
+As ferramentas de gravação incluem anotações de segurança e portas de confirmação para que nenhuma ação de alteração de estado seja executada sem confirmação explícita do usuário. A Adobe recomenda testar as integrações em um ambiente de sandbox antes de usar ferramentas de gravação em produção e revisar cuidadosamente todas as ações iniciadas pelo MCP antes de confirmá-las.
 +++
 
 +++Quais permissões são necessárias para o [!DNL Adobe Target]?
 
-A função **Observador** ou superior concede acesso a todas as 23 ferramentas somente leitura disponíveis no Beta Público. As ferramentas de gravação ainda não estão expostas por meio do catálogo MCP público, portanto, os privilégios de função de Editor e Aprovador não desbloqueiam ferramentas MCP adicionais no momento. Entre em contato com o administrador do [!DNL Adobe Target] se não tiver certeza sobre o seu nível de acesso atual.
+A função de **Observador** ou superior concede acesso a todas as ferramentas somente leitura. A função de **Editor** ou superior é necessária para as ferramentas de gravação (criar, atualizar). A função de **Aprovador** é necessária para as ferramentas de alteração de estado (ativar, desativar). Entre em contato com o administrador do [!DNL Adobe Target] se não tiver certeza sobre o seu nível de acesso atual.
 +++
 
 +++Posso usar o servidor MCP em várias organizações ou propriedades do Target?

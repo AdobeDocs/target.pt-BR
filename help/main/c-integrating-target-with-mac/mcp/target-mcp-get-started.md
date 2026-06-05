@@ -8,9 +8,9 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,10 @@ Antes de conectar o servidor MCP [!DNL Adobe Target] ao seu cliente MCP, verifiq
 
 * Você tem uma licença [!DNL Adobe Target] ativa (assinatura da Adobe Experience Cloud) com uma organização da Adobe Experience Platform.
 * Você tem um aplicativo compatível com MCP (atualmente Claude Web, Claude Desktop, Claude Code, Cursor ou ChatGPT).
-* Você tem [!DNL Adobe Target] permissões configuradas no Adobe Admin Console. No Beta público, todas as 23 ferramentas disponíveis são somente leitura. A função de **Observador** ou superior é suficiente para usar o servidor MCP.
-
->[!NOTE]
->
->As ferramentas de gravação (criar, atualizar, ativar, desativar) não são expostas por meio do catálogo MCP público no Public Beta. Os privilégios de função de Editor e Aprovador não desbloqueiam ferramentas adicionais no momento. O acesso de gravação estará disponível em uma versão futura.
+* Você tem [!DNL Adobe Target] permissões configuradas no Adobe Admin Console. A função necessária depende das operações que você deseja executar:
+   * Função de **Observador** ou superior: acesso a todas as ferramentas somente leitura (inspecionar, relatório, auditoria)
+   * Função do **Editor** ou superior: acesso a ferramentas de leitura mais ferramentas de gravação (criar, atualizar)
+   * Função do **Aprovador**: acesso a todas as ferramentas, incluindo ativação e desativação
 
 ## Conectar o servidor MCP [!DNL Adobe Target] {#mcp-connect}
 
@@ -113,7 +112,7 @@ Complete o fluxo do navegador OAuth quando solicitado na primeira utilização.
 
 +++Uma ferramenta retorna uma mensagem de erro
 
-1. Verifique se você tem a função **Observador** ou superior em [!DNL Adobe Target] (consulte [Pré-requisitos](#mcp-prerequisites)).
+1. Verifique se você tem a função necessária em [!DNL Adobe Target] para a operação que você está tentando realizar (consulte [Pré-requisitos](#mcp-prerequisites)). Ferramentas somente leitura requerem Observer ou superior; ferramentas de gravação requerem Editor ou superior; ativação e desativação exigem Approver.
 1. Verifique se os recursos referenciados — atividades, ofertas, públicos-alvo — existem em sua organização.
 1. Confirme se as IDs de atividade e outros identificadores estão corretos.
 +++
