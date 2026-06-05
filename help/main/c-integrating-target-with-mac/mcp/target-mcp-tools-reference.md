@@ -2,16 +2,16 @@
 solution: Target
 product: target
 title: Referência de ferramentas do servidor do Adobe Target MCP
-description: Referência completa do parâmetro para todas as 23 ferramentas somente leitura expostas pelo servidor MCP do Adobe Target.
+description: Referência completa de parâmetro para todas as ferramentas expostas pelo servidor MCP do Adobe Target, incluindo operações de leitura e gravação.
 feature: Integrations
 topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
 workflow-type: tm+mt
-source-wordcount: '1883'
-ht-degree: 11%
+source-wordcount: '3195'
+ht-degree: 13%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 11%
 >
 >O servidor MCP [!DNL Adobe Target] está disponível para todos os clientes em **Beta Público**. Atualmente, ele tem suporte no **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** e **ChatGPT**.
 
-Esta página é uma referência completa para todas as ferramentas somente leitura expostas pelo servidor MCP [!DNL Adobe Target]. Para cada ferramenta, você encontrará uma descrição, detalhes do parâmetro, valor de retorno e um exemplo de prompt em linguagem natural. Para obter instruções de configuração e casos de uso, consulte [Introdução](target-mcp-get-started.md) e [Casos de uso e apresentações](target-mcp-use-cases.md).
+Esta página é uma referência completa para todas as ferramentas expostas pelo servidor MCP [!DNL Adobe Target]. Para cada ferramenta, você encontrará uma descrição, detalhes do parâmetro, valor de retorno e um exemplo de prompt em linguagem natural. Para obter instruções de configuração e casos de uso, consulte [Introdução](target-mcp-get-started.md) e [Casos de uso e apresentações](target-mcp-use-cases.md).
 
 >[!IMPORTANT]
 >
@@ -35,11 +35,9 @@ Esta página é uma referência completa para todas as ferramentas somente leitu
 
 Sua função [!DNL Adobe Target] determina quais ferramentas estão disponíveis para você:
 
-* Função de **Observador** ou superior: acesso a todas as 23 ferramentas somente leitura
-
->[!NOTE]
->
->As ferramentas de gravação (criar, atualizar, ativar, desativar) não são expostas por meio do catálogo MCP público no Public Beta. Todas as 23 ferramentas listadas nesta página são somente leitura. O acesso de gravação estará disponível em uma versão futura.
+* Função de **Observador** ou superior: acesso a todas as ferramentas somente leitura
+* Função do **Editor** ou superior: acesso a ferramentas de leitura mais ferramentas de gravação (criar, atualizar)
+* Função do **Aprovador**: acesso a todas as ferramentas, incluindo ativação e desativação
 
 Para obter instruções completas sobre a configuração, consulte [Introdução](target-mcp-get-started.md).
 
@@ -132,305 +130,279 @@ Obtenha informações detalhadas sobre uma atividade de Automated Personalizatio
 
 +++
 
-<!--
-+++Create an A/B activity
++++Criar uma atividade A/B
 
-**Tool:** `create_ab_activity`
+**Ferramenta:** `create_ab_activity`
 
-Create a new A/B test activity.
+Crie uma nova atividade de teste A/B.
 
-Creates a new A/B test with the specified configuration including experiences, offers, and targeting.
+Cria um novo teste A/B com a configuração especificada, incluindo experiências, ofertas e direcionamento.
 
-| Parameter | Type | Required | Description |
+| Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `name` | string | Yes | Name of the activity |
-| `state` | string | No | Initial state: `approved`, `deactivated`, or `saved` (default: `saved`) |
-| `priority` | integer | No | Activity priority (0–999, default: 0) |
-| `starts_at` | string | No | Activity start date (ISO 8601) |
-| `ends_at` | string | No | Activity end date (ISO 8601) |
-| `experiences` | array | Yes | List of experience configurations |
-| `locations` | array | Yes | List of location/mbox configurations |
-| `goals` | object | No | Primary and secondary goal metrics |
-| `audiences` | array | No | Target audience configurations |
-| `workspace_id` | string | No | Workspace ID for the activity |
+| `name` | string | Sim | Nome da atividade |
+| `state` | string | Não | Estado inicial: `approved`, `deactivated` ou `saved` (padrão: `saved`) |
+| `priority` | número inteiro | Não | Prioridade de atividade (0-999, padrão: 0) |
+| `starts_at` | string | Não | Data de início da atividade (ISO 8601) |
+| `ends_at` | string | Não | Data final da atividade (ISO 8601) |
+| `experiences` | matriz | Sim | Lista de configurações de experiência |
+| `locations` | matriz | Sim | Lista de configurações de local/mbox |
+| `goals` | objeto | Não | Métricas de meta primária e secundária |
+| `audiences` | matriz | Não | Configurações do público-alvo |
+| `workspace_id` | string | Não | Workspace ID da atividade |
 
-**Returns:** The created activity object with its assigned ID.
+**Retorna:** o objeto de atividade criado com sua ID atribuída.
 
-**Example prompt:** "Create an A/B test called 'Homepage Hero Test' with two experiences testing different hero images on the homepage-hero mbox."
+**Prompt de exemplo:** &quot;Crie um teste A/B chamado &#39;Teste de Herói da Página Inicial&#39; com duas experiências testando imagens herói diferentes na mbox homepage-hero.&quot;
 
 +++
--->
 
-<!--
-+++Create an Experience Targeting activity
++++Criar uma atividade de direcionamento de experiência
 
-**Tool:** `create_xt_activity`
+**Ferramenta:** `create_xt_activity`
 
-Create a new Experience Targeting (XT) activity.
+Crie uma nova atividade de Direcionamento de experiência (XT).
 
-Creates an XT activity that delivers different experiences to different audiences based on targeting rules.
+Cria uma atividade de XT que fornece experiências diferentes para públicos-alvo diferentes com base nas regras de direcionamento.
 
-| Parameter | Type | Required | Description |
+| Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `name` | string | Yes | Name of the activity |
-| `state` | string | No | Initial state: `approved`, `deactivated`, or `saved` (default: `saved`) |
-| `priority` | integer | No | Activity priority (0–999, default: 0) |
-| `starts_at` | string | No | Activity start date (ISO 8601) |
-| `ends_at` | string | No | Activity end date (ISO 8601) |
-| `experiences` | array | Yes | List of experience configurations with audience mappings |
-| `locations` | array | Yes | List of location/mbox configurations |
-| `goals` | object | No | Primary and secondary goal metrics |
-| `workspace_id` | string | No | Workspace ID for the activity |
+| `name` | string | Sim | Nome da atividade |
+| `state` | string | Não | Estado inicial: `approved`, `deactivated` ou `saved` (padrão: `saved`) |
+| `priority` | número inteiro | Não | Prioridade de atividade (0-999, padrão: 0) |
+| `starts_at` | string | Não | Data de início da atividade (ISO 8601) |
+| `ends_at` | string | Não | Data final da atividade (ISO 8601) |
+| `experiences` | matriz | Sim | Lista de configurações de experiência com mapeamentos de público |
+| `locations` | matriz | Sim | Lista de configurações de local/mbox |
+| `goals` | objeto | Não | Métricas de meta primária e secundária |
+| `workspace_id` | string | Não | Workspace ID da atividade |
 
-**Returns:** The created activity object with its assigned ID.
+**Retorna:** o objeto de atividade criado com sua ID atribuída.
 
-**Example prompt:** "Create an Experience Targeting activity called 'Geo Personalization' that shows different content to visitors from different regions."
+**Prompt de exemplo:** &quot;Crie uma atividade de Direcionamento de Experiência chamada &#39;Geo Personalization&#39; que mostre conteúdo diferente para visitantes de regiões diferentes.&quot;
 
 +++
--->
 
-<!--
-+++Update an A/B activity
++++Atualizar uma atividade A/B
 
-**Tool:** `update_ab_activity`
+**Ferramenta:** `update_ab_activity`
 
-Update an existing A/B activity.
+Atualizar uma atividade A/B existente.
 
-Uses a read-modify-write pattern: fetches the current state, merges your changes, validates, and sends the update.
+Usa um padrão de leitura-modificação-gravação: busca o estado atual, mescla as alterações, valida e envia a atualização.
 
-| Parameter | Type | Required | Description |
+| Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the activity to update |
-| `activity` | object | Yes | Fields to update (name, priority, experiences, locations, goals, etc.) |
+| `activity_id` | número inteiro | Sim | O identificador exclusivo da atividade a ser atualizada |
+| `activity` | objeto | Sim | Campos a serem atualizados (nome, prioridade, experiências, locais, metas etc.) |
 
-**Returns:** The updated activity object.
+**Retorna:** O objeto de atividade atualizado.
 
-**Example prompt:** "Update activity 12345 to change the traffic allocation to 70/30."
+**Prompt de exemplo:** &quot;Atualize a atividade 12345 para alterar a alocação de tráfego para 70/30.&quot;
 
 +++
--->
 
-<!--
-+++Update an Experience Targeting activity
++++Atualizar uma atividade de direcionamento de experiência
 
-**Tool:** `update_xt_activity`
+**Ferramenta:** `update_xt_activity`
 
-Update an existing Experience Targeting activity.
+Atualizar uma atividade existente de Direcionamento de experiência.
 
-Uses a read-modify-write pattern.
+Usa um padrão de leitura-modificação-gravação.
 
-| Parameter | Type | Required | Description |
+| Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the XT activity to update |
-| `activity` | object | Yes | Fields to update |
+| `activity_id` | número inteiro | Sim | O identificador exclusivo da atividade de XT a ser atualizada |
+| `activity` | objeto | Sim | Campos a serem atualizados |
 
-**Returns:** The updated activity object.
+**Retorna:** O objeto de atividade atualizado.
 
-**Example prompt:** "Update XT activity 12345 to add a new experience for mobile visitors."
+**Prompt de exemplo:** &quot;Atualize a atividade XT 12345 para adicionar uma nova experiência para visitantes móveis.&quot;
 
 +++
--->
 
-<!--
-+++Update an Automated Personalization activity
++++Atualizar uma atividade do Automated Personalization
 
-**Tool:** `update_abt_activity`
+**Ferramenta:** `update_abt_activity`
 
-Update an existing Automated Personalization activity.
+Atualizar uma atividade existente do Automated Personalization.
 
-Uses a read-modify-write pattern.
+Usa um padrão de leitura-modificação-gravação.
 
-| Parameter | Type | Required | Description |
+| Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the AP activity to update |
-| `activity` | object | Yes | Fields to update |
+| `activity_id` | número inteiro | Sim | O identificador exclusivo da atividade de AP a ser atualizada |
+| `activity` | objeto | Sim | Campos a serem atualizados |
 
-**Returns:** The updated activity object.
+**Retorna:** O objeto de atividade atualizado.
 
-**Example prompt:** "Update Auto-Personalization activity 12345 to change the optimization goal."
+**Prompt de exemplo:** &quot;Atualize a atividade 12345 do AutoPersonalization para alterar a meta de otimização.&quot;
 
 +++
--->
 
-<!--
-+++Update activity schedule
++++Atualizar programação de atividades
 
-**Tool:** `update_activity_schedule`
+**Ferramenta:** `update_activity_schedule`
 
-Update activity start and end dates.
+Atualize as datas de início e término da atividade.
 
-Updates the schedule for an activity without modifying other settings.
+Atualiza o agendamento de uma atividade sem modificar outras configurações.
 
-| Parameter | Type | Required | Description |
+| Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the activity |
-| `activity_type` | string | Yes | Type of activity: `ab`, `xt`, or `abt` |
-| `starts_at` | string | No | New start date (ISO 8601) |
-| `ends_at` | string | No | New end date (ISO 8601) |
+| `activity_id` | número inteiro | Sim | O identificador exclusivo da atividade |
+| `activity_type` | string | Sim | Tipo de atividade: `ab`, `xt` ou `abt` |
+| `starts_at` | string | Não | Nova data de início (ISO 8601) |
+| `ends_at` | string | Não | Nova data final (ISO 8601) |
 
-**Returns:** Confirmation of the schedule update.
+**Retorna:** Confirmação da atualização da agenda.
 
-**Example prompt:** "Update the schedule for A/B activity 12345 to run from May 1st to May 31st."
+**Prompt de exemplo:** &quot;Atualize o agendamento da atividade A/B 12345 para execução de 1º de maio a 31 de maio&quot;.
 
 +++
--->
 
-<!--
-+++Change activity state
++++Alterar estado da atividade
 
-**Tool:** `update_activity_state`
+**Ferramenta:** `update_activity_state`
 
-Change activity state (activate, deactivate, or pause).
+Alterar o estado da atividade (ativar, desativar ou pausar).
 
-| Parameter | Type | Required | Description |
+| Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the activity |
-| `state` | string | Yes | New state: `approved` (live/active), `deactivated` (inactive), `paused`, or `saved` (draft) |
+| `activity_id` | número inteiro | Sim | O identificador exclusivo da atividade |
+| `state` | string | Sim | Novo estado: `approved` (ativo/ativo), `deactivated` (inativo), `paused` ou `saved` (rascunho) |
 
-**Returns:** The updated activity state.
+**Retorna:** O estado de atividade atualizado.
 
-**Example prompt:** "Activate activity 12345" or "Pause the Homepage Hero Test."
+**Prompt de exemplo:** &quot;Ativar atividade 12345&quot; ou &quot;Pausar o Teste Herói da Página Inicial&quot;.
 
 +++
--->
 
-<!--
-+++Rename an activity
++++Renomear uma atividade
 
-**Tool:** `update_activity_name`
+**Ferramenta:** `update_activity_name`
 
-Rename an activity.
+Renomeie uma atividade.
 
-Updates only the name without modifying the full configuration.
+Atualiza somente o nome sem modificar a configuração completa.
 
-| Parameter | Type | Required | Description |
+| Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the activity |
-| `name` | string | Yes | New activity name |
+| `activity_id` | número inteiro | Sim | O identificador exclusivo da atividade |
+| `name` | string | Sim | Nome da nova atividade |
 
-**Returns:** The updated activity object.
+**Retorna:** O objeto de atividade atualizado.
 
-**Example prompt:** "Rename activity 12345 to 'Summer Campaign Hero Test'."
+**Prompt de exemplo:** &quot;Renomeie a atividade 12345 para &#39;Teste de Herói da Campanha de Verão&#39;.&quot;
 
 +++
--->
 
-<!--
-+++Change activity priority
++++Alterar prioridade da atividade
 
-**Tool:** `update_activity_priority`
+**Ferramenta:** `update_activity_priority`
 
-Change activity priority.
+Alterar prioridade da atividade.
 
-Higher-priority activities take precedence when multiple activities target the same location.
+Atividades de prioridade mais alta têm prioridade quando várias atividades têm como alvo o mesmo local.
 
-| Parameter | Type | Required | Description |
+| Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The unique identifier of the activity |
-| `priority` | integer | Yes | New priority value (0–999; higher = higher priority) |
+| `activity_id` | número inteiro | Sim | O identificador exclusivo da atividade |
+| `priority` | número inteiro | Sim | Novo valor de prioridade (0-999; maior = prioridade mais alta) |
 
-**Returns:** The updated activity object.
+**Retorna:** O objeto de atividade atualizado.
 
-**Example prompt:** "Set the priority of activity 12345 to 100."
+**Prompt de exemplo:** &quot;Definir a prioridade da atividade 12345 para 100&quot;.
 
 +++
--->
 
-<!--
-+++Add a variant to an activity
++++Adicionar uma variante a uma atividade
 
-**Tool:** `add_activity_variant`
+**Ferramenta:** `add_activity_variant`
 
-Add a new experience/variant to an activity.
+Adicionar uma nova experiência/variante a uma atividade.
 
-Handles all structural coordination including creating options, mapping to locations, and rebalancing traffic.
+Lida com toda a coordenação estrutural, incluindo a criação de opções, mapeamento para locais e reequilíbrio do tráfego.
 
-| Parameter | Type | Required | Description |
+| Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The ID of the activity to modify |
-| `activity_type` | string | Yes | Activity type: `ab`, `xt`, or `abt` |
-| `variant_name` | string | Yes | Name for the new experience/variant |
-| `offer_id` | integer | No | (Form-based) Existing offer ID to use |
-| `offer_content` | string | No | (Form-based) HTML content for a new inline offer |
-| `traffic_percentage` | integer | No | Traffic % for the new variant (1–99). If omitted, traffic is rebalanced evenly |
-| `audience_id` | integer | No | Audience ID for the variant (XT activities) |
-| `modifications` | array | No | (VEC) List of CSS selector-based modifications |
+| `activity_id` | número inteiro | Sim | A ID da atividade a ser modificada |
+| `activity_type` | string | Sim | Tipo de atividade: `ab`, `xt` ou `abt` |
+| `variant_name` | string | Sim | Nome da nova experiência/variante |
+| `offer_id` | número inteiro | Não | (Baseado em formulário) ID de oferta existente para usar |
+| `offer_content` | string | Não | (Baseado em formulário) Conteúdo do HTML para uma nova oferta em linha |
+| `traffic_percentage` | número inteiro | Não | % de tráfego da nova variante (1-99). Se omitido, o tráfego será rebalanceado uniformemente |
+| `audience_id` | número inteiro | Não | ID de público-alvo da variante (atividades de XT) |
+| `modifications` | matriz | Não | (VEC) Lista de modificações baseadas no seletor de CSS |
 
-**Returns:** The updated activity object.
+**Retorna:** O objeto de atividade atualizado.
 
-**Example prompt:** "Add a new variant called 'Holiday Theme' to A/B activity 12345 using offer 67890."
+**Prompt de exemplo:** &quot;Adicione uma nova variante chamada &#39;Tema de Feriado&#39; à atividade A/B 12345 usando a oferta 67890.&quot;
 
 +++
--->
 
-<!--
-+++Update traffic split
++++Atualizar divisão de tráfego
 
-**Tool:** `update_traffic_split`
+**Ferramenta:** `update_traffic_split`
 
-Update traffic allocation across variants.
+Atualizar alocação de tráfego entre variantes.
 
-The percentages must sum to exactly 100.
+As porcentagens devem somar exatamente 100.
 
-| Parameter | Type | Required | Description |
+| Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The ID of the activity to modify |
-| `activity_type` | string | Yes | Activity type: `ab` or `abt` (XT not supported — audience-targeted) |
-| `splits` | object | Yes | Dictionary mapping experience name to percentage. Must include all experiences and sum to 100 |
+| `activity_id` | número inteiro | Sim | A ID da atividade a ser modificada |
+| `activity_type` | string | Sim | Tipo de atividade: `ab` ou `abt` (XT não suportado — direcionado ao público) |
+| `splits` | objeto | Sim | Nome da experiência de mapeamento de dicionário para porcentagem. Deve incluir todas as experiências e somar até 100 |
 
-**Returns:** The updated activity object.
+**Retorna:** O objeto de atividade atualizado.
 
-**Example prompt:** "Change the traffic split for activity 12345 to 70% Control and 30% Variant A."
+**Prompt de exemplo:** &quot;Alterar a divisão de tráfego da atividade 12345 para 70% de Controle e 30% de Variante A&quot;.
 
 +++
--->
 
-<!--
-+++Change a variant's offer
++++Alterar a oferta de uma variante
 
-**Tool:** `update_variant_offer`
+**Ferramenta:** `update_variant_offer`
 
-Change the offer for a specific variant.
+Alterar a oferta de uma variante específica.
 
-Works for both form-based activities (using `offer_id`) and VEC activities (using `modifications`).
+Funciona para atividades baseadas em formulário (usando `offer_id`) e atividades de VEC (usando `modifications`).
 
-| Parameter | Type | Required | Description |
+| Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The ID of the activity to modify |
-| `activity_type` | string | Yes | Activity type: `ab`, `xt`, or `abt` |
-| `variant_name` | string | Yes | Name of the experience/variant to update |
-| `offer_id` | integer | No | (Form-based) New offer ID |
-| `offer_content` | string | No | (Form-based) HTML content for a new inline offer |
-| `modifications` | array | No | (VEC) New list of CSS selector-based modifications |
+| `activity_id` | número inteiro | Sim | A ID da atividade a ser modificada |
+| `activity_type` | string | Sim | Tipo de atividade: `ab`, `xt` ou `abt` |
+| `variant_name` | string | Sim | Nome da experiência/variante a ser atualizada |
+| `offer_id` | número inteiro | Não | (Baseado em formulário) Nova ID de oferta |
+| `offer_content` | string | Não | (Baseado em formulário) Conteúdo do HTML para uma nova oferta em linha |
+| `modifications` | matriz | Não | (VEC) Nova lista de modificações baseadas em seletor de CSS |
 
-**Returns:** The updated activity object.
+**Retorna:** O objeto de atividade atualizado.
 
-**Example prompt:** "Update the 'Variant A' experience in activity 12345 to use offer 99999."
+**Prompt de exemplo:** &quot;Atualize a experiência &#39;Variante A&#39; na atividade 12345 para usar a oferta 99999.&quot;
 
 +++
--->
 
-<!--
-+++Remove a variant from an activity
++++Remover uma variante de uma atividade
 
-**Tool:** `remove_activity_variant`
+**Ferramenta:** `remove_activity_variant`
 
-Remove an experience/variant from an activity.
+Remover uma experiência/variante de uma atividade.
 
-Removes the experience, cleans up orphaned options, and rebalances traffic evenly across remaining variants.
+Remove a experiência, limpa opções órfãs e redistribui o tráfego de maneira uniforme entre as variantes restantes.
 
-| Parameter | Type | Required | Description |
+| Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `activity_id` | integer | Yes | The ID of the activity to modify |
-| `activity_type` | string | Yes | Activity type: `ab`, `xt`, or `abt` |
-| `variant_name` | string | Yes | Name of the experience/variant to remove |
+| `activity_id` | número inteiro | Sim | A ID da atividade a ser modificada |
+| `activity_type` | string | Sim | Tipo de atividade: `ab`, `xt` ou `abt` |
+| `variant_name` | string | Sim | Nome da experiência/variante a ser removida |
 
-**Returns:** The updated activity object.
+**Retorna:** O objeto de atividade atualizado.
 
-**Example prompt:** "Remove the 'Test Variant' experience from A/B activity 12345."
+**Prompt de exemplo:** &quot;Remover a experiência &#39;Variante de Teste&#39; da atividade A/B 12345.&quot;
 
 +++
--->
 
 ## Ferramentas de oferta {#tools-offers}
 
@@ -471,61 +443,59 @@ Obtenha informações detalhadas sobre uma oferta específica.
 
 +++
 
-<!--
-+++Create an HTML offer
++++Criar uma oferta do HTML
 
-**Tool:** `create_target_offer`
+**Ferramenta:** `create_target_offer`
 
-Create a new HTML content offer.
+Crie uma nova oferta de conteúdo do HTML.
 
-| Parameter | Type | Required | Description |
+| Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `name` | string | Yes | Name of the offer |
-| `content` | string | Yes | HTML or text content for the offer |
-| `workspace_id` | string | No | Workspace ID for the offer |
+| `name` | string | Sim | Nome da oferta |
+| `content` | string | Sim | Conteúdo de texto ou HTML para a oferta |
+| `workspace_id` | string | Não | Workspace ID da oferta |
 
-**Returns:** The created offer with its assigned ID.
+**Retorna:** a oferta criada com sua ID atribuída.
 
-**Example prompt:** "Create an HTML offer called 'Summer Sale Banner' with a promotional banner."
+**Exemplo de prompt:** &quot;Crie uma oferta do HTML chamada &#39;Banner de Vendas de Verão&#39; com um banner promocional.&quot;
 
 +++
 
-+++Create a JSON offer
++++Criar uma oferta JSON
 
-**Tool:** `create_target_json_offer`
+**Ferramenta:** `create_target_json_offer`
 
-Create a new JSON offer for delivering structured data.
+Crie uma nova oferta JSON para fornecer dados estruturados.
 
-| Parameter | Type | Required | Description |
+| Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `name` | string | Yes | Name of the offer |
-| `content` | object | Yes | JSON content for the offer |
-| `workspace_id` | string | No | Workspace ID for the offer |
+| `name` | string | Sim | Nome da oferta |
+| `content` | objeto | Sim | Conteúdo JSON para a oferta |
+| `workspace_id` | string | Não | Workspace ID da oferta |
 
-**Returns:** The created offer with its assigned ID.
+**Retorna:** a oferta criada com sua ID atribuída.
 
-**Example prompt:** "Create a JSON offer called 'Feature Flags Config' with feature toggle settings."
+**Exemplo de prompt:** &quot;Crie uma oferta JSON chamada &#39;Configuração de Sinalizadores de Recurso&#39; com configurações de alternância de recurso.&quot;
 
 +++
 
-+++Update an offer
++++Atualizar uma oferta
 
-**Tool:** `update_target_offer`
+**Ferramenta:** `update_target_offer`
 
-Update an existing offer.
+Atualizar uma oferta existente.
 
-| Parameter | Type | Required | Description |
+| Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `offer_id` | integer | Yes | The unique identifier of the offer to update |
-| `name` | string | No | Updated offer name |
-| `content` | string or object | No | Updated offer content |
+| `offer_id` | número inteiro | Sim | O identificador exclusivo da oferta a ser atualizada |
+| `name` | string | Não | Nome da oferta atualizado |
+| `content` | string ou objeto | Não | Conteúdo de oferta atualizado |
 
-**Returns:** The updated offer object.
+**Retorna:** O objeto de oferta atualizado.
 
-**Example prompt:** "Update offer 67890 with new promotional content."
+**Prompt de exemplo:** &quot;Atualizar oferta 67890 com novo conteúdo promocional.&quot;
 
 +++
--->
 
 ## Ferramentas de público {#tools-audiences}
 
@@ -564,26 +534,24 @@ Recupera a configuração completa de um público-alvo específico, incluindo su
 
 +++
 
-<!--
-+++Create an audience
++++Criar um público-alvo
 
-**Tool:** `create_target_audience`
+**Ferramenta:** `create_target_audience`
 
-Create a new audience with targeting rules.
+Crie um novo público com regras de direcionamento.
 
-| Parameter | Type | Required | Description |
+| Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `name` | string | Yes | Name of the audience |
-| `description` | string | No | Description of the audience |
-| `targetRule` | object | No | Targeting rules (geo, browser, custom attributes, etc.) |
-| `workspace_id` | string | No | Workspace ID for the audience |
+| `name` | string | Sim | Nome do público |
+| `description` | string | Não | Descrição do público |
+| `targetRule` | objeto | Não | Regras de direcionamento (localização geográfica, navegador, atributos personalizados etc.) |
+| `workspace_id` | string | Não | Workspace ID para o público |
 
-**Returns:** The created audience with its assigned ID.
+**Retorna:** o público-alvo criado com sua ID atribuída.
 
-**Example prompt:** "Create an audience called 'Mobile Visitors from California' targeting mobile users in CA."
+**Exemplo de prompt:** &quot;Crie um público chamado &#39;Visitantes móveis da Califórnia&#39; direcionado a usuários móveis na CA.&quot;
 
 +++
--->
 
 ## Ferramentas da mbox {#tools-mboxes}
 
@@ -804,24 +772,22 @@ Nenhum parâmetro é necessário.
 
 +++
 
-<!--
-+++Create a response token
++++Criar um token de resposta
 
-**Tool:** `create_target_response_token`
+**Ferramenta:** `create_target_response_token`
 
-Create a new custom response token for collecting additional data in [!DNL Target] responses.
+Crie um novo token de resposta personalizado para coletar dados adicionais em [!DNL Target] respostas.
 
-| Parameter | Type | Required | Description |
+| Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `token_name` | string | Yes | Name of the response token |
-| `token_type` | string | Yes | Type of token: `SCRIPT`, `ACTIVITY`, `MBOX`, `GEO`, or `CRS` |
+| `token_name` | string | Sim | Nome do token de resposta |
+| `token_type` | string | Sim | Tipo de token: `SCRIPT`, `ACTIVITY`, `MBOX`, `GEO` ou `CRS` |
 
-**Returns:** The created response token object.
+**Retorna:** o objeto de token de resposta criado.
 
-**Example prompt:** "Create a custom response token called 'campaign_id' of type ACTIVITY."
+**Exemplo de prompt:** &quot;Criar um token de resposta personalizado chamado &#39;campaign_id&#39; do tipo ACTIVITY.&quot;
 
 +++
--->
 
 ## Ferramentas de revisão {#tools-revisions}
 
@@ -883,17 +849,17 @@ Nenhum parâmetro é necessário.
 
 | Categoria | Contagem | Ferramentas |
 |---|---|---|
-| Atividade | 4 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity` |
-| Oferta | 2 | `list_target_offers`, `get_target_offer` |
-| Público-alvo | 2 | `list_target_audiences`, `get_target_audience` |
+| Atividade | 17 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity`, `create_ab_activity`, `create_xt_activity`, `update_ab_activity`, `update_xt_activity`, `update_abt_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
+| Oferta | 5 | `list_target_offers`, `get_target_offer`, `create_target_offer`, `create_target_json_offer`, `update_target_offer` |
+| Público-alvo | 3 | `list_target_audiences`, `get_target_audience`, `create_target_audience` |
 | Mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | Propriedade | 1 | `list_target_properties` |
 | Relatório | 6 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
 | Visualização | 1 | `preview_activity` |
-| Token de resposta | 1 | `list_target_response_tokens` |
+| Token de resposta | 2 | `list_target_response_tokens`, `create_target_response_token` |
 | Revisão | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | Modelo | 1 | `list_target_templates` |
-| **Total** | **23** | |
+| **Total** | **41** | |
 
 ## Recursos relacionados {#tools-related}
 
