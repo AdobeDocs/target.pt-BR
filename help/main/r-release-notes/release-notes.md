@@ -7,21 +7,14 @@ title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50db5431370825e46cb1bcb68c9a3ad27ce25079
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 58%
+source-wordcount: 652
+ht-degree: 41%
 
 ---
 
@@ -31,23 +24,51 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 26.5.3 (21 de maio de 2026)
-
-**[!UICONTROL Novidades] página**
-
-+++Ver detalhes
-
-* **Nova [!UICONTROL Página de novidades].** Adição de uma nova página **[!UICONTROL Novidades]** na interface do usuário do [!DNL Adobe Target] para ajudá-lo a descobrir os recursos, aprimoramentos e atualizações mais recentes sem sair do produto. (TGT-55137)
-
-+++
+## [!DNL Target Standard/Premium] 26.6.1 (4 de junho de 2026)
 
 **Atividades**
 
 +++Ver detalhes
 
-* **Experiência errada selecionada ao editar o Direcionamento nas atividades de [!UICONTROL Automated Personalization].** Correção de um problema em que a experiência incorreta podia ser selecionada durante a edição da etapa **[!UICONTROL Direcionamento]** em uma atividade [!UICONTROL Automated Personalization] (AP). (TGT-55176)
+* **URL de atividade incompleta em [!UICONTROL Visão geral da atividade].** Correção de um problema em que a [!UICONTROL Visão geral da atividade] não exibia a URL completa de uma atividade. (TGT-54029)
 
-* **Data anterior ao fechar uma atividade agendada.** Correção de um problema que impedia a seleção de uma data anterior para fechar uma atividade agendada. (TGT-55163)
+* **Formato de data não localizado nos Relatórios de atividade.** Correção de um problema em que o formato de data não estava localizado na guia **[!UICONTROL Relatórios]** ao escolher a opção **Últimos X dias** na lista suspensa **[!UICONTROL Intervalo de datas predefinido]**. (TGT-51637)
+
+* **Não é possível salvar a Atividade baseada em Formulário com determinados caracteres GB18030 no [!UICONTROL Local].** Correção de um problema em que não era possível salvar uma atividade baseada em formulário quando o campo **[!UICONTROL Local]** continha caracteres GB18030 específicos. (TGT-46980)
+
++++
+
+**[!UICONTROL Públicos-alvo]**
+
++++Ver detalhes
+
+* **Calendário não localizado em Criar fluxo de público-alvo para chinês simplificado e tradicional.** Correção de um problema em que o calendário nos campos **[!UICONTROL Início]** e **[!UICONTROL Fim]** dos atributos **[!UICONTROL Intervalo de tempo]** não era localizado nas localidades do chinês simplificado (CHS) e do chinês tradicional (CHT) durante o fluxo Criar público. (TGT-50619)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalhes
+
+* **Dicas de ferramenta não localizadas no Criador de atividades atualizado.** Correção de problemas de localização em que as dicas de ferramentas de informações de **[!UICONTROL Refinamentos]** e **[!UICONTROL Conteúdo]** não foram localizadas no construtor de atividades atualizado do [!UICONTROL Visual Experience Composer]. (TGT-53721)
+
+* **Deslocalizou [!UICONTROL Todos os Visitantes] em [!UICONTROL Públicos-alvo].** Correção de um problema em que a sequência de caracteres **[!UICONTROL Todos os visitantes]** em **[!UICONTROL Públicos-alvo de experiência]** no painel esquerdo não estava localizada no [!UICONTROL Visual Experience Composer]. (TGT-50086)
+
++++
+
+**[!UICONTROL Relatórios]**
+
++++Ver detalhes
+
+* **Formato de data não localizado na janela [!UICONTROL Criar Predefinição].** Correção de um problema em que o formato de data no campo **[!UICONTROL Intervalo de datas]** da janela **[!UICONTROL Criar predefinição]** não foi localizado. (TGT-49239)
+
++++
+
+**Localização**
+
++++Ver detalhes
+
+* Exibição de caracteres **GB18030 em várias áreas.** Correção de problemas em que alguns caracteres da Área de Uso Privada eram exibidos incorretamente como letras na interface do usuário do **[!UICONTROL Público]**, **[!UICONTROL Administração]** > **[!UICONTROL Propriedades]**, configuração de visor móvel e notificações do sistema. (TGT-49622, TGT-49623, TGT-49624, &amp; TGT-49625)
 
 +++
 
