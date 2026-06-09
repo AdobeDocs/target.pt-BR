@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 74f3658c059fce7534f974d25fa5536ff3d52129
+source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
 workflow-type: tm+mt
-source-wordcount: 70383
+source-wordcount: 70482
 ht-degree: 49%
 
 ---
@@ -87,6 +87,38 @@ Esse recurso está disponível para todos os clientes no Public Beta.
 Para obter mais informações, consulte [[!DNL Adobe Target] servidor MCP](../c-integrating-target-with-mac/mcp/target-mcp.md).
 
 +++
+
+## [!DNL Target Standard/Premium] 26.5.3 (21 de maio de 2026)
+
+**[!UICONTROL Novidades] página**
+
++++Ver detalhes
+
+* **Nova [!UICONTROL Página de novidades].** Adição de uma nova página **[!UICONTROL Novidades]** na interface do usuário do [!DNL Adobe Target] para ajudá-lo a descobrir os recursos, aprimoramentos e atualizações mais recentes sem sair do produto. (TGT-55137)
+
++++
+
+**Atividades**
+
++++Ver detalhes
+
+* **Experiência errada selecionada ao editar o Direcionamento nas atividades de [!UICONTROL Automated Personalization].** Correção de um problema em que a experiência incorreta podia ser selecionada durante a edição da etapa **[!UICONTROL Direcionamento]** em uma atividade [!UICONTROL Automated Personalization] (AP). (TGT-55176)
+
+* **Data anterior ao fechar uma atividade agendada.** Correção de um problema que impedia a seleção de uma data anterior para fechar uma atividade agendada. (TGT-55163)
+
++++
+
+<!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
+
++++
+-->
 
 ## [!DNL Target Standard/Premium] 26.5.1 (7 de maio de 2026)
 
@@ -249,7 +281,7 @@ Para obter mais informações, consulte [[!DNL Adobe Target] servidor MCP](../c-
 
 +++Ver detalhes
 
-* **Precisão do rótulo de origem do público-alvo na interface de Públicos-alvo.** Correção de um problema em que públicos-alvo provenientes do destino Adobe Target v2 no Adobe Experience Platform podiam aparecer com **Adobe Experience Cloud** como origem em vez de **Adobe Experience Platform**. Essa atualização melhora a consistência do rótulo de origem ao filtrar e revisar públicos. (TGT-54802)
+* **Precisão do rótulo de origem do público-alvo na interface de Públicos-alvo.** Correção de um problema em que públicos-alvo provenientes do destino do Adobe Target v2 no Adobe Experience Platform podiam aparecer com **Adobe Experience Cloud** como origem em vez de **Adobe Experience Platform**. Essa atualização melhora a consistência do rótulo de origem ao filtrar e revisar públicos. (TGT-54802)
 
 +++
 
@@ -1708,7 +1740,7 @@ Esta versão do inclui as seguintes correções e atualizações:
 * Correção de um problema que impedia que os grupos de relatórios persistissem nas atividades de [!UICONTROL Automated Personalization] (AP). (TGT-52368)
 * Correção de um problema que impedia o salvamento de atividades que incluíam o Offer Decisioning. (TGT-52390)
 * Correção de um problema em que a oferta padrão era selecionada, mas o outro conteúdo da oferta era exibido nas atividades de [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Teste multivariado] (MVT). (TGT-52372)
-* Correção da lógica de permissões do GET para verificar com OU entre o acesso completo à organização e o acesso específico à organização + usuário. (TGT-52374)
+* Correção da lógica de permissões GET para verificar com OU entre o acesso completo à organização e o acesso específico à organização + usuário. (TGT-52374)
 * Correção de um problema em que os nomes de público-alvo não eram exibidos após selecionar um público-alvo para [!UICONTROL Conteúdo gerenciado] e [!UICONTROL Relatórios de públicos-alvo], mesmo que [!UICONTROL Mostrar apenas selecionados] estivesse habilitado. (TGT-52393)
 
 ### [!DNL Target Standard/Premium] 25.5.1 (5 de maio de 2025)
