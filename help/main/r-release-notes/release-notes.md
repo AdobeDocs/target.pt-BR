@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
+source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
 workflow-type: tm+mt
-source-wordcount: 652
-ht-degree: 41%
+source-wordcount: 467
+ht-degree: 57%
 
 ---
 
@@ -31,51 +31,17 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 26.6.1 (4 de junho de 2026)
-
-**Atividades**
-
-+++Ver detalhes
-
-* **URL de atividade incompleta em [!UICONTROL Visão geral da atividade].** Correção de um problema em que a [!UICONTROL Visão geral da atividade] não exibia a URL completa de uma atividade. (TGT-54029)
-
-* **Formato de data não localizado nos Relatórios de atividade.** Correção de um problema em que o formato de data não estava localizado na guia **[!UICONTROL Relatórios]** ao escolher a opção **Últimos X dias** na lista suspensa **[!UICONTROL Intervalo de datas predefinido]**. (TGT-51637)
-
-* **Não é possível salvar a Atividade baseada em Formulário com determinados caracteres GB18030 no [!UICONTROL Local].** Correção de um problema em que não era possível salvar uma atividade baseada em formulário quando o campo **[!UICONTROL Local]** continha caracteres GB18030 específicos. (TGT-46980)
-
-+++
-
-**[!UICONTROL Públicos-alvo]**
-
-+++Ver detalhes
-
-* **Calendário não localizado em Criar fluxo de público-alvo para chinês simplificado e tradicional.** Correção de um problema em que o calendário nos campos **[!UICONTROL Início]** e **[!UICONTROL Fim]** dos atributos **[!UICONTROL Intervalo de tempo]** não era localizado nas localidades do chinês simplificado (CHS) e do chinês tradicional (CHT) durante o fluxo Criar público. (TGT-50619)
-
-+++
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++Ver detalhes
-
-* **Dicas de ferramenta não localizadas no Criador de atividades atualizado.** Correção de problemas de localização em que as dicas de ferramentas de informações de **[!UICONTROL Refinamentos]** e **[!UICONTROL Conteúdo]** não foram localizadas no construtor de atividades atualizado do [!UICONTROL Visual Experience Composer]. (TGT-53721)
-
-* **Deslocalizou [!UICONTROL Todos os Visitantes] em [!UICONTROL Públicos-alvo].** Correção de um problema em que a sequência de caracteres **[!UICONTROL Todos os visitantes]** em **[!UICONTROL Públicos-alvo de experiência]** no painel esquerdo não estava localizada no [!UICONTROL Visual Experience Composer]. (TGT-50086)
-
-+++
-
-**[!UICONTROL Relatórios]**
-
-+++Ver detalhes
-
-* **Formato de data não localizado na janela [!UICONTROL Criar Predefinição].** Correção de um problema em que o formato de data no campo **[!UICONTROL Intervalo de datas]** da janela **[!UICONTROL Criar predefinição]** não foi localizado. (TGT-49239)
-
-+++
+## [!DNL Target Standard/Premium] 26.6.3 (11 de junho de 2026)
 
 **Localização**
 
 +++Ver detalhes
 
-* Exibição de caracteres **GB18030 em várias áreas.** Correção de problemas em que alguns caracteres da Área de Uso Privada eram exibidos incorretamente como letras na interface do usuário do **[!UICONTROL Público]**, **[!UICONTROL Administração]** > **[!UICONTROL Propriedades]**, configuração de visor móvel e notificações do sistema. (TGT-49622, TGT-49623, TGT-49624, &amp; TGT-49625)
+* **Primeiro dia da semana não localizado nos modais do Audience calendar durante a criação da atividade.** Correção de um problema em que o primeiro dia da semana não era localizado no calendário nos modais **[!UICONTROL Criar]**, **[!UICONTROL Editar]** e **[!UICONTROL Duplicar público]** durante a criação da Atividade. (TGT-50510)
+
+* **Formato de porcentagem não localizado nos relatórios de visão geral da atividade.** Correção de um problema em que o formato de porcentagem não estava localizado em uma tabela na guia **[!UICONTROL Relatórios]** da página **[!UICONTROL Visão geral da atividade]**. (TGT-50094)
+
+* **Formato de número não localizado na caixa de diálogo [!UICONTROL Criar Critérios].** Correção de um problema em que o formato de número não foi localizado na caixa de diálogo **[!UICONTROL Criar Critérios]** em **[!UICONTROL Recommendations]**. (TGT-52250)
 
 +++
 
@@ -116,7 +82,7 @@ Além das notas para cada versão, os recursos a seguir oferecem informações a
 |--- |--- |
 | [Alterações de documentação](/help/main/r-release-notes/doc-change.md) | Veja informações detalhadas sobre atualizações neste manual que podem não estar incluídas nas notas de versão. |
 | [Notas de versões anteriores](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Veja informações sobre os novos recursos e aprimoramentos das versões anteriores do Target Standard e do Target Premium. |
-| [Notas de versão da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR){target=_blank} | Veja as notas de versão mais recentes das soluções da Adobe Experience Cloud. |
+| [Notas de versão do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR){target=_blank} | Veja as notas de versão mais recentes das soluções da Adobe Experience Cloud. |
 
 ## Informações de pré-lançamento {#section_5D588F0415A2435B851A4D0113ACA3A0}
 

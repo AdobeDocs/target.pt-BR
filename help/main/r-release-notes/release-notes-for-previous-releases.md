@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
+source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
 workflow-type: tm+mt
-source-wordcount: 70482
+source-wordcount: 70774
 ht-degree: 49%
 
 ---
@@ -57,6 +57,54 @@ As notas de versão estão listadas em ordem decrescente por mês e ano da vers�
 >Consulte [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2026
+
+## [!DNL Target Standard/Premium] 26.6.1 (4 de junho de 2026)
+
+**Atividades**
+
++++Ver detalhes
+
+* **URL de atividade incompleta em [!UICONTROL Visão geral da atividade].** Correção de um problema em que a [!UICONTROL Visão geral da atividade] não exibia a URL completa de uma atividade. (TGT-54029)
+
+* **Formato de data não localizado nos Relatórios de atividade.** Correção de um problema em que o formato de data não estava localizado na guia **[!UICONTROL Relatórios]** ao escolher a opção **Últimos X dias** na lista suspensa **[!UICONTROL Intervalo de datas predefinido]**. (TGT-51637)
+
+* **Não é possível salvar a Atividade baseada em Formulário com determinados caracteres GB18030 no [!UICONTROL Local].** Correção de um problema em que não era possível salvar uma atividade baseada em formulário quando o campo **[!UICONTROL Local]** continha caracteres GB18030 específicos. (TGT-46980)
+
++++
+
+**[!UICONTROL Públicos-alvo]**
+
++++Ver detalhes
+
+* **Calendário não localizado em Criar fluxo de público-alvo para chinês simplificado e tradicional.** Correção de um problema em que o calendário nos campos **[!UICONTROL Início]** e **[!UICONTROL Fim]** dos atributos **[!UICONTROL Intervalo de tempo]** não era localizado nas localidades do chinês simplificado (CHS) e do chinês tradicional (CHT) durante o fluxo Criar público. (TGT-50619)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalhes
+
+* **Dicas de ferramenta não localizadas no Criador de atividades atualizado.** Correção de problemas de localização em que as dicas de ferramentas de informações de **[!UICONTROL Refinamentos]** e **[!UICONTROL Conteúdo]** não foram localizadas no construtor de atividades atualizado do [!UICONTROL Visual Experience Composer]. (TGT-53721)
+
+* **Deslocalizou [!UICONTROL Todos os Visitantes] em [!UICONTROL Públicos-alvo].** Correção de um problema em que a sequência de caracteres **[!UICONTROL Todos os visitantes]** em **[!UICONTROL Públicos-alvo de experiência]** no painel esquerdo não estava localizada no [!UICONTROL Visual Experience Composer]. (TGT-50086)
+
++++
+
+**[!UICONTROL Relatórios]**
+
++++Ver detalhes
+
+* **Formato de data não localizado na janela [!UICONTROL Criar Predefinição].** Correção de um problema em que o formato de data no campo **[!UICONTROL Intervalo de datas]** da janela **[!UICONTROL Criar predefinição]** não foi localizado. (TGT-49239)
+
++++
+
+**Localização**
+
++++Ver detalhes
+
+* Exibição de caracteres **GB18030 em várias áreas.** Correção de problemas em que alguns caracteres da Área de Uso Privada eram exibidos incorretamente como letras na interface do usuário do **[!UICONTROL Público]**, **[!UICONTROL Administração]** > **[!UICONTROL Propriedades]**, configuração de visor móvel e notificações do sistema. (TGT-49622, TGT-49623, TGT-49624, &amp; TGT-49625)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.5.2 (14 de maio de 2026)
 
@@ -915,7 +963,7 @@ Esta versão inclui as seguintes atualizações e correções:
 * A **Pesquisa avançada na interface atualizada da [!UICONTROL Pesquisa no Catálogo de Produtos] não forneceu sugestões**: os clientes que usam o recurso de pesquisa avançada na interface atualizada da [!UICONTROL Pesquisa no Catálogo de Produtos] precisaram inserir valores exatos com ortografia correta, pois nenhuma sugestão foi exibida. Esse problema dificultava a localização eficiente dos produtos. Agora as sugestões são exibidas conforme esperado durante a entrada da pesquisa avançada. (TGT-52008)
 * **Alguns aprovadores não puderam exibir produtos na [!UICONTROL Pesquisa de Catálogo de Produtos]**: Clientes com permissões de [!UICONTROL Aprovador] não puderam ver produtos na [!UICONTROL Pesquisa de Catálogo de Produtos], apesar de outros usuários com funções idênticas terem acesso. Esse problema foi causado por uma inconsistência de permissões que afetava a visibilidade do catálogo. Todos os aprovadores agora podem exibir produtos na seção [!UICONTROL Recommendations], conforme esperado. (TGT-53617)
 
-+++
++++ 
 
 **[!UICONTROL Relatórios]**
 
