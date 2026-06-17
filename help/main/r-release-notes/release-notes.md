@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
+source-git-commit: d27429b3a9db223c7aca394c98e67969db399db1
 workflow-type: tm+mt
-source-wordcount: 467
-ht-degree: 57%
+source-wordcount: 546
+ht-degree: 49%
 
 ---
 
@@ -31,17 +31,35 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 26.6.3 (11 de junho de 2026)
+## [!DNL Target Standard/Premium] 26.6.4 (16 de junho de 2026)
+
+**Atividades**
+
++++Ver detalhes
+
+* **[!UICONTROL Salvar e fechar] na interface atualizada [!DNL Target].** Restaurada a opção **[!UICONTROL Salvar e fechar]** na interface atualizada [!DNL Target]. (TGT-55152)
+
+* **URLs de garantia da qualidade na interface do usuário [!DNL Target] atualizada.** Correção de um problema em que as URLs de garantia da qualidade não funcionavam corretamente na interface do usuário atualizada [!DNL Target]. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+
++++
 
 **Localização**
 
 +++Ver detalhes
 
-* **Primeiro dia da semana não localizado nos modais do Audience calendar durante a criação da atividade.** Correção de um problema em que o primeiro dia da semana não era localizado no calendário nos modais **[!UICONTROL Criar]**, **[!UICONTROL Editar]** e **[!UICONTROL Duplicar público]** durante a criação da Atividade. (TGT-50510)
+* **Formato de porcentagem não localizado nos relatórios de gráfico de visão geral da atividade.** Correção de um problema em que o formato de porcentagem não estava localizado no gráfico na **[!UICONTROL exibição em gráfico]** da guia **[!UICONTROL Relatórios]** na página **[!UICONTROL Visão geral da atividade]**. (TGT-50100)
 
-* **Formato de porcentagem não localizado nos relatórios de visão geral da atividade.** Correção de um problema em que o formato de porcentagem não estava localizado em uma tabela na guia **[!UICONTROL Relatórios]** da página **[!UICONTROL Visão geral da atividade]**. (TGT-50094)
+* **Caracteres japoneses na URL da atividade.** Correção de um problema em que os caracteres japoneses na URL da atividade pareciam corrompidos na página **[!UICONTROL Visão geral da atividade]** e na lista de atividades após você salvar uma atividade. (TGT-53459)
 
-* **Formato de número não localizado na caixa de diálogo [!UICONTROL Criar Critérios].** Correção de um problema em que o formato de número não foi localizado na caixa de diálogo **[!UICONTROL Criar Critérios]** em **[!UICONTROL Recommendations]**. (TGT-52250)
+* **Carimbo de data/hora não localizado no nome de atividade padrão.** Correção de um problema em que o carimbo de data e hora não era localizado no título da atividade quando você retinha o nome da atividade padrão durante a criação da atividade. (TGT-53273)
+
++++
+
+**[!UICONTROL Recomendações]**
+
++++Ver detalhes
+
+* **Caracteres multibyte na URL após a criação dos feeds.** Correção de um problema em que os caracteres com vários bytes pareciam corrompidos na URL após a criação dos feeds. (TGT-54793)
 
 +++
 
