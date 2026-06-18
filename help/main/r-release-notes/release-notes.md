@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d27429b3a9db223c7aca394c98e67969db399db1
+source-git-commit: 3fc6930bcff97685e6f3f6dab1a32db05fbfed8a
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 49%
+source-wordcount: 612
+ht-degree: 44%
 
 ---
 
@@ -30,6 +30,24 @@ ht-degree: 49%
 Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe Target]. Essas notas de versão também abrangem atualizações para APIs do [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outros componentes da plataforma, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 26.6.5 (17 de junho de 2026)
+
+**Atividades**
+
++++Ver detalhes
+
+* **Erro quando uma atividade usa públicos excluídos na origem.** Correção de um problema em que você podia ver um erro indicando que uma atividade usa um ou mais públicos-alvo que foram excluídos na origem. (TGT-55272)
+
++++
+
+**[!UICONTROL Analytics para Target] (A4T)**
+
++++Ver detalhes
+
+* **Relatórios do A4T não visíveis.** Correção de um problema em que os relatórios do [!UICONTROL Analytics for Target] (A4T) não eram exibidos. (TGT-55432)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.4 (16 de junho de 2026)
 
