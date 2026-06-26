@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3fc6930bcff97685e6f3f6dab1a32db05fbfed8a
+source-git-commit: aab659046a6583aeedaf8ec34803b0751bebe3c6
 workflow-type: tm+mt
-source-wordcount: 612
-ht-degree: 44%
+source-wordcount: 546
+ht-degree: 49%
 
 ---
 
@@ -31,33 +31,15 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 26.6.5 (17 de junho de 2026)
+## [!DNL Target Standard/Premium] 26.6.8 (24 de junho de 2026)
 
 **Atividades**
 
 +++Ver detalhes
 
-* **Erro quando uma atividade usa públicos excluídos na origem.** Correção de um problema em que você podia ver um erro indicando que uma atividade usa um ou mais públicos-alvo que foram excluídos na origem. (TGT-55272)
+* **O filtro Source para API e MCP criou recursos.** Correção de um problema em que a filtragem por [!UICONTROL API do Adobe Target] ou [!UICONTROL MCP do Adobe Target] não funcionava nas páginas de listagem de atividades, públicos e ofertas. (TGT-55236)
 
-+++
-
-**[!UICONTROL Analytics para Target] (A4T)**
-
-+++Ver detalhes
-
-* **Relatórios do A4T não visíveis.** Correção de um problema em que os relatórios do [!UICONTROL Analytics for Target] (A4T) não eram exibidos. (TGT-55432)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.6.4 (16 de junho de 2026)
-
-**Atividades**
-
-+++Ver detalhes
-
-* **[!UICONTROL Salvar e fechar] na interface atualizada [!DNL Target].** Restaurada a opção **[!UICONTROL Salvar e fechar]** na interface atualizada [!DNL Target]. (TGT-55152)
-
-* **URLs de garantia da qualidade na interface do usuário [!DNL Target] atualizada.** Correção de um problema em que as URLs de garantia da qualidade não funcionavam corretamente na interface do usuário atualizada [!DNL Target]. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+* **Valores do filtro de origem da atividade.** Correção de um problema em que o filtro de origem [!UICONTROL API do Adobe Target] ou [!UICONTROL MCP do Adobe Target] não exibia públicos recém-criados pela API. (TGT-55237)
 
 +++
 
@@ -65,33 +47,15 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 +++Ver detalhes
 
-* **Formato de porcentagem não localizado nos relatórios de gráfico de visão geral da atividade.** Correção de um problema em que o formato de porcentagem não estava localizado no gráfico na **[!UICONTROL exibição em gráfico]** da guia **[!UICONTROL Relatórios]** na página **[!UICONTROL Visão geral da atividade]**. (TGT-50100)
+* **Cadeias de caracteres não localizadas no modal [!UICONTROL Criar Oferta JSON].** Correção de um problema em que as cadeias de caracteres no modal [!UICONTROL Criar Oferta JSON], incluindo [!UICONTROL Nome] e [!UICONTROL Workspace], não eram localizadas durante a criação da atividade. (TGT-50084)
 
-* **Caracteres japoneses na URL da atividade.** Correção de um problema em que os caracteres japoneses na URL da atividade pareciam corrompidos na página **[!UICONTROL Visão geral da atividade]** e na lista de atividades após você salvar uma atividade. (TGT-53459)
+* **Mensagem de notificação do sistema não localizada em uma atividade [!UICONTROL Recommendations].** Correção de um problema em que uma mensagem em caixa de informações não localizada aparecia ao adicionar recomendações em uma atividade [!UICONTROL Recommendations] baseada em formulário. (TGT-50463)
 
-* **Carimbo de data/hora não localizado no nome de atividade padrão.** Correção de um problema em que o carimbo de data e hora não era localizado no título da atividade quando você retinha o nome da atividade padrão durante a criação da atividade. (TGT-53273)
+* **Sequência de caracteres não localizada nas [!UICONTROL Coleções] e [!UICONTROL Exclusões].** Correção de um problema em que a sequência de caracteres &quot;Carga do item&quot; não estava localizada nas caixas de diálogo [!UICONTROL Coleções] e [!UICONTROL Exclusões] em [!UICONTROL Recomendações]. (TGT-51542)
 
-+++
-
-**[!UICONTROL Recomendações]**
-
-+++Ver detalhes
-
-* **Caracteres multibyte na URL após a criação dos feeds.** Correção de um problema em que os caracteres com vários bytes pareciam corrompidos na URL após a criação dos feeds. (TGT-54793)
+* **Cadeia de caracteres &quot;Aprovador&quot; deslocalizada na guia [!UICONTROL Públicos-alvo].** Correção de um problema em que a cadeia de caracteres &quot;Aprovador&quot; não estava localizada na coluna [!UICONTROL Workspace] da página [!UICONTROL Biblioteca de público-alvo]. (TGT-51751)
 
 +++
-
-<!--
-* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++See details
-
-* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
-
-+++
--->
 
 ## Atualizações sensíveis ao tempo que você precisa saber {#time-sensitive}
 

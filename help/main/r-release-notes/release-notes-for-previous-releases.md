@@ -39,10 +39,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 73ba5f706fc160c2cec1be31502edf5b05b0636d
+source-git-commit: 7c0425e7e8b3fd71f87b36da74af16d64da32bfa
 workflow-type: tm+mt
-source-wordcount: 70881
-ht-degree: 49%
+source-wordcount: 71133
+ht-degree: 48%
 
 ---
 
@@ -57,6 +57,68 @@ As notas de versão estão listadas em ordem decrescente por mês e ano da vers�
 >Consulte [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2026
+
+## [!DNL Target Standard/Premium] 26.6.5 (17 de junho de 2026)
+
+**Atividades**
+
++++Ver detalhes
+
+* **Erro quando uma atividade usa públicos excluídos na origem.** Correção de um problema em que você podia ver um erro indicando que uma atividade usa um ou mais públicos-alvo que foram excluídos na origem. (TGT-55272)
+
++++
+
+**[!UICONTROL Analytics para Target] (A4T)**
+
++++Ver detalhes
+
+* **Relatórios do A4T não visíveis.** Correção de um problema em que os relatórios do [!UICONTROL Analytics for Target] (A4T) não eram exibidos. (TGT-55432)
+
++++ 
+
+## [!DNL Target Standard/Premium] 26.6.4 (16 de junho de 2026)
+
+**Atividades**
+
++++Ver detalhes
+
+* **[!UICONTROL Salvar e fechar] na interface atualizada [!DNL Target].** Restaurada a opção **[!UICONTROL Salvar e fechar]** na interface atualizada [!DNL Target]. (TGT-55152)
+
+* **URLs de garantia da qualidade na interface do usuário [!DNL Target] atualizada.** Correção de um problema em que as URLs de garantia da qualidade não funcionavam corretamente na interface do usuário atualizada [!DNL Target]. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+
++++
+
+**Localização**
+
++++Ver detalhes
+
+* **Formato de porcentagem não localizado nos relatórios de gráfico de visão geral da atividade.** Correção de um problema em que o formato de porcentagem não estava localizado no gráfico na **[!UICONTROL exibição em gráfico]** da guia **[!UICONTROL Relatórios]** na página **[!UICONTROL Visão geral da atividade]**. (TGT-50100)
+
+* **Caracteres japoneses na URL da atividade.** Correção de um problema em que os caracteres japoneses na URL da atividade pareciam corrompidos na página **[!UICONTROL Visão geral da atividade]** e na lista de atividades após você salvar uma atividade. (TGT-53459)
+
+* **Carimbo de data/hora não localizado no nome de atividade padrão.** Correção de um problema em que o carimbo de data e hora não era localizado no título da atividade quando você retinha o nome da atividade padrão durante a criação da atividade. (TGT-53273)
+
++++
+
+**[!UICONTROL Recomendações]**
+
++++Ver detalhes
+
+* **Caracteres multibyte na URL após a criação dos feeds.** Correção de um problema em que os caracteres com vários bytes pareciam corrompidos na URL após a criação dos feeds. (TGT-54793)
+
++++
+
+<!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
+
++++
+-->
 
 ## [!DNL Target Standard/Premium] 26.6.3 (11 de junho de 2026)
 
@@ -5304,7 +5366,7 @@ Esta versão inclui os seguintes recursos e melhorias:
       <li id="li_C47240826E5844D6843314F453F042FC">A navegação foi movida da esquerda para a parte superior </li> 
       <li id="li_3BB03504E98C40CC85583DCD9A4CEA06">Caixas de diálogo melhoradas </li> 
       <li id="li_AE71506DF1E748A788C40E1F09951732">O fluxo de criação de atividades foi melhorado </li> 
-     </ul> </p> <p>A maneira como as soluções da Experience Cloud, incluindo o Target, são selecionadas também mudou. Para acessar as soluções e os serviços da Experience Cloud, clique no ícone de menu: </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>Para obter mais informações sobre como acessar o Target e torná-lo sua página padrão depois de fazer logon na Experience Cloud, consulte <a href="/help/main/c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local"> Acessar o Target da Adobe Experience Cloud </a>. </p></td> 
+     </ul> </p> <p>A maneira como as soluções da Experience Cloud, incluindo o Target, são selecionadas também mudou. Para acessar as soluções e os serviços da Experience Cloud, clique no ícone de menu: </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>Para obter mais informações sobre como acessar o Target e torná-lo sua página padrão depois de fazer logon na Experience Cloud, consulte <a href="/help/main/c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local"> Acessar o Target na Adobe Experience Cloud </a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> As regras de inclusão podem ser desativadas para recomendações de backup </td> 
