@@ -5,18 +5,13 @@ title: O que é o rastreamento de cliques?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 TQID: https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 69d580451d5d25ec6642fd2035a5537c9096541c
 workflow-type: tm+mt
-source-wordcount: 903
-ht-degree: 77%
+source-wordcount: 942
+ht-degree: 73%
 
 ---
 
@@ -110,6 +105,8 @@ Há várias coisas a considerar ao selecionar elementos:
 * Use públicos-alvo se for necessário restringir o escopo das métricas de rastreamento de cliques.
 
 * Várias atividades podem definir uma métrica de rastreamento de cliques para o mesmo seletor. Em caso positivo, quando um visitante se qualifica para uma dessas atividades e clica nesse seletor, a métrica de rastreamento de cliques aumenta para todas as atividades associadas para as quais o visitante se qualificou.
+
+* Para atividades de [!UICONTROL Automated Personalization] (AP) e Direcionamento automático em aplicativos de página única (SPAs), você pode selecionar elementos para o rastreamento de cliques que pertencem a uma Exibição [!DNL Target] específica. Para obter mais informações sobre Exibições, consulte [Exibições do Adobe Target e Aplicativos de Página Única](/help/main/c-experiences/spa-visual-experience-composer.md).
 
 ## Vídeo de Treinamento {#section_36607204DAE146E3B8E2C609D244EDB1}
 
