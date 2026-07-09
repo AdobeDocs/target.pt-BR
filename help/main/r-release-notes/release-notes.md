@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: aab659046a6583aeedaf8ec34803b0751bebe3c6
+source-git-commit: 327891a5a9112dfacfca1c049adaef54b218676e
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 49%
+source-wordcount: 719
+ht-degree: 37%
 
 ---
 
@@ -39,7 +39,40 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 * **O filtro Source para API e MCP criou recursos.** Correção de um problema em que a filtragem por [!UICONTROL API do Adobe Target] ou [!UICONTROL MCP do Adobe Target] não funcionava nas páginas de listagem de atividades, públicos e ofertas. (TGT-55236)
 
-* **Valores do filtro de origem da atividade.** Correção de um problema em que o filtro de origem [!UICONTROL API do Adobe Target] ou [!UICONTROL MCP do Adobe Target] não exibia públicos recém-criados pela API. (TGT-55237)
++++
+
+**[!UICONTROL Analytics para Target] (A4T)**
+
++++Ver detalhes
+
+* **Relatórios do A4T não visíveis.** Correção de um problema em que os relatórios do [!UICONTROL Analytics for Target] (A4T) não eram exibidos. (TGT-55432)
+
++++
+
+**[!DNL Adobe Target]servidor MCP**
+
++++Ver detalhes
+
+* **Ferramentas de atividade consolidadas.** As ferramentas de atividade do servidor MCP [!DNL Adobe Target] foram consolidadas para reduzir a sobrecarga de seleção de ferramentas e estender a cobertura de leitura e relatórios a todos os tipos de atividades. Seis ferramentas por tipo foram substituídas por quatro ferramentas unificadas:
+
+   * `get_activity` substitui `get_ab_activity`, `get_xt_activity` e `get_abt_activity`. Recupera detalhes completos da atividade para todos os tipos: Teste A/B, Direcionamento de experiência, Automated Personalization, Alocação automática, Teste multivariado (MVT) e Recommendations. O tipo de atividade é detectado automaticamente a partir da ID.
+   * `update_activity` substitui `update_ab_activity`, `update_xt_activity` e `update_abt_activity`. Oferece suporte a atividades de Teste A/B, Direcionamento de experiência e Automated Personalization; as atividades de Alocação automática, MVT e Recommendations são somente leitura.
+   * `get_activity_performance_report` substitui `get_ab_performance_report` e `get_xt_performance_report`. Recupera métricas de conversão, aumento e confiança para todos os tipos de atividades.
+   * `get_activity_orders_report` substitui `get_ab_orders_report` e `get_xt_orders_report`. Recupera métricas de pedido e receita para todos os tipos de atividades.
+
+  Para obter mais informações, consulte [[!DNL Adobe Target] Referência de ferramentas do servidor MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
+
++++
+
+## [!DNL Target Standard/Premium] 26.6.4 (16 de junho de 2026)
+
+**Atividades**
+
++++Ver detalhes
+
+* **[!UICONTROL Salvar e fechar] na interface atualizada [!DNL Target].** Restaurada a opção **[!UICONTROL Salvar e fechar]** na interface atualizada [!DNL Target]. (TGT-55152)
+
+* **URLs de garantia da qualidade na interface do usuário [!DNL Target] atualizada.** Correção de um problema em que as URLs de garantia da qualidade não funcionavam corretamente na interface do usuário atualizada [!DNL Target]. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
 
 +++
 
@@ -82,7 +115,7 @@ Além das notas para cada versão, os recursos a seguir oferecem informações a
 |--- |--- |
 | [Alterações de documentação](/help/main/r-release-notes/doc-change.md) | Veja informações detalhadas sobre atualizações neste manual que podem não estar incluídas nas notas de versão. |
 | [Notas de versões anteriores](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Veja informações sobre os novos recursos e aprimoramentos das versões anteriores do Target Standard e do Target Premium. |
-| [Notas de versão do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR){target=_blank} | Veja as notas de versão mais recentes das soluções da Adobe Experience Cloud. |
+| [Notas de versão da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR){target=_blank} | Veja as notas de versão mais recentes das soluções da Adobe Experience Cloud. |
 
 ## Informações de pré-lançamento {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
