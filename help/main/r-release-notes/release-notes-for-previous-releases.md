@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 7c0425e7e8b3fd71f87b36da74af16d64da32bfa
+source-git-commit: 1175d9840a6607f7fea5e5ac6f768d12cdf52c8d
 workflow-type: tm+mt
-source-wordcount: 71133
+source-wordcount: 71521
 ht-degree: 48%
 
 ---
@@ -57,6 +57,32 @@ As notas de versão estão listadas em ordem decrescente por mês e ano da vers�
 >Consulte [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2026
+
+## [!DNL Target Standard/Premium] 26.6.8 (24 de junho de 2026)
+
+**Atividades**
+
++++Ver detalhes
+
+* **O filtro Source para API e MCP criou recursos.** Correção de um problema em que a filtragem por [!UICONTROL API do Adobe Target] ou [!UICONTROL MCP do Adobe Target] não funcionava nas páginas de listagem de atividades, públicos e ofertas. (TGT-55236)
+
+* **Valores do filtro de origem da atividade.** Correção de um problema em que o filtro de origem [!UICONTROL API do Adobe Target] ou [!UICONTROL MCP do Adobe Target] não exibia públicos recém-criados pela API. (TGT-55237)
+
++++
+
+**Localização**
+
++++Ver detalhes
+
+* **Cadeias de caracteres não localizadas no modal [!UICONTROL Criar Oferta JSON].** Correção de um problema em que as cadeias de caracteres no modal [!UICONTROL Criar Oferta JSON], incluindo [!UICONTROL Nome] e [!UICONTROL Workspace], não eram localizadas durante a criação da atividade. (TGT-50084)
+
+* **Mensagem de notificação do sistema não localizada em uma atividade [!UICONTROL Recommendations].** Correção de um problema em que uma mensagem em caixa de informações não localizada aparecia ao adicionar recomendações em uma atividade [!UICONTROL Recommendations] baseada em formulário. (TGT-50463)
+
+* **Sequência de caracteres não localizada nas [!UICONTROL Coleções] e [!UICONTROL Exclusões].** Correção de um problema em que a sequência de caracteres &quot;Carga do item&quot; não estava localizada nas caixas de diálogo [!UICONTROL Coleções] e [!UICONTROL Exclusões] em [!UICONTROL Recomendações]. (TGT-51542)
+
+* **Cadeia de caracteres &quot;Aprovador&quot; deslocalizada na guia [!UICONTROL Públicos-alvo].** Correção de um problema em que a cadeia de caracteres &quot;Aprovador&quot; não estava localizada na coluna [!UICONTROL Workspace] da página [!UICONTROL Biblioteca de público-alvo]. (TGT-51751)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.5 (17 de junho de 2026)
 
@@ -781,8 +807,7 @@ Esta versão inclui as seguintes atualizações e correções:
 * **Estabilidade de criação restaurada na interface de Criação de Atividade.** Solução de um problema intermitente na interface do VEC que causava a falha da criação e fazia com que os links se tornassem clicáveis inesperadamente, redirecionando os usuários para fora da página. (TGT-53153)
 * **Edição restaurada para atividades salvas na interface de Criação de Atividade.** Correção de um problema que impedia os usuários de editar atividades após salvar modificações. As atividades afetadas permaneceram presas em &quot;[!UICONTROL Aplicando modificações iniciais]&quot;, bloqueando mais atualizações e ocultando o botão [!UICONTROL Cancelar]. (TGT-53631)
 * **O VEC não é mais interrompido em &quot;[!UICONTROL Aplicando modificações iniciais].&quot;** Solução de um problema de desempenho no VEC que causava longos atrasos ao carregar experiências com um alto número de modificações. Os usuários afetados viram a interface travar em &quot;[!UICONTROL Aplicando modificações iniciais]&quot; por vários minutos, especialmente em cenários da Experiência B. (TGT-53727)
-* **O VEC agora carrega modificações sem elementos raiz.**
-Correção de um problema no VEC que causava a paralisação das experiências ao carregar modificações que não tinham um elemento raiz claro. Essas modificações fizeram com que a interface travasse indefinidamente em &quot;A[!UICONTROL aplicando modificações iniciais]&quot;. (TGT-53799)
+* **O VEC agora carrega modificações sem elementos raiz.Correção de um problema no VEC que causava a paralisação das experiências ao carregar modificações que não tinham um elemento raiz claro. Essas modificações fizeram com que a interface travasse indefinidamente em &quot;A[!UICONTROL aplicando modificações iniciais]&quot;. (TGT-53799)
 * **Salvar alterações nas atividades agora funciona conforme esperado.** Solução de um problema relacionado a permissões na Nova interface de criação que impedia os usuários de salvar alterações ao editar metas e configurações avançadas em atividades do. Os usuários afetados viam uma faixa de erros vermelha e uma mensagem &quot;Forbidden.Resource&quot;, apesar de terem acesso apropriado. (TGT-53816)
 * A **Interface do VEC agora preserva as modificações de experiência nas exibições.** Solução de vários problemas no VEC atualizado que afetavam o desenvolvimento da experiência. As modificações não persistiam corretamente, especialmente ao usar ofertas do HTML ou alternar entre exibições. (TGT-53825)
 * **Todas as exibições agora são exibidas corretamente quando uma modificação abrange várias experiências.** Solução de um problema na interface de criação de atividade em que apenas uma exibição era mostrada quando uma modificação era aplicada em várias exibições. A dica de ferramenta de focalização não listava todas as exibições associadas, mesmo que a modificação tivesse sido aplicada corretamente. (TGT-53827)
@@ -811,8 +836,7 @@ Esta versão inclui os seguintes aprimoramentos e correções.
 
 +++Localização
 
-* **Correção de uma inconsistência de terminologia na tradução do chinês simplificado de &quot;Exibição completa de detalhes&quot;.**
-Anteriormente, o termo &quot;Detalhes&quot; era traduzido incorretamente como &quot;详情&quot; na localidade do chinês simplificado (zh_CN), violando as diretrizes de terminologia estabelecidas. Esse valor foi corrigido para &quot;详细信息&quot; para garantir a consistência com o termo base. (TGT-53741)
+* **Correção de uma inconsistência de terminologia na tradução do chinês simplificado de &quot;Exibição completa de detalhes&quot;.Anteriormente, o termo &quot;Detalhes&quot; era traduzido incorretamente como &quot;详情&quot; na localidade do chinês simplificado (zh_CN), violando as diretrizes de terminologia estabelecidas. Esse valor foi corrigido para &quot;详细信息&quot; para garantir a consistência com o termo base. (TGT-53741)
 
 +++
 
@@ -829,8 +853,7 @@ Anteriormente, o termo &quot;Detalhes&quot; era traduzido incorretamente como &q
 
 * **Gerar ofertas ad-hoc em atividades A[!UICONTROL Personalization automatizadas] causou inconsistências de relatório.** O uso do recurso Gerar ofertas ad-hoc em atividades do [!UICONTROL Automated Personalization] (AP) resultou em relatórios imprecisos. Especificamente, as IDs de oferta foram reutilizadas em vários locais, fazendo com que os dados de relatório fossem atribuídos incorretamente ou substituídos. As ofertas ad-hoc agora são geradas com identificadores distintos por local, garantindo um rastreamento e relatórios precisos em todas as experiências configuradas. (TGT-53757)
 * **Falha ao carregar os relatórios de atividade devido a um erro no JavaScript.** Os clientes encontraram uma mensagem &quot;Ocorreu um erro&quot; ao acessar a guia [!UICONTROL Relatórios] para determinadas atividades. O erro foi causado por uma exceção do JavaScript: não é possível ler propriedades de indefinido (lendo &#39;indexOf&#39;), acionado durante a chamada do GraphQL `getAnalyticsReportSummary`. Agora os relatórios são carregados corretamente, e o tratamento de erros foi aprimorado para evitar falhas semelhantes no fluxo de trabalho atualizado de criação de atividades. (TGT-53797)
-* **Os relatórios falharam após interagir com a barra de rolagem.** Clicar na barra de rolagem na guia [!UICONTROL Relatórios] causou uma falha na página, acompanhado por um erro de JavaScript:
-  `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` Agora os relatórios são carregados e rolados corretamente sem erros ou falhas. (TGT-53828)
+* **Os relatórios falharam após interagirem com a barra de rolagem.** Clicar na barra de rolagem na guia [!UICONTROL Relatórios] causou uma falha na página, acompanhada de um erro de JavaScript:  `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` Agora os relatórios são carregados e rolados corretamente sem erros ou falhas. (TGT-53828)
 * **Os relatórios não exibiram a métrica primária.** A métrica primária, configurada como uma métrica de conversão usando uma mbox, estava ausente nos relatórios de atividades. A pesquisa por nome de métrica ou nome de mbox não produziu resultados, impedindo a visibilidade dos principais dados de desempenho. As métricas primárias agora aparecem corretamente na guia [!UICONTROL Relatórios], garantindo um rastreamento e análise precisos do desempenho da campanha. (TGT-53773)
 * **A guia [!UICONTROL Relatórios] da interface atualizada falhou ao interagir com a barra de rolagem horizontal.** A exibição [!UICONTROL Relatórios] falhou intermitentemente com um erro &quot;Algo deu errado&quot; ao usar a barra de rolagem horizontal para acessar métricas fora da exibição. A barra de rolagem agora funciona de forma confiável, permitindo que os clientes visualizem e analisem todas as métricas sem precisar de soluções alternativas, como reduzir ou usar a rolagem shift. (TGT-53824)
 
@@ -838,8 +861,7 @@ Anteriormente, o termo &quot;Detalhes&quot; era traduzido incorretamente como &q
 
 +++[!UICONTROL Visual Experience Composer] (VEC)
 
-* **Clicar em navegações estruturais no VEC não exibia de maneira consistente o menu de edição.**
-Ao selecionar elementos do HTML por meio da navegação estrutural no (VEC), o menu de edição não era exibido ou desaparecia rapidamente, o que tornava a seleção de elementos não confiável. O menu de edição agora é exibido de forma consistente ao navegar por navegações estruturais, melhorando o fluxo de trabalho de seleção de elemento no processo de criação de atividade atualizado. (TGT-52873)
+* **Clicar em navegações estruturais no VEC não exibia de maneira consistente o menu de edição.Ao selecionar elementos do HTML por meio da navegação estrutural no (VEC), o menu de edição não era exibido ou desaparecia rapidamente, o que tornava a seleção de elementos não confiável. O menu de edição agora é exibido de forma consistente ao navegar por navegações estruturais, melhorando o fluxo de trabalho de seleção de elemento no processo de criação de atividade atualizado. (TGT-52873)
 * **O menu de contexto falhou intermitentemente ao aparecer no VEC.** O menu de contexto na interface do VEC atualizada não era exibido de forma consistente ao clicar em elementos, dificultando o acesso às opções de edição. O menu de contexto agora é exibido de forma confiável a partir da seleção de elementos, melhorando o fluxo de trabalho de edição e a usabilidade geral no processo de criação de atividades atualizado. (TGT-53015)
 * **Falha ao exibir o menu de contexto para determinados elementos no VEC.** O menu de contexto não era exibido ao selecionar elementos específicos no VEC atualizado, dificultando a aplicação de modificações. O menu de contexto agora é exibido de forma consistente para todos os elementos compatíveis, melhorando a confiabilidade e a usabilidade da experiência de edição no fluxo de trabalho de criação de atividade atualizado. (TGT-53248)
 * **O menu de contexto desapareceu no primeiro clique ao usar navegações estruturais no VEC.** Selecionar um elemento principal por meio da navegação estrutural no VEC fazia com que o menu de contexto aparecesse brevemente e desaparecesse, dificultando o acesso às opções de edição. O menu de contexto agora permanece visível e funcional ao navegar pelos elementos por navegações estruturais, melhorando a confiabilidade do fluxo de trabalho de seleção de elementos no processo de criação de atividades atualizado. (TGT-53424)
@@ -1613,8 +1635,7 @@ Devido aos problemas recentes identificados, principalmente relacionados às per
 
 * Correção de um problema em que copiar uma atividade existente e alterar a fonte de relatórios para [!DNL Adobe Analytics] (A4T) resultava em um erro &quot;Entrada de usuário inválida&quot;. O erro foi disparado quando determinadas ações de métrica incompatíveis com os relatórios do [!DNL Analytics], como `restart_same_experience`, `restart_random_experience` e `restart_new_experience`, eram retidas da atividade original. (TGT-52900)
 * Correção de um problema que impedia os clientes de criar ou salvar uma atividade ao selecionar [!DNL Adobe Analytics] (A4T) como fonte de relatórios na etapa [!UICONTROL Metas e configurações]. O problema ocorreu especificamente ao selecionar uma métrica [!UICONTROL Evento personalizado] (por exemplo, &quot;Evento personalizado 16&quot;), resultando no seguinte erro: &quot;Entrada de usuário inválida&quot;. (TGT-52910)
-* Correção de um problema em que um clique no link &quot;[!UICONTROL Exibir no Analytics]&quot; redirecionava os usuários para a página inicial em vez do painel [!DNL Analytics] pretendido. (TGT-53092 &amp; TGT-53093)
-  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
+* Correção de um problema em que um clique no link &quot;[!UICONTROL Exibir no Analytics]&quot; redirecionava os usuários para a página inicial em vez do painel [!DNL Analytics] pretendido. (TGT-53092 e TGT-53093)  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
 * Correção de um problema ao visualizar uma atividade [!DNL Recommendations] na interface atualizada do usuário [!UICONTROL Visão geral], a seção [!UICONTROL Metas e configurações] falha ao carregar quando [!DNL Adobe Analytics] (A4T) é selecionado como fonte de relatórios. A seguinte mensagem de erro foi exibida: &quot;Algo deu errado. Não podemos completar o seu pedido. Entre em contato com o Atendimento ao cliente da Adobe se o problema persistir.&quot; (TGT-52999)
 
 +++
@@ -4792,8 +4813,7 @@ Essa versão do [!DNL Target] está focada em melhorias de usabilidade e desempe
 * Agora, os nomes das métricas são exibidos na página [!UICONTROL Metas e configurações], sem que os usuários precisem expandir cada métrica para visualizar todo o nome. Essa melhoria permite que os usuários editem métricas de maneira mais rápida e eficiente. (TGT-21276)
 * Agora é possível aplicar regras de inclusão do [!DNL Recommendations] a critérios personalizados (carregados por meio de um CSV), exatamente como qualquer outro critério. (TGT-21896)
 * Melhoria na interface do usuário e na usabilidade da página [!UICONTROL Ofertas], principalmente ao criar ou gerenciar pastas e criar ofertas. (TGT-22509 e TGT-22187)
-* Melhoria na experiência do usuário no [!UICONTROL Visual Experience Composer] (VEC) ao selecionar itens para ocultar.
-(TGT-22224)
+* Melhoria na experiência do usuário no [!UICONTROL Visual Experience Composer] (VEC) ao selecionar itens para ocultar.(TGT-22224)
 * Melhoria na experiência do usuário ao criar atividades usando o [!UICONTROL Experience Composer baseado em formulário]. Ao escolher uma localização de mbox, a borda de validação permanece realçada após clicar em [!UICONTROL Próximo]. (TGT-22221)
 * Melhoria nos relatórios baixados para diferenciar entre ofertas ativas e excluídas. (TGT-22449)
 * Correção de um problema que impedia a exibição de ativos mais antigos na lista de ativos com rolagem infinita na interface do usuário do serviço principal do Experience Cloud Assets. (TGT-19733)
@@ -5773,7 +5793,7 @@ Esta versão inclui os seguintes recursos e melhorias:
   <tr> 
    <td colname="col1"> Criar e editar scripts de perfil </td> 
    <td colname="col2"> <p>Scripts de perfil rodam "coletores" de atributo de perfil em cada solicitação de mbox. Quando uma solicitação de mbox é recebida, o Target executa qualquer script de perfil relevante, determina qual atividade deve ser executada e exibe o conteúdo apropriado para a atividade e para a experiência e, em seguida, rastreia o sucesso da atividade. Isto permite rastrear as informações sobre a visita, como o local do visitante, a hora do dia, o número de vezes que o visitante acessou o site, se ele já fez alguma compra anteriormente etc. Estas informações são então adicionadas ao perfil do visitante para que você possa melhor rastrear a atividade do visitante no seu site. </p> <p>Consulte <a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local"> Atributos do Perfil </a>. 
-     <!--(Copy help from Classic)--> </p> </td> 
+      </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervalo de confiança para métricas binárias </td> 
