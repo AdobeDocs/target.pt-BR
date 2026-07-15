@@ -3,17 +3,17 @@ audience: user
 user-guide-title: Sinalizadores
 user-guide-description: Saiba como usar sinalizadores no Adobe Target para gerenciar sinalizadores de recursos, implantações controladas e versões direcionadas em seus aplicativos.
 hide: true
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 8%
+source-wordcount: '169'
+ht-degree: 9%
 
 ---
 
 
 # Sinalizadores {#flags}
 
-+ [Visão geral](home.md)
++ [Visão Geral](home.md)
 + Introdução {#get-started}
    + [Introdução aos sinalizadores](getting-started/introduction.md)
    + [Por que usar sinalizadores](getting-started/why-use-flags.md)
@@ -25,7 +25,7 @@ ht-degree: 8%
    + [Implantação gradual](concepts/gradual-rollout.md)
 + Introdução ao console {#console}
    + [Logon nos sinalizadores](guides/console/log-in-to-the-console.md)
-   + [Selecione sua sandbox](guides/console/environments-overview.md)
+   + [Visão geral dos ambientes](guides/console/environments-overview.md)
    + [Solicitar acesso](guides/console/request-access.md)
 + Aplicativos {#applications}
    + [Gerenciar aplicativos](guides/applications/manage-applications.md)
@@ -46,7 +46,7 @@ ht-degree: 8%
    + [Criar um grupo de recursos](guides/feature-flags/create-a-feature-group.md)
    + [Definir um grupo de recursos para implantação gradual](guides/feature-flags/set-feature-group-gradual-rollout.md)
    + [Teste A/B com sinalizadores de recursos](guides/feature-flags/a-b-testing.md)
-   + [Noções básicas do](guides/feature-flags/analytics.md)
+   + [Relatório](guides/feature-flags/analytics.md)
 + Critérios de público {#audience}
    + [Público-alvo em sinalizadores e grupos de recursos](guides/audience/audience-in-feature-flags-and-feature-groups.md)
    + [Usar contexto nas regras de público](guides/audience/using-context-in-audience-rules.md)

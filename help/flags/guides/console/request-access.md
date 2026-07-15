@@ -3,10 +3,10 @@ title: Solicitar acesso
 description: Saiba como solicitar acesso a uma equipe de Sinalizadores no Adobe Target e as funções disponíveis para novos membros.
 hide: true
 exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 0%
+source-wordcount: '331'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,14 @@ Você receberá uma confirmação assim que a solicitação for enviada. Você p
 
 ## Funções disponíveis {#roles}
 
-A função atribuída a você determina quais ações podem ser executadas no console. Entre em contato com o administrador da equipe se não tiver certeza sobre qual função solicitar.
+A função atribuída a você determina quais ações podem ser executadas no console. Entre em contato com seu administrador se não tiver certeza de qual função solicitar.
+
+| Função | Descrição |
+| --- | --- |
+| **Admin** | Acesso total ao console. Gerencia aplicativos e membros da equipe e aprova ou rejeita solicitações de acesso. |
+| **Administrador de recursos** | Pode aprovar ou rejeitar solicitações de acesso e gerenciar sinalizadores e grupos de recursos. |
+| **Proprietário da versão do produto** | Pode criar e gerenciar sinalizadores e grupos de recursos, além de liberar recursos para usuários externos. |
+| **Desenvolvedor** | Acesso em modo seguro para testes privados. Podem expor recursos somente a si mesmos, adicionando sua própria ID de usuário a um público-alvo. Não é possível liberar recursos para usuários externos. |
 
 ## Depois que o acesso for concedido {#after-access}
 

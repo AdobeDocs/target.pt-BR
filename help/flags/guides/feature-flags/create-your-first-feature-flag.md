@@ -3,10 +3,10 @@ title: Criar o primeiro sinalizador de recurso
 description: Saiba como criar um sinalizador de recurso em Sinalizadores, definir um público-alvo e testá-lo antes de implantar para os usuários.
 hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 045bd3321fd4041fe7f723ce300a400102ed7274
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 0%
+source-wordcount: '524'
+ht-degree: 1%
 
 ---
 
@@ -25,19 +25,31 @@ Antes de criar um sinalizador de recurso, conclua o seguinte:
 Para criar um novo sinalizador de recurso, siga estas etapas no console:
 
 1. Faça logon no console Sinalizadores e navegue até **Recursos e Versões > Sinalizadores de Recursos**.
-2. Selecione seu aplicativo no menu suspenso **Aplicativo**.
-3. Selecione **Novo Recurso**.
-4. Forneça um título, chave, descrição e, opcionalmente, uma tag.
-5. Opcionalmente, adicione um critério de público-alvo (consulte Etapa 2).
-6. Salve as configurações do sinalizador de recurso.
+1. Selecione seu aplicativo no menu suspenso **Aplicativo**.
+1. Selecione **Novo Recurso**.
+1. Preencha os campos do formulário:
+
+   | Campo | Descrição |
+   | --- | --- |
+   | **Nome** | Um rótulo de exibição para o sinalizador de recurso. Não usado no código. |
+   | **Chave** * | O identificador usado no código para avaliar o sinalizador. Não é possível alterar após a criação. |
+   | **Descrição** | Descrição opcional para fins de documentação. |
+   | **Metadados** | Opcional. Até 1.024 caracteres. Use esse campo para qualquer metadado adicional associado ao sinalizador. |
+   | **Identidade** * | A identidade com a qual o sinalizador é avaliado (por exemplo, ECID). Esta é a identidade transmitida na solicitação de recurso. |
+   | **porcentagem de implantação** | A porcentagem do público-alvo definido que é fornecida com esse recurso. O padrão é 100%. Consulte [Definir um recurso para implantação gradual](set-feature-gradual-rollout.md). |
+
+   Os campos marcados com * são obrigatórios.
+
+>[!IMPORTANT]
+>
+>A **Chave** é o identificador usado em seu código e não pode ser alterada após a criação. As chaves **não podem conter espaços** e diferenciam maiúsculas de minúsculas **3}.** O **Name** é apenas um rótulo de exibição e não é usado no código; os dois são independentes (o Name não é convertido na Key). Inserir um espaço no campo Chave produz o erro: _&quot;Valor inválido para chave de recurso.&quot;_
+
+1. Opcionalmente, adicione um critério de público-alvo (consulte Etapa 2).
+1. Salve as configurações do sinalizador de recurso.
 
 ## Etapa 2: adicionar um critério de público {#audience}
 
-Os critérios de público-alvo controlam quais usuários veem o recurso. Você pode adicionar critérios com base em:
-
-* Atributos de perfil (como país, domínio de email, ID de usuário)
-* Variáveis de contexto
-* Segmentos de público predefinidos
+Os critérios de público-alvo controlam quais usuários veem o recurso. Você pode direcionar usuários com **atributos de contexto** — valores que seu site ou aplicativo envia na solicitação de recurso (por exemplo, `locale` ou `platform`). Combine-os com **AND**, **OR** e **NOT**. Consulte [Usar contexto nas regras de audiência](../audience/using-context-in-audience-rules.md).
 
 Para adicionar critérios de público-alvo, vá para a guia **Público-alvo** ao criar ou editar um sinalizador de recurso.
 
@@ -55,7 +67,7 @@ Você pode agendar um sinalizador de recurso para ativação em uma data e hora 
 
 ## Perguntas frequentes: não consigo adicionar um sinalizador de recurso como Desenvolvedor {#faq}
 
-A função de **Desenvolvedor** está em modo seguro. Os desenvolvedores podem testar os recursos de forma privada adicionando a ID do usuário ao público-alvo. Eles não podem expor recursos do a usuários externos. Use a função **Proprietário da Versão do Produto** para liberar recursos para usuários externos. Entre em contato com o administrador da equipe para atualizar sua função.
+A função de **Desenvolvedor** está em modo seguro. Os desenvolvedores podem testar os recursos de forma privada adicionando a ID do usuário ao público-alvo. Eles não podem expor recursos do a usuários externos. Use a função **Proprietário da Versão do Produto** para liberar recursos para usuários externos. Entre em contato com o administrador para atualizar sua função.
 
 ## Consulte também {#see-also}
 

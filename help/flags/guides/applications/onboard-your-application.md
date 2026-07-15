@@ -3,9 +3,9 @@ title: Integrar seu aplicativo
 description: Saiba como integrar um novo aplicativo aos Sinalizadores para começar a criar e gerenciar sinalizadores de recursos.
 hide: true
 exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '192'
 ht-degree: 2%
 
 ---
@@ -16,11 +16,11 @@ Você deve ter a função de **Administrador** para adicionar um novo aplicativo
 
 ## Adicionar um novo aplicativo {#add-application}
 
-1. Faça logon no console Sinalizadores e navegue até **Implantação da experiência > Aplicativos**.
+1. Faça logon no console Sinalizadores e navegue até **Sinalizadores > Aplicativos**.
 
    >[!NOTE]
    >
-   >Se o botão **Novo Aplicativo** não estiver visível, verifique se você tem a função de **Administrador do Floodgate**.
+   >Se o botão **Novo Aplicativo** não estiver visível, verifique se você tem a função de **Administrador**.
 
 2. Selecione **Novo Aplicativo**.
 
@@ -28,10 +28,13 @@ Você deve ter a função de **Administrador** para adicionar um novo aplicativo
 
 4. Forneça as seguintes informações:
 
+   Os campos marcados com * são obrigatórios.
+
    | Campo | Descrição |
-   |---|---|
-   | **ID do aplicativo** | Um identificador exclusivo usado ao chamar Sinalizadores de seu código. Use a ID de cliente do aplicativo. |
-   | **TTL** | O intervalo de pesquisa (em segundos) para atualizar o cache por aplicativo. Aplicável somente aos SDKs do lado do servidor. |
+   | --- | --- |
+   | **Nome do aplicativo** * | Um nome de exibição para o aplicativo. |
+   | **ID do aplicativo** * | Um identificador exclusivo usado ao chamar Sinalizadores de seu código. Use a ID de cliente do aplicativo. |
+   | **Intervalo de sondagem** | O intervalo de pesquisa (em segundos) para atualizar o cache por aplicativo. Aplicável somente aos SDKs do lado do servidor. |
 
 5. Selecione **Adicionar**. Seu aplicativo agora está registrado e pronto para a configuração do sinalizador de recurso.
 

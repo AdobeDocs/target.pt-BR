@@ -2,10 +2,10 @@
 title: Guia da extensão de implantação da experiência para integração com o iOS
 description: Saiba como integrar a extensão de Implantação de experiência com o Adobe Experience Platform Mobile SDK no iOS.
 hide: true
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 7%
+source-wordcount: '1116'
+ht-degree: 6%
 
 ---
 
@@ -53,13 +53,17 @@ Verifique se essas extensões estão instaladas na propriedade móvel da Coleç�
    | ID do conjunto de dados | A ID do conjunto de dados do Adobe Experience Platform para os dados de evento de análise |
 
 1. Selecione **Salvar**.
-1. Siga o [processo de publicação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/publish/overview) para atualizar sua configuração.
+1. Siga o [processo de publicação](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) para atualizar sua configuração.
 
 ### Obter a ID do arquivo de ambiente {#environment-file-id}
 
 1. Na propriedade do seu dispositivo móvel, navegue até **Ambientes**.
 1. Selecione o ícone de caixa sob a coluna **Instalar** para o seu ambiente.
 1. Na caixa de diálogo **Instruções de Instalação do Mobile**, copie a **ID do Arquivo de Ambiente**.
+
+>[!IMPORTANT]
+>
+>No ambiente de **preparo**, adicione o prefixo `staging/` à ID do arquivo de ambiente — isto é, use `staging/<environmentId>`. Em **produção**, use a ID do arquivo de ambiente diretamente.
 
 ## Adicionar a extensão de Implantação de experiência ao seu aplicativo {#add-to-app}
 
@@ -231,6 +235,15 @@ AEPFeatureEvaluationContext *ctx = [[[AEPFeatureEvaluationContextBuilder builder
 | `platform` | Identificador da plataforma | `["IOS"]` |
 | `appVersion` | Versão do aplicativo | `["3.0.0"]` |
 | `deviceType` | Tipo de dispositivo | `["phone"]`, `["tablet"]` |
+
+## Principais conceitos para a avaliação de recursos {#key-concepts}
+
+Lembre-se do seguinte ao implementar portais de recursos no aplicativo:
+
+* **Passar valores de atributo, não exibir rótulos.** Os valores do atributo de contexto são **sensíveis a maiúsculas e minúsculas**. Passe o valor bruto que seu aplicativo ou site envia (por exemplo, `"en_US"` ou `"IOS"`), não o rótulo mostrado no console.
+* **Avaliar no nível de recurso (sinalizador).** Mesmo quando um sinalizador pertence a um grupo de recursos, sempre chame a API com a **chave de recurso** individual. Não há avaliação em nível de grupo. A resposta retorna a variante na qual o usuário se encaixou.
+* **A identidade não precisa estar vinculada a um perfil.** A avaliação ocorre em tempo de execução. O evento de avaliação é enviado para o Customer Journey Analytics independentemente da identidade estar vinculada a um perfil conhecido.
+* **Cada novo sinalizador requer uma alteração de código.** Adicione uma porta para cada chave de sinalizador no código. Use `isFeatureEnabled()` para verificar um estado booliano ligado/desligado ou `getFeature()` para recuperar a carga de recurso completa, incluindo a variante.
 
 ## Referência da API {#api-reference}
 
