@@ -1,30 +1,29 @@
 ---
 title: Aplicativos móveis
-description: Saiba como integrar Sinalizadores a um aplicativo para dispositivos móveis usando o SDK para dispositivos móveis.
+description: Saiba como integrar Sinalizadores a um aplicativo para dispositivos móveis usando as extensões do AEP Mobile SDK para Android e iOS.
 hide: true
 exl-id: 27a43994-25e7-4a2c-b01c-ae98d089413d
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 045bd3321fd4041fe7f723ce300a400102ed7274
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 9%
+source-wordcount: '59'
+ht-degree: 11%
 
 ---
 
 # Aplicativos móveis {#mobile-applications}
 
-Os aplicativos móveis se integram aos Sinalizadores por meio do SDK móvel.
+Os aplicativos móveis integram-se aos sinalizadores por meio das extensões do AEP Mobile SDK para Android e iOS.
 
->[!NOTE]
->
->A documentação do Mobile SDK está sendo preparada e estará disponível em breve. Entre em contato com o representante da Adobe para obter orientação de acesso antecipado.
+## Guias de integração {#integration-guides}
 
-## Etapas de integração {#integration-steps}
+Siga o guia da sua plataforma:
 
-Para obter uma apresentação completa do processo de integração, consulte [Etapas de integração](integration-steps.md).
+* [guia de integração de extensão do Android](../sdk-releases/android/android-extension-integration-guide.md)
+* [guia de integração de extensão do iOS](../sdk-releases/ios/ios-extension-integration-guide.md)
 
 ## Consulte também {#see-also}
 
-* [Etapas de integração](integration-steps.md)
 * [Guia de inicialização](startup-guide.md)
+* [SDKs](sdks.md)
 
 <!-- -->

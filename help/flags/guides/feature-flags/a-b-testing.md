@@ -3,10 +3,10 @@ title: Teste A/B com sinalizadores de recursos
 description: Saiba como executar testes A/B usando grupos de recursos em Sinalizadores, configurando várias variantes para um conjunto de sinalizadores de recursos.
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 1%
+source-wordcount: '420'
+ht-degree: 0%
 
 ---
 
@@ -24,10 +24,14 @@ Testes A/B em Sinalizadores são executados usando **grupos de recursos**. Ao co
 ## Etapa 1: criar um grupo de recursos com várias variantes {#create}
 
 1. Navegue até **Teste de Recursos > Grupos de Recursos** e selecione **Novo Grupo de Recursos**.
-2. Em **Detalhes Básicos**, forneça um título, uma chave e uma descrição.
-3. Defina uma **porcentagem de implantação** para definir quanto do seu público-alvo participa do teste.
-4. Defina **Variants** com um valor maior que um (por exemplo, duas variantes para um teste A/B clássico).
-5. Consulte [Definir um grupo de recursos para implantação gradual](set-feature-group-gradual-rollout.md) para entender como a porcentagem de exposição é distribuída entre variantes.
+1. Em **Detalhes Básicos**, forneça um título, uma chave e uma descrição.
+1. Defina uma **porcentagem de implantação** para definir quanto do seu público-alvo participa do teste.
+1. Defina **Variants** com um valor maior que um (por exemplo, duas variantes para um teste A/B clássico). Você pode definir até **3 variantes mais um grupo de controle**.
+1. Consulte [Definir um grupo de recursos para implantação gradual](set-feature-group-gradual-rollout.md) para entender como a porcentagem de exposição é distribuída entre variantes.
+
+>[!NOTE]
+>
+>A exposição é dividida **igualmente** entre variantes — por exemplo, 50/50 para duas variantes. Divisões personalizadas, como 60/40, não são compatíveis. Um único sinalizador de recurso pode ser adicionado a **mais de uma variante**. O público é definido **uma vez por grupo de recursos**, não por variante.
 
 ## Etapa 2: definir o público {#audience}
 
@@ -53,6 +57,6 @@ Salve as configurações do grupo de recursos. Quando estiver pronto para inicia
 
 * [Criar um grupo de recursos](create-a-feature-group.md)
 * [Definir um grupo de recursos para implantação gradual](set-feature-group-gradual-rollout.md)
-* [Analytics](analytics.md)
+* [Relatório](analytics.md)
 
 <!-- -->

@@ -3,9 +3,9 @@ title: Guia da extensão de implantação da experiência para integração com 
 description: Saiba como integrar a extensão de Implantação de experiência com o Adobe Experience Platform Mobile SDK no Android.
 hide: true
 exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '1127'
 ht-degree: 7%
 
 ---
@@ -60,6 +60,10 @@ Verifique se essas extensões estão instaladas na propriedade móvel da Coleç�
 1. Na propriedade do seu dispositivo móvel, navegue até **Ambientes**.
 1. Selecione o ícone de caixa sob a coluna **Instalar** para o seu ambiente.
 1. Na caixa de diálogo **Instruções de Instalação do Mobile**, copie a **ID do Arquivo de Ambiente**.
+
+>[!IMPORTANT]
+>
+>No ambiente de **preparo**, adicione o prefixo `staging/` à ID do arquivo de ambiente — isto é, use `staging/<environmentId>`. Em **produção**, use a ID do arquivo de ambiente diretamente.
 
 ## Adicionar a extensão de Implantação de experiência ao seu aplicativo {#add-to-app}
 
@@ -236,6 +240,15 @@ FeatureEvaluationContext ctx = FeatureEvaluationContext.builder()
 | `platform` | Identificador da plataforma | `["ANDROID"]` |
 | `appVersion` | Versão do aplicativo | `["3.0.0"]` |
 | `deviceType` | Tipo de dispositivo | `["phone"]`, `["tablet"]` |
+
+## Principais conceitos para a avaliação de recursos {#key-concepts}
+
+Lembre-se do seguinte ao implementar portais de recursos no aplicativo:
+
+* **Passar valores de atributo, não exibir rótulos.** Os valores do atributo de contexto são **sensíveis a maiúsculas e minúsculas**. Passe o valor bruto que seu aplicativo ou site envia (por exemplo, `"en_US"` ou `"ANDROID"`), não o rótulo mostrado no console.
+* **Avaliar no nível de recurso (sinalizador).** Mesmo quando um sinalizador pertence a um grupo de recursos, sempre chame a API com a **chave de recurso** individual. Não há avaliação em nível de grupo. A resposta retorna a variante na qual o usuário se encaixou.
+* **A identidade não precisa estar vinculada a um perfil.** A avaliação ocorre em tempo de execução. O evento de avaliação é enviado para o Customer Journey Analytics independentemente da identidade estar vinculada a um perfil conhecido.
+* **Cada novo sinalizador requer uma alteração de código.** Adicione uma porta para cada chave de sinalizador no código. Use `isFeatureEnabled()` para verificar um estado booliano ligado/desligado ou `getFeature()` para recuperar a carga de recurso completa, incluindo a variante.
 
 ## Referência da API {#api-reference}
 

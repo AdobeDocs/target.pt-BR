@@ -3,9 +3,9 @@ title: Criar um grupo de recursos
 description: Saiba como criar um grupo de recursos em Sinalizadores para gerenciar vários sinalizadores de recursos entre aplicativos em sua equipe como uma única unidade.
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,12 @@ Atribua os sinalizadores de recursos que serão controlados por este grupo:
 >[!IMPORTANT]
 >
 >Um sinalizador de recurso só pode ser distribuído por meio de um método — diretamente como um sinalizador de recurso, por meio de um grupo de recursos ou por meio de uma versão. Quando você adiciona um sinalizador de recurso a um grupo de recursos, qualquer público-alvo ou implantação em porcentagem definida no sinalizador é removida. Sinalizadores de recursos já atribuídos a outra versão ou grupo de recursos não aparecerão na lista.
+
+>[!IMPORTANT]
+>
+>Quando você **remove** um sinalizador de recurso de um grupo de recursos, o sinalizador retorna a um estado **desabilitado** e seu público-alvo é **não** restaurado — trate-o como um sinalizador novo. Um sinalizador **desabilitado** dentro de um grupo sempre é avaliado como `false`. A habilitação de um grupo de recursos **não** habilita seus sinalizadores de membro; habilita explicitamente cada sinalizador.
+>
+>Os grupos de recursos são uma **camada de gerenciamento**. No tempo de execução, você sempre avalia no **nível de recurso (sinalizador)**, nunca no nível de grupo; a resposta inclui a variante na qual o usuário se enquadrou.
 
 ## Etapa 5: programação (opcional) {#schedule}
 

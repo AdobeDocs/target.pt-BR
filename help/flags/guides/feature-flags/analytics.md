@@ -1,42 +1,47 @@
 ---
-title: Analytics
-description: Saiba como habilitar e usar o painel de análise integrado em Sinalizadores para rastrear o desempenho do sinalizador de recursos e medir o impacto da implantação.
+title: Relatório
+description: Saiba como exibir relatórios de sinalizadores de recursos em Sinalizadores usando o Customer Journey Analytics.
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '269'
 ht-degree: 1%
 
 ---
 
-# Noções básicas do {#analytics}
+# Relatório {#reporting}
 
-Os sinalizadores fornecem análises integradas para sinalizadores de recursos, grupos de recursos, grupos de recursos entre equipes e versões. Use o painel do analytics para entender quantos usuários estão participando da implantação e como a variante e os grupos de controle se comparam. Você também pode exportar dados de Sinalizadores para o ambiente de relatórios de sua preferência para análise junto com outros dados do Adobe.
+Os sinalizadores fornecem relatórios por meio do **Customer Journey Analytics (CJA)**. Não há guia Resultados ou Relatórios no console — em vez disso, um botão **Relatório** em cada sinalizador de recurso ou grupo de recursos abre um painel do CJA com escopo para esse item.
 
-## Habilitar análise {#enable}
+## Pré-requisitos {#prerequisites}
 
-O Analytics deve ser habilitado em dois níveis:
+Antes de visualizar os relatórios, verifique se:
 
-1. **Nível de aplicativo** — Contate o suporte a Sinalizadores para habilitar a análise para seu aplicativo.
-2. **Nível de sinalizador de recurso** — Depois que a análise estiver habilitada para o seu aplicativo, marque a caixa de seleção **Habilitar análise** na guia **Detalhes Básicos** de cada sinalizador de recurso que você deseja rastrear.
+1. Os relatórios estão configurados para seu aplicativo — consulte [Configurar relatórios com o Customer Journey Analytics](#setup).
+1. Seu sinalizador de recurso ou grupo de recursos está ativo e tem dados acumulados.
 
->[!NOTE]
->
->Por padrão, o Analytics pode ser ativado para até 20 sinalizadores de recursos por aplicativo. Entre em contato com o suporte se precisar aumentar esse limite.
+## Exibir um relatório {#view-report}
 
-## Exibir o painel de análise {#dashboard}
+Para abrir um relatório de um sinalizador de recurso ou grupo de recursos:
 
-Quando a análise estiver ativada, todos os sinalizadores de recursos, grupos de recursos e versões do aplicativo iniciarão o rastreamento dos dados. Acesse o painel selecionando **Resultados** no sinalizador de recurso, grupo de recursos ou versão que você deseja analisar.
+1. Navegue até o sinalizador de recurso ou grupo de recursos no console.
+1. Selecione **Relatório**.
 
-O painel de controle exibe:
+Um painel de controle do Customer Journey Analytics com escopo é aberto, mostrando os dados desse sinalizador ou grupo de recursos. O painel inclui:
 
 * **Participantes** — Número total de usuários qualificados para o recurso (variante + grupo de controle combinado)
 * **Grupo de controle** — Número de usuários atribuídos ao grupo de controle (usuários que receberam a experiência padrão)
-* **Gráfico de nível de dia** — Gráficos de linha diários que mostram a inscrição na variante e no grupo de controle ao longo do tempo; marcadores indicam quando a configuração do sinalizador de recurso foi atualizada
-* **Análise de nível de variante** — Contagem cumulativa de usuários inscritos no grupo de controle e cada variante
+* **Detalhamento de variante** — Contagem cumulativa de usuários inscritos em cada variante e no grupo de controle
+* **Inscrição diária** — Gráficos de nível diário que mostram a inscrição em cada variante e no grupo de controle ao longo do tempo
 
-Para grupos de recursos e versões, selecione o menu suspenso **Resultados** para escolher um aplicativo e exibir análises para esse aplicativo. O Analytics só está disponível para aplicativos que o habilitam.
+## Configurar relatórios com o Customer Journey Analytics {#setup}
+
+Os relatórios exigem um conjunto de dados do Customer Journey Analytics conectado ao aplicativo Sinalizadores. Entre em contato com o suporte a Sinalizadores ou com o representante da Adobe para habilitar os relatórios do seu aplicativo.
+
+>[!NOTE]
+>
+>A identidade transmitida na solicitação de recurso não precisa ser vinculada a um perfil. A avaliação acontece no tempo de execução e o evento é enviado para a Customer Journey Analytics.
 
 ## Consulte também {#see-also}
 
