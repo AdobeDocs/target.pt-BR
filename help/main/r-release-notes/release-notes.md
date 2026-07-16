@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 062337cc6563f52ce505cc3085cc2af5ec4457b6
+source-git-commit: 65b4878ba8858b105cbebe536b55a9e1775478d3
 workflow-type: tm+mt
-source-wordcount: 465
-ht-degree: 58%
+source-wordcount: 573
+ht-degree: 47%
 
 ---
 
@@ -30,6 +30,34 @@ ht-degree: 58%
 Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe Target]. Essas notas de versão também abrangem atualizações para APIs do [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outros componentes da plataforma, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 26.7.2 (16 de julho de 2026)
+
+**Atividades**
+
++++Ver detalhes
+
+* **Informações de meta incorretas na página [!UICONTROL Visão geral da atividade].** Correção de um problema em que a página [!UICONTROL Visão geral da atividade] para atividades [!DNL Automated Personalization] mostrava metas adicionais em vez da meta de otimização. (TGT-55553)
+
+* **Tela sem resposta ao navegar pelas páginas no modo [!UICONTROL Procurar].** Correção de um problema em que a tela ficava sem resposta ao navegar entre páginas no modo [!UICONTROL Procurar]. (TGT-55565)
+
++++
+
+**Página inicial**
+
++++Ver detalhes
+
+* **Alteração na interface do usuário de [!UICONTROL Principais executores] e [!UICONTROL Salvamentos].** Atualização da interface do usuário para os melhores desempenhos e salva a experiência. (TGT-54975)
+
++++
+
+**Públicos-alvo**
+
++++Ver detalhes
+
+* **Cadeias de caracteres não localizadas na caixa de diálogo [!UICONTROL Criar Script de Perfil].** Correção de um problema em que as cadeias de caracteres na caixa de diálogo [!UICONTROL Criar Script de Perfil] não eram localizadas. (TGT-51527)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.1 (9 de julho de 2026)
 
