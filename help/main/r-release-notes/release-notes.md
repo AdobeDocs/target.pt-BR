@@ -7,21 +7,14 @@ title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 062337cc6563f52ce505cc3085cc2af5ec4457b6
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 65b4878ba8858b105cbebe536b55a9e1775478d3
 workflow-type: tm+mt
-source-wordcount: 465
-ht-degree: 58%
+source-wordcount: 573
+ht-degree: 47%
 
 ---
 
@@ -30,6 +23,34 @@ ht-degree: 58%
 Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe Target]. Essas notas de versão também abrangem atualizações para APIs do [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outros componentes da plataforma, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 26.7.2 (16 de julho de 2026)
+
+**Atividades**
+
++++Ver detalhes
+
+* **Informações de meta incorretas na página [!UICONTROL Visão geral da atividade].** Correção de um problema em que a página [!UICONTROL Visão geral da atividade] para atividades [!DNL Automated Personalization] mostrava metas adicionais em vez da meta de otimização. (TGT-55553)
+
+* **Tela sem resposta ao navegar pelas páginas no modo [!UICONTROL Procurar].** Correção de um problema em que a tela ficava sem resposta ao navegar entre páginas no modo [!UICONTROL Procurar]. (TGT-55565)
+
++++
+
+**Página inicial**
+
++++Ver detalhes
+
+* **Alteração na interface do usuário de [!UICONTROL Principais executores] e [!UICONTROL Salvamentos].** Atualização da interface do usuário para os melhores desempenhos e salva a experiência. (TGT-54975)
+
++++
+
+**Públicos-alvo**
+
++++Ver detalhes
+
+* **Cadeias de caracteres não localizadas na caixa de diálogo [!UICONTROL Criar Script de Perfil].** Correção de um problema em que as cadeias de caracteres na caixa de diálogo [!UICONTROL Criar Script de Perfil] não eram localizadas. (TGT-51527)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.1 (9 de julho de 2026)
 
