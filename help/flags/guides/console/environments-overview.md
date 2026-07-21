@@ -3,9 +3,9 @@ title: Visão geral dos ambientes
 description: Saiba como selecionar a sandbox correta do Adobe Experience Platform ao trabalhar em Sinalizadores.
 hide: true
 exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '94'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,8 @@ O Sinalizador é criado no Adobe Experience Platform. Antes de trabalhar com sin
 ## Como selecionar uma sandbox {#how-to}
 
 Use o alternador de sandbox na barra de navegação superior do console Sinalizadores para selecionar a sandbox correta antes de criar ou modificar sinalizadores de recursos.
+
+![Seletor de sandbox no console Sinalizadores](assets/sandbox-selection.png)
 
 ## Consulte também {#see-also}
 

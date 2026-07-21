@@ -3,10 +3,10 @@ title: Teste A/B com sinalizadores de recursos
 description: Saiba como executar testes A/B usando grupos de recursos em Sinalizadores, configurando várias variantes para um conjunto de sinalizadores de recursos.
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Testes A/B em Sinalizadores são executados usando **grupos de recursos**. Ao co
 
 * Você tem acesso ao console — consulte [Fazer logon no console](../console/log-in-to-the-console.md)
 * Você pertence a uma equipe e seu aplicativo é integrado
-* Você tem a função **Desenvolvedor** ou **Proprietário da Versão do Produto**
+* Você tem a função **Proprietário da versão do produto**
 * Você criou os sinalizadores de recursos para testar — consulte [Criar seu primeiro sinalizador de recursos](create-your-first-feature-flag.md)
 
 ## Etapa 1: criar um grupo de recursos com várias variantes {#create}
@@ -37,10 +37,6 @@ Testes A/B em Sinalizadores são executados usando **grupos de recursos**. Ao co
 
 Na guia **Público-alvo**, adicione os critérios de público-alvo e selecione os aplicativos a serem incluídos. Os grupos de recursos podem abranger vários aplicativos na mesma equipe.
 
->[!NOTE]
->
->Para direcionar usuários externos em um teste A/B, você deve ter a função **Proprietário da versão do produto**. A função de Desenvolvedor está em sandbox e limitada a testes privados.
-
 ## Etapa 3: adicionar recursos por variante {#features}
 
 Na guia **Recursos**, cada variante tem sua própria guia. Adicione os sinalizadores de recursos apropriados a cada variante para definir as diferentes experiências que você deseja comparar.
@@ -57,6 +53,6 @@ Salve as configurações do grupo de recursos. Quando estiver pronto para inicia
 
 * [Criar um grupo de recursos](create-a-feature-group.md)
 * [Definir um grupo de recursos para implantação gradual](set-feature-group-gradual-rollout.md)
-* [Relatório](analytics.md)
+* [Relatório](reporting.md)
 
 <!-- -->

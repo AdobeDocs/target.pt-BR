@@ -3,9 +3,9 @@ title: Criar um grupo de recursos
 description: Saiba como criar um grupo de recursos em Sinalizadores para gerenciar vários sinalizadores de recursos entre aplicativos em sua equipe como uma única unidade.
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Antes de criar um grupo de recursos, faça o seguinte:
 
 * Você tem acesso ao console de Sinalizadores — consulte [Fazer logon no console](../console/log-in-to-the-console.md)
 * Seu aplicativo está integrado — consulte [Integrar seu aplicativo](../applications/onboard-your-application.md)
-* Você tem a função **Desenvolvedor** ou **Proprietário da Versão do Produto**
+* Você tem a função **Proprietário da versão do produto**
 * Você criou os sinalizadores de recursos que deseja adicionar ao grupo — consulte [Criar seu primeiro sinalizador de recursos](create-your-first-feature-flag.md)
 
 Para obter uma introdução aos grupos de recursos, consulte [Grupos de recursos para controlar vários recursos](../../concepts/feature-groups-to-control-multiple-features.md).
@@ -27,7 +27,7 @@ Para obter uma introdução aos grupos de recursos, consulte [Grupos de recursos
 
 Abra o console e inicie um novo grupo de recursos:
 
-1. Faça logon no console Sinalizadores e navegue até **Teste de Recursos > Grupos de Recursos**.
+1. Faça logon no **console Sinalizadores**, vá para o painel esquerdo e selecione **Grupos de Recursos**.
 2. Selecione **Novo Grupo de Recursos**.
 
 ## Etapa 2: Detalhes básicos {#basic-details}
@@ -44,10 +44,6 @@ Defina quem receberá os recursos neste grupo:
 
 1. Na guia **Público-alvo**, adicione critérios de público-alvo para definir quais usuários receberão o recurso.
 2. Em **Aplicativos**, adicione um ou mais aplicativos da sua equipe. Os grupos de recursos podem abranger vários aplicativos, desde que todos pertençam à mesma equipe.
-
->[!NOTE]
->
->A função de **Desenvolvedor** está em modo seguro. Adicione sua própria ID de usuário em **Público-alvo > Perfil > ID de usuário** para testar de forma privada. Para direcionar usuários externos, você precisa da função **Proprietário da versão do produto**.
 
 ## Etapa 4: recursos {#features}
 
@@ -66,10 +62,6 @@ Atribua os sinalizadores de recursos que serão controlados por este grupo:
 >Quando você **remove** um sinalizador de recurso de um grupo de recursos, o sinalizador retorna a um estado **desabilitado** e seu público-alvo é **não** restaurado — trate-o como um sinalizador novo. Um sinalizador **desabilitado** dentro de um grupo sempre é avaliado como `false`. A habilitação de um grupo de recursos **não** habilita seus sinalizadores de membro; habilita explicitamente cada sinalizador.
 >
 >Os grupos de recursos são uma **camada de gerenciamento**. No tempo de execução, você sempre avalia no **nível de recurso (sinalizador)**, nunca no nível de grupo; a resposta inclui a variante na qual o usuário se enquadrou.
-
-## Etapa 5: programação (opcional) {#schedule}
-
-Você pode agendar o grupo de recursos para ativação em uma data e hora futuras usando a opção **Agendar** nas configurações do grupo de recursos.
 
 ## Consulte também {#see-also}
 

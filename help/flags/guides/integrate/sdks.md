@@ -3,10 +3,10 @@ title: SDKs
 description: Saiba mais sobre a arquitetura do SDK em Sinalizadores e as extensões disponíveis do AEP Web SDK e do AEP Mobile SDK.
 hide: true
 exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 3%
+source-wordcount: '204'
+ht-degree: 1%
 
 ---
 
@@ -48,7 +48,7 @@ Consulte o [guia de integração de extensão do iOS](../sdk-releases/ios/ios-ex
 ## Consulte também {#see-also}
 
 * [guia de integração de extensão do Android](../sdk-releases/android/android-extension-integration-guide.md)
-* [Serviços web](web-services.md)
-* [Etapas de integração](integration-steps.md)
+* [guia de integração de extensão do iOS](../sdk-releases/ios/ios-extension-integration-guide.md)
+* [Guia de integração de extensão da Web](../sdk-releases/web/web-extension-integration-guide.md)
 
 <!-- -->

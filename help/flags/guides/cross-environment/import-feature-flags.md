@@ -3,9 +3,9 @@ title: Importar sinalizadores de recursos
 description: Saiba como importar sinalizadores de recursos de uma sandbox para outra em Sinalizadores para evitar a recriação manual das configurações de sinalizador.
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,9 @@ Os sinalizadores permitem importar sinalizadores de recursos de uma sandbox (por
 
 ## Etapa 1: Ir para a sandbox e o aplicativo de destino {#step-1}
 
-Faça logon no console da sandbox **destino** — a sandbox para a qual você deseja importar os sinalizadores *.* Selecione o aplicativo para o qual você deseja importar sinalizadores no menu suspenso do aplicativo na página Sinalizadores de recursos.
+Faça logon no console da sandbox **destino** — a sandbox para a qual você deseja importar sinalizadores. Clique em **Importar Sinalizadores de Recursos** e selecione o aplicativo para o qual deseja importar sinalizadores no menu suspenso do aplicativo.
+
+![Botão Importar Sinalizadores de Recursos na página Sinalizadores de Recursos](assets/import-feature-flags.png)
 
 >[!IMPORTANT]
 >

@@ -3,9 +3,9 @@ title: Por que usar sinalizadores
 description: Saiba mais sobre os principais casos de uso para sinalizadores no Adobe Target, desde testes seletivos de recursos até versões coordenadas de vários aplicativos.
 hide: true
 exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Abra um novo recurso progressivamente — 1%, 10%, 50% e, em seguida, 100% dos u
 Fase a implantação de forma incremental para evitar picos repentinos de tráfego nos serviços de back-end, em vez de expor todos os usuários a um novo recurso de uma só vez.
 
 **Versões coordenadas de vários aplicativos**
-Habilite um recurso simultaneamente em vários aplicativos e equipes para um conjunto específico de usuários. Os sinalizadores garantem consistência em toda a superfície de lançamento.
+Habilite um recurso simultaneamente em vários aplicativos para um conjunto específico de usuários. Os sinalizadores garantem consistência em toda a superfície de lançamento.
 
 **Versões adiadas**
 Implante o código antecipadamente na produção e ative o recurso em um momento preciso, por exemplo, no início de um evento de lançamento de produto, sem nenhuma alteração de código de última hora.

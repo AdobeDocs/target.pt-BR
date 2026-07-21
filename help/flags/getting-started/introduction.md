@@ -3,9 +3,9 @@ title: Introdução aos sinalizadores
 description: Saiba como o Flags no Adobe Target fornece um sistema de versão controlada para implantar recursos progressivamente para públicos-alvo direcionados.
 hide: true
 exl-id: befe7899-096d-4f74-a5a2-35b1fc3cbc58
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,9 @@ Sinalizadores é uma plataforma de gerenciamento de recursos que fornece:
 
 * **Sinalizadores de recursos** — Ative ou desative qualquer recurso no tempo de execução para um público-alvo direcionado, sem reimplantar o código.
 
-* **Direcionamento de público-alvo** — Controle quem vê um recurso usando dados de perfil de usuário, regras baseadas em porcentagem, endereço de email, domínio de email, endereço IP ou atributos contextuais.
+* **Direcionamento de público-alvo** — Controle quem vê um recurso usando atributos contextuais.
 
 * **Grupos de recursos** — agrupe vários sinalizadores de recursos relacionados entre aplicativos e gerencie-os como uma única unidade, garantindo que o mesmo público veja uma experiência consistente.
-
-* **Versões** — coordene grandes implantações entre equipes, agrupando sinalizadores de recursos de várias equipes e aplicativos em um único evento de versão.
 
 * **Implantações graduais** — crie uma fase de entrega de recursos de forma incremental para reduzir riscos, obter feedback e gerenciar a carga de back-end.
 

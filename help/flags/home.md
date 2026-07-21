@@ -4,7 +4,7 @@ description: Saiba como usar sinalizadores no Adobe Target para fornecer recurso
 hide: true
 index: false
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -39,14 +39,10 @@ A obtenção de valor dos sinalizadores começa com três etapas:
 
 1. **Criar e publicar um sinalizador** — Siga o guia [Criar seu primeiro sinalizador de recurso](guides/feature-flags/create-your-first-feature-flag.md) para definir um sinalizador, definir seu público inicial e publicá-lo em seu ambiente.
 
-1. **Integrar com seu aplicativo** — Conecte seu aplicativo usando o AEP Web SDK ou o AEP Mobile SDK para que ele possa recuperar e aplicar sinalizadores no tempo de execução. Comece com as [etapas de integração](guides/integrate/integration-steps.md) para o seu tipo de aplicativo.
+1. **Integrar com seu aplicativo** — Conecte seu aplicativo usando o AEP Web SDK ou o AEP Mobile SDK para que ele possa recuperar e aplicar sinalizadores no tempo de execução. Comece com o [guia de integração](guides/integrate/sdks.md) para o seu tipo de aplicativo.
 
 Depois que o primeiro sinalizador estiver ativo, você poderá refinar o público-alvo, configurar uma implantação gradual e promovê-la de salva para implantação completa.
 
 ## Precisa de ajuda?
 
 Se algo não se comportar conforme o esperado, entre em contato com o representante da Adobe para obter suporte.
-
-<!-- 
-Bob was here. Again.
--->
