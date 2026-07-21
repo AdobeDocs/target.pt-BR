@@ -3,9 +3,9 @@ title: Solicitar uma versão
 description: Saiba como solicitar uma nova versão coordenada em Sinalizadores e quais informações fornecer.
 hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '251'
 ht-degree: 2%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 2%
 
 ## Pré-requisitos {#prerequisites}
 
-* Você tem a função de **Gerente de versões** — consulte <!-- broken link[User roles](../teams/user-roles.md) -->
+* Você tem a função **Gerente de versões**
 * Seu aplicativo está integrado — consulte [Integrar seu aplicativo](../applications/onboard-your-application.md)
 
 >[!TIP]
 >
->Antes de solicitar uma versão, reveja <!--[Releases and cross-team feature groups](releases-and-cross-team-feature-groups.md)-->. Um grupo de recursos entre equipes pode atender às suas necessidades com menos sobrecarga, é de autoatendimento e oferece suporte ao direcionamento de público-alvo mais avançado.
+>Antes de solicitar uma versão, considere se um grupo de recursos entre equipes atende às suas necessidades com menos sobrecarga — ele é de autoatendimento e oferece suporte a direcionamento de público-alvo mais avançado.
 
 ## Enviar uma solicitação de suporte {#submit}
 

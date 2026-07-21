@@ -3,10 +3,10 @@ title: Aplicativos web
 description: Saiba como integrar Sinalizadores a um aplicativo web usando o Web SDK.
 hide: true
 exl-id: 9b5d744a-263d-4b10-8745-2891f111519f
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 9%
+source-wordcount: '41'
+ht-degree: 14%
 
 ---
 
@@ -14,17 +14,14 @@ ht-degree: 9%
 
 Os aplicativos Web se integram aos sinalizadores por meio do Web SDK.
 
->[!NOTE]
->
->A documentação do Web SDK está sendo preparada e estará disponível em breve. Entre em contato com o representante da Adobe para obter orientação de acesso antecipado.
+## Guia de integração {#integration-steps}
 
-## Etapas de integração {#integration-steps}
+Siga o guia da Web:
 
-Para obter uma apresentação completa do processo de integração, consulte [Etapas de integração](integration-steps.md).
+* [Guia de integração de extensão da Web](../sdk-releases/web/web-extension-integration-guide.md)
 
 ## Consulte também {#see-also}
 
-* [Etapas de integração](integration-steps.md)
 * [Guia de inicialização](startup-guide.md)
 
 <!-- -->
