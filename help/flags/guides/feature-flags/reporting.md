@@ -62,7 +62,7 @@ Ajuste o intervalo de datas do cabeçalho do painel para replotar para uma janel
 
 ![Painel de experimentação com seletores de experimento, variante de controle e métrica](assets/experimentation-selection.png)
 
-Consulte a [Documentação do painel de experimentação](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation) para obter mais detalhes sobre como essas métricas são calculadas.
+Consulte a [Documentação do painel de experimentação](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/panels/experimentation) para obter mais detalhes sobre como essas métricas são calculadas.
 
 ![Resultados de experimentação mostrando Incentivo, Confiança e taxa de conversão por variante](assets/experimentation.png)
 
