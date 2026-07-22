@@ -15,10 +15,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
+source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
-source-wordcount: 2900
-ht-degree: 46%
+source-wordcount: 2984
+ht-degree: 44%
 
 ---
 
@@ -79,7 +79,7 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar Novo Cr
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
 >title="Atributo de perfil"
->abstract="É possível criar um Atributo de perfil usando Scripts de perfil."
+>abstract="Você pode criar um Atributo de perfil usando Scripts de perfil."
 
 1. Selecione um **[!UICONTROL Tipo de Algoritmo]** e um **[!UICONTROL Algoritmo]**:
 
@@ -88,7 +88,7 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar Novo Cr
    | Tipo de algoritmo | Quando usar / Algoritmos disponíveis |
    | --- | --- |
    | [!UICONTROL Baseado Em Carrinho] | Faça recomendações com base no conteúdo do carrinho do usuário. <ul><li>[!UICONTROL Pessoas que os visualizaram, também visualizaram] </li><li>[!UICONTROL Pessoas Que Os Visualizaram, Também Compraram]</li><li>[!UICONTROL Pessoas que Compraram Estes, Também Compraram]</li></ul> |
-   | [!UICONTROL Com Base Em Popularidade] | Faça recomendações com base na popularidade geral de um item em todo o site ou na popularidade de itens na categoria, marca, gênero e assim por diante favoritas ou mais visualizadas de um usuário. <ul><li>[!UICONTROL Mais visualizados em todo o site]</li><li>[!UICONTROL Mais Visualizados por Categoria]</li><li>[!UICONTROL Mais Visualizados pelo Atributo de Item]</li><li>[!UICONTROL Mais vendidos em todo o site]</li><li>[!UICONTROL Mais vendidos por categoria]</li><li>[!UICONTROL Mais vendidos por atributo de item]</li><li>[!UICONTROL Métrica Top by Analytics]</li></ul> |
+   | [!UICONTROL Com Base Em Popularidade] | Faça recomendações com base na popularidade geral de um item em todo o site ou na popularidade de itens na categoria, marca, gênero e assim por diante favoritas ou mais visualizadas de um usuário. <ul><li>[!UICONTROL Mais visualizados em todo o site]</li><li>[!UICONTROL Mais Visualizados por Categoria]</li><li>[!UICONTROL Mais Visualizados pelo Atributo de Item]</li><li>[!UICONTROL Mais visualizados pelo atributo de perfil]</li><li>[!UICONTROL Mais vendidos em todo o site]</li><li>[!UICONTROL Mais vendidos por categoria]</li><li>[!UICONTROL Mais vendidos por atributo de item]</li><li>[!UICONTROL Mais vendidos por atributo de perfil]</li><li>[!UICONTROL Métrica Top by Analytics]</li></ul> |
    | [!UICONTROL Baseado em Item] | Fazer recomendações com base na localização de itens semelhantes a um item que o usuário está visualizando atualmente ou que visualizou recentemente. <ul><li>[!UICONTROL Pessoas Que Visualizaram Isto, Visualizaram Aquilo]</li><li>[!UICONTROL Pessoas que Visualizaram Isto, Compraram Aquilo]</li><li>[!UICONTROL Pessoas que Compraram Isto, Compraram Aquilo]</li><li>[!UICONTROL Itens com Atributos Semelhantes]</li></ul> |
    | [!UICONTROL Baseado em Usuário] | Faça recomendações com base no comportamento do usuário.<ul><li>[!UICONTROL Itens visualizados recentemente]</li><li>[!UICONTROL Recomendado para você]</li></ul> |
    | [!UICONTROL Critérios personalizados] | Faça recomendações com base em um arquivo personalizado que você fez upload.<ul><li>Algoritmo personalizado</li></ul> |
@@ -100,6 +100,8 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar Novo Cr
 1. Conforme necessário, selecione um **Atributo de Item** e **Atributo de Perfil a Corresponder**, uma **Chave de Recomendação**, **Chave de Filtragem** e/ou **Métrica do Analytics** para configurar o algoritmo.
 
 As opções de configuração de algoritmo restantes variam dependendo do algoritmo selecionado. Para concluir a configuração do algoritmo, selecione uma [!UICONTROL Chave de recomendação], [!UICONTROL Chave de Filtragem], [!UICONTROL Base de Ocorrência Conjunta], [!UICONTROL Métrica do Analytics] e/ou [!UICONTROL Atributo de Item] e [!UICONTROL Atributo de Perfil Correspondente].
+
+Ao selecionar [!UICONTROL Mais visualizados pelo atributo de perfil] ou [!UICONTROL Mais vendidos por atributo de perfil], selecione um **[!UICONTROL Atributo de perfil]** para agrupar os dados de interação. Os atributos de perfil vêm de um script de perfil que captura uma característica do visitante, como região ou país, e o nome do script deve ter o prefixo `recsAttribute`, de modo que seja armazenado como `user.recsAttribute<Name>`, por exemplo, `user.recsAttributeRegion`. No momento da entrega, [!DNL Target] fornece a cada visitante a lista classificada que corresponde ao seu próprio valor desse atributo.
 
 Para obter mais informações sobre como escolher uma [!UICONTROL Chave de recomendação], consulte [Basear a recomendação em uma chave de recomendação](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 

@@ -1,12 +1,13 @@
 ---
 title: Regras complexas de público
 description: Saiba como trabalhar com conjuntos de regras de público-alvo grandes ou complexos em Sinalizadores, incluindo limites de valor em massa e como dividir regras em várias condições.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 37e037b6-45eb-4261-b580-30d94d8e55da
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 2%
+source-wordcount: '93'
+ht-degree: 3%
 
 ---
 

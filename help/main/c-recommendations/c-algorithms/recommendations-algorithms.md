@@ -18,9 +18,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
-source-wordcount: 2952
+source-wordcount: 3045
 ht-degree: 0%
 
 ---
@@ -81,9 +81,9 @@ Veja a seguir os detalhes dessas etapas:
 
 * **Treinamento de modelo**:
 
-   * **Limpeza e amostragem de dados**: para algoritmos com retrospectiva de N dias, os dados comportamentais são filtrados pela primeira vez para incluir apenas esses N dias de dados. As regras de coleção e as exclusões globais são aplicadas para remover quaisquer itens que não devem ser recomendados. Por fim, todos os visitantes que interagiram com mais de 1.000 itens têm seus dados de uso amostrados para apenas 1.000 itens.
-   * **Cálculo de similaridade de item**: esta é a etapa computacional principal: calcular a similaridade da taxa de probabilidade do log entre todos os pares de itens candidatos e classificar pares de itens por essa pontuação de similaridade.
-   * **Filtragem offline**: finalmente, todos os outros filtros dinâmicos aplicáveis são aplicados (por exemplo, exclusões de categoria dinâmica). Após essa etapa, as recomendações pré-calculadas são armazenadas em cache globalmente para estarem disponíveis para veiculação.
+  * **Limpeza e amostragem de dados**: para algoritmos com retrospectiva de N dias, os dados comportamentais são filtrados pela primeira vez para incluir apenas esses N dias de dados. As regras de coleção e as exclusões globais são aplicadas para remover quaisquer itens que não devem ser recomendados. Por fim, todos os visitantes que interagiram com mais de 1.000 itens têm seus dados de uso amostrados para apenas 1.000 itens.
+  * **Cálculo de similaridade de item**: esta é a etapa computacional principal: calcular a similaridade da taxa de probabilidade do log entre todos os pares de itens candidatos e classificar pares de itens por essa pontuação de similaridade.
+  * **Filtragem offline**: finalmente, todos os outros filtros dinâmicos aplicáveis são aplicados (por exemplo, exclusões de categoria dinâmica). Após essa etapa, as recomendações pré-calculadas são armazenadas em cache globalmente para estarem disponíveis para veiculação.
 
 * **Atendimento de modelos**: o conteúdo do Recommendations é entregue a partir da [rede &quot;Edge&quot; global](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) de [!DNL Target]. Quando as solicitações da mbox são feitas para [!DNL Target] e é determinado que o conteúdo das recomendações deve ser entregue à página, a solicitação da [chave de item](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) apropriada para o algoritmo de recomendações é analisada a partir da solicitação ou pesquisada a partir do perfil do usuário e, em seguida, usada para recuperar as recomendações computadas nas etapas anteriores. Filtros dinâmicos adicionais são aplicados neste momento, antes que o [design](/help/main/c-recommendations/c-design-overview/create-design.md) apropriado seja renderizado.
 
@@ -105,22 +105,22 @@ Veja a seguir os detalhes dessas etapas:
 
 * **Treinamento de modelo**:
 
-   * **Extração de atributo**: após a aplicação de filtros estáticos regulares, regras de catálogo e exclusões globais, este algoritmo extrai campos textuais relevantes do esquema de entidade. [!DNL Target] usa automaticamente os campos de nome, mensagem e categoria dos atributos de entidade e tenta extrair quaisquer campos de sequência de caracteres dos [atributos de entidade](/help/main/c-recommendations/c-products/entity-attributes.md) personalizados. Esse processo é feito garantindo que a maioria dos valores desse campo não seja analisável como um número, data ou booleano.
-   * **Remoção de palavras irrelevantes e de palavras de interrupção**: para obter uma correspondência de similaridade de texto mais precisa, é prudente remover palavras de &quot;interrupção&quot; muito comuns que não alteram significativamente o significado de um item (por exemplo, &quot;era&quot;, &quot;é&quot;, &quot;e&quot; e assim por diante). Da mesma forma, o radical refere-se ao processo de redução de palavras com sufixos diferentes para sua palavra raiz, que tem um significado idêntico (por exemplo, &quot;conectar&quot;, &quot;conectar&quot; e &quot;conexão&quot; têm a mesma palavra raiz: &quot;conectar&quot;). [!DNL Target] usa o lematizador de Snowball. O [!DNL Target] executa a detecção automática de idioma primeiro e pode fazer a remoção de palavras de interrupção para até 50 idiomas e a ramificação para 18 idiomas.
-   * **n-grama criação**: após as etapas anteriores, cada palavra é tratada como um token. O processo de combinação de sequências contíguas de tokens em um único token é conhecido como criação n-grama. Os algoritmos de [!DNL Target] consideram até 2 gramas.
-   * **computação de tf-idf**: a próxima etapa envolve a criação de vetores tf-idf para refletir a importância relativa de tokens na descrição do item. Para cada ficha/termo t num item i, num catálogo D com |D| itens, o termo frequência TF(t, i) é calculado primeiro (o número de vezes que o termo aparece no item i), bem como a frequência do documento DF(t, D). Em essência, o número de itens em que o token t existe. A medida tf-idf é então
+  * **Extração de atributo**: após a aplicação de filtros estáticos regulares, regras de catálogo e exclusões globais, este algoritmo extrai campos textuais relevantes do esquema de entidade. [!DNL Target] usa automaticamente os campos de nome, mensagem e categoria dos atributos de entidade e tenta extrair quaisquer campos de sequência de caracteres dos [atributos de entidade](/help/main/c-recommendations/c-products/entity-attributes.md) personalizados. Esse processo é feito garantindo que a maioria dos valores desse campo não seja analisável como um número, data ou booleano.
+  * **Remoção de palavras irrelevantes e de palavras de interrupção**: para obter uma correspondência de similaridade de texto mais precisa, é prudente remover palavras de &quot;interrupção&quot; muito comuns que não alteram significativamente o significado de um item (por exemplo, &quot;era&quot;, &quot;é&quot;, &quot;e&quot; e assim por diante). Da mesma forma, o radical refere-se ao processo de redução de palavras com sufixos diferentes para sua palavra raiz, que tem um significado idêntico (por exemplo, &quot;conectar&quot;, &quot;conectar&quot; e &quot;conexão&quot; têm a mesma palavra raiz: &quot;conectar&quot;). [!DNL Target] usa o lematizador de Snowball. O [!DNL Target] executa a detecção automática de idioma primeiro e pode fazer a remoção de palavras de interrupção para até 50 idiomas e a ramificação para 18 idiomas.
+  * **n-grama criação**: após as etapas anteriores, cada palavra é tratada como um token. O processo de combinação de sequências contíguas de tokens em um único token é conhecido como criação n-grama. Os algoritmos de [!DNL Target] consideram até 2 gramas.
+  * **computação de tf-idf**: a próxima etapa envolve a criação de vetores tf-idf para refletir a importância relativa de tokens na descrição do item. Para cada ficha/termo t num item i, num catálogo D com |D| itens, o termo frequência TF(t, i) é calculado primeiro (o número de vezes que o termo aparece no item i), bem como a frequência do documento DF(t, D). Em essência, o número de itens em que o token t existe. A medida tf-idf é então
 
-     ![Fórmula mostrando tf-idf measure](assets/formula2.png)
+    ![Fórmula mostrando tf-idf measure](assets/formula2.png)
 
-     O [!DNL Target] usa a implementação de recurso *tf-idf* do Apache Spark, que sob o capô hash cada token para um espaço de 218 tokens. Nesta etapa, o aumento e a enterramento de atributos especificados pelo cliente também são aplicados ajustando as frequências dos termos em cada vetor com base nas configurações especificadas nos [critérios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+    O [!DNL Target] usa a implementação de recurso *tf-idf* do Apache Spark, que sob o capô hash cada token para um espaço de 218 tokens. Nesta etapa, o aumento e a enterramento de atributos especificados pelo cliente também são aplicados ajustando as frequências dos termos em cada vetor com base nas configurações especificadas nos [critérios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
-   * **Computação de similaridade de item**: a computação de similaridade de item final é feita usando uma similaridade aproximada de cosseno. Para dois itens, *A* e *B*, com os vetores tA e tB, a similaridade do cosseno é definida como:
+  * **Computação de similaridade de item**: a computação de similaridade de item final é feita usando uma similaridade aproximada de cosseno. Para dois itens, *A* e *B*, com os vetores tA e tB, a similaridade do cosseno é definida como:
 
-     ![Fórmula mostrando o cálculo de similaridade de item](assets/formula3.png)
+    ![Fórmula mostrando o cálculo de similaridade de item](assets/formula3.png)
 
-     Para evitar complexidade significativa em calcular semelhanças entre todos os itens N x N, o vetor *tf-idf* é truncado para conter apenas suas 500 maiores entradas e, em seguida, calcula as semelhanças do cosseno entre os itens usando essa representação de vetor truncada. Essa abordagem se mostra mais robusta para computações de similaridade de vetor esparso, em comparação a outras técnicas de vizinho mais próximo aproximado (ANN), como hash sensível à localidade.
+    Para evitar complexidade significativa em calcular semelhanças entre todos os itens N x N, o vetor *tf-idf* é truncado para conter apenas suas 500 maiores entradas e, em seguida, calcula as semelhanças do cosseno entre os itens usando essa representação de vetor truncada. Essa abordagem se mostra mais robusta para computações de similaridade de vetor esparso, em comparação a outras técnicas de vizinho mais próximo aproximado (ANN), como hash sensível à localidade.
 
-   * **Serviço de modelo**: esse processo é idêntico às técnicas de filtragem colaborativa item-item descritas na seção anterior.
+  * **Serviço de modelo**: esse processo é idêntico às técnicas de filtragem colaborativa item-item descritas na seção anterior.
 
 ## Recomendações de várias chaves
 
@@ -143,22 +143,22 @@ Veja a seguir os detalhes dessas etapas:
 
 * **Treinamento de modelo**:
 
-   * **Limpeza de dados e amostragem**: é o mesmo para métodos de filtragem colaborativa, em que a janela de pesquisa é aplicada para filtrar dados comportamentais para um intervalo de datas apropriado, seguido pela aplicação de regras de catálogo e exclusões globais. Os visitantes que interagiram com mais de 1.000 itens têm apenas seus 1.000 usos mais recentes considerados.
-   * **Divisão do teste de treinamento**: execute uma divisão cronológica dos usos para cada usuário, alocando os primeiros 80% de seus usos para dados de treinamento, com os 20% restantes alocados para os dados de teste.
-   * **Treinamento do modelo de similaridade de item**: a computação de similaridade do item principal difere para [!UICONTROL Recomendado para você] e algoritmos baseados em carrinho na maneira como os vetores de item candidatos são construídos. Para [!UICONTROL Recomendado para Você], os vetores de item têm NUsers de dimensão, em que cada entrada representa a soma das classificações implícitas para esse usuário do item. As compras de um item recebem um peso 2x maior do que as visualizações do item. Para recomendações Baseadas em Carrinho, os vetores de item têm entradas binárias; se o comportamento dentro da sessão for considerado apenas, haverá uma nova entrada para cada sessão. Caso contrário, haverá uma entrada nesse vetor de item para cada visitante.
+  * **Limpeza de dados e amostragem**: é o mesmo para métodos de filtragem colaborativa, em que a janela de pesquisa é aplicada para filtrar dados comportamentais para um intervalo de datas apropriado, seguido pela aplicação de regras de catálogo e exclusões globais. Os visitantes que interagiram com mais de 1.000 itens têm apenas seus 1.000 usos mais recentes considerados.
+  * **Divisão do teste de treinamento**: execute uma divisão cronológica dos usos para cada usuário, alocando os primeiros 80% de seus usos para dados de treinamento, com os 20% restantes alocados para os dados de teste.
+  * **Treinamento do modelo de similaridade de item**: a computação de similaridade do item principal difere para [!UICONTROL Recomendado para você] e algoritmos baseados em carrinho na maneira como os vetores de item candidatos são construídos. Para [!UICONTROL Recomendado para Você], os vetores de item têm NUsers de dimensão, em que cada entrada representa a soma das classificações implícitas para esse usuário do item. As compras de um item recebem um peso 2x maior do que as visualizações do item. Para recomendações Baseadas em Carrinho, os vetores de item têm entradas binárias; se o comportamento dentro da sessão for considerado apenas, haverá uma nova entrada para cada sessão. Caso contrário, haverá uma entrada nesse vetor de item para cada visitante.
 
   A etapa de treinamento calcula vários tipos de similaridades de vetor: similaridade de LLR ([discutido aqui](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), similaridade de cosseno (definida anteriormente) e similaridade de L2 normalizada, definida como:
 
   ![Fórmula mostrando o cálculo de treinamento](assets/formula4.png)
 
-   * **Avaliação do modelo de similaridade de item**: a avaliação do modelo é feita tomando as recomendações geradas na etapa anterior e fazendo previsões no conjunto de dados de teste. A fase de pontuação online é imitada pela ordem cronológica do uso dos itens de cada usuário no conjunto de dados de teste, fazendo 100 recomendações para subconjuntos ordenados de itens em uma tentativa de prever exibições e compras subsequentes. Uma métrica de recuperação de informações, a [Precisão média média]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)), é usada para avaliar a qualidade dessas recomendações. Essa métrica leva em conta a ordem das recomendações e favorece itens relevantes mais altos na lista de recomendações, o que é uma propriedade importante para os sistemas de classificação.
-   * **Seleção de modelo**: após a avaliação offline, o modelo que tem a Precisão Média mais alta é selecionado e todas as recomendações individuais de item são computadas para ele.
-   * **Filtragem offline**: a etapa final do treinamento de modelo é a aplicação de filtros dinâmicos aplicáveis. Após essa etapa, as recomendações pré-calculadas são armazenadas em cache globalmente para estarem disponíveis para veiculação.
+  * **Avaliação do modelo de similaridade de item**: a avaliação do modelo é feita tomando as recomendações geradas na etapa anterior e fazendo previsões no conjunto de dados de teste. A fase de pontuação online é imitada pela ordem cronológica do uso dos itens de cada usuário no conjunto de dados de teste, fazendo 100 recomendações para subconjuntos ordenados de itens em uma tentativa de prever exibições e compras subsequentes. Uma métrica de recuperação de informações, a [Precisão média média]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)), é usada para avaliar a qualidade dessas recomendações. Essa métrica leva em conta a ordem das recomendações e favorece itens relevantes mais altos na lista de recomendações, o que é uma propriedade importante para os sistemas de classificação.
+  * **Seleção de modelo**: após a avaliação offline, o modelo que tem a Precisão Média mais alta é selecionado e todas as recomendações individuais de item são computadas para ele.
+  * **Filtragem offline**: a etapa final do treinamento de modelo é a aplicação de filtros dinâmicos aplicáveis. Após essa etapa, as recomendações pré-calculadas são armazenadas em cache globalmente para estarem disponíveis para veiculação.
 
 * **Atendimento de modelo**: diferentemente dos algoritmos anteriores, nos quais as recomendações de atendimento envolvem a especificação de uma única chave para recuperação, seguida da aplicação de regras de negócios, os [!UICONTROL Recomendado para você] e os algoritmos baseados em carrinho empregam um processo de tempo de execução mais complexo.
 
-   * **Recuperação e mesclagem de várias chaves**: para recomendações baseadas em carrinho, até dez itens passados no carrinho são considerados chaves para recuperação, e as recomendações de cada um são igualmente ponderadas. Para [!UICONTROL Recomendado para você], até os últimos cinco itens visualizados exclusivos e os últimos cinco itens comprados exclusivos são considerados chaves para recuperação, com as recomendações provenientes de itens comprados ponderadas duas vezes mais do que as recomendações provenientes de itens visualizados. Ao mesclar recomendações, se um item aparecer em várias listas individuais de recomendações, suas pontuações de similaridade ponderadas serão adicionadas. A lista final de recomendações desse estágio é, então, a lista mesclada de recomendações reponderadas, classificadas em ordem decrescente.
-   * **Filtragem**: em seguida, regras de filtragem, como remoção de itens visualizados e/ou comprados anteriormente, bem como outras regras comerciais dinâmicas, serão aplicadas.
+  * **Recuperação e mesclagem de várias chaves**: para recomendações baseadas em carrinho, até dez itens passados no carrinho são considerados chaves para recuperação, e as recomendações de cada um são igualmente ponderadas. Para [!UICONTROL Recomendado para você], até os últimos cinco itens visualizados exclusivos e os últimos cinco itens comprados exclusivos são considerados chaves para recuperação, com as recomendações provenientes de itens comprados ponderadas duas vezes mais do que as recomendações provenientes de itens visualizados. Ao mesclar recomendações, se um item aparecer em várias listas individuais de recomendações, suas pontuações de similaridade ponderadas serão adicionadas. A lista final de recomendações desse estágio é, então, a lista mesclada de recomendações reponderadas, classificadas em ordem decrescente.
+  * **Filtragem**: em seguida, regras de filtragem, como remoção de itens visualizados e/ou comprados anteriormente, bem como outras regras comerciais dinâmicas, serão aplicadas.
 
 Esses processos são ilustrados na imagem a seguir, em que um visitante visualizou o item A e comprou o item B. As recomendações individuais são recuperadas com as pontuações de similaridade offline exibidas abaixo de cada rótulo de item. Após a recuperação, as recomendações são mescladas com pontuações de similaridade ponderadas somadas. Por fim, em um cenário em que o cliente especificou que os itens visualizados e comprados anteriormente devem ser filtrados, a etapa de filtragem remove os itens A e B da lista de recomendações.
 
@@ -171,9 +171,11 @@ Os algoritmos incluem:
 * [!UICONTROL Mais visualizados em todo o site]
 * [!UICONTROL Mais Visualizados por Categoria]
 * [!UICONTROL Mais Visualizados pelo Atributo de Item]
+* [!UICONTROL Mais visualizados pelo atributo de perfil]
 * [!UICONTROL Mais vendidos em todo o site]
 * [!UICONTROL Mais vendidos por categoria]
 * [!UICONTROL Mais vendidos por atributo de item]
+* [!UICONTROL Mais vendidos por atributo de perfil]
 
 O [!DNL Target] fornece algoritmos baseados em popularidade para os itens mais visualizados, bem como para os itens mais vendidos em um site ou detalhados por um atributo ou categoria de item. Os algoritmos baseados em popularidade classificam os itens com base no número de sessões em que esse item foi exibido ou comprado em um determinado período.
 
@@ -183,6 +185,7 @@ As nuances individuais do algoritmo são as seguintes:
 
 * [!UICONTROL Mais Exibidos no Site] e [!UICONTROL Mais Vendidos no Site] classificam os itens pela contagem agregada de sessões em que esses itens foram exibidos ou comprados, respectivamente. A saída é uma lista única (sem chave) de itens recomendados.
 * Mais Vendidos/Mais Vendidos por Categoria/Atributo do Item são recomendações em que os itens são ordenados pela contagem agregada de sessões em que esses itens foram exibidos ou comprados, mas agrupados pela categoria do item ou pelo atributo do item específico. As saídas são listas de itens recomendados, digitadas por valores de categorias ou valores de atributos de item.
+* [!UICONTROL Mais Visualizados pelo Atributo de Perfil] e [!UICONTROL Mais Vendidos pelo Atributo de Perfil] também classificam itens por contagem de compra ou exibição agregada, mas a chave de agrupamento é um atributo de perfil de visitante, como país, região ou camada de associação, em vez de uma propriedade de item. A contagem de cada sessão é atribuída a qualquer valor de perfil que o visitante tenha no momento da interação, não a qualquer atributo do item. O resultado é um conjunto de listas de recomendações chaveadas pelos valores distintos desse atributo de perfil.
 
 ## Visualizado recentemente
 

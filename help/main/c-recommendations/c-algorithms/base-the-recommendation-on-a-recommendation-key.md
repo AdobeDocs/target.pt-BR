@@ -15,10 +15,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: f741cd1f80d85c1a16088e6892b916567b3cd37f
 workflow-type: tm+mt
-source-wordcount: 4049
-ht-degree: 27%
+source-wordcount: 4434
+ht-degree: 25%
 
 ---
 
@@ -31,7 +31,7 @@ Cada tipo de algoritmo fornece algoritmos diferentes apropriados para seu tipo, 
 | Tipo de algoritmo | Quando usar / Algoritmos disponíveis |
 | --- | --- |
 | [!UICONTROL Baseado Em Carrinho] | Faça recomendações com base no conteúdo do carrinho do usuário.<ul><li>[!UICONTROL Pessoas que os visualizaram, também visualizaram]</li><li>[!UICONTROL Pessoas Que Os Visualizaram, Também Compraram]</li><li>[!UICONTROL Pessoas que Compraram Estes, Também Compraram]</li></ul> |
-| [!UICONTROL Com Base Em Popularidade] | Faça recomendações com base na popularidade geral de um item em todo o site ou na popularidade de itens na categoria, marca, gênero e assim por diante favoritas ou mais visualizadas de um usuário. <ul><li>[!UICONTROL Mais visualizados em todo o site]</li><li>[!UICONTROL Mais Visualizados por Categoria]</li><li>[!UICONTROL Mais Visualizados pelo Atributo de Item]</li><li>[!UICONTROL Mais vendidos em todo o site]</li><li>[!UICONTROL Mais vendidos por categoria]</li><li>[!UICONTROL Mais vendidos por atributo de item]</li><li>[!UICONTROL Métrica Top by Analytics]</li></ul> |
+| [!UICONTROL Com Base Em Popularidade] | Faça recomendações com base na popularidade geral de um item em todo o site ou na popularidade de itens na categoria, marca, gênero e assim por diante favoritas ou mais visualizadas de um usuário. <ul><li>[!UICONTROL Mais visualizados em todo o site]</li><li>[!UICONTROL Mais Visualizados por Categoria]</li><li>[!UICONTROL Mais Visualizados pelo Atributo de Item]</li><li>[!UICONTROL Mais visualizados pelo atributo de perfil]</li><li>[!UICONTROL Mais vendidos em todo o site]</li><li>[!UICONTROL Mais vendidos por categoria]</li><li>[!UICONTROL Mais vendidos por atributo de item]</li><li>[!UICONTROL Mais vendidos por atributo de perfil]</li><li>[!UICONTROL Métrica Top by Analytics]</li></ul> |
 | [!UICONTROL Baseado em Item] | Fazer recomendações com base na localização de itens semelhantes a um item que o usuário está visualizando atualmente ou que visualizou recentemente. <ul><li>[!UICONTROL Pessoas Que Visualizaram Isto, Visualizaram Aquilo]</li><li>[!UICONTROL Pessoas que Visualizaram Isto, Compraram Aquilo]</li><li>[!UICONTROL Pessoas que Compraram Isto, Compraram Aquilo]</li><li>[!UICONTROL Itens com Atributos Semelhantes]</li></ul> |
 | [!UICONTROL Baseado em Usuário] | Faça recomendações com base no comportamento do usuário. <ul><li>[!UICONTROL Itens visualizados recentemente]</li><li>[!UICONTROL Recomendado para você]</li></ul> |
 | [!UICONTROL Critérios personalizados] | Faça recomendações com base em um arquivo personalizado que você fez upload. <ul><li>Algoritmo personalizado</li></ul> |
@@ -179,6 +179,43 @@ Recomenda itens ou mídias semelhantes aos itens ou mídias mais comprados em se
 Esse algoritmo permite selecionar em qual atributo de item você deseja basear a recomendação, por exemplo, &quot;Nome&quot; ou &quot;Marca&quot;.
 
 Em seguida, selecione quais atributos de perfil são armazenados no perfil do visitante para correspondência. Por exemplo, &quot;Marca favorita&quot;, &quot;Último item adicionado ao carrinho&quot; ou &quot;Programa mais visualizado&quot;.
+
+### [!UICONTROL Mais visualizados pelo atributo de perfil]
+
+>[!CONTEXTUALHELP]
+>id="target_recommendations_profile_attribute"
+>title="Atributo de perfil"
+>abstract="Você pode criar um atributo de Perfil usando Scripts de perfil. Depois que um script de perfil é criado e ativado, seu atributo de perfil correspondente pode ser usado com esse algoritmo."
+
+Recomenda os itens mais visualizados agrupados por um atributo de perfil de visitante, em vez de por informações de item, como [!UICONTROL Mais visualizados por categoria] e [!UICONTROL Mais visualizados por atributo de item] fazem. [!DNL Target] mantém uma lista classificada separada por valor de atributo e, no momento da entrega, mostra a cada visitante a lista que corresponde a seu próprio valor armazenado.
+
+Este algoritmo depende de um script de perfil para preencher o atributo, e o nome do script deve começar com o prefixo `recsAttribute` para que [!DNL Target] o armazene como `user.recsAttribute<Name>`. Você pode criar um script para qualquer característica de visitante relevante ao seu caso de uso.
+
+Saiba mais sobre como definir atributos de perfil usando scripts de perfil em [esta página](https://experienceleague.adobe.com/pt-br/docs/target/using/audiences/visitor-profiles/profile-parameters).
+
+Por exemplo, um script chamado `recsAttributeRegion` que baseia as recomendações na região do visitante pode ter esta aparência:
+
+```
+var region = mbox.param('userRegion');
+if (region) return region;
+```
+
+Depois que o script é criado e ativado, a entrada [!UICONTROL Region] correspondente fica disponível na lista suspensa de atributos de perfil da janela criar critérios. Observe que o prefixo `recsAttribute` em si não é mostrado na lista suspensa.
+
+### [!UICONTROL Mais vendidos por atributo de perfil]
+
+Recomenda os itens mais vendidos agrupados por um atributo de perfil de visitante, em vez de por informações de item, como fazem os [!UICONTROL Mais vendidos por categoria] e os [!UICONTROL Mais vendidos por atributo de item]. [!DNL Target] mantém uma lista de mais vendidos separada por valor de atributo e, no momento da entrega, mostra a cada visitante a lista que corresponde a seu próprio valor armazenado.
+
+Assim como em [!UICONTROL Mais Visualizados pelo Atributo de Perfil], esse algoritmo depende de um script de perfil para preencher o atributo, e o nome do script deve começar com o prefixo `recsAttribute`, para que [!DNL Target] o armazene como `user.recsAttribute<Name>`. Você pode criar um script para qualquer característica de visitante relevante ao seu caso de uso. Saiba mais sobre como definir atributos de perfil usando scripts de perfil em [esta página](https://experienceleague.adobe.com/pt-br/docs/target/using/audiences/visitor-profiles/profile-parameters).
+
+Por exemplo, um script chamado `recsAttributeLoyaltyTier` que baseia as recomendações no nível de fidelidade do visitante pode ter esta aparência:
+
+```
+var tier = mbox.param('visitorLoyaltyTier');
+if (tier) return tier;
+```
+
+Depois que o script é criado e ativado, a entrada [!UICONTROL Camada de fidelidade] correspondente fica disponível na lista suspensa de atributos de perfil da janela de criação de critérios. Observe que o prefixo `recsAttribute` em si não é mostrado na lista suspensa.
 
 ### [!UICONTROL Métrica Top by Analytics]
 

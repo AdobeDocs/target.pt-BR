@@ -1,12 +1,13 @@
 ---
 title: Relatório
 description: Saiba como exibir relatórios de sinalizadores de recursos em Sinalizadores usando o Customer Journey Analytics.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +23,7 @@ Os sinalizadores fornecem relatórios por meio do **Customer Journey Analytics (
 
 Antes de visualizar os relatórios, verifique se:
 
-1. Os relatórios estão configurados para seu aplicativo — consulte [Configurar relatórios com o Customer Journey Analytics](#setup).
+1. Os relatórios estão configurados para seu aplicativo — consulte [Configurar o CJA para relatórios de sinalizadores de recursos](set-up-cja-reporting.md).
 1. Seu sinalizador de recurso ou grupo de recursos está ativo e tem dados acumulados.
 
 ## Exibir um relatório {#view-report}
@@ -66,28 +67,9 @@ Consulte a [Documentação do painel de experimentação](https://experienceleag
 
 ![Resultados de experimentação mostrando Incentivo, Confiança e taxa de conversão por variante](assets/experimentation.png)
 
-### Analisar no CJA (opcional) {#analyze-in-cja}
-
-Depois que um relatório é carregado, o botão **Analisar no CJA** é exibido na parte superior direita da guia Relatório. Selecionar essa opção abre o mesmo relatório de página inteira no Customer Journey Analytics em uma nova guia do navegador, onde você tem o conjunto completo de ferramentas do CJA para análise ad hoc mais profunda.
-
-![Relatório de Visão Geral de Sinalizadores aberto no espaço de trabalho do Customer Journey Analytics](assets/cja-workspace.png)
-
->[!IMPORTANT]
->
->O relatório é aberto como um projeto temporário e não salvo. Se você o personalizar no CJA (adicionar métricas, alterar painéis, ajustar filtros e assim por diante) e quiser manter essas alterações, salve-o usando **Projeto > Salvar como modelo**. Caso contrário, suas edições serão perdidas quando você fechar o relatório.
-
-![Menu Projeto com a opção Salvar como modelo realçada](assets/save-as-template.png)
-
-## Configurar relatórios com o Customer Journey Analytics {#setup}
-
-Os relatórios exigem um conjunto de dados do Customer Journey Analytics conectado ao aplicativo Sinalizadores. Entre em contato com o suporte a Sinalizadores ou com o representante da Adobe para habilitar os relatórios do seu aplicativo.
-
->[!NOTE]
->
->A identidade transmitida na solicitação de recurso não precisa ser vinculada a um perfil. A avaliação acontece no tempo de execução e o evento é enviado para a Customer Journey Analytics.
-
 ## Consulte também {#see-also}
 
+* [Configurar o CJA para relatórios de sinalizadores de recursos](set-up-cja-reporting.md)
 * [Criar o primeiro sinalizador de recurso](create-your-first-feature-flag.md)
 * [Teste A/B com sinalizadores de recursos](a-b-testing.md)
 * [Criar um grupo de recursos](create-a-feature-group.md)

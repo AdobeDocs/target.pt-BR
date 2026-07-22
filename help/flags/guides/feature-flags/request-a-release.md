@@ -1,12 +1,13 @@
 ---
 title: Solicitar uma versão
 description: Saiba como solicitar uma nova versão coordenada em Sinalizadores e quais informações fornecer.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 2%
+source-wordcount: '252'
+ht-degree: 3%
 
 ---
 
