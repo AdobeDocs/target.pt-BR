@@ -44,7 +44,7 @@ Diferentes algoritmos de recomendações se prestam ao posicionamento em diferen
 
 ## Baseado em carrinho {#cart-based}
 
-O tipo de algoritmo [!UICONTROL Baseado em carrinho] permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio do [parâmetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} em valores separados por vírgulas. Somente os primeiros dez valores são considerados.
+O tipo de algoritmo [!UICONTROL Baseado em carrinho] permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio do [parâmetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} em valores separados por vírgulas. Somente os primeiros dez valores são considerados.
 
 A lógica de recomendação baseada em carrinho é semelhante ao algoritmo baseado em usuário &quot;[!UICONTROL Recomendado para você]&quot; e aos algoritmos baseados em item &quot;[!UICONTROL Pessoas que visualizaram isto, compraram aquilo]&quot; e &quot;[!UICONTROL Pessoas que compraram aquilo, compraram aquilo]&quot;.
 
@@ -186,7 +186,7 @@ Recomenda os itens mais visualizados agrupados por um atributo de perfil de visi
 
 Este algoritmo depende de um script de perfil para preencher o atributo, e o nome do script deve começar com o prefixo `recsAttribute` para que [!DNL Target] o armazene como `user.recsAttribute<Name>`. Você pode criar um script para qualquer característica de visitante relevante ao seu caso de uso.
 
-Saiba mais sobre como definir atributos de perfil usando scripts de perfil em [esta página](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
+Saiba mais sobre como definir atributos de perfil usando scripts de perfil em [esta página](https://experienceleague.adobe.com/pt-br/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Por exemplo, um script chamado `recsAttributeRegion` que baseia as recomendações na região do visitante pode ter esta aparência:
 
@@ -201,7 +201,7 @@ Depois que o script é criado e ativado, a entrada [!UICONTROL Region] correspon
 
 Recomenda os itens mais vendidos agrupados por um atributo de perfil de visitante, em vez de por informações de item, como fazem os [!UICONTROL Mais vendidos por categoria] e os [!UICONTROL Mais vendidos por atributo de item]. [!DNL Target] mantém uma lista de mais vendidos separada por valor de atributo e, no momento da entrega, mostra a cada visitante a lista que corresponde a seu próprio valor armazenado.
 
-Assim como em [!UICONTROL Mais Visualizados pelo Atributo de Perfil], esse algoritmo depende de um script de perfil para preencher o atributo, e o nome do script deve começar com o prefixo `recsAttribute`, para que [!DNL Target] o armazene como `user.recsAttribute<Name>`. Você pode criar um script para qualquer característica de visitante relevante ao seu caso de uso. Saiba mais sobre como definir atributos de perfil usando scripts de perfil em [esta página](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
+Assim como em [!UICONTROL Mais Visualizados pelo Atributo de Perfil], esse algoritmo depende de um script de perfil para preencher o atributo, e o nome do script deve começar com o prefixo `recsAttribute`, para que [!DNL Target] o armazene como `user.recsAttribute<Name>`. Você pode criar um script para qualquer característica de visitante relevante ao seu caso de uso. Saiba mais sobre como definir atributos de perfil usando scripts de perfil em [esta página](https://experienceleague.adobe.com/pt-br/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Por exemplo, um script chamado `recsAttributeLoyaltyTier` que baseia as recomendações no nível de fidelidade do visitante pode ter esta aparência:
 
