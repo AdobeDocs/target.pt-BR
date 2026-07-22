@@ -1,10 +1,11 @@
 ---
 title: Criar atributos de contexto
 description: Saiba como criar e organizar atributos de contexto e grupos de contexto em Sinalizadores para que você possa usá-los em critérios de público-alvo.
+badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '500'
 ht-degree: 5%
 
 ---

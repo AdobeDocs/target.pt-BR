@@ -1,11 +1,12 @@
 ---
 title: Guia de inicialização
 description: Siga estas etapas para integrar seu aplicativo aos Sinalizadores, desde a solicitação de acesso até a criação do primeiro sinalizador de recurso.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 9a4e16418c93fa163d821409a0eecb251f2a9929
+source-git-commit: 339de89fff7bb14eb8146d42482b30c86feeedef
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '397'
 ht-degree: 1%
 
 ---
@@ -44,9 +45,10 @@ Siga o guia de integração do seu tipo de aplicativo. Escolha o caminho que se 
 
 Se estiver integrando por meio de uma abordagem baseada em tags (Web ou móvel), configure a propriedade da tag antes de inicializar a SDK:
 
-1. Em [Coleção de Dados do Adobe Experience Platform](https://experience.adobe.com/#/data-collection), abra a propriedade do celular ou da Web.
-1. Instale a extensão **Edge Network** e, em seguida, a extensão **Sinalizadores** (nesta ordem).
-1. Selecione seu **fluxo de dados** (deve incluir o conjunto de dados do Customer Journey Analytics) e seu domínio de borda.
+1. Em [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/#/data-collection), crie uma [propriedade de marca](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start), se você ainda não tiver uma, ou use uma propriedade de marca existente.
+1. Abra a propriedade de tag móvel ou da Web e vá para [Extensões](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview).
+1. Instale e configure a extensão **Edge Network**. Em seguida, instale a extensão **Flags**.
+1. Selecione a **sequência de dados** (ela deve incluir o conjunto de dados do Customer Journey Analytics) e configure o domínio do Edge.
 1. Publique a configuração por meio de **Desenvolvimento → Preparo → Produção**.
 1. Copie a **ID do arquivo de ambiente** da guia **Ambientes** — você usará isso para inicializar o SDK.
 

@@ -3,9 +3,9 @@ audience: user
 user-guide-title: Sinalizadores
 user-guide-description: Saiba como usar sinalizadores no Adobe Target para gerenciar sinalizadores de recursos, implantações controladas e versões direcionadas em seus aplicativos.
 hide: true
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 56c59c705d33c1e9edf336c03c2627654869ef81
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 9%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 9%
   + [Definir um grupo de recursos para implantação gradual](guides/feature-flags/set-feature-group-gradual-rollout.md)
   + [Teste A/B com sinalizadores de recursos](guides/feature-flags/a-b-testing.md)
   + [Relatório](guides/feature-flags/reporting.md)
+  + [Configurar o CJA para relatórios de sinalizadores de recursos](guides/feature-flags/set-up-cja-reporting.md)
 + Critérios de público {#audience}
   + [Público-alvo em sinalizadores e grupos de recursos](guides/audience/audience-in-feature-flags-and-feature-groups.md)
   + [Usar contexto nas regras de público](guides/audience/using-context-in-audience-rules.md)

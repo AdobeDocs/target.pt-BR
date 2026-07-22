@@ -1,11 +1,12 @@
 ---
 title: Sinalizadores de integração no aplicativo
 description: Saiba como integrar sinalizadores ao seu aplicativo, seja ele um serviço Web, uma propriedade da Web, um aplicativo para dispositivos móveis ou um aplicativo de desktop.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---

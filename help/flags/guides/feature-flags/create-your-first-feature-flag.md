@@ -1,11 +1,12 @@
 ---
 title: Criar o primeiro sinalizador de recurso
 description: Saiba como criar um sinalizador de recurso em Sinalizadores, definir um público-alvo e testá-lo antes de implantar para os usuários.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '378'
 ht-degree: 2%
 
 ---
@@ -43,7 +44,7 @@ Para criar um novo sinalizador de recurso, siga estas etapas no console:
 
 >[!IMPORTANT]
 >
->A **Chave** é o identificador usado em seu código e não pode ser alterada após a criação. As chaves **não podem conter espaços** e diferenciam maiúsculas de minúsculas **3&rbrace;.** O **Name** é apenas um rótulo de exibição e não é usado no código; os dois são independentes (o Name não é convertido na Key). Inserir um espaço no campo Chave produz o erro: _&quot;Valor inválido para chave de recurso.&quot;_
+>A **Chave** é o identificador usado em seu código e não pode ser alterada após a criação. As chaves **não podem conter espaços** e diferenciam maiúsculas de minúsculas **3}.** O **Name** é apenas um rótulo de exibição e não é usado no código; os dois são independentes (o Name não é convertido na Key). Inserir um espaço no campo Chave produz o erro: _&quot;Valor inválido para chave de recurso.&quot;_
 
 1. Opcionalmente, adicione um critério de público-alvo (consulte Etapa 2).
 1. Salve as configurações do sinalizador de recurso.

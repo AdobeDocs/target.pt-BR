@@ -1,11 +1,12 @@
 ---
 title: Criar um grupo de recursos
 description: Saiba como criar um grupo de recursos em Sinalizadores para gerenciar vários sinalizadores de recursos entre aplicativos em sua equipe como uma única unidade.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
