@@ -6,19 +6,13 @@ feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
-source-wordcount: 4049
-ht-degree: 27%
+source-wordcount: 4405
+ht-degree: 25%
 
 ---
 
@@ -31,7 +25,7 @@ Cada tipo de algoritmo fornece algoritmos diferentes apropriados para seu tipo, 
 | Tipo de algoritmo | Quando usar / Algoritmos disponíveis |
 | --- | --- |
 | [!UICONTROL Baseado Em Carrinho] | Faça recomendações com base no conteúdo do carrinho do usuário.<ul><li>[!UICONTROL Pessoas que os visualizaram, também visualizaram]</li><li>[!UICONTROL Pessoas Que Os Visualizaram, Também Compraram]</li><li>[!UICONTROL Pessoas que Compraram Estes, Também Compraram]</li></ul> |
-| [!UICONTROL Com Base Em Popularidade] | Faça recomendações com base na popularidade geral de um item em todo o site ou na popularidade de itens na categoria, marca, gênero e assim por diante favoritas ou mais visualizadas de um usuário. <ul><li>[!UICONTROL Mais visualizados em todo o site]</li><li>[!UICONTROL Mais Visualizados por Categoria]</li><li>[!UICONTROL Mais Visualizados pelo Atributo de Item]</li><li>[!UICONTROL Mais vendidos em todo o site]</li><li>[!UICONTROL Mais vendidos por categoria]</li><li>[!UICONTROL Mais vendidos por atributo de item]</li><li>[!UICONTROL Métrica Top by Analytics]</li></ul> |
+| [!UICONTROL Com Base Em Popularidade] | Faça recomendações com base na popularidade geral de um item em todo o site ou na popularidade de itens na categoria, marca, gênero e assim por diante favoritas ou mais visualizadas de um usuário. <ul><li>[!UICONTROL Mais visualizados em todo o site]</li><li>[!UICONTROL Mais Visualizados por Categoria]</li><li>[!UICONTROL Mais Visualizados pelo Atributo de Item]</li><li>[!UICONTROL Mais visualizados pelo atributo de perfil]</li><li>[!UICONTROL Mais vendidos em todo o site]</li><li>[!UICONTROL Mais vendidos por categoria]</li><li>[!UICONTROL Mais vendidos por atributo de item]</li><li>[!UICONTROL Mais vendidos por atributo de perfil]</li><li>[!UICONTROL Métrica Top by Analytics]</li></ul> |
 | [!UICONTROL Baseado em Item] | Fazer recomendações com base na localização de itens semelhantes a um item que o usuário está visualizando atualmente ou que visualizou recentemente. <ul><li>[!UICONTROL Pessoas Que Visualizaram Isto, Visualizaram Aquilo]</li><li>[!UICONTROL Pessoas que Visualizaram Isto, Compraram Aquilo]</li><li>[!UICONTROL Pessoas que Compraram Isto, Compraram Aquilo]</li><li>[!UICONTROL Itens com Atributos Semelhantes]</li></ul> |
 | [!UICONTROL Baseado em Usuário] | Faça recomendações com base no comportamento do usuário. <ul><li>[!UICONTROL Itens visualizados recentemente]</li><li>[!UICONTROL Recomendado para você]</li></ul> |
 | [!UICONTROL Critérios personalizados] | Faça recomendações com base em um arquivo personalizado que você fez upload. <ul><li>Algoritmo personalizado</li></ul> |
@@ -44,7 +38,7 @@ Diferentes algoritmos de recomendações se prestam ao posicionamento em diferen
 
 ## Baseado em carrinho {#cart-based}
 
-O tipo de algoritmo [!UICONTROL Baseado em carrinho] permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio do [parâmetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} em valores separados por vírgulas. Somente os primeiros dez valores são considerados.
+O tipo de algoritmo [!UICONTROL Baseado em carrinho] permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio do [parâmetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} em valores separados por vírgulas. Somente os primeiros dez valores são considerados.
 
 A lógica de recomendação baseada em carrinho é semelhante ao algoritmo baseado em usuário &quot;[!UICONTROL Recomendado para você]&quot; e aos algoritmos baseados em item &quot;[!UICONTROL Pessoas que visualizaram isto, compraram aquilo]&quot; e &quot;[!UICONTROL Pessoas que compraram aquilo, compraram aquilo]&quot;.
 
@@ -180,6 +174,38 @@ Esse algoritmo permite selecionar em qual atributo de item você deseja basear a
 
 Em seguida, selecione quais atributos de perfil são armazenados no perfil do visitante para correspondência. Por exemplo, &quot;Marca favorita&quot;, &quot;Último item adicionado ao carrinho&quot; ou &quot;Programa mais visualizado&quot;.
 
+### [!UICONTROL Mais visualizados pelo atributo de perfil]
+
+Recomenda os itens mais visualizados agrupados por um atributo de perfil de visitante, em vez de por informações de item, como [!UICONTROL Mais visualizados por categoria] e [!UICONTROL Mais visualizados por atributo de item] fazem. [!DNL Target] mantém uma lista classificada separada por valor de atributo e, no momento da entrega, mostra a cada visitante a lista que corresponde a seu próprio valor armazenado.
+
+Este algoritmo depende de um script de perfil para preencher o atributo, e o nome do script deve começar com o prefixo `recsAttribute` para que [!DNL Target] o armazene como `user.recsAttribute<Name>`. Você pode criar um script para qualquer característica de visitante relevante ao seu caso de uso.
+
+Saiba mais sobre como definir atributos de perfil usando scripts de perfil em [esta página](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
+
+Por exemplo, um script chamado `recsAttributeRegion` que baseia as recomendações na região do visitante pode ter esta aparência:
+
+```
+var region = mbox.param('userRegion');
+if (region) return region;
+```
+
+Depois que o script é criado e ativado, a entrada [!UICONTROL Region] correspondente fica disponível na lista suspensa de atributos de perfil da janela criar critérios. Observe que o prefixo `recsAttribute` em si não é mostrado na lista suspensa.
+
+### [!UICONTROL Mais vendidos por atributo de perfil]
+
+Recomenda os itens mais vendidos agrupados por um atributo de perfil de visitante, em vez de por informações de item, como fazem os [!UICONTROL Mais vendidos por categoria] e os [!UICONTROL Mais vendidos por atributo de item]. [!DNL Target] mantém uma lista de mais vendidos separada por valor de atributo e, no momento da entrega, mostra a cada visitante a lista que corresponde a seu próprio valor armazenado.
+
+Assim como em [!UICONTROL Mais Visualizados pelo Atributo de Perfil], esse algoritmo depende de um script de perfil para preencher o atributo, e o nome do script deve começar com o prefixo `recsAttribute`, para que [!DNL Target] o armazene como `user.recsAttribute<Name>`. Você pode criar um script para qualquer característica de visitante relevante ao seu caso de uso. Saiba mais sobre como definir atributos de perfil usando scripts de perfil em [esta página](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
+
+Por exemplo, um script chamado `recsAttributeLoyaltyTier` que baseia as recomendações no nível de fidelidade do visitante pode ter esta aparência:
+
+```
+var tier = mbox.param('visitorLoyaltyTier');
+if (tier) return tier;
+```
+
+Depois que o script é criado e ativado, a entrada [!UICONTROL Camada de fidelidade] correspondente fica disponível na lista suspensa de atributos de perfil da janela de criação de critérios. Observe que o prefixo `recsAttribute` em si não é mostrado na lista suspensa.
+
 ### [!UICONTROL Métrica Top by Analytics]
 
 Exibe o &quot;X superior&quot;, onde *x* é uma métrica [!DNL Analytics] arbitrária. Ao usar dados comportamentais de mboxes, você pode usar [!UICONTROL Mais vendidos] ou [!UICONTROL Mais visualizados] (x = &quot;Vendido&quot; ou x = &quot;Visualizado&quot;). Se você estiver usando dados comportamentais de [!DNL Adobe Analytics], poderá usar x = &quot;Adições ao carrinho&quot; ou alguma outra métrica [!DNL Analytics].
@@ -270,7 +296,7 @@ O algoritmo [!UICONTROL Itens Visualizados Recentemente] retorna um resultado es
 
 [!UICONTROL Itens visualizados recentemente] ou [!UICONTROL Mídia visualizada recentemente] podem ser filtrados para que somente itens com um determinado atributo sejam exibidos.
 
-* [!UICONTROL Os critérios de &#x200B;] visualizados recentemente podem ser configurados, assim como os outros critérios em recomendações.
+* [!UICONTROL Os critérios de ] visualizados recentemente podem ser configurados, assim como os outros critérios em recomendações.
 * Você pode usar [coleções](/help/main/c-recommendations/c-products/collections.md), [exclusões](/help/main/c-recommendations/c-products/exclusions.md) e [inclusões](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluindo as regras especiais para Preço e Inventário) da mesma forma que qualquer outro critério.
 
 Os possíveis casos de uso incluem: uma empresa multinacional com várias empresas pode ter um visitante para visualizar itens em várias propriedades digitais. Nesse caso, é possível limitar os itens exibidos recentemente somente àqueles da respectiva propriedade em que foram visualizados. Isso impede que itens visualizados recentemente sejam exibidos no site de outra propriedade digital.
