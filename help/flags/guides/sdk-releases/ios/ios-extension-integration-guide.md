@@ -51,7 +51,7 @@ Verifique se essas extensões estão instaladas na propriedade móvel da Coleç�
    | ID do aplicativo | Um identificador exclusivo para seu aplicativo em Sinalizadores |
 
 1. Selecione **Salvar**.
-1. Siga o [processo de publicação](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) para atualizar sua configuração.
+1. Siga o [processo de publicação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/publish/overview) para atualizar sua configuração.
 
 ### Obter a ID do arquivo de ambiente {#environment-file-id}
 

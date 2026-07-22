@@ -45,8 +45,8 @@ Siga o guia de integração do seu tipo de aplicativo. Escolha o caminho que se 
 
 Se estiver integrando por meio de uma abordagem baseada em tags (Web ou móvel), configure a propriedade da tag antes de inicializar a SDK:
 
-1. Em [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/#/data-collection), crie uma [propriedade de marca](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start), se você ainda não tiver uma, ou use uma propriedade de marca existente.
-1. Abra a propriedade de tag móvel ou da Web e vá para [Extensões](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview).
+1. Em [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/#/data-collection), crie uma [propriedade de marca](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/get-started/quick-start), se você ainda não tiver uma, ou use uma propriedade de marca existente.
+1. Abra a propriedade de tag móvel ou da Web e vá para [Extensões](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/ui/extensions/overview).
 1. Instale e configure a extensão **Edge Network**. Em seguida, instale a extensão **Flags**.
 1. Selecione a **sequência de dados** (ela deve incluir o conjunto de dados do Customer Journey Analytics) e configure o domínio do Edge.
 1. Publique a configuração por meio de **Desenvolvimento → Preparo → Produção**.

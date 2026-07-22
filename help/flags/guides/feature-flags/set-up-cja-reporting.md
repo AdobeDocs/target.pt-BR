@@ -13,7 +13,7 @@ ht-degree: 4%
 
 # Configurar o CJA para relatórios de sinalizadores de recursos {#set-up-cja-reporting}
 
-A integração entre o Flags e o Adobe Customer Journey Analytics (CJA) fornece uma maneira unificada de medir o impacto comercial das variantes de sinalizadores de recursos. Aplique as métricas de sucesso do CJA aos relatórios de Sinalizadores a qualquer momento e aproveite os recursos do Customer Journey Analytics, como o [painel de Experimentação](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation), para avaliar o desempenho do experimento e entender como as variantes de recursos influenciam o comportamento do cliente.
+A integração entre o Flags e o Adobe Customer Journey Analytics (CJA) fornece uma maneira unificada de medir o impacto comercial das variantes de sinalizadores de recursos. Aplique as métricas de sucesso do CJA aos relatórios de Sinalizadores a qualquer momento e aproveite os recursos do Customer Journey Analytics, como o [painel de Experimentação](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/panels/experimentation), para avaliar o desempenho do experimento e entender como as variantes de recursos influenciam o comportamento do cliente.
 
 ## Considerações {#considerations}
 
@@ -49,10 +49,10 @@ Considere as seguintes informações antes de usar a integração do Customer Jo
 Se você já tiver uma conexão configurada, poderá usar sua conexão existente e pular para a etapa 3 abaixo. A conexão permite que o Customer Journey Analytics inicie a extração de dados do conjunto de dados para os relatórios.
 
 1. No Customer Journey Analytics, na página **Conexões**, selecione **Criar uma nova conexão**.
-1. Defina suas [configurações de conexão e dados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview) com as informações corretas.
+1. Defina suas [configurações de conexão e dados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-connections/overview) com as informações corretas.
 1. Adicione o conjunto de dados do evento ExD usado ao configurar o fluxo de dados.
 1. Adicione o conjunto de dados que você deseja que seja usado como eventos de conversão e selecione **Avançar**.
-1. Defina as [configurações para cada um dos conjuntos de dados selecionados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection#dataset-settings), uma por uma, na caixa de diálogo **Adicionar conjuntos de dados**.
+1. Defina as [configurações para cada um dos conjuntos de dados selecionados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-connections/create-connection#dataset-settings), uma por uma, na caixa de diálogo **Adicionar conjuntos de dados**.
 
 ![Caixa de diálogo Adicionar conjuntos de dados antes da adição de qualquer conjunto de dados](assets/cja-connection-new-add-datasets-empty.png)
 
@@ -64,7 +64,7 @@ Se você já tiver uma conexão configurada, poderá usar sua conexão existente
 
 Configure uma visualização de dados no Customer Journey Analytics. Uma visualização de dados garante que os dados da sua conexão possam ser usados corretamente.
 
-1. Configure sua visualização de dados e certifique-se de que ela aponta para a conexão criada acima. Para obter mais informações, consulte [Criar ou editar uma visualização de dados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) no *Guia do Adobe Customer Journey Analytics*.
+1. Configure sua visualização de dados e certifique-se de que ela aponta para a conexão criada acima. Para obter mais informações, consulte [Criar ou editar uma visualização de dados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/create-dataview) no *Guia do Adobe Customer Journey Analytics*.
 1. Vá para **Data management** > **Data views**.
 1. Selecione **Criar nova visualização de dados** e escolha a conexão CJA de sinalizadores.
 1. Insira um nome de visualização de dados e uma ID externa estável.
@@ -93,7 +93,7 @@ Configure as dimensões e métricas para que uma exposição possa receber créd
 
 1. Adicione o campo de conversão necessário, como `commerce.purchases.value`, em Métricas.
 1. Dê um nome claro à métrica, como **Valor de compras**.
-1. Ative a atribuição e selecione o modelo necessário para a análise: Último contato, Primeiro contato, Participação ou Mesmo contato. Consulte [Componentes de atribuição](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/attribution/models) para obter mais informações sobre modelos de atribuição, contêineres e janelas de retrospectiva.
+1. Ative a atribuição e selecione o modelo necessário para a análise: Último contato, Primeiro contato, Participação ou Mesmo contato. Consulte [Componentes de atribuição](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/attribution/models) para obter mais informações sobre modelos de atribuição, contêineres e janelas de retrospectiva.
 1. Selecione um container e uma janela de retrospectiva que correspondam à estratégia do experimento. Um contêiner Pessoa com uma retrospectiva de visita ou sessão é um ponto de partida comum, mas o valida para o seu caso de uso.
 1. Salve a visualização de dados.
 
