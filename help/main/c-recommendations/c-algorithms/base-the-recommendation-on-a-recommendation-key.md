@@ -6,15 +6,9 @@ feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f741cd1f80d85c1a16088e6892b916567b3cd37f
 workflow-type: tm+mt
 source-wordcount: 4434
@@ -44,7 +38,7 @@ Diferentes algoritmos de recomendações se prestam ao posicionamento em diferen
 
 ## Baseado em carrinho {#cart-based}
 
-O tipo de algoritmo [!UICONTROL Baseado em carrinho] permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio do [parâmetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} em valores separados por vírgulas. Somente os primeiros dez valores são considerados.
+O tipo de algoritmo [!UICONTROL Baseado em carrinho] permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio do [parâmetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} em valores separados por vírgulas. Somente os primeiros dez valores são considerados.
 
 A lógica de recomendação baseada em carrinho é semelhante ao algoritmo baseado em usuário &quot;[!UICONTROL Recomendado para você]&quot; e aos algoritmos baseados em item &quot;[!UICONTROL Pessoas que visualizaram isto, compraram aquilo]&quot; e &quot;[!UICONTROL Pessoas que compraram aquilo, compraram aquilo]&quot;.
 
@@ -191,7 +185,7 @@ Recomenda os itens mais visualizados agrupados por um atributo de perfil de visi
 
 Este algoritmo depende de um script de perfil para preencher o atributo, e o nome do script deve começar com o prefixo `recsAttribute` para que [!DNL Target] o armazene como `user.recsAttribute<Name>`. Você pode criar um script para qualquer característica de visitante relevante ao seu caso de uso.
 
-Saiba mais sobre como definir atributos de perfil usando scripts de perfil em [esta página](https://experienceleague.adobe.com/pt-br/docs/target/using/audiences/visitor-profiles/profile-parameters).
+Saiba mais sobre como definir atributos de perfil usando scripts de perfil em [esta página](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Por exemplo, um script chamado `recsAttributeRegion` que baseia as recomendações na região do visitante pode ter esta aparência:
 
@@ -206,7 +200,7 @@ Depois que o script é criado e ativado, a entrada [!UICONTROL Region] correspon
 
 Recomenda os itens mais vendidos agrupados por um atributo de perfil de visitante, em vez de por informações de item, como fazem os [!UICONTROL Mais vendidos por categoria] e os [!UICONTROL Mais vendidos por atributo de item]. [!DNL Target] mantém uma lista de mais vendidos separada por valor de atributo e, no momento da entrega, mostra a cada visitante a lista que corresponde a seu próprio valor armazenado.
 
-Assim como em [!UICONTROL Mais Visualizados pelo Atributo de Perfil], esse algoritmo depende de um script de perfil para preencher o atributo, e o nome do script deve começar com o prefixo `recsAttribute`, para que [!DNL Target] o armazene como `user.recsAttribute<Name>`. Você pode criar um script para qualquer característica de visitante relevante ao seu caso de uso. Saiba mais sobre como definir atributos de perfil usando scripts de perfil em [esta página](https://experienceleague.adobe.com/pt-br/docs/target/using/audiences/visitor-profiles/profile-parameters).
+Assim como em [!UICONTROL Mais Visualizados pelo Atributo de Perfil], esse algoritmo depende de um script de perfil para preencher o atributo, e o nome do script deve começar com o prefixo `recsAttribute`, para que [!DNL Target] o armazene como `user.recsAttribute<Name>`. Você pode criar um script para qualquer característica de visitante relevante ao seu caso de uso. Saiba mais sobre como definir atributos de perfil usando scripts de perfil em [esta página](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Por exemplo, um script chamado `recsAttributeLoyaltyTier` que baseia as recomendações no nível de fidelidade do visitante pode ter esta aparência:
 
@@ -307,7 +301,7 @@ O algoritmo [!UICONTROL Itens Visualizados Recentemente] retorna um resultado es
 
 [!UICONTROL Itens visualizados recentemente] ou [!UICONTROL Mídia visualizada recentemente] podem ser filtrados para que somente itens com um determinado atributo sejam exibidos.
 
-* [!UICONTROL Os critérios de &#x200B;] visualizados recentemente podem ser configurados, assim como os outros critérios em recomendações.
+* [!UICONTROL Os critérios de ] visualizados recentemente podem ser configurados, assim como os outros critérios em recomendações.
 * Você pode usar [coleções](/help/main/c-recommendations/c-products/collections.md), [exclusões](/help/main/c-recommendations/c-products/exclusions.md) e [inclusões](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluindo as regras especiais para Preço e Inventário) da mesma forma que qualquer outro critério.
 
 Os possíveis casos de uso incluem: uma empresa multinacional com várias empresas pode ter um visitante para visualizar itens em várias propriedades digitais. Nesse caso, é possível limitar os itens exibidos recentemente somente àqueles da respectiva propriedade em que foram visualizados. Isso impede que itens visualizados recentemente sejam exibidos no site de outra propriedade digital.
