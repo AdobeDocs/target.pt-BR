@@ -7,21 +7,14 @@ title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 65b4878ba8858b105cbebe536b55a9e1775478d3
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c74d8b09fba181fcded2f982d99a03f1e7f3a07a
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 47%
+source-wordcount: 927
+ht-degree: 29%
 
 ---
 
@@ -30,6 +23,60 @@ ht-degree: 47%
 Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe Target]. Essas notas de versão também abrangem atualizações para APIs do [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outros componentes da plataforma, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 26.7.4 (23 de julho de 2026)
+
+**Relatório**
+
++++Ver detalhes
+
+* **O gráfico de taxas de conversão não está disponível para o público móvel específico.** Correção de um problema em que o gráfico [!UICONTROL Taxa de conversão] não era renderizado para determinados públicos móveis. (TGT-55611)
+
+* **A meta de conversão &quot;Visualizou uma mbox&quot; não está funcionando quando selecionada na lista suspensa.** Correção de um problema em que selecionar uma mbox na lista suspensa em [!UICONTROL Metas e configurações] para uma meta de conversão &quot;Visualizou uma mbox&quot; salvava o nome da mbox incorretamente, impedindo que as conversões fossem gravadas. (TGT-55588)
+
++++
+
+**Públicos-alvo**
+
++++Ver detalhes
+
+* **Problema de layout na página Biblioteca de público-alvo.** Correção de um problema de layout que ocorria quando os filtros eram ativados na página [!UICONTROL Biblioteca de público-alvo] enquanto a navegação lateral era recolhida. (TGT-55502)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalhes
+
+* **A versão móvel não é carregada corretamente.** Correção de um problema em que o [!UICONTROL Visual Experience Composer] não oferecia uma maneira de atualizar, impedindo que a exibição móvel fosse carregada corretamente. (TGT-54408)
+
+* **Editar ou excluir ações de modificação que não funcionam.** Correção de um problema em que a edição ou exclusão de uma modificação da exibição [!UICONTROL Editar experiência] não funcionava. (TGT-55250)
+
+* **Modo de navegação sem resposta após o carregamento da atividade.** Correção de um problema em que o modo [!UICONTROL Procurar] não respondia em experiências que continham uma modificação, impedindo navegação e criação futuras. (TGT-55306)
+
+* **Não é possível selecionar elementos dentro do Salesforce LWC (DOM Sombra).** Correção de um problema em que o [!UICONTROL Visual Experience Composer] não podia selecionar elementos aninhados nos Componentes Web do Salesforce Lightning usando o DOM de sombra, resultando em um erro de &quot;seletor não encontrado&quot;. (TGT-54956)
+
+* **Ofertas duplicadas apareceram no [!UICONTROL Visual Experience Composer].** Correção de um problema em que as modificações e ofertas apareciam duplicadas intermitentemente na interface do usuário da criação de atividades. (TGT-55685)
+
++++
+
+**Administração**
+
++++Ver detalhes
+
+* **O assistente de geração de conteúdo foi renomeado para [!UICONTROL Gerar conteúdo].** O recurso de geração de conteúdo &quot;Assistente de IA&quot; foi renomeado para [!UICONTROL Gerar conteúdo] pelas superfícies de interface do usuário [!DNL Target]. (TGT-55689)
+
++++
+
+**Recomendações**
+
++++Ver detalhes
+
+* **Recomendações baseadas em popularidade usando atributos de perfil.** O [!DNL Target] agora oferece suporte ao agrupamento de recomendações de popularidade, Mais Visualizados e Mais Vendidos, dinamicamente por atributos de perfil do visitante, como país, idioma preferencial ou nível de associação. (TAPER-7614)
+
+* **Incompatibilidade de coleção de recomendação entre [!UICONTROL Coleções] e a configuração de atividade.** Correção de um problema em que uma coleção [!UICONTROL Recommendations] retornava entidades adicionais não qualificadas quando visualizadas a partir da configuração da atividade em comparação à exibição [!UICONTROL Recommendations] > [!UICONTROL Coleções]. (TGT-55554)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.2 (16 de julho de 2026)
 
