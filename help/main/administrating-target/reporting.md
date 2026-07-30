@@ -6,19 +6,13 @@ feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
 TQID: https://experienceleague.adobe.com/Vdi1o6bvCbgrhWUrJfCOyxqN3JkhEe3Rd9J-3NmLVyY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 283e20be405890a7f53ca95d370e3eef5820f437
 workflow-type: tm+mt
-source-wordcount: 795
-ht-degree: 22%
+source-wordcount: 823
+ht-degree: 21%
 
 ---
 
@@ -68,11 +62,11 @@ Ao determinar sua fonte de geração de relatórios, considere as seguintes info
 
 * **[!DNL Customer Journey Analytics]**: Para obter uma matriz de atividades com suporte usando os relatórios [!DNL Target] em [!DNL Customer Journey Analytics], consulte [Tipos de atividades com suporte](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) em *[!DNL Target]relatórios em[!DNL Adobe Customer Journey Analytics]*.
 
-  Criação e ativação de atividades de [!UICONTROL Automated Personalization] (AP), [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] são permitidas independentemente da fonte de relatórios selecionada. Estas atividades não são suportadas quando você escolhe a [Adobe Customer Journey Analytics como fonte de relatórios](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+  Criação e ativação de atividades de [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] são permitidas independentemente da fonte de relatórios selecionada no nível da conta. Estes tipos de atividades não são suportados quando você escolhe [Adobe Customer Journey Analytics como a fonte de relatórios](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) para uma atividade.
 
-  Mesmo que você especifique [!DNL Customer Journey Analytics] como fonte de geração de relatórios, [!DNL Target] será usado como fonte de relatórios para [!DNL Automated Personalization] atividades.
+  Mesmo que você especifique [!DNL Customer Journey Analytics] como fonte de relatórios no nível da conta, [!DNL Target] será usado como fonte de relatórios para atividades [!DNL Automated Personalization].
 
-  Se você especificar [!DNL Customer Journey Analytics] como sua fonte de relatórios para atividades de [!UICONTROL Alocação automática] ou [!UICONTROL Direcionamento automático], [!DNL Target] ou [!DNL Analytics] poderá ser usado como a fonte de relatórios.
+  As atividades de [!UICONTROL Alocação automática] podem usar [!DNL Customer Journey Analytics] como fonte de relatórios. Consulte [Criar uma atividade que usa [!DNL Customer Journey Analytics] como fonte de relatórios](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source) nos relatórios *[!DNL Target]em[!DNL Adobe Customer Journey Analytics]*. Se você especificar [!DNL Customer Journey Analytics] como sua fonte de relatórios para atividades de [!UICONTROL Direcionamento automático], [!DNL Target] ou [!DNL Analytics] poderá ser usado como a fonte de relatórios.
 
 ## Fuso horário para relatórios
 
