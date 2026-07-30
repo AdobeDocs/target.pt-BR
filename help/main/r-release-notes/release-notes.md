@@ -7,21 +7,14 @@ title: O que está incluído na versão atual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c74d8b09fba181fcded2f982d99a03f1e7f3a07a
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4111bfa406259af6fb0877170fd7d80b11c22482
 workflow-type: tm+mt
-source-wordcount: 927
-ht-degree: 29%
+source-wordcount: 1046
+ht-degree: 26%
 
 ---
 
@@ -30,6 +23,26 @@ ht-degree: 29%
 Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe Target]. Essas notas de versão também abrangem atualizações para APIs do [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outros componentes da plataforma, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 26.7.5 (30 de julho de 2026)
+
+**Atividades**
+
++++Ver detalhes
+
+* **As estatísticas Bayesianas para [!DNL A/B Test (Manual)] atividades** [!DNL A/B Test (Manual)] agora oferecem suporte às estatísticas Bayesianas como uma alternativa ao teste t de Welch. Escolha a metodologia estatística em [!UICONTROL Metas e configurações]: o relatório de uma atividade Bayesiana mostra métricas de decisão baseadas em probabilidade, como [!UICONTROL Chance de Controlar Batida], e intervalos de credibilidade em vez do intervalo de confiança frequencista. [Saiba mais](../c-reports/statistical-methodology/statistical-calculations.md)
+
+* **[!DNL Customer Journey Analytics]relatórios para [!DNL Auto-Allocate] atividades.** As atividades do [!DNL Auto-Allocate] agora podem usar o [!DNL Customer Journey Analytics] como fonte de relatórios, além do [!DNL Target] e do [!DNL Adobe Analytics] (A4T). [Saiba mais](../c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalhes
+
+* **Não é possível selecionar ou modificar ofertas do HTML na atividade.** Correção de um problema em que a adição de determinadas ofertas do HTML ou de Fragmento de experiência a uma atividade causava uma falha do [!UICONTROL Visual Experience Composer], impedindo que as ofertas fossem selecionadas ou modificadas. (TGT-55732)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.4 (23 de julho de 2026)
 
