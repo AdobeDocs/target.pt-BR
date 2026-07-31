@@ -4,22 +4,15 @@ description: Saiba como adicionar uma decisão de oferta criada no  [!DNL Adobe 
 title: Como Usar As Decisões De Oferta?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
+badge: label="Herdados" type="Informative"
 TQID: https://experienceleague.adobe.com/xEae4As4rNbPv-an3Iu8PCMzxftSAmN4iu0PEq6VDFQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 7ececdaa52eb07e65f62723a09961f1471921e1a
 workflow-type: tm+mt
-source-wordcount: 1017
+source-wordcount: 1018
 ht-degree: 3%
 
 ---
@@ -28,11 +21,11 @@ ht-degree: 3%
 
 Use o [!DNL Adobe Target] com [!DNL Adobe Journey Optimizer] decisões de oferta para determinar e entregar a próxima melhor oferta para seus visitantes na Web e em dispositivos móveis.
 
-Adicione decisões de oferta criadas em [!DNL Adobe Journey Optimizer] às atividades de [!DNL Target] (teste A/B manual [!UICONTROL 3&rbrace; ou [!UICONTROL Direcionamento de experiência]) usando o [!UICONTROL Visual Experience Composer] (VEC) ou o [!UICONTROL Form-Based Composer] para testar e entregar ofertas personalizadas aos seus visitantes em seus canais de entrada alimentados pelo [!DNL Target].]
+Adicione decisões de oferta criadas em [!DNL Adobe Journey Optimizer] às atividades de [!DNL Target] (teste A/B manual [!UICONTROL 3} ou [!UICONTROL Direcionamento de experiência]) usando o [!UICONTROL Visual Experience Composer] (VEC) ou o [!UICONTROL Form-Based Composer] para testar e entregar ofertas personalizadas aos seus visitantes em seus canais de entrada alimentados pelo [!DNL Target].]
 
 Para obter mais informações sobre [!DNL Adobe Journey Optimizer] e decisões de oferta, consulte os seguintes tópicos na documentação de *[!DNL Journey Optimizer]*:
 
-* [Introdução ao Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=pt-BR)
+* [Introdução ao Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
 * [Sobre o Gerenciamento de decisão](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=pt-BR)
 
@@ -85,7 +78,7 @@ No [!DNL Adobe Journey Optimizer], você pode criar uma oferta principal da pág
 
 1. No painel **[!UICONTROL Adicionar decisão de oferta]** no lado direito do VEC, selecione a sandbox desejada e clique em Selecionar decisão de oferta.placement.
 
-   Uma [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=pt-BR){target=_blank} no [!DNL Adobe Experience Platform] permite particionar sua instância em ambientes virtuais. Por exemplo, você pode ter um ambiente de produção e um ambiente de preparo. Um [posicionamento](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=pt-BR){target=_blank} em [!DNL Adobe Journey Optimizer] ajuda a garantir que o conteúdo de oferta correto seja exibido no local correto.
+   Uma [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} no [!DNL Adobe Experience Platform] permite particionar sua instância em ambientes virtuais. Por exemplo, você pode ter um ambiente de produção e um ambiente de preparo. Um [posicionamento](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} em [!DNL Adobe Journey Optimizer] ajuda a garantir que o conteúdo de oferta correto seja exibido no local correto.
 
    ![Listas suspensas de Sandbox e Posicionamentos na caixa de diálogo Adicionar Decisão de Oferta](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
