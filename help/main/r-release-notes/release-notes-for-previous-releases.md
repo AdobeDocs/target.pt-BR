@@ -41,7 +41,7 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 1175d9840a6607f7fea5e5ac6f768d12cdf52c8d
 workflow-type: tm+mt
-source-wordcount: 71521
+source-wordcount: 71469
 ht-degree: 48%
 
 ---
@@ -807,7 +807,8 @@ Esta versão inclui as seguintes atualizações e correções:
 * **Estabilidade de criação restaurada na interface de Criação de Atividade.** Solução de um problema intermitente na interface do VEC que causava a falha da criação e fazia com que os links se tornassem clicáveis inesperadamente, redirecionando os usuários para fora da página. (TGT-53153)
 * **Edição restaurada para atividades salvas na interface de Criação de Atividade.** Correção de um problema que impedia os usuários de editar atividades após salvar modificações. As atividades afetadas permaneceram presas em &quot;[!UICONTROL Aplicando modificações iniciais]&quot;, bloqueando mais atualizações e ocultando o botão [!UICONTROL Cancelar]. (TGT-53631)
 * **O VEC não é mais interrompido em &quot;[!UICONTROL Aplicando modificações iniciais].&quot;** Solução de um problema de desempenho no VEC que causava longos atrasos ao carregar experiências com um alto número de modificações. Os usuários afetados viram a interface travar em &quot;[!UICONTROL Aplicando modificações iniciais]&quot; por vários minutos, especialmente em cenários da Experiência B. (TGT-53727)
-* **O VEC agora carrega modificações sem elementos raiz.Correção de um problema no VEC que causava a paralisação das experiências ao carregar modificações que não tinham um elemento raiz claro. Essas modificações fizeram com que a interface travasse indefinidamente em &quot;A[!UICONTROL aplicando modificações iniciais]&quot;. (TGT-53799)
+* **O VEC agora carrega modificações sem elementos raiz.**
+Correção de um problema no VEC que causava a paralisação das experiências ao carregar modificações que não tinham um elemento raiz claro. Essas modificações fizeram com que a interface travasse indefinidamente em &quot;A[!UICONTROL aplicando modificações iniciais]&quot;. (TGT-53799)
 * **Salvar alterações nas atividades agora funciona conforme esperado.** Solução de um problema relacionado a permissões na Nova interface de criação que impedia os usuários de salvar alterações ao editar metas e configurações avançadas em atividades do. Os usuários afetados viam uma faixa de erros vermelha e uma mensagem &quot;Forbidden.Resource&quot;, apesar de terem acesso apropriado. (TGT-53816)
 * A **Interface do VEC agora preserva as modificações de experiência nas exibições.** Solução de vários problemas no VEC atualizado que afetavam o desenvolvimento da experiência. As modificações não persistiam corretamente, especialmente ao usar ofertas do HTML ou alternar entre exibições. (TGT-53825)
 * **Todas as exibições agora são exibidas corretamente quando uma modificação abrange várias experiências.** Solução de um problema na interface de criação de atividade em que apenas uma exibição era mostrada quando uma modificação era aplicada em várias exibições. A dica de ferramenta de focalização não listava todas as exibições associadas, mesmo que a modificação tivesse sido aplicada corretamente. (TGT-53827)
@@ -836,7 +837,8 @@ Esta versão inclui os seguintes aprimoramentos e correções.
 
 +++Localização
 
-* **Correção de uma inconsistência de terminologia na tradução do chinês simplificado de &quot;Exibição completa de detalhes&quot;.Anteriormente, o termo &quot;Detalhes&quot; era traduzido incorretamente como &quot;详情&quot; na localidade do chinês simplificado (zh_CN), violando as diretrizes de terminologia estabelecidas. Esse valor foi corrigido para &quot;详细信息&quot; para garantir a consistência com o termo base. (TGT-53741)
+* **Correção de uma inconsistência de terminologia na tradução do chinês simplificado de &quot;Exibição completa de detalhes&quot;.**
+Anteriormente, o termo &quot;Detalhes&quot; era traduzido incorretamente como &quot;详情&quot; na localidade do chinês simplificado (zh_CN), violando as diretrizes de terminologia estabelecidas. Esse valor foi corrigido para &quot;详细信息&quot; para garantir a consistência com o termo base. (TGT-53741)
 
 +++
 
@@ -853,7 +855,8 @@ Esta versão inclui os seguintes aprimoramentos e correções.
 
 * **Gerar ofertas ad-hoc em atividades A[!UICONTROL Personalization automatizadas] causou inconsistências de relatório.** O uso do recurso Gerar ofertas ad-hoc em atividades do [!UICONTROL Automated Personalization] (AP) resultou em relatórios imprecisos. Especificamente, as IDs de oferta foram reutilizadas em vários locais, fazendo com que os dados de relatório fossem atribuídos incorretamente ou substituídos. As ofertas ad-hoc agora são geradas com identificadores distintos por local, garantindo um rastreamento e relatórios precisos em todas as experiências configuradas. (TGT-53757)
 * **Falha ao carregar os relatórios de atividade devido a um erro no JavaScript.** Os clientes encontraram uma mensagem &quot;Ocorreu um erro&quot; ao acessar a guia [!UICONTROL Relatórios] para determinadas atividades. O erro foi causado por uma exceção do JavaScript: não é possível ler propriedades de indefinido (lendo &#39;indexOf&#39;), acionado durante a chamada do GraphQL `getAnalyticsReportSummary`. Agora os relatórios são carregados corretamente, e o tratamento de erros foi aprimorado para evitar falhas semelhantes no fluxo de trabalho atualizado de criação de atividades. (TGT-53797)
-* **Os relatórios falharam após interagirem com a barra de rolagem.** Clicar na barra de rolagem na guia [!UICONTROL Relatórios] causou uma falha na página, acompanhada de um erro de JavaScript:  `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` Agora os relatórios são carregados e rolados corretamente sem erros ou falhas. (TGT-53828)
+* **Os relatórios falharam após interagirem com a barra de rolagem.** Clicar na barra de rolagem na guia [!UICONTROL Relatórios] causou uma falha na página, acompanhada de um erro de JavaScript:
+  `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` Agora os relatórios são carregados e rolados corretamente sem erros ou falhas. (TGT-53828)
 * **Os relatórios não exibiram a métrica primária.** A métrica primária, configurada como uma métrica de conversão usando uma mbox, estava ausente nos relatórios de atividades. A pesquisa por nome de métrica ou nome de mbox não produziu resultados, impedindo a visibilidade dos principais dados de desempenho. As métricas primárias agora aparecem corretamente na guia [!UICONTROL Relatórios], garantindo um rastreamento e análise precisos do desempenho da campanha. (TGT-53773)
 * **A guia [!UICONTROL Relatórios] da interface atualizada falhou ao interagir com a barra de rolagem horizontal.** A exibição [!UICONTROL Relatórios] falhou intermitentemente com um erro &quot;Algo deu errado&quot; ao usar a barra de rolagem horizontal para acessar métricas fora da exibição. A barra de rolagem agora funciona de forma confiável, permitindo que os clientes visualizem e analisem todas as métricas sem precisar de soluções alternativas, como reduzir ou usar a rolagem shift. (TGT-53824)
 
@@ -861,7 +864,8 @@ Esta versão inclui os seguintes aprimoramentos e correções.
 
 +++[!UICONTROL Visual Experience Composer] (VEC)
 
-* **Clicar em navegações estruturais no VEC não exibia de maneira consistente o menu de edição.Ao selecionar elementos do HTML por meio da navegação estrutural no (VEC), o menu de edição não era exibido ou desaparecia rapidamente, o que tornava a seleção de elementos não confiável. O menu de edição agora é exibido de forma consistente ao navegar por navegações estruturais, melhorando o fluxo de trabalho de seleção de elemento no processo de criação de atividade atualizado. (TGT-52873)
+* **Clicar em navegações estruturais no VEC não exibia de maneira consistente o menu de edição.**
+Ao selecionar elementos do HTML por meio da navegação estrutural no (VEC), o menu de edição não era exibido ou desaparecia rapidamente, o que tornava a seleção de elementos não confiável. O menu de edição agora é exibido de forma consistente ao navegar por navegações estruturais, melhorando o fluxo de trabalho de seleção de elemento no processo de criação de atividade atualizado. (TGT-52873)
 * **O menu de contexto falhou intermitentemente ao aparecer no VEC.** O menu de contexto na interface do VEC atualizada não era exibido de forma consistente ao clicar em elementos, dificultando o acesso às opções de edição. O menu de contexto agora é exibido de forma confiável a partir da seleção de elementos, melhorando o fluxo de trabalho de edição e a usabilidade geral no processo de criação de atividades atualizado. (TGT-53015)
 * **Falha ao exibir o menu de contexto para determinados elementos no VEC.** O menu de contexto não era exibido ao selecionar elementos específicos no VEC atualizado, dificultando a aplicação de modificações. O menu de contexto agora é exibido de forma consistente para todos os elementos compatíveis, melhorando a confiabilidade e a usabilidade da experiência de edição no fluxo de trabalho de criação de atividade atualizado. (TGT-53248)
 * **O menu de contexto desapareceu no primeiro clique ao usar navegações estruturais no VEC.** Selecionar um elemento principal por meio da navegação estrutural no VEC fazia com que o menu de contexto aparecesse brevemente e desaparecesse, dificultando o acesso às opções de edição. O menu de contexto agora permanece visível e funcional ao navegar pelos elementos por navegações estruturais, melhorando a confiabilidade do fluxo de trabalho de seleção de elementos no processo de criação de atividades atualizado. (TGT-53424)
@@ -1007,11 +1011,11 @@ Esta versão inclui as seguintes atualizações e correções:
 * **[!UICONTROL Botão Baixar relatório CSV completo] restaurado no modo de exibição [!UICONTROL Atributos importantes].** Solução de um problema na interface de criação de atividade atualizada em que o botão [!UICONTROL Baixar relatório CSV completo] não estava presente na seção [!UICONTROL Atributos importantes] da exibição de relatórios. Essa correção restaura o acesso a insights baixáveis, garantindo uma funcionalidade consistente nas interfaces atualizadas e herdadas. (TGT-53238)
 * **Problemas de interface resolvidos que afetam os relatórios do [!UICONTROL Direcionamento automático] na interface de visão geral atualizada.** Correção de vários problemas de interface do usuário na interface de visão geral atualizada que afetavam os relatórios de atividades do [!UICONTROL Direcionamento automático]. Essas correções incluem:
 
-   * Métricas de aumento e confiança ausentes nos relatórios de resumo
-   * Indicador de cor incorreto para a caixa de seleção &quot;modelos criados&quot;
-   * Relatório de gráfico não funcional apesar da variação de dados em [!DNL Analytics]
-   * Link de download ausente para os relatórios de [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes]
-   * Exibição de relatório de [!UICONTROL Segmentos automatizados] corrompidos
+  * Métricas de aumento e confiança ausentes nos relatórios de resumo
+  * Indicador de cor incorreto para a caixa de seleção &quot;modelos criados&quot;
+  * Relatório de gráfico não funcional apesar da variação de dados em [!DNL Analytics]
+  * Link de download ausente para os relatórios de [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes]
+  * Exibição de relatório de [!UICONTROL Segmentos automatizados] corrompidos
 
   Essas correções restauram o comportamento esperado dos relatórios e melhoram a visibilidade do desempenho do [!UICONTROL Direcionamento automático] na interface atualizada. (TGT-53484)
 
@@ -1025,10 +1029,10 @@ Esta versão inclui as seguintes atualizações e correções:
 * **Lógica de formulário corrigida para regras de presença de parâmetro na entrega da página.&quot;** Correção de um problema na interface do usuário atualizada em que a seleção de regras de entrega de página, como &quot;[!UICONTROL Parâmetro está presente],&quot; &quot;[!UICONTROL Parâmetro não está presente],&quot;[!UICONTROL O valor do parâmetro está presente]&quot; ou &quot;[!UICONTROL O valor do parâmetro não está presente]&quot;, exigia incorretamente que os usuários inserissem um valor de parâmetro adicional. Esse comportamento era inconsistente com a interface herdada e contradizia a lógica pretendida de detectar a presença de parâmetros sem especificar um valor. Essa correção restaura o comportamento esperado de configuração da regra, simplificando a configuração da atividade e melhorando a usabilidade. (TGT-53640)
 * **Lógica de validação aprimorada para o construtor de regras de várias páginas na interface atualizada.** Solução de vários problemas de validação no construtor de regras de várias páginas na interface atualizada. Essas correções incluem:
 
-   * Como impedir a criação de regras quando o parâmetro da mbox está vazio
-   * Exibição de mensagens de erro apropriadas para estados de regras inválidas
-   * Correção da lógica de validação para operadores unários e baseados em parâmetros que não exigem valores de operando
-   * Ativar regras de fragmento de hash com operadores unários restaurando a funcionalidade de salvar
+  * Como impedir a criação de regras quando o parâmetro da mbox está vazio
+  * Exibição de mensagens de erro apropriadas para estados de regras inválidas
+  * Correção da lógica de validação para operadores unários e baseados em parâmetros que não exigem valores de operando
+  * Ativar regras de fragmento de hash com operadores unários restaurando a funcionalidade de salvar
 
   Essas atualizações garantem uma configuração de regra precisa e melhoram a usabilidade em cenários complexos de entrega de página. (TGT-53722)
 * **Problema de renomeação de local resolvido em atividades A/B e MVT.** Correção de um bug na interface do usuário atualizada em que a renomeação de um local em uma atividade de [!UICONTROL Teste A/B] ou [!UICONTROL Teste multivariado] (MVT) não persistia após a navegação entre a lista de locais, o direcionamento e a versão posterior. Essa atualização garante que as alterações no nome da localização sejam salvas e refletidas de forma consistente em todo o fluxo de trabalho da atividade. (TGT-52367)
@@ -1153,12 +1157,12 @@ Esta versão inclui as seguintes atualizações e correções:
 * **Correção de um problema em que a habilitação de uma [!DNL Recommendations] [!UICONTROL Promoção] sem dados acionava uma mensagem de erro não clara**: a habilitação de uma [!UICONTROL Promoção principal] ou [!UICONTROL Promoção secundária] em uma atividade [!DNL Recommendations] sem especificar os valores necessários resultou em uma mensagem genérica de &quot;Erro de entrada inválido&quot;. O problema subjacente era um campo de configuração ausente, mas a mensagem de erro não indicava claramente a causa, dificultando a solução de problemas. O processo de criação de atividades agora fornece uma mensagem de erro clara e acionável quando campos obrigatórios, como `collectionId` ou regras, estão ausentes, ajudando os clientes a identificar e resolver rapidamente problemas de configuração. (TGT-52616)
 * **Correção de um problema que impedia a exibição da lista de [!UICONTROL Produtos] no modal [!UICONTROL Editar] da guia [!UICONTROL Recomendações]**: os clientes não conseguiam exibir a lista de produtos filtrada ao editar uma [!UICONTROL coleção] ou uma [!UICONTROL exclusão] na guia [!UICONTROL Recomendações]. Esperava-se que a lista fosse atualizada em tempo real com base nas regras aplicadas, mas ela não parecia como esperado. Esse problema foi resolvido e a lista de produtos agora é exibida corretamente e atualizada dinamicamente à medida que as regras são modificadas. (TGT-53481)
 * **Correção de um problema com o layout da caixa de diálogo Exibir Detalhes na interface do usuário atualizada**: o layout da modal Exibir Detalhes na interface do usuário atualizada foi modificado para melhorar a clareza e a usabilidade. A caixa de diálogo agora inclui duas guias:
-   * Guia [!UICONTROL Detalhes]: exibe todas as informações relevantes para o item selecionado.
-   * Guia [!UICONTROL Inventário]: mostra todos os produtos filtrados pelas regras atuais de coleta e exclusão.
+  * Guia [!UICONTROL Detalhes]: exibe todas as informações relevantes para o item selecionado.
+  * Guia [!UICONTROL Inventário]: mostra todos os produtos filtrados pelas regras atuais de coleta e exclusão.
 
   Esse aprimoramento ajuda os clientes a navegar e entender com mais facilidade os dados específicos do item e o contexto do inventário no processo de criação da atividade. (TGT-53503)
 
-   * **Correção de um problema em que as promoções removidas nas atividades de recomendação reapareciam após o salvamento**: os clientes relatavam que quando as promoções [!UICONTROL front] ou [!UICONTROL back] eram removidas das atividades [!DNL Recommendations] e a atividade era salva, as promoções continuavam a aparecer após a reabertura. Esse problema ocorria nos ambientes de preparo e produção e afetava o processo de criação de atividade atualizado. O problema foi resolvido. As promoções removidas de uma atividade agora persistem corretamente após salvar. (TGT-53490)
+  * **Correção de um problema em que as promoções removidas nas atividades de recomendação reapareciam após o salvamento**: os clientes relatavam que quando as promoções [!UICONTROL front] ou [!UICONTROL back] eram removidas das atividades [!DNL Recommendations] e a atividade era salva, as promoções continuavam a aparecer após a reabertura. Esse problema ocorria nos ambientes de preparo e produção e afetava o processo de criação de atividade atualizado. O problema foi resolvido. As promoções removidas de uma atividade agora persistem corretamente após salvar. (TGT-53490)
 
 +++
 
@@ -1462,9 +1466,9 @@ Devido aos problemas recentes identificados, principalmente relacionados às per
 
   **Principais melhorias**:
 
-   * As opções excluídas agora são rastreadas usando a infraestrutura `RemovedCampaignElements` e `RemovedOptionInfo` existente.
-   * Quando uma opção é removida de uma atividade de AP, seus metadados (por exemplo, ID e nome) são preservados.
-   * A interface do usuário de relatórios agora pode exibir o nome de opção original (por exemplo, `Option Name [Deleted]`) junto com métricas históricas, melhorando a clareza e a usabilidade.
+  * As opções excluídas agora são rastreadas usando a infraestrutura `RemovedCampaignElements` e `RemovedOptionInfo` existente.
+  * Quando uma opção é removida de uma atividade de AP, seus metadados (por exemplo, ID e nome) são preservados.
+  * A interface do usuário de relatórios agora pode exibir o nome de opção original (por exemplo, `Option Name [Deleted]`) junto com métricas históricas, melhorando a clareza e a usabilidade.
 
   Essa atualização garante relatórios consistentes e significativos, mesmo depois que as opções são removidas de uma atividade. (TGT-52986)
 
@@ -1484,9 +1488,9 @@ Devido aos problemas recentes identificados, principalmente relacionados às per
 
   **Alterações de Chave**:
 
-   * As opções não são mais excluídas permanentemente. Em vez disso, eles são marcados com um novo sinalizador deleted: true no objeto XML de parâmetros.
-   * Esse sinalizador é usado somente pela interface atualizada do usuário [!DNL Target] para excluir opções excluídas da renderização e impedir que sejam enviadas para serviços de borda.
-   * As opções excluídas permanecem como parte da carga útil da atividade durante as edições, garantindo a rastreabilidade e evitando a entrega de opções inexistentes para os clientes.
+  * As opções não são mais excluídas permanentemente. Em vez disso, eles são marcados com um novo sinalizador deleted: true no objeto XML de parâmetros.
+  * Esse sinalizador é usado somente pela interface atualizada do usuário [!DNL Target] para excluir opções excluídas da renderização e impedir que sejam enviadas para serviços de borda.
+  * As opções excluídas permanecem como parte da carga útil da atividade durante as edições, garantindo a rastreabilidade e evitando a entrega de opções inexistentes para os clientes.
 
   Essa atualização melhora a integridade dos dados e se alinha às práticas recomendadas para gerenciar exclusões em sistemas distribuídos. (TGT-52726)
 
@@ -1499,11 +1503,11 @@ Devido aos problemas recentes identificados, principalmente relacionados às per
 * Correção de um problema ao copiar uma atividade de um espaço de trabalho não padrão para um padrão ou entre espaços de trabalho não padrão. As ofertas agora são duplicadas com rastreamento e nomenclatura aprimorados para evitar conflitos.
 
   **Principais melhorias**:
-   * As ofertas são recriadas no espaço de trabalho de destino com IDs e metadados atualizados.
-   * As ofertas copiadas são renomeadas usando o formato: &quot;Cópia do nome da oferta&quot;, além de um número aleatório ou carimbo de data e hora para garantir exclusividade.
-   * O sistema atualiza os estados de oferta e atividade para refletir as novas IDs.
-   * Essa funcionalidade evita erros causados por vários nomes idênticos de &quot;Cópia de oferta&quot; durante ações de cópia repetidas.
-   * As ofertas podem não aparecer imediatamente na lista de ofertas do espaço de trabalho de destino, mas são processadas e exibidas adequadamente.
+  * As ofertas são recriadas no espaço de trabalho de destino com IDs e metadados atualizados.
+  * As ofertas copiadas são renomeadas usando o formato: &quot;Cópia do nome da oferta&quot;, além de um número aleatório ou carimbo de data e hora para garantir exclusividade.
+  * O sistema atualiza os estados de oferta e atividade para refletir as novas IDs.
+  * Essa funcionalidade evita erros causados por vários nomes idênticos de &quot;Cópia de oferta&quot; durante ações de cópia repetidas.
+  * As ofertas podem não aparecer imediatamente na lista de ofertas do espaço de trabalho de destino, mas são processadas e exibidas adequadamente.
 
   Essa atualização melhora a confiabilidade e a rastreabilidade ao gerenciar ofertas em vários espaços de trabalho. (TGT-53080)
 
@@ -1588,18 +1592,18 @@ Devido aos problemas recentes identificados, principalmente relacionados às per
 +++Ver detalhes
 
 * Manuseio de ofertas ad-hoc aprimorado ao alternar espaços de trabalho.
-   * Ao alternar do espaço de trabalho padrão para um não padrão (ou entre espaços de trabalho não padrão), as ofertas ad-hoc agora são copiadas corretamente. Durante a inicialização, o contexto do espaço de trabalho é atualizado e uma nova ID é atribuída à oferta para garantir a exclusividade.
-   * Não ocorrem alterações ao permanecer no mesmo espaço de trabalho. (TGT-53079)
+  * Ao alternar do espaço de trabalho padrão para um não padrão (ou entre espaços de trabalho não padrão), as ofertas ad-hoc agora são copiadas corretamente. Durante a inicialização, o contexto do espaço de trabalho é atualizado e uma nova ID é atribuída à oferta para garantir a exclusividade.
+  * Não ocorrem alterações ao permanecer no mesmo espaço de trabalho. (TGT-53079)
 * Correção de um problema que impedia os clientes de [copiar atividades entre espaços de trabalho diferentes](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6). (TGT-52753 e TGT-47094)
 * Correção de um problema ao alterar propriedades entre espaços de trabalho.
-   * Ao alternar entre o espaço de trabalho padrão e um não padrão, se a propriedade atual existir no espaço de trabalho de destino, a propriedade será preservada.
-   * Se a lista [!UICONTROL Propriedades] exibir um aviso (provavelmente indicando que algumas propriedades podem não ser compatíveis) e o cliente clicar em [!UICONTROL Adicionar] ou [!UICONTROL Remover] e depois em [!UICONTROL Salvar], todas as propriedades que não estiverem no espaço de trabalho de destino serão removidas. Se o cliente clicar em [!UICONTROL Cancelar], todas as propriedades permanecerão, mesmo que não existam no espaço de trabalho de destino. (TGT-47094)
-   * Se você permanecer no mesmo espaço de trabalho ou alternar de um espaço de trabalho não padrão para o padrão ou outro espaço de trabalho, tudo permanecerá como está. (TGT-53078)
+  * Ao alternar entre o espaço de trabalho padrão e um não padrão, se a propriedade atual existir no espaço de trabalho de destino, a propriedade será preservada.
+  * Se a lista [!UICONTROL Propriedades] exibir um aviso (provavelmente indicando que algumas propriedades podem não ser compatíveis) e o cliente clicar em [!UICONTROL Adicionar] ou [!UICONTROL Remover] e depois em [!UICONTROL Salvar], todas as propriedades que não estiverem no espaço de trabalho de destino serão removidas. Se o cliente clicar em [!UICONTROL Cancelar], todas as propriedades permanecerão, mesmo que não existam no espaço de trabalho de destino. (TGT-47094)
+  * Se você permanecer no mesmo espaço de trabalho ou alternar de um espaço de trabalho não padrão para o padrão ou outro espaço de trabalho, tudo permanecerá como está. (TGT-53078)
 * Atualização da lógica de validação da entidade para respeitar o contexto original do espaço de trabalho da atividade. Entidades como [!UICONTROL Fragmentos de experiência] (XFs) agora são validadas com base no espaço de trabalho em que a atividade foi originalmente criada. Por exemplo, se um XF existir no espaço de trabalho padrão e a atividade for copiada do espaço de trabalho X para o espaço de trabalho Y, a validação ainda será transmitida, desde que o XF seja válido no espaço de trabalho original (padrão). (TGT-53196)
 * Suporte aprimorado para copiar públicos-alvo ad-hoc durante a duplicação da atividade.
-   * Públicos-alvo ad-hoc, incluindo métricas, relatórios, página e tipos somente atividade, agora são copiados automaticamente nos seguintes cenários:
-      * Ao copiar uma atividade do espaço de trabalho padrão para um espaço de trabalho não padrão.
-      * Ao copiar uma atividade no mesmo espaço de trabalho. (TGT-53197)
+  * Públicos-alvo ad-hoc, incluindo métricas, relatórios, página e tipos somente atividade, agora são copiados automaticamente nos seguintes cenários:
+    * Ao copiar uma atividade do espaço de trabalho padrão para um espaço de trabalho não padrão.
+    * Ao copiar uma atividade no mesmo espaço de trabalho. (TGT-53197)
 
 +++
 
@@ -1635,7 +1639,8 @@ Devido aos problemas recentes identificados, principalmente relacionados às per
 
 * Correção de um problema em que copiar uma atividade existente e alterar a fonte de relatórios para [!DNL Adobe Analytics] (A4T) resultava em um erro &quot;Entrada de usuário inválida&quot;. O erro foi disparado quando determinadas ações de métrica incompatíveis com os relatórios do [!DNL Analytics], como `restart_same_experience`, `restart_random_experience` e `restart_new_experience`, eram retidas da atividade original. (TGT-52900)
 * Correção de um problema que impedia os clientes de criar ou salvar uma atividade ao selecionar [!DNL Adobe Analytics] (A4T) como fonte de relatórios na etapa [!UICONTROL Metas e configurações]. O problema ocorreu especificamente ao selecionar uma métrica [!UICONTROL Evento personalizado] (por exemplo, &quot;Evento personalizado 16&quot;), resultando no seguinte erro: &quot;Entrada de usuário inválida&quot;. (TGT-52910)
-* Correção de um problema em que um clique no link &quot;[!UICONTROL Exibir no Analytics]&quot; redirecionava os usuários para a página inicial em vez do painel [!DNL Analytics] pretendido. (TGT-53092 e TGT-53093)  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
+* Correção de um problema em que um clique no link &quot;[!UICONTROL Exibir no Analytics]&quot; redirecionava os usuários para a página inicial em vez do painel [!DNL Analytics] pretendido. (TGT-53092 e TGT-53093)
+  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
 * Correção de um problema ao visualizar uma atividade [!DNL Recommendations] na interface atualizada do usuário [!UICONTROL Visão geral], a seção [!UICONTROL Metas e configurações] falha ao carregar quando [!DNL Adobe Analytics] (A4T) é selecionado como fonte de relatórios. A seguinte mensagem de erro foi exibida: &quot;Algo deu errado. Não podemos completar o seu pedido. Entre em contato com o Atendimento ao cliente da Adobe se o problema persistir.&quot; (TGT-52999)
 
 +++
@@ -1698,9 +1703,9 @@ Devido aos problemas recentes identificados, principalmente relacionados às per
 * Correção de um problema em que as modificações de código personalizadas eram exibidas incorretamente para a experiência errada. Especificamente, as alterações destinadas a uma experiência foram mostradas em uma experiência diferente, levando a confusão e possível configuração incorreta de atividades ativas. (TGT-52776)
 * Correção de um problema que impedia a edição ou o salvamento de modificações de código personalizadas na Nova interface do VEC. Especificamente:
 
-   * Após editar um bloco de código personalizado e salvar, as alterações não foram refletidas na interface do usuário ou na pré-visualização de controle de qualidade.
-   * Em alguns casos, as modificações não podiam ser excluídas a menos que a atividade fosse fechada e reaberta.
-   * Como solução alternativa, os usuários tinham que copiar o código, excluir a modificação e recriá-lo manualmente com o conteúdo atualizado. (TGT-53072)
+  * Após editar um bloco de código personalizado e salvar, as alterações não foram refletidas na interface do usuário ou na pré-visualização de controle de qualidade.
+  * Em alguns casos, as modificações não podiam ser excluídas a menos que a atividade fosse fechada e reaberta.
+  * Como solução alternativa, os usuários tinham que copiar o código, excluir a modificação e recriá-lo manualmente com o conteúdo atualizado. (TGT-53072)
 
 * Correção de um problema em que editar e salvar o código personalizado fazia com que o painel [!UICONTROL Modificações] não respondesse. (TGT-53075)
 * Correção de um problema em que as modificações feitas no código personalizado em experiências de variante eram refletidas involuntariamente na experiência de [!UICONTROL Controle]. Isso causou alterações não intencionais no comportamento de delivery. A experiência de [!UICONTROL Controle] agora permanece isolada das edições de código personalizadas feitas em outras experiências. (TGT-52413)
@@ -1714,9 +1719,9 @@ Devido aos problemas recentes identificados, principalmente relacionados às per
 
   Principais problemas abordados:
 
-   * A criação de várias Ofertas da HTML com o mesmo nome (por exemplo, &quot;Experiência&quot;) acionou o erro &quot;Nomes de ofertas duplicados não são permitidos&quot;, mas a interface não indicou claramente quais ofertas estavam causando o conflito.
-   * A renomeação de ofertas por meio do painel direito atualizou o nome na interface, mas a alteração não foi refletida na guia [!UICONTROL Gerenciar Conteúdo] ou na guia [!UICONTROL Ofertas], causando erros de validação persistentes.
-   * Em atividades do MVT, embora o erro de nome duplicado não persistisse após a renomeação, a interface do usuário ainda não refletia os nomes de oferta atualizados de forma consistente nas guias. (TGT-52933)
+  * A criação de várias Ofertas da HTML com o mesmo nome (por exemplo, &quot;Experiência&quot;) acionou o erro &quot;Nomes de ofertas duplicados não são permitidos&quot;, mas a interface não indicou claramente quais ofertas estavam causando o conflito.
+  * A renomeação de ofertas por meio do painel direito atualizou o nome na interface, mas a alteração não foi refletida na guia [!UICONTROL Gerenciar Conteúdo] ou na guia [!UICONTROL Ofertas], causando erros de validação persistentes.
+  * Em atividades do MVT, embora o erro de nome duplicado não persistisse após a renomeação, a interface do usuário ainda não refletia os nomes de oferta atualizados de forma consistente nas guias. (TGT-52933)
 
   +++
 
@@ -2145,8 +2150,8 @@ Com base no sistema de design [!DNL Adobe Spectrum] mais recente, a atualizaçã
 
   Para obter informações sobre como o VEC atualizado difere da versão anterior, consulte:
 
-   * [Alterações no Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
-   * [Opções do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
+  * [Alterações no Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+  * [Opções do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
 * [Atualização [!DNL Chrome] extensão](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) com suporte para Manifest V3 para maior segurança e suporte aprimorado para cookies próprios.
 
@@ -2236,8 +2241,8 @@ O [!DNL Platform Web SDK] oferece suporte a dois tipos de implementação para r
 
   Se você continuar usando a abordagem de chamada única, poderá observar as seguintes alterações inesperadas em seus relatórios do [!DNL Analytics]:
 
-   * Um declínio nas rejeições.
-   * As ocorrências do A4T e da [!UICONTROL Exibição de página] não são compiladas, tornando desafiador executar determinados detalhamentos e correlações dos relatórios do A4T usando eVars e eventos do [!DNL Analytics].
+  * Um declínio nas rejeições.
+  * As ocorrências do A4T e da [!UICONTROL Exibição de página] não são compiladas, tornando desafiador executar determinados detalhamentos e correlações dos relatórios do A4T usando eVars e eventos do [!DNL Analytics].
 
 * **Dividir chamadas (também conhecido como eventos da parte superior e inferior da página).**
 
@@ -2317,9 +2322,9 @@ Essa versão conta com os seguintes aprimoramentos e correções:
 * Adição de uma dica de ferramenta na interface do [!DNL Target] para ajudar clientes a entender por que pode não haver dados disponíveis nos relatórios de atividade se nenhum tráfego estiver alocado para a experiência de controle. Um link para mais informações está incluído na dica de ferramenta: [Por que não há dados disponíveis para o meu relatório de atividade?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
 * Correção de um problema que impedia a exibição correta das atividades na página [!UICONTROL Atividades] para alguns clientes. (TGT-46830)
 * Correção dos seguintes problemas que afetavam as atividades que usam o [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) como fonte de relatórios:
-   * Correção de um problema que impedia que alguns clientes visualizassem dados de relatórios. (TGT-46557)
-   * Correção de um problema que às vezes fazia com que o link [!UICONTROL Exibir no Analytics] nas páginas dos relatórios de atividades não funcionasse corretamente. (TGT-46731)
-   * Correção de um problema que impedia que os dados de [!UICONTROL Lift] e [!UICONTROL Confidence] fossem exibidos corretamente na interface do usuário [!DNL Target]. (TGT-46592, TGT-46554, e TGT-46586)
+  * Correção de um problema que impedia que alguns clientes visualizassem dados de relatórios. (TGT-46557)
+  * Correção de um problema que às vezes fazia com que o link [!UICONTROL Exibir no Analytics] nas páginas dos relatórios de atividades não funcionasse corretamente. (TGT-46731)
+  * Correção de um problema que impedia que os dados de [!UICONTROL Lift] e [!UICONTROL Confidence] fossem exibidos corretamente na interface do usuário [!DNL Target]. (TGT-46592, TGT-46554, e TGT-46586)
 
 ### Atualização da interface do usuário da página [!UICONTROL Atividades] (25 de outubro de 2023)
 
@@ -2489,10 +2494,10 @@ Esta versão inclui as seguintes correções:
 
 * Atualizações de componentes Web personalizados criados com o [!UICONTROL Visual Experience Composer] (VEC):
 
-   * Correção da seleção de elementos de Shadow DOM no VEC, melhorando o processo de criação para que não haja dependência do tipo de implementação do [!DNL Target] ao criar a raiz de sombra. Agora, selecionar elementos de Shadow DOM no VEC deve funcionar para qualquer site.
-   * Correção de um problema que impedia o carregamento de elementos HTML usando #Shadow DOM no VEC. (TGT-35801)
-   * Correção de problemas do VEC com sites de SPA que usam ShadowDOM. (TGT-43169)
-   * Correção de um problema com a meta de otimização “clicou em um elemento” que não identificava corretamente o seletor de CSS no ShadowDOM.
+  * Correção da seleção de elementos de Shadow DOM no VEC, melhorando o processo de criação para que não haja dependência do tipo de implementação do [!DNL Target] ao criar a raiz de sombra. Agora, selecionar elementos de Shadow DOM no VEC deve funcionar para qualquer site.
+  * Correção de um problema que impedia o carregamento de elementos HTML usando #Shadow DOM no VEC. (TGT-35801)
+  * Correção de problemas do VEC com sites de SPA que usam ShadowDOM. (TGT-43169)
+  * Correção de um problema com a meta de otimização “clicou em um elemento” que não identificava corretamente o seletor de CSS no ShadowDOM.
 
 >[!NOTE]
 >
@@ -2805,27 +2810,27 @@ Os seguintes aprimoramentos foram adicionados ao usar [!DNL Target] [!UICONTROL 
 
   As ilustrações a seguir mostram alguns dos locais em que os ícones, janelas flutuantes e mensagens são exibidos:
 
-   * Página da lista [!UICONTROL Atividade]
+  * Página da lista [!UICONTROL Atividade]
 
-     ![Mensagem de exclusão de público-alvo na origem na página da lista de atividades](assets/deleted-at-source-audiences-list.png)
+    ![Mensagem de exclusão de público-alvo na origem na página da lista de atividades](assets/deleted-at-source-audiences-list.png)
 
-   * Páginas de [!UICONTROL Visão geral] da atividade:
+  * Páginas de [!UICONTROL Visão geral] da atividade:
 
-     ![Mensagem de exclusão de público-alvo na origem na página de visão geral](assets/deleted-at-source-overview.png)
+    ![Mensagem de exclusão de público-alvo na origem na página de visão geral](assets/deleted-at-source-overview.png)
 
-   * Etapa de [!UICONTROL experiências] do fluxo de trabalho de criação da atividade:
+  * Etapa de [!UICONTROL experiências] do fluxo de trabalho de criação da atividade:
 
-     ![Mensagem de exclusão de público-alvo na origem em [!UICONTROL Experiências] página](assets/deleted-at-source-experiences.png)
+    ![Mensagem de exclusão de público-alvo na origem em [!UICONTROL Experiências] página](assets/deleted-at-source-experiences.png)
 
-   * Etapa de [!UICONTROL direcionamento] do fluxo de trabalho de criação da atividade:
+  * Etapa de [!UICONTROL direcionamento] do fluxo de trabalho de criação da atividade:
 
-     ![Mensagem de exclusão de público-alvo na origem na [!UICONTROL Página de direcionamento]](assets/deleted-at-source-targeting.png)
+    ![Mensagem de exclusão de público-alvo na origem na [!UICONTROL Página de direcionamento]](assets/deleted-at-source-targeting.png)
 
-   * [!UICONTROL Etapa de metas e configurações] do fluxo de trabalho de criação da atividade:
+  * [!UICONTROL Etapa de metas e configurações] do fluxo de trabalho de criação da atividade:
 
-     ![Mensagem de exclusão de público-alvo na origem na [!UICONTROL página Metas e Configurações]](assets/deleted-at-source-goals-settings.png)
+    ![Mensagem de exclusão de público-alvo na origem na [!UICONTROL página Metas e Configurações]](assets/deleted-at-source-goals-settings.png)
 
-   * Refinamentos de público-alvo ([!UICONTROL Substituir público-alvo] na etapa [!UICONTROL Direcionamento] do fluxo de trabalho de criação da atividade):
+  * Refinamentos de público-alvo ([!UICONTROL Substituir público-alvo] na etapa [!UICONTROL Direcionamento] do fluxo de trabalho de criação da atividade):
 
 * Se você tentar usar o recurso Combinar Públicos-alvo e um dos públicos-alvo foi excluído na origem, [!UICONTROL Salvar] estará desabilitado.
 
@@ -2882,9 +2887,9 @@ Esta versão inclui as seguintes melhorias:
 * O limite de `categoryId` foi aumentado para 256 caracteres. O limite anterior era de 128.
 * Os seguintes detalhes do [!DNL Adobe Audience Manager] (AAM) foram adicionados à API de entrega:
 
-   * UUID do AAM: a ID do AAM interna usada para identificar exclusivamente um usuário.
-   * dataPartnerId: a ID de um parceiro de dados.
-   * dataPartnerUserId: a ID de usuário fornecida por um parceiro de dados.
+  * UUID do AAM: a ID do AAM interna usada para identificar exclusivamente um usuário.
+  * dataPartnerId: a ID de um parceiro de dados.
+  * dataPartnerUserId: a ID de usuário fornecida por um parceiro de dados.
 
   Anteriormente, a API de entrega incluía somente `dcsLocationHint` e `blob`. (TNT-41644)
 
@@ -3017,7 +3022,7 @@ Este lançamento inclui os seguintes novos recursos:
 Esta versão inclui os seguintes aprimoramentos, correções e alterações:
 
 * Correção de um problema que impedia que o [!UICONTROL Intervalo de confiança médio do aumento] e a [!UICONTROL Confiança] fossem exibidos no relatório [!DNL Auto-Target] para a linha [!UICONTROL Total]. As medidas são exibidas corretamente para todas as experiências individuais. (TGT-37301)
-* Correção de um problema que afetava os relatórios [!UICONTROL Direcionamento automático] de [!DNL Adobe Target Premium] usuários de 15 de setembro, 14h00 (PDT) para 6 de outubro, 4h00 (PDT). :30:25Ao visualizar relatórios para as métricas de conversão afetadas (configuradas utilizando a opção &quot;[!UICONTROL Visualizou uma página]&quot; ou &quot;[!UICONTROL Clicou na mbox]&quot;), as taxas de conversão são relatadas incorretamente. Não há problemas de entrega conhecidos no momento.
+* Correção de um problema que afetava os relatórios [!UICONTROL Direcionamento automático] de [!DNL Adobe Target Premium] usuários de 15 de setembro, 14h30 (PDT) para 6 de outubro, 9h25 (PDT). Ao visualizar relatórios para as métricas de conversão afetadas (configuradas utilizando a opção &quot;[!UICONTROL Visualizou uma página]&quot; ou &quot;[!UICONTROL Clicou na mbox]&quot;), as taxas de conversão são relatadas incorretamente. Não há problemas de entrega conhecidos no momento.
 * Adição de uma coluna selecionável [!UICONTROL Última Atualização às] na tabela [!UICONTROL Pesquisa de Catálogo] e um filtro [!UICONTROL Última Atualização Às]. Esse aprimoramento economiza tempo e esforço, pois você não precisa abrir cada item individual para ver quando foi atualizado pela última vez e pode filtrar pela data em que os itens foram atualizados pela última vez.
 
   ![Ilustração da coluna e do filtro Última atualização](/help/main/r-release-notes/assets/column-and-filter.png)
@@ -3233,8 +3238,8 @@ Esta versão inclui os seguintes aprimoramentos, correções e alterações:
 
   As seguintes alterações foram feitas:
 
-   * &quot;Tempo médio na página&quot; foi substituído por &quot;Tempo médio no site&quot;. Qualquer atividade que use essa métrica como a métrica da meta principal terá &quot;Tempo médio no site&quot; (observação: medido em minutos em vez de segundos) selecionado como a Métrica de meta primária na próxima vez que a atividade for editada.
-   * &quot;Visitantes&quot; foi substituído por &quot;Visitantes únicos&quot;. Qualquer atividade que use essa métrica como a Métrica de meta principal terá &quot;Visitantes únicos&quot; selecionado como a Métrica de meta principal na próxima vez que a atividade for editada.
+  * &quot;Tempo médio na página&quot; foi substituído por &quot;Tempo médio no site&quot;. Qualquer atividade que use essa métrica como a métrica da meta principal terá &quot;Tempo médio no site&quot; (observação: medido em minutos em vez de segundos) selecionado como a Métrica de meta primária na próxima vez que a atividade for editada.
+  * &quot;Visitantes&quot; foi substituído por &quot;Visitantes únicos&quot;. Qualquer atividade que use essa métrica como a Métrica de meta principal terá &quot;Visitantes únicos&quot; selecionado como a Métrica de meta principal na próxima vez que a atividade for editada.
 
 * As métricas a seguir foram substituídas e não podem mais ser selecionadas como a Métrica de meta primária ao criar uma nova atividade do A4T.
 
@@ -3249,12 +3254,12 @@ Esta versão inclui os seguintes aprimoramentos, correções e alterações:
 
 * Ao fazer logon no [!DNL Adobe Experience Cloud], você será direcionado para a nova navegação do cabeçalho. É muito semelhante à navegação anterior com a barra preta na parte superior, mas fornece as seguintes melhorias:
 
-   * É mais fácil alternar entre organizações do [!DNL Identity Management System] (IMS) ou para uma solução diferente.
-   * Ajuda do usuário aprimorada: os resultados da pesquisa incluem resultados da documentação de produto do [!DNL Target], bem como fóruns da comunidade e mais conteúdo em vídeo, facilitando o acesso a mais conteúdo para ajudar a aproveitar ao máximo o [!DNL Target]. Também adicionamos um mecanismo de comentários diretamente no menu [!UICONTROL Ajuda], facilitando relatar problemas ou compartilhar suas ideias.
+  * É mais fácil alternar entre organizações do [!DNL Identity Management System] (IMS) ou para uma solução diferente.
+  * Ajuda do usuário aprimorada: os resultados da pesquisa incluem resultados da documentação de produto do [!DNL Target], bem como fóruns da comunidade e mais conteúdo em vídeo, facilitando o acesso a mais conteúdo para ajudar a aproveitar ao máximo o [!DNL Target]. Também adicionamos um mecanismo de comentários diretamente no menu [!UICONTROL Ajuda], facilitando relatar problemas ou compartilhar suas ideias.
 
-   * Melhoria na funcionalidade de feedback da NPS (Net Promoter Score), de modo que o modal da pesquisa não perturba o fluxo de trabalho.
+  * Melhoria na funcionalidade de feedback da NPS (Net Promoter Score), de modo que o modal da pesquisa não perturba o fluxo de trabalho.
 
-   * As notificações para [!DNL Target] não estão disponíveis atualmente no menu suspenso [!UICONTROL Notificações] no cabeçalho.
+  * As notificações para [!DNL Target] não estão disponíveis atualmente no menu suspenso [!UICONTROL Notificações] no cabeçalho.
 
   >[!NOTE]
   >
@@ -3301,12 +3306,12 @@ O seguinte problema foi corrigido na versão 1.0.1:
 
 * Ao fazer logon no [!DNL Adobe Experience Cloud], você será direcionado para a nova navegação do cabeçalho. É muito semelhante à navegação anterior com a barra preta na parte superior, mas fornece as seguintes melhorias:
 
-   * É mais fácil alternar entre organizações do [!DNL Identity Management System] (IMS) ou para uma solução diferente.
-   * Ajuda do usuário aprimorada: os resultados da pesquisa incluem resultados da documentação de produto do [!DNL Target], bem como fóruns da comunidade e mais conteúdo em vídeo, facilitando o acesso a mais conteúdo para ajudar a aproveitar ao máximo o [!DNL Target]. Também adicionamos um mecanismo de comentários diretamente no menu [!UICONTROL Ajuda], facilitando relatar problemas ou compartilhar suas ideias.
+  * É mais fácil alternar entre organizações do [!DNL Identity Management System] (IMS) ou para uma solução diferente.
+  * Ajuda do usuário aprimorada: os resultados da pesquisa incluem resultados da documentação de produto do [!DNL Target], bem como fóruns da comunidade e mais conteúdo em vídeo, facilitando o acesso a mais conteúdo para ajudar a aproveitar ao máximo o [!DNL Target]. Também adicionamos um mecanismo de comentários diretamente no menu [!UICONTROL Ajuda], facilitando relatar problemas ou compartilhar suas ideias.
 
-   * Melhoria na funcionalidade de feedback da NPS (Net Promoter Score), de modo que o modal da pesquisa não perturba o fluxo de trabalho.
+  * Melhoria na funcionalidade de feedback da NPS (Net Promoter Score), de modo que o modal da pesquisa não perturba o fluxo de trabalho.
 
-   * As notificações para [!DNL Target] não estão disponíveis atualmente no menu suspenso [!UICONTROL Notificações] no cabeçalho.
+  * As notificações para [!DNL Target] não estão disponíveis atualmente no menu suspenso [!UICONTROL Notificações] no cabeçalho.
 
   >[!NOTE]
   >
@@ -3439,8 +3444,8 @@ Essa versão inclui os seguintes recursos, alterações e aprimoramentos:
 
   Anteriormente, não era possível excluir uma pasta que não estava vazia da biblioteca de ofertas de imagem do Target ([!UICONTROL Ofertas] > [!UICONTROL Ofertas de imagem]). Você receberia uma notificação &quot;A pasta não está vazia!&quot; ao tentar excluir a pasta da interface do usuário.  Com esse recurso, foi adicionada a capacidade excluir a pasta para remover uma pasta inteira que contenha qualquer quantidade de ativos e subpastas. Esse recurso está disponível na interface do usuário do Target, assim como na interface do usuário dos ativos da Adobe Experience Cloud.
 
-   * As pastas que não estão vazias na biblioteca de Oferta de imagens podem ser excluídas. Se todas as imagens da pasta não forem referenciadas em nenhuma atividade, a pasta inteira e seu conteúdo serão excluídos. Se algumas imagens da pasta forem referenciadas em qualquer atividade, todas as imagens não referenciadas serão excluídas, mas as imagens e pastas referenciadas que contêm essas imagens serão mantidas.
-   * A renderização das ofertas de imagens no seletor de Ativos de imagem é mais rápida e eficiente.
+  * As pastas que não estão vazias na biblioteca de Oferta de imagens podem ser excluídas. Se todas as imagens da pasta não forem referenciadas em nenhuma atividade, a pasta inteira e seu conteúdo serão excluídos. Se algumas imagens da pasta forem referenciadas em qualquer atividade, todas as imagens não referenciadas serão excluídas, mas as imagens e pastas referenciadas que contêm essas imagens serão mantidas.
+  * A renderização das ofertas de imagens no seletor de Ativos de imagem é mais rápida e eficiente.
 
   Para obter mais informações, consulte [Trabalhar com conteúdo na biblioteca](/help/main/c-experiences/c-manage-content/assets-working.md). (TGT-32897)
 
@@ -3621,8 +3626,8 @@ Esta versão do [!DNL Target] inclui os seguintes aprimoramentos, correções e 
 
 * Melhoria de informações sobre tratamento de públicos referenciados em atividades do Target que foram excluídas no Adobe Audience Manager (AAM). (TGT-23338)
 
-   * Se um público-alvo foi excluído no AAM, é exibido um ícone de aviso na lista [!UICONTROL Público-alvo] e no seletor de público. Uma dica de ferramenta na interface do usuário também indica que o público-alvo foi excluído do AAM.
-   * Se você tentar combinar vários públicos com um público-alvo excluído, ou se tentar salvar uma atividade que faça referência a um público-alvo excluído, será exibida uma mensagem de aviso.
+  * Se um público-alvo foi excluído no AAM, é exibido um ícone de aviso na lista [!UICONTROL Público-alvo] e no seletor de público. Uma dica de ferramenta na interface do usuário também indica que o público-alvo foi excluído do AAM.
+  * Se você tentar combinar vários públicos com um público-alvo excluído, ou se tentar salvar uma atividade que faça referência a um público-alvo excluído, será exibida uma mensagem de aviso.
 
   Consulte [Sobre públicos](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=pt-BR).
 
@@ -4598,9 +4603,9 @@ Essa versão do [!DNL Target] inclui os seguintes aprimoramentos e correções v
 * Quando uma atividade é arquivada, &quot;Atividade arquivada&quot; é exibido em vez de &quot;Atualizando a atividade&quot;. (KB-1517)
 * O seletor suspenso nos seguintes locais da interface do usuário do Target foi substituído pela funcionalidade de preenchimento automático para melhorar a velocidade e o desempenho: (TGT-22939)
 
-   * Página da atividade > *atividade* > Etapa 3 > Seletor de conjunto de relatórios
-   * Públicos-alvo > Criar público-alvo > Perfil do visitante
-   * Recommendations> Criação de feed > Quando o tipo de origem > Analytics > Seletor do Conjunto de relatórios
+  * Página da atividade > *atividade* > Etapa 3 > Seletor de conjunto de relatórios
+  * Públicos-alvo > Criar público-alvo > Perfil do visitante
+  * Recommendations> Criação de feed > Quando o tipo de origem > Analytics > Seletor do Conjunto de relatórios
 
 * Mensagens de erro aprimoradas quando um site tem &quot;X-Frame-options&quot; definido como SAMEORIGIN e o site não pode ser carregado no Visual Experience Composer (VEC). A mensagem solicita que o usuário alterne para o Enhanced Experience Composer em Administração > Visual Experience Composer. (TGT-17356)
 * Os relatórios do Target Standard/Premium agora são exibidos no fuso horário da sua conta, em vez do fuso horário do servidor do Target (EST dos EUA). (TGT-24868)
@@ -4785,10 +4790,10 @@ Esta versão do [!DNL Target] inclui os seguintes aprimoramentos e correções:
 * A interface de usuário do [!DNL Target] foi atualizada para oferecer suporte a ofertas de redirecionamento em atividades que usam o [!UICONTROL Analytics for Target] (A4T) como fonte de relatórios. Esta funcionalidade exigirá a [!DNL at.js] 0.9.6, que estará disponível em breve.
 * A interface do usuário do [!DNL Target] foi atualizada em alguns aspectos:
 
-   * Nos relatórios e atividades, algumas opções ( [!UICONTROL Editar], [!UICONTROL Compartilhar no Feed], [!UICONTROL Exibir URLs de experiências] etc.) agora são acessadas clicando no ícone [!UICONTROL Mais Opções] ( ![imagem de ícone_mais_opções](assets/icon_more_options.png)
+  * Nos relatórios e atividades, algumas opções ( [!UICONTROL Editar], [!UICONTROL Compartilhar no Feed], [!UICONTROL Exibir URLs de experiências] etc.) agora são acessadas clicando no ícone [!UICONTROL Mais Opções] ( ![imagem de ícone_mais_opções](assets/icon_more_options.png)
 
-     ).
-   * Na biblioteca de [!UICONTROL Ofertas], as ofertas agora são exibidas em uma lista, e não como cartões. Outras alterações secundárias foram feitas em toda a interface do usuário da biblioteca de [!UICONTROL Ofertas].
+    ).
+  * Na biblioteca de [!UICONTROL Ofertas], as ofertas agora são exibidas em uma lista, e não como cartões. Outras alterações secundárias foram feitas em toda a interface do usuário da biblioteca de [!UICONTROL Ofertas].
 
 * Desempenho significativamente melhorado nas listas de [!UICONTROL Atividades] e [!UICONTROL Públicos-alvo]. Além disso, os tempos de carregamento dos resultados da pesquisa são significativamente mais rápidos.
 * &quot;Exibições&quot; agora é &quot;Visitas&quot; no [!UICONTROL Relatório em nível de oferta] para relatórios de [!UICONTROL Personalização automatizada].
@@ -4813,7 +4818,8 @@ Essa versão do [!DNL Target] está focada em melhorias de usabilidade e desempe
 * Agora, os nomes das métricas são exibidos na página [!UICONTROL Metas e configurações], sem que os usuários precisem expandir cada métrica para visualizar todo o nome. Essa melhoria permite que os usuários editem métricas de maneira mais rápida e eficiente. (TGT-21276)
 * Agora é possível aplicar regras de inclusão do [!DNL Recommendations] a critérios personalizados (carregados por meio de um CSV), exatamente como qualquer outro critério. (TGT-21896)
 * Melhoria na interface do usuário e na usabilidade da página [!UICONTROL Ofertas], principalmente ao criar ou gerenciar pastas e criar ofertas. (TGT-22509 e TGT-22187)
-* Melhoria na experiência do usuário no [!UICONTROL Visual Experience Composer] (VEC) ao selecionar itens para ocultar.(TGT-22224)
+* Melhoria na experiência do usuário no [!UICONTROL Visual Experience Composer] (VEC) ao selecionar itens para ocultar.
+(TGT-22224)
 * Melhoria na experiência do usuário ao criar atividades usando o [!UICONTROL Experience Composer baseado em formulário]. Ao escolher uma localização de mbox, a borda de validação permanece realçada após clicar em [!UICONTROL Próximo]. (TGT-22221)
 * Melhoria nos relatórios baixados para diferenciar entre ofertas ativas e excluídas. (TGT-22449)
 * Correção de um problema que impedia a exibição de ativos mais antigos na lista de ativos com rolagem infinita na interface do usuário do serviço principal do Experience Cloud Assets. (TGT-19733)
@@ -5259,10 +5265,10 @@ Os seguintes problemas conhecidos foram relatados:
 
   Para marcar essa opção em uma atividade existente com uma oferta de redirecionamento, use a seguinte solução alternativa:
 
-   1. Abra a pop-up Redirecionar para URL.
-   1. Altere o URL para um URL fictício e salve.
-   1. Altere o URL fictício novamente para o URL de redirecionamento esperado da sua campanha.
-   1. Marque a opção &quot;Incluir parâmetros de consulta atuais&quot; e salve.
+  1. Abra a pop-up Redirecionar para URL.
+  1. Altere o URL para um URL fictício e salve.
+  1. Altere o URL fictício novamente para o URL de redirecionamento esperado da sua campanha.
+  1. Marque a opção &quot;Incluir parâmetros de consulta atuais&quot; e salve.
 
   Se você marcar a opção ao criar uma nova oferta de redirecionamento, poderá esperar que seus parâmetros de consulta sejam incluídos no redirecionamento.
 
@@ -5485,8 +5491,8 @@ Os seguintes problemas conhecidos foram relatados:
 * Podem ocorrer alguns problemas de interface no Internet Explorer 10, como oscilação de tela e lentidão dos programas.
 * A atualização da versão 48 do Chrome introduziu um problema que faz com que o Visual Experience Composer não funcione corretamente no Chrome. O Google está buscando uma solução. Para obter mais informações, consulte [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). Para resolver este problema:
 
-   * Use o Firefox ou o Internet Explorer.
-   * Habilite o Enhanced Experience Composer, que pode ser configurado na guia **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]**.
+  * Use o Firefox ou o Internet Explorer.
+  * Habilite o Enhanced Experience Composer, que pode ser configurado na guia **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]**.
 
 ### Adobe [!DNL Target] Standard/Premium 16.2.1 (18 de fevereiro de 2016) {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
@@ -5507,8 +5513,8 @@ Os seguintes problemas conhecidos foram relatados:
 * Podem ocorrer alguns problemas de interface no Internet Explorer 10, como oscilação de tela e lentidão dos programas.
 * A atualização da versão 48 do Chrome introduziu um problema que faz com que o Visual Experience Composer não funcione corretamente no Chrome. O Google está buscando uma solução. Para obter mais informações, consulte [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). Para resolver este problema:
 
-   * Use o Firefox ou o Internet Explorer.
-   * Habilite o Enhanced Experience Composer, que pode ser configurado na guia **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]**.
+  * Use o Firefox ou o Internet Explorer.
+  * Habilite o Enhanced Experience Composer, que pode ser configurado na guia **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]**.
 
 ### Adobe [!DNL Target] Standard/Premium 16.1.1 (28 de janeiro de 2016) {#section_8BF7705B452C449F961AEFC568A0778C}
 
@@ -5585,8 +5591,8 @@ Os seguintes problemas conhecidos foram relatados:
 * Podem ocorrer alguns problemas de interface no Internet Explorer 10, como oscilação de tela e lentidão dos programas.
 * A atualização da versão 48 do Chrome introduziu um problema que faz com que o Visual Experience Composer não funcione corretamente no Chrome. O Google está buscando uma solução. Para obter mais informações, consulte [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). Para resolver este problema:
 
-   * Use o Firefox ou o Internet Explorer.
-   * Habilite o Enhanced Experience Composer, que pode ser configurado na guia **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]**.
+  * Use o Firefox ou o Internet Explorer.
+  * Habilite o Enhanced Experience Composer, que pode ser configurado na guia **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]**.
 
 ## Versões de 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
@@ -5793,7 +5799,7 @@ Esta versão inclui os seguintes recursos e melhorias:
   <tr> 
    <td colname="col1"> Criar e editar scripts de perfil </td> 
    <td colname="col2"> <p>Scripts de perfil rodam "coletores" de atributo de perfil em cada solicitação de mbox. Quando uma solicitação de mbox é recebida, o Target executa qualquer script de perfil relevante, determina qual atividade deve ser executada e exibe o conteúdo apropriado para a atividade e para a experiência e, em seguida, rastreia o sucesso da atividade. Isto permite rastrear as informações sobre a visita, como o local do visitante, a hora do dia, o número de vezes que o visitante acessou o site, se ele já fez alguma compra anteriormente etc. Estas informações são então adicionadas ao perfil do visitante para que você possa melhor rastrear a atividade do visitante no seu site. </p> <p>Consulte <a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local"> Atributos do Perfil </a>. 
-      </p> </td> 
+     <!--(Copy help from Classic)--> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervalo de confiança para métricas binárias </td> 
