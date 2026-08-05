@@ -138,7 +138,7 @@ Saiba como personalizar na próxima ocorrência com a [!DNL Real-Time Customer D
 
 Para obter mais informações, consulte [Personalização de próxima ocorrência com Real-Time CDP e Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=pt-BR){target=_blank} no guia *Tutoriais da plataforma*.
 
->[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/342981?captions=por_br&quality=12&learn=on)
 
 ### Vídeo: configurar o destino do [!DNL Adobe Target] na [!DNL Real-Time Customer Data Platform]
 
