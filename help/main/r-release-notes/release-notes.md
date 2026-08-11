@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4111bfa406259af6fb0877170fd7d80b11c22482
+source-git-commit: 0ff60ed8b6fedd553d6df67e122a8a0b6520cce9
 workflow-type: tm+mt
-source-wordcount: 1046
-ht-degree: 26%
+source-wordcount: 529
+ht-degree: 50%
 
 ---
 
@@ -31,133 +31,33 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 26.7.5 (30 de julho de 2026)
+## [!DNL Target Standard/Premium] 26.8.2 (11 de agosto de 2026)
 
-**Atividades**
+**Públicos-alvo**
 
 +++Ver detalhes
 
-* **As estatísticas Bayesianas para [!DNL A/B Test (Manual)] atividades** [!DNL A/B Test (Manual)] agora oferecem suporte às estatísticas Bayesianas como uma alternativa ao teste t de Welch. Escolha a metodologia estatística em [!UICONTROL Metas e configurações]: o relatório de uma atividade Bayesiana mostra métricas de decisão baseadas em probabilidade, como [!UICONTROL Chance de Controlar Batida], e intervalos de credibilidade em vez do intervalo de confiança frequencista. [Saiba mais](../c-reports/statistical-methodology/statistical-calculations.md)
-
-* **[!DNL Customer Journey Analytics]relatórios para [!DNL Auto-Allocate] atividades.** As atividades do [!DNL Auto-Allocate] agora podem usar o [!DNL Customer Journey Analytics] como fonte de relatórios, além do [!DNL Target] e do [!DNL Adobe Analytics] (A4T). [Saiba mais](../c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
+* **Não é possível copiar e salvar uma modificação de código personalizado em uma atividade usando um público somente atividade.** Correção de um problema em que a cópia de uma atividade que usava um público somente atividade não era salva com um erro &quot;IDs de público inválidas&quot; após a adição de uma modificação de código personalizado. (TGT-55785)
 
 +++
+
+**Localização**
+
++++Ver detalhes
+
+* **Caracteres multibyte corrompidos na URL da atividade.** Correção de um problema em que caracteres multibyte na URL da atividade pareciam corrompidos no [!UICONTROL Visual Experience Composer] e na guia **[!UICONTROL Conflitos]**. (TGT-55708)
+
+* **Mensagem de erro não localizada ao abrir um design excluído.** Correção de um problema em que o **[!UICONTROL recurso solicitado não foi encontrado]**. A mensagem de erro não foi localizada quando você tentou abrir um design que tinha sido excluído por outro usuário. (TGT-50902)
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.1 (4 de agosto de 2026)
 
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalhes
 
-* **Não é possível selecionar ou modificar ofertas do HTML na atividade.** Correção de um problema em que a adição de determinadas ofertas do HTML ou de Fragmento de experiência a uma atividade causava uma falha do [!UICONTROL Visual Experience Composer], impedindo que as ofertas fossem selecionadas ou modificadas. (TGT-55732)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.7.4 (23 de julho de 2026)
-
-**Relatório**
-
-+++Ver detalhes
-
-* **O gráfico de taxas de conversão não está disponível para o público móvel específico.** Correção de um problema em que o gráfico [!UICONTROL Taxa de conversão] não era renderizado para determinados públicos móveis. (TGT-55611)
-
-* **A meta de conversão &quot;Visualizou uma mbox&quot; não está funcionando quando selecionada na lista suspensa.** Correção de um problema em que selecionar uma mbox na lista suspensa em [!UICONTROL Metas e configurações] para uma meta de conversão &quot;Visualizou uma mbox&quot; salvava o nome da mbox incorretamente, impedindo que as conversões fossem gravadas. (TGT-55588)
-
-+++
-
-**Públicos-alvo**
-
-+++Ver detalhes
-
-* **Problema de layout na página Biblioteca de público-alvo.** Correção de um problema de layout que ocorria quando os filtros eram ativados na página [!UICONTROL Biblioteca de público-alvo] enquanto a navegação lateral era recolhida. (TGT-55502)
-
-+++
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++Ver detalhes
-
-* **A versão móvel não é carregada corretamente.** Correção de um problema em que o [!UICONTROL Visual Experience Composer] não oferecia uma maneira de atualizar, impedindo que a exibição móvel fosse carregada corretamente. (TGT-54408)
-
-* **Editar ou excluir ações de modificação que não funcionam.** Correção de um problema em que a edição ou exclusão de uma modificação da exibição [!UICONTROL Editar experiência] não funcionava. (TGT-55250)
-
-* **Modo de navegação sem resposta após o carregamento da atividade.** Correção de um problema em que o modo [!UICONTROL Procurar] não respondia em experiências que continham uma modificação, impedindo navegação e criação futuras. (TGT-55306)
-
-* **Não é possível selecionar elementos dentro do Salesforce LWC (DOM Sombra).** Correção de um problema em que o [!UICONTROL Visual Experience Composer] não podia selecionar elementos aninhados nos Componentes Web do Salesforce Lightning usando o DOM de sombra, resultando em um erro de &quot;seletor não encontrado&quot;. (TGT-54956)
-
-* **Ofertas duplicadas apareceram no [!UICONTROL Visual Experience Composer].** Correção de um problema em que as modificações e ofertas apareciam duplicadas intermitentemente na interface do usuário da criação de atividades. (TGT-55685)
-
-+++
-
-**Administração**
-
-+++Ver detalhes
-
-* **O assistente de geração de conteúdo foi renomeado para [!UICONTROL Gerar conteúdo].** O recurso de geração de conteúdo &quot;Assistente de IA&quot; foi renomeado para [!UICONTROL Gerar conteúdo] pelas superfícies de interface do usuário [!DNL Target]. (TGT-55689)
-
-+++
-
-**Recomendações**
-
-+++Ver detalhes
-
-* **Recomendações baseadas em popularidade usando atributos de perfil.** O [!DNL Target] agora oferece suporte ao agrupamento de recomendações de popularidade, Mais Visualizados e Mais Vendidos, dinamicamente por atributos de perfil do visitante, como país, idioma preferencial ou nível de associação. (TAPER-7614)
-
-* **Incompatibilidade de coleção de recomendação entre [!UICONTROL Coleções] e a configuração de atividade.** Correção de um problema em que uma coleção [!UICONTROL Recommendations] retornava entidades adicionais não qualificadas quando visualizadas a partir da configuração da atividade em comparação à exibição [!UICONTROL Recommendations] > [!UICONTROL Coleções]. (TGT-55554)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.7.2 (16 de julho de 2026)
-
-**Atividades**
-
-+++Ver detalhes
-
-* **Informações de meta incorretas na página [!UICONTROL Visão geral da atividade].** Correção de um problema em que a página [!UICONTROL Visão geral da atividade] para atividades [!DNL Automated Personalization] mostrava metas adicionais em vez da meta de otimização. (TGT-55553)
-
-* **Tela sem resposta ao navegar pelas páginas no modo [!UICONTROL Procurar].** Correção de um problema em que a tela ficava sem resposta ao navegar entre páginas no modo [!UICONTROL Procurar]. (TGT-55565)
-
-+++
-
-**Página inicial**
-
-+++Ver detalhes
-
-* **Alteração na interface do usuário de [!UICONTROL Principais executores] e [!UICONTROL Salvamentos].** Atualização da interface do usuário para os melhores desempenhos e salva a experiência. (TGT-54975)
-
-+++
-
-**Públicos-alvo**
-
-+++Ver detalhes
-
-* **Cadeias de caracteres não localizadas na caixa de diálogo [!UICONTROL Criar Script de Perfil].** Correção de um problema em que as cadeias de caracteres na caixa de diálogo [!UICONTROL Criar Script de Perfil] não eram localizadas. (TGT-51527)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.7.1 (9 de julho de 2026)
-
-**Atividades**
-
-+++Ver detalhes
-
-* **Exibição de origem inconsistente em [!UICONTROL Atividades], [!UICONTROL Públicos-alvo] e [!UICONTROL Ofertas] páginas.** Correção de um problema em que a origem era exibida de forma inconsistente nas [!UICONTROL Atividades], [!UICONTROL Públicos-alvo] e [!UICONTROL Ofertas] páginas. (TGT-55247)
-
-* **A origem da atividade é alterada durante a edição via interface.** Correção de um problema em que a edição de uma atividade por meio da interface alterava a fonte da atividade original. (TGT-55248)
-
-+++
-
-**Públicos-alvo**
-
-+++Ver detalhes
-
-* **Espaço de trabalho padrão incorreto ao editar um público-alvo.** Correção de um problema em que o espaço de trabalho padrão estava incorreto após você editar um público. (TGT-55510)
-
-+++
-
-**Relatório**
-
-+++Ver detalhes
-
-* **Falha no download do CSV para os relatórios de maio.** Correção de um problema em que o download de um relatório CSV para maio falhava. (TGT-55524)
+* **Ícones truncados no painel [!UICONTROL Públicos-alvo de experiência].** Correção de um problema em que os ícones **[!UICONTROL Adicionar]** e expandir/recolher eram ocultos ou truncados no painel **[!UICONTROL Públicos-alvo de experiência]** durante a criação da atividade. (TGT-55372)
 
 +++
 
