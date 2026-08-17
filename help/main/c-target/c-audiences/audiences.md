@@ -14,10 +14,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 826
-ht-degree: 28%
+source-wordcount: 844
+ht-degree: 27%
 
 ---
 
@@ -46,9 +46,11 @@ Para acessar a lista [!UICONTROL Públicos-alvo], clique em **[!UICONTROL Públi
 
 ![[!UICONTROL Lista de &#x200B;] públicos-alvo](assets/audiences_list.png)
 
-A lista [!UICONTROL Públicos-alvo] contém os públicos-alvo que você pode usar em suas atividades. Use a lista [!UICONTROL Públicos] para criar, editar, duplicar, copiar ou combinar públicos. A lista também mostra a fonte onde o público-alvo foi criado:
+A lista [!UICONTROL Públicos-alvo] contém os públicos-alvo que você pode usar em suas atividades. Use a lista [!UICONTROL Públicos] para criar, editar, duplicar, copiar ou combinar públicos. Qualquer público pode ser editado, incluindo públicos criados por meio da API [!DNL Adobe Target] ou do [[!DNL Adobe Target] servidor MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md). A lista também mostra a fonte onde o público-alvo foi criado:
 
 * [!DNL Adobe Target]
+* API [!DNL Adobe Target]
+* [!DNL Adobe Target] servidor MCP
 * [!DNL Adobe Target Classic]
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
