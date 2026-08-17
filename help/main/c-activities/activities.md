@@ -5,21 +5,12 @@ title: Como posso personalizar o conteúdo e testar designs de página com o  [!
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 TQID: https://experienceleague.adobe.com/q3-Z8r2eEWTISBkZBBJTJ8XarLi-lTa2qsqj961hhEQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 2633
+source-wordcount: 2648
 ht-degree: 25%
 
 ---
@@ -47,7 +38,7 @@ A tabela a seguir ajuda você a entender vários elementos da lista [!UICONTROL 
 | Ícone [!UICONTROL Mostrar filtros]<P>![Ícone Mostrar Filtros](/help/main/assets/icons/Filter.svg) | Acesse filtros clicando no ícone **[!UICONTROL Mostrar Filtros]** próximo à parte superior da lista para filtrar atividades por [!UICONTROL Tipo], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Tipo de Métricas], [!UICONTROL Source de Decisão], [!UICONTROL Activity Source] e [!UICONTROL Propriedades].<P>Os filtros configurados são persistentes na sessão atual.<P>Para obter mais informações, consulte [Aplicar filtros à lista [!UICONTROL Atividades]](#filters) abaixo. |
 | Pesquisar campos | Localize rapidamente uma atividade ou reduza o número de atividades exibidas na lista [!UICONTROL Atividade]. Você pode pesquisar pelo [!UICONTROL Nome da atividade], [!UICONTROL URL] ou [!UICONTROL ID] usando o menu suspenso.<P>As opções de pesquisa configuradas são persistentes na sessão atual. |
 | [!UICONTROL Criar atividade] | Crie uma atividade.<P>Para obter mais informações sobre como criar os vários tipos de atividades, consulte: <ul><li>[Criar uma atividade [!UICONTROL Teste A/B]](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[Criar uma [!UICONTROL Alocação automática] atividade](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[Criar uma atividade [!UICONTROL de Direcionamento automático]](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[Criar uma atividade [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[Criar uma atividade [!UICONTROL de Direcionamento de experiência]](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[Criar uma atividade](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[Criar uma [!UICONTROL atividade do Recommendations]](/help/main/c-recommendations/recommendations.md)</li></ul>Para obter mais informações sobre cada tipo, consulte [Tipos de atividade](#types) abaixo. |
-| [!UICONTROL Criar link de visualização móvel]<P>![Mais menu de ações](/help/main/assets/icons/MoreVertical.svg) | Use os [links de visualização móvel](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/mobile-apps/target-mobile-preview) para realizar facilmente tarefas completas de controle da qualidade em atividades de aplicativos para dispositivos móveis.<P>Clique no ícone **Mais opções**, selecione o **Criar link de visualização móvel** e escolha as atividades que deseja testar em dispositivos móveis. |
+| [!UICONTROL Criar link de visualização móvel]<P>![Mais menu de ações](/help/main/assets/icons/MoreVertical.svg) | Use os [links de visualização móvel](https://experienceleague.adobe.com/en/docs/target-dev/developer/mobile-apps/target-mobile-preview) para realizar facilmente tarefas completas de controle da qualidade em atividades de aplicativos para dispositivos móveis.<P>Clique no ícone **Mais opções**, selecione o **Criar link de visualização móvel** e escolha as atividades que deseja testar em dispositivos móveis. |
 | Personalizar tabela<P>![Ícone Personalizar tabela](/help/main/assets/icons/ColumnSetting.svg) | Altere quais colunas são exibidas na lista [!UICONTROL Atividade] clicando no ícone **[!UICONTROL Personalizar Tabela]** no lado superior direito da página e selecionando ou desmarcando as colunas desejadas.<P>As alterações são aplicadas à sua conta e permanecem ativas mesmo depois que você sair do [!DNL Target]. |
 | Caixas de seleção de operações em massa<P>![Ícone de Operações em Massa](/help/main/assets/icons/Rectangle.svg) | Executar operações em massa em todas as atividades ou em atividades selecionadas.<P>Para obter uma lista de ações disponíveis (dependendo das suas permissões e do status da atividade), consulte [Executar ações rápidas](#quick-actions) abaixo. |
 | [!UICONTROL Tipo] | O tipo de atividade. A coluna [!UICONTROL Tipo] permite identificar rapidamente cada atividade por tipo. <ul><li>**AB-M**: manual [!UICONTROL Teste A/B]</li><li>**AB-AA**: [!UICONTROL Alocação automática]</li><li>**AB-AT**: [!UICONTROL Direcionamento automático]</li><li>**AP**: [!UICONTROL Automated Personalization]</li><li>**XT**: [!UICONTROL Direcionamento de experiência]</li><li>**MVT**: [!UICONTROL Teste multivariado]</li><li>**REC**: [!UICONTROL Recomendações]</li></ul>Para obter mais informações sobre cada tipo, consulte [Tipos de atividade](#types) abaixo. |
@@ -57,7 +48,7 @@ A tabela a seguir ajuda você a entender vários elementos da lista [!UICONTROL 
 | [!UICONTROL Prioridade] | A prioridade da atividade.<P>A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.<P>Dependendo das [configurações](/help/main/administrating-target/reporting.md), a interface do usuário do [!DNL Target] e as opções de [!UICONTROL Prioridade] variam. Você pode usar as configurações herdadas de [!UICONTROL Baixo], [!UICONTROL Medium] ou [!UICONTROL Alto], ou pode habilitar prioridades otimizadas de 0 a 999.<P>Para obter mais informações sobre configurações de prioridade, consulte [Prioridade](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) em *Configurações da atividade* em *Metas e configurações*. |
 | [!UICONTROL Propriedade] | Mostra a [propriedade](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) da atividade.<P>As permissões de usuários corporativos são um recurso do [Target Premium](/help/main/c-intro/intro.md#premium). |
 | [!UICONTROL Aumento Estimado na Receita] | Mostra o aumento previsto na receita se 100% do público-alvo visualizar a experiência vencedora.<P>Calculado com o uso da seguinte fórmula:<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>Esse número é arredondado para uma casa decimal, no máximo, se a forma condensada tiver apenas um único dígito antes do decimal. Por exemplo: US$ 1,6 milhões, US$ 60 mil, US$ 900, US$ 8,5 mil, US$ 205 mil<P>Essa coluna mostra &quot;---&quot; para atividades que não têm dados suficientes para chamar um uma exibição vencedora ou não têm uma estimativa de custo.<P>Consulte [Aumento estimado na receita](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) para obter mais informações. |
-| [!UICONTROL Source] | Mostra onde a atividade foi criada: [!DNL Adobe Target], [API do Adobe Target](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/overview), [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR), [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=pt-BR) ou [Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/). |
+| [!UICONTROL Source] | Mostra onde a atividade foi criada: [!DNL Adobe Target], [API Adobe Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview), o [[!DNL Adobe Target] servidor MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md), [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR), [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=pt-BR) ou [Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/). |
 | [!UICONTROL Autor] | O nome da pessoa que criou a atividade. |
 | [!UICONTROL Método de decisão] | O método de decisão usado em cada atividade: [Server-Side](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=pt-BR) ou [Client-Side](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html). |
 
@@ -91,7 +82,7 @@ O menu permite filtrar atividades pelos seguintes atributos:
 | [!UICONTROL Experience Composer] | Filtro pelo qual o Experience Composer foi usado durante a criação da atividade:<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): exibe as atividades que foram criadas usando o [!UICONTROL Visual Experience Composer] (VEC).</li><li>[Baseado em formulário](/help/main/c-experiences/form-experience-composer.md): exibir atividades que foram criadas usando o [!UICONTROL Experience Composer baseado em formulário].</li></ul> |
 | [!UICONTROL Tipo de Métricas] | Filtro pelo qual [métrica de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md) foi escolhida durante a criação da atividade.<ul><li>[!UICONTROL Conversão]</li><li>[!UICONTROL Receita]</li><li>[!UICONTROL Participação]</li><li>[!UICONTROL Usar uma métrica do Analytics]</lI></ul> |
 | [!UICONTROL Método de decisão] | Filtre pelo método de decisão usado em cada atividade.<ul><li>[Lado do servidor](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=pt-BR): exibir atividades que usam a decisão do lado do servidor.</li><li>[Lado do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html): exibir atividades que usam decisões do lado do cliente.</li></ul> |
-| [!UICONTROL Source da atividade] | Filtre pela fonte de atividade usada para criar cada atividade.<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=pt-BR)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=pt-BR)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
+| [!UICONTROL Source da atividade] | Filtre pela fonte de atividade usada para criar cada atividade.<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=pt-BR)</li><li>[[!DNL Adobe Target] Servidor MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=pt-BR)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
 | [!UICONTROL Propriedade] | Filtrar pela [propriedade](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) na qual a atividade foi criada. |
 
 
@@ -111,7 +102,7 @@ As seguintes ações estão disponíveis (dependendo das suas permissões e do s
 
 | Ação | Descrição |
 | --- | --- |
-| [!UICONTROL Editar] | Alterar a atividade. Qualquer atividade pode ser editada.<P>Para obter mais informações sobre as várias maneiras de editar atividades, consulte [Editar uma atividade ou salvar como rascunho](/help/main/c-activities/edit-activity.md). |
+| [!UICONTROL Editar] | Alterar a atividade. Qualquer atividade pode ser editada, incluindo atividades criadas por meio da API [!DNL Adobe Target] ou do servidor MCP [!DNL Adobe Target].<P>Para obter mais informações sobre as várias maneiras de editar atividades, consulte [Editar uma atividade ou salvar como rascunho](/help/main/c-activities/edit-activity.md). |
 | [!UICONTROL Desativar] | Interrompe uma atividade ao vido ou programada. Uma atividade desativada pode ser reativada ou arquivada.<P>Se você desativar ou arquivar uma atividade e depois mais tarde reativá-la, um visitante continuará sendo parte daquela atividade após a reativação se estiver nela antes que seja desativada ou arquivada. Qualquer métrica de conversão registrada durante o tempo entre os dois eventos não será atribuída àquela atividade. |
 | [!UICONTROL Ativar] | Inicie uma atividade inativa ou uma atividade que esteja pronta para ser ativada. |
 | [!UICONTROL Arquivar] | Envie a atividade para o arquivo. Por padrão, as atividades arquivadas não aparecem mais na lista [!UICONTROL Atividades]. Altere o filtro da lista [!UICONTROL Atividades] para incluir atividades arquivadas para vê-las. Você pode ativar uma atividade arquivada para usá-la novamente.<P>Se você desativar ou arquivar uma atividade e depois mais tarde reativá-la, um visitante continuará sendo parte daquela atividade após a reativação se estiver nessa atividade antes que ela seja desativada ou arquivada. Qualquer métrica de conversão registrada durante o tempo entre os dois eventos não será atribuída àquela atividade. |
@@ -127,11 +118,11 @@ Observe os seguintes detalhes sobre a lista [!UICONTROL Atividade]:
 * Todos os tipos de atividades diferentes de [!UICONTROL Automated Personalization] (AP), [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] oferecem a opção de usar [!DNL Target] ou [!DNL Adobe Analytics] como fonte de dados. [!UICONTROL Automated Personalization], [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] *sempre* usam dados [!DNL Target].
 * As atividades estão disponíveis para vários canais:
 
-   * Sites da Web e de dispositivos móveis
-   * Telas e dispositivos conectados à Internet, incluindo quiosques e caixas eletrônicos
-   * Email e outros canais de aquisição ou sites parceiros
-   * Aplicativos móveis
-   * Em qualquer outro lugar você pode entregar conteúdo marcado
+  * Sites da Web e de dispositivos móveis
+  * Telas e dispositivos conectados à Internet, incluindo quiosques e caixas eletrônicos
+  * Email e outros canais de aquisição ou sites parceiros
+  * Aplicativos móveis
+  * Em qualquer outro lugar você pode entregar conteúdo marcado
 
 ## Limitações {#section_049D4684403A4E07B998067EB8E9BE56}
 
