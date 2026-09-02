@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 3573ace9c7f19f1c04dbe92b50c37109a7a502e6
+source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
 workflow-type: tm+mt
-source-wordcount: 72205
+source-wordcount: 72534
 ht-degree: 48%
 
 ---
@@ -57,6 +57,66 @@ As notas de versão estão listadas em ordem decrescente por mês e ano da vers�
 >Consulte [Notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obter informações sobre as versões do Target para o mês vigente (plataforma e Target Standard/Premium).
 
 ## Notas de versão - 2026
+
+## [!DNL Target Standard/Premium] 26.8.5 (18 de agosto de 2026)
+
+**Recomendações**
+
++++Ver detalhes
+
+* **Filtro de valor nulo para exclusões e coleções.** Agora você pode usar os operadores **O valor está presente** e **O valor não está presente** ao definir regras de exclusão e filtros de coleção em [!DNL Recommendations]. (TGT-55790)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalhes
+
+* **Os elementos das métricas de clique não são exibidos no editor do VEC após salvar a atividade.** Correção de um problema em que as métricas de clique configuradas anteriormente não eram exibidas quando você editava as metas e as métricas de uma atividade no [!UICONTROL Visual Experience Composer], mesmo que as métricas continuassem a ser rastreadas corretamente nos relatórios de atividade. (TGT-55826)
+
+* **Mensagem intermitente &quot;Nenhuma modificação&quot; no VEC.** Correção de um problema em que o painel **[!UICONTROL Modificações]** exibia intermitentemente &quot;Nenhuma modificação&quot; para modificações existentes em atividades ativas de Direcionamento de experiência. (TGT-55842)
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.3 (13 de agosto de 2026)
+
+**Atividades e públicos-alvo**
+
++++Ver detalhes
+
+* **Edição habilitada para atividades e públicos-alvo criados por API/MCP.** Atividades e públicos criados por meio da API de Administração [!DNL Adobe Target] e do MCP [!DNL Target] agora podem ser editados na interface do usuário [!DNL Target].
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.2 (11 de agosto de 2026)
+
+**Públicos-alvo**
+
++++Ver detalhes
+
+* **Não é possível copiar e salvar uma modificação de código personalizado em uma atividade usando um público somente atividade.** Correção de um problema em que a cópia de uma atividade que usava um público somente atividade não era salva com um erro &quot;IDs de público inválidas&quot; após a adição de uma modificação de código personalizado. (TGT-55785)
+
++++
+
+**Localização**
+
++++Ver detalhes
+
+* **Caracteres multibyte corrompidos na URL da atividade.** Correção de um problema em que caracteres multibyte na URL da atividade pareciam corrompidos no [!UICONTROL Visual Experience Composer] e na guia **[!UICONTROL Conflitos]**. (TGT-55708)
+
+* **Mensagem de erro não localizada ao abrir um design excluído.** Correção de um problema em que o **[!UICONTROL recurso solicitado não foi encontrado]**. A mensagem de erro não foi localizada quando você tentou abrir um design que tinha sido excluído por outro usuário. (TGT-50902)
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.1 (4 de agosto de 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalhes
+
+* **Ícones truncados no painel [!UICONTROL Públicos-alvo de experiência].** Correção de um problema em que os ícones **[!UICONTROL Adicionar]** e expandir/recolher eram ocultos ou truncados no painel **[!UICONTROL Públicos-alvo de experiência]** durante a criação da atividade. (TGT-55372)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.5 (30 de julho de 2026)
 
@@ -4499,7 +4559,7 @@ Esta versão inclui os seguintes recursos e aprimoramentos (os números de ediç
   </tr> 
   <tr> 
    <td colname="col1"> <p>Entrega em lote e de obtenção prévia em dispositivos móveis </p> </td> 
-   <td colname="col2"> <p><b>Atualizado: 12 de outubro de 2017</b> </p> <p> O conteúdo de várias mboxes pode ser obtido previamente em uma única chamada e armazenado em cache localmente no dispositivo, sem se preocupar com como, quando e se o usuário final verá o conteúdo. </p> <p>Este recurso exige que você baixe e instale a versão 4.14 (ou posterior) apropriada do SDK do Adobe Mobile. </p> <p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html?lang=pt-BR" format="dita" scope="local">Buscar previamente conteúdo da oferta.</a> </p> </td> 
+   <td colname="col2"> <p><b>Atualizado: 12 de outubro de 2017</b> </p> <p> O conteúdo de várias mboxes pode ser obtido previamente em uma única chamada e armazenado em cache localmente no dispositivo, sem se preocupar com como, quando e se o usuário final verá o conteúdo. </p> <p>Este recurso exige que você baixe e instale a versão 4.14 (ou posterior) apropriada do SDK do Adobe Mobile. </p> <p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local">Buscar previamente conteúdo da oferta.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Atividades </p> </td> 

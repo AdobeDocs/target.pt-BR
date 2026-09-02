@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
+source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
 workflow-type: tm+mt
-source-wordcount: 564
-ht-degree: 47%
+source-wordcount: 411
+ht-degree: 65%
 
 ---
 
@@ -31,43 +31,13 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 26.8.3 (13 de agosto de 2026)
+## [!DNL Target Standard/Premium] 26.9.1 (1º de setembro de 2026)
 
-**Atividades e públicos-alvo**
-
-+++Ver detalhes
-
-* **Edição habilitada para atividades e públicos-alvo criados por API/MCP.** Atividades e públicos criados por meio da API de Administração [!DNL Adobe Target] e do MCP [!DNL Target] agora podem ser editados na interface do usuário [!DNL Target].
-
-+++
-
-## [!DNL Target Standard/Premium] 26.8.2 (11 de agosto de 2026)
-
-**Públicos-alvo**
+**[!UICONTROL Público-alvo]**
 
 +++Ver detalhes
 
-* **Não é possível copiar e salvar uma modificação de código personalizado em uma atividade usando um público somente atividade.** Correção de um problema em que a cópia de uma atividade que usava um público somente atividade não era salva com um erro &quot;IDs de público inválidas&quot; após a adição de uma modificação de código personalizado. (TGT-55785)
-
-+++
-
-**Localização**
-
-+++Ver detalhes
-
-* **Caracteres multibyte corrompidos na URL da atividade.** Correção de um problema em que caracteres multibyte na URL da atividade pareciam corrompidos no [!UICONTROL Visual Experience Composer] e na guia **[!UICONTROL Conflitos]**. (TGT-55708)
-
-* **Mensagem de erro não localizada ao abrir um design excluído.** Correção de um problema em que o **[!UICONTROL recurso solicitado não foi encontrado]**. A mensagem de erro não foi localizada quando você tentou abrir um design que tinha sido excluído por outro usuário. (TGT-50902)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.8.1 (4 de agosto de 2026)
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++Ver detalhes
-
-* **Ícones truncados no painel [!UICONTROL Públicos-alvo de experiência].** Correção de um problema em que os ícones **[!UICONTROL Adicionar]** e expandir/recolher eram ocultos ou truncados no painel **[!UICONTROL Públicos-alvo de experiência]** durante a criação da atividade. (TGT-55372)
+* **Falha ao salvar** a cópia de uma atividade com um público somente atividade. Quando uma atividade A/B usa uma regra de público-alvo somente atividade (com escopo local) e uma modificação de Código personalizado, copiá-la e salvar a cópia falha com um erro &quot;IDs de público-alvo inválidas&quot;. (TGT-55785)
 
 +++
 
