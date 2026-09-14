@@ -311,7 +311,7 @@ O algoritmo [!UICONTROL Itens Visualizados Recentemente] retorna um resultado es
 
 [!UICONTROL Itens visualizados recentemente] ou [!UICONTROL Mídia visualizada recentemente] podem ser filtrados para que somente itens com um determinado atributo sejam exibidos.
 
-* [!UICONTROL Os critérios de ] visualizados recentemente podem ser configurados, assim como os outros critérios em recomendações.
+* [!UICONTROL Os critérios de &#x200B;] visualizados recentemente podem ser configurados, assim como os outros critérios em recomendações.
 * Você pode usar [coleções](/help/main/c-recommendations/c-products/collections.md), [exclusões](/help/main/c-recommendations/c-products/exclusions.md) e [inclusões](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluindo as regras especiais para Preço e Inventário) da mesma forma que qualquer outro critério.
 
 Os possíveis casos de uso incluem: uma empresa multinacional com várias empresas pode ter um visitante para visualizar itens em várias propriedades digitais. Nesse caso, é possível limitar os itens exibidos recentemente somente àqueles da respectiva propriedade em que foram visualizados. Isso impede que itens visualizados recentemente sejam exibidos no site de outra propriedade digital.
