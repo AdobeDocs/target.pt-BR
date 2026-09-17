@@ -1,6 +1,6 @@
 ---
 keywords: Target Standard; Recomendações; Target Premium; Automated Personalization; direcionamento automático; direcionamento automático; permissões; o que é o adobe target;
-description: Conheça as noções básicas do Adobe [!DNL Target] Standard e do Adobe [!DNL Target] Premium. [!DNL Target] O Premium inclui recursos avançados não disponíveis no produto padrão.
+description: Aprenda os conceitos básicos do Adobe [!DNL Target] Standard e do Adobe [!DNL Target] Premium. [!DNL Target] A versão Premium inclui recursos avançados não disponíveis no produto padrão.
 landing-page-description: Personalize a experiência de seus clientes para maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 short-description: Personalize a experiência de seus clientes para maximizar a receita em sites da Web e móveis, aplicativos, mídia social e outros canais digitais.
 title: O que é o Target?
@@ -9,22 +9,28 @@ exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 TQID: https://experienceleague.adobe.com/Mr8fwY1FNfJShSezC50YX1QeBagmuovUySsQUO8jPqo
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer profiles
+source-git-commit: 9a55efe5570867a822e4f6c0494a505e456bd536
 workflow-type: tm+mt
-source-wordcount: 995
-ht-degree: 50%
-
+source-wordcount: '1644'
+ht-degree: 33%
 ---
-
 # Introdução ao [!DNL Target]
 
 O [!DNL Adobe Target], parte do [!DNL Adobe Experience Cloud], oferece ferramentas abrangentes para personalizar a experiência do cliente na Web, em sites móveis, em aplicativos, em redes sociais e em outros canais digitais.
@@ -123,3 +129,93 @@ O vídeo a seguir explica os tipos de atividade disponíveis no [!DNL Target Sta
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
 >[!VIDEO](https://video.tv.adobe.com/v/31290?captions=por_br)
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_ab_daily_traffic"
+>title="Tráfego diário"
+>abstract="Quantos usuários entram em seu experimento a cada dia. Se você não conhece seu tráfego diário, escolha \&quot;Volume de tráfego\&quot; acima e a calculadora resolverá para ele usando suas outras entradas."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_setup"
+>title="Configurar o teste"
+>abstract="Esses campos definem o teste A/B, o que você espera ver e o grau de confiança que precisa ter no resultado. O campo ligado ao que você selecionou acima será resolvido automaticamente. Preencha o restante com os valores esperados."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_number_experiences"
+>title="Número de experiências"
+>abstract="Número de variantes no experimento, incluindo o controle. Um teste A/B tem dois braços. Cinco variantes mais um controle é igual a 6. Mais armas requerem proporcionalmente mais tráfego para manter a potência estatística."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_duration"
+>title="Duração do teste A/B"
+>abstract="Quantos dias seu experimento durará. Durações mais longas dão ao seu experimento mais tempo para coletar dados, permitindo detectar efeitos menores de maneira confiável. Durações mais curtas precisam de efeitos maiores ou mais tráfego diário para alcançar um resultado confiável."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_minimum_detectable_effect"
+>title="Efeito mínimo detectável"
+>abstract="A menor melhoria que vale a pena detectar, a alteração mínima em sua métrica com a qual você atuaria. Este é o tamanho do aumento em pontos percentuais, não a mudança percentual em relação à sua linha de base. Por exemplo, se a linha de base for 5% e um aumento de 1 ponto percentual for importante, digite 1."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_expected_improvement"
+>title="Melhorias esperadas"
+>abstract="A melhora que você espera que o experimento produza."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_variance"
+>title="Variância"
+>abstract="Como são distribuídos os valores da sua métrica, não sua média. Uma métrica como uma taxa de cliques (principalmente 0s e 1s) tem baixa variação, uma métrica como receita por usuário (alguns gastadores altos, muitos baixos) pode ter variância muito maior. Se não tiver certeza, deixe o valor padrão de 1."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_confidence_level"
+>title="Nível de confiança"
+>abstract="Quão confiante você precisa ser de que um resultado não é apenas uma chance aleatória antes de chamá-lo de real, é o limite para significância estatística. Um nível de confiança de 95% significa que há no máximo 5% de chance de um falso positivo. Valores mais altos reduzem falsos positivos, mas exigem mais dados."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_statistical_power"
+>title="Potência estatística"
+>abstract="A probabilidade de detectar um efeito se realmente existir, a sensibilidade do experimento. 80% de energia significa que há 80% de chance de detectar um efeito real. Uma potência mais alta reduz os falsos negativos, mas requer mais tráfego ou um tempo de execução mais longo."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_traffic_mode"
+>title="Modo de tráfego"
+>abstract="Como os usuários entram em seu experimento. Contínuo: os usuários entram diariamente durante o experimento. O tráfego é alternado automaticamente para variantes de melhor desempenho à medida que os resultados são recebidos."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_metric_type"
+>title="Tipo de métrica"
+>abstract="Que tipo de métrica você está medindo. Porcentagem: use essa opção para resultados binários, como cliques ou conversões, em que cada usuário faz ou não algo. Número: use essa opção para métricas como receita ou exibições de página, em que o valor pode variar bastante de usuário para usuário."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_auto_daily_traffic"
+>title="Tráfego diário"
+>abstract="Quantos usuários entram em seu experimento a cada dia. Usado para experimentos contínuos que são executados por vários dias, com o tráfego mudando automaticamente para variantes de melhor desempenho à medida que os resultados são gerados."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_baseline_metric_rate"
+>title="Taxa de métrica da linha de base"
+>abstract="Seu desempenho atual antes do início do experimento, a média do braço de controle. Sempre obrigatório. Para métricas de porcentagem, digite como uma porcentagem: se 5% dos visitantes clicarem em Comprar hoje, digite 5. Para métricas de contagem, insira o valor decimal bruto."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_primary_metric"
+>title="Métrica principal"
+>abstract="A métrica primária é extraída automaticamente das configurações de relatórios. Para fazer alterações, modifique a métrica de meta em Metas e configurações."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_hypothesis"
+>title="Hipótese"
+>abstract="A hipótese é uma declaração que você define que explica o resultado esperado do experimento. Inclua uma descrição sobre o que está sendo alterado e onde, em seguida, indique qual métrica você espera alterar e como."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_insights"
+>title="Insights"
+>abstract="Os insights do experimento são os aprendizados encontrados pela IA quando os dados do experimento atingiram a significância estatística."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_opportunities"
+>title="Oportunidades"
+>abstract="As oportunidades de experimento são ideias de tratamento sugeridas por IA com base em padrões que a IA encontra em suas capturas de tela e resultados de experimento."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_treatment_details"
+>title="Detalhes do tratamento"
+>abstract="Os detalhes do tratamento mostram imagens da aparência de um tratamento quando um usuário se qualifica para ele. Você pode revisar essas imagens para todos os experimentos. Alguns experimentos podem solicitar que você confirme a imagem ou substitua-a, se necessário."
