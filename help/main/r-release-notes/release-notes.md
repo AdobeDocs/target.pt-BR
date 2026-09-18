@@ -25,16 +25,26 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 965473d15c55d4a728ace2f67a5dd0b16a4ef55b
+source-git-commit: 6774b85f9515dd093d4e54492be54f7be3e92073
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 47%
+source-wordcount: '635'
+ht-degree: 42%
 ---
 # Notas de versão do [!DNL Target] (atuais)
 
 Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe Target]. Essas notas de versão também abrangem atualizações para APIs do [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outros componentes da plataforma, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 26.9.4 (17 de setembro de 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalhes
+
+* O controle **[!UICONTROL Inserir Antes de] está inacessível para [!DNL Experience Fragments] no elemento de página mais alto**. No Visual Experience Composer, selecionar o elemento mais alto em uma página rolou a página para cima, fazendo com que o controle **[!UICONTROL Inserir antes]** renderize acima do visor visível, onde não pôde ser selecionado. (TGT-55829)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.3 (16 de setembro de 2026)
 
