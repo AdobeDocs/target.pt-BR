@@ -25,16 +25,26 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6774b85f9515dd093d4e54492be54f7be3e92073
+source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 42%
+source-wordcount: '744'
+ht-degree: 36%
 ---
 # Notas de versão do [!DNL Target] (atuais)
 
 Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe Target]. Essas notas de versão também abrangem atualizações para APIs do [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outros componentes da plataforma, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 26.9.5 (21 de setembro de 2026)
+
+**[!UICONTROL Análises para Destino]**
+
++++Ver detalhes
+
+* **Link de relatório do A4T não gerado na [!DNL Target] interface**. Para atividades de [!DNL A4T], o link do relatório não foi gerado na seção **[!UICONTROL Relatórios]**, mesmo que os dados subjacentes do relatório estivessem visíveis na interface do usuário do [!DNL Target] e na interface do usuário do [!DNL Adobe Analytics]. (TGT-56247)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.4 (17 de setembro de 2026)
 
@@ -90,6 +100,18 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 +++Ver detalhes
 
 * **Falha ao salvar** a cópia de uma atividade com um público somente atividade. Quando uma atividade A/B usa uma regra de público-alvo somente atividade (com escopo local) e uma modificação de Código personalizado, copiá-la e salvar a cópia falha com um erro &quot;IDs de público-alvo inválidas&quot;. (TGT-55785)
+
++++
+
+Servidor MCP **[!DNL Adobe Target]— Ferramentas do Recommendations (Beta público)**
+
++++Ver detalhes
+
+O servidor MCP do [!DNL Adobe Target] agora expõe as ferramentas do Recommendations, permitindo listar, inspecionar, criar e atualizar critérios, coleções, designs, promoções e exclusões e pesquisar o catálogo de produtos diretamente no assistente de IA.
+
+Este recurso requer um locatário habilitado para o Recommendations com o **Target Premium**; ele não está disponível em contas que não sejam Premium.
+
+Para obter mais informações, consulte [Referência de ferramentas do servidor MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
 
 +++
 

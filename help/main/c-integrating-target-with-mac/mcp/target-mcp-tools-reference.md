@@ -8,13 +8,11 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
+source-git-commit: 4b154f401cc9d31d99c169bf08781bcaa7ef5c8f
 workflow-type: tm+mt
-source-wordcount: '3046'
+source-wordcount: '3804'
 ht-degree: 14%
-
 ---
-
 # Referência de ferramentas do servidor MCP [!DNL Adobe Target] {#target-mcp-tools-reference}
 
 >[!AVAILABILITY]
@@ -755,6 +753,143 @@ Nenhum parâmetro é necessário.
 
 +++
 
+## Ferramentas do Recommendations {#tools-recommendations}
+
+>[!NOTE]
+>
+>* As ferramentas do Recommendations exigem um locatário habilitado para o Recommendations com o **Target Premium**. Em contas não Premium, essas ferramentas não são mostradas na lista de ferramentas do cliente e a API subjacente retorna um erro 403.
+>* Essas ferramentas oferecem suporte às operações de listar, obter, criar e atualizar critérios, coleções, designs, promoções e exclusões. As operações de exclusão não são expostas por meio do servidor MCP.
+
++++Critérios
+
+**Ferramentas:** `list_target_criteria`, `get_target_criteria`, `list_target_criteria_by_type`, `get_target_criteria_by_type`, `create_target_criteria`, `update_target_criteria`
+
+Critérios são regras que determinam quais itens recomendar, com base em um conjunto predeterminado de comportamentos do visitante. Os critérios estão agrupados em 9 famílias do tipo: `category`, `custom`, `item`, `cart`, `popularity`, `profileattribute`, `recent`, `sequence`, `userhistory`.
+
+| Parâmetro | Tipo | Obrigatório | Descrição |
+|---|---|---|---|
+| `criteria_id` | número inteiro | Para obter/atualizar | O identificador exclusivo dos critérios |
+| `criteria_type` | string | Para operações digitadas | Uma das 9 famílias de critérios |
+| `limit` / `offset` | número inteiro | Não | Paginação |
+| `name` | string | Sim (criar) | Nome exclusivo dos critérios |
+| `criteriaTitle` | string | Não | Exibir título usado no design via `$criteria.title` |
+| `description` | string | Não | Descrição dos critérios |
+| `key` | string | Sim (criar/atualizar, a maioria dos tipos) | Chave de recomendação (por exemplo, `CURRENT`, `LAST_VIEWED`, `LAST_PURCHASED`, `MOST_VIEWED`, `PROFILE_ATTRIBUTE`) |
+| `type` | string | Sim (criar/atualizar, a maioria dos tipos) | Lógica de recomendação (por exemplo, `VIEWED_BOUGHT`, `BOUGHT_CF`, `VIEWED_CF`, `SITE_AFFINITY`, `SIMILARITY`) |
+| `configuration` | objeto | Sim (criar/atualizar) | Regras de inclusão, ponderação de atributo, filtro de preço e outras configurações específicas da família |
+| `daysCount` | string | Varia | Intervalo de tempo histórico considerado (ex.: `ONE_DAY` até `TWO_MONTHS`) |
+
+`list_target_criteria` e `get_target_criteria` retornam metadados mínimos de critérios entre famílias (`id`, `name`, `criteriaTitle`, `criteriaGroup`). Use `list_target_criteria_by_type` / `get_target_criteria_by_type` (ou `create_target_criteria` / `update_target_criteria`) com um `criteria_type` para trabalhar com a configuração completa específica de tipo. Os requisitos de campo são diferentes por família — consulte a [!DNL Adobe] [Referência da API de Recomendações](https://developer.adobe.com/target/administer/recommendations-api/){target="_blank"} para obter o esquema por tipo completo.
+
+**Retorna:** o objeto de critérios ou uma lista paginada com `offset`, `limit`, `total` e `list`.
+
+**Prompt de exemplo:** &quot;Lista todos os critérios do Recommendations configurados nesta conta e resume os tipos de algoritmo em uso.&quot;
+
++++
+
++++Coleções
+
+**Ferramentas:** `list_target_collections`, `get_target_collection`, `create_target_collection`, `update_target_collection`
+
+As coleções agrupam entidades de catálogo por regras de correspondência, para uso em critérios e promoções.
+
+| Parâmetro | Tipo | Obrigatório | Descrição |
+|---|---|---|---|
+| `collection_id` | número inteiro | Para obter/atualizar | O identificador exclusivo da coleção |
+| `limit` / `offset` | número inteiro | Não | Paginação |
+| `name` | string | Sim | Nome exclusivo da coleção (máximo de 250 caracteres) |
+| `description` | string | Não | Descrição da coleção (máximo de 1000 caracteres) |
+| `rules` | matriz | Sim | 1-1000 regras (`attribute` + operador/operando) que determinam a associação ao catálogo |
+
+**Retorna:** o objeto da coleção, incluindo `id`, `name`, `description`, `rules` e os metadados modificados por último.
+
+**Exemplo de prompt:** &quot;Quais coleções eu tenho e quais atributos de catálogo eles filtram?&quot;
+
++++
+
++++Designs
+
+**Ferramentas:** `list_target_designs`, `get_target_design`, `create_target_design`, `update_target_design`
+
+Designs são modelos do Velocity ou HTML que controlam como as entidades recomendadas são renderizadas.
+
+| Parâmetro | Tipo | Obrigatório | Descrição |
+|---|---|---|---|
+| `design_id` | número inteiro | Para obter/atualizar | O identificador exclusivo do design |
+| `limit` / `offset` | número inteiro | Não | Paginação |
+| `includeScript` | booleano | Não | Se o conteúdo do modelo do design deve ser incluído |
+| `name` | string | Sim | Nome exclusivo do design (máximo de 250 caracteres) |
+| `script` | string | Sim | Modelo do Velocity fazendo referência a pelo menos um objeto de entidade (máximo de 65.000 caracteres) |
+| `type` | string | Não | Tipo de conteúdo do script: `HTML`, `JSON` ou `OTHER` (padrão) |
+
+**Retorna:** o objeto de design, incluindo `id`, `name`, `script` e `type`.
+
+**Prompt de exemplo:** &quot;Quais designs e coleções eu configurei para o Recommendations?&quot;
+
++++
+
++++Promoções
+
+**Ferramentas:** `list_target_promotions`, `get_target_promotion`, `create_target_promotion`, `update_target_promotion`
+
+As promoções forçam entidades específicas a incluir os resultados da recomendação, tendo precedência sobre os critérios e as recomendações de backup.
+
+| Parâmetro | Tipo | Obrigatório | Descrição |
+|---|---|---|---|
+| `promotion_id` | número inteiro | Para obter/atualizar | O identificador exclusivo da promoção |
+| `limit` / `offset` | número inteiro | Não | Paginação |
+| `name` | string | Sim | Nome exclusivo da promoção (máximo de 250 caracteres) |
+| `type` | string | Sim | Apenas `EXTERNAL` é suportado no momento |
+| `key` | string | Não | Chave da promoção: `CURRENT`, `LAST_VIEWED`, `LAST_PURCHASED`, `MOST_VIEWED` ou `PROFILE_ATTRIBUTE` |
+| `attribute` | string | Não | Nome do atributo de perfil, aplicável quando `key` é `PROFILE_ATTRIBUTE` |
+| `schedule` | objeto | Não | Janela de hora inicial/final durante a qual a promoção se aplica |
+| `order` | objeto | Não | Configuração de ordenação para entidades promovidas |
+| `configuration` | objeto | Não | Referência de coleção para os itens promovidos (usada quando `rules` está vazia) |
+| `rules` | matriz | Não | Regras de inclusão que identificam quais entidades devem ser promovidas |
+
+**Retorna:** O objeto de promoção.
+
+**Prompt de exemplo:** &quot;Crie uma promoção externa que apresente a coleção &#39;Backpacking Tents&#39; até o final de agosto.&quot;
+
++++
+
++++Exclusões
+
+**Ferramentas:** `list_target_exclusions`, `get_target_exclusion`, `create_target_exclusion`, `update_target_exclusion`
+
+As exclusões removem as entidades correspondentes dos resultados da recomendação. As exclusões se aplicam a toda a conta, em todos os critérios e atividades.
+
+| Parâmetro | Tipo | Obrigatório | Descrição |
+|---|---|---|---|
+| `exclusion_id` | número inteiro | Para obter/atualizar | O identificador exclusivo da exclusão |
+| `name` | string | Sim | Nome exclusivo da exclusão (máximo de 250 caracteres) |
+| `description` | string | Não | Descrição da exclusão (máximo de 1000 caracteres) |
+| `rule` | objeto | Não | Uma única regra (`attribute` + operador/operando) identificando entidades a serem excluídas |
+
+**Retorna:** O objeto de exclusão.
+
+**Exemplo de prompt:** &quot;Há alguma exclusão em toda a conta configurada no momento e com a qual ela é filtrada?&quot;
+
++++
+
++++Catálogo
+
+**Ferramentas:** `get_target_entity`, `search_target_catalog`
+
+Ferramentas somente leitura para inspecionar o catálogo de produtos/conteúdo do Recommendations. Não há ferramenta de criação, atualização ou exclusão para entidades de catálogo por meio do servidor MCP.
+
+| Parâmetro | Tipo | Obrigatório | Descrição |
+|---|---|---|---|
+| `catalog_entity_id` | string | Sim (obter) | A ID da entidade do catálogo (por exemplo, SKU) |
+| `environment_id` | string | Não | Ambiente no qual procurar a entidade |
+| `query` | objeto | Sim (pesquisar) | Um bloco `meta` (requer `environmentId`, `displayFields` opcional) mais um bloco `query` (`simple` ou `compound`); as consultas simples usam `queryFields`, um `operator` (`eq`, `lt`, `gt`, `le`, `ge`, `contains`) e um `matchValue` |
+
+**Retorna:** `get_target_entity` retorna os atributos de catálogo da entidade. `search_target_catalog` retorna correspondências em uma matriz `entities`. Os nomes de campos em `query` devem ser atributos de catálogo reais configurados para o locatário.
+
+**Exemplo de prompt:** &quot;Pesquisar o catálogo de produtos com inventário abaixo de 1000.&quot;
+
++++
+
 ## Resumo das ferramentas {#tools-summary}
 
 | Categoria | Contagem | Ferramentas |
@@ -770,7 +905,8 @@ Nenhum parâmetro é necessário.
 | Revisão | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | AT.js | 2 | `get_atjs_settings`, `get_atjs_versions` |
 | Modelo | 1 | `list_target_templates` |
-| **Total** | **38** | |
+| Recomendações | 24 | `list_target_criteria`, `get_target_criteria`, `list_target_criteria_by_type`, `get_target_criteria_by_type`, `create_target_criteria`, `update_target_criteria`, `list_target_collections`, `get_target_collection`, `create_target_collection`, `update_target_collection`, `list_target_designs`, `get_target_design`, `create_target_design`, `update_target_design`, `list_target_promotions`, `get_target_promotion`, `create_target_promotion`, `update_target_promotion`, `list_target_exclusions`, `get_target_exclusion`, `create_target_exclusion`, `update_target_exclusion`, `get_target_entity`, `search_target_catalog` |
+| **Total** | **62** | |
 
 ## Recursos relacionados {#tools-related}
 
