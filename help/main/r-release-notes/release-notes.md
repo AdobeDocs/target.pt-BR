@@ -25,16 +25,26 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6774b85f9515dd093d4e54492be54f7be3e92073
+source-git-commit: 674308a558a90154b171fe9a17d2642120c07923
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 42%
+source-wordcount: '680'
+ht-degree: 40%
 ---
 # Notas de versão do [!DNL Target] (atuais)
 
 Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe Target]. Essas notas de versão também abrangem atualizações para APIs do [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outros componentes da plataforma, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 26.9.5 (21 de setembro de 2026)
+
+**[!UICONTROL Análises para Destino]**
+
++++Ver detalhes
+
+* **Link de relatório do A4T não gerado na [!DNL Target] interface**. Para atividades de [!DNL A4T], o link do relatório não foi gerado na seção **[!UICONTROL Relatórios]**, mesmo que os dados subjacentes do relatório estivessem visíveis na interface do usuário do [!DNL Target] e na interface do usuário do [!DNL Adobe Analytics]. (TGT-56247)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.4 (17 de setembro de 2026)
 
