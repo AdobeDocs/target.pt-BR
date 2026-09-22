@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 674308a558a90154b171fe9a17d2642120c07923
+source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 40%
+source-wordcount: '744'
+ht-degree: 36%
 ---
 # Notas de versão do [!DNL Target] (atuais)
 
@@ -100,6 +100,18 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 +++Ver detalhes
 
 * **Falha ao salvar** a cópia de uma atividade com um público somente atividade. Quando uma atividade A/B usa uma regra de público-alvo somente atividade (com escopo local) e uma modificação de Código personalizado, copiá-la e salvar a cópia falha com um erro &quot;IDs de público-alvo inválidas&quot;. (TGT-55785)
+
++++
+
+Servidor MCP **[!DNL Adobe Target]— Ferramentas do Recommendations (Beta público)**
+
++++Ver detalhes
+
+O servidor MCP do [!DNL Adobe Target] agora expõe as ferramentas do Recommendations, permitindo listar, inspecionar, criar e atualizar critérios, coleções, designs, promoções e exclusões e pesquisar o catálogo de produtos diretamente no assistente de IA.
+
+Este recurso requer um locatário habilitado para o Recommendations com o **Target Premium**; ele não está disponível em contas que não sejam Premium.
+
+Para obter mais informações, consulte [Referência de ferramentas do servidor MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
 
 +++
 
