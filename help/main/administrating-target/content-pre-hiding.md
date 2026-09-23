@@ -4,20 +4,12 @@ description: Saiba como a pré-ocultação de conteúdo reduz a cintilação ao 
 title: Pré-ocultação de conteúdo para experiências personalizadas
 feature: Administration & Configuration
 role: Admin
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#beta newtab=true" tooltip="O que são recursos beta no  [!DNL Adobe Target]."
-hide: true
-source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
+source-git-commit: a002b0a3549c0e47734849fce0df63b0df9cdee0
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 3%
-
+source-wordcount: '596'
+ht-degree: 1%
 ---
-
 # Pré-ocultação de conteúdo para experiências personalizadas
-
->[!AVAILABILITY]
->
->A pré-ocultação de conteúdo personalizado está disponível como um recurso **beta**.
 
 Quando um visitante carrega uma página, o conteúdo padrão pode aparecer brevemente e ser substituído por conteúdo personalizado de [!DNL Adobe Target]. Essa opção visível geralmente é chamada de **cintilação**, e é um problema comum de experiência para programas de personalização.
 
@@ -55,7 +47,7 @@ A pré-ocultação de conteúdo fica desativada para sua instância até que voc
 
 1. Clique em **[!UICONTROL Salvar]**. Isso aplicará as configurações de gerenciamento de cintilação à sua instância.
 
-1. Depois de habilitado, clique em **[!UICONTROL Baixar]** e adicione o arquivo à página `<head>` para que ele seja carregado antes de [!DNL at.js] ou [!DNL Web SDK]. Para obter instruções completas de implementação, consulte [Pré-ocultação de conteúdo do SDK](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/client-side/prehide-sdk).
+1. Depois de habilitado, clique em **[!UICONTROL Baixar]** e adicione o arquivo à página `<head>` para que ele seja carregado antes de [!DNL at.js] ou [!DNL Web SDK]. Para obter instruções completas de implementação, consulte [Pré-ocultação de conteúdo do SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
 
    ![](assets/content-pre-hiding-2.png)
 

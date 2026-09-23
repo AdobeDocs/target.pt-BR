@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
+source-git-commit: 8036ca6a8241ab254dcf3451c2feeb2ed9e63d6a
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 36%
+source-wordcount: '816'
+ht-degree: 34%
 ---
 # Notas de versão do [!DNL Target] (atuais)
 
@@ -37,6 +37,27 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
 ## [!DNL Target Standard/Premium] 26.9.5 (21 de setembro de 2026)
+
+### Recurso
+
+<table>
+<thead>
+<tr>
+<th><strong>Pré-ocultação de conteúdo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A pré-ocultação de conteúdo ajuda a reduzir a cintilação da página, ocultando apenas as seções que a personalização do Adobe Target está prestes a alterar, fornecendo uma experiência mais suave enquanto o conteúdo é carregado. Essa abordagem evita ocultar a página inteira e ajuda a minimizar o esforço de implementação quando novas atividades são iniciadas.</p>
+<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
+<p>Para obter mais informações, consulte a <a href="../administrating-target/content-pre-hiding.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Melhorias
 
 **[!UICONTROL Análises para Destino]**
 
