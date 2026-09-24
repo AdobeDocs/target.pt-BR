@@ -25,16 +25,26 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8036ca6a8241ab254dcf3451c2feeb2ed9e63d6a
+source-git-commit: 4d083419d76b0287c3c254a0fc382abc7444cc75
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 34%
+source-wordcount: '874'
+ht-degree: 32%
 ---
 # Notas de versão do [!DNL Target] (atuais)
 
 Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe Target]. Essas notas de versão também abrangem atualizações para APIs do [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outros componentes da plataforma, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 26.9.6 (24 de setembro de 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalhes
+
+* **Loop de redirecionamento infinito ao acessar uma página autenticada por SSO por meio do Visual Experience Composer**. Quando um URL de página carregado no Visual Experience Composer passou por um fluxo de redirecionamento de SSO/logon, o Visual Experience Composer inseriu um loop de redirecionamento infinito e nunca chegou à página desejada. (TGT-56233)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.5 (21 de setembro de 2026)
 
