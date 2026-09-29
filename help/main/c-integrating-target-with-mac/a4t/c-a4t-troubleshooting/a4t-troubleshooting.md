@@ -66,7 +66,7 @@ Normalmente, esta linha é exibida se você escolher uma métrica comum no relat
 
 Essa linha não terá nenhuma informação associada ao [!DNL Target] (por exemplo, nenhum visitante, visita ou impressão). Para obter mais informações, consulte [“Não especificados”, “Nenhum”, “Outros” e “Desconhecidos” nos relatórios](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=pt-BR) nas *notas técnicas do Analytics*.
 
-Se você escolher uma métrica específica para [!DNL Target] no relatório, que [!UICONTROL  &quot;Não especificado&quot;] linha não é exibida. A única maneira de evitar que isso aconteça no relatório é definir uma chamada do [!DNL Target] em cada solicitação enviada dessa página, o que não é comum ou necessário.
+Se você escolher uma métrica específica para [!DNL Target] no relatório, que [!UICONTROL &#x200B; &quot;Não especificado&quot;] linha não é exibida. A única maneira de evitar que isso aconteça no relatório é definir uma chamada do [!DNL Target] em cada solicitação enviada dessa página, o que não é comum ou necessário.
 
 ## O aumento estimado na métrica da receita não está mostrando os dados corretos. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 

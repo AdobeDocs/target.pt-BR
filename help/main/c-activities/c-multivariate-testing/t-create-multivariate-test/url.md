@@ -37,7 +37,7 @@ A URL da atividade determina a página que é usada no [!UICONTROL Teste Multiva
 
    Regras adicionais podem ser baseadas em qualquer um dos seguintes:
 
-   * [!UICONTROL  URL]
+   * [!UICONTROL &#x200B; URL]
    * [!UICONTROL Domínio]
    * [!UICONTROL Caminho]
    * [!UICONTROL Fragmento de hash (#)]

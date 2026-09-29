@@ -74,7 +74,7 @@ Para gerar texto envolvente usando [!DNL AI Assistant]:
 
    * **Tom**: o tom do seu texto deve repercutir na sua audiência. Se você quiser soar informativo, excitante, divertido ou persuasivo, [!DNL AI Assistant] poderá adaptar a mensagem de acordo.
 
-     As opções incluem: [!UICONTROL Nenhum], [!UICONTROL Profissional], [!UICONTROL Empático], [!UICONTROL Humoroso], [!UICONTROL Empolgante], [!UICONTROL Inspirador], [!UICONTROL Persuasivo], [!UICONTROL Amigável], [!UICONTROL Formal], [!UICONTROL Desculpas], [!UICONTROL Assertiva], [!UICONTROL  História Contando] e [!UICONTROL Conversação].
+     As opções incluem: [!UICONTROL Nenhum], [!UICONTROL Profissional], [!UICONTROL Empático], [!UICONTROL Humoroso], [!UICONTROL Empolgante], [!UICONTROL Inspirador], [!UICONTROL Persuasivo], [!UICONTROL Amigável], [!UICONTROL Formal], [!UICONTROL Desculpas], [!UICONTROL Assertiva], [!UICONTROL &#x200B; História Contando] e [!UICONTROL Conversação].
 
 1. Use o controle deslizante para determinar quanto tempo você deseja que o texto fique, do mais curto ao mais longo.
 
