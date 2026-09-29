@@ -111,7 +111,7 @@ Este vídeo descreve como elevar o teste A/B ao próximo nível com o [!UICONTRO
 * Descreva como fornecer conteúdo específico de localização para públicos em diferentes áreas geográficas
 * Descreve como reorganizar experiências para garantir que o conteúdo correto seja entregue ao público-alvo certo
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/39861?captions=por_br)
 
 ### Tipos de atividade (9:03)
 
@@ -121,7 +121,7 @@ Este vídeo explica os tipos de atividade disponíveis no [!DNL Target]. [!UICON
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/31290?captions=por_br)
 
 ### Usando o [!UICONTROL Visual Experience Composer]
 
