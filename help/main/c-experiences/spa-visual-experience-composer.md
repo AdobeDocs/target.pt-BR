@@ -37,7 +37,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de649ea8b193a832eb55d398c7443a95675abb44
 workflow-type: tm+mt
 source-wordcount: '3949'
 ht-degree: 56%
@@ -213,11 +213,11 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
 1. Inicie atividades A/B ou XT por meio do VEC.
 
-   Quando `adobe.target.triggerView()` é implementado em sua SPA com nomes de exibição passados como parâmetros, o VEC poderá detectar essas exibições e permitir que os usuários criem ações e modificações para suas atividades de A/B ou XT.
+Quando `adobe.target.triggerView()` é implementado em sua SPA com nomes de exibição passados como parâmetros, o VEC poderá detectar essas exibições e permitir que os usuários criem ações e modificações para suas atividades de A/B ou XT.
 
-   >[!NOTE]
-   >
-   >O VEC for SPAs é realmente o mesmo VEC que você usa em páginas da Web regulares, mas alguns recursos adicionais estão disponíveis ao abrir um aplicativo de página única com a implementação de `triggerView()`.
+>[!NOTE]
+>
+>O VEC for SPAs é realmente o mesmo VEC que você usa em páginas da Web regulares, mas alguns recursos adicionais estão disponíveis ao abrir um aplicativo de página única com a implementação de `triggerView()`.
 
 Há duas melhorias importantes no painel [Modificações](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) e Ações para o VEC que permitem seu funcione adequado com SPAs.
 
@@ -385,7 +385,7 @@ Se você quiser usar atividades A/B de Direcionamento automático, mova todas as
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Sim |
 | [Públicos-alvo da Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md) | Sim |
-| [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=pt-BR){target=_blank} | Sim |
+| [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | Sim |
 | [Fragmentos de experiência do AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Sim |
 
 ## Recursos compatíveis {#supported-features}
@@ -408,7 +408,7 @@ Para acessar as opções de [!UICONTROL Entrega de página] no fluxo de trabalho
 
 ![Caixa de diálogo de opções de Entrega de página](/help/main/c-experiences/assets/page-delivery.png)
 
-Por exemplo, conforme definido pelas configurações de [!UICONTROL Entrega de página] mostradas acima, uma atividade do Target é qualificada e executada quando um visitante acessa diretamente o `https://www.adobe.com` *ou* quando um visitante acessa qualquer URL que contém `https://www.adobe.com/br/products`. Isso funciona perfeitamente para aplicativos de várias páginas em que cada interação com a página chama um recarregamento de página, para o qual a at.js recupera as atividades qualificadas para o URL ao qual o usuário navega.
+Por exemplo, conforme definido pelas configurações de [!UICONTROL Entrega de página] mostradas acima, uma atividade do Target é qualificada e executada quando um visitante acessa diretamente o `https://www.adobe.com` *ou* quando um visitante acessa qualquer URL que contém `https://www.adobe.com/products`. Isso funciona perfeitamente para aplicativos de várias páginas em que cada interação com a página chama um recarregamento de página, para o qual a at.js recupera as atividades qualificadas para o URL ao qual o usuário navega.
 
 No entanto, como os SPAs funcionam de forma diferente, as configurações de [!UICONTROL Entrega de página] devem ser definidas de modo a permitir que todas as ações sejam aplicadas às Exibições, conforme definido na atividade de SPA VEC.
 
@@ -468,7 +468,7 @@ Esta mensagem é exibida quando você adiciona a primeira ação a uma Exibiçã
 
 ## Vídeo de treinamento: uso do VEC para SPAs no Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/34802?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 Consulte [Uso do Visual Experience Composer para Single Page Application (SPA VEC) no Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) para obter mais informações.
 
