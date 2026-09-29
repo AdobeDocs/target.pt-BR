@@ -4,35 +4,54 @@ description: Saiba mais sobre as noções básicas do Adobe Target. Este artigo 
 title: Como usar o Target?
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-TQID: https://experienceleague.adobe.com/l4bZ9esCTiZNakTrNp89n5mAeFci5dp0HCLZYV-GleA
+TQID: 'https://experienceleague.adobe.com/l4bZ9esCTiZNakTrNp89n5mAeFci5dp0HCLZYV-GleA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: b077c1f1-7e5f-4dbf-a193-70e9fe784bb2
+    internal-label: Analytics data
   - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
   - id: c2923fce-066f-4e68-bc28-ac56b57ccb5c
+    internal-label: Custom segments
   - id: ca2e0bf6-f9f8-4b6b-a630-a3c4b1455817
+    internal-label: Reusable audiences
   - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
   - id: e73b329c-f712-4a22-abe7-bfbf3be6d0f9
+    internal-label: Multivariate test
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
   - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1538
+source-wordcount: '1540'
 ht-degree: 84%
-
 ---
-
 # Conceitos-chave do Target
 
 Informações sobre os principais conceitos que ajudarão você a entender os recursos e características do [!DNL Adobe Target].
@@ -45,7 +64,7 @@ Por exemplo, você pode criar uma atividade que teste duas páginas de aterrissa
 
 Planeje cuidadosamente ao projetar uma atividade. Determine quando a atividade começa e quanto tempo ela dura. Depois, relacione as ofertas e atribua um público-alvo a cada uma.
 
-O Target inclui vários tipos de atividades. A tabela a seguir fornece uma visão geral de cada tipo de atividade com links para ajudá-lo a saber mais. Para ajudá-lo a escolher de maneira mais eficaz o melhor tipo de atividade para suas finalidades, também criamos o [&#x200B; Manual de atividades do Adobe Target](/help/main/c-activities/target-activities-guide.md).
+O Target inclui vários tipos de atividades. A tabela a seguir fornece uma visão geral de cada tipo de atividade com links para ajudá-lo a saber mais. Para ajudá-lo a escolher de maneira mais eficaz o melhor tipo de atividade para suas finalidades, também criamos o [ Manual de atividades do Adobe Target](/help/main/c-activities/target-activities-guide.md).
 
 | Tipo de atividade | Descrição |
 |--- |--- |
@@ -137,9 +156,9 @@ Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/31290?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Usando o Audiences na Adobe Target (6:21) ![Selo de visão geral](/help/main/assets/overview.png)
+### Uso do Audiences na Adobe Target (6:21) ![Selo de visão geral](/help/main/assets/overview.png)
 
 Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium].
 
@@ -149,4 +168,4 @@ Este vídeo explica como usar os públicos-alvo no [!DNL Target Standard/Premium
 * Segmente uma atividade para um público-alvo
 * Use públicos-alvo para relatórios passivos em uma atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/30984?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

@@ -1,27 +1,34 @@
 ---
 keywords: relatório;relatórios;relatório;solução da experience cloud;fuso horário;fuso horário;moeda;excluir IPs;aumento estimado na receita;receita;aumento na receita;prioridades otimizadas;otimizado
-description: Use [!DNL Target], [!DNL Adobe Analytics], or [!DNL Adobe Customer Journey Analytics] como fonte de relatórios, especifique o fuso horário e o formato da moeda padrão, adicione endereços IP a serem excluídos dos relatórios e muito mais.
-title: Como configurar relatórios no  [!DNL Target]?
+description: Use [!DNL Target], [!DNL Adobe Analytics] ou [!DNL Adobe Customer Journey Analytics] como fonte de relatórios, especifique o fuso horário padrão e o formato da moeda, adicione endereços IP a serem excluídos dos relatórios e muito mais.
+title: Como configurar relatórios no [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-TQID: https://experienceleague.adobe.com/Vdi1o6bvCbgrhWUrJfCOyxqN3JkhEe3Rd9J-3NmLVyY
+TQID: 'https://experienceleague.adobe.com/Vdi1o6bvCbgrhWUrJfCOyxqN3JkhEe3Rd9J-3NmLVyY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 283e20be405890a7f53ca95d370e3eef5820f437
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 823
+source-wordcount: '825'
 ht-degree: 21%
-
 ---
-
 # Configurar relatórios em [!DNL Target]
 
 Defina as configurações gerais a serem usadas nos relatórios do [!DNL Adobe Target] que se aplicam a toda a sua conta do [!DNL Target].

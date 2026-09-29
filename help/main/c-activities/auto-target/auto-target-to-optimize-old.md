@@ -1,17 +1,24 @@
 ---
 keywords: direcionamento automático;direcionamento;alocação de tráfego;perguntas frequentes;faq;solução de problemas;solucionar problemas
-description: Saiba como uma atividade do [!UICONTROL Direcionamento automático] do [!DNL Target] fornece a experiência mais personalizada para cada visitante com base no perfil do cliente e no comportamento de visitantes semelhantes.
+description: Saiba como uma atividade do [!UICONTROL Direcionamento automático] no [!DNL Target] fornece a experiência mais personalizada para cada visitante com base nos perfis dos clientes e no comportamento de visitantes semelhantes.
 title: O Que É Uma Atividade De [!UICONTROL Direcionamento Automático]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2101'
 ht-degree: 20%
-
 ---
-
 # Visão geral do [!UICONTROL Direcionamento automático]
 
 As atividades de [!UICONTROL Direcionamento automático] no [!DNL Adobe Target] usam aprendizagem de máquina avançada para selecionar várias experiências de alto desempenho definidas pelo profissional de marketing para personalizar o conteúdo e gerar conversões. O [!UICONTROL Direcionamento automático] retorna a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares.
@@ -30,7 +37,7 @@ Em apenas dez dias, mais de US$ 1.700.000 em aumento foram obtidos.
 
 Continue lendo para saber como usar o [!UICONTROL Direcionamento automático] para aumentar o aumento e a receita para sua organização.
 
-## Visão geral {#section_972257739A2648AFA7E7556B693079C9}
+## Visão Geral {#section_972257739A2648AFA7E7556B693079C9}
 
 Ao [criar uma atividade A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) usando o fluxo de trabalho guiado de três etapas, escolha a opção **[!UICONTROL Direcionamento automático para experiências personalizadas]** na página **[!UICONTROL Direcionamento]** (etapa 2).
 

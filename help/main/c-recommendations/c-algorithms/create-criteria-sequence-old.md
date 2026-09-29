@@ -2,16 +2,23 @@
 keywords: sequência de critérios;vários critérios;algoritmos;critérios;critérios de recomendações;sequência;número limite de itens retornados;controle de nível de slot;slot
 description: Saiba como definir sequências de até cinco critérios para exercer maior controle dos itens que aparecem em suas atividades do Adobe [!DNL Target] Recommendations.
 title: Como criar sequências de critérios no Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '868'
 ht-degree: 30%
-
 ---
-
 # Criar sequências de critérios
 
 Use sequências de até cinco critérios para exercer maior controle dos itens que aparecem em suas atividades do [!UICONTROL Recommendations]. Você também pode limitar o número de itens retornados (às vezes chamados de &quot;controle no nível do slot&quot;).
@@ -95,4 +102,4 @@ Este vídeo contém as seguintes informações:
 * Criar sequências de critérios
 * Upload dos critérios personalizados
 
->[!VIDEO](https://video.tv.adobe.com/v/35374?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

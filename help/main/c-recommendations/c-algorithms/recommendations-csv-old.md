@@ -2,16 +2,23 @@
 keywords: criar critérios personalizados, algoritmos, critérios, critérios de recomendações, csv, ftp, carregar csv
 description: Saiba como carregar um arquivo CSV para personalizar suas recomendações no Adobe [!DNL Target] Recommendations.
 title: Como fazer upload dos critérios personalizados no Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '736'
 ht-degree: 32%
-
 ---
-
 # Upload dos critérios personalizados
 
 Carregue um arquivo CSV para personalizar suas recomendações no [!DNL Adobe Target].
@@ -82,10 +89,10 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar Novo Cr
 
 ## Vídeo de treinamento: criar critérios no Recommendations (12:33) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
-Este vídeo contém as seguintes informações (detalhes sobre como carregar critérios personalizados começam em 11:43):
+Este vídeo contém as seguintes informações (os detalhes sobre o upload de critérios personalizados começam às 11h43):
 
 * Criar critérios
 * Criar sequências de critérios
 * Upload dos critérios personalizados
 
->[!VIDEO](https://video.tv.adobe.com/v/35374?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

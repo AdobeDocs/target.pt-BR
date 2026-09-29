@@ -4,13 +4,17 @@ description: Saiba como usar a opção Redirecionar para URL no Adobe [!DNL Targ
 title: Posso redirecionar uma página para um URL diferente?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '483'
 ht-degree: 82%
-
 ---
-
 # Redirecionar para um URL
 
 Use a opção [!UICONTROL Redirecionar para URL] em [!DNL Adobe Target] quando desejar enviar o visitante para uma página diferente em vez de mostrar o conteúdo na mesma página.

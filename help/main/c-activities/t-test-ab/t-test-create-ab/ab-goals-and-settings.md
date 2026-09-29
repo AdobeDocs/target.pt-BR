@@ -1,26 +1,35 @@
 ---
 keywords: configurações de atividade, metas e configurações A/B, configurações de relatórios, métricas de meta, métricas de sucesso, métricas dependentes de sucesso, configurações avançadas, meta principal, métricas adicionais, objetivo, prioridade, duração, solução de relatórios, meta, públicos-alvo para relatórios, qual métrica de sucesso deve ser alcançada antes de incremento dessa métrica, o que acontecerá após o usuário encontrar essa métrica de meta, observações
 description: Descubra como usar a página [!UICONTROL Metas e configurações] para definir metas de atividade A/B.
-title: Como Especificar Metas e Configurações em uma Atividade A/B [!DNL Target] ?
+title: Como faço para especificar metas e configurações em uma atividade A/B do [!DNL Target]?
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
-TQID: https://experienceleague.adobe.com/X3JDvfXDHM2rAOodEY5N9TVO-tBpz4vNDUvhOpC0XZ4
+TQID: 'https://experienceleague.adobe.com/X3JDvfXDHM2rAOodEY5N9TVO-tBpz4vNDUvhOpC0XZ4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d0846dd933f267d990069a95532a8643bb4bf792
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1546
+source-wordcount: '1547'
 ht-degree: 29%
-
 ---
-
 # Metas e Configurações
 
 A página [!UICONTROL Metas e Configurações] em [!DNL Adobe Target] é onde você especifica informações sobre as metas da atividade.
@@ -65,7 +74,7 @@ As opções disponíveis são as seguintes:
 
 | Configuração | Descrição |
 |--- |--- |
-| [!UICONTROL Qual métrica de sucesso deve ser alcançada antes do incremento dessa métrica?] | Use essa opção para contar apenas alguém que atingiu a métrica de sucesso se já tiver atingido uma métrica de sucesso diferente. Por exemplo, uma conversão de atividade só pode ser válida se o visitante clicar na oferta ou acessar uma página específica antes da conversão. É possível fornecer dependência em várias métricas, juntamente com a flexibilidade para escolher se a métrica deve ser alcançada ou não para que a contagem seja incrementada. Defina ambas as métricas de sucesso (ou várias) para poder tornar uma dependente da outra. A opção [!UICONTROL Adicionar dependência] permite que a métrica de sucesso seja incrementada se outra métrica de sucesso for ou não alcançada. Para adicionar uma dependência:<ul><li>Depois de adicionar outras métricas, clique em [!UICONTROL Configurações avançadas].</li><li>Clique na opção [!UICONTROL Adicionar dependência]:</li><li>Arraste e solte as métricas desejadas do painel esquerdo para o painel direito e clique em [!UICONTROL Alcançado] para alternar a configuração entre [!UICONTROL Alcançado] e[!UICONTROL &#x200B; Não alcançado].</li><li>É possível editar ou remover dependências depois de adicioná-las.</li></ul> |
+| [!UICONTROL Qual métrica de sucesso deve ser alcançada antes do incremento dessa métrica?] | Use essa opção para contar apenas alguém que atingiu a métrica de sucesso se já tiver atingido uma métrica de sucesso diferente. Por exemplo, uma conversão de atividade só pode ser válida se o visitante clicar na oferta ou acessar uma página específica antes da conversão. É possível fornecer dependência em várias métricas, juntamente com a flexibilidade para escolher se a métrica deve ser alcançada ou não para que a contagem seja incrementada. Defina ambas as métricas de sucesso (ou várias) para poder tornar uma dependente da outra. A opção [!UICONTROL Adicionar dependência] permite que a métrica de sucesso seja incrementada se outra métrica de sucesso for ou não alcançada. Para adicionar uma dependência:<ul><li>Depois de adicionar outras métricas, clique em [!UICONTROL Configurações avançadas].</li><li>Clique na opção [!UICONTROL Adicionar dependência]:</li><li>Arraste e solte as métricas desejadas do painel esquerdo para o painel direito e clique em [!UICONTROL Alcançado] para alternar a configuração entre [!UICONTROL Alcançado] e[!UICONTROL  Não alcançado].</li><li>É possível editar ou remover dependências depois de adicioná-las.</li></ul> |
 | [!UICONTROL O que acontecerá após o usuário encontrar esta métrica de meta?] | Há três opções para o que acontece depois que um visitante atinge a métrica de meta:<ul><li>Selecione **[!UICONTROL Aumentar a contagem e manter o usuário na atividade]** para especificar como é feito o aumento da contagem.</li><li>Selecione **[!UICONTROL Aumentar a contagem, liberar o usuário e permitir a reentrada]** para especificar a experiência que o usuário vê ao entrar na atividade novamente.</li><li>Selecione **[!UICONTROL Incrementar contagem, liberar usuário e barra de reentrada]** para especificar o que o usuário vê em vez do conteúdo da atividade.</li></ul> |
 | [!UICONTROL Como a contagem será incrementada?] | Existem três opções de como a contagem é incrementada:<ul><li>[!UICONTROL Uma vez por participante]</li><li>[!UICONTROL Em Todas as Impressões (Excluindo atualizações de página)]</li><li>[!UICONTROL Em Todas As Impressões]</li></ul> |
 

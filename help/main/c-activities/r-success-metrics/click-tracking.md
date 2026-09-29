@@ -1,25 +1,33 @@
 ---
 keywords: Rastreamento de cliques;rastrear cliques;cliques;AppMeasurement
-description: Saiba como o  [!DNL Adobe Target]  permite rastrear cliques em qualquer elemento como uma métrica de sucesso.
+description: Saiba como o [!DNL Adobe Target] permite rastrear cliques em qualquer elemento como uma métrica de sucesso.
 title: O que é o rastreamento de cliques?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-TQID: https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU
+TQID: 'https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 69d580451d5d25ec6642fd2035a5537c9096541c
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 942
-ht-degree: 73%
-
+source-wordcount: '943'
+ht-degree: 72%
 ---
-
 # Rastreamento de cliques
 
 [!DNL Adobe Target] permite rastrear cliques em qualquer elemento como uma métrica de sucesso. O rastreamento de cliques refere-se ao processo de monitoramento e gravação das interações do usuário, especificamente cliques, em elementos em uma página da Web ou experiência. Essa é uma parte essencial da medição de envolvimento e desempenho em testes A/B, testes multivariados e atividades de personalização.
@@ -92,14 +100,14 @@ Há várias coisas a considerar ao selecionar elementos:
 
   As seguintes etapas são executadas pela [!DNL at.js] quando o evento de rastreamento de cliques é adicionado uma tag `A`A (link) ou `FORM`:
 
-   1. Chame `event.preventDefault()`.
+  1. Chame `event.preventDefault()`.
 
-   1. Disparar a solicitação do [!DNL Target].
+  1. Disparar a solicitação do [!DNL Target].
 
-   1. Na chamada de retorno com êxito ou erro da solicitação do [!DNL Target], execute o comportamento padrão:
+  1. Na chamada de retorno com êxito ou erro da solicitação do [!DNL Target], execute o comportamento padrão:
 
-      * Tag `A` (link): o comportamento padrão é navegar até o URL definido pela atributo HREF.
-      * Tag `FORM`: o comportamento padrão é enviar o formulário.
+     * Tag `A` (link): o comportamento padrão é navegar até o URL definido pela atributo HREF.
+     * Tag `FORM`: o comportamento padrão é enviar o formulário.
 
   Este comportamento padrão pode interferir no rastreamento de cliques do [!DNL Analytics]. Se estiver usando o [!DNL Analytics], você deverá confiar no [!DNL Analytics] para o rastreamento de cliques em vez do [!DNL Target].
 

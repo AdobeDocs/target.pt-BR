@@ -4,36 +4,56 @@ description: Obtenha uma visão geral do Adobe Target. Saiba mais sobre atividad
 title: Onde posso encontrar uma introdução de alto nível ao Target?
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-TQID: https://experienceleague.adobe.com/nPXW07lMjkfeUeuElqoTVYd7-JG7N7uVVZ-m9cOKE8w
+TQID: 'https://experienceleague.adobe.com/nPXW07lMjkfeUeuElqoTVYd7-JG7N7uVVZ-m9cOKE8w'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f599e456-545c-47e5-8e50-b7dfe3579517
+    internal-label: Governance and control
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: a94ced60-8199-4549-b453-ede2acb4101e
+    internal-label: Hybrid implementation
   - id: b06652e6-189f-46a9-90c5-677f6d9cc699
+    internal-label: Adobe Admin Console for Enterprise
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2606
+source-wordcount: '2606'
 ht-degree: 72%
-
 ---
-
 # Capítulo 2: Principais características do Adobe [!DNL Target]
 
 Antes de começar a usar o [!DNL Adobe Target], pode ser útil obter uma visão geral de alto nível da solução. Neste capítulo, conheça os principais recursos da solução, os pontos de contato da marca nos quais você pode usá-la, as opções de implementação, os recursos e os fluxos de trabalho importantes da interface do usuário, os recursos de governança e sua função no [!DNL Adobe Experience Cloud] geral. A menos que sejam descritos como recursos do [!DNL Adobe Target Premium], os itens descritos neste capítulo estão disponíveis com o [!DNL Adobe Target Premium] e o [!DNL Adobe Target Standard]. Para obter mais informações sobre o Target, consulte [Introdução ao Target](/help/main/c-intro/intro.md).
@@ -75,7 +95,7 @@ Muitos de vocês podem querer usar o [!DNL Target] para testar e personalizar se
 
 | Tipo de implementação | Detalhes |
 | --- | --- |
-| Lado do cliente | Em uma implementação no lado do cliente do [!DNL Target], o [!DNL Target] fornece as experiências associadas a uma atividade diretamente para o navegador do cliente. O navegador decide qual experiência será exibida e realiza a ação. Com uma implementação no lado do cliente, você pode usar um editor do WYSIWYG, o **[!UICONTROL Visual Experience Composer]** (VEC) ou uma interface não visual, o **[!UICONTROL Experience Composer baseado em formulário]**, para criar experiências de teste e personalização. [Saiba mais](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=pt-BR){target=_blank}. |
+| Lado do cliente | Em uma implementação no lado do cliente do [!DNL Target], o [!DNL Target] fornece as experiências associadas a uma atividade diretamente para o navegador do cliente. O navegador decide qual experiência será exibida e realiza a ação. Com uma implementação no lado do cliente, você pode usar um editor do WYSIWYG, o **[!UICONTROL Visual Experience Composer]** (VEC) ou uma interface não visual, o **[!UICONTROL Experience Composer baseado em formulário]**, para criar experiências de teste e personalização. [Saiba mais](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
 | Lado do servidor | Nesse tipo de implementação do [!DNL Target], um dispositivo cliente faz uma solicitação para uma experiência por meio do seu servidor, que envia essa solicitação para o [!DNL Target]. Em seguida, o [!DNL Target] envia a resposta para seu servidor, que decide qual experiência deve ser entregue ao dispositivo do cliente para que seja renderizada. A experiência não precisa ser exibida em um navegador; ela pode ser exibida em um email ou quiosque, por um assistente de voz ou por alguma outra experiência não visual ou dispositivo não baseado em navegador. Como o servidor fica entre o cliente e o [!DNL Target], esse tipo de implementação também será ideal se você precisar de mais controle e segurança ou de processos de back-end complexos que deseja executar no servidor. [Saiba mais](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=pt-BR){target=_blank}. |
 | Implementação híbrida | Nesta implementação, você escolhe a abordagem de implementação que funciona melhor para determinado caso de uso. Por exemplo, você pode usar uma implementação do lado do cliente para fazer um teste A/B de uma oferta em um banner hero na página inicial, mas também usar uma implementação do lado do servidor para determinar os resultados da pesquisa interna a serem exibidos em um navegador do cliente, a experiência a ser exibida em um painel de carro inteligente ou a resposta de voz a ser fornecida por um assistente de voz. |
 

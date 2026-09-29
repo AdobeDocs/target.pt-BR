@@ -2,29 +2,40 @@
 keywords: recomendações algoritmos;treinamento de modelo;serviço de modelo;entrega de conteúdo;baseado em item;baseado em usuário;baseado em popularidade;baseado em carrinho;critérios personalizados
 description: Saiba mais sobre os algoritmos usados no [!DNL Target Recommendations], incluindo treinamento e fornecimento de modelos.
 title: Onde posso aprender sobre a ciência por trás dos algoritmos de recomendações do Target?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
+TQID: 'https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3045
+source-wordcount: '3045'
 ht-degree: 0%
-
 ---
-
 # A ciência por trás dos algoritmos de recomendações do Target
 
 Uma descrição detalhada dos algoritmos usados em [!DNL Adobe Target Recommendations], incluindo os detalhes lógicos e matemáticos do treinamento de modelos e o processo de veiculação de modelos.
@@ -77,7 +88,7 @@ O fluxo lógico da implementação real do algoritmo é mostrado no diagrama esq
 
 Veja a seguir os detalhes dessas etapas:
 
-* **Dados de entrada**: dados comportamentais, na forma de exibições e compras de visitantes coletados quando você [implementa o Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} ou o [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dados de entrada**: dados comportamentais, na forma de exibições e compras de visitantes coletados quando você [implementa o Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} ou o [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Treinamento de modelo**:
 
@@ -101,7 +112,7 @@ Embora os aspectos de veiculação e entrega de conteúdo dos algoritmos de simi
 
 Veja a seguir os detalhes dessas etapas:
 
-* **Dados de entrada**: conforme descrito anteriormente, este algoritmo se baseia exclusivamente nos dados de catálogo (assimilados para [!DNL Target] por meio de um [Feed de Catálogo, da API de Entidades ou de atualizações na página](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank}.
+* **Dados de entrada**: conforme descrito anteriormente, este algoritmo se baseia exclusivamente nos dados de catálogo (assimilados para [!DNL Target] por meio de um [Feed de Catálogo, da API de Entidades ou de atualizações na página](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Treinamento de modelo**:
 
@@ -139,7 +150,7 @@ A lógica das etapas de treinamento e pontuação do modelo é mostrada no diagr
 
 Veja a seguir os detalhes dessas etapas:
 
-* **Dados de entrada**: é idêntico aos métodos de filtragem colaborativa (CF) item-item. [!UICONTROL Os algoritmos Recomendados para Você] e Baseados em Carrinho usam dados comportamentais, na forma de exibições e compras de usuários coletados ao [implementar o Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} ou da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dados de entrada**: é idêntico aos métodos de filtragem colaborativa (CF) item-item. [!UICONTROL Os algoritmos Recomendados para Você] e Baseados em Carrinho usam dados comportamentais, na forma de exibições e compras de usuários coletados ao [implementar o Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} ou da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Treinamento de modelo**:
 
@@ -171,7 +182,7 @@ Os algoritmos incluem:
 * [!UICONTROL Mais visualizados em todo o site]
 * [!UICONTROL Mais Visualizados por Categoria]
 * [!UICONTROL Mais Visualizados pelo Atributo de Item]
-* [!UICONTROL Mais visualizados pelo atributo de perfil]
+* [!UICONTROL Mais visualizados por atributo de perfil]
 * [!UICONTROL Mais vendidos em todo o site]
 * [!UICONTROL Mais vendidos por categoria]
 * [!UICONTROL Mais vendidos por atributo de item]

@@ -1,21 +1,24 @@
 ---
 keywords: Target, relatórios, configurações de relatório, pedidos extremos, valores extremos
-description: Saiba como excluir valores extremos de afetar relatórios no Adobe [!DNL Target]  para que algumas ordens incomuns não afetem os resultados da atividade.
+description: Saiba como excluir valores extremos de afetar relatórios no Adobe [!DNL Target] para que algumas ordens incomuns não afetem os resultados da atividade.
 title: Como excluir valores extremos em relatórios?
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
-TQID: https://experienceleague.adobe.com/yQtG4u-sLVJ66PezWW9ZgmY8ZuK177m-hLdQq-zlmfI
+TQID: 'https://experienceleague.adobe.com/yQtG4u-sLVJ66PezWW9ZgmY8ZuK177m-hLdQq-zlmfI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '333'
 ht-degree: 62%
-
 ---
-
 # Excluir valores extremos
 
 Você pode excluir valores extremos para que não afetem os relatórios em [!DNL Adobe Target], de modo que algumas ordens incomuns não afetem os resultados da atividade. Um exemplo de um pedido incomum pode ser um técnico comprando uniformes para um time inteiro em vez de compradores individuais comprando uniformes individuais.

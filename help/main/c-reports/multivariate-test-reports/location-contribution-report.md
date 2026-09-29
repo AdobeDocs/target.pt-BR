@@ -1,22 +1,26 @@
 ---
 keywords: mvt, teste multivariado, relatório de contribuição da localização
-description: Saiba como usar o relatório de Contribuição de localização para atividades de  [!DNL Target] [!UICONTROL Direcionamento de experiência] do Adobe que mostram o desempenho de cada elemento e cada oferta.
+description: Saiba como usar o relatório de Contribuição de localização para atividades de [!UICONTROL Direcionamento de experiência] do Adobe [!DNL Target] que mostram o desempenho de cada elemento e cada oferta.
 title: Como faço para usar o relatório de [!UICONTROL Contribuição de localização] para atividades de [!UICONTROL Teste multivariado]?
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
-TQID: https://experienceleague.adobe.com/oS9GtjO8wG2bcAWQWj3IWtwAgtfGHnHMYwPd-8u0zjc
+TQID: 'https://experienceleague.adobe.com/oS9GtjO8wG2bcAWQWj3IWtwAgtfGHnHMYwPd-8u0zjc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 283
-ht-degree: 32%
-
+source-wordcount: '285'
+ht-degree: 35%
 ---
-
 # Relatório de [!UICONTROL Contribuição de localização] (MVT)
 
 O relatório de [!UICONTROL Contribuição de localização] mostra o desempenho de cada elemento e cada oferta.
@@ -41,6 +45,6 @@ A segunda tabela fornece um relatório de nível de oferta. Ela mostra o índice
 
 ## Vídeo de treinamento: Criar um teste MVT
 
-Este vídeo demonstra como criar um teste multivariado usando o fluxo de trabalho guiado de três etapas do [!DNL Target]. O relatório de Contribuição de localização é descrito a partir de 8:45.
+Este vídeo demonstra como criar um teste multivariado usando o fluxo de trabalho guiado de três etapas do [!DNL Target]. O relatório de Contribuição da localização é descrito no começo às 08:45.
 
->[!VIDEO](https://video.tv.adobe.com/v/30985?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

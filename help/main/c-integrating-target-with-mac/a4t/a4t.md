@@ -1,32 +1,43 @@
 ---
 keywords: a4t;analytics;analytics for target;fonte de relatórios do analytics;adobe analytics como fonte derelatórios para o target;atjs;at.js;sdk da web da adobe experience platform;sdk da web da plataforma;sdk da plataforma
-description: Use o  [!DNL Analytics]  for  [!DNL Target]  (A4T) para criar atividades baseadas em métricas de conversão e segmentos de público-alvo do  [!DNL Analytics]  e use relatórios do  [!DNL Analytics]  para examinar os resultados.
-title: O que é  [!DNL Analytics]  for  [!DNL Target]  (A4T)?
+description: Use o [!DNL Analytics] for [!DNL Target] (A4T) para criar atividades baseadas em [!DNL Analytics] métricas de conversão e segmentos de público-alvo e use os relatórios do [!DNL Analytics] para examinar os resultados.
+title: O que é o [!DNL Analytics] for [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-TQID: https://experienceleague.adobe.com/KZaqBS6BDJwdXJ3x1ltBoRS6eeCr4POuSp9Bkhqt1-8
+TQID: 'https://experienceleague.adobe.com/KZaqBS6BDJwdXJ3x1ltBoRS6eeCr4POuSp9Bkhqt1-8'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1125
-ht-degree: 78%
-
+source-wordcount: '1131'
+ht-degree: 76%
 ---
-
 # [!DNL Adobe Analytics] como origem de relatório do [!DNL Adobe Target] (A4T)
 
 O [!DNL Adobe Analytics for Target] (A4T) é uma integração entre soluções que permite criar atividades com base nas métricas de conversão e nos segmentos de público-alvo do [!DNL Analytics]. A integração A4T permite que você use os relatórios do [!DNL Analytics] para examinar os resultados. Se usar o [!DNL Analytics] como fonte de relatórios para uma atividade, todos os relatórios e segmentações dessa atividade serão baseados nos dados coletados pelo [!DNL Analytics].
@@ -64,7 +75,7 @@ Tenha os seguintes pontos em mente ao considerar o uso do A4T:
 
 ## Implementar o A4T
 
-Para obter informações sobre a implementação do A4T com a at.js e o [!DNL Adobe Experience Platform Web SDK], consulte implamentação do [Analytics for  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
+Para obter informações sobre a implementação do A4T com a at.js e o [!DNL Adobe Experience Platform Web SDK], consulte implamentação do [Analytics for  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
 ## Tipos de atividades aceitas {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -138,7 +149,7 @@ Este vídeo é uma gravação de &quot;[Horas do Office](/help/main/cmp-resource
 
 >[!MORELIKETHIS]
 >
->* Implementação do [Analytics for  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): contém informações de implementação da at.js e do SDK da Web da plataforma.
+>* Implementação do [Analytics for  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): contém informações de implementação da at.js e do SDK da Web da plataforma.
 >* [Ofertas de redirecionamento - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
 >* [O que é o SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR): contém informações de visão geral sobre o SDK da Web da plataforma.
 >* [Visão geral do Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=pt-BR): contém informações específicas do [!DNL Target] e [!DNL Platform Web SDK].

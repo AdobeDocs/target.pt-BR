@@ -5,30 +5,41 @@ title: O que são hosts e como usá-los?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-TQID: https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo
+TQID: 'https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1095
+source-wordcount: '1095'
 ht-degree: 21%
-
 ---
-
 # Hosts
 
 Organize seus sites e ambientes de pré-produção para facilitar o gerenciamento e gerar relatórios separados no [!DNL Adobe Target].
@@ -50,8 +61,8 @@ Para reconhecer um host e adicioná-lo à lista [!UICONTROL Hosts], as seguintes
 * Pelo menos uma solicitação [!DNL Target] deve existir no host
 * Uma página no host deve ter o seguinte:
 
-   * Uma referência at.js precisa
-   * Uma solicitação [!DNL Target] ou uma solicitação [!DNL Target] global gerada automaticamente
+  * Uma referência at.js precisa
+  * Uma solicitação [!DNL Target] ou uma solicitação [!DNL Target] global gerada automaticamente
 
 * A página com a solicitação [!DNL Target] deve ser visualizada em um navegador
 
@@ -102,7 +113,7 @@ Se uma solicitação [!DNL Target] for feita em um host não autorizado, a chama
 
 >[!IMPORTANT]
 >
->**Práticas recomendadas de segurança**: se você usar a funcionalidade de ubox do [!DNL Target], este incluo na lista de permissões também controlará a lista de domínios para os quais seus [redirecionadores](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=pt-BR){target=_blank} podem navegar. Adicione todos os domínios aos quais deseja redirecionar ao usar o ubox como parte da implementação. Se o incluo na lista de permissões não for especificado, [!DNL Adobe] não poderá verificar as URLs de redirecionamento e proteger contra possíveis redirecionamentos mal-intencionados.
+>**Práticas recomendadas de segurança**: se você usar a funcionalidade de ubox do [!DNL Target], este incluo na lista de permissões também controlará a lista de domínios para os quais seus [redirecionadores](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} podem navegar. Adicione todos os domínios aos quais deseja redirecionar ao usar o ubox como parte da implementação. Se o incluo na lista de permissões não for especificado, [!DNL Adobe] não poderá verificar as URLs de redirecionamento e proteger contra possíveis redirecionamentos mal-intencionados.
 >
 >O incluo na lista de permissões tem prioridade sobre os ambientes. Limpe todos os hosts antes de usar o recurso incluir na lista de permissões e, em seguida, somente os hosts permitidos pelo incluo na lista de permissões aparecerão na lista de hosts. Em seguida, você poderá mover os hosts para o ambiente desejado.
 

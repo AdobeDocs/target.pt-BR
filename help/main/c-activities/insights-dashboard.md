@@ -1,16 +1,20 @@
 ---
 keywords: atividades;atividade;painel de insights
-description: O [!UICONTROL Painel do Adobe Target] oferece uma visão geral de alto nível de como sua organização usa o [!DNL Target] ao longo do tempo, com uma rápida adoção, volume de atividades e uso de experimentação.
+description: O [!UICONTROL Painel do Adobe Target] oferece uma visão geral de alto nível de como sua organização usa o [!DNL Target] ao longo do tempo, com fácil adoção, volume de atividades e uso de experimentação.
 title: Painel do Adobe Target Insights
 feature: Activities
 exl-id: 042befcd-025b-4592-a6b2-5dc0b952b031
-source-git-commit: 346b54882d4082f14bbc16ede350758a362ee418
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '821'
 ht-degree: 1%
-
 ---
-
 # Painel do Adobe Target Insights
 
 O [!UICONTROL Painel do Adobe Target] fornece uma visão geral de alto nível de como sua organização usa o [!DNL Adobe Target] ao longo do tempo. Ele ajuda as equipes a entender rapidamente a adoção, o volume de atividades e o uso de experimentação.

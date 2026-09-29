@@ -1,26 +1,34 @@
 ---
 keywords: assistente de ia;assistente de inteligência artificial;geração de conteúdo;acelerador de conteúdo;geração de conteúdo;gerar conteúdo
-description: Saiba como gerar conteúdo envolvente com o  [!DNL AI Assistant].
-title: Como usar o  [!DNL AI Assistant] in [!DNL Target] para gerar conteúdo envolvente?
+description: Saiba como gerar conteúdo envolvente com o [!DNL AI Assistant].
+title: Como faço para usar o [!DNL AI Assistant] em [!DNL Target] para gerar conteúdo envolvente?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#beta newtab=true" tooltip="O que são recursos beta no  [!DNL Adobe Target]."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#beta newtab=true" tooltip="O que são recursos do Beta em [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-TQID: https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0
+TQID: 'https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 825
-ht-degree: 2%
-
+source-wordcount: '835'
+ht-degree: 1%
 ---
-
 # Usar [!DNL AI Assistant] em [!DNL Adobe Target] para geração de conteúdo
 
 Impulsione o engajamento e as conversões em [!DNL Adobe Target] com [!DNL AI Assistant]. Aproveite a IA gerativa para criar um texto personalizado de alto impacto que repercuta em seu público-alvo e eleve o conteúdo da atividade.
@@ -66,7 +74,7 @@ Para gerar texto envolvente usando [!DNL AI Assistant]:
 
    * **Tom**: o tom do seu texto deve repercutir na sua audiência. Se você quiser soar informativo, excitante, divertido ou persuasivo, [!DNL AI Assistant] poderá adaptar a mensagem de acordo.
 
-     As opções incluem: [!UICONTROL Nenhum], [!UICONTROL Profissional], [!UICONTROL Empático], [!UICONTROL Humoroso], [!UICONTROL Empolgante], [!UICONTROL Inspirador], [!UICONTROL Persuasivo], [!UICONTROL Amigável], [!UICONTROL Formal], [!UICONTROL Desculpas], [!UICONTROL Assertiva], [!UICONTROL &#x200B; História Contando] e [!UICONTROL Conversação].
+     As opções incluem: [!UICONTROL Nenhum], [!UICONTROL Profissional], [!UICONTROL Empático], [!UICONTROL Humoroso], [!UICONTROL Empolgante], [!UICONTROL Inspirador], [!UICONTROL Persuasivo], [!UICONTROL Amigável], [!UICONTROL Formal], [!UICONTROL Desculpas], [!UICONTROL Assertiva], [!UICONTROL  História Contando] e [!UICONTROL Conversação].
 
 1. Use o controle deslizante para determinar quanto tempo você deseja que o texto fique, do mais curto ao mais longo.
 
@@ -97,7 +105,7 @@ Alterar o texto herói é apenas o começo. Com [!DNL AI Assistant] em [!DNL Tar
 O prompt e as variações a seguir mostram a potência de [!DNL AI Assistant].
 
 **[!UICONTROL Solicitação]**: escreva um anúncio envolvente para uma viagem de três dias a Nova York para visitar os principais destinos.
-**[!UICONTROL Configurações de texto]**: comprimento de FOMO, English, Persuasivo, Medium.
+**[!UICONTROL Configurações de texto]**: duração de FOMO, English, Persuasive, Medium.
 * **[!UICONTROL Variação 1]**: descubra a magia da Nova York com nossa viagem exclusiva de três dias! Mergulhe em pontos turísticos icônicos como a Times Square, o Central Park e a Estátua da Liberdade. Junte-se a inúmeros outros que já experimentaram a emoção e a beleza da cidade que nunca dorme. Não perca memórias inesquecíveis. Reserve sua aventura hoje e faça parte da excitação! Pontos limitados disponíveis!
 * **[!UICONTROL Variação 2]**: Descubra a magia da Nova York com nossa escapada exclusiva de três dias! Visite pontos de referência icônicos como a Times Square e o Central Park, e mergulhe em restaurantes e entretenimento de classe mundial. Não perca esta aventura inesquecível. Os espaços são limitados e todos estão entusiasmados com suas experiências incríveis. Reserve agora e faça parte do entusiasmo que está atraindo os viajantes do mundo inteiro!
 * **[!UICONTROL Variação 3]**: embarque em uma emocionante fuga de três dias para Nova York, onde marcos icônicos aguardam! Descubra a vibração elétrica da Times Square, saboreie delícias culinárias em Manhattan e capture vistas deslumbrantes do Empire State Building. Aja agora e junte-se a inúmeros aventureiros que vivem seus sonhos. Não deixe de criar memórias inesquecíveis na cidade que nunca dorme. Pontos limitados disponíveis. Reserve sua aventura hoje mesmo!
@@ -107,4 +115,4 @@ O prompt e as variações a seguir mostram a potência de [!DNL AI Assistant].
 
 ### Criar conteúdo usando o Assistente de IA para geração de conteúdo
 
->[!VIDEO](https://video.tv.adobe.com/v/3434640/?captions=por_br&learn=on">https://video.tv.adobe.com/v/3434640/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)

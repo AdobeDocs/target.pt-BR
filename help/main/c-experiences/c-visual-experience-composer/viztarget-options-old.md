@@ -4,13 +4,17 @@ description: Explore as opções disponíveis no [!DNL Adobe Target] [!UICONTROL
 title: Como usar as opções do [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '3014'
 ht-degree: 55%
-
 ---
-
 # Opções do Visual Experience Composer
 
 Ao clicar em um elemento de página no [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), um menu mostrará as opções disponíveis para esse tipo de elemento. Além disso, um caminho DOM é exibido na parte inferior da página, possibilitando uma navegação fácil pela estrutura da página.
@@ -74,15 +78,15 @@ Pontos azuis no painel principal e ao lado de cada opção nos vários painéis 
 
   Altere a cor e a imagem do fundo.
 
-   * Cor (especifique o código de cor ou use o seletor de cores)
-   * Imagem (selecione uma imagem do seletor de imagens)
-   * Fonte da imagem (especifique um URL externo)
-   * Anexo
-      * Clique na lista suspensa superior para selecionar rolagem, fixo ou local
-      * Clique na lista suspensa inferior para selecionar repetir, repetir-x, repetir-y, sem repetição, espaçar ou arredondar
-   * Clipe
-      * Clique na lista suspensa superior para selecionar a caixa de borda, a caixa de preenchimento, a caixa de conteúdo ou o texto
-      * Clique na lista suspensa inferior para selecionar o áudio automático ou o áudio
+  * Cor (especifique o código de cor ou use o seletor de cores)
+  * Imagem (selecione uma imagem do seletor de imagens)
+  * Fonte da imagem (especifique um URL externo)
+  * Anexo
+    * Clique na lista suspensa superior para selecionar rolagem, fixo ou local
+    * Clique na lista suspensa inferior para selecionar repetir, repetir-x, repetir-y, sem repetição, espaçar ou arredondar
+  * Clipe
+    * Clique na lista suspensa superior para selecionar a caixa de borda, a caixa de preenchimento, a caixa de conteúdo ou o texto
+    * Clique na lista suspensa inferior para selecionar o áudio automático ou o áudio
 
 * **[!UICONTROL Tipografia]**
 
@@ -92,13 +96,13 @@ Pontos azuis no painel principal e ao lado de cada opção nos vários painéis 
 
   É possível editar os seguintes estilos de tipografia:
 
-   * [!UICONTROL Tamanho da fonte]
-   * [!UICONTROL Espessura da fonte]
-   * [!UICONTROL Estilo da fonte]
-   * [!UICONTROL Cor] (especifique o código de cor ou use o seletor de cores)
-   * [!UICONTROL Espaçamento entre palavras]
-   * [!UICONTROL Altura da linha]
-   * [!UICONTROL Alinhamento do texto]
+  * [!UICONTROL Tamanho da fonte]
+  * [!UICONTROL Espessura da fonte]
+  * [!UICONTROL Estilo da fonte]
+  * [!UICONTROL Cor] (especifique o código de cor ou use o seletor de cores)
+  * [!UICONTROL Espaçamento entre palavras]
+  * [!UICONTROL Altura da linha]
+  * [!UICONTROL Alinhamento do texto]
 
 * **[!UICONTROL Margem]**
 
@@ -106,8 +110,8 @@ Pontos azuis no painel principal e ao lado de cada opção nos vários painéis 
 
   Clique no ícone suspenso de cada margem para escolher entre as seguintes opções:
 
-   * [!UICONTROL Automático]
-   * [!UICONTROL Valor] (arraste o controle deslizante para definir a margem ou especifique o número de pixels para cada margem)
+  * [!UICONTROL Automático]
+  * [!UICONTROL Valor] (arraste o controle deslizante para definir a margem ou especifique o número de pixels para cada margem)
 
   A margem suporta valores positivos e negativos.
 
@@ -129,9 +133,9 @@ Pontos azuis no painel principal e ao lado de cada opção nos vários painéis 
 
   É possível editar os seguintes estilos para cada borda (superior, direita, inferior e esquerda):
 
-   * [!UICONTROL Estilo de borda] (nenhum, oculto, pontilhado, tracejado, sólido ou duplo)
-   * [!UICONTROL Cor da borda] (especifique o código de cor ou use o seletor de cores)
-   * [!UICONTROL Largura da borda] (arraste o controle deslizante para selecionar uma largura de borda ou especifique a largura em pixels)
+  * [!UICONTROL Estilo de borda] (nenhum, oculto, pontilhado, tracejado, sólido ou duplo)
+  * [!UICONTROL Cor da borda] (especifique o código de cor ou use o seletor de cores)
+  * [!UICONTROL Largura da borda] (arraste o controle deslizante para selecionar uma largura de borda ou especifique a largura em pixels)
 
   A borda suporta escalas de largura a partir de 0.
 
@@ -143,16 +147,16 @@ Pontos azuis no painel principal e ao lado de cada opção nos vários painéis 
 
   Clique na lista suspensa [!UICONTROL Estático] para escolher entre as seguintes opções de posição:
 
-   * [!UICONTROL Estático]
-   * [!UICONTROL Relativo]
-   * [!UICONTROL Absoluto]
-   * [!UICONTROL Fixo]
-   * [!UICONTROL Fixo]
+  * [!UICONTROL Estático]
+  * [!UICONTROL Relativo]
+  * [!UICONTROL Absoluto]
+  * [!UICONTROL Fixo]
+  * [!UICONTROL Fixo]
 
   Clique no ícone suspenso de cada posição para escolher entre as seguintes opções:
 
-   * [!UICONTROL Automático]
-   * [!UICONTROL Valor] (arraste o controle deslizante para posicionar o elemento ou especifique o número de pixels que deseja mover o elemento)
+  * [!UICONTROL Automático]
+  * [!UICONTROL Valor] (arraste o controle deslizante para posicionar o elemento ou especifique o número de pixels que deseja mover o elemento)
 
   A posição suporta valores positivos e negativos.
 
@@ -164,22 +168,22 @@ Pontos azuis no painel principal e ao lado de cada opção nos vários painéis 
 
   Clique no ícone suspenso ao lado de [!UICONTROL Largura] e [!UICONTROL Altura] para escolher entre as seguintes opções:
 
-   * [!UICONTROL Automático]
-   * [!UICONTROL Valor] (arraste o controle deslizante para dimensionar o elemento ou especifique o número de pixels para cada dimensão)
+  * [!UICONTROL Automático]
+  * [!UICONTROL Valor] (arraste o controle deslizante para dimensionar o elemento ou especifique o número de pixels para cada dimensão)
 
 * **[!UICONTROL Filtro]**
 
   Arraste o controle deslizante para cada opção de filtro ou especifique a porcentagem desejada:
 
-   * [!UICONTROL Sépia]
-   * [!UICONTROL Contraste]
-   * [!UICONTROL Brilho]
-   * [!UICONTROL GrayScale]
-   * [!UICONTROL Desfoque]
-   * [!UICONTROL Opacidade]
-   * [!UICONTROL Inverter]
-*[!UICONTROL &#x200B; Hue-rotate]
-   * [!UICONTROL Saturar]
+  * [!UICONTROL Sépia]
+  * [!UICONTROL Contraste]
+  * [!UICONTROL Brilho]
+  * [!UICONTROL GrayScale]
+  * [!UICONTROL Desfoque]
+  * [!UICONTROL Opacidade]
+  * [!UICONTROL Inverter]
+    *[!UICONTROL  Hue-rotate]
+  * [!UICONTROL Saturar]
 
 * **[!UICONTROL Editor de CSS]**
 
@@ -217,7 +221,7 @@ As opções disponíveis são as seguintes:
 
 ### [!UICONTROL Decisão de oferta]
 
-Adicione uma [oferta criada em [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=pt-BR){target=_blank} para apresentar a melhor oferta e experiência aos seus clientes usando o Offer Decisioning.
+Adicione uma [oferta criada em [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} para apresentar a melhor oferta e experiência aos seus clientes usando o Offer Decisioning.
 
 **Observação:** esta opção está disponível somente durante a edição ou a criação das [atividades manuais de [!UICONTROL Teste A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) ou [[!UICONTROL Direcionamento de experiência]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Essa opção não está disponível para outros tipos de atividade.
 
@@ -249,7 +253,7 @@ As opções disponíveis são as seguintes:
 
 ### [!UICONTROL Decisão de oferta]
 
-Adicione uma [oferta criada em [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=pt-BR){target=_blank} para apresentar a melhor oferta e experiência aos seus clientes usando o Offer Decisioning.
+Adicione uma [oferta criada em [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} para apresentar a melhor oferta e experiência aos seus clientes usando o Offer Decisioning.
 
 **Observação:** esta opção está disponível somente durante a edição ou a criação das [atividades manuais de [!UICONTROL Teste A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) ou [[!UICONTROL Direcionamento de experiência]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Essa opção não está disponível para outros tipos de atividade.
 
@@ -281,7 +285,7 @@ As opções disponíveis são as seguintes:
 
 ### [!UICONTROL Decisão de oferta]
 
-Adicione uma [oferta criada em [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=pt-BR){target=_blank} para apresentar a melhor oferta e experiência aos seus clientes usando o Offer Decisioning.
+Adicione uma [oferta criada em [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} para apresentar a melhor oferta e experiência aos seus clientes usando o Offer Decisioning.
 
 **Observação:** esta opção está disponível somente durante a edição ou a criação das [atividades manuais de [!UICONTROL Teste A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) ou [[!UICONTROL Direcionamento de experiência]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Essa opção não está disponível para outros tipos de atividade.
 
@@ -371,7 +375,7 @@ Desfaça as alterações feitas em suas atividades durante uma sessão de altera
 
 ## Considerações {#considerations}
 
-* Se uma oferta inclui conteúdo HTML, consulte “Como o at.js renderiza ofertas com conteúdo HTML” em [Como o at.js funciona](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=pt-BR){target=_blank}, para obter mais informações.
+* Se uma oferta inclui conteúdo HTML, consulte “Como o at.js renderiza ofertas com conteúdo HTML” em [Como o at.js funciona](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}, para obter mais informações.
 
 ## Suporte a elemento personalizado {#custom}
 
@@ -388,16 +392,16 @@ A maioria das ações do VEC é compatível com eventos personalizados e dentro 
 As seguintes ações não estão disponíveis em elementos personalizados:
 
 * [!UICONTROL Editar]
-   * [!UICONTROL Texto/HTML]
-   * [!UICONTROL Link]
-   * [!UICONTROL Editar Source]
+  * [!UICONTROL Texto/HTML]
+  * [!UICONTROL Link]
+  * [!UICONTROL Editar Source]
 
 * [!UICONTROL Substituir conteúdo]
 
 A seguinte ação não está disponível dentro de elementos personalizados:
 
 * [!UICONTROL Layout]
-   * [!UICONTROL Reorganizar]
+  * [!UICONTROL Reorganizar]
 
 ## Navegar pelos elementos usando o caminho DOM {#dom-path}
 

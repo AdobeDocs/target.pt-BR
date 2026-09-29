@@ -1,16 +1,23 @@
 ---
 keywords: criador de experiências baseado em forma; criador baseado em forma; refinamentos
-description: Saiba como usar o Adobe [!DNL Target] Experience Composer baseado em formulário para criação de experiências não visuais. Use este compositor quando o VEC não estiver disponível ou não for prático.
+description: Saiba como usar o Experience Composer baseado em formulário do Adobe [!DNL Target] para criação de experiência não visual. Use este compositor quando o VEC não estiver disponível ou não for prático.
 title: Como usar o Experience Composer baseado em formulário?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c3941678-bb9e-4bea-bdba-ce89c7d01eba
+    internal-label: Activity tools
+subfeature_v2:
+  - id: b39680ca-97f2-4fca-8fdd-bea7ed8010de
+    internal-label: Form based Experience Composer
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '889'
 ht-degree: 39%
-
 ---
-
 # Experience Composer baseado em formulário
 
 O [!DNL Adobe Target] [!UICONTROL Experience Composer baseado em formulário] é uma experiência não visual e uma interface de criação de ofertas útil para criar experiências para uso nas atividades de [!UICONTROL Teste A/B], [!UICONTROL Direcionamento de experiência], [!UICONTROL Automated Personalization] e [!UICONTROL Recommendations] quando o [!UICONTROL Visual Experience Composer] (VEC) não estiver disponível ou não for prático. Por exemplo, você pode usar o Experience Composer baseado em formulário para criar experiências e ofertas para entrega em emails, quiosques e assistentes de voz.

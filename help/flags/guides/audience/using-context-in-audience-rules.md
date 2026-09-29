@@ -4,13 +4,14 @@ description: Saiba como usar atributos de contexto em regras de público-alvo pa
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 1%
-
 ---
-
 # Usar contexto nas regras de público {#context-in-audience-rules}
 
 Os atributos de contexto são valores fornecidos pelo aplicativo cliente no tempo de execução. Eles permitem definir usuários como alvo com base em informações dinâmicas no nível da sessão, como idioma ativo do usuário, tipo de dispositivo ou estado do aplicativo.

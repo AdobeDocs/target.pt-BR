@@ -1,16 +1,23 @@
 ---
 keywords: configurações de atividade, metas e configurações A/B, configurações de relatórios, métricas de meta, métricas de sucesso, métricas dependentes de sucesso, configurações avançadas, meta principal, métricas adicionais, objetivo, prioridade, duração, solução de relatórios, meta, públicos-alvo para relatórios, qual métrica de sucesso deve ser alcançada antes de incremento dessa métrica, o que acontecerá após o usuário encontrar essa métrica de meta, observações
 description: Saiba como usar a página [!UICONTROL Metas e configurações] para especificar informações sobre as metas de uma atividade A/B.
-title: Como Especificar Metas e Configurações em uma Atividade A/B [!DNL Target] ?
+title: Como faço para especificar metas e configurações em uma atividade A/B do [!DNL Target]?
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 37%
-
+source-wordcount: '1416'
+ht-degree: 38%
 ---
-
 # Metas e Configurações
 
 A página [!UICONTROL Metas e Configurações] em [!DNL Adobe Target] é onde você especifica informações sobre as metas da atividade.
@@ -25,7 +32,7 @@ A seção [!UICONTROL Configurações da Atividade] da página [!UICONTROL Metas
 |--- |--- |
 | [!UICONTROL Objetivo] | Digite um objetivo opcional. O objetivo pode ser qualquer informação que ajude você e os membros da equipe a identificar a atividade. |
 | [!UICONTROL Prioridade] | Dependendo das configurações, a interface do usuário do [!DNL Target] e as opções de [!UICONTROL Prioridade] variam. Você pode usar as configurações herdadas de [!UICONTROL Baixo], [!UICONTROL Medium] ou [!UICONTROL Alto], ou pode habilitar prioridades otimizadas de 0 a 999.<P>A prioridade é usada se várias atividades forem atribuídas para o mesmo local com o mesmo público-alvo. Se duas ou mais atividades forem atribuídas ao local, a atividade com a maior prioridade é exibida.<P>Se esta opção não estiver habilitada em [!UICONTROL Administration] (padrão), especifique uma prioridade: [!UICONTROL Low], [!UICONTROL Medium] ou [!UICONTROL High].<P>Para habilitar [prioridades otimizadas](/help/main/administrating-target/reporting.md), clique em [!UICONTROL Administração] > [!UICONTROL Relatórios] e alterne a opção [!UICONTROL Habilitar Prioridades Otimizadas] para a posição &quot;Ativado&quot;. <P>Se esta opção estiver habilitada, especifique um valor de 0 a 999: 0 = [!UICONTROL Baixo] e 999 = [!UICONTROL Alto]. <P>Para atividades criadas em versões anteriores do [!DNL Target], a prioridade [!UICONTROL Baixa] é convertida para 0, a [!UICONTROL Medium] é convertida para 5 e a [!UICONTROL Alta] é convertida para 10. É possível ajustar esses valores conforme necessário.<P>Observação: antes de poder desativar esta opção após o uso de prioridades otimizadas, todas as prioridades devem ser ajustadas novamente para 0, 5 e 10. |
-| Duração | A atividade pode começar quando aprovada ou você pode definir data e hora específicas. Da mesma maneira, a atividade não pode terminar quando é desativada, ou você pode definir uma data e hora. O seletor de hora usa um relógio de 24 horas, sendo 00:00 meia-noite. O fuso horário é definido para o que foi configurado no navegador. Para usar um fuso horário diferente, defina o navegador para outro fuso horário e reinicie-o. |
+| Duração | A atividade pode começar quando aprovada ou você pode definir data e hora específicas. Da mesma maneira, a atividade não pode terminar quando é desativada, ou você pode definir uma data e hora. O seletor de hora usa um relógio de 24 horas, sendo 00h a meia-noite. O fuso horário é definido para o que foi configurado no navegador. Para usar um fuso horário diferente, defina o navegador para outro fuso horário e reinicie-o. |
 
 ## [!UICONTROL Configurações da geração de relatórios] {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -54,7 +61,7 @@ Para especificar as configurações avançadas, clique no ícone **[!UICONTROL M
 
 | Configuração | Descrição |
 |--- |--- |
-| [!UICONTROL Qual métrica de sucesso deve ser alcançada antes do incremento dessa métrica?] | Use essa opção para contar apenas alguém que atingiu a métrica de sucesso se já tiver atingido uma métrica de sucesso diferente. Por exemplo, uma conversão de atividade só pode ser válida se o visitante clicar na oferta ou acessar uma página específica antes da conversão. É possível fornecer dependência em várias métricas, juntamente com a flexibilidade para escolher se a métrica deve ser alcançada ou não para que a contagem seja incrementada. Defina ambas as métricas de sucesso (ou várias) para poder tornar uma dependente da outra. A opção [!UICONTROL Adicionar dependência] permite que a métrica de sucesso seja incrementada se outra métrica de sucesso for ou não alcançada. Para adicionar uma dependência:<ul><li>Depois de adicionar outras métricas, clique em [!UICONTROL Configurações avançadas].</li><li>Clique na opção [!UICONTROL Adicionar dependência]:</li><li>Arraste e solte as métricas desejadas do painel esquerdo para o painel direito e clique em [!UICONTROL Alcançado] para alternar a configuração entre [!UICONTROL Alcançado] e[!UICONTROL &#x200B; Não alcançado].</li><li>É possível editar ou remover dependências depois de adicioná-las.</li></ul> |
+| [!UICONTROL Qual métrica de sucesso deve ser alcançada antes do incremento dessa métrica?] | Use essa opção para contar apenas alguém que atingiu a métrica de sucesso se já tiver atingido uma métrica de sucesso diferente. Por exemplo, uma conversão de atividade só pode ser válida se o visitante clicar na oferta ou acessar uma página específica antes da conversão. É possível fornecer dependência em várias métricas, juntamente com a flexibilidade para escolher se a métrica deve ser alcançada ou não para que a contagem seja incrementada. Defina ambas as métricas de sucesso (ou várias) para poder tornar uma dependente da outra. A opção [!UICONTROL Adicionar dependência] permite que a métrica de sucesso seja incrementada se outra métrica de sucesso for ou não alcançada. Para adicionar uma dependência:<ul><li>Depois de adicionar outras métricas, clique em [!UICONTROL Configurações avançadas].</li><li>Clique na opção [!UICONTROL Adicionar dependência]:</li><li>Arraste e solte as métricas desejadas do painel esquerdo para o painel direito e clique em [!UICONTROL Alcançado] para alternar a configuração entre [!UICONTROL Alcançado] e[!UICONTROL  Não alcançado].</li><li>É possível editar ou remover dependências depois de adicioná-las.</li></ul> |
 | [!UICONTROL O que acontecerá após o usuário encontrar esta métrica de meta?] | Há três opções para o que acontece depois que um visitante atinge a métrica de meta:<ul><li>Selecione [!UICONTROL Aumentar a contagem e manter o usuário na atividade] para especificar como é feito o aumento da contagem.</li><li>Selecione [!UICONTROL Aumentar a contagem, liberar o usuário e permitir a reentrada] para especificar a experiência que o usuário vê ao entrar na atividade novamente.</li><li>Selecione [!UICONTROL Incrementar contagem, liberar usuário e barra de reentrada] para especificar o que o usuário vê em vez do conteúdo da atividade.</li></ul> |
 | [!UICONTROL Como a contagem será incrementada?] | Existem três opções de como a contagem é incrementada:<ul><li>[!UICONTROL Uma vez por participante]</li><li>[!UICONTROL Em Todas as Impressões (Excluindo atualizações de página)]</li><li>[!UICONTROL Em Todas As Impressões]</li></ul> |
 
@@ -87,4 +94,4 @@ Este vídeo demonstra como a configuração das atividades se encaixa no fluxo d
 * Criar uma atividade A/B no Adobe Target
 * Aloque o tráfego usando uma divisão manual ou automática
 
->[!VIDEO](https://video.tv.adobe.com/v/31295?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

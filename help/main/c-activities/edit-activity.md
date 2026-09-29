@@ -4,20 +4,23 @@ description: Saiba mais sobre as diferentes maneiras de editar uma atividade exi
 title: Como editar uma atividade?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-TQID: https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA
+TQID: 'https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1049
+source-wordcount: '1049'
 ht-degree: 21%
-
 ---
-
 # Editar uma atividade
 
 Saiba como editar atividades existentes no [!DNL Adobe Target]. Este artigo aborda os diferentes métodos disponíveis na interface do [!DNL Target] para modificar atividades. Esteja você atualizando experiências, ajustando regras de direcionamento ou configurando metas, o [!DNL Target] garante que suas alterações sejam salvas com segurança antes da ativação.
@@ -70,33 +73,33 @@ Leve em consideração as seguintes informações ao usar a funcionalidade de co
 
 * Se você copiar uma atividade no mesmo espaço de trabalho ou do espaço de trabalho padrão para um espaço de trabalho não padrão, o Assistente de atividade será aberto automaticamente. Em cópias entre espaços de trabalho, talvez você só precise atualizar as propriedades da atividade.
 * Quando uma atividade é copiada de um espaço de trabalho não padrão para outro espaço de trabalho (seja padrão ou não padrão), o Assistente de atividade é aberto e alguma entrada manual é necessária para concluir a configuração:
-   * **[!UICONTROL Propriedades]**: as propriedades podem diferir entre espaços de trabalho. Essa situação pode acionar um aviso:
+  * **[!UICONTROL Propriedades]**: as propriedades podem diferir entre espaços de trabalho. Essa situação pode acionar um aviso:
 
-      * No [!UICONTROL Experience Composer baseado em formulário], avisos são exibidos diretamente na interface do usuário para visibilidade imediata.
+    * No [!UICONTROL Experience Composer baseado em formulário], avisos são exibidos diretamente na interface do usuário para visibilidade imediata.
 
-        ![Aviso de espaço de trabalho baseado em formulário](/help/main/c-activities/assets/form-based-warning.png)
+      ![Aviso de espaço de trabalho baseado em formulário](/help/main/c-activities/assets/form-based-warning.png)
 
-      * No VEC, os avisos ficam visíveis ao clicar em [!UICONTROL Configurar] > [!UICONTROL Propriedades].
+    * No VEC, os avisos ficam visíveis ao clicar em [!UICONTROL Configurar] > [!UICONTROL Propriedades].
 
-        ![vec-warning](/help/main/c-activities/assets/vec-warning.png)
+      ![vec-warning](/help/main/c-activities/assets/vec-warning.png)
 
-        Para resolver esse problema, clique em [!UICONTROL Adicionar/Remover] para que somente as propriedades disponíveis no espaço de trabalho de destino sejam exibidas para seleção.
+      Para resolver esse problema, clique em [!UICONTROL Adicionar/Remover] para que somente as propriedades disponíveis no espaço de trabalho de destino sejam exibidas para seleção.
 
-   * **Públicos-alvo e ofertas**: ao copiar uma atividade para um novo espaço de trabalho, todos os [!DNL Target] públicos-alvo e ofertas ad hoc associados do espaço de trabalho original são duplicados usando o formato: `<Entity Name> Copy <Date>` para [!DNL Target] públicos-alvo e para ofertas ad hoc `<Entity Name>`.
+  * **Públicos-alvo e ofertas**: ao copiar uma atividade para um novo espaço de trabalho, todos os [!DNL Target] públicos-alvo e ofertas ad hoc associados do espaço de trabalho original são duplicados usando o formato: `<Entity Name> Copy <Date>` para [!DNL Target] públicos-alvo e para ofertas ad hoc `<Entity Name>`.
 
-     Detalhes de comportamento:
+    Detalhes de comportamento:
 
-      * Públicos-alvo e ofertas copiados não aparecem nas listas [!UICONTROL Públicos-alvo] e [!UICONTROL Ofertas] até que a atividade seja salva e reaberta.
-      * Essas entidades não podem ser editadas imediatamente após a cópia. Os clientes podem ver conteúdo vazio no VEC para esses itens durante a sessão de edição inicial.
-      * Os clientes podem substituir públicos-alvo ou ofertas copiadas por outros do espaço de trabalho de destino, se necessário.
+    * Públicos-alvo e ofertas copiados não aparecem nas listas [!UICONTROL Públicos-alvo] e [!UICONTROL Ofertas] até que a atividade seja salva e reaberta.
+    * Essas entidades não podem ser editadas imediatamente após a cópia. Os clientes podem ver conteúdo vazio no VEC para esses itens durante a sessão de edição inicial.
+    * Os clientes podem substituir públicos-alvo ou ofertas copiadas por outros do espaço de trabalho de destino, se necessário.
 
-     Esse processo garante uma duplicação mais suave de atividades entre espaços de trabalho, mantendo a flexibilidade para personalização.
+    Esse processo garante uma duplicação mais suave de atividades entre espaços de trabalho, mantendo a flexibilidade para personalização.
 
-     Ao copiar uma atividade, os públicos-alvo que não são de destino e as ofertas que não são salvas no espaço de trabalho atual ou no espaço de trabalho padrão devem ser substituídos manualmente.
+    Ao copiar uma atividade, os públicos-alvo que não são de destino e as ofertas que não são salvas no espaço de trabalho atual ou no espaço de trabalho padrão devem ser substituídos manualmente.
 
-     A substituição manual desses públicos-alvo que não são de destino e ofertas garante que apenas entidades válidas e acessíveis sejam usadas na atividade copiada e evita erros durante a edição ou o delivery.
+    A substituição manual desses públicos-alvo que não são de destino e ofertas garante que apenas entidades válidas e acessíveis sejam usadas na atividade copiada e evita erros durante a edição ou o delivery.
 
-     ![Mensagem de aviso](/help/main/c-activities/assets/copy.png)
+    ![Mensagem de aviso](/help/main/c-activities/assets/copy.png)
 
 >[!NOTE]
 >

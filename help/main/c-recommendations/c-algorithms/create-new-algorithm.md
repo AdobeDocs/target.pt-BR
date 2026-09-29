@@ -2,16 +2,21 @@
 keywords: critérios;algoritmo;vertical do setor;tipo de página;chave de recomendação;lógica de recomendação;lógica;intervalo de dados;janela de lookback;fonte de dados de comportamento;design parcial;recomendações de backup;regras de inclusão;ponderação de atributos;categoria atual;atributo personalizado;último item comprado;último item exibido;item mais exibido;item mais exibido;categoria favorita;popularidade;item exibido recentemente;última comprado;última exibido;mais exibido;favorito;exibido recentemente
 description: Saiba como criar critérios que controlam o conteúdo de suas atividades do [!DNL Recommendations] para mostrar as recomendações que são mais apropriadas para sua atividade.
 title: Como criar [!UICONTROL critérios] em [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
+TQID: 'https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -21,7 +26,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '2985'
 ht-degree: 44%
@@ -178,13 +183,13 @@ As regras de [!UICONTROL Conteúdo de Backup] determinam o que acontecerá se o 
 
    | Opção Janela de pesquisa | Frequência atualizada (exibida ao passar o mouse) | Algoritmos compatíveis |
    | --- | --- | --- |
-   | Seis horas | O algoritmo é executado a cada 3-6 horas | [!UICONTROL Algoritmos &#x200B;] baseados em popularidade quando o [!UICONTROL Source de Dados Comportamentais] selecionado é [!DNL Adobe Target] |
-   | Um dia | O algoritmo é executado a cada 12-24 horas | [!UICONTROL Algoritmos &#x200B;] com base em popularidade |
-   | Dois dias | O algoritmo é executado a cada 12-24 horas | <ul><li>[!UICONTROL Algoritmos &#x200B;] com base em popularidade</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em itens</li><li>[!UICONTROL Algoritmos &#x200B;] com base no usuário</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em carrinho</li></ul> |
-   | Uma semana | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos &#x200B;] com base em popularidade</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em itens</li><li>[!UICONTROL Algoritmos &#x200B;] com base no usuário</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em carrinho</li></ul> |
-   | Duas semanas | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos &#x200B;] com base em popularidade</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em itens</li><li>Todos os algoritmos [!UICONTROL baseados em usuário]</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em carrinho</li></ul> |
-   | Um mês (30 dias) | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos &#x200B;] com base em popularidade</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em itens</li><li>[!UICONTROL Algoritmos &#x200B;] com base no usuário</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em carrinho</li></ul> |
-   | Dois meses (61 dias) | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos &#x200B;] com base em popularidade</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em itens</li><li>[!UICONTROL Algoritmos &#x200B;] com base no usuário</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em carrinho</li></ul> |
+   | Seis horas | O algoritmo é executado a cada 3-6 horas | [!UICONTROL Algoritmos ] baseados em popularidade quando o [!UICONTROL Source de Dados Comportamentais] selecionado é [!DNL Adobe Target] |
+   | Um dia | O algoritmo é executado a cada 12-24 horas | [!UICONTROL Algoritmos ] com base em popularidade |
+   | Dois dias | O algoritmo é executado a cada 12-24 horas | <ul><li>[!UICONTROL Algoritmos ] com base em popularidade</li><li>[!UICONTROL Algoritmos ] baseados em itens</li><li>[!UICONTROL Algoritmos ] com base no usuário</li><li>[!UICONTROL Algoritmos ] baseados em carrinho</li></ul> |
+   | Uma semana | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] com base em popularidade</li><li>[!UICONTROL Algoritmos ] baseados em itens</li><li>[!UICONTROL Algoritmos ] com base no usuário</li><li>[!UICONTROL Algoritmos ] baseados em carrinho</li></ul> |
+   | Duas semanas | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] com base em popularidade</li><li>[!UICONTROL Algoritmos ] baseados em itens</li><li>Todos os algoritmos [!UICONTROL baseados em usuário]</li><li>[!UICONTROL Algoritmos ] baseados em carrinho</li></ul> |
+   | Um mês (30 dias) | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] com base em popularidade</li><li>[!UICONTROL Algoritmos ] baseados em itens</li><li>[!UICONTROL Algoritmos ] com base no usuário</li><li>[!UICONTROL Algoritmos ] baseados em carrinho</li></ul> |
+   | Dois meses (61 dias) | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] com base em popularidade</li><li>[!UICONTROL Algoritmos ] baseados em itens</li><li>[!UICONTROL Algoritmos ] com base no usuário</li><li>[!UICONTROL Algoritmos ] baseados em carrinho</li></ul> |
 
 ## Similaridade de conteúdo {#similarity}
 

@@ -1,23 +1,30 @@
 ---
 keywords: pesquisa de catálogo;catálogo;pesquisa;exclusão;coleção;filtro;recomendações
 description: Saiba como usar a [!DNL Recommendations] [!UICONTROL Pesquisa no catálogo] para localizar produtos ou conteúdo, remover itens do catálogo e muito mais.
-title: Como usar a [!DNL Recommendations] [!UICONTROL Pesquisa no catálogo]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+title: Como faço para usar a [!DNL Recommendations] [!UICONTROL Pesquisa no catálogo]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-TQID: https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic
+TQID: 'https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 552
-ht-degree: 21%
-
+source-wordcount: '554'
+ht-degree: 20%
 ---
-
 # [!UICONTROL Pesquisa no catálogo]
 
 A página [!UICONTROL Pesquisa no Catálogo] do [!DNL Adobe Recommendations] ajuda a localizar os produtos ou o conteúdo no catálogo. A tarefa mais básica que você pode executar nessa página é procurar um item. Além disso, você pode alterar o ambiente, filtrar aspectos, modificar colunas na tabela, adicionar novos aspectos de pesquisa e muito mais.

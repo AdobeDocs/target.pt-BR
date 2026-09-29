@@ -4,13 +4,14 @@ description: Saiba como criar um sinalizador de recurso em Sinalizadores, defini
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 2%
-
+ht-degree: 3%
 ---
-
 # Criar o primeiro sinalizador de recurso {#create-feature-flag}
 
 ## Pré-requisitos {#prerequisites}
@@ -44,7 +45,7 @@ Para criar um novo sinalizador de recurso, siga estas etapas no console:
 
 >[!IMPORTANT]
 >
->A **Chave** é o identificador usado em seu código e não pode ser alterada após a criação. As chaves **não podem conter espaços** e diferenciam maiúsculas de minúsculas **3&rbrace;.** O **Name** é apenas um rótulo de exibição e não é usado no código; os dois são independentes (o Name não é convertido na Key). Inserir um espaço no campo Chave produz o erro: _&quot;Valor inválido para chave de recurso.&quot;_
+>A **Chave** é o identificador usado em seu código e não pode ser alterada após a criação. As chaves **não podem conter espaços** e diferenciam maiúsculas de minúsculas **3}.** O **Name** é apenas um rótulo de exibição e não é usado no código; os dois são independentes (o Name não é convertido na Key). Inserir um espaço no campo Chave produz o erro: _&quot;Valor inválido para chave de recurso.&quot;_
 
 1. Opcionalmente, adicione um critério de público-alvo (consulte Etapa 2).
 1. Salve as configurações do sinalizador de recurso.

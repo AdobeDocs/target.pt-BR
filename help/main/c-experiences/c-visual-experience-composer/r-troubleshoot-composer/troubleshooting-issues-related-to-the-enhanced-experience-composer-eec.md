@@ -4,23 +4,29 @@ description: Saiba como solucionar problemas que às vezes ocorrem no [!DNL Adob
 title: Como soluciono problemas relacionados ao [!UICONTROL Enhanced Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-TQID: https://experienceleague.adobe.com/Yan2cKWjs-u9JHQzT-PiRAFdxUJa1JSHS-fT68yxIjg
+TQID: 'https://experienceleague.adobe.com/Yan2cKWjs-u9JHQzT-PiRAFdxUJa1JSHS-fT68yxIjg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Security
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 509
+source-wordcount: '510'
 ht-degree: 29%
-
 ---
-
 # Solução de problemas relacionados ao [!UICONTROL Enhanced Experience Composer]
 
 Problemas de exibição às vezes ocorrem no [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) sob determinadas condições.
@@ -147,7 +153,7 @@ Os motivos pelos quais você pode ver essa mensagem de erro e correções para c
 
   **Solução:** Inclua na lista de permissões os endereços IP listados acima.
 
-* **Problema:** os endereços IP são resolvidos, mas o seu site não é compatível com a versão 1.2 do TLS. Atualmente, o [!DNL Target] usa a configuração padrão 1.2. Antes do [!DNL Target] 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com TLS 1.0. Para obter mais informações, consulte [Alterações na criptografia do TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=pt-BR){target=_blank}.
+* **Problema:** os endereços IP são resolvidos, mas o seu site não é compatível com a versão 1.2 do TLS. Atualmente, o [!DNL Target] usa a configuração padrão 1.2. Antes do [!DNL Target] 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com TLS 1.0. Para obter mais informações, consulte [Alterações na criptografia do TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
   **Solução:** Veja a seguinte pergunta (O [!UICONTROL Enhanced Visual Experience Composer] não será carregado nas páginas seguras do meu site que usam TLS 1.2).
 
@@ -156,7 +162,7 @@ Os motivos pelos quais você pode ver essa mensagem de erro e correções para c
 ## O EEC não será carregado nas páginas seguras do meu site que usam TLS 1.0. (Somente EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++Detalhes
-Você poderá ver a mensagem de erro descrita acima em &quot;O [!UICONTROL Enhanced Visual Experience Composer] não será carregado nas páginas seguras do meu site.&quot; se os endereços IP acima forem resolvidos, mas o seu site não for compatível com a versão 1.2 do TLS. Atualmente, o [!DNL Target] usa a configuração padrão 1.2. Antes do [!DNL Target] 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com TLS 1.0. Para obter mais informações, consulte [Alterações na criptografia do TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=pt-BR){target=_blank}.
+Você poderá ver a mensagem de erro descrita acima em &quot;O [!UICONTROL Enhanced Visual Experience Composer] não será carregado nas páginas seguras do meu site.&quot; se os endereços IP acima forem resolvidos, mas o seu site não for compatível com a versão 1.2 do TLS. Atualmente, o [!DNL Target] usa a configuração padrão 1.2. Antes do [!DNL Target] 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com TLS 1.0. Para obter mais informações, consulte [Alterações na criptografia do TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
 Para verificar a versão do TLS no seu site usando o Firefox (outros navegadores têm etapas semelhantes):
 
@@ -173,7 +179,7 @@ Para verificar a versão do TLS no seu site usando o Firefox (outros navegadores
 
    ![imagem do firefox_more_info_3](assets/firefox_more_info_3.png)
 
-1. Se você descobrir que seu site está mostrando o TLS 1.0, consulte [Alterações de Criptografia do TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=pt-BR){target=_blank} para obter informações sobre a política de suporte TLS do Target. Para solucionar a situação por enquanto (válida até 12 de setembro de 2018){target=_blank}, acesse o [Atendimento ao cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para obter a configuração com a versão TLS e o domínio.
+1. Se você descobrir que seu site está mostrando o TLS 1.0, consulte [Alterações de Criptografia do TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} para obter informações sobre a política de suporte TLS do Target. Para solucionar a situação por enquanto (válida até 12 de setembro de 2018){target=_blank}, acesse o [Atendimento ao cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para obter a configuração com a versão TLS e o domínio.
 
 +++
 

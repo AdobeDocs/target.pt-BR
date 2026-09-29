@@ -4,26 +4,36 @@ description: Você criou sua primeira atividade no Adobe Target. O que vem a seg
 title: Onde posso encontrar recursos adicionais para usar o Target de maneira mais eficaz?
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-TQID: https://experienceleague.adobe.com/gnPAfU7eUX1v-Ku2KYzbn4l1SNqdLLtwcnpbVbiyrQM
+TQID: 'https://experienceleague.adobe.com/gnPAfU7eUX1v-Ku2KYzbn4l1SNqdLLtwcnpbVbiyrQM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 701
+source-wordcount: '701'
 ht-degree: 79%
-
 ---
-
 # Capítulo 9: Próximas etapas e recursos
 
 Abordamos as noções básicas para executar sua primeira atividade. Esperamos que essa atividade tenha mostrado a você e a sua empresa o incrível potencial do uso do [!DNL Adobe Target] para otimizar e personalizar o impacto nos resultados financeiros dos negócios. Isto é apenas um começo. É hora de pensar no que você vai se concentrar na segunda atividade? Considere a criação de uma lista priorizada de atividades que você deseja executar. Você ficará surpreso com a rapidez com que verá como, atividade por atividade, você melhora a experiência do cliente e impulsiona o sucesso dos negócios.
@@ -48,13 +58,13 @@ Compilamos uma lista organizada de informações valiosas para ajudá-lo a obter
 * **Série de webinários**: Noções básicas do Adobe Target. Associe-se à nossa série de webinários de Sucesso do cliente que explora as noções básicas da otimização com os usuários do Adobe Target. Consulte [Série de webinários de Noções básicas do Target](/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4).
 * **Horário do Atendimento ao cliente da Adobe**: &quot;Horário de atendimento&quot; é uma iniciativa liderada pela equipe de Atendimento ao cliente da Adobe. Essas sessões foram criadas para informar e ajudar os participantes a solucionar problemas e fornecer dicas e truques para obter sucesso com as soluções da [!DNL Adobe Experience Cloud], incluindo o [!DNL Target]. Consulte [Horário do Atendimento ao cliente da Adobe](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7).
 * **Adobe Summit**: Participe do maior evento profissional do ano para profissionais de marketing digital.
-   * [Adobe Summit](https://summit.adobe.com/na/) (América do Norte)
-   * [Adobe Summit](https://summit-emea.adobe.com/emea/) (EMEA)
+  * [Adobe Summit](https://summit.adobe.com/na/) (América do Norte)
+  * [Adobe Summit](https://summit-emea.adobe.com/emea/) (EMEA)
 
 ## Recursos adicionais
 
 * **Página inicial do Adobe Target**: A página inicial do [!DNL Adobe Target]; saiba mais sobre nossos recursos e veja nossas últimas histórias de sucesso aqui. Consulte [Adobe Target](https://www.adobe.com/br/marketing/target.html).
 * **O Blog**: Mantenha-se atualizado com as últimas notícias, dicas e histórias de sucesso seguindo o [blog do Target](https://blog.adobe.com/en/topics/target).
-* **Experience League**: Descubra os guias, os eventos e o treinamento necessários para iniciar seus negócios de experiência e se conectar com a comunidade do Target e encontrar as respostas que você está procurando. Consulte a [página inicial da Adobe Experience League](https://experienceleague.adobe.com/pt-br?lang=pt-BR#home).
+* **Experience League**: Descubra os guias, os eventos e o treinamento necessários para iniciar seus negócios de experiência e se conectar com a comunidade do Target e encontrar as respostas que você está procurando. Consulte a [página inicial da Adobe Experience League](https://experienceleague.adobe.com/?lang=pt-BR#home).
 * **Certificação do Adobe Target**: Obtenha o status de Adobe Certified Expert com os novos exames do Adobe Target. Agende um exame ou curso de treinamento aqui. Consulte [Treinamento e certificação](/help/main/c-intro/training-and-certification.md).
 * **Notas de versão do Adobe Target**: Informações sobre recursos, aprimoramentos e correções para cada versão do [!DNL Target Standard] e do [!DNL Target Premium]. Além disso, as notas de versão para APIs do Target, SDKs, a biblioteca de JavaScript (at.js) e outras alterações na plataforma também são incluídas, quando aplicável. Consulte [notas de versão do Target (atual)](/help/main/r-release-notes/release-notes.md).

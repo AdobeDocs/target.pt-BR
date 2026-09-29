@@ -1,27 +1,37 @@
 ---
 keywords: alocação automática de tráfego;direcionamento;Aumentar contagem e manter usuário na atividade;alocação de tráfego;alocação automática;alocação automática
-description: Saiba como usar uma atividade de [!UICONTROL Alocação automática] no [!DNL Adobe Target] que identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor.
+description: Saiba como usar uma atividade de [!UICONTROL Alocação automática] em [!DNL Adobe Target] que identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor.
 title: O que é uma atividade de [!UICONTROL Alocação automática]?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
+TQID: 'https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3756
+source-wordcount: '3760'
 ht-degree: 35%
-
 ---
-
 # Visão geral de [!UICONTROL Alocação automática]
 
 Uma atividade [!UICONTROL Alocação automática] em [!DNL Adobe Target] identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.
@@ -94,7 +104,7 @@ A ilustração mostra como o tráfego alocado para cada experiência progride ao
 >
 >Se uma atividade tiver apenas duas experiências, ambas as experiências obterão tráfego igual até que [!DNL Target] encontre uma experiência vencedora com 75% de confiança. Nesse ponto, dois terços do tráfego é alocado para o vencedor e um terço para o perdedor. Depois disso, quando uma experiência atingir a confiança de 95%, 90% do tráfego será alocado ao vencedor e 10% será alocado ao perdedor. [!DNL Target] sempre envia algum tráfego para a experiência &quot;perdida&quot; para evitar falsos positivos no final (ou seja, manter alguma exploração).
 
-Depois que uma atividade [!UICONTROL Alocação automática] é ativada, as seguintes operações da interface Target não são permitidas:
+Depois que uma atividade [!UICONTROL Alocação automática] é ativada, as seguintes operações da interface Tar[!DNL]get não são permitidas:
 
 * Alternar o modo &quot;Alocação de tráfego&quot; para &quot;Manual&quot;
 * Alterar o tipo de métrica de meta
@@ -134,9 +144,9 @@ Estes são exemplos de fatores que podem afetar o desempenho das experiências d
 
   Por exemplo:
 
-   * &quot;Graças a Deus é sexta-feira&quot; resulta em maiores conversões na sexta-feira.
-   * &quot;Jump-start sua segunda-feira&quot; tem maior conversão na segunda-feira.
-   * &quot;Prepare-se para um inverno na costa leste&quot; fornece uma conversão mais alta em locais da costa leste ou afetados pelo inverno.
+  * &quot;Graças a Deus é sexta-feira&quot; resulta em maiores conversões na sexta-feira.
+  * &quot;Jump-start sua segunda-feira&quot; tem maior conversão na segunda-feira.
+  * &quot;Prepare-se para um inverno na costa leste&quot; fornece uma conversão mais alta em locais da costa leste ou afetados pelo inverno.
 
   Usar experiências com relevância contextual variável pode distorcer os resultados em um teste [!UICONTROL Alocação automática] mais do que em um teste A/B, pois o teste A/B analisa os resultados em um período mais longo.
 
@@ -257,4 +267,4 @@ Este vídeo monstra como criar um teste A/B usando o fluxo de trabalho orientado
 * Criar uma atividade A/B em [!DNL Adobe Target]
 * Aloque o tráfego usando uma divisão manual ou automática
 
->[!VIDEO](https://video.tv.adobe.com/v/31295?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

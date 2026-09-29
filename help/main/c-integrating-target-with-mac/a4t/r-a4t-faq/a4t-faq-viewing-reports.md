@@ -1,27 +1,33 @@
 ---
 keywords: perguntas frequentes; perguntas frequentes; analytics para target; a4T; relatório; relatórios; exibir relatórios; relatórios; metodologia de contagem; impressões; visitantes; visitas; métrica padrão; conversões de atividade; não especificado
-description: Encontre respostas para perguntas frequentes sobre a exibição de relatórios ao usar o Analytics for [!DNL Target] (A4T). O A4T permite usar os relatórios do Analytics para  [!DNL Target]  atividades.
+description: Encontre respostas para perguntas frequentes sobre como visualizar relatórios ao usar o Analytics for [!DNL Target] (A4T). O A4T permite usar os relatórios do Analytics para [!DNL Target] atividades.
 title: Encontre respostas para perguntas sobre a exibição de relatórios com o A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-TQID: https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc
+TQID: 'https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2699
+source-wordcount: '2700'
 ht-degree: 27%
-
 ---
-
 # Exibição de relatórios - Perguntas frequentes sobre o A4T
 
 Este tópico contém respostas para as perguntas mais frequentes sobre exibição de relatórios ao usar o [!DNL Adobe Analytics] como fonte de relatórios para o [!DNL Adobe Target] (A4T).
@@ -94,7 +100,7 @@ Para obter mais informações, consulte [Como configurar relatórios do A4T no A
 +++Resposta
 [!DNL Reports & Analytics] aplica um modelo de atribuição do mesmo toque a &quot;impressões de atividade&quot; e &quot;conversões de atividade&quot;, enquanto [!DNL Analysis Workspace] exibe as métricas brutas, que podem parecer infladas devido à persistência da dimensão [!DNL Target].
 
-Para avaliar métricas [!UICONTROL Impressões de atividade] e [!UICONTROL Conversões de atividade] precisas em [!DNL Analysis Workspace], verifique se ambas as métricas aplicaram modelos de atribuição [!UICONTROL Mesmo contato]. Os modelos podem ser aplicados clicando na engrenagem das configurações de coluna, habilitando [!UICONTROL Modelos de atribuição não padrão] e selecionando [!UICONTROL Mesmo toque]. Saiba mais sobre atribuição em [Visão geral de IQ dos atributos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=pt-BR) no *Guia de ferramentas do Analytics*.
+Para avaliar métricas [!UICONTROL Impressões de atividade] e [!UICONTROL Conversões de atividade] precisas em [!DNL Analysis Workspace], verifique se ambas as métricas aplicaram modelos de atribuição [!UICONTROL Mesmo contato]. Os modelos podem ser aplicados clicando na engrenagem das configurações de coluna, habilitando [!UICONTROL Modelos de atribuição não padrão] e selecionando [!UICONTROL Mesmo toque]. Saiba mais sobre atribuição em [Visão geral de IQ dos atributos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) no *Guia de ferramentas do Analytics*.
 
 +++
 
@@ -160,7 +166,7 @@ O usuário volta em 1 de abril, visualiza outras cinco páginas e faz uma compra
 
 Como ambas as experiências foram vistas antes da conversão, ambas recebem &quot;crédito&quot; pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para os relatórios de [!DNL Target], como você não está comparando uma atividade de [!DNL Target] com outra atividade para ver qual é mais bem-sucedida, não importa se todas as atividades que o usuário viu receberam crédito. Você está comparando os resultados de dois itens em uma única atividade. Não é possível para um usuário ver experiências diferentes na mesma atividade, de modo que você não precisa se preocupar com a contaminação cruzada do crédito do pedido.
 
-Para obter mais informações, consulte [Variáveis de conversão (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=pt-BR)) no *Guia de administração do Analytics*.
+Para obter mais informações, consulte [Variáveis de conversão (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) no *Guia de administração do Analytics*.
 
 +++
 
@@ -232,7 +238,7 @@ Lembre-se de alguns pontos ao visualizar os relatórios de [!DNL Analytics]:
 Para exibir as impressões da atividade em [!DNL Analysis Workspace]:
 
 1. Na interface do usuário do [!DNL Target], clique em **[!UICONTROL Exibir no Analytics]**.
-1. Adicione a coluna **[!UICONTROL Impressões da atividade]** ao relatório [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR){target=_blank}.
+1. Adicione a coluna **[!UICONTROL Impressões da atividade]** ao relatório [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank}.
 1. Na coluna **[!UICONTROL Impressões de atividade]**, clique no ícone [!UICONTROL Engrenagem].
 1. Clique em **[!UICONTROL Usar modelo de atribuição não padrão]**.
 1. Selecione **[!UICONTROL Mesmo modelo de toque]** > **[!UICONTROL Aplicar]**.

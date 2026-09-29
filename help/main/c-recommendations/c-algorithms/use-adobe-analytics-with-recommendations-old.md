@@ -1,17 +1,24 @@
 ---
 keywords: fonte de dados comportamentais;análises;recomendações;critérios;variáveis do produto
-description: Saiba como usar o [!DNL Adobe Analytics] como a fonte de dados comportamentais para usar os dados comportamentais baseados em visualização e/ou compra do [!DNL Analytics] no [!DNL Target Recommendations].
+description: Saiba como usar [!DNL Adobe Analytics] como fonte de dados comportamentais para usar os dados comportamentais baseados em visualização e/ou compra de [!DNL Analytics] em [!DNL Target Recommendations].
 title: Como usar [!DNL Adobe Analytics] com [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '829'
 ht-degree: 1%
-
 ---
-
 # Usar [!DNL Adobe Analytics] com [!DNL Recommendations]
 
 Usar [!DNL Adobe Analytics] como fonte de dados comportamentais permite que os clientes usem os dados comportamentais baseados em visualização e/ou compra de [!DNL Analytics] em [!DNL Adobe Target] [!DNL Recommendations] atividades. Este recurso é especialmente útil em situações em que a configuração do [!DNL Target Recommendations] é nova e o [!DNL Analytics] tem muitos dados históricos para usar.
@@ -49,7 +56,7 @@ Um exemplo de formato de feed do [!DNL Target Recommendations] atua como guia no
 >
 >Se for um site de conteúdo, as respectivas partes de conteúdo deverão ser tratadas como &quot;produtos&quot; e os atributos associados sobre esse conteúdo deverão ser passados como atributos. Esses atributos podem incluir nome do autor, data de publicação, título do conteúdo, mês de lançamento e assim por diante. A granularidade do nível de categoria ou dos tipos de categoria deve ser decidida pela empresa com base nos requisitos do caso de uso.
 
-Para obter mais detalhes sobre como configurar variáveis de produto, consulte [produtos](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=pt-BR) no guia *Implementar o Adobe Analytics*. Algumas das notas nessa documentação exigem a discrição da equipe que está implantando (exemplo : Categoria). É sempre aconselhável consultar [!DNL Adobe] antes de realizar esta atividade.
+Para obter mais detalhes sobre como configurar variáveis de produto, consulte [produtos](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) no guia *Implementar o Adobe Analytics*. Algumas das notas nessa documentação exigem a discrição da equipe que está implantando (exemplo : Categoria). É sempre aconselhável consultar [!DNL Adobe] antes de realizar esta atividade.
 
 ### Considerações
 

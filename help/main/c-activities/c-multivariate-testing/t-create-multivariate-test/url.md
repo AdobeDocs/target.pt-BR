@@ -1,21 +1,24 @@
 ---
 keywords: Testes multivariados;url de atividade
-description: Saiba como especificar a URL de atividade que determina a página que é usada no teste e que é aberta quando a atividade de [!UICONTROL Teste multivariado] é criada usando  [!DNL Adobe Target].
+description: Saiba como especificar a URL de atividade que determina a página que é usada no teste e que é aberta quando a atividade de [!UICONTROL Teste Multivariado] é criada usando [!DNL Adobe Target].
 title: Qual é o URL de atividade em uma atividade de [!UICONTROL Teste multivariado] (MVT)?
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
-TQID: https://experienceleague.adobe.com/oQKwrlZ95XKEKSJIUiWqXXo9AJJzCb20gfS1rtwGImM
+TQID: 'https://experienceleague.adobe.com/oQKwrlZ95XKEKSJIUiWqXXo9AJJzCb20gfS1rtwGImM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '298'
 ht-degree: 38%
-
 ---
-
 # URL da atividade
 
 A URL da atividade determina a página que é usada no [!UICONTROL Teste Multivariado] (MVT) e que é aberta quando o teste é criado no [!DNL Adobe Target].
@@ -34,7 +37,7 @@ A URL da atividade determina a página que é usada no [!UICONTROL Teste Multiva
 
    Regras adicionais podem ser baseadas em qualquer um dos seguintes:
 
-   * [!UICONTROL &#x200B; URL]
+   * [!UICONTROL  URL]
    * [!UICONTROL Domínio]
    * [!UICONTROL Caminho]
    * [!UICONTROL Fragmento de hash (#)]

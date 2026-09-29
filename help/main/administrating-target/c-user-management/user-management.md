@@ -1,25 +1,30 @@
 ---
 keywords: adicionar usuário;gerenciar usuário;permissões do usuário
-description: Saiba como gerenciar usuários no Adobe  [!DNL Target]  Standard e gerenciar propriedades e permissões empresariais no Adobe  [!DNL Target]  Premium.
+description: Saiba como gerenciar usuários no Adobe [!DNL Target] Standard e gerenciar propriedades e permissões empresariais no Adobe [!DNL Target] Premium.
 title: Como configurar o gerenciamento de usuários?
 feature: Administration & Configuration
 role: Admin
 exl-id: 3bf0c23c-7382-43d2-af54-734221063872
-TQID: https://experienceleague.adobe.com/07Lay5EQLeUlmi4I5N097q936tXWXCFt7I9VZ7dfNvQ
+TQID: 'https://experienceleague.adobe.com/07Lay5EQLeUlmi4I5N097q936tXWXCFt7I9VZ7dfNvQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 224
-ht-degree: 58%
-
+source-wordcount: '226'
+ht-degree: 51%
 ---
-
 # Gerenciamento do usuário
 
 Informações sobre o gerenciamento de usuários no [!DNL Target] Standard e de [!UICONTROL Propriedades] e [!UICONTROL Permissões] da empresa no [!DNL Target] Premium.
@@ -34,17 +39,17 @@ Informações sobre o gerenciamento de usuários no [!DNL Target] Standard e de 
 
 * **Clientes do Target Standard:** se sua organização tiver uma licença [!DNL Target] Standard, você observará o seguinte na IU do [!DNL Target]:
 
-   * Você verá a guia [!UICONTROL Usuários] ( [!UICONTROL Administração] > [!UICONTROL Usuários] )
-   * Você *não* verá a guia [!UICONTROL Propriedades] ( [!UICONTROL Administração] > [!UICONTROL Propriedades] )
+  * Você verá a guia [!UICONTROL Usuários] ( [!UICONTROL Administração] > [!UICONTROL Usuários] )
+  * Você *não* verá a guia [!UICONTROL Propriedades] ( [!UICONTROL Administração] > [!UICONTROL Propriedades] )
 
   [!DNL Target] Os clientes do Standard devem seguir as instruções em [Usuários](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) para adicionar usuários e atribuir permissões no Adobe Admin Console.
 
 * **Clientes do Target Premium:** se sua organização tiver uma licença [!DNL Target] Premium, você observará o seguinte na interface do usuário do Target:
 
-   * Você verá a guia [!UICONTROL Propriedades] ( [!UICONTROL Administração] > [!UICONTROL Propriedades] )
-   * Você *não* verá a guia [!UICONTROL Usuários] ( [!UICONTROL Administração] > [!UICONTROL Usuários] )
+  * Você verá a guia [!UICONTROL Propriedades] ( [!UICONTROL Administração] > [!UICONTROL Propriedades] )
+  * Você *não* verá a guia [!UICONTROL Usuários] ( [!UICONTROL Administração] > [!UICONTROL Usuários] )
 
-     Os clientes do [!DNL Target] Premium devem seguir as instruções em [Permissões de usuário do Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) e [Configurar permissões do Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) para adicionar usuários e atribuir permissões no [!DNL Adobe Admin Console].
+    Os clientes do [!DNL Target] Premium devem seguir as instruções em [Permissões de usuário do Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) e [Configurar permissões do Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) para adicionar usuários e atribuir permissões no [!DNL Adobe Admin Console].
 
 A ilustração a seguir mostra a página [!UICONTROL Administração] de uma conta [!DNL Target Premium]:
 

@@ -1,27 +1,37 @@
 ---
 keywords: interface do usuário de destino;interface do usuário;ui;anúncios;eventos;notificações
-description: Familiarize-se com a interface do usuário e encontre links para informações mais detalhadas para aproveitar ao máximo o  [!DNL Target].
-title: Como faço para usar a interface do [!DNL Target] ?
+description: Familiarize-se com a interface do usuário e encontre links para informações mais detalhadas para ajudar você a aproveitar ao máximo o [!DNL Target].
+title: Como usar a interface do usuário do [!DNL Target]?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-TQID: https://experienceleague.adobe.com/oO4N94r8-ZP3Et-P0b-31zl3apkEhqlJLJUUOQmFGAg
+TQID: 'https://experienceleague.adobe.com/oO4N94r8-ZP3Et-P0b-31zl3apkEhqlJLJUUOQmFGAg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1442
+source-wordcount: '1443'
 ht-degree: 23%
-
 ---
-
 # Compreensão da interface do [!DNL Target]
 
 A interface do usuário é organizada em um formato lógico e amigável para ajudar você o a aproveitar ao máximo o [!DNL Adobe Target]. A breve visão geral a seguir ajuda você a se familiarizar com o [!DNL Target] e fornece links para informações mais detalhadas e instruções passo a passo.
@@ -62,7 +72,7 @@ Para obter mais informações, consulte [Visão geral do Assistente do Adobe Exp
 
 Clicar no ícone da [!UICONTROL Ajuda] ( ![ícone da Ajuda](/help/main/assets/icons/HelpOutline.svg) ) permite acessar informações, vídeos, blogs e muito mais para ajudar você a usar o [!DNL Target] com mais eficiência. Você pode criar um tíquete de suporte, encontrar números de telefone de suporte, fazer perguntas pelo Twitter ou fornecer feedback sobre o [!DNL Target] para deixar seus comentários.[!DNL Target]
 
-![Ajuda &#x200B;](/help/main/c-intro/assets/help.png)
+![Ajuda ](/help/main/c-intro/assets/help.png)
 
 ### Solicitações, notificações e anúncios {#notifications-announcements}
 
@@ -92,9 +102,9 @@ Quando alguém envia uma solicitação para aprovar um objeto ou conceder acesso
 
   As notificações são formatadas como os seguintes exemplos:
 
-   * `Activity {target.activity.name} has been activated`
+  * `Activity {target.activity.name} has been activated`
 
-   * `Activity {target.activity.name} has been deactivated`
+  * `Activity {target.activity.name} has been deactivated`
 
 * **Scripts de perfil**: notificações quando um script de perfil é ativado ou desativado manualmente ou por [!DNL Target].
 
@@ -102,8 +112,8 @@ Quando alguém envia uma solicitação para aprovar um objeto ou conceder acesso
 
   As notificações são formatadas como os seguintes exemplos:
 
-   * `Profile Script {target.profileScript.name} has been activated`
-   * `Profile Script {target.profileScript.name} has been deactivated`
+  * `Profile Script {target.profileScript.name} has been activated`
+  * `Profile Script {target.profileScript.name} has been deactivated`
 
 * **Feeds do Recommendations**: notificações quando um feed do [!DNL Recommendations] é ativado ou desativado manualmente ou por [!DNL Target]. Notificações também são enviadas quando um feed [!DNL Recommendations] falha.
 
@@ -111,10 +121,10 @@ Quando alguém envia uma solicitação para aprovar um objeto ou conceder acesso
 
   As notificações são formatadas como os seguintes exemplos:
 
-   * `Feed  {target.feed.name} has been activated`
-   * `Feed {target.feed.name} has been deactivated`
-   * `Feed {target.feed.name} has failed`
-   * `Feed {target.feed.name} has failed to import from source`
+  * `Feed  {target.feed.name} has been activated`
+  * `Feed {target.feed.name} has been deactivated`
+  * `Feed {target.feed.name} has failed`
+  * `Feed {target.feed.name} has failed to import from source`
 
 Você pode marcar notificações individuais como lidas, passando o cursor do mouse sobre a notificação desejada e clicando no ícone [!UICONTROL Marcar como Lida] ( ![Marcar como Lida](/help/main/assets/icons/CheckmarkCircle.svg) ). Você pode marcar todas as notificações como lidas ou exibir todas as notificações clicando em [!UICONTROL Marcar como Lidas] ou [!UICONTROL Exibir Todas] na parte inferior do painel.
 

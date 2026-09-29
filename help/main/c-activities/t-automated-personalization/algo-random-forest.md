@@ -1,23 +1,30 @@
 ---
 keywords: floresta aleatória;árvore de decisão;ap;Automated Personalization
-description: Saiba como o  [!DNL Adobe Target] usa o algoritmo Random Forest nas atividades do [!UICONTROL Automated Personalization] (AP) e do [!UICONTROL Direcionamento automático].
-title: Como o  [!DNL Target] Usa o Algoritmo Random Forest?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+description: Saiba como o [!DNL Adobe Target] usa o algoritmo Random Forest nas atividades [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático].
+title: Como o [!DNL Target] usa o algoritmo Random Forest?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-TQID: https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M
+TQID: 'https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1458
+source-wordcount: '1460'
 ht-degree: 40%
-
 ---
-
 # Algoritmo Random Forest
 
 O principal algoritmo de personalização usado nas atividades do (AP) e do [!DNL Auto-Target] é o Random Forest. Métodos de conjunto, como Random Forest, usam vários algoritmos de aprendizagem para obter um melhor desempenho preditivo do que poderia ser obtido a partir de qualquer um dos algoritmos de aprendizagem constituintes. O algoritmo Random Forest no [!UICONTROL Automated Personalization] e no [!UICONTROL Direcionamento automático] é um método de classificação ou regressão que opera através da construção de várias árvores de decisão quando está sendo treinado.

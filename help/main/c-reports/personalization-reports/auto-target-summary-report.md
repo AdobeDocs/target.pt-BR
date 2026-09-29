@@ -2,24 +2,30 @@
 keywords: relatórios;direcionamento automático;direcionamento automático;relatório;reports;auto-target;auto target;AT;report
 description: Saiba como interpretar o relatório de Resumo do direcionamento automático no Adobe Target. Você pode alternar para os relatórios de Segmentos automatizados e Atributos importantes a partir desse relatório.
 title: Como faço para usar o relatório de resumo do direcionamento automático?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
-TQID: https://experienceleague.adobe.com/de9ST0undYRSL-BMmwEhvbU7PsfHgYieNAWY-qsQ-Z8
+TQID: 'https://experienceleague.adobe.com/de9ST0undYRSL-BMmwEhvbU7PsfHgYieNAWY-qsQ-Z8'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 666
+source-wordcount: '666'
 ht-degree: 35%
-
 ---
-
 # [!UICONTROL Relatório de Resumo do direcionamento automático]
 
 Informações sobre como interpretar os relatórios do [!UICONTROL Resumo do Direcionamento automático] em [!DNL Adobe Target].
@@ -47,14 +53,14 @@ Algumas dicas e considerações ao interpretar os relatórios do [!UICONTROL Dir
 
 * As várias linhas na tabela ajudam você a entender o desempenho da atividade.
 
-   * As duas primeiras linhas na tabela na página do relatório mostram os resultados de um teste A/B entre os visitantes que foram atribuídos ao controle (ou seja, experiências disponibilizadas aleatoriamente) e os visitantes que foram atribuídos ao algoritmo de personalização. Essas informações podem ser usadas para medir o desempenho do algoritmo de personalização em comparação ao controle disponibilizado aleatoriamente.
-   * As linhas restantes mostram resultados em nível de experiência. Para cada experiência, há uma comparação entre a resposta média dos visitantes que mostraram essa experiência como um controle apresentado aleatoriamente e a resposta média dos visitantes que mostraram a experiência usando o algoritmo de personalização.
+  * As duas primeiras linhas na tabela na página do relatório mostram os resultados de um teste A/B entre os visitantes que foram atribuídos ao controle (ou seja, experiências disponibilizadas aleatoriamente) e os visitantes que foram atribuídos ao algoritmo de personalização. Essas informações podem ser usadas para medir o desempenho do algoritmo de personalização em comparação ao controle disponibilizado aleatoriamente.
+  * As linhas restantes mostram resultados em nível de experiência. Para cada experiência, há uma comparação entre a resposta média dos visitantes que mostraram essa experiência como um controle apresentado aleatoriamente e a resposta média dos visitantes que mostraram a experiência usando o algoritmo de personalização.
 
 * O ícone de verificação verde ao lado de cada experiência no relatório indica que um modelo personalizado de aprendizagem de máquina foi gerado para essa experiência. O ícone do relógio indica que não foi fornecido tráfego suficiente para construir o modelo.
 
-   * Como o modelo é construído por experiência, é possível ver um modelo para algumas experiências com uma marca verde e outras com um ícone de relógio.
-   * Neste caso, para aumentar a velocidade da atividade com modelos construídos para todas as experiências, o tráfego adicional é enviado para experiências com modelos não construídos.
-   * Deve haver pelo menos duas experiências com modelos criados (marca de seleção verde) para que a personalização comece.
+  * Como o modelo é construído por experiência, é possível ver um modelo para algumas experiências com uma marca verde e outras com um ícone de relógio.
+  * Neste caso, para aumentar a velocidade da atividade com modelos construídos para todas as experiências, o tráfego adicional é enviado para experiências com modelos não construídos.
+  * Deve haver pelo menos duas experiências com modelos criados (marca de seleção verde) para que a personalização comece.
 
 * Comparar o índice de conversão da experiência A com o da experiência B não é a comparação correta no [!UICONTROL Direcionamento automático]. A questão é se a experiência A tem um desempenho melhor quando é apresentada de maneira inteligente versus uma maneira aleatória (em outras palavras, versus o controle). Os profissionais de marketing também devem ter cautela ao interpretar os aumentos de experiências individuais, porque o algoritmo de personalização está tentando otimizar a métrica de sucesso em toda a atividade, não em cada experiência individual.
 * Experiências com o aumento mais alto podem ser entendidas como tendo a maior diferenciação dentro da população. Ou seja, o algoritmo encontrou um segmento que mais gosta dessa experiência específica.

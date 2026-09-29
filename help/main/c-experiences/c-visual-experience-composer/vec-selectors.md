@@ -1,23 +1,28 @@
 ---
 keywords: Direcionamento de experiência;teste de página de destino
-description: Um seletor de elementos é uma expressão CSS que pode identificar um ou mais elementos. Saiba como usar seletores de elementos no Adobe [!DNL Target] Visual Experience Composer (VEC).
+description: Um seletor de elementos é uma expressão CSS que pode identificar um ou mais elementos. Saiba como usar seletores de elementos no Visual Experience Composer (VEC) do Adobe [!DNL Target].
 title: Posso usar seletores de elementos no Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-TQID: https://experienceleague.adobe.com/sqvUyLFddt7HPHH62jwpOZmwTIMSg-hyLIUr8w-x7vg
+TQID: 'https://experienceleague.adobe.com/sqvUyLFddt7HPHH62jwpOZmwTIMSg-hyLIUr8w-x7vg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: '456'
 ht-degree: 29%
-
 ---
-
 # Seletores de elementos usados no Visual Experience Composer
 
 Um seletor de elementos é uma expressão CSS que pode identificar um ou mais elementos.
@@ -32,7 +37,7 @@ Você pode definir se deseja usar elemento em classes ou ID de elemento nas suas
 
 >[!NOTE]
 >
->Classes de elementos estão disponíveis como seletores em [!UICONTROL atividades de Teste A/B], [!UICONTROL Automated Personalization] e [!UICONTROL &#x200B; de Teste multivariado].
+>Classes de elementos estão disponíveis como seletores em [!UICONTROL atividades de Teste A/B], [!UICONTROL Automated Personalization] e [!UICONTROL  de Teste multivariado].
 
 Para obter informações sobre quando usar seletores de CSS e quando usar IDs exclusivas, consulte [Práticas recomendadas e limitações do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 

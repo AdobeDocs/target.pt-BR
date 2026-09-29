@@ -4,13 +4,14 @@ description: Siga estas etapas para integrar seu aplicativo aos Sinalizadores, d
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 339de89fff7bb14eb8146d42482b30c86feeedef
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
-
 ---
-
 # Guia de inicialização {#startup-guide}
 
 Siga estas etapas para integrar Sinalizadores ao seu aplicativo.
@@ -45,8 +46,8 @@ Siga o guia de integração do seu tipo de aplicativo. Escolha o caminho que se 
 
 Se estiver integrando por meio de uma abordagem baseada em tags (Web ou móvel), configure a propriedade da tag antes de inicializar a SDK:
 
-1. Em [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/#/data-collection), crie uma [propriedade de marca](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/get-started/quick-start), se você ainda não tiver uma, ou use uma propriedade de marca existente.
-1. Abra a propriedade de tag móvel ou da Web e vá para [Extensões](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/ui/extensions/overview).
+1. Em [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/#/data-collection), crie uma [propriedade de marca](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start), se você ainda não tiver uma, ou use uma propriedade de marca existente.
+1. Abra a propriedade de tag móvel ou da Web e vá para [Extensões](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview).
 1. Instale e configure a extensão **Edge Network**. Em seguida, instale a extensão **Flags**.
 1. Selecione a **sequência de dados** (ela deve incluir o conjunto de dados do Customer Journey Analytics) e configure o domínio do Edge.
 1. Publique a configuração por meio de **Desenvolvimento → Preparo → Produção**.

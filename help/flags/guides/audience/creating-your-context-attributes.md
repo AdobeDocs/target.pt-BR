@@ -3,13 +3,14 @@ title: Criar atributos de contexto
 description: Saiba como criar e organizar atributos de contexto e grupos de contexto em Sinalizadores para que você possa usá-los em critérios de público-alvo.
 badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 5%
-
 ---
-
 # Criar atributos de contexto {#creating-your-context-attributes}
 
 Atributos de contexto são campos de dados personalizados que descrevem o contexto do usuário, da sessão ou do aplicativo (por exemplo, camada de assinatura, versão do aplicativo ou região). Use atributos de contexto para definir critérios de público-alvo para sinalizadores de recursos.

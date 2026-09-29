@@ -2,30 +2,39 @@
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, direcionamento automático, direcionamento automático, relatório do direcionamento automático, relatório de direcionamento automático, personalização, insights, segmentos automatizados, perguntas frequentes, perguntas frequentes, atributos importantes
 description: Saiba como usar os relatórios especializados para atividades de Automated Personalization (AP) e Direcionamento automático (AT) - Segmentos automatizados e atributos importantes.
 title: Como usar os relatórios do Personalization Insights?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-TQID: https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI
+TQID: 'https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 subfeature_v2:
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+    internal-label: Shared audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1023
+source-wordcount: '1023'
 ht-degree: 29%
-
 ---
-
 # [!UICONTROL Relatórios do Personalization Insights]
 
 Dois relatórios especializados estão disponíveis para usuários de atividades de [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] (AT): os relatórios de [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes].
@@ -38,23 +47,23 @@ Considere o seguinte ao usar os [!UICONTROL relatórios do Personalization Insig
 
 * Os relatórios do [!UICONTROL Personalization Insights] estão disponíveis apenas para atividades de AP e AT configuradas da seguinte forma:
 
-   * [!DNL Target] relatórios > [!UICONTROL Conversão]
+  * [!DNL Target] relatórios > [!UICONTROL Conversão]
 
-     Por exemplo:
+    Por exemplo:
 
-     ![Relatórios de público alvo > Conversão](/help/main/c-reports/assets/conversion.png)
+    ![Relatórios de público alvo > Conversão](/help/main/c-reports/assets/conversion.png)
 
-   * [!DNL Analytics] relatórios > [!DNL Conversion]
+  * [!DNL Analytics] relatórios > [!DNL Conversion]
 
-     Por exemplo:
+    Por exemplo:
 
-     ![Relatórios Analíticos > Conversão](/help/main/c-reports/assets/analytics-reporting-conversion.png)
+    ![Relatórios Analíticos > Conversão](/help/main/c-reports/assets/analytics-reporting-conversion.png)
 
-   * [!DNL Analytics] relatórios > [!UICONTROL Usar uma métrica do Analytics] > [!UICONTROL Maximizar o Índice de Conversão de Visitas]
+  * [!DNL Analytics] relatórios > [!UICONTROL Usar uma métrica do Analytics] > [!UICONTROL Maximizar o Índice de Conversão de Visitas]
 
-     Por exemplo:
+    Por exemplo:
 
-     ![Usar uma métrica do Analytics > Maximizar taxa de conversão de visitas](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
+    ![Usar uma métrica do Analytics > Maximizar taxa de conversão de visitas](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
 
 * As atividades em que a meta de otimização foi alterada para a conversão da receita após a atividade já estar ativa também não são compatíveis.
 
@@ -108,7 +117,7 @@ Os modelos [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcioname
 
 ## Vídeo de treinamento: usar os relatórios do Personalization Insights ![Selo do tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/30851?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 Para obter mais informações, consulte [Uso dos Relatórios do Personalization Insights no Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 

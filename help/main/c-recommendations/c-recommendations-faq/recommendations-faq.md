@@ -1,23 +1,30 @@
 ---
 keywords: solução de problemas, perguntas frequentes, FAQ, FAQs, recommendations, caracteres especiais, ponderação de atributos, similaridade de conteúdo
-description: Veja uma lista de perguntas frequentes e respostas sobre [!DNL Target Recommendations] atividades.
-title: Onde posso encontrar perguntas e respostas sobre o  [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+description: Veja uma lista de perguntas frequentes e respostas sobre atividades do [!DNL Target Recommendations].
+title: Onde posso encontrar perguntas e respostas sobre o [!DNL Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
+TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3578
+source-wordcount: '3579'
 ht-degree: 80%
-
 ---
-
 # Perguntas frequentes do Recomendações
 
 Lista de perguntas frequentes sobre as atividades do [!DNL Adobe Target] [!DNL Recommendations].
@@ -73,9 +80,9 @@ As seguintes alterações não são refletidas até que ocorra a execução do p
 * Uma alteração nas configurações de promoção pode levar até cinco horas para ser refletida no local.
 * Uma alteração em outras configurações de critérios pode não ser refletida até que o próximo algoritmo seja executado:
 
-   * Algumas configurações de critérios (por exemplo, &quot;adição de uma regra de inclusão dinâmica&quot;) são refletidas instantaneamente.
-   * Outras configurações de critérios (por exemplo, &quot;remoção de uma regra de inclusão dinâmica&quot;, alteração da janela de retrospectiva e assim por diante) não podem ser incorporadas até que o próximo algoritmo seja executado.
-   * As execuções de algoritmo são acionadas por essas alterações, mas podem levar até 24 horas para serem concluídas. Algoritmos também são executados de forma programada a cada 12 a 24 horas.
+  * Algumas configurações de critérios (por exemplo, &quot;adição de uma regra de inclusão dinâmica&quot;) são refletidas instantaneamente.
+  * Outras configurações de critérios (por exemplo, &quot;remoção de uma regra de inclusão dinâmica&quot;, alteração da janela de retrospectiva e assim por diante) não podem ser incorporadas até que o próximo algoritmo seja executado.
+  * As execuções de algoritmo são acionadas por essas alterações, mas podem levar até 24 horas para serem concluídas. Algoritmos também são executados de forma programada a cada 12 a 24 horas.
 
 ## Quanto tempo leva para o comportamento de um usuário (por exemplo, clicar no produto A e comprar o produto B) ser refletido nas recomendações *que* usuário recebe?
 
@@ -109,7 +116,7 @@ Se a localização na qual você estiver aplicando esse critério não contiver 
 
 Se você usar um local em que a ID de categoria está presente na mbox, o seletor de critérios conterá todos os critérios aplicáveis.
 
-O [!DNL Target] tem uma configuração de [Critérios de filtro incompatíveis](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} para controlar a filtragem inteligente do seletor de algoritmo.
+O [!DNL Target] tem uma configuração de [Critérios de filtro incompatíveis](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para controlar a filtragem inteligente do seletor de algoritmo.
 
 >[!NOTE]
 >

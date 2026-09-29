@@ -1,17 +1,24 @@
 ---
 keywords: feed de recomendações;feed;SAINT;ftp;csv;classificações;classificações do analytics
-description: Saiba como os feeds importam entidades para o  [!DNL Adobe Target] [!DNL Recommendations] usando arquivos CSV, o formato de feed do Google Product Search e  [!DNL Analytics] classificações de produtos.
-title: Como faço para usar os [!UICONTROL Feeds] do [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+description: Saiba como os feeds importam entidades para o [!DNL Adobe Target] [!DNL Recommendations] usando arquivos CSV, o formato de feed da Pesquisa de produto do Google e as classificações de produto do [!DNL Analytics].
+title: Como faço para usar os [!UICONTROL Feeds] em [!DNL Target Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2572'
+source-wordcount: '2580'
 ht-degree: 45%
-
 ---
-
 # Feeds
 
 Use os feeds para importar entidades em [!DNL Adobe Target] [!DNL Recommendations]. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e as classificações de produtos [!DNL Adobe Analytics].
@@ -31,7 +38,7 @@ Esses dados sobre cada item podem ser usados para:
 * Classificar itens em diferentes coleções
 * Aplicar exclusões às recomendações
 
-As descrições de item podem ser passadas para [!DNL Target] usando feeds ou mboxes. Se dados forem coletados tanto por feeds de entidade como por uma mbox, os dados mais recentes vencem. Normalmente, os dados mais recentes vêm de uma mbox, porque ela é vista com mais frequência. Se, por coincidência, dados do feed de entidade e da mbox cheguem ao mesmo tempo, os dados da mbox serão usados.
+As descrições de item podem ser passadas para [!DNL Target] usando feeds ou mboxes. Se dados forem coletados tanto por feeds de entidade como por uma mbox, os dados mais recentes vencem. Normalmente, os dados mais recentes vêm de uma mbox, porque ela é vista com mais frequência. Se, por coincidência, dados do feed de entidade e da mbox chegarem ao mesmo tempo, os dados da mbox serão usados.
 
 A lista [!UICONTROL Feeds] ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) fornece informações sobre quaisquer feeds criados.
 
@@ -212,7 +219,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Classificações de produto de [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-A classificação do Produto [!DNL Analytics] é a única classificação disponível para recomendações. Para obter mais informações sobre esse arquivo de classificação, consulte [Sobre classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=pt-BR) no guia *Componentes do Analytics*. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, portanto, siga este guia do usuário se desejar adicioná-las ao arquivo de classificações.
+A classificação do Produto [!DNL Analytics] é a única classificação disponível para recomendações. Para obter mais informações sobre esse arquivo de classificação, consulte [Sobre classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) no guia *Componentes do Analytics*. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, portanto, siga este guia do usuário se desejar adicioná-las ao arquivo de classificações.
 
 >[!IMPORTANT]
 >
@@ -246,10 +253,10 @@ Crie um feed para inserir informações sobre os produtos ou serviços no [!DNL 
 
      Configurações compatíveis do servidor FTP:
 
-      * FTP e FTPS devem ser definidos para usar FTP passivo.
-      * Para FTPS, configure o servidor para aceitar as conexões FTPS explícitas.
-      * SFTP não é compatível.
-      * Você pode especificar manualmente uma porta em que a conexão será iniciada (por exemplo, `ftp://ftp.yoursite.com:2121`). Se você não especificar uma porta, a porta FTP ou FTPS padrão será usada.
+     * FTP e FTPS devem ser definidos para usar FTP passivo.
+     * Para FTPS, configure o servidor para aceitar as conexões FTPS explícitas.
+     * SFTP não é compatível.
+     * Você pode especificar manualmente uma porta em que a conexão será iniciada (por exemplo, `ftp://ftp.yoursite.com:2121`). Se você não especificar uma porta, a porta FTP ou FTPS padrão será usada.
 
    * **URL**: se você selecionar [!UICONTROL URL], especifique a URL.
 
@@ -328,15 +335,15 @@ Considere os exemplos a seguir:
 
 **Exemplo 1:**
 
-* Primeiro dia: o feed é processado diariamente às 9:00 da manhã PST.
-* Dia dois: são 3:30 da tarde e o feed não funciona desde ontem às 9:00 da manhã.
+* Primeiro dia: o feed é processado diariamente às 9h PST.
+* Dia dois: são 15:30 e o feed aina não executou desde 9h.
 
 O status deve ser amarelo, pois o índice deveria ter sido executado há aproximadamente 6,5 horas. 6,5 horas +24 é 127% da janela de feed.
 
 **Exemplo 2:**
 
-* 1 de janeiro: o feed mensal é processado às 9:00 h PST.
-* 3 de fevereiro: são 10h00 e o feed não é executado há um mês, um dia e uma hora.:00
+* 1 de janeiro: o feed mensal é processado às 9:00 PST.
+* 3 de fevereiro: são 10h e o feed não é executado há um mês, um dia e uma hora.
 
 O status deve ser amarelo, pois o índice deveria ter sido executado há aproximadamente um dia e uma hora. Embora isso seja somente (31+(1/25))/30 = 1,03% da configuração de frequência, ultrapassou o máximo de atraso de um dia.
 
@@ -351,7 +358,7 @@ Este vídeo contém as seguintes informações:
 * Entender a finalidade dos feeds
 * Entender o valor dos feeds
 
->[!VIDEO](https://video.tv.adobe.com/v/33963?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Criar um feed (6:44) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
@@ -360,4 +367,4 @@ Este vídeo contém as seguintes informações:
 * Configurar um feed
 * Saber qual tipo de feed usar
 
->[!VIDEO](https://video.tv.adobe.com/v/33962?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)
