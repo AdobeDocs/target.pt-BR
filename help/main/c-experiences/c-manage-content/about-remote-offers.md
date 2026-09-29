@@ -1,23 +1,31 @@
 ---
 keywords: oferta remota;conteúdo em cache;conteúdo dinâmico;tipo de url
-description: Descubra como aproveitar as ofertas remotas no  [!DNL Target]  para hospedar conteúdo externo de um CMS ou outros sistemas.
+description: Descubra como aproveitar as ofertas remotas no [!DNL Target] para hospedar conteúdo externo de um CMS ou outros sistemas.
 title: Como criar ofertas remotas?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-TQID: https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I
+TQID: 'https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1146'
 ht-degree: 24%
-
 ---
-
 # Criar ofertas remotas
 
 Use ofertas remotas para hospedar conteúdo fora do [!DNL Adobe Target], permitindo que [!DNL Target] faça referência a esse conteúdo e o entregue aos sites do usuário. Esse conteúdo pode residir em um sistema de gerenciamento de conteúdo (CMS) ou em outro sistema por motivos de facilidade de uso ou segurança.
@@ -41,14 +49,14 @@ Práticas recomendadas para usar ofertas remotas em suas atividades:
 
 * As ofertas remotas são compatíveis com o:
 
-   * Atividades A/B
-   * Atividades do Direcionamento de experiência (XT)
-   * Fluxos de trabalho baseados em formulário
+  * Atividades A/B
+  * Atividades do Direcionamento de experiência (XT)
+  * Fluxos de trabalho baseados em formulário
 
 * As ofertas remotas não são compatíveis com o:
 
-   * [Recursos premium](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), Direcionamento automático e Recommendations)
-   * Multivariate Testing (MVT), devido à dependência no VEC, que não oferece suporte a ofertas remotas.
+  * [Recursos premium](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), Direcionamento automático e Recommendations)
+  * Multivariate Testing (MVT), devido à dependência no VEC, que não oferece suporte a ofertas remotas.
 
 * Se sua oferta estiver no mesmo domínio que as solicitações [!DNL Target], o uso da opção [!UICONTROL Em cache] permitirá que você use URLs relativas na descrição do local da oferta.
 

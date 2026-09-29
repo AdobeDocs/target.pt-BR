@@ -1,25 +1,30 @@
 ---
 keywords: variâncias de dados; análises; diferenças; variance; a4T; analytics para target; análises como fonte de relatórios; discrepâncias; discrepância
-description: Saiba mais sobre as variações de dados esperadas entre o Adobe [!DNL Target]  e o Analytics ao não usar o Analytics for [!DNL Target] (A4T), o que elimina a variância de dados completamente.
+description: Saiba mais sobre as variações de dados esperadas entre o Adobe [!DNL Target] e o Analytics ao não usar o Analytics for [!DNL Target] (A4T), o que elimina a variância de dados completamente.
 title: Qual é a variação de dados esperada entre o Analytics e o A4T?
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
-TQID: https://experienceleague.adobe.com/ElzOVANCbFvKaQX5D9-gyhWTjAA1rRU1BZZj-tkpdQg
+TQID: 'https://experienceleague.adobe.com/ElzOVANCbFvKaQX5D9-gyhWTjAA1rRU1BZZj-tkpdQg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 731
+source-wordcount: '732'
 ht-degree: 45%
-
 ---
-
 # Variações de dados esperadas entre o Adobe [!DNL Target] e o Adobe Analytics ao usar e não usar A4T
 
 Informações sobre as variações de dados esperadas entre o [!DNL Target] e o Adobe [!DNL Analytics] ao *usar* ou *não* o Analytics como a Fonte de relatórios (A4T). A4T reduz significativamente a variação de dados.
@@ -30,9 +35,9 @@ Com o A4T, os relatórios de atividades do Analytics e do Target usam os dados d
 
 Estes são alguns cenários nos quais você pode experimentar a variação de dados esperada:
 
-* O A4T permite uma ocorrência do Target (parte superior da página), mas nenhuma ocorrência do Analytics (parte inferior página). Por exemplo, suponha que um visitante carregue a página, mas feche o navegador antes que a chamada do Analytics seja acionada. Nesses casos, o A4T exclui a ocorrência do Target dos dados. Permitir que ocorrências do Target (novamente, na parte superior da página) sejam contadas como ocorrências do Analytics, na ausência de uma chamada real do Analytics, cria inconsistências com o conjunto de dados no Analytics (aumento de visitantes e assim por diante).
+* O A4T permite um hit do Target (parte superior da página), mas nenhum hit do Analytics (parte inferior página). Por exemplo, suponha que um visitante carregue a página, mas feche o navegador antes que a chamada do Analytics seja acionada. Nesses casos, o A4T exclui a ocorrência do Target dos dados. Permitir que ocorrências do Target (novamente, na parte superior da página) sejam contadas como ocorrências do Analytics, na ausência de uma chamada real do Analytics, cria inconsistências com o conjunto de dados no Analytics (aumento de visitantes e assim por diante).
 
-  Se um teste de redirecionamento estiver configurado no Target para dividir o tráfego 50/50 (ou 25/25/25/25, e assim por diante), o comportamento do usuário pode não ser dividido uniformemente. Se você vir uma divisão desigual, isso significa simplesmente que um grupo de usuários executou menos chamadas do Analytics na landing page do que os outros grupos. Essa falha na execução da chamada do Analytics para um grupo fez com que a ocorrência do Target para esse usuário fosse excluída, criando a desigualdade.
+  Se um teste de redirecionamento estiver configurado no Target para dividir o tráfego 50/50 (ou 25/25/25/25, e assim por diante), o comportamento do usuário pode não ser dividido uniformemente. Se você vir uma divisão desigual, isso significa simplesmente que um grupo de usuários executou menos chamadas do Analytics na landing page do que os outros grupos. Essa falha na execução da chamada do Analytics para um grupo fez com que o hit do Target para esse usuário fosse excluído, criando a desigualdade.
 
   A Adobe espera abordar esse problema no futuro, à medida que as equipes do Adobe trabalharem com o A4T no Adobe Experience Platform. As equipes do Adobe estão determinando como lidar com esses diferentes eventos em momentos diferentes na página.
 

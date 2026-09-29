@@ -1,23 +1,31 @@
 ---
 keywords: AB;A/B;AB...n;erros;armadilhas;erro;armadilha;significância;vencedor;diferença estatística;estatística;potencial estatístico;alocação de tráfego;alocação;
-description: Saiba como evitar as armadilhas e erros mais comuns que as empresas cometem ao realizar testes A/B no  [!DNL Adobe Target]  e outras soluções de teste.
+description: Saiba como evitar as armadilhas e erros mais comuns que as empresas cometem ao realizar testes A/B no [!DNL Adobe Target] e outras soluções de teste.
 title: Como evitar erros comuns em testes A/B?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-TQID: https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ
+TQID: 'https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3983
-ht-degree: 100%
-
+source-wordcount: '3984'
+ht-degree: 99%
 ---
-
 # Dez erros comuns em testes A/B e como evitá-los
 
 Os formulários de teste A/B do [!DNL Adobe Target] são o suporte principal da maioria dos programas de otimização de marketing digital, ajudando os profissionais de marketing a oferecer experiências otimizadas e direcionadas aos seus visitantes e clientes. Este artigo descreve dez das armadilhas mais significativas que as empresas enfrentam ao realizar testes A/B. Ela também inclui meios de evitá-los, para que sua empresa possa obter um ROI maior com seus esforços de teste e ter mais confiança em seus resultados de teste A/B relatados.

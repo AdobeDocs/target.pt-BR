@@ -4,13 +4,14 @@ description: Saiba como integrar um novo aplicativo aos Sinalizadores para come�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 2%
-
+ht-degree: 5%
 ---
-
 # Integrar seu aplicativo {#onboard-your-application}
 
 Você deve ter a função de **Administrador** para adicionar um novo aplicativo. Entre em contato com o administrador se precisar verificar ou atualizar sua função.

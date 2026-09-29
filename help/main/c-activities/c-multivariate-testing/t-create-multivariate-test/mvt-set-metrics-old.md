@@ -1,16 +1,20 @@
 ---
 keywords: multivariado; mvt; métricas; definir métricas; métrica de objetivo; configurações de atividade; métrica de sucesso; conversão; receita; engajamento
-description: Saiba como especificar métricas em uma atividade de  [!DNL Adobe Target] [!UICONTROL Teste multivariado] para determinar quando uma visita é bem-sucedida, como [!UICONTROL Conversão], [!UICONTROL Receita] e [!UICONTROL Envolvimento].
+description: Saiba como especificar métricas em uma atividade de [!DNL Adobe Target] [!UICONTROL Teste multivariado] para determinar quando uma visita obtém sucesso, como [!UICONTROL Conversão], [!UICONTROL Receita] e [!UICONTROL Envolvimento].
 title: Como definir métricas de meta em uma atividade de [!UICONTROL Teste multivariado] (MVT)?
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 57%
-
+source-wordcount: '353'
+ht-degree: 56%
 ---
-
 # Definir métricas para uma atividade de [!UICONTROL Teste multivariado]
 
 Use métricas em um [!DNL Adobe Target] [!UICONTROL Teste multivariado] para determinar quando uma visita obtém sucesso.
@@ -56,7 +60,7 @@ Ao nomear ou renomear uma métrica, os seguintes caracteres não são permitidos
 | `-` | menos |
 | `@` | Sinal de arroba |
 
-## Vídeo de treinamento: Métricas de atividade (7:43) ![Selo do tutorial](/help/main/assets/tutorial.png)
+## Vídeo de treinamento: métricas de atividade (7:43) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
 Este vídeo inclui informações sobre trabalhar com métricas de sucesso.
 

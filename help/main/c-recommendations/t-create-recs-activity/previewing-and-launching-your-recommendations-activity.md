@@ -4,20 +4,28 @@ description: Saiba como visualizar sua atividade do Adobe [!DNL Target] Recommen
 title: Como visualizar e iniciar uma atividade do Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-TQID: https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18
+TQID: 'https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+    internal-label: Behavioral data
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1535
+source-wordcount: '1536'
 ht-degree: 13%
-
 ---
-
 # Pré-visualizar e iniciar atividade do Recomendações
 
 Depois de criar sua atividade do [!UICONTROL Recommendations], do [!UICONTROL Teste A/B] ou do [!UICONTROL Direcionamento de experiência] (XT) contendo as [Ofertas do Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md), você deverá visualizar suas recomendações para garantir que os resultados estejam disponíveis antes de iniciar a atividade. O [!DNL Target Recommendations] oferece várias maneiras de visualizar suas recomendações.
@@ -110,13 +118,13 @@ O arquivo de download de CSV reflete consistentemente os resultados gerados apó
 
 * **Para algoritmos baseados em popularidade (não baseados em chave), o arquivo inclui:**
 
-   * Uma linha de recomendações de backup com o prefixo * (um asterisco)
-   * Uma lista de linhas separada faz recomendações com base nas configurações de algoritmo
+  * Uma linha de recomendações de backup com o prefixo * (um asterisco)
+  * Uma lista de linhas separada faz recomendações com base nas configurações de algoritmo
 
 * **Para algoritmos baseados em chave, o arquivo inclui:**
 
-   * Uma linha de backup semelhante aos algoritmos baseados em popularidade
-   * Várias linhas no formato de valor-chave, em que a primeira entrada é a ID de produto da chave, seguidas por IDs de produto separadas por vírgulas representando candidatos a recomendação
+  * Uma linha de backup semelhante aos algoritmos baseados em popularidade
+  * Várias linhas no formato de valor-chave, em que a primeira entrada é a ID de produto da chave, seguidas por IDs de produto separadas por vírgulas representando candidatos a recomendação
 
 ## Ativar sua atividade do Recommendations
 

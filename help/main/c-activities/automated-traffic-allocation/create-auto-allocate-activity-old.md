@@ -4,13 +4,20 @@ description: Saiba como usar o [!UICONTROL Visual Experience Composer] (VEC) no 
 title: Como criar uma atividade de [!UICONTROL Alocação automática]?
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '906'
 ht-degree: 39%
-
 ---
-
 # Criar uma atividade de [!UICONTROL Alocação automática]
 
 Use o [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] para criar sua atividade de [!UICONTROL Alocação automática] e [!UICONTROL Teste A/B] diretamente em uma página habilitada para [!DNL Target] e modificar partes da página no [!DNL Target].
@@ -110,7 +117,7 @@ Para criar uma atividade de [!UICONTROL Alocação automática]:
 
 Após criar a atividade, a guia [!UICONTROL Visão geral] mostra informações sobre a atividade, incluindo um diagrama da atividade.
 
-## Vídeo de treinamento: Criação de Testes A/B (8:36)
+## Vídeo de treinamento: Criação de testes A/B (8:36)
 
 Este vídeo mostra como criar um teste A/B usando fluxo de trabalho orientado de três etapas do [!DNL Target].
 

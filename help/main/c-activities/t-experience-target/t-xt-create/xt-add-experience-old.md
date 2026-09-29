@@ -1,16 +1,23 @@
 ---
 keywords: criar experiência, experiência criar, prioridade, público-alvo, experiência, visual experience composer
-description: Saiba como usar o [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) para criar e editar experiências em sua página da atividade de [!UICONTROL Direcionamento de experiência] (XT).
+description: Saiba como usar o [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) para criar e editar experiências em sua página da atividade [!UICONTROL Direcionamento de experiência] (XT).
 title: Como criar experiências em uma atividade de [!UICONTROL Direcionamento de experiência]?
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '965'
 ht-degree: 32%
-
 ---
-
 # Criar experiência em [!UICONTROL Direcionamento de experiência] (XT)
 
 O [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] fornece uma interface visual para editar as experiências em sua página da atividade de [!UICONTROL Direcionamento de experiência] (XT).
@@ -114,7 +121,7 @@ Este vídeo descreve como elevar o teste A/B ao próximo nível com o [!UICONTRO
 
 >[!VIDEO](https://video.tv.adobe.com/v/39861?captions=por_br)
 
-### Tipos de Atividades (9:03)
+### Tipos de atividade (9:03)
 
 Este vídeo explica os tipos de atividade disponíveis no [!DNL Target]. [!UICONTROL Direcionamento de Experiência] discutido a partir de 5:15.
 
@@ -131,4 +138,4 @@ Este vídeo fornece informações sobre como usar as opções de [!UICONTROL Dir
 * Alterar o conteúdo de uma página
 * Alterar o layout de uma página
 
->[!VIDEO](https://video.tv.adobe.com/v/31293?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

@@ -4,19 +4,26 @@ description: Organizar e otimizar suas ofertas de código e imagem na biblioteca
 title: Explorar o gerenciamento de conteúdo na biblioteca [!UICONTROL Ofertas]
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-TQID: https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko
+TQID: 'https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '794'
 ht-degree: 11%
-
 ---
-
 # Trabalhar com conteúdo na biblioteca do [!UICONTROL Ativo]
 
 Descubra as tarefas que você pode executar em ativos na [!UICONTROL Biblioteca de Conteúdo do Adobe Target] . As tarefas incluem anotar, copiar, excluir, baixar, editar, compartilhar e visualizar propriedades.
@@ -50,21 +57,21 @@ Ao visualizar a página [!UICONTROL Ofertas de imagem], você pode executar as s
 
 * **Pastas**: Selecione uma ou mais pastas nas quais executar as seguintes ações:
 
-   * Download: baixar a pasta e seu conteúdo.
-   * Copiar: copia a pasta e seu conteúdo.
-   * Mover: clique no ícone **[!UICONTROL Mover]**; mantenha o mesmo nome para a pasta ou renomeie-a; clique em **[!UICONTROL Selecionar Destino]** para selecionar o local para o qual deseja mover a pasta e clique em **[!UICONTROL Mover]**.
-   * Excluir (Consulte [Considerações ao excluir itens](#delete).)
+  * Download: baixar a pasta e seu conteúdo.
+  * Copiar: copia a pasta e seu conteúdo.
+  * Mover: clique no ícone **[!UICONTROL Mover]**; mantenha o mesmo nome para a pasta ou renomeie-a; clique em **[!UICONTROL Selecionar Destino]** para selecionar o local para o qual deseja mover a pasta e clique em **[!UICONTROL Mover]**.
+  * Excluir (Consulte [Considerações ao excluir itens](#delete).)
 
 * **Ofertas**: selecione uma ou mais ofertas de imagem nas quais executar as seguintes ações:
 
-   * [!UICONTROL Compartilhar]: compartilhe a oferta de imagem com pessoas ou grupos em sua organização.
-   * [!UICONTROL Baixar]: baixe a oferta de imagem ou a pasta e seu conteúdo.
-   * [!UICONTROL Exibir Propriedades]: exibir as propriedades do item. Certifique-se de clicar nas guias [!UICONTROL Básico] e [!UICONTROL Avançado] para exibir todas as informações disponíveis. É possível editar as propriedades e adicionar mais informações. Você pode adicionar informações de metadados, status de publicação e dados da licença.
-   * [!UICONTROL Editar]: edite a pasta ou a oferta.
-   * [!UICONTROL Anotar]: adicione uma observação ao ativo. Clique no ativo, selecione a área que deseja anotar e digite a sua observação.
-   * [!UICONTROL Copiar]: copie a oferta. Copiar e editar a oferta permite criar facilmente uma nova oferta semelhante.
-   * [!UICONTROL Mover]: clique no ícone [!UICONTROL Mover], navegue até o local para onde deseja mover a oferta ou pasta e clique em **[!UICONTROL Mover]**. Por exemplo, você pode mover uma ou mais pastas para dentro de outra pasta para criar subpastas.
-   * [!UICONTROL Excluir]: excluir a oferta. Consulte [Considerações ao excluir itens](#delete) abaixo para obter mais informações.
+  * [!UICONTROL Compartilhar]: compartilhe a oferta de imagem com pessoas ou grupos em sua organização.
+  * [!UICONTROL Baixar]: baixe a oferta de imagem ou a pasta e seu conteúdo.
+  * [!UICONTROL Exibir Propriedades]: exibir as propriedades do item. Certifique-se de clicar nas guias [!UICONTROL Básico] e [!UICONTROL Avançado] para exibir todas as informações disponíveis. É possível editar as propriedades e adicionar mais informações. Você pode adicionar informações de metadados, status de publicação e dados da licença.
+  * [!UICONTROL Editar]: edite a pasta ou a oferta.
+  * [!UICONTROL Anotar]: adicione uma observação ao ativo. Clique no ativo, selecione a área que deseja anotar e digite a sua observação.
+  * [!UICONTROL Copiar]: copie a oferta. Copiar e editar a oferta permite criar facilmente uma nova oferta semelhante.
+  * [!UICONTROL Mover]: clique no ícone [!UICONTROL Mover], navegue até o local para onde deseja mover a oferta ou pasta e clique em **[!UICONTROL Mover]**. Por exemplo, você pode mover uma ou mais pastas para dentro de outra pasta para criar subpastas.
+  * [!UICONTROL Excluir]: excluir a oferta. Consulte [Considerações ao excluir itens](#delete) abaixo para obter mais informações.
 
 ## Considerações ao excluir itens {#delete}
 

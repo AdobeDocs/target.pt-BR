@@ -5,25 +5,36 @@ title: Como posso encontrar perguntas frequentes sobre atividades do [!UICONTROL
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-TQID: https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo
+TQID: 'https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2303
+source-wordcount: '2303'
 ht-degree: 18%
-
 ---
-
 # Perguntas frequentes sobre o Automated Personalization
 
 Consulte as seguintes perguntas frequentes e respostas ao trabalhar com as atividades do [!UICONTROL Automated Personalization] em [!DNL Adobe Target].
@@ -57,32 +68,32 @@ Não há opção de chave na mão para comparar o [!UICONTROL Automated Personal
 * Se você deseja personalizar uma página de tráfego mais baixo ou fazer alterações estruturais na experiência que está personalizando, considere usar uma atividade [!UICONTROL Direcionamento automático] no lugar do [!UICONTROL Automated Personalization]. Consulte [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 * Considere a conclusão de uma atividade de [!UICONTROL Teste A/B] entre as ofertas e os locais que você planeja usar em sua atividade do [!UICONTROL Automated Personalization] para garantir que a localização e as ofertas tenham impacto na meta de otimização. Se uma atividade de [!UICONTROL Teste A/B] não demonstrar uma diferença significativa, o [!UICONTROL Automated Personalization] provavelmente também não gerará aumento.
 
-   * Se um teste A/B...N não mostrar diferenças estatisticamente significativas entre as experiências, uma ou mais das seguintes situações provavelmente serão responsáveis:
+  * Se um teste A/B...N não mostrar diferenças estatisticamente significativas entre as experiências, uma ou mais das seguintes situações provavelmente serão responsáveis:
 
-      * É provável que as ofertas não sejam suficientemente diferentes umas das outras.
-      * Os locais selecionados não afetam a métrica de sucesso.
-      * A meta de otimização está muito longe no funnel de conversão para ser afetada pelas ofertas escolhidas.
+    * É provável que as ofertas não sejam suficientemente diferentes umas das outras.
+    * Os locais selecionados não afetam a métrica de sucesso.
+    * A meta de otimização está muito longe no funnel de conversão para ser afetada pelas ofertas escolhidas.
 
 * Use o [Avaliador de Tráfego](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) para que você tenha uma noção de quanto tempo leva para modelos de personalização serem compilados em sua atividade do [!UICONTROL Automated Personalization].
 * Decida sobre a alocação entre o controle e o target antes de iniciar a atividade, com base em suas metas.
 
   Há três cenários a serem considerados com base na meta da atividade e no tipo de controle selecionado:
 
-   * **Experiências aleatórias como controle e o objetivo da atividade é testar a eficácia do algoritmo de personalização**: se o objetivo é avaliar o algoritmo de personalização, você deseja ter uma imagem mais precisa do aumento. Você também pode querer comparar qual é a taxa de conversão de suas experiências ou ofertas se simplesmente fez um [!UICONTROL Teste A/B] (um controle disponibilizado aleatoriamente). Nessa situação, recomenda-se utilizar uma alocação de 50% para um controle de experiências disponibilizadas aleatoriamente.
-   * **&quot;Experiências aleatórias&quot; como controle e a meta da atividade é maximizar o tráfego personalizado**: se você estiver familiarizado com o algoritmo e quiser ter a quantidade máxima de tráfego personalizado, recomenda-se uma alocação de 10% a 30%. A compensação aqui é a precisão que você vê nas informações de lift. Os intervalos de confiança do tráfego de controle são maiores porque há menos tráfego fluindo para eles.
-   * **Experiência específica como controle, com ambos os tipos de metas**: se você quiser comparar uma experiência específica orientada por um profissional de marketing aos modelos de personalização, recomenda-se uma alocação de 10% a 30% para controle. Quando você seleciona apenas uma experiência como controle, esse tráfego não é distribuído em cada oferta ou experiência da atividade.
+  * **Experiências aleatórias como controle e o objetivo da atividade é testar a eficácia do algoritmo de personalização**: se o objetivo é avaliar o algoritmo de personalização, você deseja ter uma imagem mais precisa do aumento. Você também pode querer comparar qual é a taxa de conversão de suas experiências ou ofertas se simplesmente fez um [!UICONTROL Teste A/B] (um controle disponibilizado aleatoriamente). Nessa situação, recomenda-se utilizar uma alocação de 50% para um controle de experiências disponibilizadas aleatoriamente.
+  * **&quot;Experiências aleatórias&quot; como controle e a meta da atividade é maximizar o tráfego personalizado**: se você estiver familiarizado com o algoritmo e quiser ter a quantidade máxima de tráfego personalizado, recomenda-se uma alocação de 10% a 30%. A compensação aqui é a precisão que você vê nas informações de lift. Os intervalos de confiança do tráfego de controle são maiores porque há menos tráfego fluindo para eles.
+  * **Experiência específica como controle, com ambos os tipos de metas**: se você quiser comparar uma experiência específica orientada por um profissional de marketing aos modelos de personalização, recomenda-se uma alocação de 10% a 30% para controle. Quando você seleciona apenas uma experiência como controle, esse tráfego não é distribuído em cada oferta ou experiência da atividade.
 
 * As regras de direcionamento devem ser usadas com toda moderação possível, pois podem interferir na capacidade do modelo de otimizar.
 * Os grupos de relatórios podem limitar o sucesso da sua atividade [!UICONTROL Automated Personalization]. Usar grupos de relatórios somente sob condições específicas:
 
-   * Use grupos de relatórios somente se as seguintes condições forem atendidas:
+  * Use grupos de relatórios somente se as seguintes condições forem atendidas:
 
-      * Você planeja substituir ou adicionar novas ofertas enquanto a atividade estiver em execução.
-      * As ofertas no grupo de relatórios atraem os mesmos visitantes.
-      * As ofertas nesse grupo de relatórios têm aproximadamente a mesma taxa de resposta geral.
+    * Você planeja substituir ou adicionar novas ofertas enquanto a atividade estiver em execução.
+    * As ofertas no grupo de relatórios atraem os mesmos visitantes.
+    * As ofertas nesse grupo de relatórios têm aproximadamente a mesma taxa de resposta geral.
 
-   * Não há personalização entre ofertas em um grupo de relatórios. Todas as ofertas são tratadas como iguais pelo modelo de personalização.
-   * Nunca coloque todas as ofertas em uma atividade em um único grupo de relatórios. Isso faz com que todas as ofertas sejam distribuídas uniformemente aleatoriamente para todos os visitantes na atividade.
+  * Não há personalização entre ofertas em um grupo de relatórios. Todas as ofertas são tratadas como iguais pelo modelo de personalização.
+  * Nunca coloque todas as ofertas em uma atividade em um único grupo de relatórios. Isso faz com que todas as ofertas sejam distribuídas uniformemente aleatoriamente para todos os visitantes na atividade.
 
 +++
 

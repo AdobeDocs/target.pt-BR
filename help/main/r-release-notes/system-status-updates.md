@@ -1,22 +1,29 @@
 ---
 keywords: atualização do sistema;solução de problemas;manutenção;status do sistema;status de atualização
-description: Visualize o status do  [!DNL Adobe Target]  para ajudar a determinar se os problemas encontrados foram causados por atualizações do sistema ou pela manutenção de rotina.
-title: Onde posso visualizar o status do  [!DNL Target]  e de outros produtos da  [!DNL Adobe] ?
+description: Exiba o status do [!DNL Adobe Target] para ajudar a determinar se os problemas que você pode encontrar ocorrem devido a atualizações do sistema ou manutenção de rotina.
+title: Onde posso visualizar o status de [!DNL Target] e de Outros produtos do [!DNL Adobe]?
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-TQID: https://experienceleague.adobe.com/FVxxay-rE3sqbBriUJcqsXsc4WkzsGPQHha0G0Fxt2A
+TQID: 'https://experienceleague.adobe.com/FVxxay-rE3sqbBriUJcqsXsc4WkzsGPQHha0G0Fxt2A'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 319
-ht-degree: 79%
-
+source-wordcount: '322'
+ht-degree: 70%
 ---
-
 # Atualizações do status do sistema e notificações proativas
 
 Use a página [!UICONTROL Status do Sistema da Adobe] e as notificações proativas para manter-se informado sobre o status dos produtos do [!DNL Adobe] e das soluções do [!DNL Adobe Experience Cloud]. As notificações proativas alertam você sobre eventos de interrupção e manutenção.

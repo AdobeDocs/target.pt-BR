@@ -1,21 +1,24 @@
 ---
 keywords: mvt, teste multivariado, práticas recomendadas para o teste multivariado, práticas recomendadas para mvt, combinações mvt, relatórios mvt
-description: Saiba como melhorar o desempenho, evitar problemas e corrigir problemas conhecidos que podem ocorrer ao criar e executar atividades de [!UICONTROL Teste multivariado] no [!DNL Adobe Target].
+description: Saiba como melhorar o desempenho, evitar problemas e corrigir problemas conhecidos que podem ocorrer ao criar e executar atividades de [!UICONTROL Teste Multivariado] no [!DNL Adobe Target].
 title: Quais são as práticas recomendadas para uma atividade de [!UICONTROL Teste multivariado]?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
-TQID: https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k
+TQID: 'https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '625'
 ht-degree: 55%
-
 ---
-
 # [!UICONTROL Práticas recomendadas para o teste multivariado]
 
 Dicas para ajudá-lo a melhorar o desempenho, evitar problemas e corrigir problemas conhecidos que podem ocorrer ao criar e executar atividades de [!UICONTROL Teste Multivariado] (MVT) no [!DNL Adobe Target].
@@ -62,11 +65,11 @@ Dicas para ajudá-lo a melhorar o desempenho, evitar problemas e corrigir proble
 
   As ações específicas que redefinem nomes de experiência e relatórios incluem:
 
-   * Incluir uma nova localização
-   * Excluir uma localização
-   * Incluir novas ofertas ou excluir ofertas de um local existente
-   * Editar ofertas de rich text
-   * Editar ofertas de cor do fundo
+  * Incluir uma nova localização
+  * Excluir uma localização
+  * Incluir novas ofertas ou excluir ofertas de um local existente
+  * Editar ofertas de rich text
+  * Editar ofertas de cor do fundo
 
 * Ao seguir o teste MVT com um ou mais testes A/B, você pode determinar o melhor conteúdo possível para os resultados que deseja.
 

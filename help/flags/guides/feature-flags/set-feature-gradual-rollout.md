@@ -4,13 +4,14 @@ description: Saiba como configurar uma implantação gradual com base em porcent
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 1e03c533-398d-4a83-9f4a-c0419828b460
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 3%
-
 ---
-
 # Definir um recurso para implantação gradual {#gradual-rollout-feature}
 
 A porcentagem de implantação de um sinalizador de recurso está configurada na guia **Detalhes Básicos**. Você pode ajustar esse valor para cima ou para baixo a qualquer momento, conforme o progresso da implantação.

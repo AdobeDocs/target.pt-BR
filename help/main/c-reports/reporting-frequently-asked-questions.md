@@ -1,30 +1,39 @@
 ---
 keywords: solução de problemas;discrepâncias de métricas;FAQ;relatórios;novo visitante;novos visitantes;visitante recorrente;visitantes recorrentes;visita de retorno;nova visita
-description: Explore uma lista de perguntas frequentes e respostas sobre os relatórios do Adobe [!DNL Target] .
-title: Onde posso encontrar respostas para perguntas sobre o  [!DNL Target] relatório?
+description: Explore uma lista de perguntas frequentes e respostas sobre os relatórios do Adobe [!DNL Target].
+title: Onde posso encontrar respostas para perguntas sobre os relatórios do [!DNL Target]?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-TQID: https://experienceleague.adobe.com/Gy7-jh5QTTwq8xAkwkQKSkZ0rCnEef92NfnjeAQxnDM
+TQID: 'https://experienceleague.adobe.com/Gy7-jh5QTTwq8xAkwkQKSkZ0rCnEef92NfnjeAQxnDM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1324
-ht-degree: 24%
-
+source-wordcount: '1393'
+ht-degree: 23%
 ---
-
 # Perguntas frequentes de geração de relatórios
 
 Lista de perguntas frequentes sobre relatórios no [!DNL Adobe Target].
@@ -139,6 +148,6 @@ Por exemplo, eu defini a divisão de tráfego para 50/50 ou 25/25/25/25, mas est
 * A prática recomendada para testes A/B e MVT é manter as divisões de tráfego uniformes. Alterar a distribuição de tráfego entre experiências (por exemplo, de 90/10 para 50/50) durante um teste pode levar a visitantes desiguais entre experiências. A experiência de tráfego mais baixo pode nunca &quot;alcançar o topo&quot;.
 * Se estiver seguindo as práticas recomendadas acima e a divisão de tráfego não normalizar ao longo do tempo, verifique o seguinte:
 
-   * Você está usando a biblioteca at.js mais recente? Para obter mais informações sobre a versão atual e as notas de versão associadas, consulte [detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank}.
+  * Você está usando a biblioteca at.js mais recente? Para obter mais informações sobre a versão atual e as notas de versão associadas, consulte [detalhes da versão da at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=pt-BR){target=_blank}.
 
-   * É um teste de redirecionamento? O tempo incorreto de disparo de tags na página pode gerar divisões de tráfego desiguais, especialmente ao usar [!DNL Analytics] como fonte de dados para uma atividade [!DNL Target]. Para obter detalhes sobre como solucionar a distribuição de tráfego desigual em uma atividade de redirecionamento com o Analytics for Target (A4T), consulte [Perguntas frequentes sobre ofertas de redirecionamento - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
+  * É um teste de redirecionamento? O tempo incorreto de disparo de tags na página pode gerar divisões de tráfego desiguais, especialmente ao usar [!DNL Analytics] como fonte de dados para uma atividade [!DNL Target]. Para obter detalhes sobre como solucionar a distribuição de tráfego desigual em uma atividade de redirecionamento com o Analytics for Target (A4T), consulte [Perguntas frequentes sobre ofertas de redirecionamento - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

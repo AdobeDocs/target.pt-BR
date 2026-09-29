@@ -4,13 +4,14 @@ description: Saiba mais sobre os principais casos de uso para sinalizadores no A
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
-
 ---
-
 # Por que usar sinalizadores {#why-use}
 
 Os Sinalizadores são a ferramenta certa sempre que você precisa controlar quem vê um recurso e quando — se você está testando no desenvolvimento, validando com um subconjunto de usuários ou coordenando uma versão grande em várias equipes.

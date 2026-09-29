@@ -4,13 +4,14 @@ description: Saiba como os grupos de recursos em Sinalizadores permitem agrupar 
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
-
 ---
-
 # Grupos de recursos para controlar vários recursos {#feature-groups}
 
 Um [sinalizador de recurso](what-is-a-feature-flag.md) controla um único recurso. Quando você precisar gerenciar vários sinalizadores de recursos relacionados juntos e garantir que eles atinjam o mesmo público-alvo, use um **grupo de recursos**.

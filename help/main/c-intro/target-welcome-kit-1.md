@@ -1,23 +1,31 @@
 ---
 keywords: kit de boas-vindas;kit de boas-vindas do target;introdução;introdução do
-description: Inicie seu programa de otimização e personalização com o Adobe Target. O kit de boas-vindas do Adobe  [!DNL Target]  é um bom ponto de partida.
+description: Inicie seu programa de otimização e personalização com o Adobe Target. O kit de boas-vindas Adobe [!DNL Target] é um bom ponto de partida.
 title: Como começar a usar o Target?
 feature: Overview
 exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
-TQID: https://experienceleague.adobe.com/trqV5-1-Fi8MRkvcnjDJPCgWnYXKP48JzzMpW8IpF44
+TQID: 'https://experienceleague.adobe.com/trqV5-1-Fi8MRkvcnjDJPCgWnYXKP48JzzMpW8IpF44'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 380
-ht-degree: 91%
-
+source-wordcount: '381'
+ht-degree: 88%
 ---
-
 # Capítulo 1: Introdução
 
 Caso seja como a maioria das empresas atuais, você modernizou seus canais de marketing digital. Agora você busca maneiras de distinguir sua marca, de se diferenciar, e, assim, aumentar a receita, as taxas de conversão e outras métricas-chave de negócios. Uma maneira de fazer isso é otimizar e personalizar as experiências digitais fornecidas aos clientes usando o que você sabe sobre eles para aproveitar ao máximo as interações no seu site, no site para dispositivos móveis, no aplicativo móvel ou em qualquer outro ponto de contato de marca. Você pode até mesmo estender essa otimização e personalização além dos pontos de contato digitais tradicionais para pontos de contato como quiosques, dispositivos da Internet das Coisas (IoT), interações da central de atendimento e assistentes de voz como a Alexa. As marcas que utilizaram o [!DNL Target] para testar e personalizar suas experiências digitais obtiveram resultados incríveis.

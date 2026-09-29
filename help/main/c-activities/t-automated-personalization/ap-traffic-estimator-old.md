@@ -1,17 +1,24 @@
 ---
 keywords: avaliador de tráfego;personalização automatizada;ap;estimar tráfego;traffic estimor;automated personalization;ap;estimate traffic
-description: Use o [!DNL Adobe Target] [!UICONTROL Avaliador de Tráfego] para determinar se você tem tráfego suficiente para que sua atividade do [!UICONTROL Automated Personalization] tenha êxito.
+description: Use o [!DNL Adobe Target] [!UICONTROL Avaliador de tráfego] para determinar se você tem tráfego suficiente para que sua atividade do [!UICONTROL Automated Personalization] tenha êxito.
 title: Quanto tráfego é necessário para uma atividade de [!UICONTROL Automated Personalization] bem-sucedida?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '782'
 ht-degree: 9%
-
 ---
-
 # Estimativa de tráfego exigido para o sucesso
 
 O [!DNL Adobe Target] [!UICONTROL Avaliador de Tráfego] fornece feedback que permite saber se você tem tráfego suficiente para que sua atividade do [!UICONTROL Automated Personalization] (AP) tenha êxito.

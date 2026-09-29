@@ -4,13 +4,14 @@ description: Saiba como as implantações graduais em sinalizadores permitem que
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 2%
-
 ---
-
 # Implantação gradual {#gradual-rollout}
 
 A implantação gradual coloca um novo recurso em produção de forma incremental, em vez de habilitá-lo para todos os usuários de uma só vez. Essa abordagem reduz o risco, ajuda a gerenciar a carga de backend e cria um loop de feedback apertado antes do lançamento completo.

@@ -4,23 +4,29 @@ description: Saiba como usar a página [!UICONTROL Metas e configurações] em [
 title: Como Especificar Metas e Configurações em uma Atividade de [!UICONTROL Teste Multivariado] (MVT)?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-TQID: https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE
+TQID: 'https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1261
-ht-degree: 39%
-
+source-wordcount: '1266'
+ht-degree: 40%
 ---
-
 # Metas e Configurações ([!UICONTROL Teste Multivariado])
 
 A página [!UICONTROL Metas e Configurações] em [!DNL Adobe Target] é onde você insere informações sobre as metas de suas atividades de [!UICONTROL Teste Multivariado] (MVT).
@@ -64,7 +70,7 @@ Para atividades criadas em versões anteriores do [!DNL Target], a prioridade [!
 
 ### Duração
 
-A atividade pode começar quando aprovada ou você pode definir data e hora específicas. Da mesma maneira, a atividade não pode terminar quando é desativada, ou você pode definir uma data e hora. O seletor de hora usa um relógio de 24 horas, sendo 00:00 meia-noite. O fuso horário é definido para o que foi configurado no navegador. Para usar um fuso horário diferente, defina o navegador para outro fuso horário e reinicie-o.
+A atividade pode começar quando aprovada ou você pode definir data e hora específicas. Da mesma maneira, a atividade não pode terminar quando é desativada, ou você pode definir uma data e hora. O seletor de hora usa um relógio de 24 horas, sendo 00h a meia-noite. O fuso horário é definido para o que foi configurado no navegador. Para usar um fuso horário diferente, defina o navegador para outro fuso horário e reinicie-o.
 
 ## Configurações da geração de relatórios {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -169,7 +175,7 @@ Digite quaisquer informações sobre sua atividade que sejam úteis para você m
 
 Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
 
-### Configurações de Atividade (3:02)
+### Configurações da atividade (3:02)
 
 Este vídeo inclui informações sobre as configurações da atividade.
 
@@ -181,7 +187,7 @@ Este vídeo inclui informações sobre as configurações da atividade.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Criando Testes Multivariados (9:25)
+### Criação de testes multivariados (9:25)
 
 Este vídeo demonstra como criar um teste multivariado usando o fluxo de trabalho guiado de três etapas do [!DNL Target]. Metas e configurações são discutidas a partir de 7:00.
 

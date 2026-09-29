@@ -1,16 +1,23 @@
 ---
 keywords: Direcionamento de experiência;xt;url de atividade;url
-description: Saiba como especificar a [!UICONTROL URL de atividade] que determina a página que é usada no teste e que é aberta quando a atividade de [!UICONTROL Direcionamento de experiência] é criada usando  [!DNL Adobe Target].
+description: Saiba como especificar a [!UICONTROL URL de atividade] que determina a página que é usada no teste e que é aberta quando a atividade de [!UICONTROL Direcionamento de experiência] é criada usando [!DNL Adobe Target].
 title: O que é o [!UICONTROL URL da atividade] em uma atividade de [!UICONTROL Direcionamento de experiência] (XT)?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 36%
-
 ---
-
 # URL de atividade em [!UICONTROL atividades de Direcionamento de experiência] (XT)
 
 A [!UICONTROL URL da Atividade] determina a página usada em uma atividade [!DNL Adobe Target] [!UICONTROL Direcionamento de Experiência] (XT). Esta é a página que é aberta no [!UICONTROL Visual Experience Composer] (VEC) ou no [!UICONTROL Experience Composer baseado em formulário] quando a atividade é criada.

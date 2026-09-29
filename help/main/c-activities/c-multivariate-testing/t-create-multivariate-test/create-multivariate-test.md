@@ -4,20 +4,23 @@ description: Saiba como usar o [!UICONTROL Visual Experience Composer] (VEC) no 
 title: Como criar um [!UICONTROL teste multivariado]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-TQID: https://experienceleague.adobe.com/gxrnY43A7OWsiW48Rlq1Orp7ZxBswdAPZEAbRQrCDZA
+TQID: 'https://experienceleague.adobe.com/gxrnY43A7OWsiW48Rlq1Orp7ZxBswdAPZEAbRQrCDZA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 809
+source-wordcount: '811'
 ht-degree: 23%
-
 ---
-
 # Criar um teste multivariado
 
 O [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] facilita a criação de um [!UICONTROL Teste multivariado] e a modificação de partes da página no [!DNL Target].
@@ -128,7 +131,7 @@ O [!UICONTROL Teste multivariado] (MVT) ocupa um relatório de primeira página.
 
 1. Clique em **[!UICONTROL Salvar e fechar]** para criar a atividade.
 
-## Vídeo de treinamento: Criando Testes Multivariados (9:25) ![Selo do tutorial](/help/main/assets/tutorial.png)
+## Vídeo de treinamento: Criação de testes multivariados (9:25) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
 Este vídeo demonstra como planejar e criar um teste multivariado usando o fluxo de trabalho guiado de três etapas do [!DNL Target].
 

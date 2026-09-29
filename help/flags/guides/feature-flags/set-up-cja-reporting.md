@@ -4,13 +4,14 @@ description: Configure o fluxo de dados, a conexão e a visualização de dados 
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 57bd1106-2b3d-4e03-882a-acfef1c0df66
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 4%
-
 ---
-
 # Configurar o CJA para relatórios de sinalizadores de recursos {#set-up-cja-reporting}
 
 A integração entre o Flags e o Adobe Customer Journey Analytics (CJA) fornece uma maneira unificada de medir o impacto comercial das variantes de sinalizadores de recursos. Aplique as métricas de sucesso do CJA aos relatórios de Sinalizadores a qualquer momento e aproveite os recursos do Customer Journey Analytics, como o [painel de Experimentação](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/panels/experimentation), para avaliar o desempenho do experimento e entender como as variantes de recursos influenciam o comportamento do cliente.

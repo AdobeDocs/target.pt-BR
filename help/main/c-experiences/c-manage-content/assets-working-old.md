@@ -1,16 +1,23 @@
 ---
 keywords: biblioteca de conteúdo; ativos; anotar; copiar; excluir ativo; baixar ativo; editar conteúdo; compartilhar cartão; exibir propriedades do conteúdo
-description: Saiba como gerenciar ofertas de código e imagem na biblioteca Adobe [!DNL Target] Offers. Saiba como visualizar os detalhes de uma oferta e como editar, copiar, mover ou excluir ofertas.
+description: Saiba como gerenciar ofertas de código e imagem na biblioteca de ofertas do Adobe [!DNL Target]. Saiba como visualizar os detalhes de uma oferta e como editar, copiar, mover ou excluir ofertas.
 title: Como trabalho com conteúdo na Biblioteca de ofertas?
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '773'
 ht-degree: 31%
-
 ---
-
 # Trabalhar com conteúdo na biblioteca de ativos
 
 Informações sobre as tarefas que você pode executar em um ativo na Biblioteca de Conteúdo no [!DNL Adobe Target], incluindo anotação, cópia, exclusão, download, edição, compartilhamento e exibição de propriedades.
@@ -55,19 +62,19 @@ A ilustração a seguir mostra os ícones de flutuação ao visualizar a [!UICON
 
 * **Selecionar**: Selecione uma ou mais pastas nas quais executar as seguintes ações:
 
-   * Baixar
-   * Copiar
-   * Mover
-   * Excluir (Consulte [Considerações ao excluir itens](#delete).)
+  * Baixar
+  * Copiar
+  * Mover
+  * Excluir (Consulte [Considerações ao excluir itens](#delete).)
 
   Selecione uma ou mais ofertas de imagem nas quais executar as seguintes ações:
 
-   * Compartilhar
-   * Baixar
-   * Propriedades da exibição
-   * Editar
-   * Anotar
-   * Mover
+  * Compartilhar
+  * Baixar
+  * Propriedades da exibição
+  * Editar
+  * Anotar
+  * Mover
 
 * **Baixar**: baixe a oferta de imagem ou a pasta e seu conteúdo.
 * **Exibir Propriedades**: exibir as propriedades do item. Certifique-se de clicar nas guias [!UICONTROL Básico] e [!UICONTROL Avançado] para exibir todas as informações disponíveis. Clique no ícone de Lápis na página de propriedades para editar as propriedades e adicionar mais informações. Você pode adicionar informações de metadados, status de publicação e dados da licença.

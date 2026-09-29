@@ -4,26 +4,34 @@ description: Saiba como solucionar problemas no [!UICONTROL Visual Experience Co
 title: Como soluciono problemas relacionados ao [!UICONTROL Visual Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-TQID: https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs
+TQID: 'https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: '1154'
 ht-degree: 29%
-
 ---
-
 # Solução de problemas relacionados ao [!UICONTROL Visual Experience Composer]
 
 Problemas de exibição às vezes ocorrem no [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) sob determinadas condições.
@@ -87,16 +95,16 @@ Se nem o [!UICONTROL Visual Experience Composer] nem o [!UICONTROL Enhanced Expe
    * Nome da regra
    * Regras de modificação
 
-      * Alterne **[!UICONTROL Adicionar]** para **[!UICONTROL Remover]**.
-      * Alterne **[!UICONTROL Solicitação]** para **[!UICONTROL Resposta]**.
-      * Digite &quot;X-Frame-Options&quot; como o nome do cabeçalho.
-      * Repita as etapas anteriores e digite &quot;x-frame-options&quot; como nome do cabeçalho.
+     * Alterne **[!UICONTROL Adicionar]** para **[!UICONTROL Remover]**.
+     * Alterne **[!UICONTROL Solicitação]** para **[!UICONTROL Resposta]**.
+     * Digite &quot;X-Frame-Options&quot; como o nome do cabeçalho.
+     * Repita as etapas anteriores e digite &quot;x-frame-options&quot; como nome do cabeçalho.
 
-        >[!NOTE]
-        >
-        >Os cabeçalhos manipulados via [!DNL Requestly] diferenciam maiúsculas de minúsculas.
+       >[!NOTE]
+       >
+       >Os cabeçalhos manipulados via [!DNL Requestly] diferenciam maiúsculas de minúsculas.
 
-      * Altere **[!UICONTROL Igual a]** para **[!UICONTROL Contém]** como a condição para o URL de origem e insira o URL da atividade que você está tentando carregar no VEC.
+     * Altere **[!UICONTROL Igual a]** para **[!UICONTROL Contém]** como a condição para o URL de origem e insira o URL da atividade que você está tentando carregar no VEC.
 
      ![imagem de chrome_extension](assets/chrome_extension.png)
 
@@ -140,14 +148,14 @@ Após configurar uma extensão, abra o [!DNL Target]. Suas páginas agora devem 
 
 * Certifique-se de que o JavaScript da página da Web não interfira nas bibliotecas de criação. Não use ou inclua arquivos usando os seguintes nomes reservados:
 
-   * `target-vec-helper.js`
-   * `target-vec.js`
-   * `target.js`
-   * `admin.css`
-   * `sizzle.js`
-   * `mixContentCheck.html`
+  * `target-vec-helper.js`
+  * `target-vec.js`
+  * `target.js`
+  * `admin.css`
+  * `sizzle.js`
+  * `mixContentCheck.html`
 
-     Além disso, a substituição acidental de variáveis ou eventos definidos nesses arquivos pode levar a problemas com o VEC.
+    Além disso, a substituição acidental de variáveis ou eventos definidos nesses arquivos pode levar a problemas com o VEC.
 
 * O navegador está bloqueando uma página não segura em um site seguro.
 

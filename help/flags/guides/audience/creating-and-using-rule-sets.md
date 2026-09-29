@@ -3,13 +3,14 @@ title: Criar e usar conjuntos de regras
 description: Saiba como criar um Conjunto de regras de critérios de contexto de público-alvo reutilizável em sinalizadores e importá-lo para sinalizadores de recursos e grupos de recursos.
 badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 1%
-
 ---
-
 # Criar e usar conjuntos de regras {#creating-and-using-rule-sets}
 
 Um conjunto de regras é uma coleção reutilizável de critérios de contexto de público-alvo. Crie um Conjunto de regras quando vários sinalizadores ou grupos de recursos precisarem do mesmo público-alvo. Em seguida, você pode importar o Conjunto de regras em vez de recriar os critérios de público-alvo para cada recurso.

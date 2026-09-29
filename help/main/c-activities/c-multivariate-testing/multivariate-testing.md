@@ -4,21 +4,25 @@ description: Saiba como usar um [!UICONTROL Teste Multivariado] (MVT) no [!DNL A
 title: O que é um [!UICONTROL teste multivariado]?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
+TQID: 'https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1473
-ht-degree: 46%
-
+source-wordcount: '1477'
+ht-degree: 47%
 ---
-
 # Visão geral de [!UICONTROL Teste multivariado]
 
 Uma atividade de [!UICONTROL Teste Multivariado] (MVT) em [!DNL Adobe Target] compara combinações de ofertas em elementos em uma página para determinar qual combinação tem o melhor desempenho para um público-alvo específico. Uma atividade de [!UICONTROL Teste multivariado] também ajuda a identificar qual elemento afeta mais o sucesso da atividade.
@@ -100,7 +104,7 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 
 ### Tipos de atividades (9:03) ![Selo de visão geral](/help/main/assets/overview.png)
 
-Este vídeo de visão geral explica os tipos de atividades disponíveis em [!DNL Target]. Teste multivariado discutido a partir de 4:20.
+Este vídeo de visão geral explica os tipos de atividades disponíveis em [!DNL Target]. O teste multivariado é discutido a partir de 04:20.
 
 * Descreva os tipos de atividade incluídos no [!DNL Adobe Target]
 * Selecione o tipo de atividade apropriado para atingir suas metas

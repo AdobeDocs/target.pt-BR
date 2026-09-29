@@ -4,13 +4,14 @@ description: Saiba como executar testes A/B usando grupos de recursos em Sinaliz
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 1%
-
 ---
-
 # Teste A/B com sinalizadores de recursos {#a-b-testing}
 
 Testes A/B em Sinalizadores são executados usando **grupos de recursos**. Ao configurar mais de uma variante em um grupo de recursos, você pode distribuir diferentes versões de um recurso para diferentes subconjuntos do público-alvo e comparar os resultados.

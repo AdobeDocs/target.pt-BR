@@ -1,16 +1,23 @@
 ---
 keywords: Direcionamento;sucesso;métrica de conversão;métrica de pontuação da página;métricas de exibições de página;métricas de receita;métrica de tempo no site;valor estimado;configurações avançadas;métricas de sucesso;configurações avançadas;dependência;dependente;Incrementar contagem e manter usuário em atividade;Incrementar contagem, liberar usuário, & permitir reentrada;incrementar contagem, liberar usuário, & impedir de reentrada
-description: Saiba mais sobre as métricas de sucesso do Adobe [!DNL Target]  que ajudam você a determinar o sucesso de uma atividade. As métricas de sucesso incluem Conversão, Receita, Visualizações de página, Pontuação personalizada e Tempo no site.
+description: Conheça as métricas de sucesso do Adobe [!DNL Target] que ajudam você a determinar o sucesso de uma atividade. As métricas de sucesso incluem Conversão, Receita, Visualizações de página, Pontuação personalizada e Tempo no site.
 title: O que são métricas de sucesso?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1279'
 ht-degree: 41%
-
 ---
-
 # Métricas de sucesso
 
 Em [!DNL Adobe Target] métricas de sucesso são parâmetros usados para medir o sucesso de uma atividade. As métricas de sucesso incluem as principais medidas de negócios que permitem determinar o sucesso de uma determinada experiência ou oferta em uma atividade do [!DNL Target].

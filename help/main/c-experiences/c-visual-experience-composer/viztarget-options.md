@@ -4,22 +4,27 @@ description: Explore as opções disponíveis no [!DNL Adobe Target] [!UICONTROL
 title: Como usar as opções do [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-TQID: https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA
+TQID: 'https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2249
-ht-degree: 7%
-
+source-wordcount: '2271'
+ht-degree: 8%
 ---
-
 # [!UICONTROL Opções do Visual Experience Composer]
 
 A versão [!DNL Adobe Target Standard/Premium] 25.2.1 (17 de fevereiro de 2015) apresenta o [!UICONTROL Visual Experience Composer] (VEC) atualizado. Este artigo explica a interface do usuário atualizada e suas opções.
@@ -105,17 +110,17 @@ Para adicionar um novo componente a uma experiência:
    Os componentes disponíveis são agrupados em contêineres lógicos:
 
    * [!UICONTROL Básico]
-      * [!UICONTROL Divisor]
-      * [!UICONTROL HTML]
-      * [!UICONTROL Imagem]
+     * [!UICONTROL Divisor]
+     * [!UICONTROL HTML]
+     * [!UICONTROL Imagem]
    * [!UICONTROL Texto]
-      * [!UICONTROL Cabeçalho]
-      * [!UICONTROL Parágrafo]
-      * [!UICONTROL Link]
+     * [!UICONTROL Cabeçalho]
+     * [!UICONTROL Parágrafo]
+     * [!UICONTROL Link]
    * [!UICONTROL Dinâmico]
-      * [[!UICONTROL Recomendação]](/help/main/c-recommendations/recommendations-as-an-offer.md)
-      * [[!UICONTROL Fragmento de experiência]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-      * [[!UICONTROL Oferta da HTML]](/help/main/c-experiences/c-manage-content/manage-content.md)
+     * [[!UICONTROL Recomendação]](/help/main/c-recommendations/recommendations-as-an-offer.md)
+     * [[!UICONTROL Fragmento de experiência]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+     * [[!UICONTROL Oferta da HTML]](/help/main/c-experiences/c-manage-content/manage-content.md)
 
 1. Arraste o componente sobre um elemento de página existente na tela [!UICONTROL Design].
 1. Escolha substituir o elemento selecionado ou inserir o componente antes ou depois do elemento selecionado.

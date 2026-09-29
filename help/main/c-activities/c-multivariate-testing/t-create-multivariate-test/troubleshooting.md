@@ -1,22 +1,26 @@
 ---
 keywords: Testes multivariados;solucionar problemas;solução de problemas;mvt
-description: Explore os possíveis desafios a serem enfrentados ao usar as atividades de [!UICONTROL Teste multivariado] (MVT) no [!DNL Adobe Target], juntamente com as soluções sugeridas.
+description: Explore os possíveis desafios que você pode enfrentar ao usar as atividades de [!UICONTROL Teste multivariado] (MVT) no [!DNL Adobe Target], juntamente com as soluções sugeridas.
 title: Como solucionar problemas de um [!UICONTROL teste multivariado]?
 feature: Multivariate Tests
 exl-id: 93bb8446-06af-4466-9824-7099c1080059
-TQID: https://experienceleague.adobe.com/O9lmC1PmICPCOxcMDYVcSdpRoM-bqwKR-79deFIG2mg
+TQID: 'https://experienceleague.adobe.com/O9lmC1PmICPCOxcMDYVcSdpRoM-bqwKR-79deFIG2mg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 174
+source-wordcount: '174'
 ht-degree: 21%
-
 ---
-
 # Solução de problemas de [!UICONTROL atividades de Teste multivariado]
 
 Este artigo contém sugestões para resolver alguns problemas que podem ocorrer ao criar um [!UICONTROL Teste Multivariado] (MVT) no [!DNL Adobe Target].
@@ -30,6 +34,6 @@ Este artigo contém sugestões para resolver alguns problemas que podem ocorrer 
 
   As ações específicas que redefinem nomes de experiência e relatórios incluem:
 
-   * Incluir uma nova localização
-   * Excluir uma localização
-   * Incluir novas ofertas ou excluir ofertas de uma localização existente
+  * Incluir uma nova localização
+  * Excluir uma localização
+  * Incluir novas ofertas ou excluir ofertas de uma localização existente

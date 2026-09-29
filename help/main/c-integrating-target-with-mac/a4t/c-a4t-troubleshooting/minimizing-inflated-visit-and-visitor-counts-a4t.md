@@ -1,16 +1,20 @@
 ---
 keywords: dados parciais;dados parciais;A4T;discrepâncias;analytics for target;órfão;conjunto de relatórios virtual;fictício;solução de problemas;não corrigido;inflacionado;não especificado
-description: Saiba como minimizar os efeitos de contagens inflacionadas de visitas e visitantes ao usar o Analytics for  [!DNL Target]  (A4T). Saiba o que são “dados parciais” e como reduzi-los.
+description: Saiba como minimizar os efeitos de contagens inflacionadas de visitas e visitantes ao usar o Analytics para [!DNL Target] (A4T). Saiba o que são “dados parciais” e como reduzi-los.
 title: Como minimizar as contagens aumentadas de visitas e visitantes no A4T?
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
-source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1362'
-ht-degree: 97%
-
+ht-degree: 96%
 ---
-
 # Minimizar contagens inflacionadas de visitas e visitantes no A4T
 
 Informações para ajudá-lo a minimizar os efeitos de contagens inflacionadas de Visitas e Visitantes ao usar o [!DNL Adobe Analytics] como fonte de relatórios para o [!DNL Adobe Target] (A4T).
@@ -32,7 +36,7 @@ Quando o [!DNL Adobe Analytics] é usado para medir as atividades do [!DNL Targe
 
 ## Por que a Adobe fez essa alteração? {#section_92380A4BD69E4B8886692DD27540C92A}
 
-A Adobe orgulha-se de sua qualidade e precisão de dados. Quando a tag do [!DNL Target] for disparada, mas a tag do [!DNL Analytics] não, o Analytics registra “dados parciais” (às vezes chamados de “dados não compilados”). Essas ocorrências não compiladas não seriam capturadas pelo [!DNL Analytics] se não houvesse atividades do [!DNL Target]. Embora a inclusão desses dados parciais nos relatórios do [!DNL Analytics] realmente forneça informações adicionais, ela também cria inconsistência com dados históricos de períodos em que não havia atividades do [!DNL Target] em execução. Essa situação pode causar problemas para os usuários do [!DNL Analytics] que estão analisando tendências ao longo do tempo. A fim de assegurar a coerência dos dados no [!DNL Analytics], a Adobe exclui todos os dados parciais.
+A Adobe orgulha-se de sua qualidade e precisão de dados. Quando a tag do [!DNL Target] for disparada, mas a tag do [!DNL Analytics] não, o Analytics registra “dados parciais” (às vezes chamados de “hits não compilados”). Esses hits não compilados não seriam capturados pelo [!DNL Analytics] se não houvesse atividades do [!DNL Target]. Embora a inclusão desses dados parciais nos relatórios do [!DNL Analytics] realmente forneça informações adicionais, ela também cria inconsistência com dados históricos de períodos em que não havia atividades do [!DNL Target] em execução. Essa situação pode causar problemas para os usuários do [!DNL Analytics] que estão analisando tendências ao longo do tempo. A fim de assegurar a coerência dos dados no [!DNL Analytics], a Adobe exclui todos os dados parciais.
 
 ## O que contribui para dados parciais? {#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
 
@@ -67,11 +71,11 @@ Essa alteração de processamento afeta dados somente após a data de lançament
 
 As informações a seguir relacionadas a essa alteração incluem instruções para ajudar você a definir o segmento e aplicá-lo a um conjunto de relatórios virtual para que este segmento sempre seja aplicado às suas visualizações do [!DNL Analytics].
 
-Na maioria das situações, um acesso do [!DNL Target] é corrigido com um acesso do [!DNL Analytics] em cada página da Web. Essa correção acontece se houver uma SDID consistente nas chamadas do [!DNL Target] e do [!DNL Analytics] e um [!DNL Experience Cloud ID] (MCID) na chamada do [!DNL Analytics] na mesma página. O [!DNL Target] geralmente tem o MCID, mas se a chamada para o [!DNL Target] ocorrer antes que a ID de visitante retorne, o acesso ainda será corrigido por causa do SDID. Além disso, o usuário deve permanecer na página por tempo suficiente para disparar uma chamada do [!DNL Analytics] depois do disparo de uma chamada do [!DNL Target]. Esse cenário é ideal.
+Na maioria das situações, um hit do [!DNL Target] é corrigido com um hit do [!DNL Analytics] em cada página da Web. Essa correção acontece se houver uma SDID consistente nas chamadas do [!DNL Target] e do [!DNL Analytics] e um [!DNL Experience Cloud ID] (MCID) na chamada do [!DNL Analytics] na mesma página. O [!DNL Target] geralmente tem o MCID, mas se a chamada para o [!DNL Target] ocorrer antes que a ID de visitante retorne, o hit ainda será corrigido por causa do SDID. Além disso, o usuário deve permanecer na página por tempo suficiente para disparar uma chamada do [!DNL Analytics] depois do disparo de uma chamada do [!DNL Target]. Esse cenário é ideal.
 
-**Acessos a dados parciais:** Os usuários algumas vezes não permanecem em uma página tempo suficiente para enviar uma chamada do [!DNL Analytics], mas o [!DNL Target] tem um MCID apropriado. O cenário resulta em acessos a dados parciais (acessos sem visualização de página do [!DNL Analytics]). Se esses usuários voltarem ao seu site e visualizarem uma página contendo código do [!DNL Analytics], serão contados apropriadamente como visitantes recorrentes. São acessos que teriam sido perdidos se você só tivesse código do [!DNL Analytics] na página. Alguns clientes não querem dados desses acessos porque eles inflam certas métricas (visitas) e deflacionam outras métricas (visualizações de página por visita, tempo por visita e assim por diante). Você também verá visitas sem quaisquer visualizações de página. Entretanto, ainda há razões válidas para manter esses dados.
+**Hits de dados parciais:** Os usuários algumas vezes não permanecem em uma página tempo suficiente para enviar uma chamada do [!DNL Analytics], mas o [!DNL Target] tem um MCID apropriado. O cenário resulta em hits de dados parciais (hits sem visualização de página do [!DNL Analytics]). Se esses usuários voltarem ao seu site e visualizarem uma página contendo código do [!DNL Analytics], serão contados apropriadamente como visitantes recorrentes. São hits que teriam sido perdidos se você só tivesse código do [!DNL Analytics] na página. Alguns clientes não querem dados desses hits porque eles inflam certas métricas (visitas) e reduzem outras métricas (visualizações de página por visita, tempo por visita e assim por diante). Você também verá visitas sem quaisquer visualizações de página. Entretanto, ainda há razões válidas para manter esses dados.
 
-Para minimizar os acessos com dados parciais, você pode fazer sua página carregar mais rápido, atualizar para as versões mais recentes das bibliotecas, ou criar um [conjunto de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=pt-BR) que excluem esses acessos. Para obter instruções passo a passo, consulte [Criar conjuntos de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=pt-BR) no *Guia de componentes do Analytics*.
+Para minimizar os hits com dados parciais, você pode fazer sua página carregar mais rápido, atualizar para as versões mais recentes das bibliotecas, ou criar um [conjunto de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=pt-BR) que excluem esses acessos. Para obter instruções passo a passo, consulte [Criar conjuntos de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=pt-BR) no *Guia de componentes do Analytics*.
 
 A ilustração a seguir mostra a definição de segmento para o conjunto de relatórios virtuais:
 
@@ -79,7 +83,7 @@ A ilustração a seguir mostra a definição de segmento para o conjunto de rela
 
 Ao criar o conjunto de relatórios virtuais, especifique a configuração a seguir para definição de segmento (conforme mostrado na ilustração acima):
 
-* **Exibir acesso:**
+* **Exibir hit:**
 * Analytics for Target: existe
 * E
 * Visualizações de página: não existe
@@ -90,10 +94,10 @@ Ao criar o conjunto de relatórios virtuais, especifique a configuração a segu
 * E
 * Instâncias de link de saída: não existe
 
-**Ocorrências órfãs:** em poucas situações, os usuários não permanecem na página por tempo suficiente para obter uma chamada do Analytics e o Target não recebe uma MCID apropriada. Essas ocorrências são o que a Adobe define como ocorrências “órfãs”. Esses acessos representam clientes que raramente retornam e inflam contadores de visitas e visitantes de maneira imprópria.
+**Hits órfãos:** em poucas situações, os usuários não permanecem na página por tempo suficiente para obter uma chamada do Analytics e o Target não recebe uma MCID apropriada. Esses hits são o que a Adobe define como hits “órfãos”. Esses hits representam clientes que raramente retornam, hits que inflam contadores de visitas e visitantes de maneira inadequada.
 
-Para minimizar esses acessos &quot;órfãos&quot;, você pode criar um [conjunto de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=pt-BR) que exclua esses acessos conforme explicado acima.
+Para minimizar esses hits &quot;órfãos&quot;, você pode criar um [conjunto de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=pt-BR) que exclua esses acessos conforme explicado acima.
 
 ## O que isso significa para meus [!DNL Target] relatórios? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
-Quando essa alteração ocorrer, você poderá observar uma redução em novos visitantes e visitas para testes ao vivo, pois o [!DNL Adobe] não processará os dados parciais de entrada. Conversões e acessos a outras [!DNL Analytics] métricas não serão alterados.
+Quando essa alteração ocorrer, você poderá observar uma redução em novos visitantes e visitas para testes ao vivo, pois o [!DNL Adobe] não processará os dados parciais de entrada. Conversões e hits a outras métricas [!DNL Analytics] não serão alterados.

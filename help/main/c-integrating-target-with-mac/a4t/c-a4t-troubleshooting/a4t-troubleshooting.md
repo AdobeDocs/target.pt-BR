@@ -1,28 +1,35 @@
 ---
 keywords: servidor de rastreamento de análises;A4T;segmentos de análise;conjuntos de relatórios;dados incorretos;órfão;sdid;VisitorAPI.js;mboxMCSDID;fictício;não especificado
-description: Confira problemas comuns que os clientes encontraram ao usar o Analytics for  [!DNL Target]  (A4T).
-title: Como solucionar problemas da integração do Analytics e do [!DNL Target]  (A4T)
+description: Confira problemas comuns que os clientes encontraram ao usar o Analytics for [!DNL Target] (A4T).
+title: Como solucionar problemas da integração do Analytics e do [!DNL Target] (A4T)
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-TQID: https://experienceleague.adobe.com/R-gDENE45OcDN1OmptsqpH3iMF9f2pllHJbJl2Vmk2o
+TQID: 'https://experienceleague.adobe.com/R-gDENE45OcDN1OmptsqpH3iMF9f2pllHJbJl2Vmk2o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 965
-ht-degree: 89%
-
+source-wordcount: '966'
+ht-degree: 87%
 ---
-
 # Solução de problemas da integração do Analytics e do [!DNL Target] (A4T)
 
 Este tópico aborda alguns problemas comuns encontrados durante o uso do [!DNL Adobe Analytics] como a fonte de geração de relatórios do [!DNL Adobe Target] (A4T).

@@ -4,13 +4,14 @@ description: Saiba mais sobre as diferenças entre sinalizadores de recursos e g
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 3%
-
 ---
-
 # Recursos e grupos de recursos {#features-feature-groups}
 
 Os sinalizadores fornecem dois artefatos para gerenciar implantações de recursos. Escolher a opção certa depende do escopo da implantação e do número de recursos envolvidos.

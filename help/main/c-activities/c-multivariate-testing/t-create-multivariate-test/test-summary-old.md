@@ -1,16 +1,20 @@
 ---
 keywords: resumo
-description: Veja o resumo de uma atividade de [!UICONTROL Teste multivariado] (MVT) que fornece uma visão geral visual de sua atividade no [!DNL Adobe Target].
+description: Exiba o resumo de uma atividade de [!UICONTROL Teste Multivariado] (MVT) que fornece uma visão geral visual de sua atividade no [!DNL Adobe Target].
 title: Como posso visualizar o resumo de uma atividade de [!UICONTROL Teste multivariado] (MVT)?
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 43%
-
 ---
-
 # Resumo do teste ([!UICONTROL Teste multivariado])
 
 O resumo do teste fornece uma visão geral visual do seu [!DNL Adobe Target] [!UICONTROL Teste multivariado].

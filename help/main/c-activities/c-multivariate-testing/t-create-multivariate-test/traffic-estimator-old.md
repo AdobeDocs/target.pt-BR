@@ -1,16 +1,20 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Saiba como usar o Avaliador de tráfego que permite saber se você tem tráfego suficiente para sua atividade de  [!DNL Adobe Target] [!UICONTROL Teste multivariado] ser bem-sucedida.
+description: Saiba como usar o Avaliador de tráfego que permite saber se você tem tráfego suficiente para sua atividade de [!DNL Adobe Target] [!UICONTROL Teste multivariado] ser bem-sucedida.
 title: Quanto tráfego é necessário para uma atividade de [!UICONTROL Teste multivariado] (MVT)?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '513'
 ht-degree: 51%
-
 ---
-
 # Estimar o tráfego necessário para uma atividade de [!UICONTROL Teste multivariado] bem-sucedida
 
 Como o teste multivariado compara várias experiências, é importante saber qual é a quantidade de tráfego necessária para oferecer resultados significativos. O Avaliador de tráfego usa estatísticas sobre a página e a quantidade de experiências que estão sendo testadas para estimar a quantidade de tráfego e a duração do teste necessárias para que o teste seja bem-sucedido.

@@ -1,25 +1,32 @@
 ---
 keywords: criar recomendações, atividade do recommendations, novas recomendações, visão geral do recommendations
-description: Saiba como usar o  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma atividade  [!DNL Recommendations] .
-title: Como criar uma atividade  [!DNL Recommendations] ?
+description: Saiba como usar o [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma atividade [!DNL Recommendations].
+title: Como criar uma atividade [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-TQID: https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA
+TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1302
+source-wordcount: '1306'
 ht-degree: 52%
-
 ---
-
 # Criar uma atividade [!DNL Recommendations]
 
 Use o [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma atividade do [!DNL Recommendations] diretamente em uma página habilitada para [!DNL Target] e modificar partes da página no [!DNL Target].
@@ -184,6 +191,6 @@ Use o [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma
 
    Conflitos de atividade ocorrem quando várias atividades estão definidas para entregar conteúdo na mesma página e podem fazer com que conteúdo inesperado seja exibido.
 
-## Vídeo de Treinamento: Crie uma atividade do Recommendations (7:15) ![Selo do tutorial](/help/main/assets/tutorial.png)
+## Vídeo de treinamento: criar uma atividade do Recommendations (7:15) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/33964?captions=por_br)

@@ -1,16 +1,23 @@
 ---
 keywords: AB;A/B;AB...n;comparar experiências;direcionamento;comparar conteúdo;direcionamento automático;alocação automática
-description: 'Saiba mais sobre os diferentes tipos de atividades de Teste A/B no Adobe [!DNL Target] : Manual, Alocação automática e Direcionamento automático. Escolha o que é certo para você.'
+description: Saiba mais sobre os diferentes tipos de atividades de Teste A/B no Adobe [!DNL Target] - Manual, Alocação automática e Direcionamento automático. Escolha o que é certo para você.
 title: Que tipo de atividades A/B estão disponíveis no Target?
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
-source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '839'
 ht-degree: 22%
-
 ---
-
 # Visão geral do teste A/B
 
 Uma atividade manual de [!UICONTROL Teste A/B] compara duas ou mais versões do conteúdo do site para ver qual versão melhora suas conversões durante um período de teste pré-especificado.
