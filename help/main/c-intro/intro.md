@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1644'
-ht-degree: 33%
+ht-degree: 70%
 ---
 # Introdução ao [!DNL Target]
 
@@ -42,92 +42,92 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"
 >title="Tráfego diário"
->abstract="Quantos usuários entram em seu experimento a cada dia. Se você não conhece seu tráfego diário, escolha \&quot;Volume de tráfego\&quot; acima e a calculadora resolverá para ele usando suas outras entradas."
+>abstract="Quantos usuários entram no experimento a cada dia. Se não souber o tráfego diário, escolha \&quot;Volume de tráfego\&quot; acima e a calculadora calculará esse valor usando as demais entradas."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_setup"
 >title="Configurar o teste"
->abstract="Esses campos definem o teste A/B, o que você espera ver e o grau de confiança que precisa ter no resultado. O campo ligado ao que você selecionou acima será resolvido automaticamente. Preencha o restante com os valores esperados."
+>abstract="Esses campos definem o teste A/B, o que se espera ver e o grau de confiança necessário no resultado. O campo vinculado ao que foi selecionado acima será calculado automaticamente. Preencha o restante com os valores esperados."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_number_experiences"
 >title="Número de experiências"
->abstract="Número de variantes no experimento, incluindo o controle. Um teste A/B tem dois braços. Cinco variantes mais um controle é igual a 6. Mais armas requerem proporcionalmente mais tráfego para manter a potência estatística."
+>abstract="Número de variantes no experimento, incluindo o controle. Um teste A/B tem 2 braços. Cinco variantes mais um controle é igual a 6. Mais braços exige proporcionalmente mais tráfego para manter a potência estatística."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_duration"
 >title="Duração do teste A/B"
->abstract="Quantos dias seu experimento durará. Durações mais longas dão ao seu experimento mais tempo para coletar dados, permitindo detectar efeitos menores de maneira confiável. Durações mais curtas precisam de efeitos maiores ou mais tráfego diário para alcançar um resultado confiável."
+>abstract="Por quantos dias o experimento será realizado. Durações mais longas dão ao experimento mais tempo para coletar dados, permitindo detectar efeitos menores de maneira confiável. Durações mais curtas precisam de efeitos maiores ou de mais tráfego diário para alcançar um resultado confiável."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_minimum_detectable_effect"
 >title="Efeito mínimo detectável"
->abstract="A menor melhoria que vale a pena detectar, a alteração mínima em sua métrica com a qual você atuaria. Este é o tamanho do aumento em pontos percentuais, não a mudança percentual em relação à sua linha de base. Por exemplo, se a linha de base for 5% e um aumento de 1 ponto percentual for importante, digite 1."
+>abstract="A menor melhoria que vale a pena detectar, a alteração mínima na métrica que motivaria uma ação. Este é o tamanho do aumento em pontos percentuais, não a alteração percentual em relação à linha de base. Por exemplo, se a linha de base for 5% e um aumento de 1 ponto percentual for relevante, digite 1."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_expected_improvement"
 >title="Melhorias esperadas"
->abstract="A melhora que você espera que o experimento produza."
+>abstract="A melhoria que se espera que o experimento produza."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_variance"
 >title="Variância"
->abstract="Como são distribuídos os valores da sua métrica, não sua média. Uma métrica como uma taxa de cliques (principalmente 0s e 1s) tem baixa variação, uma métrica como receita por usuário (alguns gastadores altos, muitos baixos) pode ter variância muito maior. Se não tiver certeza, deixe o valor padrão de 1."
+>abstract="A dispersão dos valores da métrica, não a média dela. Uma métrica como taxa de cliques (em sua maioria 0 s e 1 s) tem baixa variância, uma métrica como receita por usuário (poucos usuários que gastam muito, muitos que gastam pouco) pode ter variância muito maior. Se não tiver certeza, deixe o valor padrão de 1."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_confidence_level"
 >title="Nível de confiança"
->abstract="Quão confiante você precisa ser de que um resultado não é apenas uma chance aleatória antes de chamá-lo de real, é o limite para significância estatística. Um nível de confiança de 95% significa que há no máximo 5% de chance de um falso positivo. Valores mais altos reduzem falsos positivos, mas exigem mais dados."
+>abstract="A confiança necessária para considerar que um resultado não é um simples acaso antes de chamá-lo de real, o limiar de significância estatística. Um nível de confiança de 95% significa que há no máximo 5% de chance de um falso positivo. Valores mais altos reduzem falsos positivos, mas exigem mais dados."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_statistical_power"
 >title="Potência estatística"
->abstract="A probabilidade de detectar um efeito se realmente existir, a sensibilidade do experimento. 80% de energia significa que há 80% de chance de detectar um efeito real. Uma potência mais alta reduz os falsos negativos, mas requer mais tráfego ou um tempo de execução mais longo."
+>abstract="A probabilidade de detectar um efeito se realmente existir, a sensibilidade do experimento. 80% de potência significa que há 80% de chance de detectar um efeito real. Uma potência mais alta reduz os falsos negativos, mas exige mais tráfego ou um tempo de execução mais longo."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_traffic_mode"
 >title="Modo de tráfego"
->abstract="Como os usuários entram em seu experimento. Contínuo: os usuários entram diariamente durante o experimento. O tráfego é alternado automaticamente para variantes de melhor desempenho à medida que os resultados são recebidos."
+>abstract="Como os usuários entram no experimento. Contínuo: os usuários entram diariamente durante o experimento. O tráfego muda automaticamente para variantes de melhor desempenho à medida que os resultados chegam."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_metric_type"
 >title="Tipo de métrica"
->abstract="Que tipo de métrica você está medindo. Porcentagem: use essa opção para resultados binários, como cliques ou conversões, em que cada usuário faz ou não algo. Número: use essa opção para métricas como receita ou exibições de página, em que o valor pode variar bastante de usuário para usuário."
+>abstract="Que tipo de métrica você está medindo. Porcentagem: use essa opção para resultados binários, como cliques ou conversões, em que cada usuário faz ou não algo. Número: use essa opção para métricas como receita ou exibições de página, onde o valor pode variar bastante de usuário para usuário."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_auto_daily_traffic"
 >title="Tráfego diário"
->abstract="Quantos usuários entram em seu experimento a cada dia. Usado para experimentos contínuos que são executados por vários dias, com o tráfego mudando automaticamente para variantes de melhor desempenho à medida que os resultados são gerados."
+>abstract="Quantos usuários entram no experimento a cada dia. Usado para experimentos contínuos executados ao longo de vários dias, com o tráfego sendo direcionado automaticamente para variantes de melhor desempenho à medida que os resultados chegam."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_baseline_metric_rate"
 >title="Taxa de métrica da linha de base"
->abstract="Seu desempenho atual antes do início do experimento, a média do braço de controle. Sempre obrigatório. Para métricas de porcentagem, digite como uma porcentagem: se 5% dos visitantes clicarem em Comprar hoje, digite 5. Para métricas de contagem, insira o valor decimal bruto."
+>abstract="O desempenho atual antes do início do experimento, a média do braço de controle. Sempre obrigatório. Para métricas de porcentagem, insira como uma porcentagem: se 5% dos visitantes clicarem em Comprar hoje, insira 5. Para métricas de contagem, insira o valor decimal bruto."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
 >title="Métrica principal"
->abstract="A métrica primária é extraída automaticamente das configurações de relatórios. Para fazer alterações, modifique a métrica de meta em Metas e configurações."
+>abstract="A métrica principal é obtida automaticamente das configurações de relatórios. Para fazer alterações, modifique a métrica de meta em Metas e configurações."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_hypothesis"
 >title="Hipótese"
->abstract="A hipótese é uma declaração que você define que explica o resultado esperado do experimento. Inclua uma descrição sobre o que está sendo alterado e onde, em seguida, indique qual métrica você espera alterar e como."
+>abstract="A hipótese é uma declaração que você define que explica o resultado esperado do experimento. Inclua uma descrição do que está sendo alterado e onde, em seguida, indique qual métrica você espera alterar e como."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="Insights"
->abstract="Os insights do experimento são os aprendizados encontrados pela IA quando os dados do experimento atingiram a significância estatística."
+>abstract="Os insights do experimento são os aprendizados encontrados pela IA quando os dados do experimento alcançam significância estatística."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
 >title="Oportunidades"
->abstract="As oportunidades de experimento são ideias de tratamento sugeridas por IA com base em padrões que a IA encontra em suas capturas de tela e resultados de experimento."
+>abstract="As oportunidades do experimento são ideias de tratamento sugeridas pela IA com base em padrões que a IA encontra nas capturas de tela e nos resultados do experimento."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_treatment_details"
 >title="Detalhes do tratamento"
->abstract="Os detalhes do tratamento mostram imagens da aparência de um tratamento quando um usuário se qualifica para ele. Você pode revisar essas imagens para todos os experimentos. Alguns experimentos podem solicitar que você confirme a imagem ou substitua-a, se necessário."
+>abstract="Os detalhes do tratamento mostram imagens da aparência de um tratamento quando um usuário se qualifica para ele. É possível revisar essas imagens em todos os experimentos. Alguns experimentos podem solicitar a confirmação da imagem ou a sua substituição, se necessário."
 
 O [!DNL Adobe Target], parte do [!DNL Adobe Experience Cloud], oferece ferramentas abrangentes para personalizar a experiência do cliente na Web, em sites móveis, em aplicativos, em redes sociais e em outros canais digitais.
 

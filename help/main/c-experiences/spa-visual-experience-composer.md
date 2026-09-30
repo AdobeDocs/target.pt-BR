@@ -37,7 +37,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de649ea8b193a832eb55d398c7443a95675abb44
 workflow-type: tm+mt
 source-wordcount: '3949'
 ht-degree: 56%
@@ -213,11 +213,11 @@ Agora que cobrimos o que são Exibições do Adobe Target, podemos aproveitar es
 
 1. Inicie atividades A/B ou XT por meio do VEC.
 
-   Quando `adobe.target.triggerView()` é implementado em sua SPA com nomes de exibição passados como parâmetros, o VEC poderá detectar essas exibições e permitir que os usuários criem ações e modificações para suas atividades de A/B ou XT.
+Quando `adobe.target.triggerView()` é implementado em sua SPA com nomes de exibição passados como parâmetros, o VEC poderá detectar essas exibições e permitir que os usuários criem ações e modificações para suas atividades de A/B ou XT.
 
-   >[!NOTE]
-   >
-   >O VEC for SPAs é realmente o mesmo VEC que você usa em páginas da Web regulares, mas alguns recursos adicionais estão disponíveis ao abrir um aplicativo de página única com a implementação de `triggerView()`.
+>[!NOTE]
+>
+>O VEC for SPAs é realmente o mesmo VEC que você usa em páginas da Web regulares, mas alguns recursos adicionais estão disponíveis ao abrir um aplicativo de página única com a implementação de `triggerView()`.
 
 Há duas melhorias importantes no painel [Modificações](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) e Ações para o VEC que permitem seu funcione adequado com SPAs.
 
