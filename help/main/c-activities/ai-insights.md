@@ -4,10 +4,10 @@ description: Saiba como usar insights gerados por IA e oportunidades de otimiza�
 title: Insights de IA na visão geral da atividade
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 643b30757e9212388dcb6921580f86feb0704338
+source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 18%
 ---
 # Insights de IA
 
@@ -20,6 +20,11 @@ ht-degree: 16%
 O menu **[!UICONTROL Insights de IA]** em sua **[!UICONTROL Visão geral da atividade]** fornece acesso a insights e oportunidades de otimização. Use esta guia para revisar os aprendizados dos experimentos, comparar tratamentos e identificar alterações que possam melhorar as taxas de conversão.
 
 ## Configuração de insights e oportunidades de IA
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights"
+>title="Insights"
+>abstract="Os insights do experimento são os aprendizados encontrados pela IA quando os dados do experimento alcançam significância estatística."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -69,10 +74,10 @@ A métrica primária é retirada automaticamente das configurações de relatór
 
 Após a conclusão da configuração, sua atividade estará pronta para gerar oportunidades. Os insights ficam disponíveis depois que a experiência tem dados suficientes para validação estatística e os detalhes necessários da experiência foram confirmados.
 
-## Insights
+## Insights {#insights}
 
 >[!CONTEXTUALHELP]
->id="target_ai_insights"
+>id="target_ai_insights_insights"
 >title="Insights"
 >abstract="Os insights do experimento são os aprendizados encontrados pela IA quando os dados do experimento alcançam significância estatística."
 

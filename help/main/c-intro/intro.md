@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1627'
 ht-degree: 70%
 ---
 # Introdução ao [!DNL Target]
@@ -113,11 +113,6 @@ ht-degree: 70%
 >id="target_ai_insights_hypothesis"
 >title="Hipótese"
 >abstract="A hipótese é uma declaração que você define que explica o resultado esperado do experimento. Inclua uma descrição do que está sendo alterado e onde, em seguida, indique qual métrica você espera alterar e como."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_insights"
->title="Insights"
->abstract="Os insights do experimento são os aprendizados encontrados pela IA quando os dados do experimento alcançam significância estatística."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
@@ -224,6 +219,6 @@ O vídeo a seguir explica os tipos de atividade disponíveis no [!DNL Target Sta
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/31290?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 
