@@ -25,7 +25,7 @@ As habilidades de colegas de trabalho ajudam os profissionais da Adobe Target a 
 As ferramentas de MCP e o Colaborador do [!DNL Adobe Target] são documentadas separadamente e fornecem diferentes recursos:
 
 * [MCP de Destino](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) documenta as ferramentas individuais expostas pelo servidor MCP direto, incluindo seus tipos de atividades, parâmetros, permissões e escopo de leitura ou gravação com suporte.
-* O [Colaborador](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview#target-activities-and-audiences) fornece uma camada de orquestração separada em linguagem natural que pode combinar recursos e aplicar fluxos de trabalho adicionais.
+* O [Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview#target-activities-and-audiences) fornece uma camada de orquestração separada em linguagem natural que pode combinar recursos e aplicar fluxos de trabalho adicionais.
 
 A tabela a seguir é uma comparação de alto nível de recursos relacionados.
 
