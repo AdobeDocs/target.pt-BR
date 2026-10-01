@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 340fe2c3fadde03a6a592a16d687c483099dfd88
+source-git-commit: fb81a52b8e3c6301b63f5a98ce7d4873cf66d6ac
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 30%
+source-wordcount: '1062'
+ht-degree: 28%
 ---
 # Notas de versão do [!DNL Target] (atuais)
 
@@ -41,6 +41,46 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
 ## [!DNL Target Standard/Premium] 26.9.7 (28 de setembro de 2026)
+
+### Recursos
+
+<table>
+<thead>
+<tr>
+<th><strong>Calculadora de tamanho da amostra</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A Calculadora de tamanho da amostra ajuda a planejar experimentos antes do lançamento, estimando o tráfego necessário, a duração do teste, o número de experiências ou o efeito mínimo que você pode detectar com confiança. Disponível no menu Atividades, ele usa suas entradas para ajudar a determinar os recursos e o tempo de execução necessários para seu teste.</p>
+<p>O recurso de calculadora de tamanho de amostra está disponível no momento como um recurso beta.</p>
+<p>Para obter mais informações, consulte a <a href="../c-activities/sample-size-calculator.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Insights de IA</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Os insights de IA fornecem aprendizados de experimento gerados por IA e oportunidades de otimização para atividades de Teste A/B com alocação manual de tráfego. Quando um experimento atinge significância estatística, os insights destacam os atributos da experiência vencedora que provavelmente contribuíram para seu desempenho. As oportunidades sugeridas incluem novas ideias de experiência, hipóteses e orientação de implementação para ajudar a melhorar as taxas de conversão.</p>
+<p>O recurso de insights de IA está disponível atualmente como um recurso beta.</p>
+<p>Para obter mais informações, consulte a <a href="../c-activities/ai-insights.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Melhorias
+
+
 
 **[!UICONTROL Recomendações]**
 
