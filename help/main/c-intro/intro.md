@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
+source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
 workflow-type: tm+mt
-source-wordcount: '1627'
-ht-degree: 70%
+source-wordcount: '1510'
+ht-degree: 68%
 ---
 # Introdução ao [!DNL Target]
 
@@ -104,25 +104,6 @@ ht-degree: 70%
 >title="Taxa de métrica da linha de base"
 >abstract="O desempenho atual antes do início do experimento, a média do braço de controle. Sempre obrigatório. Para métricas de porcentagem, insira como uma porcentagem: se 5% dos visitantes clicarem em Comprar hoje, insira 5. Para métricas de contagem, insira o valor decimal bruto."
 
->[!CONTEXTUALHELP]
->id="target_ai_insights_primary_metric"
->title="Métrica principal"
->abstract="A métrica principal é obtida automaticamente das configurações de relatórios. Para fazer alterações, modifique a métrica de meta em Metas e configurações."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_hypothesis"
->title="Hipótese"
->abstract="A hipótese é uma declaração que você define que explica o resultado esperado do experimento. Inclua uma descrição do que está sendo alterado e onde, em seguida, indique qual métrica você espera alterar e como."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_opportunities"
->title="Oportunidades"
->abstract="As oportunidades do experimento são ideias de tratamento sugeridas pela IA com base em padrões que a IA encontra nas capturas de tela e nos resultados do experimento."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_treatment_details"
->title="Detalhes do tratamento"
->abstract="Os detalhes do tratamento mostram imagens da aparência de um tratamento quando um usuário se qualifica para ele. É possível revisar essas imagens em todos os experimentos. Alguns experimentos podem solicitar a confirmação da imagem ou a sua substituição, se necessário."
 
 O [!DNL Adobe Target], parte do [!DNL Adobe Experience Cloud], oferece ferramentas abrangentes para personalizar a experiência do cliente na Web, em sites móveis, em aplicativos, em redes sociais e em outros canais digitais.
 
@@ -219,6 +200,6 @@ O vídeo a seguir explica os tipos de atividade disponíveis no [!DNL Target Sta
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/31290?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 

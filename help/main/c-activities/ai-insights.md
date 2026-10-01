@@ -4,10 +4,10 @@ description: Saiba como usar insights gerados por IA e oportunidades de otimiza�
 title: Insights de IA na visão geral da atividade
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
+source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 18%
+source-wordcount: '766'
+ht-degree: 31%
 ---
 # Insights de IA
 
@@ -40,6 +40,26 @@ O menu **[!UICONTROL Insights de IA]** em sua **[!UICONTROL Visão geral da ativ
 >id="target_ai_insights_treatment_details"
 >title="Detalhes da experiência"
 >abstract="Os detalhes da experiência mostram imagens da aparência de uma experiência quando um usuário se qualifica para ela. É possível revisar essas imagens em todos os experimentos. Alguns experimentos podem solicitar a confirmação da imagem ou a sua substituição, se necessário."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_primary_metric"
+>title="Métrica principal"
+>abstract="A métrica principal é obtida automaticamente das configurações de relatórios. Para fazer alterações, modifique a métrica de meta em Metas e configurações."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_hypothesis"
+>title="Hipótese"
+>abstract="A hipótese é uma declaração que você define que explica o resultado esperado do experimento. Inclua uma descrição do que está sendo alterado e onde, em seguida, indique qual métrica você espera alterar e como."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_opportunities"
+>title="Oportunidades"
+>abstract="As oportunidades do experimento são ideias de tratamento sugeridas pela IA com base em padrões que a IA encontra nas capturas de tela e nos resultados do experimento."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_treatment_details"
+>title="Detalhes do tratamento"
+>abstract="Os detalhes do tratamento mostram imagens da aparência de um tratamento quando um usuário se qualifica para ele. É possível revisar essas imagens em todos os experimentos. Alguns experimentos podem solicitar a confirmação da imagem ou a sua substituição, se necessário."
 
 Antes de acessar insights e oportunidades geradas por IA, primeiro é necessário configurar a atividade confirmando as capturas de tela da métrica primária, hipótese e experiência.
 
