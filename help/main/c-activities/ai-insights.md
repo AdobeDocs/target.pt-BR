@@ -4,10 +4,10 @@ description: Saiba como usar insights gerados por IA e oportunidades de otimiza�
 title: Insights de IA na visão geral da atividade
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
+source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 31%
+source-wordcount: '763'
+ht-degree: 27%
 ---
 # Insights de IA
 
@@ -24,7 +24,7 @@ O menu **[!UICONTROL Insights de IA]** em sua **[!UICONTROL Visão geral da ativ
 >[!CONTEXTUALHELP]
 >id="target_ai_insights"
 >title="Insights"
->abstract="Os insights do experimento são os aprendizados encontrados pela IA quando os dados do experimento alcançam significância estatística."
+>abstract="Os insights são descobertas geradas por IA que ficam disponíveis quando o experimento atinge significância estatística."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -99,7 +99,7 @@ Após a conclusão da configuração, sua atividade estará pronta para gerar op
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="Insights"
->abstract="Os insights do experimento são os aprendizados encontrados pela IA quando os dados do experimento alcançam significância estatística."
+>abstract="Os insights do experimento são aprendizados gerados por IA que ficam disponíveis quando o experimento atinge significância estatística."
 
 Os insights do experimento são aprendizados gerados por IA derivados desse experimento. Esses insights ficam disponíveis assim que o experimento atinge significância estatística e fornecem contexto sobre o que contribuiu para seu sucesso. Eles destacam os principais atributos presentes na experiência vencedora que são distintos do controle e provavelmente influenciam o resultado.
 
