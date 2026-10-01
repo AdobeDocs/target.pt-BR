@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb81a52b8e3c6301b63f5a98ce7d4873cf66d6ac
+source-git-commit: b6d899d12b0a9d9afe261a6f4e3c3dab209c21b6
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 28%
+source-wordcount: '1112'
+ht-degree: 26%
 ---
 # Notas de versão do [!DNL Target] (atuais)
 
@@ -40,7 +40,7 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 26.9.7 (28 de setembro de 2026)
+## [!DNL Target Standard/Premium] 26.9.8 (30 de setembro de 2026)
 
 ### Recursos
 
@@ -80,6 +80,15 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 ### Melhorias
 
+**[!UICONTROL Administração]**
+
++++ Ver detalhes
+
+* **Não é possível conceder permissões de IA aos usuários**. Usuários com acesso de Administrador de produto e de Administrador do sistema não podem conceder permissões de IA a outros usuários. A tentativa de habilitar a permissão de IA resultou em um erro `Unauthorized`, mesmo quando a IA estava habilitada para a organização. (TGT-56261)
+
++++
+
+## [!DNL Target Standard/Premium] 26.9.7 (28 de setembro de 2026)
 
 
 **[!UICONTROL Recomendações]**
