@@ -6,7 +6,7 @@ feature: Overview
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: cc4c6b77fa6c600723813b939ba1e5323836ebcc
+source-git-commit: 4b90f47050b63c7e1e6ac5019d45a7b99b3a33b8
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 2%
@@ -49,166 +49,166 @@ As seguintes habilidades estão disponíveis no plug-in **Target**:
 
   Fornece descoberta, inspeção e contagem somente leitura de entidades do Target, incluindo atividades, públicos, ofertas e configurações relacionadas.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Prompts de exemplo:*
+*Prompts de exemplo:*
 
-  * &quot;Listar minhas atividades ativas.&quot;
-  * &quot;Quantas atividades estão sendo executadas no momento?&quot;
-  * &quot;Mostrar os públicos-alvo e as ofertas usadas por esta atividade.&quot;
+* &quot;Listar minhas atividades ativas.&quot;
+* &quot;Quantas atividades estão sendo executadas no momento?&quot;
+* &quot;Mostrar os públicos-alvo e as ofertas usadas por esta atividade.&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Veredito da Atividade de Destino**
 
   Determina se uma atividade está pronta para ser enviada, deve aguardar mais dados, deve parar ou precisa de uma correção, usando cálculos de significância e verificações de configuração.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Prompts de exemplo:*
+*Prompts de exemplo:*
 
-  * &quot;Devo enviar este teste?&quot;
-  * &quot;Esta atividade está pronta para ser interrompida?&quot;
-  * &quot;A configuração da atividade atual tem algum problema?&quot;
+* &quot;Devo enviar este teste?&quot;
+* &quot;Esta atividade está pronta para ser interrompida?&quot;
+* &quot;A configuração da atividade atual tem algum problema?&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Design de Destino**
 
   Cria e configura atividades e ofertas, gera URLs de controle de qualidade e cria ou otimiza conteúdo de oferta.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Prompts de exemplo:*
+*Prompts de exemplo:*
 
-  * &quot;Criar um teste A/B para a página inicial.&quot;
-  * &quot;Criar uma oferta para a experiência de visitante recorrente.&quot;
-  * &quot;Gerar um URL de controle de qualidade para esta atividade.&quot;
+* &quot;Criar um teste A/B para a página inicial.&quot;
+* &quot;Criar uma oferta para a experiência de visitante recorrente.&quot;
+* &quot;Gerar um URL de controle de qualidade para esta atividade.&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **VEC do Target**
 
   Cria e edita atividades do Visual Experience Composer e seus públicos-alvo de entrega de página.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Prompts de exemplo:*
+*Prompts de exemplo:*
 
-  * &quot;Criar um teste A/B do VEC para a página inicial.&quot;
-  * &quot;Editar o título principal na minha atividade do VEC.&quot;
-  * &quot;Crie um público-alvo de entrega de página para esta atividade do VEC.&quot;
+* &quot;Criar um teste A/B do VEC para a página inicial.&quot;
+* &quot;Editar o título principal na minha atividade do VEC.&quot;
+* &quot;Crie um público-alvo de entrega de página para esta atividade do VEC.&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Configuração do Target**
 
   Os guias concluem a criação de atividades do A/B, de Direcionamento de experiência ou do Visual Experience Composer, incluindo pré-requisitos, agendamento, controle de qualidade e ativação.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Prompts de exemplo:*
+    *Prompts de exemplo:*
+    
+    * &quot;Ajude-me a criar meu primeiro teste.&quot;
+    * &quot;Do que preciso antes de criar uma atividade de Direcionamento de Experiência?&quot;
+    * &quot;Mostre-me o agendamento, o QA e a ativação desta atividade.&quot;
 
-  * &quot;Ajude-me a criar meu primeiro teste.&quot;
-  * &quot;Do que preciso antes de criar uma atividade de Direcionamento de experiência?&quot;
-  * &quot;Oriente-me durante a programação, o controle de qualidade e a ativação desta atividade.&quot;
-
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Inteligência do Destino**
 
   Auditorias Programas do Target para riscos, colisões, erros de configuração, problemas de higiene e vitórias rápidas.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Prompts de exemplo:*
+*Prompts de exemplo:*
 
-  * &quot;Auditoria de minhas atividades do Target.&quot;
-  * &quot;Encontre riscos de colisões ou configuração em minhas atividades.&quot;
-  * &quot;Quais ganhos rápidos podem melhorar a higiene do meu programa do Target?&quot;
+* &quot;Auditoria de minhas atividades do Target.&quot;
+* &quot;Encontre riscos de colisões ou configuração em minhas atividades.&quot;
+* &quot;Quais ganhos rápidos podem melhorar a higiene do meu programa do Target?&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Estrategista de Destino**
 
   Analisa dados históricos do Target para obter padrões vencedores e recomenda testes futuros.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Prompts de exemplo:*
+*Prompts de exemplo:*
 
-  * &quot;O que devo testar a seguir com base em resultados anteriores?&quot;
-  * &quot;Quais padrões aparecem em meus testes de mais alto desempenho?&quot;
-  * &quot;Recomende um teste de acompanhamento com base nos resultados desta atividade.&quot;
+* &quot;O que devo testar a seguir com base em resultados anteriores?&quot;
+* &quot;Quais padrões aparecem em meus testes de mais alto desempenho?&quot;
+* &quot;Recomende um teste de acompanhamento com base nos resultados desta atividade.&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Calculadora de Teste de Destino**
 
   Planeja o tamanho da amostra A/B/n, a duração e o aumento detectável para métricas de conversão e receita, com a correção de Bonferroni para várias comparações.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Prompts de exemplo:*
+*Prompts de exemplo:*
 
-  * &quot;De que tamanho de amostra preciso?&quot;
-  * Por quanto tempo devo executar esse teste A/B para detectar um aumento de 5%?
-  * &quot;Que aumento detectável posso medir com esse tráfego?&quot;
+* &quot;De que tamanho de amostra preciso?&quot;
+* Por quanto tempo devo executar esse teste A/B para detectar um aumento de 5%?
+* &quot;Que aumento detectável posso medir com esse tráfego?&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Relatório do Target Portfolio**
 
   Fornece rollups de desempenho somente leitura em todo o programa e análise de tendência e momento da atividade.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Prompts de exemplo:*
+*Prompts de exemplo:*
 
-  * &quot;Quais são meus melhores e piores testes?&quot;
-  * &quot;Mostre-me as tendências de desempenho em minhas atividades.&quot;
-  * &quot;Quais atividades ganharam ou perderam ímpeto recentemente?&quot;
+* &quot;Quais são meus melhores e piores testes?&quot;
+* &quot;Mostre-me as tendências de desempenho em minhas atividades.&quot;
+* &quot;Quais atividades ganharam ou perderam ímpeto recentemente?&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Audience Composer do Target**
 
   Cria ou edita públicos-alvo nativos de descrições de linguagem natural ou regras explícitas.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Prompts de exemplo:*
+*Prompts de exemplo:*
 
-  * &quot;Crie um público-alvo para os visitantes móveis recorrentes.&quot;
-  * &quot;Edite esse público-alvo para incluir visitantes de pesquisa orgânica.&quot;
-  * &quot;Crie um público-alvo do Target para os visitantes que visualizaram a página de preços.&quot;
+* &quot;Crie um público-alvo para os visitantes móveis recorrentes.&quot;
+* &quot;Edite esse público-alvo para incluir visitantes de pesquisa orgânica.&quot;
+* &quot;Crie um público-alvo do Target para os visitantes que visualizaram a página de preços.&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Recomendações do Target**
 
   Gerencia e trabalha com atividades e configurações do Target Recommendations.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Prompts de exemplo:*
+*Prompts de exemplo:*
 
-  * &quot;Criar uma atividade do Recommendations.&quot;
-  * &quot;Mostre-me minhas atividades e configurações do Recommendations.&quot;
-  * &quot;Atualizar as configurações desta atividade do Recommendations.&quot;
+* &quot;Criar uma atividade do Recommendations.&quot;
+* &quot;Mostre-me minhas atividades e configurações do Recommendations.&quot;
+* &quot;Atualizar as configurações desta atividade do Recommendations.&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Diagnóstico das Recomendações do Target**
 
   Diagnostica problemas de entrega, configuração, catálogo e feed do Recommendations.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Prompts de exemplo:*
+*Prompts de exemplo:*
 
-  * &quot;Por que minhas recomendações não estão aparecendo?&quot;
-  * &quot;Diagnosticar a configuração do feed e do catálogo para esta atividade do Recommendations.&quot;
-  * &quot;Problemas de entrega ou configuração afetam minhas recomendações?&quot;
+* &quot;Por que minhas recomendações não estão aparecendo?&quot;
+* &quot;Diagnosticar a configuração do feed e do catálogo para esta atividade do Recommendations.&quot;
+* &quot;Problemas de entrega ou configuração afetam minhas recomendações?&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
