@@ -157,7 +157,7 @@ Estime as entradas de planejamento para uma atividade A/B que depende dos dados 
 
    * **[!UICONTROL Variação]**: a extensão dos valores de métrica. Uma taxa de click-through geralmente tem baixa variação, a receita por usuário pode ser muito maior. Se não tiver certeza, deixe o valor padrão como 1.
 
-     Saiba como calcular uma **[!UICONTROL Variação]** na [documentação do Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
+     Saiba como calcular uma **[!UICONTROL Variação]** na [documentação do Analytics](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
 
      ![](assets/calculator-cja-analytics-2.png)
 
