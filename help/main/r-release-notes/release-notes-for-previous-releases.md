@@ -73,9 +73,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '72418'
+source-wordcount: '72456'
 ht-degree: 48%
 ---
 # Notas de versão para versões anteriores
@@ -112,11 +112,11 @@ As notas de versão estão listadas em ordem decrescente por mês e ano da vers�
 
 ## [!DNL Target Standard/Premium] 26.8.3 (13 de agosto de 2026)
 
-**Atividades e públicos-alvo**
+**Atividades, ofertas e públicos-alvo**
 
 +++Ver detalhes
 
-* **Edição habilitada para atividades e públicos-alvo criados por API/MCP.** Atividades e públicos criados por meio da API de Administração [!DNL Adobe Target] e do MCP [!DNL Target] agora podem ser editados na interface do usuário [!DNL Target].
+* **Edição habilitada para atividades, ofertas e públicos-alvo criados por API/MCP.** Atividades, ofertas e públicos-alvo criados por meio da API de Administração [!DNL Adobe Target] e do MCP [!DNL Target] agora podem ser editados na interface do usuário do [!DNL Target]. Depois que uma atividade criada pela API é editada na interface, ela é tratada como modificada pela interface. As ações restritas anteriormente, incluindo [!UICONTROL Copiar] e [!UICONTROL Excluir], ficam disponíveis de acordo com suas permissões e o status da atividade. (TGT-55116)
 
 +++
 

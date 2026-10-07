@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3070e58c48964878a916718fa4a9931fc4d85a61
 workflow-type: tm+mt
-source-wordcount: '2208'
-ht-degree: 65%
+source-wordcount: '2219'
+ht-degree: 62%
 ---
 # Relatório de [!UICONTROL Segmentos automatizados]
 
@@ -92,9 +92,9 @@ A tabela a seguir explica como interpretar o relatório e descreve seus elemento
 
 | Elemento | Detalhes |
 |--- |--- |
-| Painel lateral esquerdo | O painel lateral esquerdo lista os 20 maiores &quot;segmentos automatizados&quot; identificados pelos modelos de personalização do Target para esta atividade. Um &quot;segmento automatizado&quot; é como um público-alvo, mas é definido pelos modelos de personalização do Target, e não pelo profissional de marketing. Cada segmento automatizado é composto de valores específicos (ou intervalos de valores), de atributos específicos.<br>Segmentos automatizados podem sobrepor. Os segmentos automatizados podem ser definidos por um, dois, três ou quatro atributos. Consulte os exemplos abaixo para obter mais detalhes.<br>Para saber mais sobre os modelos de personalização do Target, consulte [Algoritmo Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). Para saber mais sobre os atributos que os modelos de personalização do Target usam para criar segmentos automatizados, consulte [Coleta de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/ap-data.md). |
+| Painel lateral esquerdo | O painel lateral esquerdo lista até 100 dos maiores &quot;segmentos automatizados&quot; identificados pelos modelos de personalização do Target para esta atividade. Um &quot;segmento automatizado&quot; é como um público-alvo, mas é definido pelos modelos de personalização do Target, e não pelo profissional de marketing. Cada segmento automatizado é composto de valores específicos (ou intervalos de valores), de atributos específicos.<br>Segmentos automatizados podem sobrepor. Os segmentos automatizados podem ser definidos por um, dois, três ou quatro atributos. Consulte os exemplos abaixo para obter mais detalhes.<br>Para saber mais sobre os modelos de personalização do Target, consulte [Algoritmo Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). Para saber mais sobre os atributos que os modelos de personalização do Target usam para criar segmentos automatizados, consulte [Coleta de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/ap-data.md). |
 | Gráfico central | Os gráficos centrais mostram como o conteúdo da atividade foi executado para o segmento automatizado destacado. Ao clicar em segmentos diferentes no painel esquerdo, os gráficos centrais são atualizados. |
-| Gráficos de pizza | Os gráficos de pizza na parte superior do painel central mostram o tamanho do segmento automatizado, bem como o número total de visitas personalizadas na atividade (por exemplo, o tráfego para essa atividade que foi distribuído pelo modelo de personalização. Não inclui o tráfego de controle ou o tráfego distribuído pelo modelo vencedor global). O tamanho do segmento se baseia somente em visitas personalizadas.<br>![Gráfico de pizza](/help/main/c-reports/assets/pie.png) |
+| Gráficos de pizza | Os gráficos de pizza na parte superior do painel central mostram o tamanho do segmento automatizado, bem como o número total de visitas personalizadas na atividade. As visitas personalizadas incluem apenas o tráfego para o qual o modelo de personalização do Target selecionou a oferta ou experiência. Eles excluem o tráfego de controle, o tráfego distribuído pelo modelo vencedor global e o tráfego aleatório usado para continuar treinando os modelos. O tamanho do segmento se baseia somente em visitas personalizadas.<br>![Gráfico de pizza](/help/main/c-reports/assets/pie.png) |
 | Gráfico de barras de dois eixos | O gráfico de barras de dois eixos inclui informações de visita e conversão por meio da oferta ou experiência para esse segmento automatizado específico. |
 | Barra rosa | A barra rosa representa a taxa de conversão e usa o eixo inferior do gráfico. Você pode passar o mouse sobre a barra para obter mais informações |
 | Barra azul | A barra azul representa o número de visitas e usa o eixo superior do gráfico. Você pode passar o mouse sobre a barra para obter mais informações. |

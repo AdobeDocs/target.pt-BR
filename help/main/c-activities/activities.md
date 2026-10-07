@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '2649'
-ht-degree: 25%
+source-wordcount: '2682'
+ht-degree: 24%
 ---
 # Visão geral das atividades
 
@@ -120,7 +120,7 @@ As seguintes ações estão disponíveis (dependendo das suas permissões e do s
 
 | Ação | Descrição |
 | --- | --- |
-| [!UICONTROL Editar] | Alterar a atividade. Qualquer atividade pode ser editada, incluindo atividades criadas por meio da API [!DNL Adobe Target] ou do servidor MCP [!DNL Adobe Target].<P>Para obter mais informações sobre as várias maneiras de editar atividades, consulte [Editar uma atividade ou salvar como rascunho](/help/main/c-activities/edit-activity.md). |
+| [!UICONTROL Editar] | Alterar a atividade. Qualquer atividade pode ser editada, incluindo atividades criadas por meio da API [!DNL Adobe Target] ou do servidor MCP [!DNL Adobe Target]. Depois que uma atividade criada pela API é editada na interface, ela é tratada como modificada pela interface. As ações restritas anteriormente, incluindo [!UICONTROL Copiar] e [!UICONTROL Excluir], ficam disponíveis de acordo com suas permissões e o status da atividade.<P>Para obter mais informações sobre as várias maneiras de editar atividades, consulte [Editar uma atividade ou salvar como rascunho](/help/main/c-activities/edit-activity.md). |
 | [!UICONTROL Desativar] | Interrompe uma atividade ao vido ou programada. Uma atividade desativada pode ser reativada ou arquivada.<P>Se você desativar ou arquivar uma atividade e depois mais tarde reativá-la, um visitante continuará sendo parte daquela atividade após a reativação se estiver nela antes que seja desativada ou arquivada. Qualquer métrica de conversão registrada durante o tempo entre os dois eventos não será atribuída àquela atividade. |
 | [!UICONTROL Ativar] | Inicie uma atividade inativa ou uma atividade que esteja pronta para ser ativada. |
 | [!UICONTROL Arquivar] | Envie a atividade para o arquivo. Por padrão, as atividades arquivadas não aparecem mais na lista [!UICONTROL Atividades]. Altere o filtro da lista [!UICONTROL Atividades] para incluir atividades arquivadas para vê-las. Você pode ativar uma atividade arquivada para usá-la novamente.<P>Se você desativar ou arquivar uma atividade e depois mais tarde reativá-la, um visitante continuará sendo parte daquela atividade após a reativação se estiver nessa atividade antes que ela seja desativada ou arquivada. Qualquer métrica de conversão registrada durante o tempo entre os dois eventos não será atribuída àquela atividade. |
