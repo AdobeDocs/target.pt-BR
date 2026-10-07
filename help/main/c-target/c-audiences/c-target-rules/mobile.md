@@ -1,27 +1,31 @@
 ---
 keywords: direcionamento, móvel, dispositivos móveis do target, deviceatlas, iphone, modelos do iphone, atlas do dispositivo, displaywidth, largura de exibição, altura de exibição, tipo de dispositivo, displayheight, celular, tablet, modelo do dispositivo
-description: Saiba como criar públicos-alvo no  [!DNL Adobe Target]  para dispositivos móveis de destino.
+description: Saiba como criar públicos-alvo no [!DNL Adobe Target] para dispositivos móveis de destino.
 title: Posso definir visitantes como alvo com base nas opções de dispositivos móveis?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 TQID: https://experienceleague.adobe.com/oCyCtd21XayR3G4ClrQwyqcrgyxS4nmUONE-iIwavOY
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 47dd2c2489f6805aec15fbfd044725a5698ced49
 workflow-type: tm+mt
-source-wordcount: 707
-ht-degree: 39%
-
+source-wordcount: '828'
+ht-degree: 33%
 ---
-
 # Dispositivo móvel
 
 Crie públicos no [!DNL Adobe Target] para direcionar dispositivos móveis com base em parâmetros como dispositivo móvel, tipo de dispositivo, fornecedor de dispositivo, dimensões de tela e muito mais.
@@ -89,6 +93,14 @@ A atualização do iOS 12.2 (ou posterior) não afeta a identificação dos segu
 ### Dispositivos de direcionamento que executam o Safari 14.0.2 (ou posterior)
 
 Ao usar regras para dispositivos móveis para direcionar dispositivos que executam o Safari versão 14.0.2 (ou posterior) no macOS, devido a um problema conhecido envolvendo os agentes de usuário e o DeviceAtlas da Apple, o [!DNL Target] identifica incorretamente o Safari em dispositivos Mac e iPad. Esse problema será resolvido no futuro.
+
+### Scripts personalizados que substituem o agente do usuário {#custom-scripts-overwrite-user-agent}
+
+Como o direcionamento de dispositivo móvel depende da cadeia de caracteres Usuário-Agente, qualquer script personalizado na sua página que modifique `navigator.userAgent` antes de [!DNL Target] lê-lo pode causar falha no direcionamento de dispositivo.
+
+Se o site tiver um script personalizado que escute todos os eventos em vez do evento específico necessário, ele poderá interceptar involuntariamente um evento [!DNL Web SDK] e substituir `navigator.userAgent`. Como resultado, [!DNL Target] recebe informações incorretas do dispositivo em vez do dispositivo real do visitante, e a experiência esperada não é entregue.
+
+Se o direcionamento do dispositivo móvel não estiver se comportando conforme esperado, verifique se algum script personalizado ou ouvinte de evento na página modificam `navigator.userAgent` e defina o escopo desses ouvintes da maneira mais restrita possível para que eles não interceptem involuntariamente eventos do [!DNL Target] ou do Web SDK.
 
 ## Vídeo de treinamento: Criação de públicos-alvo
 
