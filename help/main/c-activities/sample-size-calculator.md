@@ -7,29 +7,29 @@ badge: label="Beta" type="Informative"
 source-git-commit: d3fb1b69975951d41803be0eb902333332cb1ed1
 workflow-type: tm+mt
 source-wordcount: '1604'
-ht-degree: 11%
+ht-degree: 35%
 ---
 # Calculadora de tamanho da amostra
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"
 >title="Tráfego diário"
->abstract="Quantos usuários entram no experimento a cada dia. Se você não souber esse valor, escolha Volume de tráfego acima e a calculadora resolverá para ele usando as outras entradas."
+>abstract="Quantos usuários entram no experimento por dia. Se você não souber esse valor, escolha Volume de tráfego acima, e a calculadora o resolverá usando as outras entradas."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_confidence_level"
 >title="Nível de confiança"
->abstract="Quão certo você precisa ser de que um resultado não se deve a uma chance aleatória antes de chamá-lo de significativo. Um nível de confiança de 95% significa que há no máximo 5% de chance de um falso positivo. Valores mais altos reduzem falsos positivos, mas também exigem mais dados."
+>abstract="Qual é o grau de certeza necessário para afirmar que um resultado não se deve ao acaso antes de considerá-lo significativo. Um nível de confiança de 95% significa que há no máximo 5% de chance de um falso positivo. Valores mais altos reduzem os falsos positivos, mas também exigem mais dados."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_statistical_power"
 >title="Potência estatística"
->abstract="A probabilidade de detectar um efeito real, se existir. Um nível de energia de 80% significa que há uma chance de 80% de detectar um efeito verdadeiro. Uma potência mais alta reduz os falsos negativos, mas requer mais tráfego ou um tempo de execução mais longo."
+>abstract="A probabilidade de detectar um efeito real, caso ele exista. Um nível de potência de 80% significa que há 80% de chance de detectar um efeito verdadeiro. Uma potência mais alta reduz os falsos negativos, mas exige mais tráfego ou um período de execução mais longo."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_setup_cja"
 >title="Configurar o teste"
->abstract="Esses campos definem o experimento, o resultado esperado e o limite de confiança para o resultado. O campo vinculado ao valor selecionado acima é resolvido automaticamente; preencha os campos restantes com os valores esperados."
+>abstract="Esses campos definem o experimento, o resultado esperado e o limite de confiança para o resultado. O campo vinculado ao valor selecionado acima é calculado automaticamente; preencha os campos restantes com os valores esperados."
 
 
 >[!AVAILABILITY]
@@ -47,27 +47,27 @@ Para acessar a **[!UICONTROL Calculadora de Tamanho da Amostra]**, acesse o menu
 >[!CONTEXTUALHELP]
 >id="target_sample_size_bonferroni"
 >title="Correção de Bonferroni"
->abstract="Ajusta o nível de confiança para considerar a comparação de mais de uma oferta com o controle ao mesmo tempo. Isso é importante somente quando o número de ofertas é maior que dois. Corresponde à mesma correção usada na ferramenta calculadora de público-alvo do Adobe."
+>abstract="Ajusta o nível de confiança para levar em conta a comparação de mais de uma oferta com o controle ao mesmo tempo. Isso é importante somente quando o número de ofertas é maior que dois. Ela corresponde à mesma correção usada na ferramenta pública Target Calculator da Adobe."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_metric_type"
 >title="Tipo de métrica"
->abstract="Que tipo de métrica você está medindo. Use a Porcentagem para resultados binários, como cliques ou conversões, em que cada usuário conclui ou não a ação. Use Número para métricas como receita ou exibições de página, em que os valores podem variar amplamente de usuário para usuário."
+>abstract="Que tipo de métrica você está medindo. Use a Porcentagem para resultados binários, como cliques ou conversões, em que cada usuário conclui ou não a ação. Use Número para métricas como receita ou visualizações de página, em que os valores podem variar bastante de usuário para usuário."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_number_offers"
 >title="Número de ofertas"
->abstract="O número de experiências no experimento, incluindo o controle. Mais de duas ofertas aplicam automaticamente uma correção Bonferroni (quando ativada) para manter o nível de confiança geral preciso em todas as comparações."
+>abstract="O número de experiências no experimento, incluindo o controle. Mais de duas ofertas aplica automaticamente uma correção de Bonferroni (quando habilitada) para manter o nível de confiança preciso em todas as comparações."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_lift"
 >title="Aumento"
->abstract="A melhoria relativa em relação à linha de base que você deseja detectar. Insira-o como uma porcentagem da linha de base. Por exemplo, um aumento de 5% em uma taxa de conversão de linha de base de 11,8% tem como meta 12,39%."
+>abstract="A melhoria relativa em relação à linha de base que você deseja detectar. Insira-o como uma porcentagem da linha de base. Por exemplo, um aumento de 5% em uma taxa de conversão de linha de base de 11,8% resulta em uma meta de 12,39%."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_baseline_conversion_rate"
 >title="Índice de conversão de linha de base"
->abstract="Sua taxa de conversão atual antes do início do experimento, que é a média do braço de controle. Este valor é sempre obrigatório. Para métricas de porcentagem, insira uma porcentagem como 5 para 5%. Para métricas de contagem, insira o valor decimal bruto."
+>abstract="Sua taxa de conversão atual antes do início do experimento, que é a média do grupo de controle. Este valor é sempre obrigatório. Para métricas de porcentagem, insira uma porcentagem, como 5 para 5%. Para métricas de contagem, insira o valor decimal bruto."
 
 Estime as entradas necessárias para planejar e executar um teste A/B. Esses valores ajudam você a decidir quanto tráfego precisa, por quanto tempo o teste deve ser executado e qual tamanho de efeito pode ser detectado de forma realista.
 
@@ -128,7 +128,7 @@ A calculadora fornece uma estimativa para planejar um experimento. Use o resulta
 >[!CONTEXTUALHELP]
 >id="target_sample_size_variance"
 >title="Variância"
->abstract="Como são distribuídos os valores da sua métrica, não o valor médio. Uma métrica, como a taxa de cliques (geralmente 0s e 1s), normalmente tem baixa variação, enquanto uma métrica, como a receita por usuário, pode ter uma variação muito maior. Se não tiver certeza, deixe o valor padrão como 1."
+>abstract="O quanto os valores da sua métrica estão dispersos, e não o valor médio. Uma métrica como taxa de cliques (principalmente 0 s e 1 s) normalmente tem baixa variância, enquanto uma métrica como receita por usuário pode ter uma variância muito maior. Se não tiver certeza, deixe o valor padrão em 1."
 
 Estime as entradas de planejamento para uma atividade A/B que depende dos dados do Adobe Analytics ou do Customer Journey Analytics. Isso ajuda a definir o tamanho do experimento, o aumento esperado e a duração do teste antes de iniciar a atividade.
 
@@ -155,9 +155,9 @@ Estime as entradas de planejamento para uma atividade A/B que depende dos dados 
 
    * **[!UICONTROL Aperfeiçoamento esperado]**: o aprimoramento que você espera que o experimento produza.
 
-   * **[!UICONTROL Variação]**: a extensão dos valores de métrica. Uma taxa de click-through geralmente tem baixa variação, a receita por usuário pode ser muito maior. Se não tiver certeza, deixe o valor padrão como 1.
+   * **[!UICONTROL Variação]**: a extensão dos valores de métrica. Uma taxa de click-through geralmente tem baixa variação, a receita por usuário pode ser muito maior. Se não tiver certeza, deixe o valor padrão em 1.
 
-     Saiba como calcular uma **[!UICONTROL Variação]** na [documentação do Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
+     Saiba como calcular uma **[!UICONTROL Variação]** na [documentação do Analytics](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
 
      ![](assets/calculator-cja-analytics-2.png)
 
