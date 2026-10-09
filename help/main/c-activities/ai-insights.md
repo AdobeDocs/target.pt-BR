@@ -7,7 +7,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
 workflow-type: tm+mt
 source-wordcount: '763'
-ht-degree: 27%
+ht-degree: 36%
 ---
 # Insights de IA
 
@@ -39,7 +39,7 @@ O menu **[!UICONTROL Insights de IA]** em sua **[!UICONTROL Visão geral da ativ
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_treatment_details"
 >title="Detalhes da experiência"
->abstract="Os detalhes da experiência mostram imagens da aparência de uma experiência quando um usuário se qualifica para ela. É possível revisar essas imagens em todos os experimentos. Alguns experimentos podem solicitar a confirmação da imagem ou a sua substituição, se necessário."
+>abstract="Os detalhes da experiência mostram imagens de como é uma experiência quando um usuário se qualifica para ela. É possível revisar essas imagens em todos os experimentos. Alguns experimentos podem solicitar a confirmação da imagem ou a sua substituição, se necessário."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -118,7 +118,7 @@ Os insights do experimento são aprendizados gerados por IA derivados desse expe
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
 >title="Oportunidades"
->abstract="As oportunidades de experimento são ideias de experiência sugeridas por IA com base em padrões que a IA encontra em suas capturas de tela e resultados de experimento."
+>abstract="As oportunidades do experimento são ideias de experiência sugeridas pela IA com base nos padrões de IA encontrados nas capturas de tela e nos resultados do seu experimento."
 
 O painel **[!UICONTROL Oportunidades]** mostra recomendações geradas por IA projetadas para melhorar o desempenho do teste e se alinhar a objetivos de negócios mais amplos e KPIs.
 
