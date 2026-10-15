@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b6d899d12b0a9d9afe261a6f4e3c3dab209c21b6
+source-git-commit: 9c44e8949e5e6f14af6790a72a2adbcf02c0a944
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 26%
+source-wordcount: '462'
+ht-degree: 58%
 ---
 # Notas de versão do [!DNL Target] (atuais)
 
@@ -40,173 +40,21 @@ Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe T
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 26.9.8 (30 de setembro de 2026)
-
-### Recursos
-
-<table>
-<thead>
-<tr>
-<th><strong>Calculadora de tamanho da amostra</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A Calculadora de tamanho da amostra ajuda a planejar experimentos antes do lançamento, estimando o tráfego necessário, a duração do teste, o número de experiências ou o efeito mínimo que você pode detectar com confiança. Disponível no menu Atividades, ele usa suas entradas para ajudar a determinar os recursos e o tempo de execução necessários para seu teste.</p>
-<p>O recurso de calculadora de tamanho de amostra está disponível no momento como um recurso beta.</p>
-<p>Para obter mais informações, consulte a <a href="../c-activities/sample-size-calculator.md">documentação detalhada</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Insights de IA</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Os insights de IA fornecem aprendizados de experimento gerados por IA e oportunidades de otimização para atividades de Teste A/B com alocação manual de tráfego. Quando um experimento atinge significância estatística, os insights destacam os atributos da experiência vencedora que provavelmente contribuíram para seu desempenho. As oportunidades sugeridas incluem novas ideias de experiência, hipóteses e orientação de implementação para ajudar a melhorar as taxas de conversão.</p>
-<p>O recurso de insights de IA está disponível atualmente como um recurso beta.</p>
-<p>Para obter mais informações, consulte a <a href="../c-activities/ai-insights.md">documentação detalhada</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Melhorias
-
-**[!UICONTROL Administração]**
-
-+++ Ver detalhes
-
-* **Não é possível conceder permissões de IA aos usuários**. Usuários com acesso de Administrador de produto e de Administrador do sistema não podem conceder permissões de IA a outros usuários. A tentativa de habilitar a permissão de IA resultou em um erro `Unauthorized`, mesmo quando a IA estava habilitada para a organização. (TGT-56261)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.7 (28 de setembro de 2026)
-
-
-**[!UICONTROL Recomendações]**
-
-+++ Ver detalhes
-
-* **Erro &quot;Entrada de usuário inválida&quot; no Visual Experience Composer**. Ao editar uma atividade do Recommendations no Visual Experience Composer, um erro &quot;Entrada de usuário inválida&quot; era exibido ao tentar salvar e fechar a atividade.
-
-+++
-
-
-## [!DNL Target Standard/Premium] 26.9.6 (24 de setembro de 2026)
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++Ver detalhes
-
-* **Loop de redirecionamento infinito ao acessar uma página autenticada por SSO por meio do Visual Experience Composer**. Quando um URL de página carregado no Visual Experience Composer passou por um fluxo de redirecionamento de SSO/logon, o Visual Experience Composer inseriu um loop de redirecionamento infinito e nunca chegou à página desejada. (TGT-56233)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.5 (21 de setembro de 2026)
-
-### Recurso
-
-<table>
-<thead>
-<tr>
-<th><strong>Pré-ocultação de conteúdo</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A pré-ocultação de conteúdo ajuda a reduzir a cintilação da página, ocultando apenas as seções que a personalização do Adobe Target está prestes a alterar, fornecendo uma experiência mais suave enquanto o conteúdo é carregado. Essa abordagem evita ocultar a página inteira e ajuda a minimizar o esforço de implementação quando novas atividades são iniciadas.</p>
-<p>Anteriormente lançado com disponibilidade limitada, esse recurso agora está disponível para todos os ambientes (disponibilidade geral).</p>
-<p>Para obter mais informações, consulte a <a href="../administrating-target/content-pre-hiding.md">documentação detalhada</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Melhorias
+## [!DNL Target Standard/Premium] 26.10.1 (13 de outubro de 2026)
 
 **[!UICONTROL Análises para Destino]**
 
 +++Ver detalhes
 
-* **Link de relatório do A4T não gerado na [!DNL Target] interface**. Para atividades de [!DNL A4T], o link do relatório não foi gerado na seção **[!UICONTROL Relatórios]**, mesmo que os dados subjacentes do relatório estivessem visíveis na interface do usuário do [!DNL Target] e na interface do usuário do [!DNL Adobe Analytics]. (TGT-56247)
+* **Falha no relatório do A4T com um erro &quot;Algo deu errado&quot;**. Correção de um problema em que as atividades [!DNL A4T] usando um conjunto de relatórios recém-adicionado exibiam o erro &quot;Algo deu errado&quot; no relatório [!DNL Target] em vez dos resultados. Clicar em **[!UICONTROL Exibir no Analytics]** também exibiu uma mensagem &quot;Conjunto de relatórios incompatível&quot; com informações de classificação [!DNL Analytics for Target] ausentes. (TGT-56389)
 
 +++
-
-## [!DNL Target Standard/Premium] 26.9.4 (17 de setembro de 2026)
 
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalhes
 
-* O controle **[!UICONTROL Inserir Antes de] está inacessível para [!DNL Experience Fragments] no elemento de página mais alto**. No Visual Experience Composer, selecionar o elemento mais alto em uma página rolou a página para cima, fazendo com que o controle **[!UICONTROL Inserir antes]** renderize acima do visor visível, onde não pôde ser selecionado. (TGT-55829)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.3 (16 de setembro de 2026)
-
-**[!UICONTROL Relatório]**
-
-+++Ver detalhes
-
-* **Valores de [!UICONTROL Lift] e [!UICONTROL Confidence] ausentes em alguns [!DNL A4T Auto-Target] relatórios**. Para atividades do [!DNL A4T Auto-Target] usando a meta de otimização **[!UICONTROL Maximizar Taxa de Conversão de Visitas]**, a métrica de relatório padrão **[!UICONTROL Minha Métrica Primária]** não foi resolvida corretamente, deixando o **[!UICONTROL Aumento]** e a **[!UICONTROL Confiança]** em branco. (TGT-56137)
-
-+++
-
-**[!UICONTROL Análises para Destino]**
-
-+++Ver detalhes
-
-* O campo **[!UICONTROL Source de relatórios] agora é somente leitura para atividades online sem acesso de [!DNL Analytics]**. Anteriormente, quando o proprietário de uma atividade ao vivo não tinha acesso a [!DNL Adobe Analytics], o campo **[!UICONTROL Source de relatórios]** e seu campo relacionado permaneciam editáveis. (TGT-56089)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.2 (8 de setembro de 2026)
-
-
-**[!UICONTROL Recomendações]**
-
-+++Ver detalhes
-
-* **[!DNL New]a interface codifica incorretamente as URLs de feed**. Ao criar um feed do Recommendations a partir de uma URL na nova interface do [!DNL Target], a URL do feed era codificada incorretamente, causando falha na criação do feed com um erro desconhecido. (TGT-56084)
-
-+++
-
-**[!UICONTROL Relatório]**
-
-+++Ver detalhes
-
-* **O relatório de Segmentos automatizados não exibe de forma consistente os valores de atributo**. O relatório de Segmentos automatizados exibia de forma inconsistente valores e intervalos de atributos para atividades de [!DNL Automated Personalization] e [!DNL Auto-Target]. Alguns segmentos automatizados mostravam apenas o nome do atributo em vez do valor ou intervalo associado. (TGT-55855)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.1 (1º de setembro de 2026)
-
-**[!UICONTROL Público-alvo]**
-
-+++Ver detalhes
-
-* **Falha ao salvar** a cópia de uma atividade com um público somente atividade. Quando uma atividade A/B usa uma regra de público-alvo somente atividade (com escopo local) e uma modificação de Código personalizado, copiá-la e salvar a cópia falha com um erro &quot;IDs de público-alvo inválidas&quot;. (TGT-55785)
-
-+++
-
-Servidor MCP **[!DNL Adobe Target]— Ferramentas do Recommendations (Beta público)**
-
-+++Ver detalhes
-
-O servidor MCP do [!DNL Adobe Target] agora expõe as ferramentas do Recommendations, permitindo listar, inspecionar, criar e atualizar critérios, coleções, designs, promoções e exclusões e pesquisar o catálogo de produtos diretamente no assistente de IA.
-
-Este recurso requer um locatário habilitado para o Recommendations com o **Target Premium**; ele não está disponível em contas que não sejam Premium.
-
-Para obter mais informações, consulte [Referência de ferramentas do servidor MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
+* **Raw HTML exibido em vez do nome da oferta para [!DNL Experience Fragments] entregue através de uma mbox**. Correção de um problema em que o painel **[!UICONTROL Modificações]** exibia HTML/código bruto em vez do nome da oferta quando uma [!DNL Experience Fragment] era entregue por meio de uma mbox. (TGT-56241)
 
 +++
 

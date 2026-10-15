@@ -3,9 +3,9 @@ user-guide-title: Guia do profissional de negócios do Adobe Target
 breadcrumb-title: Guia do Target
 user-guide-description: Descubra como personalizar as experiências dos clientes em sites, aplicativos e redes sociais para aumentar a receita.
 feature-set: Target
-source-git-commit: 4b90f47050b63c7e1e6ac5019d45a7b99b3a33b8
+source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1307'
 ht-degree: 84%
 ---
 
@@ -19,7 +19,10 @@ ht-degree: 84%
   + [Visão geral da documentação do Target](/help/main/r-release-notes/target-documentation.md)
   + [Atualizações do status do sistema e notificações proativas](r-release-notes/system-status-updates.md)
   + [Alterações de documentação](r-release-notes/doc-change.md)
-  + [Notas de versão para versões anteriores](r-release-notes/release-notes-for-previous-releases.md)
+  + Notas de versão para versões anteriores {#previous-rn}
+    + [2026](r-release-notes/release-notes-for-previous-releases.md)
+    + [2025](r-release-notes/release-notes-for-previous-releases-2025.md)
+    + [2024](r-release-notes/release-notes-for-previous-releases-2024.md)
 + Introdução {#introduction}
   + [Introdução ao Target](c-intro/intro.md)
   + [Acessar o Target na Adobe Experience Cloud](c-intro/target-access-from-mac.md)
@@ -343,4 +346,4 @@ ht-degree: 84%
   + [Limites](r-troubleshooting-target/target-limits.md)
 + APIs do Target {#apis}
   + [Visão geral da API do Adobe Target](/help/main/api/api-overview.md)
-+ [Recursos e informações de contato &#x200B;](cmp-resources-and-contact-information.md)
++ [Recursos e informações de contato ](cmp-resources-and-contact-information.md)
