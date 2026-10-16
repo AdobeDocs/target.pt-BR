@@ -2,7 +2,7 @@
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, direcionamento automático, direcionamento automático, relatório de direcionamento automático, relatório de direcionamento automático, personalização, insights, segmentos automatizados, perguntas frequentes, perguntas frequentes
 description: Saiba como diferentes segmentos definidos pelos modelos de personalização do Adobe [!DNL Target] respondem às ofertas/experiências na atividade ao exibir o relatório de Segmentos automatizados.
 title: O que é o relatório de Segmentos automatizados?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 TQID: 'https://experienceleague.adobe.com/ZC68Nd--YErTUrEfPs3GOVUsG03-QiTjos81TPRr2Yg'
@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3070e58c48964878a916718fa4a9931fc4d85a61
+source-git-commit: f6fd44786c6c8903e81598357a2b6985af0e6eb6
 workflow-type: tm+mt
-source-wordcount: '2219'
-ht-degree: 62%
+source-wordcount: '2340'
+ht-degree: 58%
 ---
 # Relatório de [!UICONTROL Segmentos automatizados]
 
@@ -140,6 +140,11 @@ Para saber mais sobre o algoritmo de personalização random forest, que é a ba
 
 Uma pontuação é calculada para cada segmento, com base no seu tamanho e desempenho diferenciado no conteúdo da sua atividade. A combinação dessas informações determina a ordem dos segmentos automatizados, de modo que os segmentos maiores, com maiores diferenças na forma como responderam ao conteúdo distinto, aparecerão mais perto do topo da lista de segmentos.
 
+**Por que todos os cartões em uma experiência de AP com várias placas mostram a mesma taxa de conversão ao usar &quot;Qualquer Cartão Clicado&quot;?**
+
+No [!UICONTROL Automated Personalization], a otimização e os relatórios são avaliados no nível da experiência, não no nível de cartão ou componente individual. A métrica de sucesso [!UICONTROL Qualquer cartão clicado] registra uma conversão quando um visitante clica em pelo menos um cartão na experiência.
+Como o clique é atribuído à experiência como um todo, todos os cartões nessa experiência podem exibir as mesmas contagens e taxas de conversão nos relatórios, incluindo [!UICONTROL Segmentos automatizados]. Este comportamento é esperado e reflete como o [!UICONTROL Automated Personalization] otimiza combinações de conteúdo em vez de cartões individuais.
+
 **Por que apenas algumas das minhas ofertas/experiências são exibidas no relatório dos Segmentos automatizados?**
 
 As atividades de AP e de AT criam um modelo por oferta (no caso de AP) e um modelo por experiência (no caso de AT). Essas atividades começam distribuindo o tráfego personalizado e criam seus [!UICONTROL Insights de personalização] com apenas dois modelos elaborados. Se não visualizar todas as suas ofertas/experiências no [!UICONTROL Personalization Insights], é provável que você não tenha modelos criados para essas ofertas/experiências específicas. Você pode verificar o relatório de [!UICONTROL Resumo] da sua atividade e ver se há um ícone de relógio ao lado dessa oferta/experiência. Esse ícone indica que os modelos ainda não foram criados para essa oferta/experiência.
@@ -162,7 +167,7 @@ Os relatórios do Personalization Insights (os [!UICONTROL Segmentos automatizad
 
 **Como o [!UICONTROL Personalization Insights] é criado?**
 
-[!UICONTROL Os Insights de personalização são criados usando uma técnica de patente pendente da Adobe chamada MAGIX (Model Agnostic Globally Interpretable Explanations). &#x200B;] Você pode saber mais sobre o MAGIX no paper publicado pela equipe de pesquisa da Adobe no [site do arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Os Insights de personalização são criados usando uma técnica de patente pendente da Adobe chamada MAGIX (Model Agnostic Globally Interpretable Explanations). ] Você pode saber mais sobre o MAGIX no paper publicado pela equipe de pesquisa da Adobe no [site do arXiv.org](https://arxiv.org/abs/1706.07160).
 
 **Por que o total de dados de tráfego dos visitantes no relatório de [!UICONTROL Segmentos automatizados] não corresponde ao meu relatório de resumo/desempenho de AP ou AT?**
 
