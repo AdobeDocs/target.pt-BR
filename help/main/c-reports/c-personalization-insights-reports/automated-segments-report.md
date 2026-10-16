@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3070e58c48964878a916718fa4a9931fc4d85a61
+source-git-commit: f6fd44786c6c8903e81598357a2b6985af0e6eb6
 workflow-type: tm+mt
-source-wordcount: '2219'
-ht-degree: 62%
+source-wordcount: '2340'
+ht-degree: 58%
 ---
 # Relatório de [!UICONTROL Segmentos automatizados]
 
@@ -139,6 +139,11 @@ Para saber mais sobre o algoritmo de personalização random forest, que é a ba
 **O que decide a ordem dos segmentos automatizados?**
 
 Uma pontuação é calculada para cada segmento, com base no seu tamanho e desempenho diferenciado no conteúdo da sua atividade. A combinação dessas informações determina a ordem dos segmentos automatizados, de modo que os segmentos maiores, com maiores diferenças na forma como responderam ao conteúdo distinto, aparecerão mais perto do topo da lista de segmentos.
+
+**Por que todos os cartões em uma experiência de AP com várias placas mostram a mesma taxa de conversão ao usar &quot;Qualquer Cartão Clicado&quot;?**
+
+No [!UICONTROL Automated Personalization], a otimização e os relatórios são avaliados no nível da experiência, não no nível de cartão ou componente individual. A métrica de sucesso [!UICONTROL Qualquer cartão clicado] registra uma conversão quando um visitante clica em pelo menos um cartão na experiência.
+Como o clique é atribuído à experiência como um todo, todos os cartões nessa experiência podem exibir as mesmas contagens e taxas de conversão nos relatórios, incluindo [!UICONTROL Segmentos automatizados]. Este comportamento é esperado e reflete como o [!UICONTROL Automated Personalization] otimiza combinações de conteúdo em vez de cartões individuais.
 
 **Por que apenas algumas das minhas ofertas/experiências são exibidas no relatório dos Segmentos automatizados?**
 

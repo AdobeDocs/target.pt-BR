@@ -29,16 +29,51 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c44e8949e5e6f14af6790a72a2adbcf02c0a944
+source-git-commit: ece061af0f50ec45e07b9710d355a9c91731578e
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 58%
+source-wordcount: '645'
+ht-degree: 42%
 ---
 # Notas de versão do [!DNL Target] (atuais)
 
 Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe Target]. Essas notas de versão também abrangem atualizações para APIs do [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outros componentes da plataforma, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 26.10.2 (15 de outubro de 2026)
+
+**[!UICONTROL Atividades]**
+
++++Ver detalhes
+
+* **Configurações de meta incorretas exibidas na Visão Geral da Atividade**. Correção de um problema em que as configurações da meta mostradas na página **[!UICONTROL Visão geral]** de uma atividade estavam incorretas. Por exemplo, `https://` foi adicionado à URL da página, e a condição **[!UICONTROL URL contém]** não foi exibida, mesmo que a configuração de meta real estivesse correta. (TGT-56326)
+
++++
+
+**[!UICONTROL Recomendações]**
+
++++Ver detalhes
+
+* **Recomendações de backup exibidas após uma promoção ser atualizada em uma atividade online**. Correção de um problema em que a edição de uma promoção em uma atividade [!DNL Recommendations] em tempo real fazia com que [!DNL Target] criasse novas promoções e unidades de recomendação, mesmo que nada mudasse em sua definição. (TGT-56369)
+
++++
+
+**[!UICONTROL Relatórios]**
+
++++Ver detalhes
+
+* **Predefinições de relatório excluídas após duas semanas**. Correção de um problema em que as predefinições de relatório salvas pelos usuários em uma atividade eram excluídas automaticamente após aproximadamente duas semanas. (TGT-56374)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalhes
+
+* **Suporte ao Safari adicionado a[!DNL Adobe Target]**. Agora há suporte para [!DNL Target] no navegador [!DNL Safari]. Observe que o Visual Experience Composer e [!DNL Enhanced Experience Composer] não são suportados no [!DNL Safari]. Como resultado, uma sobreposição agora aparece no [!DNL VEC] para notificar os usuários que eles devem alternar para [!DNL Chrome] para usar o editor. (TGT-55853)
+  [Saiba mais](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#browser-requirements)
++++
+
 
 ## [!DNL Target Standard/Premium] 26.10.1 (13 de outubro de 2026)
 

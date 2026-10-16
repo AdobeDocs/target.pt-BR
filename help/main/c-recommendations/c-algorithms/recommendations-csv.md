@@ -1,5 +1,5 @@
 ---
-keywords: criar critérios personalizados, algoritmos, critérios, critérios de recomendações, csv, ftp, carregar csv
+keywords: criar critérios personalizados;algoritmos;critérios;critérios de recomendações;csv;ftp;sftp;carregar csv
 description: Saiba como carregar um arquivo CSV para personalizar suas recomendações no Adobe [!DNL Target] Recommendations.
 title: Como faço para carregar critérios personalizados no [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 32%
+source-wordcount: '762'
+ht-degree: 27%
 ---
 # Upload dos critérios personalizados
 
@@ -57,9 +57,13 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar Novo Cr
 
    O arquivo CSV deve estar formatado corretamente para ser carregado com sucesso. Clique em **[!UICONTROL Baixar o modelo CSV]** para obter um arquivo CSV formatado corretamente.
 
-   Você tem duas opções de local:
+   Há três opções de local:
 
    * **FTP:** Para carregar seu arquivo CSV de um servidor FTP, selecione **[!UICONTROL FTP]** e insira as informações necessárias. Você pode usar SSL, que usa o protocolo FTPS para transferir seu arquivo CSV em segurança.
+
+   * **SFTP:** Para carregar seu arquivo CSV de um servidor SFTP, selecione **[!UICONTROL SFTP]** e digite o nome do host ou endereço IP, porta (padrão 22), nome de usuário, senha e/ou chave privada SSH, diretório e nome de arquivo. Para obter detalhes, consulte [Configurações compatíveis do servidor SFTP](/help/main/c-recommendations/c-products/feeds.md#sftp-settings).
+
+     O SFTP não altera o formato CSV de critérios personalizados. Use o formato `# Key,Recommendation_1,...`, o uso de um formato de tipo de feed diferente causa falha na importação.
 
    * **URL:** Para carregar seu arquivo CSV de uma URL, selecione **[!UICONTROL URL]** e insira uma URL de feed.
 

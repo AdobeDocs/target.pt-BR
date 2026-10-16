@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: '2871'
-ht-degree: 50%
+source-wordcount: '2913'
+ht-degree: 49%
 ---
 # Perguntas frequentes sobre otimização e personalização do Target
 
@@ -95,6 +95,8 @@ Conecte-se com outros profissionais do [!DNL Target] no [Fórum da comunidade do
 
 +++Ver detalhes
 Leia a matriz de [Navegadores suportados](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=pt-BR){target=_blank} para obter mais detalhes. Observe que há dois aspectos: o suporte à interface do [!DNL Target Standard/Premium] e o suporte a navegadores para usuários finais em desktops/dispositivos.
+
+Há suporte para [!DNL Safari] para a interface [!DNL Target]. Você pode criar atividades baseadas em formulário no [!DNL Safari] e usar todas as funcionalidades, exceto o [!UICONTROL Visual Experience Composer] (VEC) e o [!UICONTROL Enhanced Experience Composer] (EEC), que não são compatíveis com o [!DNL Safari]. Para editar experiências no VEC ou no EEC, use [!DNL Google Chrome].
 
 +++
 
