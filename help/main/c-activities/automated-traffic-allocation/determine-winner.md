@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: cfab6f04bc59cc7480d871f327fde9ce0a2d6e8f
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 20%
+source-wordcount: '1288'
+ht-degree: 19%
 ---
 # Interpretar relatórios de [!UICONTROL Alocação automática]
 
@@ -41,6 +41,8 @@ Ao usar o recurso [!UICONTROL Alocação automática], [!DNL Target] exibe um em
 Quando um vencedor claro é declarado, [!DNL Target] exibe o emblema &quot;Vencedor: Experiência *X*&quot;.
 
 ![Selo do vencedor](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
+
+O selo vencedor também aparece no pop-up de informações de uma atividade na lista [!UICONTROL Atividades], para que você possa ver o status de uma atividade [!UICONTROL Alocação automática] sem abri-la.
 
 >[!NOTE]
 >
@@ -92,6 +94,6 @@ Qualquer um dos motivos a seguir descreve por que 0% é exibido na coluna [!UICO
 
 ### Os emblemas &quot;Sem vencedor&quot;, &quot;Vencedor&quot; e &quot;estrela&quot; estão disponíveis para atividades de [!UICONTROL Alocação automática] que usam o [!UICONTROL Analytics como fonte de relatórios] (A4T)?
 
-Os emblemas &quot;Ainda não há vencedor&quot; e &quot;Vencedor&quot; não estão disponíveis no painel [!UICONTROL A4T] em [!DNL Analysis Workspace]. Essas medalhas também não estarão disponíveis se o mesmo relatório for visualizado em [!DNL Target]. Um selo de &quot;estrela&quot; vencedor mostrado em um relatório [!DNL Target] para uma atividade [!UICONTROL Alocação automática] usando A4T deve ser ignorado.
+Os emblemas &quot;Ainda não há vencedor&quot; e &quot;Vencedor&quot; aparecem na janela pop-up de informações da atividade na lista [!UICONTROL Atividades]. Eles não aparecem no painel [!UICONTROL A4T] em [!DNL Analysis Workspace] ou quando você exibe o mesmo relatório em [!DNL Target]. Se um relatório [!DNL Target] de uma atividade A4T [!UICONTROL Alocação automática] mostrar um símbolo de &quot;estrela&quot; vencedor, ignore-o.
 
 Para obter mais informações sobre esta e outras limitações e observações, consulte [Alocação automática](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) no *Suporte do A4T para [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático] atividades*.
