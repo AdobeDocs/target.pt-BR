@@ -416,7 +416,7 @@ Para acessar as opções de [!UICONTROL Entrega de página] no fluxo de trabalho
 
 ![Caixa de diálogo de opções de Entrega de página](/help/main/c-experiences/assets/page-delivery.png)
 
-Por exemplo, conforme definido pelas configurações de [!UICONTROL Entrega de página] mostradas acima, uma atividade do Target é qualificada e executada quando um visitante acessa diretamente o `https://www.adobe.com` *ou* quando um visitante acessa qualquer URL que contém `https://www.adobe.com/br/products`. Isso funciona perfeitamente para aplicativos de várias páginas em que cada interação com a página chama um recarregamento de página, para o qual a at.js recupera as atividades qualificadas para o URL ao qual o usuário navega.
+Por exemplo, conforme definido pelas configurações de [!UICONTROL Entrega de página] mostradas acima, uma atividade do Target é qualificada e executada quando um visitante acessa diretamente o `https://www.adobe.com/br` *ou* quando um visitante acessa qualquer URL que contém `https://www.adobe.com/br/products`. Isso funciona perfeitamente para aplicativos de várias páginas em que cada interação com a página chama um recarregamento de página, para o qual a at.js recupera as atividades qualificadas para o URL ao qual o usuário navega.
 
 No entanto, como os SPAs funcionam de forma diferente, as configurações de [!UICONTROL Entrega de página] devem ser definidas de modo a permitir que todas as ações sejam aplicadas às Exibições, conforme definido na atividade de SPA VEC.
 

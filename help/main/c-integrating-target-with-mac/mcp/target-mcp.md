@@ -95,7 +95,7 @@ Não. O servidor MCP foi projetado para personas técnicas e de marketing. Os pr
 
 +++Meus dados [!DNL Adobe Target] são enviados ao provedor do cliente MCP?
 
-Ao enviar um prompt, o cliente MCP pode enviar o contexto relevante (incluindo os dados [!DNL Adobe Target] retornados pelo servidor MCP) ao seu modelo para processamento. Analise as políticas de privacidade e manuseio de dados do seu provedor de cliente MCP antes de se conectar aos dados de produção. A manipulação de dados da Adobe é regida pela [Política de Privacidade da Adobe](https://www.adobe.com/privacy.html) e pelos [Termos de Proteção de Dados](https://www.adobe.com/go/dpt-ww).
+Ao enviar um prompt, o cliente MCP pode enviar o contexto relevante (incluindo os dados [!DNL Adobe Target] retornados pelo servidor MCP) ao seu modelo para processamento. Analise as políticas de privacidade e manuseio de dados do seu provedor de cliente MCP antes de se conectar aos dados de produção. A manipulação de dados da Adobe é regida pela [Política de Privacidade da Adobe](https://www.adobe.com/br/privacy.html) e pelos [Termos de Proteção de Dados](https://www.adobe.com/go/dpt-ww).
 +++
 
 +++As operações de gravação podem causar alterações não intencionais em atividades ativas?

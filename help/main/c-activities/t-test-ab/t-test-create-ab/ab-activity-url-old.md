@@ -26,7 +26,7 @@ Quando solicitado durante a criação da atividade, especifique o URL da ativida
 
 >[!NOTE]
 >
->[!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]). Como resultado, [!DNL `http://www.adobe.com`] e [!DNL `https://www.adobe.com`] são correspondentes.
+>[!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]). Como resultado, [!DNL `http://www.adobe.com/br`] e [!DNL `https://www.adobe.com/br`] são correspondentes.
 
 ## Especificar um URL diferente
 
