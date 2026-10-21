@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ee887007d9793bbe49bbb8f84151473cd626846d
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 21%
+source-wordcount: '1443'
+ht-degree: 22%
 ---
 # [!UICONTROL Métricas de sucesso]
 
@@ -59,7 +59,7 @@ As seguintes métricas de sucesso podem ser configuradas na seção [!UICONTROL 
 | Métrica de Sucesso | Abordagem de medida | Definição |
 |--- |--- |--- |
 | [!UICONTROL Conversão] | Com base em conversão | A conversão é quando um visitante executa uma ação no site definida por você, como <ul><li>Visualizou uma página</li><li>Visualizou uma mbox</li><li>Clicou em um elemento</li></ul>Uma conversão pode ser contada uma vez por visitante ou cada vez que um visitante conclui uma conversão. |
-| [!UICONTROL Receita] | Com base em conversão | A receita gerada pela visita. Você pode escolher apenas uma métrica de receita:<ul><li>Visualizou uma mbox</li></ul>Para obter mais informações sobre alterações na interface atualizada do usuário [!DNL Target], pois ela se refere às métricas de sucesso de receita, consulte [Alterações atualizadas [!DNL Target] na interface](#changes) abaixo. |
+| [!UICONTROL Receita] | Com base em conversão | A receita gerada pela visita. Você pode escolher apenas uma métrica de receita:<ul><li>Visualizou uma mbox</li></ul>A exibição de receita (RPV, AOV, Vendas Totais ou Pedidos) está selecionada na seção [!UICONTROL Relatórios], e não durante a configuração da atividade. Consulte [Alternar entre exibições de relatórios de receita](#revenue-views). |
 | [!UICONTROL Participação] | Com base no engajamento | Engajamento gerado pela visita. Você pode escolher entre as seguintes métricas de envolvimento:<UL><li>Exibições de página: cada visita única é contada como uma conversão.</li><li>[!UICONTROL Pontuação personalizada]: pontuação agregada com base no valor atribuído às páginas visitadas no site, a partir do momento em que o visitante exibe a primeira solicitação de [!DNL Target] da atividade.</li>[!DNL Time on Site]: Tempo gasto na visita (em segundos) a partir do momento em que o visitante visualiza a primeira solicitação [!DNL Target] de exibição da atividade até o carregamento da página final com uma solicitação na sessão.</UL> |
 
 Para métricas baseadas em participação (diferente de métricas baseadas em conversão e baseadas em receita), os visitantes devem se requalificar para a atividade em cada visita para incrementar a contagem dessa sessão. A métrica associada começa a incrementar após a requalificação e interrompe no final de cada sessão do visitante. Uma sessão é finalizada depois de 30 minutos de inatividade. Portanto, você não vê os resultados imediatamente durante o teste; no entanto, todos os resultados dessa sessão estão disponíveis dentro de alguns minutos após o término da sessão.
@@ -75,6 +75,25 @@ Se estiver habilitado, o campo [!UICONTROL Valor estimado de uma conversão] (n�
 As métricas de sucesso escolhidas para a atividade estão disponíveis nas configurações do relatório quando você exibe um relatório para a atividade.
 
 Algumas métricas, como [!UICONTROL Pontuação personalizada] e [!UICONTROL Receita por visitante], exigem uma implementação personalizada que transmita informações, como totais de pedidos e IDs de pedidos.
+
+### Alternar entre exibições de relatórios de receita {#revenue-views}
+
+Relatórios de receita são abertos na exibição [!UICONTROL Receita por visita (RPV)] por padrão, portanto, nenhuma seleção é necessária durante a configuração da atividade. É possível alternar para uma exibição diferente a qualquer momento enquanto os resultados são revisados.
+
+Para alternar entre exibições de relatórios de receita:
+
+1. Abra sua **[!UICONTROL Atividade]** e navegue até a seção **[!UICONTROL Relatórios]**.
+
+1. Clique em ![](assets/Smock_Gears_18_N.png) e selecione a exibição de métrica necessária:
+
+   * **[!UICONTROL Receita por visitante (RPV)]**
+   * **[!UICONTROL Valor Médio de Pedido (AOV)]**
+   * **[!UICONTROL Vendas Totais]**
+   * **[!UICONTROL Taxa de pedidos]**
+
+   ![](assets/change-view.png)
+
+[!UICONTROL Receita por visita (RPV)] permanece como a exibição exibida, a menos que outra opção seja selecionada. Essa seleção afeta apenas a métrica mostrada no relatório e não afeta as métricas de entrega.
 
 ## Configurações avançadas {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
@@ -135,15 +154,3 @@ Escolha o comportamento desejado:
 * Métricas de sucesso com opção avançada &quot;Como a contagem será incrementada&quot; definida como &quot;a cada impressão&quot; ou &quot;a cada impressão (exceto atualizações)&quot; não pode ser usada como uma métrica de sucesso da qual dependeria outra métrica.
 
   Quando uma métrica de sucesso é definida para incrementar a cada impressão, [!DNL Target] conta o visitante novamente sempre que ele visitar a métrica de sucesso. [!DNL Target] então redefine a métrica de sucesso &quot;associação&quot; para 0 para que ela possa contar novamente na próxima impressão. Portanto, se outra métrica exigir que essa métrica tenha sido visualizada primeiro, [!DNL Target] nunca reconhecerá que o usuário viu a primeira métrica.
-
-## Atualizadas [!DNL Target] alterações na interface {#changes}
-
-A versão [[!DNL Target Standard/Premium] 25.2.1](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2), iniciada em 17 de fevereiro de 2015, apresentou interfaces atualizadas do [!DNL Target] e do [!UICONTROL Visual Experience Composer] (VEC). Esta seção descreve as principais diferenças entre a interface herdada e a atualizada, especificamente porque estão relacionadas à configuração e ao gerenciamento de métricas de sucesso.
-
-### Alterações na interface do usuário relacionadas às métricas de sucesso de [!UICONTROL Receita]
-
-Na interface [!DNL Target] atualizada, o menu suspenso [!UICONTROL Modo de Exibição Padrão de Relatórios] foi removido. Este campo era redundante, pois anteriormente salvava o modo de exibição de relatórios padrão em [!DNL Overview] > [!UICONTROL Relatórios] na interface herdada.
-
-Com a interface atualizada, a métrica de relatórios padrão agora é sempre definida como [!UICONTROL Receita por visitante (RPV)]. Você ainda pode personalizar o modo de exibição na seção [!UICONTROL Relatórios] para exibir as métricas mais relevantes para a sua análise.
-
-Essa alteração não afeta as métricas de entrega. Essa alteração afeta somente o filtro padrão mostrado na exibição de relatórios. Como o RPV é a métrica mais usada entre os clientes, esse padrão foi selecionado para simplificar os workflows de relatórios. Você pode alternar para outras métricas a qualquer momento na seção [!UICONTROL Relatórios].
