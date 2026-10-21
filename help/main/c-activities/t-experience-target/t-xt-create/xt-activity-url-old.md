@@ -26,7 +26,7 @@ A [!UICONTROL URL da Atividade] determina a página usada em uma atividade [!DNL
 
    >[!NOTE]
    >
-   >[!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]). Como resultado, [!DNL `https://www.adobe.com`] e [!DNL `http://www.adobe.com`] são correspondentes.
+   >[!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]). Como resultado, [!DNL `https://www.adobe.com/br`] e [!DNL `http://www.adobe.com/br`] são correspondentes.
    >
    >Por padrão, o VEC ou o [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md) abre a página especificada nas suas [configurações do Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md). Você pode especificar uma página diferente durante a criação da atividade.
    >

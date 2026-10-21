@@ -250,7 +250,7 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
 * **Use rel=&quot;canonical&quot;**: às vezes, um teste A/B requer URLs diferentes para variações. Nesses casos, todas as variações devem incluir uma tag rel=&quot;canonical&quot; fazendo referência ao URL original (controle). Por exemplo, se [!DNL Adobe] estiver testando sua página inicial com URLs diferentes para cada variação, a tag canônica a seguir para a página inicial deverá ser colocada na tag `<head>` de cada variação:
 
-  `<link rel="canonical" href="https://www.adobe.com" />`
+  `<link rel="canonical" href="https://www.adobe.com/br" />`
 
 * **Usar redirecionamentos 302 (temporário)**: quando URLs separadas são usadas para variações de páginas em um teste, o [!DNL Google] recomenda o uso de um redirecionamento 302 para direcionar o tráfego para as variações em teste. O redirecionamento 302 informa aos mecanismos de pesquisa que o redirecionamento é temporário e está ativo somente enquanto o teste está em execução.
 

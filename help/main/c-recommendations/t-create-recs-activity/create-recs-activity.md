@@ -49,7 +49,7 @@ Use o [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma
 
    >[!NOTE]
    >
-   >[!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]). Como resultado, [!DNL `http://www.adobe.com`] e [!DNL `https://wwww.adobe.com`] são correspondentes.
+   >[!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]). Como resultado, [!DNL `http://www.adobe.com/br`] e [!DNL `https://wwww.adobe.com`] são correspondentes.
 
    O URL da atividade é a página onde as recomendações são exibidas.
 
