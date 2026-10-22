@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 24%
+source-wordcount: '2288'
+ht-degree: 20%
 ---
 # Como o [!DNL Adobe Target] funciona
 
@@ -236,13 +236,7 @@ O [!DNL Adobe Target] está alinhado às diretrizes de mecanismo de busca para t
 
 O [!DNL Adobe Target] está alinhado às diretrizes de mecanismo de busca para teste.
 
-Para obter mais informações, consulte os seguintes recursos da Google:
-
-* [Testes de site e pesquisa Google](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [Experimentos e Cloaking](https://support.google.com/analytics/answer/12979939?hl)
-
-
-As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webmaster da Google](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html). Embora a publicação seja datada de 2012, ela continua sendo a declaração mais recente de [!DNL Google] sobre o assunto, e as diretrizes ainda são relevantes.
+Para obter mais informações, consulte a [documentação do Google](https://developers.google.com/search/docs/crawling-indexing/website-testing).
 
 * **Sem cloaking**: o cloaking envolve a exibição de um conjunto de conteúdo para os usuários e um conjunto diferente para os bots do mecanismo de pesquisa, identificando bots especificamente e enviando conteúdo diferente para eles.
 
@@ -266,13 +260,7 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
   Além disso, considere a acessibilidade da página que você está testando. Se a página não estiver acessível para mecanismos de pesquisa e nunca tiver sido projetada para classificar na pesquisa orgânica, essas considerações não se aplicam. Um exemplo é uma página de destino dedicada a uma campanha de email.
 
-O Google declara que seguir essas diretrizes “deve resultar em pequeno ou nenhum impacto dos seus testes sobre o seu site nos resultados de pesquisa”.
-
-Além dessas diretrizes, a Google também fornece mais uma diretriz na documentação de sua ferramenta de Experiências com Conteúdo:
-
-* “Suas variações de páginas devem manter o espírito do conteúdo das suas páginas originais. Essas variações não devem alterar o significado da percepção geral do seu usuário sobre aquele conteúdo original”.
-
-A Google afirma, como um exemplo, que “se a página original de um site é carregada com palavras-chave não relacionadas às combinações sendo exibidas aos usuários, nós podemos remover esse site do nosso índice.”
+O Google declara que as variações em um teste geralmente têm pouco ou nenhum impacto no trecho do resultado da pesquisa ou na classificação de uma página.
 
 O [!UICONTROL Adobe] acha que seria difícil alterar involuntariamente o significado do conteúdo original nas variações de teste. No entanto, o [!UICONTROL Adobe] recomenda estar ciente dos temas de palavras-chave em uma página e mantê-los. Alterações no conteúdo da página, especialmente adicionando ou excluindo palavras-chave relevantes, pode resultar em alterações de classificação ao URL na pesquisa orgânica. A [!DNL Adobe] recomenda que você envolva seu parceiro de SEO como parte de protocolo de testes.
 
