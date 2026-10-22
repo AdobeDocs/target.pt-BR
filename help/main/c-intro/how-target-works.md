@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 24%
+source-wordcount: '2288'
+ht-degree: 20%
 ---
 # Como o [!DNL Adobe Target] funciona
 
@@ -69,14 +69,14 @@ Os principais pontos incluem:
 
 O Target integra-se a sites usando o [!DNL Experience Platform Web SDK] ou a at.js:
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: esta biblioteca JavaScript do lado do cliente permite que os clientes do [!DNL Adobe Experience Cloud] interajam com vários serviços através do [!DNL Experience Platform Edge Network]. A [!DNL Adobe] recomenda que os novos clientes do [!DNL Target] implementem o [!DNL Experience Platform Web SDK].
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: esta biblioteca JavaScript do lado do cliente permite que os clientes do [!DNL Adobe Experience Cloud] interajam com vários serviços através do [!DNL Experience Platform Edge Network]. A [!DNL Adobe] recomenda que os novos clientes do [!DNL Target] implementem o [!DNL Experience Platform Web SDK].
 * **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: esta biblioteca de implementação do [!DNL Target] melhora os tempos de carregamento de página de implementações da Web e oferece opções melhores para aplicativos de página única. Atualizado com frequência com novos recursos, o [!DNL Adobe] recomenda que todos os [usuários do at.js atualizem para a versão mais recente](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >A biblioteca mbox.js é uma implementação herdada do [!DNL Target] e não é mais suportada após 31 de março de 2021. Atualize para o [!UICONTROL Experience Platform Web SDK] (preferencial) ou para a versão mais recente da at.js.
 
-Consulte o [!UICONTROL Experience Platform Web SDK] ou a at.js em todas as páginas do seu site. Por exemplo, adicione uma dessas bibliotecas ao seu cabeçalho global. Como alternativa, use [tags na Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/home){target=_blank} para implementar o [!DNL Target].
+Consulte o [!UICONTROL Experience Platform Web SDK] ou a at.js em todas as páginas do seu site. Por exemplo, adicione uma dessas bibliotecas ao seu cabeçalho global. Como alternativa, use [tags na Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} para implementar o [!DNL Target].
 
 Os seguintes recursos contêm informações detalhadas para ajudar você a implementar o [!DNL Experience Platform Web SDK] ou a at.js:
 
@@ -213,7 +213,7 @@ O serviço [!DNL Target Recommendations] é hospedado em um data center [!DNL Ad
 >
 >Atualmente, o [!DNL Target] não tem um cluster do Edge na China, o que limita o desempenho do visitante para [!DNL Target] clientes na região. O firewall e a ausência de clusters do Edge podem afetar as experiências do site, causando renderização lenta e tempos de carregamento de página. Além disso, os profissionais de marketing podem experimentar latência ao usar a interface de criação do [!DNL Target].
 
-Você pode adicionar clusters de borda do [!DNL Target] à lista de permissões, se desejar. Para obter mais informações, consulte [lista de permissões de nós de borda do Target](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
+Você pode adicionar clusters de borda do [!DNL Target] à lista de permissões, se desejar. Para obter mais informações, consulte [lista de permissões de nós de borda do Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Experiência do usuário protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -236,13 +236,7 @@ O [!DNL Adobe Target] está alinhado às diretrizes de mecanismo de busca para t
 
 O [!DNL Adobe Target] está alinhado às diretrizes de mecanismo de busca para teste.
 
-Para obter mais informações, consulte os seguintes recursos da Google:
-
-* [Testes de site e pesquisa Google](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [Experimentos e Cloaking](https://support.google.com/analytics/answer/12979939?hl)
-
-
-As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webmaster da Google](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html). Embora a publicação seja datada de 2012, ela continua sendo a declaração mais recente de [!DNL Google] sobre o assunto, e as diretrizes ainda são relevantes.
+Para obter mais informações, consulte a [documentação do Google](https://developers.google.com/search/docs/crawling-indexing/website-testing).
 
 * **Sem cloaking**: o cloaking envolve a exibição de um conjunto de conteúdo para os usuários e um conjunto diferente para os bots do mecanismo de pesquisa, identificando bots especificamente e enviando conteúdo diferente para eles.
 
@@ -250,7 +244,7 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
 * **Use rel=&quot;canonical&quot;**: às vezes, um teste A/B requer URLs diferentes para variações. Nesses casos, todas as variações devem incluir uma tag rel=&quot;canonical&quot; fazendo referência ao URL original (controle). Por exemplo, se [!DNL Adobe] estiver testando sua página inicial com URLs diferentes para cada variação, a tag canônica a seguir para a página inicial deverá ser colocada na tag `<head>` de cada variação:
 
-  `<link rel="canonical" href="https://www.adobe.com/br" />`
+  `<link rel="canonical" href="https://www.adobe.com" />`
 
 * **Usar redirecionamentos 302 (temporário)**: quando URLs separadas são usadas para variações de páginas em um teste, o [!DNL Google] recomenda o uso de um redirecionamento 302 para direcionar o tráfego para as variações em teste. O redirecionamento 302 informa aos mecanismos de pesquisa que o redirecionamento é temporário e está ativo somente enquanto o teste está em execução.
 
@@ -266,13 +260,7 @@ As diretrizes foram apresentadas em uma publicação do [Blog da Central do Webm
 
   Além disso, considere a acessibilidade da página que você está testando. Se a página não estiver acessível para mecanismos de pesquisa e nunca tiver sido projetada para classificar na pesquisa orgânica, essas considerações não se aplicam. Um exemplo é uma página de destino dedicada a uma campanha de email.
 
-O Google declara que seguir essas diretrizes “deve resultar em pequeno ou nenhum impacto dos seus testes sobre o seu site nos resultados de pesquisa”.
-
-Além dessas diretrizes, a Google também fornece mais uma diretriz na documentação de sua ferramenta de Experiências com Conteúdo:
-
-* “Suas variações de páginas devem manter o espírito do conteúdo das suas páginas originais. Essas variações não devem alterar o significado da percepção geral do seu usuário sobre aquele conteúdo original”.
-
-A Google afirma, como um exemplo, que “se a página original de um site é carregada com palavras-chave não relacionadas às combinações sendo exibidas aos usuários, nós podemos remover esse site do nosso índice.”
+O Google declara que as variações em um teste geralmente têm pouco ou nenhum impacto no trecho do resultado da pesquisa ou na classificação de uma página.
 
 O [!UICONTROL Adobe] acha que seria difícil alterar involuntariamente o significado do conteúdo original nas variações de teste. No entanto, o [!UICONTROL Adobe] recomenda estar ciente dos temas de palavras-chave em uma página e mantê-los. Alterações no conteúdo da página, especialmente adicionando ou excluindo palavras-chave relevantes, pode resultar em alterações de classificação ao URL na pesquisa orgânica. A [!DNL Adobe] recomenda que você envolva seu parceiro de SEO como parte de protocolo de testes.
 
