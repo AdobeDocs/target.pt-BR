@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: a12dea5df94b20aecd8bf30da62646d01b0b07fe
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '591'
 ht-degree: 1%
 ---
 # Pré-ocultação de conteúdo para experiências personalizadas
@@ -66,7 +66,7 @@ Sua instância agora usa as configurações de pré-ocultação e tempo limite d
 
 Com a pré-ocultação habilitada para sua instância, escolha se cada atividade a usará em **[!UICONTROL Metas e Configurações]**. As atividades para as quais você habilita a pré-ocultação são incluídas no comportamento direcionado quando estão ativas.
 
-[!DNL Target] então cria um conjunto de regras leve a partir de atividades ativas criadas no [!UICONTROL Visual Experience Composer] (VEC) e no [!UICONTROL Form-Based Composer], descrevendo os seletores e as áreas que a entrega pode alterar.
+O [!DNL Target] cria um conjunto de regras leve a partir de atividades ativas criadas no [!UICONTROL Visual Experience Composer] (VEC), descrevendo os seletores e as áreas que a entrega pode alterar.
 
 Ao criar ou editar uma atividade:
 
