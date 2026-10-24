@@ -7,13 +7,11 @@ source-git-commit: 56c59c705d33c1e9edf336c03c2627654869ef81
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 9%
-
 ---
-
 
 # Sinalizadores {#flags}
 
-+ [Visão Geral](home.md)
++ [Visão geral](home.md)
 + Introdução {#get-started}
   + [Introdução aos sinalizadores](getting-started/introduction.md)
   + [Por que usar sinalizadores](getting-started/why-use-flags.md)
