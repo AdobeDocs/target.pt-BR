@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: f6fd44786c6c8903e81598357a2b6985af0e6eb6
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2340'
-ht-degree: 58%
+source-wordcount: '2351'
+ht-degree: 56%
 ---
 # Relatório de [!UICONTROL Segmentos automatizados]
 
@@ -118,7 +118,7 @@ Este segmento automatizado é definido com base em dois atributos. Os visitantes
 
 Há diversos motivos pelos quais os relatórios dos [!UICONTROL Insights de personalização] ainda não estão disponíveis para a sua atividade:
 
-* Não se passaram 15 dias desde que você ativou a atividade. Os relatórios de Segmentos automatizados e Atributos importantes não estarão disponíveis até pelo menos 15 dias após o início da atividade. Durante esse período inicial, você não poderá acessar esses relatórios ou clicar nos ícones de Segmentos automatizados e Atributos personalizados do modelo.
+* Não se passaram 15 dias desde que você ativou a atividade. Os relatórios de Segmentos automatizados e Atributos importantes não estarão disponíveis até pelo menos 15 dias após o início da atividade. Durante esse período inicial, você não poderá acessar esses relatórios ou clicar nos ícones de Segmentos automatizados e Atributos importantes.
 * Sua atividade não teve tráfego suficiente durante o intervalo de tempo especificado. Após 15 dias, supondo que haja tráfego personalizado suficiente na atividade para criar modelos de personalização, os relatórios de Segmentos automatizados e Atributos importantes ficarão disponíveis.
 * Sua atividade tem uma meta de otimização de receita. Atualmente, o [!UICONTROL Personalization Insights] está disponível apenas para atividades com meta de otimização de conversão. A Adobe adicionará suporte para atividades com meta de otimização de receita em uma versão futura.
 
@@ -147,7 +147,7 @@ Como o clique é atribuído à experiência como um todo, todos os cartões ness
 
 **Por que apenas algumas das minhas ofertas/experiências são exibidas no relatório dos Segmentos automatizados?**
 
-As atividades de AP e de AT criam um modelo por oferta (no caso de AP) e um modelo por experiência (no caso de AT). Essas atividades começam distribuindo o tráfego personalizado e criam seus [!UICONTROL Insights de personalização] com apenas dois modelos elaborados. Se não visualizar todas as suas ofertas/experiências no [!UICONTROL Personalization Insights], é provável que você não tenha modelos criados para essas ofertas/experiências específicas. Você pode verificar o relatório de [!UICONTROL Resumo] da sua atividade e ver se há um ícone de relógio ao lado dessa oferta/experiência. Esse ícone indica que os modelos ainda não foram criados para essa oferta/experiência.
+As atividades de AP e de AT criam um modelo por oferta (no caso de AP) e um modelo por experiência (no caso de AT). Essas atividades começam distribuindo o tráfego personalizado e criam seus [!UICONTROL Insights de personalização] com apenas dois modelos elaborados. Se não vir todas as suas ofertas/experiências no [!UICONTROL Personalization Insights], é provável que você não tenha modelos criados para essas ofertas/experiências específicas. Você pode verificar o relatório de [!UICONTROL Resumo] da sua atividade e ver se há um ícone de relógio ao lado dessa oferta/experiência. Esse ícone indica que os modelos ainda não foram criados para essa oferta/experiência.
 
 **Por que algumas ofertas/experiências com uma taxa de conversão mais baixa recebem uma quantidade maior de tráfego em comparação a outras ofertas/experiências para um determinado segmento automatizado?**
 

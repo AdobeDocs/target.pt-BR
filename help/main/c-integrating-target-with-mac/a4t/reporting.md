@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 41%
+source-wordcount: '1320'
+ht-degree: 40%
 ---
 # Relatórios do A4T
 
@@ -81,7 +81,7 @@ Quando [!DNL Analytics] é usado como fonte de relatórios, os relatórios em [!
 
   Quaisquer números que aumentarem serão mostrados como positivos no relatório, mesmo quando um aumento for indesejado. Por exemplo, mesmo que você queira uma taxa de rejeição mais baixa, a taxa de rejeição mais alta é mostrada como vencedora com o maior incentivo. Considere essas métricas de métricas semelhantes, bem como sua preferência por diminuir ou aumentar os números, ao tomar decisões baseadas nos relatórios.
 
-Você pode aplicar a métrica ou público-alvo ao relatório em [!DNL Target] após o início da atividade ou mesmo após a conclusão do teste. Você não precisa saber exatamente o que deseja medir com antecedência.
+Você pode aplicar a métrica ou público-alvo ao relatório em [!DNL Target] após o início da atividade ou mesmo após a conclusão do teste. Você não precisa saber exatamente o que deseja medir antecipadamente.
 
 Clique para exibir o relatório [!DNL Analytics] completo diretamente na página do relatório de atividades.
 
@@ -95,7 +95,7 @@ Você pode realizar cálculos offline para intervalos de confiança e confiança
 
 Para o A4T, usamos um cálculo [Welch&#39;s t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} para variáveis contínuas (em vez de métricas binárias). No Analytics, um visitante é sempre rastreado e todas as ações realizadas são contadas. Portanto, se o visitante comprar várias vezes ou visitar uma métrica de sucesso várias vezes, esses hits adicionais serão contados. Isso torna a métrica uma variável contínua. Para realizar o cálculo t-test de Welch, a &quot;soma dos quadrados&quot; é necessária para calcular a variância, que é usada no denominador da estatística t. [Cálculos estatísticos em testes A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) explica os detalhes das fórmulas matemáticas usadas. A soma dos quadrados pode ser recuperada de [!DNL Analytics]. Para obter a soma dos dados dos quadrados, é necessário executar uma exportação no nível do visitante para a métrica para a qual você está otimizando, por um período de tempo de amostra.
 
-Por exemplo, se estiver otimizando para exibições de página por visitante, você exportaria uma amostra do número total de exibições de página por visitante por um período especificado, talvez alguns dias (alguns milhares de pontos de dados são tudo de que você precisa). Você, então, elevaria ao quadrado de cada valor e somaria os totais (a ordem das operações é essencial aqui). Este valor de &quot;soma dos quadrados&quot; é então usado na Calculadora de confiança completa. Use a seção &quot;receita&quot; dessa planilha para esses valores.
+Por exemplo, se estiver otimizando as exibições de página por visitante, você exportaria uma amostra do número total de exibições de página por visitante para um período especificado, talvez alguns dias (alguns milhares de pontos de dados são tudo de que você precisa). Você, então, elevaria ao quadrado de cada valor e somaria os totais (a ordem das operações é essencial aqui). Este valor de &quot;soma dos quadrados&quot; é então usado na Calculadora de confiança completa. Use a seção &quot;receita&quot; dessa planilha para esses valores.
 
 **Para usar o recurso de exportação de dados do [!DNL Analytics] para fazer isso:**
 

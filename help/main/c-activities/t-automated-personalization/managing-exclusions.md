@@ -25,14 +25,14 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 23%
 ---
 # Gerenciar exclusões
 
-Assuma o controle da sua estratégia de [!UICONTROL Automated Personalization] (AP) dominando as exclusões. Independentemente de você estar evitando ofertas duplicadas, refinando combinações de experiências ou removendo conteúdo padrão, as exclusões permitem que você forneça experiências mais claras e relevantes que se alinham às suas metas e expectativas de público-alvo.
+Assuma o controle da sua estratégia de [!UICONTROL Automated Personalization] (AP) dominando as exclusões. Independentemente de você estar evitando ofertas duplicadas, refinando combinações de experiências ou removendo conteúdo padrão, as exclusões permitem que você forneça experiências mais limpas e relevantes que se alinham às suas metas e expectativas de público-alvo.
 
 ## Permitir ou não ofertas duplicadas {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
@@ -46,7 +46,7 @@ Você pode ter uma atividade, por exemplo, seis locais na página com 12 ofertas
 
 Exclua experiências específicas se desejar excluir determinadas combinações de ofertas da atividade de AP.
 
-Pode haver determinadas combinações que não funcionam juntas ou você pode estar limitando o número de experiências testadas para diminuir os requisitos de tráfego para sua atividade.
+Pode haver determinadas combinações que não funcionam juntas ou você pode estar limitando o número de experiências testadas para diminuir os requisitos de tráfego para a sua atividade.
 
 1. Ao [criar ou editar uma atividade de AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), clique no ícone **Gerenciar conteúdo** ( ![Ícone Gerenciar conteúdo](/help/main/assets/icons/Experience.svg) ).
 

@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2961'
-ht-degree: 72%
+source-wordcount: '2987'
+ht-degree: 71%
 ---
 # Capítulo 4: dicas para usar o Target
 
@@ -120,7 +120,7 @@ Consulte [Incluir a mesma experiência em páginas semelhantes](/help/main/c-exp
 
 ## Dica 9: reduza a confusão na Biblioteca de público-alvo criando públicos-alvo únicos.
 
-Se estiver direcionando um segmento que você sabe que não será direcionado novamente, por exemplo, clientes afetados por um evento climático inesperado, criar um público-alvo de uso único pode ajudar a realizar o trabalho sem desorganizar a Biblioteca de público-alvo. Isso facilita encontrar públicos-alvo que você utiliza repetidamente.
+Se você estiver direcionando um segmento que sabe que não será direcionado novamente, por exemplo, clientes afetados por um evento climático inesperado, criar um público-alvo de uso único pode ajudar a realizar o trabalho sem desorganizar a Biblioteca de público-alvo. Isso facilita encontrar públicos-alvo que você utiliza repetidamente.
 
 Consulte [Criar um público-alvo somente de atividade](/help/main/c-target/creating-activity-only-audience.md) para obter instruções passo a passo.
 
@@ -144,7 +144,7 @@ Muitos profissionais de marketing lançam programas de otimização para segment
 
 ## Dica 12: projete testes mais simples para garantir que você possa criá-los e implementá-los.
 
-Depois de considerar todos os aspectos de como projetar um teste, um plano pode se tornar muito complexo. Com base no andamento dos testes da sua empresa e na capacidade do seu grupo de projetar, codificar, executar e analisar os resultados, determine se o teste parece muito ambicioso. Em caso afirmativo, prepare-se para reduzir o seu âmbito e a sua complexidade. É melhor começar pequeno do que não executar o teste. Você não pode fornecer um aumento impactante se nunca iniciar o teste. É importante equilibrar as aspirações da equipe com as realidades dos seus recursos e capacidades.
+Depois de considerar todos os aspectos de como projetar um teste, um plano pode se tornar muito complexo. Com base no andamento dos testes da sua empresa e na capacidade do seu grupo de projetar, codificar, executar e analisar os resultados, determine se o teste parece muito ambicioso. Em caso afirmativo, prepare-se para reduzir o seu âmbito e a sua complexidade. É melhor começar pequeno do que não executar o teste. Não é possível fornecer um aumento impactante se você nunca iniciar o teste. É importante equilibrar as aspirações da equipe com as realidades dos seus recursos e capacidades.
 
 ## Dica 13: divida testes complexos em atividades de teste menores para torná-las viáveis.
 
@@ -170,11 +170,11 @@ Por exemplo, um cliente de serviços financeiros realizou uma campanha promocion
 
 ## Dica 17: torne os testes úteis iniciando-os apenas se você souber que pode aproveitar os dados.
 
-Um teste é inútil se você não souber como aproveitar os dados. Isso inclui conhecer sua principal métrica de sucesso, o que precisa acontecer para impulsionar um vencedor, como você seguirá os resultados dos testes e o que fará com as informações do público-alvo. Para um teste rápido e bem-sucedido, é vital que todos os grupos envolvidos no teste (desenvolvedores, criadores, especialistas em testes e outros) estejam cientes de seu papel antes do lançamento.
+Um teste é inútil se você não souber como aproveitar os dados. Isso inclui conhecer sua principal métrica de sucesso, o que precisa acontecer para impulsionar um vencedor, como você seguirá os resultados dos testes e o que fará com as informações do público-alvo. Para um teste rápido e bem-sucedido, é vital que todos os grupos envolvidos no teste (desenvolvedores, criadores, especialistas em testes e outros) estejam cientes de seu papel antes do lançamento do teste.
 
 ## Dica 18: antes de iniciar um teste, verifique se a empresa comportar o impulsionamento do vencedor.
 
-As organizações de otimização bem-sucedidas acreditam no conceito de teste e entendem que suas opiniões profissionais sobre qual experiência ganhará o teste nem sempre são verdadeiras. Elas determinam o vencedor com base em uma sólida base de dados, e estão ansiosas e dispostas a impulsionar a experiência vencedora em tempo real depois que os resultados forem divulgados, mesmo que não esteja em conformidade com suas expectativas ou pareça contraintuitivo.
+As organizações de otimização bem-sucedidas acreditam no conceito de teste e entendem que suas opiniões profissionais sobre qual experiência ganhará o teste nem sempre são verdadeiras. Eles determinam o vencedor com base em uma sólida base de dados, e estão ansiosos e dispostos a impulsionar a experiência vencedora em tempo real depois que os resultados forem divulgados, mesmo que não esteja em conformidade com suas expectativas ou pareça contraintuitivo.
 
 Por exemplo, um cliente de serviços da área de saúde da Adobe demonstrou recentemente o valor do teste, mostrando como um banner hero que a equipe havia considerado como perfeito afetou negativamente a conversão. Se sua organização ainda não adotou totalmente os testes, é melhor realizar testes de escopo mais simples e menores para que as alterações nos resultados dos testes possam ser feitas de forma incremental.
 
@@ -182,7 +182,7 @@ Por exemplo, um cliente de serviços da área de saúde da Adobe demonstrou rece
 
 Um dos benefícios de configurar suas atividades para usar parâmetros de controle de qualidade é que você pode compartilhar esses links com todos em sua equipe. Você torna mais pessoas cientes da atividade e garante que elas não considerem que o site não está funcionando corretamente ao encontrar uma variante de teste.
 
-Depois de concluir os testes, informar sobre inicializações de campanha, resultados de testes e especialmente as lições aprendidas ajuda a gerar conscientização e interesse pelos resultados do teste. Compartilhar os resultados com todos na organização também evita o novo teste de uma hipótese, instrui todos sobre o que funciona e os ajuda a desafiar fundamentalmente suas próprias ideias sobre o que funciona com base no que foi descoberto. É uma boa ideia preparar um modelo que você usa sempre para compartilhar suas descobertas e aprendizados-chave.
+Depois de concluir os testes, informar sobre inicializações de campanha, resultados de testes e especialmente as lições aprendidas ajuda a gerar conscientização e interesse pelos resultados do teste. Compartilhar os resultados com todos na organização também evita o novo teste de uma hipótese, instrui todos sobre o que funciona e os ajuda a desafiar fundamentalmente suas próprias ideias sobre o que funciona com base no que foi encontrado. É uma boa ideia preparar um modelo que você usa sempre para compartilhar suas descobertas e aprendizados-chave.
 Em seguida, considere criar um livro compartilhável ou uma apresentação do Microsoft PowerPoint que capture cumulativamente esses aprendizados.
 
 ## Dica 20: aproveite a funcionalidade móvel para criar atividades móveis mais inovadoras.

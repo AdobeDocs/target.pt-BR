@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2620'
 ht-degree: 72%
 ---
 # Capítulo 2: Principais características do Adobe [!DNL Target]
@@ -162,6 +162,6 @@ Considere as ideias a seguir antes de passarmos para o próximo capítulo: &quot
 ### As suposições também podem afetar negativamente os resultados
 
 * Suposições que podem afetar negativamente sua eficácia. Mentalidade de rebanho (é assim que nossos concorrentes fazem isso). Por exemplo, todos os nossos concorrentes usam banners hero com imagens rotativas, então, também deveríamos fazer isso.
-* Supor que nós sabemos por que algo está funcionando ou não. Supor que não precisamos testar algo. Por exemplo, sempre listamos os quartos de hotel na ordem do preço mais alto ao mais baixo como padrão.
+* Supor que sabemos por que algo está funcionando ou não. Supor que não precisamos testar algo. Por exemplo, sempre listamos os quartos de hotel na ordem do preço mais alto ao mais baixo como padrão.
 * Você está agindo com base em suposições? Não precisamos testar isso, verificamos a análise. (Sim, mas pode haver mais informações envolvidas do que a análise revela.)
 * Ou você tem uma mentalidade de otimização? Nós testamos tudo.

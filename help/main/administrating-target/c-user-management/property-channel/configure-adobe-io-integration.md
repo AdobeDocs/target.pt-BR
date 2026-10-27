@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 56%
+source-wordcount: '648'
+ht-degree: 50%
 ---
 # Conceder acesso às integrações do Adobe I/O para espaços de trabalho e atribuir funções
 
@@ -60,7 +60,7 @@ Esta atualização oferece suporte para os seguintes casos de uso:
 
 >[!NOTE]
 >
->Se essa ação não for executada, após a [!DNL Target] versão de setembro de 2019, os controles de acesso serão ativados e você observará o acesso somente ao espaço de trabalho padrão, se esta for a sua configuração atual. Não há reações adversas ao configurar integrações antecipadamente. Quanto antes você efetuar essa alteração, melhor. Dependendo do número de espaços de trabalho na organização, esse processo utiliza apenas alguns cliques para adicionar uma integração existente em espaços de trabalho com a função desejada.
+>Se esta ação não for executada, após a versão de [!DNL Target] de setembro de 2019, os controles de acesso serão ativados e você observará o acesso somente ao espaço de trabalho padrão, se esta for a sua configuração atual. Não há reações adversas ao configurar integrações antecipadamente. Quanto antes você efetuar essa alteração, melhor. Dependendo do número de espaços de trabalho na organização, esse processo utiliza apenas alguns cliques para adicionar uma integração existente em espaços de trabalho com a função desejada.
 
 **Para conceder acesso às integrações do Adobe I/O para espaços de trabalho e atribuir funções:**
 

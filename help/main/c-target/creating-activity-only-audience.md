@@ -1,24 +1,26 @@
 ---
 keywords: público-alvo, regras de público-alvo, criar público-alvo, criação de público-alvo, somente atividade, adhoc
-description: Saiba como criar públicos-alvo somente de atividades no Adobe [!DNL Target]  que são para uso único.
+description: Saiba como criar públicos-alvo somente de atividades no Adobe [!DNL Target] que são para uso único.
 title: Posso criar um público-alvo para usar somente uma vez?
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 TQID: https://experienceleague.adobe.com/IWQT8Lw7uXxY8znUlzOIB-92M2sdjvMj91Ut-gAvZVU
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 477
+source-wordcount: '479'
 ht-degree: 29%
-
 ---
-
 # Criar um público-alvo com apenas uma atividade
 
 Crie públicos somente de atividades dentro do fluxo de trabalho guiado de três etapas do [!DNL Adobe Target] ao criar uma atividade. Esses públicos podem ser usados em outros locais na mesma atividade, mas não são armazenados na [!UICONTROL Biblioteca de público] para uso em outras atividades.
@@ -59,5 +61,5 @@ Tenha em mente as informações a seguir enquanto você trabalha com públicos s
 
   Você pode usar as seguintes alternativas para usar as regras de exclusão:
 
-   * [Crie e use um público-alvo de biblioteca](/help/main/c-target/c-audiences/create-audience.md) em vez de um público-alvo somente de atividade.
-   * [Combine vários públicos-alvo de biblioteca](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) (até 20) em um público-alvo somente de atividade. Ao combinar públicos-alvo, as regras de inclusão e exclusão em públicos-alvo de biblioteca individuais podem ser usadas mesmo quando o público-alvo combinado é salvo como um público-alvo somente de atividade.
+  * [Crie e use um público-alvo de biblioteca](/help/main/c-target/c-audiences/create-audience.md) em vez de um público-alvo somente de atividade.
+  * [Combine vários públicos-alvo de biblioteca](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) (até 20) em um público-alvo somente de atividade. Ao combinar públicos-alvo, as regras de inclusão e exclusão em públicos-alvo de biblioteca individuais podem ser usadas mesmo quando o público-alvo combinado é salvo como um público-alvo somente de atividade.

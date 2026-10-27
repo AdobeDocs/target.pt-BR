@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
     internal-label: Success metrics
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1280'
 ht-degree: 41%
 ---
 # Métricas de sucesso
@@ -46,7 +46,7 @@ As seguintes métricas estão disponíveis:
 | Pontuação personalizada | Com base no engajamento | Pontuação agregada com base no valor atribuído às páginas visitadas no site, a partir do momento em que o visitante vê a primeira solicitação de exibição [!DNL Target] da atividade. |
 | Tempo no Site | Com base no engajamento | Tempo gasto na visita (em segundos) desde o momento em que o visitante visualiza a primeira solicitação de exibição [!DNL Target] da atividade até o carregamento da página final com uma solicitação na sessão. |
 
-Para métricas com base no engajamento (diferente de métricas com base em conversão e com base na receita), os visitantes devem se requalificar para a atividade em cada visita para incrementar a contagem dessa sessão. A métrica associada começa a incrementar após a requalificação e interrompe no final de cada sessão do visitante. Uma sessão é finalizada depois de 30 minutos de inatividade. Portanto, você não verá os resultados imediatamente durante o teste; no entanto, todos os resultados dessa sessão estarão disponíveis dentro de alguns minutos após o término da sessão.
+Para métricas com base no engajamento (diferente de métricas com base em conversão e com base na receita), os visitantes devem se requalificar para a atividade em cada visita para incrementar a contagem dessa sessão. A métrica associada começa a incrementar após a requalificação e interrompe no final de cada sessão do visitante. Uma sessão é finalizada depois de 30 minutos de inatividade. Portanto, você não verá os resultados imediatamente durante o teste; no entanto, todos os resultados dessa sessão estão disponíveis dentro de alguns minutos após o término da sessão.
 
 ## Métricas de sucesso personalizadas
 

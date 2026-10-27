@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Web experience
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2527'
-ht-degree: 97%
+source-wordcount: '2528'
+ht-degree: 95%
 ---
 # Glossário
 
@@ -231,7 +231,7 @@ A representação visual de uma atividade no Target Standard.
 
 **Experience Composer baseado em formulário**
 
-Uma interface de criação de ofertas e experiências não visuais que é útil na criação de experiências para uso em testes A/B, no Direcionamento de experiência, na Automated Personalization e em atividades do Recomendações quando o Visual Experience Composer não estiver disponível ou não for prático. Por exemplo, você pode usar o composer baseado em formulário para criar experiências e ofertas para entrega em emails, quiosques e assistentes de voz.
+Uma interface de criação de ofertas e experiências não visuais que é útil na criação de experiências para uso em testes A/B, no Direcionamento de experiência, no Automated Personalization e em atividades do Recommendations quando o Visual Experience Composer não estiver disponível ou não for prático. Por exemplo, você pode usar o composer baseado em formulário para criar experiências e ofertas para entrega em emails, quiosques e assistentes de voz.
 
 ## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 

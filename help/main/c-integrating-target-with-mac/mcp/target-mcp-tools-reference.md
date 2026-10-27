@@ -24,9 +24,9 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3804'
+source-wordcount: '3805'
 ht-degree: 14%
 ---
 # Referência de ferramentas do servidor MCP [!DNL Adobe Target] {#target-mcp-tools-reference}
@@ -35,7 +35,7 @@ ht-degree: 14%
 >
 >O servidor MCP [!DNL Adobe Target] está disponível para todos os clientes em **Beta Público**. Atualmente, ele tem suporte no **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** e **ChatGPT**.
 
-Esta página é uma referência completa para todas as ferramentas expostas pelo servidor MCP [!DNL Adobe Target]. Para cada ferramenta, você encontrará uma descrição, detalhes do parâmetro, valor de retorno e um exemplo de prompt em linguagem natural. Para obter instruções de configuração e casos de uso, consulte [Introdução](target-mcp-get-started.md) e [Casos de uso e apresentações](target-mcp-use-cases.md).
+Esta página é uma referência completa para todas as ferramentas expostas pelo servidor MCP [!DNL Adobe Target]. Para cada ferramenta, você encontrará uma descrição, detalhes do parâmetro, valor de retorno e um exemplo de prompt de linguagem natural. Para obter instruções de configuração e casos de uso, consulte [Introdução](target-mcp-get-started.md) e [Casos de uso e apresentações](target-mcp-use-cases.md).
 
 >[!IMPORTANT]
 >

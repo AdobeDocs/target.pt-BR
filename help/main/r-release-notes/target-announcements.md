@@ -49,10 +49,10 @@ topic_v2:
     internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2201'
-ht-degree: 94%
+source-wordcount: '2202'
+ht-degree: 93%
 ---
 # Anúncios e eventos do [!DNL Adobe Target]
 
@@ -317,7 +317,7 @@ Visualize o kit de ferramentas e os casos de uso para implementar estratégias d
 
   +++Detalhes
 
-  Mais do que nunca, os profissionais de marketing, os proprietários de produtos e os desenvolvedores estão sendo incumbidos de otimizar a experiência geral do cliente em sites, aplicativos e quaisquer outros lugares em que possam se conectar com seus clientes. Diversas ferramentas com silos de dados e implementações complicadas não servem.
+  Mais do que nunca, os profissionais de marketing, os proprietários de produtos e os desenvolvedores estão sendo incumbidos de otimizar a experiência geral do cliente em sites, aplicativos e quaisquer outros lugares em que possam se conectar com seus clientes. Várias ferramentas com silos de dados e implementações complicadas não servem.
 
   Neste webinário gravado, os especialistas em produtos do Adobe Target discutem como mover as decisões de otimização de experiência crítica no dispositivo para execução local com latência zero pode abrir portas para novos casos de uso interessantes e, ao mesmo tempo, melhorar o desempenho do site para seus clientes.
 

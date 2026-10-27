@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2913'
-ht-degree: 49%
+source-wordcount: '2918'
+ht-degree: 47%
 ---
 # Perguntas frequentes sobre otimização e personalização do Target
 
@@ -329,7 +329,7 @@ Você sempre pode usar a opção [Enhanced Experience Composer no nível de ativ
 
 +++
 
-**Por que eu não vejo uma opção de troca de imagens?**
+**Por que não vejo uma opção de troca de imagens?**
 
 +++Ver detalhes
 Entre em contato com a Adobe para [garantir que sua conta esteja configurada para o Scene7](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5). Depois de aprovisionado, você será capaz de trocar uma imagem por outra com facilidade.
@@ -395,7 +395,7 @@ Temos [o recurso de URL de redirecionamento](/help/main/c-experiences/c-manage-c
 **Por que a entrega do conteúdo não está acontecendo no meu processo de QA?**
 
 +++Ver detalhes
-É possível que seu site possa ter IDs dinâmicos, IDs duplicados ou classes dinâmicas em elementos. Você pode precisar avaliar as opções de preferência do site no nível da conta (ou no nível da atividade se o problema for específico a um domínio ou página). Consulte [Seletores de CSS](/help/main/administrating-target/visual-experience-composer-set-up.md#css).
+É possível que o site tenha IDs dinâmicas, IDs duplicadas ou classes dinâmicas em elementos. Você pode precisar avaliar as opções de preferência do site no nível da conta (ou no nível da atividade se o problema for específico a um domínio ou página). Consulte [Seletores de CSS](/help/main/administrating-target/visual-experience-composer-set-up.md#css).
 
 +++
 
@@ -440,7 +440,7 @@ Observe que o [!DNL Target] coleta os dados relacionados a isso a partir do mome
 **Eu não consigo definir públicos-alvos antes de executar a atividade. Eu acho que este aspecto de públicos-alvo em [!DNL Target] atividades restringe. O que posso fazer para facilitar esse processo?**
 
 +++Ver detalhes
-É aqui que o [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) é útil. Se você tiver [!DNL Adobe Analytics], basta escolher a origem como [!DNL Analytics], o que elimina essa restrição. Agora você pode realizar análise em qualquer público-alvo e você não precisa definir os públicos-alvo de criação de relatórios antecipadamente.
+É aqui que o [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) é útil. Se você tiver [!DNL Adobe Analytics], basta escolher a origem como [!DNL Analytics], o que elimina essa restrição. Agora é possível executar a análise em qualquer público-alvo a qualquer momento e não é necessário definir os públicos-alvo de relatórios antecipadamente.
 
 +++
 

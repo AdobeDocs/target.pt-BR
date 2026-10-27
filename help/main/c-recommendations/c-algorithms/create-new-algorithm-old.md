@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2934'
-ht-degree: 48%
+source-wordcount: '2937'
+ht-degree: 47%
 ---
 # Criar critérios
 
@@ -47,7 +47,7 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar Novo Cr
 
 1. Digite um **[!UICONTROL Nome do Critério]**.
 
-   Este é o nome &quot;interno&quot; usado para descrever o critério. Por exemplo, você pode chamar seu critério de &quot;Produtos com margem mais alta&quot;, mas não quer que o título seja exibido publicamente. Veja a próxima etapa para definir o título aberto ao público.
+   Este é o nome &quot;interno&quot; usado para descrever o critério. Por exemplo, você pode querer chamar seus critérios de &quot;Produtos com maior margem&quot;, mas não quer que esse título seja exibido publicamente. Veja a próxima etapa para definir o título aberto ao público.
 
    ![Seção de Informações Básicas](assets/basic-information.png)
 
@@ -125,7 +125,7 @@ Para obter mais informações sobre como escolher uma [!UICONTROL Chave de recom
 
    Se seu site tiver muito tráfego e os comportamentos mudarem frequentemente, escolha uma janela de dados mais curta. Uma janela menor permite que as [!DNL Recommendations] sejam mais responsivas às alterações no mercado e em seu negócio. Por exemplo, uma janela menor significa que as [!DNL Recommendations] irão detectar alterações no comportamento do visitante conforme seus visitantes começam a fazer compras sazonais, tais como compras de volta às aulas ou de Natal, e irá recomendar itens apropriados para estas temporadas de compras.
 
-   Caso não tenha muitos dados ou o comportamento do visitante não seja alterado com frequência, você pode selecionar uma janela maior. No entanto, para muitos sites, uma janela menor resulta em recomendações de maior qualidade.
+   Se você não tiver muitos dados ou se o comportamento do visitante não mudar com frequência, você poderá selecionar uma janela mais longa. No entanto, para muitos sites, uma janela menor resulta em recomendações de maior qualidade.
 
    Os intervalos de dados disponíveis são:
 

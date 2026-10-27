@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2157'
-ht-degree: 18%
+source-wordcount: '2160'
+ht-degree: 16%
 ---
 # Visão geral do [!UICONTROL Direcionamento automático]
 
@@ -59,7 +59,7 @@ Em apenas dez dias, mais de US$ 1.700.000 em aumento foram obtidos.
 
 Continue lendo para saber como usar o [!UICONTROL Direcionamento automático] para aumentar o aumento e a receita para sua organização.
 
-## Visão Geral {#section_972257739A2648AFA7E7556B693079C9}
+## Visão geral {#section_972257739A2648AFA7E7556B693079C9}
 
 Ao [criar uma atividade A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) usando o fluxo de trabalho guiado de três etapas, escolha a opção **[!UICONTROL Direcionamento automático para experiências personalizadas]** na página **[!UICONTROL Direcionamento]** (etapa 2).
 
@@ -147,13 +147,13 @@ Há vários cenários nos quais você pode preferir usar o [!UICONTROL Direciona
 
 * O algoritmo prevê a propensão de um visitante para conversão (ou receita estimada da conversão) para fornecer a melhor experiência.
 * Um visitante é elegível para uma nova experiência no final de uma sessão existente (a menos que o visitante esteja no grupo de controle, nesse caso, a experiência atribuída ao visitante na primeira visita permanece a mesma para visitas subsequentes).
-* Em uma sessão, a previsão não muda, para manter a consistência visual.
+* Em uma sessão, a previsão não muda para manter a consistência visual.
 
 ### O algoritmo se adapta a alterações no comportamento do visitante.
 
 * O multi-arm bandit garante que o modelo está sempre &quot;gastando&quot; uma pequena fração de tráfego para continuar a aprender ao longo da vida da atividade de aprendizagem e para evitar a exploração excessiva de tendências anteriormente aprendidas.
 * Os modelos subjacentes são recriados a cada 24 horas usando os dados de comportamento de visitante mais recentes para garantir que [!DNL Target] esteja sempre explorando as preferências de visitante em alteração.
-* Se o algoritmo não puder determinar as experiências vencedoras para os indivíduos, ele alternará automaticamente para mostrar a experiência geral de melhor desempenho enquanto continua a procurar por vencedores personalizados. A experiência de melhor desempenho é encontrada usando a [Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
+* Se o algoritmo não puder determinar experiências vencedoras para indivíduos, ele alternará automaticamente para mostrar a experiência geral com melhor desempenho e, ao mesmo tempo, continuar a procurar vencedores personalizados. A experiência de melhor desempenho é encontrada usando a [Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
 
 ### O algoritmo otimiza continuamente para uma única meta de métrica.
 
@@ -165,7 +165,7 @@ Há vários cenários nos quais você pode preferir usar o [!UICONTROL Direciona
 
 ### [!DNL Target] usa automaticamente todos os [!DNL Adobe Experience Cloud] públicos-alvo compartilhados para criar os modelos de personalização.
 
-* Você não precisa fazer nada específico para adicionar públicos-alvo ao modelo. Para obter informações sobre como usar o [!DNL Experience Cloud Audiences] com [!DNL Target], consulte [Públicos-alvo da Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md).
+* Não é necessário fazer nada específico para adicionar públicos-alvo ao modelo. Para obter informações sobre como usar o [!DNL Experience Cloud Audiences] com [!DNL Target], consulte [Públicos-alvo da Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md).
 
 ### Os profissionais de marketing podem fazer upload de dados offline, pontuações de propensão ou outros dados personalizados para criar modelos de personalização.
 

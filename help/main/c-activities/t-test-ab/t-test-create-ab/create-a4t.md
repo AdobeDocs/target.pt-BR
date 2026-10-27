@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 19%
+source-wordcount: '498'
+ht-degree: 16%
 ---
 # Usando dados de [!DNL Adobe Analytics]
 
@@ -47,6 +47,6 @@ Ao configurar a atividade após configurar o [!DNL Analytics] como fonte de rela
 
 Você deve selecionar uma métrica de sucesso para usar como meta para cada atividade. Sua meta da atividade é a atividade de conversão que sinaliza uma atividade bem sucedida. Faz parte das práticas recomendadas nunca executar um teste sem ter uma meta para aprimorá-la de alguma maneira específica. Você pode escolher qualquer métrica [!DNL Analytics] disponível no seletor de métricas [!DNL Analytics].
 
-Estabelecer uma meta não significa que você não pode usar outras métricas ao avaliar os resultados do teste. A meta, no entanto, é um lembrete de algo que deseja melhorar com o teste.
+Definir uma meta não significa que você não possa usar outra métrica ao avaliar os resultados do teste. A meta, no entanto, é um lembrete de algo que deseja melhorar com o teste.
 
 Depois que um visitante conclui sua meta, ele não é mais incluído na atividade. Se o visitante entrar novamente na atividade após concluir uma atividade, ele será contado como um novo visitante.

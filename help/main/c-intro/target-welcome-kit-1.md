@@ -21,14 +21,14 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 88%
+source-wordcount: '387'
+ht-degree: 71%
 ---
 # Capítulo 1: Introdução
 
-Caso seja como a maioria das empresas atuais, você modernizou seus canais de marketing digital. Agora você busca maneiras de distinguir sua marca, de se diferenciar, e, assim, aumentar a receita, as taxas de conversão e outras métricas-chave de negócios. Uma maneira de fazer isso é otimizar e personalizar as experiências digitais fornecidas aos clientes usando o que você sabe sobre eles para aproveitar ao máximo as interações no seu site, no site para dispositivos móveis, no aplicativo móvel ou em qualquer outro ponto de contato de marca. Você pode até mesmo estender essa otimização e personalização além dos pontos de contato digitais tradicionais para pontos de contato como quiosques, dispositivos da Internet das Coisas (IoT), interações da central de atendimento e assistentes de voz como a Alexa. As marcas que utilizaram o [!DNL Target] para testar e personalizar suas experiências digitais obtiveram resultados incríveis.
+Se você é como a maioria das empresas atuais, modernizou seus canais de marketing digital. Agora você busca maneiras de distinguir sua marca, de se diferenciar, e, assim, aumentar a receita, as taxas de conversão e outras métricas-chave de negócios. Uma maneira de fazer isso é otimizar e personalizar as experiências digitais fornecidas aos clientes usando o que você sabe sobre eles para aproveitar ao máximo as interações no seu site, no site para dispositivos móveis, no aplicativo móvel ou em qualquer outro ponto de contato de marca. Você pode até mesmo estender essa otimização e personalização além dos pontos de contato digitais tradicionais para pontos de contato como quiosques, dispositivos da Internet das Coisas (IoT), interações da central de atendimento e assistentes de voz como a Alexa. As marcas que utilizaram o [!DNL Target] para testar e personalizar suas experiências digitais obtiveram resultados incríveis.
 
 Por exemplo:
 
@@ -38,7 +38,7 @@ Por exemplo:
 
 O envolvimento com seus clientes dessa maneira requer uma solução que pode ser usada em praticamente qualquer ponto de contato usando quase qualquer fonte de dados para entendê-los. O [!DNL Adobe Target], parte da [!DNL Adobe Experience Cloud], é essa solução. O [!DNL Target] oferece os recursos de otimização e personalização necessários para fornecer aos clientes experiências altamente relevantes e oportunas, que geram mais receita e conversões.
 
-Se estiver consultando este kit de boas-vindas, você já decidiu criar seu programa de otimização e personalização no [!DNL Adobe Target]. Estamos felizes por essa escolha.
+Se estiver consultando este kit de boas-vindas, você já decidiu criar seu programa de otimização e personalização no [!DNL Adobe Target]. Estamos felizes por isso.
 
 Agora queremos ter certeza de que você vai começar a usá-la da maneira certa e imediatamente.
 

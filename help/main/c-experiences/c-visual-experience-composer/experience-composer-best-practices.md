@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2552'
-ht-degree: 49%
+source-wordcount: '2560'
+ht-degree: 46%
 ---
 # Práticas recomendadas e limitações do [!UICONTROL Visual Experience Composer]
 
@@ -79,7 +79,7 @@ Qualquer item imediatamente dentro do elemento body deve ter uma ID única. Se n
 +++Detalhes
 Ao editar classes CSS no [!DNL Visual Experience Composer], é útil facilitar a identificação das classes usando nomes de classe descritivos. Isso o ajuda a assegurar que você edite as classes CSS certas e suas páginas tenham a aparência esperada.
 
-Não use a propriedade de CSS `!important` CSS ao ocultar ou remover elementos.
+Não use a propriedade CSS `!important` ao ocultar ou remover elementos.
 
 Se a propriedade CSS `!important` estiver presente, as alterações feitas por `target.js` durante a entrega serão substituídas pelas regras CSS do site.
 
@@ -141,7 +141,7 @@ Por exemplo, se você realizou duas ações:
 
 Cada alteração cria um novo elemento no VEC. Como a segunda ação modifica o Elemento 1, se você o excluir, a segunda ação não terá mais nada para modificar, e a alteração não funcionará mais.
 
-Em outras palavras, se você adicionar um elemento com texto e, em seguida, editar esse elemento em uma ação separada com um texto diferente, o editor de códigos mostrará ambas as ações como elementos separados. Ao editar o elemento, você criou um novo elemento que modifica o elemento original que você criou, contendo o texto editado. Se você então excluir o elemento original, o texto editado não poderá encontrar o elemento que foi editado e não será exibido. O segundo elemento permanece na lista de elementos, mas não afeta a página porque o elemento que ele modifica não existe mais.
+Em outras palavras, se você adicionar um elemento com texto e, em seguida, editar esse elemento em uma ação separada com um texto diferente, o editor de códigos mostrará ambas as ações como elementos separados. Ao editar o elemento, você criou um novo elemento que modifica o elemento original que você criou, contendo o texto editado. Se você excluir o elemento original, o texto editado não poderá encontrar o elemento que foi editado e não será exibido. O segundo elemento permanece na lista de elementos, mas não afeta a página porque o elemento que ele modifica não existe mais.
 
 Consulte [Seletores de elementos usados no [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
 
@@ -216,7 +216,7 @@ Neste exemplo, todo o elemento de ancoragem é selecionado no VEC, o que afeta n
 
 +++
 
-### Não use `top` ou `self` variáveis no código JavaScript.
+### Não use variáveis `top` ou `self` no código JavaScript.
 
 +++Detalhes
 Quando o [!UICONTROL Enhanced Experience Composer] está habilitado, o valor das variáveis superior e própria é atualizado para desabilitar a edição do iframe. Use um cabeçalho de X-frame-options para adicionar a edição do iframe, em vez dos códigos JavaScript personalizados.

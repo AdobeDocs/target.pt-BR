@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 29%
+source-wordcount: '514'
+ht-degree: 23%
 ---
 # Solução de problemas relacionados ao [!UICONTROL Enhanced Experience Composer]
 
@@ -155,7 +155,7 @@ Os motivos pelos quais você pode ver essa mensagem de erro e correções para c
 
 * **Problema:** os endereços IP são resolvidos, mas o seu site não é compatível com a versão 1.2 do TLS. Atualmente, o [!DNL Target] usa a configuração padrão 1.2. Antes do [!DNL Target] 18.4.1 (25 de abril de 2018), a configuração padrão era compatível com TLS 1.0. Para obter mais informações, consulte [Alterações na criptografia do TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=pt-BR){target=_blank}.
 
-  **Solução:** Veja a seguinte pergunta (O [!UICONTROL Enhanced Visual Experience Composer] não será carregado nas páginas seguras do meu site que usam TLS 1.2).
+  **Solução:** veja a seguinte pergunta (O [!UICONTROL Enhanced Visual Experience Composer] não será carregado nas páginas seguras do meu site que usam TLS 1.2).
 
 +++
 

@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '4434'
-ht-degree: 25%
+source-wordcount: '4442'
+ht-degree: 24%
 ---
 # Basear a recomendação em uma chave de recomendação
 
@@ -337,7 +337,7 @@ Exibições e compras são usadas para determinar os itens recomendados. A chave
 
 Por exemplo, você pode:
 
-* Exclua itens que não atendam a determinados critérios (produtos indisponíveis, artigos publicados há mais de 30 dias, filmes com classificação R e assim por diante).
+* Exclua itens que não atendem a determinados critérios (produtos indisponíveis, artigos publicados há mais de 30 dias, filmes com classificação R e assim por diante).
 * Limitar os itens incluídos a uma única categoria ou à categoria atual.
 
 Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves de filtragem:
@@ -419,7 +419,7 @@ Você pode basear as recomendações no valor de um atributo de perfil personali
 1. Selecione o atributo de perfil personalizado na lista suspensa **[!UICONTROL Chave de recomendação]** (por exemplo, &quot;[!UICONTROL Último programa adicionado à Lista de favoritos]&quot;).
 1. Em seguida, selecione sua **[!UICONTROL Lógica de recomendação]** (por exemplo, &quot;[!UICONTROL Pessoas que assistiram isto, assistiram aquilo]&quot;).
 
-Se o atributo de perfil personalizado não corresponder diretamente a uma única ID de entidade, é necessário explicar ao [!DNL Recommendations] como você deseja que a correspondência seja feita a uma entidade. Por exemplo, suponha que você deseja exibir os principais itens de venda da marca favorita de um visitante.
+Se o atributo de perfil personalizado não corresponder diretamente a uma única ID de entidade, é necessário explicar a [!DNL Recommendations] como você deseja que a correspondência seja feita a uma entidade. Por exemplo, suponha que você deseja exibir os principais itens de venda da marca favorita de um visitante.
 
 1. Selecione o atributo de perfil personalizado na lista suspensa **[!UICONTROL Chave de recomendação]** (por exemplo, &quot;Marca favorita&quot;).
 

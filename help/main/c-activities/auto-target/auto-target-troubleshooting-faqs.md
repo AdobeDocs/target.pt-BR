@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1982'
-ht-degree: 30%
+source-wordcount: '1991'
+ht-degree: 28%
 ---
 # Perguntas frequentes e solução de problemas do [!UICONTROL Direcionamento automático]
 
@@ -45,7 +45,7 @@ Consulte as seguintes perguntas frequentes e respostas ao trabalhar com as ativi
 * Decida se o valor comercial de uma métrica de sucesso de [!UICONTROL Receita por visita] (RPV) vale pelos requisitos adicionais de tráfego. O RPV normalmente precisa de pelo menos 1.000 conversões por experiência para que uma atividade funcione em comparação com a conversão.
 * Decida sobre a alocação entre controle e experiências personalizadas antes de iniciar a atividade com base em suas metas.
 * Determine se você tem tráfego suficiente para a página em que sua atividade de [!UICONTROL Direcionamento automático] é executada para modelos de personalização a serem criados em um período de tempo razoável.
-* Se você estiver testando o algoritmo de personalização, não altere experiências nem adicione ou remova atributos de perfil enquanto a atividade estiver ativa.
+* Se estiver testando o algoritmo de personalização, você não deve alterar experiências nem adicionar ou remover atributos de perfil enquanto a atividade estiver ativa.
 * Considere a conclusão de uma atividade A/B entre as ofertas e os locais que você planeja usar em sua atividade de [!UICONTROL Direcionamento automático] para garantir que os locais e as ofertas tenham impacto na meta de otimização. Se uma atividade A/B não demonstrar uma diferença significativa, o [!UICONTROL Direcionamento automático] provavelmente também não gerará aumento.
 
   Se um teste A/B não mostra diferenças estatisticamente significativas entre as experiências, é provável que as ofertas que você está considerando não são suficientemente diferentes umas das outras, os locais selecionados não afetam a métrica de sucesso ou a meta de otimização está muito distante no funil de conversão a ser afetado pelas ofertas escolhidas.
@@ -66,7 +66,7 @@ A prática recomendada é manter a divisão de alocação de tráfego para o tem
 <!-- 
 ### Do the check marks indicating a model is built for that experience update if the report date range changes?
 
-No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+No, check marks for model generation show only the models built to date. There is no way to go back and see when a model was completed.
 -->
 
 +++
@@ -172,7 +172,7 @@ Por exemplo, suponha que você tenha uma atividade [!UICONTROL de Direcionamento
 
 ## Solução de problemas do [!UICONTROL Direcionamento automático] {#section_23995AB813F24525AF294D20A20875C8}
 
-Às vezes, as atividades não acontecem como o esperado. Estes são alguns possíveis desafios que você poderá enfrentar ao usar o [!UICONTROL Direcionamento automático] e algumas soluções sugeridas.
+Às vezes, as atividades não acontecem conforme o esperado. Estes são alguns possíveis desafios que você poderá enfrentar ao usar o [!UICONTROL Direcionamento automático] e algumas soluções sugeridas.
 
 ### Minha atividade de [!UICONTROL Direcionamento automático] está demorando muito para criar modelos.
 
@@ -198,7 +198,7 @@ Há quatro fatores necessários para uma atividade de [!UICONTROL Direcionamento
 * Deve haver tráfego e &quot;potência&quot; estatística suficiente no teste para detectar o aumento.
 * O algoritmo de personalização deve funcionar corretamente.
 
-**Solução:** primeiro, verifique se sua atividade está personalizando o tráfego. Se os modelos não são criados para todas as experiências, sua atividade de [!UICONTROL Direcionamento automático] ainda estará apresentando aleatoriamente uma parte significativa das visitas para tentar criar todos os modelos o mais rápido possível. Se os modelos não forem criados, o [!UICONTROL Direcionamento automático] não está personalizando o tráfego.
+**Solução:** primeiro, verifique se sua atividade está personalizando o tráfego. Se os modelos não forem criados para todas as experiências, sua atividade de [!UICONTROL Direcionamento automático] ainda estará apresentando aleatoriamente uma parte significativa das visitas para tentar criar todos os modelos o mais rápido possível. Se os modelos não forem criados, o [!UICONTROL Direcionamento automático] não está personalizando o tráfego.
 
 Em seguida, verifique se as ofertas e os locais de atividade realmente fazem diferença nas taxas de resposta geral usando um teste A/B simples e não personalizado. Certifique-se de calcular os tamanhos das amostras antecipadamente para garantir que haja energia suficiente para ver um aumento razoável e executar o teste A/B por um período fixo sem interrompê-lo ou fazer quaisquer alterações. Se os resultados de um teste A/B mostrarem um aumento estatisticamente significativo em uma ou mais experiências, será provável que uma atividade personalizada funcione. O Personalization pode funcionar mesmo se não houver diferenças nas taxas de resposta geral das experiências. Normalmente, o problema decorre das ofertas e dos locais que não têm um impacto grande o suficiente na meta de otimização para serem detectados com significância estatística.
 

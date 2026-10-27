@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 47%
+source-wordcount: '1480'
+ht-degree: 46%
 ---
 # Visão geral de [!UICONTROL Teste multivariado]
 
@@ -67,13 +67,13 @@ Os testes multivariados podem ser usados junto com testes A/B para otimizar sua 
 
 * Use um teste MVT para determinar qual elemento é o mais importante e acompanhe com um teste A/B mais focado nesse elemento.
 
-  Quando o número de experiências diferentes exceder cinco e abranger dois ou mais elementos, é uma boa ideia considerar um teste MVT antes de realizar seus testes A/B. O teste MVT mostra quais áreas da página têm maior probabilidade de melhorar a conversão. Esses são os elementos em que um profissional de marketing deve se concentrar. Por exemplo, o teste de MVT pode mostrar que a chamada à ação é o elemento mais importante para atingir suas metas. Depois de determinar quais elementos e conteúdo são mais úteis para ajudá-lo a atingir suas metas, você pode executar um teste A/B para refinar ainda mais os resultados. Por exemplo, você pode testar duas imagens específicas umas contra as outras ou comparar o texto ou as cores de uma call to action. Ao seguir o teste MVT com um ou mais testes A/B, você pode determinar o melhor conteúdo possível para os resultados que deseja.
+  Quando o número de experiências diferentes exceder cinco e abranger dois ou mais elementos, é uma boa ideia considerar um teste MVT antes de executar seus testes A/B. O teste MVT mostra quais áreas da página têm maior probabilidade de melhorar a conversão. Esses são os elementos em que um profissional de marketing deve se concentrar. Por exemplo, o teste de MVT pode mostrar que a chamada à ação é o elemento mais importante para atingir suas metas. Depois de determinar quais elementos e conteúdo são mais úteis para ajudá-lo a atingir suas metas, você pode executar um teste A/B para refinar ainda mais os resultados. Por exemplo, você pode testar duas imagens específicas umas contra as outras ou comparar o texto ou as cores de uma call to action. Ao seguir o teste MVT com um ou mais testes A/B, você pode determinar o melhor conteúdo possível para os resultados que deseja.
 
 ## Considerações {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
 * Use um teste MVT quando você tiver pelo menos três elementos para testar. Se houver menos elementos, execute uma série de testes A/B.
 * Selecione os elementos de página que você acha que têm maior impacto nos resultados.
-* Não inclua elementos nem locais demais em um teste. Quanto maior o número, maior será a duração do teste.
+* Não inclua muitos elementos ou locais em um teste. Quanto maior o número, maior será a duração do teste.
 * Planejar o teste com antecedência. Não edite um teste depois que ele entrar em funcionamento e os dados começarem a ser coletados e analisados.
 * Os elementos devem ser independentes uns dos outros.
 

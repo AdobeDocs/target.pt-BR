@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 30%
+source-wordcount: '1054'
+ht-degree: 27%
 ---
 # [!UICONTROL Automated Personalization] (AP)
 
@@ -81,7 +81,7 @@ Random Forest é uma abordagem líder de aprendizado de máquina. Em termos de c
 
 * O multi-arm bandit garante que o modelo está sempre &quot;gastando&quot; uma pequena fração do tráfego para continuar aprendendo ao longo da vida da atividade e evitar a exploração excessiva de tendências previamente aprendidas.
 * Os modelos subjacentes são recriados a cada 24 horas usando os dados de comportamento do visitante mais recentes para garantir que [!DNL Target] esteja sempre usando a alteração das preferências do visitante.
-* Se o algoritmo não puder determinar as experiências vencedoras para visitantes individuais, ele alternará automaticamente para mostrar a experiência com melhor desempenho geral e continuará a procurar vencedores personalizados. A experiência com melhor desempenho é encontrada usando a [Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
+* Se o algoritmo não puder determinar experiências vencedoras para visitantes individuais, ele alternará automaticamente para mostrar a experiência geral com melhor desempenho e, ao mesmo tempo, continuará procurando vencedores personalizados. A experiência com melhor desempenho é encontrada usando a [Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
 
 ## O modelo otimiza continuamente uma única meta de métrica
 

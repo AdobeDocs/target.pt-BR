@@ -24,14 +24,14 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 30%
+source-wordcount: '766'
+ht-degree: 29%
 ---
 # Solução de problemas do [!UICONTROL Automated Personalization]
 
-Às vezes, as atividades não acontecem como o esperado. Estes são alguns possíveis desafios que você poderá enfrentar ao usar o [!UICONTROL Automated Personalization] (AP) e algumas soluções sugeridas.
+Às vezes, as atividades não acontecem conforme o esperado. Estes são alguns possíveis desafios que você poderá enfrentar ao usar o [!UICONTROL Automated Personalization] (AP) e algumas soluções sugeridas.
 
 ## Minha atividade [!UICONTROL Automated Personalization] está demorando muito para criar modelos. {#section_20028B204DBB4D77A324BA193434AEE2}
 

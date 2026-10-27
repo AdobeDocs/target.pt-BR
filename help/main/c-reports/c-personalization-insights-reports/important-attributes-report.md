@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1937'
-ht-degree: 61%
+source-wordcount: '1949'
+ht-degree: 55%
 ---
 # Relatório de atributos importantes
 
@@ -73,7 +73,7 @@ Em atividades diferentes, atributos distintos são mais ou menos importantes par
 
    >[!IMPORTANT]
    >
-   >O relatório de [!UICONTROL Atributos importantes] somente estará disponível em, no mínimo, 15 dias após você ter ativado a sua atividade. Durante esse período inicial, você não poderá acessar esse relatório ou clicar no ícone de [!UICONTROL Atributos importantes]. Após 15 dias, supondo que haja tráfego personalizado suficiente em sua atividade, o relatório [!UICONTROL Atributos importantes] ficará disponível.
+   >O relatório de [!UICONTROL Atributos importantes] somente estará disponível em, no mínimo, 15 dias após você ter ativado a sua atividade. Durante esse período inicial, você não poderá acessar esse relatório ou clicar no ícone [!UICONTROL Atributos importantes]. Após 15 dias, supondo que haja tráfego personalizado suficiente em sua atividade, o relatório [!UICONTROL Atributos importantes] ficará disponível.
 
 1. Após 15 dias da ativação da atividade, clique no ícone de **[!UICONTROL Atributos importantes]** ( ![Ícone de atributos importantes](/help/main/assets/icons/ViewList.svg) ).
 
@@ -81,7 +81,7 @@ Em atividades diferentes, atributos distintos são mais ou menos importantes par
 
    Ao contrário do relatório de [!UICONTROL Resumo] (relatórios de desempenho), o [!UICONTROL Personalization Insights], incluindo os [!UICONTROL Atributos importantes], está disponível apenas para intervalos de datas fixos: 15 dias, 30 dias e 60 dias.
 
-   Esses intervalos de datas fixos permitem que os [!UICONTROL Insights de personalização] usem um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. As duas decisões que você pode fazer para o intervalo de datas é a &quot;Data final&quot; e a &quot;Duração&quot;. Você perceberá que a opção &quot;Iniciar&quot; está em cinza. A data inicial muda automaticamente com base nas seleções de data final e duração.
+   Esses intervalos de datas fixos permitem que os [!UICONTROL Insights de personalização] usem um intervalo de dados grande o suficiente para reduzir a probabilidade de obter insights de um padrão de curta duração na atividade. As duas decisões que você pode fazer para o intervalo de datas é a &quot;Data final&quot; e a &quot;Duração&quot;. Você notará que a opção &quot;Iniciar&quot; está esmaecida. A data inicial muda automaticamente com base nas seleções de data final e duração.
 
    Você pode acessar os intervalos de datas fixos disponíveis na lista suspensa [!UICONTROL Intervalo de datas predefinido].
 
@@ -91,7 +91,7 @@ Em atividades diferentes, atributos distintos são mais ou menos importantes par
 
    >[!NOTE]
    >
-   >O relatório de interface do usuário dos Insights de personalização contém informações selecionadas. O download do CSV para o relatório de Atributos importantes contém detalhes adicionais. O download do relatório de Atributos importantes inclui a lista completa dos 100 principais atributos, enquanto o relatório da interface do usuário inclui apenas os 10 principais. Se estiver procurando por um atributo específico que não esteja no relatório, isso não significa que ele não tenha influenciado a atividade, mas simplesmente que não entrou na lista dos 100 principais atributos.
+   >O relatório de interface do usuário dos Insights de personalização contém informações selecionadas. O download do CSV para o relatório de Atributos importantes contém detalhes adicionais. O download do relatório de Atributos importantes inclui a lista completa dos 100 principais atributos, enquanto o relatório da interface do usuário inclui apenas os 10 principais. Se você estiver procurando um atributo específico no relatório, mas ele não está lá, isso não significa que o atributo não influenciou a atividade, ele simplesmente não fez a lista dos 100 principais atributos.
 
 ## Interpretar o relatório de Atributos importantes
 
@@ -110,7 +110,7 @@ Consulte as seguintes perguntas frequentes para obter respostas sobre o uso do r
 
 Há vários motivos pelos quais os [!UICONTROL Personalization Insights] relatórios podem ainda não estar disponíveis para a sua atividade:
 
-* O prazo de 15 dias desde que a atividade foi ativada não decorreu. Os relatórios de Segmentos automatizados e Atributos importantes não estarão disponíveis até pelo menos 15 dias após o início da atividade. Durante esse período inicial, você não poderá acessar esses relatórios ou clicar nos ícones de Segmentos automatizados e Atributos personalizados do modelo.
+* O prazo de 15 dias desde que a atividade foi ativada não decorreu. Os relatórios de Segmentos automatizados e Atributos importantes não estarão disponíveis até pelo menos 15 dias após o início da atividade. Durante esse período inicial, você não poderá acessar esses relatórios ou clicar nos ícones de Segmentos automatizados e Atributos importantes.
 * Sua atividade não teve tráfego suficiente durante o intervalo de tempo especificado. Após 15 dias, supondo que haja [tráfego personalizado suficiente](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) na atividade para criar modelos de personalização, os relatórios de Segmentos automatizados e Atributos importantes ficarão disponíveis.
 * Sua atividade tem uma meta de otimização de receita. No momento, os [!UICONTROL Insights de personalização] estão disponíveis apenas para atividades com meta de otimização de conversão. O suporte será adicionado para atividades com meta de otimização de receita em uma versão futura.
 
@@ -120,7 +120,7 @@ Um atributo é a informação sobre um visitante ou sua visita específica usada
 
 Para obter mais informações sobre quais atributos o [!DNL Target] usa em seus modelos de personalização, consulte [Coleta de dados para os algoritmos de personalização do Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obter mais informações sobre como fazer upload de novos atributos no Target para usar nos modelos de personalização do Target, consulte [Métodos para colocar os dados no Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=pt-BR){target=_blank}.
 
-### Há um ou mais atributos que não desejo que o modelo use para treinamento. Posso remover esses atributos do modelo de treinamento? {#models-api}
+### Vejo um ou mais atributos que não quero que o modelo use para treinamento. Posso remover esses atributos do modelo de treinamento? {#models-api}
 
 A [!UICONTROL API de Modelos], também chamada de API de Inclui na lista de bloqueios, permite que os usuários visualizem e gerenciem a lista de atributos (também chamados de recursos) usados em modelos de aprendizado de máquina de atividades de [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] (AT). Se você quiser excluir um ou mais atributos de serem usados pelos modelos para atividades de AP ou AT, poderá usar a API de modelos para adicionar esses atributos ao &quot;incluo na lista de bloqueios&quot;.
 
@@ -154,7 +154,7 @@ Há vários motivos possíveis pelos quais você pode ver mais visitas para uma 
 * Atividades de volume inferior nas quais determinadas ofertas ou experiências não têm modelos criados.
 * Atividades de volume inferior nas quais foram criados modelos para algumas ofertas/experiências antes do que para outras. Por exemplo, suponha que um modelo adicional foi criado no dia 22 e você está analisando os dados dos dias 10 a 24.
 * Regras de direcionamento em uma oferta específica que limitam quais visitantes podem ver quais ofertas/experiências.
-* Não há intervalos de confiança no relatório de insight. No entanto, se os índices de conversão estiverem próximos o suficiente, o modelo poderá fornecer tráfego para que o número seja maior em um ponto, mas não &quot;estatisticamente diferente&quot; do outro.
+* Não há intervalos de confiança no relatório de insight. No entanto, se os índices de conversão estiverem próximos o suficiente, o modelo poderá fornecer tráfego para que o número seja maior em um ponto, mas não &quot;estatisticamente diferente&quot;.
 
 Pode ser útil saber como o modelo fornece o tráfego. Cada pessoa é servida com base no seu perfil total. No entanto, os relatórios de Insights generalizam esse comportamento para facilitar sua interpretação por um humano. Como resultado, os segmentos não são mutuamente exclusivos. Isso pode fazer com que segmentos individuais exibam esse tipo de comportamento, pois uma mesma pessoa pode aparecer em vários segmentos.
 

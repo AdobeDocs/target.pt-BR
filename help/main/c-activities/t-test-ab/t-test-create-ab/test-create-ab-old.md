@@ -13,10 +13,10 @@ feature_v2:
 subfeature_v2:
   - id: ab2570eb-4844-49aa-8334-e91a345525e5
     internal-label: A/B Tests
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 36%
+source-wordcount: '950'
+ht-degree: 34%
 ---
 # Criar um teste A/B
 
@@ -88,7 +88,7 @@ Para criar uma atividade manual de [!UICONTROL Teste A/B]:
 
 1. Crie quaisquer novas experiências alterando os elementos na página.
 
-   O [!UICONTROL Visual Experience Composer] exibe duas guias do lado esquerdo após você criar uma nova atividade: Experiência A e Experiência B. A Experiência A é a experiência de controle. Seu foco está na guia Experiência B, que pode ser modificada conforme desejado. A experiência B é a experiência alternativa que pode ser adicionada ao teste. Você pode adicionar várias experiências ao teste. Você também podem excluir a Experiência A da atividade se não quiser incluir uma experiência de site padrão como opção.
+   O [!UICONTROL Visual Experience Composer] exibe duas guias do lado esquerdo após você criar uma nova atividade: Experiência A e Experiência B. A Experiência A é a experiência de controle. Seu foco está na guia Experiência B, que pode ser modificada conforme desejado. A experiência B é a experiência alternativa que pode ser adicionada ao teste. Você pode adicionar várias experiências ao teste. Você também pode excluir a Experiência A da atividade se não quiser incluir uma experiência padrão do site como opção.
 
    Para obter mais informações sobre como adicionar ou modificar experiências no [!UICONTROL Visual Experience Composer], consulte [Adicionar experiência](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Para modificar a Experiência B, comece com a etapa 2.
 

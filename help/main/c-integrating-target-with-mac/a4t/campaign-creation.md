@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 29%
+source-wordcount: '666'
+ht-degree: 26%
 ---
 # Crie uma atividade que use o Analytics como fonte de relatórios
 
@@ -58,7 +58,7 @@ A criação de uma atividade [!DNL Target] que use [!DNL Analytics] como fonte d
 
    * Você não vê o conjunto de relatórios esperado.
 
-     Somente conjuntos de relatórios provisionados para conexão com [!DNL Target] estão disponíveis para seleção. Se você não vir os conjuntos de relatórios esperados, primeiro tente fazer logoff e fazer logon novamente no [!DNL Adobe Experience Cloud] para tentar novamente.
+     Somente conjuntos de relatórios provisionados para conexão com [!DNL Target] estão disponíveis para seleção. Se você não vir os conjuntos de relatórios esperados, primeiro tente fazer logout e fazer logon novamente no [!DNL Adobe Experience Cloud] para tentar novamente.
 
    Se um ou mais conjuntos de relatórios ainda estiverem ausentes na lista, [entre em contato com o Atendimento ao Cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
@@ -75,7 +75,7 @@ A criação de uma atividade [!DNL Target] que use [!DNL Analytics] como fonte d
    >
    >Você pode enviar uma métrica personalizada com base no Target para [!DNL Analytics], em vez de depender apenas dos dados de [!DNL Analytics]. Por exemplo, você pode monitorar ao clicar em uma página, que normalmente não é acompanhada por [!DNL Analytics]. Esta métrica personalizada é enviada para [!DNL Analytics] automaticamente do servidor [!DNL Target] e aparece como a métrica de &quot;[!DNL Target] Conversão&quot; no seletor de métricas em [!DNL Analytics]. A métrica de Conversão [!DNL Target] fica vazia se você optar por usar [!DNL Analytics] métricas.
 
-   Estabelecer uma meta não significa que você não pode usar outras métricas ao avaliar os resultados do teste. A meta, no entanto, é um lembrete de algo que deseja melhorar com a atividade.
+   Definir uma meta não significa que você não possa usar outra métrica ao avaliar os resultados do teste. A meta, no entanto, é um lembrete de algo que deseja melhorar com a atividade.
 
    O visitante permanece em atividade após atingir a meta. O visitante continua a ver o conteúdo da atividade, mas não é contado como uma nova entrada da atividade.
 

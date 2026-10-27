@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1539'
 ht-degree: 13%
 ---
 # Pré-visualizar e iniciar atividade do Recomendações
@@ -82,7 +82,7 @@ Usar um link de controle de qualidade permite visualizar as recomendações na s
 
 >[!NOTE]
 >
->* O modo de controle de qualidade do Target é &quot;aderente&quot; e salvo em um cookie. Se você não sair do modo de controle de qualidade, continuará vendo os resultados do controle de qualidade em todo o site. Para sair do modo de controle de qualidade, use o [bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* O modo de controle de qualidade do Target é &quot;aderente&quot; e salvo em um cookie. Se você não sair do modo de QA, continuará vendo os resultados de QA em todo o site. Para sair do modo de controle de qualidade, use o [bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
 >
 >* Enquanto estiver no modo de controle de qualidade, navegar no site não afetará os [!UICONTROL Itens visualizados recentemente] ou os [!UICONTROL Itens comprados recentemente] do seu perfil. Esse comportamento ocorre por design para evitar a poluição não intencional dos dados comportamentais de produção. Para visualizar os resultados de um critério de [!UICONTROL Itens visualizados recentemente] ou [!UICONTROL Recomendações baseadas no usuário], primeiro navegue pelo site fora do modo de QA e, em seguida, use a mesma sessão para abrir um link de modo de QA.
 

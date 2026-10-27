@@ -13,10 +13,10 @@ feature_v2:
 subfeature_v2:
   - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
     internal-label: Auto-allocate
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 39%
+source-wordcount: '907'
+ht-degree: 36%
 ---
 # Criar uma atividade de [!UICONTROL Alocação automática]
 
@@ -67,7 +67,7 @@ Para criar uma atividade de [!UICONTROL Alocação automática]:
 
 1. Crie quaisquer experiências alterando os elementos na página.
 
-   O [!UICONTROL Visual Experience Composer] exibe duas guias do lado esquerdo após você criar uma nova atividade: Experiência A e Experiência B. A Experiência A é a experiência de controle. Seu foco está na guia Experiência B, que pode ser modificada conforme desejado. A Experiência B é a experiência alternativa que você pode adicionar ao seu teste. Você pode adicionar várias experiências ao teste. Você também podem excluir a Experiência A da atividade se não quiser incluir uma experiência de site padrão como opção.
+   O [!UICONTROL Visual Experience Composer] exibe duas guias do lado esquerdo após você criar uma nova atividade: Experiência A e Experiência B. A Experiência A é a experiência de controle. Seu foco está na guia Experiência B, que pode ser modificada conforme desejado. A Experiência B é a experiência alternativa que você pode adicionar ao seu teste. Você pode adicionar várias experiências ao teste. Você também pode excluir a Experiência A da atividade se não quiser incluir uma experiência padrão do site como opção.
 
    Para obter mais informações sobre como adicionar ou modificar experiências no [!UICONTROL Visual Experience Composer], consulte [Adicionar experiência](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md). Para modificar a Experiência B, comece com a etapa 2.
 

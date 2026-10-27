@@ -16,10 +16,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 49%
+source-wordcount: '351'
+ht-degree: 43%
 ---
 # Conflitos de atividades
 
@@ -42,4 +42,4 @@ A lista [!UICONTROL Conflitos] mostra cada cenário [!DNL Target] em que a mbox 
 
 A lista mostra o status e a prioridade de cada colisão potencial, junto com outras informações. Você pode usar o status e a prioridade para ajudar a determinar a probabilidade de uma colisão ocorrer. Considere duas atividades que podem colidir. Se uma atividade não estiver ativa no momento, não poderá ocorrer uma colisão. Uma colisão só é possível se a atividade inativa se tornar ativa. Se a colisão potencial for entre duas atividades ativas com a mesma prioridade e o mesmo público-alvo, ocorre uma colisão. Você pode alterar a prioridade ou o status para evitar a colisão.
 
-Se os públicos-alvo forem diferentes, ainda haverá uma colisão potencial, pois pode ser que um determinado visitante pertença a vários públicos-alvo.
+Se os públicos forem diferentes, ainda há uma possível colisão, pois é possível que um determinado visitante pertença a vários públicos.

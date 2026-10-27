@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2682'
-ht-degree: 24%
+source-wordcount: '2685'
+ht-degree: 23%
 ---
 # Visão geral das atividades
 
@@ -121,9 +121,9 @@ As seguintes ações estão disponíveis (dependendo das suas permissões e do s
 | Ação | Descrição |
 | --- | --- |
 | [!UICONTROL Editar] | Alterar a atividade. Qualquer atividade pode ser editada, incluindo atividades criadas por meio da API [!DNL Adobe Target] ou do servidor MCP [!DNL Adobe Target]. Depois que uma atividade criada pela API é editada na interface, ela é tratada como modificada pela interface. As ações restritas anteriormente, incluindo [!UICONTROL Copiar] e [!UICONTROL Excluir], ficam disponíveis de acordo com suas permissões e o status da atividade.<P>Para obter mais informações sobre as várias maneiras de editar atividades, consulte [Editar uma atividade ou salvar como rascunho](/help/main/c-activities/edit-activity.md). |
-| [!UICONTROL Desativar] | Interrompe uma atividade ao vido ou programada. Uma atividade desativada pode ser reativada ou arquivada.<P>Se você desativar ou arquivar uma atividade e depois mais tarde reativá-la, um visitante continuará sendo parte daquela atividade após a reativação se estiver nela antes que seja desativada ou arquivada. Qualquer métrica de conversão registrada durante o tempo entre os dois eventos não será atribuída àquela atividade. |
+| [!UICONTROL Desativar] | Interrompe uma atividade ao vido ou programada. Uma atividade desativada pode ser reativada ou arquivada.<P>Se você desativar ou arquivar uma atividade e depois mais tarde reativá-la, um visitante continuará sendo parte daquela atividade após a reativação se estiver nela antes que seja desativada ou arquivada. As métricas de conversão registradas durante o intervalo de tempo entre os dois eventos não serão atribuídas a essa atividade. |
 | [!UICONTROL Ativar] | Inicie uma atividade inativa ou uma atividade que esteja pronta para ser ativada. |
-| [!UICONTROL Arquivar] | Envie a atividade para o arquivo. Por padrão, as atividades arquivadas não aparecem mais na lista [!UICONTROL Atividades]. Altere o filtro da lista [!UICONTROL Atividades] para incluir atividades arquivadas para vê-las. Você pode ativar uma atividade arquivada para usá-la novamente.<P>Se você desativar ou arquivar uma atividade e depois mais tarde reativá-la, um visitante continuará sendo parte daquela atividade após a reativação se estiver nessa atividade antes que ela seja desativada ou arquivada. Qualquer métrica de conversão registrada durante o tempo entre os dois eventos não será atribuída àquela atividade. |
+| [!UICONTROL Arquivar] | Envie a atividade para o arquivo. Por padrão, as atividades arquivadas não aparecem mais na lista [!UICONTROL Atividades]. Altere o filtro da lista [!UICONTROL Atividades] para incluir atividades arquivadas para vê-las. Você pode ativar uma atividade arquivada para usá-la novamente.<P>Se você desativar ou arquivar uma atividade e depois mais tarde reativá-la, um visitante continuará sendo parte daquela atividade após a reativação se estiver nessa atividade antes que ela seja desativada ou arquivada. As métricas de conversão registradas durante o intervalo de tempo entre os dois eventos não serão atribuídas a essa atividade. |
 | [!UICONTROL Copiar] | Copia uma atividade. Qualquer atividade pode ser copiada. A cópia de uma atividade cria uma nova atividade com o mesmo nome, com o termo &quot;Cópia&quot; anexado. Por exemplo, um teste chamado &quot;Ofertas do navegador&quot; é copiada para &quot;Cópia de ofertas do navegador&quot;.<P>Ofertas visuais são copiadas com a atividade. As ofertas podem ser editas em segurança na cópia sem afetar a atividade original. As únicas exceções são ofertas e imagens salvas na pasta Conteúdo/Ativos. |
 | [!UICONTROL Excluir] | Exclui um rascunho ou atividade.<P>**OBSERVAÇÃO**: as atividades excluídas não podem ser recuperadas. A menos que você tenha certeza de que nunca precisará dessa atividade novamente, use a ação [!UICONTROL Arquivar]. Se necessário, é possível reativar a atividade. |
 

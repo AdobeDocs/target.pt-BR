@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2111'
-ht-degree: 82%
+source-wordcount: '2121'
+ht-degree: 79%
 ---
 # Introdução ao Recomendações
 
@@ -78,7 +78,7 @@ O que faz para excelentes recomendações?
 
 Excelentes recomendações devem ser relevantes e personalizadas. Isso significa que você precisa de três elementos para impulsionar relevância e personalização:
 
-* **Controles do profissional de marketing** para ajudar a impulsionar a relevância dos itens recomendados. Como profissional de marketing, você apresenta um contexto importante e sabe quais atributos de seus produtos ou conteúdo são relevantes para ser considerados em um modelo de recomendações. Se você estiver executando um site de vídeo, você sabe que os usuários podem estar interessados em ver filmes do mesmo diretor, mas provavelmente não se importam em ver filmes produzidos pelo mesmo estúdio. O [!DNL Target] capacita você com controles que permitem aprimorar seus algoritmos com esse conhecimento de domínio.
+* **Controles do profissional de marketing** para ajudar a impulsionar a relevância dos itens recomendados. Como profissional de marketing, você apresenta um contexto importante e sabe quais atributos de seus produtos ou conteúdo são relevantes para ser considerados em um modelo de recomendações. Se você estiver executando um site de vídeo, sabe que os usuários podem estar interessados em ver filmes do mesmo diretor, mas provavelmente não se importam em ver filmes produzidos pelo mesmo estúdio. O [!DNL Target] capacita você com controles que permitem aprimorar seus algoritmos com esse conhecimento de domínio.
 * **Modelos sofisticados** para dar sentido a milhões de itens nos eventos de catálogo e interação. O [!DNL Target] possui recursos sofisticados de aprendizado de máquina criados em uma década de experiência e nós lidamos com bilhões de recomendações por ano.
 * **Contexto do usuário** para garantir que as recomendações sejam oportunas e relevantes para os usuários. Você não quer recomendar o vídeo que alguém acabou de assistir ou a camisa que alguém acabou de adicionar ao carrinho. O perfil de usuário avançado do Target pode ser usado nas recomendações para garantir a personalização.
 

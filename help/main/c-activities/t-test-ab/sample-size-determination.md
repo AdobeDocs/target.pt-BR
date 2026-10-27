@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3185'
-ht-degree: 47%
+source-wordcount: '3188'
+ht-degree: 45%
 ---
 # Por quanto tempo você deve executar um teste A/B?
 
@@ -44,7 +44,7 @@ O [!DNL Adobe Target] fornece ferramentas para ajudar a garantir que sua ativida
 
 Uma atividade de [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) é um tipo de teste A/B que identifica um vencedor entre duas ou mais experiências. Um teste [!UICONTROL Alocação automática] realoca automaticamente mais tráfego para o vencedor a fim de aumentar as conversões enquanto o teste continua a ser executado e aprendido.
 
-Os testes A/B padrão têm um custo inerente. Você deve gastar o tráfego para medir o desempenho de cada experiência e, por meio de análise, descobrir a experiência vencedora. A distribuição do tráfego permanece fixa mesmo depois de você reconhecer que algumas experiências estão superando outras. Além disso, é complicado descobrir o tamanho da amostra, e a atividade deve ser executada em sua totalidade para que você possa agir em um vencedor. E ainda há uma chance do vencedor identificado não ser um verdadeiro vencedor.
+Os testes A/B padrão têm um custo inerente. Você deve gastar o tráfego para medir o desempenho de cada experiência e, por meio de análise, descobrir a experiência vencedora. A distribuição do tráfego permanece fixa mesmo depois de você reconhecer que algumas experiências estão superando outras. Além disso, é complicado descobrir o tamanho da amostra e a atividade deve executar todo o curso antes de poder agir em um vencedor. E ainda há uma chance do vencedor identificado não ser um verdadeiro vencedor.
 
 A solução é [!UICONTROL Alocação automática]. A [!UICONTROL Alocação automática] reduz este custo e a sobrecarga de determinar uma experiência vencedora. A [!UICONTROL Alocação automática] monitora o desempenho da métrica de meta de todas as experiências e envia mais novos participantes para as experiências de alto desempenho proporcionalmente. Há tráfego suficiente reservado para explorar as outras experiências. Você pode ver os benefícios da atividade em seus resultados, mesmo enquanto a atividade ainda estiver em execução: a otimização ocorre em paralelo ao aprendizado.
 
@@ -162,7 +162,7 @@ Novamente, é recomendável que o tempo necessário sempre seja arredondado para
 
 Ao usar a Receita por visita (RPV) como uma métrica, uma fonte adicional de variação é adicionada, pois o RPV é o produto da receita por pedido e taxa de conversão (RPV = Receita / #visitors = (Receita por pedido &#42; #orders) / Nº de visitantes = Receita por pedido &#42; (#visitors &#42; CTR) / #visitors = Receita por pedido &#42; CTR), cada um com sua própria variação. A variação da taxa de conversão pode ser estimada diretamente usando um modelo matemático, mas a variação da receita por pedido é específica da atividade. Portanto, use o conhecimento dessa variação em atividades anteriores ou execute o teste A/B por alguns dias para estimar a variação na receita. A variação é calculada a partir dos valores de Soma das vendas, Soma das vendas elevada ao quadrado e Número de visitantes encontrados no arquivo de download do CSV. Depois que isso for estabelecido, use a planilha para calcular o tempo necessário para concluir o teste.
 
-A calculadora do tamanho da amostra (link fornecido acima) pode ajudá-lo a configurar a métrica de RPV. Ao abrir a calculadora, você verá uma guia denominada [!UICONTROL Métrica RPV]. Você precisará das informações a seguir ao usar a versão de RPV da calculadora:
+A calculadora do tamanho da amostra (link fornecido acima) pode ajudá-lo a configurar a métrica de RPV. Ao abrir a calculadora, você verá uma guia rotulada [!UICONTROL Métrica RPV]. Você precisará das seguintes informações ao usar a versão RPV da calculadora:
 
 * Número de visitantes para a oferta de controle
 * Receita total para a oferta de controle

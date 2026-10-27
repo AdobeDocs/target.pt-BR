@@ -1,25 +1,28 @@
 ---
 keywords: solução de problemas, perguntas frequentes, perguntas frequentes, perguntas frequentes, metas, públicos-alvo
-description: Exiba as perguntas frequentes sobre o direcionamento de experiência e os públicos-alvo usados nas atividades do Adobe [!DNL Target] .
+description: Exiba as perguntas frequentes sobre o direcionamento de experiência e os públicos usados nas atividades [!DNL Target] do Adobe.
 title: Onde posso encontrar perguntas e respostas sobre direcionamentos e públicos-alvo?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 TQID: https://experienceleague.adobe.com/WI8A9wqYpjiCCUABg5cBxJ92WwFLYN7qM-0DeYkrxOk
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 1004
-ht-degree: 53%
-
+source-wordcount: '1007'
+ht-degree: 49%
 ---
-
 # Perguntas frequentes sobre direcionamentos e públicos-alvos
 
 Lista de perguntas frequentes sobre o direcionamento de experiência e públicos-alvo.
@@ -107,7 +110,7 @@ O [!DNL Target] tem um limite de 50 atributos de perfil exclusivos por chamada d
 
 ## Por que os visitantes veem experiências para uma atividade de AP que não deveriam ver? {#section_41CECEAE0881446A8D9F3B016857914B}
 
-As atividades de Personalização automatizada são avaliadas uma vez por sessão. Se houver sessões ativas que se qualificaram para uma experiência específica e agora novas ofertas foram adicionadas a elas, os usuários verão o novo conteúdo junto com as ofertas exibidas anteriormente. Como elas se qualificaram previamente para essas experiências, eles ainda as veriam durante a sessão. Se houver um desejo de avaliar isso em todas as visitas a uma página única, você deverá mudar para o tipo de atividade de Direcionamento de experiência (XT).
+As atividades de Personalização automatizada são avaliadas uma vez por sessão. Se houver sessões ativas que se qualificaram para uma experiência específica e agora novas ofertas foram adicionadas a elas, os usuários verão o novo conteúdo junto com as ofertas exibidas anteriormente. Como elas se qualificaram previamente para essas experiências, eles ainda as veriam durante a sessão. Se desejar avaliar isso em cada visita de página única, você deve alterar para o tipo de atividade Direcionamento de experiência (XT).
 
 ## Por que as alterações feitas aos públicos-alvo criadas por meio da API não são refletidas na interface do usuário do [!DNL Target]? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 

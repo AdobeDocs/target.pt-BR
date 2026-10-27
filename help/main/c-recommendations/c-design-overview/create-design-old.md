@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 27%
+source-wordcount: '1065'
+ht-degree: 25%
 ---
 # Criar um design
 
@@ -173,7 +173,7 @@ O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configu
    | `[YOUR_CLIENT_CODE]` | Código do cliente do Target (disponível em /help/target/products.html#recsSettings > Token de API do Recommendations > Código do cliente). |
    | `[YOUR_MBOX_NAME]` | O nome selecionado na seção &quot;locais&quot; do Recommendations baseado em formulário, neste caso Sample_Recs_Response. |
    | `[ENTITY_ID` | O `entity.id` de um item em seu catálogo. |
-   | `[AT_PROPERTY_TOKEN]` | (Opcional) Adicionar se você selecionou uma Propriedade (parte das Permissões da empresa) durante a configuração de sua atividade. |
+   | `[AT_PROPERTY_TOKEN]` | (Opcional) Adicione se você selecionou uma Propriedade (parte das Permissões empresariais) durante a configuração da atividade. |
 
 Depois que seu algoritmo for executado e você obter os resultados, sua resposta deve ser:
 
