@@ -2,7 +2,7 @@
 keywords: integração; funções; permissões do usuário; admin console
 description: Saiba como conceder acesso às integrações existentes do Adobe I/O para todos os espaços de trabalho com a função desejada no Adobe Target.
 title: Como conceder acesso ao Adobe I/O a espaços de trabalho e atribuir funções?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112

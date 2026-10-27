@@ -2,7 +2,7 @@
 keywords: personalização automatizada;ap
 description: Saiba como criar uma atividade do [!UICONTROL Automated Personalization] (AP) no [!DNL Adobe Target] usando o [!UICONTROL Visual Experience Composer].
 title: Como criar uma atividade do [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 product_v2:
@@ -45,7 +45,7 @@ O fluxo de trabalho da atividade [!UICONTROL Automated Personalization] (AP) em 
 
    >[!NOTE]
    >
-   >[!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]). Como resultado, [!DNL `http://www.adobe.com`] e [!DNL `https://wwww.adobe.com`] são correspondentes.
+   >[!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]). Como resultado, [!DNL `http://www.adobe.com/br`] e [!DNL `https://wwww.adobe.com`] são correspondentes.
 
    A página com o URL especificado é aberta no VEC.
 
