@@ -136,7 +136,7 @@ Os relatórios dos Insights de personalização (os [!UICONTROL Segmentos automa
 
 ### Como o [!UICONTROL Personalization Insights] é criado?
 
-[!UICONTROL Os Insights de personalização são criados usando uma técnica de patente pendente da Adobe chamada MAGIX (Model Agnostic Globally Interpretable Explanations). ] Você pode saber mais sobre o MAGIX no paper publicado pela equipe de pesquisa da Adobe no [site do arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Os Insights de personalização são criados usando uma técnica de patente pendente da Adobe chamada MAGIX (Model Agnostic Globally Interpretable Explanations). &#x200B;] Você pode saber mais sobre o MAGIX no paper publicado pela equipe de pesquisa da Adobe no [site do arXiv.org](https://arxiv.org/abs/1706.07160).
 
 ### Os [!UICONTROL Personalization Insights] estão disponíveis para metas de modelagem baseadas em receita/meta principal?
 

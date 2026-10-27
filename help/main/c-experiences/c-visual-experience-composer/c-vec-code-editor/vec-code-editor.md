@@ -47,7 +47,7 @@ Use a página de Modificações para:
 
   Faça as alterações.
 
-  ![imagem de {codeeditor_changechange1](assets/codeeditor_changechange1.png)
+  ![imagem de &lbrace;codeeditor_changechange1](assets/codeeditor_changechange1.png)
 
 * Excluir uma ação existente. Passe o mouse sobre a modificação desejada, em seguida, clique no ícone **[!UICONTROL Excluir]**.
 
@@ -71,7 +71,7 @@ Use a página de Modificações para:
 
 1. Para exibir a página de [!UICONTROL Modificações] de uma experiência selecionada, no VEC, clique no ícone **[!UICONTROL Modificações]** &lt;/>.
 
-   ![imagem grande do {codeeditor_icon](assets/codeeditor_icon_big.png)
+   ![imagem grande do &lbrace;codeeditor_icon](assets/codeeditor_icon_big.png)
 
    >[!NOTE]
    >

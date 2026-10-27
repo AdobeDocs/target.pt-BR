@@ -151,7 +151,7 @@ A tela [!UICONTROL Design] permite selecionar janelas de visualização, inclusi
 
 Também é possível aumentar ou diminuir o zoom clicando no ícone apropriado ( ![ícone de Aumentar Zoom](/help/main/assets/icons/ZoomIn.svg) ou ![ícone de Diminuir Zoom](/help/main/assets/icons/ZoomOut.svg) ).
 
-Ao clicar em um elemento de página na tela de desenho [!UICONTROL 1}, um menu mostrará as opções disponíveis para esse tipo de elemento. ]Além disso, um caminho DOM é exibido na parte inferior da página, possibilitando uma navegação fácil pela estrutura da página.
+Ao clicar em um elemento de página na tela de desenho [!UICONTROL 1&rbrace;, um menu mostrará as opções disponíveis para esse tipo de elemento. &#x200B;]Além disso, um caminho DOM é exibido na parte inferior da página, possibilitando uma navegação fácil pela estrutura da página.
 
 As várias ações do [!UICONTROL Visual Experience Composer] (VEC) são agrupadas nas opções de menu apropriadas para tornar seu trabalho mais rápido e eficiente:
 
