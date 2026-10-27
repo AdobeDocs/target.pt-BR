@@ -128,7 +128,7 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 * Visualizar e criar a experiência para sites responsivos
 * Use sobreposições para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/30981?captions=por_br)
 
 ### Office hours: Visual Experience Composer ![Selo do tutorial](/help/main/assets/tutorial.png)
 
