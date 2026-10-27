@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 82%
+source-wordcount: '2266'
+ht-degree: 80%
 ---
 # Modificações
 
@@ -47,7 +47,7 @@ Use a página de Modificações para:
 
   Faça as alterações.
 
-  ![imagem de &lbrace;codeeditor_changechange1](assets/codeeditor_changechange1.png)
+  ![imagem de {codeeditor_changechange1](assets/codeeditor_changechange1.png)
 
 * Excluir uma ação existente. Passe o mouse sobre a modificação desejada, em seguida, clique no ícone **[!UICONTROL Excluir]**.
 
@@ -71,7 +71,7 @@ Use a página de Modificações para:
 
 1. Para exibir a página de [!UICONTROL Modificações] de uma experiência selecionada, no VEC, clique no ícone **[!UICONTROL Modificações]** &lt;/>.
 
-   ![imagem grande do &lbrace;codeeditor_icon](assets/codeeditor_icon_big.png)
+   ![imagem grande do {codeeditor_icon](assets/codeeditor_icon_big.png)
 
    >[!NOTE]
    >
@@ -242,7 +242,7 @@ Por exemplo, se você realizou duas ações:
 
 Cada alteração cria um novo elemento no painel Modificações. Como a segunda ação modifica o Elemento 1, se você o excluir, a segunda ação não terá mais nada para modificar, e a alteração não funcionará mais.
 
-Em outras palavras, se adicionar um elemento com texto e, em uma ação separada, editá-lo com um texto diferente, o painel Modificações mostrará as duas ações como elementos distintos. Ao editar o elemento, você criou um novo elemento que modifica o elemento original que você criou, contendo o texto editado. Se você então excluir o elemento original, o texto editado não poderá encontrar o elemento que foi editado e não será exibido. O segundo elemento permanece na lista de elementos, mas não afeta a página porque o elemento que ele modifica não existe mais.
+Em outras palavras, se adicionar um elemento com texto e, em uma ação separada, editá-lo com um texto diferente, o painel Modificações mostrará as duas ações como elementos distintos. Ao editar o elemento, você criou um novo elemento que modifica o elemento original que você criou, contendo o texto editado. Se você excluir o elemento original, o texto editado não poderá encontrar o elemento que foi editado e não será exibido. O segundo elemento permanece na lista de elementos, mas não afeta a página porque o elemento que ele modifica não existe mais.
 
 ***Um elemento que criei usando `document.write` em um script não é exibido onde esperava.***
 

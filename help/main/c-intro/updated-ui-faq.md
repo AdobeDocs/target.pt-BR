@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '2022'
 ht-degree: 1%
 ---
 # Perguntas frequentes sobre atualização da interface do usuário do [!DNL Target]
@@ -57,7 +57,7 @@ Devido aos problemas recentes identificados, relacionados principalmente a perso
 
 * **17 de junho de 2025**: todas as Organizações IMS foram habilitadas para a interface do usuário [!DNL Target] atualizada, para usuários específicos ou em toda a organização, para começar a testar a nova experiência.
 
-* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4&rbrace; se tornou a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
+* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4} se tornou a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
 
   * Os clientes que atualmente veem a interface herdada, por padrão, agora veem a interface atualizada ao fazer logon.
   * O botão de alternância da versão da interface do usuário permanece disponível até o final de julho, permitindo que os usuários alternem de volta, se necessário.
@@ -210,7 +210,7 @@ Com as últimas atualizações na interface do usuário, os estados [!UICONTROL 
 ## Como posso saber se uma atividade foi criada ou editada na interface herdada ou na interface atualizada?
 
 +++Detalhes
-As atividades criadas ou editadas na interface atualizada seguem o mesmo fluxo de trabalho guiado de três etapas e podem incluir metadados ou formatações específicos da interface do usuário que não estão presentes nas atividades criadas herdadas. Embora não haja nenhuma tag ou rótulo visível na interface, diferenças no layout, estrutura ou opções disponíveis (como direcionamento aprimorado ou recursos de visualização) podem indicar qual interface foi usada. Para obter uma identificação detalhada, verifique o histórico de alterações da atividade ou consulte os logs de implementação.
+As atividades criadas ou editadas na interface atualizada seguem o mesmo fluxo de trabalho guiado de três etapas e podem incluir metadados ou formatações específicos da interface do usuário que não estão presentes nas atividades criadas herdadas. Embora não haja tag ou rótulo visível na interface, diferenças no layout, na estrutura ou nas opções disponíveis (como direcionamento aprimorado ou recursos de pré-visualização) podem indicar qual interface foi usada. Para obter uma identificação detalhada, verifique o histórico de alterações da atividade ou consulte os logs de implementação.
 
 +++
 

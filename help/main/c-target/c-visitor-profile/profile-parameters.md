@@ -1,27 +1,32 @@
 ---
 keywords: Script de perfil;atributos do script de perfil;práticas recomendadas do script de perfil;depurar;depuração;scripts;scripts de perfil;atributos;atributo;parâmetro
-description: Saiba mais sobre os atributos específicos do visitante armazenados no perfil do visitante para fornecer informações sobre o que pode ser usado em atividades do Adobe [!DNL Target] .
+description: Saiba mais sobre os atributos específicos do visitante armazenados no perfil do visitante para fornecer informações sobre o que pode ser usado em atividades do Adobe [!DNL Target].
 title: O que são atributos de perfil?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 TQID: https://experienceleague.adobe.com/jW4BCxf12N2GRN4ZsxNR1xBd0upkEc-FjuTEQ4KvKis
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 2520
-ht-degree: 88%
-
+source-wordcount: '2523'
+ht-degree: 86%
 ---
-
 # Atributos do perfil
 
 Os atributos do perfil no [!DNL Adobe Target] são parâmetros específicos de um visitante. Estes atributos são armazenados no perfil do visitante para fornecer informações sobre ele que podem ser usadas em suas atividades.
@@ -149,11 +154,11 @@ As orientações a seguir destinam-se a ajudar a escrever scripts de perfil simp
 
   Como prática recomendada:
 
-   * Mantenha os scripts de perfil pequenos e o mais simples possível.
-   * Evite expressões regulares ou use somente expressões regulares simples. Até mesmo expressões simples podem fazer com que muitas instruções sejam avaliadas.
-   * Evite a recursão.
-   * Os scripts de perfil devem ser testados em relação ao desempenho antes de serem adicionados ao [!DNL Target]. Todos os scripts de perfil são executados em cada solicitação de mbox. Se os scripts de perfil não forem executados corretamente, as solicitações da mbox levarão mais tempo para serem executadas, o que pode afetar o tráfego e a conversão.
-   * Se os scripts de perfil se tornarem muito complexos, considere usar [tokens de resposta](/help/main/administrating-target/response-tokens.md).
+  * Mantenha os scripts de perfil pequenos e o mais simples possível.
+  * Evite expressões regulares ou use somente expressões regulares simples. Até mesmo expressões simples podem fazer com que muitas instruções sejam avaliadas.
+  * Evite a recursão.
+  * Os scripts de perfil devem ser testados em relação ao desempenho antes de serem adicionados ao [!DNL Target]. Todos os scripts de perfil são executados em cada solicitação de mbox. Se os scripts de perfil não forem executados corretamente, as solicitações da mbox levarão mais tempo para serem executadas, o que pode afetar o tráfego e a conversão.
+  * Se os scripts de perfil se tornarem muito complexos, considere usar [tokens de resposta](/help/main/administrating-target/response-tokens.md).
 
 * Consulte a documentação do mecanismo JS Rhino para obter mais informações.
 

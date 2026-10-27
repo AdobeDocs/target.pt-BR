@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 47dd2c2489f6805aec15fbfd044725a5698ced49
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 33%
+source-wordcount: '829'
+ht-degree: 31%
 ---
 # Dispositivo móvel
 
@@ -36,7 +36,7 @@ A definição de metas móvel é fornecida pelo [DeviceAtlas,](https://deviceatl
 
 A detecção do dispositivo é realizada pela análise das cadeias de caracteres Usuário-agente. Alguns fabricantes de dispositivo, como a Apple, desativam essa funcionalidade ao não fornecer informações suficientes no UA.
 
-Por exemplo, os dispositivos da Apple não compartilham tokens específicos do modelo de dispositivo no UA. O resultado é que não é possível detectar modelos do iPhone (como iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max e assim por diante) usando um método simples baseado em palavras-chave.
+Por exemplo, os dispositivos Apple não compartilham tokens específicos do modelo de dispositivo no UA. O resultado é que não é possível detectar modelos do iPhone (como iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max e assim por diante) usando um método simples baseado em palavras-chave.
 
 Para resolver esse problema, o [!DNL Target] coleta dados adicionais para detectar com precisão iPhones e outros dispositivos Apple usando os seguintes parâmetros:
 

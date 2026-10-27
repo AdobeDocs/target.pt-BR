@@ -2,7 +2,7 @@
 keywords: design de recomendações, criar design, copiar design
 description: Saiba como criar um design do Adobe [!DNL Target] Recommendations usando um design padrão ou criando um design personalizado para melhor se ajustar ao layout da sua página.
 title: Como criar um design no Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 27%
+source-wordcount: '1065'
+ht-degree: 25%
 ---
 # Criar um design
 
@@ -173,7 +173,7 @@ O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configu
    | `[YOUR_CLIENT_CODE]` | Código do cliente do Target (disponível em /help/target/products.html#recsSettings > Token de API do Recommendations > Código do cliente). |
    | `[YOUR_MBOX_NAME]` | O nome selecionado na seção &quot;locais&quot; do Recommendations baseado em formulário, neste caso Sample_Recs_Response. |
    | `[ENTITY_ID` | O `entity.id` de um item em seu catálogo. |
-   | `[AT_PROPERTY_TOKEN]` | (Opcional) Adicionar se você selecionou uma Propriedade (parte das Permissões da empresa) durante a configuração de sua atividade. |
+   | `[AT_PROPERTY_TOKEN]` | (Opcional) Adicione se você selecionou uma Propriedade (parte das Permissões empresariais) durante a configuração da atividade. |
 
 Depois que seu algoritmo for executado e você obter os resultados, sua resposta deve ser:
 
@@ -334,4 +334,4 @@ Este vídeo contém as seguintes informações:
 * Criar um design personalizado
 * Saiba como fazer referência às variáveis de exibição em seus designs
 
->[!VIDEO](https://video.tv.adobe.com/v/35373?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

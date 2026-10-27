@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3984'
-ht-degree: 99%
+source-wordcount: '4003'
+ht-degree: 87%
 ---
 # Dez erros comuns em testes A/B e como evitá-los
 
@@ -32,9 +32,9 @@ Os formulários de teste A/B do [!DNL Adobe Target] são o suporte principal da 
 
 ## Armadilha 1: Ignorar os efeitos do nível de significância {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
-Qual é a probabilidade de o seu teste relatar uma diferença significativa na taxa de conversão entre duas ofertas quando, na verdade, não há nenhuma? Isso é o que o *nível de significância* de um teste ajuda a determinar. Essas descobertas enganosas são frequentemente chamadas de falso positivo e, no mundo das estatísticas, são chamadas de erro Tipo I (se você rejeitar incorretamente a hipótese nula que é realmente verdadeira).
+Qual é a probabilidade de o seu teste relatar uma diferença significativa na taxa de conversão entre duas ofertas quando, na verdade, não há nenhuma? É o que o *nível de significância* de um teste ajuda a determinar. Essas descobertas enganosas são frequentemente chamadas de falso positivo e, no mundo das estatísticas, são chamadas de erro Tipo I (se você rejeitar incorretamente a hipótese nula que é realmente verdadeira).
 
-Quando você especifica o nível de significância de um teste A/B, você está fazendo uma compensação entre sua tolerância para aceitar que uma experiência é melhor que a outra quando realmente não é (erro Tipo I ou &quot;falso positivo&quot;) versus não ver diferença estatística entre as experiências quando realmente existe uma diferença verdadeira (erro tipo II ou &quot;falso negativo&quot;). O *nível de confiança* é determinado antes da execução de um teste.
+Ao especificar o nível de significância de um teste A/B, você faz uma compensação entre sua tolerância para aceitar que uma experiência é melhor do que a outra quando realmente não é (erro Tipo I ou &quot;falso positivo&quot;), versus não ver nenhuma diferença estatística entre as experiências quando realmente há uma diferença verdadeira (erro Tipo II ou &quot;falso negativo&quot;). O *nível de confiança* é determinado antes da execução de um teste.
 
 O *intervalo de confiança*, que é determinado após a conclusão de um teste, é afetado por três fatores principais:
 
@@ -42,7 +42,7 @@ O *intervalo de confiança*, que é determinado após a conclusão de um teste, 
 * Nível de importância
 * Desvio padrão da população
 
-Como o profissional de marketing selecionou o nível de significância antes do teste ser projetado e o desvio padrão da população não pode ser afetado, o único fator &quot;controlável&quot; é o tamanho da amostra. O tamanho da amostra necessário para um intervalo de confiança com o qual você se sente confortável e o tempo resultante para alcançar esse tamanho de amostra é uma decisão importante que um profissional de marketing deve determinar durante o design do teste.
+Como o profissional de marketing selecionou o nível de significância antes do design do teste e o desvio padrão da população não pode ser afetado, o único fator &quot;controlável&quot; é o tamanho da amostra. O tamanho da amostra necessário para um intervalo de confiança com o qual você se sente confortável e o tempo resultante para alcançar esse tamanho de amostra é uma decisão importante que um profissional de marketing deve determinar durante o design do teste.
 
 Outro termo diretamente relacionado, o *nível de confiança*, é mais do que uma abordagem equilibrada. Em vez de indicar a probabilidade de obter um falso positivo, conforme o nível de importância, o nível de confiança representa a probabilidade de o teste não cometer esse erro.
 
@@ -66,9 +66,9 @@ No entanto, duas situações justificam prestar muita atenção ao nível de imp
 
   Quanto mais testes forem executados, maior será a probabilidade de você ter pelo menos um falso positivo entre eles. Em essência, cada segmento de pós-teste representa um teste separado, o que aumenta a probabilidade de um falso positivo. Esse aumento pode ser ainda mais significativo se os segmentos estiverem correlacionados.
 
-  Você não deveria fazer segmentação pós-teste? Não, os segmentos de pós-teste são valiosos. Em vez disso, para evitar esse problema de falso positivo cumulativo com a segmentação pós-teste, depois de identificar um segmento de pós-teste, considere testá-lo em um novo teste. Alternativamente, você pode aplicar a correção de Bonferroni, discutida a seguir.
+  Você não deveria fazer segmentação pós-teste? Não, os segmentos de pós-teste são valiosos. Em vez disso, para evitar esse problema cumulativo de falso positivo com segmentação pós-teste, depois de identificar um segmento pós-teste, considere testá-lo em um novo teste. Alternativamente, você pode aplicar a correção de Bonferroni, discutida a seguir.
 
-* **Teste de várias ofertas:** os profissionais de marketing testam com frequência mais de duas ofertas (ou experiências) entre si. É por isso que às vezes você vê soluções de teste A/B chamadas de teste A/B/n, onde n é o número de ofertas que você está testando simultaneamente.
+* **Teste de várias ofertas:** os profissionais de marketing testam com frequência mais de duas ofertas (ou experiências) entre si. É por isso que, às vezes, você vê soluções de teste A/B chamadas de teste A/B/n, em que n é o número de ofertas que você está testando simultaneamente.
 
   É importante observar que *cada* oferta testada tem uma taxa de falso positivo igual ao nível de significância, conforme descrito acima. Novamente, você está executando efetivamente vários testes quando várias ofertas são comparadas em um único ambiente de teste. Por exemplo, se você comparar cinco ofertas em um teste A/B/C/D/E, efetivamente formará quatro comparações: controle para B, controle para C, controle para D, controle para E. Com um nível de confiança de 95%, em vez da probabilidade de 5% de um falso positivo, essa probabilidade será de 18,5%.
 
@@ -86,7 +86,7 @@ As ofertas A e B têm o maior aumento observado durante o teste, e seria improv�
 
 A praticidade aqui é que ambas as ofertas A e B devem ser consideradas vencedoras do teste.
 
-Normalmente, não é viável executar o teste por tempo suficiente para identificar o verdadeiro desempenho relativo das alternativas e, muitas vezes, a diferença de desempenho entre as alternativas é muito pequena para afetar substancialmente a taxa de conversão. Nesses casos, você pode interpretar o resultado como um empate e usar outras considerações, como estratégia ou alinhamento com outros elementos da página, para determinar qual oferta implementar. Com vários testes, é necessário considerar a possibilidade de haver mais de um vencedor, o que às vezes abre consideravelmente as possibilidades do rumo a seguir no desenvolvimento do seu site.
+Normalmente, não é viável executar o teste por tempo suficiente para identificar o verdadeiro desempenho relativo das alternativas e, muitas vezes, a diferença no desempenho entre as alternativas é muito pequena para afetar substancialmente a taxa de conversão. Nesses casos, você pode interpretar o resultado como um empate e usar outras considerações, como estratégia ou alinhamento com outros elementos da página, para determinar qual oferta implementar. Com vários testes, é necessário considerar a possibilidade de haver mais de um vencedor, o que às vezes abre consideravelmente as possibilidades do rumo a seguir no desenvolvimento do seu site.
 
 Se quiser identificar a oferta com a taxa de conversão mais alta, você estará comparando todas as ofertas umas com as outras. No exemplo acima, você tem n = 5 ofertas. Você precisa fazer n(n-1)/2 comparações, ou 5 &#42; (5-1)/2 = 10 comparações. Neste caso, a correção de Bonferroni exige que o nível de importância do teste seja de 5%/10 = 0,5%, o que corresponde a um nível de confiança de 99,5%. No entanto, um nível de confiança tão alto pode exigir que você execute o teste por um período excessivamente longo.
 
@@ -94,7 +94,7 @@ Se quiser identificar a oferta com a taxa de conversão mais alta, você estará
 
 O potencial estatístico é a probabilidade de um teste detectar uma diferença real na taxa de conversão entre as ofertas. Devido à natureza aleatória (ou “estocástica”, como os estatísticos gostam de chamar) dos eventos de conversão, um teste pode não mostrar uma diferença estatisticamente significativa, mesmo quando existe uma diferença real na taxa de conversão entre duas ofertas no final. Chame de má sorte ou de acaso. Não detectar uma diferença real na taxa de conversão é chamado de falso negativo ou erro de tipo II.
 
-Existem dois fatores principais que determinam o poder de um teste. O primeiro é o tamanho da amostra, ou seja, o número de visitantes incluídos no teste. O segundo é a magnitude da diferença na taxa de conversão que você deseja que o teste detecte. Talvez seja intuitivo, mas se você estiver interessado em detectar apenas grandes diferenças na taxa de conversão, há uma probabilidade maior de que o teste realmente detecte diferenças tão grandes. Ao longo dessas linhas, quanto menor a diferença que você deseja detectar, maior o tamanho da amostra e, portanto, o tempo para obter esse tamanho de amostra maior que você precisa.
+Existem dois fatores principais que determinam o poder de um teste. O primeiro é o tamanho da amostra, ou seja, o número de visitantes incluídos no teste. O segundo é a magnitude da diferença na taxa de conversão que você deseja que o teste detecte. Talvez isso seja intuitivo, mas se você estiver interessado em detectar apenas grandes diferenças de taxa de conversão, há uma probabilidade maior de o teste realmente detectar essas grandes diferenças. Ao longo dessas linhas, quanto menor a diferença que você deseja detectar, maior o tamanho da amostra e, portanto, o tempo para obter esse tamanho de amostra maior que você precisa.
 
 Os profissionais de marketing de hoje subestimam um número notável de testes. Em outras palavras, eles usam um tamanho de amostra muito pequeno. Isso significa que eles têm uma pequena chance de detectar verdadeiros positivos, mesmo quando realmente existe uma diferença substancial na taxa de conversão. De fato, se você executar continuamente testes de baixa potência, o número de falsos positivos pode ser comparável ou até mesmo dominar o número de positivos verdadeiros. Isso geralmente leva à implementação de alterações neutras em um site (perda de tempo) ou a alterações que realmente reduzem as taxas de conversão.
 
@@ -104,17 +104,17 @@ Para evitar subdimensionar seu teste, considere que um padrão típico para um t
 
 ## Armadilha 4: usar testes unilaterais {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
-Testes unilaterais exigem uma menor diferença observada nas taxas de conversão entre as ofertas para declarar um vencedor em um determinado nível de importância. Este tipo de teste parece atraente porque os vencedores podem ser declarados mais cedo e com mais frequência do que quando se usam testes bilaterais. Mas, de acordo com o ditado, &quot;Nada é de graça&quot;, os testes unilaterais custam caro.
+Testes unilaterais exigem uma menor diferença observada nas taxas de conversão entre as ofertas para declarar um vencedor em um determinado nível de importância. Este tipo de teste parece atraente porque os vencedores podem ser declarados mais cedo e com mais frequência do que quando se usam testes bilaterais. Mas mantendo a máxima: &quot;Não há almoço grátis&quot;, os testes unilaterais têm um preço.
 
 Em um teste unilateral, você testa se a oferta B é melhor que a oferta A. A direção do teste deve ser determinada antes do início do teste, ou &quot;a priori&quot; em estatística. Em outras palavras, você deve decidir se testa para B sendo melhor que A ou A sendo melhor que B *antes* de iniciar o teste. No entanto, se você observar os resultados do teste A/B e ver que B está melhor que A e, *em seguida,* decidir fazer um teste unilateral para ver se essa diferença é estatisticamente significativa, estará violando as suposições por trás do teste estatístico. Violar as suposições do teste significa que seus intervalos de confiança não são confiáveis e o teste tem uma taxa de falsos positivos mais alta do que você esperava.
 
-Você pode ver um teste unilateral como uma oferta em julgamento com um juiz que já tomou uma decisão. Em um teste unilateral, você já decidiu qual será a oferta vencedora e deseja apenas uma prova, em vez de dar a cada experiência uma chance igual de se provar como a vencedora. Testes unilaterais devem ser usados somente nas raras situações em que você está interessado apenas em saber se uma oferta é melhor que a outra e não o contrário. Para evitar a emissão do teste unilateral, use uma solução de teste A/B que sempre usa testes bilaterais, como o [!DNL Adobe Target].
+Você pode ver um teste unilateral como uma oferta em julgamento com um juiz que já tomou uma decisão. Em um teste unilateral, você já decidiu qual é a oferta vencedora e deseja prová-la, em vez de dar a cada experiência uma chance igual para provar que é a vencedora. Testes unilaterais devem ser usados somente nas raras situações em que você está interessado apenas em saber se uma oferta é melhor que a outra e não o contrário. Para evitar a emissão do teste unilateral, use uma solução de teste A/B que sempre usa testes bilaterais, como o [!DNL Adobe Target].
 
 ## Armadilha 5: monitorar testes {#section_EA42F8D5967B439284D863C46706A1BA}
 
-Os profissionais de marketing monitoram frequentemente os testes A/B até que o teste determine um resultado significativo. Afinal, por que testar depois de obter significância estatística?
+Os profissionais de marketing monitoram frequentemente os testes A/B até que o teste determine um resultado significativo. Afinal, por que testar depois de atingir significância estatística?
 
-Infelizmente, não é tão simples. Sem intenção de prejudicar, mas acontece que o monitoramento dos resultados afeta negativamente a significância estatística efetiva do teste. Aumenta muito a probabilidade de falsos positivos e torna seus intervalos de confiança não confiáveis.
+Infelizmente, não é tão simples assim. Sem intenção de prejudicar, mas acontece que o monitoramento dos resultados afeta negativamente a significância estatística efetiva do teste. Aumenta muito a probabilidade de falsos positivos e torna seus intervalos de confiança não confiáveis.
 
 Isso pode parecer confuso. Parece que estamos dizendo que apenas observando seus resultados no meio do teste, você pode fazer com que eles percam sua significância estatística. Isso não é exatamente o que está acontecendo. O exemplo a seguir explica por quê.
 
@@ -122,7 +122,7 @@ Digamos que você simule 10.000 eventos de conversão de duas ofertas, onde as d
 
 Para entender por que isso ocorre, é necessário considerar as diferentes ações tomadas quando um resultado significativo é detectado e quando não é. Quando um resultado estatisticamente significativo é detectado, o teste é interrompido e um vencedor é declarado. No entanto, se o resultado não for estatisticamente significativo, deixamos o teste continuar. Essa situação favorece bastante o resultado positivo e, portanto, distorce o nível de significância efetiva do teste.
 
-Para evitar este problema, você deve determinar um período adequado durante o qual o teste será executado antes de iniciar o teste propriamente dito. Embora seja bom examinar os resultados do teste durante ele para garantir que você o implementou corretamente, não tire conclusões nem interrompa o teste antes que o número necessário de visitantes seja alcançado. Em outras palavras, nada de espiar.
+Para evitar este problema, você deve determinar um período adequado durante o qual o teste será executado antes de iniciar o teste propriamente dito. Embora seja bom observar os resultados do teste durante o teste para garantir que você implementou o teste corretamente, não tire conclusões ou pare o teste antes de atingir o número necessário de visitantes. Em outras palavras, nada de espiar.
 
 ## Armadilha 6: Interrupção prematura de testes {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
@@ -154,9 +154,9 @@ Um outro exemplo é se a alocação de tráfego do seu teste A/B for dividida em
 
 ## Armadilha 8: não considerar os efeitos da novidade {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
-Outras coisas inesperadas podem acontecer se não permitirmos tempo suficiente para executar um teste. Desta vez, o problema não é um problema de estatística; é simplesmente uma reação à mudança pelos visitantes. Se você alterar uma parte bem estabelecida do seu site, os visitantes recorrentes poderão, a princípio, se envolver menos com a nova oferta devido a alterações no fluxo de trabalho normal. Isso pode temporariamente fazer com que uma nova oferta superior tenha um desempenho menor que o ideal até que os visitantes recorrentes se acostumem a ela. Um pequeno preço a pagar dados os ganhos a longo prazo que a oferta superior proporciona.
+Outras coisas inesperadas podem acontecer se não permitirmos tempo suficiente para executar um teste. Desta vez, o problema não é de estatística; é simplesmente uma reação à mudança por parte dos visitantes. Se você alterar uma parte bem estabelecida do seu site, os visitantes recorrentes poderão, a princípio, se envolver menos com a nova oferta devido a alterações no fluxo de trabalho normal. Isso pode temporariamente fazer com que uma nova oferta superior tenha um desempenho menor que o ideal até que os visitantes recorrentes se acostumem a ela. Um pequeno preço a pagar dados os ganhos a longo prazo que a oferta superior proporciona.
 
-Para determinar se a nova oferta tem um desempenho inferior por ser uma novidade ou porque é realmente inferior, é possível segmentar seus visitantes em visitantes novos e recorrentes e comparar as taxas de conversão. Se é for apenas por ser uma novidade, a nova oferta vai ganhar com novos visitantes. No fim, conforme os visitantes recorrentes se acostumam com as novas mudanças, a oferta também ganhará sua confiança.
+Para determinar se a nova oferta tem baixo desempenho devido a um efeito de novidade ou porque é realmente inferior, você pode segmentar os visitantes em visitantes novos e recorrentes e comparar as taxas de conversão. Se for apenas o efeito de novidade, a nova oferta ganha com novos visitantes. No fim, conforme os visitantes recorrentes se acostumam com as novas mudanças, a oferta também ganhará sua confiança.
 
 O efeito de novidade também pode funcionar em sentido inverso. Os visitantes costumam reagir positivamente a uma mudança apenas porque ela introduz algo novo. Depois de um tempo, quando o novo conteúdo se torna obsoleto ou menos excitante para o visitante, a taxa de conversão cai. Esse efeito é mais difícil de identificar, mas monitorar cuidadosamente as alterações na taxa de conversão é a chave para detectar esse problema.
 

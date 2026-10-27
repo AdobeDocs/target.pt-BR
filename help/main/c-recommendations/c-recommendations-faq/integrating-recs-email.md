@@ -2,7 +2,7 @@
 keywords: email, ESP, provedor de serviços de email, rawbox, API de entrega, modelo somente para download, modelo de email, processamento em lote, email de tempo de compilação
 description: Saiba como integrar emails com o Adobe [!DNL Target Recommendations], incluindo o uso da API de entrega, modelos rawbox e modelos apenas para download do [!DNL Target].
 title: Como integrar o Recomendações ao email?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 TQID: 'https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE'
@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 86%
+source-wordcount: '1774'
+ht-degree: 83%
 ---
 # Integrar [!DNL Recommendations] ao email
 
@@ -97,7 +97,7 @@ Consulte a [Documentação da API de entrega](https://experienceleague.adobe.com
 
 ## Método 2: usar um modelo de email de rawbox {#rawbox}
 
-Uma rawbox é semelhante a uma solicitação de mbox, mas para ambientes fora da Web, como provedores de serviços de email (ESPs). Como você não tem o [!DNL Adobe Experience Platform Web SDK] ou a [!DNL at.js] para usar em solicitações de rawbox, deve criar suas solicitações manualmente. Os exemplos abaixo explicam como trabalhar com solicitações de rawbox no email.
+Uma rawbox é semelhante a uma solicitação de mbox, mas para ambientes fora da Web, como provedores de serviços de email (ESPs). Como você não tem [!DNL Adobe Experience Platform Web SDK] ou [!DNL at.js] para usar nas solicitações de rawbox, deve criar suas solicitações manualmente. Os exemplos abaixo explicam como trabalhar com solicitações de rawbox no email.
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ Uma rawbox é semelhante a uma solicitação de mbox, mas para ambientes fora da
 
 Essa abordagem permite rastrear o desempenho das recomendações em emails, testá-las da maneira normal com uma recomendação, e continuar a rastrear o site.
 
-Defina uma atividade de [!DNL Recommendations] no [!DNL Target] usando a opção [Criador de experiências baseado em formulários](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Para o local, selecione o nome da mbox escolhido para usar na solicitação de rawbox proveniente do ESP. Selecione um design com a aparência desejada para o seu email. No momento da criação do email, o ESP faz uma chamada aos servidores do [!DNL Target] para cada rawbox em cada email gerado. Seu ESP deve ter uma maneira de incluir o HTML retornado no email quando ele for enviado.
+Defina uma atividade de [!DNL Recommendations] no [!DNL Target] usando a opção [Criador de experiências baseado em formulários](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Para a localização, selecione o nome da mbox que você escolheu usar na solicitação de rawbox proveniente do ESP. Selecione um design com a aparência desejada para o seu email. No momento da criação do email, o ESP faz uma chamada aos servidores do [!DNL Target] para cada rawbox em cada email gerado. Seu ESP deve ter uma maneira de incluir o HTML retornado no email quando ele for enviado.
 
 O sistema de email usado deve ser capaz de lidar com os seguintes cenários:
 
@@ -162,7 +162,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | Resposta | Descrição |
 |--- |--- |
-| //ERROR: | Gerado pelo balanceador de carga quando não é capaz de retornar o conteúdo |
+| //ERROR: | Gerado pelo balanceador de carga quando não é possível retornar o conteúdo |
 | Sucesso | O parâmetro `mboxNoRedirect` é definido como &quot;true&quot; e o servidor não retorna nenhuma recomendação (ou seja, não há correspondência para a mbox ou o cache do servidor não foi inicializado). |
 | bad request | O parâmetro da `mbox` está ausente.<ul><li>O parâmetro `mboxDefault` ou `mboxNoRedirect` não foi especificado.</li><li>O parâmetro de rastreamento `mboxTrace` está especificado, mas `mboxNoRedirect` não está.</li><li>O parâmetro `mboxTarget` não é especificado quando os nomes das mboxes terminam com o sufixo `-clicked`.</li></ul> |
 | `Cannot redirect to default content, please specify mboxDefault parameter` | `mboxDefault` não especificado quando não existe correspondência para a solicitação e o parâmetro `mboxNoRedirect` não é especificado. |

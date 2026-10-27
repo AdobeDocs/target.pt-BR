@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '1689'
-ht-degree: 85%
+ht-degree: 84%
 ---
 # Soluções de problemas da entrega de conteúdo
 
@@ -229,12 +229,12 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 
 ### Adicione a Extensão ![Selo do tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33296?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### Depuração básica do Adobe Target ![Selo do tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33298?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox Trace ![Selo do tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33345?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

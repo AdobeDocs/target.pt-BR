@@ -2,37 +2,49 @@
 keywords: adicionar usuário; projeto; grupo de usuários; propriedades; espaço de trabalho; gerenciar propriedade; propriedade; at_ property; funções; permissões
 description: Saiba como adicionar usuários ao Adobe Target, criar espaços de trabalho, grupos de usuários e propriedades, atualizar sua implementação e especificar funções e permissões.
 title: Como configurar permissões corporativas?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 TQID: https://experienceleague.adobe.com/hMnPeT5NMMeNPLRdTtgcikwXWxcEjuMtycy1RNBi0Q4
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 subfeature_v2:
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: cd7b6938-5837-4ee0-9790-5840997133d9
+    internal-label: User management
   - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+    internal-label: Roles and permissions
   - id: faed1c89-faf7-4df1-910d-a88263e03b15
+    internal-label: Target UI
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 1509
-ht-degree: 55%
-
+source-wordcount: '1513'
+ht-degree: 54%
 ---
-
 # Configuração de permissões empresariais
 
 Informações sobre as tarefas necessárias para adicionar usuários à sua implementação do [!DNL Target]; criar espaços de trabalho, grupos de usuários e propriedades; atualizar sua implementação do [!DNL Target] para incluir o parâmetro `at_property`; e especificar funções e permissões.
@@ -92,12 +104,12 @@ Os usuários podem fazer parte de vários espaços de trabalho e podem até ter 
 
    * **Novos espaços de trabalho (Perfis de produto):** Você pode começar a utilizar nova funcionalidade de permissões fazendo o seguinte:
 
-      * Criar novos espaços de trabalho dentro do [!DNL Admin Console for Enterprise].
-      * Atribuir propriedades do Target aos espaços de trabalho.
+     * Criar novos espaços de trabalho dentro do [!DNL Admin Console for Enterprise].
+     * Atribuir propriedades do Target aos espaços de trabalho.
 
    Você pode usar esses espaços de trabalho para dividir o acesso a diferentes equipes por região, por unidades de negócios, por seção do site ou por qualquer outro método que você escolher. Os usuários podem fazer parte de vários espaços de trabalho e podem ter diferentes funções dentro de cada um deles.
 
-1. Siga as instruções em [Criar e gerenciar configurações de produto](https://helpx.adobe.com/br/enterprise/help/manage-products-and-configurations.html) no *Guia do usuário da empresa*.
+1. Siga as instruções em [Criar e gerenciar configurações de produto](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) no *Guia do usuário da empresa*.
 
 >[!NOTE]
 >Veja o vídeo de treinamento abaixo para obter mais informações sobre como configurar espaços de trabalho.
@@ -116,7 +128,7 @@ Você precisará passar a ID do espaço de trabalho para utilizar as Permissões
 É possível criar grupos de usuários, como Desenvolvedores, Analistas, Profissionais de marketing, Executivos, etc., e atribuir privilégios a vários produtos e espaços de trabalho da Adobe. A atribuição de todos os privilégios apropriados a um novo membro da equipe em diferentes produtos da Adobe pode ser tão fácil quanto adicioná-lo a um grupo de usuários específico.
 
 1. Na Admin Console, clique na guia **[!UICONTROL Usuários]** na parte superior da página > **[!UICONTROL Grupos de Usuários]** para criar novos grupos de usuários ou editar grupos existentes.
-1. Siga as instruções em [Gerenciar usuários e grupos de uma configuração de produto](https://helpx.adobe.com/br/enterprise/help/manage-products-and-configurations.html) no *Guia do usuário da empresa*.
+1. Siga as instruções em [Gerenciar usuários e grupos de uma configuração de produto](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) no *Guia do usuário da empresa*.
 
 ## Etapa 4. Criar propriedades {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
@@ -165,7 +177,7 @@ Para usar a funcionalidade de permissões de usuário [!DNL Target], você deve 
 
    * **Por meio de um &quot;Parâmetro Personalizado&quot; nas marcas em [!DNL Adobe Experience Platform]:**
 
-     Para obter mais informações, consulte [Adicionar params de mbox](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=pt-BR#add-mbox-params) na documentação da *Visão geral das tags*.
+     Para obter mais informações, consulte [Adicionar params de mbox](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) na documentação da *Visão geral das tags*.
 
    * **Pela função targetPageParamsAll():** coloque o seguinte código nas marcas `<head>`, acima da referência a at.js.
 
@@ -225,8 +237,8 @@ Este vídeo explica como criar espaços de trabalho.
 * Acessar o Adobe Admin Console a partir da interface do Adobe Target (3 maneiras)
 * Configure um espaço de trabalho no Adobe Admin Console
 
-   * Adicionar usuários a espaços de trabalho
-   * Adicionar propriedades aos espaços de trabalho
+  * Adicionar usuários a espaços de trabalho
+  * Adicionar propriedades aos espaços de trabalho
 
 * Compreenda espaços de trabalho padrão
 
@@ -238,8 +250,8 @@ Este vídeo explica como criar espaços de trabalho.
 * Como gerar um token de propriedade para incluir na sua implementação de propriedade
 * Familiarize-se com os três métodos de implementação:
 
-   * Web
-   * Aplicativo móvel
-   * Email, definir caixa superior ou chamadas da API
+  * Web
+  * Aplicativo móvel
+  * Email, definir caixa superior ou chamadas da API
 
 >[!VIDEO](https://video.tv.adobe.com/v/18990/)

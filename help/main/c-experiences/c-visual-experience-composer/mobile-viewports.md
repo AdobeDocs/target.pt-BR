@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 92%
+source-wordcount: '1384'
+ht-degree: 89%
 ---
 # Visores móveis para experiências responsivas
 
@@ -101,7 +101,7 @@ Se o seu site não for responsivo, use o Mobile Web Composer para exibir um site
 
 >[!IMPORTANT]
 >
->Você pode editar uma experiência nos visores móveis. No entanto, essas alterações se aplicam a todos os visores e dispositivos, não apenas ao visor em que você está trabalhando.. Da mesma forma, editar uma experiência na exibição de desktop normal altera a página para todos os tamanhos de tela, não somente a exibição de desktop atual. Atualmente, o [!DNL Target] não aceita alterações de página específicas do visor.
+>Você pode editar uma experiência nos visores móveis. No entanto, essas alterações se aplicam a todos os visores e dispositivos, não apenas ao visor em que você está trabalhando. Da mesma forma, editar uma experiência na exibição de desktop normal altera a página para todos os tamanhos de tela, não somente a exibição de desktop atual. Atualmente, o [!DNL Target] não aceita alterações de página específicas do visor.
 
 ## Configuração do visor móvel {#task_B4B161499DC0470584ED922A4D20FCAB}
 
@@ -184,7 +184,7 @@ O vídeo de demonstração a seguir inclui informações sobre o uso do Visual E
 * Visualizar e criar a experiência para sites responsivos
 * Use sobreposições para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/30981?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Preferências da conta no Adobe Target ![Selo de visão geral](/help/main/assets/overview.png)
 

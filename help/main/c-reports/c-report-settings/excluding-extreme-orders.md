@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 62%
+source-wordcount: '336'
+ht-degree: 53%
 ---
 # Excluir valores extremos
 
@@ -31,7 +31,7 @@ Os valores extremos são automaticamente sinalizados com um indicador com base n
 
 Um valor é considerado extremo se ele tiver +/- 3 desvios-padrão do valor médio de pedido usando dados do último mês (até o ponto no tempo em que o cálculo foi feito).
 
-Por exemplo, o filtro de valor extremo geralmente é útil ao usar a RPV. A RPV combina a taxa de conversão e o valor médio de pedido, e costuma exibir a volatilidade dessas métricas. Caso use a RPV e veja que os pedidos não estão sendo distribuídos normalmente, é provável que os resultados apareçam normais se você aplicar o filtro de pedido extremo.
+Por exemplo, o filtro de valor extremo geralmente é útil ao usar a RPV. A RPV combina a taxa de conversão e o valor médio de pedido, e costuma exibir a volatilidade dessas métricas. Se você usar o RPV e determinar que os pedidos não parecem ser distribuídos normalmente, poderá ver resultados mais normais se aplicar o filtro de pedidos extremos.
 
 Quando um valor é marcado como extremo, seu valor de pedido é substituído com o valor médio de pedido da experiência pelo último mês, excluindo extremos. A ordem também é marcada como extrema no relatório [!UICONTROL Detalhes do pedido] e no download do CSV para resultados diários.
 

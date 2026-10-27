@@ -2,7 +2,7 @@
 keywords: design personalizado;velocity;decimal;vírgula;personalizar design
 description: Saiba como usar a linguagem de design de código aberto [!DNL Velocity] para personalizar designs de recomendação no [!DNL Target] Recommendations.
 title: Como personalizar um design usando o Velocity?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 TQID: 'https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 60%
+source-wordcount: '1095'
+ht-degree: 56%
 ---
 # Personalizar um design usando o [!DNL Velocity]
 
@@ -251,7 +251,7 @@ O código a seguir é um exemplo condicional completo de um preço de venda:
 
 ## Personalizar o tamanho do modelo e procurar valores em branco {#default}
 
-Usando um script [!DNL Velocity] para controlar o dimensionamento dinâmico da exibição da entidade, o modelo a seguir acomoda um resultado de 1 para muitos para evitar a criação de elementos HTML vazios quando não forem retornadas entidades correspondentes suficientes de [!DNL Recommendations]. Este script é mais adequado para cenários nos quais as recomendações reserva não fazem sentido e nos quais a [!UICONTROL Renderização parcial do modelo] está habilitada.
+Usando um script [!DNL Velocity] para controlar o dimensionamento dinâmico da exibição da entidade, o modelo a seguir acomoda um resultado de 1 para muitos para evitar a criação de elementos HTML vazios quando não forem retornadas entidades correspondentes suficientes de [!DNL Recommendations]. Este script é mais adequado para cenários nos quais as recomendações reserva não fazem sentido e nos quais a [!UICONTROL Renderização Parcial do Modelo] está habilitada.
 
 O trecho HTML a seguir substitui a porção HTML existente no design 4 x 2 padrão (o CSS não está incluído aqui por motivos de brevidade):
 

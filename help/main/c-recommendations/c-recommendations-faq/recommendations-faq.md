@@ -2,7 +2,7 @@
 keywords: solução de problemas, perguntas frequentes, FAQ, FAQs, recommendations, caracteres especiais, ponderação de atributos, similaridade de conteúdo
 description: Veja uma lista de perguntas frequentes e respostas sobre atividades do [!DNL Target Recommendations].
 title: Onde posso encontrar perguntas e respostas sobre o [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3560'
-ht-degree: 80%
+source-wordcount: '3565'
+ht-degree: 77%
 ---
 # Perguntas frequentes do Recomendações
 
@@ -108,15 +108,15 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## Por que todos os critérios, incluindo os critérios personalizados, não estão disponíveis para seleção ao criar uma atividade do Recomendações? {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## Por que nem todos os critérios, incluindo critérios personalizados, estão disponíveis para seleção ao criar uma atividade do Recommendations? {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 Os critérios disponíveis são baseados na categoria atual. Quando você está criando ofertas de recomendações, o seletor de algoritmo exibe os critérios com base na ID da categoria.
 
-Se a localização na qual você estiver aplicando esse critério não contiver a ID da categoria, determinados critérios não estão disponíveis no seletor de algoritmo.
+Se a localização na qual você está aplicando esse critério não contiver a ID da categoria, determinados critérios não estarão disponíveis no seletor de algoritmo.
 
 Se você usar um local em que a ID de categoria está presente na mbox, o seletor de critérios conterá todos os critérios aplicáveis.
 
-O [!DNL Target] tem uma configuração de [Critérios de filtro incompatíveis](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} para controlar a filtragem inteligente do seletor de algoritmo.
+O [!DNL Target] tem uma configuração de [Critérios de filtro incompatíveis](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para controlar a filtragem inteligente do seletor de algoritmo.
 
 >[!NOTE]
 >
@@ -186,7 +186,7 @@ O número de valores gerados por critério é o triplo do número de entidades e
 #end 
 ```
 
-## Qual é o limite de tamanho de uma chamada à API para inserir/atualizar produtos? Posso atualizar 50.000 produtos em uma chamada ao usar a API em vez de um feed? {#section_434FE1F187B7436AA39B7C14C7895168}
+## Qual é o limite de tamanho de uma chamada de API para inserir/atualizar produtos? Posso atualizar 50.000 produtos em uma chamada ao usar a API em vez de um feed? {#section_434FE1F187B7436AA39B7C14C7895168}
 
 [!DNL Target]O impõe um limite de postagem de 50 MB no nível do aplicativo; no entanto, isso apenas acontece quando o cabeçalho de tipo de conteúdo `application/x-www-form-urlencoded` é passado.
 
@@ -205,7 +205,7 @@ Com ambos os métodos, não há link entre a mbox e o parâmetro. Os critérios,
 
 Se você editar um critério, uma promoção ou uma regra de testes do modelo existente, os critérios de filtragem serão exibidos com o nome da mbox fornecido durante a criação.
 
-## Por que não posso salvar minha atividade herdada do Recomendações, depois de definir um novo público-alvo? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## Por que não posso salvar minha atividade herdada do Recommendations, depois de definir um novo público-alvo? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 Certifique-se de que o público-alvo tenha um nome exclusivo. Se você deu ao público o mesmo nome de um público-alvo existente, não poderá salvar sua atividade herdada do Recomendações (uma atividade de Recomendações criada antes de outubro de 2016).
 
@@ -229,7 +229,7 @@ A exclusão é realizada apenas para a chamada atual do [!DNL Target]; os itens 
 
 >[!NOTE]
 >
->Se muitas entidades forem excluídas, as recomendações se comportarão como se não houvesse entidades suficientes para preencher o modelo da recomendação.
+>Se muitas entidades forem excluídas, as recomendações se comportarão como se não houvesse entidades suficientes para preencher o template de recomendação.
 
 Para excluir `entityIds`, anexe o token `&excludes=${mbox.excludedIds}` ao url de conteúdo da oferta. Quando o url de conteúdo for extraído, os parâmetros solicitados serão substituídos pelos parâmetros de solicitação atuais do mbox.
 

@@ -2,7 +2,7 @@
 keywords: critérios;algoritmo;vertical do setor;tipo de página;chave de recomendação;lógica de recomendação;lógica;intervalo de dados;janela de lookback;fonte de dados de comportamento;design parcial;recomendações de backup;regras de inclusão;ponderação de atributos;categoria atual;atributo personalizado;último item comprado;último item exibido;item mais exibido;item mais exibido;categoria favorita;popularidade;item exibido recentemente;última comprado;última exibido;mais exibido;favorito;exibido recentemente
 description: Saiba como criar critérios que controlam o conteúdo de suas atividades do Adobe Recommendations para mostrar as recomendações mais apropriadas para sua atividade.
 title: Como criar critérios no Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2934'
-ht-degree: 48%
+source-wordcount: '2937'
+ht-degree: 47%
 ---
 # Criar critérios
 
@@ -47,7 +47,7 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar Novo Cr
 
 1. Digite um **[!UICONTROL Nome do Critério]**.
 
-   Este é o nome &quot;interno&quot; usado para descrever o critério. Por exemplo, você pode chamar seu critério de &quot;Produtos com margem mais alta&quot;, mas não quer que o título seja exibido publicamente. Veja a próxima etapa para definir o título aberto ao público.
+   Este é o nome &quot;interno&quot; usado para descrever o critério. Por exemplo, você pode querer chamar seus critérios de &quot;Produtos com maior margem&quot;, mas não quer que esse título seja exibido publicamente. Veja a próxima etapa para definir o título aberto ao público.
 
    ![Seção de Informações Básicas](assets/basic-information.png)
 
@@ -125,19 +125,19 @@ Para obter mais informações sobre como escolher uma [!UICONTROL Chave de recom
 
    Se seu site tiver muito tráfego e os comportamentos mudarem frequentemente, escolha uma janela de dados mais curta. Uma janela menor permite que as [!DNL Recommendations] sejam mais responsivas às alterações no mercado e em seu negócio. Por exemplo, uma janela menor significa que as [!DNL Recommendations] irão detectar alterações no comportamento do visitante conforme seus visitantes começam a fazer compras sazonais, tais como compras de volta às aulas ou de Natal, e irá recomendar itens apropriados para estas temporadas de compras.
 
-   Caso não tenha muitos dados ou o comportamento do visitante não seja alterado com frequência, você pode selecionar uma janela maior. No entanto, para muitos sites, uma janela menor resulta em recomendações de maior qualidade.
+   Se você não tiver muitos dados ou se o comportamento do visitante não mudar com frequência, você poderá selecionar uma janela mais longa. No entanto, para muitos sites, uma janela menor resulta em recomendações de maior qualidade.
 
    Os intervalos de dados disponíveis são:
 
    | Opção Janela de pesquisa | Frequência atualizada (exibida ao passar o mouse) | Algoritmos compatíveis |
    | --- | --- | --- |
-   | Seis horas | O algoritmo é executado a cada 3-6 horas | [!UICONTROL Algoritmos &#x200B;] baseados em popularidade quando o [!UICONTROL Source de Dados Comportamentais] selecionado é [!DNL Adobe Target] |
-   | Um dia | O algoritmo é executado a cada 12-24 horas | [!UICONTROL Algoritmos &#x200B;] com base em popularidade |
-   | Dois dias | O algoritmo é executado a cada 12-24 horas | <ul><li>[!UICONTROL Algoritmos &#x200B;] com base em popularidade</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em itens</li><li>[!UICONTROL Algoritmos &#x200B;] com base no usuário</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em carrinho</li></ul> |
-   | Uma semana | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos &#x200B;] com base em popularidade</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em itens</li><li>[!UICONTROL Algoritmos &#x200B;] com base no usuário</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em carrinho</li></ul> |
-   | Duas semanas | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos &#x200B;] com base em popularidade</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em itens</li><li>Todos os algoritmos [!UICONTROL baseados em usuário]</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em carrinho</li></ul> |
-   | Um mês (30 dias) | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos &#x200B;] com base em popularidade</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em itens</li><li>[!UICONTROL Algoritmos &#x200B;] com base no usuário</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em carrinho</li></ul> |
-   | Dois meses (61 dias) | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos &#x200B;] com base em popularidade</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em itens</li><li>[!UICONTROL Algoritmos &#x200B;] com base no usuário</li><li>[!UICONTROL Algoritmos &#x200B;] baseados em carrinho</li></ul> |
+   | Seis horas | O algoritmo é executado a cada 3-6 horas | [!UICONTROL Algoritmos ] baseados em popularidade quando o [!UICONTROL Source de Dados Comportamentais] selecionado é [!DNL Adobe Target] |
+   | Um dia | O algoritmo é executado a cada 12-24 horas | [!UICONTROL Algoritmos ] com base em popularidade |
+   | Dois dias | O algoritmo é executado a cada 12-24 horas | <ul><li>[!UICONTROL Algoritmos ] com base em popularidade</li><li>[!UICONTROL Algoritmos ] baseados em itens</li><li>[!UICONTROL Algoritmos ] com base no usuário</li><li>[!UICONTROL Algoritmos ] baseados em carrinho</li></ul> |
+   | Uma semana | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] com base em popularidade</li><li>[!UICONTROL Algoritmos ] baseados em itens</li><li>[!UICONTROL Algoritmos ] com base no usuário</li><li>[!UICONTROL Algoritmos ] baseados em carrinho</li></ul> |
+   | Duas semanas | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] com base em popularidade</li><li>[!UICONTROL Algoritmos ] baseados em itens</li><li>Todos os algoritmos [!UICONTROL baseados em usuário]</li><li>[!UICONTROL Algoritmos ] baseados em carrinho</li></ul> |
+   | Um mês (30 dias) | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] com base em popularidade</li><li>[!UICONTROL Algoritmos ] baseados em itens</li><li>[!UICONTROL Algoritmos ] com base no usuário</li><li>[!UICONTROL Algoritmos ] baseados em carrinho</li></ul> |
+   | Dois meses (61 dias) | O algoritmo é executado a cada 24-48 horas | <ul><li>[!UICONTROL Algoritmos ] com base em popularidade</li><li>[!UICONTROL Algoritmos ] baseados em itens</li><li>[!UICONTROL Algoritmos ] com base no usuário</li><li>[!UICONTROL Algoritmos ] baseados em carrinho</li></ul> |
 
 ## [!UICONTROL Conteúdo de Backup] {#content}
 
@@ -184,7 +184,7 @@ Use as regras de [!UICONTROL Similaridade de conteúdo] para fazer recomendaçõ
 
 >[!NOTE]
 >
->Se você selecionou **[!UICONTROL Mídia]**/ **[!UICONTROL Baseada em itens]** com Atributos Semelhantes&lbrace;como o Tipo de Algoritmo e o Algoritmo, você terá a opção de definir regras de similaridade de conteúdo.
+>Se você selecionou **[!UICONTROL Mídia]**/ **[!UICONTROL Baseada em itens]** com Atributos Semelhantes{como o Tipo de Algoritmo e o Algoritmo, você terá a opção de definir regras de similaridade de conteúdo.
 
 Similaridade de conteúdo compara palavras-chave de atributo do item e faz recomendações baseadas em quantas palavras-chave itens diferentes têm em comum. Recomendações baseadas em similaridade de conteúdo não requerem dados antigos para providenciar melhores resultados.
 
@@ -282,4 +282,4 @@ Este vídeo contém as seguintes informações:
 * Criar sequências de critérios
 * Upload dos critérios personalizados
 
->[!VIDEO](https://video.tv.adobe.com/v/35374?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

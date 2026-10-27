@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 87%
+source-wordcount: '221'
+ht-degree: 61%
 ---
 # Capítulo 8: Comunicar os resultados da atividade
 
@@ -30,6 +30,6 @@ Se você executar uma atividade e tiver resultados surpreendentes, precisará co
 
 Ao comunicar esses resultados, é útil abordá-los como se você estivesse contando uma história. Torne interessante e explique claramente o que foi testado ou personalizado e por quê, e quais foram os resultados. Use o idioma e a terminologia compreendidas por aqueles que estão revisando os resultados.
 
-Incluímos um [Modelo de Resultados de resumo executivo](/help/main/assets/executive-summary.zip) no Microsoft PowerPoint. Renove a marca com o esquema de cores e o logotipo da sua organização e use-o para apresentar os resultados do seu primeiro teste ou atividade de personalização. Como o Planejador de atividade, ele é incluído com o kit de boas-vindas como um arquivo independente, mas também adicionamos uma imagem dele aqui, juntamente com um exemplo do tipo de informação a ser incluída em cada área do modelo.
+Incluímos um [Modelo de Resultados de resumo executivo](/help/main/assets/executive-summary.zip) no Microsoft PowerPoint. Renove a marca com o esquema de cores e o logotipo da sua organização e use-o para apresentar os resultados do seu primeiro teste ou atividade de personalização. Como o Planejador de atividades, ele é incluído com o kit de boas-vindas como um arquivo independente, mas também adicionamos uma imagem dele aqui, juntamente com um exemplo do tipo de informação a ser incluída em cada área do modelo.
 
 ![Relatório de resumo executivo](/help/main/c-intro/assets/executive-summary-report.png)

@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 50%
+source-wordcount: '1475'
+ht-degree: 46%
 ---
 # Ofertas de redirecionamento - Perguntas frequentes sobre o A4T
 
@@ -152,7 +152,7 @@ Usar um redirecionamento codificado personalizado se:
 
 * Você não está usando o A4T com sua atividade de redirecionamento
 * Você implementou o serviço de ID de visitante
-* Você não quer que esses parâmetros sejam adicionados automaticamente aos seus URLs
+* Você não deseja que esses parâmetros sejam adicionados automaticamente aos URLs
 
 No entanto, como prática recomendada, convém manter o parâmetro `adobe_mc_ref` no URL para relatar as informações do referenciador ao [!DNL Analytics] corretamente.
 
@@ -183,7 +183,7 @@ Com o [!DNL at.js] versão 0.9.6 (ou posterior) e o [!DNL AppMeasurement.js] 2.1
 ## Posso usar ofertas de redirecionamento personalizadas/HTML? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 +++Resposta
-Não, você deve usar as ofertas de redirecionamento integradas para atividades que usam o [!DNL Analytics] como fonte de geração de relatórios (A4T). Da perspectiva do [!DNL Target], as ofertas de HTML são opacas: o [!DNL Target] não pode saber que uma determinada parte do HTML contém JavaScript que instancia um redirecionamento.
+Não, você deve usar as ofertas de redirecionamento integradas para atividades que usam o [!DNL Analytics] como fonte de geração de relatórios (A4T). Da perspectiva do [!DNL Target], as ofertas do HTML são opacas: [!DNL Target] não pode saber que uma determinada parte do HTML contém JavaScript que instancia um redirecionamento.
 
 +++
 

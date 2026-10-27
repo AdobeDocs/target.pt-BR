@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: 891742a5-242d-5099-966a-ca76c17cd2d2
     internal-label: Analytics for Target (A4T)
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 96%
+source-wordcount: '1366'
+ht-degree: 90%
 ---
 # Minimizar contagens inflacionadas de visitas e visitantes no A4T
 
@@ -73,7 +73,7 @@ As informações a seguir relacionadas a essa alteração incluem instruções p
 
 Na maioria das situações, um hit do [!DNL Target] é corrigido com um hit do [!DNL Analytics] em cada página da Web. Essa correção acontece se houver uma SDID consistente nas chamadas do [!DNL Target] e do [!DNL Analytics] e um [!DNL Experience Cloud ID] (MCID) na chamada do [!DNL Analytics] na mesma página. O [!DNL Target] geralmente tem o MCID, mas se a chamada para o [!DNL Target] ocorrer antes que a ID de visitante retorne, o hit ainda será corrigido por causa do SDID. Além disso, o usuário deve permanecer na página por tempo suficiente para disparar uma chamada do [!DNL Analytics] depois do disparo de uma chamada do [!DNL Target]. Esse cenário é ideal.
 
-**Hits de dados parciais:** Os usuários algumas vezes não permanecem em uma página tempo suficiente para enviar uma chamada do [!DNL Analytics], mas o [!DNL Target] tem um MCID apropriado. O cenário resulta em hits de dados parciais (hits sem visualização de página do [!DNL Analytics]). Se esses usuários voltarem ao seu site e visualizarem uma página contendo código do [!DNL Analytics], serão contados apropriadamente como visitantes recorrentes. São hits que teriam sido perdidos se você só tivesse código do [!DNL Analytics] na página. Alguns clientes não querem dados desses hits porque eles inflam certas métricas (visitas) e reduzem outras métricas (visualizações de página por visita, tempo por visita e assim por diante). Você também verá visitas sem quaisquer visualizações de página. Entretanto, ainda há razões válidas para manter esses dados.
+**Ocorrências de dados parciais:** Os usuários às vezes não permanecem em uma página por tempo suficiente para enviar uma chamada [!DNL Analytics], mas [!DNL Target] tem uma MCID apropriada. O cenário resulta em hits de dados parciais (hits sem visualização de página do [!DNL Analytics]). Se esses usuários voltarem ao seu site e visualizarem uma página contendo código do [!DNL Analytics], serão contados apropriadamente como visitantes recorrentes. São hits que teriam sido perdidos se você só tivesse código do [!DNL Analytics] na página. Alguns clientes não querem dados desses acessos porque eles inflam determinadas métricas (visitas) e deflacionam outras métricas (visualizações de página por visita, tempo por visita e assim por diante). Você também verá visitas sem quaisquer visualizações de página. Entretanto, ainda há razões válidas para manter esses dados.
 
 Para minimizar os hits com dados parciais, você pode fazer sua página carregar mais rápido, atualizar para as versões mais recentes das bibliotecas, ou criar um [conjunto de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=pt-BR) que excluem esses acessos. Para obter instruções passo a passo, consulte [Criar conjuntos de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=pt-BR) no *Guia de componentes do Analytics*.
 
@@ -94,7 +94,7 @@ Ao criar o conjunto de relatórios virtuais, especifique a configuração a segu
 * E
 * Instâncias de link de saída: não existe
 
-**Hits órfãos:** em poucas situações, os usuários não permanecem na página por tempo suficiente para obter uma chamada do Analytics e o Target não recebe uma MCID apropriada. Esses hits são o que a Adobe define como hits “órfãos”. Esses hits representam clientes que raramente retornam, hits que inflam contadores de visitas e visitantes de maneira inadequada.
+**Ocorrências órfãs:** Em poucas situações, os usuários não permanecem na página por tempo suficiente para obter uma chamada do Analytics e o Target não recebe uma MCID apropriada. Esses hits são o que a Adobe define como hits “órfãos”. Esses hits representam clientes que raramente retornam, hits que inflam contadores de visitas e visitantes de maneira inadequada.
 
 Para minimizar esses hits &quot;órfãos&quot;, você pode criar um [conjunto de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=pt-BR) que exclua esses acessos conforme explicado acima.
 

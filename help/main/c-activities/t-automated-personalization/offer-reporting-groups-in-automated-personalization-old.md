@@ -2,7 +2,7 @@
 keywords: personalização automatizada;oferta;relatórios;grupo;grupo de relatórios;automated personalization;offer;reporting;group;reporting group;ap
 description: Saiba como usar grupos de relatórios de ofertas em atividades do [!DNL Adobe Target] [!UICONTROL Automated Personalization].
 title: Posso Usar Grupos de Relatórios de Oferta em Atividades do [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 product_v2:
@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: e8a43148-398f-56c7-9433-6564f96999c2
     internal-label: Reports
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '893'
 ht-degree: 25%
 ---
 # Oferecer grupos de relatório no [!UICONTROL Automated Personalization]

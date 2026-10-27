@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3760'
-ht-degree: 35%
+source-wordcount: '3768'
+ht-degree: 33%
 ---
 # Visão geral de [!UICONTROL Alocação automática]
 
@@ -40,7 +40,7 @@ Ao [criar uma atividade A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/
 
 ## O desafio {#section_85D5A03637204BACA75E19646162ACFF}
 
-Os testes A/B padrão têm um custo inerente. Você deve gastar o tráfego para medir o desempenho de cada experiência e, por meio de análise, descobrir a experiência vencedora. A distribuição do tráfego permanece fixa mesmo depois de você reconhecer que algumas experiências estão superando outras. Além disso, é complicado descobrir o tamanho da amostra, e a atividade deve ser executada em sua totalidade para que você possa agir em um vencedor. E ainda há uma chance do vencedor identificado não ser um verdadeiro vencedor.
+Os testes A/B padrão têm um custo inerente. Você deve gastar o tráfego para medir o desempenho de cada experiência e, por meio de análise, descobrir a experiência vencedora. A distribuição do tráfego permanece fixa mesmo depois de você reconhecer que algumas experiências estão superando outras. Além disso, é complicado descobrir o tamanho da amostra e a atividade deve executar todo o curso antes de poder agir em um vencedor. E ainda há uma chance do vencedor identificado não ser um verdadeiro vencedor.
 
 ## A solução: [!UICONTROL Alocação automática] {#section_98388996F0584E15BF3A99C57EEB7629}
 
@@ -104,7 +104,7 @@ A ilustração mostra como o tráfego alocado para cada experiência progride ao
 >
 >Se uma atividade tiver apenas duas experiências, ambas as experiências obterão tráfego igual até que [!DNL Target] encontre uma experiência vencedora com 75% de confiança. Nesse ponto, dois terços do tráfego é alocado para o vencedor e um terço para o perdedor. Depois disso, quando uma experiência atingir a confiança de 95%, 90% do tráfego será alocado ao vencedor e 10% será alocado ao perdedor. [!DNL Target] sempre envia algum tráfego para a experiência &quot;perdida&quot; para evitar falsos positivos no final (ou seja, manter alguma exploração).
 
-Depois que uma atividade [!UICONTROL Alocação automática] é ativada, as seguintes operações da interface Target não são permitidas:
+Depois que uma atividade [!UICONTROL Alocação automática] é ativada, as seguintes operações da interface Tar[!DNL]get não são permitidas:
 
 * Alternar o modo &quot;Alocação de tráfego&quot; para &quot;Manual&quot;
 * Alterar o tipo de métrica de meta
@@ -130,7 +130,7 @@ Se visitantes recorrentes são distribuídos aleatoriamente, seu efeito nas taxa
 
 ### Diferencia entre alto desempenho, não entre baixo desempenho.
 
-[!UICONTROL A Alocação automática] é boa para diferenciar entre experiências de alto desempenho (e encontrar um vencedor). Pode ser que algumas vezes não haja diferenciação suficiente entre as experiências de desempenho inferior.
+[!UICONTROL A Alocação automática] é boa para diferenciar entre experiências de alto desempenho (e encontrar um vencedor). Pode haver momentos em que você não tenha diferenciação suficiente entre as experiências com baixo desempenho.
 
 Se você quiser produzir uma diferenciação estatisticamente significativa entre todas as experiências, considere usar o modo de alocação de tráfego manual.
 
@@ -152,7 +152,7 @@ Estes são exemplos de fatores que podem afetar o desempenho das experiências d
 
 * Experiências com atrasos de conversão variáveis, possivelmente devido à urgência da mensagem.
 
-  Por exemplo, &quot;O desconto de 30% termina hoje&quot; avisa o visitante para converter hoje, mas &quot;50% de desconto na primeira compra&quot; não cria o mesmo senso de urgência.
+  Por exemplo, &quot;a venda de 30% termina hoje&quot; sinaliza ao visitante para converter hoje, mas &quot;a primeira compra com 50% de desconto&quot; não cria a mesma sensação de urgência.
 
 ## Perguntas frequentes {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
@@ -198,7 +198,7 @@ Atualmente, a lógica favorece visitantes que convertem rapidamente ou visitam c
 
 ### Posso usar a calculadora de tamanho de amostra ao usar a [!UICONTROL Alocação automática] para estimar quanto tempo a atividade leva para identificar o vencedor?
 
-Você pode usar a [!DNL Adobe Target] [Calculadora de Tamanho da Amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) existente para obter uma estimativa de quanto tempo o teste dura. (Assim como no teste A/B tradicional, aplique a correção de Bonferroni se estiver testando mais de duas ofertas ou mais de uma métrica/hipótese de conversão.) Essa calculadora foi projetada para testes A/B tradicionais de horizonte fixo e fornece apenas uma estimativa. O uso da calculadora para uma atividade de [!UICONTROL Alocação automática] é opcional porque [!UICONTROL Alocação automática] declara um vencedor para você. Você não precisa escolher um ponto fixo no tempo para ver os resultados do teste. Os valores fornecidos são sempre estatisticamente válidos.
+Você pode usar a [!DNL Adobe Target] [Calculadora de Tamanho da Amostra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) existente para obter uma estimativa de quanto tempo o teste dura. (Assim como no teste A/B tradicional, aplique a correção de Bonferroni se estiver testando mais de duas ofertas ou mais de uma métrica/hipótese de conversão.) Essa calculadora foi projetada para testes A/B tradicionais de horizonte fixo e fornece apenas uma estimativa. O uso da calculadora para uma atividade de [!UICONTROL Alocação automática] é opcional porque [!UICONTROL Alocação automática] declara um vencedor para você. Não é necessário escolher um ponto fixo no tempo para ver os resultados do teste. Os valores fornecidos são sempre estatisticamente válidos.
 
 Experimentos internos [!DNL Adobe] encontraram o seguinte:
 
@@ -267,4 +267,4 @@ Este vídeo monstra como criar um teste A/B usando o fluxo de trabalho orientado
 * Criar uma atividade A/B em [!DNL Adobe Target]
 * Aloque o tráfego usando uma divisão manual ou automática
 
->[!VIDEO](https://video.tv.adobe.com/v/31295?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

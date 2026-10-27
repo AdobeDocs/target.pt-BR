@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 55%
+source-wordcount: '626'
+ht-degree: 54%
 ---
 # [!UICONTROL Práticas recomendadas para o teste multivariado]
 
@@ -34,7 +34,7 @@ Dicas para ajudá-lo a melhorar o desempenho, evitar problemas e corrigir proble
 
 ## Criar {#section_C59C722CA82E48ABA58A4A7FA758F193}
 
-* Não inclua mais combinações do que o necessário para o teste.
+* Não inclua mais combinações do que o necessário para o ensaio.
 
   Cada combinação testada aumenta significativamente a quantidade de tráfego e de tempo necessária para atingir resultados aceitáveis. Por exemplo, se houver três localizações com três ofertas cada, haverá 27 combinações possíveis (3x3x3). Três localizações, com duas delas contendo três ofertas possíveis e uma com duas ofertas, oferecem 18 opções (3x3x2). Os números aumentam de modo substancial a cada localização e oferta adicional.
 

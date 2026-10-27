@@ -2,7 +2,7 @@
 keywords: recomendações;perguntas frequentes;faq
 description: Perguntas frequentes e suas respostas sobre [!DNL Target Recommendations] designs.
 title: Onde posso obter respostas para perguntas sobre design do [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 TQID: 'https://experienceleague.adobe.com/xRu0XEnc8wX8PZngba7CO67mFdja7HALL-1OSnhAmuY'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 79%
+source-wordcount: '476'
+ht-degree: 69%
 ---
 # Perguntas e respostas sobre design
 
@@ -29,7 +29,7 @@ Lista de perguntas frequentes sobre designs do [!DNL Adobe Target] [!DNL Recomme
 
 ## O preço do item recomendado não exibe os dois valores à direita da casa decimal. Como posso exibi-los?
 
-Por padrão, os valores numéricos (como `entity.value`) retornados nos modelos de design não exibem zeros à direita após a casa decimal. Por exemplo, se um item for de $35,00, `entity.value` será igual a 35 e a página exibirá apenas 35 e não $35,00.
+Por padrão, os valores numéricos (como `entity.value`) retornados nos modelos de design não exibirão zeros à direita após a casa decimal. Por exemplo, se um item for de $35,00, `entity.value` será igual a 35 e a página exibirá apenas 35 e não $35,00.
 
 Duas opções estão disponíveis para resolver esse problema:
 

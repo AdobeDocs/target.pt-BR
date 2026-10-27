@@ -1,28 +1,34 @@
 ---
 keywords: aem;experience manager;adobe experience manager;integrar;integração;fragmentos de experiência;fragmentos de conteúdo
-description: Saiba como usar fragmentos de experiência e de conteúdo do  [!DNL Adobe Experience Manager]  em atividades do  [!DNL Adobe Target] .
-title: Como usar os  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragmentos de experiência] e [!UICONTROL Fragmentos de conteúdo]?
+description: Saiba como usar os fragmentos de experiência e conteúdo do [!DNL Adobe Experience Manager] em atividades do [!DNL Adobe Target].
+title: Como usar os [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragmentos de experiência] e [!UICONTROL Fragmentos de conteúdo]?
 feature: Integrations
 exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
 TQID: https://experienceleague.adobe.com/OlgveSjoE0rh1orFsbEZVCSbjd3TKEk8fdBbbXtLxhA
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+    internal-label: Content and assets
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 407
-ht-degree: 40%
-
+source-wordcount: '410'
+ht-degree: 36%
 ---
-
 # Visão geral dos [!UICONTROL Fragmentos de experiência] e [!UICONTROL Fragmentos de conteúdo] do AEM
 
 Use os [!UICONTROL Fragmentos de Experiência] (XFs) e os [!UICONTROL Fragmentos de Conteúdo] (CFs) criados no [!DNL Adobe Experience Manager] (AEM) em [!DNL Target] atividades para auxiliar na otimização e na personalização.
@@ -41,16 +47,16 @@ Considere o seguinte ao trabalhar com os [!UICONTROL Fragmentos de experiência]
 * Esses recursos exigem que você seja um cliente do [!DNL Adobe Experience Manager] (AEM). Certifique-se de atender aos requisitos para cada tipo de fragmento: [fragmento de experiência](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements) ou [fragmento de conteúdo](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements).
 * Os [!UICONTROL Fragmentos de experiência] e os [!UICONTROL Fragmentos de conteúdo] estão disponíveis para os seguintes tipos de atividades:
 
-   * [[!UICONTROL Teste A/B]](/help/main/c-activities/t-test-ab/test-ab.md)
-   * [[!UICONTROL Alocação automática]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-   * [[!UICONTROL Direcionamento automático]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL Direcionamento de experiência] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+  * [[!UICONTROL Teste A/B]](/help/main/c-activities/t-test-ab/test-ab.md)
+  * [[!UICONTROL Alocação automática]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+  * [[!UICONTROL Direcionamento automático]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+  * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+  * [[!UICONTROL Direcionamento de experiência] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * Os [!UICONTROL Fragmentos de experiência] e os [!UICONTROL Fragmentos de conteúdo] não estão disponíveis para os seguintes tipos de atividades:
 
-   * [[!UICONTROL Teste multivariado] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
-   * [[!UICONTROL Recomendações]](/help/main/c-recommendations/recommendations.md)
+  * [[!UICONTROL Teste multivariado] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+  * [[!UICONTROL Recomendações]](/help/main/c-recommendations/recommendations.md)
 
 * Você pode consumir [!UICONTROL Fragmentos de experiência] em [!DNL Target] atividades usando o [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) e o [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md).
 * Você pode consumir [!UICONTROL Fragmentos de conteúdo] em [!DNL Target] atividades usando somente o [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md).

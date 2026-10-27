@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1443'
 ht-degree: 23%
 ---
 # Compreensão da interface do [!DNL Target]
@@ -72,7 +72,7 @@ Para obter mais informações, consulte [Habilidades de colega de trabalho para 
 
 Clicar no ícone da [!UICONTROL Ajuda] ( ![ícone da Ajuda](/help/main/assets/icons/HelpOutline.svg) ) permite acessar informações, vídeos, blogs e muito mais para ajudar você a usar o [!DNL Target] com mais eficiência. Você pode criar um tíquete de suporte, encontrar números de telefone de suporte, fazer perguntas pelo Twitter ou fornecer feedback sobre o [!DNL Target] para deixar seus comentários.[!DNL Target]
 
-![Ajuda &#x200B;](/help/main/c-intro/assets/help.png)
+![Ajuda ](/help/main/c-intro/assets/help.png)
 
 ### Solicitações, notificações e anúncios {#notifications-announcements}
 

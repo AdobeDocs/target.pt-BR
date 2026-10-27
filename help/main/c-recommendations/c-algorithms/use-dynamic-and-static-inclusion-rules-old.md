@@ -2,7 +2,7 @@
 keywords: regras de inclusão, critérios de inclusão, recomendações, criar novos critérios, promoção, promoções, filtragem dinâmica, dinâmica, valores em branco, ignorar regra de filtragem, filtro estático, filtrar por valor, correspondência de atributos de entidade, correspondência de atributos de perfil, correspondência de parâmetros, filtrar por valor, filtro estático
 description: Saiba como criar regras de inclusão no Adobe [!DNL Target] Recommendations para critérios e promoções. Para obter melhores resultados, adicione regras de filtragem mais dinâmicas ou estáticas.
 title: Como usar as regras de inclusão estática e dinâmica no Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 15%
+source-wordcount: '2113'
+ht-degree: 13%
 ---
 # Uso das regras de inclusão estática e dinâmica
 
@@ -107,7 +107,7 @@ Para selecionar a ação desejada, passe o mouse sobre o ícone de engrenagem (!
 
 | Ação | Disponível para | Detalhes |
 |--- |--- |--- |
-| [!UICONTROL Ignorar esta regra de filtragem] | [!UICONTROL Correspondência de atributos de perfil] e [!UICONTROL Correspondência de parâmetros] | Esta ação é o padrão para [!UICONTROL Correspondência de atributos de perfil] e [!UICONTROL Correspondência de parâmetros].<br>Esta opção especifica que a regra será ignorada. Por exemplo, se houver três regras de filtragem e a terceira regra não passar nenhum valor, em vez de não retornar nenhum resultado, você poderá simplesmente ignorar a terceira regra com os valores em branco. |
+| [!UICONTROL Ignorar esta regra de filtragem] | [!UICONTROL Correspondência de atributos de perfil] e [!UICONTROL Correspondência de parâmetros] | Esta ação é o padrão para [!UICONTROL Correspondência de atributos de perfil] e [!UICONTROL Correspondência de parâmetros].<br>Esta opção especifica que a regra será ignorada. Por exemplo, se houver três regras de filtragem e a terceira regra não passar valores, em vez de não retornar resultados, você pode simplesmente ignorar a terceira regra com os valores vazios. |
 | [!UICONTROL Não mostrar nenhum resultado para este critério]<br>(Somente critérios) | [!UICONTROL Correspondência de atributos de entidade], [!UICONTROL Correspondência de atributos de perfil] e [!UICONTROL Correspondência de parâmetros] | Esta ação é o padrão para [!UICONTROL Correspondência de Atributo de Entidade].<br>Esta ação é a forma como [!DNL Target] lidava com os valores em branco antes da adição desta opção: nenhum resultado é mostrado para este critério. |
 | [!UICONTROL Não promover itens<br>(Somente promoções)] | [!UICONTROL Correspondência de atributos de entidade], [!UICONTROL Correspondência de atributos de perfil] e [!UICONTROL Correspondência de parâmetros] | Esta ação é o padrão para [!UICONTROL Correspondência de Atributo de Entidade].<br>Esta ação é a forma como [!DNL Target] lidava com os valores em branco antes da adição desta opção: nenhum resultado é mostrado para este critério. |
 | [!UICONTROL Usar um valor estático] | [!UICONTROL Correspondência de atributos de entidade], [!UICONTROL Correspondência de atributos de perfil] e [!UICONTROL Correspondência de parâmetros] | Se um valor estiver em branco, você poderá optar por usar um valor estático. |

@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 29%
+source-wordcount: '457'
+ht-degree: 25%
 ---
 # Seletores de elementos usados no Visual Experience Composer
 
@@ -37,7 +37,7 @@ Você pode definir se deseja usar elemento em classes ou ID de elemento nas suas
 
 >[!NOTE]
 >
->Classes de elementos estão disponíveis como seletores em [!UICONTROL atividades de Teste A/B], [!UICONTROL Automated Personalization] e [!UICONTROL &#x200B; de Teste multivariado].
+>Classes de elementos estão disponíveis como seletores em [!UICONTROL atividades de Teste A/B], [!UICONTROL Automated Personalization] e [!UICONTROL  de Teste multivariado].
 
 Para obter informações sobre quando usar seletores de CSS e quando usar IDs exclusivas, consulte [Práticas recomendadas e limitações do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
@@ -85,7 +85,7 @@ Para obter informações sobre quando usar seletores de CSS e quando usar IDs ex
 
    Seletor: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (&quot; > &quot; indica o filho imediato.)
 
-   `eq` informa ao índice que há um elemento com &quot;tagName = UL&quot; e a primeira classe é `navigation`. Portanto, `index` é 0. Consulte o artigo [Seletores](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) no site MDN para obter mais informações.
+   `eq` informa ao índice que há um elemento com &quot;tagName=UL&quot; e a primeira classe é `navigation`. Portanto, `index` é 0. Consulte o artigo [Seletores](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) no site MDN para obter mais informações.
 
 1. Se um elemento não contiver uma classe, [!DNL Target] usará `tagName` para o elemento e navegará pelo elemento pai até que o elemento `<HTML>` ou um elemento com uma ID seja encontrado.
 

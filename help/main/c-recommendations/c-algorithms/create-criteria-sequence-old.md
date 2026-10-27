@@ -2,7 +2,7 @@
 keywords: sequência de critérios;vários critérios;algoritmos;critérios;critérios de recomendações;sequência;número limite de itens retornados;controle de nível de slot;slot
 description: Saiba como definir sequências de até cinco critérios para exercer maior controle dos itens que aparecem em suas atividades do Adobe [!DNL Target] Recommendations.
 title: Como criar sequências de critérios no Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 30%
+source-wordcount: '869'
+ht-degree: 26%
 ---
 # Criar sequências de critérios
 
@@ -29,7 +29,7 @@ Use sequências de até cinco critérios para exercer maior controle dos itens q
 
 Para criar uma sequência de critérios, você deve primeiro criar o critério que deseja incluir na sequência. Consulte [Criar critérios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) para obter mais informações.
 
-Ao usar uma sequência de critérios, você pode fornecer recomendações direcionadas adicionais, em vez de usar recomendações de backup mais genéricas, quando um critério não retorna resultados o suficiente para preencher seu design. Normalmente, uma sequência de critérios prosseguirá de um direcionamento mais específico, que pode retornar menos resultados, para um direcionamento mais geral, que geralmente retorna mais resultados.
+Ao usar uma sequência de critérios, você pode fornecer recomendações direcionadas adicionais, em vez de usar recomendações de backup mais genéricas, quando um critério não retorna resultados suficientes para preencher o design. Normalmente, uma sequência de critérios prosseguirá de um direcionamento mais específico, que pode retornar menos resultados, para um direcionamento mais geral, que geralmente retorna mais resultados.
 
 As sequências de critérios podem variar em ordem, dependendo do tipo de página, como mostrado nos exemplos a seguir:
 
@@ -102,4 +102,4 @@ Este vídeo contém as seguintes informações:
 * Criar sequências de critérios
 * Upload dos critérios personalizados
 
->[!VIDEO](https://video.tv.adobe.com/v/35374?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

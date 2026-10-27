@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3955'
-ht-degree: 56%
+source-wordcount: '3960'
+ht-degree: 55%
 ---
 # Aplicativo de página única (SPA) no Visual Experience Composer
 
@@ -366,7 +366,7 @@ Sim, a at.js 2.x suporta o A4T para SPA por meio da função `triggerView()`, po
 | 6 | Os dados do Target são correspondidos aos dados do Analytics pela SDID, e processados no armazenamento de relatório do Analytics. Em seguida, os dados do Analytics podem ser visualizados no Analytics e no Target pelos relatórios do A4T. |
 
 >[!NOTE]
->Se não quiser enviar notificações ao Adobe Analytics para a contagem de impressões sempre que uma exibição for acionada, passe `{page: false}` para a função `triggerView()`, de modo que a contagem de impressões não seja aumentada quando uma exibição é acionada várias vezes para um componente renderizado constantemente. Por exemplo:
+>Se você não quiser enviar notificações ao Adobe Analytics para a contagem de impressões sempre que uma exibição for acionada, passe `{page: false}` para a função `triggerView()`, de modo que a contagem de impressões não seja aumentada quando uma exibição é acionada várias vezes para um componente renderizado constantemente. Por exemplo:
 >
 >`adobe.target.triggerView("PRODUCTS-PAGE-2", {page:false})`
 
@@ -383,7 +383,7 @@ Sim, a at.js 2.x suporta o A4T para SPA por meio da função `triggerView()`, po
 | [Personalização automatizada](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Não |
 | [Recomendações](/help/main/c-recommendations/recommendations.md) | Não |
 
-**Se a at.js 2.x for instalada e implementada `triggerView()` em nossos sites, como é possível executar atividades A/B de Direcionamento automático, já que a SPA do VEC não é compatível com o Direcionamento automático?**
+**Se a at.js 2.x for instalada e `triggerView()` for implementado em nossos sites, como é possível executar atividades A/B de Direcionamento automático, pois a SPA do VEC não é compatível com o Direcionamento automático?**
 
 Se você quiser usar atividades A/B de Direcionamento automático, mova todas as suas ações para serem executadas no Evento de carregamento de página no VEC. Passe o mouse sobre cada ação e clique no botão [!UICONTROL Mover para o evento de carregamento de página]. Depois de fazer isso, na próxima etapa você pode selecionar o Direcionamento automático para o método de alocação de tráfego.
 
@@ -393,7 +393,7 @@ Se você quiser usar atividades A/B de Direcionamento automático, mova todas as
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Sim |
 | [Públicos-alvo da Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md) | Sim |
-| [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=pt-BR){target=_blank} | Sim |
+| [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | Sim |
 | [Fragmentos de experiência do AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Sim |
 
 ## Recursos compatíveis {#supported-features}
@@ -416,7 +416,7 @@ Para acessar as opções de [!UICONTROL Entrega de página] no fluxo de trabalho
 
 ![Caixa de diálogo de opções de Entrega de página](/help/main/c-experiences/assets/page-delivery.png)
 
-Por exemplo, conforme definido pelas configurações de [!UICONTROL Entrega de página] mostradas acima, uma atividade do Target é qualificada e executada quando um visitante acessa diretamente o `https://www.adobe.com/br` *ou* quando um visitante acessa qualquer URL que contém `https://www.adobe.com/br/products`. Isso funciona perfeitamente para aplicativos de várias páginas em que cada interação com a página chama um recarregamento de página, para o qual a at.js recupera as atividades qualificadas para o URL ao qual o usuário navega.
+Por exemplo, conforme definido pelas configurações de [!UICONTROL Entrega de página] mostradas acima, uma atividade do Target é qualificada e executada quando um visitante acessa diretamente o `https://www.adobe.com` *ou* quando um visitante acessa qualquer URL que contém `https://www.adobe.com/products`. Isso funciona perfeitamente para aplicativos de várias páginas em que cada interação com a página chama um recarregamento de página, para o qual a at.js recupera as atividades qualificadas para o URL ao qual o usuário navega.
 
 No entanto, como os SPAs funcionam de forma diferente, as configurações de [!UICONTROL Entrega de página] devem ser definidas de modo a permitir que todas as ações sejam aplicadas às Exibições, conforme definido na atividade de SPA VEC.
 
@@ -476,7 +476,7 @@ Esta mensagem é exibida quando você adiciona a primeira ação a uma Exibiçã
 
 ## Vídeo de treinamento: uso do VEC para SPAs no Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/34802?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 Consulte [Uso do Visual Experience Composer para Single Page Application (SPA VEC) no Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) para obter mais informações.
 

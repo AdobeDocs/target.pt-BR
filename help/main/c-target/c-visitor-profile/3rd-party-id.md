@@ -7,19 +7,22 @@ exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
 TQID: https://experienceleague.adobe.com/72tenrUdLD52p36hO1O70-zhr1Cg0jTVLfKXUR7iNhU
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 741
-ht-degree: 80%
-
+source-wordcount: '742'
+ht-degree: 78%
 ---
-
 # Sincronização de perfil em tempo real para mbox3rdPartyId
 
 A `mbox3rdPartyId` no [!DNL Adobe Target] é a ID de visitante da sua empresa, como a ID de associação do programa de fidelidade da empresa.
@@ -49,23 +52,23 @@ Quando o visitante faz logoff, o perfil mesclado é mantido.
 
 ## Considerações {#considerations}
 
-* Se a página contiver várias mboxes e somente algumas usarem a `3rdPartyID`, o [!DNL Target] não terá um perfil do visitante/contexto separado para cada solicitação do visitante. O contexto da `3rdPartyID` tem prioridade sobre o contexto da PCID. Basta que uma mbox transmita a `3rdPartyId` para que o contexto tenha prioridade sobre a PCID.
+* Se a página contiver várias mboxes e somente algumas usarem a `3rdPartyID`, o [!DNL Target] não terá um perfil do visitante/contexto separado para cada solicitação do visitante. O contexto da `3rdPartyID` tem prioridade sobre o contexto da PCID. Basta que uma mbox transmita `3rdPartyId` para que o contexto tenha prioridade sobre a PCID.
 
   Por exemplo, suponha que um visitante acesse uma página antes de fazer logon e visualize uma experiência. A mbox global não usa a `3rdPartyID`. Depois de fazer logon, o visitante visualiza uma das três experiências com mboxes filhas, sendo que algumas usam a `3rdPartyID`. O visitante visita várias páginas no site e usa o botão Voltar para retornar à página principal acessada antes de fazer logon e visualizar uma experiência diferente. Neste cenário, a mbox global não transmitiu a `3rdPartyID`, mas uma ou mais mboxes filhas transmitiram. A `3rdPartyID` teve prioridade sobre a PCID.
 
 * Você pode enviar as IDs de cliente dos visitantes para o [!DNL Target] usando duas abordagens:
 
-   1. Use `mbox3rdPartyId`/`thirdPartyId`.
+  1. Use `mbox3rdPartyId`/`thirdPartyId`.
 
-      * `mbox3rdPartyId` é o nome do parâmetro ao usar `targetPageParams` ou `targetPageParamsAll`
-      * `thirdPartyId` é o nome do parâmetro definido diretamente na carga da API de entrega.
-      * Você pode enviar apenas um valor neste parâmetro.
+     * `mbox3rdPartyId` é o nome do parâmetro ao usar `targetPageParams` ou `targetPageParamsAll`
+     * `thirdPartyId` é o nome do parâmetro definido diretamente na carga da API de entrega.
+     * Você pode enviar apenas um valor neste parâmetro.
 
-   1. Use a função `setCustomerId`/`customerIds` do serviço ECID.
+  1. Use a função `setCustomerId`/`customerIds` do serviço ECID.
 
-      * `setCustomerId` é uma função que você pode usar em implementações do lado do cliente (navegador) quando VisitorAPI.js estiver disponível na página.
-      * `customerIds` é o nome do parâmetro usado ao defini-lo diretamente na carga da API de entrega e geralmente é feito em implementações do lado do servidor ou de IOT (Internet das coisas).
-      * Ao contrário da `mbox3rdPartyId`/`thirdPartyId`, você pode enviar várias IDs como uma lista nesta abordagem, mas como o [!DNL Target] suporta apenas uma única ID de cliente por TnT Id, ele usa a primeira ID na lista com um alias conhecido (alias configurado na interface do usuário de atributos do cliente).
+     * `setCustomerId` é uma função que você pode usar em implementações do lado do cliente (navegador) quando VisitorAPI.js estiver disponível na página.
+     * `customerIds` é o nome do parâmetro usado ao defini-lo diretamente na carga da API de entrega e geralmente é feito em implementações do lado do servidor ou de IOT (Internet das coisas).
+     * Ao contrário da `mbox3rdPartyId`/`thirdPartyId`, você pode enviar várias IDs como uma lista nesta abordagem, mas como o [!DNL Target] suporta apenas uma única ID de cliente por TnT Id, ele usa a primeira ID na lista com um alias conhecido (alias configurado na interface do usuário de atributos do cliente).
 
   Você pode usar o `mbox3rdPartyId`/`thirdPartyId` se [!DNL Target] for sua única solução do [!DNL Adobe Experience Cloud] e não quiser usar os Atributos do cliente. Para todos os outros casos, recomendamos que você use o `setCustomerId`/`customerIds` para enviar suas IDs de cliente.
 

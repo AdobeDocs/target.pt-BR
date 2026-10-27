@@ -2,7 +2,7 @@
 keywords: recommendations feed;feed;SAINT;ftp;sftp;csv;classificações;análises classificações
 description: Saiba como os feeds importam entidades para [!DNL Adobe Target] [!DNL Recommendations] usando arquivos CSV, o formato de feed [!DNL Google Product Search] e as classificações de produto [!DNL Analytics].
 title: Como faço para usar os [!UICONTROL Feeds] em [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 TQID: 'https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go'
@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2785'
-ht-degree: 31%
+source-wordcount: '2792'
+ht-degree: 29%
 ---
 # Feeds
 
@@ -224,7 +224,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Classificações de produto de [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-A classificação do Produto [!DNL Adobe Analytics] é a única classificação disponível para recomendações. Para obter mais informações sobre esse arquivo de classificação, consulte [Sobre classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=pt-BR) no guia *Componentes do Analytics*. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, portanto, siga este guia do usuário se desejar adicioná-las ao arquivo de classificações.
+A classificação do Produto [!DNL Adobe Analytics] é a única classificação disponível para recomendações. Para obter mais informações sobre esse arquivo de classificação, consulte [Sobre classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) no guia *Componentes do Analytics*. É possível que nem todas as informações que você precisa para as recomendações estejam disponíveis em sua implementação atual do, por isso, siga o guia do usuário se desejar adicioná-las ao arquivo de classificações.
 
 >[!IMPORTANT]
 >
@@ -343,7 +343,7 @@ O indicadores de status do feed a seguir são exibidos na coluna [!UICONTROL Sta
 | Indicador de status | Descrição |
 |--- |--- |
 | Indicador de status verde | Quando um feed acaba de indexar de modo bem-sucedido, um ponto de status verde indica que o feed está em um estado bem-sucedido. |
-| Indicador de status amarelo | Quando um feed ou índice de feed é atrasado em 25% da frequência de feed, um ponto de status amarelo é exibido. Por exemplo, um ponto de status amarelo é exibido para um feed definido para execução diária, se o índice ainda não concluiu seis horas após o tempo agendado. Observação: assim que o status do feed for &quot;Aguardando para fila de índice&quot;, os novos valores atualizados estarão disponíveis no processamento de entrega e critérios. |
+| Indicador de status amarelo | Quando um feed ou índice de feed é atrasado em 25% da frequência de feed, um ponto de status amarelo é exibido. Por exemplo, um ponto amarelo é exibido para um feed definido para execução diária, se o índice não tiver sido concluído seis horas após o horário agendado. Observação: assim que o status do feed for &quot;Aguardando para fila de índice&quot;, os novos valores atualizados estarão disponíveis no processamento de entrega e critérios. |
 | Indicador de status branco | Quando um feed não está agendado, um ponto de status branco indica que o feed ainda não foi executado. |
 | Indicador de status vermelho | Se o feed não carregar dados no servidor, um indicador de status vermelho será mostrado. |
 
@@ -352,14 +352,14 @@ Considere os exemplos a seguir:
 **Exemplo 1:**
 
 * Primeiro dia: o feed é processado diariamente às 9h PST.
-* Dia dois: são 15:30 e o feed aina não executou desde 9h.
+* Dia dois: são 15h30 e o feed não funciona desde ontem às 9h.
 
 O status deve ser amarelo, pois o índice deveria ter sido executado há aproximadamente 6,5 horas. 6,5 horas +24 é 127% da janela de feed.
 
 **Exemplo 2:**
 
 * 1 de janeiro: o feed mensal é processado às 9:00 PST.
-* 3 de fevereiro: são 10h e o feed não é executado há um mês, um dia e uma hora.
+* 3 de fevereiro: são 10h e o feed não é executado por um mês, um dia e uma hora atrás.
 
 O status deve ser amarelo, pois o índice deveria ter sido executado há aproximadamente um dia e uma hora. Embora isso seja somente (31+(1/25))/30 = 1,03% da configuração de frequência, ultrapassou o máximo de atraso de um dia.
 
@@ -374,7 +374,7 @@ Este vídeo contém as seguintes informações:
 * Entender a finalidade dos feeds
 * Entender o valor dos feeds
 
->[!VIDEO](https://video.tv.adobe.com/v/33963?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Criar um feed (6:44) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
@@ -383,4 +383,4 @@ Este vídeo contém as seguintes informações:
 * Configurar um feed
 * Saber qual tipo de feed usar
 
->[!VIDEO](https://video.tv.adobe.com/v/33962?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

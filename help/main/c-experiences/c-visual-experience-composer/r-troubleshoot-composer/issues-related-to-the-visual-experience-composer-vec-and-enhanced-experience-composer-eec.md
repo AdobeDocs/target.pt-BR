@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 31%
+source-wordcount: '1274'
+ht-degree: 29%
 ---
 # Solução de problemas relacionados ao [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] e [!UICONTROL Enhanced Experience Composer]
 
@@ -139,7 +139,7 @@ Se a mesma ID de elemento DOM for usada em vários elementos na página, a alter
 
 +++
 
-## Não consigo editar experiências para um site do iFrame. (VEC e EEC) {#section_9FE266B964314F2EB75604B4D7047200}
+## Não consigo editar experiências para um site de edição de iFrame. (VEC e EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++Detalhes
 Esse problema pode ser resolvido habilitando o [!UICONTROL Enhanced Experience Composer] (EEC). Clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]** e marque a caixa de seleção que habilita o [!UICONTROL Enhanced Experience Composer]. O EEC usa um proxy gerenciado por [!DNL Adobe] para carregar sua página para edição. Esse proxy permite a edição em sites com interrupção de iFrame e permite a edição em sites e páginas nos quais você ainda não adicionou o código [!DNL Adobe Target]. As atividades não são entregues ao site antes de o código ser adicionado. Alguns sites podem não ser carregados pelo EEC, nesse caso, você poderá desmarcar essa opção para carregar o EEC por meio de um iFrame.
@@ -150,10 +150,10 @@ Esse problema pode ser resolvido habilitando o [!UICONTROL Enhanced Experience C
 
 +++
 
-## Quero configurar testes em páginas que ainda não têm a implementação da mbox/[!DNL Target] concluída. (VEC e EEC) {#section_DE63BCCB5B124E10A71FA579B582A80A}
+## Eu desejo configurar testes em páginas que ainda não têm a implementação da mbox/[!DNL Target] concluída. (VEC e EEC) {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++Detalhes
-Consulte &quot;Não consigo editar experiências para um site do iFrame&quot;.
+Consulte &quot;Não consigo editar experiências para um site de intermitência de iFrame&quot; acima.
 
 +++
 

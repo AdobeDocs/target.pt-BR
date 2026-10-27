@@ -1,5 +1,5 @@
 ---
-keywords: solucionar problemas do target, solução de problemas do target, conteúdo padrão, teste não ativo, atividade não ativa, não funcionamento do direcionamento, exibições da experiência anterior, não é possível criar atividades, não é possível criar atividades, criar atividades, estrutura de página alterada, estrutura de página modificada, mensagem de erro, script de perfil para a exclusão do erro, não funcionamento do ajax
+keywords: solução de problemas destino;solução de problemas destino;conteúdo padrão;teste não ativo;atividade não ativa;direcionamento não funcionando;a experiência anterior é exibida;não é possível criar atividades;não é possível criar atividades;criar atividades;estrutura de página alterada;estrutura de página modificada;mensagem de erro;script de perfil de exclusão de erro;ajax não está funcionando
 description: Encontre sugestões para a solução de problemas se a atividade do Adobe [!DNL Target] não aparecer no seu site.
 title: Como posso solucionar problemas de atividades?
 feature: Activities
@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 41%
+source-wordcount: '870'
+ht-degree: 36%
 ---
 # Solução de problemas de atividades
 

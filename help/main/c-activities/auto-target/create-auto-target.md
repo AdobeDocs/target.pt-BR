@@ -2,7 +2,7 @@
 keywords: Criar direcionamento automático;teste A/B;atividade de direcionamento automático;nova atividade a/b;direcionamento automático;direcionamento automático para experiências personalizadas;personalizado;otimização
 description: Saiba como usar o [!UICONTROL Visual Experience Composer] (VEC) para criar uma atividade de Teste A/B de [!UICONTROL Direcionamento automático].
 title: Como criar uma atividade de [!UICONTROL Direcionamento automático]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 TQID: 'https://experienceleague.adobe.com/qbt-h-4C4uVz6r6xmwKmSeU-RuBdWikmtDQq40dBq9k'
@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 17%
+source-wordcount: '1063'
+ht-degree: 15%
 ---
 # Criar uma atividade de [!UICONTROL Direcionamento automático]
 
@@ -95,7 +95,7 @@ Para criar uma atividade de [!UICONTROL Direcionamento automático]:
 
 1. Crie novas experiências alterando os elementos na página.
 
-   O [!UICONTROL Visual Experience Composer] exibe duas guias no lado esquerdo depois que você cria uma nova atividade: [!UICONTROL Experiência A] e [!UICONTROL Experiência B]. A [!UICONTROL Experiência A] é a experiência de controle. Seu foco está na guia [!UICONTROL Experiência B], que você pode modificar conforme desejado. [!UICONTROL Experiência B] é a experiência alternativa que você pode adicionar ao seu teste. Você pode adicionar várias experiências ao teste clicando no ícone [!UICONTROL Adicionar] ( ![Ícone Adicionar](/help/main/assets/icons/Add.svg) ) na parte superior do painel [!UICONTROL Experiências]. Você também podem excluir a Experiência A da atividade se não quiser incluir uma experiência de site padrão como opção.
+   O [!UICONTROL Visual Experience Composer] exibe duas guias no lado esquerdo depois que você cria uma nova atividade: [!UICONTROL Experiência A] e [!UICONTROL Experiência B]. A [!UICONTROL Experiência A] é a experiência de controle. Seu foco está na guia [!UICONTROL Experiência B], que você pode modificar conforme desejado. [!UICONTROL Experiência B] é a experiência alternativa que você pode adicionar ao seu teste. Você pode adicionar várias experiências ao teste clicando no ícone [!UICONTROL Adicionar] ( ![Ícone Adicionar](/help/main/assets/icons/Add.svg) ) na parte superior do painel [!UICONTROL Experiências]. Você também pode excluir a Experiência A da atividade se não quiser incluir uma experiência padrão do site como opção.
 
    Para obter mais informações sobre como adicionar ou modificar experiências no [!UICONTROL Visual Experience Composer], consulte [Adicionar experiência](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Para modificar a Experiência B, comece com a etapa 2.
 

@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '4075'
-ht-degree: 31%
+source-wordcount: '4083'
+ht-degree: 30%
 ---
 # Basear a recomendação em uma chave de recomendação
 
@@ -41,7 +41,7 @@ Diferentes algoritmos de recomendações se prestam ao posicionamento em diferen
 
 ## Baseado em carrinho {#cart-based}
 
-O tipo de algoritmo [!UICONTROL Baseado em carrinho] permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio do [parâmetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} em valores separados por vírgulas. Somente os primeiros dez valores são considerados.
+O tipo de algoritmo [!UICONTROL Baseado em carrinho] permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio do [parâmetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} em valores separados por vírgulas. Somente os primeiros dez valores são considerados.
 
 A lógica de recomendação baseada em carrinho é semelhante ao algoritmo baseado em usuário &quot;[!UICONTROL Recomendado para você]&quot; e aos algoritmos baseados em item &quot;[!UICONTROL Pessoas que visualizaram isto, compraram aquilo]&quot; e &quot;[!UICONTROL Pessoas que compraram aquilo, compraram aquilo]&quot;.
 
@@ -288,7 +288,7 @@ Exibições e compras são usadas para determinar os itens recomendados. A chave
 
 Por exemplo, você pode:
 
-* Exclua itens que não atendam a determinados critérios (produtos indisponíveis, artigos publicados há mais de 30 dias, filmes com classificação R e assim por diante).
+* Exclua itens que não atendem a determinados critérios (produtos indisponíveis, artigos publicados há mais de 30 dias, filmes com classificação R e assim por diante).
 * Limitar os itens incluídos a uma única categoria ou à categoria atual.
 
 Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves de filtragem:
@@ -372,7 +372,7 @@ Você pode basear as recomendações no valor de um atributo de perfil personali
 
    ![Caixa de diálogo Criar novos critérios](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-Se o atributo de perfil personalizado não corresponder diretamente a uma única ID de entidade, é necessário explicar ao [!DNL Recommendations] como você deseja que a correspondência seja feita a uma entidade. Por exemplo, suponha que você deseja exibir os principais itens de venda da marca favorita de um visitante.
+Se o atributo de perfil personalizado não corresponder diretamente a uma única ID de entidade, é necessário explicar a [!DNL Recommendations] como você deseja que a correspondência seja feita a uma entidade. Por exemplo, suponha que você deseja exibir os principais itens de venda da marca favorita de um visitante.
 
 1. Selecione o atributo de perfil personalizado na lista suspensa **[!UICONTROL Chave de recomendação]** (por exemplo, &quot;Marca favorita&quot;).
 

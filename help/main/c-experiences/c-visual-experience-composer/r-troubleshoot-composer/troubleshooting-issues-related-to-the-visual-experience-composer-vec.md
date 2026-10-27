@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 29%
+source-wordcount: '1156'
+ht-degree: 27%
 ---
 # Solução de problemas relacionados ao [!UICONTROL Visual Experience Composer]
 
@@ -47,14 +47,14 @@ Para evitar esse problema, assegure-se de não cortar ou remover esses dois par�
 
 +++
 
-## Minha página não abre no EEC ou carrega lentamente. As atividades ou experiências são carregadas de forma lenta no VEC. (Somente VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## Minha página não abrirá no EEC ou será carregada lentamente. As atividades ou experiências são carregadas de forma lenta no VEC. (Somente VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 +++Detalhes
 Vários problemas podem afetar o desempenho da página nos Experience Composers do [!UICONTROL Target]. Alguns erros comuns incluem:
 
 * Você não tem uma mbox na página.
 * Seu site usa o bloqueio de proxy, que não permite que a página seja aberta em nenhum compositor de experiência.
-* Seu site não pode ser aberto em um iFrame.
+* Seu site não permite que ele seja aberto em um iFrame.
 
 Se ocorrerem problemas no [!UICONTROL Enhanced Experience Composer], tente desativar o [!UICONTROL Enhanced Experience Composer] e use o [!UICONTROL Visual Experience Composer].
 
@@ -80,7 +80,7 @@ Se nem o [!UICONTROL Visual Experience Composer] nem o [!UICONTROL Enhanced Expe
 >
 >* Habilite a regra quando estiver editando no VEC e desabilite a regra quando não estiver usando o VEC.
 >
->Para a extensão ([!DNL Firefox]) [!UICONTROL Modificar Cabeçalho de Resposta], como você não pode adicionar uma regra de URL, é necessário fazer o seguinte:
+>Para a extensão ([!DNL Firefox]) [!UICONTROL Modificar Cabeçalho de Resposta], como não é possível adicionar uma regra de URL, você deve fazer o seguinte:
 >
 >* Habilite a regra quando estiver editando no VEC e desabilite a regra quando não estiver usando o VEC.
 

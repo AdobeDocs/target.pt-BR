@@ -2,7 +2,7 @@
 keywords: recomendação, backup, fazer o back up
 description: Saiba como usar recomendações de backup no Adobe [!DNL Target] Recommendations. A recomendação de que não há itens recomendados suficientes exibe os resultados do algoritmo de backup.
 title: Como usar uma recomendação de backup no Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 75%
+source-wordcount: '555'
+ht-degree: 71%
 ---
 # Usar uma recomendação de backup
 

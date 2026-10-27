@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 87%
+source-wordcount: '972'
+ht-degree: 78%
 ---
 # Solução de problemas da integração do Analytics e do [!DNL Target] (A4T)
 
@@ -38,11 +38,11 @@ Este tópico aborda alguns problemas comuns encontrados durante o uso do [!DNL A
 
 Há vários motivos pelos quais dados exibidos como “não especificados” podem ocorrer:
 
-* A classificação no [!DNL Target] não foi completamente processada.
+* A classificação em [!DNL Target] não foi totalmente processada.
 
   A classificação geralmente leva entre 24 e 72 horas para relatórios após a primeira gravação.
 
-* O conjunto de relatórios não contém nenhum dado, mas o [!DNL Target] tentou classificar os hits. O [!DNL Target] não pode classificar os dados até que o primeiro hit ocorra.
+* O conjunto de relatórios não contém nenhum dado, mas [!DNL Target] tentou classificar os hits. O [!DNL Target] não pode classificar os dados até que o primeiro hit ocorra.
 
   Verifique se o conjunto de relatórios teve pelo menos um hit.
 
@@ -54,7 +54,7 @@ Se você analisar a linha “não especificado” pela dimensão “Analytics fo
 
 >[!NOTE]
 >
->Às vezes, os dados são exibidos corretamente nos relatórios, mas depois são revertidos para “não especificados” porque uma nova atividade que não concluiu a classificação foi adicionada. Lembre-se de que a classificação geralmente leva entre 24 e 72 horas para relatórios após a primeira gravação.
+>Às vezes, os dados são exibidos corretamente nos relatórios, mas depois são revertidos para &quot;não especificados&quot; porque foi adicionada uma nova atividade que não concluiu a classificação. Lembre-se de que a classificação geralmente leva entre 24 e 72 horas para relatórios após a primeira gravação.
 >
 >Nenhum dado é perdido quando listado como &quot;não especificado&quot;. Os dados são adequadamente atribuídos à atividade ou experiência apropriada após a execução da classificação.
 
@@ -64,9 +64,9 @@ Pode haver uma linha de eventos &quot;[!UICONTROL Não especificado]&quot; no re
 
 Normalmente, esta linha é exibida se você escolher uma métrica comum no relatório que não é específico de [!DNL Target] (por exemplo, [!UICONTROL Exibições de página], [!UICONTROL Visitas], [!UICONTROL Visitantes únicos] e assim por diante). Neste caso, a linha [!UICONTROL &quot;Não especificado&quot;] inclui todas as [!UICONTROL Exibições de Página], [!UICONTROL Visitas] e [!UICONTROL Visitantes Únicos] que não estão associadas a [!DNL Target] atividades.
 
-Essa linha não terá nenhuma informação associada ao [!DNL Target] (por exemplo, nenhum visitante, visita ou impressão). Para obter mais informações, consulte [“Não especificados”, “Nenhum”, “Outros” e “Desconhecidos” nos relatórios](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=pt-BR) nas *notas técnicas do Analytics*.
+Essa linha não terá nenhuma informação associada a [!DNL Target] (por exemplo, sem visitantes, visitas ou impressões). Para obter mais informações, consulte [“Não especificados”, “Nenhum”, “Outros” e “Desconhecidos” nos relatórios](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=pt-BR) nas *notas técnicas do Analytics*.
 
-Se você escolher uma métrica específica para [!DNL Target] no relatório, que [!UICONTROL &#x200B; &quot;Não especificado&quot;] linha não é exibida. A única maneira de evitar que isso aconteça no relatório é definir uma chamada do [!DNL Target] em cada solicitação enviada dessa página, o que não é comum ou necessário.
+Se você escolher uma métrica específica para [!DNL Target] no relatório, que [!UICONTROL  &quot;Não especificado&quot;] linha não é exibida. A única maneira de evitar que isso aconteça no relatório é definir uma chamada do [!DNL Target] em cada solicitação enviada dessa página, o que não é comum ou necessário.
 
 ## O aumento estimado na métrica da receita não está mostrando os dados corretos. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -100,7 +100,7 @@ A lista de conjuntos de relatórios que aparece no [!DNL Target Standard/Premium
 
 Se você estiver usando várias fontes de relatórios, os conjuntos de relatórios deverão estar presentes na fonte de relatórios padrão definida no [!DNL Target] também. Se os conjuntos de relatórios não estiverem na fonte de relatórios padrão, eles não serão exibidos.
 
-Caso não veja o conjunto de relatórios que você está procurando, entre em contato com o [Atendimento ao cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para habilitá-lo.
+Se você ainda não vir o conjunto de relatórios que está procurando, contate o [Atendimento ao Cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para ativá-lo.
 
 ## Não vejo tantos dados nos relatórios quanto esperado. {#section_75002584FA63456D8D9086172925DD8D}
 

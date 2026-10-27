@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: f7501c88-b36a-590b-9cc4-dea607bda94b
     internal-label: Visual Experience Composer (VEC)
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '1382'
-ht-degree: 75%
+ht-degree: 74%
 ---
 # Visual Experience Composer (VEC)
 
@@ -128,7 +128,7 @@ Os vídeos a seguir contêm mais informações sobre os conceitos discutidos nes
 * Visualizar e criar a experiência para sites responsivos
 * Use sobreposições para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/30981?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Office hours: Visual Experience Composer ![Selo do tutorial](/help/main/assets/tutorial.png)
 

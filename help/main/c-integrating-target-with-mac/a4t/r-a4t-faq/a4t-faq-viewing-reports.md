@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2700'
-ht-degree: 27%
+source-wordcount: '2716'
+ht-degree: 26%
 ---
 # Exibição de relatórios - Perguntas frequentes sobre o A4T
 
@@ -100,7 +100,7 @@ Para obter mais informações, consulte [Como configurar relatórios do A4T no A
 +++Resposta
 [!DNL Reports & Analytics] aplica um modelo de atribuição do mesmo toque a &quot;impressões de atividade&quot; e &quot;conversões de atividade&quot;, enquanto [!DNL Analysis Workspace] exibe as métricas brutas, que podem parecer infladas devido à persistência da dimensão [!DNL Target].
 
-Para avaliar métricas [!UICONTROL Impressões de atividade] e [!UICONTROL Conversões de atividade] precisas em [!DNL Analysis Workspace], verifique se ambas as métricas aplicaram modelos de atribuição [!UICONTROL Mesmo contato]. Os modelos podem ser aplicados clicando na engrenagem das configurações de coluna, habilitando [!UICONTROL Modelos de atribuição não padrão] e selecionando [!UICONTROL Mesmo toque]. Saiba mais sobre atribuição em [Visão geral de IQ dos atributos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=pt-BR) no *Guia de ferramentas do Analytics*.
+Para avaliar métricas [!UICONTROL Impressões de atividade] e [!UICONTROL Conversões de atividade] precisas em [!DNL Analysis Workspace], verifique se ambas as métricas aplicaram modelos de atribuição [!UICONTROL Mesmo contato]. Os modelos podem ser aplicados clicando na engrenagem das configurações de coluna, habilitando [!UICONTROL Modelos de atribuição não padrão] e selecionando [!UICONTROL Mesmo toque]. Saiba mais sobre atribuição em [Visão geral de IQ dos atributos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) no *Guia de ferramentas do Analytics*.
 
 +++
 
@@ -164,9 +164,9 @@ O usuário volta em 1 de abril, visualiza outras cinco páginas e faz uma compra
 | ABC | 1 | 10 | 2 | 1 | 1 |
 | Total | 2 | 20 | 3 | 1 | 1 |
 
-Como ambas as experiências foram vistas antes da conversão, ambas recebem &quot;crédito&quot; pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para os relatórios de [!DNL Target], como você não está comparando uma atividade de [!DNL Target] com outra atividade para ver qual é mais bem-sucedida, não importa se todas as atividades que o usuário viu receberam crédito. Você está comparando os resultados de dois itens em uma única atividade. Não é possível para um usuário ver experiências diferentes na mesma atividade, de modo que você não precisa se preocupar com a contaminação cruzada do crédito do pedido.
+Como ambas as experiências foram vistas antes da conversão, ambas recebem &quot;crédito&quot; pelo pedido. Mas, apenas um pedido ocorreu no sistema e o total reflete isso. Para os relatórios de [!DNL Target], como você não está comparando uma atividade de [!DNL Target] com outra atividade para ver qual é mais bem-sucedida, não importa se todas as atividades que o usuário viu receberam crédito. Você está comparando os resultados de dois itens dentro da única atividade. Não é possível para um usuário ver experiências diferentes na mesma atividade, de modo que você não precisa se preocupar com a contaminação cruzada do crédito do pedido.
 
-Para obter mais informações, consulte [Variáveis de conversão (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=pt-BR)) no *Guia de administração do Analytics*.
+Para obter mais informações, consulte [Variáveis de conversão (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) no *Guia de administração do Analytics*.
 
 +++
 
@@ -180,13 +180,13 @@ Uma fonte de impressões para um relatório de atividade do A4T após a desativa
 ## Por que o [!DNL Analytics] e o [!UICONTROL Analytics for Adobe Target] (A4T) calculam números para a métrica [!UICONTROL Visitantes únicos] de forma diferente? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 +++Resposta
-Quando você executa um teste A/B, que usa o [teste t de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (a métrica de confiança) para escolher um vencedor de um teste, uma das premissas é que há um horizonte de tempo fixo. O teste não é estatisticamente válido a menos que você esteja olhando para esse tamanho fixo de amostra.
+Quando você executa um teste A/B, que usa o [teste t de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (a métrica de confiança) para escolher um vencedor de um teste, uma das premissas é que há um horizonte de tempo fixo. O teste não é estatisticamente válido a menos que você esteja observando o tamanho fixo da amostra.
 
 A métrica [!UICONTROL Visitantes únicos] é diferente em [!DNL Analytics] e [!DNL Target] somente quando você está observando um período mais curto que o teste real. Se você não tiver atingido o tamanho da amostra, o teste não será tão confiável. Consulte [Como não executar um teste A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) no [site de Evan Miller](https://www.evanmiller.org/index.html) para obter mais informações.
 
 A métrica [!UICONTROL Visitantes únicos] exibe o número de pessoas que foram expostas ao teste que visitaram o site durante o período especificado. Essas pessoas fazem parte do teste e devem ser contadas. Se quiser ver apenas o número de pessoas que foram expostas durante uma única semana, você pode criar um segmento de visitantes que tiveram uma impressão de atividade e aplicá-lo ao relatório.
 
-Você pode encurtar a quantidade de tempo que a variável [!DNL Target] persiste para uma sessão; no entanto, isso é problemático para testes em que o evento de conversão não tem a mesma probabilidade de ocorrer na mesma sessão.
+Você pode encurtar a quantidade de tempo que a variável [!DNL Target] persiste até uma sessão; no entanto, isso é problemático para testes em que o evento de conversão não tem a mesma probabilidade de ocorrer na mesma sessão.
 
 +++
 
@@ -238,7 +238,7 @@ Lembre-se de alguns pontos ao visualizar os relatórios de [!DNL Analytics]:
 Para exibir as impressões da atividade em [!DNL Analysis Workspace]:
 
 1. Na interface do usuário do [!DNL Target], clique em **[!UICONTROL Exibir no Analytics]**.
-1. Adicione a coluna **[!UICONTROL Impressões da atividade]** ao relatório [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR){target=_blank}.
+1. Adicione a coluna **[!UICONTROL Impressões da atividade]** ao relatório [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank}.
 1. Na coluna **[!UICONTROL Impressões de atividade]**, clique no ícone [!UICONTROL Engrenagem].
 1. Clique em **[!UICONTROL Usar modelo de atribuição não padrão]**.
 1. Selecione **[!UICONTROL Mesmo modelo de toque]** > **[!UICONTROL Aplicar]**.

@@ -25,14 +25,14 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 100%
+source-wordcount: '1077'
+ht-degree: 91%
 ---
 # Capítulo 5: Inspiração para atividades de teste e personalização.
 
-Essas ideias de teste e personalização, inspiradas em atividades reais executadas por nossos clientes que elevaram as taxas de conversão e a receita, merecem ser testadas ou usadas como inspiração para suas próprias atividades do [!DNL Target]. Mesmo que a ideia não se encaixe exatamente na sua organização, com um pouco de criatividade e brainstorming, considere desenvolver uma atividade com base na essência do teste ou da ideia de personalização.
+Essas ideias de teste e personalização, inspiradas em atividades reais executadas por nossos clientes que elevaram as taxas de conversão e a receita, merecem ser testadas ou usadas como inspiração para suas próprias atividades do [!DNL Target]. Mesmo que a ideia não se encaixe exatamente na sua organização, com um pouco de criatividade e brainstorming, considere desenvolver uma atividade com base no espírito do teste ou da ideia de personalização.
 
 ## Ideia 1: Teste a personalização da jornada do cliente.
 

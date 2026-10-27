@@ -2,7 +2,7 @@
 keywords: deduplicação;permitir duplicatas;excluir ofertas duplicadas;personalização automatizada;não permitir ofertas duplicadas;excluir;conteúdo padrão;grupo de exclusão;
 description: Gerenciar exclusões nas atividades de [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP). Crie grupos de exclusão e exclua ofertas duplicadas, experiências específicas e conteúdo padrão.
 title: Como gerenciar exclusões nas atividades do [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
@@ -17,9 +17,9 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1010'
 ht-degree: 47%
 ---
 # Gerenciar exclusões
@@ -76,7 +76,7 @@ Clique na opção de engrenagem **[!UICONTROL Configurar]** > **[!UICONTROL Dupl
 
 Exclua experiências específicas se quiser excluir determinadas combinações de ofertas da atividade do [!UICONTROL Automated Personalization].
 
-Pode haver determinadas combinações que não funcionam juntas ou você pode estar limitando o número de experiências testadas para diminuir os requisitos de tráfego para sua atividade.
+Pode haver determinadas combinações que não funcionam juntas ou você pode estar limitando o número de experiências testadas para diminuir os requisitos de tráfego para a sua atividade.
 
 1. Ao [criar ou editar uma atividade de AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), clique em **Gerenciar conteúdo** na barra de cabeçalho.
 

@@ -2,7 +2,7 @@
 keywords: promoções;promoções frontais;promoções traseiras;tipo de promoções;lista de itens;promover por atributo;promover uma coleção
 description: Saiba como adicionar itens promovidos e controlar seu posicionamento nos designs do Adobe [!DNL Target] Recommendations. É possível adicionar promoções estáticas e dinâmicas.
 title: Como adicionar promoções em designs do Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 TQID: 'https://experienceleague.adobe.com/tAfKOzwjnUJgypDh-4LdVukNlTVwMS4UkvcNmCaCV0E'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 41%
+source-wordcount: '713'
+ht-degree: 34%
 ---
 # Adicionar promoções
 
@@ -33,7 +33,7 @@ Adicione itens promovidos e controle o posicionamento nos designs do [!DNL Adobe
 
 Quando você cria uma atividade do [!DNL Recommendations], tem a opção de incluir itens promovidos no design do [!DNL Recommendations]. As promoções usam os espaços disponíveis em um design e têm precedência sobre as recomendações de back-up e os resultados de critérios. Por exemplo, se seu design tiver seis espaços e você usar dois deles para promoções, quatro espaços estarão disponíveis para os itens recomendados com base em critérios.
 
-As promoções são deduplicadas em relação aos itens recomendados pelos critérios para a atividade; portanto, um determinado item não aparecerá duas vezes em uma bandeja de recomendação.
+As promoções são deduplicadas em relação aos itens recomendados pelos critérios para a atividade. Portanto, um determinado item não aparecerá duas vezes em uma bandeja de recomendação.
 
 É possível promover itens específicos, promover itens dinamicamente, promover itens com base em atributos ou promover coleções.
 
@@ -57,7 +57,7 @@ Opções de ![[!UICONTROL Promoção principal] e [!UICONTROL Promoção secund�
 
 1. Defina uma data inicial e uma data final para os itens promovidos.
 
-   Se você não definir uma data inicial, a promoção começará imediatamente. Se você não definir uma data final, a promoção será executada indefinidamente.
+   Se você não definir uma data de início, a promoção começará imediatamente. Se você não definir uma data de término, a promoção será executada indefinidamente.
 
 1. Selecione um **[!UICONTROL Tipo de promoção]**.
 
