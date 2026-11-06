@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
+source-git-commit: 4bdd36a7ca0162f95e5d9efd67899433d970d384
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 20%
+source-wordcount: '961'
+ht-degree: 17%
 ---
 # Criar uma atividade de Teste A/B
 
@@ -68,29 +68,7 @@ Para criar uma atividade manual de [!UICONTROL Teste A/B]:
 
 1. Para nomear a atividade, clique no ícone **[!UICONTROL Editar]** ( ![Ícone Editar](/help/main/assets/icons/Edit.svg) ) ao lado de &quot;[!UICONTROL Atividade sem título]&quot;, especifique um nome descritivo para a atividade e clique em **[!UICONTROL Salvar]**.
 
-   O nome da atividade não pode começar com nenhum dos seguintes caracteres:
-
-   | Caractere | Descrição |
-   |--- |--- |
-   | `=` | Igual a |
-   | `+` | Plus |
-   | `-` | menos |
-   | `@` | Sinal de arroba |
-
-   O nome da atividade não pode conter nenhuma das sequências de caracteres a seguir:
-
-   | Sequência de caracteres | Descrição |
-   |--- |--- |
-   | ;= | Ponto e vírgula, Igual a |
-   | ;+ | Ponto-e-vírgula, Mais |
-   | ;- | Ponto e vírgula, sinal de subtração |
-   | ;@ | Ponto e vírgula, no sinal |
-   | ,= | Vírgula, Igual a |
-   | ,+ | Vírgula, Mais |
-   | ,- | Vírgula, menos |
-   | ,@ | Vírgula, No sinal |
-   | `[`&quot; | Colchete de abertura, aspas duplas |
-   | &quot;`]` | Aspas duplas, colchete de fechamento |
+   {{activity-name-rules}}
 
 1. Crie novas experiências alterando os elementos na página.
 
@@ -112,7 +90,19 @@ Para criar uma atividade manual de [!UICONTROL Teste A/B]:
 
    +++ Etapas para selecionar um público diferente
 
-   {{$include /help/_includes/audience-selection-steps.md}}
+   O quadro direito é exibido, permitindo adicionar ou excluir um público-alvo e atribuir a porcentagem de visitante à atividade.
+
+   1. Para alterar o público-alvo, clique no ícone **[!UICONTROL Substituir]** ( ![Ícone Substituir](/help/main/assets/icons/Retweet.svg) ) no quadro direito.
+   1. Na caixa de diálogo **[!UICONTROL Adicionar público-alvo]**, [selecione o público-alvo desejado](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) e clique em **[!UICONTROL Atribuir público-alvo]**.
+
+      Para criar um público-alvo que combine vários públicos-alvo, clique em **[!UICONTROL Combinar públicos-alvo]**. Para obter detalhes, consulte [Combinar vários públicos-alvo](/help/main/c-target/combining-multiple-audiences.md).
+
+      Para criar um novo público-alvo que ainda não esteja na [!UICONTROL Biblioteca de Público-alvo], clique em **[!UICONTROL Criar Público-alvo]**. No [fluxo de trabalho create-audience](/help/main/c-target/c-audiences/audiences.md), escolha uma das seguintes opções:
+
+      * **[!UICONTROL Biblioteca de público-alvo]**: crie um público-alvo sob demanda que seja salvo na [!UICONTROL Biblioteca de público-alvo] e possa ser reutilizado em outras atividades.
+      * **[!UICONTROL Somente esta atividade]**: crie um [público-alvo específico da atividade](/help/main/c-target/creating-activity-only-audience.md) que não esteja salvo na [!UICONTROL Biblioteca de Público-alvo] e possa ser usado somente na atividade atual.
+
+   1. Clique em **[!UICONTROL Porcentagem de visitantes]** no quadro direito e escolha a porcentagem de visitantes qualificados que você deseja inserir na atividade.
 
    +++
 
