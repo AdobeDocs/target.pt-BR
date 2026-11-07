@@ -258,7 +258,7 @@ Este vídeo inclui informações sobre a configuração da alocação de tráfeg
 * Selecione seu método de alocação de tráfego
 * Aloque o tráfego entre diferentes experiências
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507593?captions=por_br)
 
 ### Criação de testes A/B (8:36) ![Selo do tutorial](/help/main/assets/tutorial.png)
 

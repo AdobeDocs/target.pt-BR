@@ -86,6 +86,6 @@ Este vídeo inclui informações sobre a configuração de públicos-alvo.
 * Selecione seu método de alocação de tráfego
 * Aloque o tráfego entre diferentes experiências
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507593?captions=por_br)
 
 Para obter informações detalhadas, consulte [Públicos-alvo](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).

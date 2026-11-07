@@ -185,7 +185,7 @@ Este vídeo inclui informações sobre as configurações da atividade.
 * Adicionar públicos-alvo para relatórios a fim de criar filtros de relatórios
 * Inserir observações para a atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/3507947?captions=por_br)
 
 ### Criação de testes multivariados (9:25)
 

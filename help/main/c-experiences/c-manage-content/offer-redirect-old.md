@@ -144,4 +144,4 @@ Este vídeo fornece uma demonstração do compositor baseado em formulário, que
 * Entenda quando usar o Experience Composer baseado em formulário ou o Visual Experience Composer
 * Use refinamentos para direcionar um local
 
->[!VIDEO](https://video.tv.adobe.com/v/17390)
+>[!VIDEO](https://video.tv.adobe.com/v/3507884?captions=por_br)

@@ -301,4 +301,4 @@ Esse vídeo inclui informações sobre o uso e a criação de scripts de perfil.
 * Use o menu Token disponível para acessar as opções disponíveis
 * Ative e desative os scripts de perfil
 
->[!VIDEO](https://video.tv.adobe.com/v/17394)
+>[!VIDEO](https://video.tv.adobe.com/v/3507911?captions=por_br)

@@ -85,7 +85,7 @@ Este vídeo inclui informações sobre as configurações da atividade.
 * Adicionar públicos-alvo para relatórios a fim de criar filtros de relatórios
 * Inserir observações para a atividade
 
-(https://video.tv.adobe.com/v/17381?captions=por_br)
+(https://video.tv.adobe.com/v/3507947?captions=por_br)
 
 ### Criação de testes A/B (8:36) ![Selo do tutorial](/help/main/assets/tutorial.png)
 

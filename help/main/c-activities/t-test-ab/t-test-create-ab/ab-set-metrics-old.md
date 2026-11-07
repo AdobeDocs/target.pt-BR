@@ -69,4 +69,4 @@ Este vídeo inclui informações sobre trabalhar com métricas de sucesso.
 * Entender e construir métricas de conversão, receita e envolvimento
 * Criar uma métrica de rastreamento de cliques
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507819?captions=por_br)
