@@ -50,4 +50,4 @@ Este vídeo inclui informações sobre o gerenciamento de conteúdo.
 * Ofertas HTML personalizadas
 * Ofertas HTML personalizadas no Visual Experience Composer
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/3507956?captions=por_br)

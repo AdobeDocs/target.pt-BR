@@ -143,7 +143,7 @@ Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 * Criar públicos-alvo
 * Definir categorias de públicos-alvo
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/3507774?captions=por_br)
 
 ## Atualizações para [!DNL iPad] e [!DNL iPhone] nos atributos de público-alvo [!UICONTROL Navegador] (30 de abril de 2024) {#updates}
 

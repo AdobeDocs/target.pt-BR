@@ -129,4 +129,4 @@ Este vídeo inclui informações sobre a criação de métricas de sucesso de ra
 * Compreender e compilar métricas de [!UICONTROL Conversão], [!UICONTROL Receita] e [!UICONTROL Envolvimento]
 * Criar uma métrica de rastreamento de cliques
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507819?captions=por_br)

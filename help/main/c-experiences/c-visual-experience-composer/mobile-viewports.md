@@ -190,4 +190,4 @@ O vídeo de demonstração a seguir inclui informações sobre o uso do Visual E
 
 Este vídeo inclui informações sobre como configurar visores móveis, a partir de 4:40, no vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/3507629?captions=por_br)
