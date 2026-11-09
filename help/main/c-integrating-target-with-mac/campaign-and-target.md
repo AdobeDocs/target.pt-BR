@@ -84,4 +84,4 @@ Para obter mais informações, consulte a documentação do [!DNL Adobe Campaign
 
 ## Vídeo: Integrar [!DNL Target] com [!DNL Campaign]
 
->[!VIDEO](https://video.tv.adobe.com/v/35149)
+>[!VIDEO](https://video.tv.adobe.com/v/3508010?captions=por_br)
