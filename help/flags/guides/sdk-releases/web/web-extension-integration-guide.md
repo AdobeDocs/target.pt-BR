@@ -6,9 +6,9 @@ hide: true
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
+source-git-commit: a25ca0f3ce4c9cf38a871d8193ec43250d61edb9
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1241'
 ht-degree: 7%
 ---
 # Extensão de sinalizadores para a Web {#web-extension-integration-guide}
@@ -55,21 +55,25 @@ Verifique se essa extensão está instalada na propriedade da Web da Coleção d
 
    ![](../assets/extension-install.png)
 
-1. Defina as configurações de extensão:
+#### Definir as configurações da extensão {#configure-extension-settings}
 
-* ID do cliente: um identificador exclusivo para seu aplicativo em Sinalizadores.
+Ao instalar a extensão Flags, você é levado para a página de configuração. Configure as seguintes definições:
 
-1. Selecione **[!UICONTROL Salvar]**.
+| Configuração | Descrição | Obrigatório |
+|---|---|---|
+| ID do cliente | Um identificador exclusivo para seu aplicativo em Sinalizadores. | Sim |
 
-1. Siga o [processo de publicação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/publish/overview) para atualizar sua configuração.
+#### Publicar a extensão {#publish-extension}
 
-   1. Adicione a extensão a uma biblioteca.
+Siga o [processo de publicação](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) para atualizar sua configuração.
 
-   1. Crie para o ambiente de desenvolvimento.
+1. Adicione a extensão a uma biblioteca.
 
-   1. Validar com [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=pt-BR).
+1. Crie para o ambiente de desenvolvimento.
 
-   1. Promover para preparo e produção.
+1. Validar com [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html).
+
+1. Promover para preparo e produção.
 
 ## Adicionar o código incorporado de Tags ao seu site {#embed-code}
 
@@ -275,10 +279,10 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | Campo | Tipo | Descrição |
 |---|---|---|
 | `id` | número | Identificador numérico do recurso. `-1` para sentinela de controle em nível de recurso. |
-| `key` | string \| null | Chave do recurso. `null` para sentinela de controle em nível de recurso. |
-| `featureGroupKey` | string \| null | Chave do grupo de recursos quando disponível |
-| `meta` | string \| null | Metadados de recursos quando disponíveis |
-| `analyticsParam` | AnalyticsParam \| nulo | Detalhes do Analytics para o recurso avaliado |
+| `key` | `string \| null` | Chave do recurso. `null` para sentinela de controle em nível de recurso. |
+| `featureGroupKey` | `string \| null` | Chave do grupo de recursos quando disponível |
+| `meta` | `string \| null` | Metadados de recursos quando disponíveis |
+| `analyticsParam` | `AnalyticsParam \| null` | Detalhes do Analytics para o recurso avaliado |
 
 *AnalyticsParam*
 
@@ -286,7 +290,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 |---|---|---|
 | `featureGroupId` | número | Identificador do grupo de recursos numéricos |
 | `featureId` | número | Identificador numérico do recurso |
-| `variantId` | número \| nulo | Identificador de variante (`0` se o usuário estiver no grupo de controle) |
+| `variantId` | `number \| null` | Identificador de variante (`0` se o usuário estiver no grupo de controle) |
 
 **Comportamento do grupo de controle**
 
