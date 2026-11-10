@@ -61,13 +61,13 @@ Verifique se essa extensão está instalada na propriedade da Web da Coleção d
 
 1. Selecione **[!UICONTROL Salvar]**.
 
-1. Siga o [processo de publicação](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) para atualizar sua configuração.
+1. Siga o [processo de publicação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/publish/overview) para atualizar sua configuração.
 
    1. Adicione a extensão a uma biblioteca.
 
    1. Crie para o ambiente de desenvolvimento.
 
-   1. Validar com [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html).
+   1. Validar com [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=pt-BR).
 
    1. Promover para preparo e produção.
 

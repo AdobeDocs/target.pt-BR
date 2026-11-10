@@ -29,7 +29,7 @@ Antes de começar, verifique se você tem:
   | [Vida útil](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/) | Dados do ciclo de vida do aplicativo | Igual ao AEPCore |
   | [Edge Network](https://developer.adobe.com/client-sdks/edge/edge-network/) | Comunicação com o Adobe Experience Platform Edge Network. Requer uma sequência de dados. | AEPEdge 5.0.2 |
   | [Identidade do Edge Network](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) | Gerenciamento de identidade para o Edge Network | AEPEdgeIdentity 5.0.0 |
-  | [Sinalizadores](https://experienceleague.adobe.com/en/docs/target/flags/home) | Avaliação do sinalizador de recurso | Consulte [Instalação](#installation) |
+  | [Sinalizadores](https://experienceleague.adobe.com/pt-br/docs/target/flags/home) | Avaliação do sinalizador de recurso | Consulte [Instalação](#installation) |
 
 ## Configurar sinalizadores na coleção de dados {#configure}
 
@@ -52,7 +52,7 @@ Antes de começar, verifique se você tem:
 
 1. Selecione **[!UICONTROL Salvar]**.
 
-1. Siga o [processo de publicação](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) para atualizar sua configuração.
+1. Siga o [processo de publicação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/publish/overview) para atualizar sua configuração.
 
 ### Obter a ID do arquivo de ambiente {#environment-file-id}
 
