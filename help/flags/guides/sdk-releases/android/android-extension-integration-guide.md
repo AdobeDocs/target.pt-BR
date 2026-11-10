@@ -84,7 +84,7 @@ Verifique se essas extensões estão instaladas na propriedade móvel da Coleç�
 >A extensão Sinalizadores não faz parte da BOM do Mobile SDK. Substitua `<latest-version>` pela versão mais recente da Maven Central. Sem uma versão, Gradle não pode resolver a dependência.
 >
 ></br>
-&gt;Para aplicativos de produção, a Adobe recomenda usar números de versão explícitos em vez de versões dinâmicas, como "3.+". Consulte [Gerenciamento de dependências Gradle](https://docs.gradle.org/current/userguide/dependency_management.html) para obter mais informações.
+>&gt;Para aplicativos de produção, a Adobe recomenda usar números de versão explícitos em vez de versões dinâmicas, como "3.+". Consulte [Gerenciamento de dependências Gradle](https://docs.gradle.org/current/userguide/dependency_management.html) para obter mais informações.
 
 Adicione as seguintes dependências ao arquivo `build.gradle.kts` (Kotlin) ou `build.gradle` (Groovy) do seu aplicativo:
 
