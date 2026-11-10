@@ -7,9 +7,9 @@ exl-id: ae115120-8da9-465e-a556-c17591ea7054
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '468'
 ht-degree: 3%
 ---
 # Criar o primeiro sinalizador de recurso {#create-feature-flag}
@@ -33,8 +33,8 @@ Para criar um novo sinalizador de recurso, siga estas etapas no console:
 
    | Campo | Descrição |
    | --- | --- |
-   | **Nome** | Um rótulo de exibição para o sinalizador de recurso. Não usado no código. |
-   | **Chave** * | O identificador usado no código para avaliar o sinalizador. Não é possível alterar após a criação. |
+   | **Nome** | Um rótulo de exibição para o sinalizador de recurso. Não usado no código. O **Name** é apenas um rótulo de exibição e não é usado no código; os dois são independentes (o Name não é convertido na Key). |
+   | **Chave** * | O identificador usado no código para avaliar o sinalizador. Não é possível alterar após a criação. A **Chave** é o identificador usado em seu código e não pode ser alterada após a criação. As chaves **não podem conter espaços** e fazem **distinção entre maiúsculas e minúsculas**. Inserir um espaço no campo Chave produz o erro: _&quot;Valor inválido para a chave do recurso.&quot;_ |
    | **Descrição** | Descrição opcional para fins de documentação. |
    | **Metadados** | Opcional. Até 1.024 caracteres. Use esse campo para qualquer metadado adicional associado ao sinalizador. |
    | **Tags** | Tags opcionais para fins de documentação. |
@@ -45,7 +45,9 @@ Para criar um novo sinalizador de recurso, siga estas etapas no console:
 
 >[!IMPORTANT]
 >
->A **Chave** é o identificador usado em seu código e não pode ser alterada após a criação. As chaves **não podem conter espaços** e diferenciam maiúsculas de minúsculas **3&rbrace;.** O **Name** é apenas um rótulo de exibição e não é usado no código; os dois são independentes (o Name não é convertido na Key). Inserir um espaço no campo Chave produz o erro: _&quot;Valor inválido para chave de recurso.&quot;_
+>A identidade selecionada aqui deve corresponder à identidade que seu aplicativo passa para a SDK quando ele busca sinalizadores de recursos. Se os dois não corresponderem, o SDK não poderá encontrar a identidade esperada e voltará para uma ID temporária gerada aleatoriamente para atribuir uma variante. A avaliação do sinalizador continua funcionando, nenhum erro é exibido e os usuários ainda recebem uma variante.
+>
+>No entanto, com uma ID temporária, um usuário pode receber uma variante diferente sempre que o aplicativo for reiniciado, e não é garantido que a mesma pessoa tenha uma variante consistente em todos os dispositivos.
 
 1. Opcionalmente, adicione um critério de público-alvo (consulte Etapa 2).
 1. Salve as configurações do sinalizador de recurso.
