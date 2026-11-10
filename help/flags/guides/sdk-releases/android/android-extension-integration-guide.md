@@ -7,10 +7,10 @@ exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 6%
+source-wordcount: '1379'
+ht-degree: 4%
 ---
 # Extensão de sinalizadores para o Android {#android-extension-integration-guide}
 
@@ -21,9 +21,11 @@ Este guia descreve como integrar a extensão Flags ao Adobe Experience Platform 
 Antes de implementar a extensão Sinalizadores, verifique se você tem:
 
 * Uma propriedade móvel configurada em [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)
-* A extensão Sinalizadores instalada e configurada em sua propriedade móvel
+* A extensão Adobe Flags instalada e configurada em sua propriedade móvel
 * Uma ID de organização da Adobe Experience Cloud
-* SDK mínimo: API 21 (Android 5.0 Lollipop)
+* Uma sequência de dados do Edge Network configurada em sua propriedade móvel para receber análises de exposição
+* Android API 21 (Android 5.0 Lollipop) ou posterior
+* Mobile Core 3.6.0 ou posterior (incluído em `sdk-bom` 3.17.0 e posterior)
 
 ## Dependências de extensão {#extension-dependencies}
 
@@ -31,10 +33,10 @@ A extensão Flags requer as seguintes extensões do Adobe Experience Platform:
 
 | Extensão | Descrição | Obrigatório |
 |---|---|---|
-| Núcleo móvel | Fornece funcionalidade principal incluindo configuração e processamento de eventos | Sim |
-| Vida útil | Coleta dados do ciclo de vida e da sessão do aplicativo para o Mobile SDK | Sim |
-| Edge Network | Permite a comunicação com o Adobe Experience Platform Edge Network | Sim |
-| Identidade do Edge | Habilita o gerenciamento de identidade de um aplicativo móvel ao usar a extensão Edge Network | Sim |
+| [Núcleo do dispositivo móvel](https://developer.adobe.com/client-sdks/home/base/mobile-core/) | Fornece configuração, processamento de eventos e inicialização do SDK | Sim |
+| [Vida útil](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/) | Relata quando o aplicativo é movido para o primeiro ou segundo plano | Sim |
+| [Edge Network](https://developer.adobe.com/client-sdks/edge/edge-network/) | Envia análises de exposição para o Adobe Experience Platform | Sim |
+| [Identidade do Edge Network](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) | Fornece as identidades usadas para atribuir usuários a variantes | Sim |
 
 Verifique se essas extensões estão instaladas na propriedade móvel da Coleção de dados e incluídas nas dependências do aplicativo.
 
@@ -43,137 +45,104 @@ Verifique se essas extensões estão instaladas na propriedade móvel da Coleç�
 ### Instalar a extensão {#install-extension}
 
 1. Faça logon em [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection).
-1. Selecione a guia **Tags** e escolha sua propriedade móvel.
-1. Navegue até **Extensões** > **Catálogo**.
-1. Pesquise por **Extensão de sinalizadores** e selecione **Instalar**.
+
+1. Selecione o menu **[!UICONTROL Marcas]** e escolha sua propriedade móvel.
+
+1. Navegue até **[!UICONTROL Extensões]** > **[!UICONTROL Catálogo]**.
+
+1. Procure por **[!DNL Adobe Flags]** e selecione **[!UICONTROL Instalar]**.
+
+   ![](../assets/extension-install.png)
+
 1. Defina as configurações de extensão:
 
-   | Configuração | Descrição |
-   |---|---|
-   | ID do aplicativo | Um identificador exclusivo para seu aplicativo em Sinalizadores |
+   * **[!UICONTROL Sandbox]**: a sandbox do Adobe Experience Platform que contém sua configuração de Sinalizadores.
+   * **[!UICONTROL ID do Aplicativo]**: o identificador do seu aplicativo em Sinalizadores.
 
-1. Selecione **Salvar**.
+1. Selecione **[!UICONTROL Salvar]**.
+
 1. Siga o [processo de publicação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/publish/overview) para atualizar sua configuração.
 
 ### Obter a ID do arquivo de ambiente {#environment-file-id}
 
-1. Na propriedade do seu dispositivo móvel, navegue até **Ambientes**.
-1. Selecione o ícone de caixa sob a coluna **Instalar** para o seu ambiente.
-1. Na caixa de diálogo **Instruções de Instalação do Mobile**, copie a **ID do Arquivo de Ambiente**.
+1. Na propriedade do seu dispositivo móvel, navegue até **[!UICONTROL Ambientes]**.
+
+1. Selecione o ícone de caixa na coluna **[!UICONTROL Instalar]** do ambiente selecionado.
+
+   ![](../assets/extension-install-2.png)
+
+1. Na caixa de diálogo **[!UICONTROL Instruções de Instalação do Mobile]**, copie a **[!UICONTROL ID do Arquivo de Ambiente]**.
+
+   ![](../assets/extension-install-3.png)
 
 ## Adicionar a extensão Sinalizadores ao seu aplicativo {#add-to-app}
 
 ### Adicionar dependências {#add-dependencies}
 
-Adicione as dependências do Mobile SDK ao seu projeto. A extensão Sinalizadores exige o Mobile Core e as extensões relacionadas ao Edge listadas abaixo.
+>[!IMPORTANT]
+>
+>A extensão Sinalizadores não faz parte da BOM do Mobile SDK. Substitua `<latest-version>` pela versão mais recente da Maven Central. Sem uma versão, Gradle não pode resolver a dependência.
+>
+></br>
+>&gt;Para aplicativos de produção, a Adobe recomenda usar números de versão explícitos em vez de versões dinâmicas, como "3.+". Consulte [Gerenciamento de dependências Gradle](https://docs.gradle.org/current/userguide/dependency_management.html) para obter mais informações.
 
-#### Usando Gradle com BOM (Recomendado) {#gradle-bom}
+Adicione as seguintes dependências ao arquivo `build.gradle.kts` (Kotlin) ou `build.gradle` (Groovy) do seu aplicativo:
 
-Adicione as seguintes dependências ao arquivo `build.gradle.kts` do seu aplicativo:
+>[!BEGINTABS]
+
+>[!TAB Kotlin]
 
 ```kotlin
 dependencies {
-    // Adobe Experience Platform Mobile SDK BOM
-    implementation(platform("com.adobe.marketing.mobile:sdkbom:3.+"))
+    // Adobe Experience Platform Mobile SDK BOM (3.17.0 or later)
+    implementation(platform("com.adobe.marketing.mobile:sdk-bom:3.+"))
 
-    // Required extensions
+    // Required extensions (versions managed by the BOM)
     implementation("com.adobe.marketing.mobile:core")
     implementation("com.adobe.marketing.mobile:lifecycle")
     implementation("com.adobe.marketing.mobile:edge")
     implementation("com.adobe.marketing.mobile:edgeidentity")
+
+    // Flags extension (not managed by the BOM; specify the version)
+    implementation("com.adobe.marketing.mobile:flags:<latest-version>")
 }
 ```
 
-#### Uso de Gradle (Groovy) {#gradle-groovy}
+>[!TAB Groovy]
 
 ```groovy
 dependencies {
-    // Adobe Experience Platform Mobile SDK BOM
-    implementation platform('com.adobe.marketing.mobile:sdkbom:3.+')
+    // Adobe Experience Platform Mobile SDK BOM (3.17.0 or later)
+    implementation platform('com.adobe.marketing.mobile:sdk-bom:3.+')
 
-    // Required extensions
+    // Required extensions (versions managed by the BOM)
     implementation 'com.adobe.marketing.mobile:core'
     implementation 'com.adobe.marketing.mobile:lifecycle'
     implementation 'com.adobe.marketing.mobile:edge'
     implementation 'com.adobe.marketing.mobile:edgeidentity'
+
+    // Flags extension (not managed by the BOM; specify the version)
+    implementation 'com.adobe.marketing.mobile:flags:<latest-version>'
 }
 ```
 
->[!IMPORTANT]
->
->Para aplicativos de produção, a Adobe recomenda usar números de versão explícitos em vez de versões dinâmicas. Consulte [Gerenciando dependências Gradle](https://docs.gradle.org/current/userguide/dependency_management.html) para obter mais informações.
-
-### Adicionar a dependência Sinalizadores {#add-flags-dependency}
-
-#### Uso do repositório Maven hospedado (recomendado) {#hosted-maven}
-
-Adicionar o repositório Maven de Sinalizadores ao bloco `repositories` em `settings.gradle.kts`:
-
-```kotlin
-maven {
-    url = uri("<HTTPS Flags Maven repository URL>")
-}
-```
-
-Para um arquivo `settings.gradle` do Groovy:
-
-```groovy
-maven {
-    url = uri('<HTTPS Flags Maven repository URL>')
-}
-```
-
-Substitua `<HTTPS Flags Maven repository URL>` pela URL de repositório seguro fornecida para a extensão de Sinalizadores.
-
-Em seguida, adicione a dependência Sinalizadores com versão ao `build.gradle.kts` do seu aplicativo:
-
-```kotlin
-implementation("com.adobe.marketing.mobile:flags:<version>")
-```
-
-Para um arquivo `build.gradle` do Groovy:
-
-```groovy
-implementation 'com.adobe.marketing.mobile:flags:<version>'
-```
-
-Substitua `<version>` pela versão exata da extensão de Sinalizadores fornecida para sua versão.
-
-#### Uso do pacote de distribuição Flags {#distribution-package}
-
-O pacote de distribuição da extensão Flags inclui:
-
-* `flags-3.x.aar`
-* `flags-3.x.module`
-* `flags-3.x.pom`
-
-Disponibilize a extensão para seu projeto do Android usando um dos seguintes métodos:
-
-* Publique todos os arquivos do pacote de distribuição em um repositório Maven local ou privado e configure seu projeto para usar esse repositório.
-* Adicione `flags-3.x.aar` diretamente ao seu projeto e declare as dependências transitivas especificadas em `flags-3.x.pom`.
-
-### Adicionar permissões {#add-permissions}
-
-Adicione as seguintes permissões ao arquivo `AndroidManifest.xml`:
-
-```xml
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-```
+>[!ENDTABS]
 
 ### Inicializar o SDK {#initialize-sdk}
 
-Inicialize o Mobile SDK na classe `Application` antes de chamar APIs de extensão de Sinalizadores. Use a ID de Arquivo de Ambiente da sua propriedade móvel com o `MobileCore.initialize` para que o aplicativo escolha as configurações de Sinalizadores publicadas na Coleção de dados.
-
-#### Uso do MobileCore.initialize {#mobile-core-initialize}
-
-Disponível a partir do Android BOM versão 3.8.0, essa API inicializa o SDK com seu arquivo de ambiente de Coleção de dados.
-
 >[!IMPORTANT]
 >
->Para aplicativos de produção, use somente `LoggingMode.ERROR`; não use `DEBUG` ou `VERBOSE` em compilações de versão.
+>Para aplicativos de produção, use somente `LoggingMode.ERROR`. Não use `DEBUG` ou `VERBOSE` em compilações de versão.
 
-**Kotlin**
+Inicialize o Mobile SDK na classe `Application` antes de chamar APIs de extensão de Sinalizadores. Use a ID de arquivo de ambiente da sua propriedade móvel para que o aplicativo escolha as configurações de Sinalizadores publicadas na Coleção de dados.
+
+`MobileCore.initialize` registra cada extensão do Adobe incluída em suas dependências de Gradle, incluindo a extensão Sinalizadores.
+
+Observe que, quando você usar `MobileCore.initialize`, não ligue também para `MobileCore.registerExtensions`, `MobileCore.lifecycleStart` ou `MobileCore.lifecyclePause`. Estas são para você.
+
+>[!BEGINTABS]
+
+>[!TAB Kotlin]
 
 ```kotlin
 import android.app.Application
@@ -185,7 +154,6 @@ class MainApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
-        // Production: use LoggingMode.ERROR only. Do not use DEBUG or VERBOSE in release builds.
         MobileCore.setLogLevel(LoggingMode.ERROR)
 
         // Initialize with your Environment File ID from Data Collection
@@ -194,7 +162,7 @@ class MainApplication : Application() {
 }
 ```
 
-**Java**
+>[!TAB Java]
 
 ```java
 import android.app.Application;
@@ -207,14 +175,15 @@ public class MainApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
-        // Production: use LoggingMode.ERROR only. Do not use DEBUG or VERBOSE in release builds.
         MobileCore.setLogLevel(LoggingMode.ERROR);
 
         // Initialize with your Environment File ID from Data Collection
-        MobileCore.initialize(this, "YOUR_ENVIRONMENT_FILE_ID", null);
+        MobileCore.initialize(this, "YOUR_ENVIRONMENT_FILE_ID");
     }
 }
 ```
+
+>[!ENDTABS]
 
 ### Registrar a classe Application {#register-application}
 
@@ -227,30 +196,58 @@ Registre sua classe `Application` em `AndroidManifest.xml`:
 </application>
 ```
 
+### Se você registrar extensões manualmente {#register-manually}
+
+Se o aplicativo não puder usar o `MobileCore.initialize` e registrar extensões com `MobileCore.registerExtensions`, adicione `Flag.EXTENSION` à lista. Use a Identidade para a classe Edge Network, `com.adobe.marketing.mobile.edge.identity.Identity`, não o `com.adobe.marketing.mobile.Identity` herdado.
+
+```kotlin
+import com.adobe.marketing.mobile.Edge
+import com.adobe.marketing.mobile.Lifecycle
+import com.adobe.marketing.mobile.MobileCore
+import com.adobe.marketing.mobile.edge.identity.Identity
+import com.adobe.marketing.mobile.flags.Flag
+
+MobileCore.setApplication(this)
+MobileCore.configureWithAppID("YOUR_ENVIRONMENT_FILE_ID")
+MobileCore.registerExtensions(
+    listOf(Lifecycle.EXTENSION, Identity.EXTENSION, Edge.EXTENSION, Flag.EXTENSION)
+) { }
+```
+
+Nesta configuração, o ciclo de vida não é rastreado automaticamente. Chame `MobileCore.lifecycleStart(null)` em cada atividade de `onResume` e `MobileCore.lifecyclePause()` em seu `onPause`. Sem essas chamadas, a extensão mantém os sinalizadores de atualização enquanto o aplicativo está em segundo plano e a análise de exposição é enviada posteriormente.
+
 ## Contexto de avaliação {#evaluation-context}
 
-A classe `FeatureEvaluationContext` inclui atributos de direcionamento (usados para correspondência de regras de sinalizador).
+`FeatureEvaluationContext` contém os atributos de direcionamento que suas regras de sinalizador usam. Você não passa uma identidade: a extensão a lê da Identidade do Edge Network em cada avaliação. Consulte [Identidade personalizada](#custom-identity).
 
 | Método | Obrigatório | Descrição |
 |---|---|---|
-| `withAttributes(map)` | Não | `Map<String, List<String>>`. Chave é o nome do atributo de contexto usado pelas suas regras de sinalizador (por exemplo, `locale`, `platform`, `appVersion`, `deviceType`). Valor é a lista de valores de atributos candidatos para essa chave para o usuário/sessão atual (por exemplo, `["en_US"]` ou `["phone"]`). |
+| `withAttributes(map)` | Não | `Map<String, List<String>>`. Cada chave é um nome de atributo usado pelas suas regras de sinalizador (por exemplo, `locale` ou `appVersion`). Cada valor é a lista de valores do usuário atual (por exemplo, `["en_US"]`). |
 
-**Kotlin**
+* Um contexto é necessário para cada avaliação. Se você não tiver atributos, passe `FeatureEvaluationContext.builder().build()`.
+* Chame `withAttributes` no máximo uma vez por construtor.
+* Um contexto criado não pode ser alterado, portanto, você pode reutilizá-lo nas avaliações.
+
+### Uso {#evaluation-context-usage}
+
+>[!BEGINTABS]
+
+>[!TAB Kotlin]
 
 ```kotlin
 import com.adobe.marketing.mobile.flags.FeatureEvaluationContext
 
-val attrs = mapOf(
-    "locale" to listOf("en_US"),
-    "platform" to listOf("ANDROID")
-)
-
 val ctx = FeatureEvaluationContext.builder()
-    .withAttributes(attrs)
+    .withAttributes(
+        mapOf(
+            "locale" to listOf("en_US"),
+            "platform" to listOf("ANDROID")
+        )
+    )
     .build()
 ```
 
-**Java**
+>[!TAB Java]
 
 ```java
 import com.adobe.marketing.mobile.flags.FeatureEvaluationContext;
@@ -268,17 +265,38 @@ FeatureEvaluationContext ctx = FeatureEvaluationContext.builder()
         .build();
 ```
 
-### Identidade personalizada {#custom-identity}
+>[!ENDTABS]
 
-A extensão Sinalizadores usa a extensão Identidade do Edge Network para resolução de identidade. Um sinalizador de recurso pode ser coortado em uma identidade personalizada (por exemplo, uma ID de CRM ou uma ID de fidelidade) para que as divisões de variante e as análises sejam vinculadas à identidade que é importante para o aplicativo.
+### Amostra de atributos de direcionamento {#sample-attributes}
+
+| Atributo | Descrição | Valores de exemplo |
+|---|---|---|
+| `locale` | Local do usuário | `["en_US"]`, `["fr_FR"]` |
+| `platform` | Plataforma | `["ANDROID"]` |
+| `appVersion` | Versão do aplicativo | `["3.0.0"]` |
+| `deviceType` | Tipo de dispositivo | `["phone"]`, `["tablet"]` |
+
+Os nomes e valores de atributos devem corresponder aos usados nas regras de sinalizador.
+
+## Identidade personalizada {#custom-identity}
+
+A extensão Sinalizadores usa a Identidade para [extensão do Edge Network](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) para resolução de identidade. Um sinalizador de recurso pode ser coortado em uma identidade personalizada, por exemplo, uma ID de CRM ou uma ID de fidelidade, para que as divisões de variante e as análises sejam vinculadas à identidade que é importante para o aplicativo.
 
 O namespace de identidade personalizado deve ser selecionado na interface do usuário de Sinalizadores quando o sinalizador de recurso é criado. Para avaliar um sinalizador em relação a essa identidade, a mesma identidade deve estar presente na Identidade Edge `identityMap` no dispositivo, usando o namespace correspondente. Forneça a ela, em tempo de execução, a Identidade da API `updateIdentities` do Edge Network.
 
-#### Adicionar a identidade personalizada ao Mapa de identidade {#add-identity}
+### Adicionar a identidade personalizada ao mapa de identidade {#add-identity}
 
-Adicione a identidade no mesmo namespace configurado no sinalizador de recurso.
+Adicione a identidade no mesmo namespace configurado no sinalizador de recurso, antes de avaliar o sinalizador.
 
-**Kotlin**
+Observe o seguinte ao adicionar a identidade:
+
+* O namespace deve corresponder exatamente, incluindo letras maiúsculas e minúsculas.
+* Se o namespace tiver mais de uma identidade, será usada a marcada como primária. Caso contrário, o primeiro será usado.
+* Se a identidade estiver ausente quando o sinalizador for avaliado, o usuário será atribuído por uma ID temporária que muda sempre que o aplicativo for iniciado. A variante do usuário pode ser alterada entre inicializações do aplicativo. Sempre defina a identidade antes de avaliar os sinalizadores que a usam.
+
+>[!BEGINTABS]
+
+>[!TAB Kotlin]
 
 ```kotlin
 import com.adobe.marketing.mobile.edge.identity.AuthenticatedState
@@ -294,7 +312,7 @@ identityMap.addItem(
 Identity.updateIdentities(identityMap)
 ```
 
-**Java**
+>[!TAB Java]
 
 ```java
 import com.adobe.marketing.mobile.edge.identity.AuthenticatedState;
@@ -302,21 +320,40 @@ import com.adobe.marketing.mobile.edge.identity.Identity;
 import com.adobe.marketing.mobile.edge.identity.IdentityItem;
 import com.adobe.marketing.mobile.edge.identity.IdentityMap;
 
-final IdentityItem item = new IdentityItem("1111", AuthenticatedState.AUTHENTICATED, true);
-final IdentityMap identityMap = new IdentityMap();
-identityMap.addItem(item, "userCRMId"); // must match the namespace configured on the feature flag
+IdentityMap identityMap = new IdentityMap();
+identityMap.addItem(
+        new IdentityItem("1111", AuthenticatedState.AUTHENTICATED, true),
+        "userCRMId"); // must match the namespace configured on the feature flag
 Identity.updateIdentities(identityMap);
 ```
 
+>[!ENDTABS]
+
 ## Referência da API {#api-reference}
+
+### Retornos de chamada e tratamento de erros {#callbacks-errors}
+
+Estas regras se aplicam a `isFeatureEnabled` e `getFeature`:
+
+* Sempre forneça uma experiência padrão. Passar um `AdobeCallbackWithError` e mostrar sua experiência padrão em `fail`. Com um `AdobeCallback` simples, nada é chamado quando ocorre um erro.
+
+* A extensão pré-carrega definições de sinalizador quando o aplicativo é iniciado. Depois disso, os sinalizadores são avaliados no dispositivo.
+
+* Outros erros: `fail` é chamado com `AdobeError.UNEXPECTED_ERROR` quando:
+
+  * a chave do recurso está vazia,
+  * as configurações de Sinalizadores ou a ID da organização da Experience Cloud estão ausentes na configuração publicada, ou
+  * não foi possível baixar as definições de sinalizador quando o aplicativo foi iniciado (por exemplo, o dispositivo estava offline). A extensão tenta novamente na próxima atualização de configuração, geralmente na próxima inicialização do aplicativo.
 
 ### isFeatureEnabled {#is-feature-enabled}
 
-`isFeatureEnabled` retorna se um recurso Sinalizadores está ativado ou desativado para o contexto fornecido. Passe `featureKey`, um `FeatureEvaluationContext` (atributos de direcionamento opcionais) e um retorno de chamada. Consulte [Contexto de avaliação](#evaluation-context).
+Retorna se um recurso está habilitado para o usuário atual.
 
 **Assinatura**
 
-*Kotlin*
+>[!BEGINTABS]
+
+>[!TAB Kotlin]
 
 ```kotlin
 Flag.isFeatureEnabled(
@@ -326,7 +363,7 @@ Flag.isFeatureEnabled(
 )
 ```
 
-*Java*
+>[!TAB Java]
 
 ```java
 Flag.isFeatureEnabled(
@@ -335,66 +372,85 @@ Flag.isFeatureEnabled(
     AdobeCallback<Boolean> callback);
 ```
 
+>[!ENDTABS]
+
 **Parâmetros**
 
 | Parâmetro | Tipo | Descrição |
 |---|---|---|
-| `featureKey` | String | Chave de recurso para avaliar em Sinalizadores |
-| `evaluationContext` | ContextoDeAvaliaçãoDoRecurso | Inclua atributos de direcionamento conforme necessário; use `FeatureEvaluationContext.builder().build()` para um contexto vazio. Consulte [Contexto de avaliação](#evaluation-context). |
-| `callback` | AdobeCallback&lt;Booleano> | Invocado com `true` se o recurso estiver habilitado; caso contrário, `false`. Você também pode passar `AdobeCallbackWithError<Boolean>` para manipular `fail(...)`. |
+| `featureKey` | String | Chave do recurso a ser avaliado |
+| `evaluationContext` | ContextoDeAvaliaçãoDoRecurso | Direcionamento de atributos. Use `FeatureEvaluationContext.builder().build()` se não tiver nenhum. Consulte [Contexto de avaliação](#evaluation-context). |
+| `callback` | AdobeCallback&lt;Booleano> | Chamado com `true` se o recurso estiver habilitado para o usuário. Chamado com `false` se o recurso não for encontrado, as regras de direcionamento não corresponderem ou o usuário estiver no grupo de controle. Envie um `AdobeCallbackWithError<Boolean>` para também receber erros. |
 
 **Exemplos**
 
-*Kotlin*
+>[!BEGINTABS]
+
+>[!TAB Kotlin]
 
 ```kotlin
-import com.adobe.marketing.mobile.AdobeCallback
+import com.adobe.marketing.mobile.AdobeCallbackWithError
+import com.adobe.marketing.mobile.AdobeError
 import com.adobe.marketing.mobile.flags.Flag
 
 Flag.isFeatureEnabled(
-    "new-flag",
+    "new-checkout",
     ctx,
-    object : AdobeCallback<Boolean> {
+    object : AdobeCallbackWithError<Boolean> {
         override fun call(isEnabled: Boolean?) {
-            if (isEnabled == true) {
-                // run the feature-specific behavior
-            } else {
-                // fall back to the default behavior
+            runOnUiThread {
+                if (isEnabled == true) showNewCheckout() else showDefaultCheckout()
             }
+        }
+
+        override fun fail(error: AdobeError?) {
+            runOnUiThread { showDefaultCheckout() }
         }
     }
 )
 ```
 
-*Java*
+>[!TAB Java]
 
 ```java
-import com.adobe.marketing.mobile.AdobeCallback;
+import com.adobe.marketing.mobile.AdobeCallbackWithError;
+import com.adobe.marketing.mobile.AdobeError;
 import com.adobe.marketing.mobile.flags.Flag;
 
 Flag.isFeatureEnabled(
-    "new-flag",
+    "new-checkout",
     ctx,
-    new AdobeCallback<Boolean>() {
+    new AdobeCallbackWithError<Boolean>() {
         @Override
         public void call(Boolean isEnabled) {
-            if (Boolean.TRUE.equals(isEnabled)) {
-                // run the feature-specific behavior
-            } else {
-                // fall back to the default behavior
-            }
+            runOnUiThread(() -> {
+                if (Boolean.TRUE.equals(isEnabled)) {
+                    showNewCheckout();
+                } else {
+                    showDefaultCheckout();
+                }
+            });
+        }
+
+        @Override
+        public void fail(AdobeError error) {
+            runOnUiThread(() -> showDefaultCheckout());
         }
     }
 );
 ```
 
+>[!ENDTABS]
+
 ### getFeature {#get-feature}
 
-`getFeature` retorna a carga do recurso avaliado para o contexto fornecido. Use essa API quando precisar de mais do que habilitado/desabilitado e quiser metadados ou valores de recursos.
+Retorna o recurso avaliado para o usuário atual, incluindo seus metadados. Use essa API quando precisar de mais do que habilitado ou desabilitado.
 
 **Assinatura**
 
-*Kotlin*
+>[!BEGINTABS]
+
+>[!TAB Kotlin]
 
 ```kotlin
 Flag.getFeature(
@@ -404,7 +460,7 @@ Flag.getFeature(
 )
 ```
 
-*Java*
+>[!TAB Java]
 
 ```java
 Flag.getFeature(
@@ -413,13 +469,17 @@ Flag.getFeature(
     AdobeCallback<FeatureEvaluationResult> callback);
 ```
 
+>[!ENDTABS]
+
 **Parâmetros**
 
 | Parâmetro | Tipo | Descrição |
 |---|---|---|
-| `featureKey` | String | Chave de recurso para avaliar em Sinalizadores |
-| `evaluationContext` | ContextoDeAvaliaçãoDoRecurso | Inclua atributos de direcionamento conforme necessário; use `FeatureEvaluationContext.builder().build()` para um contexto vazio. Consulte [Contexto de avaliação](#evaluation-context). |
-| `callback` | AdobeCallback&lt;ResultadoDaAvaliaçãoDoRecurso> | Invocado com a carga do recurso avaliado; pode ser `null` quando o recurso não é encontrado. Você também pode passar `AdobeCallbackWithError<FeatureEvaluationResult>` para manipular `fail(...)`. |
+| `featureKey` | String | Chave do recurso a ser avaliado |
+| `evaluationContext` | ContextoDeAvaliaçãoDoRecurso | Direcionamento de atributos. Use `FeatureEvaluationContext.builder().build()` se não tiver nenhum. Consulte [Contexto de avaliação](#evaluation-context). |
+| `callback` | AdobeCallback&lt;ResultadoDaAvaliaçãoDoRecurso> | Chamado com o recurso avaliado, ou com `null` quando o recurso não é fornecido ao usuário: a chave é desconhecida, os critérios de direcionamento não são atendidos ou o usuário está em um coorte de controle. `null` é um resultado normal, não um erro. As exposições de coorte de controle ainda são relatadas para o Analytics. Envie um `AdobeCallbackWithError<FeatureEvaluationResult>` para receber `fail(...)` por falhas genuínas, como tempos limite. |
+
+Trate um resultado de `null` como &quot;recurso desativado&quot; e mostre sua experiência padrão. Também mostra a experiência padrão quando `fail` é chamado, o que só acontece em falhas genuínas, como tempos limite.
 
 **Resposta**
 
@@ -427,72 +487,87 @@ Flag.getFeature(
 
 | Campo | Tipo | Descrição |
 |---|---|---|
-| `id` | Int | Identificador numérico do recurso |
+| `id` | Int | ID do recurso |
 | `key` | String | Chave do recurso |
-| `featureGroupKey` | String? | Chave do grupo de recursos quando disponível |
-| `meta` | String? | Metadados de recurso como uma sequência de caracteres JSON quando disponíveis |
-| `analyticsParam` | AnalyticsParam? | Detalhes do Analytics para o recurso avaliado |
+| `featureGroupKey` | String? | Chave do grupo de recursos, se o recurso pertencer a um grupo |
+| `meta` | String? | Metadados configurados para o recurso, como texto sem formatação, ou `null` se nenhum estiver definido. Se você armazenou o JSON, analise a cadeia de caracteres no aplicativo. |
+| `analyticsParam` | AnalyticsParam? | Detalhes do Analytics para a avaliação |
 
 *AnalyticsParam*
 
 | Campo | Tipo | Descrição |
 |---|---|---|
-| `featureGroupId` | Int | Identificador do grupo de recursos numéricos |
-| `featureId` | Int | Identificador numérico do recurso |
-| `variantId` | String? | Identificador da variante |
+| `featureGroupId` | Int | ID do grupo de recursos |
+| `featureId` | Int | ID do recurso |
+| `variantId` | String? | ID da variante à qual o usuário foi atribuído |
 
 **Exemplos**
 
-*Kotlin*
+>[!BEGINTABS]
+
+>[!TAB Kotlin]
 
 ```kotlin
-import com.adobe.marketing.mobile.AdobeCallback
+import com.adobe.marketing.mobile.AdobeCallbackWithError
+import com.adobe.marketing.mobile.AdobeError
 import com.adobe.marketing.mobile.flags.FeatureEvaluationResult
 import com.adobe.marketing.mobile.flags.Flag
 
 Flag.getFeature(
-    "new-flag",
+    "new-checkout",
     ctx,
-    object : AdobeCallback<FeatureEvaluationResult> {
+    object : AdobeCallbackWithError<FeatureEvaluationResult> {
         override fun call(feature: FeatureEvaluationResult?) {
             val meta = feature?.meta
-            if (!meta.isNullOrEmpty()) {
-                // Feature metadata is available: use it to drive the feature behavior
-            } else {
-                // No metadata available: fall back to the default behavior
+            runOnUiThread {
+                if (!meta.isNullOrEmpty()) applyExperience(meta) else showDefaultExperience()
             }
+        }
+
+        override fun fail(error: AdobeError?) {
+            runOnUiThread { showDefaultExperience() }
         }
     }
 )
 ```
 
-*Java*
+>[!TAB Java]
 
 ```java
-import com.adobe.marketing.mobile.AdobeCallback;
+import com.adobe.marketing.mobile.AdobeCallbackWithError;
+import com.adobe.marketing.mobile.AdobeError;
 import com.adobe.marketing.mobile.flags.FeatureEvaluationResult;
 import com.adobe.marketing.mobile.flags.Flag;
 
 Flag.getFeature(
-    "new-flag",
+    "new-checkout",
     ctx,
-    new AdobeCallback<FeatureEvaluationResult>() {
+    new AdobeCallbackWithError<FeatureEvaluationResult>() {
         @Override
         public void call(FeatureEvaluationResult feature) {
-            String meta = feature != null ? feature.getMeta() : null;
-            if (meta != null && !meta.isEmpty()) {
-                // Feature metadata is available: use it to drive the feature behavior
-            } else {
-                // No metadata available: fall back to the default behavior
-            }
+            final String meta = feature != null ? feature.getMeta() : null;
+            runOnUiThread(() -> {
+                if (meta != null && !meta.isEmpty()) {
+                    applyExperience(meta);
+                } else {
+                    showDefaultExperience();
+                }
+            });
+        }
+
+        @Override
+        public void fail(AdobeError error) {
+            runOnUiThread(() -> showDefaultExperience());
         }
     }
 );
 ```
 
+>[!ENDTABS]
+
 ### extensionVersion {#extension-version}
 
-Retorna a cadeia de caracteres da versão da extensão Sinalizadores.
+Retorna a versão da extensão Sinalizadores.
 
 **Sintaxe**
 
@@ -518,13 +593,12 @@ String version = Flag.extensionVersion();
 
 | administração | Devoluções |
 |---|---|
-| `isFeatureEnabled(featureKey, evaluationContext, callback)`. `FeatureEvaluationContext` carrega atributos de direcionamento para regras. Consulte [Avaliação de recursos](#is-feature-enabled). | Booleano via retorno de chamada |
-| `getFeature(featureKey, evaluationContext, callback)`. Retorna a carga do recurso avaliado para o contexto especificado. Consulte [getFeature](#get-feature). | FeatureEvaluationResult via retorno de chamada |
+| `isFeatureEnabled(featureKey, evaluationContext, callback)`. Consulte [isFeatureEnabled](#is-feature-enabled). | Booleano via retorno de chamada |
+| `getFeature(featureKey, evaluationContext, callback)`. Consulte [getFeature](#get-feature). | FeatureEvaluationResult via retorno de chamada |
 | `extensionVersion()` | String |
 
-## Consulte também {#see-also}
+## Depuração {#debugging}
 
-* [Aplicativos móveis](../../integrate/mobile-applications.md)
-* [SDKs](../../integrate/sdks.md)
+Para depurar, defina `MobileCore.setLogLevel(LoggingMode.DEBUG)` em uma compilação de depuração e filtre Logcat por `Flags`. Você deve ver uma mensagem `Discovered extension` do MobileCore para `com.adobe.marketing.mobile.flags.FlagExtension`.
 
-<!-- -->
+

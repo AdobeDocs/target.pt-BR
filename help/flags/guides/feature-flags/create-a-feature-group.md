@@ -7,9 +7,9 @@ exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e4be1b7a5198b667b0d398cb1287c920a0a81471
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '471'
 ht-degree: 0%
 ---
 # Criar um grupo de recursos {#create-feature-group}
@@ -57,11 +57,11 @@ Atribua os sinalizadores de recursos que serão controlados por este grupo:
 
 >[!IMPORTANT]
 >
->Um sinalizador de recurso só pode ser distribuído por meio de um método — diretamente como um sinalizador de recurso, por meio de um grupo de recursos ou por meio de uma versão. Quando você adiciona um sinalizador de recurso a um grupo de recursos, qualquer público-alvo ou implantação em porcentagem definida no sinalizador é removida. Sinalizadores de recursos já atribuídos a outra versão ou grupo de recursos não aparecerão na lista.
+>Um sinalizador de recurso só pode ser distribuído por meio de um método — diretamente como um sinalizador de recurso, por meio de um grupo de recursos. Quando você adiciona um sinalizador de recurso a um grupo de recursos, qualquer público-alvo ou implantação em porcentagem definida no sinalizador é removida. Os sinalizadores de recursos já atribuídos a um grupo de recursos não aparecerão na lista.
 
 >[!IMPORTANT]
 >
->Quando você **remove** um sinalizador de recurso de um grupo de recursos, o sinalizador retorna a um estado **desabilitado** e seu público-alvo é **não** restaurado — trate-o como um sinalizador novo. Um sinalizador **desabilitado** dentro de um grupo sempre é avaliado como `false`. A habilitação de um grupo de recursos **não** habilita seus sinalizadores de membro; habilita explicitamente cada sinalizador.
+>Quando você **remove** um sinalizador de recurso de um grupo de recursos, o sinalizador retorna a um estado **desabilitado** e seu público-alvo é **não** restaurado, trate-o como um sinalizador novo. Os usuários serão colocados de novo ao acaso quando o sinalizador for implantado novamente. Um sinalizador **desabilitado** dentro de um grupo sempre é avaliado como `false`. A habilitação de um grupo de recursos **não** habilita seus sinalizadores de membro; habilita explicitamente cada sinalizador.
 >
 >Os grupos de recursos são uma **camada de gerenciamento**. No tempo de execução, você sempre avalia no **nível de recurso (sinalizador)**, nunca no nível de grupo; a resposta inclui a variante na qual o usuário se enquadrou.
 

@@ -7,9 +7,9 @@ exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '265'
 ht-degree: 0%
 ---
 # Por que usar sinalizadores {#why-use}
@@ -37,6 +37,6 @@ Habilite um recurso simultaneamente em vários aplicativos para um conjunto espe
 Implante o código antecipadamente na produção e ative o recurso em um momento preciso, por exemplo, no início de um evento de lançamento de produto, sem nenhuma alteração de código de última hora.
 
 **Eliminar opção**
-Se um problema for detectado após o lançamento, desative o recurso instantaneamente, sem uma correção ou reimplantação.
+Se um problema for detectado após o lançamento, desative o recurso sem uma correção ou reimplantação. As alterações entrarão em vigor na próxima atualização do sinalizador (a cada 5 minutos por padrão).
 
 <!-- -->
