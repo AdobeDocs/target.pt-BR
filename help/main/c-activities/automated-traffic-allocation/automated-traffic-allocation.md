@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d887712962ad4e3cecd6b3b86ee33a4bcb99f2a8
 workflow-type: tm+mt
 source-wordcount: '3768'
 ht-degree: 33%
@@ -59,7 +59,7 @@ Nesses testes, a maioria dos produtos, incluindo o [!DNL Target], usa um [teste 
 ## Quando usar as atividades de [!UICONTROL Alocação automática] versus [!UICONTROL Teste A/B] ou [!UICONTROL Automated Personalization] {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * Use **[!UICONTROL Alocação automática]** quando quiser otimizar sua atividade a partir do início e identificar as experiências vencedoras o mais rapidamente possível. Ao veicular experiências de alto desempenho com mais frequência, o desempenho geral da atividade é aumentado.
-* Use um **[Teste A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** padrão quando quiser caracterizar o desempenho de todas as experiências antes de otimizar o site. Um teste A/B ajuda a classificar todas as suas experiências, enquanto a [!UICONTROL Alocação automática] encontra os melhores desempenhos, mas não garante a diferenciação entre os de baixo desempenho.
+* Use um **[Teste A/B](/help/main/c-activities/t-test-ab/test-ab.md#test-ab)** padrão quando quiser caracterizar o desempenho de todas as experiências antes de otimizar o site. Um teste A/B ajuda a classificar todas as suas experiências, enquanto a [!UICONTROL Alocação automática] encontra os melhores desempenhos, mas não garante a diferenciação entre os de baixo desempenho.
 * Use o [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) quando quiser algoritmos de otimização da mais alta complexidade, como modelos de aprendizado automatizado que fazem previsões com base em atributos de perfil individuais. A [!UICONTROL Alocação automática] observa o comportamento agregado das experiências (assim como testes A/B padrão) e não diferencia visitantes.
 
 ## Principais benefícios da [!UICONTROL Alocação automática] {#section_0913BF06F73C4794862561388BBDDFF0}
@@ -104,7 +104,7 @@ A ilustração mostra como o tráfego alocado para cada experiência progride ao
 >
 >Se uma atividade tiver apenas duas experiências, ambas as experiências obterão tráfego igual até que [!DNL Target] encontre uma experiência vencedora com 75% de confiança. Nesse ponto, dois terços do tráfego é alocado para o vencedor e um terço para o perdedor. Depois disso, quando uma experiência atingir a confiança de 95%, 90% do tráfego será alocado ao vencedor e 10% será alocado ao perdedor. [!DNL Target] sempre envia algum tráfego para a experiência &quot;perdida&quot; para evitar falsos positivos no final (ou seja, manter alguma exploração).
 
-Depois que uma atividade [!UICONTROL Alocação automática] é ativada, as seguintes operações da interface Target não são permitidas:
+Depois que uma atividade [!UICONTROL Alocação automática] é ativada, as seguintes operações da interface Tar[!DNL]get não são permitidas:
 
 * Alternar o modo &quot;Alocação de tráfego&quot; para &quot;Manual&quot;
 * Alterar o tipo de métrica de meta
@@ -258,7 +258,7 @@ Este vídeo inclui informações sobre a configuração da alocação de tráfeg
 * Selecione seu método de alocação de tráfego
 * Aloque o tráfego entre diferentes experiências
 
->[!VIDEO](https://video.tv.adobe.com/v/3507593?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 ### Criação de testes A/B (8:36) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
@@ -267,4 +267,4 @@ Este vídeo monstra como criar um teste A/B usando o fluxo de trabalho orientado
 * Criar uma atividade A/B em [!DNL Adobe Target]
 * Aloque o tráfego usando uma divisão manual ou automática
 
->[!VIDEO](https://video.tv.adobe.com/v/31295?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

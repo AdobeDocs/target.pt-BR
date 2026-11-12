@@ -21,16 +21,37 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 2ffe1a02ae60370b349f9b6f348d24ecb0a8cb2e
 workflow-type: tm+mt
-source-wordcount: '4003'
-ht-degree: 87%
+source-wordcount: '4347'
+ht-degree: 81%
 ---
-# Dez erros comuns em testes A/B e como evitá-los
+# Dez erros comuns em testes A/B e como evitá-los {#common-ab-testing-pitfalls}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba mais sobre as dez armadilhas mais significativas do teste A/B, como ignorar o nível de significância, monitorar testes ou interrompê-los antecipadamente e como evitar cada uma.
+
+>[!ENDSHADEBOX]
 
 Os formulários de teste A/B do [!DNL Adobe Target] são o suporte principal da maioria dos programas de otimização de marketing digital, ajudando os profissionais de marketing a oferecer experiências otimizadas e direcionadas aos seus visitantes e clientes. Este artigo descreve dez das armadilhas mais significativas que as empresas enfrentam ao realizar testes A/B. Ela também inclui meios de evitá-los, para que sua empresa possa obter um ROI maior com seus esforços de teste e ter mais confiança em seus resultados de teste A/B relatados.
 
+As armadilhas são:
+
+* [Armadilha 1: Ignorar os efeitos do nível de significância](#section_55F5577A13C6470BA1417C2B735C6B1D)
+* [Armadilha 2: declarar vencedores de vários testes de oferta sem diferença estatisticamente significativa](#section_FA83977C71DB4F69B3D438AF850EF3B6)
+* [Armadilha 3: Ignorar os efeitos do potencial estatístico](#section_0D517079B7D547CCAA75F80981CBE12A)
+* [Armadilha 4: usar testes unilaterais](#section_8BB136D1DD6341FA9772F4C31E9AA37C)
+* [Armadilha 5: monitorar testes](#section_EA42F8D5967B439284D863C46706A1BA)
+* [Armadilha 6: Interrupção prematura de testes](#section_DF01A97275E44CA5859D825E0DE2F49F)
+* [Armadilha 7: alterar a alocação de tráfego durante o período de teste](#allocation)
+* [Armadilha 8: não considerar os efeitos da novidade](#section_90F0D24C40294A8F801B1A6D6DEF9003)
+* [Armadilha 9: não levar em conta diferenças no período de consideração](#section_B166731B5BEE4E578816E351ECDEA992)
+* [Armadilha 10: usar métricas que não refletem os objetivos de negócios](#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE)
+
 ## Armadilha 1: Ignorar os efeitos do nível de significância {#section_55F5577A13C6470BA1417C2B735C6B1D}
+
+### Nível de significância e nível de confiança
 
 Qual é a probabilidade de o seu teste relatar uma diferença significativa na taxa de conversão entre duas ofertas quando, na verdade, não há nenhuma? É o que o *nível de significância* de um teste ajuda a determinar. Essas descobertas enganosas são frequentemente chamadas de falso positivo e, no mundo das estatísticas, são chamadas de erro Tipo I (se você rejeitar incorretamente a hipótese nula que é realmente verdadeira).
 
@@ -54,33 +75,39 @@ Nos testes A/B, os profissionais de marketing geralmente usam níveis de confian
 
 Como o gráfico abaixo ilustra, quanto mais testes forem executados, mais provável será que pelo menos um desses testes resulte em um falso positivo. Por exemplo, se você executar 10 testes usando um nível de confiança de 95%, haverá aproximadamente 40% de chance de detectar um ou mais falsos positivos (dado que não haja um aumento real: Pr (pelo menos um falso positivo) = 1 - Pr (sem falsos positivos) = 1 - 0,95 ^ 10 = 40%).
 
-![imagem armadilha1](assets/pitfalls1.png)
+![Gráfico de barras da probabilidade de pelo menos um falso positivo: 5% para 1 teste, cerca de 40% para 10 testes e cerca de 64% para 20 testes, em um nível de confiança de 95%](assets/pitfalls1.png)
 
 Em uma organização de marketing, 95% geralmente constitui uma compensação razoável entre o risco de um falso positivo e o falso negativo.
 
+### Quando prestar muita atenção
+
 No entanto, duas situações justificam prestar muita atenção ao nível de importância e suas implicações para os resultados dos testes: segmentação pós-teste e teste de várias ofertas.
 
-* **Segmentação pós-teste:** os profissionais de marketing geralmente fracionam e dividem os resultados de um teste com base nos segmentos de visitantes depois a conclusão do teste A/B. Segmentos comuns incluem tipo de navegador, tipo de dispositivo, áreas geográficas, hora do dia e visitantes novos versus visitantes recorrentes. Essa prática, conhecida como segmentação pós-teste, fornece excelente percepção dos segmentos de visitantes. Por sua vez, os profissionais de marketing podem usar esses insights para criar conteúdo melhor direcionado, mais relevante e diferenciado.
+#### Segmentação pós-teste
 
-  Se não houver diferença real na taxa de conversão, cada vez que você testar um segmento, a probabilidade de um falso positivo é igual ao nível de importância. E, como mencionado, quanto mais testes forem executados, maior será a probabilidade de você ter pelo menos um falso positivo entre eles. Em essência, cada segmento pós-teste representa um teste separado. Com um nível de importância de 5%, em média, você será vítima de um falso positivo toda vez que olhar para 20 segmentos pós-teste. O gráfico acima mostra como essa probabilidade aumenta.
+Os profissionais de marketing geralmente cortam e dividem os resultados de um teste com base em segmentos de visitantes após a conclusão do teste A/B. Segmentos comuns incluem tipo de navegador, tipo de dispositivo, áreas geográficas, hora do dia e visitantes novos versus visitantes recorrentes. Essa prática, conhecida como segmentação pós-teste, fornece excelente percepção dos segmentos de visitantes. Por sua vez, os profissionais de marketing podem usar esses insights para criar conteúdo melhor direcionado, mais relevante e diferenciado.
 
-  Quanto mais testes forem executados, maior será a probabilidade de você ter pelo menos um falso positivo entre eles. Em essência, cada segmento de pós-teste representa um teste separado, o que aumenta a probabilidade de um falso positivo. Esse aumento pode ser ainda mais significativo se os segmentos estiverem correlacionados.
+Se não houver diferença real na taxa de conversão, cada vez que você testar um segmento, a probabilidade de um falso positivo é igual ao nível de importância. E, como mencionado, quanto mais testes forem executados, maior será a probabilidade de você ter pelo menos um falso positivo entre eles. Em essência, cada segmento pós-teste representa um teste separado. Com um nível de importância de 5%, em média, você será vítima de um falso positivo toda vez que olhar para 20 segmentos pós-teste. O gráfico acima mostra como essa probabilidade aumenta.
 
-  Você não deveria fazer segmentação pós-teste? Não, os segmentos de pós-teste são valiosos. Em vez disso, para evitar esse problema cumulativo de falso positivo com segmentação pós-teste, depois de identificar um segmento pós-teste, considere testá-lo em um novo teste. Alternativamente, você pode aplicar a correção de Bonferroni, discutida a seguir.
+Quanto mais testes forem executados, maior será a probabilidade de você ter pelo menos um falso positivo entre eles. Em essência, cada segmento de pós-teste representa um teste separado, o que aumenta a probabilidade de um falso positivo. Esse aumento pode ser ainda mais significativo se os segmentos estiverem correlacionados.
 
-* **Teste de várias ofertas:** os profissionais de marketing testam com frequência mais de duas ofertas (ou experiências) entre si. É por isso que, às vezes, você vê soluções de teste A/B chamadas de teste A/B/n, em que n é o número de ofertas que você está testando simultaneamente.
+Você não deveria fazer segmentação pós-teste? Não, os segmentos de pós-teste são valiosos. Em vez disso, para evitar esse problema cumulativo de falso positivo com segmentação pós-teste, depois de identificar um segmento pós-teste, considere testá-lo em um novo teste. Alternativamente, você pode aplicar a correção de Bonferroni, discutida a seguir.
 
-  É importante observar que *cada* oferta testada tem uma taxa de falso positivo igual ao nível de significância, conforme descrito acima. Novamente, você está executando efetivamente vários testes quando várias ofertas são comparadas em um único ambiente de teste. Por exemplo, se você comparar cinco ofertas em um teste A/B/C/D/E, efetivamente formará quatro comparações: controle para B, controle para C, controle para D, controle para E. Com um nível de confiança de 95%, em vez da probabilidade de 5% de um falso positivo, essa probabilidade será de 18,5%.
+#### Teste de várias ofertas
 
-  Para manter seu nível de confiança geral em 95% e evitar esse problema, aplique o que é conhecido como a correção de Bonferroni. Usando esta correção, você simplesmente divide o nível de importância pelo número de comparações para chegar ao nível de importância necessário para atingir um nível de confiança de 95%.
+Os profissionais de marketing frequentemente testam mais de duas ofertas (ou experiências) entre si. É por isso que, às vezes, você vê soluções de teste A/B chamadas de teste A/B/n, em que n é o número de ofertas que você está testando simultaneamente.
 
-  Aplicando a correção de Bonferroni ao exemplo acima, você usaria um nível de significância de 5%/4 = 1,25%, que é o mesmo que um nível de confiança de 98,75% para um teste individual (100% - 1,25% = 98,75%). Esse ajuste mantém o nível de confiança efetivo em 95% quando você tem quatro testes, como no exemplo descrito.
+É importante observar que *cada* oferta testada tem uma taxa de falso positivo igual ao nível de significância, conforme descrito acima. Novamente, você está executando efetivamente vários testes quando várias ofertas são comparadas em um único ambiente de teste. Por exemplo, se você comparar cinco ofertas em um teste A/B/C/D/E, efetivamente formará quatro comparações: controle para B, controle para C, controle para D, controle para E. Com um nível de confiança de 95%, em vez da probabilidade de 5% de um falso positivo, essa probabilidade será de 18,5%.
+
+Para manter seu nível de confiança geral em 95% e evitar esse problema, aplique o que é conhecido como a correção de Bonferroni. Usando esta correção, você simplesmente divide o nível de importância pelo número de comparações para chegar ao nível de importância necessário para atingir um nível de confiança de 95%.
+
+Aplicando a correção de Bonferroni ao exemplo acima, você usaria um nível de significância de 5%/4 = 1,25%, que é o mesmo que um nível de confiança de 98,75% para um teste individual (100% - 1,25% = 98,75%). Esse ajuste mantém o nível de confiança efetivo em 95% quando você tem quatro testes, como no exemplo descrito.
 
 ## Armadilha 2: declarar vencedores de vários testes de oferta sem diferença estatisticamente significativa {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
 Com vários testes de ofertas, os profissionais de marketing geralmente declaram a oferta com o maior aumento como vencedora do teste, embora não haja diferença estatisticamente significativa entre o vencedor e o segundo lugar. Esta situação ocorre quando a diferença entre as alternativas é menor que a diferença entre as alternativas e o controle. A figura abaixo ilustra esse conceito, com as barras de erro pretas representando intervalos de confiança de elevação de 95%. O verdadeiro aumento para cada oferta em relação à oferta de controle é 95% provável de ser incluído dentro do intervalo de confiança, ou seja, o intervalo mostrado pelas barras de erro.
 
-![imagem armadilha2](assets/pitfalls2.png)
+![Gráfico de barras do aumento das Ofertas A, B e C com intervalos de confiança: os intervalos de A e B se sobrepõem, o intervalo de C não](assets/pitfalls2.png)
 
 As ofertas A e B têm o maior aumento observado durante o teste, e seria improvável que a oferta C superasse essas ofertas em um teste futuro, porque o intervalo de confiança de C não se sobrepõe aos intervalos de confiança de A ou B. No entanto, embora a oferta A tenha o maior aumento observado durante o teste, é possível que a oferta B tenha um desempenho melhor em um teste futuro porque os intervalos de confiança se sobrepõem.
 
@@ -98,7 +125,7 @@ Existem dois fatores principais que determinam o poder de um teste. O primeiro �
 
 Os profissionais de marketing de hoje subestimam um número notável de testes. Em outras palavras, eles usam um tamanho de amostra muito pequeno. Isso significa que eles têm uma pequena chance de detectar verdadeiros positivos, mesmo quando realmente existe uma diferença substancial na taxa de conversão. De fato, se você executar continuamente testes de baixa potência, o número de falsos positivos pode ser comparável ou até mesmo dominar o número de positivos verdadeiros. Isso geralmente leva à implementação de alterações neutras em um site (perda de tempo) ou a alterações que realmente reduzem as taxas de conversão.
 
-![imagem armadilha3](assets/pitfalls3.png)
+![Tabela dos quatro resultados possíveis de um teste: verdadeiro positivo, falso positivo (controlado pelo nível de significância), falso negativo (controlado pelo nível de potência) e verdadeiro negativo](assets/pitfalls3.png)
 
 Para evitar subdimensionar seu teste, considere que um padrão típico para um teste bem feito inclui um nível de confiança de 95% e um potencial estatístico de 80%. Esse teste oferece 95% de probabilidade de evitar um falso positivo e 80% de probabilidade de evitar um falso negativo.
 
@@ -130,7 +157,7 @@ Para evitar este problema, você deve determinar um período adequado durante o 
 
 A figura abaixo mostra cinco ofertas que têm a mesma taxa de conversão de longo prazo. A Oferta B teve uma taxa de conversão baixa para os primeiros 2.000 visitantes, e leva muito tempo até que a taxa de conversão estimada retorne à taxa real de longo prazo.
 
-![imagem armadilha4](assets/pitfalls4.png)
+![Gráfico de linhas da diferença na taxa de conversão entre cinco ofertas alternativas e o controle: as diferenças são grandes para os primeiros milhares de visitantes, por exemplo, menos 8 a menos 9% para a Oferta B e convergem para zero conforme o número de visitantes cresce](assets/pitfalls4.png)
 
 Esse fenômeno é conhecido como “regressão à média” e pode levar ao desapontamento quando uma oferta que teve bom desempenho durante os primeiros dias de um teste não consegue manter esse nível de desempenho a longo prazo. Também pode levar à perda de receita quando uma boa oferta não é implementada porque teve um desempenho ruim nos primeiros dias de um teste apenas por acaso.
 
@@ -168,7 +195,7 @@ Essas ofertas incentivam os visitantes a converter mais cedo e serão favorecida
 
 A figura abaixo mostra duas ofertas que dois visitantes diferentes veem ao mesmo tempo em uma tarde de domingo. O período de consideração para a oferta A é curto e o visitante converte mais tarde naquele dia. No entanto, a oferta B tem um período de consideração mais longo, e o visitante que viu a oferta B pensa na oferta por algum tempo e acaba convertendo na manhã da segunda-feira. Se você interromper o teste no domingo à noite, a conversão associada à oferta A será contada para a métrica de conversão da oferta A, enquanto a conversão associada à oferta B não será contada para a métrica de conversão da oferta B. Isso coloca a oferta B em uma desvantagem significativa.
 
-![imagem armadilha5](assets/pitfalls5.png)
+![Linha do tempo de domingo a segunda-feira: a oferta A tem um período de consideração curto e o visitante converte no domingo, a oferta B tem um período de consideração mais longo e o visitante converte na segunda-feira](assets/pitfalls5.png)
 
 Para evitar essa armadilha, reserve um tempo para que os visitantes expostos às ofertas de teste sejam convertidos depois que uma nova entrada no teste for interrompida. Este passo proporciona uma comparação justa das ofertas.
 
@@ -176,11 +203,11 @@ Para evitar essa armadilha, reserve um tempo para que os visitantes expostos às
 
 Os profissionais de marketing podem se sentir tentados a usar métricas de conversão de alto tráfego e baixa variação no funil superior, como taxa de cliques (CTR), para alcançar um número adequado de conversões de teste mais rapidamente. No entanto, considere cuidadosamente se a CTR é um proxy adequada para a meta de negócios que você deseja atingir. Ofertas com CTRs mais altas podem facilmente levar a uma receita menor. Isso pode acontecer quando as ofertas atraem visitantes com menor propensão a comprar, ou devido a própria oferta, por exemplo, uma oferta de desconto, simplesmente leva a uma receita menor.
 
-![imagem armadilha6](assets/pitfalls6.png)
+![Funnel e métricas desde CTR na parte superior até o lucro vitalício na parte inferior: maior tráfego e menos variação na parte superior, mais próximo das metas comerciais na parte inferior](assets/pitfalls6.png)
 
 Considere a oferta de esqui abaixo. Ela gera uma CTR mais elevada do que a oferta do ciclismo, mas como os visitantes gastam, em média, mais dinheiro quando seguem a oferta do ciclismo, a receita esperada ao colocar a oferta de ciclismo diante de um determinado visitante é maior. Portanto, um teste A/B com CTR como métrica selecionaria uma oferta que não maximiza a receita, o que seria o objetivo comercial fundamental.
 
-![imagem armadilha7](assets/pitfalls7.png)
+![Oferta de esqui com um CTR de 20% e uma receita média de US$ 50, portanto, uma receita esperada de US$ 10, em comparação a uma oferta de ciclismo com um CTR de 10% e uma receita média de US$ 250, portanto, uma receita esperada de US$ 25](assets/pitfalls7.png)
 
 Para evitar esse problema, monitore suas métricas de negócios com cuidado para identificar o impacto comercial das ofertas ou, melhor ainda, use uma métrica mais próxima de sua meta de negócios, se possível.
 
