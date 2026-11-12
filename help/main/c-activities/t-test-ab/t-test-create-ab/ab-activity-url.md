@@ -39,9 +39,9 @@ Quando solicitado durante a criação da atividade, especifique o URL da ativida
 
 >[!NOTE]
 >
->[!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]). Como resultado, [!DNL `http://www.adobe.com`] e [!DNL `https://www.adobe.com`] são correspondentes.
+>[!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]). Como resultado, [!DNL `http://www.adobe.com/br`] e [!DNL `https://www.adobe.com/br`] são correspondentes.
 
-Se você especificar uma URL para um site que não inclui a biblioteca de JavaScript [!DNL Target] [at.js ou [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}, não será possível selecionar elementos de página.
+Se você especificar uma URL para um site que não inclui a biblioteca de JavaScript [!DNL Target] [at.js ou [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=pt-BR){target=_blank}, não será possível selecionar elementos de página.
 
 ## Exibir uma página diferente {#different-page}
 

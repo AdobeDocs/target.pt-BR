@@ -42,7 +42,7 @@ Conclua estas etapas depois de receber um convite para ingressar em [!DNL Adobe 
 
 Um administrador do sistema no [!DNL Adobe Admin Console] deve adicioná-lo como usuário no [!DNL Target], convidando-o para entrar. O administrador também deve adicionar você a um ou mais perfis de produto com função específica (grupos de usuários). Ambas as tarefas foram concluídas no [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Para obter uma orientação passo a passo, consulte [Saiba como gerenciar usuários e perfis de produto](https://helpx.adobe.com/enterprise/using/users.html) na documentação do Adobe Enterprise.
+Para obter uma orientação passo a passo, consulte [Saiba como gerenciar usuários e perfis de produto](https://helpx.adobe.com/br/enterprise/using/users.html) na documentação do Adobe Enterprise.
 
 Depois que o administrador concluir essas etapas, você receberá um email de convite.
 
