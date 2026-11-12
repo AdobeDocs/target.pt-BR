@@ -29,16 +29,27 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ece061af0f50ec45e07b9710d355a9c91731578e
+source-git-commit: b608d181c660201f2c373ec8a1ac6e95be1be96c
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 42%
+source-wordcount: '703'
+ht-degree: 39%
 ---
 # Notas de versão do [!DNL Target] (atuais)
 
 Explore os recursos, aprimoramentos e correções mais recentes no [!DNL Adobe Target]. Essas notas de versão também abrangem atualizações para APIs do [!DNL Target], SDKs, o [!DNL Adobe Experience Platform Web SDK], at.js e outros componentes da plataforma, quando aplicável.
 
 (Os números de edição entre parênteses são para uso interno da [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 26.11.1 (12 de novembro de 2026)
+
+**[!UICONTROL Atividades]**
+
++++Ver detalhes
+
+* **[!DNL Coworker]pontos de entrada adicionados à lista de Atividades**. Se sua organização tiver acesso a [!DNL Coworker], a lista [!UICONTROL Atividades] agora incluirá um botão **[!UICONTROL Revisar meus testes]** ao vivo e um menu **[!UICONTROL Perguntar ao Colaborador]** para cada atividade. Use-os para que o [!DNL Coworker] analise suas atividades online ou responda a perguntas sobre uma atividade específica. (TGT-56536)
+  [Saiba mais](../c-activities/activities.md#coworker)
++++
+
 
 ## [!DNL Target Standard/Premium] 26.10.2 (15 de outubro de 2026)
 

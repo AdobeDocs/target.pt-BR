@@ -35,72 +35,79 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: 553aa8fb523a62f72f0e2be7d7fd1b4eb663da6b
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 47%
+source-wordcount: '777'
+ht-degree: 32%
 ---
-# Configurar o [!UICONTROL Visual Experience Composer]
+# Configurar o Visual Experience Composer (VEC)
 
-Configure o [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) especificando suas configurações gerais, a configuração de visor móvel e os seletores de CSS.
+Use a guia **[!UICONTROL Visual Experience Composer]** em **[!UICONTROL Administração]** para definir padrões para toda a conta do [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC). Essas configurações se aplicam sempre que os autores criam ou visualizam experiências no VEC.
 
-Para acessar a página de configuração do [!UICONTROL Visual Experience Composer], clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer].**
+**Visão geral da configuração**
 
-{{permissions-update}}
+1. [Configurações gerais](#general-settings): URL padrão, Enhanced Experience Composer, conteúdo misto e instantâneos de experiência.
+1. [Configuração de visor móvel](#mobile-viewport-configuration): visualize dispositivos para experiências responsivas (somente [Target Premium](/help/main/c-intro/intro.md#premium)).
+1. [Seletores de CSS](#css): como o Target gera seletores para a entrega de conteúdo.
+
+Para abrir a página de configuração, clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]**.
 
 >[!NOTE]
 >
->Observe que as configurações desta página se aplicam a toda a conta do [!DNL Target].
+>As configurações desta página se aplicam a toda a conta [!DNL Target].
 
-## Configurações gerais
+## Configurações gerais {#general-settings}
 
-Você pode especificar configurações gerais para o [!UICONTROL Visual Experience Composer].
+Na seção **[!UICONTROL Configurações Gerais]**, configure os padrões usados ao abrir o VEC.
 
 ![Seção de Configurações Gerais](/help/main/administrating-target/assets/general-settings.png)
 
 As seguintes configurações estão disponíveis:
 
-### URL padrão
+* **URL padrão**
 
-O URL padrão usado pelo [!UICONTROL Visual Experience Composer]. Essa é a página padrão, por exemplo sua página inicial, usada sempre que você configura uma experiência para cada atividade nova. Se você não definir um URL padrão, deverá inserir um URL para cada atividade ao criá-la.
+  O URL padrão usado pelo [!UICONTROL Visual Experience Composer]. Essa é a página padrão, por exemplo sua página inicial, usada sempre que você configura uma experiência para cada atividade nova. Se você não definir um URL padrão, deverá inserir um URL para cada atividade ao criá-la.
 
-### Ativar Enhanced Experience Composer {#eec}
+* **Habilitar o Enhanced Experience Composer**
 
-Permite a edição em sites no iFrame e sites com conteúdo misto. Alguns sites podem não ser compatíveis com a versão aprimorada. Desmarque esta opção para reverter para o [!UICONTROL Visual Experience Composer] original. A entrega de atividades nos sites não é afetada por essa escolha.
+  Permite a edição em sites no iFrame e sites com conteúdo misto. Alguns sites podem não ser compatíveis com a versão aprimorada. Desmarque esta opção para reverter para o [!UICONTROL Visual Experience Composer] original. A entrega de atividades nos sites não é afetada por essa escolha.
 
-Observe que o [!UICONTROL Enhanced Experience Composer] não é suportado no [!DNL Safari].
+  Observe que o [!UICONTROL Enhanced Experience Composer] não é suportado no [!DNL Safari].
 
-Para obter mais informações, consulte [Solução de problemas do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+  Para obter mais informações, consulte [Solução de problemas do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-Você também pode ativar o [!UICONTROL Enhanced Experience Composer] no nível da atividade.
+  Você também pode ativar o [!UICONTROL Enhanced Experience Composer] no nível da atividade. Consulte [Saiba como habilitar o Enhanced Experience Composer no nível da atividade](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md).
 
-### Carregar conteúdo misto
+* **Carregar conteúdo misto**
 
-Habilite conteúdo misto ao abrir um site usando o [!UICONTROL Enhanced Experience Composer] (EEC). Habilitar essa opção evita a sobrecarga extra do carregamento de recursos estáticos por meio de [!DNL Target] servidores proxy.
+  Habilite conteúdo misto ao abrir um site usando o [!UICONTROL Enhanced Experience Composer] (EEC). Habilitar essa opção evita a sobrecarga extra do carregamento de recursos estáticos por meio de [!DNL Target] servidores proxy.
 
-Essa opção é útil se, por exemplo:
+  Essa opção é útil se, por exemplo:
 
-* Os cabeçalhos de Política de segurança de conteúdo (CSP) permitem carregar conteúdo misto sem usar servidores proxy com o EEC ativado.
-* Seu site HTTP enfrenta um tempo de carregamento maior no EEC, o que significa que o JavaScript, as imagens e assim por diante levam mais tempo para carregar por proxy.
+  * Os cabeçalhos de Política de segurança de conteúdo (CSP) permitem carregar conteúdo misto sem usar servidores proxy com o EEC ativado.
+  * Seu site HTTP enfrenta um tempo de carregamento maior no EEC, o que significa que o JavaScript, as imagens e assim por diante levam mais tempo para carregar por proxy.
 
-### Gerar instantâneos de experiência no diagrama de fluxo de atividades
+* **Gerar instantâneos de experiência no diagrama de fluxo de atividades**
 
-Quando os instantâneos de experiência estão ativados, miniaturas são geradas para as experiências no diagrama de fluxo de trabalho da atividade. A desativação de instantâneos pode resultar no desempenho mais rápido para alguns usuários.
+  Quando os instantâneos de experiência estão ativados, miniaturas são geradas para as experiências no diagrama de fluxo de trabalho da atividade. A desativação de instantâneos pode resultar no desempenho mais rápido para alguns usuários.
 
-## Configuração da janela de visualização móvel
+## Configuração do visor móvel {#mobile-viewport-configuration}
 
 >[!NOTE]
 >
->As configurações de [!UICONTROL Configuração de Visor Móvel] são um recurso do [Target Premium](/help/main/c-intro/intro.md#premium).
+>As configurações de **[!UICONTROL Configuração de Visor Móvel]** são um recurso do [Target Premium](/help/main/c-intro/intro.md#premium).
 
-
-É possível adicionar dispositivos para usar ao visualizar experiências. Cada dispositivo está associado a um público-alvo.
+Adicionar dispositivos para usar ao visualizar experiências. Cada dispositivo está associado a um público-alvo.
 
 ![Seção de configuração de janela de visualização móvel](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
-Clique em **[!UICONTROL Adicionar]**, especifique um nome descritivo para o visor móvel, especifique a largura e a altura, selecione o sistema operacional desejado e clique em [!UICONTROL Salvar].
+Use as seguintes etapas para adicionar uma janela de visualização móvel:
 
-Para obter mais informações sobre como adicionar um visor móvel, consulte [Configuração de visor móvel](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md).
+1. Clique em **[!UICONTROL Adicionar]**.
+1. Especifique um nome descritivo para a janela de visualização móvel, especifique a largura e a altura e selecione o sistema operacional desejado.
+1. Clique em **[!UICONTROL Salvar]**.
+
+Para obter detalhes de visualização e público-alvo, consulte [Saiba como usar visores móveis para experiências responsivas](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
 ## Seletores de CSS {#css}
 
@@ -112,32 +119,26 @@ Essas opções ajudam o [!DNL Target] a entender a estrutura do site a fim de ge
 
 É possível escolher uma das seguintes opções:
 
-### Usar IDs de elementos
+* **Usar IDs de elemento**
 
-Desmarque essa opção se uma mesma ID for usada para vários elementos ou se a ID do elemento puder ser alterada no carregamento da página.
+  Desmarque essa opção se uma mesma ID for usada para vários elementos ou se a ID do elemento puder ser alterada no carregamento da página.
 
-### Usar classes de elementos
+* **Usar classes de elementos**
 
-Por padrão, o [!DNL Target] usa somente IDs de elemento. No entanto, se a página tiver sido projetada para usar classes para identificar os elementos, como uma página criada com [!DNL Adobe Experience Manager], você também deverá selecionar [!UICONTROL Usar classes de elementos].
+  Por padrão, o [!DNL Target] usa somente IDs de elemento. No entanto, se a página tiver sido projetada para usar classes para identificar os elementos, como uma página criada com [!DNL Adobe Experience Manager], você também deverá selecionar **[!UICONTROL Usar classes de elementos]**. A precisão do seletor geralmente é mais alta ao usar IDs, mais baixa ao usar classes e mais baixa quando nenhuma opção é selecionada. Teste sua página no VEC para confirmar se os seletores estão corretos.
 
->[!NOTE]
->
->Embora tudo tenha sido feito para garantir a precisão, esteja ciente de que o uso de classes pode resultar em erros. Se você não selecionar uma das opções, a precisão também será afetada. A ordem de precisão é IDs > classes > nenhuma opção. Sempre certifique-se de testar sua página para garantir que os seletores estão corretos.
-
-É possível substituir essa configuração por atividade (clique no ícone de engrenagem [!UICONTROL Configurações] e selecione [!UICONTROL Seletores de CSS]). Isso é especialmente útil se você tiver vários sites configurados de forma diferente.
-
->[!NOTE]
->
->A substituição da configuração por atividade não está disponível nas atividades de [!UICONTROL Automated Personalization] e [!UICONTROL Multivariate Testing].  Consulte [Seletores de elementos usados no Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) para obter mais informações sobre os seletores.
+  É possível substituir essa configuração por atividade ao clicar no ícone de engrenagem **[!UICONTROL Configurações]** e selecionar **[!UICONTROL Seletores de CSS]**, útil quando sites na mesma conta são configurados de forma diferente. As substituições por atividade não estão disponíveis nas atividades **[!UICONTROL Automated Personalization]** ou **[!UICONTROL Multivariate Testing]**. Para comportamento do seletor e solução de problemas, consulte [Seletores de elementos usados no Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md).
 
 ## Vídeo de treinamento: Preferências da conta (7:33) ![Selo de visão geral](/help/main/assets/overview.png)
+
+>[!BEGINSHADEBOX]
+
+A interface do usuário do menu [!DNL Target] **[!UICONTROL Administração]** (antiga **[!UICONTROL Configuração]**) foi reprojetada para fornecer desempenho aprimorado, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário em todo o produto. As informações do vídeo a seguir são corretas; no entanto, as opções podem estar em locais um pouco diferentes. Os vídeos atualizados serão publicados em breve.
+
+>[!ENDSHADEBOX]
 
 Este vídeo inclui informações sobre as preferências da conta.
 
 * Descreva as configurações da conta disponíveis em [!DNL Target Standard]
-
->[!NOTE]
->
->A interface do usuário do menu [!DNL Target] [!UICONTROL Administração] (antiga [!UICONTROL Configuração]) foi reprojetada para fornecer desempenho aprimorado, reduzir o tempo de manutenção necessário ao lançar novos recursos e melhorar a experiência do usuário em todo o produto. As informações do vídeo a seguir são corretas; no entanto, as opções podem estar em locais um pouco diferentes. Os vídeos atualizados serão publicados em breve.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3507629?captions=por_br)

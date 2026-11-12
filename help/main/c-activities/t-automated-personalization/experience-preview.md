@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 41%
@@ -29,7 +29,7 @@ As URLs de visualização da experiência podem ser geradas para atividades do [
 
 Use URLs de visualização de experiência para compartilhar experiências com membros da equipe e para experiências de controle de qualidade em navegadores e ambientes, sem criar uma atividade de controle de qualidade separada. Este recurso é particularmente útil se um site for complexo ou se as políticas de segurança não permitirem que o site seja visualizado em um simulador.
 
-1. Crie uma [atividade de Personalização automatizada](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou clique na atividade para abri-la.
+1. Crie uma [atividade de Personalização automatizada](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) ou clique na atividade para abri-la.
 
    A atividade não precisa estar inicializada para visualizar uma experiência.
 

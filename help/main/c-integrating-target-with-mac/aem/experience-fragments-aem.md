@@ -1,7 +1,7 @@
 ---
 keywords: experience;aem;adobe experience manager;exportar para adobe target;fragmentos de experiência;fragmentos;XF
 description: Saiba como usar [!DNL Adobe Experience Manager] [!UICONTROL Fragmentos de experiência] em [!DNL Adobe Target] atividades.
-title: Como Usar  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragmentos De Experiência]?
+title: Como Usar Os [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragmentos De Experiência]?
 feature: Integrations
 exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
 TQID: https://experienceleague.adobe.com/-W1ELJx0ajes6BPEVIiS8q6ebmRLTTgIrxvGMUEWEaM
@@ -22,13 +22,11 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
-source-wordcount: 1446
+source-wordcount: '1449'
 ht-degree: 32%
-
 ---
-
 # [!UICONTROL Fragmentos de experiência] do AEM
 
 Use os [!UICONTROL Fragmentos de experiência] (XFs) criados em [!DNL Adobe Experience Manager] (AEM) em [!DNL Target] atividades para auxiliar na otimização e na personalização.
@@ -40,16 +38,16 @@ Considere o seguinte ao trabalhar com os [!UICONTROL Fragmentos de experiência]
 * Esse recurso exige que você seja um cliente do [!DNL Adobe Experience Manager] (AEM). Para obter mais informações, consulte os [Requisitos](#section_AE6F0971E1574B3AA324003599B96E5A) abaixo.
 * Os [!UICONTROL Fragmentos de experiência] e os [!UICONTROL Fragmentos de conteúdo] estão disponíveis para os seguintes tipos de atividades:
 
-   * [[!UICONTROL Teste A/B]](/help/main/c-activities/t-test-ab/test-ab.md)
-   * [[!UICONTROL Alocação automática]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-   * [[!UICONTROL Direcionamento automático]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL Direcionamento de experiência] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+  * [[!UICONTROL Teste A/B]](/help/main/c-activities/t-test-ab/test-ab.md)
+  * [[!UICONTROL Alocação automática]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+  * [[!UICONTROL Direcionamento automático]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+  * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+  * [[!UICONTROL Direcionamento de experiência] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * Os [!UICONTROL Fragmentos de experiência] e os [!UICONTROL Fragmentos de conteúdo] não estão disponíveis para os seguintes tipos de atividades:
 
-   * [[!UICONTROL Teste multivariado] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
-   * [[!UICONTROL Recomendações]](/help/main/c-recommendations/recommendations.md)
+  * [[!UICONTROL Teste multivariado] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+  * [[!UICONTROL Recomendações]](/help/main/c-recommendations/recommendations.md)
 
 * Você pode consumir [!UICONTROL Fragmentos de experiência] em [!DNL Target] atividades usando o [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) e o [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md).
 
@@ -152,8 +150,8 @@ Você pode consumir [!UICONTROL Fragmentos de experiência] em [!DNL Target] ati
    * **Teste A/B:** [criar um teste A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
    * **Autoalocação:** [autoalocação](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
    * **Direcionamento automático:** [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * **Para obter mais informações, consulte** [Criação de uma atividade de Personalização automatizada](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-   * **Direcionamento de experiência (XT):** [criar uma atividade de direcionamento de experiência](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+   * **Para obter mais informações, consulte** [Criação de uma atividade de Personalização automatizada](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)
+   * **Direcionamento de experiência (XT):** [criar uma atividade de direcionamento de experiência](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
    * **Recommendations em uma atividade de Teste A/B ou de XT:** [Recommendations como uma oferta](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
    [!UICONTROL Fragmentos de experiência] exportados como JSON em [!DNL Target] não podem ser usados em atividades criadas usando o VEC; somente [!UICONTROL Fragmentos de experiência] do HTML têm suporte em atividades baseadas em VEC. Se você quiser usar JSON [!UICONTROL Fragmentos de experiência], use-os em atividades criadas com o [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md).
@@ -192,6 +190,6 @@ O vídeo a seguir mostra como configurar e usar [!UICONTROL Fragmentos de experi
 
 >[!NOTE]
 >
->O recurso de deeplink [!DNL AEM] discutido em 4:54 foi removido.
+>O recurso de deeplink do [!DNL AEM] discutido aos 4:54 foi removido.
 
 Para obter informações mais detalhadas, consulte [Usando [!UICONTROL Fragmentos de experiência] com o Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=pt_BR) na página *Vídeos e Tutoriais do AEM Sites*.

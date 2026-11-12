@@ -10,14 +10,20 @@ product_v2:
 feature_v2:
   - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
     internal-label: Activities
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 9b496bb9a6606c3627afce1227c7830ba710f5d2
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '858'
 ht-degree: 1%
 ---
-# Painel do Adobe Target Insights
+# Painel do Adobe Target Insights {#insights-dashboard}
 
-O [!UICONTROL Painel do Adobe Target] fornece uma visão geral de alto nível de como sua organização usa o [!DNL Adobe Target] ao longo do tempo. Ele ajuda as equipes a entender rapidamente a adoção, o volume de atividades e o uso de experimentação.
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como ler o **[!UICONTROL Painel do Adobe Target]**: como selecionar um intervalo de tempo e o que os KPIs, o detalhamento do tipo de atividade, as métricas de teste A/B e o gráfico de atividades ao longo do tempo mostram.
+
+>[!ENDSHADEBOX]
+
+O **[!UICONTROL Painel do Adobe Target]** fornece uma visão geral de alto nível de como sua organização usa o [!DNL Adobe Target] ao longo do tempo. Ele ajuda as equipes a entender rapidamente a adoção, o volume de atividades e o uso de experimentação.
 
 O painel foi criado para profissionais e participantes que desejam visibilidade rápida do uso do [!DNL Target] sem a necessidade de pesquisar relatórios de atividades individuais.
 
@@ -63,23 +69,23 @@ Os cartões KPI na parte superior da página resumem rapidamente as contagens da
 
 ![](assets/insights-4.png)
 
-A métrica **Total de atividades ativas** detalha o número de atividades ativas em qualquer ponto durante o intervalo de tempo selecionado. Uma atividade é considerada ativa se estava veiculando ativamente o tráfego, mesmo se tiver começado antes ou terminado após o período selecionado. Use essa métrica para:
+A métrica **[!UICONTROL Total de atividades ativas]** detalha o número de atividades ativas em qualquer ponto durante o intervalo de tempo selecionado. Uma atividade é considerada ativa se estava veiculando ativamente o tráfego, mesmo se tiver começado antes ou terminado após o período selecionado. Use essa métrica para:
 
 * Entenda como o [!DNL Target] foi usado ativamente durante o período.
 * Avalie a escala geral de seus esforços de personalização e teste.
 
-A métrica **Atividades ativas ou modificadas** representa o número total de atividades em sua organização que foram ativas, criadas ou modificadas dentro do período selecionado. Use essa métrica para:
+A métrica **[!UICONTROL Atividades ativas ou modificadas]** representa o número total de atividades em sua organização que foram ativas, criadas ou modificadas dentro do período selecionado. Use essa métrica para:
 
 * Entenda o tamanho geral da biblioteca de atividades do [!DNL Target] e quantas atividades estão em uso.
 
 * Rastreie o crescimento de longo prazo de seus programas de experimentação e personalização.
 
-A métrica **Atividades encerradas** representa o número de atividades que atingiram uma data de conclusão ou de término durante o intervalo de tempo selecionado. Use essa métrica para:
+A métrica **[!UICONTROL Atividades encerradas]** representa o número de atividades que atingiram uma data de conclusão ou de término durante o intervalo de tempo selecionado. Use essa métrica para:
 
 * Entenda quantas atividades foram concluídas durante o período.
 * Rastrear o volume de conclusão ao longo do tempo.
 
-A métrica **Atividades publicadas** detalha o número de atividades publicadas durante o intervalo de tempo selecionado. Uma atividade é considerada publicada quando é disponibilizada pela primeira vez. Se uma atividade for ativada, interrompida e ativada novamente, somente a primeira ocorrência será contada nessa métrica. Use essa métrica para:
+A métrica **[!UICONTROL Atividades publicadas]** detalha o número de atividades publicadas durante o intervalo de tempo selecionado. Uma atividade é considerada publicada quando é disponibilizada pela primeira vez. Se uma atividade for ativada, interrompida e ativada novamente, somente a primeira ocorrência será contada nessa métrica. Use essa métrica para:
 
 * Meça quantas novas atividades foram iniciadas.
 * Entenda a velocidade de criação e publicação de atividades.
@@ -88,13 +94,13 @@ A métrica **Atividades publicadas** detalha o número de atividades publicadas 
 
 ![](assets/insights-5.png)
 
-O gráfico [!UICONTROL Tipo de Atividade] mostra a distribuição de atividades ativas por tipo durante o intervalo de tempo selecionado, incluindo:
+O gráfico **[!UICONTROL Tipo de Atividade]** mostra a distribuição de atividades ativas por tipo durante o intervalo de tempo selecionado, incluindo:
 
-* [!UICONTROL Teste A/B]
-* [!UICONTROL Direcionamento de experiência]
-* [!UICONTROL Recomendações]
-* [!UICONTROL Personalização automatizada]
-* [!UICONTROL Teste multivariado]
+* **[!UICONTROL Teste A/B]**
+* **[!UICONTROL Direcionamento de experiência]**
+* **[!UICONTROL Recomendações]**
+* **[!UICONTROL Personalização automatizada]**
+* **[!UICONTROL Teste multivariado]**
 
 Use este gráfico para identificar em quais recursos do [!DNL Target] sua organização mais depende e para detectar oportunidades para ampliar a combinação de tipos de atividades executadas.
 
@@ -110,7 +116,7 @@ O **[!UICONTROL Total de Testes A/B publicados]** mostra o número de **[!UICONT
 
 Use essas métricas para entender com que frequência os testes A/B estão sendo usados e para rastrear o volume de experimentação e a adoção ao longo do tempo.
 
-### Atividades ao longo do tempo
+### Atividades ao longo do tempo {#activities-over-time}
 
 ![](assets/insights-7.png){align="center"}
 

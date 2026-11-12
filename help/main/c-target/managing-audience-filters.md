@@ -1,6 +1,6 @@
 ---
 keywords: Direcionamento;filtro de público-alvo;públicos-alvo;filtro
-description: Saiba como usar os filtros de público-alvo no [!DNL Adobe Target]  para exibir dados de visitantes que compartilham características.
+description: Saiba como usar os filtros de público-alvo no [!DNL Adobe Target] para exibir dados de visitantes que compartilham características.
 title: Posso usar filtros de público-alvo para relatórios?
 feature: Audiences
 exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
@@ -29,13 +29,11 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
 workflow-type: tm+mt
-source-wordcount: 478
+source-wordcount: '479'
 ht-degree: 59%
-
 ---
-
 # Filtros de público-alvo para relatórios
 
 Os filtros de público-alvo (ou públicos-alvo) em [!DNL Adobe Target] são grupos de visitantes que compartilham uma característica ou um conjunto de características específicas.
@@ -60,5 +58,5 @@ As seções a seguir fornecem mais informações sobre a configuração e o rela
 | Crie uma atividade ou teste apropriado. | [Atividades e testes](/help/main/c-intro/target-key-concepts.md) |
 | Crie públicos-alvo, se necessário. | [Criar um público-alvo](/help/main/c-target/c-audiences/create-audience.md) |
 | Combine vários públicos-alvo, se necessário. | [Combinar vários públicos-alvos](/help/main/c-target/combining-multiple-audiences.md) |
-| Aplique os públicos-alvo na página Metas e configurações da atividade. | Teste A/B: [Metas e Configurações](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>Direcionamento de Experiência: [Metas e Configurações](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>Teste Multivariado: [Metas e Configurações](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recomendações: [Configurações de atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Configurações de atividade: [Configurações de Atividade](/help/main/c-activities/activity-settings.md) |
+| Aplique os públicos-alvo na página Metas e configurações da atividade. | Teste A/B: [Metas e Configurações](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>Direcionamento de Experiência: [Metas e Configurações](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Teste Multivariado: [Metas e Configurações](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>Recomendações: [Configurações de atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Configurações de atividade: [Configurações de Atividade](/help/main/c-activities/activity-settings.md) |
 | Visualize relatórios com informações sobre seus filtros de público-alvo. | [Configurações do relatório](/help/main/c-reports/c-report-settings/report-settings.md) |

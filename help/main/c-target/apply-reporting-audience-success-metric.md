@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 43%
@@ -46,7 +46,7 @@ Ou, para expressar isso de outra maneira, você pode especificar que um visitant
 
 >[!NOTE]
 >
->[Métricas de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) estão disponíveis apenas se você as configurar para sua atividade. Se você não tiver definido as métricas de sucesso, verá apenas duas opções da lista suspensa: [!UICONTROL Entrada da campanha] e [!UICONTROL Conversão].
+>[Métricas de sucesso](/help/main/c-activities/r-success-metrics/success-metrics.md#overview) estão disponíveis apenas se você as configurar para sua atividade. Se você não tiver definido as métricas de sucesso, verá apenas duas opções da lista suspensa: [!UICONTROL Entrada da campanha] e [!UICONTROL Conversão].
 
 
 ## Considerações

@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e62cab5f2a4ac7d18bdb6847784a06b37513624a
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 Este artigo documenta os cálculos estatísticos detalhados usados em testes A/Bn manuais no [!DNL Adobe Target]. As definições são fornecidas para **[!UICONTROL Taxa de Conversão]**, **[!UICONTROL Intervalo de Confiança da Taxa de Conversão]**, **[!UICONTROL Aumento]**, **[!UICONTROL Intervalo de Confiança para Aumento]**, **[!UICONTROL Confiança]** e **[!UICONTROL Métricas de decisão Bayesianas]**.
 
-Uma atividade **[!UICONTROL Teste A/B]** (Manual) dá suporte a duas metodologias estatísticas, selecionadas por atividade em [Metas e Configurações](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF):
+Uma atividade **[!UICONTROL Teste A/B]** (Manual) dá suporte a duas metodologias estatísticas, selecionadas por atividade em [Metas e Configurações](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_statistical-methodology):
 
 * [Teste t de Welch](#welchs-t-test): uma metodologia frequencista que relata uma porcentagem de **[!UICONTROL Confiança]** e um intervalo de confiança, com base em um teste de hipótese de tamanho de amostra fixo. Usado para atividades com uma meta principal de **[!UICONTROL Receita]** ou **[!UICONTROL Envolvimento]**.
 
@@ -157,7 +157,7 @@ Em vez de calcular um valor p a partir de uma distribuição aproximada, o relat
 
 A metodologia **[!UICONTROL Bayesiana]** também permite que profissionais de marketing se alimentem de uma hipótese com base em suas experiências passadas e resultados para a variante de controle.
 
-A metodologia **[!UICONTROL Bayesiana]** só está disponível para atividades cuja métrica de meta primária é **[!UICONTROL Conversão]**, atividades com uma **[!UICONTROL Receita]** ou **[!UICONTROL Envolvimento]** meta principal sempre usam **[!UICONTROL teste t de Welch]**. Para obter mais informações sobre como selecionar uma metodologia, consulte [Metas e configurações](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF).
+A metodologia **[!UICONTROL Bayesiana]** só está disponível para atividades cuja métrica de meta primária é **[!UICONTROL Conversão]**, atividades com uma **[!UICONTROL Receita]** ou **[!UICONTROL Envolvimento]** meta principal sempre usam **[!UICONTROL teste t de Welch]**. Para obter mais informações sobre como selecionar uma metodologia, consulte [Metas e configurações](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_statistical-methodology).
 
 ### Intervalo médio de aumento e credibilidade
 
