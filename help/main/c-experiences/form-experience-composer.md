@@ -50,7 +50,7 @@ Se você estiver criando uma atividade do [!UICONTROL Recommendations], não há
 
    Esta tela é diferente se você estiver criando uma atividade de [!UICONTROL Recomendações]. As atividades de [!UICONTROL Recommendations] não incluem experiências.
 
-1. 
+1. &#x200B;
    1. Clique no ícone **[!UICONTROL Renomear]** ( ![Ícone Renomear](/help/main/assets/icons/MoreSmallListVert.svg) ), clique em **[!UICONTROL Renomear]**, especifique um nome para a atividade e clique em **[!UICONTROL Salvar]**.
 
    O nome da atividade não pode começar com nenhum dos seguintes caracteres:
