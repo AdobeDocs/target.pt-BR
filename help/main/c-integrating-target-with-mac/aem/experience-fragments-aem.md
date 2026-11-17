@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
+source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 32%
@@ -74,8 +74,8 @@ Para usar [!DNL AEM] [!UICONTROL Fragmentos de experiência] em [!DNL Target], e
 
 Para obter mais informações, consulte:
 
-* **AEM as a Cloud Service**: [Integração com o Adobe Target](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} no guia do *Experience Manager as a Cloud Service*.
-* **Adobe Developer**: [Integração com o Adobe Target usando o Adobe I/O](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html?lang=pt-BR){target=_blank} na documentação do *Guia de Administração do Usuário*.
+* **AEM as a Cloud Service**: [Integração com o Adobe Target](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} no guia do *Experience Manager as a Cloud Service*.
+* **Adobe Developer**: [Integração com o Adobe Target usando o Adobe I/O](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html){target=_blank} na documentação do *Guia de Administração do Usuário*.
 * **[!DNL AEM]6.5**: [Ativação do Adobe Analytics e do Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=pt_BR){target=_blank} na documentação do *Adobe Experience Manager 6.5*.
 * **[!DNL AEM]6.4**: [Ativação do Adobe Analytics e do Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=pt_BR){target=_blank} na documentação do *Adobe Experience Manager 6.4*.
 
@@ -100,7 +100,7 @@ Para obter mais informações, consulte:
 
 Dependendo da versão do [!DNL AEM], consulte os seguintes links para obter instruções passo a passo:
 
-* **AEM as a Cloud Service**: [Exportação de [!UICONTROL Fragmentos de experiência] para o Adobe Target](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank} no guia do *Experience Manager as a Cloud Service*.
+* **AEM as a Cloud Service**: [Exportação de [!UICONTROL Fragmentos de experiência] para o Adobe Target](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank} no guia do *Experience Manager as a Cloud Service*.
 * **[!DNL AEM]6.5**: [Exportação de um fragmento de experiência para o Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=pt-BR){target=_blank} na documentação do *Adobe Experience Manager 6.5*.
 * **[!DNL AEM]6.4**: [Exportação de um fragmento de experiência para o Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=pt_BR){target=_blank} na documentação do *Adobe Experience Manager 6.4*.
 
@@ -126,7 +126,7 @@ Você pode consumir [!UICONTROL Fragmentos de experiência] em [!DNL Target] ati
 >
 >Use a Inteligência artificial, o Aprendizado de máquina e as recomendações com [!UICONTROL Fragmentos de experiência]:
 >
->* Para utilizar toda a funcionalidade de IA e aprendizado de máquina do [!DNL Target], você pode selecionar o recurso de [alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) ou [direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) ao criar uma atividade.
+>* Para utilizar toda a funcionalidade de IA e aprendizado de máquina do [!DNL Target], você pode selecionar o recurso de [alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview) ou [direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) ao criar uma atividade.
 >
 >* Não há suporte para [!UICONTROL Fragmentos de experiência] em [!DNL Recommendations] atividades. No entanto, para usar os [!UICONTROL Fragmentos de experiência] para recomendações, você pode criar uma atividade de [!UICONTROL Teste A/B] (incluindo a [!UICONTROL Alocação automática] e a [!UICONTROL Direcionamento automático]) ou uma atividade de [!UICONTROL Direcionamento de experiência] (XT) e [incluir recomendações como uma oferta](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
@@ -148,7 +148,7 @@ Você pode consumir [!UICONTROL Fragmentos de experiência] em [!DNL Target] ati
    Para obter mais informações sobre a configuração de vários tipos de atividades, consulte os tópicos a seguir:
 
    * **Teste A/B:** [criar um teste A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-   * **Autoalocação:** [autoalocação](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
+   * **Autoalocação:** [autoalocação](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)
    * **Direcionamento automático:** [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
    * **Para obter mais informações, consulte** [Criação de uma atividade de Personalização automatizada](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)
    * **Direcionamento de experiência (XT):** [criar uma atividade de direcionamento de experiência](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
@@ -186,7 +186,7 @@ Para obter mais informações, consulte a seguinte publicação do blog: [AEM 6.
 
 O vídeo a seguir mostra como configurar e usar [!UICONTROL Fragmentos de experiência]:
 
->[!VIDEO](https://video.tv.adobe.com/v/34848?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/22383)
 
 >[!NOTE]
 >

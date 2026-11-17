@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 322dbbd67ea981ad05ed8a1fdc1137ec50effd12
+source-git-commit: d27cb7e782e79c68f185f897758c6edb439da2cb
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '920'
 ht-degree: 1%
 ---
 # Teste A/A {#aa-testing}
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
-Antes de executar um teste A/A em seu site usando o [!DNL Adobe Target], é importante entender o que é um teste A/A, por que você pode querer executar um teste A/A, por quanto tempo você deve executar o teste e como interpretar os resultados.
+Um teste A/A divide o tráfego entre duas experiências idênticas. Como as experiências não diferem, o teste é uma maneira de verificar se a atividade, a implementação e os relatórios funcionam conforme esperado. Mesmo assim, experiências idênticas podem, às vezes, mostrar uma diferença no aumento. Entender por que o ajuda a executar o teste e interpretar os resultados corretamente.
 
 ## O que é um teste A/A? {#what-is-aa}
 
@@ -49,21 +49,21 @@ Algumas organizações executam testes A/A ao implementar uma nova ferramenta de
 * O código foi implementado corretamente
 * Os relatórios são precisos
 
-Embora poucas organizações executem testes A/A, é uma boa prática executá-los como experimentos de &quot;sanidade&quot; para criar confiança após implementar a ferramenta ou antes de executar testes A/B que possam afetar a conversão e a receita.
+Embora poucas organizações executem testes A/A, é uma boa prática executá-los como experimentos de verificação de sanidade para criar confiança após a implementação da ferramenta ou antes de executar testes A/B que possam afetar a conversão e a receita.
 
 ## Por que experiências idênticas podem mostrar aumento {#why-lift}
 
-Há vários motivos pelos quais você pode ver o aumento de uma experiência em relação a outra (idêntica) experiência:
+Há dois motivos principais pelos quais você pode ver o aumento de uma experiência em relação a outra (idêntica) experiência:
 
-### O teste A/A foi monitorado continuamente
+### O teste A/A foi monitorado continuamente {#data-peeking}
 
 Um problema comum na execução de qualquer tipo de teste, incluindo um teste A/A, é observar os resultados continuamente e interromper prematuramente um teste quando houver significância estatística e declarar uma experiência vencedora. Os analistas geralmente fazem o que se chama de &quot;espiada de dados&quot;. A espiada de dados envolve examinar os dados de teste antecipadamente e com frequência, enquanto tenta determinar qual experiência tem melhor desempenho. O risco é interromper o teste prematuramente, o que pode invalidar os resultados.
 
 Em um teste A/A, a espiada de dados geralmente pode fazer com que os analistas vejam o aumento em uma experiência, quando, na verdade, não deve haver diferença, pois as duas experiências são idênticas. Na verdade, com a espiada contínua, os testes A/A são *garantidos* para mostrar &quot;significância estatística&quot; (ou seja, uma confiança acima de um determinado limite, como 95%) em algum ponto durante o teste.
 
-### A significância estatística afeta os resultados dos testes
+### A significância estatística afeta os resultados dos testes {#statistical-significance}
 
-O nível de importância de um teste determina a probabilidade de o teste relatar uma diferença significativa nas taxas de conversão entre duas ofertas diferentes quando, na verdade, não há diferença real. Isso é conhecido como falso positivo ou erro Tipo I. O nível de significância é um limite especificado pelo usuário e há uma compensação entre a tolerância para falsos positivos e o número de visitantes que devem ser incluídos no teste ao escolher o nível de significância apropriado.
+O nível de importância de um teste determina a probabilidade de o teste relatar uma diferença significativa nos índices de conversão entre duas experiências diferentes quando, de fato, não há diferença real. Isso é conhecido como falso positivo ou erro Tipo I. O nível de significância é um limite especificado pelo usuário e há uma compensação entre a tolerância para falsos positivos e o número de visitantes que devem ser incluídos no teste ao escolher o nível de significância apropriado.
 
 Um nível de significância comumente usado em testes A/A e A/B é de 5%, o que corresponde a um nível de confiança de 95% (nível de confiança = 100% - nível de significância). Um nível de confiança de 95% significa que, sempre que você executar um teste, há 5% de chance de detectar um aumento estatisticamente significativo, mesmo que não haja diferença entre as experiências.
 
@@ -71,15 +71,13 @@ Suponha que você deseje atingir um nível de confiança de 95% com seu teste A/
 
 ## Prática recomendada {#best-practice}
 
-Se você decidir que um teste A/A é necessário em sua organização, esteja ciente de que as experiências idênticas podem mostrar temporariamente uma diferença em relação ao controle. Isso pode ser normal, dependendo do tempo que o teste tem permissão para ser executado. A diferença deve diminuir devido a mais tempo e visitantes.
+Se você decidir que um teste A/A é necessário em sua organização, esteja ciente de que as experiências idênticas podem mostrar temporariamente uma diferença em relação ao controle. Isso pode ser normal, dependendo do tempo que o teste tem permissão para ser executado. A diferença deve diminuir devido a mais tempo e visitantes. Dependendo do nível de importância do seu teste, também há a chance de uma experiência mostrar uma diferença no aumento e ser até mesmo declarada vencedora.
 
 Use a metodologia de teste A/B regular:
 
 1. Decida com antecedência qual tamanho de amostra usar, com base no tamanho mínimo de efeito (o aumento mínimo abaixo do qual um efeito não é importante para sua empresa), potência e níveis de significância que você acha aceitáveis. A **[!UICONTROL Calculadora de Tamanho da Amostra do Adobe Target]** é uma ferramenta importante para ajudá-lo a determinar o tamanho da amostra que você deve apontar e por quanto tempo você deve executar o teste. Consulte a [Calculadora de Tamanho da Amostra do Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 1. Permita o tempo e os visitantes adequados antes de chegar a qualquer conclusão. Em um teste A/A, o objetivo é *não* ver um resultado estatisticamente significativo depois que seu teste atingir o tamanho de amostra desejado.
-
-1. Lembre-se de que, dependendo do nível de importância do seu teste, há a chance de uma experiência mostrar uma diferença no aumento e até mesmo ser declarada a vencedora.
 
 Para obter informações sobre por quanto tempo você deve executar uma atividade e outras dicas e truques úteis, consulte os seguintes artigos:
 

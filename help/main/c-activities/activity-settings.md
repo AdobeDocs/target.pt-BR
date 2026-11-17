@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 79%
@@ -66,7 +66,7 @@ Use as [!UICONTROL Configurações da Atividade] em [!DNL Adobe Target] para ger
 A página [!UICONTROL Meta e configurações] inclui configurações adicionais que variam de acordo com o tipo de atividade que você está criando. Para obter mais informações sobre essas configurações, consulte seu tipo de atividade:
 
 * [Teste A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
-* [Personalização automatizada](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+* [Personalização automatizada](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview)
 * [Direcionamento de experiência](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
 * [Teste multivariado](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
 * [Recomendações](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
@@ -81,4 +81,4 @@ Este vídeo inclui informações sobre as configurações da atividade.
 * Adicionar públicos-alvo para relatórios a fim de criar filtros de relatórios
 * Inserir observações para a atividade
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3507947?captions=por_br)
+  >[!VIDEO](https://video.tv.adobe.com/v/17381)
