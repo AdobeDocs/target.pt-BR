@@ -35,7 +35,7 @@ O **[!UICONTROL Avaliador de Tráfego]** prevê o tamanho de amostra necessário
 
 * **95% de confiança.** Essa estatística significa que a chance de relatar um falso positivo se não houver aumento real é de 5% (100% - nível de confiança).
 * **80% de potência estatística.** Essa estatística significa que o teste tem uma probabilidade de 80% de detectar um aumento real de 25% ou mais.
-* **Aumento mínimo confiável detectável de {25%.** [!DNL Target] calcula a quantidade de tráfego necessária para ter 80% de chance de detectar um aumento real de 25% ou mais.
+* **Aumento mínimo confiável detectável de &lbrace;25%.** [!DNL Target] calcula a quantidade de tráfego necessária para ter 80% de chance de detectar um aumento real de 25% ou mais.
 
 O teste usa a correção de Bonferroni para corrigir para várias comparações. Esse método é conhecido por ser conservador, pois é balanceado pela aplicação de uma elevação mínima detectável confiável grande.
 

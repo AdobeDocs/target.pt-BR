@@ -48,7 +48,7 @@ Há dois tipos de público-alvo em [!DNL Target]:
 
 Para acessar a lista [!UICONTROL Públicos-alvo], clique em **[!UICONTROL Públicos-alvo]** na barra do menu superior:
 
-![[!UICONTROL Lista de ] públicos-alvo](assets/audiences_list.png)
+![[!UICONTROL Lista de &#x200B;] públicos-alvo](assets/audiences_list.png)
 
 A lista [!UICONTROL Públicos-alvo] contém os públicos-alvo que você pode usar em suas atividades. Use a lista [!UICONTROL Públicos] para criar, editar, duplicar, copiar ou combinar públicos. Qualquer público pode ser editado, incluindo públicos criados por meio da API [!DNL Adobe Target] ou do [[!DNL Adobe Target] servidor MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md). A lista também mostra a fonte onde o público-alvo foi criado:
 
