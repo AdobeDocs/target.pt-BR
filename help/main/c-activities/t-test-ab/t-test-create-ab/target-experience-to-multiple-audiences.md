@@ -19,45 +19,53 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 4876228feee28031373f7e0abe62a66b05b15274
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 51%
+source-wordcount: '488'
+ht-degree: 8%
 ---
-# Vários públicos-alvo de uma experiência em um Teste A/B
+# Vários públicos-alvo de uma experiência em um Teste A/B {#multiple-experience-audiences}
 
-Você pode direcionar versões da mesma experiência para públicos diferentes em [!DNL Adobe Target] atividades A/B. Você pode configurar vários públicos-alvo para uma experiência no [!UICONTROL Visual Experience Composer] (VEC) ou no Experience Composer baseado em formulário.
+>[!BEGINSHADEBOX]
 
-Os visitantes podem alternar entre públicos-alvo de experiência à medida que seu perfil muda. Os visitantes não ficam presos na mesma experiência ao longo da vida útil da atividade.
+**Nesta página:** saiba como direcionar públicos diferentes com versões da mesma experiência em uma atividade A/B, ilustrada por um caso de uso com as etapas a serem seguidas e as práticas recomendadas.
 
-Por exemplo, se seu site usa um design consistente em suas páginas ou produtos e você quer usar a mesma experiência para vários públicos-alvo (como visitantes com navegadores em idiomas diferentes), você pode definir várias versões da experiência. Você pode apresentar a mesma experiência para visitantes que falam inglês e japonês, sendo a única diferença o texto apresentado no idioma do visitante. Dados são coletados para a experiência, independentemente do idioma, para que o relatório apresente a performance da experiência, em vez da versão.
+>[!ENDSHADEBOX]
 
-Sem a habilidade de definir versões de experiência, você teria que definir testes diferentes para cada idioma (neste exemplo), e então agregar os resultados manualmente para tentar obter uma ideia de como seria o desempenho de uma única experiência com dois idiomas. Isso produz resultados menos precisos. Para alguns testes, estes cálculos podem até mesmo não serem úteis devido ao modo que visitantes são randomizados.
+Em [!DNL Adobe Target] atividades A/B, você pode direcionar versões da mesma experiência para públicos diferentes. Você pode configurar vários públicos-alvo para uma experiência no **[!UICONTROL Visual Experience Composer]** (VEC) ou no Experience Composer baseado em formulário.
 
-Ao criar versões diferentes de uma experiência, você recebe informações mais precisas sem a necessidade de cálculos manuais e suposições.
+Os dados são coletados para a experiência, independentemente da versão, de modo que o relatório mostra o desempenho da experiência, não de cada versão. Os visitantes também podem alternar entre públicos-alvo de experiência à medida que seu perfil muda. Eles não ficam presos na mesma experiência durante o tempo de vida da atividade.
 
-## Cenário
+## Caso de uso {#use-case}
 
-Você está testando duas experiências: um banner direcionado geograficamente e um banner genérico. O banner para cada geografia precisa ser diferente, mas o teste geral é determinar se o geolocalização é melhor do que mostrar o conteúdo genérico. Se você configurasse uma experiência separada para cada local, estaria medindo o desempenho de cada geolocalização em relação à outra, em vez de avaliar se a geolocalização ajuda a atingir suas metas de sucesso quando medida em relação ao banner genérico.
+Você está testando duas experiências:
 
-Nesse caso, o que você precisa são versões geográficas específicas da experiência, para testar a experiência com geolocalização em relação a um controle não geolocalizado.
+* um banner de geolocalização
+
+* um banner genérico.
+
+O banner precisa ser diferente para cada região, mas o objetivo do teste é determinar se o geolocalização tem melhor desempenho do que o conteúdo genérico.
+
+Se você configurar uma experiência separada para cada local, avaliará o desempenho de cada região em relação às outras. Você não mede se a geolocalização ajuda a atingir suas metas de sucesso em comparação ao banner genérico.
+
+Nesse caso, você precisa de versões geográficas específicas da experiência, para testar a experiência com geolocalização em relação a um controle não direcionado geograficamente.
+
+Para configurar as versões específicas da região:
 
 1. [Crie uma atividade A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) normalmente.
 
-   Ao configurar a experiência que terá múltiplas versões, selecione o público-alvo para cada versão, conforme os passos a seguir.
+   Ao configurar a experiência com várias versões, selecione o público-alvo para cada versão, conforme descrito nas etapas a seguir.
 
 1. Selecione a experiência e clique em **[!UICONTROL Configurar]** > **[!UICONTROL Vários públicos-alvo]**.
 
-1. Clique no ícone **[!UICONTROL Adicionar público-alvo]** ( ![Ícone Adicionar](/help/main/assets/icons/Add.svg) ) no painel [!UICONTROL Públicos-alvo de experiência] e selecione o primeiro público-alvo que deseja direcionar. Repita para cada público-alvo.
+1. No painel **[!UICONTROL Públicos-alvo de experiência]**, clique no ícone **[!UICONTROL Adicionar público-alvo]** ( ![ícone Adicionar](/help/main/assets/icons/Add.svg) ) e selecione o primeiro público-alvo que deseja direcionar. Repita para cada público-alvo.
 
-   Se o público-alvo ainda não existir, clique em [Criar público-alvo](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) e configure-o.
-
-   Se um visitante se qualifica para mais de um público-alvo, o conteúdo para todos públicos-alvo são exibidos, com o último na lista renderizando a página.
+   Se o público-alvo ainda não existir, [crie o público-alvo](/help/main/c-target/c-audiences/create-audience.md) e configure-o.
 
 1. Continue configurando a atividade.
 
-## Práticas recomendadas
+## Práticas recomendadas {#best-practices}
 
-* Escolha públicos-alvo mutuamente exclusivos. Se a atividade foi criada no VEC, se um visitante corresponder a mais de um público-alvo, o conteúdo para cada público será retornado, com o conteúdo do público listado por último sendo exibido na página.
-* Públicos-alvo de entrada de atividade definidos no diagrama são combinados com os públicos-alvo da experiência usando uma condição E. Para entrar na atividade, um visitante deve fazer parte do público-alvo da atividade e um dos públicos-alvo da experiência.
-* Adicione os mesmos públicos-alvo como segmentos para relatórios. Isso ajuda você a observar os resultados do teste no nível superior da experiência A versus B e no nível inferior da experiência A versus B apenas para o &quot;idioma do navegador ja_JP&quot;. Isso funciona somente para relatórios baseados em [!DNL Target], não para relatórios baseados em [!DNL Analytics].
+* Escolha públicos-alvo mutuamente exclusivos. Se um visitante se qualificar para mais de um público-alvo, o conteúdo de todos esses públicos-alvo será retornado e o conteúdo do público listado por último será exibido na página. Isso se aplica às atividades criadas no VEC.
+* Os públicos-alvo de entrada de atividade definidos no diagrama são combinados com os públicos-alvo de experiência usando uma condição AND. Para entrar na atividade, um visitante deve se qualificar para o público-alvo da atividade e para um dos públicos-alvo da experiência.
+* Adicione os mesmos públicos-alvo como segmentos para relatórios. Isso ajuda a observar os resultados do teste no alto nível da experiência A versus B e no nível inferior da experiência A versus B somente para &quot;idioma do navegador ja_JP&quot;. Isso funciona somente para relatórios baseados em [!DNL Target], não para relatórios baseados em [!DNL Analytics].

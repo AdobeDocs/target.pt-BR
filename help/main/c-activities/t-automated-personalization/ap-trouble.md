@@ -1,5 +1,5 @@
 ---
-kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
+keywords: Automated Personalization;ap;solução de problemas;solução de problemas;modelo;aumento
 description: Explore os possíveis desafios que você pode enfrentar ao usar as atividades do [!UICONTROL Automated Personalization] (AP) no Adobe Target, juntamente com as soluções sugeridas.
 title: Como solucionar problemas de atividades do [!UICONTROL Automated Personalization]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
@@ -24,72 +24,74 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 29%
+source-wordcount: '771'
+ht-degree: 7%
 ---
-# Solução de problemas do [!UICONTROL Automated Personalization]
+# Solução de problemas do [!UICONTROL Automated Personalization] {#ap-troubleshooting}
 
-Às vezes, as atividades não acontecem conforme o esperado. Estes são alguns possíveis desafios que você poderá enfrentar ao usar o [!UICONTROL Automated Personalization] (AP) e algumas soluções sugeridas.
+>[!BEGINSHADEBOX]
 
-## Minha atividade [!UICONTROL Automated Personalization] está demorando muito para criar modelos. {#section_20028B204DBB4D77A324BA193434AEE2}
+**Nesta página:** encontre soluções para problemas comuns nas atividades do **[!UICONTROL Automated Personalization]**.
 
-+++Ver detalhes
+>[!ENDSHADEBOX]
 
-Há várias alterações de configuração de atividade que podem diminuir o tempo esperado para criar modelos, incluindo o número de experiências em sua atividade do [!UICONTROL Automated Personalization], o tráfego para seu site e sua métrica de sucesso selecionada.
+As atividades nem sempre acontecem como esperado. Use a lista a seguir para identificar a causa de problemas comuns em atividades do [!UICONTROL Automated Personalization] (AP) e para aplicar a solução sugerida.
 
-**Solução:** revise sua configuração de atividade e veja se há alterações que você deseja fazer para melhorar a velocidade de criação dos modelos.
+## Modelos e elevadores {#models-and-lift}
+
++++ Minha atividade [!UICONTROL Automated Personalization] está demorando muito para criar modelos
+
+Várias opções de configuração de atividade afetam o tempo que os modelos precisam criar, incluindo o número de experiências em sua atividade do **[!UICONTROL Automated Personalization]**, o tráfego para seu site e sua métrica de sucesso selecionada.
+
+**Solução:** revise sua configuração de atividade e verifique se você pode fazer alterações que melhorem a velocidade de criação dos modelos.
 
 * Se sua métrica de sucesso estiver definida como RPV, será possível mudar para conversão? As atividades de conversão tendem a exigir menos tráfego para criar modelos. Você não perderá os dados da atividade se alterar a métrica de sucesso de RPV para conversão.
-* Sua métrica de sucesso está bem abaixo do funil de vendas de suas experiências de atividade? Um índice de conversão de atividade mais baixo aumenta os requisitos de tráfego para a criação dos modelos, já que é necessário um número mínimo de conversões.
-* É possível excluir alguma oferta ou experiência da sua atividade? A diminuição do número de experiências em uma atividade acelera o tempo de criação de modelos.
+* Sua métrica de sucesso está bem abaixo do funil de vendas de suas experiências de atividade? Uma taxa de conversão de atividade mais baixa aumenta os requisitos de tráfego para a criação de modelos, pois é necessário um número mínimo de conversões.
+* Existem ofertas ou experiências que você pode excluir da sua atividade? A diminuição do número de experiências em uma atividade acelera o tempo de criação de modelos.
 * Há uma página de tráfego mais alto em que essa atividade seria mais bem-sucedida? Quanto mais tráfego e conversões houver nos locais de atividade, mais rápido será a criação de modelos.
 
 +++
 
-## Minha atividade [!UICONTROL Automated Personalization] não gerou aumento. {#section_8900BC8968474438B8092F7A94C0C6CF}
++++ Minha atividade [!UICONTROL Automated Personalization] não gerou aumento
 
-+++Ver detalhes
-
-Há vários fatores necessários para uma atividade [!UICONTROL Automated Personalization] gerar aumento:
+Vários fatores são necessários para uma atividade **[!UICONTROL Automated Personalization]** gerar aumento:
 
 * As ofertas devem ser diferentes o suficiente para influenciar os visitantes.
 * As ofertas devem estar localizadas em algum lugar que faça diferença para a meta de otimização.
 * Deve haver tráfego e &quot;potência&quot; estatística suficiente no teste para detectar o aumento.
 * O algoritmo de personalização deve funcionar corretamente.
 
-**Solução:** o melhor curso de ação é garantir que o conteúdo e os locais que compõem as experiências da atividade realmente façam diferença nas taxas de resposta geral usando um teste A/B simples e não personalizado. Certifique-se de calcular os tamanhos das amostras antecipadamente. A computação antecipada de tamanhos de amostra ajuda a garantir que haja energia suficiente para se observar um aumento razoável. Em seguida, você pode executar o teste A/B por uma duração fixa sem pará-lo ou fazer alterações. Se um resultado de teste A/B mostrar aumento estatisticamente significativo em uma ou mais experiências, é provável que uma atividade personalizada seja bem-sucedida. O Personalization pode funcionar mesmo se não houver diferenças nas taxas de resposta geral das experiências. Normalmente, o problema decorre das ofertas ou dos locais que não têm um impacto grande o suficiente na meta de otimização para serem detectados com significância estatística.
+**Solução:** o melhor curso de ação é garantir que o conteúdo e os locais que compõem as experiências da atividade realmente façam diferença nas taxas de resposta geral, usando um teste A/B simples e não personalizado. Calcule os tamanhos das amostras antecipadamente para garantir que haja energia suficiente para ver um aumento razoável e, em seguida, execute o teste A/B por uma duração fixa sem pará-lo ou fazer alterações. Se os resultados do teste A/B mostrarem um aumento estatisticamente significativo em uma ou mais experiências, uma atividade personalizada provavelmente será bem-sucedida. O Personalization pode funcionar mesmo se não houver diferenças nas taxas de resposta geral das experiências. Normalmente, o problema decorre das ofertas ou dos locais que não têm um impacto grande o suficiente na meta de otimização para serem detectados com significância estatística.
 
 +++
 
-## O URL da minha atividade de [!UICONTROL Automated Personalization] está mostrando o conteúdo da oferta em páginas incorretas. {#section_82A224406DBF4107B05204BEFBBE458C}
+## Configuração e relatórios de atividades {#setup-and-reporting}
 
-+++Ver detalhes
++++ O URL da minha atividade de [!UICONTROL Automated Personalization] está mostrando o conteúdo da oferta em páginas incorretas
 
-No [!UICONTROL Automated Personalization], as regras de teste de modelo e URL são adicionadas à restrição de entrada de solicitação [!DNL Target] (por exemplo, target-global-mbox), onde são avaliadas apenas uma vez. Depois que um usuário é qualificado para uma atividade, as regras de direcionamento no nível da solicitação do Target não são reavaliadas. Entretanto, o público-alvo da segmentação é adicionado às regras de direcionamento por localização.
+**Causa:** Em **[!UICONTROL Automated Personalization]**, as regras de teste de modelo e URL são adicionadas à restrição de entrada de solicitação [!DNL Target] (por exemplo, target-global-mbox), onde são avaliadas apenas uma vez. Depois que um visitante é qualificado para uma atividade, as [!DNL Target] regras de direcionamento no nível da solicitação não são reavaliadas, enquanto o público-alvo do direcionamento é adicionado às regras de direcionamento do local.
 
-**Solução:** adicione as regras de modelo necessárias como o público-alvo de entrada da atividade. A avaliação do público-alvo ocorre a cada solicitação/chamada.
-
-+++
-
-## As métricas dependentes de uma métrica de conversão nunca convertem. {#section_076D1F44298C4E4A849AC52F5A33214D}
-
-+++Ver detalhes
-
-Isso é esperado.
-
-Em uma atividade do [!UICONTROL Automated Personalization], depois que uma métrica de conversão (objetivo de otimização ou de postagem) é convertida, o visitante é liberado da experiência e a atividade é reiniciada.
-
-Por exemplo, há uma atividade com uma métrica de conversão (C1) e uma métrica adicional (A1). A1 depende de C1. Quando um visitante entra na atividade pela primeira vez, e os critérios de conversão de A1 e C1 não são convertidos, a métrica A1 não é convertida por depender da métrica de sucesso. Se o visitante converter C1 e depois converter A1, A1 ainda não será convertido porque quando C1 é convertido, o visitante é liberado.
+**Solução:** adicione as regras de modelo necessárias como o público-alvo de entrada da atividade. A avaliação do público-alvo acontece em cada solicitação (chamada de ).
 
 +++
 
-## Os URLs da minha experiência não estão funcionando como esperado. {#section_7B08DA1F30AA483E9406336DAF361BA4}
++++ As métricas dependentes de uma métrica de conversão nunca convertem
 
-+++Ver detalhes
+Esse comportamento é esperado.
+
+Em uma atividade do **[!UICONTROL Automated Personalization]**, depois que uma métrica de conversão (uma meta de otimização ou de postagem) é convertida, o visitante é liberado da experiência e a atividade é reiniciada.
+
+Por exemplo, uma atividade tem uma métrica de conversão (C1) e uma métrica adicional (A1) que depende de C1. Quando um visitante entra na atividade pela primeira vez e não converteu C1 nem A1, A1 não é convertido devido à dependência da métrica de sucesso. Se o visitante converter C1 e depois converter A1, A1 ainda não será convertido, pois o visitante será liberado quando C1 for convertido.
+
++++
+
++++ Os URLs da minha experiência não estão funcionando como esperado
+
+**Solução:** Use as seguintes ações:
 
 * Se não conseguir ver a visualização na nova guia (devido ao cache do navegador), tente atualizar duas ou três vezes. Você também pode copiar o link e abri-lo em um novo navegador ou em uma nova sessão.
-* Gere novamente os links de URL da experiência se tiver alterado algum conteúdo e compartilhe os novos links com seus colegas de equipe.
+* Se você alterou algum conteúdo, gere novamente os links do URL da experiência e compartilhe os novos links com seus colegas de equipe.
 
 +++

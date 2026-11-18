@@ -16,14 +16,20 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 53%
+source-wordcount: '347'
+ht-degree: 29%
 ---
-# Criar combinações
+# Criar combinações {#create-combinations}
 
-Use o [!UICONTROL Visual Experience Composer] (VEC) no [!DNL Adobe Target] para criar as ofertas que você deseja incluir em seu [!UICONTROL Teste multivariado] (MVT).
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como criar a imagem e as ofertas do HTML que compõem as combinações de um **[!UICONTROL Teste Multivariado]**.
+
+>[!ENDSHADEBOX]
+
+Em um **[!UICONTROL Teste multivariado]** (MVT), cada local contém várias ofertas, e cada combinação de ofertas entre os locais é uma experiência. Use o **[!UICONTROL Visual Experience Composer]** (VEC) no [!DNL Adobe Target] para criar as ofertas que deseja incluir no teste.
 
 Para obter mais informações sobre como usar o VEC para criar e editar ofertas, consulte [Opções do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -33,36 +39,38 @@ Para obter mais informações sobre como usar o VEC para criar e editar ofertas,
 >
 >Você também pode usar o [caminho DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) para navegar pelos elementos.
 
-## Ofertas de imagem {#section_A48333211DB149ED926AE467D0032914}
+## Ofertas de imagem {#image-offers}
 
-Teste várias ofertas de imagens dentro de um local para determinar qual imagem é mais bem sucedida.
+Teste várias ofertas de imagem dentro de um local para determinar qual imagem é mais bem sucedida.
 
 1. Clique em uma imagem na sua página e selecione **[!UICONTROL Alterar Oferta de Imagem]**.
 
-1. Na caixa de diálogo [!UICONTROL Oferta de imagem], selecione todas as imagens que deseja incluir no teste e clique em **[!UICONTROL Adicionar]**.
+   ![Alterar menu de Oferta de Imagem](../assets/multivariate-1.png)
+
+1. Na caixa de diálogo **[!UICONTROL Oferta de imagem]**, selecione todas as imagens que deseja incluir no teste e clique em **[!UICONTROL Adicionar]**.
+
+   ![Alterar menu de Oferta de Imagem](../assets/multivariate-3.png)
 
 Cada imagem se torna uma experiência separada nesse local.
 
-## Ofertas HTML {#section_DF016101AFA9412C9B99862C23DE77B1}
+## Ofertas do HTML {#html-offers}
 
 Teste várias ofertas HTML de um local para determinar qual é mais bem sucedida.
 
 1. Clique em uma oferta do HTML na sua página e em **[!UICONTROL Alterar oferta do HTML]**.
 
-1. Clique em **[!UICONTROL Criar oferta]**, clique em **[!UICONTROL HTML Offer]**, nomeie a oferta, digite ou cole o código para a oferta do HTML e clique em **[!UICONTROL Criar]**.
+   ![Alterar menu Oferta do HTML](../assets/multivariate-2.png)
 
-   Repita o procedimento para qualquer oferta em HTML adicional que queira incluir.
+1. Escolha sua oferta do HTML e clique em **[!UICONTROL Criar oferta]** e depois em **[!UICONTROL HTML Offer]**.
+
+   ![Alterar menu Oferta do HTML](../assets/multivariate-4.png)
+
+1. Nomeie a oferta, digite ou cole o código para a oferta do HTML e clique em **[!UICONTROL Criar]**.
+
+   Repita o procedimento para qualquer oferta adicional do HTML que desejar incluir.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
 Cada oferta em HTML se torna uma experiência separada nesse local.
 
-## Práticas recomendadas {#section_2E98C23D2F1A460FA732A31799CE6291}
-
-* Não inclua mais locais do que o necessário para o teste. Cada experiência incluída no teste aumenta significativamente a quantidade de tráfego e tempo necessário para atingir resultados aceitáveis. Por exemplo, se você tiver elementos de página com três ofertas cada um, existem nove combinações possíveis (3x3). Três elementos, com duas delas contendo três ofertas possíveis e uma com duas ofertas, oferecem 18 opções (3x3x2). Os números aumentam substancialmente com cada elemento e oferta adicional.
-* Ao criar testes multivariados, você pode excluir mais de 10% das experiências do teste, desde que reconheça o aviso de que deve usar relatórios offline para análise.
-* Aproveite os recursos de visualização para evitar combinações indesejadas de conteúdo. Por exemplo, você pode ter duas imagens que oferecem descontos diferentes sobre o mesmo item ou serviço. Mostrar as duas imagens na mesma página é ilógico e poderá criar uma confusão.
-* Use o [Avaliador de tráfego](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) para garantir que o teste foi criado para a quantidade de tráfego que sua página recebe. Certifique-se de que o Avaliador de tráfego dê à configuração de teste a luz verde para que você possa obter os resultados desejados.
-* Você deve ter pelo menos três elementos para testar. Se houver menos elementos, execute uma série de testes A/B.
-* As alternativas de cada elemento devem ser significativamente diferentes entre si.
-* Embora não seja obrigatório, é uma boa prática que cada elemento tenha o mesmo número de alternativas.
+Para obter recomendações sobre quantas combinações devem ser incluídas e como analisá-las antes de iniciar o teste, consulte [Práticas recomendadas para testes multivariados](/help/main/c-activities/c-multivariate-testing/best-practices.md#create).

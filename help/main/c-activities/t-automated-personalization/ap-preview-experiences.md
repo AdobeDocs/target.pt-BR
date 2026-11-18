@@ -20,27 +20,37 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 8%
+source-wordcount: '275'
+ht-degree: 7%
 ---
-# Visualizar experiências em atividades do [!UICONTROL Automated Personalization] no [!UICONTROL Visual Experience Composer] (VEC)
+# Visualizar experiências em atividades do [!UICONTROL Automated Personalization] no [!UICONTROL Visual Experience Composer] (VEC) {#preview-ap-experiences}
 
-Como as atividades de [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) comparam várias ofertas em uma página, é útil visualizar a página com cada experiência.
+>[!BEGINSHADEBOX]
 
-1. No [!UICONTROL Visual Experience Composer] (VEC), clique em **[!UICONTROL Visualizar]**.
+**Nesta página:** Saiba como visualizar cada experiência de uma atividade do **[!UICONTROL Automated Personalization]** no **[!UICONTROL Visual Experience Composer]** e como excluir ou incluir experiências.
 
-1. Clique no ícone **[!UICONTROL Mostrar experiências]** ( ![ícone Mostrar experiências](/help/main/assets/icons/WebPages.svg) ) para exibir a lista de todas as experiências no quadro esquerdo.
+>[!ENDSHADEBOX]
+
+As atividades de [!DNL Adobe Target] **[!UICONTROL Automated Personalization]** (AP) comparam várias ofertas em uma página, portanto, é útil visualizar a página com cada experiência. A visualização mostra como as ofertas se combinam em cada experiência, para que você possa decidir se deseja mantê-la ou excluí-la.
+
+1. No **[!UICONTROL Visual Experience Composer]** (VEC), clique em **[!UICONTROL Visualizar]**.
+
+   ![Mostrar ícone de Visualização](../assets/ap_preview_1.png)
+
+1. Clique no ícone **[!UICONTROL Mostrar Experiências]** (![ícone Mostrar Experiências](/help/main/assets/icons/WebPages.svg)) para exibir a lista de todas as experiências no quadro esquerdo.
+
+   ![Ícone Mostrar Experiências](../assets/ap_preview_2.png)
 
 1. Clique em uma experiência específica na lista para exibi-la.
 
-1. (Condicional) Para excluir uma ou mais experiências da atividade, clique no ícone **[!UICONTROL Gerenciar conteúdo]** ( ![Ícone Gerenciar conteúdo](/help/main/assets/icons/Experience.svg) ) para exibir a caixa de diálogo [!UICONTROL Gerenciar conteúdo].
+1. (Opcional) Para excluir ou incluir experiências, clique no ícone **[!UICONTROL Gerenciar Conteúdo]** (![Ícone Gerenciar Conteúdo](/help/main/assets/icons/Experience.svg)) para exibir a caixa de diálogo **[!UICONTROL Gerenciar Conteúdo]**.
 
-1. (Condicional) Na caixa de diálogo [!UICONTROL Gerenciar conteúdo], clique no ícone **[!UICONTROL Mais ações]** ( ![ícone Mais ações](/help/main/assets/icons/MoreSmallList.svg) ) ao lado da experiência que você deseja excluir e clique em **[!UICONTROL Excluir]**.
+   ![Ícone Mostrar Experiências](../assets/ap_preview_3.png)
 
-   É possível excluir uma experiência que mostra variações conflitantes ou que não esteja esteticamente equilibrada.
+1. É possível excluir uma experiência que mostra variações conflitantes ou que não esteja esteticamente equilibrada. Em seguida, siga um destes procedimentos:
 
-1. (Condicional) Para excluir várias experiências, marque as caixas de seleção das experiências desejadas e clique em **[!UICONTROL Excluir]**.
-
-1. (Condicional) Para incluir várias experiências que foram excluídas, marque as caixas de seleção das experiências desejadas e clique em **[!UICONTROL Incluir]**.
+   * Para excluir uma experiência, clique no ícone **[!UICONTROL Mais Ações]** (![Ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg)) ao lado da experiência e clique em **[!UICONTROL Excluir]**.
+   * Para excluir várias experiências, marque as caixas de seleção das experiências e clique em **[!UICONTROL Excluir]**.
+   * Para incluir várias experiências que foram excluídas, marque as caixas de seleção das experiências e clique em **[!UICONTROL Incluir]**.

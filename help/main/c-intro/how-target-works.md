@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 20%
@@ -106,7 +106,7 @@ Consulte [Criar um teste A/B](/help/main/c-activities/t-test-ab/t-test-create-ab
 
 [!UICONTROL Alocação automática] identifica a experiência vencedora entre duas ou mais opções. Em seguida, ele realoca automaticamente mais tráfego para o vencedor, aumentando as conversões conforme o teste continua a ser executado e aprendido.
 
-Consulte [[!UICONTROL Alocação automática]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) para obter mais informações.
+Consulte [[!UICONTROL Alocação automática]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview) para obter mais informações.
 
 ### [!UICONTROL Direcionamento automático] (AT)
 
@@ -118,19 +118,19 @@ Consulte [Direcionamento automático](/help/main/c-activities/auto-target/auto-t
 
 A [!UICONTROL Automated Personalization] (AP) combina ofertas ou mensagens e usa aprendizado de máquina avançado para combinar diferentes variações a cada visitante. A AP personaliza o conteúdo com base em perfis de clientes individuais para impulsionar um aumento.
 
-Consulte [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) para obter mais informações.
+Consulte [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) para obter mais informações.
 
 ### [!UICONTROL Direcionamento de experiência] (XT)
 
 O [!UICONTROL Direcionamento de experiência] (XT) fornece conteúdo a públicos-alvo específicos com base em regras e critérios definidos pelo profissional de marketing. Incluindo a geolocalização, o XT é importante para definir regras que direcionem experiências ou conteúdo específicos para públicos-alvo específicos. Várias regras podem ser definidas em uma atividade para fornecer diferentes variações de conteúdo para públicos diferentes. Quando visitantes acessam o seu site, o XT os avalia para determinar se eles atendem aos critérios. Se qualificados, eles entram na atividade e veem a experiência projetada para eles. Você pode criar experiências para diversos públicos-alvo dentro de uma única atividade.
 
-Consulte [Direcionamento de experiência](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) para obter mais informações.
+Consulte [Direcionamento de experiência](/help/main/c-activities/t-experience-target/experience-target.md#get-started-xt) para obter mais informações.
 
 ### [!UICONTROL Teste multivariado] (MVT)
 
 O [!UICONTROL Multivariate Testing] (MVT) compara combinações de ofertas em elementos da página para determinar qual combinação tem melhor desempenho para um público-alvo específico. O MVT ajuda a identificar qual elemento afeta mais o sucesso da atividade.
 
-Consulte [Teste multivariado](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) para obter mais informações.
+Consulte [Teste multivariado](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt) para obter mais informações.
 
 ### [!UICONTROL Recomendações]
 

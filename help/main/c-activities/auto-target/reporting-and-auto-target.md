@@ -26,21 +26,25 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 90943644c64269a8f34b79cf1b6dac35ffd57bb2
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 12%
+source-wordcount: '247'
+ht-degree: 5%
 ---
-# Relatórios e [!UICONTROL Direcionamento automático]
+# Relatórios e [!UICONTROL Direcionamento automático] {#reporting-and-auto-target}
 
-Informações sobre como interpretar os relatórios do [!UICONTROL Resumo do Direcionamento automático] em [!DNL Adobe Target], incluindo os relatórios dos [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes].
+>[!BEGINSHADEBOX]
 
-Para obter mais informações sobre cada relatório, consulte os seguintes tópicos:
+**Nesta página:** Saiba quais relatórios ajudam a interpretar os resultados de uma atividade **[!UICONTROL de Direcionamento automático]**.
+
+>[!ENDSHADEBOX]
+
+O [!DNL Adobe Target] fornece três relatórios para interpretar os resultados de uma atividade de **[!UICONTROL Direcionamento automático]**: o relatório de **[!UICONTROL Resumo do Direcionamento automático]**, o relatório de **[!UICONTROL Segmentos automatizados]** e o relatório de **[!UICONTROL Atributos importantes]**. Para obter mais informações sobre cada relatório, consulte os seguintes tópicos:
 
 | Relatório | Detalhes |
 | --- | --- |
-| [Relatório de Resumo do direcionamento automático](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) | O relatório [!UICONTROL Resumo do Direcionamento automático] permite exibir métricas de relatório em uma exibição de tabela ou em uma exibição de gráfico.<P>Este relatório permite que você veja métricas para [!UICONTROL Visitas], [!UICONTROL Taxa de Conversão], [!UICONTROL Intervalo Médio de Aumento e Confiança] e [!UICONTROL Confiança]. |
-| [Relatório de Segmentos automáticos](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) | O relatório de [!UICONTROL Segmentos automatizados] mostra como visitantes diferentes respondem de forma diferente às ofertas/experiências na sua atividade de [!UICONTROL Direcionamento automático]. Este relatório mostra como diferentes segmentos automatizados, definidos pelos modelos de personalização de [!DNL Target], responderam às ofertas/experiências na atividade. |
-| [Relatório de atributos importantes](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) | O relatório [!UICONTROL Atributos importantes] mostra como, em atividades diferentes, atributos distintos são mais (ou menos) importantes para a forma como o modelo decide personalizar. Este relatório mostra os principais atributos que influenciaram o modelo e sua importância relativa. |
+| [Relatório de Resumo do direcionamento automático](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) | O relatório **[!UICONTROL Resumo do Direcionamento automático]** permite exibir métricas de relatório em uma exibição de tabela ou em uma exibição de gráfico.<P>Este relatório permite que você veja métricas para **[!UICONTROL Visitas]**, **[!UICONTROL Taxa de Conversão]**, **[!UICONTROL Intervalo Médio de Aumento e Confiança]** e **[!UICONTROL Confiança]**. |
+| [Relatório de Segmentos automáticos](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) | O relatório de **[!UICONTROL Segmentos automatizados]** mostra como visitantes diferentes respondem de forma diferente às ofertas e experiências na sua atividade de **[!UICONTROL Direcionamento automático]**. Ele mostra como os segmentos automatizados definidos pelos modelos de personalização do [!DNL Target] responderam às ofertas e experiências na atividade. |
+| [Relatório de atributos importantes](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) | O relatório **[!UICONTROL Atributos importantes]** mostra como, em atividades diferentes, atributos distintos são mais (ou menos) importantes para a forma como o modelo decide personalizar. Ela mostra os principais atributos que influenciam o modelo e sua importância relativa. |
 
 Para obter informações gerais sobre relatórios, consulte [Relatórios](/help/main/c-reports/reports.md).

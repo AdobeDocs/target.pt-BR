@@ -23,12 +23,12 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 70%
+source-wordcount: '393'
+ht-degree: 69%
 ---
-# Experiências e ofertas
+# Introdução a experiências e ofertas
 
 Uma experiência no [!DNL Adobe Target] determina qual conteúdo aparece quando o visitante atende aos critérios de público-alvo de uma atividade.
 

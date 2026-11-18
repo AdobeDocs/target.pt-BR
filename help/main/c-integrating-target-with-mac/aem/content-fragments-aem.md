@@ -1,7 +1,7 @@
 ---
 keywords: experiência;json;aem;gerenciador de experiência da adobe;exportar para o adobe target;fragmentos de conteúdo;fragmentos;CF;cf;headless;personalização;experimentação
 description: Saiba como usar [!DNL Adobe Experience Manager] [!UICONTROL Fragmentos de conteúdo] em [!DNL Adobe Target] atividades.
-title: Como Usar  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragmentos De Conteúdo]?
+title: Como Usar Os [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragmentos De Conteúdo]?
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 TQID: https://experienceleague.adobe.com/tb500kFSZoR3czs10Gs3EIOWEX2ybnd7tSWwDmWSMWQ
@@ -22,13 +22,11 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
 workflow-type: tm+mt
-source-wordcount: 775
+source-wordcount: '777'
 ht-degree: 20%
-
 ---
-
 # [!UICONTROL Fragmentos de conteúdo] do AEM
 
 Use os [!UICONTROL Fragmentos de conteúdo] (CFs) criados em [!DNL Adobe Experience Manager] (AEM) em [!DNL Target] atividades para auxiliar na personalização e experimentação headless.
@@ -40,16 +38,16 @@ Considere o seguinte ao trabalhar com o AEM [!UICONTROL Fragmentos de conteúdo]
 * Esse recurso exige que você seja um cliente do [!DNL Adobe Experience Manager as a Cloud Service]. Para obter mais informações, consulte os [Requisitos](#section_AE6F0971E1574B3AA324003599B96E5A) abaixo.
 * Os [!UICONTROL Fragmentos de experiência] e os [!UICONTROL Fragmentos de conteúdo] estão disponíveis para os seguintes tipos de atividades:
 
-   * [[!UICONTROL Teste A/B]](/help/main/c-activities/t-test-ab/test-ab.md)
-   * [[!UICONTROL Alocação automática]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-   * [[!UICONTROL Direcionamento automático]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL Direcionamento de experiência] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+  * [[!UICONTROL Teste A/B]](/help/main/c-activities/t-test-ab/test-ab.md)
+  * [[!UICONTROL Alocação automática]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+  * [[!UICONTROL Direcionamento automático]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+  * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+  * [[!UICONTROL Direcionamento de experiência] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * Os [!UICONTROL Fragmentos de experiência] e os [!UICONTROL Fragmentos de conteúdo] não estão disponíveis para os seguintes tipos de atividades:
 
-   * [[!UICONTROL Teste multivariado] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
-   * [[!UICONTROL Recomendações]](/help/main/c-recommendations/recommendations.md)
+  * [[!UICONTROL Teste multivariado] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+  * [[!UICONTROL Recomendações]](/help/main/c-recommendations/recommendations.md)
 
 * Você pode consumir [!UICONTROL Fragmentos de conteúdo] em [!DNL Target] atividades usando somente o [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md). Você *não pode* consumir [!UICONTROL Fragmentos de conteúdo] em [!DNL Target] atividades usando o [!UICONTROL Visual Experience Composer] (VEC).
 
@@ -87,7 +85,7 @@ Você pode consumir [!UICONTROL Fragmentos de conteúdo] em [!DNL Target] ativid
 >
 >Use a Inteligência artificial, o Aprendizado de máquina e as recomendações com [!UICONTROL Fragmentos de conteúdo]:
 >
->* Para usar toda a funcionalidade de inteligência automatizada e aprendizado de máquina do [!DNL Target], você pode selecionar [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) ou [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) ao criar uma atividade de [!UICONTROL Teste A/B].
+>* Para usar toda a funcionalidade de inteligência automatizada e aprendizado de máquina do [!DNL Target], você pode selecionar [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview) ou [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) ao criar uma atividade de [!UICONTROL Teste A/B].
 >
 >* Não há suporte para [!UICONTROL Fragmentos de conteúdo] em [!DNL Recommendations] atividades. No entanto, para usar [!UICONTROL Fragmentos de conteúdo] para recomendações, você pode criar uma atividade de [!UICONTROL Teste A/B] (incluindo [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]) ou uma atividade de [!UICONTROL Direcionamento de experiência] (XT) e [incluir recomendações como uma oferta](/help/main/c-recommendations/recommendations-as-an-offer.md).
 

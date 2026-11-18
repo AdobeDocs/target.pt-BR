@@ -16,23 +16,29 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 30%
+source-wordcount: '162'
+ht-degree: 9%
 ---
-# Resumo do teste ([!UICONTROL Teste multivariado])
+# Resumo do teste ([!UICONTROL Teste multivariado]) {#mvt-test-summary}
 
-A página [!UICONTROL Direcionamento] fornece uma visão geral visual do seu [!DNL Adobe Target] [!UICONTROL Teste multivariado].
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba o que o resumo de teste de um **[!UICONTROL Teste multivariado]** mostra, para que você possa examinar a configuração antes de continuar.
+
+>[!ENDSHADEBOX]
+
+A página **[!UICONTROL Direcionamento]** fornece uma visão geral visual do seu [!DNL Adobe Target] **[!UICONTROL Teste multivariado]**. Revisar este resumo permite confirmar a configuração do teste antes de definir as metas e as configurações.
 
 ![Caixa de diálogo Testar resumo](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary-new.png)
 
 O resumo do teste mostra:
 
-* Nome do teste
-* URL
-* Público: clique no público para selecionar um público diferente da lista de públicos disponíveis.
-* Algoritmo: O único algoritmo disponível é [!UICONTROL Fatorial completo]. O nome do algoritmo é fornecido apenas para fins informativos, para que você saiba qual algoritmo está sendo usado.
+* O nome do teste.
+* O URL.
+* A audiência. Clique no público para selecionar um público diferente da lista de públicos disponíveis.
+* O algoritmo. O único algoritmo disponível é **[!UICONTROL Fatorial completo]**. O nome do algoritmo é fornecido para fins informativos, para que você esteja ciente do algoritmo que está sendo usado.
 * O número de experiências incluídas e excluídas.
 
-Clique em **[!UICONTROL Avançar]** quando você estiver satisfeito com a configuração de teste. A página [!UICONTROL Metas e Configurações] é aberta.
+Clique em **[!UICONTROL Avançar]** quando você estiver satisfeito com a configuração de teste. A página **[!UICONTROL Metas e Configurações]** é aberta.

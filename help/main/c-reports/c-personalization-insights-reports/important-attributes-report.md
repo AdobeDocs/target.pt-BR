@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 55%
@@ -60,7 +60,7 @@ Em atividades diferentes, atributos distintos são mais ou menos importantes par
 
 ## Acessar o relatório de [!UICONTROL Atributos importantes] {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Clique em **[!UICONTROL Atividades]** e clique na atividade desejada do [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou do [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) da lista.
+1. Clique em **[!UICONTROL Atividades]** e clique na atividade desejada do [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) ou do [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) da lista.
 
    Se você tiver muitas atividades, clique no ícone Filtro ( ![Ícone Filtro](/help/main/assets/icons/Filter.svg) ) para filtrar a lista selecionando opções nas listas suspensas [!UICONTROL Tipo], [!UICONTROL Status], [!UICONTROL Source de Relatórios], [!UICONTROL Experience Composer], [!UICONTROL Tipo de Métricas] e [!UICONTROL Source de Atividades].
 

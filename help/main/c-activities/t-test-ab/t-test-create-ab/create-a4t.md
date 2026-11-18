@@ -18,35 +18,45 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 4876228feee28031373f7e0abe62a66b05b15274
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 16%
+source-wordcount: '448'
+ht-degree: 0%
 ---
-# Usando dados de [!DNL Adobe Analytics]
+# Usando dados de [!DNL Adobe Analytics] {#create-a4t}
 
-Você pode configurar uma atividade no [!DNL Adobe Target] para usar o [!DNL Adobe Analytics] como fonte de relatórios (A4T).
+>[!BEGINSHADEBOX]
 
-Para obter informações detalhadas sobre como configurar o [!DNL Analytics] como fonte de dados para [!DNL Target], consulte [Adobe Analytics como Source de Relatórios para o Adobe Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+**Nesta página:** Saiba como configurar uma atividade para usar o [!DNL Adobe Analytics] como fonte de relatórios (A4T), o que preparar antes de começar e como escolher a meta da atividade.
 
-Antes de configurar uma atividade que use o [!DNL Analytics] como fonte de relatórios, estabeleça a meta para a atividade, como melhorar a receita por visitante (RPV) ou aumentar os cliques no carrinho de compras. Escolha uma métrica de sucesso final para a atividade. Embora seja possível selecionar métricas adicionais a qualquer momento em [!DNL Analytics], você ainda deve especificar uma métrica específica que espera que este teste afete.
+>[!ENDSHADEBOX]
 
->[!NOTE]
->
->A opção [!DNL Adobe Analytics] estará disponível se você tiver vinculado sua conta do [!DNL Adobe Experience Cloud] ao [!DNL Analytics] e ao [!DNL Target], mesmo que a integração entre o [!DNL Target] e o [!DNL Analytics] não tenha sido configurada para a sua conta.
+O Analytics for Target (A4T) mede os resultados de uma atividade [!DNL Adobe Target] com os dados e métricas de [!DNL Adobe Analytics]. Para usar o A4T, configure a atividade para que [!DNL Analytics] seja sua fonte de geração de relatórios. Para obter informações detalhadas sobre como configurar o [!DNL Analytics] como fonte de dados para [!DNL Target], consulte [Adobe Analytics como Source de Relatórios para o Adobe Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
-Ao selecionar [!DNL Analytics] como fonte de relatórios para [!DNL Target], você seleciona um conjunto de relatórios [!DNL Analytics] para receber os dados de atividade [!DNL Target]. Para especificar uma fonte de relatórios, primeiro escolha uma das empresas [!DNL Analytics] vinculadas à sua conta e, em seguida, selecione o conjunto de relatórios apropriado para a atividade. Somente conjuntos de relatórios provisionados para conexão com [!DNL Adobe Target] estão disponíveis para seleção. Se você não vir o conjunto de relatórios esperado, primeiro tente fazer logoff e depois fazer logon novamente no [!DNL Adobe Experience Cloud] para tentar novamente. Se o conjunto de relatórios ainda estiver ausente na lista, entre em contato com o Atendimento ao cliente.
-
-O [!UICONTROL Analytics for Target] (A4T) requer um servidor de rastreamento para relatar os resultados corretamente. Um servidor de rastreamento padrão é exibido no campo [!UICONTROL Servidor de rastreamento]. Se você usar mais de um servidor de rastreamento, certifique-se de incluir o servidor de rastreamento correto neste campo. Consulte [Usando um servidor de rastreamento do Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para obter mais informações.
+## Antes de começar {#before-you-begin}
 
 >[!NOTE]
 >
->Se você usar [!DNL Adobe Analytics] como a fonte de relatórios da sua atividade, não será necessário especificar um servidor de rastreamento durante a criação da atividade se você estiver usando a at.js versão 0.9.1 (ou posterior). A biblioteca at.js envia automaticamente os valores do servidor de rastreamento ao [!DNL Target]. Durante a criação da atividade, é possível deixar o campo [!UICONTROL Servidor de rastreamento] em branco na página [!UICONTROL Metas e configurações].
+>A opção **[!UICONTROL Adobe Analytics]** está disponível quando a conta [!DNL Adobe Experience Cloud] está vinculada a [!DNL Analytics] e [!DNL Target], mesmo que a integração entre [!DNL Target] e [!DNL Analytics] não tenha sido configurada para a sua conta.
 
-Ao configurar a atividade após configurar o [!DNL Analytics] como fonte de relatórios, não há opção para configurar os públicos-alvo para relatórios. [!DNL Analytics] segmentos estão disponíveis no relatório [!DNL Target] [!UICONTROL Atividades].
+Antes de criar a atividade, estabeleça sua meta, por exemplo, melhorar a receita por visitante (RPV) ou aumentar os cliques no carrinho de compras. Em seguida, escolha a métrica de sucesso final que mede essa meta. Métricas adicionais podem ser selecionadas em [!DNL Analytics] a qualquer momento, mas você ainda deve especificar a métrica que este teste deve afetar.
 
-Você deve selecionar uma métrica de sucesso para usar como meta para cada atividade. Sua meta da atividade é a atividade de conversão que sinaliza uma atividade bem sucedida. Faz parte das práticas recomendadas nunca executar um teste sem ter uma meta para aprimorá-la de alguma maneira específica. Você pode escolher qualquer métrica [!DNL Analytics] disponível no seletor de métricas [!DNL Analytics].
+## Selecione Analytics como fonte de relatórios {#select-reporting-source}
 
-Definir uma meta não significa que você não possa usar outra métrica ao avaliar os resultados do teste. A meta, no entanto, é um lembrete de algo que deseja melhorar com o teste.
+>[!NOTE]
+>
+>Se você usa a at.js versão 0.9.1 ou posterior, não é necessário especificar um servidor de rastreamento ao criar uma atividade que usa [!DNL Adobe Analytics] como fonte de relatórios. A biblioteca at.js envia automaticamente os valores do servidor de rastreamento para [!DNL Target]. O campo **[!UICONTROL Servidor de Rastreamento]** na página **[!UICONTROL Metas e Configurações]** pode permanecer vazio.
 
-Depois que um visitante conclui sua meta, ele não é mais incluído na atividade. Se o visitante entrar novamente na atividade após concluir uma atividade, ele será contado como um novo visitante.
+A fonte de relatórios está selecionada na página **[!UICONTROL Metas e Configurações]** da atividade. Nesta página, você escolhe uma empresa [!DNL Analytics] e o conjunto de relatórios que recebe os dados de atividade [!DNL Target] e verifica o servidor de rastreamento.
+
+➡️ Para obter as etapas, os requisitos do conjunto de relatórios e os detalhes do servidor de rastreamento, consulte [Source de Relatórios](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reporting-source).
+
+Quando [!DNL Analytics] é a fonte de relatórios, a atividade não oferece uma opção para configurar públicos para relatórios. Em vez disso, [!DNL Analytics] segmentos estão disponíveis no relatório [!DNL Target] **[!UICONTROL Atividades]**.
+
+## Definir a meta da atividade {#set-goal}
+
+Cada atividade requer uma métrica de sucesso como meta. O objetivo é a atividade de conversão que sinaliza uma atividade bem-sucedida. Qualquer métrica disponível no seletor de métrica [!DNL Analytics] pode ser usada. É prática recomendada nunca executar um teste sem um objetivo para melhorar de uma maneira específica.
+
+Definir uma meta não impede que você use outras métricas para avaliar os resultados do teste. No entanto, a meta identifica o que você deseja melhorar com o teste.
+
+Depois que um visitante conclui sua meta, ele não é mais incluído na atividade. Se o visitante entrar na atividade novamente após concluí-la, ele será contado como um novo visitante.

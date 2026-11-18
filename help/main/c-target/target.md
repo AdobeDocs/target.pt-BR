@@ -1,6 +1,6 @@
 ---
 keywords: Direcionamento;públicos-alvo
-description: Saiba como usar os públicos-alvo do  [!DNL Adobe Target]  para direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar seus esforços de marketing na Web.
+description: Saiba como usar os públicos-alvo no [!DNL Adobe Target] para direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar seus esforços de marketing na Web.
 title: Como posso usar [!UICONTROL Públicos-alvo] para direcionar conteúdo diferente para segmentos específicos?
 feature: Audiences
 exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
@@ -16,14 +16,12 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 316
+source-wordcount: '321'
 ht-degree: 38%
-
 ---
-
-# Públicos-alvo
+# Introdução aos públicos-alvo
 
 Use os públicos no [!DNL Adobe Target] para direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing da Web, ao exibir as mensagens certas para as pessoas certas, na hora certa.
 
@@ -39,7 +37,7 @@ Quando um visitante acessa uma página onde você configurou uma atividade, o [!
 
 Se o visitante for identificado como parte de um público-alvo de direcionamento, o [!DNL Target] determinará qual experiência deve ser exibida, com base nos critérios estabelecidos quando a atividade foi criado.
 
-## Vídeo de Treinamento: Direcionamento de Atividades (2:13) ![Selo do tutorial](/help/main/assets/tutorial.png)
+## Vídeo de treinamento: Direcionamento de atividade (2:13) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
 Este vídeo inclui informações sobre a configuração do direcionamento e dos públicos-alvo.
 

@@ -33,12 +33,12 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 76%
+source-wordcount: '1129'
+ht-degree: 75%
 ---
-# [!DNL Adobe Analytics] como origem de relatório do [!DNL Adobe Target] (A4T)
+# Introdução ao A4T
 
 O [!DNL Adobe Analytics for Target] (A4T) é uma integração entre soluções que permite criar atividades com base nas métricas de conversão e nos segmentos de público-alvo do [!DNL Analytics]. A integração A4T permite que você use os relatórios do [!DNL Analytics] para examinar os resultados. Se usar o [!DNL Analytics] como fonte de relatórios para uma atividade, todos os relatórios e segmentações dessa atividade serão baseados nos dados coletados pelo [!DNL Analytics].
 
