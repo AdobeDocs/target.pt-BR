@@ -1,8 +1,8 @@
 ---
-source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 7%
+source-wordcount: '323'
+ht-degree: 6%
 ---
 # Trechos
 
@@ -40,3 +40,6 @@ ht-degree: 7%
 
 O nome da atividade não pode começar com `=`, `+`, `-` ou `@`. O nome da atividade também não pode conter nenhuma das sequências de caracteres a seguir: `;=`, `;+`, `;-`, `;@`, `,=`, `,+`, `,-`, `,@`, `["` ou `"]`.
 
+## Correspondência de visitante em atividades {#visitor-matching}
+
+Um visitante que já está em uma atividade de **[!UICONTROL Teste A/B]** ou **[!UICONTROL Teste multivariado]** corresponde a essa atividade até que seja feita a conversão. Um visitante que estava anteriormente em uma atividade de **[!UICONTROL Direcionamento de experiência]** deve correspondê-la novamente. Se o visitante atender às regras de público-alvo, elas se encaixarão nessas atividades e em experiências específicas.

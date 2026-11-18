@@ -18,28 +18,35 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 12%
+source-wordcount: '220'
+ht-degree: 10%
 ---
-# Log de alterações da atividade
+# Log de alterações da atividade {#change-log}
 
-O [!DNL Adobe Target] [!UICONTROL Log de alterações] registra ações de atividade, incluindo o que foi alterado, quem fez as alterações e quando elas ocorreram. A página [!UICONTROL Log de Alterações] foi preenchida para insights em tempo real.
+>[!BEGINSHADEBOX]
 
-Para acessar a página [!UICONTROL Log de Alterações]:
+**Nesta página:** Saiba como visualizar as ações executadas em uma atividade, quem as executou e quando.
 
-1. Clique em **[!UICONTROL Atividades]** > clique na atividade desejada da lista.
+>[!ENDSHADEBOX]
+
+O [!DNL Adobe Target] **[!UICONTROL Log de alterações]** registra as ações executadas em uma atividade, incluindo o que foi alterado, quem fez as alterações e quando elas ocorreram. Ela fornece um histórico claro da atividade e a página **[!UICONTROL Log de alterações]** é preenchida para insights em tempo real.
+
+Para acessar a página **[!UICONTROL Log de Alterações]**:
+
+1. Clique em **[!UICONTROL Atividades]** e depois clique na atividade na lista.
 1. Clique em **[!UICONTROL Log de alterações]** no painel esquerdo.
 
-A ação executada, a data em que a ação foi executada e o usuário que executou a ação são listados sempre que uma atividade é criada, atualizada, ativada ou desativada. As alterações nas metas e ofertas personalizadas utilizadas na atividade também são indicadas.
+   A página lista a ação executada, a data da ação e o usuário que a executou sempre que uma atividade é criada, atualizada, ativada ou desativada. As alterações nas metas e ofertas personalizadas utilizadas na atividade também são indicadas.
 
-Atualize a página para ver as alterações de status. Você também pode listar as ações executadas em ordem crescente ou decrescente clicando no cabeçalho da coluna [!UICONTROL Data].
+   ![Alterar menu de log](assets/change_logs.png)
+
+1. Para listar as ações em ordem crescente ou decrescente, clique no cabeçalho da coluna **[!UICONTROL Data]**.
+
+1. Atualize a página para ver as alterações de status.
 
 ## APIs de log de auditoria do Target
 
 * [Revisões: obtenha o log de auditoria pelo nome do último autor e um carimbo de data e hora modificado após](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
 * [Log de alterações da atividade de lista](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
-
-
-
