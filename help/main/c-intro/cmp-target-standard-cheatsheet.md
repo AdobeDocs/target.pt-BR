@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 47%
@@ -194,14 +194,14 @@ Lembre-se de ativar a atividade. Apenas atividades ativas aderem à programaçã
 **Posso fazer uma alteração apenas na etapa [!UICONTROL Direcionamento] e não percorrer todo o fluxo de trabalho guiado de três etapas para edição?**
 
 +++Ver detalhes
-Você pode fazer isso com facilidade [ao inserir diretamente a etapa desejada de sua escolha na [!UICONTROL página Visão geral da Atividade]](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) e sair dessa etapa usando a opção [!UICONTROL Salvar e Fechar].
+Você pode fazer isso com facilidade [ao inserir diretamente a etapa desejada de sua escolha na [!UICONTROL página Visão geral da Atividade]](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C) e sair dessa etapa usando a opção [!UICONTROL Salvar e Fechar].
 
 +++
 
 **Posso ficar em uma etapa específica, continuar modificando a atividade (texto da oferta ou código personalizado, por exemplo) e realizar o QA em outra guia?**
 
 +++Ver detalhes
-Isso é possível. Basta [usar a opção [!UICONTROL Salvar] para fazer alterações incrementais sem sair da etapa](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+Isso é possível. Basta [usar a opção [!UICONTROL Salvar] para fazer alterações incrementais sem sair da etapa](/help/main/c-activities/edit-activity.md#section_29EE2ECA6B88473A8F9AC5600FFBB174).
 
 +++
 
@@ -378,7 +378,7 @@ Use [a abordagem baseada em formulário](/help/main/c-experiences/form-experienc
 **Por que eu não estou vendo a oferta/experiência desejada e estou vendo outra atividade ao invés disso?**
 
 +++Ver detalhes
-Use nosso [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) e verifique se [há conflito de atividade](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Use nosso [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) e verifique se [há conflito de atividade](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 +++
 
@@ -402,7 +402,7 @@ Temos [o recurso de URL de redirecionamento](/help/main/c-experiences/c-manage-c
 **Por que eu não estou vendo a oferta/experiência desejada e estou vendo outra atividade ao invés disso?**
 
 +++Ver detalhes
-Use nosso [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) e verifique se [há conflito de atividade](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Use nosso [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) e verifique se [há conflito de atividade](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 +++
 
