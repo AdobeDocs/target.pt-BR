@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1392'
 ht-degree: 23%
 ---
 # Perguntas frequentes de geração de relatórios
@@ -136,7 +136,7 @@ Se um conteúdo de atividade foi entregue com sucesso aos usuários, mas o relat
 
 >[!NOTE]
 >
->Para obter mais informações sobre como atualizar uma atividade de [!UICONTROL Automated Personalization] (AP) e alterar a experiência de controle para uma experiência que recebe tráfego, consulte [Selecionar o controle para sua atividade de Automated Personalization ou Direcionamento automático](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+>Para obter mais informações sobre como atualizar uma atividade de [!UICONTROL Automated Personalization] (AP) e alterar a experiência de controle para uma experiência que receba tráfego, consulte [Selecionar a experiência de controle](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
 
 
 ## Por que o tráfego é dividido entre minhas experiências de forma desigual na minha atividade de A/B ou MVT? {#uneven}

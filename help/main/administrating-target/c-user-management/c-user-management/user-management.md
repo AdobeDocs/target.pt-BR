@@ -1,7 +1,7 @@
 ---
 keywords: adicionar usuário;gerenciar usuário;permissões do usuário
-description: Saiba como usar o  [!DNL Adobe Admin Console]  para gerenciar usuários(as) e suas permissões e direitos no  [!DNL Adobe Target Standard].
-title: Como adicionar usuários e gerenciar permissões em uma conta do  [!DNL Target Standard] ?
+description: Saiba como usar o [!DNL Adobe Admin Console] para gerenciar usuários e suas permissões no [!DNL Adobe Target Standard].
+title: Como adicionar usuários e gerenciar permissões para uma conta do [!DNL Target Standard]?
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
@@ -33,14 +33,12 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 925
-ht-degree: 60%
-
+source-wordcount: '930'
+ht-degree: 57%
 ---
-
-# Usuários
+# Introdução a usuários
 
 Para contas do [!DNL Target Standard], é possível adicionar usuários e gerenciar suas permissões no [!DNL Adobe Admin Console].
 
@@ -50,7 +48,7 @@ Para contas do [!DNL Target Standard], é possível adicionar usuários e gerenc
 >
 >É possível saber se sua organização tem uma licença do [!UICONTROL Standard] ou do [!UICONTROL Premium] clicando no link [!UICONTROL Administração] na parte superior da interface do usuário do [!DNL Target].
 >
->* Clientes **[!DNL Target]&#x200B;[!UICONTROL Standard]**: se você vir a guia [!UICONTROL Usuários] ([!UICONTROL Administração > Usuários]) (e não a guia **[!UICONTROL Propriedades]**), sua organização tem uma licença [!DNL Target] [!UICONTROL Standard]. [!DNL Target] Os clientes do [!UICONTROL Standard] devem seguir as instruções neste artigo para adicionar usuários e atribuir permissões no [!DNL Adobe Admin Console].
+>* Clientes **[!DNL Target][!UICONTROL Standard]**: se você vir a guia [!UICONTROL Usuários] ([!UICONTROL Administração > Usuários]) (e não a guia **[!UICONTROL Propriedades]**), sua organização tem uma licença [!DNL Target] [!UICONTROL Standard]. [!DNL Target] Os clientes do [!UICONTROL Standard] devem seguir as instruções neste artigo para adicionar usuários e atribuir permissões no [!DNL Adobe Admin Console].
 >
 >* Clientes do **[!DNL Target]Premium**: se você vir a guia [!UICONTROL Usuários] e a guia [!UICONTROL Propriedades] ([!UICONTROL Administração > Propriedades]), sua organização tem uma licença Premium do [!DNL Target]. [!DNL Target] Os clientes Premium devem seguir as instruções em [Permissões de usuário empresarial](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) e [Configurar permissões empresariais](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) para adicionar usuários e atribuir permissões no [!DNL Adobe Admin Console].
 >
@@ -133,8 +131,8 @@ Objetivos de aprendizagem:
 
 * Acesse o Adobe Admin Console na interface do Adobe Target (três maneiras)
 * Configure um espaço de trabalho no Adobe Admin Console
-   * Adicionar usuários a espaços de trabalho
-   * Adicionar propriedades aos espaços de trabalho
+  * Adicionar usuários a espaços de trabalho
+  * Adicionar propriedades aos espaços de trabalho
 * Compreenda espaços de trabalho padrão
 
 >[!NOTE]

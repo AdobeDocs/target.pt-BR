@@ -20,14 +20,12 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 844
+source-wordcount: '847'
 ht-degree: 27%
-
 ---
-
-# Criar públicos-alvo
+# Introdução à criação de públicos
 
 Os públicos-alvo em [!DNL Adobe Target] determinam quem vê o conteúdo e as experiências em uma atividade direcionada.
 
@@ -50,7 +48,7 @@ Há dois tipos de público-alvo em [!DNL Target]:
 
 Para acessar a lista [!UICONTROL Públicos-alvo], clique em **[!UICONTROL Públicos-alvo]** na barra do menu superior:
 
-![[!UICONTROL Lista de &#x200B;] públicos-alvo](assets/audiences_list.png)
+![[!UICONTROL Lista de ] públicos-alvo](assets/audiences_list.png)
 
 A lista [!UICONTROL Públicos-alvo] contém os públicos-alvo que você pode usar em suas atividades. Use a lista [!UICONTROL Públicos] para criar, editar, duplicar, copiar ou combinar públicos. Qualquer público pode ser editado, incluindo públicos criados por meio da API [!DNL Adobe Target] ou do [[!DNL Adobe Target] servidor MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md). A lista também mostra a fonte onde o público-alvo foi criado:
 
@@ -141,4 +139,4 @@ Este vídeo inclui informações sobre o uso de públicos-alvo.
 * Segmente uma atividade para um público-alvo
 * Use públicos-alvo para relatórios passivos em uma atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/30984?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

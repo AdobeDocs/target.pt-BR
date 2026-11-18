@@ -22,12 +22,12 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '951'
 ht-degree: 24%
 ---
-# Relatórios
+# Introdução a relatórios
 
 Os relatórios fornecem informações sobre o progresso e os resultados das atividades do [!DNL Adobe Target] que ajudam a tomar decisões baseadas em dados. Os dados dos relatórios podem ajudá-lo a decidir quando finalizar uma atividade, mostrar a experiência ou a oferta vencedora e fornecer os insights ou os aprendizados necessários para determinar as próximas ações.
 
@@ -90,7 +90,7 @@ Além das informações gerais de relatórios neste tópico e seus subtópicos, 
 | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Informações sobre os dois relatórios de [!UICONTROL Resumo do Automated Personalization] para atividades de AP: relatório de [!UICONTROL Nível de atividade] e relatório de [!UICONTROL Nível de oferta]. Para obter mais informações, consulte [Relatórios de Resumo do Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).<br>Informações sobre os dois relatórios [!UICONTROL Personalization Insights] para atividades de AT e AP: relatório de [!UICONTROL Segmentos automatizados] e relatório de [!UICONTROL Atributos importantes]. Para obter mais informações, consulte [Relatórios de insights de personalização](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
 | [[!UICONTROL Teste multivariado]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | Informações sobre os dois relatórios para atividades do MVT: relatório de [!UICONTROL Desempenho da experiência] e relatório de [!UICONTROL Contribuição de localização]. Para obter mais informações, consulte [Relatório de desempenho da experiência](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) (MVT) e [Relatório de contribuição da localização](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) (MVT). |
 | [[!DNL Adobe Analytics] como Source de relatórios para Adobe Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) | Informações sobre o uso de [!DNL Adobe Analytics] como fonte de relatórios para [!DNL Target] (A4T). O A4T fornece acesso aos relatórios do [!DNL Analytics] para as atividades do [!DNL Target]. Para obter mais informações, consulte [Relatórios do Analytics para Target (A4T)](/help/main/c-reports/analytics-for-target-a4t-reporting.md). |
-| [[!DNL Target] relatórios em [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Informações sobre a integração entre o [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/customer-journey-analytics){target=_blank} e o [!DNL Target] que fornece ferramentas poderosas de análise e economia de tempo para o seu programa de otimização. |
+| [[!DNL Target] relatórios em [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Informações sobre a integração entre o [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} e o [!DNL Target] que fornece ferramentas poderosas de análise e economia de tempo para o seu programa de otimização. |
 
 ## Bloquear dados de relatório de endereços IP especificados
 

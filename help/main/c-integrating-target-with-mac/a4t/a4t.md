@@ -33,12 +33,12 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 76%
+source-wordcount: '1129'
+ht-degree: 75%
 ---
-# [!DNL Adobe Analytics] como origem de relatório do [!DNL Adobe Target] (A4T)
+# Introdução ao A4T
 
 O [!DNL Adobe Analytics for Target] (A4T) é uma integração entre soluções que permite criar atividades com base nas métricas de conversão e nos segmentos de público-alvo do [!DNL Analytics]. A integração A4T permite que você use os relatórios do [!DNL Analytics] para examinar os resultados. Se usar o [!DNL Analytics] como fonte de relatórios para uma atividade, todos os relatórios e segmentações dessa atividade serão baseados nos dados coletados pelo [!DNL Analytics].
 
@@ -75,7 +75,7 @@ Tenha os seguintes pontos em mente ao considerar o uso do A4T:
 
 ## Implementar o A4T
 
-Para obter informações sobre a implementação do A4T com a at.js e o [!DNL Adobe Experience Platform Web SDK], consulte implamentação do [Analytics for  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
+Para obter informações sobre a implementação do A4T com a at.js e o [!DNL Adobe Experience Platform Web SDK], consulte implamentação do [Analytics for  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
 ## Tipos de atividades aceitas {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -149,7 +149,7 @@ Este vídeo é uma gravação de &quot;[Horas do Office](/help/main/cmp-resource
 
 >[!MORELIKETHIS]
 >
->* Implementação do [Analytics for  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): contém informações de implementação da at.js e do SDK da Web da plataforma.
+>* Implementação do [Analytics for  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): contém informações de implementação da at.js e do SDK da Web da plataforma.
 >* [Ofertas de redirecionamento - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
 >* [O que é o SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR): contém informações de visão geral sobre o SDK da Web da plataforma.
 >* [Visão geral do Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=pt-BR): contém informações específicas do [!DNL Target] e [!DNL Platform Web SDK].

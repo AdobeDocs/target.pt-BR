@@ -25,37 +25,35 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: aaa094f4f36b6088ca180637d8054b6d5ff59d60
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 38%
+source-wordcount: '417'
+ht-degree: 2%
 ---
-# [!UICONTROL Direcionamento de experiência] (XT)
+# Introdução ao [!UICONTROL Direcionamento de experiência] {#get-started-xt}
 
-O [!UICONTROL Direcionamento de experiência] (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing.
+>[!BEGINSHADEBOX]
 
-O [!UICONTROL Direcionamento de experiência], incluindo o [geolocalização](/help/main/c-target/c-audiences/c-target-rules/geo.md), é importante para definir regras que direcionem uma experiência ou conteúdo específico para um público em particular. Várias regras podem ser definidas em uma atividade para levar diferentes variações de conteúdo para públicos-alvo diferentes.
+**Nesta página:** Saiba o que é **[!UICONTROL Direcionamento de experiência]**, como ele se encaixa na personalização e como um cenário direciona públicos diferentes com experiências diferentes.
 
-Quando visitantes acessam o seu site, o [!UICONTROL Direcionamento de experiência] (XT) avalia esses visitantes para determinar se eles atendem aos critérios que você definiu. Se atenderem aos critérios, eles entrarão na atividade e a experiência projetada para a qualificação de públicos será exibida. Você pode criar experiências para diversos públicos-alvo dentro de uma única atividade.
+>[!ENDSHADEBOX]
 
-O [!UICONTROL Direcionamento de experiência] é uma primeira etapa no mundo da personalização e geralmente começa com testes A/B. Um profissional de marketing executa um teste A/B e, ao usar relatórios de públicos-alvo, descobre que experiências diferentes refletem em públicos-alvo diferentes. O [!UICONTROL direcionamento de experiência] permite que o profissional de marketing use facilmente essa descoberta e alterne para o direcionamento de conteúdo a longo prazo para esses diferentes segmentos de usuários.
+O [!UICONTROL Direcionamento de experiência] (XT) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing. É importante para definir regras, incluindo o [geolocalização](/help/main/c-target/c-audiences/c-target-rules/geo.md), que direcione uma experiência ou conteúdo específico para um público em particular. Várias regras podem ser definidas em uma única atividade para fornecer diferentes variações de conteúdo para públicos-alvo diferentes.
 
-## Cenário: direcionamento da experiência
+Quando visitantes acessam o seu site, o [!UICONTROL Direcionamento de experiência] avalia esses visitantes para determinar se eles atendem aos critérios que você definiu. Se atenderem aos critérios, eles entrarão na atividade e será exibida a experiência projetada para o público-alvo qualificado.
 
-Suponha que seu site tenha equipamentos para atividades ao ar livre. Os relatórios do teste A/B indicam que você tem três experiências que refletem em públicos-alvo diferentes. Para aplicar essa descoberta, você deseja exibir uma imagem principal diferente na página inicial para atrair esses públicos diferentes, dependendo da localização ou dos hobbies dos visitantes. Neste cenário, você deseja exibir uma imagem de caminhada para os visitantes de Nova Jersey e uma de surfe para os visitantes do Havaí. Você também tem um público-alvo que gosta de ciclismo. Você deseja exibir uma terceira imagem hero que atraia o público-alvo de ciclismo.
+O [!UICONTROL Direcionamento de experiência] é uma primeira etapa no mundo da personalização e geralmente começa com testes A/B. Um profissional de marketing executa um teste A/B e, ao usar públicos-alvo de relatórios, descobre que experiências diferentes refletem em públicos-alvo diferentes. O [!UICONTROL direcionamento de experiência] permite que o profissional de marketing use facilmente essa descoberta e alterne para o direcionamento de conteúdo a longo prazo para esses diferentes segmentos de público-alvo.
 
-Uma atividade de [!UICONTROL Direcionamento de experiência] permite direcionar esses três públicos-alvo com uma imagem principal diferente que atrai cada um deles. O vídeo abaixo, *Do Teste A/B ao direcionamento de experiência*, mostra como criar experiências direcionadas para ambos os estados e uma terceira experiência direcionada para os fãs de ciclismo. O vídeo também mostra como classificar as três experiências para atingir as suas metas. Assista ao vídeo e prossiga com [Criar uma atividade de Direcionamento de experiência](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).
+## Cenário: de teste A/B para direcionamento de experiência {#xt-scenario}
 
-## Vídeos de treinamento:
+Suponha que seu site tenha equipamentos para atividades externas. Os relatórios do teste A/B indicam que você tem três experiências que refletem em públicos-alvo diferentes. Para aplicar essa descoberta, você deseja exibir uma imagem principal diferente na página inicial para atrair cada público, dependendo da localização ou dos hobbies dos visitantes. Você deseja exibir uma imagem de caminhada para os visitantes de Nova Jersey, uma imagem de surfe para os visitantes do Havaí e uma terceira imagem para um público que gosta de ciclismo.
 
-Os vídeos a seguir contêm mais informações sobre os conceitos discutidos neste artigo.
+Uma atividade de [!UICONTROL Direcionamento de experiência] permite direcionar esses três públicos-alvo com uma imagem principal diferente para cada um. O vídeo a seguir descreve como elevar o teste A/B ao próximo nível com o [!UICONTROL Direcionamento de experiência]. Ele mostra como:
 
-### De teste A/B para [!UICONTROL Direcionamento de experiência]
+* Configure uma atividade de [!UICONTROL Direcionamento de experiência] usando o fluxo de trabalho guiado de três etapas.
+* Forneça conteúdo específico de localização para públicos em diferentes áreas geográficas, criando experiências direcionadas para ambos os estados e uma terceira experiência direcionada para os fãs de ciclismo.
+* Reordene as três experiências para garantir que o conteúdo correto seja entregue ao público certo.
 
-Este vídeo descreve como elevar o teste A/B ao próximo nível com o [!UICONTROL Direcionamento de experiência].
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
-* Descreva o fluxo de trabalho guiado de três etapas para configurar uma atividade de [!UICONTROL Direcionamento de experiência]
-* Descreva como fornecer conteúdo específico de localização para públicos em diferentes áreas geográficas
-* Descreve como reorganizar experiências para garantir que o conteúdo correto seja entregue ao público-alvo certo
-
->[!VIDEO](https://video.tv.adobe.com/v/39861?captions=por_br)
+Após assistir ao vídeo, continue com [Criar uma atividade de Direcionamento de experiência](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).

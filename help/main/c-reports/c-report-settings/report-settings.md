@@ -22,12 +22,12 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1934'
-ht-degree: 44%
+source-wordcount: '1937'
+ht-degree: 43%
 ---
-# Configurações do relatório
+# Introdução às configurações de relatório
 
 Informações para ajudar a definir os elementos que você deseja que apareçam em seu relatório no [!DNL Adobe Target]. As definições de relatório podem ser salvas para uso posterior.
 
@@ -151,7 +151,7 @@ Selecione o ambiente (grupo de hosts) a ser usado para o relatório. Para obter 
 
 >[!NOTE]
 >
->Se sua organização estiver usando o [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR){target=_blank} (AEP) para enviar dados de métricas para [!DNL Target], o ambiente na sequência de dados do AEP deverá corresponder ao ambiente nas configurações de relatório do [!DNL Target].
+>Se sua organização estiver usando o [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) para enviar dados de métricas para [!DNL Target], o ambiente na sequência de dados do AEP deverá corresponder ao ambiente nas configurações de relatório do [!DNL Target].
 
 ### Redefinir dados do relatório
 

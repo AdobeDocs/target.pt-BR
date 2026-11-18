@@ -16,12 +16,12 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '2266'
-ht-degree: 80%
+source-wordcount: '2269'
+ht-degree: 79%
 ---
-# Modificações
+# Introdução a modificações
 
 Informações sobre a página [!UICONTROL Modificações] em [!DNL Adobe Target] que permite exibir modificações na sua página e adicionar modificações adicionais (Seletor CSS, Mbox e Código personalizado).
 
@@ -47,7 +47,7 @@ Use a página de Modificações para:
 
   Faça as alterações.
 
-  ![imagem de &lbrace;codeeditor_changechange1](assets/codeeditor_changechange1.png)
+  ![imagem de {codeeditor_changechange1](assets/codeeditor_changechange1.png)
 
 * Excluir uma ação existente. Passe o mouse sobre a modificação desejada, em seguida, clique no ícone **[!UICONTROL Excluir]**.
 
@@ -71,7 +71,7 @@ Use a página de Modificações para:
 
 1. Para exibir a página de [!UICONTROL Modificações] de uma experiência selecionada, no VEC, clique no ícone **[!UICONTROL Modificações]** &lt;/>.
 
-   ![imagem grande do &lbrace;codeeditor_icon](assets/codeeditor_icon_big.png)
+   ![imagem grande do {codeeditor_icon](assets/codeeditor_icon_big.png)
 
    >[!NOTE]
    >

@@ -2,7 +2,7 @@
 keywords: Recomendações, critérios do Recomendações, algoritmos do recommendations, atividade do recommendations, critérios, direcionamento do recommendations
 description: Saiba mais sobre as atividades do Recommendations no Adobe [!DNL Target] que exibem automaticamente conteúdo que pode ser do interesse dos clientes com base em atividades anteriores do usuário ou em outros algoritmos.
 title: O que é o [!DNL Target] Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 TQID: 'https://experienceleague.adobe.com/gR3x6ABhdZNZ4lKvBHpJ-edRj7ZdCKBklMITXaLUhTA'
@@ -26,18 +26,18 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '875'
 ht-degree: 88%
 ---
-# Recomendações
+# Introdução ao Recommendations
 
 As atividades do [!DNL Adobe Target Recommendations] exibem automaticamente produtos, serviços ou conteúdo que podem ser do interesse dos visitantes com base em atividades do usuário anteriores, preferências ou outros critérios. O [!DNL Target Recommendations] ajuda a direcionar o visitante para itens relevantes que podem ser novidade para ele. O [!DNL Recommendations] permite fornecer aos visitantes conteúdo relevante na hora certa e no lugar adequado.
 
 >[!NOTE]
 >
->As atividades do [!DNL Recommendations] estão disponíveis como parte da [solução Target Premium. &#x200B;](/help/main/c-intro/intro.md#premium) Não estão disponíveis no [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
+>As atividades do [!DNL Recommendations] estão disponíveis como parte da [solução Target Premium. ](/help/main/c-intro/intro.md#premium) Não estão disponíveis no [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
 >
 >Se você tiver o [!DNL Recommendations Classic], consulte [Atividades do Recommendations Classic versus Recomendações no Target Premium](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) para obter mais informações sobre as duas soluções.
 
@@ -73,7 +73,7 @@ Antes de começar a usar o [!DNL Recommendations], é útil se familiarizar com 
 | Atividade | As atividades no [!DNL Target] permitem personalizar o conteúdo para públicos-alvos específicos e testar designs de página. O [!DNL Recommendations] é apenas um dos muitos tipos de atividade disponíveis no [!DNL Target]. Para obter mais informações, consulte [Tipos de atividade do Target](/help/main/c-activities/target-activities-guide.md). |
 | Entidades | As entidades referem-se a itens que você quer recomendar. As entidades podem ser produtos, conteúdo (como artigos, apresentação de slides, imagens, filmes e programas de TV), listas de trabalho, restaurantes e assim por diante. Para obter mais informações, consulte [Entidades](/help/main/c-recommendations/c-products/products.md). |
 | Feeds | Os feeds são usados para importar entidades no [!DNL Recommendations]. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e as classificações de produtos do Adobe Analytics. Para obter mais informações, consulte [Feeds](/help/main/c-recommendations/c-products/feeds.md). |
-| Catálogo | Catálogos se referem a todo o conjunto de produtos (entidades). O catálogo pode conter muitas coleções, uma maneira de organizar seus produtos em compartimentos lógicos. |
+| Catálogo | Catálogos se referem a todo o conjunto de produtos (entidades). O catálogo pode conter muitas coleções, uma maneira de organizar seus produtos em buckets lógicos. |
 | Coleção | As coleções se referem a um conjunto de itens semelhantes ou relacionados, como uma única categoria de produto. No entanto, você pode agrupar qualquer item em uma categoria que faça sentido para o seu negócio, como produtos em uma determinada faixa de preço ou cor, ou itens que possam ser interessantes em uma área geográfica específica. Para obter mais informações, consulte [Coleções](/help/main/c-recommendations/c-products/collections.md). |
 | Critérios | Critérios são regras que determinam quais produtos recomendar com base em um conjunto predeterminado de comportamentos do visitante.<br>Alguns exemplos de critérios incluem: <ul><li>Pessoas que compraram isto, compraram aquilo</li><li>Pessoas que visualizaram isto, visualizaram aquilo</li><li>Itens com atributos similares</li><li>Último item comprado</li><li>Categoria favorita</li></ul>  Para obter mais informações, consulte [Critérios](/help/main/c-recommendations/c-algorithms/algorithms.md). |
 | Designs | Os designs definem a aparência das recomendações em uma atividade do [!DNL Recommendations], como uma linha, coluna, tabela ou grade. A ilustração na parte superior deste artigo mostra um design 4 x 1. Para obter mais informações, consulte [Criar um design](/help/main/c-recommendations/c-design-overview/create-design.md). |
@@ -89,7 +89,7 @@ Este vídeo explica os tipos de atividade disponíveis no [!DNL Target Standard/
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/31290?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 <!--
 ## Adobe Target Basics Webinar: Introduction to Recommendations ![Tutorial badge](/help/main/assets/tutorial.png) {#intro-to-recs}

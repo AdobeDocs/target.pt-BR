@@ -24,12 +24,12 @@ topic_v2:
     internal-label: Content and assets
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 36%
+source-wordcount: '412'
+ht-degree: 35%
 ---
-# Visão geral dos [!UICONTROL Fragmentos de experiência] e [!UICONTROL Fragmentos de conteúdo] do AEM
+# Introdução aos [!UICONTROL Fragmentos de experiência] e [!UICONTROL Fragmentos de conteúdo] do AEM
 
 Use os [!UICONTROL Fragmentos de Experiência] (XFs) e os [!UICONTROL Fragmentos de Conteúdo] (CFs) criados no [!DNL Adobe Experience Manager] (AEM) em [!DNL Target] atividades para auxiliar na otimização e na personalização.
 

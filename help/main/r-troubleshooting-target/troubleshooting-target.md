@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 77%
@@ -65,7 +65,7 @@ As seguintes seções contêm informações de solução de problemas em ativida
 
 ### Alocação automática
 
-* [Visão geral da alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+* [Visão geral da alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#faq)
 
 ### Direcionamento automático
 
@@ -82,7 +82,7 @@ As seguintes seções contêm informações de solução de problemas em ativida
 ### Teste multivariado (MVT)
 
 * [Práticas recomendadas para testes multivariados](/help/main/c-activities/c-multivariate-testing/best-practices.md)
-* [Solução de problemas de testes multivariados](/help/main/c-activities/c-multivariate-testing/best-practices.md)
+* [Solução de problemas de testes multivariados](/help/main/c-activities/c-multivariate-testing/best-practices.md#follow-up)
 * [Estimar o tráfego necessário para um teste bem-sucedido](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
 ### Recomendações
@@ -129,7 +129,7 @@ As seguintes seções contêm informações de solução de problemas em ativida
 
 ## Mbox global
 
-* [Mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=pt-BR)
+* [Mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## Hosts/ambientes
 
@@ -141,12 +141,12 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 ### Implementação geral
 
-* [Navegadores compatíveis](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=pt-BR)
+* [Navegadores compatíveis](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
 * [Usar instâncias baseadas em nuvem com o Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### Mboxes globais
 
-* [Perguntas frequentes sobre a mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=pt-BR)
+* [Perguntas frequentes sobre a mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
@@ -157,7 +157,7 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 ## Aplicativos para dispositivos móveis
 
-* [Perguntas frequentes sobre o Target para aplicativos móveis](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=pt-BR)
+* [Perguntas frequentes sobre o Target para aplicativos móveis](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## Relatório
 
@@ -166,7 +166,7 @@ As seguintes seções contêm informações de solução de problemas ao impleme
 
 ## Otimização do mecanismo de pesquisa (SEO)
 
-* [Teste compatível com a Otimização do mecanismo de pesquisa (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=pt-BR)
+* [Teste compatível com a Otimização do mecanismo de pesquisa (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## Segurança
 

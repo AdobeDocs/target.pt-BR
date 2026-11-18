@@ -20,14 +20,12 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 118
-ht-degree: 36%
-
+source-wordcount: '121'
+ht-degree: 33%
 ---
-
-# Perfis do visitante
+# Introdução aos perfis de visitantes
 
 Os perfis de visitantes no [!DNL Adobe Target] contêm informações sobre como seus visitantes usam suas páginas e outros locais de conteúdo otimizado.
 
@@ -40,6 +38,6 @@ As seguintes seções contêm mais informações:
 - [Duração do perfil do visitante](visitor-profile-lifetime.md)
 - [Atributos do perfil](profile-parameters.md)
 - [Afinidade de categorias](category-affinity.md)
-- [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=pt-BR)
+- [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 - [Sincronização de perfil em tempo real para mbox3rdPartyID](3rd-party-id.md)
 - [Glossário de variáveis e perfis](variables-profiles-parameters-methods.md)

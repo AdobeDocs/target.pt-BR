@@ -2,7 +2,7 @@
 keywords: Direcionamento, relatórios de AP, relatórios de personalização automatizada, direcionamento automático, direcionamento automático, relatório do direcionamento automático, relatório de direcionamento automático, personalização, insights, segmentos automatizados, perguntas frequentes, perguntas frequentes, atributos importantes
 description: Saiba como usar os relatórios especializados para atividades de Automated Personalization (AP) e Direcionamento automático (AT) - Segmentos automatizados e atributos importantes.
 title: Como usar os relatórios do Personalization Insights?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 TQID: 'https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI'
@@ -30,12 +30,12 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 28%
+source-wordcount: '1027'
+ht-degree: 27%
 ---
-# [!UICONTROL Relatórios do Personalization Insights]
+# Introdução aos relatórios do [!UICONTROL Personalization Insights]
 
 Dois relatórios especializados estão disponíveis para usuários de atividades de [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático] (AT): os relatórios de [!UICONTROL Segmentos automatizados] e [!UICONTROL Atributos importantes].
 
@@ -117,7 +117,7 @@ Os modelos [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcioname
 
 ## Vídeo de treinamento: usar os relatórios do Personalization Insights ![Selo do tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/30851?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 Para obter mais informações, consulte [Uso dos Relatórios do Personalization Insights no Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 

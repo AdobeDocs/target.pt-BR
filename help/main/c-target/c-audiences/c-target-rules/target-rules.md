@@ -14,14 +14,12 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 385
-ht-degree: 50%
-
+source-wordcount: '388'
+ht-degree: 49%
 ---
-
-# Categorias para públicos-alvos
+# Introdução a categorias para públicos
 
 Você pode direcionar qualquer um dos vários atributos de categoria usando [!DNL Adobe Target]. Para criar regras de direcionamento (ou grupos) para cada atributo, arraste e solte os atributos desejados no painel do Audience Builder.
 
@@ -48,4 +46,4 @@ Este vídeo inclui as informações sobre o uso das categorias de público-alvo.
 * Criar públicos-alvo
 * Definir categorias de públicos-alvo
 
->[!VIDEO](https://video.tv.adobe.com/v/3507774?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
