@@ -47,7 +47,7 @@ Baixe um PDF interativo que descreve os diferentes tipos de atividades no [!DNL 
 >
 >Para ter a melhor experiência e compartilhar com outras pessoas, baixe o [PDF interativo Guia de atividades do Adobe Target](/help/main/assets/activities_guide_82817.pdf).
 >
->Este artigo não contém informações sobre [**[!UICONTROL Atividades do Recommendations ]**](/help/main/c-recommendations/recommendations.md). No entanto, você pode incluir recomendações nas atividades de**[!UICONTROL  Teste A/B ]**,**[!UICONTROL  Alocação automática ]**,**[!UICONTROL  Direcionamento automático ]**e**[!UICONTROL  Direcionamento de experiência ]**(XT). Para obter mais informações, consulte [Recomendações como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/main/c-intro/intro.md#premium).
+>Este artigo não contém informações sobre [**[!UICONTROL Atividades do Recommendations &#x200B;]**](/help/main/c-recommendations/recommendations.md). No entanto, você pode incluir recomendações nas atividades de&#x200B;**[!UICONTROL &#x200B; Teste A/B &#x200B;]**,**[!UICONTROL &#x200B; Alocação automática &#x200B;]**,**[!UICONTROL &#x200B; Direcionamento automático &#x200B;]**&#x200B;e&#x200B;**[!UICONTROL &#x200B; Direcionamento de experiência &#x200B;]**(XT). Para obter mais informações, consulte [Recomendações como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). Essa funcionalidade exige uma [licença do Target Premium](/help/main/c-intro/intro.md#premium).
 
 ## O que ele faz? {#section_4ECAACC68723402EB3649033190E1BBC}
 
