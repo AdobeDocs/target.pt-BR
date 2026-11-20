@@ -2,7 +2,7 @@
 keywords: criar critérios personalizados;algoritmos;critérios;critérios de recomendações;csv;ftp;sftp;carregar csv
 description: Saiba como carregar um arquivo CSV para personalizar suas recomendações no Adobe [!DNL Target] Recommendations.
 title: Como faço para carregar critérios personalizados no [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 TQID: 'https://experienceleague.adobe.com/8gSKOQxHGB5TPe6vdhjgy5sAFxN8O7dodITo7wgrR50'
@@ -18,7 +18,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 67ee6127f023f8450e1e6798a617b2bcbd6e7ba6
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 24%
@@ -61,7 +61,7 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar Novo Cr
 
    * **FTP:** Para carregar seu arquivo CSV de um servidor FTP, selecione **[!UICONTROL FTP]** e insira as informações necessárias. Você pode usar SSL, que usa o protocolo FTPS para transferir seu arquivo CSV em segurança.
 
-   * **SFTP:** Para carregar seu arquivo CSV de um servidor SFTP, selecione **[!UICONTROL SFTP]** e digite o nome do host ou endereço IP, porta (padrão 22), nome de usuário, senha e/ou chave privada SSH, diretório e nome de arquivo. Para obter detalhes, consulte [Configurações compatíveis do servidor SFTP](/help/main/c-recommendations/c-products/feeds.md#sftp-settings).
+   * **SFTP:** Para carregar seu arquivo CSV de um servidor SFTP, selecione **[!UICONTROL SFTP]** e digite o nome do host ou endereço IP, porta (padrão 22), nome de usuário, senha e/ou chave privada SSH, diretório e nome de arquivo. Para obter detalhes, consulte [Configurações compatíveis do servidor SFTP](/help/main/c-recommendations/c-products/feeds.md#steps).
 
      O SFTP não altera o formato CSV de critérios personalizados. Use o formato `# Key,Recommendation_1,...`, o uso de um formato de tipo de feed diferente causa falha na importação.
 
