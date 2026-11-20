@@ -1,6 +1,6 @@
 ---
 keywords: público-alvo, regras de público-alvo, combinar públicos-alvo, exclusão, adicionar exclusão, excluir, combinação de públicos-alvo, público-alvo adhoc, público-alvo ad hoc
-description: Saiba como combinar vários públicos-alvo (incluindo públicos-alvo da Adobe Experience Cloud e  [!DNL Target]  públicos-alvo) rapidamente para criar públicos-alvo ad hoc.
+description: Saiba como combinar vários públicos-alvo (incluindo públicos-alvo da Adobe Experience Cloud e [!DNL Target]) rapidamente para criar públicos-alvo ad hoc.
 title: Posso combinar vários públicos para criar um novo público-alvo?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
@@ -16,20 +16,18 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: 964
+source-wordcount: '965'
 ht-degree: 55%
-
 ---
-
 # Combinar vários públicos-alvos
 
 Combine vários públicos-alvo (incluindo [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform] e [!DNL Target] públicos-alvo) rapidamente para criar públicos-alvo ad hoc. Também é possível criar regras de exclusão e excluir públicos-alvo de uma regra.
 
 >[!NOTE]
 >
->A origem [!DNL Adobe Experience Platform] está disponível para todos os clientes [!DNL Target] que usam o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR){target=_blank}. Os públicos-alvo disponíveis no [!DNL Adobe Experience Platform] podem ser usados como estão ou combinados com públicos-alvo existentes, conforme explicado neste tópico.
+>A origem [!DNL Adobe Experience Platform] está disponível para todos os clientes [!DNL Target] que usam o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. Os públicos-alvo disponíveis no [!DNL Adobe Experience Platform] podem ser usados como estão ou combinados com públicos-alvo existentes, conforme explicado neste tópico.
 >
 >Para obter mais informações, consulte [Usar públicos do Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -45,7 +43,7 @@ Você pode criar e usar públicos-alvo combinados em vários locais na interface
 
 Você pode criar um público-alvo ad hoc combinado na página do [!UICONTROL Target] da atividade durante o fluxo de trabalho guiado de três etapas.
 
-1. Ao criar uma [atividade](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Direcionamento]**, clique nos sinal de três pontos verticais e clique em **[!UICONTROL Substituir público]**.
+1. Ao criar uma [atividade](/help/main/c-activities/activities.md), na página **[!UICONTROL Direcionamento]**, clique nos sinal de três pontos verticais e clique em **[!UICONTROL Substituir público]**.
 
    ![Resultado da etapa](assets/edit_audience.png)
 
@@ -95,7 +93,7 @@ Você pode criar um público-alvo ad hoc combinado na página do [!UICONTROL Tar
 
 Você pode criar um público-alvo combinado ad hoc na página [!UICONTROL Metas e configurações] da atividade para ser usado na segmentação de métrica. Por exemplo, para criar segmentação com base na conversão usando um público-alvo combinado:
 
-1. Ao editar ou criar uma [atividade](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Metas e Configurações]**, selecione **[!UICONTROL Conversão]** para a métrica de sucesso e, em seguida, selecione **[!UICONTROL Uma Mbox visualizada]** como ação.
+1. Ao editar ou criar uma [atividade](/help/main/c-activities/activities.md), na página **[!UICONTROL Metas e Configurações]**, selecione **[!UICONTROL Conversão]** para a métrica de sucesso e, em seguida, selecione **[!UICONTROL Uma Mbox visualizada]** como ação.
 1. Selecione a mbox desejada no campo **[!UICONTROL Pesquisar mbox]**.
 
    ![combinar_vários_públicos4 imagem](assets/combine_multiple_audiences4.png)
@@ -111,7 +109,7 @@ Você pode criar um público-alvo combinado ad hoc na página [!UICONTROL Metas 
 
 Você pode criar um público-alvo combinado ad hoc na página [!UICONTROL Metas e configurações] da atividade para ser usado na geração de relatórios.
 
-1. Ao editar ou criar uma [atividade](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Metas e Configurações]**, clique no ícone **[!UICONTROL Adicionar Público]** em [!UICONTROL Públicos-alvo para Relatórios] para exibir a página [!UICONTROL Escolher Público-alvo].
+1. Ao editar ou criar uma [atividade](/help/main/c-activities/activities.md), na página **[!UICONTROL Metas e Configurações]**, clique no ícone **[!UICONTROL Adicionar Público]** em [!UICONTROL Públicos-alvo para Relatórios] para exibir a página [!UICONTROL Escolher Público-alvo].
 
    ![combinar_vários_públicos6 imagem](assets/combine_multiple_audiences6.png)
 

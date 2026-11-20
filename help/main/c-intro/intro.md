@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 68%
@@ -137,7 +137,7 @@ O [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-t
 
 ### Recomendações
 
-As atividades do [Recomendações](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores. O [!UICONTROL Recommendations] ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
+As atividades do [Recomendações](/help/main/c-recommendations/recommendations.md) exibem automaticamente produtos ou conteúdo que podem ser do interesse dos clientes com base em atividades do usuário anteriores. O [!UICONTROL Recommendations] ajuda a direcionar os clientes para itens relevantes que podem ser novidade para eles.
 
 Uma recomendação determina como um produto é sugerido a um cliente, dependendo das atividades desse cliente no site. Por exemplo:
 
@@ -200,6 +200,6 @@ O vídeo a seguir explica os tipos de atividade disponíveis no [!DNL Target Sta
 * Selecione o tipo de atividade apropriado para atingir suas metas
 * Descreva o fluxo de trabalho guiado em três etapas que se aplica a todos os tipos de atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/31290?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 

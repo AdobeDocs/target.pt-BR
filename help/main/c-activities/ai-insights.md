@@ -4,12 +4,18 @@ description: Saiba como usar insights gerados por IA e oportunidades de otimiza�
 title: Insights de IA na visão geral da atividade
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
+source-git-commit: ec6df29fa12dab229b89c061a9db3374e38c2152
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 36%
+source-wordcount: '788'
+ht-degree: 35%
 ---
-# Insights de IA
+# Insights de IA {#ai-insights}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como usar o menu **[!UICONTROL Insights de IA]** da [!DNL Adobe Target] **[!UICONTROL Visão geral da atividade]** para revisar aprendizados de experimento, comparar tratamentos e identificar oportunidades de otimização.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

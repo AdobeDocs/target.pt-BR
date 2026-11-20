@@ -4,12 +4,18 @@ description: Use a Calculadora de tamanho de amostra do Adobe Target para estima
 title: Calculadora de tamanho da amostra
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: d3fb1b69975951d41803be0eb902333332cb1ed1
+source-git-commit: 39876928cad809220f39c0ffe104edf9422e2773
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 35%
+source-wordcount: '1632'
+ht-degree: 34%
 ---
-# Calculadora de tamanho da amostra
+# Calculadora de tamanho da amostra {#sample-size-calculator}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como usar a Calculadora de Tamanho da Amostra [!DNL Adobe Target] para estimar o tráfego, a duração, o número de experiências ou o efeito mínimo detectável para um teste A/B.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"
@@ -157,7 +163,7 @@ Estime as entradas de planejamento para uma atividade A/B que depende dos dados 
 
    * **[!UICONTROL Variação]**: a extensão dos valores de métrica. Uma taxa de click-through geralmente tem baixa variação, a receita por usuário pode ser muito maior. Se não tiver certeza, deixe o valor padrão em 1.
 
-     Saiba como calcular uma **[!UICONTROL Variação]** na [documentação do Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
+     Saiba como calcular uma **[!UICONTROL Variação]** na [documentação do Analytics](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
 
      ![](assets/calculator-cja-analytics-2.png)
 

@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 47%
@@ -94,7 +94,7 @@ Conecte-se com outros profissionais do [!DNL Target] no [Fórum da comunidade do
 **A quais navegadores [!DNL Target] oferece suporte?**
 
 +++Ver detalhes
-Leia a matriz de [Navegadores suportados](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=pt-BR){target=_blank} para obter mais detalhes. Observe que há dois aspectos: o suporte à interface do [!DNL Target Standard/Premium] e o suporte a navegadores para usuários finais em desktops/dispositivos.
+Leia a matriz de [Navegadores suportados](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} para obter mais detalhes. Observe que há dois aspectos: o suporte à interface do [!DNL Target Standard/Premium] e o suporte a navegadores para usuários finais em desktops/dispositivos.
 
 Há suporte para [!DNL Safari] para a interface [!DNL Target]. Você pode criar atividades baseadas em formulário no [!DNL Safari] e usar todas as funcionalidades, exceto o [!UICONTROL Visual Experience Composer] (VEC) e o [!UICONTROL Enhanced Experience Composer] (EEC), que não são compatíveis com o [!DNL Safari]. Para editar experiências no VEC ou no EEC, use [!DNL Google Chrome].
 
@@ -133,9 +133,9 @@ Confira o tipo de atividade [Direcionamento automático](/help/main/c-activities
 **Como posso saber qual tipo de atividade é atende melhor às minhas necessidades?**
 
 +++Ver detalhes
-Leia o [Guia de Atividades do Target](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) para entender os cenários em que cada uma das opções fornecidas por [!DNL Target] faz sentido.
+Leia o [Guia de Atividades do Target](/help/main/c-activities/target-activities-guide.md) para entender os cenários em que cada uma das opções fornecidas por [!DNL Target] faz sentido.
 
-Considere também as [atividades do Recomendações](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+Considere também as [atividades do Recomendações](/help/main/c-recommendations/recommendations.md).
 
 +++
 
@@ -174,7 +174,7 @@ O [!DNL Target] tem uma maneira robusta de fazer isso com nosso recurso [!UICONT
 **Como posso ter certeza sobre como configurar uma atividade para atingir meus objetivos?**
 
 +++Ver detalhes
-As [metas são inseridas aqui](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC).
+As [metas são inseridas aqui](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md).
 
 Você deve começar por saber o que você deseja otimizar. É [!UICONTROL Receita], [!UICONTROL Conversão] ou [!UICONTROL Envolvimento]? Cada uma dessas opções está disponível na seção de metas. E, para cada uma delas, você pode definir que ação um usuário tomaria no seu site para qualificar que a meta foi atingida.
 
@@ -274,7 +274,7 @@ Use os controles de alocação de porcentagem disponíveis na [Etapa 2 do fluxo 
 Veja os seguintes aspectos do produto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=pt-BR)
+* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Públicos-alvo](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -421,7 +421,7 @@ Use o poder das [atividades baseadas em formulário](/help/main/c-experiences/fo
 Veja os seguintes aspectos do produto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=pt-BR)
+* [Atributos do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Públicos-alvo](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++

@@ -22,16 +22,20 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0a683f6e68bb7481b9e45c91a275a46b84a1ffd8
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 51%
+source-wordcount: '429'
+ht-degree: 18%
 ---
-# Usar o controle de qualidade de atividade com entrega do lado do servidor
+# Usar o controle de qualidade de atividade com entrega do lado do servidor {#qa-server-side}
 
-Use URLs de controle de qualidade com entrega do lado do servidor no [!DNL Adobe Target] para realizar o controle de qualidade das atividades com facilidade utilizando links de visualização que nunca mudam, direcionamento opcional de público-alvo e relatórios de controle de qualidade que permanecem segmentados a partir dos dados de atividade em tempo real.
+>[!BEGINSHADEBOX]
 
-A implementação padrão do Controle de qualidade de atividade oferece suporte à passagem de `qa_mode` parâmetros por meio de `pageUrl` parâmetros. Essa abordagem é conveniente para chamadas [!DNL Target] padrão/ajax. No entanto, para chamadas de servidor para servidor, isso não é a melhor abordagem para um caso SDK do Adobe Mobile, quando `pageUrl` não está disponível.
+**Nesta página:** saiba como passar parâmetros de controle de qualidade de atividade em uma chamada [!DNL Adobe Target] do lado do servidor, para testar atividades quando `pageUrl` não estiver disponível.
+
+>[!ENDSHADEBOX]
+
+A implementação padrão do Controle de qualidade de atividade oferece suporte à passagem de `qa_mode` parâmetros por meio de `pageUrl` parâmetros. Essa abordagem é conveniente para chamadas [!DNL Target] padrão/ajax. No entanto, não é adequado para chamadas de servidor para servidor, como uma implementação do Mobile SDK, em que `pageUrl` não está disponível. Nesses casos, transmita os parâmetros de controle de qualidade na própria solicitação, que mantém os mesmos links de visualização, direcionamento opcional de público-alvo e relatórios de controle de qualidade segmentados a partir dos dados de atividade em tempo real.
 
 O código a seguir mostra o Controle de qualidade de atividade em uma chamada do lado do servidor:
 
@@ -70,14 +74,14 @@ O código a seguir mostra o Controle de qualidade de atividade em uma chamada do
 }
 ```
 
-A tabela a seguir explica os detalhes da solicitação do lado do servidor:
+A tabela a seguir descreve os parâmetros de uma solicitação do lado do servidor:
 
 | Parâmetro | Tipo | Valor padrão | Descrição |
 |--- |--- |--- |--- |
-| token | Token criptografado | Nenhum.<br>Não pode ficar em branco. | Uma entidade criptografada que contém a lista de IDs de atividade que podem ser executadas no Controle de Qualidade da Atividade.<br>Regras de validação: deve ser um token criptografado pertencente ao cliente especificado na solicitação [!DNL Target]. Todas as atividades especificadas no token devem pertencer ao cliente. |
-| bypassEntryAudience | Booleano | Falso | Especifica se os direcionamentos de etapas de entrada de atividades de controle de qualidade devem ser avaliados ou se devem ser considerados como correspondentes. |
-| listedActivitiesOnly | Booleano | Falso | Especifica se as atividades de QA devem ser executadas isoladamente ou se devem ser avaliadas como atividades ativas para o ambiente atual. |
-| evaluateAsTrueAudienceIds | Lista de IDs | Lista vazia. | Lista de IDs de público-alvo que devem sempre ser avaliadas como verdadeiras no escopo da solicitação [!DNL Target]. |
-| evaluateAsFalseAudienceIds | Lista de IDs | Lista vazia. | Lista de IDs de público-alvo que devem sempre ser avaliadas como falsas no escopo da solicitação [!DNL Target]. |
-| activityIndex | Número inteiro | Nulo.<br>Não pode ficar vazio. | O índice de atividade no token criptografado. Se activityIndex estiver fora dos limites da atividade no token ou se for nulo, ele será ignorado. O índice começa com 1.<br>Regras de validação: deve ter pelo menos um índice de atividade e deve fazer referência a uma atividade especificada no token. |
-| experienceIndex | Número inteiro | Nulo. | Quando especificado, seleciona uma experiência por índice na definição da atividade. Se não especificado ou fora dos limites, ele retornará à estratégia de seleção de experiência da atividade. Regras de validação - O índice começa com 1: podem ser nulas ou devem fazer referência a uma experiência na atividade. |
+| token | Token criptografado | Nenhum. Não pode estar vazio. | Uma entidade criptografada que contém a lista de IDs de atividade que podem ser executadas no Controle de Qualidade da Atividade.<br>Regras de validação: o token deve ser um token criptografado pertencente ao cliente especificado na solicitação [!DNL Target]. Todas as atividades especificadas no token devem pertencer ao cliente. |
+| bypassEntryAudience | Booleano | Falso | Especifica se os alvos da etapa de entrada para atividades de controle de qualidade são avaliados ou considerados correspondentes. |
+| listedActivitiesOnly | Booleano | Falso | Especifica se as atividades de controle de qualidade são executadas isoladamente ou são avaliadas como atividades ativas para o ambiente atual. |
+| evaluateAsTrueAudienceIds | Lista de IDs | Lista vazia | Lista de IDs de público que são sempre avaliadas como verdadeiras no escopo da solicitação [!DNL Target]. |
+| evaluateAsFalseAudienceIds | Lista de IDs | Lista vazia | Lista de IDs de público que são sempre avaliadas como falsas no escopo da solicitação [!DNL Target]. |
+| activityIndex | Número inteiro | Null. Não pode estar vazio. | O índice de atividade no token criptografado. Se `activityIndex` for nulo ou estiver fora dos limites das atividades no token, ele será ignorado. O índice começa com 1.<br>Regras de validação: pelo menos um índice de atividade é necessário e deve fazer referência a uma atividade especificada no token. |
+| experienceIndex | Número inteiro | Null | Quando especificado, seleciona uma experiência por índice na definição da atividade. Se não especificado ou fora dos limites, ele retorna à estratégia de seleção de experiência da atividade. O índice começa com 1.<br>Regras de validação: o valor pode ser nulo ou deve fazer referência a uma experiência na atividade. |

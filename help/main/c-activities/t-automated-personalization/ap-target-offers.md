@@ -2,7 +2,7 @@
 keywords: personalização automatizada;ofertas;direcionamento;público-alvo;regras de direcionamento;direcionamento
 description: Descubra como direcionar ofertas individuais para públicos específicos usando atividades de [!UICONTROL Automated Personalization] (AP).
 title: Como Posso Direcionar Ofertas Do [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 8%
@@ -78,7 +78,7 @@ As regras de direcionamento de público controlam quais visitantes podem ver cad
 
    >[!NOTE]
    >
-   >Em vez de criar um novo público-alvo, você pode combinar vários públicos-alvo com os existentes para criar públicos-alvo combinados sob demanda. Para obter mais informações, consulte [Combinar vários públicos-alvo](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >Em vez de criar um novo público-alvo, você pode combinar vários públicos-alvo com os existentes para criar públicos-alvo combinados sob demanda. Para obter mais informações, consulte [Combinar vários públicos-alvo](/help/main/c-target/combining-multiple-audiences.md).
 
 1. Clique em **[!UICONTROL Concluído]**.
 

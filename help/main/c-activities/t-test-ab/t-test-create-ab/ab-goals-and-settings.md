@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: abab6b3e464bb9f294e9c3c455dca1f57bb0d458
+source-git-commit: ec6df29fa12dab229b89c061a9db3374e38c2152
 workflow-type: tm+mt
-source-wordcount: '1669'
-ht-degree: 24%
+source-wordcount: '1732'
+ht-degree: 18%
 ---
 # Metas e Configurações {#ab-goals-and-settings}
 
@@ -103,7 +103,7 @@ Especificar de qual solução os dados são coletados:
 
   Para especificar uma fonte de relatórios, primeiro escolha uma das [!DNL Analytics] empresas às quais sua conta está vinculada e, em seguida, selecione o conjunto de relatórios apropriado para a atividade. Somente conjuntos de relatórios provisionados para conexão com [!DNL Adobe Target] estão disponíveis para seleção. Se você não vir os conjuntos de relatórios esperados, primeiro tente fazer logout e fazer logon novamente no [!DNL Adobe Experience Cloud] para tentar novamente. Se o conjunto de relatórios ainda estiver ausente na lista, entre em contato com o Atendimento ao cliente.
 
-  O [!DNL Analytics for Target] (A4T) requer um servidor de rastreamento para relatar os resultados corretamente. Um servidor de rastreamento padrão é exibido no campo **[!UICONTROL Servidor de rastreamento]**. Se você usar mais de um servidor de rastreamento, inclua o servidor de rastreamento correto neste campo. Consulte [Usando um servidor de rastreamento do Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para obter mais informações.
+  O [!DNL Analytics for Target] (A4T) requer um servidor de rastreamento para relatar os resultados corretamente. Um servidor de rastreamento padrão é exibido no campo **[!UICONTROL Servidor de rastreamento]**. Se você usar mais de um servidor de rastreamento, inclua o servidor de rastreamento correto neste campo. Consulte [Usando um servidor de rastreamento do Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) para obter mais informações.
   +++
 
 * [!DNL Adobe Customer Journey Analytics]
@@ -152,7 +152,7 @@ Observe que esta configuração não estará disponível se você escolher [!DNL
 
 ## Configurações avançadas {#section_E2FE441AFB324E498793ABB025ED9974}
 
-A seção **[!UICONTROL Configurações Avançadas]** da página **[!UICONTROL Metas e Configurações]** permite configurar as opções avançadas.
+A seção **[!UICONTROL Configurações avançadas]** da página **[!UICONTROL Metas e configurações]** permite refinar como cada métrica de sucesso é contada: se depende de outra métrica, o que acontece com um visitante depois que a meta é atingida e como a contagem é incrementada.
 
 Para especificar configurações avançadas, clique no ícone **[!UICONTROL Mais]** ( ![ícone de Mais](/help/main/assets/icons/MoreSmallList.svg) ) na seção **[!UICONTROL Minha Meta Primária]** e clique em **[!UICONTROL Configurações Avançadas]**.
 
@@ -162,11 +162,11 @@ Para especificar configurações avançadas, clique no ícone **[!UICONTROL Mais
 >
 >Se você usa o [!DNL Adobe Analytics] como a fonte de geração de relatórios, as configurações são gerenciadas pelo servidor do [!DNL Analytics]. A opção de configurações avançadas não está disponível.
 
-### Qual métrica de sucesso deve ser atingida antes do aumento dessa métrica? {#dependencies}
+### Dependências {#dependencies}
 
-Use essa opção para contar apenas alguém que atingiu a métrica de sucesso se já tiver atingido uma métrica de sucesso diferente. Por exemplo, uma conversão de atividade só pode ser válida se o visitante clicar na oferta ou acessar uma página específica antes da conversão.
+Use essa opção para contar um visitante como atingindo uma métrica de sucesso somente se o visitante tiver atingido anteriormente uma métrica de sucesso diferente. Por exemplo, uma conversão de atividade pode ser válida somente se o visitante clicar na oferta ou acessar uma página específica antes da conversão.
 
-É possível fornecer dependência em várias métricas, juntamente com a flexibilidade para escolher se a métrica deve ser alcançada ou não para que a contagem seja incrementada. Defina ambas as métricas de sucesso (ou várias) para poder tornar uma dependente da outra. A opção **[!UICONTROL Adicionar dependência]** permite que a métrica de sucesso seja incrementada se outra métrica de sucesso for ou não alcançada.
+É possível tornar uma métrica dependente de várias métricas e escolher se ela deve ser alcançada ou não para que a contagem seja incrementada. Defina todas as métricas de sucesso antes de tornar uma dependente da outra. A opção **[!UICONTROL Adicionar dependência]** permite que a métrica de sucesso seja incrementada se outra métrica de sucesso for ou não alcançada.
 
 Para adicionar uma dependência:
 
@@ -174,25 +174,25 @@ Para adicionar uma dependência:
 
 1. Clique na opção **[!UICONTROL Adicionar dependência]**.
 
-1. Arraste e solte as métricas desejadas e clique em **[!UICONTROL Alcançado]** para alternar a configuração entre **[!UICONTROL Alcançado]** e **[!UICONTROL Não alcançado]**.
+1. Arraste e solte as métricas das quais depende a métrica de sucesso e clique em **[!UICONTROL Alcançado]** para alternar a configuração entre **[!UICONTROL Alcançado]** e **[!UICONTROL Não alcançado]**.
 
-É possível editar ou remover dependências depois de adicioná-las.
+É possível editar ou remover dependências depois de adicioná-las. Para os casos em que as dependências não são suportadas, consulte [Adicionar dependência](/help/main/c-activities/r-success-metrics/success-metrics.md#add-dependency).
 
-### O que acontece depois que um usuário atinge esta métrica de meta? {#after-goal}
+### Depois que um visitante atinge a meta {#after-goal}
 
-Após atingir o objetivo da atividade, um visitante continua vendo o conteúdo da atividade, a menos que o visitante esteja qualificado para uma atividade de prioridade mais alta. Se o visitante atingir o objetivo novamente, será contado como outra conversão. Isso é diferente do comportamento padrão em [!DNL Target Classic], que contava os visitantes como novos se visualizassem a atividade novamente.
+Após atingir o objetivo da atividade, um visitante continua vendo o conteúdo da atividade, a menos que o visitante esteja qualificado para uma atividade de prioridade mais alta. Se o visitante atingir o objetivo novamente, será contado como outra conversão. Isso difere do comportamento padrão em [!DNL Target Classic], que contava os visitantes como novos quando viam a atividade novamente.
 
 Há três opções para o que acontece depois que um visitante atinge a métrica de meta:
 
-* **[!UICONTROL Incrementar contagem e manter usuário na atividade]** para especificar como a contagem é incrementada.
-* **[!UICONTROL Incrementar contagem, liberar usuário e permitir reentrada]** para especificar a experiência que o usuário vê ao entrar na atividade novamente.
-* **[!UICONTROL Incrementar contagem, liberar usuário e impedir sua reentrada]** para especificar o que o usuário vê em vez do conteúdo da atividade.
+* **[!UICONTROL Incrementar contagem e manter usuário na atividade]:** especifique como a contagem é incrementada, conforme descrito na próxima seção.
+* **[!UICONTROL Incrementar contagem, liberar usuário e permitir reentrada]:** Especifique a experiência que o visitante vê ao entrar na atividade novamente: a mesma experiência (padrão), uma experiência aleatória ou uma experiência não vista.
+* **[!UICONTROL Incrementar contagem, liberar usuário e impedir sua reentrada]:** Especifique o que o visitante vê em vez do conteúdo da atividade: a mesma experiência sem rastreamento (padrão), conteúdo padrão ou outro conteúdo de atividade.
 
-### De que maneira a contagem será incrementada? {#count-increment}
+### Incremento de contagem {#count-increment}
 
-Existem três opções de como a contagem é incrementada:
+Ao selecionar **[!UICONTROL Aumentar contagem e manter o usuário na atividade]**, há três opções para a forma como a contagem é aumentada:
 
-* **[!UICONTROL Uma vez por participante]**
+* **[!UICONTROL Uma vez por participante]** (padrão)
 * **[!UICONTROL Em Todas as Impressões (Excluindo atualizações de página)]**
 * **[!UICONTROL Em Todas As Impressões]**
 

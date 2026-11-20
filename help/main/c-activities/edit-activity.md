@@ -16,7 +16,7 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 14%
@@ -76,7 +76,7 @@ Um espaço de trabalho permite que uma organização atribua um conjunto especí
 
 Se você fizer parte de uma organização multinacional, poderá ter um espaço de trabalho para suas páginas da Web, propriedades ou sites na Europa e outro espaço de trabalho para suas páginas, propriedades ou sites da Web nos EUA. Se fizer parte de uma organização multimarcas, poderá ter um espaço de trabalho separado para cada uma de suas marcas.
 
-Para obter mais informações sobre espaços de trabalho e a funcionalidade Permissões de Usuário de Empresa, consulte [Permissões de Usuário de Empresa](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
+Para obter mais informações sobre espaços de trabalho e a funcionalidade Permissões de Usuário de Empresa, consulte [Permissões de Usuário de Empresa](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
 Se você tiver **[!UICONTROL Permissões de Usuário da Empresa]** habilitadas em seu ambiente, poderá copiar atividades para o mesmo espaço de trabalho ou para outro espaço de trabalho. Atualmente, não é possível mover uma atividade de um espaço de trabalho para outro. Para copiar uma atividade para outro espaço de trabalho, na página **[!UICONTROL Atividades]**, clique no ícone **[!UICONTROL Mais Ações]** ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmall.svg) ) ao lado da atividade que você deseja copiar e clique em **[!UICONTROL Copiar]**.
 

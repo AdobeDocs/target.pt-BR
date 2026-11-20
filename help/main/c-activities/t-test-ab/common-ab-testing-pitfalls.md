@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2ffe1a02ae60370b349f9b6f348d24ecb0a8cb2e
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '4347'
-ht-degree: 81%
+source-wordcount: '4341'
+ht-degree: 75%
 ---
 # Dez erros comuns em testes A/B e como evitá-los {#common-ab-testing-pitfalls}
 
@@ -63,7 +63,7 @@ O *intervalo de confiança*, que é determinado após a conclusão de um teste, 
 * Nível de importância
 * Desvio padrão da população
 
-Como o profissional de marketing selecionou o nível de significância antes do design do teste e o desvio padrão da população não pode ser afetado, o único fator &quot;controlável&quot; é o tamanho da amostra. O tamanho da amostra necessário para um intervalo de confiança com o qual você se sente confortável e o tempo resultante para alcançar esse tamanho de amostra é uma decisão importante que um profissional de marketing deve determinar durante o design do teste.
+O profissional de marketing seleciona o nível de significância antes do design do teste e o desvio padrão da população não pode ser afetado, portanto, o único fator &quot;controlável&quot; é o tamanho da amostra. O tamanho da amostra necessário para um intervalo de confiança com o qual você se sente confortável e o tempo resultante para alcançar esse tamanho de amostra é uma decisão importante que um profissional de marketing deve determinar durante o design do teste.
 
 Outro termo diretamente relacionado, o *nível de confiança*, é mais do que uma abordagem equilibrada. Em vez de indicar a probabilidade de obter um falso positivo, conforme o nível de importância, o nível de confiança representa a probabilidade de o teste não cometer esse erro.
 
@@ -99,7 +99,7 @@ Os profissionais de marketing frequentemente testam mais de duas ofertas (ou exp
 
 É importante observar que *cada* oferta testada tem uma taxa de falso positivo igual ao nível de significância, conforme descrito acima. Novamente, você está executando efetivamente vários testes quando várias ofertas são comparadas em um único ambiente de teste. Por exemplo, se você comparar cinco ofertas em um teste A/B/C/D/E, efetivamente formará quatro comparações: controle para B, controle para C, controle para D, controle para E. Com um nível de confiança de 95%, em vez da probabilidade de 5% de um falso positivo, essa probabilidade será de 18,5%.
 
-Para manter seu nível de confiança geral em 95% e evitar esse problema, aplique o que é conhecido como a correção de Bonferroni. Usando esta correção, você simplesmente divide o nível de importância pelo número de comparações para chegar ao nível de importância necessário para atingir um nível de confiança de 95%.
+Para manter seu nível de confiança geral em 95% e evitar esse problema, aplique o que é conhecido como a correção de Bonferroni. Com essa correção, você divide o nível de significância pelo número de comparações para chegar ao nível de significância que você deve atingir um nível de confiança de 95%.
 
 Aplicando a correção de Bonferroni ao exemplo acima, você usaria um nível de significância de 5%/4 = 1,25%, que é o mesmo que um nível de confiança de 98,75% para um teste individual (100% - 1,25% = 98,75%). Esse ajuste mantém o nível de confiança efetivo em 95% quando você tem quatro testes, como no exemplo descrito.
 
@@ -119,7 +119,7 @@ Se quiser identificar a oferta com a taxa de conversão mais alta, você estará
 
 ## Armadilha 3: Ignorar os efeitos do potencial estatístico {#section_0D517079B7D547CCAA75F80981CBE12A}
 
-O potencial estatístico é a probabilidade de um teste detectar uma diferença real na taxa de conversão entre as ofertas. Devido à natureza aleatória (ou “estocástica”, como os estatísticos gostam de chamar) dos eventos de conversão, um teste pode não mostrar uma diferença estatisticamente significativa, mesmo quando existe uma diferença real na taxa de conversão entre duas ofertas no final. Chame de má sorte ou de acaso. Não detectar uma diferença real na taxa de conversão é chamado de falso negativo ou erro de tipo II.
+O potencial estatístico é a probabilidade de um teste detectar uma diferença real na taxa de conversão entre as ofertas. Um teste pode não mostrar uma diferença estatisticamente significativa, mesmo quando existe uma diferença real no índice de conversão entre duas ofertas no final, por causa da natureza aleatória ou, como os estatísticos gostam de chamá-la, &quot;estocástica&quot; dos eventos de conversão. Chame de má sorte ou de acaso. Não detectar uma diferença real na taxa de conversão é chamado de falso negativo ou erro de tipo II.
 
 Existem dois fatores principais que determinam o poder de um teste. O primeiro é o tamanho da amostra, ou seja, o número de visitantes incluídos no teste. O segundo é a magnitude da diferença na taxa de conversão que você deseja que o teste detecte. Talvez isso seja intuitivo, mas se você estiver interessado em detectar apenas grandes diferenças de taxa de conversão, há uma probabilidade maior de o teste realmente detectar essas grandes diferenças. Ao longo dessas linhas, quanto menor a diferença que você deseja detectar, maior o tamanho da amostra e, portanto, o tempo para obter esse tamanho de amostra maior que você precisa.
 
@@ -143,9 +143,9 @@ Os profissionais de marketing monitoram frequentemente os testes A/B até que o 
 
 Infelizmente, não é tão simples assim. Sem intenção de prejudicar, mas acontece que o monitoramento dos resultados afeta negativamente a significância estatística efetiva do teste. Aumenta muito a probabilidade de falsos positivos e torna seus intervalos de confiança não confiáveis.
 
-Isso pode parecer confuso. Parece que estamos dizendo que apenas observando seus resultados no meio do teste, você pode fazer com que eles percam sua significância estatística. Isso não é exatamente o que está acontecendo. O exemplo a seguir explica por quê.
+Isso pode parecer confuso. Parece que estamos dizendo que ao olhar para os resultados no meio do teste, você pode fazer com que eles percam a significância estatística deles. Isso não é exatamente o que está acontecendo. O exemplo a seguir explica por quê.
 
-Digamos que você simule 10.000 eventos de conversão de duas ofertas, onde as duas ofertas têm taxas de conversão de 10%. Como as taxas de conversão são as mesmas, você não deve detectar diferença no aumento da conversão quando testar as duas ofertas comparando uma com a outra. Usando um intervalo de confiança de 95%, o teste resulta na taxa esperada de falsos positivos de 5% quando é avaliado após a coleta de todas as 10.000 observações. Portanto, se executarmos 100 desses testes, em média, obteremos cinco falsos positivos (na verdade, todos os positivos são falsos neste exemplo porque não há diferença na taxa de conversão entre as duas ofertas). No entanto, se avaliarmos o teste dez vezes durante o teste, a cada 1.000 observações, a taxa de falsos positivos aumentaria para 16%. Monitorar o teste mais do que triplicou o risco de falsos positivos! Como isso pode acontecer?
+Suponha que você simule 10.000 eventos de conversão de duas ofertas, com ambas as ofertas tendo 10% de taxas de conversão. As taxas de conversão são as mesmas, portanto, você não deve detectar diferença no aumento de conversão ao testar as duas ofertas entre si. Usando um intervalo de confiança de 95%, o teste resulta na taxa esperada de falsos positivos de 5% quando é avaliado após a coleta de todas as 10.000 observações. Portanto, se executarmos 100 desses testes, em média, obteremos cinco falsos positivos (na verdade, todos os positivos são falsos neste exemplo porque não há diferença na taxa de conversão entre as duas ofertas). No entanto, se avaliarmos o teste dez vezes durante o teste, a cada 1.000 observações, a taxa de falsos positivos aumentaria para 16%. Monitorar o teste mais do que triplicou o risco de falsos positivos! Como isso pode acontecer?
 
 Para entender por que isso ocorre, é necessário considerar as diferentes ações tomadas quando um resultado significativo é detectado e quando não é. Quando um resultado estatisticamente significativo é detectado, o teste é interrompido e um vencedor é declarado. No entanto, se o resultado não for estatisticamente significativo, deixamos o teste continuar. Essa situação favorece bastante o resultado positivo e, portanto, distorce o nível de significância efetiva do teste.
 
@@ -153,13 +153,13 @@ Para evitar este problema, você deve determinar um período adequado durante o 
 
 ## Armadilha 6: Interrupção prematura de testes {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
-É tentador parar um teste se uma das ofertas tiver um desempenho muito melhor ou pior do que as outras nos primeiros dias do teste. No entanto, quando o número de observações é baixo, há uma alta probabilidade de que um aumento positivo ou negativo seja observado apenas por acaso, porque a taxa de conversão é calculada em média por um número baixo de visitantes. À medida que o teste coleta mais pontos de dados, as taxas de conversão convergem para seus valores verdadeiros de longo prazo.
+É tentador parar um teste se uma das ofertas tiver um desempenho muito melhor ou pior do que as outras nos primeiros dias do teste. No entanto, quando o número de observações é baixo, há uma alta probabilidade de que um aumento positivo ou negativo seja observado por acaso, porque a taxa de conversão é calculada em média por um número baixo de visitantes. À medida que o teste coleta mais pontos de dados, as taxas de conversão convergem para seus valores verdadeiros de longo prazo.
 
 A figura abaixo mostra cinco ofertas que têm a mesma taxa de conversão de longo prazo. A Oferta B teve uma taxa de conversão baixa para os primeiros 2.000 visitantes, e leva muito tempo até que a taxa de conversão estimada retorne à taxa real de longo prazo.
 
 ![Gráfico de linhas da diferença na taxa de conversão entre cinco ofertas alternativas e o controle: as diferenças são grandes para os primeiros milhares de visitantes, por exemplo, menos 8 a menos 9% para a Oferta B e convergem para zero conforme o número de visitantes cresce](assets/pitfalls4.png)
 
-Esse fenômeno é conhecido como “regressão à média” e pode levar ao desapontamento quando uma oferta que teve bom desempenho durante os primeiros dias de um teste não consegue manter esse nível de desempenho a longo prazo. Também pode levar à perda de receita quando uma boa oferta não é implementada porque teve um desempenho ruim nos primeiros dias de um teste apenas por acaso.
+Esse fenômeno é conhecido como “regressão à média” e pode levar ao desapontamento quando uma oferta que teve bom desempenho durante os primeiros dias de um teste não consegue manter esse nível de desempenho a longo prazo. Também pode levar à perda de receita quando uma boa oferta não é implementada porque aconteceu um desempenho insatisfatório nos primeiros dias de um teste por acaso.
 
 Assim como a armadilha de monitorar seu teste, a melhor maneira de evitar esses problemas é determinar um número adequado de visitantes antes de executar o teste e, em seguida, permitir que o teste seja executado até que esse número de visitantes tenha sido exposto às ofertas.
 
@@ -181,11 +181,11 @@ Um outro exemplo é se a alocação de tráfego do seu teste A/B for dividida em
 
 ## Armadilha 8: não considerar os efeitos da novidade {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
-Outras coisas inesperadas podem acontecer se não permitirmos tempo suficiente para executar um teste. Desta vez, o problema não é de estatística; é simplesmente uma reação à mudança por parte dos visitantes. Se você alterar uma parte bem estabelecida do seu site, os visitantes recorrentes poderão, a princípio, se envolver menos com a nova oferta devido a alterações no fluxo de trabalho normal. Isso pode temporariamente fazer com que uma nova oferta superior tenha um desempenho menor que o ideal até que os visitantes recorrentes se acostumem a ela. Um pequeno preço a pagar dados os ganhos a longo prazo que a oferta superior proporciona.
+Outras coisas inesperadas podem acontecer se não permitirmos tempo suficiente para executar um teste. Dessa vez, o problema não é de estatística, mas uma reação à mudança por parte dos visitantes. Se você alterar uma parte bem estabelecida do seu site, os visitantes recorrentes poderão, a princípio, se envolver menos com a nova oferta devido a alterações no fluxo de trabalho normal. Isso pode temporariamente fazer com que uma nova oferta superior tenha um desempenho menor que o ideal até que os visitantes recorrentes se acostumem a ela. Um pequeno preço a pagar dados os ganhos a longo prazo que a oferta superior proporciona.
 
-Para determinar se a nova oferta tem baixo desempenho devido a um efeito de novidade ou porque é realmente inferior, você pode segmentar os visitantes em visitantes novos e recorrentes e comparar as taxas de conversão. Se for apenas o efeito de novidade, a nova oferta ganha com novos visitantes. No fim, conforme os visitantes recorrentes se acostumam com as novas mudanças, a oferta também ganhará sua confiança.
+Para determinar se a nova oferta tem baixo desempenho devido a um efeito de novidade ou porque é realmente inferior, você pode segmentar os visitantes em visitantes novos e recorrentes e comparar as taxas de conversão. Se o efeito de novidade for a única causa, a nova oferta vencerá com novos visitantes. No fim, conforme os visitantes recorrentes se acostumam com as novas mudanças, a oferta também ganhará sua confiança.
 
-O efeito de novidade também pode funcionar em sentido inverso. Os visitantes costumam reagir positivamente a uma mudança apenas porque ela introduz algo novo. Depois de um tempo, quando o novo conteúdo se torna obsoleto ou menos excitante para o visitante, a taxa de conversão cai. Esse efeito é mais difícil de identificar, mas monitorar cuidadosamente as alterações na taxa de conversão é a chave para detectar esse problema.
+O efeito de novidade também pode funcionar em sentido inverso. Muitas vezes, os visitantes reagem positivamente a uma alteração somente porque ela introduz algo novo. Depois de um tempo, quando o novo conteúdo se torna obsoleto ou menos excitante para o visitante, a taxa de conversão cai. Esse efeito é mais difícil de identificar, mas monitorar cuidadosamente as alterações na taxa de conversão é a chave para detectar esse problema.
 
 ## Armadilha 9: não levar em conta diferenças no período de consideração {#section_B166731B5BEE4E578816E351ECDEA992}
 
@@ -201,7 +201,7 @@ Para evitar essa armadilha, reserve um tempo para que os visitantes expostos às
 
 ## Armadilha 10: usar métricas que não refletem os objetivos de negócios {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
 
-Os profissionais de marketing podem se sentir tentados a usar métricas de conversão de alto tráfego e baixa variação no funil superior, como taxa de cliques (CTR), para alcançar um número adequado de conversões de teste mais rapidamente. No entanto, considere cuidadosamente se a CTR é um proxy adequada para a meta de negócios que você deseja atingir. Ofertas com CTRs mais altas podem facilmente levar a uma receita menor. Isso pode acontecer quando as ofertas atraem visitantes com menor propensão a comprar, ou devido a própria oferta, por exemplo, uma oferta de desconto, simplesmente leva a uma receita menor.
+Os profissionais de marketing podem se sentir tentados a usar métricas de conversão de alto tráfego e baixa variação no funil superior, como taxa de cliques (CTR), para alcançar um número adequado de conversões de teste mais rapidamente. No entanto, considere cuidadosamente se a CTR é um proxy adequada para a meta de negócios que você deseja atingir. Ofertas com CTRs mais altos podem resultar em menos receita. Isso pode acontecer quando as ofertas atraem visitantes com uma propensão menor para comprar, ou quando a própria oferta, por exemplo, uma oferta de desconto, resulta em receita menor.
 
 ![Funnel e métricas desde CTR na parte superior até o lucro vitalício na parte inferior: maior tráfego e menos variação na parte superior, mais próximo das metas comerciais na parte inferior](assets/pitfalls6.png)
 

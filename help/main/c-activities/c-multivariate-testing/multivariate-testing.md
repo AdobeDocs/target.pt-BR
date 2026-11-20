@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 25%
@@ -44,7 +44,7 @@ Em [!DNL Target], cada combinação é uma experiência. O **[!UICONTROL Teste m
 
 ![Combinações de teste multivariado](assets/multivariate.png)
 
-Devido ao número de combinações que podem ser geradas, um **[!UICONTROL Teste multivariado]** requer mais tempo e tráfego do que um teste A/B. A página deve receber tráfego suficiente para produzir resultados significativos estatisticamente para cada experiência. Para obter resultados úteis, entenda a quantidade de tráfego que sua página recebe e teste o número ideal de combinações para a quantidade certa de tempo.
+Um **[!UICONTROL Teste multivariado]** requer mais tempo e tráfego do que um teste A/B devido ao número de combinações que podem ser geradas. A página deve receber tráfego suficiente para produzir resultados significativos estatisticamente para cada experiência. Para obter resultados úteis, entenda a quantidade de tráfego que sua página recebe e teste o número ideal de combinações para a quantidade certa de tempo.
 
 O [Avaliador de tráfego](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#traffic-estimator) pode ajudar você a projetar um teste que funcione com seu tráfego. Antes de usá-lo, você deve ter boas estatísticas mostrando o número de impressões e conversões que seu site normalmente recebe e considerar seus níveis de tráfego por dia. Quanto mais experiências uma atividade tiver, mais tráfego ela deverá incluir ou mais demorada deverá ser executada. Se a quantidade de tráfego não estiver alta, teste algumas combinações. Caso contrário, a quantidade de tempo necessária para produzir resultados de teste significativos pode ser muito longa para ser útil.
 
@@ -97,7 +97,7 @@ Este vídeo de visão geral explica os tipos de atividades disponíveis em [!DNL
 * Selecione o tipo de atividade apropriado para atingir suas metas.
 * Descreva o fluxo de trabalho guiado de três etapas que se aplica a todos os tipos de atividade.
 
->[!VIDEO](https://video.tv.adobe.com/v/31290?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Criando Testes Multivariados (9:25) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
@@ -106,4 +106,4 @@ Este vídeo explica como entender, planejar e criar um teste multivariado usando
 * Definir e projetar um teste multivariado.
 * Criar um teste multivariado.
 
->[!VIDEO](https://video.tv.adobe.com/v/30985?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

@@ -2,7 +2,7 @@
 keywords: floresta aleatória;árvore de decisão;ap;Automated Personalization
 description: Saiba como o [!DNL Adobe Target] usa o algoritmo Random Forest nas atividades [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Direcionamento automático].
 title: Como o [!DNL Target] usa o algoritmo Random Forest?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 TQID: 'https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M'
@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 7%
+source-wordcount: '1312'
+ht-degree: 6%
 ---
 # Algoritmo Random Forest {#random-forest-algorithm}
 
@@ -60,7 +60,7 @@ A árvore coloca a questão: &quot;Qual é a variável mais preditiva?&quot; nov
 
 ## Como as árvores de decisão são usadas pelo Random Forest? {#section_536C105EF9F540C096D60450CAC6F627}
 
-Árvores de decisão podem ser uma poderosa ferramenta estatística. No entanto, elas têm algumas desvantagens. Mais importante ainda, eles podem &quot;ajustar em excesso&quot; os dados, de modo que uma árvore individual preveja mal os dados futuros que não foram usados para criar a árvore inicial. Este desafio é conhecido como [compensação de viés-variância](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) na aprendizagem estatística.
+As árvores de decisão são uma ferramenta estatística útil. No entanto, elas têm algumas desvantagens. Mais importante ainda, eles podem &quot;ajustar em excesso&quot; os dados, de modo que uma árvore individual preveja mal os dados futuros que não foram usados para criar a árvore inicial. Este desafio é conhecido como [compensação de viés-variância](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) na aprendizagem estatística.
 
 Florestas aleatórias ajudam a superar esse desafio. Uma floresta aleatória é uma coleção de centenas de árvores decisórias que são construídas de forma um pouco diferente no mesmo conjunto de dados e que &quot;votam&quot; juntas para produzir um modelo melhor do que uma árvore individual. As árvores são construídas selecionando aleatoriamente um subconjunto de registros de visita com substituição (conhecido como ensacamento) e selecionando aleatoriamente um subconjunto dos atributos, de modo que a floresta consiste em árvores de decisão ligeiramente diferentes. Esse método introduz pequenas variações nas árvores. Adicionar essa quantidade controlada de variação ajuda a melhorar a precisão preditiva do algoritmo.
 

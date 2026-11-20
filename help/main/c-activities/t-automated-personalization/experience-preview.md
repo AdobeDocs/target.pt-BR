@@ -2,7 +2,7 @@
 keywords: visualização de experiência, urls de experiências, gerar urls, ver urls de experiências
 description: Saiba como usar as URLs de visualização de experiência para atividades do Automated Personalization do Adobe [!DNL Target] para ver o conteúdo da experiência diretamente no site antes que a atividade esteja ativa.
 title: Como posso usar os URLS de visualização de experiência nas atividades do Automated Personalization?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 product_v2:
@@ -14,18 +14,24 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 41%
+source-wordcount: '774'
+ht-degree: 39%
 ---
-# Pré-visualizar atividades do Automated Personalization com URLs de visualização da experiência
+# Pré-visualizar atividades do Automated Personalization com URLs de visualização da experiência {#experience-preview}
+
+>[!BEGINSHADEBOX]
+
+**Nesta página:** saiba como gerar URLs de visualização de experiência para atividades do **[!UICONTROL Automated Personalization]** para exibir as experiências no seu site antes que a atividade esteja ativa.
+
+>[!ENDSHADEBOX]
 
 As URLs de visualização da experiência podem ser geradas para atividades do [!DNL Target] [!UICONTROL Automated Personalization] para ver o conteúdo da experiência diretamente no site antes que a atividade esteja ativa para fins de visualização e controle de qualidade. Os URLs de visualização da experiência ignoram o direcionamento para forçar a visualização de uma experiência específica.
 
 >[!NOTE]
 >
->Você pode criar URLs de visualização de experiência para outros tipos de atividades do [!DNL Target]. Mas o processo é um pouco diferente. Para obter mais informações, consulte [Controle de qualidade da atividade.](/help/main/c-activities/c-activity-qa/activity-qa.md#preview)
+>Você pode criar URLs de visualização de experiência para outros tipos de atividades do [!DNL Target]. Mas o processo é um pouco diferente. Para obter mais informações, consulte [Controle de qualidade da atividade.](/help/main/c-activities/c-activity-qa/activity-qa.md#section_1C59BAA247B247BDB125D1BE8EAD4547)
 
 Use URLs de visualização de experiência para compartilhar experiências com membros da equipe e para experiências de controle de qualidade em navegadores e ambientes, sem criar uma atividade de controle de qualidade separada. Este recurso é particularmente útil se um site for complexo ou se as políticas de segurança não permitirem que o site seja visualizado em um simulador.
 

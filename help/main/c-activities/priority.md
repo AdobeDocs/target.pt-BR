@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 19%
@@ -50,7 +50,7 @@ Se sua empresa usa o VEC exclusivamente, o conteúdo de várias atividades pode 
    {{visitor-matching}}
 
 1. O conteúdo de todas as atividades e experiências que o visitante corresponde é retornado à página, para que o conteúdo de várias atividades possa ser entregue para a mesma chamada.
-1. [!DNL Target] compara os [seletores de CSS](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) aos quais o conteúdo de cada atividade faz referência. Se as atividades referenciarem seletores diferentes, todo o conteúdo será exibido.
+1. [!DNL Target] compara os [seletores de CSS](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) aos quais o conteúdo de cada atividade faz referência. Se as atividades referenciarem seletores diferentes, todo o conteúdo será exibido.
 1. Se um seletor se sobrepõe ou é duplicado, o conteúdo da atividade de maior prioridade é exibido.
 
    >[!IMPORTANT]
@@ -126,4 +126,4 @@ Este vídeo inclui informações sobre as configurações da atividade.
 * Adicionar públicos-alvo para relatórios a fim de criar filtros de relatórios
 * Inserir observações para a atividade
 
->[!VIDEO](https://video.tv.adobe.com/v/3507947?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
