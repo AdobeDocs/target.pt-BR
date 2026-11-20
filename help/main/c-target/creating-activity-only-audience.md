@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 29%
@@ -30,7 +30,7 @@ Públicos-alvo somente atividade proporcionam os seguintes benefícios:
 * Públicos somente atividade são úteis para criar um público-alvo que você deseje usar somente uma vez e não deseje armazenar na [!UICONTROL Biblioteca de públicos-alvo]. Públicos somente atividade ajudam a evitar que a [!UICONTROL Biblioteca de públicos-alvo] seja desorganizada com públicos-alvo que você nunca desejará utilizar novamente.
 * Públicos somente atividade não estão visíveis na [!UICONTROL Biblioteca de Públicos]. Como esses públicos-alvo não estão visíveis na biblioteca, eles são protegidos contra alterações indesejadas por outros em sua organização.
 
-1. Ao criar uma [atividade](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), na página **[!UICONTROL Direcionamento]**, clique nos sinal de três pontos verticais e clique em **[!UICONTROL Substituir público]**.
+1. Ao criar uma [atividade](/help/main/c-activities/activities.md), na página **[!UICONTROL Direcionamento]**, clique nos sinal de três pontos verticais e clique em **[!UICONTROL Substituir público]**.
 
    ![Resultado da etapa](assets/edit_audience.png)
 

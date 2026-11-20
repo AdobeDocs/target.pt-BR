@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e43265e56e7add690f33a4cd19990bed55a82123
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '3146'
-ht-degree: 43%
+source-wordcount: '3140'
+ht-degree: 42%
 ---
 # Por quanto tempo você deve executar um teste A/B? {#sample-size-determination}
 
@@ -64,7 +64,7 @@ Antes de configurar o teste A/B, acesse a [!DNL Adobe Target] [Calculadora de ta
 
 ![Calculadora de tamanho da amostra do Adobe Target](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
-É importante determinar um tamanho de amostra adequado (número de visitantes) antes de fazer qualquer teste A/B para estabelecer o tempo que a atividade deve ser executada antes de avaliar os resultados. O simples monitoramento da atividade até que a significância estatística seja alcançada faz com que o intervalo de confiança seja amplamente subestimado, tornando o teste não confiável. A intuição por trás desse resultado é que, no caso de um resultado estatisticamente significativo ser detectado, o teste é interrompido e um vencedor é declarado. No entanto, se o resultado não for estatisticamente significativo, o teste pode continuar. Esse procedimento favorece bastante o resultado positivo, o que aumenta a taxa de falsos positivos e, portanto, distorce o nível de significância efetiva do teste.
+É importante determinar um tamanho de amostra adequado (número de visitantes) antes de fazer qualquer teste A/B para estabelecer o tempo que a atividade deve ser executada antes de avaliar os resultados. Monitorar a atividade até que a significância estatística seja alcançada faz com que o intervalo de confiança seja amplamente subestimado, tornando o teste não confiável. A intuição por trás desse resultado é que, no caso de um resultado estatisticamente significativo ser detectado, o teste é interrompido e um vencedor é declarado. No entanto, se o resultado não for estatisticamente significativo, o teste pode continuar. Esse procedimento favorece bastante o resultado positivo, o que aumenta a taxa de falsos positivos e, portanto, distorce o nível de significância efetiva do teste.
 
 Esse procedimento pode resultar em muitos falsos positivos, o que leva à implementação de ofertas que não fornecem o aumento previsto no final. O fraco aumento em si é um resultado insatisfatório, mas uma consequência ainda mais grave é que, com o tempo, a incapacidade de prever com precisão o aumento diminui a confiança organizacional nos testes como prática.
 
@@ -93,7 +93,7 @@ A figura abaixo mostra os quatro resultados possíveis de um teste A/B:
 
 ![Tabela dos quatro resultados possíveis de um teste A/B: verdadeiro positivo, falso positivo (controlado pelo nível de significância), falso negativo (controlado pelo nível de potência) e verdadeiro negativo](assets/outcomes.png)
 
-É desejável não obter falsos positivos ou falsos negativos. No entanto, a obtenção de zero falso positivo nunca pode ser garantida por um teste estatístico. Sempre é possível que as tendências observadas não sejam representativas das taxas de conversão subjacentes. Por exemplo, em um teste para ver se cara ou coroa em um cara ou coroa era mais provável, mesmo com uma moeda justa, você poderia obter dez caras em dez jogadas apenas por acaso. A significância e a potência estatísticas nos ajudam a quantificar as taxas de falsos positivos e falsos negativos e nos permitem mantê-las em níveis razoáveis para um determinado teste.
+É desejável não obter falsos positivos ou falsos negativos. No entanto, a obtenção de zero falso positivo nunca pode ser garantida por um teste estatístico. Sempre é possível que as tendências observadas não sejam representativas das taxas de conversão subjacentes. Por exemplo, em um teste para ver se cara ou coroa em um cara ou coroa era mais provável, mesmo com uma moeda justa, você poderia obter dez caras em dez jogadas por acaso. A significância e a potência estatísticas nos ajudam a quantificar as taxas de falsos positivos e falsos negativos e nos permitem mantê-las em níveis razoáveis para um determinado teste.
 
 ### Significância estatística {#section_8230FB9C6D1241D8B1786B72B379C3CD}
 
@@ -119,7 +119,7 @@ As interpretações típicas do nível de confiança são resumidas na tabela ab
 
 ### Potência estatística {#section_1169C27F8E4643719D38FB9D6EBEB535}
 
-A potência estatística de um teste A/B é a probabilidade de detectar uma diferença real na taxa de conversão de uma certa magnitude. Devido à natureza aleatória (estocástica) dos eventos de conversão, é possível que uma diferença estatisticamente significativa não seja observada, apenas por acaso, mesmo que haja uma diferença real na taxa de conversão entre as duas ofertas. Esse cenário é chamado de falso negativo ou erro Tipo II.
+A potência estatística de um teste A/B é a probabilidade de detectar uma diferença real na taxa de conversão de uma certa magnitude. É possível que uma diferença estatisticamente significativa não seja observada, por acaso, mesmo que haja uma diferença real no índice de conversão entre as duas ofertas, por causa da natureza aleatória (estocástica) dos eventos de conversão. Esse cenário é chamado de falso negativo ou erro Tipo II.
 
 A potência estatística é frequentemente ignorada porque a determinação dessa potência, em comparação com a significância estatística, não é necessária para realizar um teste A/B. No entanto, ao ignorar o poder estatístico, há uma chance substancial de que as diferenças reais entre as taxas de conversão de diferentes ofertas não sejam detectadas pelo teste, pois o tamanho da amostra é muito pequeno. Essa situação faz com que os testes sejam dominados por falsos positivos.
 
@@ -139,7 +139,7 @@ A figura abaixo mostra essas distribuições de probabilidade.
 
 ![Distribuições de probabilidade das taxas de conversão observadas das Ofertas A e B com 100 visitantes cada: as curvas se sobrepõem fortemente](assets/probability_distributions.png)
 
-Devido à grande sobreposição entre os dois intervalos, o teste não pode determinar se as taxas de conversão são diferentes. Assim, esse teste com 100 visitantes não pode distinguir entre as duas ofertas. No entanto, se [!DNL Target] expor as ofertas a 5.000 visitantes cada, há 95% de chance de as taxas de conversão observadas caírem nos intervalos de 9% a 11% e 14% a 16%, respectivamente.
+Os dois intervalos se sobrepõem em grande parte, de modo que o teste não pode determinar se as taxas de conversão são diferentes. Assim, esse teste com 100 visitantes não pode distinguir entre as duas ofertas. No entanto, se [!DNL Target] expor as ofertas a 5.000 visitantes cada, há 95% de chance de as taxas de conversão observadas caírem nos intervalos de 9% a 11% e 14% a 16%, respectivamente.
 
 ![Distribuições de probabilidade das taxas de conversão observadas das Ofertas A e B com 5.000 visitantes cada: as curvas não se sobrepõem](assets/probability_distributions2.png)
 

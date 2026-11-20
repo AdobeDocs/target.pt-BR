@@ -20,15 +20,19 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: b31c0a47b82e0b96fa061075f1b8d388b6c0b567
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 21%
+source-wordcount: '134'
+ht-degree: 18%
 ---
-# Planejar e implementar o [!DNL Recommendations]
+# Planejar e implementar o [!DNL Recommendations] {#plan-implement}
 
-Antes de começar a usar o [!DNL Adobe Target Recommendations], você deve concluir várias etapas.
+>[!BEGINSHADEBOX]
 
-O [Guia do Desenvolvedor do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=pt-BR){target=_blank} contém informações sobre como implementar o [!DNL Recommendations] no site, bem como sobre como implementar o [!DNL Target].
+**Nesta página:** saiba onde encontrar as instruções para planejar e implementar o [!DNL Adobe Target Recommendations] no seu site.
+
+>[!ENDSHADEBOX]
+
+Várias etapas do site devem ser concluídas antes de você começar a usar o [!DNL Adobe Target Recommendations]. O [Guia do Desenvolvedor do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=pt-BR){target=_blank} descreve como implementar o [!DNL Recommendations] no seu site, bem como como implementar o [!DNL Target].
 
 Para obter mais informações e instruções passo a passo, consulte [Planejar e implementar o Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} no portal do *Guia do Desenvolvedor do Adobe Target*.

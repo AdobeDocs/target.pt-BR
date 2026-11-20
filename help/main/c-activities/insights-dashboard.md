@@ -10,7 +10,7 @@ product_v2:
 feature_v2:
   - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
     internal-label: Activities
-source-git-commit: 9b496bb9a6606c3627afce1227c7830ba710f5d2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 1%
@@ -120,5 +120,5 @@ Use essas métricas para entender com que frequência os testes A/B estão sendo
 
 ![](assets/insights-7.png){align="center"}
 
-O gráfico **[!UICONTROL Atividades ao longo do tempo]** rastreia o número de atividades criadas, modificadas e publicadas no intervalo de tempo selecionado, facilitando a identificação de tendências, picos ou períodos silenciosos em seu programa de experimentação.
+O gráfico **[!UICONTROL Atividades ao longo do tempo]** rastreia o número de atividades criadas, modificadas e publicadas no intervalo de tempo selecionado, para que você possa identificar tendências, picos ou períodos silenciosos no seu programa de experimentação.
 

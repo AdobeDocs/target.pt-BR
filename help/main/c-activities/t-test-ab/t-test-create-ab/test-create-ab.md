@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1119'
 ht-degree: 10%
 ---
 # Criar uma atividade de Teste A/B {#create-ab-activity}
@@ -134,7 +134,7 @@ O diagrama do fluxo guia você pela atribuição de um público-alvo e sua porce
 
    +++
 
-1. Clique no controle **[!UICONTROL Alocação de tráfego]** e escolha um método de alocação de tráfego no painel direito. Consulte [Métodos de alocação de tráfego](#traffic-allocation-methods).
+1. Clique no controle **[!UICONTROL Alocação de tráfego]** e escolha um método de alocação de tráfego no painel direito. Os métodos disponíveis estão listados na tabela a seguir.
 
    ![Configurações do Método de Alocação de Tráfego](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
@@ -156,7 +156,7 @@ O diagrama do fluxo guia você pela atribuição de um público-alvo e sua porce
 
 Na página **[!UICONTROL Metas e configurações]**, você informa a [!DNL Target] como medir a atividade. As configurações disponíveis dependem se você usa o [!DNL Target] ou o [Analytics como a fonte de relatórios](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
-1. Revise as seções da página e defina o que for necessário. Consulte [O que você definiu na página Metas e Configurações](#goals-settings-overview).
+1. Revise as seções da página e defina o que for necessário. Consulte [O que você definiu na página Metas e Configurações](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md).
 
    | Seção | O que você definiu |
    |---|---|

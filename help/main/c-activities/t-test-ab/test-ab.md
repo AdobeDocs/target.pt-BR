@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '668'
 ht-degree: 19%
 ---
 # Introdução aos testes A/B {#test-ab}
@@ -41,7 +41,7 @@ Uma atividade manual de **[!UICONTROL Teste A/B]** (às vezes chamada de teste A
 Use um teste A/B manual quando:
 
 * Você tem uma hipótese clara de maneiras de melhorar o desempenho da sua página, com base em métricas de sucesso ou entrega de conteúdo alternativo.
-* Você deseja testar grandes alterações, como novos layouts ou tratamentos drasticamente diferentes dos elementos. Se o design do seu teste não se decompor facilmente em elementos de página individuais, você deve executar um teste A/B antes de executar um [teste multivariado](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md).
+* Você deseja testar grandes alterações, como novos layouts ou tratamentos drasticamente diferentes dos elementos. Se o design do seu teste não puder ser dividido em elementos de página individuais, você deve executar um teste A/B antes de executar um [teste multivariado](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md).
 * Você deseja decidir a porcentagem de visitantes que visualizarão cada experiência. Por exemplo, você pode dividir o tráfego uniformemente entre o controle e uma segunda experiência, ou testar uma nova experiência mais arriscada mostrando-a para apenas 5% do público-alvo.
 
 Para obter informações detalhadas sobre como determinar o tamanho ideal da amostra para um teste A/B, consulte [Planejar o teste A/B](/help/main/c-activities/t-test-ab/sample-size-determination.md).

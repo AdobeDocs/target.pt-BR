@@ -26,29 +26,33 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: b31c0a47b82e0b96fa061075f1b8d388b6c0b567
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 88%
+source-wordcount: '861'
+ht-degree: 66%
 ---
-# Introdução ao Recommendations
+# Introdução ao Recommendations {#recommendations}
 
-As atividades do [!DNL Adobe Target Recommendations] exibem automaticamente produtos, serviços ou conteúdo que podem ser do interesse dos visitantes com base em atividades do usuário anteriores, preferências ou outros critérios. O [!DNL Target Recommendations] ajuda a direcionar o visitante para itens relevantes que podem ser novidade para ele. O [!DNL Recommendations] permite fornecer aos visitantes conteúdo relevante na hora certa e no lugar adequado.
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba o que o [!DNL Adobe Target Recommendations] faz, como uma recomendação funciona e os termos usados nesta seção.
+
+>[!ENDSHADEBOX]
+
+As atividades do [!DNL Adobe Target Recommendations] exibem automaticamente produtos, serviços ou conteúdo que podem ser do interesse dos visitantes com base em atividades do usuário anteriores, preferências ou outros critérios. [!DNL Recommendations] direciona os visitantes para itens relevantes que podem ser novidade para eles e fornece conteúdo relevante na hora certa e no lugar certo.
 
 >[!NOTE]
 >
 >As atividades do [!DNL Recommendations] estão disponíveis como parte da [solução Target Premium. &#x200B;](/help/main/c-intro/intro.md#premium) Não estão disponíveis no [!DNL Target Standard] sem uma licença do [!DNL Target Premium].
 >
->Se você tiver o [!DNL Recommendations Classic], consulte [Atividades do Recommendations Classic versus Recomendações no Target Premium](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) para obter mais informações sobre as duas soluções.
+>Se você tiver o [!DNL Recommendations Classic], consulte [Atividades do Recommendations Classic versus Recomendações no Target Premium](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md) para obter mais informações sobre as duas soluções.
 
-O [!DNL Recommendations] ajuda você a otimizar e personalizar as sugestões em tempo real entre os canais, aplicativos, páginas, mensagens de email e outras opções para aumentar o engajamento e a conversão enquanto reduz o esforço de gerenciamento.
+O [!DNL Recommendations] otimiza e personaliza sugestões em tempo real entre canais, aplicativos, páginas, mensagens de email e outras opções para aumentar a participação e a conversão enquanto reduz o esforço de gerenciamento. Com [!DNL Recommendations], você pode:
 
-O [!DNL Recommendations] ajuda a:
-
-* Criar critérios sofisticados (regras) para automatizar as recomendações
-* Exibir automaticamente as recomendações usando alguns fragmentos de JavaScript
-* Testar e otimizar os critérios de recomendações e os designs que exibem as recomendações
-* Informar os resultados de suas atividades de recomendações
+* Crie critérios sofisticados (regras) para automatizar recomendações.
+* Exiba as recomendações automaticamente usando alguns trechos do JavaScript.
+* Teste e otimize os critérios e os designs que exibem as recomendações.
+* Relate os resultados das suas atividades do recommendations.
 
 A ilustração a seguir mostra as recomendações em página da Web:
 
@@ -66,11 +70,11 @@ Para mais informações sobre estes e outros critérios do [!DNL Recommendations
 
 ## Termos
 
-Antes de começar a usar o [!DNL Recommendations], é útil se familiarizar com alguns dos termos usados nesta seção. Não se preocupe se você ainda não entender totalmente esses termos. Você se familiarizará com eles ao configurar suas atividades do [!DNL Recommendations].
+Antes de usar o [!DNL Recommendations], familiarize-se com os termos usados nesta seção. Esses termos ficam mais claros à medida que você configura as atividades do [!DNL Recommendations].
 
 | Termo | Definição |
 | --- | --- |
-| Atividade | As atividades no [!DNL Target] permitem personalizar o conteúdo para públicos-alvos específicos e testar designs de página. O [!DNL Recommendations] é apenas um dos muitos tipos de atividade disponíveis no [!DNL Target]. Para obter mais informações, consulte [Tipos de atividade do Target](/help/main/c-activities/target-activities-guide.md). |
+| Atividade | As atividades no [!DNL Target] permitem personalizar o conteúdo para públicos-alvos específicos e testar designs de página. [!DNL Recommendations] é um dos tipos de atividade disponíveis em [!DNL Target]. Para obter mais informações, consulte [Tipos de atividade do Target](/help/main/c-activities/target-activities-guide.md). |
 | Entidades | As entidades referem-se a itens que você quer recomendar. As entidades podem ser produtos, conteúdo (como artigos, apresentação de slides, imagens, filmes e programas de TV), listas de trabalho, restaurantes e assim por diante. Para obter mais informações, consulte [Entidades](/help/main/c-recommendations/c-products/products.md). |
 | Feeds | Os feeds são usados para importar entidades no [!DNL Recommendations]. As entidades podem ser enviadas usando arquivos CSV, o formato de feed do Google Product Search e as classificações de produtos do Adobe Analytics. Para obter mais informações, consulte [Feeds](/help/main/c-recommendations/c-products/feeds.md). |
 | Catálogo | Catálogos se referem a todo o conjunto de produtos (entidades). O catálogo pode conter muitas coleções, uma maneira de organizar seus produtos em buckets lógicos. |
@@ -78,7 +82,7 @@ Antes de começar a usar o [!DNL Recommendations], é útil se familiarizar com 
 | Critérios | Critérios são regras que determinam quais produtos recomendar com base em um conjunto predeterminado de comportamentos do visitante.<br>Alguns exemplos de critérios incluem: <ul><li>Pessoas que compraram isto, compraram aquilo</li><li>Pessoas que visualizaram isto, visualizaram aquilo</li><li>Itens com atributos similares</li><li>Último item comprado</li><li>Categoria favorita</li></ul>  Para obter mais informações, consulte [Critérios](/help/main/c-recommendations/c-algorithms/algorithms.md). |
 | Designs | Os designs definem a aparência das recomendações em uma atividade do [!DNL Recommendations], como uma linha, coluna, tabela ou grade. A ilustração na parte superior deste artigo mostra um design 4 x 1. Para obter mais informações, consulte [Criar um design](/help/main/c-recommendations/c-design-overview/create-design.md). |
 | Localizações | Os locais se referem a uma área de conteúdo específica em uma página da Web, aplicativo móvel ou email, em que você executa uma atividade para fins de personalização e otimização. |
-| Públicos-alvo | Públicos-alvos são grupos de atividades semelhantes que verão uma atividade direcionada. Um público-alvo é um grupo de pessoas com as mesmas características, como um novo visitante, um visitante recorrente ou visitantes recorrentes do meio-oeste. O recurso de Público permite direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing digital, ao exibir as mensagens certas para as pessoas certas, na hora certa. Para obter mais informações, consulte [Públicos-alvos](/help/main/c-target/target.md). |
+| Públicos-alvo | Públicos são grupos de atividades semelhantes que visualizam uma atividade direcionada. Um público-alvo é um grupo de pessoas com as mesmas características, como um novo visitante, um visitante recorrente ou visitantes recorrentes do meio-oeste. O recurso Público-alvo permite direcionar conteúdo e experiências diferentes para públicos-alvo específicos para otimizar o marketing digital ao exibir as mensagens certas para as pessoas certas, na hora certa. Para obter mais informações, consulte [Públicos-alvos](/help/main/c-target/target.md). |
 | Recomendações como oferta | As recomendações como uma oferta permitem inclui-las nas atividades de Teste A/B (inclusive Alocação automática e Direcionamento automático) e Direcionamento de experiência (XT). Para obter mais informações, consulte [Recomendações como uma oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Vídeo de treinamento: tipos de atividade ![Selo de visão geral](/help/main/assets/overview.png)

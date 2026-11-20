@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 47%
@@ -133,9 +133,9 @@ Confira o tipo de atividade [Direcionamento automático](/help/main/c-activities
 **Como posso saber qual tipo de atividade é atende melhor às minhas necessidades?**
 
 +++Ver detalhes
-Leia o [Guia de Atividades do Target](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) para entender os cenários em que cada uma das opções fornecidas por [!DNL Target] faz sentido.
+Leia o [Guia de Atividades do Target](/help/main/c-activities/target-activities-guide.md) para entender os cenários em que cada uma das opções fornecidas por [!DNL Target] faz sentido.
 
-Considere também as [atividades do Recomendações](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+Considere também as [atividades do Recomendações](/help/main/c-recommendations/recommendations.md).
 
 +++
 
@@ -174,7 +174,7 @@ O [!DNL Target] tem uma maneira robusta de fazer isso com nosso recurso [!UICONT
 **Como posso ter certeza sobre como configurar uma atividade para atingir meus objetivos?**
 
 +++Ver detalhes
-As [metas são inseridas aqui](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC).
+As [metas são inseridas aqui](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md).
 
 Você deve começar por saber o que você deseja otimizar. É [!UICONTROL Receita], [!UICONTROL Conversão] ou [!UICONTROL Envolvimento]? Cada uma dessas opções está disponível na seção de metas. E, para cada uma delas, você pode definir que ação um usuário tomaria no seu site para qualificar que a meta foi atingida.
 

@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 32%
@@ -35,7 +35,7 @@ Use os [!UICONTROL Fragmentos de experiência] (XFs) criados em [!DNL Adobe Expe
 
 Considere o seguinte ao trabalhar com os [!UICONTROL Fragmentos de experiência] do AEM em [!DNL Target]:
 
-* Esse recurso exige que você seja um cliente do [!DNL Adobe Experience Manager] (AEM). Para obter mais informações, consulte os [Requisitos](#section_AE6F0971E1574B3AA324003599B96E5A) abaixo.
+* Esse recurso exige que você seja um cliente do [!DNL Adobe Experience Manager] (AEM). Para obter mais informações, consulte os [Requisitos](#requirements) abaixo.
 * Os [!UICONTROL Fragmentos de experiência] e os [!UICONTROL Fragmentos de conteúdo] estão disponíveis para os seguintes tipos de atividades:
 
   * [[!UICONTROL Teste A/B]](/help/main/c-activities/t-test-ab/test-ab.md)

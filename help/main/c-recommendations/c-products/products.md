@@ -18,19 +18,41 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 5ed511322cc9f04c349471f8ad84a17526d4925f
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 61%
+source-wordcount: '288'
+ht-degree: 1%
 ---
-# Introdução a entidades
+# Introdução a entidades {#get-started-entities}
 
-As entidades referem-se a itens que você quer recomendar. As entidades podem ser produtos, conteúdo (como artigos, apresentação de slides, imagens, filmes e programas de TV), listas de trabalho, restaurantes e assim por diante.
+>[!BEGINSHADEBOX]
 
-O Recommendations exibe itens das suas coleções de acordo com os critérios configurados.
+**Nesta página:** saiba quais entidades estão em [!DNL Adobe Target Recommendations] e onde gerenciá-las.
 
-Use entidades para:
+>[!ENDSHADEBOX]
 
-* Configurar suas coleções
-* Usar feeds para obter informações sobre entidades ou conteúdos em suas recomendações
-* Definir exclusões para evitar que certos itens sejam exibidos em suas recomendações
+Entidades são os itens que [!DNL Recommendations] pode recomendar. Uma entidade pode ser um produto, um conteúdo (como um artigo, apresentação de slides, imagem, filme ou programa de TV), uma lista de empregos, um restaurante e assim por diante.
+
+[!DNL Recommendations] exibe itens de suas coleções de acordo com os critérios que você configurou.
+
+## Como as entidades atingem o Recommendations
+
+As informações sobre suas entidades podem ser passadas para [!DNL Recommendations] de várias maneiras, incluindo:
+
+* Com [atributos de entidade](/help/main/c-recommendations/c-products/entity-attributes.md) enviados de suas páginas, usando uma mbox ou `targetPageParams`.
+* Com [feeds](/help/main/c-recommendations/c-products/feeds.md), que podem usar arquivos CSV, o formato de feed [!DNL Google Product Search] ou as classificações de produto [!DNL Adobe Analytics].
+* Com a API de entrega.
+
+Se [!DNL Target] coletar dados para um item de um feed e de uma mbox, os dados mais recentes serão usados.
+
+As entidades e os valores de atributos de entidade carregados expiram após 61 dias. Envie cada item novamente pelo menos uma vez a cada 60 dias. Caso contrário, [!DNL Target] considera o item não mais relevante e o remove do catálogo.
+
+## Gerenciar suas entidades
+
+Use as seguintes páginas para trabalhar com suas entidades:
+
+* [Atributos de entidade](/help/main/c-recommendations/c-products/entity-attributes.md) e [Atributos de entidade personalizados](/help/main/c-recommendations/c-products/custom-entity-attributes.md): defina as informações sobre o produto ou conteúdo que você passar para [!DNL Recommendations].
+* [Feeds](/help/main/c-recommendations/c-products/feeds.md): obtenha informações de entidade ou conteúdo em suas recomendações.
+* [Pesquisa no catálogo](/help/main/c-recommendations/c-products/catalog-search.md): localize os itens no catálogo.
+* [Coleções](/help/main/c-recommendations/c-products/collections.md): configure suas coleções. Uma coleção é selecionada para cada experiência quando você cria uma atividade [!DNL Recommendations].
+* [Exclusões](/help/main/c-recommendations/c-products/exclusions.md): impede que determinados itens sejam exibidos em suas recomendações. As exclusões se aplicam a todas as atividades na conta.

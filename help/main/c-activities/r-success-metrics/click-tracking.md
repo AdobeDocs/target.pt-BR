@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4dc3c1d5a5a7fa1eb16855e91eb516240df8a65c
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 51%
@@ -98,7 +98,7 @@ Se você já conhece o caminho DOM para o seletor, poderá adicioná-lo manualme
 
   Para obter mais informações, consulte [Navegar pelos elementos usando o caminho DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) nas *Opções do Visual Experience Composer*.
 
-* É possível navegar para uma página diferente para rastrear cliques em uma página em que talvez você não esteja alterando o conteúdo. Esta página diferente deve ser incluída na atividade usando o [recurso multipáginas](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) e [!DNL at.js] deve ser implementada nela.
+* É possível navegar para uma página diferente para rastrear cliques em uma página em que talvez você não esteja alterando o conteúdo. Esta página diferente deve ser incluída na atividade usando o [recurso multipáginas](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) e [!DNL at.js] deve ser implementada nela.
 * Certifique-se de selecionar o nível do elemento que deseja rastrear. Por exemplo, ao especificar um botão, certifique-se de selecionar o link e não o texto do botão.
 * Se selecionar mais de um elemento, caso um participante clique em um dos elementos escolhidos, o clique será contado. Para contar cada item separadamente, configure métricas de sucesso individuais para cada elemento. Para contar um item clicando em vários elementos de uma página, edite o Seletor de elemento CSS para corresponder a vários elementos.
 * Para atividades de **[!UICONTROL Automated Personalization]** (AP) e Direcionamento automático em aplicativos de página única (SPAs), você pode selecionar elementos para o rastreamento de cliques que pertencem a uma Exibição [!DNL Target] específica. Para obter mais informações sobre Exibições, consulte [Exibições do Adobe Target e Aplicativos de Página Única](/help/main/c-experiences/spa-visual-experience-composer.md).

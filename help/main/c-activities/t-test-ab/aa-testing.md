@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: d27cb7e782e79c68f185f897758c6edb439da2cb
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '915'
 ht-degree: 1%
 ---
 # Teste A/A {#aa-testing}
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
-Um teste A/A divide o tráfego entre duas experiências idênticas. Como as experiências não diferem, o teste é uma maneira de verificar se a atividade, a implementação e os relatórios funcionam conforme esperado. Mesmo assim, experiências idênticas podem, às vezes, mostrar uma diferença no aumento. Entender por que o ajuda a executar o teste e interpretar os resultados corretamente.
+Um teste A/A divide o tráfego entre duas experiências idênticas, portanto, o teste é uma maneira de verificar se a atividade, a implementação e os relatórios funcionam conforme esperado. Mesmo assim, experiências idênticas podem, às vezes, mostrar uma diferença no aumento. Entender por que o ajuda a executar o teste e interpretar os resultados corretamente.
 
 ## O que é um teste A/A? {#what-is-aa}
 
