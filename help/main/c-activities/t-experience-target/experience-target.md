@@ -54,6 +54,6 @@ Uma atividade de [!UICONTROL Direcionamento de experiência] permite direcionar 
 * Forneça conteúdo específico de localização para públicos em diferentes áreas geográficas, criando experiências direcionadas para ambos os estados e uma terceira experiência direcionada para os fãs de ciclismo.
 * Reordene as três experiências para garantir que o conteúdo correto seja entregue ao público certo.
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/39861?captions=por_br)
 
 Após assistir ao vídeo, continue com [Criar uma atividade de Direcionamento de experiência](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).
