@@ -154,7 +154,7 @@ Se você tiver especificado &quot;URL é&quot; ao criar a atividade no [refiname
 
 +++ Navegadores que bloqueiam cookies de terceiros (at.js 1.*x*)
 
-Se você tiver a at.js 1.*x*, o modo **[!UICONTROL Controle de qualidade da atividade]** não persistirá entre páginas se você usar o Safari ou outro navegador que bloqueie cookies de terceiros. Nesses casos, é necessário adicionar os parâmetros de visualização a cada URL para o qual você navega. O mesmo é verdadeiro se você implementou o [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
+Se você tiver a at.js 1.*x*, o modo **[!UICONTROL Controle de qualidade da atividade]** não persistirá entre páginas se você usar o Safari ou outro navegador que bloqueie cookies de terceiros. Nesses casos, é necessário adicionar os parâmetros de visualização a cada URL para o qual você navega. O mesmo é verdadeiro se você implementou o [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=pt-BR){target=_blank}.
 
 +++
 
@@ -204,8 +204,8 @@ A tabela a seguir lista os parâmetros que podem ser classificados em seu domín
 
 [!DNL Target] dá suporte às seguintes bibliotecas JavaScript:
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=pt-BR)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=pt-BR)
 * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=pt-BR)
 
 A tabela a seguir lista os vários tipos de atividades e indica se o modo **[!UICONTROL Controle de qualidade da atividade]** é compatível com cada biblioteca:
