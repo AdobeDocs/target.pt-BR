@@ -1,7 +1,7 @@
 ---
 keywords: criar critérios personalizados;algoritmos;critérios;critérios de recomendações;csv;ftp;sftp;carregar csv
-description: Saiba como carregar um arquivo CSV para personalizar suas recomendações no Adobe [!DNL Target] Recommendations.
-title: Como faço para carregar critérios personalizados no [!DNL Recommendations]?
+description: Saiba como carregar um arquivo CSV para personalizar recomendações no Adobe [!DNL Target] Recommendations.
+title: Upload dos critérios personalizados
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
@@ -18,54 +18,52 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 67ee6127f023f8450e1e6798a617b2bcbd6e7ba6
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 24%
+source-wordcount: '671'
+ht-degree: 14%
 ---
-# Upload dos critérios personalizados
+# Upload dos critérios personalizados {#upload-custom-criteria}
 
-Carregue um arquivo CSV para personalizar suas recomendações no [!DNL Adobe Target].
+>[!BEGINSHADEBOX]
 
-Existem vários meios de alcançar a tela [!UICONTROL Criar novos critérios]. Algumas opções de tela variam de acordo com o modo que você chegar na tela.
+**Nesta página:** Saiba como carregar um arquivo CSV com recomendações para criar critérios personalizados em [!DNL Adobe Target Recommendations].
 
-* Na tela da biblioteca **[!UICONTROL Recomendações]** > **[!UICONTROL Critérios]**, clique em **[!UICONTROL Criar Critérios]** > **[!UICONTROL Criar Critérios]**. Critérios que você criar aqui ficam disponíveis automaticamente para todas atividades do [!DNL Recommendations].
-* Quando você está criando uma atividade do [!DNL Recommendations] usando o [!UICONTROL Visual Experience Composer] (VEC), é imediatamente levado à tela [!UICONTROL Critérios de seleção] depois de selecionar um elemento na sua página e clicar em [!UICONTROL Substituir com o Recommendations], [!UICONTROL Inserir Recommendations antes] ou [!UICONTROL Inserir Recommendations depois de]. Você pode selecionar um critério disponível ou clicar em **[!UICONTROL Criar critério]**. Se você criar um novo critério, poderá salvá-lo para uso com outras atividades do [!DNL Recommendations]. Para obter mais informações, consulte [Criar uma atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
-* Quando você editar uma atividade de [!DNL Recommendations], clique em uma caixa de [!UICONTROL Localização das recomendações] na sua página e selecione **[!UICONTROL Alterar critérios]**. Na tela [!UICONTROL Selecionar critério], clique em **[!UICONTROL Criar critério]**. Você pode salvar seu novo critério para uso com outras atividades do [!DNL Recommendations].
+>[!ENDSHADEBOX]
 
-As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar Novo Critério] usando o primeiro método: a tela de biblioteca **[!UICONTROL Recomendações]** > **[!UICONTROL Critérios]**.
+Os critérios personalizados usam um arquivo CSV de recomendações que é carregado para [!DNL Target]. Isso permite que as recomendações computadas fora de [!DNL Target] sejam entregues em [!DNL Recommendations] atividades. Para obter mais informações sobre como os critérios personalizados funcionam, consulte [A ciência por trás dos algoritmos de recomendações do Target](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md).
+
+Critérios personalizados são criados a partir da tela **[!UICONTROL Criar novos critérios]**. Para saber como acessar esta tela, consulte [Acessar a tela Criar Novo Critério](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#access-create-criteria). As etapas a seguir começam na tela da biblioteca **[!UICONTROL Recomendações]** > **[!UICONTROL Critérios]**.
 
 1. Clique em **[!UICONTROL Recomendações]** > **[!UICONTROL Critérios]**.
 
 1. Clique em **[!UICONTROL Criar Critério]** > **[!UICONTROL Criar Critério]**.
 
+   ![Página de Critérios com o menu Criar critérios aberto, mostrando Criar critérios e Criar sequência de critérios](../assets/criteria_create_1.png)
+
 1. Preencha as informações na seção [Informações Básicas](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
-1. Na lista suspensa **[!UICONTROL Selecionar tipo de algoritmo]**, selecione **[!UICONTROL Critérios personalizados]**.
+1. Na lista suspensa **[!UICONTROL Selecionar tipo de algoritmo]**, selecione **[!UICONTROL Critérios personalizados]**. Na lista suspensa **[!UICONTROL Algoritmo]**, selecione **[!UICONTROL Algoritmo personalizado]**.
 
-1. Na lista suspensa **[!UICONTROL Algoritmo]**, selecione **[!UICONTROL Algoritmo personalizado]**.
+   ![Seção de Algoritmo de Recomendações com Critérios Personalizados como o Tipo de Algoritmo e Algoritmo Personalizado como o Algoritmo](../assets/criteria_create_9.png)
 
-   >[!NOTE]
-   >
-   >As etapas anteriores fazem com que a seção [!UICONTROL Carregar CSV] seja exibida na parte inferior da caixa de diálogo [!UICONTROL Criar Critérios].
-
-1. (Condicional) Preencha as informações na seção [Conteúdo de Backup](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content).
-
-1. (Condicional) Preencha as informações na seção [Regras de inclusão](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion).
+1. (Condicional) Preencha as informações nas seções [Conteúdo de Backup](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) e [Regras de Inclusão](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion).
 
 1. Na seção **[!UICONTROL Carregar CSV]**, selecione o **[!UICONTROL Local]** do arquivo CSV.
 
-   O arquivo CSV deve estar formatado corretamente para ser carregado com sucesso. Clique em **[!UICONTROL Baixar o modelo CSV]** para obter um arquivo CSV formatado corretamente.
+   O arquivo CSV deve estar formatado corretamente para ser carregado com sucesso. Para obter um arquivo CSV formatado corretamente, clique em **[!UICONTROL Baixar o modelo CSV]**.
 
-   Há três opções de local:
+   As seguintes opções de local estão disponíveis:
 
-   * **FTP:** Para carregar seu arquivo CSV de um servidor FTP, selecione **[!UICONTROL FTP]** e insira as informações necessárias. Você pode usar SSL, que usa o protocolo FTPS para transferir seu arquivo CSV em segurança.
+   * **FTP**: para carregar o arquivo CSV de um servidor FTP, selecione **[!UICONTROL FTP]** e insira as informações necessárias. Pode-se usar o SSL, que usa o protocolo FTPS para transferir o arquivo CSV com segurança.
 
-   * **SFTP:** Para carregar seu arquivo CSV de um servidor SFTP, selecione **[!UICONTROL SFTP]** e digite o nome do host ou endereço IP, porta (padrão 22), nome de usuário, senha e/ou chave privada SSH, diretório e nome de arquivo. Para obter detalhes, consulte [Configurações compatíveis do servidor SFTP](/help/main/c-recommendations/c-products/feeds.md#steps).
+   * **SFTP**: para carregar o arquivo CSV de um servidor SFTP, selecione **[!UICONTROL SFTP]** e digite o nome do host ou o endereço IP, a porta (padrão 22), o nome de usuário, uma senha e/ou a chave privada, o diretório e o nome do arquivo SSH. Para obter detalhes, consulte [Configurações compatíveis do servidor SFTP](/help/main/c-recommendations/c-products/feeds.md#steps).
 
-     O SFTP não altera o formato CSV de critérios personalizados. Use o formato `# Key,Recommendation_1,...`, o uso de um formato de tipo de feed diferente causa falha na importação.
+     O SFTP não altera o formato CSV de critérios personalizados. Use o formato `# Key,Recommendation_1,...`. Um arquivo CSV no formato de um tipo de feed diferente causa falha na importação.
 
-   * **URL:** Para carregar seu arquivo CSV de uma URL, selecione **[!UICONTROL URL]** e insira uma URL de feed.
+   * **URL**: para carregar o arquivo CSV de uma URL, selecione **[!UICONTROL URL]** e insira uma URL de feed.
+
+     ![Faça upload da seção CSV com as opções de Local FTP, SFTP e URL realçadas e SFTP selecionado](../assets/criteria_create_10.png)
 
 1. Clique em **[!UICONTROL Criar]**.
 
@@ -73,23 +71,23 @@ As etapas a seguir pressupõem que você acesse a tela [!UICONTROL Criar Novo Cr
 
 * As entidades com critérios personalizados (linhas) podem conter até 1.000 itens recomendados (colunas).
 
-* As atualizações de critérios personalizados são &quot;cumulativas&quot; por padrão. Os novos pares de valor-chave especificados no arquivo de upload CSV substituem os pares existentes. Os pares de valores chave existentes que não têm chaves especificadas no upload de CSV ainda estarão disponíveis para entrega e expirarão em 31 dias a partir do momento em que forem carregados pela última vez, como parte do arquivo CSV.
+* As atualizações de critérios personalizados são &quot;cumulativas&quot; por padrão. Os novos pares de valor-chave no arquivo de upload CSV substituem os pares existentes. Os pares de valores chave existentes cujas chaves não estão no upload de CSV permanecem disponíveis para entrega e expiram 31 dias após terem sido carregados pela última vez como parte do arquivo CSV.
 
-  Entre em contato com o Atendimento ao cliente para ativar a configuração e descartar os resultados existentes que não são incluídos no próximo upload de CSV. Se essa configuração estiver ativada, somente as chaves presentes no arquivo de feed CSV personalizado estarão disponíveis para entrega. Essa configuração se aplica a todos os critérios personalizados.
+  Para descartar os resultados existentes que não são incluídos no próximo upload de CSV, entre em contato com o Atendimento ao cliente para ativar a configuração correspondente. Quando essa configuração é ativada, somente as chaves presentes no arquivo de feed CSV personalizado estão disponíveis para entrega. Essa configuração se aplica a todos os critérios personalizados.
 
 * Os feeds de critérios personalizados atualizam uma vez a cada 24 horas.
 
-  Você pode ver os status de carregamento e sincronização do seu critério personalizado na página [!UICONTROL Recomendações] > [!UICONTROL Critérios]. Você também pode ver o status na caixa de diálogo [!UICONTROL Editar] ao editar critérios personalizados.
+  O status de carregamento e sincronização de cada carregamento de critério personalizado é exibido na página **[!UICONTROL Recommendations]** > **[!UICONTROL Critérios]**. O status também é exibido na caixa de diálogo **[!UICONTROL Editar]** quando critérios personalizados são editados.
 
-* O fluxo para um carregamento sem erros deve ser [!UICONTROL Agendado] > [!UICONTROL Baixando Arquivo de Feed] > [!UICONTROL Importando] > [!UICONTROL Com Êxito].
+* O fluxo para um carregamento sem erros é **[!UICONTROL Agendado]** > **[!UICONTROL Baixando Arquivo de Feed]** > **[!UICONTROL Importando]** > **[!UICONTROL Com Êxito]**.
 
-* A seguir estão possíveis mensagens de erro que você poderá receber se [!DNL Target] encontrar um problema com o carregamento:
+* Se [!DNL Target] encontrar um problema com o carregamento, as seguintes mensagens de erro serão possíveis:
 
   | Mensagem de erro | Detalhes |
   |--- |--- |
   | Erro desconhecido | Indica um erro interno técnico. |
   | Erro de análise | Provavelmente há um problema com o formato do arquivo de feed. Corrija o formato do arquivo e salve novamente o algoritmo, o que reinicia o processo de download do arquivo. |
-  | Servidor não encontrado | Forneça um IP ou nome de host que seja visível na internet. |
+  | Servidor não encontrado | Forneça um IP ou nome de host visível na Internet. |
   | Erro de credenciais | Forneça um usuário e senha válidos para uma conta ativa no servidor. |
   | Diretório não encontrado | Forneça um diretório que exista no servidor. |
-  | Arquivo não encontrado | Forneça o nome de um arquivo que exista no servidor dentro do diretório indicado. |
+  | Arquivo não encontrado | Forneça o nome de um arquivo que existe no servidor no diretório especificado. |

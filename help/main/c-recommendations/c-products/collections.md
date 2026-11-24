@@ -18,60 +18,61 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3883dc9752db0a2427f70cb3036fe060c440361a
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 27%
+source-wordcount: '710'
+ht-degree: 8%
 ---
-# Coleções
+# Coleções {#collections}
 
-Uma coleção é um conjunto de produtos ou itens que são qualificados para uma recomendação. Uma coleção é definida especificando as condições que devem ser atendidas pelos itens para fazerem parte dela.
+>[!BEGINSHADEBOX]
 
-Normalmente, uma coleção é um conjunto de itens semelhantes ou relacionados, como uma coleção de um único produto. No entanto, você pode agrupar qualquer item em uma categoria que faça sentido para o seu negócio, como produtos em uma determinada faixa de preço ou cor ou itens que provavelmente serão interessantes em uma área geográfica específica.
+**Nesta página:** Saiba como criar, gerenciar e usar coleções de itens em [!DNL Adobe Target Recommendations].
 
-Use as coleções para organizar seus produtos em caixas lógicas. Por exemplo, se alguns itens estiverem disponíveis em uma região, mas não em outra, você poderá criar uma coleção que exclui itens que não estão disponíveis na região do visitante. Você também pode usar as coleções para organizar os itens sazonais ou quaisquer outros parâmetros de organização que se aplicam ao seu negócio.
+>[!ENDSHADEBOX]
 
-As [recomendações de backup](/help/main/c-recommendations/c-algorithms/backup-recs.md) geradas para cada critério dentro da recomendação também usam esta coleção, para que sejam incluídos na recomendação de backup apenas os itens na coleção. Com as coleções, você pode garantir que apenas os produtos que fazem sentido serão exibidos em um local.
+Uma coleção é um conjunto de produtos ou itens que são qualificados para uma recomendação. Uma coleção é definida pelas condições que os itens devem atender para fazerem parte dela. Os itens podem ser agrupados de qualquer maneira que faça sentido para a empresa, como itens semelhantes ou relacionados, produtos em uma determinada faixa de preço ou cor ou itens que provavelmente serão interessantes em uma área geográfica específica.
 
-As coleções são recriadas ou atualizadas cada vez que o critério for executado.
+As coleções organizam os produtos em compartimentos lógicos. Por exemplo, se alguns itens estiverem disponíveis em uma região, mas não em outra, uma coleção pode excluir os itens que não estão disponíveis na região do visitante. As coleções também podem organizar itens sazonais ou quaisquer outros parâmetros organizacionais que se apliquem ao negócio. Os itens podem ser agrupados em catálogos, e recomendações separadas podem ser criadas para cada coleção.
 
-Você pode agrupar os produtos em catálogos, em seguida, criar recomendações separadas para cada coleção.
+Os pontos a seguir descrevem como as coleções interagem com o restante de [!DNL Recommendations]:
 
-Os critérios de inclusão permitem que você realize ações semelhantes a uma coleção, mas devem ser configurados cada vez que uma atividade for criada. As coleções permitem criar um conjunto de itens uma vez e, em seguida, usá-lo sempre que apropriado, sem precisar configurá-lo novamente.
+* As [recomendações de backup](/help/main/c-recommendations/c-algorithms/backup-recs.md) geradas para cada critério também usam a coleção, para que sejam incluídos na recomendação de backup apenas os itens na coleção. Como resultado, somente os produtos que fazem sentido para uma localização são exibidos.
+* As coleções são recriadas ou atualizadas cada vez que o critério for executado.
+* As regras de coleta se aplicam a itens de recomendação gerados após a execução dos critérios. Elas afetam somente as Recomendações de entidade (ERs) na saída, não a chave.
+* As coleções não são aplicadas quando você usa a chave de recomendação **[!UICONTROL Itens recentemente visualizados]**.
+* Os critérios de inclusão podem produzir resultados semelhantes, mas devem ser configurados sempre que uma atividade for criada. Uma coleção é criada uma vez e pode ser reutilizada sem ser configurada novamente.
+* Quando uma atividade [!DNL Recommendations] é criada ou editada, o nome da coleção aparece ao lado do rótulo **[!UICONTROL Critério]** no diagrama da atividade.
 
-Quando você está criando ou editando uma atividade do [!DNL Recommendations], o nome da coleção aparece ao lado do rótulo [!UICONTROL Critério] no diagrama da atividade.
+## Criar uma coleção {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
->[!NOTE]
->
->* As regras de coleta se aplicam a itens de recomendação gerados após a execução dos critérios. Elas afetam somente as Recomendações de entidade (ERs) na saída, não a chave.
->
->* As coleções não são aplicadas quando você usa a chave de recomendação [!UICONTROL Itens recentemente visualizados].
-
-## Crie uma coleção {#task_1256DFF6842141FCAADD9E1428EF7F08}
-
-Crie uma coleção para organizar os produtos ou conteúdo que deseja mostrar em suas recomendações.
+As coleções estão disponíveis em toda a conta, portanto, uma coleção que é criada uma vez pode ser selecionada em qualquer atividade [!DNL Recommendations]. As regras são definidas na coleção para que não precisem ser configuradas novamente para cada atividade.
 
 1. Clique em **[!UICONTROL Recomendações]** > **[!UICONTROL Coleções]** para exibir a lista de coleções existentes.
 
-   A página [!UICONTROL Coleções] exibe uma lista de suas coleções existentes. Crie novas coleções clicando no botão [!UICONTROL Criar coleção]. Também é possível editar, copiar e excluir coleções existentes clicando no ícone Mais Ações ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) ao lado da coleção desejada e clicando na opção desejada.
+   Para editar, copiar ou excluir uma coleção existente, clique no ícone Mais Ações ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) ao lado da coleção e clique na opção desejada.
 
-   O &quot;Número de Itens&quot; relatado para cada coleção na exibição de lista das [!UICONTROL Coleções] é o número de produtos que correspondem às regras da coleção no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} para alterar o grupo de hosts padrão.
+   >[!NOTE]
+   >
+   >O &quot;Número de Itens&quot; relatado para cada coleção na exibição de lista das **[!UICONTROL Coleções]** é o número de produtos que correspondem às regras da coleção no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} para alterar o grupo de hosts padrão.
 
 1. Clique em **[!UICONTROL Criar coleção]**.
 
-1. Digite um **[!UICONTROL Nome]** para a coleção.
+   ![Página de coleções com o botão Criar coleção](../assets/collection_1.png)
 
-   Você também pode inserir uma **[!UICONTROL Descrição opcional]**.
+1. Digite um **[!UICONTROL Nome]** para a coleção. Uma **[!UICONTROL Descrição]** opcional também pode ser inserida.
 
-1. (Condicional) Escolha um [ambiente](/help/main/administrating-target/environments.md) no filtro **[!UICONTROL Ambiente]** ao criar (ou atualizar) uma coleção para visualizar o conteúdo da coleção nesse ambiente. Por padrão, os resultados do grupo de hosts padrão são exibidos.
+1. (Condicional) Escolha um [ambiente](/help/main/administrating-target/environments.md) no filtro **[!UICONTROL Ambiente]** para visualizar o conteúdo da coleção nesse ambiente. Por padrão, os resultados do grupo de hosts padrão são exibidos.
 
 1. Defina as regras usadas para criar a coleção.
 
-   Por exemplo, sua coleção pode ser criada em torno de uma ID de produto ou categoria, margem ou qualquer outro parâmetro na lista.
-
-   Você pode adicionar regras para usar vários parâmetros para definir uma coleção. Várias regras são unidas com um operador AND. Todas as regras especificadas devem ser iguais para que a coleção seja aplicada.
+   Uma coleção pode ser criada em torno de uma ID de produto ou categoria, margem ou qualquer outro parâmetro na lista. Adicione regras para usar vários parâmetros para definir uma coleção. Várias regras são unidas com um operador AND, portanto, todas as regras especificadas devem corresponder para que a coleção seja aplicada.
 
 1. Clique em **[!UICONTROL Criar]**.
+
+1. Após a criação da coleção, clique no ícone Mais Ações ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) e selecione a opção apropriada: **[!UICONTROL Editar]**, **[!UICONTROL Copiar]** ou **[!UICONTROL Excluir]**.
+
+   ![Lista de coleções com o menu Mais Ações aberto, mostrando Editar, Copiar e Excluir](../assets/collection_2.png)
 
 <!--
 ## Create a collection using [!UICONTROL Advanced Search]
@@ -87,20 +88,18 @@ After creating a search using "id > contains," for example, you can then click [
 >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned.
 -->
 
-## Editar, copiar ou excluir uma coleção
+## Usar uma coleção em uma atividade
 
-Clique no ( ![ícone de Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) ao lado da coleção desejada na lista e clique no ícone apropriado: [!UICONTROL Editar], [!UICONTROL Copiar] ou [!DNL Delete].
+Uma coleção é selecionada para cada experiência de uma atividade [!DNL Recommendations]. A coleção determina quais itens estão qualificados para aparecer nas recomendações dessa experiência.
 
-Você pode copiar uma coleção existente para criar uma coleção duplicada que poderá ser modificada. Isso permite criar uma coleção semelhante com menos esforço.
+1. [Criar uma coleção](#task_1256DFF6842141FCAADD9E1428EF7F08).
 
-Esteja ciente de que as coleções estão disponíveis em toda a conta. Considere isso antes de excluir uma coleção. As coleções excluídas não podem ser recuperadas.
-
-## Usar uma coleção em uma atividade [!DNL Recommendations]
-
-1. Crie uma coleção usando um dos métodos mencionados acima.
+   ![Tela Criar coleção com as seções Detalhes da coleção e Regras](../assets/collection_3.png)
 
 1. Clique em **[!UICONTROL Atividades]** e [criar uma nova atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) ou editar uma atividade existente.
 
-1. Após selecionar um critério e um design, a página [!UICONTROL Opções] é exibida, onde você seleciona a coleção desejada.
+   ![Página Todas as Atividades com Recomendações selecionadas no menu Criar Atividade](../assets/collection_4.png)
 
-1. (Condicional) Para alterar uma configuração de coleção existente, na página **[!UICONTROL Experiências]** (etapa 1 do fluxo de trabalho guiado de três etapas), clique no local onde você fez as recomendações, clique em **[!UICONTROL Alterar coleção]** e selecione a coleção desejada.
+1. Após selecionar um critério e um design, selecione a coleção desejada na página **[!UICONTROL Opções]**.
+
+1. (Condicional) Para alterar a coleção de uma atividade existente, clique em um local de recomendações nas páginas **[!UICONTROL Experiências]**, clique em **[!UICONTROL Alterar coleção]** e selecione a coleção desejada.
