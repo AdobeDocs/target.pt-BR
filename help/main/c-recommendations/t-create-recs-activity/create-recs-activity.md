@@ -2,7 +2,7 @@
 keywords: criar recomendações, atividade do recommendations, novas recomendações, visão geral do recommendations
 description: Saiba como usar o [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma atividade [!DNL Recommendations].
 title: Como criar uma atividade [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 52%
@@ -49,7 +49,7 @@ Use o [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma
 
    >[!NOTE]
    >
-   >[!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]). Como resultado, [!DNL `http://www.adobe.com/br`] e [!DNL `https://wwww.adobe.com`] são correspondentes.
+   >[!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]). Como resultado, [!DNL `http://www.adobe.com`] e [!DNL `https://wwww.adobe.com`] são correspondentes.
 
    O URL da atividade é a página onde as recomendações são exibidas.
 
@@ -92,7 +92,7 @@ Use o [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma
 
    >[!NOTE]
    >
-   >Nem todos os critérios serão executados corretamente em cada página. A página ou mbox precisam passar pela `entity.id` ou `entity.categoryId` para as recomendações do item atual/categoria atual para serem compatíveis. Em geral, é melhor mostrar apenas critérios compatíveis. No entanto, se você desejar que critérios incompatíveis estejam disponíveis para a atividade, desmarque a caixa de seleção **[!UICONTROL Compatível]**. A opção [!UICONTROL Compatível] talvez não seja exibida, dependendo de suas configurações do Recommendations ( **[!UICONTROL Recommendations]** > **[!UICONTROL Configurações]** > **[!UICONTROL Filtrar Critérios Incompatíveis]**). Para obter mais informações, consulte [Configurações](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank}.
+   >Nem todos os critérios serão executados corretamente em cada página. A página ou mbox precisam passar pela `entity.id` ou `entity.categoryId` para as recomendações do item atual/categoria atual para serem compatíveis. Em geral, é melhor mostrar apenas critérios compatíveis. No entanto, se você desejar que critérios incompatíveis estejam disponíveis para a atividade, desmarque a caixa de seleção **[!UICONTROL Compatível]**. A opção [!UICONTROL Compatível] talvez não seja exibida, dependendo de suas configurações do Recommendations ( **[!UICONTROL Recommendations]** > **[!UICONTROL Configurações]** > **[!UICONTROL Filtrar Critérios Incompatíveis]**). Para obter mais informações, consulte [Configurações](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![Caixa de diálogo Selecionar critérios](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -108,7 +108,7 @@ Use o [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma
 1. Clique em **[!UICONTROL Avançar]**.
 1. Selecione um [design](/help/main/c-recommendations/c-design-overview/design-overview.md).
 
-   Um design é um modelo que determina a aparência dos locais em sua página. [!DNL Target] inclui vários designs pré-configurados. Também é possível criar designs personalizados. Para obter mais informações, consulte [Criar um Design](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) e [Personalizando um Design](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   Um design é um modelo que determina a aparência dos locais em sua página. [!DNL Target] inclui vários designs pré-configurados. Também é possível criar designs personalizados. Para obter mais informações, consulte [Criar um Design](/help/main/c-recommendations/c-design-overview/create-design.md#create-design) e [Personalizando um Design](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design).
 
    ![Caixa de diálogo Selecionar design](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -118,7 +118,7 @@ Use o [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma
 
      Se você selecionou vários critérios, é possível selecionar apenas um design.
 
-   * Para criar um design personalizado, clique em **[!UICONTROL Criar design]** e preencha o nome e o código do novo design. Clique em **[!UICONTROL Avançar]**, selecione ou faça o upload de uma imagem e clique em **[!UICONTROL Concluído]** > **[!UICONTROL Concluído]**. Para obter informações sobre como criar um novo design, consulte [Criar um design](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   * Para criar um design personalizado, clique em **[!UICONTROL Criar design]** e preencha o nome e o código do novo design. Clique em **[!UICONTROL Avançar]**, selecione ou faça o upload de uma imagem e clique em **[!UICONTROL Concluído]** > **[!UICONTROL Concluído]**. Para obter informações sobre como criar um novo design, consulte [Criar um design](/help/main/c-recommendations/c-design-overview/create-design.md#create-design).
 
 1. Clique em **[!UICONTROL Avançar]**.
 
@@ -193,4 +193,4 @@ Use o [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma
 
 ## Vídeo de treinamento: criar uma atividade do Recommendations (7:15) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33964?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

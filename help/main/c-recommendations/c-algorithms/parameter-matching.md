@@ -1,8 +1,8 @@
 ---
 keywords: regras de inclusão;critérios de inclusão;recomendações;promoção;promoções;filtragem dinâmica;dinâmico;correspondência de parâmetros
 description: Saiba como filtrar dinamicamente no Adobe [!DNL Target] Recommendations comparando itens (entidades) com um valor na solicitação (API ou mbox).
-title: Como filtrar por correspondência de parâmetros em atividades do Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+title: Correspondência de parâmetro
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 TQID: 'https://experienceleague.adobe.com/GTli-O1p4Gm2Fg9J-L0ukQ8dSw2t-da8OatFLP8Ks9g'
@@ -18,39 +18,35 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 10%
+source-wordcount: '311'
+ht-degree: 8%
 ---
-# [!UICONTROL Correspondência de parâmetros]
+# Correspondência de parâmetro {#parameter-matching}
 
-Filtre dinamicamente comparando itens (entidades) com um valor na solicitação (API ou mbox).
+>[!BEGINSHADEBOX]
 
-Por exemplo, recomende somente o conteúdo que corresponda ao parâmetro de página do &quot;setor&quot; ou outros parâmetros, como dimensões de dispositivos ou localização geográfica, como nos exemplos a seguir.
+**Nesta página:** Saiba como filtrar recomendações dinamicamente em [!DNL Adobe Target Recommendations] comparando itens (entidades) com um valor na solicitação (API ou mbox).
+
+>[!ENDSHADEBOX]
+
+**[!UICONTROL Correspondência de Parâmetros]** recomenda somente o conteúdo que corresponde aos parâmetros da página ou aos parâmetros do visitante, como dimensões de dispositivo ou localização geográfica. Por exemplo, somente o conteúdo que corresponde ao parâmetro de página do &quot;setor&quot; pode ser recomendado. O processo para criar e usar regras de inclusão para critérios e promoções é semelhante, assim como os casos de uso e exemplos. Para obter mais informações, consulte [Usar regras de inclusão estática e dinâmica](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
+
+Outros exemplos incluem:
 
 * Parâmetros de mbox para largura e altura da tela podem ser usados para direcionar visitantes móveis e recomendar apenas dispositivos móveis e acessórios.
-* Crie uma regra de recomendações que retorne apenas os telefones celulares mais vendidos que correspondem ou excedem a altura da tela do dispositivo móvel que o visitante está usando para exibir a página.
-* Os parâmetros de localização geográfica regional podem ser usados para retornar recomendações de ferramentas durante o inverno. Ventiladores de neve e outras ferramentas de redução de neve podem ser recomendadas para visitantes em áreas onde neva, mas não são recomendadas para visitantes em áreas onde não neva.
+* Uma regra de recomendações pode retornar apenas os telefones celulares mais vendidos que correspondam ou excedam a altura da tela do dispositivo móvel que o visitante usa para exibir a página.
+* Os parâmetros de localização geográfica regional podem ser usados para retornar recomendações de ferramentas durante o inverno. Ventiladores de neve e outras ferramentas de redução de neve podem ser recomendadas para visitantes em áreas onde neva, mas não para visitantes em áreas onde não neva.
 
->[!NOTE]
->
->Se a atividade foi criada antes de 31 de outubro de 2016, ocorrerá falha na sua entrega se o filtro &quot;Correspondência de parâmetros&quot; for usado. Para resolver este problema:
->
->* Crie uma nova atividade e adicione nela seus critérios.
->* Use um critério que não contenha o filtro &quot;Correspondência de parâmetros&quot;.
->* Remova o filtro &quot;Correspondência de parâmetros&quot; de seus critérios.
+## Exemplos de correspondência de parâmetros
 
-## Exemplos de Correspondência de Parâmetros
+[!DNL Recommendations] pode corresponder a valores de parâmetros enviados na chamada [!DNL Target]. No exemplo a seguir, o [!DNL Target] detecta que um visitante está usando um dispositivo móvel, com base nos parâmetros de altura e largura da tela enviados na chamada [!DNL Target], e recomenda apenas itens que sejam dispositivos móveis.
 
-[!UICONTROL A Correspondência de Parâmetros] permite que você recomende um conteúdo que corresponda aos parâmetros da página ou aos parâmetros do visitante, como dimensões de dispositivo ou localização geográfica, como no exemplo a seguir:
-
-[!DNL Recommendations] pode corresponder a valores de parâmetros enviados na chamada [!DNL Target]. Nesta instância, o [!DNL Target] detecta que um visitante está usando um dispositivo móvel, com base nos parâmetros de altura e largura da tela enviados na chamada [!DNL Target], e recomenda apenas itens que sejam dispositivos móveis.
-
-Considere o exemplo de chamada do Target a seguir:
+Considere o exemplo a seguir [!DNL Target] chamada:
 
 ![Chamada do Target](/help/main/c-recommendations/c-algorithms/assets/example-target-call-2.png)
 
-Na página que um visitante está visualizando, ele verá os produtos para dispositivos móveis.
+Na página que um visitante está visualizando, os produtos para dispositivos móveis são exibidos.
 
 ![Produtos para dispositivos móveis](/help/main/c-recommendations/c-algorithms/assets/phones.png)

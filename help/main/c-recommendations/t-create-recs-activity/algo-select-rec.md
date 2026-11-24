@@ -2,7 +2,7 @@
 keywords: recomendações;atividade de recomendações;critérios;algoritmo;recommendations;recommendations activity;criteria;algorithm
 description: Saiba como selecionar os critérios (regras que determinam quais produtos ou conteúdo recomendar) para usar na atividade do Adobe [!DNL Target] Recommendations.
 title: Como selecionar critérios para uma atividade do Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 product_v2:
@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 62%
@@ -31,7 +31,7 @@ Se você selecionar vários critérios, o tráfego será dividido igualmente ent
 
   Alguns critérios são fornecidos com o [!DNL Recommendations]. Você e sua equipe também podem criar seus próprios critérios personalizados.
 
-* Para criar um novo critério, clique em **[!UICONTROL Criar critério]** > **[!UICONTROL Criar critério]** e preencha as informações para o novo critério. Para obter informações sobre como criar novos critérios, consulte [Criar um novo critério](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
+* Para criar um novo critério, clique em **[!UICONTROL Criar critério]** > **[!UICONTROL Criar critério]** e preencha as informações para o novo critério. Para obter informações sobre como criar novos critérios, consulte [Criar um novo critério](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#create-criteria).
 
 **Para selecionar o critério:**
 

@@ -1,8 +1,8 @@
 ---
 keywords: recomendação, backup, fazer o back up
 description: Saiba como usar recomendações de backup no Adobe [!DNL Target Recommendations].
-title: Como usar uma recomendação de backup no [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+title: Usar uma recomendação de backup
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 TQID: 'https://experienceleague.adobe.com/TziWJoAuEdCqa7uMTpX0O0InnlnjtbPXP-0wzQ-FCM0'
@@ -22,46 +22,43 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 64%
+source-wordcount: '497'
+ht-degree: 18%
 ---
-# Usar uma recomendação de backup
+# Usar uma recomendação de backup {#backup-recommendations}
 
-Se você usar o recurso de recomendação de backup em [!DNL Adobe Target], qualquer recomendação que não tenha itens recomendados suficientes não exibirá o conteúdo padrão. Em vez disso, as recomendações exibem os resultados do algoritmo de backup.
+>[!BEGINSHADEBOX]
 
-Se você não usar a recomendação de backup, se uma recomendação não tiver itens suficientes para preencher a tela, o sistema exibirá o conteúdo padrão para o usuário.
+**Nesta página:** saiba como as recomendações de backup preenchem os slots restantes de um design em [!DNL Adobe Target Recommendations].
+
+>[!ENDSHADEBOX]
+
+Quando uma recomendação não tem itens recomendados suficientes para preencher o design, o recurso de recomendação de backup em [!DNL Adobe Target] exibe os resultados do algoritmo de backup em vez do conteúdo padrão. Sem uma recomendação de backup, o sistema exibe o conteúdo padrão para o usuário.
 
 >[!NOTE]
 >
->Informações adicionais estão incluídas na seção [Conteúdo do tópico Criar critérios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), incluindo uma matriz que explica os resultados que você observará ao usar as opções [!UICONTROL Renderização de Design Parcial] e [!UICONTROL Mostrar Recomendações de Backup] juntas ou separadamente.
+>Para obter mais informações, incluindo uma matriz que explica os resultados do uso das opções **[!UICONTROL Renderização de Design Parcial]** e **[!UICONTROL Mostrar Conteúdo de Backup]** juntas ou separadamente, consulte a [seção Conteúdo de Backup dos critérios de Criação](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
-O recurso de recomendação de backup sempre usa os itens mais visualizados no site para preencher os slots restantes depois que os dados do algoritmo são usados. Por exemplo, seu modelo está configurado para mostrar cinco itens recomendados e você está usando o algoritmo de *Afinidades de compra*. No entanto, você só tem dados suficientes para preencher duas das cinco vagas, de modo que o recurso de recomendação de backup preenche as outras três vagas com os itens mais visualizados.
+O recurso de recomendação de backup sempre usa os itens mais visualizados no site para preencher os slots restantes depois que os dados do algoritmo são usados. Por exemplo, um design é configurado para mostrar cinco itens recomendados, mas o algoritmo tem dados suficientes para preencher apenas dois dos cinco slots. O recurso de recomendação de backup preenche os outros três slots com itens exibidos na parte superior.
 
 As recomendações de backup são escolhidas de maneira aleatória dentre os 500 produtos mais exibidos em todo o site. O período para recomendações de backup é de uma semana.
 
-Os 500 resultados mais visualizados são ordenados sequencialmente e depois divididos em compartimentos de 20. Os compartimentos são exibidos em ordem, mas os resultados dentro de cada compartimento são randomizados e devolvidos à página. Se os usuários atualizarem a página, elas serão apresentadas com novos resultados aleatórios. Se o conjunto de resultados da união da coleção e as regras de filtragem forem menores que 20, ele selecionará aleatoriamente da coleção.
+Os 500 resultados mais visualizados são ordenados sequencialmente e depois divididos em buckets de 20. Os buckets são fornecidos em ordem, mas os resultados dentro de cada bucket são aleatórios e retornados à página, para que os usuários que atualizam a página recebam resultados novos e aleatórios. Se o conjunto de resultados da união da coleção e das regras de filtragem for menor que 20, os itens serão aleatoriamente selecionados da coleção.
 
-Esse processo de divisão de compartimentos significa que as recomendações de backup são exibidas na seguinte ordem:
+Esse processo de agrupamento em buckets significa que as recomendações de backup são exibidas na seguinte ordem:
 
-1. Mostre os 20 itens mais visualizados, randomizados, em seguida
-1. Mostre os próximos 20 itens mais visualizados, randomizados, em seguida
-1. Mostre os próximos 20 itens mais visualizados, randomizados,
-1. E, assim por diante.
+1. Os 20 itens mais visualizados, aleatoriamente.
+1. Os próximos 20 itens mais visualizados, aleatoriamente.
+1. Os próximos 20 itens mais visualizados, aleatórios e assim por diante.
 
-Sem o intervalo de recomendações de backup, seria possível mostrar o 499º item mais visualizado, seguido pelo 200º item mais visualizado, seguido pelo 380º item mais visualizado, e assim por diante. O processo de divisão garante que os itens mais visualizados sejam recomendados primeiro.
+Sem a classificação, o 499º item mais visualizado poderia ser mostrado, seguido pelo 200º item mais visualizado, seguido pelo 380º item mais visualizado e assim por diante. A definição de períodos garante que os itens mais visualizados sejam recomendados primeiro.
 
->[!NOTE]
->
->Se você agrupar seus itens em catálogos, as recomendações de backup geradas para cada algoritmo em cada recomendação também usarão o catálogo, portanto, somente os itens no catálogo serão incluídos na recomendação de backup.
+Se os itens forem agrupados em coleções, as recomendações de backup geradas para cada critério também usarão a coleção, para que sejam incluídos na recomendação de backup apenas os itens na coleção. Qualquer item que for excluído pela regra de exclusão global não serve como uma recomendação de backup. As duplicatas são removidas dos lotes de recomendações.
 
-Qualquer item que for excluído pela regra de exclusão global não serve como uma recomendação de backup.
+As recomendações de backup são ativadas por padrão e preenchem os slots extras em um design com uma seleção aleatória dos itens mais populares no site.
 
-As recomendações de backup são ativadas por padrão e preenchem as vagas extras em um modelo com uma seleção aleatória dos itens mais populares no site.
+O uso de recomendações de backup geralmente faz parte da discussão com a equipe de implementação durante a configuração inicial. Para alterar a configuração de recomendação de backup após a implementação, entre em contato com o gerente da conta.
 
-As duplicatas são removidas dos lotes de recomendações.
-
-O uso das recomendações de backup normalmente faz parte da discussão com a equipe de implementação durante a configuração inicial do programa. Se quiser mudar a configuração da recomendação de backup após a implementação, entre em contato com seu gerente de conta.
-
-Se Habilitar Renderização de Design Parcial (consulte [Configurações de Conteúdo](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) não estiver habilitado e o modelo não for exibido, a recomendação de backup ou o conteúdo padrão será exibido.
+Quando a **[!UICONTROL Renderização de Design Parcial]** (consulte [Conteúdo de Backup](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) não está habilitada e o design não pode ser preenchido, as recomendações de backup (quando habilitadas) ou o conteúdo padrão são exibidos.

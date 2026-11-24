@@ -1,8 +1,8 @@
 ---
 keywords: regras de inclusão;critérios de inclusão;recomendações;promoção;promoções;filtragem dinâmica;estático;filtro estático
 description: Saiba como inserir manualmente um ou mais valores estáticos para filtrar usando regras de inclusão no Adobe [!DNL Target] Recommendations.
-title: Como Filtro Por Valores Estáticos Em Atividades Do Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+title: Filtro estático
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 TQID: 'https://experienceleague.adobe.com/-HTJO4YFi0-isyA-5LbVUaEPu7YX1WFgPy-OexMSXFY'
@@ -18,23 +18,21 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 32%
+source-wordcount: '184'
+ht-degree: 2%
 ---
-# [!UICONTROL Filtro estático]
+# Filtro estático {#static-filter}
 
-Insira manualmente um ou mais valores estáticos para filtrar usando regras de inclusão em [!DNL Adobe Target Recommendations].
+>[!BEGINSHADEBOX]
 
-Por exemplo, apenas recomende um conteúdo com uma classificação de MPA (Motion Picture Association) de &quot;G&quot; ou &quot;PG&quot;.
+**Nesta página:** saiba como filtrar recomendações inserindo manualmente um ou mais valores estáticos nas regras de inclusão em [!DNL Adobe Target Recommendations].
 
-Você pode criar a quantidade de regras de inclusão necessária. As regras de inclusão são unidas por um operador E. Todas as regras devem ser cumpridas para incluir um item em uma recomendação.
+>[!ENDSHADEBOX]
 
->[!NOTE]
->
->Se você estiver familiarizado com a configuração das regras de inclusão antes do Target versão 17.6.1 (junho de 2017), perceberá que algumas opções e operadores foram alterados. Somente os operadores aplicáveis à opção selecionada são exibidos e alguns operadores foram renomeados (&quot;matches&quot; agora é &quot;equals&quot;) para ficarem mais consistentes e intuitivos. Todas as regras de exclusão existentes criadas antes desta versão foram migradas automaticamente para a nova estrutura. Nenhuma reestruturação é necessária da sua parte.
+**[!UICONTROL Filtro Estático]** limita os itens em uma recomendação aos itens que correspondem a valores estáticos inseridos manualmente. É possível criar qualquer número de regras de inclusão. As regras de inclusão são unidas com um operador AND, portanto, todas as regras devem ser atendidas para que um item seja incluído em uma recomendação. Para obter informações gerais sobre regras de inclusão, consulte [Usar regras de inclusão dinâmicas e estáticas](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
 ## Conteúdo recomendado classificado como G ou PG
 
-Para criar uma regra de inclusão com valores estáticos para recomendar conteúdo com uma classificação MPA de &quot;G&quot; ou &quot;PG&quot; apenas (excluir conteúdo &quot;R&quot; e &quot;NC17&quot;), você pode criar as seguintes regras de filtragem &quot;classificação de filme é igual a qualquer um dos g-ratings&quot; e &quot;classificação de filme é igual a qualquer um dos pg-ratings&quot;.
+Para recomendar apenas conteúdo com uma classificação de MPA (Motion Picture Association) de &quot;G&quot; ou &quot;PG&quot; (excluir conteúdo &quot;R&quot; e &quot;NC17&quot;), crie uma regra de filtragem com o operador &quot;movie-rating equals any of&quot; e insira os valores &quot;g-rating&quot; e &quot;pg-rating&quot;.

@@ -26,489 +26,220 @@ topic_v2:
     internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '4442'
-ht-degree: 24%
+source-wordcount: '3740'
+ht-degree: 12%
 ---
-# Basear a recomendação em uma chave de recomendação
+# Basear a recomendação em uma chave de recomendação {#base-on-recommendation-key}
 
-As recomendações baseadas em algoritmos usam o contexto de comportamento do visitante para mostrar resultados relevantes em [!DNL Adobe Target] [!DNL Recommendations] atividades.
+>[!BEGINSHADEBOX]
 
-Cada tipo de algoritmo fornece algoritmos diferentes apropriados para seu tipo, conforme mostrado na tabela a seguir:
+**Nesta página:** saiba mais sobre os tipos de algoritmo, algoritmos e chaves de recomendação disponíveis para basear recomendações em atividades do [!DNL Adobe Target Recommendations].
 
-| Tipo de algoritmo | Quando usar / Algoritmos disponíveis |
-| --- | --- |
-| [!UICONTROL Baseado Em Carrinho] | Faça recomendações com base no conteúdo do carrinho do usuário.<ul><li>[!UICONTROL Pessoas que os visualizaram, também visualizaram]</li><li>[!UICONTROL Pessoas Que Os Visualizaram, Também Compraram]</li><li>[!UICONTROL Pessoas que Compraram Estes, Também Compraram]</li></ul> |
-| [!UICONTROL Com Base Em Popularidade] | Faça recomendações com base na popularidade geral de um item em todo o site ou na popularidade de itens na categoria, marca, gênero e assim por diante favoritas ou mais visualizadas de um usuário. <ul><li>[!UICONTROL Mais visualizados em todo o site]</li><li>[!UICONTROL Mais Visualizados por Categoria]</li><li>[!UICONTROL Mais Visualizados pelo Atributo de Item]</li><li>[!UICONTROL Mais visualizados por atributo de perfil]</li><li>[!UICONTROL Mais vendidos em todo o site]</li><li>[!UICONTROL Mais vendidos por categoria]</li><li>[!UICONTROL Mais vendidos por atributo de item]</li><li>[!UICONTROL Mais vendidos por atributo de perfil]</li><li>[!UICONTROL Métrica Top by Analytics]</li></ul> |
-| [!UICONTROL Baseado em Item] | Fazer recomendações com base na localização de itens semelhantes a um item que o usuário está visualizando atualmente ou que visualizou recentemente. <ul><li>[!UICONTROL Pessoas Que Visualizaram Isto, Visualizaram Aquilo]</li><li>[!UICONTROL Pessoas que Visualizaram Isto, Compraram Aquilo]</li><li>[!UICONTROL Pessoas que Compraram Isto, Compraram Aquilo]</li><li>[!UICONTROL Itens com Atributos Semelhantes]</li></ul> |
-| [!UICONTROL Baseado em Usuário] | Faça recomendações com base no comportamento do usuário. <ul><li>[!UICONTROL Itens visualizados recentemente]</li><li>[!UICONTROL Recomendado para você]</li></ul> |
-| [!UICONTROL Critérios personalizados] | Faça recomendações com base em um arquivo personalizado que você fez upload. <ul><li>Algoritmo personalizado</li></ul> |
+>[!ENDSHADEBOX]
 
-Cada critério é definido em sua própria guia. O tráfego é dividido uniformemente entre os diferentes testes de critérios. Em outras palavras, se você tem dois critérios, o tráfego é dividido igualmente entre eles. Se você tem dois critérios e dois designs, o tráfego é dividido igualmente entre as quatro combinações. Também é possível especificar uma porcentagem de visitantes do site que veem o conteúdo padrão, para comparação. Nesse caso, a porcentagem especificada de visitantes visualiza o conteúdo padrão e o restante é dividido entre seus critérios e combinações de design.
+As recomendações baseadas em algoritmo usam o contexto do comportamento do visitante para mostrar resultados relevantes em [!DNL Adobe Target] [!DNL Recommendations] atividades. Cada tipo de algoritmo oferece seu próprio conjunto de algoritmos. Para obter um resumo dos tipos de algoritmo e seus algoritmos, consulte [Introdução aos Critérios](/help/main/c-recommendations/c-algorithms/algorithms.md#section_885B3BB1B43048A88A8926F6B76FC482).
+
+Cada critério é definido em sua própria guia. O tráfego é dividido uniformemente nos testes de critério: com dois critérios, o tráfego é dividido igualmente entre eles e com dois critérios e dois designs, o tráfego é dividido uniformemente entre as quatro combinações. Uma porcentagem dos visitantes do site também pode ser definida para ver o conteúdo padrão, para comparação. Nesse caso, a porcentagem especificada de visitantes visualiza o conteúdo padrão e o restante é dividido entre os critérios e as combinações de design.
 
 Para obter mais informações sobre como criar critérios e definir seus tipos e algoritmos, consulte [Criar critérios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
 
-Diferentes algoritmos de recomendações se prestam ao posicionamento em diferentes tipos de páginas. Consulte as seções a seguir para obter mais informações sobre cada tipo de algoritmo e seus algoritmos disponíveis.
+Algoritmos diferentes se adaptam a diferentes tipos de páginas. As seções a seguir descrevem cada tipo de algoritmo e seus algoritmos.
 
 ## Baseado em carrinho {#cart-based}
 
-O tipo de algoritmo [!UICONTROL Baseado em carrinho] permite recomendar itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas por meio do [parâmetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} em valores separados por vírgulas. Somente os primeiros dez valores são considerados.
+O tipo de algoritmo **[!UICONTROL Baseado em carrinho]** recomenda itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas como valores separados por vírgulas no [parâmetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}. Somente os primeiros dez valores são considerados.
 
-A lógica de recomendação baseada em carrinho é semelhante ao algoritmo baseado em usuário &quot;[!UICONTROL Recomendado para você]&quot; e aos algoritmos baseados em item &quot;[!UICONTROL Pessoas que visualizaram isto, compraram aquilo]&quot; e &quot;[!UICONTROL Pessoas que compraram aquilo, compraram aquilo]&quot;.
+A lógica de recomendação baseada em carrinho é semelhante ao algoritmo baseado em usuário &quot;**[!UICONTROL Recomendado para você]**&quot; e aos algoritmos baseados em item &quot;**[!UICONTROL Pessoas que Visualizaram Isto, Compraram Aquilo]**&quot; e &quot;**[!UICONTROL Pessoas que Compraram Isto, Compraram Aquilo]**&quot;.
 
-O [!DNL Target] usa técnicas de filtragem colaborativa para determinar semelhanças para cada item no carrinho do visitante, em seguida, combina essas semelhanças comportamentais em cada item para obter uma lista mesclada.
+O [!DNL Target] usa técnicas de filtragem colaborativa para determinar semelhanças para cada item no carrinho do visitante e, em seguida, combina as semelhanças comportamentais de todos os itens em uma lista mesclada.
 
-[!DNL Target] também oferece aos profissionais de marketing a opção de observar o comportamento do visitante em uma única sessão ou em várias sessões:
+Os profissionais de marketing podem escolher se [!DNL Target] observa o comportamento do visitante em uma única sessão ou em várias sessões:
 
 * **[!UICONTROL Única sessão]**: com base no que outros visitantes fizeram em uma única sessão.
 
-  Observar o comportamento em uma única sessão pode fazer sentido quando há uma sensação de que os produtos &quot;acompanham&quot; um ao outro com base em um uso, ocasião ou evento. Por exemplo, um visitante está comprando uma impressora e também pode precisar de tinta e papel. Ou um visitante está comprando manteiga de amendoim e também pode precisar de pão e geleia.
+  Uma única sessão se adapta a produtos que &quot;acompanham&quot; uns aos outros com base em uso, ocasião ou evento. Por exemplo, um visitante que está comprando uma impressora também pode precisar de tinta e papel, e um visitante que está comprando manteiga de amendoim também pode precisar de pão e geleia.
 
 * **[!UICONTROL Entre sessões]**: com base no que outros visitantes fizeram em várias sessões.
 
-  Observar o comportamento em várias sessões pode fazer sentido quando há uma sensação de que os produtos &quot;acompanham&quot; um ao outro com base na preferência ou no gosto do visitante. Por exemplo, um visitante gosta de Star Wars e também pode gostar de Indiana Jones, mesmo que o visitante não queira necessariamente assistir a ambos os filmes na mesma sessão. Ou, um visitante gosta do jogo de tabuleiro &quot;Codenames&quot; e também pode gostar do jogo de tabuleiro &quot;Avalon&quot;, mesmo que o visitante não possa jogar ambos os jogos simultaneamente.
+  Várias sessões se adaptam a produtos que se complementam com base na preferência ou no gosto do visitante. Por exemplo, um visitante que gosta de Star Wars também pode gostar de Indiana Jones, mesmo que o visitante não queira necessariamente assistir a ambos os filmes na mesma sessão. Da mesma forma, um visitante que gosta do jogo de tabuleiro &quot;Codenames&quot; também pode gostar do jogo de tabuleiro &quot;Avalon&quot;, mesmo que o visitante não possa jogar os dois jogos simultaneamente.
 
-O [!DNL Target] faz recomendações para cada visitante com base nos itens em seu carrinho atual, independentemente de você observar o comportamento do visitante em uma única sessão ou em várias sessões.
+[!DNL Target] faz recomendações para cada visitante com base nos itens em seu carrinho atual, independentemente do comportamento do visitante ser considerado em uma única sessão ou em várias sessões.
 
-Os seguintes algoritmos estão disponíveis com o tipo de algoritmo [!UICONTROL Baseado em carrinho]:
+Os seguintes algoritmos estão disponíveis com o tipo de algoritmo **[!UICONTROL Baseado em carrinho]**:
 
-### [!UICONTROL Pessoas Que Visualizaram Isto, Também Visualizaram]
-
-Recomenda itens visualizados com mais frequência na mesma sessão em que o item especificado é visualizado.
-
-Essa lógica retorna outros produtos visualizados após a visualização deste. O produto especificado não está incluído no conjunto de resultados.
-
-Essa lógica permite criar oportunidades de conversão adicionais, recomendando itens que outros visitantes que visualizaram um item também visualizaram. Por exemplo, os visitantes que visualizam bicicletas rodoviárias em seu site também podem ver capacetes de bicicleta, kits de ciclismo, fechaduras e assim por diante. Você pode criar uma recomendação usando essa lógica que sugere que outros produtos ajudam a aumentar a receita.
-
-Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves do Recommendations:
-
-* [!UICONTROL Item atual]
-* [!UICONTROL Último item comprado]
-* [!UICONTROL Último item visualizado]
-* [!UICONTROL Item mais visualizado]
-
-### [!UICONTROL Pessoas Que Visualizaram Isto, Também Compraram]
-
-Recomenda itens visualizados que são comprados com mais frequência na mesma sessão em que o item especificado é visualizado.
-
-Essa lógica retorna outros produtos que as pessoas compraram após visualizar este. O produto especificado não está incluído no conjunto de resultados.
-
-Essa lógica permite aumentar as oportunidades de venda cruzada ao exibir uma recomendação em uma página de produto, por exemplo, que exibe itens que outros visitantes que visualizaram o item compraram. Por exemplo, se o visitante estiver visualizando uma vara de pesca, a recomendação poderá mostrar itens adicionais que outros visitantes compraram, como caixas de engrenagens, pernaltas e iscas de pesca. À medida que os visitantes navegam em seu site, você fornece a eles recomendações de compra adicionais.
-
-Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves do Recommendations:
-
-* [!UICONTROL Item atual]
-* [!UICONTROL Último item comprado]
-* [!UICONTROL Último item visualizado]
-* [!UICONTROL Item mais visualizado]
-
-### [!UICONTROL Pessoas que Compraram Isto, Também Compraram]
-
-Recomenda os itens que são comprados com mais frequência pelos clientes ao mesmo tempo que o item especificado.
-
-Essa lógica retorna outros produtos que as pessoas compraram após comprar este. O produto especificado não está incluído no conjunto de resultados.
-
-Essa lógica permite aumentar as oportunidades de venda cruzada ao exibir uma recomendação em uma página de resumo do carrinho de compras, por exemplo, que exibe itens que outros compradores também compraram. Por exemplo, se o visitante estiver comprando um terno, a recomendação poderá exibir itens adicionais que outros visitantes compraram junto com o terno, como gravatas, sapatos e abotoaduras. À medida que os visitantes revisam suas compras, você fornece a eles recomendações adicionais.
-
-Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves do Recommendations:
-
-* [!UICONTROL Item atual]
-* [!UICONTROL Último item comprado]
-* [!UICONTROL Último item visualizado]
-* [!UICONTROL Item mais visualizado]
+| Algoritmo | Como funciona | Quando usar | Chaves de recomendação |
+| --- | --- | --- | --- |
+| **[!UICONTROL Pessoas que os visualizaram, também visualizaram]** | Recomenda itens visualizados com mais frequência na mesma sessão em que o item especificado é visualizado. Retorna outros produtos visualizados pelas pessoas após a visualização deste. O produto especificado não está incluído no conjunto de resultados. | Crie oportunidades de conversão adicionais recomendando itens que outros visitantes que visualizaram um item também visualizaram. Por exemplo, os visitantes que visualizam bicicletas rodoviárias no site também podem ver capacetes de bicicleta, kits de ciclismo, fechaduras e assim por diante, portanto, uma recomendação pode sugerir outros produtos que ajudem a aumentar a receita. | **[!UICONTROL Item Atual]**, **[!UICONTROL Último Item Comprado]**, **[!UICONTROL Último Item Visualizado]**, **[!UICONTROL Item Mais Visualizado]** |
+| **[!UICONTROL Pessoas Que Os Visualizaram, Também Compraram]** | Recomenda itens visualizados que são comprados com mais frequência na mesma sessão em que o item especificado é visualizado. Retorna outros produtos comprados pelas pessoas após a visualização deste. O produto especificado não está incluído no conjunto de resultados. | Aumente as oportunidades de venda cruzada exibindo uma recomendação em uma página de produto, por exemplo, que exibe itens que outros visitantes que visualizaram o item compraram. Se o visitante estiver visualizando uma vara de pesca, a recomendação poderá mostrar itens adicionais que outros visitantes compraram, como caixas de engrenagens, pernaltas e iscas de pesca. À medida que os visitantes navegam pelo site, eles recebem recomendações de compra adicionais. | **[!UICONTROL Item Atual]**, **[!UICONTROL Último Item Comprado]**, **[!UICONTROL Último Item Visualizado]**, **[!UICONTROL Item Mais Visualizado]** |
+| **[!UICONTROL Pessoas que Compraram Estes, Também Compraram]** | Recomenda os itens que são comprados com mais frequência pelos clientes ao mesmo tempo que o item especificado. Retorna outros produtos comprados pelas pessoas após a compra deste. O produto especificado não está incluído no conjunto de resultados. | Aumente as oportunidades de venda cruzada exibindo uma recomendação em uma página de resumo do carrinho de compras, por exemplo, que exibe itens que outros compradores também compraram. Se o visitante estiver comprando um terno, a recomendação poderá exibir itens adicionais que outros visitantes compraram junto com o terno, como gravatas, sapatos e abotoaduras. À medida que os visitantes revisam suas compras, eles recebem recomendações adicionais. | **[!UICONTROL Item Atual]**, **[!UICONTROL Último Item Comprado]**, **[!UICONTROL Último Item Visualizado]**, **[!UICONTROL Item Mais Visualizado]** |
 
 ## [!UICONTROL Com Base Em Popularidade]
 
-O tipo de algoritmo [!UICONTROL Baseado em Popularidade] permite fazer recomendações com base na popularidade geral de um item no seu site ou com base na popularidade de itens na categoria, marca, gênero e assim por diante favorita ou mais visualizada de um usuário.
+O tipo de algoritmo **[!UICONTROL Baseado em Popularidade]** recomenda itens com base em sua popularidade geral no site ou em sua popularidade na categoria, marca, gênero favoritos ou mais visualizados do usuário.
 
-Os seguintes algoritmos estão disponíveis com o tipo de algoritmo [!UICONTROL Baseado em Popularidade]:
+Os seguintes algoritmos estão disponíveis com o tipo de algoritmo **[!UICONTROL Baseado em Popularidade]**:
 
-### [!UICONTROL Mais visualizados em todo o site] {#most-viewed}
+| Algoritmo | Como funciona | Quando usar | Chaves de recomendação |
+| --- | --- | --- | --- |
+| **[!UICONTROL Mais visualizados em todo o site]** | A recomendação é determinada pelo item exibido com mais frequência, com base nos critérios de recenticidade/frequência. Consulte [Mais visualizados na pontuação do site](#most-viewed). | Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros sites. | |
+| **[!UICONTROL Mais Visualizados por Categoria]** | A recomendação é determinada pela categoria que recebeu mais atividade, usando o mesmo método que para o item mais exibido, exceto que as categorias são pontuadas em vez de produtos. Consulte [Mais visualizados por pontuação de categoria](#most-viewed-category). | Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros sites. | **[!UICONTROL Categoria Atual]**, **[!UICONTROL Categoria Favorita]** |
+| **[!UICONTROL Mais Visualizados pelo Atributo de Item]** | Recomenda itens ou mídias semelhantes aos itens ou mídias mais visualizados no site. O atributo de item no qual basear a recomendação é selecionado, por exemplo, &quot;Nome&quot; ou &quot;Marca&quot;. Em seguida, os atributos de perfil armazenados no perfil do visitante para correspondência são selecionados, por exemplo, &quot;Marca favorita&quot;, &quot;Último item adicionado ao carrinho&quot; ou &quot;Programa mais visualizado&quot;. | | |
+| **[!UICONTROL Mais visualizados por atributo de perfil]** | Recomenda os itens mais visualizados agrupados por um atributo de perfil de visitante, em vez de por informações de item, como **[!UICONTROL Mais visualizados por categoria]** e **[!UICONTROL Mais visualizados por atributo de item]** fazem. [!DNL Target] mantém uma lista classificada separada por valor de atributo e, no momento da entrega, mostra a cada visitante a lista que corresponde a seu próprio valor armazenado. Consulte [Algoritmos de atributo de perfil](#profile-attribute-algorithms). | | |
+| **[!UICONTROL Mais vendidos em todo o site]** | Exibe os itens incluídos nas ordens mais concluídas de todo o site. Várias unidades do mesmo item em um único pedido são contadas como um pedido. | Crie recomendações para os itens mais vendidos no site para aumentar a conversão e a receita. Essa lógica é adequada para visitantes novos do site. | |
+| **[!UICONTROL Mais vendidos por categoria]** | Exibe os itens incluídos nas ordens mais concluídas por categoria. Várias unidades do mesmo item em um único pedido são contadas como um pedido. | Crie recomendações para os itens mais vendidos no site com base na categoria para aumentar a conversão e a receita. Essa lógica é adequada para visitantes novos do site. | **[!UICONTROL Categoria Atual]**, **[!UICONTROL Categoria Favorita]** |
+| **[!UICONTROL Mais vendidos por atributo de item]** | Recomenda itens ou mídias semelhantes aos itens ou mídias mais comprados no site. O atributo de item no qual basear a recomendação é selecionado, por exemplo, &quot;Nome&quot; ou &quot;Marca&quot;. Em seguida, os atributos de perfil armazenados no perfil do visitante para correspondência são selecionados, por exemplo, &quot;Marca favorita&quot;, &quot;Último item adicionado ao carrinho&quot; ou &quot;Programa mais visualizado&quot;. | | |
+| **[!UICONTROL Mais vendidos por atributo de perfil]** | Recomenda os itens mais vendidos agrupados por um atributo de perfil de visitante, em vez de por informações de item, como fazem os **[!UICONTROL Mais vendidos por categoria]** e os **[!UICONTROL Mais vendidos por atributo de item]**. [!DNL Target] mantém uma lista de mais vendidos separada por valor de atributo e, no momento da entrega, mostra a cada visitante a lista que corresponde a seu próprio valor armazenado. Consulte [Algoritmos de atributo de perfil](#profile-attribute-algorithms). | | |
+| **[!UICONTROL Métrica Top by Analytics]** | Exibe o &quot;X superior&quot;, onde *x* é uma métrica [!DNL Analytics] arbitrária. Ao usar dados comportamentais de mboxes, **[!UICONTROL Mais vendidos]** ou **[!UICONTROL Mais visualizados]** podem ser usados (x = &quot;Vendidos&quot; ou x = &quot;Visualizados&quot;). Ao usar dados comportamentais de [!DNL Adobe Analytics], x = &quot;Adições ao carrinho&quot; ou alguma outra métrica [!DNL Analytics] pode ser usada. | | |
 
-A recomendação é determinada pelo item que foi exibido com mais frequência. Isso é determinado pelos critérios de recenticidade/frequência que funciona da seguinte maneira:
+### [!UICONTROL Mais visualizados em todo o site] pontuação {#most-viewed}
+
+A recomendação é o item exibido com mais frequência, determinado pelos critérios de recenticidade/frequência da seguinte maneira:
 
 * 10 pontos para primeira visualização de produto
 * 5 pontos para cada visualização seguinte
-* No fim da sessão, divida todos os valores por 2
+* No final de uma sessão, divida todos os valores por 2
 
-Por exemplo, visualizar a prancha de surfe A e depois a prancha de surfe B em uma sessão resulta em A: 10, B: 5. Quando a sessão terminar, você terá A: 5, B: 2.5. Se você visualizar os mesmos itens na próxima sessão, os valores serão alterados para A: 15 B: 7.5.
+Por exemplo, visualizar a prancha de surfe A e depois a prancha de surfe B em uma sessão resulta em A: 10, B: 5. Quando a sessão termina, o resultado é A: 5, B: 2.5. Se os mesmos itens forem exibidos na próxima sessão, os valores serão alterados para A: 15, B: 7.5.
 
-Use esse algoritmo em páginas gerais, como página inicial ou de aterrissagem e anúncios em outros sites.
+### [!UICONTROL Mais visualizados por pontuação de Categoria] {#most-viewed-category}
 
-### [!UICONTROL Mais Visualizados por Categoria] {#most-viewed-category}
-
-A recomendação é determinada pela categoria que recebeu a mais atividade, utilizando o mesmo método usado para &quot;item mais visto&quot;, exceto que as categorias são classificadas, em vez de os produtos.
-
-Isso é determinado pelos critérios de recenticidade/frequência que funciona da seguinte maneira:
+A recomendação é a categoria que recebeu mais atividade. Ela usa o mesmo método que &quot;item mais exibido&quot;, exceto que as categorias são pontuadas em vez de produtos, com os seguintes critérios de recenticidade/frequência:
 
 * 10 pontos para primeira visualização de categoria
 * 5 pontos para cada visualização seguinte
 
-Categorias visitadas pela primeira vez recebem 10 pontos. 5 pontos são dados para visitas seguintes para a mesma categoria. Com cada visita, categorias não atuais que foram vistas anteriormente são diminuídas em 1.
+A cada visita, a pontuação de cada categoria não atual que foi visualizada antes é diminuída em 1.
 
-Por exemplo, visualizar a categoria A e depois a categoria B em uma sessão resulta em A: 9, B: 10. Se você viu os mesmos itens na próxima sessão, os valores mudam para A: 20, B: 9.
+Por exemplo, visualizar a categoria A e depois a categoria B em uma sessão resulta em A: 9, B: 10. Se os mesmos itens forem exibidos na próxima sessão, os valores serão alterados para A: 20, B: 9.
 
-Use esse algoritmo em páginas gerais, como página inicial ou de aterrissagem e anúncios em outros sites.
-
-Se você selecionar o algoritmo Mais visualizados por categoria, poderá selecionar as seguintes Chaves de recomendações:
-
-* [!UICONTROL Categoria Atual]
-* [!UICONTROL Categoria Favorita]
-
-### [!UICONTROL Mais Visualizados pelo Atributo de Item]
-
-Recomenda itens ou mídias semelhantes aos itens ou mídias mais visualizados no site.
-
-Esse algoritmo permite selecionar em qual atributo de item você deseja basear a recomendação, por exemplo, &quot;Nome&quot; ou &quot;Marca&quot;.
-
-Em seguida, selecione quais atributos de perfil são armazenados no perfil do visitante para correspondência. Por exemplo, &quot;Marca favorita&quot;, &quot;Último item adicionado ao carrinho&quot; ou &quot;Programa mais visualizado&quot;.
-
-### [!UICONTROL Mais vendidos em todo o site] {#top-sellers}
-
-Exibe os itens incluídos nas ordens mais concluídas de todo o site. Várias unidades do mesmo item em um único pedido são contadas como um pedido.
-
-Esse algoritmo permite criar recomendações para os itens mais vendidos em seu site para aumentar a conversão e a receita. Essa lógica é especialmente adequada para visitantes novos do site.
-
-### [!UICONTROL Mais vendidos por categoria]
-
-Exibe os itens incluídos nas ordens mais concluídas por categoria. Várias unidades do mesmo item em um único pedido são contadas como um pedido.
-
-Esse algoritmo permite criar recomendações para os itens mais vendidos em seu site com base na categoria para aumentar a conversão e a receita. Essa lógica é especialmente adequada para visitantes novos do site.
-
-Se você selecionar o algoritmo [!UICONTROL Mais visualizados por categoria], poderá selecionar as [!UICONTROL Chaves de recomendações] a seguir:
-
-* [!UICONTROL Categoria Atual]
-* [!UICONTROL Categoria Favorita]
-
-### [!UICONTROL Mais vendidos por atributo de item]
-
-Recomenda itens ou mídias semelhantes aos itens ou mídias mais comprados em seu site.
-
-Esse algoritmo permite selecionar em qual atributo de item você deseja basear a recomendação, por exemplo, &quot;Nome&quot; ou &quot;Marca&quot;.
-
-Em seguida, selecione quais atributos de perfil são armazenados no perfil do visitante para correspondência. Por exemplo, &quot;Marca favorita&quot;, &quot;Último item adicionado ao carrinho&quot; ou &quot;Programa mais visualizado&quot;.
-
-### [!UICONTROL Mais visualizados por atributo de perfil]
+### Algoritmos de atributo de perfil {#profile-attribute-algorithms}
 
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
 >title="Atributo de perfil"
 >abstract="É possível criar um Atributo de perfil usando Scripts de perfil. Depois que um Script de perfil é criado e ativado, o atributo de Perfil correspondente pode ser usado com esse algoritmo."
 
-Recomenda os itens mais visualizados agrupados por um atributo de perfil de visitante, em vez de por informações de item, como [!UICONTROL Mais visualizados por categoria] e [!UICONTROL Mais visualizados por atributo de item] fazem. [!DNL Target] mantém uma lista classificada separada por valor de atributo e, no momento da entrega, mostra a cada visitante a lista que corresponde a seu próprio valor armazenado.
+**[!UICONTROL Mais Visualizados pelo Atributo de Perfil]** e **[!UICONTROL Mais Vendidos pelo Atributo de Perfil]** dependem de um script de perfil para preencher o atributo. O nome do script deve começar com o prefixo `recsAttribute` para que [!DNL Target] o armazene como `user.recsAttribute<Name>`. Um script pode ser escrito para qualquer característica do visitante que seja relevante para o caso de uso. Para obter mais informações sobre como definir atributos de perfil com scripts de perfil, consulte [Parâmetros de perfil](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
-Este algoritmo depende de um script de perfil para preencher o atributo, e o nome do script deve começar com o prefixo `recsAttribute` para que [!DNL Target] o armazene como `user.recsAttribute<Name>`. Você pode criar um script para qualquer característica de visitante relevante ao seu caso de uso.
-
-Saiba mais sobre como definir atributos de perfil usando scripts de perfil em [esta página](https://experienceleague.adobe.com/pt-br/docs/target/using/audiences/visitor-profiles/profile-parameters).
-
-Por exemplo, um script chamado `recsAttributeRegion` que baseia as recomendações na região do visitante pode ter esta aparência:
+Por exemplo, o script a seguir, chamado `recsAttributeRegion`, baseia as recomendações na região do visitante:
 
 ```
 var region = mbox.param('userRegion');
 if (region) return region;
 ```
 
-Depois que o script é criado e ativado, a entrada [!UICONTROL Region] correspondente fica disponível na lista suspensa de atributos de perfil da janela criar critérios. Observe que o prefixo `recsAttribute` em si não é mostrado na lista suspensa.
-
-### [!UICONTROL Mais vendidos por atributo de perfil]
-
-Recomenda os itens mais vendidos agrupados por um atributo de perfil de visitante, em vez de por informações de item, como fazem os [!UICONTROL Mais vendidos por categoria] e os [!UICONTROL Mais vendidos por atributo de item]. [!DNL Target] mantém uma lista de mais vendidos separada por valor de atributo e, no momento da entrega, mostra a cada visitante a lista que corresponde a seu próprio valor armazenado.
-
-Assim como em [!UICONTROL Mais Visualizados pelo Atributo de Perfil], esse algoritmo depende de um script de perfil para preencher o atributo, e o nome do script deve começar com o prefixo `recsAttribute`, para que [!DNL Target] o armazene como `user.recsAttribute<Name>`. Você pode criar um script para qualquer característica de visitante relevante ao seu caso de uso. Saiba mais sobre como definir atributos de perfil usando scripts de perfil em [esta página](https://experienceleague.adobe.com/pt-br/docs/target/using/audiences/visitor-profiles/profile-parameters).
-
-Por exemplo, um script chamado `recsAttributeLoyaltyTier` que baseia as recomendações no nível de fidelidade do visitante pode ter esta aparência:
+Da mesma forma, o script a seguir, chamado `recsAttributeLoyaltyTier`, baseia as recomendações no nível de fidelidade do visitante:
 
 ```
 var tier = mbox.param('visitorLoyaltyTier');
 if (tier) return tier;
 ```
 
-Depois que o script é criado e ativado, a entrada [!UICONTROL Camada de fidelidade] correspondente fica disponível na lista suspensa de atributos de perfil da janela de criação de critérios. Observe que o prefixo `recsAttribute` em si não é mostrado na lista suspensa.
-
-### [!UICONTROL Métrica Top by Analytics]
-
-Exibe o &quot;X superior&quot;, onde *x* é uma métrica [!DNL Analytics] arbitrária. Ao usar dados comportamentais de mboxes, você pode usar [!UICONTROL Mais vendidos] ou [!UICONTROL Mais visualizados] (x = &quot;Vendido&quot; ou x = &quot;Visualizado&quot;). Se você estiver usando dados comportamentais de [!DNL Adobe Analytics], poderá usar x = &quot;Adições ao carrinho&quot; ou alguma outra métrica [!DNL Analytics].
+Depois que o script é criado e ativado, a entrada **[!UICONTROL Region]** ou **[!UICONTROL Camada de Fidelidade]** correspondente fica disponível na lista suspensa de atributos de perfil da janela de criação de critérios. O prefixo `recsAttribute` em si não é mostrado na lista suspensa.
 
 ## [!UICONTROL Baseado em Item]
 
-O tipo de recomendação [!UICONTROL Baseado em Item] permite fazer recomendações com base na localização de itens semelhantes a um item que o usuário está visualizando atualmente ou que visualizou recentemente.
+O tipo de algoritmo **[!UICONTROL Baseado em Item]** recomenda itens semelhantes a um item que o usuário está visualizando atualmente ou visualizou recentemente.
 
-Os seguintes algoritmos estão disponíveis com o tipo de algoritmo [!UICONTROL Baseado em Item]:
+Os seguintes algoritmos estão disponíveis com o tipo de algoritmo **[!UICONTROL Baseado em Item]**:
 
-### [!UICONTROL Pessoas Que Visualizaram Isto, Visualizaram Aquilo] {#viewed-viewed}
-
-Recomenda itens visualizados com mais frequência na mesma sessão em que o item especificado é visualizado.
-
-Essa lógica retorna outros produtos que as pessoas visualizaram após verem esse produto; o produto especificado não está incluído no conjunto de resultados.
-
-Essa lógica permite criar oportunidades de conversão adicionais, recomendando itens que outros visitantes que visualizaram um item também visualizaram. Por exemplo, os visitantes que visualizam bicicletas rodoviárias em seu site também podem ver capacetes de bicicleta, kits de ciclismo, fechaduras e assim por diante. Você pode criar uma recomendação usando essa lógica que sugere que outros produtos ajudam a aumentar a receita.
-
-Se você selecionar este algoritmo, poderá selecionar as [!UICONTROL Chaves de recomendações] a seguir:
-
-* [!UICONTROL Item atual]
-* [!UICONTROL Último item comprado]
-* [!UICONTROL Último item visualizado]
-* [!UICONTROL Item mais visualizado]
-
-### [!UICONTROL Pessoas que Visualizaram Isto, Compraram Aquilo] {#viewed-bought}
-
-Recomenda itens visualizados que são comprados com mais frequência na mesma sessão em que o item especificado é visualizado. Este critério retorna outros produtos que pessoas compraram depois de ver este, o produto especificado não é incluído nos resultados.
-
-Essa lógica retorna outros produtos que as pessoas compraram após verem este; o produto especificado não está incluído no conjunto de resultados.
-
-Essa lógica permite aumentar as oportunidades de venda cruzada ao exibir uma recomendação em uma página de produto, por exemplo, que exibe itens que outros visitantes que visualizaram o item compraram. Por exemplo, se o visitante estiver visualizando uma vara de pesca, a recomendação poderá mostrar itens adicionais que outros visitantes compraram, como caixas de engrenagens, pernaltas e iscas de pesca. À medida que os visitantes navegam em seu site, você fornece a eles recomendações de compra adicionais.
-
-Se você selecionar este algoritmo, poderá selecionar as [!UICONTROL Chaves de recomendações] a seguir:
-
-* [!UICONTROL Item atual]
-* [!UICONTROL Último item comprado]
-* [!UICONTROL Último item visualizado]
-* [!UICONTROL Item mais visualizado]
-
-### [!UICONTROL Pessoas que Compraram Isto, Compraram Aquilo] {#bought-bought}
-
-Recomenda os itens que são comprados com mais frequência pelos clientes ao mesmo tempo que o item especificado.
-
-Essa lógica retorna outros produtos que as pessoas compraram após comprar este. O produto especificado não está incluído no conjunto de resultados.
-
-Essa lógica permite aumentar as oportunidades de venda cruzada ao exibir uma recomendação em uma página de resumo do carrinho de compras, por exemplo, que exibe itens que outros compradores também compraram. Por exemplo, se o visitante estiver comprando um terno, a recomendação poderá exibir itens adicionais que outros visitantes compraram junto com o terno, como gravatas, sapatos e abotoaduras. À medida que os visitantes revisam suas compras, você fornece a eles recomendações adicionais.
-
-Se você selecionar este algoritmo, poderá selecionar as [!UICONTROL Chaves de recomendações] a seguir:
-
-* [!UICONTROL Item atual]
-* [!UICONTROL Último item comprado]
-* [!UICONTROL Último item visualizado]
-* [!UICONTROL Item mais visualizado]
-
-### [!UICONTROL Itens com Atributos Semelhantes] {#similar-attributes}
-
-Recomenda itens ou mídias semelhantes a itens ou mídias baseados na atividade da página atual ou no comportamento passado do visitante.
-
-Se você selecionar [!UICONTROL Itens com Atributos Semelhantes] ou [!UICONTROL Mídia com Atributos Semelhantes], você terá a opção de definir regras de similaridade de conteúdo.
-
-Usar a similaridade de conteúdo para gerar recomendações é especialmente eficaz para novos itens, que provavelmente não serão exibidos nas recomendações usando [!UICONTROL Pessoas que assistiram isto], [!UICONTROL assistiram aquilo] e outra lógica baseada no comportamento anterior. Você também pode usar similaridade de conteúdo para gerar recomendações úteis para novos visitantes, que não possuem compras antigas ou outros dados de histórico.
-
-Se você selecionar este algoritmo, poderá selecionar as [!UICONTROL Chaves de recomendações] a seguir:
-
-* [!UICONTROL Item atual]
-* [!UICONTROL Último item comprado]
-* [!UICONTROL Último item visualizado]
-* [!UICONTROL Item mais visualizado]
-
-Para obter mais informações, consulte [Similaridade de conteúdo](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+| Algoritmo | Como funciona | Quando usar | Chaves de recomendação |
+| --- | --- | --- | --- |
+| **[!UICONTROL Pessoas Que Visualizaram Isto, Visualizaram Aquilo]** | Recomenda itens visualizados com mais frequência na mesma sessão em que o item especificado é visualizado. Retorna outros produtos visualizados pelas pessoas após a visualização deste. O produto especificado não está incluído no conjunto de resultados. | Crie oportunidades de conversão adicionais recomendando itens que outros visitantes que visualizaram um item também visualizaram. Por exemplo, os visitantes que visualizam bicicletas rodoviárias no site também podem ver capacetes de bicicleta, kits de ciclismo, fechaduras e assim por diante, portanto, uma recomendação pode sugerir outros produtos que ajudem a aumentar a receita. | **[!UICONTROL Item Atual]**, **[!UICONTROL Último Item Comprado]**, **[!UICONTROL Último Item Visualizado]**, **[!UICONTROL Item Mais Visualizado]** |
+| **[!UICONTROL Pessoas que Visualizaram Isto, Compraram Aquilo]** | Recomenda itens visualizados que são comprados com mais frequência na mesma sessão em que o item especificado é visualizado. Retorna outros produtos comprados pelas pessoas após a visualização deste. O produto especificado não está incluído no conjunto de resultados. | Aumente as oportunidades de venda cruzada exibindo uma recomendação em uma página de produto, por exemplo, que exibe itens que outros visitantes que visualizaram o item compraram. Se o visitante estiver visualizando uma vara de pesca, a recomendação poderá mostrar itens adicionais que outros visitantes compraram, como caixas de engrenagens, pernaltas e iscas de pesca. À medida que os visitantes navegam pelo site, eles recebem recomendações de compra adicionais. | **[!UICONTROL Item Atual]**, **[!UICONTROL Último Item Comprado]**, **[!UICONTROL Último Item Visualizado]**, **[!UICONTROL Item Mais Visualizado]** |
+| **[!UICONTROL Pessoas que Compraram Isto, Compraram Aquilo]** | Recomenda os itens que são comprados com mais frequência pelos clientes ao mesmo tempo que o item especificado. Retorna outros produtos comprados pelas pessoas após a compra deste. O produto especificado não está incluído no conjunto de resultados. | Aumente as oportunidades de venda cruzada exibindo uma recomendação em uma página de resumo do carrinho de compras, por exemplo, que exibe itens que outros compradores também compraram. Se o visitante estiver comprando um terno, a recomendação poderá exibir itens adicionais que outros visitantes compraram junto com o terno, como gravatas, sapatos e abotoaduras. À medida que os visitantes revisam suas compras, eles recebem recomendações adicionais. | **[!UICONTROL Item Atual]**, **[!UICONTROL Último Item Comprado]**, **[!UICONTROL Último Item Visualizado]**, **[!UICONTROL Item Mais Visualizado]** |
+| **[!UICONTROL Itens com Atributos Semelhantes]** | Recomenda itens ou mídias semelhantes a itens ou mídias baseados na atividade da página atual ou no comportamento passado do visitante. Se **[!UICONTROL Itens com Atributos Semelhantes]** ou **[!UICONTROL Mídia com Atributos Semelhantes]** for selecionado, as regras de similaridade de conteúdo poderão ser definidas. Para obter mais informações, consulte [Similaridade de conteúdo](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity). | A similaridade de conteúdo é eficaz para novos itens, que provavelmente não serão exibidos nas recomendações usando **[!UICONTROL Pessoas que Visualizaram Isto]**, **[!UICONTROL Visualizaram Aquilo]** e outra lógica baseada no comportamento anterior. Ele também pode gerar recomendações para novos visitantes, que não têm compras anteriores ou outros dados históricos. | **[!UICONTROL Item Atual]**, **[!UICONTROL Último Item Comprado]**, **[!UICONTROL Último Item Visualizado]**, **[!UICONTROL Item Mais Visualizado]** |
 
 ## [!UICONTROL Baseado em Usuário]
 
-O tipo de algoritmo [!UICONTROL Baseado no Usuário] permite fazer recomendações com base no comportamento do usuário.
+O tipo de algoritmo **[!UICONTROL Baseado em Usuário]** recomenda itens com base no comportamento do usuário.
 
-Os seguintes algoritmos estão disponíveis com o tipo de algoritmo [!UICONTROL Baseado em Usuário]:
+Os seguintes algoritmos estão disponíveis com o tipo de algoritmo **[!UICONTROL Baseado em Usuário]**:
 
-### [!UICONTROL Itens visualizados recentemente] {#recently-viewed}
+| Algoritmo | Como funciona | Quando usar | Chaves de recomendação |
+| --- | --- | --- | --- |
+| **[!UICONTROL Itens visualizados recentemente]** | Use o histórico do visitante (abrangendo sessões) para apresentes os últimos *x* itens que o visitante viu, baseado no número de slots no design. Consulte [detalhes de Itens visualizados recentemente](#recently-viewed). | Páginas gerais, como página inicial ou de aterrissagem e anúncios em outros sites. | |
+| **[!UICONTROL Recomendado para você]** | Recomenda itens com base no histórico de navegação, visualização e compra de cada visitante. Exibições e compras são usadas para determinar os itens recomendados. A lista de recomendações é ponderada em relação à atividade mais recente do visitante, é atualizada na sessão e se torna mais personalizada conforme o usuário navega no site. | Forneça conteúdo e experiências personalizadas para visitantes novos e recorrentes. A chave de recomendação especificada (por exemplo, **[!UICONTROL Item atual]**) é usada para aplicar qualquer filtro de regra de inclusão selecionado, por exemplo, para excluir itens que não atendem a determinados critérios (produtos indisponíveis, artigos publicados há mais de 30 dias, filmes com classificação R e assim por diante) ou para limitar os itens incluídos a uma única categoria ou à categoria atual. | Chaves de filtragem: **[!UICONTROL Item Atual]**, **[!UICONTROL Último Item Comprado]**, **[!UICONTROL Último Item Visualizado]**, **[!UICONTROL Item Mais Visualizado]** |
 
-Use o histórico do visitante (abrangendo sessões) para apresentes os últimos *x* itens que o visitante viu, baseado no número de slots no design.
+### Detalhes de [!UICONTROL Itens visualizados recentemente] {#recently-viewed}
 
-O algoritmo [!UICONTROL Itens Visualizados Recentemente] retorna um resultado específico para um determinado [ambiente](/help/main/administrating-target/hosts.md). Se dois sites pertencerem a ambientes diferentes e um visitante alternar entre os dois sites, cada site exibirá somente itens visualizados recentemente do site em questão. Se dois sites estiverem no mesmo ambiente e um visitante alternar entre eles, ele visualizará os mesmos itens visualizados recentemente em ambos os sites.
+O algoritmo **[!UICONTROL Itens Visualizados Recentemente]** retorna resultados específicos para um determinado [ambiente](/help/main/administrating-target/hosts.md). Se dois sites pertencerem a ambientes diferentes e um visitante alternar entre os dois sites, cada site exibirá somente itens visualizados recentemente do site em questão. Se dois sites estiverem no mesmo ambiente e um visitante alternar entre eles, ele visualizará os mesmos itens visualizados recentemente em ambos os sites.
+
+O critério **[!UICONTROL Itens visualizados recentemente]** não pode ser usado para recomendações de backup.
+
+**[!UICONTROL Itens visualizados recentemente]** ou **[!UICONTROL Mídia visualizada recentemente]** podem ser filtrados para que somente itens com um determinado atributo sejam exibidos.
+
+* **[!UICONTROL Os critérios de]** visualizados recentemente podem ser configurados, assim como os outros critérios em recomendações.
+* [Coleções](/help/main/c-recommendations/c-products/collections.md), [exclusões](/help/main/c-recommendations/c-products/exclusions.md) e [inclusões](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluindo as regras especiais para Preço e Inventário) podem ser usadas da mesma forma que com qualquer outro critério.
+
+Um caso de uso é uma empresa multinacional com várias empresas, em que um visitante pode visualizar itens em várias propriedades digitais. Os itens visualizados recentemente podem ser limitados à propriedade em que foram visualizados, para que não sejam exibidos no site de outra propriedade.
 
 >[!NOTE]
 >
->Você não pode usar os critérios [!UICONTROL Itens visualizados recentemente] para fazer recomendações de backup.
-
-[!UICONTROL Itens visualizados recentemente] ou [!UICONTROL Mídia visualizada recentemente] podem ser filtrados para que somente itens com um determinado atributo sejam exibidos.
-
-* [!UICONTROL Os critérios de &#x200B;] visualizados recentemente podem ser configurados, assim como os outros critérios em recomendações.
-* Você pode usar [coleções](/help/main/c-recommendations/c-products/collections.md), [exclusões](/help/main/c-recommendations/c-products/exclusions.md) e [inclusões](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluindo as regras especiais para Preço e Inventário) da mesma forma que qualquer outro critério.
-
-Os possíveis casos de uso incluem: uma empresa multinacional com várias empresas pode ter um visitante para visualizar itens em várias propriedades digitais. Nesse caso, é possível limitar os itens exibidos recentemente somente àqueles da respectiva propriedade em que foram visualizados. Isso impede que itens visualizados recentemente sejam exibidos no site de outra propriedade digital.
-
-Use esse algoritmo em páginas gerais, como página inicial ou de aterrissagem e anúncios em outros sites.
-
->[!NOTE]
->
->[!UICONTROL Itens visualizados recentemente] respeita as configurações globais de exclusões e a configuração de coleção selecionada para a atividade. Se um item for excluído por uma exclusão global ou não fizer parte da coleção selecionada, ele não será exibido. Portanto, ao usar o critério [!UICONTROL Itens visualizados recentemente], a configuração &quot;Todas as coleções&quot; geralmente deve ser usada.
-
-### [!UICONTROL Recomendado para você] {#recommended-for-you}
-
-Recomenda itens com base no histórico de navegação, visualização e compra de cada visitante.
-
-Esse algoritmo permite fornecer conteúdo e experiências personalizadas para visitantes novos e recorrentes. A lista de recomendações é ponderada em relação à atividade mais recente do visitante, é atualizada na sessão e se torna mais personalizada conforme o usuário navega em seu site.
-
-Exibições e compras são usadas para determinar os itens recomendados. A chave de recomendação especificada (por exemplo, [!UICONTROL Item atual]) é usada para aplicar qualquer filtro de regra de inclusão selecionado.
-
-Por exemplo, você pode:
-
-* Exclua itens que não atendem a determinados critérios (produtos indisponíveis, artigos publicados há mais de 30 dias, filmes com classificação R e assim por diante).
-* Limitar os itens incluídos a uma única categoria ou à categoria atual.
-
-Se você selecionar esse algoritmo, poderá selecionar as seguintes Chaves de filtragem:
-
-* [!UICONTROL Item atual]
-* [!UICONTROL Último item comprado]
-* [!UICONTROL Último item visualizado]
-* [!UICONTROL Item mais visualizado]
+>**[!UICONTROL Itens visualizados recentemente]** respeita as configurações globais de exclusões e a configuração de coleção selecionada para a atividade. Se um item for excluído por uma exclusão global ou não fizer parte da coleção selecionada, ele não será exibido. Portanto, ao usar o critério **[!UICONTROL Itens visualizados recentemente]**, a configuração &quot;Todas as coleções&quot; geralmente deve ser usada.
 
 ## Critérios personalizados {#custom}
 
-O tipo de algoritmo [!UICONTROL Critério personalizado] permite fazer recomendações com base em um arquivo personalizado que você carregou.
+O tipo de algoritmo **[!UICONTROL Critério personalizado]** recomenda itens com base em um arquivo personalizado carregado.
 
-A recomendação é determinada por um item armazenado no perfil do visitante, usando os atributos user.*x* ou profile.*x*.
+A recomendação é determinada por um item armazenado no perfil do visitante, usando os atributos user.*x* ou profile.*x*. Quando esta opção é selecionada, o valor `entity.id` deve estar presente no atributo do perfil. Quando as recomendações se baseiam em atributos personalizados, o atributo personalizado deve ser selecionado primeiro e, em seguida, o tipo de recomendação.
 
-Quando esta opção é selecionada, o valor `entity.id` deve estar presente no atributo do perfil.
+A filtragem em tempo real pode ser aplicada à saída dos critérios personalizados. Por exemplo, os itens recomendados podem ser limitados aos da categoria ou marca favorita de um visitante. Isso combina cálculos offline com filtragem em tempo real, de modo que o [!DNL Target] pode adicionar personalização às recomendações calculadas offline ou listas com preparo personalizado. A ciência de dados e a pesquisa da organização são então combinadas com o delivery, a filtragem em tempo de execução, os testes A/B, o direcionamento, os relatórios e as integrações do Adobe.
 
-Ao basear as recomendações em atributos personalizados, selecione o atributo personalizado e, em seguida, selecione o tipo de recomendação.
-
-Você pode realizar uma filtragem em tempo real sobre os próprios resultados de critérios personalizados. Por exemplo, você pode limitar os itens recomendados somente àqueles da categoria ou marca favorita de um visitante. Isso permite combinar os cálculos offline com filtragens em tempo real.
-
-Essa funcionalidade significa que você pode usar o [!DNL Target] para adicionar personalização às suas recomendações calculadas offline ou listas com preparo personalizado. Isso combina o poder de seus cientistas de dados e pesquisa com a entrega testada e comprovada da Adobe, filtragem em tempo de execução, testes A/B, direcionamento, relatórios, integrações e muito mais.
-
-Com a adição das regras de inclusão aos [!UICONTROL Critérios personalizados], as recomendações foram transformadas de estáticas para dinâmicas com base nos interesses de um visitante.
+As regras de inclusão em **[!UICONTROL Critérios personalizados]** transformam recomendações estáticas em recomendações dinâmicas com base nos interesses do visitante.
 
 * Os critérios personalizados agora podem ser configurados, assim como outros critérios nas recomendações.
-* Você pode usar [coleções](/help/main/c-recommendations/c-products/collections.md), [exclusões](/help/main/c-recommendations/c-products/exclusions.md) e [inclusões](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluindo as regras especiais para Preço e Inventário) da mesma forma que qualquer outro critério.
+* [Coleções](/help/main/c-recommendations/c-products/collections.md), [exclusões](/help/main/c-recommendations/c-products/exclusions.md) e [inclusões](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluindo as regras especiais para Preço e Inventário) podem ser usadas da mesma forma que com qualquer outro critério.
 
 Os possíveis casos de uso incluem:
 
-* Você deseja recomendar filmes de uma lista personalizada, mas somente se o visitante ainda não os assistiu.
-* Você deseja executar um algoritmo offline e usar os resultados para potencializar suas recomendações, mas deve garantir que os itens esgotados nunca sejam recomendados.
-* Você deseja incluir apenas itens que são da categoria favorita deste visitante.
+* Recomendar filmes de uma lista personalizada, mas somente se o visitante ainda não os assistiu.
+* Execute um algoritmo offline e use os resultados para alimentar as recomendações, garantindo que os itens indisponíveis nunca sejam recomendados.
+* Inclua somente itens que sejam da categoria favorita deste visitante.
 
 ## Chaves de recomendação {#keys}
 
-As seguintes chaves de recomendação estão disponíveis na lista suspensa [!UICONTROL Chave de recomendação]:
+As seguintes chaves de recomendação estão disponíveis na lista suspensa **[!UICONTROL Chave de recomendação]**:
 
-### [!UICONTROL Item atual] {#current-item}
+| Chave | Como é determinado | O que passar | Usar em | Não usar em | Algoritmos |
+| --- | --- | --- | --- | --- | --- |
+| **[!UICONTROL Item atual]** | O item que o visitante está visualizando no momento. As recomendações exibem outros itens que possam interessar o visitante que está interessado no item especificado. | O valor `entity.id` deve ser passado como parâmetro na mbox de exibição. | Páginas de item único, como páginas de produtos. | Páginas de resultados de pesquisa nulas. | **[!UICONTROL Itens com Atributos Semelhantes]**, **[!UICONTROL Pessoas que Visualizaram Isto, Visualizaram Aquilo]**, **[!UICONTROL Pessoas Que Visualizaram Isto, Compraram Aquilo]**, **[!UICONTROL Pessoas Que Compraram Isto, Compraram Aquilo]** |
+| **[!UICONTROL Último item comprado]** | O último item que foi comprado por cada visitante único. | Nada. Isso é capturado automaticamente. | Página inicial, página minha conta, anúncios em outros sites. | Páginas de produto ou páginas relevantes para compras. | **[!UICONTROL Itens com Atributos Semelhantes]**, **[!UICONTROL Pessoas que Visualizaram Isto, Visualizaram Aquilo]**, **[!UICONTROL Pessoas Que Visualizaram Isto, Compraram Aquilo]**, **[!UICONTROL Pessoas Que Compraram Isto, Compraram Aquilo]** |
+| **[!UICONTROL Último item visualizado]** | O último item que foi visualizado por cada visitante único. | Nada. Isso é capturado automaticamente. | Página inicial, página minha conta, anúncios em outros sites. | Páginas de produto ou páginas relevantes para compras. | **[!UICONTROL Itens com Atributos Semelhantes]**, **[!UICONTROL Pessoas que Visualizaram Isto, Visualizaram Aquilo]**, **[!UICONTROL Pessoas Que Visualizaram Isto, Compraram Aquilo]**, **[!UICONTROL Pessoas Que Compraram Isto, Compraram Aquilo]** |
+| **[!UICONTROL Item mais visualizado]** | Os itens ou mídias exibidos com mais frequência no site. Essa lógica exibe recomendações com base nos itens mais visualizados para aumentar as conversões de outros itens. Por exemplo, um site de mídia pode exibir recomendações em sua página inicial para os vídeos mais visualizados, incentivando os visitantes a assistir a vídeos adicionais. | | | | **[!UICONTROL Itens com Atributos Semelhantes]**, **[!UICONTROL Pessoas que Visualizaram Isto, Visualizaram Aquilo]**, **[!UICONTROL Pessoas Que Visualizaram Isto, Compraram Aquilo]**, **[!UICONTROL Pessoas Que Compraram Isto, Compraram Aquilo]** |
+| **[!UICONTROL Categoria Atual]** | A categoria do produto que o visitante está visualizando no momento. As recomendações exibem itens na categoria de produto especificada. | O valor `entity.categoryId` deve ser passado como parâmetro para a mbox de exibição. | Páginas de categoria única. | Páginas de resultados de pesquisa nulas. | **[!UICONTROL Mais vendidos]**, **[!UICONTROL Mais visualizados]** |
+| **[!UICONTROL Categoria Favorita]** | A categoria de produto favorita do visitante. As recomendações exibem itens na categoria de produto especificada. | O valor `entity.categoryId` deve ser passado como parâmetro para a mbox de exibição. | Páginas de categoria única. | Páginas de resultados de pesquisa nulas. | **[!UICONTROL Mais vendidos]**, **[!UICONTROL Mais visualizados]** |
 
-A recomendação é determinada pelo item que o visitante está vendo atualmente.
+### Chave de recomendação personalizada
 
-As recomendações exibem outros itens que possam interessar o visitante que está interessado no item especificado.
+As recomendações podem ser baseadas no valor de um atributo de perfil personalizado. Por exemplo, os filmes recomendados podem ser exibidos com base no filme que um visitante adicionou mais recentemente à fila.
 
-Quando essa opção é selecionada, o valor `entity.id` deve ser passado como parâmetro na mbox de exibição.
+1. Selecione o atributo de perfil personalizado na lista suspensa **[!UICONTROL Chave de recomendação]** (por exemplo, &quot;**[!UICONTROL Último programa adicionado à Lista de favoritos]**&quot;).
 
-Pode ser usado com os seguintes algoritmos:
+1. Selecione a **[!UICONTROL Lógica de recomendação]** (por exemplo, &quot;**[!UICONTROL Pessoas que assistiram isto, assistiram aquilo]**&quot;).
 
-* [!UICONTROL Itens com atributos similares]
-* [!UICONTROL Pessoas Que Visualizaram Isto, Visualizaram Aquilo]
-* [!UICONTROL Pessoas que Visualizaram Isto, Compraram Aquilo]
-* [!UICONTROL Pessoas que Compraram Isto, Compraram Aquilo]
-
-Usar a chave de recomendações do [!UICONTROL Item Atual] do site em:
-
-* Páginas de item único, como páginas de produtos.
-* NÃO use em páginas de resultados de busca nulos.
-
-### [!UICONTROL Último item comprado] {#last-purchased}
-
-A recomendação é determinada pelo último item comprado por cada visitante único. Isso é capturado automaticamente, portanto, nenhum valor deve ser transmitido na página.
-
-Pode ser usado com os seguintes algoritmos:
-
-* [!UICONTROL Itens com atributos similares]
-* [!UICONTROL Pessoas Que Visualizaram Isto, Visualizaram Aquilo]
-* [!UICONTROL Pessoas que Visualizaram Isto, Compraram Aquilo]
-* [!UICONTROL Pessoas que Compraram Isto, Compraram Aquilo]
-
-Use a chave de recomendações [!UICONTROL Último Item Comprado] em seu site em:
-
-* Página inicial, página minha conta, anúncios em outros sites.
-* NÃO use nas páginas do produto ou páginas relevantes para compras.
-
-#### Chave de recomendações personalizadas
-
-Você pode basear as recomendações no valor de um atributo de perfil personalizado. Por exemplo, suponha que você deseja exibir filmes recomendados com base no filme adicionado recentemente por um visitante à fila.
-
-1. Selecione o atributo de perfil personalizado na lista suspensa **[!UICONTROL Chave de recomendação]** (por exemplo, &quot;[!UICONTROL Último programa adicionado à Lista de favoritos]&quot;).
-1. Em seguida, selecione sua **[!UICONTROL Lógica de recomendação]** (por exemplo, &quot;[!UICONTROL Pessoas que assistiram isto, assistiram aquilo]&quot;).
-
-Se o atributo de perfil personalizado não corresponder diretamente a uma única ID de entidade, é necessário explicar a [!DNL Recommendations] como você deseja que a correspondência seja feita a uma entidade. Por exemplo, suponha que você deseja exibir os principais itens de venda da marca favorita de um visitante.
+Se o atributo de perfil personalizado não corresponder diretamente a uma única ID de entidade, especifique como [!DNL Recommendations] corresponde a uma entidade. Por exemplo, para exibir os itens mais vendidos da marca favorita de um visitante:
 
 1. Selecione o atributo de perfil personalizado na lista suspensa **[!UICONTROL Chave de recomendação]** (por exemplo, &quot;Marca favorita&quot;).
 
-1. Em seguida, selecione a **[!UICONTROL Lógica de Recomendação]** que você deseja usar com esta chave (por exemplo, &quot;[!UICONTROL Mais vendidos]&quot;).
+1. Selecione a **[!UICONTROL Lógica de Recomendação]** para usar com esta chave (por exemplo, &quot;**[!UICONTROL Mais vendidos]**&quot;).
 
-   A opção [!UICONTROL Agrupar por Valor Exclusivo de] é exibida.
+   A opção **[!UICONTROL Agrupar por Valor Exclusivo de]** é exibida.
 
-1. Selecione o atributo de entidade que corresponde à chave escolhida. Neste caso, &quot;[!UICONTROL Marca favorita]&quot; corresponde a `entity.brand`.
+1. Selecione o atributo de entidade que corresponde à chave escolhida. Neste caso, &quot;**[!UICONTROL Marca favorita]**&quot; corresponde a `entity.brand`.
 
-   [!DNL Recommendations] agora gera uma lista de &quot;[!UICONTROL Mais vendidos]&quot; para cada marca e mostra para o visitante a lista de &quot;[!UICONTROL Mais vendidos]&quot; apropriada com base no valor armazenado no atributo de perfil [!UICONTROL Marca favorita] do visitante.
-
-### [!UICONTROL Último item visualizado] {#last-viewed}
-
-A recomendação é determinada pelo último item visto por cada visitante único. Isso é capturado automaticamente, portanto, nenhum valor deve ser transmitido na página.
-
-Pode ser usado com os seguintes algoritmos:
-
-* [!UICONTROL Itens com atributos similares]
-* [!UICONTROL Pessoas Que Visualizaram Isto, Visualizaram Aquilo]
-* [!UICONTROL Pessoas que Visualizaram Isto, Compraram Aquilo]
-* [!UICONTROL Pessoas que Compraram Isto, Compraram Aquilo]
-
-Use a chave de recomendações [!UICONTROL Último item exibido] em seu site em:
-
-* Página inicial, página minha conta, anúncios em outros sites.
-* NÃO use nas páginas do produto ou páginas relevantes para compras.
-
-### [!UICONTROL Item mais visualizado] {#most-viewed-logic}
-
-Exibe os itens ou as mídias que são exibidos com mais frequência no site.
-
-Essa lógica permite exibir recomendações com base nos itens mais visualizados no site para aumentar as conversões de outros itens. Por exemplo, um site de mídia pode exibir recomendações em sua página inicial para os vídeos mais visualizados, incentivando os visitantes a assistir a vídeos adicionais.
-
-Essa chave de recomendação pode ser usada com os seguintes algoritmos:
-
-* [!UICONTROL Itens com atributos similares]
-* [!UICONTROL Pessoas Que Visualizaram Isto, Visualizaram Aquilo]
-* [!UICONTROL Pessoas que Visualizaram Isto, Compraram Aquilo]
-* [!UICONTROL Pessoas que Compraram Isto, Compraram Aquilo]
-
-### [!UICONTROL Categoria Atual] {#current-category}
-
-A recomendação é determinada pela categoria de produto que o visitante está vendo atualmente.
-
-As recomendações exibem itens na categoria de produto especificada.
-
-Quando essa opção é selecionada, o valor `entity.categoryId` deve ser passado como parâmetro para a mbox de exibição.
-
-Essa chave de recomendação pode ser usada com os seguintes algoritmos:
-
-* [!UICONTROL Mais vendidos]
-* [!UICONTROL Mais visualizados]
-
-Use a chave de recomendações da [!UICONTROL Categoria Atual] em seu site em:
-
-* Páginas de categoria única.
-* NÃO use em páginas de resultados de busca nulos.
-
-### [!UICONTROL Categoria Favorita] {#favorite-category}
-
-A recomendação é determinada pela categoria de produto favorita do visitante.
-
-As recomendações exibem itens na categoria de produto especificada.
-
-Quando essa opção é selecionada, o valor `entity.categoryId` deve ser passado como parâmetro para a mbox de exibição.
-
-Essa chave de recomendação pode ser usada com os seguintes algoritmos:
-
-* [!UICONTROL Mais vendidos]
-* [!UICONTROL Mais visualizados]
-
-Use a chave de recomendações da [!UICONTROL Categoria Atual] em seu site em:
-
-* Páginas de categoria única.
-* NÃO use em páginas de resultados de busca nulos.
+   [!DNL Recommendations] agora gera uma lista de &quot;**[!UICONTROL Mais vendidos]**&quot; para cada marca e mostra para o visitante a lista de &quot;**[!UICONTROL Mais vendidos]**&quot; apropriada com base no valor armazenado no atributo de perfil **[!UICONTROL Marca favorita]** do visitante.
 
 ### [!UICONTROL Afinidade do Site] {#site-affinity}
 
-Recomenda itens com base na certeza de uma relação entre os itens. Você pode configurar esses critérios para determinar quantos dados são exigidos antes de uma recomendação ser apresentada usando o controle deslizante [!UICONTROL Regras de inclusão]. Por exemplo, se você selecionar muito forte, serão recomendados os produtos com maior certeza de correspondência.
+Recomenda itens com base na certeza de uma relação entre os itens. Este critério pode ser configurado para definir quantos dados são necessários antes que uma recomendação seja exibida, usando o controle deslizante **[!UICONTROL Regras de inclusão]**. Por exemplo, quando a opção muito forte é selecionada, os produtos com maior certeza de correspondência são recomendados.
 
-Por exemplo, se você definir uma afinidade muito forte e seu design incluir cinco itens, três dos quais alcançam o limite de força de conexão, os dois itens que não alcançarem os requisitos mínimos de força não serão exibidos nas recomendações e serão substituídos por seus itens de backup definidos. Os itens com a maior afinidade são exibidos primeiro.
+Por exemplo, se uma afinidade muito forte estiver definida e o design incluir cinco itens, três dos quais alcançam o limite de força de conexão, os dois itens que não alcançarem os requisitos mínimos de força não serão exibidos nas recomendações e serão substituídos pelos itens de backup definidos. Os itens com a maior afinidade são exibidos primeiro.
 
-Por exemplo, um retailer online pode recomendar itens em visitas subsequentes nas quais um visitante tenha mostrado interesse durante sessões anteriores. A atividade para cada sessão de visitante é capturada para calcular uma afinidade com base em um modelo de recenticidade e frequência. À medida que esse visitante retorna ao seu site, a afinidade do site é usada para exibir recomendações com base em ações anteriores no site.
+Como outro exemplo, um retailer online pode recomendar itens em visitas subsequentes nas quais um visitante tenha mostrado interesse durante sessões anteriores. A atividade para cada sessão de visitante é capturada para calcular uma afinidade com base em um modelo de recenticidade e frequência. À medida que o visitante retorna ao site, a afinidade do site é usada para exibir recomendações com base em ações anteriores no site.
 
-Alguns clientes com coleções de produtos e comportamento do site diversos poderão obter melhores resultados caso definam uma afinidade do site fraca.
+Uma afinidade fraca do site pode fornecer os melhores resultados para clientes com coleções de produtos e comportamentos de site diversos.
 
-Essa lógica pode ser usada com as seguintes chaves de recomendação:
-
-* [!UICONTROL Item atual]
-* [!UICONTROL Último item comprado]
-* [!UICONTROL Último item visualizado]
-* [!UICONTROL Item mais visualizado]
+Esta lógica pode ser usada com as seguintes chaves de recomendação: **[!UICONTROL Item Atual]**, **[!UICONTROL Último Item Comprado]**, **[!UICONTROL Último Item Visualizado]**, **[!UICONTROL Item Mais Visualizado]**.

@@ -1,8 +1,8 @@
 ---
 keywords: design de recomendações, criar design, copiar design
-description: Saiba como criar um design do [!DNL Target Recommendations] usando um design padrão ou criando um design personalizado para melhor se ajustar ao layout da sua página.
-title: Como criar um design no Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+description: Saiba como criar um design do [!DNL Target Recommendations] usando um design padrão ou criando um design personalizado para melhor se ajustar ao layout de uma página.
+title: Criar um design
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 TQID: 'https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk'
@@ -18,56 +18,47 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d5030abcda38bbc6d33b88ce3bb5d64f69e4e492
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 24%
+source-wordcount: '912'
+ht-degree: 11%
 ---
-# Criar um design
+# Criar um design {#create-design}
 
-Um design define como as recomendações são exibidas em uma página.
+>[!BEGINSHADEBOX]
 
-Você pode criar um design de [!UICONTROL recomendações] usando um design padrão ou criando um design personalizado. A tela **[!UICONTROL Recomendações > Designs]** exibe cartões de design padrão e qualquer design que tenha sido criado em sua conta.
+**Nesta página:** Saiba como criar, editar, copiar e excluir designs no [!DNL Adobe Target Recommendations] e como retornar recomendações como JSON.
 
-Lembre-se das seguintes informações ao trabalhar com designs:
+>[!ENDSHADEBOX]
 
-* Você pode criar um design de recomendações usando um design padrão ou criar um design personalizado.
-* Não é possível editar ou excluir um design padrão.
-* É possível editar, copiar ou excluir um design personalizado.
-* Para criar um design com base em um design padrão, primeiro copie o design e edite a cópia.
+Um design define como as recomendações são exibidas em uma página. Um design pode ser baseado em um design padrão ou criado como um design personalizado. A tela **[!UICONTROL Recomendações]** > **[!UICONTROL Designs]** exibe os cartões de design padrão e os designs criados na conta.
 
-Esta ilustração mostra o design padrão 1 x 4:
+* Um design padrão não pode ser editado ou excluído.
+* Um design personalizado pode ser editado, copiado ou excluído.
+* Para criar um design com base em um design padrão, primeiro copie o design e, em seguida, edite a cópia.
 
-![1 x 4 design padrão](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
+Um design pode ser criado durante o processo de criação da atividade no **[!UICONTROL Visual Experience Composer]** (VEC) ou na biblioteca de design fora da criação da atividade. As etapas a seguir pressupõem que o design seja criado a partir da biblioteca, mas as etapas são semelhantes.
 
-Esta ilustração mostra um design personalizado:
+## Criar um design a partir da biblioteca {#steps}
 
-![Design personalizado](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
+1. Clique em **[!UICONTROL Recomendações]** > **[!UICONTROL Designs]** para exibir a biblioteca **[!UICONTROL Designs]**.
 
-Você pode criar um design durante o processo de criação da atividade no [!UICONTROL Visual Experience Composer] (VEC) ou na biblioteca de design fora da criação da atividade. As seções a seguir pressupõem que você esteja criando designs da biblioteca, mas as etapas são semelhantes.
+1. Inicie o design de uma das seguintes maneiras:
 
-## Criar designs
+   * Para basear o design em um design padrão ou em um design existente, clique no ícone Mais Ações ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) desse design e clique em **[!UICONTROL Copiar]**. A caixa de diálogo **[!UICONTROL Criar Design]** é exibida. A cópia editada torna-se um novo design personalizado.
+   * Para criar um design personalizado do zero, clique em **[!UICONTROL Criar Design]**.
 
-Você pode criar um design com base em um design padrão ou criar um design personalizado.
+     ![Designs de biblioteca com o botão Criar design realçado](../assets/design_1.png)
 
-### Criar um design com base em um design padrão
+1. Digite um **[!UICONTROL Nome]** e selecione uma imagem de visualização opcional a ser exibida no cartão de design.
 
-1. Clique em **[!UICONTROL Recomendações]** > **[!UICONTROL Designs]** para exibir a biblioteca [!UICONTROL Designs].
-
-
-1. Clique no ícone Mais Ações ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) do design que você deseja criar e clique em **[!UICONTROL Copiar]**.
-
-   A caixa de diálogo [!UICONTROL Criar Design] é exibida.
-
-1. Digite um **[!UICONTROL Nome]** e uma imagem de visualização opcional para exibir no cartão de design.
-
-   Quando você usa um design padrão, o nome do design e &quot;Cópia&quot; aparecem no campo **[!UICONTROL Nome do Conteúdo]**. Você pode editar o nome. Você também pode selecionar uma imagem para exibir no cartão de design.
+   Quando um design padrão é usado, o nome do design seguido de &quot;Cópia&quot; aparece no campo **[!UICONTROL Nome do Conteúdo]**. O nome pode ser editado.
 
 1. (Condicional) Edite o design **[!UICONTROL Code]**, conforme desejado.
 
-   Os designs de recomendação usam o idioma de design da Velocity de fonte aberta. É possível encontrar informações sobre o Velocity em [https://velocity.apache.org](https://velocity.apache.org) e em [Personalizar um design usando o Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
+   Os designs de recomendação usam o idioma de design da Velocity de fonte aberta. Para obter informações sobre o Velocity, consulte [https://velocity.apache.org](https://velocity.apache.org) e [Personalizar um design usando o Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Um design pode ser HTML ou não-HTML. Por padrão, os designs do HTML são envolvidos com uma tag `<div>` para permitir o rastreamento de cliques em um ambiente da Web. Designs não-HTML são para ambientes que não sejam da Web onde click-tracking não é possível. Deslize o botão [!UICONTROL HTML Design] para a posição &quot;desligado&quot; para usar código que não seja HTML.
+   Um design pode ser HTML ou não-HTML. Por padrão, os designs do HTML são envolvidos com uma tag `<div>` para permitir o rastreamento de cliques em um ambiente da Web. Designs não-HTML são para ambientes que não sejam da Web onde click-tracking não é possível. Deslize o botão **[!UICONTROL HTML Design]** para a posição &quot;desligado&quot; para usar código que não seja HTML.
 
    >[!NOTE]
    >
@@ -75,43 +66,25 @@ Você pode criar um design com base em um design padrão ou criar um design pers
 
 1. Clique em **[!UICONTROL Criar]**.
 
-### Criar um design personalizado
+1. Clique no ícone Mais Ações ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) do design para editar, copiar ou excluir e clique na opção apropriada: **[!UICONTROL Editar]**, **[!UICONTROL Copiar]** ou **[!UICONTROL Excluir]**.
 
-1. Clique em **[!UICONTROL Recomendações]** > **[!UICONTROL Designs]** para exibir a biblioteca [!UICONTROL Designs].
+   ![Designa a biblioteca com o menu Mais Ações aberto, mostrando Editar, Copiar e Excluir](../assets/design_2.png)
 
-1. Clique em **[!UICONTROL Criar design]**.
+Designs estão disponíveis em toda a conta. O uso entre contas deve ser considerado antes que um design seja excluído. Os designs excluídos não podem ser recuperados.
 
-   Para basear seu novo design personalizado em um design existente, clique no ícone [!UICONTROL Mais Ações] ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) do design que deseja criar e clique em [!UICONTROL Copiar]. Em seguida, você pode editar a cópia para criar um novo design personalizado.
+## Exemplo de JSON {#json-example}
 
-1. Adicione um **[!UICONTROL Name]** e uma imagem de visualização opcional.
+O exemplo a seguir mostra como as respostas JSON podem ser retornadas quando uma atividade é configurada com o [editor baseado em formulário](/help/main/c-experiences/form-experience-composer.md).
 
-1. (Condicional) Edite o design **[!UICONTROL Code]**, conforme desejado.
+1. Crie um design dentro da **[!UICONTROL Biblioteca de design]** ou dentro do fluxo de trabalho baseado em formulário. Um design criado no fluxo de trabalho do **[!UICONTROL Visual Experience Composer]** (VEC) só pode ser um design de HTML, que é colocado em um `<div>` para fins de rastreamento de cliques.
 
-   Consulte as informações na Etapa 4 acima para obter mais informações.
+1. Verifique se a opção **[!UICONTROL HTML Design]** está desativada:
 
-1. Clique em **[!UICONTROL Criar]**.
+   ![Alternância do HTML Design na posição desligado](/help/main/c-recommendations/c-design-overview/assets/html_design_toggle.png)
 
-## Editar, copiar ou excluir um design
+1. Cole o código como o exemplo a seguir no design:
 
-Lembre-se de que não é possível editar ou copiar um design padrão; você só pode copiar designs padrão.
-
-Clique no ícone [!UICONTROL Mais Ações] ( ![Ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) do design que você deseja editar ou excluir e clique no ícone apropriado: [!UICONTROL Editar], [!UICONTROL Copiar] ou [!UICONTROL Excluir].
-
-É possível copiar um design existente para criar um design duplicado que você pode modificar. Esse processo permite criar um design semelhante com menos esforço.
-
-Esteja ciente de que os designs estão disponíveis em toda a conta. Considere o uso entre contas antes de excluir um design. Os designs excluídos não podem ser recuperados.
-
-## Exemplo de JSON {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
-
-O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configurar uma atividade por meio do [editor baseado em formulário](/help/main/c-experiences/form-experience-composer.md).
-
-1. Crie um design dentro da [!UICONTROL Biblioteca de design] ou dentro do fluxo de trabalho baseado em formulário. Se você tentar criar um design dentro do fluxo de trabalho do [!UICONTROL Visual Experience Composer] (VEC), não será possível criar nada além de um design de HTML, que está envolvido com um `<div>` para fins de rastreamento de cliques.
-
-1. Verifique se a opção &quot;HTML Design&quot; está desativada:
-
-   ![html_design_alternar imagem](assets/html_design_toggle.png)
-
-1. O código a seguir é um exemplo do que você pode colar no design:
+   +++ Código de design de exemplo que retorna uma lista de IDs de entidade
 
    ```javascript
        #* 
@@ -140,12 +113,16 @@ O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configu
        }  
    ```
 
+   +++
+
 1. Configure uma atividade [!DNL Recommendations] baseada em formulário que use este design.
+
+   +++ Saiba como configurar uma atividade [!DNL Recommendations] baseada em formulário 
 
    1. Navegue até a página **[!UICONTROL Atividades]**.
    1. Clique em **[!UICONTROL Criar atividade]** > **[!UICONTROL Recomendações]**.
    1. Em **[!UICONTROL Escolher Experience Composer]**, selecione **[!UICONTROL Formulário]** e clique em **[!UICONTROL Avançar]**.
-   1. Em localização, digite o texto: &quot;Sample_Recs_Response&quot;
+   1. Em localização, digite o texto &quot;Sample_Recs_Response&quot;.
    1. Em **[!UICONTROL Conteúdo padrão]**, clique na seta para baixo e depois clique em **[!UICONTROL Adicionara recomendação]**.
    1. Selecione um tipo de página. Isso determina a filtragem inicial da próxima tela.
    1. Selecione um cartão de Critérios e depois clique em **[!UICONTROL Próximo]**.
@@ -153,9 +130,11 @@ O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configu
    1. Complete o processo de configuração.
    1. Clique na seta à direita próximo a **[!UICONTROL Inativo]** e depois selecione **[!UICONTROL Ativar]**.
 
-1. Depois que sua atividade estiver configurada e ativada, você pode configurar uma solicitação de amostra para recuperar a resposta limpa do JSON.
+   +++
 
-   A partir do momento em que você salva sua atividade, [!DNL Target] precisa criar um modelo para dar suporte à configuração de critérios selecionados. Dependendo de vários fatores, esse processo pode levar algum tempo. Os resultados aparecem quando o modelo tiver sido criado.
+1. Depois que a atividade for configurada e ativada, uma solicitação de amostra pode ser configurada para obter a resposta JSON limpa.
+
+   A partir do momento em que a atividade é salva, [!DNL Target] precisa criar um modelo para suportar a configuração dos critérios selecionados. Dependendo de vários fatores, esse processo pode levar algum tempo. Os resultados aparecem depois que o modelo é criado.
 
    Por exemplo:
 
@@ -167,168 +146,164 @@ O exemplo a seguir mostra como as respostas JSON podem ser retornadas ao configu
 
    | Parâmetro | Valor |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Código do cliente do Target (disponível em /help/target/products.html#recsSettings > Token de API do Recommendations > Código do cliente). |
-   | `[YOUR_MBOX_NAME]` | O nome selecionado na seção &quot;locais&quot; do Recommendations baseado em formulário, neste caso Sample_Recs_Response. |
-   | `[ENTITY_ID` | O `entity.id` de um item em seu catálogo. |
-   | `[AT_PROPERTY_TOKEN]` | (Opcional) Adicione se você selecionou uma Propriedade (parte das Permissões empresariais) durante a configuração da atividade. |
+   | `[YOUR_CLIENT_CODE]` | O código de cliente [!DNL Target] (disponível em /help/target/products.html#recsSettings > Token de API do Recommendations > Código de cliente). |
+   | `[YOUR_MBOX_NAME]` | O nome selecionado na seção &quot;locais&quot; da atividade do Recommendations baseada em formulário, neste caso Sample_Recs_Response. |
+   | `[ENTITY_ID]` | O `entity.id` de um item no catálogo. |
+   | `[AT_PROPERTY_TOKEN]` | (Opcional) Adicionado quando uma Propriedade (parte das Permissões empresariais) era selecionada durante a configuração da atividade. |
 
-Depois que seu algoritmo for executado e você obter os resultados, sua resposta deve ser:
+Depois que o algoritmo for executado e os resultados estiverem disponíveis, a resposta será semelhante ao seguinte:
 
-![imagem_de_recomendação_json](assets/json_recommendation.png){width="575px"}
+![Resposta JSON com os itens recomendados](/help/main/c-recommendations/c-design-overview/assets/json_recommendation.png){width="575px"}
 
-## Dicas e truques adicionais sobre objetos JSON {#section_C305673C68944749969DB239E3221DC2}
+## Dicas adicionais de objetos JSON {#json-tips}
 
-Você também pode enviar de volta uma lista de itens delimitada por vírgulas simples configurando um design com a seguinte sintaxe:
+Uma lista de itens delimitada por vírgulas simples também pode ser enviada de volta configurando um design com a seguinte sintaxe:
 
 ```
-entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
+$entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-Como alternativa, você pode enviar informações adicionais na resposta. O seguinte arquivo de código é um exemplo mais complexo que retorna muito mais do que as IDs de entidade com seus slots associados (ordem). Este exemplo de design também retorna detalhes da atividade, detalhes do [!UICONTROL Perfil de Destino] (conforme aplicável) e outros `entity.attributes` associados aos itens retornados.
+Informações adicionais também podem ser enviadas na resposta. O código a seguir é um exemplo mais complexo que retorna muito mais do que as IDs de entidade com seus slots associados (ordem). Este exemplo de design também retorna detalhes da atividade, detalhes do **[!UICONTROL Perfil de Destino]** (conforme aplicável) e outros `entity.attributes` associados aos itens retornados.
+
++++ Exemplo de código de design que retorna detalhes de atividade, perfil e entidade
 
 ```javascript
-    {   
-     "adobeRecommendations": {   
-      "notes": {   
-       "purpose": "Return a list of entity ids with their associated entity.attributes",   
-       "use-case": "Use this approach to avoid looking up attribute details after receiving a response from Target",   
-       "version": "01"   
-      },   
-      "recommendedItems": {   
-       "slot-01": "$entity1.id",   
-       "slot-02": "$entity2.id",   
-       "slot-03": "$entity3.id",   
-       "slot-04": "$entity4.id",   
-       "slot-05": "$entity5.id",   
-       "slot-06": "$entity6.id",   
-       "slot-07": "$entity7.id",   
-       "slot-08": "$entity8.id",   
-       "slot-09": "$entity9.id",   
-       "slot-10": "$entity10.id"   
-      },   
-      "activityDetails": {   
-       "mbox.name": "email-mbox",   
-       "campaign.name": "\${campaign.name}",   
-       "campaign.id": "\${campaign.id}",   
-       "campaign.recipe.name": "\${campaign.recipe.name}",   
-       "campaign.recipe.id": "\${campaign.recipe.id}",   
-       "offer.name": "\${offer.name}",   
-       "offer.id": "\${offer.id}",   
-       "criteria.title": "$criteria.title",   
-       "algorithm.name": "$algorithm.name",   
-       "algorithm.dayCount": "$algorithm.dayCount"   
-      },   
-      "visitorProfile": {   
-       "profile.favorite-category": "\${profile.favorite-category}",   
-       "profile.test": "\${profile.test}",   
-       "user.endpoint.lastPurchasedEntity": "\${user.endpoint.lastPurchasedEntity}",   
-       "user.endpoint.lastViewedEntity": "\${user.endpoint.lastViewedEntity}",   
-       "user.endpoint.mostViewedEntity": "\${user.endpoint.mostViewedEntity}",   
-       "user.endpoint.categoryAffinity": "\${user.endpoint.categoryAffinity}",   
-       "profile.geolocation.city": "\${profile.geolocation.city}",   
-       "profile.geolocation.dma": "\${profile.geolocation.dma}",   
-       "profile.geolocation.state": "\${profile.geolocation.state}",   
-       "profile.geolocation.country": "\${profile.geolocation.country}",   
-       "profile.sessionCount": "\${profile.sessionCount}",   
-       "profile.averageDaysBetweenVisits": "\${profile.averageDaysBetweenVisits}",   
-       "profile.browserTime": "\${profile.browserTime}",   
-       "user.activeActivities": "\${user.activeActivities}",   
-       "user.pcId": "\${user.pcId}",   
-       "user.isFirstSession": "\${user.isFirstSession}",   
-       "user.isNewSession": "\${user.isNewSession}",   
-       "user.header": "\${user.header}",   
-       "user.parameter": "\${user.parameter}"   
-      },   
-      "recKey": {   
-       "recKeyDetails": {   
-        "id": "$key.id",   
-        "name": "$key.name",   
-        "category": "$key.category",   
-        "pageUrl": "$key.pageUrl",   
-        "thumbnailUrl": "$key.thumbnailUrl"   
-       }   
-      },   
-      "recDetailedResults": {   
-       "recEntity1Details": {   
-        "id": "$entity1.id",   
-        "name": "$entity1.name",   
-        "category": "$entity1.category",   
-        "pageUrl": "$entity1.pageUrl",   
-        "thumbnailUrl": "$entity1.thumbnailUrl"   
-       },   
-       "recEntity2Details": {   
-        "id": "$entity2.id",   
-        "name": "$entity2.name",   
-        "category": "$entity2.category",   
-        "pageUrl": "$entity2.pageUrl",   
-        "thumbnailUrl": "$entity2.thumbnailUrl"   
-       },   
-       "recEntity3Details": {   
-        "id": "$entity3.id",   
-        "name": "$entity3.name",   
-        "category": "$entity3.category",   
-        "pageUrl": "$entity3.pageUrl",   
-        "thumbnailUrl": "$entity3.thumbnailUrl"   
-       },   
-       "recEntity4Details": {   
-        "id": "$entity4.id",   
-        "name": "$entity4.name",   
-        "category": "$entity4.category",   
-        "pageUrl": "$entity4.pageUrl",   
-        "thumbnailUrl": "$entity4.thumbnailUrl"   
-       },   
-       "recEntity5Details": {   
-        "id": "$entity5.id",   
-        "name": "$entity5.name",   
-        "category": "$entity5.category",   
-        "pageUrl": "$entity5.pageUrl",   
-        "thumbnailUrl": "$entity5.thumbnailUrl"   
-       },   
-       "recEntity6Details": {   
-        "id": "$entity6.id",   
-        "name": "$entity6.name",   
-        "category": "$entity6.category",   
-        "pageUrl": "$entity6.pageUrl",   
-        "thumbnailUrl": "$entity6.thumbnailUrl"   
-       },   
-       "recEntity7Details": {   
-        "id": "$entity7.id",   
-        "name": "$entity7.name",   
-        "category": "$entity7.category",   
-        "pageUrl": "$entity7.pageUrl",   
-        "thumbnailUrl": "$entity7.thumbnailUrl"   
-       },   
-       "recEntity8Details": {   
-        "id": "$entity8.id",   
-        "name": "$entity8.name",   
-        "category": "$entity8.category",   
-        "pageUrl": "$entity8.pageUrl",   
-        "thumbnailUrl": "$entity8.thumbnailUrl"   
-       },   
-       "recEntity9Details": {   
-        "id": "$entity9.id",   
-        "name": "$entity9.name",   
-        "category": "$entity9.category",   
-        "pageUrl": "$entity9.pageUrl",   
-        "thumbnailUrl": "$entity9.thumbnailUrl"   
-       },   
-       "recEntity10Details": {   
-        "id": "$entity10.id",   
-        "name": "$entity10.name",   
-        "category": "$entity10.category",   
-        "pageUrl": "$entity10.pageUrl",   
-        "thumbnailUrl": "$entity10.thumbnailUrl"   
-       }   
-      }   
+  {   
+   "adobeRecommendations": {   
+    "notes": {   
+     "purpose": "Return a list of entity ids with their associated entity.attributes",   
+     "use-case": "Use this approach to avoid looking up attribute details after receiving a response from Target",   
+     "version": "01"   
+    },   
+    "recommendedItems": {   
+     "slot-01": "$entity1.id",   
+     "slot-02": "$entity2.id",   
+     "slot-03": "$entity3.id",   
+     "slot-04": "$entity4.id",   
+     "slot-05": "$entity5.id",   
+     "slot-06": "$entity6.id",   
+     "slot-07": "$entity7.id",   
+     "slot-08": "$entity8.id",   
+     "slot-09": "$entity9.id",   
+     "slot-10": "$entity10.id"   
+    },   
+    "activityDetails": {   
+     "mbox.name": "email-mbox",   
+     "campaign.name": "\${campaign.name}",   
+     "campaign.id": "\${campaign.id}",   
+     "campaign.recipe.name": "\${campaign.recipe.name}",   
+     "campaign.recipe.id": "\${campaign.recipe.id}",   
+     "offer.name": "\${offer.name}",   
+     "offer.id": "\${offer.id}",   
+     "criteria.title": "$criteria.title",   
+     "algorithm.name": "$algorithm.name",   
+     "algorithm.dayCount": "$algorithm.dayCount"   
+    },   
+    "visitorProfile": {   
+     "profile.favorite-category": "\${profile.favorite-category}",   
+     "profile.test": "\${profile.test}",   
+     "user.endpoint.lastPurchasedEntity": "\${user.endpoint.lastPurchasedEntity}",   
+     "user.endpoint.lastViewedEntity": "\${user.endpoint.lastViewedEntity}",   
+     "user.endpoint.mostViewedEntity": "\${user.endpoint.mostViewedEntity}",   
+     "user.endpoint.categoryAffinity": "\${user.endpoint.categoryAffinity}",   
+     "profile.geolocation.city": "\${profile.geolocation.city}",   
+     "profile.geolocation.dma": "\${profile.geolocation.dma}",   
+     "profile.geolocation.state": "\${profile.geolocation.state}",   
+     "profile.geolocation.country": "\${profile.geolocation.country}",   
+     "profile.sessionCount": "\${profile.sessionCount}",   
+     "profile.averageDaysBetweenVisits": "\${profile.averageDaysBetweenVisits}",   
+     "profile.browserTime": "\${profile.browserTime}",   
+     "user.activeActivities": "\${user.activeActivities}",   
+     "user.pcId": "\${user.pcId}",   
+     "user.isFirstSession": "\${user.isFirstSession}",   
+     "user.isNewSession": "\${user.isNewSession}",   
+     "user.header": "\${user.header}",   
+     "user.parameter": "\${user.parameter}"   
+    },   
+    "recKey": {   
+     "recKeyDetails": {   
+      "id": "$key.id",   
+      "name": "$key.name",   
+      "category": "$key.category",   
+      "pageUrl": "$key.pageUrl",   
+      "thumbnailUrl": "$key.thumbnailUrl"   
      }   
-    }  
+    },   
+    "recDetailedResults": {   
+     "recEntity1Details": {   
+      "id": "$entity1.id",   
+      "name": "$entity1.name",   
+      "category": "$entity1.category",   
+      "pageUrl": "$entity1.pageUrl",   
+      "thumbnailUrl": "$entity1.thumbnailUrl"   
+     },   
+     "recEntity2Details": {   
+      "id": "$entity2.id",   
+      "name": "$entity2.name",   
+      "category": "$entity2.category",   
+      "pageUrl": "$entity2.pageUrl",   
+      "thumbnailUrl": "$entity2.thumbnailUrl"   
+     },   
+     "recEntity3Details": {   
+      "id": "$entity3.id",   
+      "name": "$entity3.name",   
+      "category": "$entity3.category",   
+      "pageUrl": "$entity3.pageUrl",   
+      "thumbnailUrl": "$entity3.thumbnailUrl"   
+     },   
+     "recEntity4Details": {   
+      "id": "$entity4.id",   
+      "name": "$entity4.name",   
+      "category": "$entity4.category",   
+      "pageUrl": "$entity4.pageUrl",   
+      "thumbnailUrl": "$entity4.thumbnailUrl"   
+     },   
+     "recEntity5Details": {   
+      "id": "$entity5.id",   
+      "name": "$entity5.name",   
+      "category": "$entity5.category",   
+      "pageUrl": "$entity5.pageUrl",   
+      "thumbnailUrl": "$entity5.thumbnailUrl"   
+     },   
+     "recEntity6Details": {   
+      "id": "$entity6.id",   
+      "name": "$entity6.name",   
+      "category": "$entity6.category",   
+      "pageUrl": "$entity6.pageUrl",   
+      "thumbnailUrl": "$entity6.thumbnailUrl"   
+     },   
+     "recEntity7Details": {   
+      "id": "$entity7.id",   
+      "name": "$entity7.name",   
+      "category": "$entity7.category",   
+      "pageUrl": "$entity7.pageUrl",   
+      "thumbnailUrl": "$entity7.thumbnailUrl"   
+     },   
+     "recEntity8Details": {   
+      "id": "$entity8.id",   
+      "name": "$entity8.name",   
+      "category": "$entity8.category",   
+      "pageUrl": "$entity8.pageUrl",   
+      "thumbnailUrl": "$entity8.thumbnailUrl"   
+     },   
+     "recEntity9Details": {   
+      "id": "$entity9.id",   
+      "name": "$entity9.name",   
+      "category": "$entity9.category",   
+      "pageUrl": "$entity9.pageUrl",   
+      "thumbnailUrl": "$entity9.thumbnailUrl"   
+     },   
+     "recEntity10Details": {   
+      "id": "$entity10.id",   
+      "name": "$entity10.name",   
+      "category": "$entity10.category",   
+      "pageUrl": "$entity10.pageUrl",   
+      "thumbnailUrl": "$entity10.thumbnailUrl"   
+     }   
+    }   
+   }   
+  }  
 ```
 
-## Vídeo de treinamento: criar designs personalizados no Recommendations (3:20) ![Selo de visão geral](/help/main/assets/overview.png)
++++
 
-Este vídeo contém as seguintes informações:
-
-* Criar um design personalizado
-* Saiba como fazer referência às variáveis de exibição em seus designs
-
->[!VIDEO](https://video.tv.adobe.com/v/35373?captions=por_br)

@@ -1,8 +1,8 @@
 ---
 keywords: recomendações;perguntas frequentes;faq
 description: Perguntas frequentes e suas respostas sobre [!DNL Target Recommendations] designs.
-title: Onde posso obter respostas para perguntas sobre design do [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+title: Perguntas e respostas sobre design
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 TQID: 'https://experienceleague.adobe.com/xRu0XEnc8wX8PZngba7CO67mFdja7HALL-1OSnhAmuY'
@@ -18,49 +18,67 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d5030abcda38bbc6d33b88ce3bb5d64f69e4e492
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 69%
+source-wordcount: '457'
+ht-degree: 19%
 ---
-# Perguntas e respostas sobre design
+# Perguntas e respostas sobre design {#design-faq}
 
-Lista de perguntas frequentes sobre designs do [!DNL Adobe Target] [!DNL Recommendations].
+>[!BEGINSHADEBOX]
 
-## O preço do item recomendado não exibe os dois valores à direita da casa decimal. Como posso exibi-los?
+**Nesta página:** encontre respostas para perguntas frequentes sobre [!DNL Adobe Target] [!DNL Recommendations] designs.
 
-Por padrão, os valores numéricos (como `entity.value`) retornados nos modelos de design não exibirão zeros à direita após a casa decimal. Por exemplo, se um item for de $35,00, `entity.value` será igual a 35 e a página exibirá apenas 35 e não $35,00.
+>[!ENDSHADEBOX]
+
++++ Como o preço de um item recomendado pode exibir ambos os dígitos à direita da casa decimal?
+
+Por padrão, os valores numéricos (como `entity.value`) retornados em designs não exibem zeros à direita após a casa decimal. Por exemplo, se um item custa USD$ 35,00, `entity.value` é igual a 35 e a página exibirá apenas 35 e não USD$ 35,00.
 
 Duas opções estão disponíveis para resolver esse problema:
 
-* É possível usar o script do Velocity ou Javascript para aplicar a formatação ao valor retornado.
+* O script do Velocity ou JavaScript pode aplicar formatação ao valor retornado.
 
-* Você pode passar o preço do item em dois atributos de entidade separados. O primeiro, `entity.value`, pode ser usado para comparações numéricas (como regras de comparação de preço). O segundo deve ser um atributo personalizado, como `entity.displayValue`, que armazena o valor da entidade como uma string para permitir a renderização correta.
+* O preço do item pode ser passado para dois atributos de entidade separados. O primeiro, `entity.value`, pode ser usado para comparações numéricas (como regras de comparação de preço). O segundo deve ser um atributo personalizado, como `entity.displayValue`, que armazena o valor da entidade como uma cadeia de caracteres para permitir a renderização correta.
 
   Por exemplo,
 
   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## Por que a categoria não está sendo exibida no design? Estou usando `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
++++
 
-A ID da categoria não pode ser exibida no design. Como várias categorias podem ser armazenadas, o sistema não sabe qual categoria exibir.
++++ Por que a categoria não é exibida no design quando $entity1.categoryId é usada?
 
-## Como devo mudar um design para obter uma atualização instantânea? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
+A ID da categoria não pode ser exibida em um design. Várias categorias podem ser armazenadas, de modo que o sistema não sabe qual categoria exibir.
+
++++
+
++++ Como um design pode ser alterado para obter uma atualização instantânea?
 
 A alteração do design que está atualmente em uso leva um tempo para atualizar. Para alterar o design instantaneamente, crie um novo design, selecione-o na atividade e salve a recomendação.
 
-## Como posso capturar as principais informações para exibir no design? Exemplo: se desejarmos exibir a principal categoria do produto, como codificamos esse valor no design da velocidade? {#section_F08043B14BA24BC8815FEF25F4F84C39}
++++
 
-O parâmetro `$key. *`value`*` captura a maioria das informações do produto para exibir dentro do design. Por exemplo, se você deseja exibir a miniatura dos principais produtos, use `$key.thumbnailURL`.
++++ Como as principais informações, como a categoria do produto principal, podem ser exibidas em um design do?
 
-## Qual versão do Velocity é utilizada? {#section_28F00E15A4A54A768782A3F5BB0CDB21}
+Os parâmetros `$key` capturam a maioria das informações do produto principal para exibição dentro do design. Por exemplo, para exibir a miniatura do produto principal, use `$key.thumbnailURL`.
 
-A versão 1.7 sem ferramentas adicionais ou bibliotecas incorporadas. O recurso Basic Velocity está disponível.
++++
 
-## O que devo fazer para deixar um valor de entidade existente em branco? Por exemplo, a `entity.message` de um item precisa ser limpa quando uma promoção termina. {#section_B88F2C2925DC4508974B2F8B13F961CB}
++++ Qual versão do Velocity é utilizada?
 
-Enviar um espaço sem quebra do JavaScript parece resolver isso. Peça que os desenvolvedores enviem `\u00A0` como o valor. Exemplo: `entity.message=\u00A0`. Você pode considerar esse como sendo o valor padrão, ao invés de um valor nulo, quando nenhum valor estiver presente.
+Versão 1.7, sem ferramentas ou bibliotecas adicionais. O recurso Basic Velocity está disponível.
 
-## Posso usar um script de perfil em um design do [!DNL Recommendations]? {#section_6BD55203984A4D80A0C6F241AD7806DF}
++++
 
-Sim. Para usar um script de perfil em um design do [!DNL Recommendations], insira `\${...}` ao redor do nome. Por exemplo, se o script de perfil for nomeado como `user.basket`, utilize `\${user.basket}` no design. Observe que a barra invertida implica que o script de perfil não é renderizado pelo Velocity. Portanto, não é possível executar nenhuma operação no script de perfil em um modelo do Velocity. O valor será impresso diretamente na página.
++++ Como um valor de entidade existente pode ser substituído por um em branco, por exemplo, quando entity.message de um item deve ser limpo no final de uma promoção?
+
+Enviar um espaço sem quebra do JavaScript parece permitir. Os desenvolvedores enviam `\u00A0` como valor, por exemplo `entity.message=\u00A0`. Também pode ser considerado usar esse valor como o padrão quando nenhum valor estiver presente, em vez de um nulo.
+
++++
+
++++ Um script de perfil pode ser usado em um design de [!DNL Recommendations]?
+
+Sim. Para usar um script de perfil em um design do [!DNL Recommendations], insira `\${...}` ao redor do nome. Por exemplo, se o script de perfil for nomeado como `user.basket`, utilize-o como `\${user.basket}` no design. A barra invertida implica que o script de perfil não é renderizado pelo Velocity, portanto, nenhuma operação pode ser executada no script de perfil em um modelo do Velocity. O valor é impresso diretamente na página.
+
++++

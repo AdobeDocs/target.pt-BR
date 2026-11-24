@@ -2,7 +2,7 @@
 keywords: Recomendações, algoritmos do recommendations, atividade do recommendations, recommendations classic
 description: Examine as informações para ajudar você a entender as diferenças entre as atividades herdadas do Recommendations Classic e do Recommendations no [!DNL Target] Premium.
 title: Qual é a diferença entre o Recommendations Classic e o Recommendations no [!DNL Target] Premium?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 TQID: 'https://experienceleague.adobe.com/EoTkyY0kOwRKT52WIwOuTCoUziIJOnNtTo6llsTNpsM'
@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 79%
@@ -79,7 +79,7 @@ Para obter mais informações sobre o uso e a criação de critérios, consulte 
 O fluxo de trabalho do [!DNL Recommendations] foi simplificado. Em vez de preencher formulários complicados, você segue um fluxo de trabalho visual para:
 
 1. Selecionar o critério.
-1. Selecione um [design](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) pré-configurado.
+1. Selecione um [design](/help/main/c-recommendations/c-design-overview/create-design.md#create-design) pré-configurado.
 1. Visualize as recomendações resultantes.
 
 ## Visualização do visual {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
@@ -90,7 +90,7 @@ Você pode visualizar suas recomendações depois de configurá-las e fazer as a
 
 No [!DNL Recommendations Classic], existem seis opções de direcionamento. As atividades do Recomendações usam a linha completa de opções de direcionamento do Target. Defina um público-alvo usando o [!DNL Target] ou outros públicos da [!DNL Adobe Experience Cloud] (como o [!DNL Audience Manager] e [!DNL Analytics]), em seguida, selecione o percentual de participantes da atividade que visualizam cada design e que visualizam o controle.
 
-![imagem de &lbrace;overview_targeting](assets/overview_targeting.png)
+![imagem de {overview_targeting](assets/overview_targeting.png)
 
 ## Relatório {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 
