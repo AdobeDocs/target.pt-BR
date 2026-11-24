@@ -2,7 +2,7 @@
 keywords: recomendações algoritmos;treinamento de modelo;serviço de modelo;entrega de conteúdo;baseado em item;baseado em usuário;baseado em popularidade;baseado em carrinho;critérios personalizados
 description: Saiba mais sobre os algoritmos usados no [!DNL Target Recommendations], incluindo treinamento e fornecimento de modelos.
 title: A ciência por trás dos algoritmos de recomendações do Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -92,7 +92,7 @@ O diagrama esquemático a seguir mostra o fluxo lógico da implementação do al
 
 As etapas são as seguintes:
 
-* **Dados de entrada**: dados comportamentais na forma de compras e exibições de visitantes, coletados ao [implementar o Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} ou no [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dados de entrada**: dados comportamentais na forma de compras e exibições de visitantes, coletados ao [implementar o Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} ou no [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Treinamento de modelo**:
 
@@ -116,7 +116,7 @@ O fornecimento de modelo e a entrega de conteúdo para algoritmos de similaridad
 
 As etapas são as seguintes:
 
-* **Dados de entrada**: este algoritmo usa apenas dados de catálogo, assimilados para [!DNL Target] por meio de um [feed de catálogo, da API de Entidades ou de atualizações na página](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+* **Dados de entrada**: este algoritmo usa apenas dados de catálogo, assimilados para [!DNL Target] por meio de um [feed de catálogo, da API de Entidades ou de atualizações na página](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank}.
 
 * **Treinamento de modelo**:
 
@@ -154,7 +154,7 @@ O diagrama a seguir mostra a lógica das etapas de treinamento e pontuação do 
 
 As etapas são as seguintes:
 
-* **Dados de entrada**: idênticos aos métodos de filtragem colaborativa (CF) item-item. Os algoritmos **[!UICONTROL Recomendado para você]** e Baseado em carrinho usam dados comportamentais na forma de exibições e compras do usuário, coletados ao [implementar o Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} ou da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dados de entrada**: idênticos aos métodos de filtragem colaborativa (CF) item-item. Os algoritmos **[!UICONTROL Recomendado para você]** e Baseado em carrinho usam dados comportamentais na forma de exibições e compras do usuário, coletados ao [implementar o Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} ou da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Treinamento de modelo**:
 
