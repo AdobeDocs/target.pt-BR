@@ -49,7 +49,7 @@ Algoritmos diferentes se adaptam a diferentes tipos de páginas. As seções a s
 
 ## Baseado em carrinho {#cart-based}
 
-O tipo de algoritmo **[!UICONTROL Baseado em carrinho]** recomenda itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas como valores separados por vírgulas no [parâmetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank}. Somente os primeiros dez valores são considerados.
+O tipo de algoritmo **[!UICONTROL Baseado em carrinho]** recomenda itens com base no conteúdo do carrinho atual do visitante. As chaves de recomendação são fornecidas como valores separados por vírgulas no [parâmetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}. Somente os primeiros dez valores são considerados.
 
 A lógica de recomendação baseada em carrinho é semelhante ao algoritmo baseado em usuário &quot;**[!UICONTROL Recomendado para você]**&quot; e aos algoritmos baseados em item &quot;**[!UICONTROL Pessoas que Visualizaram Isto, Compraram Aquilo]**&quot; e &quot;**[!UICONTROL Pessoas que Compraram Isto, Compraram Aquilo]**&quot;.
 
@@ -121,7 +121,7 @@ Por exemplo, visualizar a categoria A e depois a categoria B em uma sessão resu
 >title="Atributo de perfil"
 >abstract="É possível criar um Atributo de perfil usando Scripts de perfil. Depois que um Script de perfil é criado e ativado, o atributo de Perfil correspondente pode ser usado com esse algoritmo."
 
-**[!UICONTROL Mais Visualizados pelo Atributo de Perfil]** e **[!UICONTROL Mais Vendidos pelo Atributo de Perfil]** dependem de um script de perfil para preencher o atributo. O nome do script deve começar com o prefixo `recsAttribute` para que [!DNL Target] o armazene como `user.recsAttribute<Name>`. Um script pode ser escrito para qualquer característica do visitante que seja relevante para o caso de uso. Para obter mais informações sobre como definir atributos de perfil com scripts de perfil, consulte [Parâmetros de perfil](https://experienceleague.adobe.com/pt-br/docs/target/using/audiences/visitor-profiles/profile-parameters).
+**[!UICONTROL Mais Visualizados pelo Atributo de Perfil]** e **[!UICONTROL Mais Vendidos pelo Atributo de Perfil]** dependem de um script de perfil para preencher o atributo. O nome do script deve começar com o prefixo `recsAttribute` para que [!DNL Target] o armazene como `user.recsAttribute<Name>`. Um script pode ser escrito para qualquer característica do visitante que seja relevante para o caso de uso. Para obter mais informações sobre como definir atributos de perfil com scripts de perfil, consulte [Parâmetros de perfil](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Por exemplo, o script a seguir, chamado `recsAttributeRegion`, baseia as recomendações na região do visitante:
 
