@@ -2,7 +2,7 @@
 keywords: solução de problemas, perguntas frequentes, FAQ, FAQs, recommendations, caracteres especiais, ponderação de atributos, similaridade de conteúdo
 description: Veja uma lista de perguntas frequentes e respostas sobre atividades do [!DNL Target Recommendations].
 title: Onde posso encontrar perguntas e respostas sobre o [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
@@ -156,7 +156,7 @@ Se o visitante não tiver duas sessões ativas ao mesmo tempo, os itens visualiz
 
 Os critérios disponíveis dependem da categoria atual. Quando as ofertas de recomendações são criadas, o seletor de algoritmo exibe os critérios com base na ID da categoria. Se o local onde os critérios são aplicados não contiver a ID da categoria, determinados critérios não estarão disponíveis no seletor de algoritmo. Se um local onde a ID de categoria está presente na mbox for usado, o seletor de critérios conterá todos os critérios aplicáveis.
 
-[!DNL Target] tem uma configuração de [Critérios de Filtro Incompatíveis](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} que controla a filtragem inteligente do seletor de algoritmo. Para acessar a configuração **[!UICONTROL Critérios incompatíveis de filtro]**, clique em **[!UICONTROL Administração]** > **[!UICONTROL Recomendações]**.
+[!DNL Target] tem uma configuração de [Critérios de Filtro Incompatíveis](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} que controla a filtragem inteligente do seletor de algoritmo. Para acessar a configuração **[!UICONTROL Critérios incompatíveis de filtro]**, clique em **[!UICONTROL Administração]** > **[!UICONTROL Recomendações]**.
 
 ![Página Configurações do Recommendations com a opção Critérios incompatíveis de filtro realçada](assets/recs_settings_filter.png)
 

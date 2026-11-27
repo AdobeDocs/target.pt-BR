@@ -2,7 +2,7 @@
 keywords: criar recomendações, atividade do recommendations, novas recomendações, visão geral do recommendations
 description: Saiba como usar o [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para criar uma atividade [!DNL Recommendations].
 title: Criar uma atividade [!DNL Recommendations]
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
@@ -53,7 +53,7 @@ O URL da atividade e o local definem a página e a área dessa página onde as r
 
 1. Especifique o URL da atividade e clique em **[!UICONTROL Criar]**.
 
-   O URL da atividade é a página onde as recomendações são exibidas. [!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]), portanto `http://www.adobe.com` e `https://www.adobe.com` são correspondentes.
+   O URL da atividade é a página onde as recomendações são exibidas. [!DNL Target] não diferencia os protocolos de URL ([!DNL https] e [!DNL http]), portanto `http://www.adobe.com/br` e `https://www.adobe.com/br` são correspondentes.
 
    O VEC é aberto e mostra a página.
 
@@ -101,7 +101,7 @@ Os critérios determinam quais itens são recomendados e como são escolhidos pa
 
    >[!NOTE]
    >
-   >Nem todos os critérios são executados corretamente em cada página. Para que as recomendações do item atual ou da categoria atual sejam compatíveis, a página ou mbox deve passar em `entity.id` ou `entity.categoryId`. É melhor mostrar apenas critérios compatíveis. Para disponibilizar critérios incompatíveis para a atividade, desmarque a caixa de seleção **[!UICONTROL Compatível]**. Esta caixa de seleção pode não ser exibida, dependendo da configuração **[!UICONTROL Administração]** > **[!UICONTROL Recomendações]** > **[!UICONTROL Critérios de Filtro Incompatíveis]**. Para obter mais informações, consulte [Configurações](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+   >Nem todos os critérios são executados corretamente em cada página. Para que as recomendações do item atual ou da categoria atual sejam compatíveis, a página ou mbox deve passar em `entity.id` ou `entity.categoryId`. É melhor mostrar apenas critérios compatíveis. Para disponibilizar critérios incompatíveis para a atividade, desmarque a caixa de seleção **[!UICONTROL Compatível]**. Esta caixa de seleção pode não ser exibida, dependendo da configuração **[!UICONTROL Administração]** > **[!UICONTROL Recomendações]** > **[!UICONTROL Critérios de Filtro Incompatíveis]**. Para obter mais informações, consulte [Configurações](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank}.
 
 1. Opcionalmente, localize ou crie critérios:
 
