@@ -95,4 +95,4 @@ Este vídeo aborda as seguintes configurações de atividade:
 * Adicione públicos-alvo para relatórios a fim de criar filtros de relatório.
 * Insira observações para a atividade.
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/3507947?captions=por_br)

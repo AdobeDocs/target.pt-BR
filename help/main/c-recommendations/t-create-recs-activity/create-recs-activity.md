@@ -176,4 +176,4 @@ Duas páginas adicionais estão disponíveis na atividade:
 
 ## Vídeo de treinamento: criar uma atividade do Recommendations (7:15) ![Selo do tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27688)
+>[!VIDEO](https://video.tv.adobe.com/v/33964?captions=por_br)
