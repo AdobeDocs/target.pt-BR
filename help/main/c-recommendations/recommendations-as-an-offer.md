@@ -18,117 +18,91 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 55%
+ht-degree: 12%
 ---
-# Recomendações como oferta
+# Recomendações como oferta {#recommendations-as-an-offer}
 
-Agora você pode incluir recomendações nas atividades de [!UICONTROL Teste A/B] (incluindo [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]) e [!UICONTROL Direcionamento de experiência] (XT).
+>[!BEGINSHADEBOX]
 
-Essa funcionalidade permite capacidades nunca antes vistas, como:
+**Nesta página:** Saiba como adicionar, editar e excluir uma recomendação como uma oferta em [!UICONTROL atividades de Teste A/B] e [!UICONTROL Direcionamento de experiência] (XT).
+
+>[!ENDSHADEBOX]
+
+Além das atividades de [!UICONTROL Recomendações], as recomendações podem ser incluídas nas atividades de [!UICONTROL Teste A/B] (incluindo [!UICONTROL Alocação automática] e [!UICONTROL Direcionamento automático]) e [!UICONTROL Direcionamento de experiência] (XT). Isso permite o seguinte:
 
 * Teste e direcione conteúdo de recomendações e não recomendações em uma mesma atividade.
-* Experimente com facilidade a colocação de recomendações na página, incluindo a ordem de várias recomendações.
-* Impulsione automaticamente o tráfego para a experiência do recommendations com melhor desempenho usando [!UICONTROL Alocação automática].
-* Atribua de maneira dinâmica os visitantes a experiências de recomendação personalizadas com base em seus perfis usando o [!UICONTROL Direcionamento automático].
+* Experimente a colocação de recomendações na página, incluindo a ordem de várias recomendações.
+* Impulsione automaticamente o tráfego para a experiência do recommendations com melhor desempenho com **[!UICONTROL Alocação automática]**.
+* Atribua de maneira dinâmica os visitantes a experiências de recomendação personalizadas com base em seus perfis com o **[!UICONTROL Direcionamento automático]**.
 
-Para começar, crie uma atividade de [!UICONTROL Teste A/B] ou [!UICONTROL Direcionamento de Experiência] usando o [!UICONTROL Visual Experience Composer] e use a ação [!UICONTROL Inserir Antes], [!UICONTROL Inserir Depois] ou [!UICONTROL Substituir Por] para adicionar recomendações a uma experiência.
+## Adicionar uma recomendação como uma oferta {#add-recs-offer}
 
-## Adicionar uma recomendação como uma oferta em uma atividade Teste A/B ou XT
+Uma recomendação é adicionada como uma oferta enquanto uma experiência é criada com o [!UICONTROL Visual Experience Composer] (VEC) em uma atividade de [!UICONTROL Teste A/B] ou XT.
 
-1. Inicie o fluxo de trabalho guiado de três etapas usando o Visual Experience Composer (VEC) para criar uma atividade de [Teste A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) ou [Direcionamento de experiência](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) (XT).
+1. Inicie o fluxo de trabalho guiado de três etapas do VEC para criar uma atividade de [Teste A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) ou [Direcionamento de experiência](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) (XT).
 
    >[!NOTE]
    >
-   >Para Testes A/B, lembre-se de que você pode escolher a opção [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) para impulsionar automaticamente o tráfego para a recomendação com melhor desempenho ou a opção [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) para atribuir os visitantes a experiências de recomendação personalizadas com base em seus perfis.
+   >Para Testes A/B, a opção [Alocação automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) envia automaticamente o tráfego para as recomendações com melhor desempenho, e a opção [Direcionamento automático](/help/main/c-activities/auto-target/auto-target-to-optimize.md) atribui os visitantes a experiências de recomendação personalizadas com base em seus perfis.
 
-1. Ao criar uma [experiência](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md), clique no elemento ao qual deseja adicionar uma recomendação como uma oferta, clique em **[!UICONTROL Substituir Conteúdo]** e selecione **[!UICONTROL Recomendação]**.
+1. Ao criar uma [experiência](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md), adicione a recomendação como uma oferta de uma das seguintes maneiras:
 
-   ![Inserir recomendação como uma oferta](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
+   * Clique no elemento ao qual a recomendação é adicionada, clique em **[!UICONTROL Substituir conteúdo]** e selecione **[!UICONTROL Recomendação]**.
 
-1. Selecione entre as seguintes opções para ver os critérios populares de recomendações por tipo de página:
+     ![Visual Experience Composer com um cabeçalho selecionado e a opção Recomendação realçada no menu, ao lado das opções Oferta do HTML e Fragmento de experiência](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
-   * Página de carrinho
-   * Página de categoria
-   * Página inicial
-   * Página de destino
-   * Página do produto
-   * Página de resultados da pesquisa
-   * Página de agradecimento
-   * Outras
+   * No painel **[!UICONTROL Componentes]**, selecione **[!UICONTROL Recomendação]** em **[!UICONTROL Dinâmica]**, passe o mouse sobre um elemento existente na página e clique em **[!UICONTROL Inserir antes]** ou **[!UICONTROL Inserir depois]** para colocar a recomendação antes ou depois desse elemento.
 
-1. Selecione os [critérios](/help/main/c-recommendations/c-algorithms/algorithms.md) desejados e clique em [!UICONTROL Avançar].
-1. Selecione o [design](/help/main/c-recommendations/c-design-overview/design-overview.md) desejado e clique em [!UICONTROL Avançar].
-1. Na caixa de diálogo [!UICONTROL Opções], especifique o seguinte:
+1. Acesse o menu **[!UICONTROL Mostrar propriedades]** e clique em **[!UICONTROL Selecionar uma recomendação]**.
+
+1. Selecione os [critérios](/help/main/c-recommendations/c-algorithms/algorithms.md) desejados e clique em **[!UICONTROL Avançar]**.
+
+1. Selecione o [design](/help/main/c-recommendations/c-design-overview/design-overview.md) desejado e clique em **[!UICONTROL Avançar]**.
+
+1. Na caixa de diálogo **[!UICONTROL Opções]**, especifique o seguinte:
 
    * Escolha uma [coleção](/help/main/c-recommendations/c-products/collections.md).
-   * Configure as opções de [Promoção principal e Promoção secundária](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md), conforme necessário.
+   * Se necessário, configure as opções de [Promoção principal e Promoção secundária](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md).
 
-1. Clique em [!UICONTROL Salvar].
-1. Termine de configurar a atividade de Teste A/B ou XT usado o fluxo de trabalho orientado de três partes.
+1. Clique em **[!UICONTROL Salvar]**.
 
-## Editar a configuração de uma oferta do Recomendações
+1. Termine de configurar a atividade de [!UICONTROL Teste A/B] ou XT com o fluxo de trabalho guiado de três etapas.
 
-Há duas maneiras de editar a configuração de uma oferta:
+## Editar uma oferta do recommendations {#edit-recs-offer}
 
-* Usando o menu [!UICONTROL Editar]
-* Usando o painel [!UICONTROL Modificações]
+Os critérios, o design, a coleção e as promoções de uma oferta do recommendations podem ser alterados após a adição da oferta, no painel **[!UICONTROL Recomendação]**.
 
-### Editar uma oferta do Recomendações utilizando o menu Editar
+1. Clique na oferta para editar e navegar pelas opções no menu do painel direito.
 
-1. Clique na oferta que você deseja editar e em **[!UICONTROL Editar]**.
+   ![Painel de recomendação com os nomes dos critérios, do design e da coleção e o botão Adicionar promoção da oferta selecionada](assets/create_reco_7.png)
 
-   ![Editar oferta de recomendações](/help/main/c-recommendations/assets/recs-offer-edit.png)
-
-1. Escolha entre as seguintes opções:
+1. Selecione uma das seguintes opções:
 
    * [Alterar critérios](/help/main/c-recommendations/c-algorithms/algorithms.md)
    * [Alterar design](/help/main/c-recommendations/c-design-overview/design-overview.md)
    * [Alterar coleção](/help/main/c-recommendations/c-products/collections.md)
    * [Alterar promoção](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)
 
-1. Faça suas edições.
+1. Faça as edições.
 
-### Editar uma oferta do Recomendações utilizando o painel Modificações
+## Excluir uma oferta do Recomendações {#delete-recs-offer}
 
-1. Clique no ícone [!UICONTROL Modificações] **( `</>` )** para exibir o painel [Modificações](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
-1. Passe o mouse sobre a ação desejada e clique no ícone **[!UICONTROL Editar]**.
+Uma oferta de recomendações que não é mais necessária pode ser excluída do painel **[!UICONTROL Recomendação]**.
 
-   ![Painel de modificações](/help/main/c-recommendations/assets/recs-offer-modifications.png)
+Clique na oferta a ser removida e, em seguida, clique no ícone de compartimento ( ![Ícone de compartimento](assets/Smock_Delete_18_N.svg) ) no painel **[!UICONTROL Recomendação]**.
 
-1. Faça suas edições.
+![Painel de recomendação com o ícone de compartimento realçado](assets/create_reco_8.png)
 
-## Excluir uma oferta do Recomendações
+## Exibir o status de uma oferta do recommendations {#status}
 
-Há duas maneiras de excluir uma oferta do Recomendações:
+O status da oferta de recomendações (algoritmo) é exibido na parte inferior da página **[!UICONTROL Visão geral]** para as atividades de [!UICONTROL Teste A/B] e XT que contêm ofertas de recomendações. O status é um dos seguintes:
 
-* Usando o menu [!UICONTROL Editar]
-* Usando o painel [!UICONTROL Modificações]
-
-### Excluir uma oferta do Recomendações utilizando o menu Editar
-
-1. Clique na oferta que você deseja remover e em **[!UICONTROL Layout > Remover]**.
-
-   ![Remover](/help/main/c-recommendations/assets/recs-offer-remove.png)
-
-### Excluir uma oferta do Recomendações utilizando o painel Modificações
-
-1. Clique no ícone [!UICONTROL Modificações] **( &lt;/> )** para exibir o painel [Modificações](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
-1. Passe o cursor do mouse sobre a ação desejada e clique no ícone [!UICONTROL Excluir].
-
-   ![Ícone de Excluir](/help/main/c-recommendations/assets/recs-offer-delete.png)
-
-### Exibição do status da oferta de recomendações {#status}
-
-O status da oferta de recomendações (algoritmo) é exibido na parte inferior da página [!UICONTROL Visão geral] das atividades de Teste A/B e XT que contêm as ofertas do Recommendations:
-
-* Resultados prontos
-* Resultados não prontos
-* Falha do feed
-
-![Status da oferta de recomendações](/help/main/c-recommendations/assets/recs-offer-status.png)
+* **[!UICONTROL Resultados prontos]**
+* **[!UICONTROL Resultados Não Prontos]**
+* **[!UICONTROL Falha do feed]**
 
 ## Vídeo de treinamento: Recomendações como oferta ![Selo de visão geral](/help/main/assets/overview.png)
 

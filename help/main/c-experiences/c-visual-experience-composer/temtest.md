@@ -21,14 +21,20 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 23%
+source-wordcount: '569'
+ht-degree: 17%
 ---
-# Incluir a mesma experiência em páginas semelhantes
+# Incluir a mesma experiência em páginas semelhantes {#similar-pages}
 
-Use um modelo de página no [!DNL Adobe Target] para fornecer estrutura às suas páginas, ou, se as páginas contiverem elementos semelhantes, para testar variações em elementos de página estruturadas de forma semelhante ou em todo o domínio.
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Saiba como usar as regras de entrega de página no [!UICONTROL Visual Experience Composer] (VEC) para incluir a mesma experiência em páginas com estrutura semelhante.
+
+>[!ENDSHADEBOX]
+
+Um modelo de página em [!DNL Adobe Target] fornece estrutura para páginas. Quando as páginas contêm elementos semelhantes, as variações nesses elementos de página estruturados de forma semelhante podem ser testadas em várias páginas ou em um domínio inteiro.
 
 Para funcionar corretamente, esse recurso deve ser usado em páginas com uma estrutura semelhante ou conter elementos de modelo estruturados da mesma forma em todas as páginas.
 
@@ -36,66 +42,54 @@ Para funcionar corretamente, esse recurso deve ser usado em páginas com uma est
 >
 >O uso desse recurso para alterar elementos em páginas diferentes provavelmente causa resultados inesperados.
 
-Por exemplo, você pode usar esse recurso para fazer uma das seguintes opções:
+Esse recurso pode ser usado, por exemplo, para executar um dos seguintes procedimentos:
 
 * Testar uma barra de navegação global, reorganizando ou removendo elementos
 * Remover um item de todas as páginas de produtos que usam um modelo de página específico
 * Adicionar um banner em todas as páginas de produtos
 * Alterar o layout do modelo de artigo
 
-Você pode especificar páginas que incluem os elementos de alteração ou aplicar a alteração através do site ou domínio.
+## Especificar as páginas de uma experiência {#specify-pages}
+
+As páginas em que uma experiência é exibida são especificadas com as regras de entrega da página. As regras podem incluir páginas específicas ou aplicar a alteração no site ou domínio.
 
 1. Crie ou edite uma atividade conforme descrito em [Atividades](/help/main/c-activities/activities.md).
 
-1. Para especificar as páginas em que a experiência é exibida, no [!UICONTROL Visual Experience Composer] (VEC), clique no ícone [!UICONTROL Configurar] ( ![ícone Configurar](/help/main/assets/icons/Setting.svg) ) e selecione **[!UICONTROL Entrega de página]**.
+1. No [!UICONTROL Visual Experience Composer] (VEC), clique no ícone **[!UICONTROL Configurar]** ( ![ícone Configurar](/help/main/assets/icons/Setting.svg) ) e selecione **[!UICONTROL Entrega de página]**.
 
-1. Clique em **[!UICONTROL Adicionar regra]** e especifique os critérios para as páginas nas quais deseja adicionar a experiência.
+   ![Atividades](assets/vec_edit_1.png)
 
-1. Especifique o intervalo de páginas. O intervalo de páginas pode ser um dos seguintes:
+1. Clique em **[!UICONTROL Adicionar regra]** e especifique os critérios para as páginas nas quais adicionar a experiência.
 
-   * [!UICONTROL URL] (Para obter mais informações sobre como [!DNL Target] avalia URLs, consulte [Perguntas frequentes sobre direcionamentos e público-alvo](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-   * [!UICONTROL Domínio]
-   * [!UICONTROL Caminho]
-   * [!UICONTROL Fragmento de hash (#)] (direcione à parte de uma URL que segue o símbolo #.)
-   * [!UICONTROL Consulta]
-   * [!UICONTROL Personalizado]
+1. Especifique o intervalo de páginas: **[!UICONTROL URL]**, **[!UICONTROL Domínio]**, **[!UICONTROL Caminho]**, **[!UICONTROL Hash (#) Fragmento]** (a parte de uma URL que segue o símbolo #), **[!UICONTROL Consulta]** ou **[!UICONTROL Personalizado]**.
 
-1. Escolha um operador.
+   Para obter mais informações sobre como [!DNL Target] avalia URLs, consulte [Perguntas frequentes sobre direcionamentos e público-alvo](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).
 
-   O operador especifica a forma como os itens se relacionam com o intervalo de páginas. Os operadores disponíveis incluem:
+   ![Atividades](assets/vec_edit_2.png)
 
-   * [!UICONTROL Contém]
-   * [!UICONTROL Não contém]
-   * [!UICONTROL É (diferencia maiúsculas de minúsculas)]
-   * [!UICONTROL Não]
-   * [!UICONTROL Começa com]
-   * [!UICONTROL Termina com]
+1. Escolha um operador. O operador especifica a forma como os itens se relacionam com o intervalo de páginas.
 
 1. Digite as sequências de caracteres que definem onde é adicionada a experiência, como o domínio ou as sequências de caracteres contidas no nome da página.
 
-   Por exemplo, se você selecionar **[!UICONTROL Domínio]** e **[!UICONTROL É (diferencia maiúsculas de minúsculas)]**, digite o domínio em que deseja adicionar a experiência para todas as páginas.
+   Por exemplo, se **[!UICONTROL Domínio]** e **[!UICONTROL É (diferencia maiúsculas de minúsculas)]** forem selecionados, digite o domínio em que a experiência é adicionada para todas as páginas.
 
-   É possível incluir vários itens.
+   Vários itens podem ser incluídos. Vários itens usam a lógica OR, ou seja, qualquer item único na lista torna a condição verdadeira.
 
-   >[!IMPORTANT]
-   >
-   >Vários itens usam a lógica OR, ou seja, qualquer item único na lista torna a condição verdadeira.
-
-1. Se desejar, insira critérios adicionais, clicando em **[!UICONTROL Adicionar regra]** e repita o procedimento das etapas anteriores.
+1. (Opcional) Clique em **[!UICONTROL Adicionar regra]** e repita as etapas de 3 a 6 para inserir critérios adicionais.
 
    Múltiplos critérios são agrupados com uma lógica E. [!DNL Target] adiciona a experiência a todas as páginas que correspondem aos critérios especificados.
 
 >[!IMPORTANT]
 >
-> O [!DNL Target] não pode verificar as páginas para se certificar de que elas são exibidas conforme o esperado, portanto, é sempre uma prática importante ao usar este recurso testar as páginas afetadas antes de torná-las públicas.
+>O [!DNL Target] não pode verificar as páginas para se certificar de que elas são exibidas conforme o esperado, portanto, é sempre uma prática importante ao usar este recurso testar as páginas afetadas antes de torná-las públicas.
 
-## Casos de uso
+## Casos de uso {#use-cases}
 
-Analise os seguintes casos de uso para encontrar maneiras de usar as regras de modelo no site:
+As regras de modelo podem ser usadas em um site de maneiras diferentes, conforme mostrado no caso de uso a seguir.
 
-### Renderizar a mesma atividade em todo o domínio
+### Renderizar a mesma atividade em todo o domínio {#entire-domain}
 
-Você pode considerar o uso de regras de modelo para renderizar a mesma atividade em todo o domínio para os seguintes casos de uso:
+As regras de modelo podem renderizar a mesma atividade em todo o domínio, por exemplo:
 
 * Para incluir um cabeçalho ou rodapé global
 * Para incluir um banner global (por exemplo, anúncios de COVID-19)
@@ -103,8 +97,10 @@ Você pode considerar o uso de regras de modelo para renderizar a mesma atividad
 
 1. Crie ou edite uma atividade conforme descrito em [Atividades](/help/main/c-activities/activities.md).
 
-1. Para especificar o domínio onde a experiência aparece, no [!UICONTROL Visual Experience Composer], clique no ícone [!UICONTROL Configurar] ( ![ícone Configurar](/help/main/assets/icons/Setting.svg) ) e selecione **[!UICONTROL Entrega de página]**.
+1. Para especificar o domínio onde a experiência aparece, no [!UICONTROL Visual Experience Composer], clique no ícone **[!UICONTROL Configurar]** ( ![ícone Configurar](/help/main/assets/icons/Setting.svg) ) e selecione **[!UICONTROL Entrega de página]**.
 
 1. Clique em **[!UICONTROL Adicionar regra]** > **[!UICONTROL domínio]**.
 
 1. No menu suspenso **[!UICONTROL Escolher avaliador]**, selecione **[!UICONTROL Contém]** e especifique o domínio.
+
+   ![Atividades](assets/vec_edit_3.png)

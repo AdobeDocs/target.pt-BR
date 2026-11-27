@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 47%
@@ -151,7 +151,7 @@ Observe que o requisito de tráfego aumenta com atividades MVT.
 **Posso executar uma atividade abrangendo múltiplas páginas com estruturas diferentes? Posso aplicar ofertas a locais diferentes (por exemplo, o funnel de check-out)?**
 
 +++Ver detalhes
-Experimente o [recurso de atividade com várias páginas](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) que permite usar várias páginas nas experiências.
+Experimente o [recurso de atividade com várias páginas](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#multipage-activity) que permite usar várias páginas nas experiências.
 
 +++
 
@@ -284,7 +284,7 @@ Veja os seguintes aspectos do produto:
 **Posso executar uma atividade em múltiplas páginas com estrutura comum?**
 
 +++Ver detalhes
-Confira as [Regras de modelo](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) para incluir várias páginas estruturadas semelhantes à atividade, enquanto ainda cria a experiência no único URL fornecido.
+Confira as [Regras de modelo](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages) para incluir várias páginas estruturadas semelhantes à atividade, enquanto ainda cria a experiência no único URL fornecido.
 
 +++
 
@@ -293,39 +293,39 @@ Confira as [Regras de modelo](/help/main/c-experiences/c-visual-experience-compo
 +++Ver detalhes
 Isso ocorre porque seu site tem conteúdo misto — é um site que busca recursos HTTP e HTTPS. Solicite que sua equipe mude totalmente para HTTPS.
 
-Até que isso aconteça, siga as instruções em [Habilitar conteúdo misto no navegador](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) para permitir que seu navegador carregue conteúdo misto. Este é um recurso de segurança da maioria dos navegadores modernos.
+Até que isso aconteça, siga as instruções em [Habilitar conteúdo misto no navegador](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#mixed-content) para permitir que seu navegador carregue conteúdo misto. Este é um recurso de segurança da maioria dos navegadores modernos.
 
 +++
 
 **Posso experimentar o [!UICONTROL Visual Experience Composer] (VEC) no meu site mesmo que a biblioteca at.js do [!DNL Target] ainda não tenha sido implantada?**
 
 +++Ver detalhes
-Experimente carregar a página com o [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D).
+Experimente carregar a página com o [Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec).
 
 +++
 
 **Por que meu site não está carregando no [!UICONTROL Visual Experience Composer] (VEC)?**
 
 +++Ver detalhes
-Experimente as [informações de solução de problemas](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4) descritas em nossa página de ajuda. Entre em contato com o [Suporte da Adobe](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) se nenhuma dessas abordagens funcionar.
+Experimente as [informações de solução de problemas](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#troubleshoot-composer) descritas em nossa página de ajuda. Entre em contato com o [Suporte da Adobe](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) se nenhuma dessas abordagens funcionar.
 
 Também temos a [abordagem baseada em formulários](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) que pode desbloquear você.
 
-Leia também quando e por que o [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pode ser útil. Talvez seja necessário entrar em contato com o departamento de TI para [incluir na lista de permissões também os servidores proxy da Adobe](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Leia também quando e por que o [Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec) pode ser útil. Talvez seja necessário entrar em contato com o departamento de TI para [incluir na lista de permissões também os servidores proxy da Adobe](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#vec-best-practices).
 
 +++
 
 **Eu tenho um site responsivo. Ao criar uma atividade, como posso ter certeza de que estou levando em consideração dispositivos importantes?**
 
 +++Ver detalhes
-Experimente o recurso [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5). Observe que ele funciona somente quando o [!UICONTROL Enhanced Experience Composer] está habilitado.
+Experimente o recurso [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#mobile-viewports). Observe que ele funciona somente quando o [!UICONTROL Enhanced Experience Composer] está habilitado.
 
 +++
 
 **Eu tenho múltiplos domínios. Um dos domínios precisa que o [!UICONTROL Enhanced Experience Composer] seja habilitado, enquanto outros precisam que ele seja desabilitado. Como posso fazer isso?**
 
 +++Ver detalhes
-Você sempre pode usar a opção [Enhanced Experience Composer no nível de atividade](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) para substituir a configuração padrão ([!UICONTROL Administração] > [!UICONTROL Visual Experience Composer]).
+Você sempre pode usar a opção [Enhanced Experience Composer no nível de atividade](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec) para substituir a configuração padrão ([!UICONTROL Administração] > [!UICONTROL Visual Experience Composer]).
 
 +++
 
@@ -346,7 +346,7 @@ Você pode fazer isso facilmente com o recurso [Multiple Experience Versions](/h
 **Como posso ver quais modificações eu fiz no [!UICONTROL Visual Experience Composer] (VEC)?**
 
 +++Ver detalhes
-Sempre mostramos as alterações no [Editor de código](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). A guia [!UICONTROL Modificações] mostra o Seletor de CSS ou a mbox aplicada à sua oferta.
+Sempre mostramos as alterações no [Editor de código](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor). A guia [!UICONTROL Modificações] mostra o Seletor de CSS ou a mbox aplicada à sua oferta.
 
 Observe que o Seletor de CSS é um seletor do Sizzle. Você pode usar esta seção para fazer pequenas modificações ou excluir certas ofertas rapidamente.
 
@@ -355,7 +355,7 @@ Observe que o Seletor de CSS é um seletor do Sizzle. Você pode usar esta seç�
 **Eu desejo proporcionar o JavaScript como parte da experiência/atividade para fazer modificações em operação para alguns elementos dinâmicos ou simplesmente enviar uma chamada para uma solução de terceiros. Como posso fazer isso?**
 
 +++Ver detalhes
-Uma das maneiras é usar o [Editor de código personalizado](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). Siga em frente e coloque seu JavaScript na seção e ele será fornecido. Você tem a opção de oferecê-lo no cabeçalho ou na parte superior do corpo, dependendo das suas necessidades.
+Uma das maneiras é usar o [Editor de código personalizado](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor). Siga em frente e coloque seu JavaScript na seção e ele será fornecido. Você tem a opção de oferecê-lo no cabeçalho ou na parte superior do corpo, dependendo das suas necessidades.
 
 +++
 
@@ -378,7 +378,7 @@ Use [a abordagem baseada em formulário](/help/main/c-experiences/form-experienc
 **Por que eu não estou vendo a oferta/experiência desejada e estou vendo outra atividade ao invés disso?**
 
 +++Ver detalhes
-Use nosso [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) e verifique se [há conflito de atividade](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Use nosso [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) e verifique se [há conflito de atividade](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions).
 
 +++
 
@@ -402,7 +402,7 @@ Temos [o recurso de URL de redirecionamento](/help/main/c-experiences/c-manage-c
 **Por que eu não estou vendo a oferta/experiência desejada e estou vendo outra atividade ao invés disso?**
 
 +++Ver detalhes
-Use nosso [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) e verifique se [há conflito de atividade](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Use nosso [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) e verifique se [há conflito de atividade](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions).
 
 +++
 

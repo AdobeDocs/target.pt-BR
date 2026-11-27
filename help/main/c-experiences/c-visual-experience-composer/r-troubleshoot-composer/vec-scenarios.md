@@ -14,28 +14,42 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 87%
+source-wordcount: '626'
+ht-degree: 4%
 ---
-# Cenários de modificação da página
+# Cenários de modificação da página {#vec-scenarios}
 
-Os cenários neste tópico mostram como as alterações feitas em sua página afetam a capacidade da Adobe Target de exibir uma experiência.
+>[!BEGINSHADEBOX]
 
-O seletor do Target determina onde exibir uma experiência. Se uma página for modificada fora do Target, as alterações poderão afetar a capacidade de o Target exibir a experiência.
+**Nesta página:** saiba como as alterações feitas em uma página fora do [!DNL Target] afetam a capacidade do [!DNL Target] de exibir uma experiência por meio de sete cenários com exemplos.
 
-Durante o uso do seletor, a classe única não é equivalente à ID. O seletor sempre funciona com uma classe única. Se nenhuma classe for atribuída ao elemento, o seletor calculará o número de irmãos anteriores que têm o mesmo nome de tag.
+>[!ENDSHADEBOX]
+
+O seletor [!DNL Target] determina onde uma experiência é exibida. Quando uma página é modificada fora do [!DNL Target], as alterações podem afetar a capacidade do [!DNL Target] de encontrar esse local e exibir a experiência.
+
+O seletor sempre funciona com uma classe exclusiva, que não é equivalente a uma ID. Quando nenhuma classe é atribuída ao elemento, o seletor conta os irmãos anteriores que têm o mesmo nome de tag.
 
 >[!NOTE]
 >
->Embora esses cenários usem itens de lista como exemplos, os conceitos se aplicam a qualquer elemento.
+>Os cenários usam itens de lista como exemplos, mas os conceitos se aplicam a qualquer elemento.
 
-## Cenário: insira um elemento com um nome de classe diferente antes do elemento selecionado {#section_298F661F72384F6AB957D5885A99D822}
+A tabela a seguir resume os cenários. Em todos os cenários, o seletor é `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`.
 
-Neste exemplo, um novo elemento foi inserido como um irmão do elemento no seletor do Target.
+| Cenário | Ação aplicada | Motivo |
+|---|---|---|
+| Inserir um elemento com um nome de classe diferente antes do elemento selecionado | Sim | `li.women-section:eq(0)` não foi afetado |
+| Inserir um elemento com o mesmo nome de classe do elemento selecionado | Não | Um novo elemento ocupa a primeira posição, o que quebra o seletor |
+| Inserir um elemento após o elemento selecionado | Sim | O novo elemento é adicionado na mesma posição em relação ao elemento principal |
+| Remover o elemento imediatamente anterior ao elemento selecionado | Sim | A classe do item selecionado não é alterada |
+| Remova o elemento imediatamente após o elemento selecionado | Sim | A classe do item selecionado não é alterada |
+| Remover o elemento selecionado | Sim | O elemento foi removido com sucesso |
+| Renomear a classe do elemento selecionado | Não | `class` não encontrado |
 
-Há uma possibilidade de a primeira classe presente no elemento poder ser adicionada pelo JavaScript. Nesse caso, a entrega falha e a ação não é aplicada.
+## Inserir um elemento com um nome de classe diferente antes do elemento selecionado
+
+Um novo elemento é inserido como um irmão do elemento no seletor [!DNL Target]. Se a primeira classe no elemento foi adicionada pelo JavaScript, o delivery falhará e a ação não será aplicada.
 
 **Elemento inserido:**
 
@@ -43,71 +57,67 @@ Há uma possibilidade de a primeira classe presente no elemento poder ser adicio
 <li class="kids-section">Kids</li>
 ```
 
-**Selecionado:**
+**Elemento selecionado:**
 
 `<li class="women-section">Women</li>`
 
-Seletor: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**Seletor:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**Resultado:**
+**Resultado:** o seletor funciona conforme esperado, pois `li.women-section:eq(0)` não foi afetado.
 
-O seletor funciona como esperado, pois `li.women-section:eq(0)` não é afetado.
-
-Antes:
+**Antes:**
 
 ```html
 <div id="wrap">
      <ul class="nav">
         <li class="men-section"> Men</li> <li class="women-section">Women</li>
-     </ul> 
+     </ul>
 </div>
 ```
 
-Depois:
+**Depois de:**
 
 ```html
 <div id="wrap">
     <ul class="nav">
         <li class="kids-section">Kids</li>
         <li class="men-section"> Men</li>       <li class="women-section">Women</li>
-    </ul> 
+    </ul>
 </div>
 ```
 
-## Cenário: insira um elemento com o mesmo nome de classe do elemento selecionado {#section_0969B88C2F154E648D9969C8C85EF55A}
+## Inserir um elemento com o mesmo nome de classe do elemento selecionado
 
-Neste cenário, é feita uma tentativa de inserir uma lista quando um item em uma lista é selecionado.
+Uma lista é inserida enquanto um item de uma lista é selecionado.
 
 **Elemento inserido:**
 
 ```html
-<ul class="nav"> 
-   <li class="item"> Sale </li> 
-   <li> class="item"> Offers </li> 
+<ul class="nav">
+   <li class="item"> Sale </li>
+   <li class="item"> Offers </li>
 </ul>
 ```
 
-**Selecionado**
+**Elemento selecionado:**
 
 `<li class="women-section">Women</li>`
 
-Seletor: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**Seletor:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**Resultado:**
+**Resultado:** o seletor não funciona. `ul.nav:eq(0)` agora aponta para um elemento adicionado dinamicamente, que não está disponível, portanto, a ação não é aplicada. Adicionar um item de lista semelhante com a mesma classe, de modo dinâmico ou manual, após a criação da atividade, coloca um novo elemento na primeira posição, o que quebra o seletor.
 
-O seletor não funciona, pois `ul.nav:eq(0)` fornece um elemento adicionado dinamicamente. O elemento não estará disponível e a ação não será aplicada. Quando um item de lista semelhante com a mesma classe é adicionado de modo dinâmico ou manual após a criação de uma atividade, um novo elemento é criado na primeira posição. Isso interrompe o seletor.
-
-Antes:
+**Antes:**
 
 ```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section"> Men</li>       <li class="women-section">Women</li>
-    </ul> 
+    </ul>
 </div>
 ```
 
-Depois (tentativa):
+**Depois (tentativa):**
 
 ```html
 <div id="wrap">
@@ -122,46 +132,44 @@ Depois (tentativa):
 </div>
 ```
 
-## Cenário: insira um elemento depois do elemento selecionado {#section_15B07B84BEE94ED39D85BBBE0733E170}
+## Inserir um elemento após o elemento selecionado
 
-Neste cenário, um item de lista é inserido após o elemento selecionado.
+Uma lista é inserida após o item de lista selecionado.
 
 **Elemento inserido:**
 
 ```html
-<ul class="nav"> 
-   <li class="men-section"> Men Clothes</li> 
-   <li class="women-section"> Women Clothes</li> 
+<ul class="nav">
+   <li class="men-section"> Men Clothes</li>
+   <li class="women-section"> Women Clothes</li>
 </ul>
 ```
 
-**Selecionado:**
+**Elemento selecionado:**
 
 `<li class="women-section">Women Shoes</li>`
 
-Seletor: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**Seletor:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**Resultado:**
+**Resultado:** Inserir uma lista após a lista que termina com o item selecionado funciona conforme esperado. O novo elemento é adicionado na mesma posição do elemento selecionado em relação ao elemento principal.
 
-Nesse caso, insira uma lista depois do fim da lista com o item de lista selecionado funcionando conforme esperado. O novo elemento é adicionado à mesma posição do elemento selecionado em relação ao elemento pai.
-
-Antes:
+**Antes:**
 
 ```html
 <div id="wrap">
     <ul class="nav">
-        <li class="men">Men Shoes </li>       <li class="women">Women Shoes</li>
+        <li class="men-section">Men Shoes </li>       <li class="women-section">Women Shoes</li>
     </ul>
 </div>
 ```
 
-Depois:
+**Depois de:**
 
 ```html
 <div id="wrap">
     <ul class="nav">
-        <li class="men">Men Shoes </li>
-        <li class="women">Women Shoes</li>
+        <li class="men-section">Men Shoes </li>
+        <li class="women-section">Women Shoes</li>
     </ul>
       <ul class="nav">
         <li class="men-section">Men Clothes</li>
@@ -170,9 +178,9 @@ Depois:
 </div>
 ```
 
-## Cenário: remova o elemento imediatamente antes do outro elemento {#section_F193674F04F84AA593EAA1137C880EBA}
+## Remover o elemento imediatamente anterior ao elemento selecionado
 
-Neste cenário, o item de lista antes do elemento selecionado é excluído.
+O item de lista antes da exclusão do elemento selecionado.
 
 **Elemento removido:**
 
@@ -180,17 +188,15 @@ Neste cenário, o item de lista antes do elemento selecionado é excluído.
 <li class="men-section"> Men </li>
 ```
 
-**Selecionado:**
+**Elemento selecionado:**
 
 `<li class="women-section">Women</li>`
 
-Seletor: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**Seletor:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**Resultado:**
+**Resultado:** o elemento foi removido com êxito, pois a classe do item selecionado não foi alterada.
 
-O elemento foi removido com êxito porque a classe do item selecionado não foi alterada.
-
-Antes:
+**Antes:**
 
 ```html
 <div id="wrap">
@@ -201,7 +207,7 @@ Antes:
 </div>
 ```
 
-Depois:
+**Depois de:**
 
 ```html
 <div id="wrap">
@@ -211,9 +217,9 @@ Depois:
 </div>
 ```
 
-## Cenário: remova o elemento logo após o outro elemento {#section_F83B51BE54924FB58679D512DAF1EBB2}
+## Remova o elemento imediatamente após o elemento selecionado
 
-Neste cenário, o item de lista depois do elemento selecionado é excluído.
+O item de lista após a exclusão do elemento selecionado.
 
 **Elemento removido:**
 
@@ -221,29 +227,27 @@ Neste cenário, o item de lista depois do elemento selecionado é excluído.
 <li class="kids-section">Kids</li>
 ```
 
-**Selecionado:**
+**Elemento selecionado:**
 
 `<li class="women-section">Women</li>`
 
-Seletor: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**Seletor:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**Resultado:**
+**Resultado:** o elemento foi removido com êxito, pois a classe do item selecionado não é alterada e o elemento removido tem uma classe exclusiva em sua subárvore pai.
 
-O elemento foi removido com êxito porque a classe do item selecionado não foi alterada. O elemento removido inclui uma classe única dentro de sua sub-árvore pai.
-
-Antes:
+**Antes:**
 
 ```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
         <li class="women-section">Women</li>
-        <li class="kids-section">Women</li>
+        <li class="kids-section">Kids</li>
     </ul>
 </div>
 ```
 
-Depois:
+**Depois de:**
 
 ```html
 <div id="wrap">
@@ -254,38 +258,36 @@ Depois:
 </div>
 ```
 
-## Cenário: remova o elemento selecionado {#section_1989CF1E2C344CC5963084ED83C18F9C}
+## Remover o elemento selecionado
 
-Neste cenário, o item de lista selecionado é excluído.
+O item de lista selecionado é excluído.
 
 **Elemento removido:**
 
 ```html
-<li class="women-shoes">Women</li>
+<li class="women-section">Women</li>
 ```
 
-**Selecionado:**
+**Elemento selecionado:**
 
-`<li class="women-shoes">Women</li>`
+`<li class="women-section">Women</li>`
 
-Seletor: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**Seletor:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**Resultado:**
+**Resultado:** o elemento foi removido com êxito.
 
-O elemento foi removido com êxito.
-
-Antes:
+**Antes:**
 
 ```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
-        <li class="women-shoes">Women</li>
+        <li class="women-section">Women</li>
     </ul>
 </div>
 ```
 
-Depois
+**Depois de:**
 
 ```html
 <div id="wrap">
@@ -295,9 +297,9 @@ Depois
 </div>
 ```
 
-## Cenário: renomeie a classe do elemento selecionado {#section_79D244C588BA452DB8E433D82B7F63EA}
+## Renomear a classe do elemento selecionado
 
-Neste cenário, a classe do item de lista selecionado foi alterada.
+A classe do item de lista selecionado é alterada.
 
 **Elemento alterado:**
 
@@ -305,17 +307,15 @@ Neste cenário, a classe do item de lista selecionado foi alterada.
 <li class="women-section">Women</li>
 ```
 
-**Selecionado:**
+**Elemento selecionado:**
 
 `<li class="women-section">Women</li>`
 
-Seletor: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**Seletor:** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**Resultado:**
+**Resultado:** Não é possível renomear a classe porque `class` não foi encontrado.
 
-Não é possível renomear a classe do elemento porque `class` não foi encontrado.
-
-Antes:
+**Antes:**
 
 ```html
 <div id="wrap">
@@ -326,7 +326,7 @@ Antes:
 </div>
 ```
 
-Depois (tentativa):
+**Depois (tentativa):**
 
 ```html
 <div id="wrap">
@@ -334,5 +334,5 @@ Depois (tentativa):
         <li class="men-section">Men</li>
         <li class="women-shoes">Women</li>
     </ul>
-</div>
+</div> 
 ```

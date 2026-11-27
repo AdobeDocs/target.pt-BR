@@ -1,5 +1,5 @@
 ---
-kewords: redirect;redirect url;send to different page
+keywords: redirecionar;redirecionar URL;enviar para página diferente;redirect;redirect url;send to different page
 description: Saiba como usar a opção Redirecionar para URL no Adobe [!DNL Target] quando quiser enviar o visitante para uma página diferente, em vez de mostrar o conteúdo na mesma página.
 title: Posso redirecionar uma página para um URL diferente?
 feature: Visual Experience Composer (VEC)
@@ -21,51 +21,54 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 80%
+source-wordcount: '433'
+ht-degree: 2%
 ---
-# Redirecionar para um URL
+# Redirecionar para um URL {#redirect-to-url}
 
-Use a opção [!UICONTROL Redirecionar para URL] em [!DNL Adobe Target] quando desejar enviar o visitante para uma página diferente em vez de mostrar o conteúdo na mesma página.
+>[!BEGINSHADEBOX]
 
-Você pode ter duas páginas completamente diferentes para testar, em vez de mudar apenas partes do conteúdo dentro de uma página. Neste caso, o teste A/B compara a página A versus a página B. Configure uma campanha de testes A/B, com duas experiências: uma apontando para a página A padrão e a outra redirecionando para a página B. No menu Ação da experiência, localizado ao clicar no rótulo da letra da experiência, escolha **[!UICONTROL Redirecionar para URL]** e especifique o URL da página B. A oferta é configurada para redirecionar o visitante para uma página diferente.
+**Nesta página:** Saiba como usar a opção **[!UICONTROL Redirecionar para URL]** para enviar visitantes para uma página diferente, em vez de mostrar o conteúdo na mesma página.
 
-A oferta de redirecionamento executa um código JavaScript para redirecionar o navegador. Ela usa o método `window.location.replace();`, de forma que a página a partir da qual o visitante é redirecionado não é armazenada no histórico do navegador. Isso permite que o visitante consiga utilizar o botão Voltar de seu navegador.
+>[!ENDSHADEBOX]
 
-Ofertas de redirecionamento possuem algumas limitações:
+A opção **[!UICONTROL Redirecionar para URL]** em [!DNL Adobe Target] envia um visitante para uma página diferente em vez de mostrar o conteúdo na mesma página. Ela se adapta à comparação de duas páginas completamente diferentes, em vez de alterações em partes de conteúdo dentro de uma página. Em seguida, um teste A/B compara a página A com a página B: uma experiência aponta para a página A padrão e a outra redireciona para a página B.
 
-* Para ofertas de redirecionamento em atividades usando A4T, sua implementação deve atender certos requisitos mínimos. Além disso, há informações importantes que você precisa saber. Para obter mais informações, consulte [Perguntas frequentes das Ofertas de redirecionamento - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
-* Ao usar o Experience Composer baseado em formulários, ofertas de redirecionamento não devem ser usadas em mboxes que façam parte da página. Uma oferta de redirecionamento deve ser usada somente a partir de uma tag de script que faz parte do `<head>` do HTML. Você sempre deve usar a criação automática e definir a oferta de redirecionamento para a mbox global.
+Uma oferta de redirecionamento executa o código JavaScript que redireciona o navegador. O código usa o método `window.location.replace();`, de modo que a página a partir da qual o visitante é redirecionado não é armazenada no histórico do navegador. Portanto, o visitante ainda pode usar o botão Voltar do navegador.
+
+## Criar uma oferta de redirecionamento {#create-redirect-offer}
+
+A experiência de redirecionamento define a página para a qual os visitantes são enviados e, opcionalmente, as condições do redirecionamento.
+
+1. Crie uma experiência.
+
+1. No quadro **[!UICONTROL Experiências]**, clique no ícone **[!UICONTROL Mais Ações]** ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) da experiência com redirecionamentos.
+
+1. Clique em **[!UICONTROL Redirecionar para a URL]**.
+
+   ![Ícone Mais Ações](assets/redirect_1.png)
+
+1. Na caixa de diálogo **[!UICONTROL Redirecionar para URL]**, digite a URL da página B.
+
+   ![Ícone Mais Ações](assets/redirect_2.png)
+
+1. (Opcional) Selecione a opção para incluir os parâmetros de consulta atuais.
+
+   Quando essa opção é selecionada, tudo depois de `?` no URL do visitante é anexado ao URL de redirecionamento no momento do redirecionamento.
+
+## Limitações
+
+As ofertas de redirecionamento têm as seguintes limitações:
+
+* **A4T:** uma oferta de redirecionamento em uma atividade que usa o A4T requer uma implementação que atende a certos requisitos mínimos, e outras informações importantes se aplicam. Consulte [Ofertas de redirecionamento - Perguntas frequentes sobre o A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
+* **Experience Composer baseado em formulário:** não use uma oferta de redirecionamento em mboxes que façam parte da página. Use uma oferta de redirecionamento somente a partir de uma marca de script que faz parte da HTML `<head>`, e sempre use a criação automática e defina a oferta de redirecionamento para a mbox global.
 
 >[!NOTE]
 >
->Se desejar passar o valor referenciador da página de destino, é recomendado usar uma oferta HTML em vez de uma oferta de redirecionamento.
-
-Para criar uma oferta de redirecionamento:
-
-1. Crie uma experiência.
-1. No quadro [!UICONTROL Experiências], clique no ícone **[!UICONTROL Mais Ações]** ( ![ícone Mais Ações](/help/main/assets/icons/MoreSmallList.svg) ) para a experiência desejada.
-1. Clique em **[!UICONTROL Redirecionar para a URL]**.
-1. Na caixa de diálogo Redirecionar para URL, digite o URL.
-1. Se desejar, selecione a opção para incluir parâmetros de consulta atuais.
-
-   Se essa opção for selecionada, tudo depois de ? no URL do visitante será anexado ao URL de redirecionamento no momento do redirecionamento.
-
-1. (Opcional) Crie regras adicionais.
-
-   Regras adicionais podem ser baseadas em qualquer um dos seguintes:
-
-   * URL
-   * Domínio
-   * Caminho
-   * Fragmento em hash (#)
-   * Consulta
-   * Parâmetro da mbox
-
-   Regras adicionais podem ser unidas no URL da atividade com AND ou OR. Todas regras que você adicionar são avaliadas contra si próprias com AND.
+>Para passar o valor do referenciador da landing page, use uma oferta do HTML em vez de uma oferta de redirecionamento.
 
 ## Problemas conhecidos
 
-* As atividades de redirecionamento nas implementações da at.js podem fazer com que o URL de visualização entre em loop (a oferta é entregue repetidamente). Você pode usar o [Modo de controle de qualidade](/help/main/c-activities/c-activity-qa/activity-qa.md) para realizar a Visualização e o QA. Esse problema não afeta o recebimento real da oferta. (TGT-23019)
+As atividades de redirecionamento nas implementações da at.js podem fazer com que o URL de visualização entre em loop, com a oferta entregue repetidamente. Em vez disso, use o [Modo de controle de qualidade](/help/main/c-activities/c-activity-qa/activity-qa.md) para visualizar e testar a atividade. Esse problema não afeta o delivery real da oferta. (TGT-23019)

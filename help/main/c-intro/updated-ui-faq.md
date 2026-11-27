@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '2022'
 ht-degree: 1%
@@ -242,7 +242,7 @@ Para obter mais informações, consulte [Extensão do Auxiliar de edição visua
 +++Detalhes
 Para obter mais informações sobre endereços IP que podem ser incluídos na lista de permissões, consulte os seguintes artigos:
 
-* **Enhanced Experience Composer (EEC)**: consulte [O EEC não carregará uma URL interna de controle de qualidade que não esteja acessível no IP público](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) em *Solução de problemas relacionados ao Enhanced Experience Composer*
+* **Enhanced Experience Composer (EEC)**: consulte [O EEC não carregará uma URL interna de controle de qualidade que não esteja acessível no IP público](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#eec-ip-addresses) em *Solução de problemas relacionados ao Enhanced Experience Composer*
 * **[!UICONTROL Recommendations]**: consulte [Endereços IP usados pelos servidores de processamento de feed do Recommendations](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
 
 +++
