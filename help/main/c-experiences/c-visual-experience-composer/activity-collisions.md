@@ -16,30 +16,40 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 43%
+source-wordcount: '354'
+ht-degree: 18%
 ---
-# Conflitos de atividades
+# Conflitos de atividades {#activity-collisions}
 
-A guia [!UICONTROL Conflitos] na página [!UICONTROL Visão geral da atividade] em [!DNL Adobe Target] lista as colisões de atividades no site.
+>[!BEGINSHADEBOX]
 
-Um conflito de atividade ocorre quando várias atividades são configuradas para fornecer conteúdo para a mesma página. Se ocorrer um conflito de atividades, você pode não conseguir visualizar o conteúdo esperado na página.
+**Nesta página:** Saiba como usar a guia **[!UICONTROL Conflitos]** para localizar atividades que possam fornecer conteúdo à mesma página.
 
-A guia [!UICONTROL Conflitos] está disponível na página de visão geral da atividade e pode informá-lo se a atividade contiver possíveis conflitos.
+>[!ENDSHADEBOX]
 
-Para acessar a guia [!UICONTROL Conflitos], clique em **[!UICONTROL Atividades]** > clique na atividade desejada da lista > em seguida, clique em **[!UICONTROL Conflitos]** no painel esquerdo.
+Um conflito de atividade ocorre quando várias atividades são configuradas para fornecer conteúdo para a mesma página. Se ocorrer uma colisão de atividade, o conteúdo esperado pode não aparecer na página.
 
-São listadas todas as atividades do mesmo URL, independentemente do direcionamento de público-alvo de cada atividade. Abra esta guia para obter uma lista de atividades que podem colidir. Se a colisão alterar a experiência esperada, edite a atividade.
+A guia **[!UICONTROL Conflitos]** na página **[!UICONTROL Visão Geral da Atividade]** em [!DNL Adobe Target] lista as colisões de atividades no site e mostra se uma atividade contém possíveis colisões. A lista **[!UICONTROL Conflitos]** ajuda a:
 
-A lista [!UICONTROL Conflitos] ajuda a:
-
-* Identificar se um teste já está em execução em uma página antes de configurar uma nova atividade
+* Identifique se um teste já está em execução em uma página antes de uma nova atividade ser configurada
 * Solucionar problemas de atividade se o conteúdo esperado não aparecer
 
-A lista [!UICONTROL Conflitos] mostra cada cenário [!DNL Target] em que a mbox é usada e que usa a mesma URL. Para cada possível colisão, a lista mostra o URL da atividade, o nome da mbox em que a colisão pode ocorrer e quaisquer atividades que correspondam a esses dois critérios. Se houver várias mboxes, elas serão listadas.
+## Acesse a guia Conflitos {#access-collisions}
 
-A lista mostra o status e a prioridade de cada colisão potencial, junto com outras informações. Você pode usar o status e a prioridade para ajudar a determinar a probabilidade de uma colisão ocorrer. Considere duas atividades que podem colidir. Se uma atividade não estiver ativa no momento, não poderá ocorrer uma colisão. Uma colisão só é possível se a atividade inativa se tornar ativa. Se a colisão potencial for entre duas atividades ativas com a mesma prioridade e o mesmo público-alvo, ocorre uma colisão. Você pode alterar a prioridade ou o status para evitar a colisão.
+Clique em **[!UICONTROL Atividades]**, clique na atividade desejada da lista e acesse o menu **[!UICONTROL Conflitos]**.
 
-Se os públicos forem diferentes, ainda há uma possível colisão, pois é possível que um determinado visitante pertença a vários públicos.
+![Ícone Configurar](assets/collisions_1.png)
+
+São listadas todas as atividades do mesmo URL, independentemente do direcionamento de público-alvo de cada atividade. A guia lista as atividades que podem estar em conflito. Se a colisão alterar a experiência esperada, edite a atividade.
+
+## Leia a lista de colisões {#collisions-list}
+
+A lista **[!UICONTROL Conflitos]** mostra cada cenário [!DNL Target] em que a mbox é usada e que usa a mesma URL. Para cada possível colisão, a lista mostra o URL da atividade, o nome da mbox em que a colisão pode ocorrer e quaisquer atividades que correspondam a esses dois critérios. Se houver várias mboxes, elas serão listadas.
+
+A lista também mostra o status e a prioridade de cada possível colisão, juntamente com outras informações. O status e a prioridade ajudam a determinar a probabilidade de ocorrer uma colisão. Para duas atividades que podem colidir:
+
+* Se uma atividade não estiver ativa no momento, não poderá ocorrer uma colisão. Uma colisão só é possível se a atividade inativa se tornar ativa.
+* Se a colisão potencial for entre duas atividades ativas com a mesma prioridade e o mesmo público-alvo, ocorre uma colisão. A prioridade ou o status podem ser alterados para evitar a colisão.
+* Se os públicos forem diferentes, ainda haverá uma possível colisão, pois um visitante específico pode pertencer a vários públicos.

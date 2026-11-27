@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 35%
@@ -50,7 +50,7 @@ Se você estiver criando uma atividade do [!UICONTROL Recommendations], não há
 
    Esta tela é diferente se você estiver criando uma atividade de [!UICONTROL Recomendações]. As atividades de [!UICONTROL Recommendations] não incluem experiências.
 
-1. &#x200B;
+1. 
    1. Clique no ícone **[!UICONTROL Renomear]** ( ![Ícone Renomear](/help/main/assets/icons/MoreSmallListVert.svg) ), clique em **[!UICONTROL Renomear]**, especifique um nome para a atividade e clique em **[!UICONTROL Salvar]**.
 
    O nome da atividade não pode começar com nenhum dos seguintes caracteres:
@@ -148,7 +148,7 @@ Se você estiver criando uma atividade do [!UICONTROL Recommendations], não há
 
 * [Criar um teste A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [Criar uma atividade de direcionamento de experiência](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
-* [Criar uma atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+* [Criar uma atividade do Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#create-recs-activity)
 
 ## Vídeo de treinamento: criador baseado em formulário ![Selo do tutorial](/help/main/assets/tutorial.png)
 
@@ -158,4 +158,4 @@ Este vídeo oferece uma demonstração do compositor baseado em formulário.
 * Entenda quando usar o Experience Composer baseado em formulário ou o Visual Experience Composer
 * Use refinamentos para direcionar um local
 
->[!VIDEO](https://video.tv.adobe.com/v/3507884?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)

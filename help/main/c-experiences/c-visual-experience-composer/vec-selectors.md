@@ -18,32 +18,36 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 25%
+source-wordcount: '478'
+ht-degree: 4%
 ---
-# Seletores de elementos usados no Visual Experience Composer
+# Seletores de elementos usados no [!UICONTROL Visual Experience Composer] {#vec-selectors}
 
-Um seletor de elementos é uma expressão CSS que pode identificar um ou mais elementos.
+>[!BEGINSHADEBOX]
 
-Você pode encontrar informações básicas sobre os seletores de CSS no documento [Seletores](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) no *[!DNL Mozilla Developer Network]* (MDN).
+**Nesta página:** saiba como os seletores de elementos funcionam no [!UICONTROL Visual Experience Composer] (VEC), como escolher quais seletores serão usados e como o [!DNL Target] gera um seletor para um elemento.
 
-Você pode definir se deseja usar elemento em classes ou ID de elemento nas suas preferências de conta. Clique em **[!UICONTROL Administração > Visual Experience Composer]** e escolha seus seletores de CSS preferidos.
+>[!ENDSHADEBOX]
 
-* **Usar IDs de elemento**: desabilite se a mesma ID for usada para vários elementos ou as IDs de elemento podem mudar no carregamento da página.
-* **Usar classes de elemento**: desabilite se as classes de elemento em uma página puderem mudar.
-* **Usar seletores preferenciais**: ative esta opção se quiser usar seletores exclusivos no VEC para identificar as principais áreas do site.
+Um seletor de elementos é uma expressão CSS que pode identificar um ou mais elementos. Informações básicas sobre os seletores de CSS estão disponíveis no documento [Seletores](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) no *[!DNL Mozilla Developer Network]* (MDN).
+
+Se as classes de elemento ou IDs de elemento devem ser usadas é definido nas preferências da conta. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]** e escolha os seletores de CSS preferidos:
+
+* **[!UICONTROL Usar IDs de elemento]**: desabilite se a mesma ID for usada para vários elementos ou se as IDs de elemento puderem mudar no carregamento da página.
+* **[!UICONTROL Usar classes de elemento]**: desabilite se as classes de elemento em uma página puderem mudar.
+* **[!UICONTROL Usar seletores preferenciais]**: permitir o uso de seletores exclusivos no VEC para identificar as principais áreas do site.
 
 >[!NOTE]
 >
->Classes de elementos estão disponíveis como seletores em [!UICONTROL atividades de Teste A/B], [!UICONTROL Automated Personalization] e [!UICONTROL &#x200B; de Teste multivariado].
+>As classes de elemento estão disponíveis como seletores em **[!UICONTROL atividades de Teste A/B]**, **[!UICONTROL Automated Personalization]** e **[!UICONTROL Teste multivariado]**.
 
-Para obter informações sobre quando usar seletores de CSS e quando usar IDs exclusivas, consulte [Práticas recomendadas e limitações do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Para obter informações sobre quando usar seletores de CSS e quando usar IDs exclusivas, consulte [Práticas recomendadas e limitações do Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#vec-best-practices).
 
-## Como [!DNL Target] gera um seletor para um elemento {#section_D89D954BCBFB486CA081BE183776A475}
+## Como [!DNL Target] gera um seletor para um elemento {#generate-selector}
 
-[!DNL Target] usa um algoritmo simples para criar um seletor. Aqui está uma breve explicação da lógica de geração:
+[!DNL Target] usa um algoritmo simples para criar um seletor. A lógica de geração é a seguinte:
 
 1. Se um elemento tiver uma ID, por exemplo `id="container"`, o seletor do elemento é `#container`.
 
@@ -62,7 +66,7 @@ Para obter informações sobre quando usar seletores de CSS e quando usar IDs ex
    </div>
    ```
 
-1. Se um elemento contiver um atributo de classe, [!DNL Target] tentará aproveitar a primeira classe das classes presentes no elemento.
+1. Se um elemento contiver um atributo de classe, [!DNL Target] tentará usar a primeira classe de qualquer classe presente no elemento.
 
    [!DNL Target] tenta analisar o elemento pai até encontrar o elemento `<HTML>` ou um elemento com uma ID. Sempre que um elemento contém uma ID e o seletor é calculado em seu filho descendente, a ID desse elemento contribui para o seletor.
 
@@ -81,11 +85,9 @@ Para obter informações sobre quando usar seletores de CSS e quando usar IDs ex
    </div>
    ```
 
-   Neste exemplo:
+   Neste exemplo, o seletor é `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (&quot; > &quot; indica o filho imediato).
 
-   Seletor: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (&quot; > &quot; indica o filho imediato.)
-
-   `eq` informa ao índice que há um elemento com &quot;tagName=UL&quot; e a primeira classe é `navigation`. Portanto, `index` é 0. Consulte o artigo [Seletores](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) no site MDN para obter mais informações.
+   `eq` fornece o índice do elemento que tem &quot;tagName=UL&quot; e a primeira classe `navigation`. Portanto, `index` é 0. Consulte o artigo [Seletores](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) no site MDN para obter mais informações.
 
 1. Se um elemento não contiver uma classe, [!DNL Target] usará `tagName` para o elemento e navegará pelo elemento pai até que o elemento `<HTML>` ou um elemento com uma ID seja encontrado.
 
@@ -104,10 +106,10 @@ Para obter informações sobre quando usar seletores de CSS e quando usar IDs ex
    </div>
    ```
 
-   Seletor: `#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
+   O seletor é `#container` > `ul.navigation:eq(0)` > `li:nth-of-type(4)`.
 
-No processo acima:
+Neste processo:
 
-* Você pode usar qualquer seletor de CSS, desde que ele identifique exclusivamente um elemento no DOM.
-* A abordagem acima é aquela usada por [!DNL Target]. [!DNL Target] não exige que você use esta abordagem. Você pode adicionar qualquer seletor, desde que o ponto 1 seja verdadeiro.
-* Você pode usar qualquer atributo no seletor. Este documento usa apenas um nome de classe como exemplo.
+* Qualquer seletor de CSS pode ser usado, desde que identifique exclusivamente um elemento no DOM.
+* A abordagem acima é aquela usada por [!DNL Target]. [!DNL Target] não exige essa abordagem. Qualquer seletor pode ser adicionado, desde que ele identifique exclusivamente o elemento.
+* Qualquer atributo pode ser usado no seletor. Este artigo usa apenas um nome de classe como exemplo.

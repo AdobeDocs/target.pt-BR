@@ -2,7 +2,7 @@
 keywords: coleção, direcionamento
 description: Saiba como usar coleções de produtos ou itens no [!DNL Target Recommendations].
 title: Como usar coleções nas atividades do Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 TQID: 'https://experienceleague.adobe.com/kdjl2cpjaRWYZRqHFqARHvbTaTuu0iAH7ZWbD2Lrs7o'
@@ -18,7 +18,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 3883dc9752db0a2427f70cb3036fe060c440361a
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 8%
@@ -54,7 +54,7 @@ As coleções estão disponíveis em toda a conta, portanto, uma coleção que �
 
    >[!NOTE]
    >
-   >O &quot;Número de Itens&quot; relatado para cada coleção na exibição de lista das **[!UICONTROL Coleções]** é o número de produtos que correspondem às regras da coleção no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=pt-BR){target=_blank} para alterar o grupo de hosts padrão.
+   >O &quot;Número de Itens&quot; relatado para cada coleção na exibição de lista das **[!UICONTROL Coleções]** é o número de produtos que correspondem às regras da coleção no [grupo de hosts](/help/main/administrating-target/hosts.md) (ambiente) padrão configurado no Recommendations. Consulte [Configurações](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para alterar o grupo de hosts padrão.
 
 1. Clique em **[!UICONTROL Criar coleção]**.
 
@@ -88,7 +88,7 @@ After creating a search using "id > contains," for example, you can then click [
 >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned.
 -->
 
-## Usar uma coleção em uma atividade
+## Usar uma coleção em uma atividade {#use-collection}
 
 Uma coleção é selecionada para cada experiência de uma atividade [!DNL Recommendations]. A coleção determina quais itens estão qualificados para aparecer nas recomendações dessa experiência.
 

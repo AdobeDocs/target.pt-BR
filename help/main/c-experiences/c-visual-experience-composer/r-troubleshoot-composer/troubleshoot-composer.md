@@ -20,23 +20,27 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 61%
+source-wordcount: '276'
+ht-degree: 3%
 ---
-# Introdução à solução de problemas do [!UICONTROL Visual Experience Composer] e do [!UICONTROL Enhanced Experience Composer]
+# Introdução à solução de problemas do [!UICONTROL Visual Experience Composer] e do [!UICONTROL Enhanced Experience Composer] {#troubleshoot-composer}
 
-Problemas de exibição ocorrem às vezes no [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) e no [!UICONTROL Enhanced Experience Composer] (EEC) sob determinadas condições.
+>[!BEGINSHADEBOX]
 
-O VEC é um dos principais recursos do [!DNL Adobe Target]. O VEC é um editor que permite aos profissionais de marketing e designers criar e alterar o conteúdo usando uma interface visual. Muitas escolhas de design podem ser feitas sem necessitar de edição direta do código. A edição de HTML e JavaScript também é possível usando as opções de edição disponíveis no compositor.
+**Nesta página:** Saiba qual página usar para solucionar problemas no **[!UICONTROL Visual Experience Composer]** (VEC) e no **[!UICONTROL Enhanced Experience Composer]** (EEC).
 
-O EEC é uma extensão do VEC que ajuda você a editar uma experiência para um site de edição de iFrame ou páginas que ainda não contêm a implantação do Target. Se tiver problemas para abrir sua página no VEC, tente o EEC.
+>[!ENDSHADEBOX]
 
-Para obter informações sobre o VEC e o EEC, consulte [Experiências](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Problemas de exibição ocorrem às vezes no [!DNL Adobe Target] **[!UICONTROL Visual Experience Composer]** (VEC) e no **[!UICONTROL Enhanced Experience Composer]** (EEC) sob determinadas condições.
 
-Observe que alguns problemas afetam tanto o VEC quanto o EEC, e alguns problemas afetam apenas um dos dois Composers. Revise a página apropriada para encontrar mais informações.
+O VEC é um dos principais recursos do [!DNL Adobe Target]. É um editor que permite aos profissionais de marketing e designers criarem e alterarem o conteúdo com uma interface visual, de modo que muitas escolhas de design possam ser feitas sem a edição do código. O HTML e o JavaScript também podem ser editados com as opções de edição disponíveis no compositor.
 
-* [Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-* [Solução de problemas relacionados ao Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-* [Solução de problemas relacionados ao Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
+O EEC é uma extensão do VEC para editar uma experiência em um site de interrupção de iframe ou em páginas que ainda não incluem a implementação do [!DNL Target]. Quando uma página não puder ser aberta no VEC, tente o EEC. Para obter informações sobre o VEC e o EEC, consulte [Experiências](/help/main/c-experiences/experiences.md#experiences-overview).
+
+Alguns problemas afetam ambos os compositores e alguns afetam apenas um deles. Revise a página que corresponde ao problema:
+
+* [Solução de problemas relacionados ao Visual Experience Composer e ao Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md): problemas que afetam ambos os compositores.
+* [Solução de problemas relacionados ao Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md): problemas que afetam somente o VEC.
+* [Solução de problemas relacionados ao Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md): problemas que afetam somente o EEC.

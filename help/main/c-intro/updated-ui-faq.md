@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '2022'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Devido aos problemas recentes identificados, relacionados principalmente a perso
 
 * **17 de junho de 2025**: todas as Organizações IMS foram habilitadas para a interface do usuário [!DNL Target] atualizada, para usuários específicos ou em toda a organização, para começar a testar a nova experiência.
 
-* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4&rbrace; se tornou a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
+* **30 de junho de 2025**: a [interface atualizada [!DNL Target] 4} se tornou a experiência padrão para todas as organizações IMS que habilitaram a alternância de versão da interface do usuário.](/help/main/c-intro/understand-the-target-ui.md)
 
   * Os clientes que atualmente veem a interface herdada, por padrão, agora veem a interface atualizada ao fazer logon.
   * O botão de alternância da versão da interface do usuário permanece disponível até o final de julho, permitindo que os usuários alternem de volta, se necessário.
@@ -242,7 +242,7 @@ Para obter mais informações, consulte [Extensão do Auxiliar de edição visua
 +++Detalhes
 Para obter mais informações sobre endereços IP que podem ser incluídos na lista de permissões, consulte os seguintes artigos:
 
-* **Enhanced Experience Composer (EEC)**: consulte [O EEC não carregará uma URL interna de controle de qualidade que não esteja acessível no IP público](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) em *Solução de problemas relacionados ao Enhanced Experience Composer*
+* **Enhanced Experience Composer (EEC)**: consulte [O EEC não carregará uma URL interna de controle de qualidade que não esteja acessível no IP público](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#eec-ip-addresses) em *Solução de problemas relacionados ao Enhanced Experience Composer*
 * **[!UICONTROL Recommendations]**: consulte [Endereços IP usados pelos servidores de processamento de feed do Recommendations](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
 
 +++

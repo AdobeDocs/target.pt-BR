@@ -2,7 +2,7 @@
 keywords: Endereço IP; endereços IP; lista de permissões; lista de permissões; firewall; recs; feed; servidores; adobe experience cloud; recomendações
 description: Exiba uma lista de endereços IP usados nos servidores de processamento de feed do Recommendations do [!DNL Target] para ajudá-lo a configurar seu firewall para permitir endereços IP originados de servidores da Adobe.
 title: Quais são os endereços IP usados pelos servidores de processamento de feed do Recomendações?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 TQID: 'https://experienceleague.adobe.com/-EhfjK6jTuHX33utQig-XYhf-nzkWlxb58VRmK9fLWo'
@@ -18,20 +18,24 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '193'
 ht-degree: 19%
 ---
-# Endereços IP usados por [!DNL Recommendations] servidores de processamento de feed
+# Endereços IP usados por [!DNL Recommendations] servidores de processamento de feed {#recs-ip-addresses}
 
-Lista de endereços IP usados em servidores de processamento de feed do [!DNL Adobe Target] [!DNL Recommendations] para ajudar você a configurar o firewall a fim de permitir endereços IP originados de servidores do [!DNL Adobe].
+>[!BEGINSHADEBOX]
+
+**Nesta página:** Localize os endereços IP que os servidores de processamento de feed do [!DNL Adobe Target] [!DNL Recommendations] usam para configurar um firewall que permita os endereços IP originados de servidores do [!DNL Adobe].
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->A equipe [!DNL Target] está atualizando os endereços de gateway NAT para baixar os feeds [!DNL Recommendations]. Se você implementar o incluir na lista de permissões de IP, certifique-se de incluir na lista de permissões os novos hosts da AWS a seguir. Os hosts existentes estão programados para serem desativados em 30 de junho de 2024. Para garantir uma transição suave, inclua na lista de permissões todos os nove endereços. Não há urgência para remover os endereços existentes.
+>A equipe [!DNL Target] está atualizando os endereços de gateway NAT para baixar os feeds [!DNL Recommendations]. Quando o incluir na lista de permissões de IP estiver implementado, inclua na lista de permissões os novos hosts do AWS a seguir. Os hosts existentes estão programados para serem desativados em 30 de junho de 2024. Para garantir uma transição suave, inclua na lista de permissões todos os nove endereços. Não há urgência para remover os endereços existentes.
 
-As atividades do [!DNL Target] [!UICONTROL Recommendations] usam os seguintes hosts da AWS ao acessar os servidores FTP dos clientes:
+As atividades do [!DNL Target] [!UICONTROL Recommendations] usam os seguintes hosts da AWS ao acessar os servidores FTP dos clientes.
 
 **Novos hosts**:
 

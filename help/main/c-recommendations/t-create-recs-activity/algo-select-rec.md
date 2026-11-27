@@ -2,7 +2,7 @@
 keywords: recomendações;atividade de recomendações;critérios;algoritmo;recommendations;recommendations activity;criteria;algorithm
 description: Saiba como selecionar os critérios (regras que determinam quais produtos ou conteúdo recomendar) para usar na atividade do Adobe [!DNL Target] Recommendations.
 title: Como selecionar critérios para uma atividade do Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 product_v2:
@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 62%
@@ -35,7 +35,7 @@ Se você selecionar vários critérios, o tráfego será dividido igualmente ent
 
 **Para selecionar o critério:**
 
-1. Ao [criar uma nova recomendação](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F), na caixa de diálogo **[!UICONTROL Selecionar critérios]**, localize e selecione um ou mais critérios.
+1. Ao [criar uma nova recomendação](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#create-recs-activity), na caixa de diálogo **[!UICONTROL Selecionar critérios]**, localize e selecione um ou mais critérios.
 
    Você pode usar o filtro [!UICONTROL Tipo de Setor], o filtro [!UICONTROL Tipo de Página] e a caixa de seleção [!UICONTROL Compatível] para filtrar a lista de critérios. Essas opções ajudam a localizar os critérios desejados.
 

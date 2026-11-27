@@ -16,105 +16,129 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 79%
+source-wordcount: '2194'
+ht-degree: 22%
 ---
-# Introdução a modificações
+# Introdução a modificações {#vec-code-editor}
 
-Informações sobre a página [!UICONTROL Modificações] em [!DNL Adobe Target] que permite exibir modificações na sua página e adicionar modificações adicionais (Seletor CSS, Mbox e Código personalizado).
+>[!BEGINSHADEBOX]
 
-A página [!UICONTROL Modificações] mostra todas as alterações feitas em sua página no Visual Experience Composer (VEC) e permite fazer alterações adicionais clicando em cada elemento da página e [selecionando uma ação](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Cada alteração feita aparece como uma ação ou elemento separado na lista de [!UICONTROL Modificações]. Além disso, é possível adicionar modificações, incluindo os seguintes tipos de modificação: Seletor CSS, Mbox. e Código personalizado.
+**Nesta página:** Saiba como exibir, editar, excluir e adicionar modificações no painel **[!UICONTROL Modificações]** do [!UICONTROL Visual Experience Composer] (VEC) e como usar código personalizado.
 
-## Visão geral das Modificações {#section_EE27E7572AA74397BBDED563B2B3D509}
+>[!ENDSHADEBOX]
 
-A página de [!UICONTROL Modificações] mostra todas as alterações feitas em sua página no VEC. Cada alteração feita aparece como uma ação ou elemento separado na lista de [!UICONTROL Modificações].
+O painel **[!UICONTROL Modificações]** em [!DNL Adobe Target] mostra todas as alterações feitas na página no [!UICONTROL Visual Experience Composer] (VEC) e permite alterações adicionais clicando em cada elemento da página e [selecionando uma ação](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md). Cada alteração aparece como uma ação ou elemento separado na lista **[!UICONTROL Modificações]**. As modificações também podem ser adicionadas diretamente, dentre os seguintes tipos: Seletor de CSS, Mbox e Código personalizado.
 
-![imagem de codeeditor_page_mods](assets/codeeditor_page_mods.png)
+## Visão geral das modificações {#modifications-overview}
 
-Use a página de Modificações para fazer pequenas alterações no seletor escolhido pelo Target quando você usa o VEC para configurar como o conteúdo será entregue. Você pode alterar o conteúdo ou um atributo de HTML. Você também pode editar o código para criar o equivalente a uma oferta HTML dentro de uma mbox.
+A página **[!UICONTROL Modificações]** faz pequenas alterações no seletor que [!DNL Target] escolhe quando o VEC configura como o conteúdo é entregue. O conteúdo ou um atributo do HTML podem ser alterados. O código também pode ser editado para criar o equivalente a uma oferta do HTML em uma mbox.
 
-Use a página de Modificações para:
+![Visual Experience Composer com o painel Modificações à direita, listando as ações da Experiência B](../assets/vec_modif_1.png)
+
+A página **[!UICONTROL Modificações]** pode ser usada para:
 
 * Exibir uma ação realizada no visual composer.
 
-  ![imagem codeeditor_viewchange](assets/codeeditor_viewchange.png)
+  O painel ![Modificações lista três ações: Definir HTML, Alterar Cor de Fundo e Definir HTML](assets/codeeditor_viewchange.png)
 
-* Editar uma ação existente. Passe o mouse sobre a modificação desejada, em seguida, clique no ícone **[!UICONTROL Editar]**.
+* Editar uma ação existente. Acesse o menu avançado e selecione **[!UICONTROL Editar]**.
 
-  ![imagem de edição do editor de código](assets/codeeditor_edit.png)
+  ![Painel Modificações com o ícone Editar destacado ao lado da primeira ação](assets/codeeditor_edit.png)
 
   Faça as alterações.
 
-  ![imagem de &lbrace;codeeditor_changechange1](assets/codeeditor_changechange1.png)
+  ![Painel de modificações com a ação Definir HTML, o Seletor de elemento CSS #default_content e o campo Conteúdo](assets/codeeditor_changechange1.png)
 
-* Excluir uma ação existente. Passe o mouse sobre a modificação desejada, em seguida, clique no ícone **[!UICONTROL Excluir]**.
+* Excluir uma ação existente. Acesse o menu avançado e selecione **[!UICONTROL Excluir modificação]**.
 
-  ![imagem de codeditor_delete](assets/codeditor_delete.png)
+  Painel ![Modificações com o ícone Excluir realçado ao lado da primeira ação](assets/codeditor_delete.png)
 
-* Adicione uma nova modificação. Clique em **[!UICONTROL Adicionar modificação]** ou no ícone + e especifique as alterações, conforme descrito abaixo.
+* Adicione uma nova modificação. Acesse o menu avançado **[!UICONTROL Modificações]**, selecione **[!UICONTROL Adicionar uma modificação]** e especifique as alterações conforme descrito em [Adicionar modificações](#add-modifications).
 
-  ![imagem de editor_de_código](assets/codeeditor_new.png)
+  ![Painel de Modificações com o Tipo de Modificação, Seletor de Elemento CSS, Tipo de ação e Campos de conteúdo](assets/codeeditor_new.png)
 
-  Observe que após a criação de uma modificação o Target exibe um ícone + na parte superior do painel Modificações em vez do botão Adicionar modificação, na parte inferior do painel.
+## Adicionar modificações {#add-modifications}
 
-* Fixe o painel Modificações verticalmente na interface do Target ou horizontalmente na parte inferior. Clique no ícone de [!UICONTROL Fixar] para alternar entre as duas configurações.
+As modificações são adicionadas pelo painel **[!UICONTROL Modificações]** para a experiência selecionada no VEC.
 
-  ![imagem codeditor_dock](assets/codeditor_dock.png)
+1. Para exibir as **[!UICONTROL Modificações]**, clique em **[!UICONTROL Mostrar Modificações]**.
 
-  A ilustração a seguir mostra o painel Modificações fixado na parte inferior da tela:
+   ![Ícone Modificações realçado na barra de ferramentas do Visual Experience Composer](assets/codeeditor_icon_big.png)
 
-  ![imagem codeeditor_dock_bottom](assets/codeeditor_dock_bottom.png)
-
-## Adicionar modificações {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
-
-1. Para exibir a página de [!UICONTROL Modificações] de uma experiência selecionada, no VEC, clique no ícone **[!UICONTROL Modificações]** &lt;/>.
-
-   ![imagem grande do &lbrace;codeeditor_icon](assets/codeeditor_icon_big.png)
-
-   >[!NOTE]
-   >
-   >Para abrir o painel de Modificações no Experience Composer baseado em formulário, crie ou edite uma oferta HTML. Para obter mais informações, consulte [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
-
-   A página de [!UICONTROL Modificações] é aberta, dividindo a tela entre o modo visual, à esquerda, e o painel Modificações, à direita. Clique no ícone de [!UICONTROL Fixar] para fixar o painel Modificações verticalmente na interface de usuário do Target ou horizontalmente na parte inferior. Observe que a experiência A na ilustração a seguir não tem modificações anteriores.
-
-   ![imagem de codeeditor_page](assets/codeeditor_page.png)
-
-   A experiência B mostra as modificações anteriores no painel [!UICONTROL Modificações] à direita.
-
-   ![imagem de codeeditor_page_mods](assets/codeeditor_page_mods.png)
+   Para abrir o painel **[!UICONTROL Modificações]** no Experience Composer baseado em formulário, crie ou edite uma oferta do HTML. Para obter mais informações, consulte [Experience Composer baseado em formulário](/help/main/c-experiences/form-experience-composer.md).
 
 1. Para adicionar uma modificação:
 
-   * Se não houver modificações anteriores na experiência, clique no botão **[!UICONTROL Adicionar modificação]**, na parte inferior do painel [!UICONTROL Modificações] à direita.
-   * Se houver modificações anteriores na experiência, clique no ícone +, na parte superior do painel [!UICONTROL Modificações] à direita.
+   * Se não houver modificações anteriores na experiência, clique em **[!UICONTROL Adicionar modificação]** no painel **[!UICONTROL Modificações]**.
+   * Se houver modificações anteriores na experiência, acesse o menu avançado **[!UICONTROL Modificações]** e selecione **[!UICONTROL Adicionar uma modificação]**.
 
-   O painel Modificações é exibido:
+   O painel **[!UICONTROL Modificações]** exibe:
 
-   ![codeeditor_page_mods_add image](assets/codeeditor_page_mods_add.png)
+   ![Visual Experience Composer com o painel Modificações aberto à direita, mostrando o Tipo de Modificação, o Seletor de elemento CSS, o Tipo de ação e os campos de Conteúdo](assets/codeeditor_page_mods_add.png)
 
-1. Na lista suspensa **[!UICONTROL Tipo de modificações]**, escolha o tipo desejado:
+1. Na lista suspensa **[!UICONTROL Tipo de modificação]**, escolha o tipo desejado:
 
-   | Tipo de modificações | Detalhes |
+   | Tipo de modificação | Detalhes |
    |--- |--- |
-   | Seletor de CSS | Na caixa Seletor de elemento CSS, especifique o elemento CSS que deseja modificar, selecione um tipo de ação (Definir Conteúdo ou Definir atributo) e, em seguida, preencha com as informações necessárias e o conteúdo desejado. |
-   | Mbox | Especifique o nome da mbox e o conteúdo desejado.<p>**Observação**: as mboxes não são mais compatíveis com o VEC em páginas que usam o at.js 2.*x*.<p>Como soluções alternativas:<ul><li>Se estiver usando at.js 2.*x*, adicione uma modificação do Seletor de CSS em vez de uma modificação de Mbox e adicione o conteúdo no seletor que sua mbox estava usando. </li><li>Use atividades baseadas em formulário (funciona com mboxes e at.js 1.*x* e at.js 2.*x*).</li><li>Use at.js 1.*x* no VEC.</li></ul> |
-   | Código personalizado | Especifique um nome opcional, selecione ou desmarque a caixa de seleção [!UICONTROL Adicionar código na `<HEAD>` Seção], conforme desejado, e em seguida adicione seu código personalizado.<p>Se você selecionar [!UICONTROL Adicionar código na `<HEAD>` Seção], o código personalizado será adicionado à seção `<head>` e sua execução não dependerá dos eventos body ou page-load. Adicionar apenas os elementos `<script>` e `<style>`. Adicionar tags `<div>` e outros elementos pode fazer com que os elementos `<head>` restantes apareçam em `<body>`. Se estiver usando at.js, todas as ofertas serão entregues de forma assíncrona.<p> Se você desmarcar [!UICONTROL Adicionar código na `<HEAD>` Seção], o código personalizado será executado imediatamente após a marca `<body>`. Vincule todo o código em um único `<div>` para preservar a estrutura DOM. Se estiver usando at.js, todas as ofertas serão entregues de forma assíncrona.<p>Se o HTML para `<BODY>` contiver `<SCRIPT>` e `<DIV>`, então `<DIV>` será acrescentado a `<BODY>` e `<SCRIPT>` será executado em `<HEAD>`. Além disso, `<SCRIPT>` que carrega um arquivo externo está anexado a `<HEAD>`.<p>**Observação**: scripts são executados de forma assíncrona. Isso significa que você não pode, por exemplo, usar `document.write` ou métodos de script semelhantes.<p>O código personalizado oferece uma interface não visual para exibir,editar e adicionar novas ações no VEC, no Experience Composer baseado em formulário e no editor de ofertas HTML. O painel oferece uma visualização de código de uma experiência para ajudá-lo a criar experiências mais complexas, experiências de ajuste fino existentes e solução de problemas.<p>O código personalizado destina-se a usuários avançados familiarizados com HTML, JavaScript e CSS. A exibição do código pode ajudá-lo a ajustar alterações ou corrigir problemas do seletor. Ela também pode ser usada para adicionar novos códigos e ações personalizadas. É possível adicionar mais de um código personalizado e nomear cada um deles.<p>**Observação**: o código personalizado está disponível somente para atividades A/B e de Direcionamento de experiência (XT). O código personalizado está desabilitado para sobreposição e se outra oferta de redirecionamento for aplicada.<p>O código personalizado oferece suporte aos seguintes casos de uso:<ul><li>Adicionar JavaScript, HTML ou CSS personalizado para ser executado na parte superior da página</li><li>Exibir ou editar o código gerado pelo VEC após realizar as modificações</li><li>Definir o conteúdo HTML para um seletor (apenas seletores CSS)</li><li>Definir um atributo em um elemento HTML</li><li>Adicionar um conteúdo de oferta para ser entregue em uma mbox regional</li><li>Ative o DOM pronto usando jQuery</li><li>Trocar para modo pronto para DOM, sem jquery (não suporta Internet Explorer 8)</li><li>Trocar com o modo de consulta de DOM por meio do plug-in &quot;elementOnLoad&quot;</li><li>Redirecionamento personalizado</li></ul>O código personalizado fornece:<ul><li>Números de linha para melhorar a usabilidade.</li><li>O realce da sintaxe ajuda a evitar o uso de uma sintaxe incorreta para as ofertas HTML.</li><li>A capacidade de criar vários códigos personalizados e fornecer um nome opcional para cada um deles. Criar vários códigos personalizados facilita futuras depurações. Por exemplo, em vez de criar um único código personalizado para executar várias modificações, você pode criar um código personalizado separado para cada modificação com um nome descritivo. Ter códigos personalizados separados torna suas modificações mais modulares e gerenciáveis. Observe que a execução de vários códigos personalizados em uma atividade pode não acontecer na sequência em que foram criados.</li></ul>O painel Modificações divide a tela entre o modo visual e o modo de código. Ambos os modos permanecem sincronizados. Todas as modificações feitas visualmente têm uma linha correspondente na exibição do código. Da mesma forma, todas as alterações executadas na exibição de código são exibidas na experiência visual. Clicar em qualquer linha na exibição do código seleciona o elemento correspondente na página visual.<p>O código personalizado oferece suporte a HTML, scripts e estilos. Qualquer código ou script HTML válido pode ser adicionado ou editado. |
+   | Seletor de CSS | Na caixa **[!UICONTROL Seletor de Elemento CSS]**, especifique o elemento CSS a ser modificado, selecione um tipo de ação (**[!UICONTROL Definir Conteúdo]** ou **[!UICONTROL Definir Atributo]**) e preencha as informações necessárias e o conteúdo desejado. |
+   | Mbox | Especifique o nome da mbox e o conteúdo desejado. |
+   | Código personalizado | Especifique um nome opcional, selecione ou desmarque a caixa de seleção **[!UICONTROL Adicionar código na `<HEAD>` Seção]**, conforme desejado, e em seguida adicione o código personalizado. Para obter mais informações, consulte [Código personalizado](#custom-code). |
+
+   >[!NOTE]
+   >
+   >Não há mais suporte para mboxes no VEC em páginas que usam at.js 2.*x*. Como soluções alternativas:
+   >
+   >* Se estiver usando at.js 2.*x*, adicione uma modificação do Seletor de CSS, em vez de uma modificação da Mbox, e adicione o conteúdo no seletor que a mbox estava usando.
+   >* Use atividades baseadas em formulário (funciona com mboxes e at.js 1.*x* e at.js 2.*x*).
+   >* Use at.js 1.*x* no VEC.
 
 1. Adicione modificações adicionais conforme necessário.
 
-## Casos de uso do código personalizado {#section_26CB3360097D400FB02E20AE5FDBA352}
+## Código personalizado {#custom-code}
 
-O painel **[!UICONTROL Código personalizado]** contém o código executado no início do carregamento de página.
+O código personalizado oferece uma interface não visual para exibir,editar e adicionar novas ações no VEC, no Experience Composer baseado em formulário e no editor de ofertas HTML. O painel oferece uma visualização de código de uma experiência, para ajudar a criar experiências mais complexas, ajustar experiências existentes e solucionar problemas.
 
-É possível executar o código JavaScript na tag `<head>`. A execução do código não espera que a tag `<body>` esteja presente no DOM.
+O código personalizado destina-se a usuários avançados familiarizados com HTML, JavaScript e CSS. A visualização de código pode ajudar a ajustar ou ajustar as alterações ou corrigir problemas do seletor. Ela também pode ser usada para adicionar novos códigos e ações personalizadas. Mais de um código personalizado pode ser adicionado e cada um pode ser nomeado opcionalmente.
 
-Os seletores para ações visuais subsequentes dependem dos elementos HTML adicionados nessa guia.
+![Painel de modificações com o tipo de modificação Código personalizado, o nome Cor Azul, a caixa de seleção Adicionar código na seção de cabeçalho e o código](assets/codeeditor_custom.png)
 
-O painel Código personalizado geralmente é usado para adicionar o JavaScript ou o CSS à parte superior da página.
+O código personalizado se comporta da seguinte maneira:
 
-![imagem personalizada_do_editor_de_códigos](assets/codeeditor_custom.png)
+* Quando **[!UICONTROL Adicionar código na `<HEAD>` Seção]** é selecionado, o código personalizado é adicionado à seção `<head>` e sua execução não espera por eventos body ou page-load. Adicionar apenas os elementos `<script>` e `<style>`. Adicionar `<div>` marcas e outros elementos pode fazer com que os `<head>` elementos restantes apareçam em `<body>`. Se a at.js for usada, todas as ofertas serão entregues de forma assíncrona.
+* Quando a opção **[!UICONTROL Adicionar código na `<HEAD>` Seção]** é desmarcada, o código personalizado é executado imediatamente após a marca `<body>`. Adicione todo o código em um único `<div>` para preservar a estrutura DOM. Se a at.js for usada, todas as ofertas serão entregues de forma assíncrona.
+* Se o HTML para `<BODY>` contiver `<SCRIPT>` e `<DIV>`, então `<DIV>` será acrescentado a `<BODY>` e `<SCRIPT>` será executado em `<HEAD>`. Um `<SCRIPT>` que carrega um arquivo externo também é anexado a `<HEAD>`.
+* Os scripts são executados de forma assíncrona. Isso significa que `document.write` e métodos de script semelhantes não podem ser usados.
+* O código personalizado está disponível somente para atividades A/B e de Direcionamento de experiência (XT). O código personalizado está desabilitado para sobreposição e se outra oferta de redirecionamento for aplicada.
+
+O código personalizado oferece suporte aos seguintes casos de uso:
+
+* Adicionar JavaScript, HTML ou CSS personalizados para serem executados na parte superior da página
+* Exibir ou editar o código gerado pelo VEC após fazer modificações
+* Definir o conteúdo HTML para um seletor (apenas seletores CSS)
+* Definir um atributo em um elemento HTML
+* Adicionar um conteúdo de oferta para ser entregue em uma mbox regional
+* Ative o DOM pronto usando jQuery
+* Trocar para modo pronto para DOM, sem jQuery (não suporta Internet Explorer 8)
+* Troque com o modo de consulta de DOM por meio do plug-in &quot;elementOnLoad&quot;
+* Redirecionamento personalizado
+
+O código personalizado fornece:
+
+* Números de linha para melhorar a usabilidade.
+* Realce de sintaxe para ajudar a evitar sintaxe incorreta para ofertas do HTML.
+* A capacidade de criar vários códigos personalizados e fornecer um nome opcional para cada um deles. Criar vários códigos personalizados facilita futuras depurações. Por exemplo, em vez de criar um único código personalizado para realizar várias modificações, um código personalizado separado pode ser criado para cada modificação, com um nome descritivo. Códigos personalizados separados tornam as modificações mais modulares e gerenciáveis. Não há garantias de que a execução de vários códigos personalizados em uma atividade ocorra na sequência em que foram criados.
+
+O painel **[!UICONTROL Modificações]** divide a tela entre o modo visual e o modo de código. Ambos os modos permanecem sincronizados. Todas as modificações feitas visualmente têm uma linha correspondente na exibição do código. Da mesma forma, todas as alterações executadas na exibição de código são exibidas na experiência visual. Clicar em qualquer linha na visualização de código seleciona o elemento correspondente na página visual.
+
+O código personalizado oferece suporte a HTML, scripts e estilos. Qualquer código ou script HTML válido pode ser adicionado ou editado.
+
+## Exemplos de código personalizado {#custom-code-examples}
+
+O painel **[!UICONTROL Código personalizado]** contém o código executado no início do carregamento de página. O código JavaScript pode ser executado na tag `<head>`. A execução do código não espera que a tag `<body>` esteja presente no DOM. Os seletores para ações visuais subsequentes dependem dos elementos HTML adicionados nessa guia.
+
+O painel **[!UICONTROL Código personalizado]** é usado com frequência para adicionar JavaScript ou CSS à parte superior da página.
 
 Use a guia **[!UICONTROL Código personalizado]** para:
 
@@ -141,7 +165,7 @@ Use a guia **[!UICONTROL Código personalizado]** para:
 
 * Adicionar trechos de HTML para definir novos elementos
 
-  Por exemplo, use o seguinte trecho HTML para criar uma sobreposição `<div>` usando a classe CSS definida acima:
+  Por exemplo, use o seguinte trecho HTML para criar uma sobreposição `<div>` que use a classe CSS definida acima:
 
   ```html
   <div class="overlay"></div>
@@ -149,7 +173,7 @@ Use a guia **[!UICONTROL Código personalizado]** para:
 
 * Ative o DOM pronto usando jQuery
 
-  O exemplo a seguir usando a Consulta JQ presume que o site do cliente tem o jQuery disponível na página quando [!DNL Target] executa as ofertas.
+  O exemplo a seguir presume que o site do cliente tenha o jQuery disponível na página quando [!DNL Target] executa as ofertas.
 
   ```javascript
   <style>#default_content {visibility:hidden;}</style> 
@@ -173,7 +197,7 @@ Use a guia **[!UICONTROL Código personalizado]** para:
   </script> 
   ```
 
-* Personalizar o redirecionamento transmitindo os parâmetros existentes, o parâmetro `s_tnt` (para integração herdada ao Analytics), o parâmetro de referenciador e a sessão da mbox
+* Redirecionamento personalizado que passa os parâmetros existentes, o parâmetro `s_tnt` (para a integração herdada com o Analytics), o parâmetro de referenciador e a sessão da mbox
 
   ```javascript
   <style type="text/css">body{display:none!important;}</style> 
@@ -183,15 +207,15 @@ Use a guia **[!UICONTROL Código personalizado]** para:
   </script> 
   ```
 
-* Adicionar Modelos de experiência do Adobe Target para uso no código personalizado. Os Modelos de experiência do Target são amostras pré-codificadas com entradas configuráveis a serem usadas para executar casos de uso de profissionais de marketing comuns. Estes Modelos de experiência são fornecidos gratuitamente para desenvolvedores e profissionais de marketing como ponto de partida para executar casos de uso comuns, seja via VEC ou Experience Composer baseado em formulário. Os casos de uso incluem lightboxes, galerias, contagens regressivas e muito mais.
+* Adicionar Modelos de Experiência do [!DNL Adobe Target] para uso no código personalizado
 
-  Para obter mais informações, consulte [Modelos de experiência](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
+  Os Modelos de experiência são amostras pré-codificadas com entradas configuráveis, usadas para executar casos de uso comuns de profissionais de marketing. Elas são fornecidas gratuitamente para desenvolvedores e profissionais de marketing como ponto de partida para executar casos de uso comuns, por meio do VEC ou do Experience Composer baseado em formulário. Os casos de uso incluem lightboxes, carrosséis, contagens regressivas e muito mais. Para obter mais informações, consulte [Modelos de experiência](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md).
 
-## Práticas recomendadas do código personalizado {#section_10DFFD9FB92A43C1BB444A45E0272B28}
+## Práticas recomendadas do código personalizado {#custom-code-best-practices}
 
-**Sempre envolva o código personalizado em um elemento.**
+* **Sempre envolva o código personalizado em um elemento.**
 
-Por exemplo:
+  Por exemplo:
 
 ```html
 <div id="custom-code"> 
@@ -199,63 +223,75 @@ Por exemplo:
 </div>
 ```
 
-No caso de serem necessárias modificações, faça as alterações dentro deste contêiner.
+Se forem necessárias modificações, faça as alterações dentro desse container. Se o código personalizado não for mais necessário, deixe este container vazio, mas não o remova. Isso garante que outras modificações na experiência não sejam afetadas.
 
-Se não precisar mais do código personalizado, deixe esse contêiner vazio, mas não o remova. Isso garante que outras modificações da experiência não sejam afetadas.
+* **Não use a ID de elemento &quot;CDQID&quot; para modificações na página feitas no Editor de códigos.**
 
-**Não use a ID de elemento &quot;CDQID&quot; para modificações na página feitas no Editor de códigos.**
+  [!DNL Target] aplica uma nova ID de elemento com o valor &quot;CDQID&quot; a qualquer elemento na página modificado por [!DNL Target]. Esta ID é aplicada por [!DNL Target], portanto, não deve ser usada para modificações ou ajustes adicionais no Editor de Códigos.
 
-O Target aplica uma nova ID de elemento com o valor &quot;CDQID&quot; a qualquer elemento na página modificada pelo Target. Como essa ID é aplicada pelo Target, ela não deve ser usada para nenhuma outra modificação ou ajustes no Editor de códigos.
+* **Não executar `document.write` ações em scripts de código personalizados.**
 
-**Não execute ações de document.write em scripts de código personalizado.**
+  Os scripts são executados de modo assíncrono. Isso frequentemente faz com que as ações `document.write` apareçam no lugar errado na página. Não é recomendado o uso de `document.write` em scripts criados no código personalizado.
 
-Os scripts são executados de modo assíncrono. Isso frequentemente faz com que as ações `document.write` apareçam no lugar errado na página. Não é recomendado o uso de `document.write` em scripts criados no código personalizado.
+* **Se um elemento for criado e depois modificado, não exclua o elemento original.**
 
-**Se você criar um elemento e depois modificá-lo, não exclua o elemento original.**
+  Cada alteração cria um novo elemento no painel **[!UICONTROL Modificações]**. A segunda ação modifica o Elemento 1; portanto, se o Elemento 1 for excluído, essa ação não terá mais nada para modificar e a alteração não funcionará mais. Consulte [Solução de problemas de código personalizado](#troubleshooting-custom-code) para obter mais informações.
 
-Cada alteração cria um novo elemento no painel Modificações. Como a segunda ação modifica o Elemento 1, se você o excluir, a ação não terá mais nada para modificar e a alteração não funcionará mais. Consulte &quot;Soluções de problemas&quot; abaixo para obter mais informações.
+* **Tenha cuidado ao usar o recurso de código personalizado para duas atividades direcionadas à mesma URL.**
 
-**Tenha cuidado se usar o recurso de código personalizado para duas atividades que direcionam o mesmo URL.**
+  Quando o recurso de código personalizado é usado para duas atividades que direcionam o mesmo URL, o JavaScript é inserido na página a partir de ambas as atividades. [!DNL Target] determina automaticamente a ordem do conteúdo entregue. Verifique se o código não depende de posicionamento. O autor do código é responsável por garantir que não haja conflitos no código.
 
-Se você usar o recurso de código personalizado para duas atividades que direcionam o mesmo URL, o JavaScript será injetado na página de ambas as atividades. O Target determina automaticamente a ordem do conteúdo entregue. Verifique se o código não depende de posicionamento. Cabe a você verificar se não há conflitos no código.
+## Solução de problemas do código personalizado {#troubleshooting-custom-code}
 
-## Resolução de problemas do código personalizado {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
-
-**O código personalizado não é executado ao usar `triggerView`.**
++++ Por que o código personalizado não é executado ao usar `triggerView`?
 
 As ofertas de Code personalizado no VEC não são renderizadas novamente quando `triggerView()` é chamado com `{page: false}` como a opção.
 
-**Recebi um aviso de que uma ação não pode ser aplicada devido a alterações estruturais em uma página. O que isso significa?**
++++
 
-Essa mensagem indica que a estrutura da sua página foi alterada desde que a atividade foi salva pela última vez.
++++ O que significa o aviso de que uma ação não pode ser aplicada devido a alterações estruturais em uma página?
 
-Os seletores ausentes podem ser acessados usando o modo de Navegação. É recomendável que você exclua e recrie cada experiência para garantir que o seu conteúdo seja exibido conforme o esperado, como indicado na mensagem de aviso.
+Essa mensagem indica que a estrutura da página foi alterada desde que a atividade foi salva pela última vez.
 
-Imagem ![code_editor_2](assets/code_editor_2.png)
+![Mensagem de aviso de que a estrutura da página foi alterada desde que a atividade foi salva pela última vez](assets/code_editor_2.png)
 
-***Quando excluo um elemento, vejo um aviso que diz &quot;Excluir esta ação pode afetar as ações subsequentes&quot;. O que isso significa?***
+Os seletores ausentes podem ser acessados usando o modo de Navegação. A Adobe recomenda excluir e depois recriar cada experiência para garantir que o conteúdo tenha a aparência esperada, conforme indicado na mensagem de aviso.
 
-Por exemplo, se você realizou duas ações:
++++
+
++++ O que significa o aviso &quot;Excluir esta ação pode afetar as ações subsequentes&quot;?
+
+Por exemplo, duas ações podem ter sido executadas:
 
 * Adicionou uma classe ao Elemento 1
 * Editou o HTML do Elemento 1
 
-Cada alteração cria um novo elemento no painel Modificações. Como a segunda ação modifica o Elemento 1, se você o excluir, a segunda ação não terá mais nada para modificar, e a alteração não funcionará mais.
+Cada alteração cria um novo elemento no painel **[!UICONTROL Modificações]**. A segunda ação modifica o Elemento 1; portanto, se o Elemento 1 for excluído, a segunda ação não terá mais nada para modificar e a alteração não funcionará mais.
 
-Em outras palavras, se adicionar um elemento com texto e, em uma ação separada, editá-lo com um texto diferente, o painel Modificações mostrará as duas ações como elementos distintos. Ao editar o elemento, você criou um novo elemento que modifica o elemento original que você criou, contendo o texto editado. Se você excluir o elemento original, o texto editado não poderá encontrar o elemento que foi editado e não será exibido. O segundo elemento permanece na lista de elementos, mas não afeta a página porque o elemento que ele modifica não existe mais.
+Em outras palavras, se um elemento for adicionado com texto e o elemento for editado com texto diferente em uma ação separada, o painel **[!UICONTROL Modificações]** mostrará as duas ações como elementos separados. Editar o elemento cria um novo elemento que modifica o original e contém o texto editado. Se o elemento original for excluído, o texto editado não poderá encontrar o elemento que foi editado e não será exibido. O segundo elemento permanece na lista de elementos, mas não afeta a página, pois o elemento que ele altera não existe mais.
 
-***Um elemento que criei usando `document.write` em um script não é exibido onde esperava.***
++++
+
++++ Por que um elemento criado com `document.write` em um script não aparece onde o esperado?
 
 Os scripts são executados de modo assíncrono. Isso frequentemente faz com que as ações `document.write` apareçam no lugar errado na página. A Adobe não recomenda usar `document.write` em scripts criados no código personalizado.
 
-***Meu JavaScript exibe erros no código personalizado.***
++++
 
-Qualquer JavaScript embutido que não seja um JavaScript válido mostrará erros no código personalizado.
++++ Por que o JavaScript exibe erros no código personalizado?
 
-***Não consigo desfazer uma alteração no meu código personalizado.***
+Qualquer JavaScript embutido que não seja válido para o JavaScript mostra erros no código personalizado.
 
-Atualmente, a ação de desfazer não é suportada para editar e excluir ações do painel Modificações e no código personalizado. Desfazer um dessas operações pode fazer com que a experiência no VEC pareça incompatível com as ações visíveis no código personalizado. Contudo, as ações no código personalizado estão no estado correto e não há impacto na entrega. Esse é um problema de interface do usuário. Para atualizar a experiência, salve-a e abra-a novamente ou vá para a próxima etapa e volte. Essas ações recarregam a experiência, de forma que ela apareça como esperado e seja consistente com as ações no painel Modificações.
++++
 
-**O código personalizado não produz os resultados esperados no Internet Explorer 8.**
++++ Por que uma alteração no código personalizado não pode ser desfeita?
 
-O Target não é mais compatível com o IE8.
+No momento, não há suporte para desfazer em ações de edição e exclusão do painel **[!UICONTROL Modificações]** e no código personalizado. Desfazer um dessas operações pode fazer com que a experiência no VEC pareça incompatível com as ações visíveis no código personalizado. No entanto, as ações no código personalizado estão no estado correto e não há impacto no delivery. Esse é um problema de interface do usuário. Para atualizar a experiência, salve-a e abra-a novamente ou vá para a próxima etapa e volte. Qualquer uma dessas ações recarregará a experiência, de modo que seja exibida conforme esperado e seja consistente com as ações no painel **[!UICONTROL Modificações]**.
+
++++
+
++++ Por que o código personalizado não produz os resultados esperados no Internet Explorer 8?
+
+[!DNL Target] não dá mais suporte ao Internet Explorer 8.
+
++++

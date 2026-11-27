@@ -27,49 +27,44 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 29%
+source-wordcount: '1218'
+ht-degree: 13%
 ---
-# Solução de problemas relacionados ao [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] e [!UICONTROL Enhanced Experience Composer]
+# Solução de problemas relacionados ao [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] e [!UICONTROL Enhanced Experience Composer] {#vec-eec-issues}
 
-Problemas de exibição e outros problemas ocorrem às vezes no [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) e no [!UICONTROL Enhanced Experience Composer] (EEC) sob determinadas condições.
+>[!BEGINSHADEBOX]
 
-## Como as políticas de imposição de cookie SameSite do Google Chrome afetam o VEC e o EEC? {#samesite}
+**Nesta página:** Saiba como resolver os problemas que afetam o **[!UICONTROL Visual Experience Composer]** (VEC) e o **[!UICONTROL Enhanced Experience Composer]** (EEC).
 
-+++Detalhes
-Esteja ciente das alterações que afetam o VEC e o EEC ao usar as seguintes versões do [!DNL Chrome]:
+>[!ENDSHADEBOX]
+
+Problemas de exibição e outros problemas ocorrem às vezes no [!DNL Target] **[!UICONTROL Visual Experience Composer]** (VEC) e no **[!UICONTROL Enhanced Experience Composer]** (EEC) sob determinadas condições. Os itens a seguir descrevem os problemas que afetam ambos os compositores e como resolvê-los.
+
+## Navegador e segurança
+
+### Políticas de cookies do Google Chrome para SameSite {#samesite}
+
+As políticas de imposição de cookie SameSite de [!DNL Google Chrome] afetam o VEC e o EEC nas versões a seguir.
 
 >[!NOTE]
 >
->A alteração a seguir afeta todas as três atualizações descritas abaixo:
->
-> * *não* poderá usar o VEC sem a [extensão auxiliar do VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) instalada e habilitada para páginas protegidas por senha de seus sites. Os cookies de logon do site são considerados cookies de terceiros e não são enviados com solicitações de logon no editor do VEC no modo [!UICONTROL Procurar]. A única exceção ocorre quando os cookies de logon do site já têm os atributos `SameSite=None` e `Secure` definidos.
+>A alteração a seguir se aplica a todas as três versões. O VEC não pode ser usado em páginas protegidas por senha do site, a menos que a [extensão auxiliar do VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) esteja instalada e habilitada. Os cookies de logon do site são considerados cookies de terceiros, portanto, não são enviados com solicitações de logon dentro do editor do VEC no modo **[!UICONTROL Procurar]**. A única exceção ocorre quando os cookies de logon já têm os atributos `SameSite=None` e `Secure` definidos.
 
-**Chrome 94 (21 de setembro de 2021)**: com as alterações iminentes planejadas para a versão do Chrome 94 (21 de setembro de 2021), a seguinte alteração afetará todos os usuários com versões do navegador Chrome 94+:
+* **Chrome 94 (21 de setembro de 2021):** Para todos os usuários com Chrome 94 e posterior, o sinalizador de linha de comando `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` foi removido.
+* **Chrome 91 (25 de maio de 2021):** Para todos os usuários com Chrome 91 e posterior, os sinalizadores `#same-site-by-default-cookies` e `#cookies-without-same-site-must-be-secure` foram removidos de `chrome://flags`. Esse comportamento agora está ativado por padrão.
+* **Chrome 80 (agosto de 2020):** Para todos os usuários com Chrome 80 e posterior:
 
-* O sinalizador de linha de comando `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` será removido.
+  * Não é possível baixar bibliotecas [!DNL Target] enquanto uma atividade está sendo editada, caso elas ainda não estejam no site. A chamada de download é feita do domínio do cliente para um domínio [!DNL Adobe] seguro e é rejeitada como não autenticada.
+  * O EEC não funciona, pois não é possível definir o atributo SameSite para cookies no domínio `adobemc.com`. Sem esse atributo, o navegador rejeita esses cookies, causando falha no EEC.
 
-**Chrome 91 (25 de maio de 2021)**: com as alterações implementadas para a versão do Chrome 91 (25 de maio de 2021), a seguinte alteração afetará todos os usuários com versões de navegador do Chrome 91+:
++++ Determinar quais cookies estão bloqueados
 
-* Os sinalizadores `#same-site-by-default-cookies` e `#cookies-without-same-site-must-be-secure` foram removidos de `chrome://flags`. Esse comportamento agora está ativado por padrão.
+Para determinar quais cookies são bloqueados pelas políticas de imposição de cookies SameSite, use o [!DNL Developer Tools] em [!DNL Chrome].
 
-**Chrome 80 (agosto de 2020)**: com as alterações implementadas em agosto de 2020, todos os usuários com versões do navegador Chrome 80+:
-
-* *não* poderá baixar bibliotecas [!DNL Target] ao editar uma atividade (quando elas ainda não estiverem no site). Isso ocorre porque a chamada de download é feita do domínio do cliente para um domínio [!DNL Adobe] seguro e é rejeitada como não autenticada.
-
-* O EEC *não* funcionará para todos os usuários porque não é possível definir o atributo SameSite para cookies em `adobemc.com domain`. Sem esse atributo, o navegador rejeita esses cookies, causando falha no EEC.
-
-+++
-
-### Determinar quais cookies estão bloqueados
-
-+++Detalhes
-Para determinar quais cookies estão bloqueados devido às políticas de imposição de cookies SameSite, use o [!DNL Developer Tools] em [!DNL Chrome].
-
-1. Para acessar o [!DNL Developer Tools], ao exibir o VEC em [!DNL Chrome], clique no ícone de **[!UICONTROL reticências]** no canto superior direito do Chrome > **[!UICONTROL Mais Ferramentas]** > **[!UICONTROL Ferramentas do Desenvolvedor]**.
-1. Clique na guia **[!UICONTROL Rede]** > e procure cookies bloqueados.
+1. Ao exibir o VEC em [!DNL Chrome], clique no ícone **[!UICONTROL reticências]** no canto superior direito do Chrome > **[!UICONTROL Mais Ferramentas]** > **[!UICONTROL Ferramentas do Desenvolvedor]**.
+1. Clique na guia **[!UICONTROL Rede]** e procure cookies bloqueados.
 
    >[!NOTE]
    >
@@ -77,105 +72,91 @@ Para determinar quais cookies estão bloqueados devido às políticas de imposi�
 
 +++
 
-## O [!DNL Target] suporta iframes de vários níveis?
++++ Os cabeçalhos da Política de Segurança de Conteúdo (CSP) bloqueiam as bibliotecas [!DNL Target] no site
 
-+++Detalhes
-[!DNL Target] não dá suporte a iframes de vários níveis. Se o site carregar um iframe que tenha um iframe secundário, a at.js interagirá somente com o iframe principal. As bibliotecas [!DNL Target] não interagem com o iframe secundário.
-
-Como solução, você pode adicionar uma página na experiência com o URL do iframe secundário.
-
-+++
-
-## Quando eu tento editar uma página, só vejo um ponteiro, em vez da minha página. (VEC e EEC) {#section_313001039F79446DB28C70D932AF5F58}
-
-+++Detalhes
-Essa situação pode acontecer se o URL contiver um caractere #. Para corrigir o problema, alterne para o modo [!UICONTROL Procurar] no VEC ou no EEC e alterne para o modo [!UICONTROL Compor]. O ponteiro deverá sumir e a página deverá ser carregada.
-
-+++
-
-## Os cabeçalhos da Política de Segurança de Conteúdo (CSP) bloqueiam as bibliotecas do [!DNL Target] no meu site. (VEC e EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
-
-
-+++Detalhes
-Se os cabeçalhos CSP do seu site bloquearem as bibliotecas do [!DNL Target] e carregarem o site, mas impedirem a edição, verifique se as bibliotecas do [!DNL Target] não estão bloqueadas.
+Se os cabeçalhos CSP do site bloquearem as bibliotecas do [!DNL Target], o site será carregado, mas a edição não será permitida. Verifique se as bibliotecas [!DNL Target] não estão bloqueadas.
 
 >[!NOTE]
 >
->Além das seguintes informações, você pode usar a [extensão de navegador Auxiliar do Adobe Target VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) para [!DNL Google Chrome].
+>Além das seguintes informações, a [extensão de navegador do Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) para [!DNL Google Chrome] pode ser usada.
 
-![imagem cps_headers](assets/cps_headers.png)
+![O console do navegador mostrando uma solicitação bloqueada para target.js com a mensagem de que a diretiva de Política de Segurança de Conteúdo foi violada](assets/cps_headers.png)
 
-Como solução alternativa, você pode configurar uma regra [!DNL Requestly] para remover cabeçalhos CSP, conforme mostrado abaixo:
+Como solução alternativa, configure uma regra [!DNL Requestly] para remover os cabeçalhos da CSP, conforme mostrado na ilustração a seguir.
 
-![imagem cps_headers_2](assets/cps_headers_2.png)
+![Caixa de diálogo Solicitar, Modificar Cabeçalhos na Solicitação e Resposta HTTP, com uma regra denominada Content-Security-Policy que remove o cabeçalho Content-Security-Policy da resposta](assets/cps_headers_2.png)
 
-Você pode configurar uma regra [!DNL Requestly] semelhante para qualquer cabeçalho que faça com que um recurso não seja carregado dentro do VEC.
+Uma regra [!DNL Requestly] semelhante pode ser configurada para qualquer cabeçalho que faça com que um recurso não seja carregado dentro do VEC. Sempre que os cabeçalhos precisarem ser removidos com [!DNL Requestly], siga um destes procedimentos:
 
-Para [!DNL Requestly], sempre que houver necessidade de remover cabeçalhos, você deve seguir um destes procedimentos:
-
-* Adicione regras de URL ao URL que você deseja abrir no VEC, para que os cabeçalhos sejam removidos apenas para esses URLs.
-* Habilite a regra quando estiver editando no VEC e desabilite a regra quando não estiver usando o VEC.
+* Adicione regras de URL para que o URL seja aberto no VEC, para que os cabeçalhos sejam removidos apenas para esses URLs.
+* Ative a regra ao editar no VEC e desative a regra quando o VEC não estiver em uso.
 
 +++
 
-## O VEC ou o EEC aparecem interrompidos ou não inicializam ao editar novamente uma atividade salva. (VEC e EEC) {#section_5AC3BA8F8FBB451EA814F298D0645E54}
++++ Não há suporte para iframes de vários níveis
 
-+++Detalhes
+[!DNL Target] não dá suporte a iframes de vários níveis. Se o site carregar um iframe que tenha um iframe secundário, a at.js interagirá somente com o iframe principal. As bibliotecas [!DNL Target] não interagem com o iframe secundário.
+
+Como solução, adicione uma página na experiência com o URL do iframe secundário.
+
++++
+
++++ As experiências não podem ser editadas em um site de edição de iFrame ou em páginas sem a implementação [!DNL Target]
+
+Habilite o **[!UICONTROL Enhanced Experience Composer]** (EEC) para resolver este problema. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]** e marque a caixa de seleção que habilita o **[!UICONTROL Enhanced Experience Composer]**.
+
+O EEC usa um proxy gerenciado por [!DNL Adobe] para carregar a página para edição. Esse proxy permite a edição em sites que impedem o uso de iFrame e em sites e páginas nos quais o código [!DNL Adobe Target] ainda não foi adicionado. As atividades não são entregues ao site antes de o código ser adicionado. Alguns sites podem não ser carregados pelo EEC, nesse caso, desmarcar essa opção carregará a página por meio de um iFrame.
+
+>[!NOTE]
+>
+>Páginas hospedadas localmente e páginas que não podem ser acessadas fora da rede não estão acessíveis ao servidor proxy [!DNL Adobe] e não podem ser abertas no EEC. Essas páginas podem incluir URLs de preparação, URLs de Teste de aceitação do usuário (UAT) ou páginas hospedadas localmente.
+
++++
+
+## Carregamento e exibição de página
+
++++ Um ponteiro é exibido em vez da página quando uma página é editada
+
+Essa situação pode acontecer se o URL contiver um caractere #. Para corrigir o problema, alterne para o modo **[!UICONTROL Procurar]** no VEC ou no EEC e alterne para o modo **[!UICONTROL Compor]**. O ponteiro deverá sumir e a página deverá ser carregada.
+
++++
+
++++ O VEC ou o EEC aparecem interrompidos ou não inicializam quando uma atividade salva é editada novamente
+
 Se o site tiver sido alterado fora do VEC após a definição da experiência, os seletores nos quais as ações foram executadas anteriormente não poderão ser encontrados quando a atividade for aberta para reedição. A página parece quebrada e nenhum aviso é exibido.
 
 +++
 
-## O VEC ou EEC não exibem meus banners rotativos e outros conteúdos contendo JavaScript. (VEC e EEC) {#section_8B5BE6EB050B42D6A14A054724C41330}
++++ A rotação de banners e outros conteúdos que contêm JavaScript não são exibidos no VEC ou no EEC
 
-+++Detalhes
-Por padrão, o VEC bloqueia elementos do JavaScript. Você pode trabalhar com esses elementos se desativar o JavaScript. Dependendo do modo como o site estiver configurado, alguns itens poderão continuar sendo exibidos incorretamente ou permanecer indisponíveis.
-
-+++
-
-## Quando eu altero um elemento na página, vários elementos são alterados. (VEC e EEC) {#section_309188ACF34942989BE473F63C5710AF}
-
-+++Detalhes
-Se a mesma ID de elemento DOM for usada em vários elementos na página, a alteração desses elementos modificará todos os elementos com essa ID. Para evitar que isso aconteça, uma ID só deverá ser usada uma vez em cada página. Esta é uma prática recomendada padrão do HTML. Para obter mais informações, consulte [Cenários de modificação da página](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Por padrão, o VEC bloqueia elementos do JavaScript. Desabilitar o JavaScript possibilita trabalhar com esses elementos. Dependendo do modo como o site estiver configurado, alguns itens poderão continuar sendo exibidos incorretamente ou permanecer indisponíveis.
 
 +++
 
-## Não consigo editar experiências para um site de edição de iFrame. (VEC e EEC) {#section_9FE266B964314F2EB75604B4D7047200}
++++ Para atividades do Automated Personalization, a troca de imagem aparece quebrada no VEC ou no EEC
 
-+++Detalhes
-Esse problema pode ser resolvido habilitando o [!UICONTROL Enhanced Experience Composer] (EEC). Clique em **[!UICONTROL Administração]** > **[!UICONTROL Visual Experience Composer]** e marque a caixa de seleção que habilita o [!UICONTROL Enhanced Experience Composer]. O EEC usa um proxy gerenciado por [!DNL Adobe] para carregar sua página para edição. Esse proxy permite a edição em sites com interrupção de iFrame e permite a edição em sites e páginas nos quais você ainda não adicionou o código [!DNL Adobe Target]. As atividades não são entregues ao site antes de o código ser adicionado. Alguns sites podem não ser carregados pelo EEC, nesse caso, você poderá desmarcar essa opção para carregar o EEC por meio de um iFrame.
-
->[!NOTE]
->
->As páginas hospedadas localmente ou as páginas que não podem ser acessadas fora da sua rede não podem ser acessadas pelo servidor proxy [!DNL Adobe] e não podem ser abertas no EEC. Essas páginas podem incluir URLs de preparação, URLs de Teste de aceitação do usuário (UAT) ou páginas hospedadas localmente.
+A adição de uma oferta de imagem a um local obtém a dimensão completa do espaço de imagem original no VEC ou no EEC. Na entrega, a imagem não é expandida e é mostrada como está, de modo que não há impacto na entrega.
 
 +++
 
-## Eu desejo configurar testes em páginas que ainda não têm a implementação da mbox/[!DNL Target] concluída. (VEC e EEC) {#section_DE63BCCB5B124E10A71FA579B582A80A}
+## Edição de resultados
 
-+++Detalhes
-Consulte &quot;Não consigo editar experiências para um site de intermitência de iFrame&quot; acima.
++++ Alterar um elemento na página altera vários elementos
+
+Se a mesma ID de elemento DOM for usada em vários elementos na página, a alteração desses elementos modificará todos os elementos com essa ID. Para evitar isso, use uma ID apenas uma vez em cada página. Essa é uma prática recomendada de HTML padrão. Para obter mais informações, consulte [Cenários de modificação da página](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#vec-scenarios).
 
 +++
 
-## Os estilos de texto em negrito e itálico com [!UICONTROL Editar Texto]/[!UICONTROL Editar HTML] ou [!UICONTROL Alterar Texto]/[!DNL Change HTML] não aparecem na minha página. Às vezes, o texto desaparece após aplicar essas alterações de estilo. (VEC e EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
++++ Os estilos de texto em negrito e itálico não são exibidos ou o texto desaparece após a aplicação de Editar texto/Editar HTML ou Alterar texto/Alterar HTML
 
-+++Detalhes
-Se você usar as atividades **[!UICONTROL Editar Texto]/[!UICONTROL Editar HTML]** no VEC para [!UICONTROL Teste A/B] ou [!UICONTROL Direcionamento de Experiência] ou **[!UICONTROL Alterar Texto]/[!UICONTROL Alterar HTML]** para [!UICONTROL Automated Personalization] ou [!UICONTROL Teste Multivariado] para formatar o texto em negrito ou itálico, esses estilos poderão não ser aplicados na página ou o texto poderá desaparecer da página no VEC. Isso acontece por causa da forma como o editor de rich text aplica esses estilos pode interferir na marcação do site.
+Quando o **[!UICONTROL Editar Texto]**/**[!UICONTROL Editar HTML]** é usado no VEC para atividades de **[!UICONTROL Teste A/B]** ou **[!UICONTROL Direcionamento de Experiência]** ou **[!UICONTROL Alterar Texto]**/**[!UICONTROL Alterar HTML]** é usado para atividades de **[!UICONTROL Automated Personalization]** ou **[!UICONTROL Teste Multivariado]**, para colocar o texto em negrito ou itálico, os estilos podem não ser aplicados na página ou o texto pode desaparecer da página no VEC. Isso acontece porque a maneira como o editor de rich text aplica esses estilos pode interferir na marcação do site.
 
-Caso veja esse problema:
+Se esse problema ocorrer:
 
 1. Clique no botão **[!UICONTROL HTML]** no editor de rich text para entrar no modo de edição de fonte.
-1. Encontre os elementos de texto de estilos.
+1. Encontre os elementos de texto estilizados.
 
    * Para texto em negrito, altere os elementos `<strong>` para `<b>`.
-
    * Para texto em itálico, altere os elementos `<em>` para `<i>`.
-
-+++
-
-## Para atividades de Personalização automatizada, a troca de imagem aparece quebrada no VEC ou no EEC. (VEC e EEC) {#section_88AABFDFE6A3420299B0D508B12A3994}
-
-+++Detalhes
-A adição de uma oferta de imagem a um local obtém a dimensão completa do espaço de imagem original no VEC ou no EEC. Na entrega, a imagem não é expandida e é mostrada como está, de modo que não há impacto na entrega.
 
 +++

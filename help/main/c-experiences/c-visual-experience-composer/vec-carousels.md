@@ -14,18 +14,22 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 66%
+source-wordcount: '193'
+ht-degree: 2%
 ---
-# Criar carrosséis que funcionam no Visual Experience Composer
+# Criando carrosséis que funcionam no [!UICONTROL Visual Experience Composer] {#vec-carousels}
 
-Este tópico mostra como criar um carrossel que pode ser editado no [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
+>[!BEGINSHADEBOX]
 
-Quando seguir as etapas abaixo, o [!DNL Target] sempre saberá que o slide terá o &quot;seletor&quot; para o slide correto, mesmo se ele for alterado no Visual Experience Composer após alguns segundos.
+**Nesta página:** Saiba como criar um carrossel que pode ser editado no **[!UICONTROL Visual Experience Composer]** (VEC).
 
-1. Crie alocadores de espaço estáticos em HTML.
+>[!ENDSHADEBOX]
+
+Um carrossel criado com a seguinte estrutura pode ser editado no [!DNL Adobe Target] **[!UICONTROL Visual Experience Composer]** (VEC). A estrutura mantém o seletor de cada slide válido, de modo que o [!DNL Target] sempre identifica o slide correto, mesmo quando o slide exibido muda alguns segundos após a página ser carregada no VEC.
+
+1. Crie os slides como espaços reservados estáticos do HTML, com um slide visível e os outros slides ocultos pela classe.
 
    ```html
    <ul>
@@ -35,14 +39,10 @@ Quando seguir as etapas abaixo, o [!DNL Target] sempre saberá que o slide terá
    </ul>
    ```
 
-1. Adicione CSS para projetar a aparência.
-
-   Não use o JavaScript para isso.
+1. Projete a aparência somente com CSS. Não use o JavaScript para isso.
 
    >[!NOTE]
    >
-   >A opção [!UICONTROL Renderizar usando JavaScript] não é mais suportada se usada em conjunto com um código personalizado no Visual Experience Composer.
+   >A opção **[!UICONTROL Renderizar Usando JavaScript]** não é mais suportada quando usada em conjunto com um código personalizado no **[!UICONTROL Visual Experience Composer]**.
 
-1. Atualize o classNames somente para ocultar outros e exibir o próximo com temporizador/animação.
-
-   Jamais atualize a estrutura DOM usando JavaScript.
+1. Mostre o próximo slide atualizando apenas os nomes de classe: oculte os outros slides e mostre o próximo com um cronômetro ou uma animação. Nunca atualize a estrutura DOM com o JavaScript.
