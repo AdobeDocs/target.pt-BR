@@ -70,7 +70,7 @@ A extensão soluciona esses problemas de carregamento de site, para os quais os 
 
 A instalação da extensão no [!DNL Chrome] permite carregar sites de maneira confiável no VEC, incluindo sites que bloqueiam iframes ou que ainda não têm o at.js implementado.
 
-1. Vá para a extensão de navegador [[!DNL Adobe Experience Cloud] **[!UICONTROL Auxiliar de Edição Visual ]**na Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
+1. Vá para a extensão de navegador [[!DNL Adobe Experience Cloud] **[!UICONTROL Auxiliar de Edição Visual &#x200B;]**&#x200B;na Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
 1. Clique em **[!UICONTROL Adicionar ao Chrome]** > **[!UICONTROL Adicionar Extensão]**.
 1. Abra o VEC no [!DNL Target].
 1. No VEC ou no Modo de controle de qualidade, clique no ícone da extensão de navegador **[!UICONTROL Auxiliar de edição visual]** ( ![ícone Auxiliar de edição visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png) ) na barra de ferramentas do [!DNL Chrome].

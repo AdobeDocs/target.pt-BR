@@ -31,7 +31,7 @@ A versão [!DNL Adobe Target Standard/Premium] 25.2.1 (17 de fevereiro de 2025) 
 
 >[!IMPORTANT]
 >
->O [!UICONTROL Visual Experience Composer] atualizado requer a [!DNL Adobe Experience Cloud] [**[!UICONTROL extensão de Auxiliar de Edição Visual ]**](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) disponível no [!DNL Chrome Web Store].
+>O [!UICONTROL Visual Experience Composer] atualizado requer a [!DNL Adobe Experience Cloud] [**[!UICONTROL extensão de Auxiliar de Edição Visual &#x200B;]**](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) disponível no [!DNL Chrome Web Store].
 
 O VEC é exibido quando uma atividade é criada ou uma atividade existente é editada.
 
